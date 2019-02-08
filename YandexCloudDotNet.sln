@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YandexCloudDotNet", "src\YandexCloudDotNet/YandexCloudDotNet.csproj", "{A8BCF723-7558-4580-8BDF-A6996EA8219D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YandexCloudDotNet.Tests", "tests\YandexCloudDotNet.Tests\YandexCloudDotNet.Tests.csproj", "{16C86EB2-76BD-4527-9A98-AE2719032292}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "build", "build\build.csproj", "{63DB4890-2AB0-40C7-A6F3-9DBC7E754C74}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63DB4890-2AB0-40C7-A6F3-9DBC7E754C74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63DB4890-2AB0-40C7-A6F3-9DBC7E754C74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8BCF723-7558-4580-8BDF-A6996EA8219D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8BCF723-7558-4580-8BDF-A6996EA8219D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8BCF723-7558-4580-8BDF-A6996EA8219D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8BCF723-7558-4580-8BDF-A6996EA8219D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16C86EB2-76BD-4527-9A98-AE2719032292}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16C86EB2-76BD-4527-9A98-AE2719032292}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16C86EB2-76BD-4527-9A98-AE2719032292}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16C86EB2-76BD-4527-9A98-AE2719032292}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
