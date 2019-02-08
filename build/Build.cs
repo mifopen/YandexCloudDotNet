@@ -20,6 +20,8 @@ class Build : NukeBuild
     readonly Configuration Configuration = IsLocalBuild ? Configuration.Debug : Configuration.Release;
 
     [Parameter("NuGet api key")] readonly string ApiKey;
+    readonly string NugetUrl = "https://api.nuget.org/v3/index.json";
+    readonly string LicenseFile = RootDirectory / "LICENSE";
 
     [Solution] readonly Solution Solution;
     [GitRepository] readonly GitRepository GitRepository;
@@ -66,8 +68,8 @@ class Build : NukeBuild
                 .DependsOn(Compile)
                 .Executes(() =>
                 {
-//                            var changelogUrl = GitRepository.GetGitHubBrowseUrl(ChangelogFile, branch: "master");
-
+                    GitVersionTasks.GitVersion(s=>s.);
+                    var licenseUrl = GitRepository.GetGitHubBrowseUrl(LicenseFile, "master");
                     DotNetPack(s => s
 //                                            .SetPackageReleaseNotes(changelogUrl)
                                     .SetWorkingDirectory(RootDirectory)
@@ -75,6 +77,7 @@ class Build : NukeBuild
                                     .EnableNoBuild()
                                     .SetConfiguration(Configuration)
                                     .EnableIncludeSymbols()
+                                    .SetPackageLicenseUrl(licenseUrl)
                                     .SetOutputDirectory(ArtifactsDirectory)
                                     .SetVersion(GitVersion.NuGetVersionV2));
                 });
@@ -91,7 +94,7 @@ class Build : NukeBuild
                         .Where(x => !x.EndsWith(".symbols.nupkg"))
                         .ForEach(x => DotNetNuGetPush(s => s
                                                            .SetTargetPath(x)
-                                                           .SetSource(SourceDirectory)
+                                                           .SetSource(NugetUrl)
                                                            .SetApiKey(ApiKey)));
                 });
 }
