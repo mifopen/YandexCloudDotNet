@@ -22,7 +22,7 @@ namespace YandexCloudDotNet.Tests.ObjectStorage
         public async void Simple()
         {
             const string bucketName = "formula-test-bucket";
-            var stream = new MemoryStream(new byte[] {1, 3, 2});
+            var stream = new MemoryStream(new byte[] { 1, 3, 2 });
             var key = Guid.NewGuid().ToString();
             await client.Upload(new ObjectUploadRequest
                                 {
@@ -31,7 +31,7 @@ namespace YandexCloudDotNet.Tests.ObjectStorage
                                     Stream = stream,
                                     Meta = new Dictionary<string, string>
                                            {
-                                               {"Some", "thing"}
+                                               { "Some", "thing" }
                                            }
                                 });
 

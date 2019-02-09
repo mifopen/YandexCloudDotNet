@@ -35,52 +35,51 @@ class Build : NukeBuild
         => _ => _
                 .Before(Restore)
                 .Executes(() =>
-                {
-                    SourceDirectory.GlobDirectories("**/bin", "**/obj").ForEach(DeleteDirectory);
-                    TestsDirectory.GlobDirectories("**/bin", "**/obj").ForEach(DeleteDirectory);
-                    EnsureCleanDirectory(ArtifactsDirectory);
-                });
+                          {
+                              SourceDirectory.GlobDirectories("**/bin", "**/obj").ForEach(DeleteDirectory);
+                              TestsDirectory.GlobDirectories("**/bin", "**/obj").ForEach(DeleteDirectory);
+                              EnsureCleanDirectory(ArtifactsDirectory);
+                          });
 
     Target Restore
         => _ => _
-            .Executes(() =>
-            {
-                DotNetRestore(s => s
-                                  .SetProjectFile(Solution));
-            });
+               .Executes(() =>
+                         {
+                             DotNetRestore(s => s
+                                               .SetProjectFile(Solution));
+                         });
 
     Target Compile
         => _ => _
                 .DependsOn(Restore)
                 .Executes(() =>
-                {
-                    DotNetBuild(s => s
-                                     .SetProjectFile(Solution)
-                                     .SetConfiguration(Configuration)
-                                     .SetAssemblyVersion(GitVersion.GetNormalizedAssemblyVersion())
-                                     .SetFileVersion(GitVersion.GetNormalizedFileVersion())
-                                     .SetInformationalVersion(GitVersion.InformationalVersion)
-                                     .EnableNoRestore());
-                });
+                          {
+                              DotNetBuild(s => s
+                                               .SetProjectFile(Solution)
+                                               .SetConfiguration(Configuration)
+                                               .SetAssemblyVersion(GitVersion.GetNormalizedAssemblyVersion())
+                                               .SetFileVersion(GitVersion.GetNormalizedFileVersion())
+                                               .SetInformationalVersion(GitVersion.InformationalVersion)
+                                               .EnableNoRestore());
+                          });
 
     Target Pack
         => _ => _
-                .DependsOn(Compile)
+                .DependsOn(Clean, Compile)
                 .Executes(() =>
-                {
-                    GitVersionTasks.GitVersion(s=>s.);
-                    var licenseUrl = GitRepository.GetGitHubBrowseUrl(LicenseFile, "master");
-                    DotNetPack(s => s
-//                                            .SetPackageReleaseNotes(changelogUrl)
-                                    .SetWorkingDirectory(RootDirectory)
-                                    .SetProject(Solution.Path)
-                                    .EnableNoBuild()
-                                    .SetConfiguration(Configuration)
-                                    .EnableIncludeSymbols()
-                                    .SetPackageLicenseUrl(licenseUrl)
-                                    .SetOutputDirectory(ArtifactsDirectory)
-                                    .SetVersion(GitVersion.NuGetVersionV2));
-                });
+                          {
+                              var licenseUrl = GitRepository.GetGitHubBrowseUrl(LicenseFile, "master");
+                              DotNetPack(s => s
+                                              //                                            .SetPackageReleaseNotes(changelogUrl)
+                                              .SetWorkingDirectory(RootDirectory)
+                                              .SetPackageLicenseUrl(licenseUrl)
+                                              .SetProject(Solution.Path)
+                                              .EnableNoBuild()
+                                              .SetConfiguration(Configuration)
+                                              .EnableIncludeSymbols()
+                                              .SetOutputDirectory(ArtifactsDirectory)
+                                              .SetVersion(GitVersion.NuGetVersionV2));
+                          });
 
     Target Publish
         => _ => _
@@ -88,13 +87,13 @@ class Build : NukeBuild
                 .Requires(() => ApiKey)
                 .Requires(() => Equals(Configuration, Configuration.Release))
                 .Executes(() =>
-                {
-                    GlobFiles(ArtifactsDirectory, "*.nupkg")
-                        .NotEmpty()
-                        .Where(x => !x.EndsWith(".symbols.nupkg"))
-                        .ForEach(x => DotNetNuGetPush(s => s
-                                                           .SetTargetPath(x)
-                                                           .SetSource(NugetUrl)
-                                                           .SetApiKey(ApiKey)));
-                });
+                          {
+                              GlobFiles(ArtifactsDirectory, "*.nupkg")
+                                  .NotEmpty()
+                                  .Where(x => !x.EndsWith(".symbols.nupkg"))
+                                  .ForEach(x => DotNetNuGetPush(s => s
+                                                                     .SetTargetPath(x)
+                                                                     .SetSource(NugetUrl)
+                                                                     .SetApiKey(ApiKey)));
+                          });
 }
