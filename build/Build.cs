@@ -20,7 +20,6 @@ class Build : NukeBuild
     readonly Configuration Configuration = IsLocalBuild ? Configuration.Debug : Configuration.Release;
 
     [Parameter("NuGet api key")] readonly string ApiKey;
-    readonly string NugetUrl = "https://api.nuget.org/v3/index.json";
     readonly string LicenseFile = RootDirectory / "LICENSE";
 
     [Solution] readonly Solution Solution;
@@ -36,8 +35,12 @@ class Build : NukeBuild
                 .Before(Restore)
                 .Executes(() =>
                           {
-                              SourceDirectory.GlobDirectories("**/bin", "**/obj").ForEach(DeleteDirectory);
-                              TestsDirectory.GlobDirectories("**/bin", "**/obj").ForEach(DeleteDirectory);
+                              SourceDirectory.GlobDirectories("**/bin", "**/obj")
+                                             .ToArray()
+                                             .ForEach(DeleteDirectory);
+                              TestsDirectory.GlobDirectories("**/bin", "**/obj")
+                                            .ToArray()
+                                            .ForEach(DeleteDirectory);
                               EnsureCleanDirectory(ArtifactsDirectory);
                           });
 
@@ -78,6 +81,7 @@ class Build : NukeBuild
                                               .SetConfiguration(Configuration)
                                               .EnableIncludeSymbols()
                                               .SetOutputDirectory(ArtifactsDirectory)
+                                              .SetDescription(".NET http client for Yandex Cloud Api")
                                               .SetVersion(GitVersion.NuGetVersionV2));
                           });
 
@@ -93,7 +97,20 @@ class Build : NukeBuild
                                   .Where(x => !x.EndsWith(".symbols.nupkg"))
                                   .ForEach(x => DotNetNuGetPush(s => s
                                                                      .SetTargetPath(x)
-                                                                     .SetSource(NugetUrl)
+                                                                     .SetSource("https://api.nuget.org/v3/index.json")
                                                                      .SetApiKey(ApiKey)));
+                          });
+
+    Target PublishLocal
+        => _ => _
+                .DependsOn(Pack)
+                .Executes(() =>
+                          {
+                              GlobFiles(ArtifactsDirectory, "*.nupkg")
+                                  .NotEmpty()
+                                  .Where(x => !x.EndsWith(".symbols.nupkg"))
+                                  .ForEach(x => DotNetNuGetPush(s => s
+                                                                     .SetTargetPath(x)
+                                                                     .SetSource("/Users/mif/Documents/GitHub/localnuget")));
                           });
 }
