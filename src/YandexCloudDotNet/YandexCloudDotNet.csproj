@@ -8,6 +8,7 @@
 
     <ItemGroup>
       <PackageReference Include="AWSSDK.S3" Version="3.3.31.15" />
+      <PackageReference Include="jose-jwt" Version="2.4.0" />
     </ItemGroup>
 
 </Project>
