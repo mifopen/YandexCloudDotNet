@@ -18,9 +18,10 @@ namespace YandexCloudDotNet.Tests.IAM
         [Fact]
         public void Simple()
         {
+            var userSecretsProvider = new UserSecretsProvider();
+            var serviceAccountId = userSecretsProvider.Get("ServiceAccountId");
+            var authorizationKeyId = userSecretsProvider.Get("AuthorizationKeyId");
             var jwtCreator = new JwtCreator();
-            const string serviceAccountId = "ajeenb1baoqrtmhp5u7t";
-            const string authorizationKeyId = "ajekelg1vqrfelqamrsc";
             var expirationTime = TimeSpan.FromMinutes(15);
             var jwtToken = jwtCreator.Create(serviceAccountId,
                                              authorizationKeyId,

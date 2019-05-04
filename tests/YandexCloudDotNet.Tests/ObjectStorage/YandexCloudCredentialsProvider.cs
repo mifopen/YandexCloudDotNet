@@ -1,4 +1,3 @@
-using Microsoft.Extensions.Configuration;
 using YandexCloudDotNet.ObjectStorage;
 
 namespace YandexCloudDotNet.Tests.ObjectStorage
@@ -7,13 +6,11 @@ namespace YandexCloudDotNet.Tests.ObjectStorage
     {
         public YandexCloudCredentials Get()
         {
-            var configuration = new ConfigurationBuilder()
-                                .AddUserSecrets<ObjectStorageClientTest>()
-                                .Build();
+            var userSecretsProvider = new UserSecretsProvider();
             return new YandexCloudCredentials
                    {
-                       SecretKeyId = configuration["YandexCloudSecretKeyId"],
-                       SecretKey = configuration["YandexCloudSecretKey"]
+                       SecretKeyId = userSecretsProvider.Get("YandexCloudSecretKeyId"),
+                       SecretKey = userSecretsProvider.Get("YandexCloudSecretKey")
                    };
         }
     }
