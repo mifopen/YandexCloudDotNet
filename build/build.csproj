@@ -12,6 +12,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Google.Protobuf" Version="3.7.0" />
+    <PackageReference Include="Grpc" Version="1.20.1" />
+    <PackageReference Include="Grpc.Tools" Version="1.20.1" />
     <PackageReference Include="Nuke.Common" Version="0.19.1" />
     <PackageReference Include="GitVersion.CommandLine.DotNetCore" Version="4.0.1-beta1-49" />
   </ItemGroup>
@@ -32,6 +35,26 @@
     <None Include="..\appveyor.yml" Condition="Exists('..\appveyor.yml')" />
     <None Include="..\.travis.yml" Condition="Exists('..\.travis.yml')" />
     <None Include="..\GitVersion.yml" Condition="Exists('..\GitVersion.yml')" />
+    <NukeMetadata Remove="ProtoGenerator\bin\**" />
+    <NukeExternalFiles Remove="ProtoGenerator\bin\**" />
+    <None Remove="ProtoGenerator\bin\**" />
+    <NukeMetadata Remove="ProtoGenerator\obj\**" />
+    <NukeExternalFiles Remove="ProtoGenerator\obj\**" />
+    <None Remove="ProtoGenerator\obj\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="ProtoGenerator\ProtoGenerator.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="ProtoGenerator\bin\**" />
+    <Compile Remove="ProtoGenerator\obj\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="ProtoGenerator\bin\**" />
+    <EmbeddedResource Remove="ProtoGenerator\obj\**" />
   </ItemGroup>
 
 </Project>

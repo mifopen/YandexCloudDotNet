@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Grpc.Tools" Version="1.20.1"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Protobuf Include="cloudapi/**/*.proto" ProtoRoot="cloudapi/third_party/googleapis;cloudapi" Access="internal" OutputDir="Generated/%(RelativeDir)" GrpcServices="none" CompileOutputs="false"/>
+    <Protobuf Update="cloudapi/**/*_service.proto" GrpcServices="client" CompileOutputs="false"/>
+  </ItemGroup>
+
+</Project>
