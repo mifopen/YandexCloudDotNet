@@ -2,7 +2,13 @@ namespace YandexCloudDotNet.Vision.DTO
 {
     public class Vertex
     {
-        public string X { get; set; }
-        public string Y { get; set; }
+        public Vertex(long x, long y)
+        {
+            X = x;
+            Y = y;
+        }
+
+        public long X { get; }
+        public long Y { get; }
     }
 }

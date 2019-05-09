@@ -5,7 +5,13 @@ namespace YandexCloudDotNet.ObjectStorage.DTO
 {
     public class ObjectGetResponse
     {
-        public Stream Stream { get; set; }
-        public Dictionary<string, string> Meta { get; set; }
+        public ObjectGetResponse(Stream stream, Dictionary<string, string> meta)
+        {
+            Stream = stream;
+            Meta = meta;
+        }
+
+        public Stream Stream { get; }
+        public Dictionary<string, string> Meta { get; }
     }
 }

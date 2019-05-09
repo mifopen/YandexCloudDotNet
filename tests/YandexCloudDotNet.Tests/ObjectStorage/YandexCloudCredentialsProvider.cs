@@ -7,11 +7,8 @@ namespace YandexCloudDotNet.Tests.ObjectStorage
         public YandexCloudCredentials Get()
         {
             var userSecretsProvider = new UserSecretsProvider();
-            return new YandexCloudCredentials
-                   {
-                       SecretKeyId = userSecretsProvider.Get("YandexCloudSecretKeyId"),
-                       SecretKey = userSecretsProvider.Get("YandexCloudSecretKey")
-                   };
+            return new YandexCloudCredentials(userSecretsProvider.Get("YandexCloudSecretKeyId"),
+                                              userSecretsProvider.Get("YandexCloudSecretKey"));
         }
     }
 }

@@ -8,7 +8,7 @@ using YandexCloudDotNet.ObjectStorage.DTO;
 
 namespace YandexCloudDotNet.ObjectStorage
 {
-    public class ObjectStorageClient : IObjectStorageClient
+    public class ObjectStorageClient: IObjectStorageClient
     {
         private readonly IAmazonS3 amazonS3Client;
 
@@ -32,10 +32,7 @@ namespace YandexCloudDotNet.ObjectStorage
 
             var response = await amazonS3Client.PutObjectAsync(request)
                                                .ConfigureAwait(false);
-            return new ObjectUploadResponse
-                   {
-                       ETag = response.ETag
-                   };
+            return new ObjectUploadResponse(response.ETag);
         }
 
         public async Task<ObjectGetResponse> Get(ObjectGetRequest objectGetRequest)
@@ -48,12 +45,10 @@ namespace YandexCloudDotNet.ObjectStorage
 
             var response = await amazonS3Client.GetObjectAsync(request)
                                                .ConfigureAwait(false);
-            return new ObjectGetResponse
-                   {
-                       Stream = response.ResponseStream,
-                       Meta = response.Metadata.Keys.ToDictionary(x => x.Remove(0, 11), // x-amz-meta- = 11
-                                                                  x => response.Metadata[x])
-                   };
+            return new ObjectGetResponse(response.ResponseStream,
+                                         response.Metadata.Keys
+                                                 .ToDictionary(x => x.Remove(0, 11), // x-amz-meta- = 11
+                                                               x => response.Metadata[x]));
         }
 
         public async Task Delete(ObjectDeleteRequest objectDeleteRequest)

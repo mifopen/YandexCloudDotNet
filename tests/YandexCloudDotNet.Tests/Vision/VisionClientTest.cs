@@ -5,7 +5,7 @@ using Xunit.Abstractions;
 using YandexCloudDotNet.IAM;
 using YandexCloudDotNet.Vision;
 
-namespace YandexCloudDotNet.Tests.IAM
+namespace YandexCloudDotNet.Tests.Vision
 {
     public class VisionClientTest
     {
@@ -33,7 +33,10 @@ namespace YandexCloudDotNet.Tests.IAM
             var result = await client.RecognizeText(folderId,
                                                     iamToken,
                                                     image,
-                                                    new[] {"ru", "en"});
+                                                    new[]
+                                                    {
+                                                        "ru", "en"
+                                                    });
             output.WriteLine(JsonConvert.SerializeObject(result, Formatting.Indented));
         }
     }

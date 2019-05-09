@@ -5,9 +5,17 @@ namespace YandexCloudDotNet.ObjectStorage.DTO
 {
     public class ObjectUploadRequest
     {
-        public string Key { get; set; }
-        public string BucketName { get; set; }
-        public Stream Stream { get; set; }
-        public Dictionary<string, string> Meta { get; set; }
+        public ObjectUploadRequest(string key, string bucketName, Stream stream, Dictionary<string, string> meta)
+        {
+            Key = key;
+            BucketName = bucketName;
+            Stream = stream;
+            Meta = meta;
+        }
+
+        public string Key { get; }
+        public string BucketName { get; }
+        public Stream Stream { get; }
+        public Dictionary<string, string> Meta { get; }
     }
 }

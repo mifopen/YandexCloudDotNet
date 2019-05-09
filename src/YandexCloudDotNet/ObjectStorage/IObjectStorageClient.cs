@@ -4,7 +4,7 @@ using YandexCloudDotNet.ObjectStorage.DTO;
 
 namespace YandexCloudDotNet.ObjectStorage
 {
-    public interface IObjectStorageClient : IDisposable
+    public interface IObjectStorageClient: IDisposable
     {
         Task<ObjectUploadResponse> Upload(ObjectUploadRequest objectUploadRequest);
         Task<ObjectGetResponse> Get(ObjectGetRequest objectGetRequest);

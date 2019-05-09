@@ -2,7 +2,13 @@ namespace YandexCloudDotNet.ObjectStorage.DTO
 {
     public class ObjectDeleteRequest
     {
-        public string Key { get; set; }
-        public string BucketName { get; set; }
+        public ObjectDeleteRequest(string key, string bucketName)
+        {
+            Key = key;
+            BucketName = bucketName;
+        }
+
+        public string Key { get; }
+        public string BucketName { get; }
     }
 }

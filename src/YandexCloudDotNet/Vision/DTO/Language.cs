@@ -2,7 +2,13 @@ namespace YandexCloudDotNet.Vision.DTO
 {
     public class Language
     {
-        public string LanguageCode { get; set; }
-        public double Confidence { get; set; }
+        public Language(string languageCode, double confidence)
+        {
+            LanguageCode = languageCode;
+            Confidence = confidence;
+        }
+
+        public string LanguageCode { get; }
+        public double Confidence { get; }
     }
 }

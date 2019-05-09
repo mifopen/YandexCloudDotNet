@@ -18,7 +18,10 @@ namespace YandexCloudDotNet.IAM
                                               authorizationKeyId,
                                               privateKey,
                                               TimeSpan.FromMinutes(1));
-            var response = await client.CreateAsync(new CreateIamTokenRequest {Jwt = jwt}).ResponseAsync;
+            var response = await client.CreateAsync(new CreateIamTokenRequest
+                                                    {
+                                                        Jwt = jwt
+                                                    }).ResponseAsync;
             return response.IamToken;
         }
     }

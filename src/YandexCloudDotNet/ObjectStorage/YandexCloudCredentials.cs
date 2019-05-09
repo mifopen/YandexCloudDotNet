@@ -2,7 +2,13 @@ namespace YandexCloudDotNet.ObjectStorage
 {
     public class YandexCloudCredentials
     {
-        public string SecretKeyId { get; set; }
-        public string SecretKey { get; set; }
+        public YandexCloudCredentials(string secretKeyId, string secretKey)
+        {
+            SecretKeyId = secretKeyId;
+            SecretKey = secretKey;
+        }
+
+        public string SecretKeyId { get; }
+        public string SecretKey { get; }
     }
 }

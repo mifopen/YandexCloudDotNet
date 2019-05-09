@@ -2,8 +2,15 @@ namespace YandexCloudDotNet.Vision.DTO
 {
     public class Error
     {
-        public int Code { get; set; }
-        public string Message { get; set; }
-        public object[] Details { get; set; }
+        public Error(int code, string message, object[] details)
+        {
+            Code = code;
+            Message = message;
+            Details = details;
+        }
+
+        public int Code { get; }
+        public string Message { get; }
+        public object[] Details { get; }
     }
 }

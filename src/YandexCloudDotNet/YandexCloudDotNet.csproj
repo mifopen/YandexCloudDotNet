@@ -8,12 +8,16 @@
     <NullableContextOptions>enable</NullableContextOptions>
   </PropertyGroup>
 
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <WarningsAsErrors>NU1605;CS8604</WarningsAsErrors>
+  </PropertyGroup>
+
   <ItemGroup>
-    <PackageReference Include="AWSSDK.S3" Version="3.3.31.15" PrivateAssets="all" />
-    <PackageReference Include="BouncyCastle" Version="1.8.5" PrivateAssets="all" />
-    <PackageReference Include="Google.Protobuf" Version="3.7.0" PrivateAssets="all" />
-    <PackageReference Include="Grpc" Version="1.20.1" PrivateAssets="all" />
-    <PackageReference Include="jose-jwt" Version="2.4.0" PrivateAssets="all" />
+    <PackageReference Include="AWSSDK.S3" Version="3.3.31.15" PrivateAssets="compile" />
+    <PackageReference Include="BouncyCastle" Version="1.8.5" PrivateAssets="compile" />
+    <PackageReference Include="Google.Protobuf" Version="3.7.0" PrivateAssets="compile" />
+    <PackageReference Include="Grpc" Version="1.20.1" PrivateAssets="compile" />
+    <PackageReference Include="jose-jwt" Version="2.4.0" PrivateAssets="compile" />
   </ItemGroup>
 
 </Project>
