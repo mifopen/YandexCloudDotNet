@@ -1,5 +1,7 @@
 using System.IO;
+using System.Linq;
 using Newtonsoft.Json;
+using Shouldly;
 using Xunit;
 using Xunit.Abstractions;
 using YandexCloudDotNet.IAM;
@@ -29,7 +31,7 @@ namespace YandexCloudDotNet.Tests.Vision
 
             var client = new VisionClient();
             var folderId = userSecretsProvider.Get("FolderId");
-            var image = File.OpenRead("jpg.jpg");
+            var image = File.OpenRead("image.png");
             var result = await client.RecognizeText(folderId,
                                                     iamToken,
                                                     image,
@@ -37,6 +39,18 @@ namespace YandexCloudDotNet.Tests.Vision
                                                     {
                                                         "ru", "en"
                                                     });
+            var words = result.Single()
+                              .Results.Single()
+                              .TextDetection
+                              .Pages.Single()
+                              .Blocks.Single()
+                              .Lines.Single()
+                              .Words;
+            words.Select(x => x.Text)
+                 .ShouldBe(new[]
+                           {
+                               "Какой-то", "текст"
+                           });
             output.WriteLine(JsonConvert.SerializeObject(result, Formatting.Indented));
         }
     }
