@@ -5,7 +5,6 @@ using System.Security.Cryptography;
 using Jose;
 using Org.BouncyCastle.Crypto.Parameters;
 using Org.BouncyCastle.OpenSsl;
-using Org.BouncyCastle.Security;
 
 namespace YandexCloudDotNet.IAM
 {
@@ -48,13 +47,23 @@ namespace YandexCloudDotNet.IAM
 
         private static RSA ReadPrivateKey(Stream privateKey)
         {
-            RsaPrivateCrtKeyParameters rsaPrivateCrtKeyParameters;
+            RsaPrivateCrtKeyParameters privateKeyParams;
             using (var reader = new StreamReader(privateKey))
             {
-                rsaPrivateCrtKeyParameters = (RsaPrivateCrtKeyParameters)new PemReader(reader).ReadObject();
+                privateKeyParams = (RsaPrivateCrtKeyParameters)new PemReader(reader).ReadObject();
             }
 
-            var rp = DotNetUtilities.ToRSAParameters(rsaPrivateCrtKeyParameters);
+            var rp = new RSAParameters
+                     {
+                         Modulus = privateKeyParams.Modulus.ToByteArrayUnsigned(),
+                         P = privateKeyParams.P.ToByteArrayUnsigned(),
+                         Q = privateKeyParams.Q.ToByteArrayUnsigned(),
+                         DP = privateKeyParams.DP.ToByteArrayUnsigned(),
+                         DQ = privateKeyParams.DQ.ToByteArrayUnsigned(),
+                         InverseQ = privateKeyParams.QInv.ToByteArrayUnsigned(),
+                         D = privateKeyParams.Exponent.ToByteArrayUnsigned(),
+                         Exponent = privateKeyParams.PublicExponent.ToByteArrayUnsigned()
+                     };
             var rsa = RSA.Create();
             rsa.ImportParameters(rp);
             return rsa;
