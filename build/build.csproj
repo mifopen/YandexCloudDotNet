@@ -2,21 +2,22 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <RootNamespace></RootNamespace>
     <IsPackable>False</IsPackable>
     <NoWarn>CS0649;CS0169</NoWarn>
     <LangVersion>8</LangVersion>
     <NullableContextOptions>enable</NullableContextOptions>
+    <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="GitVersion.Tool" Version="5.1.2" ExcludeAssets="all" />
     <PackageReference Include="Google.Protobuf" Version="3.7.0" />
     <PackageReference Include="Grpc" Version="1.20.1" />
-    <PackageReference Include="Grpc.Tools" Version="1.20.1" />
-    <PackageReference Include="Nuke.Common" Version="0.19.1" />
-    <PackageReference Include="GitVersion.CommandLine.DotNetCore" Version="4.0.1-beta1-49" />
+    <PackageReference Include="Grpc.Tools" Version="2.25.0" />
+    <PackageReference Include="Nuke.Common" Version="0.23.4" />
   </ItemGroup>
 
   <ItemGroup>

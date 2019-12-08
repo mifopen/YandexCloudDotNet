@@ -5,7 +5,7 @@
     <Title>YandexCloudDotNet</Title>
     <Authors>mif</Authors>
     <LangVersion>8</LangVersion>
-    <NullableContextOptions>enable</NullableContextOptions>
+    <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
@@ -13,11 +13,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="AWSSDK.S3" Version="3.3.31.15" PrivateAssets="compile" />
-    <PackageReference Include="BouncyCastle" Version="1.8.5" PrivateAssets="compile" />
-    <PackageReference Include="Google.Protobuf" Version="3.7.0" PrivateAssets="compile" />
-    <PackageReference Include="Grpc" Version="1.20.1" PrivateAssets="compile" />
-    <PackageReference Include="jose-jwt" Version="2.4.0" PrivateAssets="compile" />
+    <PackageReference Include="AWSSDK.S3" Version="3.3.109" PrivateAssets="compile" />
+    <PackageReference Include="BouncyCastle.NetCore" Version="1.8.5" />
+    <PackageReference Include="Google.Protobuf" Version="3.11.1" PrivateAssets="compile" />
+    <PackageReference Include="Grpc" Version="2.25.0" PrivateAssets="compile" />
+    <PackageReference Include="jose-jwt" Version="2.5.0" PrivateAssets="compile" />
   </ItemGroup>
 
 </Project>
