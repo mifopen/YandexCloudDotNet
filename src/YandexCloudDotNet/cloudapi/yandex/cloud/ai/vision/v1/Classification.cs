@@ -28,9 +28,9 @@ namespace Yandex.Cloud.Ai.Vision.V1 {
             "b3RvEhl5YW5kZXguY2xvdWQuYWkudmlzaW9uLnYxIkoKD0NsYXNzQW5ub3Rh",
             "dGlvbhI3Cgpwcm9wZXJ0aWVzGAEgAygLMiMueWFuZGV4LmNsb3VkLmFpLnZp",
             "c2lvbi52MS5Qcm9wZXJ0eSItCghQcm9wZXJ0eRIMCgRuYW1lGAEgASgJEhMK",
-            "C3Byb2JhYmlsaXR5GAIgASgBQkZaRGdpdGh1Yi5jb20veWFuZGV4LWNsb3Vk",
-            "L2dvLWdlbnByb3RvL3lhbmRleC9jbG91ZC9haS92aXNpb24vdjE7dmlzaW9u",
-            "YgZwcm90bzM="));
+            "C3Byb2JhYmlsaXR5GAIgASgBQmUKHXlhbmRleC5jbG91ZC5hcGkuYWkudmlz",
+            "aW9uLnYxWkRnaXRodWIuY29tL3lhbmRleC1jbG91ZC9nby1nZW5wcm90by95",
+            "YW5kZXgvY2xvdWQvYWkvdmlzaW9uL3YxO3Zpc2lvbmIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {

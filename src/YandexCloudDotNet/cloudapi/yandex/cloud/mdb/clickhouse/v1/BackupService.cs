@@ -41,9 +41,10 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
             "BExpc3QSMi55YW5kZXguY2xvdWQubWRiLmNsaWNraG91c2UudjEuTGlzdEJh",
             "Y2t1cHNSZXF1ZXN0GjMueWFuZGV4LmNsb3VkLm1kYi5jbGlja2hvdXNlLnYx",
             "Lkxpc3RCYWNrdXBzUmVzcG9uc2UiJoLT5JMCIBIeL21hbmFnZWQtY2xpY2to",
-            "b3VzZS92MS9iYWNrdXBzQk9aTWdpdGh1Yi5jb20veWFuZGV4LWNsb3VkL2dv",
-            "LWdlbnByb3RvL3lhbmRleC9jbG91ZC9tZGIvY2xpY2tob3VzZS92MTtjbGlj",
-            "a2hvdXNlYgZwcm90bzM="));
+            "b3VzZS92MS9iYWNrdXBzQnMKInlhbmRleC5jbG91ZC5hcGkubWRiLmNsaWNr",
+            "aG91c2UudjFaTWdpdGh1Yi5jb20veWFuZGV4LWNsb3VkL2dvLWdlbnByb3Rv",
+            "L3lhbmRleC9jbG91ZC9tZGIvY2xpY2tob3VzZS92MTtjbGlja2hvdXNlYgZw",
+            "cm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Yandex.Cloud.Mdb.Clickhouse.V1.BackupReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {

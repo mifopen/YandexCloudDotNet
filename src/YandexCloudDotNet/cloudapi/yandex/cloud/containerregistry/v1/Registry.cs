@@ -34,9 +34,10 @@ namespace Yandex.Cloud.Containerregistry.V1 {
             "ZXguY2xvdWQuY29udGFpbmVycmVnaXN0cnkudjEuUmVnaXN0cnkuTGFiZWxz",
             "RW50cnkaLQoLTGFiZWxzRW50cnkSCwoDa2V5GAEgASgJEg0KBXZhbHVlGAIg",
             "ASgJOgI4ASJICgZTdGF0dXMSFgoSU1RBVFVTX1VOU1BFQ0lGSUVEEAASDAoI",
-            "Q1JFQVRJTkcQARIKCgZBQ1RJVkUQAhIMCghERUxFVElORxADQllaV2dpdGh1",
-            "Yi5jb20veWFuZGV4LWNsb3VkL2dvLWdlbnByb3RvL3lhbmRleC9jbG91ZC9j",
-            "b250YWluZXJyZWdpc3RyeS92MTtjb250YWluZXJyZWdpc3RyeWIGcHJvdG8z"));
+            "Q1JFQVRJTkcQARIKCgZBQ1RJVkUQAhIMCghERUxFVElORxADQoABCiV5YW5k",
+            "ZXguY2xvdWQuYXBpLmNvbnRhaW5lcnJlZ2lzdHJ5LnYxWldnaXRodWIuY29t",
+            "L3lhbmRleC1jbG91ZC9nby1nZW5wcm90by95YW5kZXgvY2xvdWQvY29udGFp",
+            "bmVycmVnaXN0cnkvdjE7Y29udGFpbmVycmVnaXN0cnliBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {

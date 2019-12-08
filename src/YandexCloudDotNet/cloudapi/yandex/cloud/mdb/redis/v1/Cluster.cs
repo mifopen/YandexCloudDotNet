@@ -28,7 +28,7 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
             "bmRleC5jbG91ZC5tZGIucmVkaXMudjEaH2dvb2dsZS9wcm90b2J1Zi90aW1l",
             "c3RhbXAucHJvdG8aG2dvb2dsZS90eXBlL3RpbWVvZmRheS5wcm90bxoveWFu",
             "ZGV4L2Nsb3VkL21kYi9yZWRpcy92MS9jb25maWcvcmVkaXM1XzAucHJvdG8i",
-            "tQYKB0NsdXN0ZXISCgoCaWQYASABKAkSEQoJZm9sZGVyX2lkGAIgASgJEi4K",
+            "xgYKB0NsdXN0ZXISCgoCaWQYASABKAkSEQoJZm9sZGVyX2lkGAIgASgJEi4K",
             "CmNyZWF0ZWRfYXQYAyABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1w",
             "EgwKBG5hbWUYBCABKAkSEwoLZGVzY3JpcHRpb24YBSABKAkSPgoGbGFiZWxz",
             "GAYgAygLMi4ueWFuZGV4LmNsb3VkLm1kYi5yZWRpcy52MS5DbHVzdGVyLkxh",
@@ -39,47 +39,54 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
             "MS5DbHVzdGVyQ29uZmlnEhIKCm5ldHdvcmtfaWQYCiABKAkSOQoGaGVhbHRo",
             "GAsgASgOMikueWFuZGV4LmNsb3VkLm1kYi5yZWRpcy52MS5DbHVzdGVyLkhl",
             "YWx0aBI5CgZzdGF0dXMYDCABKA4yKS55YW5kZXguY2xvdWQubWRiLnJlZGlz",
-            "LnYxLkNsdXN0ZXIuU3RhdHVzGi0KC0xhYmVsc0VudHJ5EgsKA2tleRgBIAEo",
-            "CRINCgV2YWx1ZRgCIAEoCToCOAEiSQoLRW52aXJvbm1lbnQSGwoXRU5WSVJP",
-            "Tk1FTlRfVU5TUEVDSUZJRUQQABIOCgpQUk9EVUNUSU9OEAESDQoJUFJFU1RB",
-            "QkxFEAIiPwoGSGVhbHRoEhIKDkhFQUxUSF9VTktOT1dOEAASCQoFQUxJVkUQ",
-            "ARIICgRERUFEEAISDAoIREVHUkFERUQQAyJ5CgZTdGF0dXMSEgoOU1RBVFVT",
-            "X1VOS05PV04QABIMCghDUkVBVElORxABEgsKB1JVTk5JTkcQAhIJCgVFUlJP",
-            "UhADEgwKCFVQREFUSU5HEAQSDAoIU1RPUFBJTkcQBRILCgdTVE9QUEVEEAYS",
-            "DAoIU1RBUlRJTkcQByI9CgpNb25pdG9yaW5nEgwKBG5hbWUYASABKAkSEwoL",
-            "ZGVzY3JpcHRpb24YAiABKAkSDAoEbGluaxgDIAEoCSLvAQoNQ2x1c3RlckNv",
-            "bmZpZxIPCgd2ZXJzaW9uGAEgASgJEk8KEHJlZGlzX2NvbmZpZ181XzAYAiAB",
-            "KAsyMy55YW5kZXguY2xvdWQubWRiLnJlZGlzLnYxLmNvbmZpZy5SZWRpc0Nv",
-            "bmZpZ1NldDVfMEgAEjcKCXJlc291cmNlcxgDIAEoCzIkLnlhbmRleC5jbG91",
-            "ZC5tZGIucmVkaXMudjEuUmVzb3VyY2VzEjMKE2JhY2t1cF93aW5kb3dfc3Rh",
-            "cnQYBCABKAsyFi5nb29nbGUudHlwZS5UaW1lT2ZEYXlCDgoMcmVkaXNfY29u",
-            "ZmlnIpsDCgRIb3N0EgwKBG5hbWUYASABKAkSEgoKY2x1c3Rlcl9pZBgCIAEo",
-            "CRIPCgd6b25lX2lkGAMgASgJEhEKCXN1Ym5ldF9pZBgEIAEoCRI3CglyZXNv",
-            "dXJjZXMYBSABKAsyJC55YW5kZXguY2xvdWQubWRiLnJlZGlzLnYxLlJlc291",
-            "cmNlcxIyCgRyb2xlGAYgASgOMiQueWFuZGV4LmNsb3VkLm1kYi5yZWRpcy52",
-            "MS5Ib3N0LlJvbGUSNgoGaGVhbHRoGAcgASgOMiYueWFuZGV4LmNsb3VkLm1k",
-            "Yi5yZWRpcy52MS5Ib3N0LkhlYWx0aBI0CghzZXJ2aWNlcxgIIAMoCzIiLnlh",
-            "bmRleC5jbG91ZC5tZGIucmVkaXMudjEuU2VydmljZSIxCgRSb2xlEhAKDFJP",
-            "TEVfVU5LTk9XThAAEgoKBk1BU1RFUhABEgsKB1JFUExJQ0EQAiI/CgZIZWFs",
-            "dGgSEgoOSEVBTFRIX1VOS05PV04QABIJCgVBTElWRRABEggKBERFQUQQAhIM",
-            "CghERUdSQURFRBADIuQBCgdTZXJ2aWNlEjUKBHR5cGUYASABKA4yJy55YW5k",
-            "ZXguY2xvdWQubWRiLnJlZGlzLnYxLlNlcnZpY2UuVHlwZRI5CgZoZWFsdGgY",
-            "AiABKA4yKS55YW5kZXguY2xvdWQubWRiLnJlZGlzLnYxLlNlcnZpY2UuSGVh",
-            "bHRoIjQKBFR5cGUSFAoQVFlQRV9VTlNQRUNJRklFRBAAEgkKBVJFRElTEAES",
-            "CwoHQVJCSVRFUhACIjEKBkhlYWx0aBISCg5IRUFMVEhfVU5LTk9XThAAEgkK",
-            "BUFMSVZFEAESCAoEREVBRBACIjoKCVJlc291cmNlcxIaChJyZXNvdXJjZV9w",
-            "cmVzZXRfaWQYASABKAkSEQoJZGlza19zaXplGAIgASgDQkVaQ2dpdGh1Yi5j",
-            "b20veWFuZGV4LWNsb3VkL2dvLWdlbnByb3RvL3lhbmRleC9jbG91ZC9tZGIv",
-            "cmVkaXMvdjE7cmVkaXNiBnByb3RvMw=="));
+            "LnYxLkNsdXN0ZXIuU3RhdHVzEg8KB3NoYXJkZWQYDSABKAgaLQoLTGFiZWxz",
+            "RW50cnkSCwoDa2V5GAEgASgJEg0KBXZhbHVlGAIgASgJOgI4ASJJCgtFbnZp",
+            "cm9ubWVudBIbChdFTlZJUk9OTUVOVF9VTlNQRUNJRklFRBAAEg4KClBST0RV",
+            "Q1RJT04QARINCglQUkVTVEFCTEUQAiI/CgZIZWFsdGgSEgoOSEVBTFRIX1VO",
+            "S05PV04QABIJCgVBTElWRRABEggKBERFQUQQAhIMCghERUdSQURFRBADInkK",
+            "BlN0YXR1cxISCg5TVEFUVVNfVU5LTk9XThAAEgwKCENSRUFUSU5HEAESCwoH",
+            "UlVOTklORxACEgkKBUVSUk9SEAMSDAoIVVBEQVRJTkcQBBIMCghTVE9QUElO",
+            "RxAFEgsKB1NUT1BQRUQQBhIMCghTVEFSVElORxAHIj0KCk1vbml0b3JpbmcS",
+            "DAoEbmFtZRgBIAEoCRITCgtkZXNjcmlwdGlvbhgCIAEoCRIMCgRsaW5rGAMg",
+            "ASgJIqICCg1DbHVzdGVyQ29uZmlnEg8KB3ZlcnNpb24YASABKAkSTwoQcmVk",
+            "aXNfY29uZmlnXzVfMBgCIAEoCzIzLnlhbmRleC5jbG91ZC5tZGIucmVkaXMu",
+            "djEuY29uZmlnLlJlZGlzQ29uZmlnU2V0NV8wSAASNwoJcmVzb3VyY2VzGAMg",
+            "ASgLMiQueWFuZGV4LmNsb3VkLm1kYi5yZWRpcy52MS5SZXNvdXJjZXMSMwoT",
+            "YmFja3VwX3dpbmRvd19zdGFydBgEIAEoCzIWLmdvb2dsZS50eXBlLlRpbWVP",
+            "ZkRheRIxCgZhY2Nlc3MYBSABKAsyIS55YW5kZXguY2xvdWQubWRiLnJlZGlz",
+            "LnYxLkFjY2Vzc0IOCgxyZWRpc19jb25maWciKQoFU2hhcmQSDAoEbmFtZRgB",
+            "IAEoCRISCgpjbHVzdGVyX2lkGAIgASgJIq8DCgRIb3N0EgwKBG5hbWUYASAB",
+            "KAkSEgoKY2x1c3Rlcl9pZBgCIAEoCRIPCgd6b25lX2lkGAMgASgJEhEKCXN1",
+            "Ym5ldF9pZBgEIAEoCRI3CglyZXNvdXJjZXMYBSABKAsyJC55YW5kZXguY2xv",
+            "dWQubWRiLnJlZGlzLnYxLlJlc291cmNlcxIyCgRyb2xlGAYgASgOMiQueWFu",
+            "ZGV4LmNsb3VkLm1kYi5yZWRpcy52MS5Ib3N0LlJvbGUSNgoGaGVhbHRoGAcg",
+            "ASgOMiYueWFuZGV4LmNsb3VkLm1kYi5yZWRpcy52MS5Ib3N0LkhlYWx0aBI0",
+            "CghzZXJ2aWNlcxgIIAMoCzIiLnlhbmRleC5jbG91ZC5tZGIucmVkaXMudjEu",
+            "U2VydmljZRISCgpzaGFyZF9uYW1lGAkgASgJIjEKBFJvbGUSEAoMUk9MRV9V",
+            "TktOT1dOEAASCgoGTUFTVEVSEAESCwoHUkVQTElDQRACIj8KBkhlYWx0aBIS",
+            "Cg5IRUFMVEhfVU5LTk9XThAAEgkKBUFMSVZFEAESCAoEREVBRBACEgwKCERF",
+            "R1JBREVEEAMi9wEKB1NlcnZpY2USNQoEdHlwZRgBIAEoDjInLnlhbmRleC5j",
+            "bG91ZC5tZGIucmVkaXMudjEuU2VydmljZS5UeXBlEjkKBmhlYWx0aBgCIAEo",
+            "DjIpLnlhbmRleC5jbG91ZC5tZGIucmVkaXMudjEuU2VydmljZS5IZWFsdGgi",
+            "RwoEVHlwZRIUChBUWVBFX1VOU1BFQ0lGSUVEEAASCQoFUkVESVMQARILCgdB",
+            "UkJJVEVSEAISEQoNUkVESVNfQ0xVU1RFUhADIjEKBkhlYWx0aBISCg5IRUFM",
+            "VEhfVU5LTk9XThAAEgkKBUFMSVZFEAESCAoEREVBRBACIjoKCVJlc291cmNl",
+            "cxIaChJyZXNvdXJjZV9wcmVzZXRfaWQYASABKAkSEQoJZGlza19zaXplGAIg",
+            "ASgDIhsKBkFjY2VzcxIRCglkYXRhX2xlbnMYASABKAhCZAodeWFuZGV4LmNs",
+            "b3VkLmFwaS5tZGIucmVkaXMudjFaQ2dpdGh1Yi5jb20veWFuZGV4LWNsb3Vk",
+            "L2dvLWdlbnByb3RvL3lhbmRleC9jbG91ZC9tZGIvcmVkaXMvdjE7cmVkaXNi",
+            "BnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Google.Type.TimeofdayReflection.Descriptor, global::Yandex.Cloud.Mdb.Redis.V1.Config.Redis50Reflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1.Cluster), global::Yandex.Cloud.Mdb.Redis.V1.Cluster.Parser, new[]{ "Id", "FolderId", "CreatedAt", "Name", "Description", "Labels", "Environment", "Monitoring", "Config", "NetworkId", "Health", "Status" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Redis.V1.Cluster.Types.Environment), typeof(global::Yandex.Cloud.Mdb.Redis.V1.Cluster.Types.Health), typeof(global::Yandex.Cloud.Mdb.Redis.V1.Cluster.Types.Status) }, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1.Cluster), global::Yandex.Cloud.Mdb.Redis.V1.Cluster.Parser, new[]{ "Id", "FolderId", "CreatedAt", "Name", "Description", "Labels", "Environment", "Monitoring", "Config", "NetworkId", "Health", "Status", "Sharded" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Redis.V1.Cluster.Types.Environment), typeof(global::Yandex.Cloud.Mdb.Redis.V1.Cluster.Types.Health), typeof(global::Yandex.Cloud.Mdb.Redis.V1.Cluster.Types.Status) }, new pbr::GeneratedClrTypeInfo[] { null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1.Monitoring), global::Yandex.Cloud.Mdb.Redis.V1.Monitoring.Parser, new[]{ "Name", "Description", "Link" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1.ClusterConfig), global::Yandex.Cloud.Mdb.Redis.V1.ClusterConfig.Parser, new[]{ "Version", "RedisConfig50", "Resources", "BackupWindowStart" }, new[]{ "RedisConfig" }, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1.Host), global::Yandex.Cloud.Mdb.Redis.V1.Host.Parser, new[]{ "Name", "ClusterId", "ZoneId", "SubnetId", "Resources", "Role", "Health", "Services" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Redis.V1.Host.Types.Role), typeof(global::Yandex.Cloud.Mdb.Redis.V1.Host.Types.Health) }, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1.ClusterConfig), global::Yandex.Cloud.Mdb.Redis.V1.ClusterConfig.Parser, new[]{ "Version", "RedisConfig50", "Resources", "BackupWindowStart", "Access" }, new[]{ "RedisConfig" }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1.Shard), global::Yandex.Cloud.Mdb.Redis.V1.Shard.Parser, new[]{ "Name", "ClusterId" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1.Host), global::Yandex.Cloud.Mdb.Redis.V1.Host.Parser, new[]{ "Name", "ClusterId", "ZoneId", "SubnetId", "Resources", "Role", "Health", "Services", "ShardName" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Redis.V1.Host.Types.Role), typeof(global::Yandex.Cloud.Mdb.Redis.V1.Host.Types.Health) }, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1.Service), global::Yandex.Cloud.Mdb.Redis.V1.Service.Parser, new[]{ "Type", "Health" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Redis.V1.Service.Types.Type), typeof(global::Yandex.Cloud.Mdb.Redis.V1.Service.Types.Health) }, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1.Resources), global::Yandex.Cloud.Mdb.Redis.V1.Resources.Parser, new[]{ "ResourcePresetId", "DiskSize" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1.Resources), global::Yandex.Cloud.Mdb.Redis.V1.Resources.Parser, new[]{ "ResourcePresetId", "DiskSize" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1.Access), global::Yandex.Cloud.Mdb.Redis.V1.Access.Parser, new[]{ "DataLens" }, null, null, null)
           }));
     }
     #endregion
@@ -127,6 +134,7 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
       networkId_ = other.networkId_;
       health_ = other.health_;
       status_ = other.status_;
+      sharded_ = other.sharded_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -277,7 +285,7 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
     public const int HealthFieldNumber = 11;
     private global::Yandex.Cloud.Mdb.Redis.V1.Cluster.Types.Health health_ = 0;
     /// <summary>
-    /// Aggregated cluster health
+    /// Aggregated cluster health.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Mdb.Redis.V1.Cluster.Types.Health Health {
@@ -291,13 +299,27 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
     public const int StatusFieldNumber = 12;
     private global::Yandex.Cloud.Mdb.Redis.V1.Cluster.Types.Status status_ = 0;
     /// <summary>
-    /// Cluster status
+    /// Cluster status.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Mdb.Redis.V1.Cluster.Types.Status Status {
       get { return status_; }
       set {
         status_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "sharded" field.</summary>
+    public const int ShardedFieldNumber = 13;
+    private bool sharded_;
+    /// <summary>
+    /// Redis cluster mode on/off.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Sharded {
+      get { return sharded_; }
+      set {
+        sharded_ = value;
       }
     }
 
@@ -326,6 +348,7 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
       if (NetworkId != other.NetworkId) return false;
       if (Health != other.Health) return false;
       if (Status != other.Status) return false;
+      if (Sharded != other.Sharded) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -344,6 +367,7 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
       if (NetworkId.Length != 0) hash ^= NetworkId.GetHashCode();
       if (Health != 0) hash ^= Health.GetHashCode();
       if (Status != 0) hash ^= Status.GetHashCode();
+      if (Sharded != false) hash ^= Sharded.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -399,6 +423,10 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
         output.WriteRawTag(96);
         output.WriteEnum((int) Status);
       }
+      if (Sharded != false) {
+        output.WriteRawTag(104);
+        output.WriteBool(Sharded);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -438,6 +466,9 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
       }
       if (Status != 0) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Status);
+      }
+      if (Sharded != false) {
+        size += 1 + 1;
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -487,6 +518,9 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
       }
       if (other.Status != 0) {
         Status = other.Status;
+      }
+      if (other.Sharded != false) {
+        Sharded = other.Sharded;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -551,6 +585,10 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
           }
           case 96: {
             Status = (global::Yandex.Cloud.Mdb.Redis.V1.Cluster.Types.Status) input.ReadEnum();
+            break;
+          }
+          case 104: {
+            Sharded = input.ReadBool();
             break;
           }
         }
@@ -856,6 +894,7 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
       version_ = other.version_;
       resources_ = other.resources_ != null ? other.resources_.Clone() : null;
       backupWindowStart_ = other.backupWindowStart_ != null ? other.backupWindowStart_.Clone() : null;
+      access_ = other.access_ != null ? other.access_.Clone() : null;
       switch (other.RedisConfigCase) {
         case RedisConfigOneofCase.RedisConfig50:
           RedisConfig50 = other.RedisConfig50.Clone();
@@ -926,6 +965,20 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
       }
     }
 
+    /// <summary>Field number for the "access" field.</summary>
+    public const int AccessFieldNumber = 5;
+    private global::Yandex.Cloud.Mdb.Redis.V1.Access access_;
+    /// <summary>
+    /// Access policy to DB
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Mdb.Redis.V1.Access Access {
+      get { return access_; }
+      set {
+        access_ = value;
+      }
+    }
+
     private object redisConfig_;
     /// <summary>Enum of possible cases for the "redis_config" oneof.</summary>
     public enum RedisConfigOneofCase {
@@ -961,6 +1014,7 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
       if (!object.Equals(RedisConfig50, other.RedisConfig50)) return false;
       if (!object.Equals(Resources, other.Resources)) return false;
       if (!object.Equals(BackupWindowStart, other.BackupWindowStart)) return false;
+      if (!object.Equals(Access, other.Access)) return false;
       if (RedisConfigCase != other.RedisConfigCase) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -972,6 +1026,7 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
       if (redisConfigCase_ == RedisConfigOneofCase.RedisConfig50) hash ^= RedisConfig50.GetHashCode();
       if (resources_ != null) hash ^= Resources.GetHashCode();
       if (backupWindowStart_ != null) hash ^= BackupWindowStart.GetHashCode();
+      if (access_ != null) hash ^= Access.GetHashCode();
       hash ^= (int) redisConfigCase_;
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -1002,6 +1057,10 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
         output.WriteRawTag(34);
         output.WriteMessage(BackupWindowStart);
       }
+      if (access_ != null) {
+        output.WriteRawTag(42);
+        output.WriteMessage(Access);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1021,6 +1080,9 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
       }
       if (backupWindowStart_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(BackupWindowStart);
+      }
+      if (access_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Access);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1047,6 +1109,12 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
           BackupWindowStart = new global::Google.Type.TimeOfDay();
         }
         BackupWindowStart.MergeFrom(other.BackupWindowStart);
+      }
+      if (other.access_ != null) {
+        if (access_ == null) {
+          Access = new global::Yandex.Cloud.Mdb.Redis.V1.Access();
+        }
+        Access.MergeFrom(other.Access);
       }
       switch (other.RedisConfigCase) {
         case RedisConfigOneofCase.RedisConfig50:
@@ -1095,6 +1163,177 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
             input.ReadMessage(BackupWindowStart);
             break;
           }
+          case 42: {
+            if (access_ == null) {
+              Access = new global::Yandex.Cloud.Mdb.Redis.V1.Access();
+            }
+            input.ReadMessage(Access);
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  internal sealed partial class Shard : pb::IMessage<Shard> {
+    private static readonly pb::MessageParser<Shard> _parser = new pb::MessageParser<Shard>(() => new Shard());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<Shard> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Mdb.Redis.V1.ClusterReflection.Descriptor.MessageTypes[3]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public Shard() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public Shard(Shard other) : this() {
+      name_ = other.name_;
+      clusterId_ = other.clusterId_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public Shard Clone() {
+      return new Shard(this);
+    }
+
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 1;
+    private string name_ = "";
+    /// <summary>
+    /// Name of the Redis shard. The shard name is assigned by user at creation time, and cannot be changed.
+    /// 1-63 characters long.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Name {
+      get { return name_; }
+      set {
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "cluster_id" field.</summary>
+    public const int ClusterIdFieldNumber = 2;
+    private string clusterId_ = "";
+    /// <summary>
+    /// ID of the Redis cluster the shard belongs to. The ID is assigned by MDB at creation time.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ClusterId {
+      get { return clusterId_; }
+      set {
+        clusterId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as Shard);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(Shard other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Name != other.Name) return false;
+      if (ClusterId != other.ClusterId) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Name.Length != 0) hash ^= Name.GetHashCode();
+      if (ClusterId.Length != 0) hash ^= ClusterId.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (Name.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      if (ClusterId.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(ClusterId);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Name.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+      }
+      if (ClusterId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ClusterId);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(Shard other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Name.Length != 0) {
+        Name = other.Name;
+      }
+      if (other.ClusterId.Length != 0) {
+        ClusterId = other.ClusterId;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Name = input.ReadString();
+            break;
+          }
+          case 18: {
+            ClusterId = input.ReadString();
+            break;
+          }
         }
       }
     }
@@ -1109,7 +1348,7 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Mdb.Redis.V1.ClusterReflection.Descriptor.MessageTypes[3]; }
+      get { return global::Yandex.Cloud.Mdb.Redis.V1.ClusterReflection.Descriptor.MessageTypes[4]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1134,6 +1373,7 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
       role_ = other.role_;
       health_ = other.health_;
       services_ = other.services_.Clone();
+      shardName_ = other.shardName_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1163,7 +1403,7 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
     public const int ClusterIdFieldNumber = 2;
     private string clusterId_ = "";
     /// <summary>
-    /// ID of the Redis host. The ID is assigned by MDB at creation time.
+    /// ID of the Redis cluster. The ID is assigned by MDB at creation time.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ClusterId {
@@ -1256,6 +1496,17 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
       get { return services_; }
     }
 
+    /// <summary>Field number for the "shard_name" field.</summary>
+    public const int ShardNameFieldNumber = 9;
+    private string shardName_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ShardName {
+      get { return shardName_; }
+      set {
+        shardName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as Host);
@@ -1277,6 +1528,7 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
       if (Role != other.Role) return false;
       if (Health != other.Health) return false;
       if(!services_.Equals(other.services_)) return false;
+      if (ShardName != other.ShardName) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1291,6 +1543,7 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
       if (Role != 0) hash ^= Role.GetHashCode();
       if (Health != 0) hash ^= Health.GetHashCode();
       hash ^= services_.GetHashCode();
+      if (ShardName.Length != 0) hash ^= ShardName.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1333,6 +1586,10 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
         output.WriteEnum((int) Health);
       }
       services_.WriteTo(output, _repeated_services_codec);
+      if (ShardName.Length != 0) {
+        output.WriteRawTag(74);
+        output.WriteString(ShardName);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1363,6 +1620,9 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Health);
       }
       size += services_.CalculateSize(_repeated_services_codec);
+      if (ShardName.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ShardName);
+      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -1399,6 +1659,9 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
         Health = other.Health;
       }
       services_.Add(other.services_);
+      if (other.ShardName.Length != 0) {
+        ShardName = other.ShardName;
+      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -1443,6 +1706,10 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
           }
           case 66: {
             services_.AddEntriesFrom(input, _repeated_services_codec);
+            break;
+          }
+          case 74: {
+            ShardName = input.ReadString();
             break;
           }
         }
@@ -1500,7 +1767,7 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Mdb.Redis.V1.ClusterReflection.Descriptor.MessageTypes[4]; }
+      get { return global::Yandex.Cloud.Mdb.Redis.V1.ClusterReflection.Descriptor.MessageTypes[5]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1667,6 +1934,10 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
         /// The host provides a Sentinel-only service (a quorum node).
         /// </summary>
         [pbr::OriginalName("ARBITER")] Arbiter = 2,
+        /// <summary>
+        /// The host is a Redis Cluster node.
+        /// </summary>
+        [pbr::OriginalName("REDIS_CLUSTER")] RedisCluster = 3,
       }
 
       internal enum Health {
@@ -1697,7 +1968,7 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Mdb.Redis.V1.ClusterReflection.Descriptor.MessageTypes[5]; }
+      get { return global::Yandex.Cloud.Mdb.Redis.V1.ClusterReflection.Descriptor.MessageTypes[6]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1845,6 +2116,138 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
           }
           case 16: {
             DiskSize = input.ReadInt64();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  internal sealed partial class Access : pb::IMessage<Access> {
+    private static readonly pb::MessageParser<Access> _parser = new pb::MessageParser<Access>(() => new Access());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<Access> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Mdb.Redis.V1.ClusterReflection.Descriptor.MessageTypes[7]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public Access() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public Access(Access other) : this() {
+      dataLens_ = other.dataLens_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public Access Clone() {
+      return new Access(this);
+    }
+
+    /// <summary>Field number for the "data_lens" field.</summary>
+    public const int DataLensFieldNumber = 1;
+    private bool dataLens_;
+    /// <summary>
+    /// Allow access for DataLens
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool DataLens {
+      get { return dataLens_; }
+      set {
+        dataLens_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as Access);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(Access other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (DataLens != other.DataLens) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (DataLens != false) hash ^= DataLens.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (DataLens != false) {
+        output.WriteRawTag(8);
+        output.WriteBool(DataLens);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (DataLens != false) {
+        size += 1 + 1;
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(Access other) {
+      if (other == null) {
+        return;
+      }
+      if (other.DataLens != false) {
+        DataLens = other.DataLens;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            DataLens = input.ReadBool();
             break;
           }
         }

@@ -32,9 +32,9 @@ namespace Yandex.Cloud.Iam.V1 {
             "GAUgASgJEjkKDWtleV9hbGdvcml0aG0YBiABKA4yIi55YW5kZXguY2xvdWQu",
             "aWFtLnYxLktleS5BbGdvcml0aG0SEgoKcHVibGljX2tleRgHIAEoCSJCCglB",
             "bGdvcml0aG0SGQoVQUxHT1JJVEhNX1VOU1BFQ0lGSUVEEAASDAoIUlNBXzIw",
-            "NDgQARIMCghSU0FfNDA5NhACQgkKB3N1YmplY3RCPVo7Z2l0aHViLmNvbS95",
-            "YW5kZXgtY2xvdWQvZ28tZ2VucHJvdG8veWFuZGV4L2Nsb3VkL2lhbS92MTtp",
-            "YW1iBnByb3RvMw=="));
+            "NDgQARIMCghSU0FfNDA5NhACQgkKB3N1YmplY3RCVgoXeWFuZGV4LmNsb3Vk",
+            "LmFwaS5pYW0udjFaO2dpdGh1Yi5jb20veWFuZGV4LWNsb3VkL2dvLWdlbnBy",
+            "b3RvL3lhbmRleC9jbG91ZC9pYW0vdjE7aWFtYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {

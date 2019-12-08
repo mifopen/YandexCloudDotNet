@@ -40,9 +40,10 @@ namespace Yandex.Cloud.Ai.Vision.V1 {
             "b2x5Z29uEgwKBHRleHQYAiABKAkSEgoKY29uZmlkZW5jZRgDIAEoARJDCgls",
             "YW5ndWFnZXMYBCADKAsyMC55YW5kZXguY2xvdWQuYWkudmlzaW9uLnYxLldv",
             "cmQuRGV0ZWN0ZWRMYW5ndWFnZRo9ChBEZXRlY3RlZExhbmd1YWdlEhUKDWxh",
-            "bmd1YWdlX2NvZGUYASABKAkSEgoKY29uZmlkZW5jZRgCIAEoAUJGWkRnaXRo",
-            "dWIuY29tL3lhbmRleC1jbG91ZC9nby1nZW5wcm90by95YW5kZXgvY2xvdWQv",
-            "YWkvdmlzaW9uL3YxO3Zpc2lvbmIGcHJvdG8z"));
+            "bmd1YWdlX2NvZGUYASABKAkSEgoKY29uZmlkZW5jZRgCIAEoAUJlCh15YW5k",
+            "ZXguY2xvdWQuYXBpLmFpLnZpc2lvbi52MVpEZ2l0aHViLmNvbS95YW5kZXgt",
+            "Y2xvdWQvZ28tZ2VucHJvdG8veWFuZGV4L2Nsb3VkL2FpL3Zpc2lvbi92MTt2",
+            "aXNpb25iBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Yandex.Cloud.Ai.Vision.V1.PrimitivesReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {

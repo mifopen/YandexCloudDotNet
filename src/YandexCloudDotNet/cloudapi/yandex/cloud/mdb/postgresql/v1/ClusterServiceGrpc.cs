@@ -28,6 +28,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
     static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Postgresql.V1.MoveClusterRequest> __Marshaller_yandex_cloud_mdb_postgresql_v1_MoveClusterRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Postgresql.V1.MoveClusterRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Postgresql.V1.BackupClusterRequest> __Marshaller_yandex_cloud_mdb_postgresql_v1_BackupClusterRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Postgresql.V1.BackupClusterRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Postgresql.V1.RestoreClusterRequest> __Marshaller_yandex_cloud_mdb_postgresql_v1_RestoreClusterRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Postgresql.V1.RestoreClusterRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Postgresql.V1.StartClusterFailoverRequest> __Marshaller_yandex_cloud_mdb_postgresql_v1_StartClusterFailoverRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Postgresql.V1.StartClusterFailoverRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Postgresql.V1.ListClusterLogsRequest> __Marshaller_yandex_cloud_mdb_postgresql_v1_ListClusterLogsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Postgresql.V1.ListClusterLogsRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Postgresql.V1.ListClusterLogsResponse> __Marshaller_yandex_cloud_mdb_postgresql_v1_ListClusterLogsResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Postgresql.V1.ListClusterLogsResponse.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Postgresql.V1.ListClusterOperationsRequest> __Marshaller_yandex_cloud_mdb_postgresql_v1_ListClusterOperationsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Postgresql.V1.ListClusterOperationsRequest.Parser.ParseFrom);
@@ -108,6 +109,13 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
         __ServiceName,
         "Restore",
         __Marshaller_yandex_cloud_mdb_postgresql_v1_RestoreClusterRequest,
+        __Marshaller_yandex_cloud_operation_Operation);
+
+    static readonly grpc::Method<global::Yandex.Cloud.Mdb.Postgresql.V1.StartClusterFailoverRequest, global::Yandex.Cloud.Operation.Operation> __Method_StartFailover = new grpc::Method<global::Yandex.Cloud.Mdb.Postgresql.V1.StartClusterFailoverRequest, global::Yandex.Cloud.Operation.Operation>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "StartFailover",
+        __Marshaller_yandex_cloud_mdb_postgresql_v1_StartClusterFailoverRequest,
         __Marshaller_yandex_cloud_operation_Operation);
 
     static readonly grpc::Method<global::Yandex.Cloud.Mdb.Postgresql.V1.ListClusterLogsRequest, global::Yandex.Cloud.Mdb.Postgresql.V1.ListClusterLogsResponse> __Method_ListLogs = new grpc::Method<global::Yandex.Cloud.Mdb.Postgresql.V1.ListClusterLogsRequest, global::Yandex.Cloud.Mdb.Postgresql.V1.ListClusterLogsResponse>(
@@ -641,8 +649,51 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
         return CallInvoker.AsyncUnaryCall(__Method_Restore, null, options, request);
       }
       /// <summary>
+      /// Start a manual failover on the specified PostgreSQL cluster.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.Operation.Operation StartFailover(global::Yandex.Cloud.Mdb.Postgresql.V1.StartClusterFailoverRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return StartFailover(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Start a manual failover on the specified PostgreSQL cluster.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.Operation.Operation StartFailover(global::Yandex.Cloud.Mdb.Postgresql.V1.StartClusterFailoverRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_StartFailover, null, options, request);
+      }
+      /// <summary>
+      /// Start a manual failover on the specified PostgreSQL cluster.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Operation.Operation> StartFailoverAsync(global::Yandex.Cloud.Mdb.Postgresql.V1.StartClusterFailoverRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return StartFailoverAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Start a manual failover on the specified PostgreSQL cluster.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Operation.Operation> StartFailoverAsync(global::Yandex.Cloud.Mdb.Postgresql.V1.StartClusterFailoverRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_StartFailover, null, options, request);
+      }
+      /// <summary>
       /// Retrieves logs for the specified PostgreSQL cluster.
-      /// For more information about logs, see the [Logs](/docs/managed-postgresql/concepts/logs) section in the documentation.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -655,7 +706,6 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
       }
       /// <summary>
       /// Retrieves logs for the specified PostgreSQL cluster.
-      /// For more information about logs, see the [Logs](/docs/managed-postgresql/concepts/logs) section in the documentation.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
@@ -666,7 +716,6 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
       }
       /// <summary>
       /// Retrieves logs for the specified PostgreSQL cluster.
-      /// For more information about logs, see the [Logs](/docs/managed-postgresql/concepts/logs) section in the documentation.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -679,7 +728,6 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
       }
       /// <summary>
       /// Retrieves logs for the specified PostgreSQL cluster.
-      /// For more information about logs, see the [Logs](/docs/managed-postgresql/concepts/logs) section in the documentation.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>

@@ -27,6 +27,7 @@ namespace Yandex.Cloud.Mdb.Redis.V1Alpha {
     static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Redis.V1Alpha.StopClusterRequest> __Marshaller_yandex_cloud_mdb_redis_v1alpha_StopClusterRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Redis.V1Alpha.StopClusterRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Redis.V1Alpha.BackupClusterRequest> __Marshaller_yandex_cloud_mdb_redis_v1alpha_BackupClusterRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Redis.V1Alpha.BackupClusterRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Redis.V1Alpha.RestoreClusterRequest> __Marshaller_yandex_cloud_mdb_redis_v1alpha_RestoreClusterRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Redis.V1Alpha.RestoreClusterRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Redis.V1Alpha.StartClusterFailoverRequest> __Marshaller_yandex_cloud_mdb_redis_v1alpha_StartClusterFailoverRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Redis.V1Alpha.StartClusterFailoverRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Redis.V1Alpha.ListClusterLogsRequest> __Marshaller_yandex_cloud_mdb_redis_v1alpha_ListClusterLogsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Redis.V1Alpha.ListClusterLogsRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Redis.V1Alpha.ListClusterLogsResponse> __Marshaller_yandex_cloud_mdb_redis_v1alpha_ListClusterLogsResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Redis.V1Alpha.ListClusterLogsResponse.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Redis.V1Alpha.ListClusterOperationsRequest> __Marshaller_yandex_cloud_mdb_redis_v1alpha_ListClusterOperationsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Redis.V1Alpha.ListClusterOperationsRequest.Parser.ParseFrom);
@@ -99,6 +100,13 @@ namespace Yandex.Cloud.Mdb.Redis.V1Alpha {
         __ServiceName,
         "Restore",
         __Marshaller_yandex_cloud_mdb_redis_v1alpha_RestoreClusterRequest,
+        __Marshaller_yandex_cloud_operation_Operation);
+
+    static readonly grpc::Method<global::Yandex.Cloud.Mdb.Redis.V1Alpha.StartClusterFailoverRequest, global::Yandex.Cloud.Operation.Operation> __Method_StartFailover = new grpc::Method<global::Yandex.Cloud.Mdb.Redis.V1Alpha.StartClusterFailoverRequest, global::Yandex.Cloud.Operation.Operation>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "StartFailover",
+        __Marshaller_yandex_cloud_mdb_redis_v1alpha_StartClusterFailoverRequest,
         __Marshaller_yandex_cloud_operation_Operation);
 
     static readonly grpc::Method<global::Yandex.Cloud.Mdb.Redis.V1Alpha.ListClusterLogsRequest, global::Yandex.Cloud.Mdb.Redis.V1Alpha.ListClusterLogsResponse> __Method_ListLogs = new grpc::Method<global::Yandex.Cloud.Mdb.Redis.V1Alpha.ListClusterLogsRequest, global::Yandex.Cloud.Mdb.Redis.V1Alpha.ListClusterLogsResponse>(
@@ -581,8 +589,51 @@ namespace Yandex.Cloud.Mdb.Redis.V1Alpha {
         return CallInvoker.AsyncUnaryCall(__Method_Restore, null, options, request);
       }
       /// <summary>
+      /// Start a manual failover on the specified Redis cluster.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.Operation.Operation StartFailover(global::Yandex.Cloud.Mdb.Redis.V1Alpha.StartClusterFailoverRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return StartFailover(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Start a manual failover on the specified Redis cluster.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.Operation.Operation StartFailover(global::Yandex.Cloud.Mdb.Redis.V1Alpha.StartClusterFailoverRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_StartFailover, null, options, request);
+      }
+      /// <summary>
+      /// Start a manual failover on the specified Redis cluster.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Operation.Operation> StartFailoverAsync(global::Yandex.Cloud.Mdb.Redis.V1Alpha.StartClusterFailoverRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return StartFailoverAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Start a manual failover on the specified Redis cluster.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Operation.Operation> StartFailoverAsync(global::Yandex.Cloud.Mdb.Redis.V1Alpha.StartClusterFailoverRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_StartFailover, null, options, request);
+      }
+      /// <summary>
       /// Retrieves logs for the specified Redis cluster.
-      /// For more information about logs, see the [Logs](/docs/managed-redis/concepts/logs) section in the documentation.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -595,7 +646,6 @@ namespace Yandex.Cloud.Mdb.Redis.V1Alpha {
       }
       /// <summary>
       /// Retrieves logs for the specified Redis cluster.
-      /// For more information about logs, see the [Logs](/docs/managed-redis/concepts/logs) section in the documentation.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
@@ -606,7 +656,6 @@ namespace Yandex.Cloud.Mdb.Redis.V1Alpha {
       }
       /// <summary>
       /// Retrieves logs for the specified Redis cluster.
-      /// For more information about logs, see the [Logs](/docs/managed-redis/concepts/logs) section in the documentation.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -619,7 +668,6 @@ namespace Yandex.Cloud.Mdb.Redis.V1Alpha {
       }
       /// <summary>
       /// Retrieves logs for the specified Redis cluster.
-      /// For more information about logs, see the [Logs](/docs/managed-redis/concepts/logs) section in the documentation.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>

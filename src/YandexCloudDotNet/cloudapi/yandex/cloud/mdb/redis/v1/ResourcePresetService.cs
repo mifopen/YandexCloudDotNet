@@ -27,24 +27,26 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
             "Cjd5YW5kZXgvY2xvdWQvbWRiL3JlZGlzL3YxL3Jlc291cmNlX3ByZXNldF9z",
             "ZXJ2aWNlLnByb3RvEhl5YW5kZXguY2xvdWQubWRiLnJlZGlzLnYxGhxnb29n",
             "bGUvYXBpL2Fubm90YXRpb25zLnByb3RvGi95YW5kZXgvY2xvdWQvbWRiL3Jl",
-            "ZGlzL3YxL3Jlc291cmNlX3ByZXNldC5wcm90byI2ChhHZXRSZXNvdXJjZVBy",
-            "ZXNldFJlcXVlc3QSGgoScmVzb3VyY2VfcHJlc2V0X2lkGAEgASgJIkMKGkxp",
-            "c3RSZXNvdXJjZVByZXNldHNSZXF1ZXN0EhEKCXBhZ2Vfc2l6ZRgCIAEoAxIS",
-            "CgpwYWdlX3Rva2VuGAMgASgJInsKG0xpc3RSZXNvdXJjZVByZXNldHNSZXNw",
-            "b25zZRJDChByZXNvdXJjZV9wcmVzZXRzGAEgAygLMikueWFuZGV4LmNsb3Vk",
-            "Lm1kYi5yZWRpcy52MS5SZXNvdXJjZVByZXNldBIXCg9uZXh0X3BhZ2VfdG9r",
-            "ZW4YAiABKAky4gIKFVJlc291cmNlUHJlc2V0U2VydmljZRKlAQoDR2V0EjMu",
-            "eWFuZGV4LmNsb3VkLm1kYi5yZWRpcy52MS5HZXRSZXNvdXJjZVByZXNldFJl",
-            "cXVlc3QaKS55YW5kZXguY2xvdWQubWRiLnJlZGlzLnYxLlJlc291cmNlUHJl",
-            "c2V0Ij6C0+STAjgSNi9tYW5hZ2VkLXJlZGlzL3YxL3Jlc291cmNlUHJlc2V0",
-            "cy97cmVzb3VyY2VfcHJlc2V0X2lkfRKgAQoETGlzdBI1LnlhbmRleC5jbG91",
-            "ZC5tZGIucmVkaXMudjEuTGlzdFJlc291cmNlUHJlc2V0c1JlcXVlc3QaNi55",
-            "YW5kZXguY2xvdWQubWRiLnJlZGlzLnYxLkxpc3RSZXNvdXJjZVByZXNldHNS",
-            "ZXNwb25zZSIpgtPkkwIjEiEvbWFuYWdlZC1yZWRpcy92MS9yZXNvdXJjZVBy",
-            "ZXNldHNCRVpDZ2l0aHViLmNvbS95YW5kZXgtY2xvdWQvZ28tZ2VucHJvdG8v",
-            "eWFuZGV4L2Nsb3VkL21kYi9yZWRpcy92MTtyZWRpc2IGcHJvdG8z"));
+            "ZGlzL3YxL3Jlc291cmNlX3ByZXNldC5wcm90bxodeWFuZGV4L2Nsb3VkL3Zh",
+            "bGlkYXRpb24ucHJvdG8iPAoYR2V0UmVzb3VyY2VQcmVzZXRSZXF1ZXN0EiAK",
+            "EnJlc291cmNlX3ByZXNldF9pZBgBIAEoCUIE6McxASJDChpMaXN0UmVzb3Vy",
+            "Y2VQcmVzZXRzUmVxdWVzdBIRCglwYWdlX3NpemUYAiABKAMSEgoKcGFnZV90",
+            "b2tlbhgDIAEoCSJ7ChtMaXN0UmVzb3VyY2VQcmVzZXRzUmVzcG9uc2USQwoQ",
+            "cmVzb3VyY2VfcHJlc2V0cxgBIAMoCzIpLnlhbmRleC5jbG91ZC5tZGIucmVk",
+            "aXMudjEuUmVzb3VyY2VQcmVzZXQSFwoPbmV4dF9wYWdlX3Rva2VuGAIgASgJ",
+            "MuICChVSZXNvdXJjZVByZXNldFNlcnZpY2USpQEKA0dldBIzLnlhbmRleC5j",
+            "bG91ZC5tZGIucmVkaXMudjEuR2V0UmVzb3VyY2VQcmVzZXRSZXF1ZXN0Giku",
+            "eWFuZGV4LmNsb3VkLm1kYi5yZWRpcy52MS5SZXNvdXJjZVByZXNldCI+gtPk",
+            "kwI4EjYvbWFuYWdlZC1yZWRpcy92MS9yZXNvdXJjZVByZXNldHMve3Jlc291",
+            "cmNlX3ByZXNldF9pZH0SoAEKBExpc3QSNS55YW5kZXguY2xvdWQubWRiLnJl",
+            "ZGlzLnYxLkxpc3RSZXNvdXJjZVByZXNldHNSZXF1ZXN0GjYueWFuZGV4LmNs",
+            "b3VkLm1kYi5yZWRpcy52MS5MaXN0UmVzb3VyY2VQcmVzZXRzUmVzcG9uc2Ui",
+            "KYLT5JMCIxIhL21hbmFnZWQtcmVkaXMvdjEvcmVzb3VyY2VQcmVzZXRzQmQK",
+            "HXlhbmRleC5jbG91ZC5hcGkubWRiLnJlZGlzLnYxWkNnaXRodWIuY29tL3lh",
+            "bmRleC1jbG91ZC9nby1nZW5wcm90by95YW5kZXgvY2xvdWQvbWRiL3JlZGlz",
+            "L3YxO3JlZGlzYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Yandex.Cloud.Mdb.Redis.V1.ResourcePresetReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Yandex.Cloud.Mdb.Redis.V1.ResourcePresetReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1.GetResourcePresetRequest), global::Yandex.Cloud.Mdb.Redis.V1.GetResourcePresetRequest.Parser, new[]{ "ResourcePresetId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1.ListResourcePresetsRequest), global::Yandex.Cloud.Mdb.Redis.V1.ListResourcePresetsRequest.Parser, new[]{ "PageSize", "PageToken" }, null, null, null),
@@ -93,7 +95,7 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
     public const int ResourcePresetIdFieldNumber = 1;
     private string resourcePresetId_ = "";
     /// <summary>
-    /// Required. ID of the resource preset to return.
+    /// ID of the resource preset to return.
     /// To get the resource preset ID, use a [ResourcePresetService.List] request.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

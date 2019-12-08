@@ -36,9 +36,10 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
             "PD02M/LHMQ1bYS16QS1aMC05X10qEisKCmxjX2NvbGxhdGUYAyABKAlCF/LH",
             "MRN8W2EtekEtWl9dKy5VVEYtOHxDEikKCGxjX2N0eXBlGAQgASgJQhfyxzET",
             "fFthLXpBLVpfXSsuVVRGLTh8QxI9CgpleHRlbnNpb25zGAUgAygLMikueWFu",
-            "ZGV4LmNsb3VkLm1kYi5wb3N0Z3Jlc3FsLnYxLkV4dGVuc2lvbkJPWk1naXRo",
-            "dWIuY29tL3lhbmRleC1jbG91ZC9nby1nZW5wcm90by95YW5kZXgvY2xvdWQv",
-            "bWRiL3Bvc3RncmVzcWwvdjE7cG9zdGdyZXNxbGIGcHJvdG8z"));
+            "ZGV4LmNsb3VkLm1kYi5wb3N0Z3Jlc3FsLnYxLkV4dGVuc2lvbkJzCiJ5YW5k",
+            "ZXguY2xvdWQuYXBpLm1kYi5wb3N0Z3Jlc3FsLnYxWk1naXRodWIuY29tL3lh",
+            "bmRleC1jbG91ZC9nby1nZW5wcm90by95YW5kZXgvY2xvdWQvbWRiL3Bvc3Rn",
+            "cmVzcWwvdjE7cG9zdGdyZXNxbGIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Yandex.Cloud.ValidationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
@@ -376,7 +377,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
     private string name_ = "";
     /// <summary>
     /// Name of the extension, e.g. `pg_trgm` or `pg_btree`.
-    /// Extensions supported by MDB are [listed in the Developer's Guide](/docs/managed-postgresql/concepts).
+    /// Extensions supported by Managed Service for PostgreSQL are [listed in the Developer's Guide](/docs/managed-postgresql/operations/cluster-extensions).
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Name {

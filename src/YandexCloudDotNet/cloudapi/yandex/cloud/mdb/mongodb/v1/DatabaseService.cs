@@ -26,48 +26,49 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
           string.Concat(
             "CjJ5YW5kZXgvY2xvdWQvbWRiL21vbmdvZGIvdjEvZGF0YWJhc2Vfc2Vydmlj",
             "ZS5wcm90bxIbeWFuZGV4LmNsb3VkLm1kYi5tb25nb2RiLnYxGhxnb29nbGUv",
-            "YXBpL2Fubm90YXRpb25zLnByb3RvGhp5YW5kZXgvYXBpL29wZXJhdGlvbi5w",
-            "cm90bxomeWFuZGV4L2Nsb3VkL29wZXJhdGlvbi9vcGVyYXRpb24ucHJvdG8a",
-            "HXlhbmRleC9jbG91ZC92YWxpZGF0aW9uLnByb3RvGip5YW5kZXgvY2xvdWQv",
-            "bWRiL21vbmdvZGIvdjEvZGF0YWJhc2UucHJvdG8ibQoSR2V0RGF0YWJhc2VS",
-            "ZXF1ZXN0EiAKCmNsdXN0ZXJfaWQYASABKAlCDOjHMQGKyDEEPD01MBI1Cg1k",
-            "YXRhYmFzZV9uYW1lGAIgASgJQh7oxzEBisgxBDw9NjPyxzEOW2EtekEtWjAt",
-            "OV8tXSoidgoUTGlzdERhdGFiYXNlc1JlcXVlc3QSIAoKY2x1c3Rlcl9pZBgB",
-            "IAEoCUIM6McxAYrIMQQ8PTUwEh0KCXBhZ2Vfc2l6ZRgCIAEoA0IK+scxBjw9",
-            "MTAwMBIdCgpwYWdlX3Rva2VuGAMgASgJQgmKyDEFPD0xMDAiagoVTGlzdERh",
-            "dGFiYXNlc1Jlc3BvbnNlEjgKCWRhdGFiYXNlcxgBIAMoCzIlLnlhbmRleC5j",
-            "bG91ZC5tZGIubW9uZ29kYi52MS5EYXRhYmFzZRIXCg9uZXh0X3BhZ2VfdG9r",
-            "ZW4YAiABKAkigQEKFUNyZWF0ZURhdGFiYXNlUmVxdWVzdBIgCgpjbHVzdGVy",
-            "X2lkGAEgASgJQgzoxzEBisgxBDw9NTASRgoNZGF0YWJhc2Vfc3BlYxgCIAEo",
-            "CzIpLnlhbmRleC5jbG91ZC5tZGIubW9uZ29kYi52MS5EYXRhYmFzZVNwZWNC",
-            "BOjHMQEiQwoWQ3JlYXRlRGF0YWJhc2VNZXRhZGF0YRISCgpjbHVzdGVyX2lk",
-            "GAEgASgJEhUKDWRhdGFiYXNlX25hbWUYAiABKAkicAoVRGVsZXRlRGF0YWJh",
-            "c2VSZXF1ZXN0EiAKCmNsdXN0ZXJfaWQYASABKAlCDOjHMQGKyDEEPD01MBI1",
-            "Cg1kYXRhYmFzZV9uYW1lGAIgASgJQh7oxzEBisgxBDw9NjPyxzEOW2EtekEt",
-            "WjAtOV8tXSoiQwoWRGVsZXRlRGF0YWJhc2VNZXRhZGF0YRISCgpjbHVzdGVy",
-            "X2lkGAEgASgJEhUKDWRhdGFiYXNlX25hbWUYAiABKAkylQYKD0RhdGFiYXNl",
-            "U2VydmljZRKqAQoDR2V0Ei8ueWFuZGV4LmNsb3VkLm1kYi5tb25nb2RiLnYx",
-            "LkdldERhdGFiYXNlUmVxdWVzdBolLnlhbmRleC5jbG91ZC5tZGIubW9uZ29k",
-            "Yi52MS5EYXRhYmFzZSJLgtPkkwJFEkMvbWFuYWdlZC1tb25nb2RiL3YxL2Ns",
-            "dXN0ZXJzL3tjbHVzdGVyX2lkfS9kYXRhYmFzZXMve2RhdGFiYXNlX25hbWV9",
-            "EqoBCgRMaXN0EjEueWFuZGV4LmNsb3VkLm1kYi5tb25nb2RiLnYxLkxpc3RE",
-            "YXRhYmFzZXNSZXF1ZXN0GjIueWFuZGV4LmNsb3VkLm1kYi5tb25nb2RiLnYx",
-            "Lkxpc3REYXRhYmFzZXNSZXNwb25zZSI7gtPkkwI1EjMvbWFuYWdlZC1tb25n",
-            "b2RiL3YxL2NsdXN0ZXJzL3tjbHVzdGVyX2lkfS9kYXRhYmFzZXMSxQEKBkNy",
-            "ZWF0ZRIyLnlhbmRleC5jbG91ZC5tZGIubW9uZ29kYi52MS5DcmVhdGVEYXRh",
-            "YmFzZVJlcXVlc3QaIS55YW5kZXguY2xvdWQub3BlcmF0aW9uLk9wZXJhdGlv",
-            "biJkgtPkkwI4IjMvbWFuYWdlZC1tb25nb2RiL3YxL2NsdXN0ZXJzL3tjbHVz",
-            "dGVyX2lkfS9kYXRhYmFzZXM6ASqy0ioiChZDcmVhdGVEYXRhYmFzZU1ldGFk",
-            "YXRhEghEYXRhYmFzZRLfAQoGRGVsZXRlEjIueWFuZGV4LmNsb3VkLm1kYi5t",
-            "b25nb2RiLnYxLkRlbGV0ZURhdGFiYXNlUmVxdWVzdBohLnlhbmRleC5jbG91",
-            "ZC5vcGVyYXRpb24uT3BlcmF0aW9uIn6C0+STAkUqQy9tYW5hZ2VkLW1vbmdv",
-            "ZGIvdjEvY2x1c3RlcnMve2NsdXN0ZXJfaWR9L2RhdGFiYXNlcy97ZGF0YWJh",
-            "c2VfbmFtZX2y0iovChZEZWxldGVEYXRhYmFzZU1ldGFkYXRhEhVnb29nbGUu",
-            "cHJvdG9idWYuRW1wdHlCSVpHZ2l0aHViLmNvbS95YW5kZXgtY2xvdWQvZ28t",
-            "Z2VucHJvdG8veWFuZGV4L2Nsb3VkL21kYi9tb25nb2RiL3YxO21vbmdvZGJi",
-            "BnByb3RvMw=="));
+            "YXBpL2Fubm90YXRpb25zLnByb3RvGiB5YW5kZXgvY2xvdWQvYXBpL29wZXJh",
+            "dGlvbi5wcm90bxomeWFuZGV4L2Nsb3VkL29wZXJhdGlvbi9vcGVyYXRpb24u",
+            "cHJvdG8aHXlhbmRleC9jbG91ZC92YWxpZGF0aW9uLnByb3RvGip5YW5kZXgv",
+            "Y2xvdWQvbWRiL21vbmdvZGIvdjEvZGF0YWJhc2UucHJvdG8ibQoSR2V0RGF0",
+            "YWJhc2VSZXF1ZXN0EiAKCmNsdXN0ZXJfaWQYASABKAlCDOjHMQGKyDEEPD01",
+            "MBI1Cg1kYXRhYmFzZV9uYW1lGAIgASgJQh7oxzEBisgxBDw9NjPyxzEOW2Et",
+            "ekEtWjAtOV8tXSoidgoUTGlzdERhdGFiYXNlc1JlcXVlc3QSIAoKY2x1c3Rl",
+            "cl9pZBgBIAEoCUIM6McxAYrIMQQ8PTUwEh0KCXBhZ2Vfc2l6ZRgCIAEoA0IK",
+            "+scxBjw9MTAwMBIdCgpwYWdlX3Rva2VuGAMgASgJQgmKyDEFPD0xMDAiagoV",
+            "TGlzdERhdGFiYXNlc1Jlc3BvbnNlEjgKCWRhdGFiYXNlcxgBIAMoCzIlLnlh",
+            "bmRleC5jbG91ZC5tZGIubW9uZ29kYi52MS5EYXRhYmFzZRIXCg9uZXh0X3Bh",
+            "Z2VfdG9rZW4YAiABKAkigQEKFUNyZWF0ZURhdGFiYXNlUmVxdWVzdBIgCgpj",
+            "bHVzdGVyX2lkGAEgASgJQgzoxzEBisgxBDw9NTASRgoNZGF0YWJhc2Vfc3Bl",
+            "YxgCIAEoCzIpLnlhbmRleC5jbG91ZC5tZGIubW9uZ29kYi52MS5EYXRhYmFz",
+            "ZVNwZWNCBOjHMQEiQwoWQ3JlYXRlRGF0YWJhc2VNZXRhZGF0YRISCgpjbHVz",
+            "dGVyX2lkGAEgASgJEhUKDWRhdGFiYXNlX25hbWUYAiABKAkicAoVRGVsZXRl",
+            "RGF0YWJhc2VSZXF1ZXN0EiAKCmNsdXN0ZXJfaWQYASABKAlCDOjHMQGKyDEE",
+            "PD01MBI1Cg1kYXRhYmFzZV9uYW1lGAIgASgJQh7oxzEBisgxBDw9NjPyxzEO",
+            "W2EtekEtWjAtOV8tXSoiQwoWRGVsZXRlRGF0YWJhc2VNZXRhZGF0YRISCgpj",
+            "bHVzdGVyX2lkGAEgASgJEhUKDWRhdGFiYXNlX25hbWUYAiABKAkylQYKD0Rh",
+            "dGFiYXNlU2VydmljZRKqAQoDR2V0Ei8ueWFuZGV4LmNsb3VkLm1kYi5tb25n",
+            "b2RiLnYxLkdldERhdGFiYXNlUmVxdWVzdBolLnlhbmRleC5jbG91ZC5tZGIu",
+            "bW9uZ29kYi52MS5EYXRhYmFzZSJLgtPkkwJFEkMvbWFuYWdlZC1tb25nb2Ri",
+            "L3YxL2NsdXN0ZXJzL3tjbHVzdGVyX2lkfS9kYXRhYmFzZXMve2RhdGFiYXNl",
+            "X25hbWV9EqoBCgRMaXN0EjEueWFuZGV4LmNsb3VkLm1kYi5tb25nb2RiLnYx",
+            "Lkxpc3REYXRhYmFzZXNSZXF1ZXN0GjIueWFuZGV4LmNsb3VkLm1kYi5tb25n",
+            "b2RiLnYxLkxpc3REYXRhYmFzZXNSZXNwb25zZSI7gtPkkwI1EjMvbWFuYWdl",
+            "ZC1tb25nb2RiL3YxL2NsdXN0ZXJzL3tjbHVzdGVyX2lkfS9kYXRhYmFzZXMS",
+            "xQEKBkNyZWF0ZRIyLnlhbmRleC5jbG91ZC5tZGIubW9uZ29kYi52MS5DcmVh",
+            "dGVEYXRhYmFzZVJlcXVlc3QaIS55YW5kZXguY2xvdWQub3BlcmF0aW9uLk9w",
+            "ZXJhdGlvbiJkgtPkkwI4IjMvbWFuYWdlZC1tb25nb2RiL3YxL2NsdXN0ZXJz",
+            "L3tjbHVzdGVyX2lkfS9kYXRhYmFzZXM6ASqy0ioiChZDcmVhdGVEYXRhYmFz",
+            "ZU1ldGFkYXRhEghEYXRhYmFzZRLfAQoGRGVsZXRlEjIueWFuZGV4LmNsb3Vk",
+            "Lm1kYi5tb25nb2RiLnYxLkRlbGV0ZURhdGFiYXNlUmVxdWVzdBohLnlhbmRl",
+            "eC5jbG91ZC5vcGVyYXRpb24uT3BlcmF0aW9uIn6C0+STAkUqQy9tYW5hZ2Vk",
+            "LW1vbmdvZGIvdjEvY2x1c3RlcnMve2NsdXN0ZXJfaWR9L2RhdGFiYXNlcy97",
+            "ZGF0YWJhc2VfbmFtZX2y0iovChZEZWxldGVEYXRhYmFzZU1ldGFkYXRhEhVn",
+            "b29nbGUucHJvdG9idWYuRW1wdHlCagofeWFuZGV4LmNsb3VkLmFwaS5tZGIu",
+            "bW9uZ29kYi52MVpHZ2l0aHViLmNvbS95YW5kZXgtY2xvdWQvZ28tZ2VucHJv",
+            "dG8veWFuZGV4L2Nsb3VkL21kYi9tb25nb2RiL3YxO21vbmdvZGJiBnByb3Rv",
+            "Mw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Yandex.Api.OperationReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, global::Yandex.Cloud.Mdb.Mongodb.V1.DatabaseReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Yandex.Cloud.Api.OperationReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, global::Yandex.Cloud.Mdb.Mongodb.V1.DatabaseReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.GetDatabaseRequest), global::Yandex.Cloud.Mdb.Mongodb.V1.GetDatabaseRequest.Parser, new[]{ "ClusterId", "DatabaseName" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.ListDatabasesRequest), global::Yandex.Cloud.Mdb.Mongodb.V1.ListDatabasesRequest.Parser, new[]{ "ClusterId", "PageSize", "PageToken" }, null, null, null),
@@ -136,7 +137,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
     public const int DatabaseNameFieldNumber = 2;
     private string databaseName_ = "";
     /// <summary>
-    /// Name of the MongoDB Database resource to return.
+    /// Name of the MongoDB database to return.
     /// To get the name of the database use a [DatabaseService.List] request.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -301,6 +302,11 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
     /// <summary>Field number for the "page_size" field.</summary>
     public const int PageSizeFieldNumber = 2;
     private long pageSize_;
+    /// <summary>
+    /// The maximum number of results per page to return. If the number of available
+    /// results is larger than [page_size], the service returns a [ListDatabasesResponse.next_page_token]
+    /// that can be used to get the next page of results in subsequent list requests.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long PageSize {
       get { return pageSize_; }
@@ -481,7 +487,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
         = pb::FieldCodec.ForMessage(10, global::Yandex.Cloud.Mdb.Mongodb.V1.Database.Parser);
     private readonly pbc::RepeatedField<global::Yandex.Cloud.Mdb.Mongodb.V1.Database> databases_ = new pbc::RepeatedField<global::Yandex.Cloud.Mdb.Mongodb.V1.Database>();
     /// <summary>
-    /// List of MongoDB Database resources.
+    /// List of MongoDB databases.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::RepeatedField<global::Yandex.Cloud.Mdb.Mongodb.V1.Database> Databases {

@@ -42,9 +42,10 @@ namespace Yandex.Cloud.Mdb.Redis.V1Alpha.Config {
             "NV8wEkoKC3VzZXJfY29uZmlnGAIgASgLMjUueWFuZGV4LmNsb3VkLm1kYi5y",
             "ZWRpcy52MWFscGhhLmNvbmZpZy5SZWRpc0NvbmZpZzVfMBJNCg5kZWZhdWx0",
             "X2NvbmZpZxgDIAEoCzI1LnlhbmRleC5jbG91ZC5tZGIucmVkaXMudjFhbHBo",
-            "YS5jb25maWcuUmVkaXNDb25maWc1XzBCUVpPZ2l0aHViLmNvbS95YW5kZXgt",
-            "Y2xvdWQvZ28tZ2VucHJvdG8veWFuZGV4L2Nsb3VkL21kYi9yZWRpcy92MWFs",
-            "cGhhL2NvbmZpZztyZWRpc2IGcHJvdG8z"));
+            "YS5jb25maWcuUmVkaXNDb25maWc1XzBCfAopeWFuZGV4LmNsb3VkLmFwaS5t",
+            "ZGIucmVkaXMudjFhbHBoYS5jb25maWdaT2dpdGh1Yi5jb20veWFuZGV4LWNs",
+            "b3VkL2dvLWdlbnByb3RvL3lhbmRleC9jbG91ZC9tZGIvcmVkaXMvdjFhbHBo",
+            "YS9jb25maWc7cmVkaXNiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.WrappersReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {

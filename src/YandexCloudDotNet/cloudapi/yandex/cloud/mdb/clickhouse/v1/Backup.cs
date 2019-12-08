@@ -30,9 +30,10 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
             "Cglmb2xkZXJfaWQYAiABKAkSLgoKY3JlYXRlZF9hdBgDIAEoCzIaLmdvb2ds",
             "ZS5wcm90b2J1Zi5UaW1lc3RhbXASGQoRc291cmNlX2NsdXN0ZXJfaWQYBCAB",
             "KAkSGgoSc291cmNlX3NoYXJkX25hbWVzGAYgAygJEi4KCnN0YXJ0ZWRfYXQY",
-            "BSABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wQk9aTWdpdGh1Yi5j",
-            "b20veWFuZGV4LWNsb3VkL2dvLWdlbnByb3RvL3lhbmRleC9jbG91ZC9tZGIv",
-            "Y2xpY2tob3VzZS92MTtjbGlja2hvdXNlYgZwcm90bzM="));
+            "BSABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wQnMKInlhbmRleC5j",
+            "bG91ZC5hcGkubWRiLmNsaWNraG91c2UudjFaTWdpdGh1Yi5jb20veWFuZGV4",
+            "LWNsb3VkL2dvLWdlbnByb3RvL3lhbmRleC9jbG91ZC9tZGIvY2xpY2tob3Vz",
+            "ZS92MTtjbGlja2hvdXNlYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {

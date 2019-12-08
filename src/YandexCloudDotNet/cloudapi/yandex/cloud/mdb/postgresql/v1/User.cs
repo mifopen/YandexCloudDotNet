@@ -27,49 +27,55 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
             "Cil5YW5kZXgvY2xvdWQvbWRiL3Bvc3RncmVzcWwvdjEvdXNlci5wcm90bxIe",
             "eWFuZGV4LmNsb3VkLm1kYi5wb3N0Z3Jlc3FsLnYxGh5nb29nbGUvcHJvdG9i",
             "dWYvd3JhcHBlcnMucHJvdG8aHXlhbmRleC9jbG91ZC92YWxpZGF0aW9uLnBy",
-            "b3RvIr0BCgRVc2VyEgwKBG5hbWUYASABKAkSEgoKY2x1c3Rlcl9pZBgCIAEo",
+            "b3RvIpMCCgRVc2VyEgwKBG5hbWUYASABKAkSEgoKY2x1c3Rlcl9pZBgCIAEo",
             "CRI/CgtwZXJtaXNzaW9ucxgDIAMoCzIqLnlhbmRleC5jbG91ZC5tZGIucG9z",
             "dGdyZXNxbC52MS5QZXJtaXNzaW9uEhIKCmNvbm5fbGltaXQYBCABKAMSPgoI",
             "c2V0dGluZ3MYBSABKAsyLC55YW5kZXguY2xvdWQubWRiLnBvc3RncmVzcWwu",
-            "djEuVXNlclNldHRpbmdzIiMKClBlcm1pc3Npb24SFQoNZGF0YWJhc2VfbmFt",
-            "ZRgBIAEoCSKUAgoIVXNlclNwZWMSKwoEbmFtZRgBIAEoCUId6McxAYrIMQQ8",
-            "PTYz8scxDVthLXpBLVowLTlfXSoSHwoIcGFzc3dvcmQYAiABKAlCDejHMQGK",
-            "yDEFOC0xMjgSPwoLcGVybWlzc2lvbnMYAyADKAsyKi55YW5kZXguY2xvdWQu",
-            "bWRiLnBvc3RncmVzcWwudjEuUGVybWlzc2lvbhI5Cgpjb25uX2xpbWl0GAQg",
-            "ASgLMhsuZ29vZ2xlLnByb3RvYnVmLkludDY0VmFsdWVCCPrHMQQ+PTEwEj4K",
-            "CHNldHRpbmdzGAUgASgLMiwueWFuZGV4LmNsb3VkLm1kYi5wb3N0Z3Jlc3Fs",
-            "LnYxLlVzZXJTZXR0aW5ncyLNBwoMVXNlclNldHRpbmdzEmgKHWRlZmF1bHRf",
-            "dHJhbnNhY3Rpb25faXNvbGF0aW9uGAEgASgOMkEueWFuZGV4LmNsb3VkLm1k",
-            "Yi5wb3N0Z3Jlc3FsLnYxLlVzZXJTZXR0aW5ncy5UcmFuc2FjdGlvbklzb2xh",
-            "dGlvbhIxCgxsb2NrX3RpbWVvdXQYAiABKAsyGy5nb29nbGUucHJvdG9idWYu",
-            "SW50NjRWYWx1ZRI/Chpsb2dfbWluX2R1cmF0aW9uX3N0YXRlbWVudBgDIAEo",
-            "CzIbLmdvb2dsZS5wcm90b2J1Zi5JbnQ2NFZhbHVlEloKEnN5bmNocm9ub3Vz",
-            "X2NvbW1pdBgEIAEoDjI+LnlhbmRleC5jbG91ZC5tZGIucG9zdGdyZXNxbC52",
-            "MS5Vc2VyU2V0dGluZ3MuU3luY2hyb25vdXNDb21taXQSNAoPdGVtcF9maWxl",
-            "X2xpbWl0GAUgASgLMhsuZ29vZ2xlLnByb3RvYnVmLkludDY0VmFsdWUi1gEK",
-            "EVN5bmNocm9ub3VzQ29tbWl0EiIKHlNZTkNIUk9OT1VTX0NPTU1JVF9VTlNQ",
-            "RUNJRklFRBAAEhkKFVNZTkNIUk9OT1VTX0NPTU1JVF9PThABEhoKFlNZTkNI",
-            "Uk9OT1VTX0NPTU1JVF9PRkYQAhIcChhTWU5DSFJPTk9VU19DT01NSVRfTE9D",
-            "QUwQAxIjCh9TWU5DSFJPTk9VU19DT01NSVRfUkVNT1RFX1dSSVRFEAQSIwof",
-            "U1lOQ0hST05PVVNfQ09NTUlUX1JFTU9URV9BUFBMWRAFIooBCgxMb2dTdGF0",
-            "ZW1lbnQSHQoZTE9HX1NUQVRFTUVOVF9VTlNQRUNJRklFRBAAEhYKEkxPR19T",
-            "VEFURU1FTlRfTk9ORRABEhUKEUxPR19TVEFURU1FTlRfRERMEAISFQoRTE9H",
-            "X1NUQVRFTUVOVF9NT0QQAxIVChFMT0dfU1RBVEVNRU5UX0FMTBAEIuYBChRU",
-            "cmFuc2FjdGlvbklzb2xhdGlvbhIlCiFUUkFOU0FDVElPTl9JU09MQVRJT05f",
-            "VU5TUEVDSUZJRUQQABIqCiZUUkFOU0FDVElPTl9JU09MQVRJT05fUkVBRF9V",
-            "TkNPTU1JVFRFRBABEigKJFRSQU5TQUNUSU9OX0lTT0xBVElPTl9SRUFEX0NP",
-            "TU1JVFRFRBACEikKJVRSQU5TQUNUSU9OX0lTT0xBVElPTl9SRVBFQVRBQkxF",
-            "X1JFQUQQAxImCiJUUkFOU0FDVElPTl9JU09MQVRJT05fU0VSSUFMSVpBQkxF",
-            "EARCT1pNZ2l0aHViLmNvbS95YW5kZXgtY2xvdWQvZ28tZ2VucHJvdG8veWFu",
-            "ZGV4L2Nsb3VkL21kYi9wb3N0Z3Jlc3FsL3YxO3Bvc3RncmVzcWxiBnByb3Rv",
-            "Mw=="));
+            "djEuVXNlclNldHRpbmdzEikKBWxvZ2luGAYgASgLMhouZ29vZ2xlLnByb3Rv",
+            "YnVmLkJvb2xWYWx1ZRIpCgZncmFudHMYByADKAlCGYrIMQQ8PTYz8scxDVth",
+            "LXpBLVowLTlfXSoiIwoKUGVybWlzc2lvbhIVCg1kYXRhYmFzZV9uYW1lGAEg",
+            "ASgJIuoCCghVc2VyU3BlYxIrCgRuYW1lGAEgASgJQh3oxzEBisgxBDw9NjPy",
+            "xzENW2EtekEtWjAtOV9dKhIfCghwYXNzd29yZBgCIAEoCUIN6McxAYrIMQU4",
+            "LTEyOBI/CgtwZXJtaXNzaW9ucxgDIAMoCzIqLnlhbmRleC5jbG91ZC5tZGIu",
+            "cG9zdGdyZXNxbC52MS5QZXJtaXNzaW9uEjkKCmNvbm5fbGltaXQYBCABKAsy",
+            "Gy5nb29nbGUucHJvdG9idWYuSW50NjRWYWx1ZUII+scxBD49MTASPgoIc2V0",
+            "dGluZ3MYBSABKAsyLC55YW5kZXguY2xvdWQubWRiLnBvc3RncmVzcWwudjEu",
+            "VXNlclNldHRpbmdzEikKBWxvZ2luGAYgASgLMhouZ29vZ2xlLnByb3RvYnVm",
+            "LkJvb2xWYWx1ZRIpCgZncmFudHMYByADKAlCGYrIMQQ8PTYz8scxDVthLXpB",
+            "LVowLTlfXSoinwgKDFVzZXJTZXR0aW5ncxJoCh1kZWZhdWx0X3RyYW5zYWN0",
+            "aW9uX2lzb2xhdGlvbhgBIAEoDjJBLnlhbmRleC5jbG91ZC5tZGIucG9zdGdy",
+            "ZXNxbC52MS5Vc2VyU2V0dGluZ3MuVHJhbnNhY3Rpb25Jc29sYXRpb24SMQoM",
+            "bG9ja190aW1lb3V0GAIgASgLMhsuZ29vZ2xlLnByb3RvYnVmLkludDY0VmFs",
+            "dWUSPwoabG9nX21pbl9kdXJhdGlvbl9zdGF0ZW1lbnQYAyABKAsyGy5nb29n",
+            "bGUucHJvdG9idWYuSW50NjRWYWx1ZRJaChJzeW5jaHJvbm91c19jb21taXQY",
+            "BCABKA4yPi55YW5kZXguY2xvdWQubWRiLnBvc3RncmVzcWwudjEuVXNlclNl",
+            "dHRpbmdzLlN5bmNocm9ub3VzQ29tbWl0EjQKD3RlbXBfZmlsZV9saW1pdBgF",
+            "IAEoCzIbLmdvb2dsZS5wcm90b2J1Zi5JbnQ2NFZhbHVlElAKDWxvZ19zdGF0",
+            "ZW1lbnQYBiABKA4yOS55YW5kZXguY2xvdWQubWRiLnBvc3RncmVzcWwudjEu",
+            "VXNlclNldHRpbmdzLkxvZ1N0YXRlbWVudCLWAQoRU3luY2hyb25vdXNDb21t",
+            "aXQSIgoeU1lOQ0hST05PVVNfQ09NTUlUX1VOU1BFQ0lGSUVEEAASGQoVU1lO",
+            "Q0hST05PVVNfQ09NTUlUX09OEAESGgoWU1lOQ0hST05PVVNfQ09NTUlUX09G",
+            "RhACEhwKGFNZTkNIUk9OT1VTX0NPTU1JVF9MT0NBTBADEiMKH1NZTkNIUk9O",
+            "T1VTX0NPTU1JVF9SRU1PVEVfV1JJVEUQBBIjCh9TWU5DSFJPTk9VU19DT01N",
+            "SVRfUkVNT1RFX0FQUExZEAUiigEKDExvZ1N0YXRlbWVudBIdChlMT0dfU1RB",
+            "VEVNRU5UX1VOU1BFQ0lGSUVEEAASFgoSTE9HX1NUQVRFTUVOVF9OT05FEAES",
+            "FQoRTE9HX1NUQVRFTUVOVF9EREwQAhIVChFMT0dfU1RBVEVNRU5UX01PRBAD",
+            "EhUKEUxPR19TVEFURU1FTlRfQUxMEAQi5gEKFFRyYW5zYWN0aW9uSXNvbGF0",
+            "aW9uEiUKIVRSQU5TQUNUSU9OX0lTT0xBVElPTl9VTlNQRUNJRklFRBAAEioK",
+            "JlRSQU5TQUNUSU9OX0lTT0xBVElPTl9SRUFEX1VOQ09NTUlUVEVEEAESKAok",
+            "VFJBTlNBQ1RJT05fSVNPTEFUSU9OX1JFQURfQ09NTUlUVEVEEAISKQolVFJB",
+            "TlNBQ1RJT05fSVNPTEFUSU9OX1JFUEVBVEFCTEVfUkVBRBADEiYKIlRSQU5T",
+            "QUNUSU9OX0lTT0xBVElPTl9TRVJJQUxJWkFCTEUQBEJzCiJ5YW5kZXguY2xv",
+            "dWQuYXBpLm1kYi5wb3N0Z3Jlc3FsLnYxWk1naXRodWIuY29tL3lhbmRleC1j",
+            "bG91ZC9nby1nZW5wcm90by95YW5kZXgvY2xvdWQvbWRiL3Bvc3RncmVzcWwv",
+            "djE7cG9zdGdyZXNxbGIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.WrappersReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.User), global::Yandex.Cloud.Mdb.Postgresql.V1.User.Parser, new[]{ "Name", "ClusterId", "Permissions", "ConnLimit", "Settings" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.User), global::Yandex.Cloud.Mdb.Postgresql.V1.User.Parser, new[]{ "Name", "ClusterId", "Permissions", "ConnLimit", "Settings", "Login", "Grants" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Permission), global::Yandex.Cloud.Mdb.Postgresql.V1.Permission.Parser, new[]{ "DatabaseName" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.UserSpec), global::Yandex.Cloud.Mdb.Postgresql.V1.UserSpec.Parser, new[]{ "Name", "Password", "Permissions", "ConnLimit", "Settings" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.UserSettings), global::Yandex.Cloud.Mdb.Postgresql.V1.UserSettings.Parser, new[]{ "DefaultTransactionIsolation", "LockTimeout", "LogMinDurationStatement", "SynchronousCommit", "TempFileLimit" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.UserSettings.Types.SynchronousCommit), typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.UserSettings.Types.LogStatement), typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.UserSettings.Types.TransactionIsolation) }, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.UserSpec), global::Yandex.Cloud.Mdb.Postgresql.V1.UserSpec.Parser, new[]{ "Name", "Password", "Permissions", "ConnLimit", "Settings", "Login", "Grants" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.UserSettings), global::Yandex.Cloud.Mdb.Postgresql.V1.UserSettings.Parser, new[]{ "DefaultTransactionIsolation", "LockTimeout", "LogMinDurationStatement", "SynchronousCommit", "TempFileLimit", "LogStatement" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.UserSettings.Types.SynchronousCommit), typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.UserSettings.Types.LogStatement), typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.UserSettings.Types.TransactionIsolation) }, null)
           }));
     }
     #endregion
@@ -110,6 +116,8 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
       permissions_ = other.permissions_.Clone();
       connLimit_ = other.connLimit_;
       settings_ = other.settings_ != null ? other.settings_.Clone() : null;
+      Login = other.Login;
+      grants_ = other.grants_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -187,6 +195,35 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
       }
     }
 
+    /// <summary>Field number for the "login" field.</summary>
+    public const int LoginFieldNumber = 6;
+    private static readonly pb::FieldCodec<bool?> _single_login_codec = pb::FieldCodec.ForStructWrapper<bool>(50);
+    private bool? login_;
+    /// <summary>
+    /// User can login (default True)
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool? Login {
+      get { return login_; }
+      set {
+        login_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "grants" field.</summary>
+    public const int GrantsFieldNumber = 7;
+    private static readonly pb::FieldCodec<string> _repeated_grants_codec
+        = pb::FieldCodec.ForString(58);
+    private readonly pbc::RepeatedField<string> grants_ = new pbc::RepeatedField<string>();
+    /// <summary>
+    /// User grants (GRANT &lt;role> TO &lt;user>), role must be other user
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<string> Grants {
+      get { return grants_; }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as User);
@@ -205,6 +242,8 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
       if(!permissions_.Equals(other.permissions_)) return false;
       if (ConnLimit != other.ConnLimit) return false;
       if (!object.Equals(Settings, other.Settings)) return false;
+      if (Login != other.Login) return false;
+      if(!grants_.Equals(other.grants_)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -216,6 +255,8 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
       hash ^= permissions_.GetHashCode();
       if (ConnLimit != 0L) hash ^= ConnLimit.GetHashCode();
       if (settings_ != null) hash ^= Settings.GetHashCode();
+      if (login_ != null) hash ^= Login.GetHashCode();
+      hash ^= grants_.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -246,6 +287,10 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
         output.WriteRawTag(42);
         output.WriteMessage(Settings);
       }
+      if (login_ != null) {
+        _single_login_codec.WriteTagAndValue(output, Login);
+      }
+      grants_.WriteTo(output, _repeated_grants_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -267,6 +312,10 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
       if (settings_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(Settings);
       }
+      if (login_ != null) {
+        size += _single_login_codec.CalculateSizeWithTag(Login);
+      }
+      size += grants_.CalculateSize(_repeated_grants_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -294,6 +343,12 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
         }
         Settings.MergeFrom(other.Settings);
       }
+      if (other.login_ != null) {
+        if (login_ == null || other.Login != false) {
+          Login = other.Login;
+        }
+      }
+      grants_.Add(other.grants_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -326,6 +381,17 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
               Settings = new global::Yandex.Cloud.Mdb.Postgresql.V1.UserSettings();
             }
             input.ReadMessage(Settings);
+            break;
+          }
+          case 50: {
+            bool? value = _single_login_codec.Read(input);
+            if (login_ == null || value != false) {
+              Login = value;
+            }
+            break;
+          }
+          case 58: {
+            grants_.AddEntriesFrom(input, _repeated_grants_codec);
             break;
           }
         }
@@ -496,6 +562,8 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
       permissions_ = other.permissions_.Clone();
       ConnLimit = other.ConnLimit;
       settings_ = other.settings_ != null ? other.settings_.Clone() : null;
+      Login = other.Login;
+      grants_ = other.grants_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -575,6 +643,35 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
       }
     }
 
+    /// <summary>Field number for the "login" field.</summary>
+    public const int LoginFieldNumber = 6;
+    private static readonly pb::FieldCodec<bool?> _single_login_codec = pb::FieldCodec.ForStructWrapper<bool>(50);
+    private bool? login_;
+    /// <summary>
+    /// User can login (default True)
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool? Login {
+      get { return login_; }
+      set {
+        login_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "grants" field.</summary>
+    public const int GrantsFieldNumber = 7;
+    private static readonly pb::FieldCodec<string> _repeated_grants_codec
+        = pb::FieldCodec.ForString(58);
+    private readonly pbc::RepeatedField<string> grants_ = new pbc::RepeatedField<string>();
+    /// <summary>
+    /// User grants (GRANT &lt;role> TO &lt;user>), role must be other user
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<string> Grants {
+      get { return grants_; }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as UserSpec);
@@ -593,6 +690,8 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
       if(!permissions_.Equals(other.permissions_)) return false;
       if (ConnLimit != other.ConnLimit) return false;
       if (!object.Equals(Settings, other.Settings)) return false;
+      if (Login != other.Login) return false;
+      if(!grants_.Equals(other.grants_)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -604,6 +703,8 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
       hash ^= permissions_.GetHashCode();
       if (connLimit_ != null) hash ^= ConnLimit.GetHashCode();
       if (settings_ != null) hash ^= Settings.GetHashCode();
+      if (login_ != null) hash ^= Login.GetHashCode();
+      hash ^= grants_.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -633,6 +734,10 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
         output.WriteRawTag(42);
         output.WriteMessage(Settings);
       }
+      if (login_ != null) {
+        _single_login_codec.WriteTagAndValue(output, Login);
+      }
+      grants_.WriteTo(output, _repeated_grants_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -654,6 +759,10 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
       if (settings_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(Settings);
       }
+      if (login_ != null) {
+        size += _single_login_codec.CalculateSizeWithTag(Login);
+      }
+      size += grants_.CalculateSize(_repeated_grants_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -683,6 +792,12 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
         }
         Settings.MergeFrom(other.Settings);
       }
+      if (other.login_ != null) {
+        if (login_ == null || other.Login != false) {
+          Login = other.Login;
+        }
+      }
+      grants_.Add(other.grants_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -718,6 +833,17 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
               Settings = new global::Yandex.Cloud.Mdb.Postgresql.V1.UserSettings();
             }
             input.ReadMessage(Settings);
+            break;
+          }
+          case 50: {
+            bool? value = _single_login_codec.Read(input);
+            if (login_ == null || value != false) {
+              Login = value;
+            }
+            break;
+          }
+          case 58: {
+            grants_.AddEntriesFrom(input, _repeated_grants_codec);
             break;
           }
         }
@@ -759,6 +885,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
       LogMinDurationStatement = other.LogMinDurationStatement;
       synchronousCommit_ = other.synchronousCommit_;
       TempFileLimit = other.TempFileLimit;
+      logStatement_ = other.logStatement_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -837,6 +964,17 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
     }
 
 
+    /// <summary>Field number for the "log_statement" field.</summary>
+    public const int LogStatementFieldNumber = 6;
+    private global::Yandex.Cloud.Mdb.Postgresql.V1.UserSettings.Types.LogStatement logStatement_ = 0;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Mdb.Postgresql.V1.UserSettings.Types.LogStatement LogStatement {
+      get { return logStatement_; }
+      set {
+        logStatement_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as UserSettings);
@@ -855,6 +993,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
       if (LogMinDurationStatement != other.LogMinDurationStatement) return false;
       if (SynchronousCommit != other.SynchronousCommit) return false;
       if (TempFileLimit != other.TempFileLimit) return false;
+      if (LogStatement != other.LogStatement) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -866,6 +1005,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
       if (logMinDurationStatement_ != null) hash ^= LogMinDurationStatement.GetHashCode();
       if (SynchronousCommit != 0) hash ^= SynchronousCommit.GetHashCode();
       if (tempFileLimit_ != null) hash ^= TempFileLimit.GetHashCode();
+      if (LogStatement != 0) hash ^= LogStatement.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -896,6 +1036,10 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
       if (tempFileLimit_ != null) {
         _single_tempFileLimit_codec.WriteTagAndValue(output, TempFileLimit);
       }
+      if (LogStatement != 0) {
+        output.WriteRawTag(48);
+        output.WriteEnum((int) LogStatement);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -918,6 +1062,9 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
       }
       if (tempFileLimit_ != null) {
         size += _single_tempFileLimit_codec.CalculateSizeWithTag(TempFileLimit);
+      }
+      if (LogStatement != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) LogStatement);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -950,6 +1097,9 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
         if (tempFileLimit_ == null || other.TempFileLimit != 0L) {
           TempFileLimit = other.TempFileLimit;
         }
+      }
+      if (other.LogStatement != 0) {
+        LogStatement = other.LogStatement;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -989,6 +1139,10 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
             if (tempFileLimit_ == null || value != 0L) {
               TempFileLimit = value;
             }
+            break;
+          }
+          case 48: {
+            LogStatement = (global::Yandex.Cloud.Mdb.Postgresql.V1.UserSettings.Types.LogStatement) input.ReadEnum();
             break;
           }
         }

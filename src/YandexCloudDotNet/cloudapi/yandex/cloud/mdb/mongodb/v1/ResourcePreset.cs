@@ -27,9 +27,10 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
             "CjF5YW5kZXgvY2xvdWQvbWRiL21vbmdvZGIvdjEvcmVzb3VyY2VfcHJlc2V0",
             "LnByb3RvEht5YW5kZXguY2xvdWQubWRiLm1vbmdvZGIudjEiTQoOUmVzb3Vy",
             "Y2VQcmVzZXQSCgoCaWQYASABKAkSEAoIem9uZV9pZHMYAiADKAkSDQoFY29y",
-            "ZXMYAyABKAMSDgoGbWVtb3J5GAQgASgDQklaR2dpdGh1Yi5jb20veWFuZGV4",
-            "LWNsb3VkL2dvLWdlbnByb3RvL3lhbmRleC9jbG91ZC9tZGIvbW9uZ29kYi92",
-            "MTttb25nb2RiYgZwcm90bzM="));
+            "ZXMYAyABKAMSDgoGbWVtb3J5GAQgASgDQmoKH3lhbmRleC5jbG91ZC5hcGku",
+            "bWRiLm1vbmdvZGIudjFaR2dpdGh1Yi5jb20veWFuZGV4LWNsb3VkL2dvLWdl",
+            "bnByb3RvL3lhbmRleC9jbG91ZC9tZGIvbW9uZ29kYi92MTttb25nb2RiYgZw",
+            "cm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {

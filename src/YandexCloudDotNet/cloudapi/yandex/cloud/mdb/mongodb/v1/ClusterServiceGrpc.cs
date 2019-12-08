@@ -676,7 +676,6 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
       }
       /// <summary>
       /// Retrieves logs for the specified MongoDB cluster.
-      /// See the [Logs](/docs/yandex-mdb-guide/concepts/logs) section in the developers guide for detailed logs description.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -689,7 +688,6 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
       }
       /// <summary>
       /// Retrieves logs for the specified MongoDB cluster.
-      /// See the [Logs](/docs/yandex-mdb-guide/concepts/logs) section in the developers guide for detailed logs description.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
@@ -700,7 +698,6 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
       }
       /// <summary>
       /// Retrieves logs for the specified MongoDB cluster.
-      /// See the [Logs](/docs/yandex-mdb-guide/concepts/logs) section in the developers guide for detailed logs description.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -713,7 +710,6 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
       }
       /// <summary>
       /// Retrieves logs for the specified MongoDB cluster.
-      /// See the [Logs](/docs/yandex-mdb-guide/concepts/logs) section in the developers guide for detailed logs description.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
@@ -943,7 +939,8 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
         return CallInvoker.AsyncUnaryCall(__Method_DeleteHosts, null, options, request);
       }
       /// <summary>
-      /// Enables sharding for the cluster.
+      /// Enables sharding for the cluster: creates 3 mongocfg and 2 mongos hosts
+      /// that would support adding and using shards in the cluster.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -955,7 +952,8 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
         return EnableSharding(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// Enables sharding for the cluster.
+      /// Enables sharding for the cluster: creates 3 mongocfg and 2 mongos hosts
+      /// that would support adding and using shards in the cluster.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
@@ -965,7 +963,8 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
         return CallInvoker.BlockingUnaryCall(__Method_EnableSharding, null, options, request);
       }
       /// <summary>
-      /// Enables sharding for the cluster.
+      /// Enables sharding for the cluster: creates 3 mongocfg and 2 mongos hosts
+      /// that would support adding and using shards in the cluster.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -977,7 +976,8 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
         return EnableShardingAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// Enables sharding for the cluster.
+      /// Enables sharding for the cluster: creates 3 mongocfg and 2 mongos hosts
+      /// that would support adding and using shards in the cluster.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>

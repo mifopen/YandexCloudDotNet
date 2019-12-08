@@ -43,9 +43,10 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
             "aXN0EjoueWFuZGV4LmNsb3VkLm1kYi5wb3N0Z3Jlc3FsLnYxLkxpc3RSZXNv",
             "dXJjZVByZXNldHNSZXF1ZXN0GjsueWFuZGV4LmNsb3VkLm1kYi5wb3N0Z3Jl",
             "c3FsLnYxLkxpc3RSZXNvdXJjZVByZXNldHNSZXNwb25zZSIugtPkkwIoEiYv",
-            "bWFuYWdlZC1wb3N0Z3Jlc3FsL3YxL3Jlc291cmNlUHJlc2V0c0JPWk1naXRo",
-            "dWIuY29tL3lhbmRleC1jbG91ZC9nby1nZW5wcm90by95YW5kZXgvY2xvdWQv",
-            "bWRiL3Bvc3RncmVzcWwvdjE7cG9zdGdyZXNxbGIGcHJvdG8z"));
+            "bWFuYWdlZC1wb3N0Z3Jlc3FsL3YxL3Jlc291cmNlUHJlc2V0c0JzCiJ5YW5k",
+            "ZXguY2xvdWQuYXBpLm1kYi5wb3N0Z3Jlc3FsLnYxWk1naXRodWIuY29tL3lh",
+            "bmRleC1jbG91ZC9nby1nZW5wcm90by95YW5kZXgvY2xvdWQvbWRiL3Bvc3Rn",
+            "cmVzcWwvdjE7cG9zdGdyZXNxbGIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, global::Yandex.Cloud.Mdb.Postgresql.V1.ResourcePresetReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
@@ -96,7 +97,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
     public const int ResourcePresetIdFieldNumber = 1;
     private string resourcePresetId_ = "";
     /// <summary>
-    /// Required. ID of the resource preset to return.
+    /// ID of the resource preset to return.
     /// To get the resource preset ID, use a [ResourcePresetService.List] request.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

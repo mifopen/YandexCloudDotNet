@@ -29,26 +29,26 @@ namespace Yandex.Cloud.Access {
             "U3ViamVjdBIUCgJpZBgBIAEoCUIIisgxBDw9NTASDAoEdHlwZRgCIAEoCSJf",
             "Cg1BY2Nlc3NCaW5kaW5nEhkKB3JvbGVfaWQYASABKAlCCIrIMQQ8PTUwEjMK",
             "B3N1YmplY3QYAiABKAsyHC55YW5kZXguY2xvdWQuYWNjZXNzLlN1YmplY3RC",
-            "BOjHMQEifAoZTGlzdEFjY2Vzc0JpbmRpbmdzUmVxdWVzdBIhCgtyZXNvdXJj",
-            "ZV9pZBgBIAEoCUIM6McxAYrIMQQ8PTUwEh0KCXBhZ2Vfc2l6ZRgCIAEoA0IK",
-            "+scxBjw9MTAwMBIdCgpwYWdlX3Rva2VuGAMgASgJQgmKyDEFPD0xMDAicgoa",
-            "TGlzdEFjY2Vzc0JpbmRpbmdzUmVzcG9uc2USOwoPYWNjZXNzX2JpbmRpbmdz",
-            "GAEgAygLMiIueWFuZGV4LmNsb3VkLmFjY2Vzcy5BY2Nlc3NCaW5kaW5nEhcK",
-            "D25leHRfcGFnZV90b2tlbhgCIAEoCSKAAQoYU2V0QWNjZXNzQmluZGluZ3NS",
-            "ZXF1ZXN0EiEKC3Jlc291cmNlX2lkGAEgASgJQgzoxzEBisgxBDw9NTASQQoP",
-            "YWNjZXNzX2JpbmRpbmdzGAIgAygLMiIueWFuZGV4LmNsb3VkLmFjY2Vzcy5B",
-            "Y2Nlc3NCaW5kaW5nQgToxzEBIjAKGVNldEFjY2Vzc0JpbmRpbmdzTWV0YWRh",
-            "dGESEwoLcmVzb3VyY2VfaWQYASABKAkijgEKG1VwZGF0ZUFjY2Vzc0JpbmRp",
-            "bmdzUmVxdWVzdBIhCgtyZXNvdXJjZV9pZBgBIAEoCUIM6McxAYrIMQQ8PTUw",
-            "EkwKFWFjY2Vzc19iaW5kaW5nX2RlbHRhcxgCIAMoCzInLnlhbmRleC5jbG91",
-            "ZC5hY2Nlc3MuQWNjZXNzQmluZGluZ0RlbHRhQgToxzEBIjMKHFVwZGF0ZUFj",
-            "Y2Vzc0JpbmRpbmdzTWV0YWRhdGESEwoLcmVzb3VyY2VfaWQYASABKAkilgEK",
-            "EkFjY2Vzc0JpbmRpbmdEZWx0YRI+CgZhY3Rpb24YASABKA4yKC55YW5kZXgu",
-            "Y2xvdWQuYWNjZXNzLkFjY2Vzc0JpbmRpbmdBY3Rpb25CBOjHMQESQAoOYWNj",
-            "ZXNzX2JpbmRpbmcYAiABKAsyIi55YW5kZXguY2xvdWQuYWNjZXNzLkFjY2Vz",
-            "c0JpbmRpbmdCBOjHMQEqUQoTQWNjZXNzQmluZGluZ0FjdGlvbhIlCiFBQ0NF",
-            "U1NfQklORElOR19BQ1RJT05fVU5TUEVDSUZJRUQQABIHCgNBREQQARIKCgZS",
-            "RU1PVkUQAkJAWj5naXRodWIuY29tL3lhbmRleC1jbG91ZC9nby1nZW5wcm90",
+            "BOjHMQEidAoZTGlzdEFjY2Vzc0JpbmRpbmdzUmVxdWVzdBIZCgtyZXNvdXJj",
+            "ZV9pZBgBIAEoCUIE6McxARIdCglwYWdlX3NpemUYAiABKANCCvrHMQY8PTEw",
+            "MDASHQoKcGFnZV90b2tlbhgDIAEoCUIJisgxBTw9MTAwInIKGkxpc3RBY2Nl",
+            "c3NCaW5kaW5nc1Jlc3BvbnNlEjsKD2FjY2Vzc19iaW5kaW5ncxgBIAMoCzIi",
+            "LnlhbmRleC5jbG91ZC5hY2Nlc3MuQWNjZXNzQmluZGluZxIXCg9uZXh0X3Bh",
+            "Z2VfdG9rZW4YAiABKAkieAoYU2V0QWNjZXNzQmluZGluZ3NSZXF1ZXN0EhkK",
+            "C3Jlc291cmNlX2lkGAEgASgJQgToxzEBEkEKD2FjY2Vzc19iaW5kaW5ncxgC",
+            "IAMoCzIiLnlhbmRleC5jbG91ZC5hY2Nlc3MuQWNjZXNzQmluZGluZ0IE6Mcx",
+            "ASIwChlTZXRBY2Nlc3NCaW5kaW5nc01ldGFkYXRhEhMKC3Jlc291cmNlX2lk",
+            "GAEgASgJIoYBChtVcGRhdGVBY2Nlc3NCaW5kaW5nc1JlcXVlc3QSGQoLcmVz",
+            "b3VyY2VfaWQYASABKAlCBOjHMQESTAoVYWNjZXNzX2JpbmRpbmdfZGVsdGFz",
+            "GAIgAygLMicueWFuZGV4LmNsb3VkLmFjY2Vzcy5BY2Nlc3NCaW5kaW5nRGVs",
+            "dGFCBOjHMQEiMwocVXBkYXRlQWNjZXNzQmluZGluZ3NNZXRhZGF0YRITCgty",
+            "ZXNvdXJjZV9pZBgBIAEoCSKWAQoSQWNjZXNzQmluZGluZ0RlbHRhEj4KBmFj",
+            "dGlvbhgBIAEoDjIoLnlhbmRleC5jbG91ZC5hY2Nlc3MuQWNjZXNzQmluZGlu",
+            "Z0FjdGlvbkIE6McxARJACg5hY2Nlc3NfYmluZGluZxgCIAEoCzIiLnlhbmRl",
+            "eC5jbG91ZC5hY2Nlc3MuQWNjZXNzQmluZGluZ0IE6McxASpRChNBY2Nlc3NC",
+            "aW5kaW5nQWN0aW9uEiUKIUFDQ0VTU19CSU5ESU5HX0FDVElPTl9VTlNQRUNJ",
+            "RklFRBAAEgcKA0FERBABEgoKBlJFTU9WRRACQlkKF3lhbmRleC5jbG91ZC5h",
+            "cGkuYWNjZXNzWj5naXRodWIuY29tL3lhbmRleC1jbG91ZC9nby1nZW5wcm90",
             "by95YW5kZXgvY2xvdWQvYWNjZXNzO2FjY2Vzc2IGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Yandex.Cloud.ValidationReflection.Descriptor, },
@@ -127,7 +127,8 @@ namespace Yandex.Cloud.Access {
     /// It can contain one of the following values:
     /// * `allAuthenticatedUsers`: A special system identifier that represents anyone
     ///    who is authenticated. It can be used only if the [type] is `system`.
-    ///
+    /// * `allUsers`: A special system identifier that represents anyone. No authentication is required.
+    ///    For example, you don't need to specify the IAM token in an API query.
     /// * `&lt;cloud generated id>`: An identifier that represents a user account.
     ///    It can be used only if the [type] is `userAccount` or `serviceAccount`.
     /// </summary>
@@ -146,9 +147,10 @@ namespace Yandex.Cloud.Access {
     /// Type of the subject.
     ///
     /// It can contain one of the following values:
-    /// * `system`: System group. This type represents several accounts with a common system identifier.
-    /// * `userAccount`: An user account (for example, "alice.the.girl@yandex.ru"). This type represents the [yandex.cloud.iam.v1.UserAccount] resource.
+    /// * `userAccount`: An account on Yandex or [Yandex.Connect](https://connect.yandex.com), added to Yandex.Cloud.
     /// * `serviceAccount`: A service account. This type represents the [yandex.cloud.iam.v1.ServiceAccount] resource.
+    /// * `federatedUser`: A federated account. This type represents a user from an identity federation, like Active Directory.
+    /// * `system`: System group. This type represents several accounts with a common system identifier.
     ///
     /// For more information, see [Subject to which the role is assigned](/docs/iam/concepts/access-control/#subject).
     /// </summary>

@@ -27,7 +27,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1.Config {
             "Cjl5YW5kZXgvY2xvdWQvbWRiL3Bvc3RncmVzcWwvdjEvY29uZmlnL3Bvc3Rn",
             "cmVzcWw5XzYucHJvdG8SJXlhbmRleC5jbG91ZC5tZGIucG9zdGdyZXNxbC52",
             "MS5jb25maWcaHmdvb2dsZS9wcm90b2J1Zi93cmFwcGVycy5wcm90bxodeWFu",
-            "ZGV4L2Nsb3VkL3ZhbGlkYXRpb24ucHJvdG8iqTgKE1Bvc3RncmVzcWxDb25m",
+            "ZGV4L2Nsb3VkL3ZhbGlkYXRpb24ucHJvdG8iwzkKE1Bvc3RncmVzcWxDb25m",
             "aWc5XzYSNAoPbWF4X2Nvbm5lY3Rpb25zGAEgASgLMhsuZ29vZ2xlLnByb3Rv",
             "YnVmLkludDY0VmFsdWUSMwoOc2hhcmVkX2J1ZmZlcnMYAiABKAsyGy5nb29n",
             "bGUucHJvdG9idWYuSW50NjRWYWx1ZRIxCgx0ZW1wX2J1ZmZlcnMYAyABKAsy",
@@ -146,61 +146,65 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1.Config {
             "dDY0VmFsdWVCEfrHMQ0xMDAwLTg2NDAwMDAwEkYKD2FyY2hpdmVfdGltZW91",
             "dBhOIAEoCzIbLmdvb2dsZS5wcm90b2J1Zi5JbnQ2NFZhbHVlQhD6xzEMMTAw",
             "MDAtNjAwMDAwEk4KGXRyYWNrX2FjdGl2aXR5X3F1ZXJ5X3NpemUYTyABKAsy",
-            "Gy5nb29nbGUucHJvdG9idWYuSW50NjRWYWx1ZUIO+scxCjEwMC0xMDI0MDAi",
-            "UwoIV2FsTGV2ZWwSGQoVV0FMX0xFVkVMX1VOU1BFQ0lGSUVEEAASFQoRV0FM",
-            "X0xFVkVMX1JFUExJQ0EQARIVChFXQUxfTEVWRUxfTE9HSUNBTBACItYBChFT",
-            "eW5jaHJvbm91c0NvbW1pdBIiCh5TWU5DSFJPTk9VU19DT01NSVRfVU5TUEVD",
-            "SUZJRUQQABIZChVTWU5DSFJPTk9VU19DT01NSVRfT04QARIaChZTWU5DSFJP",
-            "Tk9VU19DT01NSVRfT0ZGEAISHAoYU1lOQ0hST05PVVNfQ09NTUlUX0xPQ0FM",
-            "EAMSIwofU1lOQ0hST05PVVNfQ09NTUlUX1JFTU9URV9XUklURRAEEiMKH1NZ",
-            "TkNIUk9OT1VTX0NPTU1JVF9SRU1PVEVfQVBQTFkQBSKaAQoTQ29uc3RyYWlu",
-            "dEV4Y2x1c2lvbhIkCiBDT05TVFJBSU5UX0VYQ0xVU0lPTl9VTlNQRUNJRklF",
-            "RBAAEhsKF0NPTlNUUkFJTlRfRVhDTFVTSU9OX09OEAESHAoYQ09OU1RSQUlO",
-            "VF9FWENMVVNJT05fT0ZGEAISIgoeQ09OU1RSQUlOVF9FWENMVVNJT05fUEFS",
-            "VElUSU9OEAMikgEKEUZvcmNlUGFyYWxsZWxNb2RlEiMKH0ZPUkNFX1BBUkFM",
-            "TEVMX01PREVfVU5TUEVDSUZJRUQQABIaChZGT1JDRV9QQVJBTExFTF9NT0RF",
-            "X09OEAESGwoXRk9SQ0VfUEFSQUxMRUxfTU9ERV9PRkYQAhIfChtGT1JDRV9Q",
-            "QVJBTExFTF9NT0RFX1JFR1JFU1MQAyKSAgoITG9nTGV2ZWwSGQoVTE9HX0xF",
-            "VkVMX1VOU1BFQ0lGSUVEEAASFAoQTE9HX0xFVkVMX0RFQlVHNRABEhQKEExP",
-            "R19MRVZFTF9ERUJVRzQQAhIUChBMT0dfTEVWRUxfREVCVUczEAMSFAoQTE9H",
-            "X0xFVkVMX0RFQlVHMhAEEhQKEExPR19MRVZFTF9ERUJVRzEQBRIRCg1MT0df",
-            "TEVWRUxfTE9HEAYSFAoQTE9HX0xFVkVMX05PVElDRRAHEhUKEUxPR19MRVZF",
-            "TF9XQVJOSU5HEAgSEwoPTE9HX0xFVkVMX0VSUk9SEAkSEwoPTE9HX0xFVkVM",
-            "X0ZBVEFMEAoSEwoPTE9HX0xFVkVMX1BBTklDEAsimQEKEUxvZ0Vycm9yVmVy",
-            "Ym9zaXR5EiMKH0xPR19FUlJPUl9WRVJCT1NJVFlfVU5TUEVDSUZJRUQQABId",
-            "ChlMT0dfRVJST1JfVkVSQk9TSVRZX1RFUlNFEAESHwobTE9HX0VSUk9SX1ZF",
-            "UkJPU0lUWV9ERUZBVUxUEAISHwobTE9HX0VSUk9SX1ZFUkJPU0lUWV9WRVJC",
-            "T1NFEAMiigEKDExvZ1N0YXRlbWVudBIdChlMT0dfU1RBVEVNRU5UX1VOU1BF",
-            "Q0lGSUVEEAASFgoSTE9HX1NUQVRFTUVOVF9OT05FEAESFQoRTE9HX1NUQVRF",
-            "TUVOVF9EREwQAhIVChFMT0dfU1RBVEVNRU5UX01PRBADEhUKEUxPR19TVEFU",
-            "RU1FTlRfQUxMEAQi5gEKFFRyYW5zYWN0aW9uSXNvbGF0aW9uEiUKIVRSQU5T",
-            "QUNUSU9OX0lTT0xBVElPTl9VTlNQRUNJRklFRBAAEioKJlRSQU5TQUNUSU9O",
-            "X0lTT0xBVElPTl9SRUFEX1VOQ09NTUlUVEVEEAESKAokVFJBTlNBQ1RJT05f",
-            "SVNPTEFUSU9OX1JFQURfQ09NTUlUVEVEEAISKQolVFJBTlNBQ1RJT05fSVNP",
-            "TEFUSU9OX1JFUEVBVEFCTEVfUkVBRBADEiYKIlRSQU5TQUNUSU9OX0lTT0xB",
-            "VElPTl9TRVJJQUxJWkFCTEUQBCJbCgtCeXRlYU91dHB1dBIcChhCWVRFQV9P",
-            "VVRQVVRfVU5TUEVDSUZJRUQQABIUChBCWVRFQV9PVVRQVVRfSEVYEAESGAoU",
-            "QllURUFfT1VUUFVUX0VTQ0FQRUQQAiJSCglYbWxCaW5hcnkSGgoWWE1MX0JJ",
-            "TkFSWV9VTlNQRUNJRklFRBAAEhUKEVhNTF9CSU5BUllfQkFTRTY0EAESEgoO",
-            "WE1MX0JJTkFSWV9IRVgQAiJYCglYbWxPcHRpb24SGgoWWE1MX09QVElPTl9V",
-            "TlNQRUNJRklFRBAAEhcKE1hNTF9PUFRJT05fRE9DVU1FTlQQARIWChJYTUxf",
-            "T1BUSU9OX0NPTlRFTlQQAiKaAQoOQmFja3NsYXNoUXVvdGUSHwobQkFDS1NM",
-            "QVNIX1FVT1RFX1VOU1BFQ0lGSUVEEAASEwoPQkFDS1NMQVNIX1FVT1RFEAES",
-            "FgoSQkFDS1NMQVNIX1FVT1RFX09OEAISFwoTQkFDS1NMQVNIX1FVT1RFX09G",
-            "RhADEiEKHUJBQ0tTTEFTSF9RVU9URV9TQUZFX0VOQ09ESU5HEAQimQIKFlBv",
-            "c3RncmVzcWxDb25maWdTZXQ5XzYSWgoQZWZmZWN0aXZlX2NvbmZpZxgBIAEo",
-            "CzI6LnlhbmRleC5jbG91ZC5tZGIucG9zdGdyZXNxbC52MS5jb25maWcuUG9z",
-            "dGdyZXNxbENvbmZpZzlfNkIE6McxARJPCgt1c2VyX2NvbmZpZxgCIAEoCzI6",
-            "LnlhbmRleC5jbG91ZC5tZGIucG9zdGdyZXNxbC52MS5jb25maWcuUG9zdGdy",
-            "ZXNxbENvbmZpZzlfNhJSCg5kZWZhdWx0X2NvbmZpZxgDIAEoCzI6LnlhbmRl",
-            "eC5jbG91ZC5tZGIucG9zdGdyZXNxbC52MS5jb25maWcuUG9zdGdyZXNxbENv",
-            "bmZpZzlfNkJWWlRnaXRodWIuY29tL3lhbmRleC1jbG91ZC9nby1nZW5wcm90",
-            "by95YW5kZXgvY2xvdWQvbWRiL3Bvc3RncmVzcWwvdjEvY29uZmlnO3Bvc3Rn",
-            "cmVzcWxiBnByb3RvMw=="));
+            "Gy5nb29nbGUucHJvdG9idWYuSW50NjRWYWx1ZUIO+scxCjEwMC0xMDI0MDAS",
+            "SQoYZWZmZWN0aXZlX2lvX2NvbmN1cnJlbmN5GFAgASgLMhsuZ29vZ2xlLnBy",
+            "b3RvYnVmLkludDY0VmFsdWVCCvrHMQYwLTEwMDASTQoUZWZmZWN0aXZlX2Nh",
+            "Y2hlX3NpemUYUSABKAsyGy5nb29nbGUucHJvdG9idWYuSW50NjRWYWx1ZUIS",
+            "+scxDjAtNTQ5NzU1ODEzODg4IlMKCFdhbExldmVsEhkKFVdBTF9MRVZFTF9V",
+            "TlNQRUNJRklFRBAAEhUKEVdBTF9MRVZFTF9SRVBMSUNBEAESFQoRV0FMX0xF",
+            "VkVMX0xPR0lDQUwQAiLWAQoRU3luY2hyb25vdXNDb21taXQSIgoeU1lOQ0hS",
+            "T05PVVNfQ09NTUlUX1VOU1BFQ0lGSUVEEAASGQoVU1lOQ0hST05PVVNfQ09N",
+            "TUlUX09OEAESGgoWU1lOQ0hST05PVVNfQ09NTUlUX09GRhACEhwKGFNZTkNI",
+            "Uk9OT1VTX0NPTU1JVF9MT0NBTBADEiMKH1NZTkNIUk9OT1VTX0NPTU1JVF9S",
+            "RU1PVEVfV1JJVEUQBBIjCh9TWU5DSFJPTk9VU19DT01NSVRfUkVNT1RFX0FQ",
+            "UExZEAUimgEKE0NvbnN0cmFpbnRFeGNsdXNpb24SJAogQ09OU1RSQUlOVF9F",
+            "WENMVVNJT05fVU5TUEVDSUZJRUQQABIbChdDT05TVFJBSU5UX0VYQ0xVU0lP",
+            "Tl9PThABEhwKGENPTlNUUkFJTlRfRVhDTFVTSU9OX09GRhACEiIKHkNPTlNU",
+            "UkFJTlRfRVhDTFVTSU9OX1BBUlRJVElPThADIpIBChFGb3JjZVBhcmFsbGVs",
+            "TW9kZRIjCh9GT1JDRV9QQVJBTExFTF9NT0RFX1VOU1BFQ0lGSUVEEAASGgoW",
+            "Rk9SQ0VfUEFSQUxMRUxfTU9ERV9PThABEhsKF0ZPUkNFX1BBUkFMTEVMX01P",
+            "REVfT0ZGEAISHwobRk9SQ0VfUEFSQUxMRUxfTU9ERV9SRUdSRVNTEAMikgIK",
+            "CExvZ0xldmVsEhkKFUxPR19MRVZFTF9VTlNQRUNJRklFRBAAEhQKEExPR19M",
+            "RVZFTF9ERUJVRzUQARIUChBMT0dfTEVWRUxfREVCVUc0EAISFAoQTE9HX0xF",
+            "VkVMX0RFQlVHMxADEhQKEExPR19MRVZFTF9ERUJVRzIQBBIUChBMT0dfTEVW",
+            "RUxfREVCVUcxEAUSEQoNTE9HX0xFVkVMX0xPRxAGEhQKEExPR19MRVZFTF9O",
+            "T1RJQ0UQBxIVChFMT0dfTEVWRUxfV0FSTklORxAIEhMKD0xPR19MRVZFTF9F",
+            "UlJPUhAJEhMKD0xPR19MRVZFTF9GQVRBTBAKEhMKD0xPR19MRVZFTF9QQU5J",
+            "QxALIpkBChFMb2dFcnJvclZlcmJvc2l0eRIjCh9MT0dfRVJST1JfVkVSQk9T",
+            "SVRZX1VOU1BFQ0lGSUVEEAASHQoZTE9HX0VSUk9SX1ZFUkJPU0lUWV9URVJT",
+            "RRABEh8KG0xPR19FUlJPUl9WRVJCT1NJVFlfREVGQVVMVBACEh8KG0xPR19F",
+            "UlJPUl9WRVJCT1NJVFlfVkVSQk9TRRADIooBCgxMb2dTdGF0ZW1lbnQSHQoZ",
+            "TE9HX1NUQVRFTUVOVF9VTlNQRUNJRklFRBAAEhYKEkxPR19TVEFURU1FTlRf",
+            "Tk9ORRABEhUKEUxPR19TVEFURU1FTlRfRERMEAISFQoRTE9HX1NUQVRFTUVO",
+            "VF9NT0QQAxIVChFMT0dfU1RBVEVNRU5UX0FMTBAEIuYBChRUcmFuc2FjdGlv",
+            "bklzb2xhdGlvbhIlCiFUUkFOU0FDVElPTl9JU09MQVRJT05fVU5TUEVDSUZJ",
+            "RUQQABIqCiZUUkFOU0FDVElPTl9JU09MQVRJT05fUkVBRF9VTkNPTU1JVFRF",
+            "RBABEigKJFRSQU5TQUNUSU9OX0lTT0xBVElPTl9SRUFEX0NPTU1JVFRFRBAC",
+            "EikKJVRSQU5TQUNUSU9OX0lTT0xBVElPTl9SRVBFQVRBQkxFX1JFQUQQAxIm",
+            "CiJUUkFOU0FDVElPTl9JU09MQVRJT05fU0VSSUFMSVpBQkxFEAQiWwoLQnl0",
+            "ZWFPdXRwdXQSHAoYQllURUFfT1VUUFVUX1VOU1BFQ0lGSUVEEAASFAoQQllU",
+            "RUFfT1VUUFVUX0hFWBABEhgKFEJZVEVBX09VVFBVVF9FU0NBUEVEEAIiUgoJ",
+            "WG1sQmluYXJ5EhoKFlhNTF9CSU5BUllfVU5TUEVDSUZJRUQQABIVChFYTUxf",
+            "QklOQVJZX0JBU0U2NBABEhIKDlhNTF9CSU5BUllfSEVYEAIiWAoJWG1sT3B0",
+            "aW9uEhoKFlhNTF9PUFRJT05fVU5TUEVDSUZJRUQQABIXChNYTUxfT1BUSU9O",
+            "X0RPQ1VNRU5UEAESFgoSWE1MX09QVElPTl9DT05URU5UEAIimgEKDkJhY2tz",
+            "bGFzaFF1b3RlEh8KG0JBQ0tTTEFTSF9RVU9URV9VTlNQRUNJRklFRBAAEhMK",
+            "D0JBQ0tTTEFTSF9RVU9URRABEhYKEkJBQ0tTTEFTSF9RVU9URV9PThACEhcK",
+            "E0JBQ0tTTEFTSF9RVU9URV9PRkYQAxIhCh1CQUNLU0xBU0hfUVVPVEVfU0FG",
+            "RV9FTkNPRElORxAEIpkCChZQb3N0Z3Jlc3FsQ29uZmlnU2V0OV82EloKEGVm",
+            "ZmVjdGl2ZV9jb25maWcYASABKAsyOi55YW5kZXguY2xvdWQubWRiLnBvc3Rn",
+            "cmVzcWwudjEuY29uZmlnLlBvc3RncmVzcWxDb25maWc5XzZCBOjHMQESTwoL",
+            "dXNlcl9jb25maWcYAiABKAsyOi55YW5kZXguY2xvdWQubWRiLnBvc3RncmVz",
+            "cWwudjEuY29uZmlnLlBvc3RncmVzcWxDb25maWc5XzYSUgoOZGVmYXVsdF9j",
+            "b25maWcYAyABKAsyOi55YW5kZXguY2xvdWQubWRiLnBvc3RncmVzcWwudjEu",
+            "Y29uZmlnLlBvc3RncmVzcWxDb25maWc5XzZCgQEKKXlhbmRleC5jbG91ZC5h",
+            "cGkubWRiLnBvc3RncmVzcWwudjEuY29uZmlnWlRnaXRodWIuY29tL3lhbmRl",
+            "eC1jbG91ZC9nby1nZW5wcm90by95YW5kZXgvY2xvdWQvbWRiL3Bvc3RncmVz",
+            "cWwvdjEvY29uZmlnO3Bvc3RncmVzcWxiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.WrappersReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlConfig9_6), global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlConfig9_6.Parser, new[]{ "MaxConnections", "SharedBuffers", "TempBuffers", "MaxPreparedTransactions", "WorkMem", "MaintenanceWorkMem", "ReplacementSortTuples", "AutovacuumWorkMem", "TempFileLimit", "VacuumCostDelay", "VacuumCostPageHit", "VacuumCostPageMiss", "VacuumCostPageDirty", "VacuumCostLimit", "BgwriterDelay", "BgwriterLruMaxpages", "BgwriterLruMultiplier", "BgwriterFlushAfter", "BackendFlushAfter", "OldSnapshotThreshold", "WalLevel", "SynchronousCommit", "CheckpointTimeout", "CheckpointCompletionTarget", "CheckpointFlushAfter", "MaxWalSize", "MinWalSize", "MaxStandbyStreamingDelay", "DefaultStatisticsTarget", "ConstraintExclusion", "CursorTupleFraction", "FromCollapseLimit", "JoinCollapseLimit", "ForceParallelMode", "ClientMinMessages", "LogMinMessages", "LogMinErrorStatement", "LogMinDurationStatement", "LogCheckpoints", "LogConnections", "LogDisconnections", "LogDuration", "LogErrorVerbosity", "LogLockWaits", "LogStatement", "LogTempFiles", "SearchPath", "RowSecurity", "DefaultTransactionIsolation", "StatementTimeout", "LockTimeout", "IdleInTransactionSessionTimeout", "ByteaOutput", "Xmlbinary", "Xmloption", "GinPendingListLimit", "DeadlockTimeout", "MaxLocksPerTransaction", "MaxPredLocksPerTransaction", "ArrayNulls", "BackslashQuote", "DefaultWithOids", "EscapeStringWarning", "LoCompatPrivileges", "OperatorPrecedenceWarning", "QuoteAllIdentifiers", "StandardConformingStrings", "SynchronizeSeqscans", "TransformNullEquals", "ExitOnError", "SeqPageCost", "RandomPageCost", "SqlInheritance", "AutovacuumMaxWorkers", "AutovacuumVacuumCostDelay", "AutovacuumVacuumCostLimit", "AutovacuumNaptime", "ArchiveTimeout", "TrackActivityQuerySize" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlConfig9_6.Types.WalLevel), typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlConfig9_6.Types.SynchronousCommit), typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlConfig9_6.Types.ConstraintExclusion), typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlConfig9_6.Types.ForceParallelMode), typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlConfig9_6.Types.LogLevel), typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlConfig9_6.Types.LogErrorVerbosity), typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlConfig9_6.Types.LogStatement), typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlConfig9_6.Types.TransactionIsolation), typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlConfig9_6.Types.ByteaOutput), typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlConfig9_6.Types.XmlBinary), typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlConfig9_6.Types.XmlOption), typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlConfig9_6.Types.BackslashQuote) }, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlConfig9_6), global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlConfig9_6.Parser, new[]{ "MaxConnections", "SharedBuffers", "TempBuffers", "MaxPreparedTransactions", "WorkMem", "MaintenanceWorkMem", "ReplacementSortTuples", "AutovacuumWorkMem", "TempFileLimit", "VacuumCostDelay", "VacuumCostPageHit", "VacuumCostPageMiss", "VacuumCostPageDirty", "VacuumCostLimit", "BgwriterDelay", "BgwriterLruMaxpages", "BgwriterLruMultiplier", "BgwriterFlushAfter", "BackendFlushAfter", "OldSnapshotThreshold", "WalLevel", "SynchronousCommit", "CheckpointTimeout", "CheckpointCompletionTarget", "CheckpointFlushAfter", "MaxWalSize", "MinWalSize", "MaxStandbyStreamingDelay", "DefaultStatisticsTarget", "ConstraintExclusion", "CursorTupleFraction", "FromCollapseLimit", "JoinCollapseLimit", "ForceParallelMode", "ClientMinMessages", "LogMinMessages", "LogMinErrorStatement", "LogMinDurationStatement", "LogCheckpoints", "LogConnections", "LogDisconnections", "LogDuration", "LogErrorVerbosity", "LogLockWaits", "LogStatement", "LogTempFiles", "SearchPath", "RowSecurity", "DefaultTransactionIsolation", "StatementTimeout", "LockTimeout", "IdleInTransactionSessionTimeout", "ByteaOutput", "Xmlbinary", "Xmloption", "GinPendingListLimit", "DeadlockTimeout", "MaxLocksPerTransaction", "MaxPredLocksPerTransaction", "ArrayNulls", "BackslashQuote", "DefaultWithOids", "EscapeStringWarning", "LoCompatPrivileges", "OperatorPrecedenceWarning", "QuoteAllIdentifiers", "StandardConformingStrings", "SynchronizeSeqscans", "TransformNullEquals", "ExitOnError", "SeqPageCost", "RandomPageCost", "SqlInheritance", "AutovacuumMaxWorkers", "AutovacuumVacuumCostDelay", "AutovacuumVacuumCostLimit", "AutovacuumNaptime", "ArchiveTimeout", "TrackActivityQuerySize", "EffectiveIoConcurrency", "EffectiveCacheSize" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlConfig9_6.Types.WalLevel), typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlConfig9_6.Types.SynchronousCommit), typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlConfig9_6.Types.ConstraintExclusion), typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlConfig9_6.Types.ForceParallelMode), typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlConfig9_6.Types.LogLevel), typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlConfig9_6.Types.LogErrorVerbosity), typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlConfig9_6.Types.LogStatement), typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlConfig9_6.Types.TransactionIsolation), typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlConfig9_6.Types.ByteaOutput), typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlConfig9_6.Types.XmlBinary), typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlConfig9_6.Types.XmlOption), typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlConfig9_6.Types.BackslashQuote) }, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlConfigSet9_6), global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlConfigSet9_6.Parser, new[]{ "EffectiveConfig", "UserConfig", "DefaultConfig" }, null, null, null)
           }));
     }
@@ -317,6 +321,8 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1.Config {
       AutovacuumNaptime = other.AutovacuumNaptime;
       ArchiveTimeout = other.ArchiveTimeout;
       TrackActivityQuerySize = other.TrackActivityQuerySize;
+      EffectiveIoConcurrency = other.EffectiveIoConcurrency;
+      EffectiveCacheSize = other.EffectiveCacheSize;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1388,6 +1394,32 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1.Config {
     }
 
 
+    /// <summary>Field number for the "effective_io_concurrency" field.</summary>
+    public const int EffectiveIoConcurrencyFieldNumber = 80;
+    private static readonly pb::FieldCodec<long?> _single_effectiveIoConcurrency_codec = pb::FieldCodec.ForStructWrapper<long>(642);
+    private long? effectiveIoConcurrency_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? EffectiveIoConcurrency {
+      get { return effectiveIoConcurrency_; }
+      set {
+        effectiveIoConcurrency_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "effective_cache_size" field.</summary>
+    public const int EffectiveCacheSizeFieldNumber = 81;
+    private static readonly pb::FieldCodec<long?> _single_effectiveCacheSize_codec = pb::FieldCodec.ForStructWrapper<long>(650);
+    private long? effectiveCacheSize_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? EffectiveCacheSize {
+      get { return effectiveCacheSize_; }
+      set {
+        effectiveCacheSize_ = value;
+      }
+    }
+
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as PostgresqlConfig9_6);
@@ -1480,6 +1512,8 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1.Config {
       if (AutovacuumNaptime != other.AutovacuumNaptime) return false;
       if (ArchiveTimeout != other.ArchiveTimeout) return false;
       if (TrackActivityQuerySize != other.TrackActivityQuerySize) return false;
+      if (EffectiveIoConcurrency != other.EffectiveIoConcurrency) return false;
+      if (EffectiveCacheSize != other.EffectiveCacheSize) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1565,6 +1599,8 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1.Config {
       if (autovacuumNaptime_ != null) hash ^= AutovacuumNaptime.GetHashCode();
       if (archiveTimeout_ != null) hash ^= ArchiveTimeout.GetHashCode();
       if (trackActivityQuerySize_ != null) hash ^= TrackActivityQuerySize.GetHashCode();
+      if (effectiveIoConcurrency_ != null) hash ^= EffectiveIoConcurrency.GetHashCode();
+      if (effectiveCacheSize_ != null) hash ^= EffectiveCacheSize.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1830,6 +1866,12 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1.Config {
       if (trackActivityQuerySize_ != null) {
         _single_trackActivityQuerySize_codec.WriteTagAndValue(output, TrackActivityQuerySize);
       }
+      if (effectiveIoConcurrency_ != null) {
+        _single_effectiveIoConcurrency_codec.WriteTagAndValue(output, EffectiveIoConcurrency);
+      }
+      if (effectiveCacheSize_ != null) {
+        _single_effectiveCacheSize_codec.WriteTagAndValue(output, EffectiveCacheSize);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -2074,6 +2116,12 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1.Config {
       }
       if (trackActivityQuerySize_ != null) {
         size += _single_trackActivityQuerySize_codec.CalculateSizeWithTag(TrackActivityQuerySize);
+      }
+      if (effectiveIoConcurrency_ != null) {
+        size += _single_effectiveIoConcurrency_codec.CalculateSizeWithTag(EffectiveIoConcurrency);
+      }
+      if (effectiveCacheSize_ != null) {
+        size += _single_effectiveCacheSize_codec.CalculateSizeWithTag(EffectiveCacheSize);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -2449,6 +2497,16 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1.Config {
       if (other.trackActivityQuerySize_ != null) {
         if (trackActivityQuerySize_ == null || other.TrackActivityQuerySize != 0L) {
           TrackActivityQuerySize = other.TrackActivityQuerySize;
+        }
+      }
+      if (other.effectiveIoConcurrency_ != null) {
+        if (effectiveIoConcurrency_ == null || other.EffectiveIoConcurrency != 0L) {
+          EffectiveIoConcurrency = other.EffectiveIoConcurrency;
+        }
+      }
+      if (other.effectiveCacheSize_ != null) {
+        if (effectiveCacheSize_ == null || other.EffectiveCacheSize != 0L) {
+          EffectiveCacheSize = other.EffectiveCacheSize;
         }
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
@@ -2967,6 +3025,20 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1.Config {
             long? value = _single_trackActivityQuerySize_codec.Read(input);
             if (trackActivityQuerySize_ == null || value != 0L) {
               TrackActivityQuerySize = value;
+            }
+            break;
+          }
+          case 642: {
+            long? value = _single_effectiveIoConcurrency_codec.Read(input);
+            if (effectiveIoConcurrency_ == null || value != 0L) {
+              EffectiveIoConcurrency = value;
+            }
+            break;
+          }
+          case 650: {
+            long? value = _single_effectiveCacheSize_codec.Read(input);
+            if (effectiveCacheSize_ == null || value != 0L) {
+              EffectiveCacheSize = value;
             }
             break;
           }

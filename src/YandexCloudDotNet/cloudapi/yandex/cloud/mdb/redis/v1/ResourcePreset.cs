@@ -27,8 +27,9 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
             "Ci95YW5kZXgvY2xvdWQvbWRiL3JlZGlzL3YxL3Jlc291cmNlX3ByZXNldC5w",
             "cm90bxIZeWFuZGV4LmNsb3VkLm1kYi5yZWRpcy52MSI+Cg5SZXNvdXJjZVBy",
             "ZXNldBIKCgJpZBgBIAEoCRIQCgh6b25lX2lkcxgCIAMoCRIOCgZtZW1vcnkY",
-            "AyABKANCRVpDZ2l0aHViLmNvbS95YW5kZXgtY2xvdWQvZ28tZ2VucHJvdG8v",
-            "eWFuZGV4L2Nsb3VkL21kYi9yZWRpcy92MTtyZWRpc2IGcHJvdG8z"));
+            "AyABKANCZAodeWFuZGV4LmNsb3VkLmFwaS5tZGIucmVkaXMudjFaQ2dpdGh1",
+            "Yi5jb20veWFuZGV4LWNsb3VkL2dvLWdlbnByb3RvL3lhbmRleC9jbG91ZC9t",
+            "ZGIvcmVkaXMvdjE7cmVkaXNiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {

@@ -39,9 +39,9 @@ namespace Yandex.Cloud.Compute.V1 {
             "CghDUkVBVElORxABEgkKBVJFQURZEAISCQoFRVJST1IQAxIMCghERUxFVElO",
             "RxAEImoKAk9zEi4KBHR5cGUYASABKA4yIC55YW5kZXguY2xvdWQuY29tcHV0",
             "ZS52MS5Pcy5UeXBlIjQKBFR5cGUSFAoQVFlQRV9VTlNQRUNJRklFRBAAEgkK",
-            "BUxJTlVYEAESCwoHV0lORE9XUxACQkVaQ2dpdGh1Yi5jb20veWFuZGV4LWNs",
-            "b3VkL2dvLWdlbnByb3RvL3lhbmRleC9jbG91ZC9jb21wdXRlL3YxO2NvbXB1",
-            "dGViBnByb3RvMw=="));
+            "BUxJTlVYEAESCwoHV0lORE9XUxACQmIKG3lhbmRleC5jbG91ZC5hcGkuY29t",
+            "cHV0ZS52MVpDZ2l0aHViLmNvbS95YW5kZXgtY2xvdWQvZ28tZ2VucHJvdG8v",
+            "eWFuZGV4L2Nsb3VkL2NvbXB1dGUvdjE7Y29tcHV0ZWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
@@ -598,7 +598,9 @@ namespace Yandex.Cloud.Compute.V1 {
     public const int TypeFieldNumber = 1;
     private global::Yandex.Cloud.Compute.V1.Os.Types.Type type_ = 0;
     /// <summary>
-    /// Operating system type.
+    /// Operating system type. The default is `LINUX`.
+    ///
+    /// This field is used to correctly emulate a vCPU and calculate the cost of using an instance.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Compute.V1.Os.Types.Type Type {

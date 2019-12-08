@@ -15,8 +15,30 @@ namespace Yandex.Cloud.Containerregistry.V1 {
   {
     static readonly string __ServiceName = "yandex.cloud.containerregistry.v1.RepositoryService";
 
+    static readonly grpc::Marshaller<global::Yandex.Cloud.Containerregistry.V1.GetRepositoryRequest> __Marshaller_yandex_cloud_containerregistry_v1_GetRepositoryRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Containerregistry.V1.GetRepositoryRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Yandex.Cloud.Containerregistry.V1.Repository> __Marshaller_yandex_cloud_containerregistry_v1_Repository = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Containerregistry.V1.Repository.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Yandex.Cloud.Containerregistry.V1.GetRepositoryByNameRequest> __Marshaller_yandex_cloud_containerregistry_v1_GetRepositoryByNameRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Containerregistry.V1.GetRepositoryByNameRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Containerregistry.V1.ListRepositoriesRequest> __Marshaller_yandex_cloud_containerregistry_v1_ListRepositoriesRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Containerregistry.V1.ListRepositoriesRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Containerregistry.V1.ListRepositoriesResponse> __Marshaller_yandex_cloud_containerregistry_v1_ListRepositoriesResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Containerregistry.V1.ListRepositoriesResponse.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Yandex.Cloud.Access.ListAccessBindingsRequest> __Marshaller_yandex_cloud_access_ListAccessBindingsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Access.ListAccessBindingsRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Yandex.Cloud.Access.ListAccessBindingsResponse> __Marshaller_yandex_cloud_access_ListAccessBindingsResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Access.ListAccessBindingsResponse.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Yandex.Cloud.Access.SetAccessBindingsRequest> __Marshaller_yandex_cloud_access_SetAccessBindingsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Access.SetAccessBindingsRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Yandex.Cloud.Operation.Operation> __Marshaller_yandex_cloud_operation_Operation = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Operation.Operation.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Yandex.Cloud.Access.UpdateAccessBindingsRequest> __Marshaller_yandex_cloud_access_UpdateAccessBindingsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Access.UpdateAccessBindingsRequest.Parser.ParseFrom);
+
+    static readonly grpc::Method<global::Yandex.Cloud.Containerregistry.V1.GetRepositoryRequest, global::Yandex.Cloud.Containerregistry.V1.Repository> __Method_Get = new grpc::Method<global::Yandex.Cloud.Containerregistry.V1.GetRepositoryRequest, global::Yandex.Cloud.Containerregistry.V1.Repository>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "Get",
+        __Marshaller_yandex_cloud_containerregistry_v1_GetRepositoryRequest,
+        __Marshaller_yandex_cloud_containerregistry_v1_Repository);
+
+    static readonly grpc::Method<global::Yandex.Cloud.Containerregistry.V1.GetRepositoryByNameRequest, global::Yandex.Cloud.Containerregistry.V1.Repository> __Method_GetByName = new grpc::Method<global::Yandex.Cloud.Containerregistry.V1.GetRepositoryByNameRequest, global::Yandex.Cloud.Containerregistry.V1.Repository>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "GetByName",
+        __Marshaller_yandex_cloud_containerregistry_v1_GetRepositoryByNameRequest,
+        __Marshaller_yandex_cloud_containerregistry_v1_Repository);
 
     static readonly grpc::Method<global::Yandex.Cloud.Containerregistry.V1.ListRepositoriesRequest, global::Yandex.Cloud.Containerregistry.V1.ListRepositoriesResponse> __Method_List = new grpc::Method<global::Yandex.Cloud.Containerregistry.V1.ListRepositoriesRequest, global::Yandex.Cloud.Containerregistry.V1.ListRepositoriesResponse>(
         grpc::MethodType.Unary,
@@ -24,6 +46,27 @@ namespace Yandex.Cloud.Containerregistry.V1 {
         "List",
         __Marshaller_yandex_cloud_containerregistry_v1_ListRepositoriesRequest,
         __Marshaller_yandex_cloud_containerregistry_v1_ListRepositoriesResponse);
+
+    static readonly grpc::Method<global::Yandex.Cloud.Access.ListAccessBindingsRequest, global::Yandex.Cloud.Access.ListAccessBindingsResponse> __Method_ListAccessBindings = new grpc::Method<global::Yandex.Cloud.Access.ListAccessBindingsRequest, global::Yandex.Cloud.Access.ListAccessBindingsResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "ListAccessBindings",
+        __Marshaller_yandex_cloud_access_ListAccessBindingsRequest,
+        __Marshaller_yandex_cloud_access_ListAccessBindingsResponse);
+
+    static readonly grpc::Method<global::Yandex.Cloud.Access.SetAccessBindingsRequest, global::Yandex.Cloud.Operation.Operation> __Method_SetAccessBindings = new grpc::Method<global::Yandex.Cloud.Access.SetAccessBindingsRequest, global::Yandex.Cloud.Operation.Operation>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "SetAccessBindings",
+        __Marshaller_yandex_cloud_access_SetAccessBindingsRequest,
+        __Marshaller_yandex_cloud_operation_Operation);
+
+    static readonly grpc::Method<global::Yandex.Cloud.Access.UpdateAccessBindingsRequest, global::Yandex.Cloud.Operation.Operation> __Method_UpdateAccessBindings = new grpc::Method<global::Yandex.Cloud.Access.UpdateAccessBindingsRequest, global::Yandex.Cloud.Operation.Operation>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "UpdateAccessBindings",
+        __Marshaller_yandex_cloud_access_UpdateAccessBindingsRequest,
+        __Marshaller_yandex_cloud_operation_Operation);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -54,6 +97,110 @@ namespace Yandex.Cloud.Containerregistry.V1 {
       {
       }
 
+      /// <summary>
+      /// Returns the specified Repository resource.
+      ///
+      /// To get the list of available Repository resources, make a [List] request.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.Containerregistry.V1.Repository Get(global::Yandex.Cloud.Containerregistry.V1.GetRepositoryRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return Get(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Returns the specified Repository resource.
+      ///
+      /// To get the list of available Repository resources, make a [List] request.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.Containerregistry.V1.Repository Get(global::Yandex.Cloud.Containerregistry.V1.GetRepositoryRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_Get, null, options, request);
+      }
+      /// <summary>
+      /// Returns the specified Repository resource.
+      ///
+      /// To get the list of available Repository resources, make a [List] request.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Containerregistry.V1.Repository> GetAsync(global::Yandex.Cloud.Containerregistry.V1.GetRepositoryRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return GetAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Returns the specified Repository resource.
+      ///
+      /// To get the list of available Repository resources, make a [List] request.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Containerregistry.V1.Repository> GetAsync(global::Yandex.Cloud.Containerregistry.V1.GetRepositoryRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_Get, null, options, request);
+      }
+      /// <summary>
+      /// Returns the specified Repository resource.
+      ///
+      /// To get the list of available Repository resources, make a [List] request.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.Containerregistry.V1.Repository GetByName(global::Yandex.Cloud.Containerregistry.V1.GetRepositoryByNameRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return GetByName(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Returns the specified Repository resource.
+      ///
+      /// To get the list of available Repository resources, make a [List] request.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.Containerregistry.V1.Repository GetByName(global::Yandex.Cloud.Containerregistry.V1.GetRepositoryByNameRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_GetByName, null, options, request);
+      }
+      /// <summary>
+      /// Returns the specified Repository resource.
+      ///
+      /// To get the list of available Repository resources, make a [List] request.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Containerregistry.V1.Repository> GetByNameAsync(global::Yandex.Cloud.Containerregistry.V1.GetRepositoryByNameRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return GetByNameAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Returns the specified Repository resource.
+      ///
+      /// To get the list of available Repository resources, make a [List] request.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Containerregistry.V1.Repository> GetByNameAsync(global::Yandex.Cloud.Containerregistry.V1.GetRepositoryByNameRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_GetByName, null, options, request);
+      }
       /// <summary>
       /// Retrieves the list of Repository resources in the specified registry.
       /// </summary>
@@ -97,6 +244,138 @@ namespace Yandex.Cloud.Containerregistry.V1 {
       public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Containerregistry.V1.ListRepositoriesResponse> ListAsync(global::Yandex.Cloud.Containerregistry.V1.ListRepositoriesRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_List, null, options, request);
+      }
+      /// <summary>
+      /// Lists access bindings for the specified repository.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.Access.ListAccessBindingsResponse ListAccessBindings(global::Yandex.Cloud.Access.ListAccessBindingsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return ListAccessBindings(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Lists access bindings for the specified repository.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.Access.ListAccessBindingsResponse ListAccessBindings(global::Yandex.Cloud.Access.ListAccessBindingsRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_ListAccessBindings, null, options, request);
+      }
+      /// <summary>
+      /// Lists access bindings for the specified repository.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Access.ListAccessBindingsResponse> ListAccessBindingsAsync(global::Yandex.Cloud.Access.ListAccessBindingsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return ListAccessBindingsAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Lists access bindings for the specified repository.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Access.ListAccessBindingsResponse> ListAccessBindingsAsync(global::Yandex.Cloud.Access.ListAccessBindingsRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_ListAccessBindings, null, options, request);
+      }
+      /// <summary>
+      /// Sets access bindings for the specified repository.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.Operation.Operation SetAccessBindings(global::Yandex.Cloud.Access.SetAccessBindingsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return SetAccessBindings(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Sets access bindings for the specified repository.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.Operation.Operation SetAccessBindings(global::Yandex.Cloud.Access.SetAccessBindingsRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_SetAccessBindings, null, options, request);
+      }
+      /// <summary>
+      /// Sets access bindings for the specified repository.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Operation.Operation> SetAccessBindingsAsync(global::Yandex.Cloud.Access.SetAccessBindingsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return SetAccessBindingsAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Sets access bindings for the specified repository.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Operation.Operation> SetAccessBindingsAsync(global::Yandex.Cloud.Access.SetAccessBindingsRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_SetAccessBindings, null, options, request);
+      }
+      /// <summary>
+      /// Updates access bindings for the specified repository.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.Operation.Operation UpdateAccessBindings(global::Yandex.Cloud.Access.UpdateAccessBindingsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return UpdateAccessBindings(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Updates access bindings for the specified repository.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.Operation.Operation UpdateAccessBindings(global::Yandex.Cloud.Access.UpdateAccessBindingsRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_UpdateAccessBindings, null, options, request);
+      }
+      /// <summary>
+      /// Updates access bindings for the specified repository.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Operation.Operation> UpdateAccessBindingsAsync(global::Yandex.Cloud.Access.UpdateAccessBindingsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return UpdateAccessBindingsAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Updates access bindings for the specified repository.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Operation.Operation> UpdateAccessBindingsAsync(global::Yandex.Cloud.Access.UpdateAccessBindingsRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_UpdateAccessBindings, null, options, request);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       protected override RepositoryServiceClient NewInstance(ClientBaseConfiguration configuration)

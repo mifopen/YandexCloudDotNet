@@ -43,9 +43,10 @@ namespace Yandex.Cloud.Mdb.Mysql.V1Alpha {
             "aXN0EjoueWFuZGV4LmNsb3VkLm1kYi5teXNxbC52MWFscGhhLkxpc3RSZXNv",
             "dXJjZVByZXNldHNSZXF1ZXN0GjsueWFuZGV4LmNsb3VkLm1kYi5teXNxbC52",
             "MWFscGhhLkxpc3RSZXNvdXJjZVByZXNldHNSZXNwb25zZSIugtPkkwIoEiYv",
-            "bWFuYWdlZC1teXNxbC92MWFscGhhL3Jlc291cmNlUHJlc2V0c0JKWkhnaXRo",
-            "dWIuY29tL3lhbmRleC1jbG91ZC9nby1nZW5wcm90by95YW5kZXgvY2xvdWQv",
-            "bWRiL215c3FsL3YxYWxwaGE7bXlzcWxiBnByb3RvMw=="));
+            "bWFuYWdlZC1teXNxbC92MWFscGhhL3Jlc291cmNlUHJlc2V0c0JuCiJ5YW5k",
+            "ZXguY2xvdWQuYXBpLm1kYi5teXNxbC52MWFscGhhWkhnaXRodWIuY29tL3lh",
+            "bmRleC1jbG91ZC9nby1nZW5wcm90by95YW5kZXgvY2xvdWQvbWRiL215c3Fs",
+            "L3YxYWxwaGE7bXlzcWxiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Yandex.Cloud.Mdb.Mysql.V1Alpha.ResourcePresetReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
@@ -96,7 +97,7 @@ namespace Yandex.Cloud.Mdb.Mysql.V1Alpha {
     public const int ResourcePresetIdFieldNumber = 1;
     private string resourcePresetId_ = "";
     /// <summary>
-    /// Required. ID of the resource preset to return.
+    /// ID of the resource preset to return.
     /// To get the resource preset ID, use a [ResourcePresetService.List] request.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

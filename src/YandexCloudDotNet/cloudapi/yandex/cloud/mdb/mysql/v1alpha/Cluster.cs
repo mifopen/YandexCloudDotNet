@@ -72,9 +72,10 @@ namespace Yandex.Cloud.Mdb.Mysql.V1Alpha {
             "EhQKEE1ZU1FMX1NMT1dfUVVFUlkQAyIxCgZIZWFsdGgSEgoOSEVBTFRIX1VO",
             "S05PV04QABIJCgVBTElWRRABEggKBERFQUQQAiJQCglSZXNvdXJjZXMSGgoS",
             "cmVzb3VyY2VfcHJlc2V0X2lkGAEgASgJEhEKCWRpc2tfc2l6ZRgCIAEoAxIU",
-            "CgxkaXNrX3R5cGVfaWQYAyABKAlCSlpIZ2l0aHViLmNvbS95YW5kZXgtY2xv",
-            "dWQvZ28tZ2VucHJvdG8veWFuZGV4L2Nsb3VkL21kYi9teXNxbC92MWFscGhh",
-            "O215c3FsYgZwcm90bzM="));
+            "CgxkaXNrX3R5cGVfaWQYAyABKAlCbgoieWFuZGV4LmNsb3VkLmFwaS5tZGIu",
+            "bXlzcWwudjFhbHBoYVpIZ2l0aHViLmNvbS95YW5kZXgtY2xvdWQvZ28tZ2Vu",
+            "cHJvdG8veWFuZGV4L2Nsb3VkL21kYi9teXNxbC92MWFscGhhO215c3FsYgZw",
+            "cm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Google.Type.TimeofdayReflection.Descriptor, global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Config.Mysql57Reflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
@@ -1802,8 +1803,8 @@ namespace Yandex.Cloud.Mdb.Mysql.V1Alpha {
     /// <summary>
     /// Type of the storage environment for the host.
     /// Possible values:
-    /// * network-nvme — network SSD drive,
-    /// * local-nvme — local SSD storage.
+    /// * network-ssd — network SSD drive,
+    /// * local-ssd — local SSD storage.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string DiskTypeId {

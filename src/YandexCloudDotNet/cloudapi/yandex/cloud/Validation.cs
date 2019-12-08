@@ -33,11 +33,12 @@ namespace Yandex.Cloud {
             "dG9idWYuRmllbGRPcHRpb25zGP6YBiABKAk6LgoFdmFsdWUSHS5nb29nbGUu",
             "cHJvdG9idWYuRmllbGRPcHRpb25zGP+YBiABKAk6LQoEc2l6ZRIdLmdvb2ds",
             "ZS5wcm90b2J1Zi5GaWVsZE9wdGlvbnMYgJkGIAEoCTovCgZsZW5ndGgSHS5n",
-            "b29nbGUucHJvdG9idWYuRmllbGRPcHRpb25zGIGZBiABKAk6SgoHbWFwX2tl",
-            "eRIdLmdvb2dsZS5wcm90b2J1Zi5GaWVsZE9wdGlvbnMYhpkGIAEoCzIYLnlh",
-            "bmRleC5jbG91ZC5NYXBLZXlTcGVjQkhaRmdpdGh1Yi5jb20veWFuZGV4LWNs",
-            "b3VkL2dvLWdlbnByb3RvL3lhbmRleC9jbG91ZC92YWxpZGF0aW9uO3ZhbGlk",
-            "YXRpb25iBnByb3RvMw=="));
+            "b29nbGUucHJvdG9idWYuRmllbGRPcHRpb25zGIGZBiABKAk6LwoGdW5pcXVl",
+            "Eh0uZ29vZ2xlLnByb3RvYnVmLkZpZWxkT3B0aW9ucxiCmQYgASgIOkoKB21h",
+            "cF9rZXkSHS5nb29nbGUucHJvdG9idWYuRmllbGRPcHRpb25zGIaZBiABKAsy",
+            "GC55YW5kZXguY2xvdWQuTWFwS2V5U3BlY0JKChB5YW5kZXguY2xvdWQuYXBp",
+            "WjZnaXRodWIuY29tL3lhbmRleC1jbG91ZC9nby1nZW5wcm90by95YW5kZXgv",
+            "Y2xvdWQ7Y2xvdWRiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { pbr::FileDescriptor.DescriptorProtoFileDescriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {

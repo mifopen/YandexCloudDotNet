@@ -33,8 +33,9 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
             "KwoEbmFtZRgBIAEoCUId6McxAYrIMQQ8PTYz8scxDVthLXpBLVowLTlfXSoS",
             "HwoIcGFzc3dvcmQYAiABKAlCDejHMQGKyDEFOC0xMjgSPAoLcGVybWlzc2lv",
             "bnMYAyADKAsyJy55YW5kZXguY2xvdWQubWRiLm1vbmdvZGIudjEuUGVybWlz",
-            "c2lvbkJJWkdnaXRodWIuY29tL3lhbmRleC1jbG91ZC9nby1nZW5wcm90by95",
-            "YW5kZXgvY2xvdWQvbWRiL21vbmdvZGIvdjE7bW9uZ29kYmIGcHJvdG8z"));
+            "c2lvbkJqCh95YW5kZXguY2xvdWQuYXBpLm1kYi5tb25nb2RiLnYxWkdnaXRo",
+            "dWIuY29tL3lhbmRleC1jbG91ZC9nby1nZW5wcm90by95YW5kZXgvY2xvdWQv",
+            "bWRiL21vbmdvZGIvdjE7bW9uZ29kYmIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Yandex.Cloud.ValidationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {

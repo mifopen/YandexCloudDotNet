@@ -578,7 +578,6 @@ namespace Yandex.Cloud.Mdb.Mysql.V1Alpha {
       }
       /// <summary>
       /// Retrieves logs for the specified MySQL cluster.
-      /// For more information about logs, see the [Logs](/docs/managed-mysql/concepts/logs) section in the documentation.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -591,7 +590,6 @@ namespace Yandex.Cloud.Mdb.Mysql.V1Alpha {
       }
       /// <summary>
       /// Retrieves logs for the specified MySQL cluster.
-      /// For more information about logs, see the [Logs](/docs/managed-mysql/concepts/logs) section in the documentation.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
@@ -602,7 +600,6 @@ namespace Yandex.Cloud.Mdb.Mysql.V1Alpha {
       }
       /// <summary>
       /// Retrieves logs for the specified MySQL cluster.
-      /// For more information about logs, see the [Logs](/docs/managed-mysql/concepts/logs) section in the documentation.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -615,7 +612,6 @@ namespace Yandex.Cloud.Mdb.Mysql.V1Alpha {
       }
       /// <summary>
       /// Retrieves logs for the specified MySQL cluster.
-      /// For more information about logs, see the [Logs](/docs/managed-mysql/concepts/logs) section in the documentation.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>

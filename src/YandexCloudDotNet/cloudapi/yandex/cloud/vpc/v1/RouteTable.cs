@@ -33,15 +33,18 @@ namespace Yandex.Cloud.Vpc.V1 {
             "ZS5MYWJlbHNFbnRyeRISCgpuZXR3b3JrX2lkGAcgASgJEjcKDXN0YXRpY19y",
             "b3V0ZXMYCCADKAsyIC55YW5kZXguY2xvdWQudnBjLnYxLlN0YXRpY1JvdXRl",
             "Gi0KC0xhYmVsc0VudHJ5EgsKA2tleRgBIAEoCRINCgV2YWx1ZRgCIAEoCToC",
-            "OAEiYgoLU3RhdGljUm91dGUSHAoSZGVzdGluYXRpb25fcHJlZml4GAEgASgJ",
-            "SAASGgoQbmV4dF9ob3BfYWRkcmVzcxgCIAEoCUgBQg0KC2Rlc3RpbmF0aW9u",
-            "QgoKCG5leHRfaG9wQj1aO2dpdGh1Yi5jb20veWFuZGV4LWNsb3VkL2dvLWdl",
+            "OAEizwEKC1N0YXRpY1JvdXRlEhwKEmRlc3RpbmF0aW9uX3ByZWZpeBgBIAEo",
+            "CUgAEhoKEG5leHRfaG9wX2FkZHJlc3MYAiABKAlIARI8CgZsYWJlbHMYAyAD",
+            "KAsyLC55YW5kZXguY2xvdWQudnBjLnYxLlN0YXRpY1JvdXRlLkxhYmVsc0Vu",
+            "dHJ5Gi0KC0xhYmVsc0VudHJ5EgsKA2tleRgBIAEoCRINCgV2YWx1ZRgCIAEo",
+            "CToCOAFCDQoLZGVzdGluYXRpb25CCgoIbmV4dF9ob3BCVgoXeWFuZGV4LmNs",
+            "b3VkLmFwaS52cGMudjFaO2dpdGh1Yi5jb20veWFuZGV4LWNsb3VkL2dvLWdl",
             "bnByb3RvL3lhbmRleC9jbG91ZC92cGMvdjE7dnBjYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.RouteTable), global::Yandex.Cloud.Vpc.V1.RouteTable.Parser, new[]{ "Id", "FolderId", "CreatedAt", "Name", "Description", "Labels", "NetworkId", "StaticRoutes" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.StaticRoute), global::Yandex.Cloud.Vpc.V1.StaticRoute.Parser, new[]{ "DestinationPrefix", "NextHopAddress" }, new[]{ "Destination", "NextHop" }, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.StaticRoute), global::Yandex.Cloud.Vpc.V1.StaticRoute.Parser, new[]{ "DestinationPrefix", "NextHopAddress", "Labels" }, new[]{ "Destination", "NextHop" }, null, new pbr::GeneratedClrTypeInfo[] { null, })
           }));
     }
     #endregion
@@ -49,7 +52,7 @@ namespace Yandex.Cloud.Vpc.V1 {
   }
   #region Messages
   /// <summary>
-  /// A RouteTable resource. For more information, see [RouteTables](/docs/vpc/concepts/route_tables).
+  /// A RouteTable resource. For more information, see [Static Routes](/docs/vpc/concepts/static-routes).
   /// </summary>
   internal sealed partial class RouteTable : pb::IMessage<RouteTable> {
     private static readonly pb::MessageParser<RouteTable> _parser = new pb::MessageParser<RouteTable>(() => new RouteTable());
@@ -391,7 +394,7 @@ namespace Yandex.Cloud.Vpc.V1 {
   }
 
   /// <summary>
-  /// A StaticRoute resource. For more information, see [StaticRoutes](/docs/vpc/concepts/static_routes).
+  /// A StaticRoute resource. For more information, see [Static Routes](/docs/vpc/concepts/static-routes).
   /// </summary>
   internal sealed partial class StaticRoute : pb::IMessage<StaticRoute> {
     private static readonly pb::MessageParser<StaticRoute> _parser = new pb::MessageParser<StaticRoute>(() => new StaticRoute());
@@ -418,6 +421,7 @@ namespace Yandex.Cloud.Vpc.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public StaticRoute(StaticRoute other) : this() {
+      labels_ = other.labels_.Clone();
       switch (other.DestinationCase) {
         case DestinationOneofCase.DestinationPrefix:
           DestinationPrefix = other.DestinationPrefix;
@@ -464,6 +468,19 @@ namespace Yandex.Cloud.Vpc.V1 {
         nextHop_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
         nextHopCase_ = NextHopOneofCase.NextHopAddress;
       }
+    }
+
+    /// <summary>Field number for the "labels" field.</summary>
+    public const int LabelsFieldNumber = 3;
+    private static readonly pbc::MapField<string, string>.Codec _map_labels_codec
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 26);
+    private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
+    /// <summary>
+    /// Resource labels as `` key:value `` pairs. Мaximum of 64 per resource.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::MapField<string, string> Labels {
+      get { return labels_; }
     }
 
     private object destination_;
@@ -517,6 +534,7 @@ namespace Yandex.Cloud.Vpc.V1 {
       }
       if (DestinationPrefix != other.DestinationPrefix) return false;
       if (NextHopAddress != other.NextHopAddress) return false;
+      if (!Labels.Equals(other.Labels)) return false;
       if (DestinationCase != other.DestinationCase) return false;
       if (NextHopCase != other.NextHopCase) return false;
       return Equals(_unknownFields, other._unknownFields);
@@ -527,6 +545,7 @@ namespace Yandex.Cloud.Vpc.V1 {
       int hash = 1;
       if (destinationCase_ == DestinationOneofCase.DestinationPrefix) hash ^= DestinationPrefix.GetHashCode();
       if (nextHopCase_ == NextHopOneofCase.NextHopAddress) hash ^= NextHopAddress.GetHashCode();
+      hash ^= Labels.GetHashCode();
       hash ^= (int) destinationCase_;
       hash ^= (int) nextHopCase_;
       if (_unknownFields != null) {
@@ -550,6 +569,7 @@ namespace Yandex.Cloud.Vpc.V1 {
         output.WriteRawTag(18);
         output.WriteString(NextHopAddress);
       }
+      labels_.WriteTo(output, _map_labels_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -564,6 +584,7 @@ namespace Yandex.Cloud.Vpc.V1 {
       if (nextHopCase_ == NextHopOneofCase.NextHopAddress) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(NextHopAddress);
       }
+      size += labels_.CalculateSize(_map_labels_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -575,6 +596,7 @@ namespace Yandex.Cloud.Vpc.V1 {
       if (other == null) {
         return;
       }
+      labels_.Add(other.labels_);
       switch (other.DestinationCase) {
         case DestinationOneofCase.DestinationPrefix:
           DestinationPrefix = other.DestinationPrefix;
@@ -604,6 +626,10 @@ namespace Yandex.Cloud.Vpc.V1 {
           }
           case 18: {
             NextHopAddress = input.ReadString();
+            break;
+          }
+          case 26: {
+            labels_.AddEntriesFrom(input, _map_labels_codec);
             break;
           }
         }

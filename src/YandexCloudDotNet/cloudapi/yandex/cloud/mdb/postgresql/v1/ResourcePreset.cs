@@ -27,9 +27,10 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
             "CjR5YW5kZXgvY2xvdWQvbWRiL3Bvc3RncmVzcWwvdjEvcmVzb3VyY2VfcHJl",
             "c2V0LnByb3RvEh55YW5kZXguY2xvdWQubWRiLnBvc3RncmVzcWwudjEiTQoO",
             "UmVzb3VyY2VQcmVzZXQSCgoCaWQYASABKAkSEAoIem9uZV9pZHMYAiADKAkS",
-            "DQoFY29yZXMYAyABKAMSDgoGbWVtb3J5GAQgASgDQk9aTWdpdGh1Yi5jb20v",
-            "eWFuZGV4LWNsb3VkL2dvLWdlbnByb3RvL3lhbmRleC9jbG91ZC9tZGIvcG9z",
-            "dGdyZXNxbC92MTtwb3N0Z3Jlc3FsYgZwcm90bzM="));
+            "DQoFY29yZXMYAyABKAMSDgoGbWVtb3J5GAQgASgDQnMKInlhbmRleC5jbG91",
+            "ZC5hcGkubWRiLnBvc3RncmVzcWwudjFaTWdpdGh1Yi5jb20veWFuZGV4LWNs",
+            "b3VkL2dvLWdlbnByb3RvL3lhbmRleC9jbG91ZC9tZGIvcG9zdGdyZXNxbC92",
+            "MTtwb3N0Z3Jlc3FsYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {

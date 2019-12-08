@@ -25,15 +25,16 @@ namespace Yandex.Cloud.Containerregistry.V1 {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "Cix5YW5kZXgvY2xvdWQvY29udGFpbmVycmVnaXN0cnkvdjEvYmxvYi5wcm90",
-            "bxIheWFuZGV4LmNsb3VkLmNvbnRhaW5lcnJlZ2lzdHJ5LnYxIjAKBEJsb2IS",
-            "CgoCaWQYASABKAkSDgoGZGlnZXN0GAIgASgJEgwKBHNpemUYAyABKANCWVpX",
-            "Z2l0aHViLmNvbS95YW5kZXgtY2xvdWQvZ28tZ2VucHJvdG8veWFuZGV4L2Ns",
-            "b3VkL2NvbnRhaW5lcnJlZ2lzdHJ5L3YxO2NvbnRhaW5lcnJlZ2lzdHJ5YgZw",
-            "cm90bzM="));
+            "bxIheWFuZGV4LmNsb3VkLmNvbnRhaW5lcnJlZ2lzdHJ5LnYxIj4KBEJsb2IS",
+            "CgoCaWQYASABKAkSDgoGZGlnZXN0GAIgASgJEgwKBHNpemUYAyABKAMSDAoE",
+            "dXJscxgEIAMoCUKAAQoleWFuZGV4LmNsb3VkLmFwaS5jb250YWluZXJyZWdp",
+            "c3RyeS52MVpXZ2l0aHViLmNvbS95YW5kZXgtY2xvdWQvZ28tZ2VucHJvdG8v",
+            "eWFuZGV4L2Nsb3VkL2NvbnRhaW5lcnJlZ2lzdHJ5L3YxO2NvbnRhaW5lcnJl",
+            "Z2lzdHJ5YgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.Blob), global::Yandex.Cloud.Containerregistry.V1.Blob.Parser, new[]{ "Id", "Digest", "Size" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.Blob), global::Yandex.Cloud.Containerregistry.V1.Blob.Parser, new[]{ "Id", "Digest", "Size", "Urls" }, null, null, null)
           }));
     }
     #endregion
@@ -71,6 +72,7 @@ namespace Yandex.Cloud.Containerregistry.V1 {
       id_ = other.id_;
       digest_ = other.digest_;
       size_ = other.size_;
+      urls_ = other.urls_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -121,6 +123,16 @@ namespace Yandex.Cloud.Containerregistry.V1 {
       }
     }
 
+    /// <summary>Field number for the "urls" field.</summary>
+    public const int UrlsFieldNumber = 4;
+    private static readonly pb::FieldCodec<string> _repeated_urls_codec
+        = pb::FieldCodec.ForString(34);
+    private readonly pbc::RepeatedField<string> urls_ = new pbc::RepeatedField<string>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<string> Urls {
+      get { return urls_; }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as Blob);
@@ -137,6 +149,7 @@ namespace Yandex.Cloud.Containerregistry.V1 {
       if (Id != other.Id) return false;
       if (Digest != other.Digest) return false;
       if (Size != other.Size) return false;
+      if(!urls_.Equals(other.urls_)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -146,6 +159,7 @@ namespace Yandex.Cloud.Containerregistry.V1 {
       if (Id.Length != 0) hash ^= Id.GetHashCode();
       if (Digest.Length != 0) hash ^= Digest.GetHashCode();
       if (Size != 0L) hash ^= Size.GetHashCode();
+      hash ^= urls_.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -171,6 +185,7 @@ namespace Yandex.Cloud.Containerregistry.V1 {
         output.WriteRawTag(24);
         output.WriteInt64(Size);
       }
+      urls_.WriteTo(output, _repeated_urls_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -188,6 +203,7 @@ namespace Yandex.Cloud.Containerregistry.V1 {
       if (Size != 0L) {
         size += 1 + pb::CodedOutputStream.ComputeInt64Size(Size);
       }
+      size += urls_.CalculateSize(_repeated_urls_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -208,6 +224,7 @@ namespace Yandex.Cloud.Containerregistry.V1 {
       if (other.Size != 0L) {
         Size = other.Size;
       }
+      urls_.Add(other.urls_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -229,6 +246,10 @@ namespace Yandex.Cloud.Containerregistry.V1 {
           }
           case 24: {
             Size = input.ReadInt64();
+            break;
+          }
+          case 34: {
+            urls_.AddEntriesFrom(input, _repeated_urls_codec);
             break;
           }
         }

@@ -26,63 +26,65 @@ namespace Yandex.Cloud.Ai.Stt.V2 {
           string.Concat(
             "Cih5YW5kZXgvY2xvdWQvYWkvc3R0L3YyL3N0dF9zZXJ2aWNlLnByb3RvEhZ5",
             "YW5kZXguY2xvdWQuYWkuc3R0LnYyGhxnb29nbGUvYXBpL2Fubm90YXRpb25z",
-            "LnByb3RvGh5nb29nbGUvcHJvdG9idWYvZHVyYXRpb24ucHJvdG8aGnlhbmRl",
-            "eC9hcGkvb3BlcmF0aW9uLnByb3RvGiZ5YW5kZXgvY2xvdWQvb3BlcmF0aW9u",
-            "L29wZXJhdGlvbi5wcm90byKTAQodTG9uZ1J1bm5pbmdSZWNvZ25pdGlvblJl",
-            "cXVlc3QSOQoGY29uZmlnGAEgASgLMikueWFuZGV4LmNsb3VkLmFpLnN0dC52",
-            "Mi5SZWNvZ25pdGlvbkNvbmZpZxI3CgVhdWRpbxgCIAEoCzIoLnlhbmRleC5j",
-            "bG91ZC5haS5zdHQudjIuUmVjb2duaXRpb25BdWRpbyJhCh5Mb25nUnVubmlu",
-            "Z1JlY29nbml0aW9uUmVzcG9uc2USPwoGY2h1bmtzGAEgAygLMi8ueWFuZGV4",
-            "LmNsb3VkLmFpLnN0dC52Mi5TcGVlY2hSZWNvZ25pdGlvblJlc3VsdCKIAQob",
-            "U3RyZWFtaW5nUmVjb2duaXRpb25SZXF1ZXN0EjsKBmNvbmZpZxgBIAEoCzIp",
-            "LnlhbmRleC5jbG91ZC5haS5zdHQudjIuUmVjb2duaXRpb25Db25maWdIABIX",
-            "Cg1hdWRpb19jb250ZW50GAIgASgMSABCEwoRc3RyZWFtaW5nX3JlcXVlc3Qi",
-            "fwocU3RyZWFtaW5nUmVjb2duaXRpb25SZXNwb25zZRI+CgZjaHVua3MYASAD",
-            "KAsyLi55YW5kZXguY2xvdWQuYWkuc3R0LnYyLlNwZWVjaFJlY29nbml0aW9u",
-            "Q2h1bmsSHwoXZW5kX29mX3NpbmdsZV91dHRlcmFuY2UYAiABKAgiRAoQUmVj",
-            "b2duaXRpb25BdWRpbxIRCgdjb250ZW50GAEgASgMSAASDQoDdXJpGAIgASgJ",
-            "SABCDgoMYXVkaW9fc291cmNlImYKEVJlY29nbml0aW9uQ29uZmlnEj4KDXNw",
-            "ZWNpZmljYXRpb24YASABKAsyJy55YW5kZXguY2xvdWQuYWkuc3R0LnYyLlJl",
-            "Y29nbml0aW9uU3BlYxIRCglmb2xkZXJfaWQYAiABKAki3AIKD1JlY29nbml0",
-            "aW9uU3BlYxJNCg5hdWRpb19lbmNvZGluZxgBIAEoDjI1LnlhbmRleC5jbG91",
-            "ZC5haS5zdHQudjIuUmVjb2duaXRpb25TcGVjLkF1ZGlvRW5jb2RpbmcSGQoR",
-            "c2FtcGxlX3JhdGVfaGVydHoYAiABKAMSFQoNbGFuZ3VhZ2VfY29kZRgDIAEo",
-            "CRIYChBwcm9mYW5pdHlfZmlsdGVyGAQgASgIEg0KBW1vZGVsGAUgASgJEhcK",
-            "D3BhcnRpYWxfcmVzdWx0cxgHIAEoCBIYChBzaW5nbGVfdXR0ZXJhbmNlGAgg",
-            "ASgIEhsKE2F1ZGlvX2NoYW5uZWxfY291bnQYCSABKAMiTwoNQXVkaW9FbmNv",
-            "ZGluZxIeChpBVURJT19FTkNPRElOR19VTlNQRUNJRklFRBAAEhAKDExJTkVB",
-            "UjE2X1BDTRABEgwKCE9HR19PUFVTEAIicwoWU3BlZWNoUmVjb2duaXRpb25D",
-            "aHVuaxJKCgxhbHRlcm5hdGl2ZXMYASADKAsyNC55YW5kZXguY2xvdWQuYWku",
-            "c3R0LnYyLlNwZWVjaFJlY29nbml0aW9uQWx0ZXJuYXRpdmUSDQoFZmluYWwY",
-            "AiABKAgiegoXU3BlZWNoUmVjb2duaXRpb25SZXN1bHQSSgoMYWx0ZXJuYXRp",
-            "dmVzGAEgAygLMjQueWFuZGV4LmNsb3VkLmFpLnN0dC52Mi5TcGVlY2hSZWNv",
-            "Z25pdGlvbkFsdGVybmF0aXZlEhMKC2NoYW5uZWxfdGFnGAIgASgDInEKHFNw",
-            "ZWVjaFJlY29nbml0aW9uQWx0ZXJuYXRpdmUSDAoEdGV4dBgBIAEoCRISCgpj",
-            "b25maWRlbmNlGAIgASgCEi8KBXdvcmRzGAMgAygLMiAueWFuZGV4LmNsb3Vk",
-            "LmFpLnN0dC52Mi5Xb3JkSW5mbyKIAQoIV29yZEluZm8SLQoKc3RhcnRfdGlt",
-            "ZRgBIAEoCzIZLmdvb2dsZS5wcm90b2J1Zi5EdXJhdGlvbhIrCghlbmRfdGlt",
-            "ZRgCIAEoCzIZLmdvb2dsZS5wcm90b2J1Zi5EdXJhdGlvbhIMCgR3b3JkGAMg",
-            "ASgJEhIKCmNvbmZpZGVuY2UYBCABKAIy2wIKClN0dFNlcnZpY2USxAEKFExv",
-            "bmdSdW5uaW5nUmVjb2duaXplEjUueWFuZGV4LmNsb3VkLmFpLnN0dC52Mi5M",
-            "b25nUnVubmluZ1JlY29nbml0aW9uUmVxdWVzdBohLnlhbmRleC5jbG91ZC5v",
-            "cGVyYXRpb24uT3BlcmF0aW9uIlKC0+STAigiIy9zcGVlY2gvc3R0L3YyL2xv",
-            "bmdSdW5uaW5nUmVjb2duaXplOgEqstIqIBIeTG9uZ1J1bm5pbmdSZWNvZ25p",
-            "dGlvblJlc3BvbnNlEoUBChJTdHJlYW1pbmdSZWNvZ25pemUSMy55YW5kZXgu",
-            "Y2xvdWQuYWkuc3R0LnYyLlN0cmVhbWluZ1JlY29nbml0aW9uUmVxdWVzdBo0",
-            "LnlhbmRleC5jbG91ZC5haS5zdHQudjIuU3RyZWFtaW5nUmVjb2duaXRpb25S",
-            "ZXNwb25zZSIAKAEwAUJAWj5naXRodWIuY29tL3lhbmRleC1jbG91ZC9nby1n",
-            "ZW5wcm90by95YW5kZXgvY2xvdWQvYWkvc3R0L3YyO3N0dGIGcHJvdG8z"));
+            "LnByb3RvGh5nb29nbGUvcHJvdG9idWYvZHVyYXRpb24ucHJvdG8aIHlhbmRl",
+            "eC9jbG91ZC9hcGkvb3BlcmF0aW9uLnByb3RvGiZ5YW5kZXgvY2xvdWQvb3Bl",
+            "cmF0aW9uL29wZXJhdGlvbi5wcm90byKTAQodTG9uZ1J1bm5pbmdSZWNvZ25p",
+            "dGlvblJlcXVlc3QSOQoGY29uZmlnGAEgASgLMikueWFuZGV4LmNsb3VkLmFp",
+            "LnN0dC52Mi5SZWNvZ25pdGlvbkNvbmZpZxI3CgVhdWRpbxgCIAEoCzIoLnlh",
+            "bmRleC5jbG91ZC5haS5zdHQudjIuUmVjb2duaXRpb25BdWRpbyJhCh5Mb25n",
+            "UnVubmluZ1JlY29nbml0aW9uUmVzcG9uc2USPwoGY2h1bmtzGAEgAygLMi8u",
+            "eWFuZGV4LmNsb3VkLmFpLnN0dC52Mi5TcGVlY2hSZWNvZ25pdGlvblJlc3Vs",
+            "dCKIAQobU3RyZWFtaW5nUmVjb2duaXRpb25SZXF1ZXN0EjsKBmNvbmZpZxgB",
+            "IAEoCzIpLnlhbmRleC5jbG91ZC5haS5zdHQudjIuUmVjb2duaXRpb25Db25m",
+            "aWdIABIXCg1hdWRpb19jb250ZW50GAIgASgMSABCEwoRc3RyZWFtaW5nX3Jl",
+            "cXVlc3QifQocU3RyZWFtaW5nUmVjb2duaXRpb25SZXNwb25zZRI+CgZjaHVu",
+            "a3MYASADKAsyLi55YW5kZXguY2xvdWQuYWkuc3R0LnYyLlNwZWVjaFJlY29n",
+            "bml0aW9uQ2h1bmtKBAgCEANSF2VuZF9vZl9zaW5nbGVfdXR0ZXJhbmNlIkQK",
+            "EFJlY29nbml0aW9uQXVkaW8SEQoHY29udGVudBgBIAEoDEgAEg0KA3VyaRgC",
+            "IAEoCUgAQg4KDGF1ZGlvX3NvdXJjZSJmChFSZWNvZ25pdGlvbkNvbmZpZxI+",
+            "Cg1zcGVjaWZpY2F0aW9uGAEgASgLMicueWFuZGV4LmNsb3VkLmFpLnN0dC52",
+            "Mi5SZWNvZ25pdGlvblNwZWMSEQoJZm9sZGVyX2lkGAIgASgJIvECCg9SZWNv",
+            "Z25pdGlvblNwZWMSTQoOYXVkaW9fZW5jb2RpbmcYASABKA4yNS55YW5kZXgu",
+            "Y2xvdWQuYWkuc3R0LnYyLlJlY29nbml0aW9uU3BlYy5BdWRpb0VuY29kaW5n",
+            "EhkKEXNhbXBsZV9yYXRlX2hlcnR6GAIgASgDEhUKDWxhbmd1YWdlX2NvZGUY",
+            "AyABKAkSGAoQcHJvZmFuaXR5X2ZpbHRlchgEIAEoCBINCgVtb2RlbBgFIAEo",
+            "CRIXCg9wYXJ0aWFsX3Jlc3VsdHMYByABKAgSGAoQc2luZ2xlX3V0dGVyYW5j",
+            "ZRgIIAEoCBIbChNhdWRpb19jaGFubmVsX2NvdW50GAkgASgDEhMKC3Jhd19y",
+            "ZXN1bHRzGAogASgIIk8KDUF1ZGlvRW5jb2RpbmcSHgoaQVVESU9fRU5DT0RJ",
+            "TkdfVU5TUEVDSUZJRUQQABIQCgxMSU5FQVIxNl9QQ00QARIMCghPR0dfT1BV",
+            "UxACIo0BChZTcGVlY2hSZWNvZ25pdGlvbkNodW5rEkoKDGFsdGVybmF0aXZl",
+            "cxgBIAMoCzI0LnlhbmRleC5jbG91ZC5haS5zdHQudjIuU3BlZWNoUmVjb2du",
+            "aXRpb25BbHRlcm5hdGl2ZRINCgVmaW5hbBgCIAEoCBIYChBlbmRfb2ZfdXR0",
+            "ZXJhbmNlGAMgASgIInoKF1NwZWVjaFJlY29nbml0aW9uUmVzdWx0EkoKDGFs",
+            "dGVybmF0aXZlcxgBIAMoCzI0LnlhbmRleC5jbG91ZC5haS5zdHQudjIuU3Bl",
+            "ZWNoUmVjb2duaXRpb25BbHRlcm5hdGl2ZRITCgtjaGFubmVsX3RhZxgCIAEo",
+            "AyJxChxTcGVlY2hSZWNvZ25pdGlvbkFsdGVybmF0aXZlEgwKBHRleHQYASAB",
+            "KAkSEgoKY29uZmlkZW5jZRgCIAEoAhIvCgV3b3JkcxgDIAMoCzIgLnlhbmRl",
+            "eC5jbG91ZC5haS5zdHQudjIuV29yZEluZm8iiAEKCFdvcmRJbmZvEi0KCnN0",
+            "YXJ0X3RpbWUYASABKAsyGS5nb29nbGUucHJvdG9idWYuRHVyYXRpb24SKwoI",
+            "ZW5kX3RpbWUYAiABKAsyGS5nb29nbGUucHJvdG9idWYuRHVyYXRpb24SDAoE",
+            "d29yZBgDIAEoCRISCgpjb25maWRlbmNlGAQgASgCMtsCCgpTdHRTZXJ2aWNl",
+            "EsQBChRMb25nUnVubmluZ1JlY29nbml6ZRI1LnlhbmRleC5jbG91ZC5haS5z",
+            "dHQudjIuTG9uZ1J1bm5pbmdSZWNvZ25pdGlvblJlcXVlc3QaIS55YW5kZXgu",
+            "Y2xvdWQub3BlcmF0aW9uLk9wZXJhdGlvbiJSgtPkkwIoIiMvc3BlZWNoL3N0",
+            "dC92Mi9sb25nUnVubmluZ1JlY29nbml6ZToBKrLSKiASHkxvbmdSdW5uaW5n",
+            "UmVjb2duaXRpb25SZXNwb25zZRKFAQoSU3RyZWFtaW5nUmVjb2duaXplEjMu",
+            "eWFuZGV4LmNsb3VkLmFpLnN0dC52Mi5TdHJlYW1pbmdSZWNvZ25pdGlvblJl",
+            "cXVlc3QaNC55YW5kZXguY2xvdWQuYWkuc3R0LnYyLlN0cmVhbWluZ1JlY29n",
+            "bml0aW9uUmVzcG9uc2UiACgBMAFCXAoaeWFuZGV4LmNsb3VkLmFwaS5haS5z",
+            "dHQudjJaPmdpdGh1Yi5jb20veWFuZGV4LWNsb3VkL2dvLWdlbnByb3RvL3lh",
+            "bmRleC9jbG91ZC9haS9zdHQvdjI7c3R0YgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.DurationReflection.Descriptor, global::Yandex.Api.OperationReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.DurationReflection.Descriptor, global::Yandex.Cloud.Api.OperationReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Stt.V2.LongRunningRecognitionRequest), global::Yandex.Cloud.Ai.Stt.V2.LongRunningRecognitionRequest.Parser, new[]{ "Config", "Audio" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Stt.V2.LongRunningRecognitionResponse), global::Yandex.Cloud.Ai.Stt.V2.LongRunningRecognitionResponse.Parser, new[]{ "Chunks" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Stt.V2.StreamingRecognitionRequest), global::Yandex.Cloud.Ai.Stt.V2.StreamingRecognitionRequest.Parser, new[]{ "Config", "AudioContent" }, new[]{ "StreamingRequest" }, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Stt.V2.StreamingRecognitionResponse), global::Yandex.Cloud.Ai.Stt.V2.StreamingRecognitionResponse.Parser, new[]{ "Chunks", "EndOfSingleUtterance" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Stt.V2.StreamingRecognitionResponse), global::Yandex.Cloud.Ai.Stt.V2.StreamingRecognitionResponse.Parser, new[]{ "Chunks" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Stt.V2.RecognitionAudio), global::Yandex.Cloud.Ai.Stt.V2.RecognitionAudio.Parser, new[]{ "Content", "Uri" }, new[]{ "AudioSource" }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Stt.V2.RecognitionConfig), global::Yandex.Cloud.Ai.Stt.V2.RecognitionConfig.Parser, new[]{ "Specification", "FolderId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Stt.V2.RecognitionSpec), global::Yandex.Cloud.Ai.Stt.V2.RecognitionSpec.Parser, new[]{ "AudioEncoding", "SampleRateHertz", "LanguageCode", "ProfanityFilter", "Model", "PartialResults", "SingleUtterance", "AudioChannelCount" }, null, new[]{ typeof(global::Yandex.Cloud.Ai.Stt.V2.RecognitionSpec.Types.AudioEncoding) }, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Stt.V2.SpeechRecognitionChunk), global::Yandex.Cloud.Ai.Stt.V2.SpeechRecognitionChunk.Parser, new[]{ "Alternatives", "Final" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Stt.V2.RecognitionSpec), global::Yandex.Cloud.Ai.Stt.V2.RecognitionSpec.Parser, new[]{ "AudioEncoding", "SampleRateHertz", "LanguageCode", "ProfanityFilter", "Model", "PartialResults", "SingleUtterance", "AudioChannelCount", "RawResults" }, null, new[]{ typeof(global::Yandex.Cloud.Ai.Stt.V2.RecognitionSpec.Types.AudioEncoding) }, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Stt.V2.SpeechRecognitionChunk), global::Yandex.Cloud.Ai.Stt.V2.SpeechRecognitionChunk.Parser, new[]{ "Alternatives", "Final", "EndOfUtterance" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Stt.V2.SpeechRecognitionResult), global::Yandex.Cloud.Ai.Stt.V2.SpeechRecognitionResult.Parser, new[]{ "Alternatives", "ChannelTag" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Stt.V2.SpeechRecognitionAlternative), global::Yandex.Cloud.Ai.Stt.V2.SpeechRecognitionAlternative.Parser, new[]{ "Text", "Confidence", "Words" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Stt.V2.WordInfo), global::Yandex.Cloud.Ai.Stt.V2.WordInfo.Parser, new[]{ "StartTime", "EndTime", "Word", "Confidence" }, null, null, null)
@@ -604,7 +606,6 @@ namespace Yandex.Cloud.Ai.Stt.V2 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public StreamingRecognitionResponse(StreamingRecognitionResponse other) : this() {
       chunks_ = other.chunks_.Clone();
-      endOfSingleUtterance_ = other.endOfSingleUtterance_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -623,17 +624,6 @@ namespace Yandex.Cloud.Ai.Stt.V2 {
       get { return chunks_; }
     }
 
-    /// <summary>Field number for the "end_of_single_utterance" field.</summary>
-    public const int EndOfSingleUtteranceFieldNumber = 2;
-    private bool endOfSingleUtterance_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool EndOfSingleUtterance {
-      get { return endOfSingleUtterance_; }
-      set {
-        endOfSingleUtterance_ = value;
-      }
-    }
-
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as StreamingRecognitionResponse);
@@ -648,7 +638,6 @@ namespace Yandex.Cloud.Ai.Stt.V2 {
         return true;
       }
       if(!chunks_.Equals(other.chunks_)) return false;
-      if (EndOfSingleUtterance != other.EndOfSingleUtterance) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -656,7 +645,6 @@ namespace Yandex.Cloud.Ai.Stt.V2 {
     public override int GetHashCode() {
       int hash = 1;
       hash ^= chunks_.GetHashCode();
-      if (EndOfSingleUtterance != false) hash ^= EndOfSingleUtterance.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -671,10 +659,6 @@ namespace Yandex.Cloud.Ai.Stt.V2 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public void WriteTo(pb::CodedOutputStream output) {
       chunks_.WriteTo(output, _repeated_chunks_codec);
-      if (EndOfSingleUtterance != false) {
-        output.WriteRawTag(16);
-        output.WriteBool(EndOfSingleUtterance);
-      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -684,9 +668,6 @@ namespace Yandex.Cloud.Ai.Stt.V2 {
     public int CalculateSize() {
       int size = 0;
       size += chunks_.CalculateSize(_repeated_chunks_codec);
-      if (EndOfSingleUtterance != false) {
-        size += 1 + 1;
-      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -699,9 +680,6 @@ namespace Yandex.Cloud.Ai.Stt.V2 {
         return;
       }
       chunks_.Add(other.chunks_);
-      if (other.EndOfSingleUtterance != false) {
-        EndOfSingleUtterance = other.EndOfSingleUtterance;
-      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -715,10 +693,6 @@ namespace Yandex.Cloud.Ai.Stt.V2 {
             break;
           case 10: {
             chunks_.AddEntriesFrom(input, _repeated_chunks_codec);
-            break;
-          }
-          case 16: {
-            EndOfSingleUtterance = input.ReadBool();
             break;
           }
         }
@@ -1111,6 +1085,7 @@ namespace Yandex.Cloud.Ai.Stt.V2 {
       partialResults_ = other.partialResults_;
       singleUtterance_ = other.singleUtterance_;
       audioChannelCount_ = other.audioChannelCount_;
+      rawResults_ = other.rawResults_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1221,6 +1196,20 @@ namespace Yandex.Cloud.Ai.Stt.V2 {
       }
     }
 
+    /// <summary>Field number for the "raw_results" field.</summary>
+    public const int RawResultsFieldNumber = 10;
+    private bool rawResults_;
+    /// <summary>
+    /// This mark allows disable normalization text
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool RawResults {
+      get { return rawResults_; }
+      set {
+        rawResults_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as RecognitionSpec);
@@ -1242,6 +1231,7 @@ namespace Yandex.Cloud.Ai.Stt.V2 {
       if (PartialResults != other.PartialResults) return false;
       if (SingleUtterance != other.SingleUtterance) return false;
       if (AudioChannelCount != other.AudioChannelCount) return false;
+      if (RawResults != other.RawResults) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1256,6 +1246,7 @@ namespace Yandex.Cloud.Ai.Stt.V2 {
       if (PartialResults != false) hash ^= PartialResults.GetHashCode();
       if (SingleUtterance != false) hash ^= SingleUtterance.GetHashCode();
       if (AudioChannelCount != 0L) hash ^= AudioChannelCount.GetHashCode();
+      if (RawResults != false) hash ^= RawResults.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1301,6 +1292,10 @@ namespace Yandex.Cloud.Ai.Stt.V2 {
         output.WriteRawTag(72);
         output.WriteInt64(AudioChannelCount);
       }
+      if (RawResults != false) {
+        output.WriteRawTag(80);
+        output.WriteBool(RawResults);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1332,6 +1327,9 @@ namespace Yandex.Cloud.Ai.Stt.V2 {
       }
       if (AudioChannelCount != 0L) {
         size += 1 + pb::CodedOutputStream.ComputeInt64Size(AudioChannelCount);
+      }
+      if (RawResults != false) {
+        size += 1 + 1;
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1367,6 +1365,9 @@ namespace Yandex.Cloud.Ai.Stt.V2 {
       }
       if (other.AudioChannelCount != 0L) {
         AudioChannelCount = other.AudioChannelCount;
+      }
+      if (other.RawResults != false) {
+        RawResults = other.RawResults;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -1409,6 +1410,10 @@ namespace Yandex.Cloud.Ai.Stt.V2 {
           }
           case 72: {
             AudioChannelCount = input.ReadInt64();
+            break;
+          }
+          case 80: {
+            RawResults = input.ReadBool();
             break;
           }
         }
@@ -1460,6 +1465,7 @@ namespace Yandex.Cloud.Ai.Stt.V2 {
     public SpeechRecognitionChunk(SpeechRecognitionChunk other) : this() {
       alternatives_ = other.alternatives_.Clone();
       final_ = other.final_;
+      endOfUtterance_ = other.endOfUtterance_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1481,11 +1487,28 @@ namespace Yandex.Cloud.Ai.Stt.V2 {
     /// <summary>Field number for the "final" field.</summary>
     public const int FinalFieldNumber = 2;
     private bool final_;
+    /// <summary>
+    /// This flag shows that the received chunk contains a part of the recognized text that won't be changed.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public bool Final {
       get { return final_; }
       set {
         final_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "end_of_utterance" field.</summary>
+    public const int EndOfUtteranceFieldNumber = 3;
+    private bool endOfUtterance_;
+    /// <summary>
+    /// This flag shows that the received chunk is the end of an utterance.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool EndOfUtterance {
+      get { return endOfUtterance_; }
+      set {
+        endOfUtterance_ = value;
       }
     }
 
@@ -1504,6 +1527,7 @@ namespace Yandex.Cloud.Ai.Stt.V2 {
       }
       if(!alternatives_.Equals(other.alternatives_)) return false;
       if (Final != other.Final) return false;
+      if (EndOfUtterance != other.EndOfUtterance) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1512,6 +1536,7 @@ namespace Yandex.Cloud.Ai.Stt.V2 {
       int hash = 1;
       hash ^= alternatives_.GetHashCode();
       if (Final != false) hash ^= Final.GetHashCode();
+      if (EndOfUtterance != false) hash ^= EndOfUtterance.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1530,6 +1555,10 @@ namespace Yandex.Cloud.Ai.Stt.V2 {
         output.WriteRawTag(16);
         output.WriteBool(Final);
       }
+      if (EndOfUtterance != false) {
+        output.WriteRawTag(24);
+        output.WriteBool(EndOfUtterance);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1540,6 +1569,9 @@ namespace Yandex.Cloud.Ai.Stt.V2 {
       int size = 0;
       size += alternatives_.CalculateSize(_repeated_alternatives_codec);
       if (Final != false) {
+        size += 1 + 1;
+      }
+      if (EndOfUtterance != false) {
         size += 1 + 1;
       }
       if (_unknownFields != null) {
@@ -1556,6 +1588,9 @@ namespace Yandex.Cloud.Ai.Stt.V2 {
       alternatives_.Add(other.alternatives_);
       if (other.Final != false) {
         Final = other.Final;
+      }
+      if (other.EndOfUtterance != false) {
+        EndOfUtterance = other.EndOfUtterance;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -1574,6 +1609,10 @@ namespace Yandex.Cloud.Ai.Stt.V2 {
           }
           case 16: {
             Final = input.ReadBool();
+            break;
+          }
+          case 24: {
+            EndOfUtterance = input.ReadBool();
             break;
           }
         }

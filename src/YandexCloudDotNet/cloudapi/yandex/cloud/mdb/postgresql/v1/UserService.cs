@@ -27,88 +27,92 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
             "CjF5YW5kZXgvY2xvdWQvbWRiL3Bvc3RncmVzcWwvdjEvdXNlcl9zZXJ2aWNl",
             "LnByb3RvEh55YW5kZXguY2xvdWQubWRiLnBvc3RncmVzcWwudjEaHGdvb2ds",
             "ZS9hcGkvYW5ub3RhdGlvbnMucHJvdG8aIGdvb2dsZS9wcm90b2J1Zi9maWVs",
-            "ZF9tYXNrLnByb3RvGiZ5YW5kZXgvY2xvdWQvb3BlcmF0aW9uL29wZXJhdGlv",
-            "bi5wcm90bxodeWFuZGV4L2Nsb3VkL3ZhbGlkYXRpb24ucHJvdG8aKXlhbmRl",
-            "eC9jbG91ZC9tZGIvcG9zdGdyZXNxbC92MS91c2VyLnByb3RvGhp5YW5kZXgv",
-            "YXBpL29wZXJhdGlvbi5wcm90byJkCg5HZXRVc2VyUmVxdWVzdBIgCgpjbHVz",
-            "dGVyX2lkGAEgASgJQgzoxzEBisgxBDw9NTASMAoJdXNlcl9uYW1lGAIgASgJ",
-            "Qh3oxzEBisgxBDw9NjPyxzENW2EtekEtWjAtOV9dKiJyChBMaXN0VXNlcnNS",
-            "ZXF1ZXN0EiAKCmNsdXN0ZXJfaWQYASABKAlCDOjHMQGKyDEEPD01MBIdCglw",
-            "YWdlX3NpemUYAiABKANCCvrHMQY8PTEwMDASHQoKcGFnZV90b2tlbhgDIAEo",
-            "CUIJisgxBTw9MTAwImEKEUxpc3RVc2Vyc1Jlc3BvbnNlEjMKBXVzZXJzGAEg",
-            "AygLMiQueWFuZGV4LmNsb3VkLm1kYi5wb3N0Z3Jlc3FsLnYxLlVzZXISFwoP",
-            "bmV4dF9wYWdlX3Rva2VuGAIgASgJIngKEUNyZWF0ZVVzZXJSZXF1ZXN0EiAK",
-            "CmNsdXN0ZXJfaWQYASABKAlCDOjHMQGKyDEEPD01MBJBCgl1c2VyX3NwZWMY",
-            "AiABKAsyKC55YW5kZXguY2xvdWQubWRiLnBvc3RncmVzcWwudjEuVXNlclNw",
-            "ZWNCBOjHMQEiOwoSQ3JlYXRlVXNlck1ldGFkYXRhEhIKCmNsdXN0ZXJfaWQY",
-            "ASABKAkSEQoJdXNlcl9uYW1lGAIgASgJItQCChFVcGRhdGVVc2VyUmVxdWVz",
-            "dBIgCgpjbHVzdGVyX2lkGAEgASgJQgzoxzEBisgxBDw9NTASMAoJdXNlcl9u",
-            "YW1lGAIgASgJQh3oxzEBisgxBDw9NjPyxzENW2EtekEtWjAtOV9dKhIvCgt1",
-            "cGRhdGVfbWFzaxgDIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5GaWVsZE1hc2sS",
-            "GwoIcGFzc3dvcmQYBCABKAlCCYrIMQU4LTEyOBI/CgtwZXJtaXNzaW9ucxgF",
-            "IAMoCzIqLnlhbmRleC5jbG91ZC5tZGIucG9zdGdyZXNxbC52MS5QZXJtaXNz",
-            "aW9uEhwKCmNvbm5fbGltaXQYBiABKANCCPrHMQQ+PTEwEj4KCHNldHRpbmdz",
-            "GAcgASgLMiwueWFuZGV4LmNsb3VkLm1kYi5wb3N0Z3Jlc3FsLnYxLlVzZXJT",
-            "ZXR0aW5ncyI7ChJVcGRhdGVVc2VyTWV0YWRhdGESEgoKY2x1c3Rlcl9pZBgB",
-            "IAEoCRIRCgl1c2VyX25hbWUYAiABKAkiZwoRRGVsZXRlVXNlclJlcXVlc3QS",
-            "IAoKY2x1c3Rlcl9pZBgBIAEoCUIM6McxAYrIMQQ8PTUwEjAKCXVzZXJfbmFt",
-            "ZRgCIAEoCUId6McxAYrIMQQ8PTYz8scxDVthLXpBLVowLTlfXSoiOwoSRGVs",
-            "ZXRlVXNlck1ldGFkYXRhEhIKCmNsdXN0ZXJfaWQYASABKAkSEQoJdXNlcl9u",
-            "YW1lGAIgASgJIrYBChpHcmFudFVzZXJQZXJtaXNzaW9uUmVxdWVzdBIgCgpj",
-            "bHVzdGVyX2lkGAEgASgJQgzoxzEBisgxBDw9NTASMAoJdXNlcl9uYW1lGAIg",
-            "ASgJQh3oxzEBisgxBDw9NjPyxzENW2EtekEtWjAtOV9dKhJECgpwZXJtaXNz",
-            "aW9uGAMgASgLMioueWFuZGV4LmNsb3VkLm1kYi5wb3N0Z3Jlc3FsLnYxLlBl",
-            "cm1pc3Npb25CBOjHMQEiRAobR3JhbnRVc2VyUGVybWlzc2lvbk1ldGFkYXRh",
-            "EhIKCmNsdXN0ZXJfaWQYASABKAkSEQoJdXNlcl9uYW1lGAIgASgJIqgBChtS",
-            "ZXZva2VVc2VyUGVybWlzc2lvblJlcXVlc3QSIAoKY2x1c3Rlcl9pZBgBIAEo",
-            "CUIM6McxAYrIMQQ8PTUwEjAKCXVzZXJfbmFtZRgCIAEoCUId6McxAYrIMQQ8",
-            "PTYz8scxDVthLXpBLVowLTlfXSoSNQoNZGF0YWJhc2VfbmFtZRgDIAEoCUIe",
-            "6McxAYrIMQQ8PTYz8scxDlthLXpBLVowLTlfLV0qIkUKHFJldm9rZVVzZXJQ",
-            "ZXJtaXNzaW9uTWV0YWRhdGESEgoKY2x1c3Rlcl9pZBgBIAEoCRIRCgl1c2Vy",
-            "X25hbWUYAiABKAkyrQsKC1VzZXJTZXJ2aWNlEqMBCgNHZXQSLi55YW5kZXgu",
-            "Y2xvdWQubWRiLnBvc3RncmVzcWwudjEuR2V0VXNlclJlcXVlc3QaJC55YW5k",
-            "ZXguY2xvdWQubWRiLnBvc3RncmVzcWwudjEuVXNlciJGgtPkkwJAEj4vbWFu",
-            "YWdlZC1wb3N0Z3Jlc3FsL3YxL2NsdXN0ZXJzL3tjbHVzdGVyX2lkfS91c2Vy",
-            "cy97dXNlcl9uYW1lfRKnAQoETGlzdBIwLnlhbmRleC5jbG91ZC5tZGIucG9z",
-            "dGdyZXNxbC52MS5MaXN0VXNlcnNSZXF1ZXN0GjEueWFuZGV4LmNsb3VkLm1k",
-            "Yi5wb3N0Z3Jlc3FsLnYxLkxpc3RVc2Vyc1Jlc3BvbnNlIjqC0+STAjQSMi9t",
-            "YW5hZ2VkLXBvc3RncmVzcWwvdjEvY2x1c3RlcnMve2NsdXN0ZXJfaWR9L3Vz",
-            "ZXJzErsBCgZDcmVhdGUSMS55YW5kZXguY2xvdWQubWRiLnBvc3RncmVzcWwu",
-            "djEuQ3JlYXRlVXNlclJlcXVlc3QaIS55YW5kZXguY2xvdWQub3BlcmF0aW9u",
-            "Lk9wZXJhdGlvbiJbgtPkkwI3IjIvbWFuYWdlZC1wb3N0Z3Jlc3FsL3YxL2Ns",
-            "dXN0ZXJzL3tjbHVzdGVyX2lkfS91c2VyczoBKrLSKhoKEkNyZWF0ZVVzZXJN",
-            "ZXRhZGF0YRIEVXNlchLHAQoGVXBkYXRlEjEueWFuZGV4LmNsb3VkLm1kYi5w",
-            "b3N0Z3Jlc3FsLnYxLlVwZGF0ZVVzZXJSZXF1ZXN0GiEueWFuZGV4LmNsb3Vk",
-            "Lm9wZXJhdGlvbi5PcGVyYXRpb24iZ4LT5JMCQzI+L21hbmFnZWQtcG9zdGdy",
+            "ZF9tYXNrLnByb3RvGh5nb29nbGUvcHJvdG9idWYvd3JhcHBlcnMucHJvdG8a",
+            "JnlhbmRleC9jbG91ZC9vcGVyYXRpb24vb3BlcmF0aW9uLnByb3RvGh15YW5k",
+            "ZXgvY2xvdWQvdmFsaWRhdGlvbi5wcm90bxopeWFuZGV4L2Nsb3VkL21kYi9w",
+            "b3N0Z3Jlc3FsL3YxL3VzZXIucHJvdG8aIHlhbmRleC9jbG91ZC9hcGkvb3Bl",
+            "cmF0aW9uLnByb3RvImQKDkdldFVzZXJSZXF1ZXN0EiAKCmNsdXN0ZXJfaWQY",
+            "ASABKAlCDOjHMQGKyDEEPD01MBIwCgl1c2VyX25hbWUYAiABKAlCHejHMQGK",
+            "yDEEPD02M/LHMQ1bYS16QS1aMC05X10qInIKEExpc3RVc2Vyc1JlcXVlc3QS",
+            "IAoKY2x1c3Rlcl9pZBgBIAEoCUIM6McxAYrIMQQ8PTUwEh0KCXBhZ2Vfc2l6",
+            "ZRgCIAEoA0IK+scxBjw9MTAwMBIdCgpwYWdlX3Rva2VuGAMgASgJQgmKyDEF",
+            "PD0xMDAiYQoRTGlzdFVzZXJzUmVzcG9uc2USMwoFdXNlcnMYASADKAsyJC55",
+            "YW5kZXguY2xvdWQubWRiLnBvc3RncmVzcWwudjEuVXNlchIXCg9uZXh0X3Bh",
+            "Z2VfdG9rZW4YAiABKAkieAoRQ3JlYXRlVXNlclJlcXVlc3QSIAoKY2x1c3Rl",
+            "cl9pZBgBIAEoCUIM6McxAYrIMQQ8PTUwEkEKCXVzZXJfc3BlYxgCIAEoCzIo",
+            "LnlhbmRleC5jbG91ZC5tZGIucG9zdGdyZXNxbC52MS5Vc2VyU3BlY0IE6Mcx",
+            "ASI7ChJDcmVhdGVVc2VyTWV0YWRhdGESEgoKY2x1c3Rlcl9pZBgBIAEoCRIR",
+            "Cgl1c2VyX25hbWUYAiABKAkiqgMKEVVwZGF0ZVVzZXJSZXF1ZXN0EiAKCmNs",
+            "dXN0ZXJfaWQYASABKAlCDOjHMQGKyDEEPD01MBIwCgl1c2VyX25hbWUYAiAB",
+            "KAlCHejHMQGKyDEEPD02M/LHMQ1bYS16QS1aMC05X10qEi8KC3VwZGF0ZV9t",
+            "YXNrGAMgASgLMhouZ29vZ2xlLnByb3RvYnVmLkZpZWxkTWFzaxIbCghwYXNz",
+            "d29yZBgEIAEoCUIJisgxBTgtMTI4Ej8KC3Blcm1pc3Npb25zGAUgAygLMiou",
+            "eWFuZGV4LmNsb3VkLm1kYi5wb3N0Z3Jlc3FsLnYxLlBlcm1pc3Npb24SHAoK",
+            "Y29ubl9saW1pdBgGIAEoA0II+scxBD49MTASPgoIc2V0dGluZ3MYByABKAsy",
+            "LC55YW5kZXguY2xvdWQubWRiLnBvc3RncmVzcWwudjEuVXNlclNldHRpbmdz",
+            "EikKBWxvZ2luGAggASgLMhouZ29vZ2xlLnByb3RvYnVmLkJvb2xWYWx1ZRIp",
+            "CgZncmFudHMYCSADKAlCGYrIMQQ8PTYz8scxDVthLXpBLVowLTlfXSoiOwoS",
+            "VXBkYXRlVXNlck1ldGFkYXRhEhIKCmNsdXN0ZXJfaWQYASABKAkSEQoJdXNl",
+            "cl9uYW1lGAIgASgJImcKEURlbGV0ZVVzZXJSZXF1ZXN0EiAKCmNsdXN0ZXJf",
+            "aWQYASABKAlCDOjHMQGKyDEEPD01MBIwCgl1c2VyX25hbWUYAiABKAlCHejH",
+            "MQGKyDEEPD02M/LHMQ1bYS16QS1aMC05X10qIjsKEkRlbGV0ZVVzZXJNZXRh",
+            "ZGF0YRISCgpjbHVzdGVyX2lkGAEgASgJEhEKCXVzZXJfbmFtZRgCIAEoCSK2",
+            "AQoaR3JhbnRVc2VyUGVybWlzc2lvblJlcXVlc3QSIAoKY2x1c3Rlcl9pZBgB",
+            "IAEoCUIM6McxAYrIMQQ8PTUwEjAKCXVzZXJfbmFtZRgCIAEoCUId6McxAYrI",
+            "MQQ8PTYz8scxDVthLXpBLVowLTlfXSoSRAoKcGVybWlzc2lvbhgDIAEoCzIq",
+            "LnlhbmRleC5jbG91ZC5tZGIucG9zdGdyZXNxbC52MS5QZXJtaXNzaW9uQgTo",
+            "xzEBIkQKG0dyYW50VXNlclBlcm1pc3Npb25NZXRhZGF0YRISCgpjbHVzdGVy",
+            "X2lkGAEgASgJEhEKCXVzZXJfbmFtZRgCIAEoCSKoAQobUmV2b2tlVXNlclBl",
+            "cm1pc3Npb25SZXF1ZXN0EiAKCmNsdXN0ZXJfaWQYASABKAlCDOjHMQGKyDEE",
+            "PD01MBIwCgl1c2VyX25hbWUYAiABKAlCHejHMQGKyDEEPD02M/LHMQ1bYS16",
+            "QS1aMC05X10qEjUKDWRhdGFiYXNlX25hbWUYAyABKAlCHujHMQGKyDEEPD02",
+            "M/LHMQ5bYS16QS1aMC05Xy1dKiJFChxSZXZva2VVc2VyUGVybWlzc2lvbk1l",
+            "dGFkYXRhEhIKCmNsdXN0ZXJfaWQYASABKAkSEQoJdXNlcl9uYW1lGAIgASgJ",
+            "Mq0LCgtVc2VyU2VydmljZRKjAQoDR2V0Ei4ueWFuZGV4LmNsb3VkLm1kYi5w",
+            "b3N0Z3Jlc3FsLnYxLkdldFVzZXJSZXF1ZXN0GiQueWFuZGV4LmNsb3VkLm1k",
+            "Yi5wb3N0Z3Jlc3FsLnYxLlVzZXIiRoLT5JMCQBI+L21hbmFnZWQtcG9zdGdy",
             "ZXNxbC92MS9jbHVzdGVycy97Y2x1c3Rlcl9pZH0vdXNlcnMve3VzZXJfbmFt",
-            "ZX06ASqy0ioaChJVcGRhdGVVc2VyTWV0YWRhdGESBFVzZXIS1QEKBkRlbGV0",
-            "ZRIxLnlhbmRleC5jbG91ZC5tZGIucG9zdGdyZXNxbC52MS5EZWxldGVVc2Vy",
-            "UmVxdWVzdBohLnlhbmRleC5jbG91ZC5vcGVyYXRpb24uT3BlcmF0aW9uInWC",
-            "0+STAkAqPi9tYW5hZ2VkLXBvc3RncmVzcWwvdjEvY2x1c3RlcnMve2NsdXN0",
-            "ZXJfaWR9L3VzZXJzL3t1c2VyX25hbWV9stIqKwoSRGVsZXRlVXNlck1ldGFk",
-            "YXRhEhVnb29nbGUucHJvdG9idWYuRW1wdHkS8wEKD0dyYW50UGVybWlzc2lv",
-            "bhI6LnlhbmRleC5jbG91ZC5tZGIucG9zdGdyZXNxbC52MS5HcmFudFVzZXJQ",
-            "ZXJtaXNzaW9uUmVxdWVzdBohLnlhbmRleC5jbG91ZC5vcGVyYXRpb24uT3Bl",
-            "cmF0aW9uIoABgtPkkwJTIk4vbWFuYWdlZC1wb3N0Z3Jlc3FsL3YxL2NsdXN0",
-            "ZXJzL3tjbHVzdGVyX2lkfS91c2Vycy97dXNlcl9uYW1lfTpncmFudFBlcm1p",
-            "c3Npb246ASqy0iojChtHcmFudFVzZXJQZXJtaXNzaW9uTWV0YWRhdGESBFVz",
-            "ZXIS9wEKEFJldm9rZVBlcm1pc3Npb24SOy55YW5kZXguY2xvdWQubWRiLnBv",
-            "c3RncmVzcWwudjEuUmV2b2tlVXNlclBlcm1pc3Npb25SZXF1ZXN0GiEueWFu",
-            "ZGV4LmNsb3VkLm9wZXJhdGlvbi5PcGVyYXRpb24iggGC0+STAlQiTy9tYW5h",
-            "Z2VkLXBvc3RncmVzcWwvdjEvY2x1c3RlcnMve2NsdXN0ZXJfaWR9L3VzZXJz",
-            "L3t1c2VyX25hbWV9OnJldm9rZVBlcm1pc3Npb246ASqy0iokChxSZXZva2VV",
-            "c2VyUGVybWlzc2lvbk1ldGFkYXRhEgRVc2VyQk9aTWdpdGh1Yi5jb20veWFu",
-            "ZGV4LWNsb3VkL2dvLWdlbnByb3RvL3lhbmRleC9jbG91ZC9tZGIvcG9zdGdy",
-            "ZXNxbC92MTtwb3N0Z3Jlc3FsYgZwcm90bzM="));
+            "ZX0SpwEKBExpc3QSMC55YW5kZXguY2xvdWQubWRiLnBvc3RncmVzcWwudjEu",
+            "TGlzdFVzZXJzUmVxdWVzdBoxLnlhbmRleC5jbG91ZC5tZGIucG9zdGdyZXNx",
+            "bC52MS5MaXN0VXNlcnNSZXNwb25zZSI6gtPkkwI0EjIvbWFuYWdlZC1wb3N0",
+            "Z3Jlc3FsL3YxL2NsdXN0ZXJzL3tjbHVzdGVyX2lkfS91c2VycxK7AQoGQ3Jl",
+            "YXRlEjEueWFuZGV4LmNsb3VkLm1kYi5wb3N0Z3Jlc3FsLnYxLkNyZWF0ZVVz",
+            "ZXJSZXF1ZXN0GiEueWFuZGV4LmNsb3VkLm9wZXJhdGlvbi5PcGVyYXRpb24i",
+            "W4LT5JMCNyIyL21hbmFnZWQtcG9zdGdyZXNxbC92MS9jbHVzdGVycy97Y2x1",
+            "c3Rlcl9pZH0vdXNlcnM6ASqy0ioaChJDcmVhdGVVc2VyTWV0YWRhdGESBFVz",
+            "ZXISxwEKBlVwZGF0ZRIxLnlhbmRleC5jbG91ZC5tZGIucG9zdGdyZXNxbC52",
+            "MS5VcGRhdGVVc2VyUmVxdWVzdBohLnlhbmRleC5jbG91ZC5vcGVyYXRpb24u",
+            "T3BlcmF0aW9uImeC0+STAkMyPi9tYW5hZ2VkLXBvc3RncmVzcWwvdjEvY2x1",
+            "c3RlcnMve2NsdXN0ZXJfaWR9L3VzZXJzL3t1c2VyX25hbWV9OgEqstIqGgoS",
+            "VXBkYXRlVXNlck1ldGFkYXRhEgRVc2VyEtUBCgZEZWxldGUSMS55YW5kZXgu",
+            "Y2xvdWQubWRiLnBvc3RncmVzcWwudjEuRGVsZXRlVXNlclJlcXVlc3QaIS55",
+            "YW5kZXguY2xvdWQub3BlcmF0aW9uLk9wZXJhdGlvbiJ1gtPkkwJAKj4vbWFu",
+            "YWdlZC1wb3N0Z3Jlc3FsL3YxL2NsdXN0ZXJzL3tjbHVzdGVyX2lkfS91c2Vy",
+            "cy97dXNlcl9uYW1lfbLSKisKEkRlbGV0ZVVzZXJNZXRhZGF0YRIVZ29vZ2xl",
+            "LnByb3RvYnVmLkVtcHR5EvMBCg9HcmFudFBlcm1pc3Npb24SOi55YW5kZXgu",
+            "Y2xvdWQubWRiLnBvc3RncmVzcWwudjEuR3JhbnRVc2VyUGVybWlzc2lvblJl",
+            "cXVlc3QaIS55YW5kZXguY2xvdWQub3BlcmF0aW9uLk9wZXJhdGlvbiKAAYLT",
+            "5JMCUyJOL21hbmFnZWQtcG9zdGdyZXNxbC92MS9jbHVzdGVycy97Y2x1c3Rl",
+            "cl9pZH0vdXNlcnMve3VzZXJfbmFtZX06Z3JhbnRQZXJtaXNzaW9uOgEqstIq",
+            "IwobR3JhbnRVc2VyUGVybWlzc2lvbk1ldGFkYXRhEgRVc2VyEvcBChBSZXZv",
+            "a2VQZXJtaXNzaW9uEjsueWFuZGV4LmNsb3VkLm1kYi5wb3N0Z3Jlc3FsLnYx",
+            "LlJldm9rZVVzZXJQZXJtaXNzaW9uUmVxdWVzdBohLnlhbmRleC5jbG91ZC5v",
+            "cGVyYXRpb24uT3BlcmF0aW9uIoIBgtPkkwJUIk8vbWFuYWdlZC1wb3N0Z3Jl",
+            "c3FsL3YxL2NsdXN0ZXJzL3tjbHVzdGVyX2lkfS91c2Vycy97dXNlcl9uYW1l",
+            "fTpyZXZva2VQZXJtaXNzaW9uOgEqstIqJAocUmV2b2tlVXNlclBlcm1pc3Np",
+            "b25NZXRhZGF0YRIEVXNlckJzCiJ5YW5kZXguY2xvdWQuYXBpLm1kYi5wb3N0",
+            "Z3Jlc3FsLnYxWk1naXRodWIuY29tL3lhbmRleC1jbG91ZC9nby1nZW5wcm90",
+            "by95YW5kZXgvY2xvdWQvbWRiL3Bvc3RncmVzcWwvdjE7cG9zdGdyZXNxbGIG",
+            "cHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, global::Yandex.Cloud.Mdb.Postgresql.V1.UserReflection.Descriptor, global::Yandex.Api.OperationReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.WrappersReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, global::Yandex.Cloud.Mdb.Postgresql.V1.UserReflection.Descriptor, global::Yandex.Cloud.Api.OperationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.GetUserRequest), global::Yandex.Cloud.Mdb.Postgresql.V1.GetUserRequest.Parser, new[]{ "ClusterId", "UserName" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.ListUsersRequest), global::Yandex.Cloud.Mdb.Postgresql.V1.ListUsersRequest.Parser, new[]{ "ClusterId", "PageSize", "PageToken" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.ListUsersResponse), global::Yandex.Cloud.Mdb.Postgresql.V1.ListUsersResponse.Parser, new[]{ "Users", "NextPageToken" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.CreateUserRequest), global::Yandex.Cloud.Mdb.Postgresql.V1.CreateUserRequest.Parser, new[]{ "ClusterId", "UserSpec" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.CreateUserMetadata), global::Yandex.Cloud.Mdb.Postgresql.V1.CreateUserMetadata.Parser, new[]{ "ClusterId", "UserName" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.UpdateUserRequest), global::Yandex.Cloud.Mdb.Postgresql.V1.UpdateUserRequest.Parser, new[]{ "ClusterId", "UserName", "UpdateMask", "Password", "Permissions", "ConnLimit", "Settings" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.UpdateUserRequest), global::Yandex.Cloud.Mdb.Postgresql.V1.UpdateUserRequest.Parser, new[]{ "ClusterId", "UserName", "UpdateMask", "Password", "Permissions", "ConnLimit", "Settings", "Login", "Grants" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.UpdateUserMetadata), global::Yandex.Cloud.Mdb.Postgresql.V1.UpdateUserMetadata.Parser, new[]{ "ClusterId", "UserName" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.DeleteUserRequest), global::Yandex.Cloud.Mdb.Postgresql.V1.DeleteUserRequest.Parser, new[]{ "ClusterId", "UserName" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.DeleteUserMetadata), global::Yandex.Cloud.Mdb.Postgresql.V1.DeleteUserMetadata.Parser, new[]{ "ClusterId", "UserName" }, null, null, null),
@@ -161,7 +165,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
     public const int ClusterIdFieldNumber = 1;
     private string clusterId_ = "";
     /// <summary>
-    /// Required. ID of the PostgreSQL cluster the user belongs to.
+    /// ID of the PostgreSQL cluster the user belongs to.
     /// To get the cluster ID, use a [ClusterService.List] request.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -176,7 +180,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
     public const int UserNameFieldNumber = 2;
     private string userName_ = "";
     /// <summary>
-    /// Required. Name of the PostgreSQL User resource to return.
+    /// Name of the PostgreSQL User resource to return.
     /// To get the name of the user, use a [UserService.List] request.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -327,7 +331,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
     public const int ClusterIdFieldNumber = 1;
     private string clusterId_ = "";
     /// <summary>
-    /// Required. ID of the cluster to list PostgreSQL users in.
+    /// ID of the cluster to list PostgreSQL users in.
     /// To get the cluster ID, use a [ClusterService.List] request.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -682,7 +686,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
     public const int ClusterIdFieldNumber = 1;
     private string clusterId_ = "";
     /// <summary>
-    /// Required. ID of the PostgreSQL cluster to create a user in.
+    /// ID of the PostgreSQL cluster to create a user in.
     /// To get the cluster ID, use a [ClusterService.List] request.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -866,7 +870,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
     public const int UserNameFieldNumber = 2;
     private string userName_ = "";
     /// <summary>
-    /// Required. Name of the user that is being created.
+    /// Name of the user that is being created.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string UserName {
@@ -1008,6 +1012,8 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
       permissions_ = other.permissions_.Clone();
       connLimit_ = other.connLimit_;
       settings_ = other.settings_ != null ? other.settings_.Clone() : null;
+      Login = other.Login;
+      grants_ = other.grants_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1020,7 +1026,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
     public const int ClusterIdFieldNumber = 1;
     private string clusterId_ = "";
     /// <summary>
-    /// Required. ID of the PostgreSQL cluster the user belongs to.
+    /// ID of the PostgreSQL cluster the user belongs to.
     /// To get the cluster ID use a [ClusterService.List] request.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1035,7 +1041,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
     public const int UserNameFieldNumber = 2;
     private string userName_ = "";
     /// <summary>
-    /// Required. Name of the user to be updated.
+    /// Name of the user to be updated.
     /// To get the name of the user use a [UserService.List] request.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1115,6 +1121,35 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
       }
     }
 
+    /// <summary>Field number for the "login" field.</summary>
+    public const int LoginFieldNumber = 8;
+    private static readonly pb::FieldCodec<bool?> _single_login_codec = pb::FieldCodec.ForStructWrapper<bool>(66);
+    private bool? login_;
+    /// <summary>
+    /// User can login (default True)
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool? Login {
+      get { return login_; }
+      set {
+        login_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "grants" field.</summary>
+    public const int GrantsFieldNumber = 9;
+    private static readonly pb::FieldCodec<string> _repeated_grants_codec
+        = pb::FieldCodec.ForString(74);
+    private readonly pbc::RepeatedField<string> grants_ = new pbc::RepeatedField<string>();
+    /// <summary>
+    /// User grants (GRANT &lt;role> TO &lt;user>), role must be other user
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<string> Grants {
+      get { return grants_; }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as UpdateUserRequest);
@@ -1135,6 +1170,8 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
       if(!permissions_.Equals(other.permissions_)) return false;
       if (ConnLimit != other.ConnLimit) return false;
       if (!object.Equals(Settings, other.Settings)) return false;
+      if (Login != other.Login) return false;
+      if(!grants_.Equals(other.grants_)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1148,6 +1185,8 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
       hash ^= permissions_.GetHashCode();
       if (ConnLimit != 0L) hash ^= ConnLimit.GetHashCode();
       if (settings_ != null) hash ^= Settings.GetHashCode();
+      if (login_ != null) hash ^= Login.GetHashCode();
+      hash ^= grants_.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1186,6 +1225,10 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
         output.WriteRawTag(58);
         output.WriteMessage(Settings);
       }
+      if (login_ != null) {
+        _single_login_codec.WriteTagAndValue(output, Login);
+      }
+      grants_.WriteTo(output, _repeated_grants_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1213,6 +1256,10 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
       if (settings_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(Settings);
       }
+      if (login_ != null) {
+        size += _single_login_codec.CalculateSizeWithTag(Login);
+      }
+      size += grants_.CalculateSize(_repeated_grants_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -1249,6 +1296,12 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
         }
         Settings.MergeFrom(other.Settings);
       }
+      if (other.login_ != null) {
+        if (login_ == null || other.Login != false) {
+          Login = other.Login;
+        }
+      }
+      grants_.Add(other.grants_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -1292,6 +1345,17 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
               Settings = new global::Yandex.Cloud.Mdb.Postgresql.V1.UserSettings();
             }
             input.ReadMessage(Settings);
+            break;
+          }
+          case 66: {
+            bool? value = _single_login_codec.Read(input);
+            if (login_ == null || value != false) {
+              Login = value;
+            }
+            break;
+          }
+          case 74: {
+            grants_.AddEntriesFrom(input, _repeated_grants_codec);
             break;
           }
         }
@@ -1502,7 +1566,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
     public const int ClusterIdFieldNumber = 1;
     private string clusterId_ = "";
     /// <summary>
-    /// Required. ID of the PostgreSQL cluster the user belongs to.
+    /// ID of the PostgreSQL cluster the user belongs to.
     /// To get the cluster ID, use a [ClusterService.List] request.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1517,7 +1581,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
     public const int UserNameFieldNumber = 2;
     private string userName_ = "";
     /// <summary>
-    /// Required. Name of the user to delete.
+    /// Name of the user to delete.
     /// To get the name of the user, use a [UserService.List] request.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1831,7 +1895,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
     public const int ClusterIdFieldNumber = 1;
     private string clusterId_ = "";
     /// <summary>
-    /// Required. ID of the PostgreSQL cluster the user belongs to.
+    /// ID of the PostgreSQL cluster the user belongs to.
     /// To get the cluster ID, use a [ClusterService.List] request.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1846,7 +1910,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
     public const int UserNameFieldNumber = 2;
     private string userName_ = "";
     /// <summary>
-    /// Required. Name of the user to grant the permission to.
+    /// Name of the user to grant the permission to.
     /// To get the name of the user, use a [UserService.List] request.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2197,7 +2261,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
     public const int ClusterIdFieldNumber = 1;
     private string clusterId_ = "";
     /// <summary>
-    /// Required. ID of the PostgreSQL cluster the user belongs to.
+    /// ID of the PostgreSQL cluster the user belongs to.
     /// To get the cluster ID, use a [ClusterService.List] request.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2212,7 +2276,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
     public const int UserNameFieldNumber = 2;
     private string userName_ = "";
     /// <summary>
-    /// Required. Name of the user to revoke a permission from.
+    /// Name of the user to revoke a permission from.
     /// To get the name of the user, use a [UserService.List] request.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

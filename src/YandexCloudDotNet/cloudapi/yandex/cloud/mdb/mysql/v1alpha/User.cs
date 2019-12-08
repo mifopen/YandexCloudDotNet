@@ -42,9 +42,9 @@ namespace Yandex.Cloud.Mdb.Mysql.V1Alpha {
             "ZXJTcGVjEisKBG5hbWUYASABKAlCHejHMQGKyDEEPD0zMvLHMQ1bYS16QS1a",
             "MC05X10qEh8KCHBhc3N3b3JkGAIgASgJQg3oxzEBisgxBTgtMTI4Ej8KC3Bl",
             "cm1pc3Npb25zGAMgAygLMioueWFuZGV4LmNsb3VkLm1kYi5teXNxbC52MWFs",
-            "cGhhLlBlcm1pc3Npb25CSlpIZ2l0aHViLmNvbS95YW5kZXgtY2xvdWQvZ28t",
-            "Z2VucHJvdG8veWFuZGV4L2Nsb3VkL21kYi9teXNxbC92MWFscGhhO215c3Fs",
-            "YgZwcm90bzM="));
+            "cGhhLlBlcm1pc3Npb25CbgoieWFuZGV4LmNsb3VkLmFwaS5tZGIubXlzcWwu",
+            "djFhbHBoYVpIZ2l0aHViLmNvbS95YW5kZXgtY2xvdWQvZ28tZ2VucHJvdG8v",
+            "eWFuZGV4L2Nsb3VkL21kYi9teXNxbC92MWFscGhhO215c3FsYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.WrappersReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {

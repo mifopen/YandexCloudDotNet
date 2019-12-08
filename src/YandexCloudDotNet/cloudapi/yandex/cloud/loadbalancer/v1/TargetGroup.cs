@@ -35,9 +35,10 @@ namespace Yandex.Cloud.Loadbalancer.V1 {
             "ASgJEjUKB3RhcmdldHMYCSADKAsyJC55YW5kZXguY2xvdWQubG9hZGJhbGFu",
             "Y2VyLnYxLlRhcmdldBotCgtMYWJlbHNFbnRyeRILCgNrZXkYASABKAkSDQoF",
             "dmFsdWUYAiABKAk6AjgBIjYKBlRhcmdldBIbCglzdWJuZXRfaWQYASABKAlC",
-            "CIrIMQQ8PTUwEg8KB2FkZHJlc3MYAiABKAlCT1pNZ2l0aHViLmNvbS95YW5k",
-            "ZXgtY2xvdWQvZ28tZ2VucHJvdG8veWFuZGV4L2Nsb3VkL2xvYWRiYWxhbmNl",
-            "ci92MTtsb2FkYmFsYW5jZXJiBnByb3RvMw=="));
+            "CIrIMQQ8PTUwEg8KB2FkZHJlc3MYAiABKAlCcQogeWFuZGV4LmNsb3VkLmFw",
+            "aS5sb2FkYmFsYW5jZXIudjFaTWdpdGh1Yi5jb20veWFuZGV4LWNsb3VkL2dv",
+            "LWdlbnByb3RvL3lhbmRleC9jbG91ZC9sb2FkYmFsYW5jZXIvdjE7bG9hZGJh",
+            "bGFuY2VyYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
@@ -393,7 +394,7 @@ namespace Yandex.Cloud.Loadbalancer.V1 {
   }
 
   /// <summary>
-  /// A Target resource. For more information, see [Target groups and resources](/docs/load-balancer/target-resources).
+  /// A Target resource. For more information, see [Target groups and resources](/docs/load-balancer/concepts/target-resources).
   /// </summary>
   internal sealed partial class Target : pb::IMessage<Target> {
     private static readonly pb::MessageParser<Target> _parser = new pb::MessageParser<Target>(() => new Target());

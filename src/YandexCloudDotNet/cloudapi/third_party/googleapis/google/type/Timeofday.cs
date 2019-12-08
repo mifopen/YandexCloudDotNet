@@ -43,7 +43,7 @@ namespace Google.Type {
   /// <summary>
   /// Represents a time of day. The date and time zone are either not significant
   /// or are specified elsewhere. An API may choose to allow leap seconds. Related
-  /// types are [google.type.Date][google.type.Date] and `google.protobuf.Timestamp`.
+  /// types are [google.type.Date](https://github.com/googleapis/googleapis/blob/master/google/type/date.proto) and [google.protobuf.Timestamp](https://github.com/protocolbuffers/protobuf/blob/master/src/google/protobuf/timestamp.proto).
   /// </summary>
   internal sealed partial class TimeOfDay : pb::IMessage<TimeOfDay> {
     private static readonly pb::MessageParser<TimeOfDay> _parser = new pb::MessageParser<TimeOfDay>(() => new TimeOfDay());

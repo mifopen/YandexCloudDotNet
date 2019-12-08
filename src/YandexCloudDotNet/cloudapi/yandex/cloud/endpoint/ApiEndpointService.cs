@@ -38,9 +38,9 @@ namespace Yandex.Cloud.Endpoint {
             "cG9pbnRzL3thcGlfZW5kcG9pbnRfaWR9EnsKBExpc3QSLi55YW5kZXguY2xv",
             "dWQuZW5kcG9pbnQuTGlzdEFwaUVuZHBvaW50c1JlcXVlc3QaLy55YW5kZXgu",
             "Y2xvdWQuZW5kcG9pbnQuTGlzdEFwaUVuZHBvaW50c1Jlc3BvbnNlIhKC0+ST",
-            "AgwSCi9lbmRwb2ludHNCRFpCZ2l0aHViLmNvbS95YW5kZXgtY2xvdWQvZ28t",
-            "Z2VucHJvdG8veWFuZGV4L2Nsb3VkL2VuZHBvaW50O2VuZHBvaW50YgZwcm90",
-            "bzM="));
+            "AgwSCi9lbmRwb2ludHNCXwoZeWFuZGV4LmNsb3VkLmFwaS5lbmRwb2ludFpC",
+            "Z2l0aHViLmNvbS95YW5kZXgtY2xvdWQvZ28tZ2VucHJvdG8veWFuZGV4L2Ns",
+            "b3VkL2VuZHBvaW50O2VuZHBvaW50YgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Yandex.Cloud.Endpoint.ApiEndpointReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {

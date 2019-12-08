@@ -25,14 +25,15 @@ namespace Yandex.Cloud.Containerregistry.V1 {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "CjJ5YW5kZXgvY2xvdWQvY29udGFpbmVycmVnaXN0cnkvdjEvcmVwb3NpdG9y",
-            "eS5wcm90bxIheWFuZGV4LmNsb3VkLmNvbnRhaW5lcnJlZ2lzdHJ5LnYxIhoK",
-            "ClJlcG9zaXRvcnkSDAoEbmFtZRgBIAEoCUJZWldnaXRodWIuY29tL3lhbmRl",
-            "eC1jbG91ZC9nby1nZW5wcm90by95YW5kZXgvY2xvdWQvY29udGFpbmVycmVn",
-            "aXN0cnkvdjE7Y29udGFpbmVycmVnaXN0cnliBnByb3RvMw=="));
+            "eS5wcm90bxIheWFuZGV4LmNsb3VkLmNvbnRhaW5lcnJlZ2lzdHJ5LnYxIiYK",
+            "ClJlcG9zaXRvcnkSDAoEbmFtZRgBIAEoCRIKCgJpZBgCIAEoCUKAAQoleWFu",
+            "ZGV4LmNsb3VkLmFwaS5jb250YWluZXJyZWdpc3RyeS52MVpXZ2l0aHViLmNv",
+            "bS95YW5kZXgtY2xvdWQvZ28tZ2VucHJvdG8veWFuZGV4L2Nsb3VkL2NvbnRh",
+            "aW5lcnJlZ2lzdHJ5L3YxO2NvbnRhaW5lcnJlZ2lzdHJ5YgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.Repository), global::Yandex.Cloud.Containerregistry.V1.Repository.Parser, new[]{ "Name" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.Repository), global::Yandex.Cloud.Containerregistry.V1.Repository.Parser, new[]{ "Name", "Id" }, null, null, null)
           }));
     }
     #endregion
@@ -68,6 +69,7 @@ namespace Yandex.Cloud.Containerregistry.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public Repository(Repository other) : this() {
       name_ = other.name_;
+      id_ = other.id_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -91,6 +93,20 @@ namespace Yandex.Cloud.Containerregistry.V1 {
       }
     }
 
+    /// <summary>Field number for the "id" field.</summary>
+    public const int IdFieldNumber = 2;
+    private string id_ = "";
+    /// <summary>
+    /// Output only. ID of the repository.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Id {
+      get { return id_; }
+      set {
+        id_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as Repository);
@@ -105,6 +121,7 @@ namespace Yandex.Cloud.Containerregistry.V1 {
         return true;
       }
       if (Name != other.Name) return false;
+      if (Id != other.Id) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -112,6 +129,7 @@ namespace Yandex.Cloud.Containerregistry.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
+      if (Id.Length != 0) hash ^= Id.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -129,6 +147,10 @@ namespace Yandex.Cloud.Containerregistry.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
+      if (Id.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Id);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -139,6 +161,9 @@ namespace Yandex.Cloud.Containerregistry.V1 {
       int size = 0;
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+      }
+      if (Id.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Id);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -154,6 +179,9 @@ namespace Yandex.Cloud.Containerregistry.V1 {
       if (other.Name.Length != 0) {
         Name = other.Name;
       }
+      if (other.Id.Length != 0) {
+        Id = other.Id;
+      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -167,6 +195,10 @@ namespace Yandex.Cloud.Containerregistry.V1 {
             break;
           case 10: {
             Name = input.ReadString();
+            break;
+          }
+          case 18: {
+            Id = input.ReadString();
             break;
           }
         }

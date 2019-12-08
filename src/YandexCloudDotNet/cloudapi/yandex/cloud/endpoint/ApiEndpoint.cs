@@ -26,9 +26,9 @@ namespace Yandex.Cloud.Endpoint {
           string.Concat(
             "Cih5YW5kZXgvY2xvdWQvZW5kcG9pbnQvYXBpX2VuZHBvaW50LnByb3RvEhV5",
             "YW5kZXguY2xvdWQuZW5kcG9pbnQiKgoLQXBpRW5kcG9pbnQSCgoCaWQYASAB",
-            "KAkSDwoHYWRkcmVzcxgCIAEoCUJEWkJnaXRodWIuY29tL3lhbmRleC1jbG91",
-            "ZC9nby1nZW5wcm90by95YW5kZXgvY2xvdWQvZW5kcG9pbnQ7ZW5kcG9pbnRi",
-            "BnByb3RvMw=="));
+            "KAkSDwoHYWRkcmVzcxgCIAEoCUJfChl5YW5kZXguY2xvdWQuYXBpLmVuZHBv",
+            "aW50WkJnaXRodWIuY29tL3lhbmRleC1jbG91ZC9nby1nZW5wcm90by95YW5k",
+            "ZXgvY2xvdWQvZW5kcG9pbnQ7ZW5kcG9pbnRiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {

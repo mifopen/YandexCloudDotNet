@@ -28,8 +28,9 @@ namespace Yandex.Cloud.Ai.Translate.V2 {
             "b3RvEhx5YW5kZXguY2xvdWQuYWkudHJhbnNsYXRlLnYyIj4KDlRyYW5zbGF0",
             "ZWRUZXh0EgwKBHRleHQYASABKAkSHgoWZGV0ZWN0ZWRfbGFuZ3VhZ2VfY29k",
             "ZRgCIAEoCSImCghMYW5ndWFnZRIMCgRjb2RlGAEgASgJEgwKBG5hbWUYAiAB",
-            "KAlCTFpKZ2l0aHViLmNvbS95YW5kZXgtY2xvdWQvZ28tZ2VucHJvdG8veWFu",
-            "ZGV4L2Nsb3VkL2FpL3RyYW5zbGF0ZS92Mjt0cmFuc2xhdGViBnByb3RvMw=="));
+            "KAlCbgogeWFuZGV4LmNsb3VkLmFwaS5haS50cmFuc2xhdGUudjJaSmdpdGh1",
+            "Yi5jb20veWFuZGV4LWNsb3VkL2dvLWdlbnByb3RvL3lhbmRleC9jbG91ZC9h",
+            "aS90cmFuc2xhdGUvdjI7dHJhbnNsYXRlYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {

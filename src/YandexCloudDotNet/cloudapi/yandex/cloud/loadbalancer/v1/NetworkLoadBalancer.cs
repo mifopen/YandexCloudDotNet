@@ -51,26 +51,27 @@ namespace Yandex.Cloud.Loadbalancer.V1 {
             "RUNJRklFRBAAEhgKFENMSUVOVF9JUF9QT1JUX1BST1RPEAEihQEKE0F0dGFj",
             "aGVkVGFyZ2V0R3JvdXASJQoPdGFyZ2V0X2dyb3VwX2lkGAEgASgJQgzoxzEB",
             "isgxBDw9NTASRwoNaGVhbHRoX2NoZWNrcxgCIAMoCzIpLnlhbmRleC5jbG91",
-            "ZC5sb2FkYmFsYW5jZXIudjEuSGVhbHRoQ2hlY2tCBYLIMQExIswBCghMaXN0",
-            "ZW5lchIvCgRuYW1lGAEgASgJQiHyxzEdfFthLXpdWy1hLXowLTldezEsNjF9",
-            "W2EtejAtOV0SDwoHYWRkcmVzcxgCIAEoCRIMCgRwb3J0GAMgASgDEkEKCHBy",
-            "b3RvY29sGAQgASgOMi8ueWFuZGV4LmNsb3VkLmxvYWRiYWxhbmNlci52MS5M",
-            "aXN0ZW5lci5Qcm90b2NvbCItCghQcm90b2NvbBIYChRQUk9UT0NPTF9VTlNQ",
-            "RUNJRklFRBAAEgcKA1RDUBABItoBCgtUYXJnZXRTdGF0ZRIRCglzdWJuZXRf",
-            "aWQYASABKAkSDwoHYWRkcmVzcxgCIAEoCRJACgZzdGF0dXMYAyABKA4yMC55",
-            "YW5kZXguY2xvdWQubG9hZGJhbGFuY2VyLnYxLlRhcmdldFN0YXRlLlN0YXR1",
-            "cyJlCgZTdGF0dXMSFgoSU1RBVFVTX1VOU1BFQ0lGSUVEEAASCwoHSU5JVElB",
-            "TBABEgsKB0hFQUxUSFkQAhINCglVTkhFQUxUSFkQAxIMCghEUkFJTklORxAE",
-            "EgwKCElOQUNUSVZFEAUqOwoJSXBWZXJzaW9uEhoKFklQX1ZFUlNJT05fVU5T",
-            "UEVDSUZJRUQQABIICgRJUFY0EAESCAoESVBWNhACQk9aTWdpdGh1Yi5jb20v",
-            "eWFuZGV4LWNsb3VkL2dvLWdlbnByb3RvL3lhbmRleC9jbG91ZC9sb2FkYmFs",
-            "YW5jZXIvdjE7bG9hZGJhbGFuY2VyYgZwcm90bzM="));
+            "ZC5sb2FkYmFsYW5jZXIudjEuSGVhbHRoQ2hlY2tCBYLIMQExIr4BCghMaXN0",
+            "ZW5lchIMCgRuYW1lGAEgASgJEg8KB2FkZHJlc3MYAiABKAkSDAoEcG9ydBgD",
+            "IAEoAxJBCghwcm90b2NvbBgEIAEoDjIvLnlhbmRleC5jbG91ZC5sb2FkYmFs",
+            "YW5jZXIudjEuTGlzdGVuZXIuUHJvdG9jb2wSEwoLdGFyZ2V0X3BvcnQYBSAB",
+            "KAMiLQoIUHJvdG9jb2wSGAoUUFJPVE9DT0xfVU5TUEVDSUZJRUQQABIHCgNU",
+            "Q1AQASLaAQoLVGFyZ2V0U3RhdGUSEQoJc3VibmV0X2lkGAEgASgJEg8KB2Fk",
+            "ZHJlc3MYAiABKAkSQAoGc3RhdHVzGAMgASgOMjAueWFuZGV4LmNsb3VkLmxv",
+            "YWRiYWxhbmNlci52MS5UYXJnZXRTdGF0ZS5TdGF0dXMiZQoGU3RhdHVzEhYK",
+            "ElNUQVRVU19VTlNQRUNJRklFRBAAEgsKB0lOSVRJQUwQARILCgdIRUFMVEhZ",
+            "EAISDQoJVU5IRUFMVEhZEAMSDAoIRFJBSU5JTkcQBBIMCghJTkFDVElWRRAF",
+            "KjsKCUlwVmVyc2lvbhIaChZJUF9WRVJTSU9OX1VOU1BFQ0lGSUVEEAASCAoE",
+            "SVBWNBABEggKBElQVjYQAkJxCiB5YW5kZXguY2xvdWQuYXBpLmxvYWRiYWxh",
+            "bmNlci52MVpNZ2l0aHViLmNvbS95YW5kZXgtY2xvdWQvZ28tZ2VucHJvdG8v",
+            "eWFuZGV4L2Nsb3VkL2xvYWRiYWxhbmNlci92MTtsb2FkYmFsYW5jZXJiBnBy",
+            "b3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, global::Yandex.Cloud.Loadbalancer.V1.HealthCheckReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Yandex.Cloud.Loadbalancer.V1.IpVersion), }, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Loadbalancer.V1.NetworkLoadBalancer), global::Yandex.Cloud.Loadbalancer.V1.NetworkLoadBalancer.Parser, new[]{ "Id", "FolderId", "CreatedAt", "Name", "Description", "Labels", "RegionId", "Status", "Type", "SessionAffinity", "Listeners", "AttachedTargetGroups" }, null, new[]{ typeof(global::Yandex.Cloud.Loadbalancer.V1.NetworkLoadBalancer.Types.Status), typeof(global::Yandex.Cloud.Loadbalancer.V1.NetworkLoadBalancer.Types.Type), typeof(global::Yandex.Cloud.Loadbalancer.V1.NetworkLoadBalancer.Types.SessionAffinity) }, new pbr::GeneratedClrTypeInfo[] { null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Loadbalancer.V1.AttachedTargetGroup), global::Yandex.Cloud.Loadbalancer.V1.AttachedTargetGroup.Parser, new[]{ "TargetGroupId", "HealthChecks" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Loadbalancer.V1.Listener), global::Yandex.Cloud.Loadbalancer.V1.Listener.Parser, new[]{ "Name", "Address", "Port", "Protocol" }, null, new[]{ typeof(global::Yandex.Cloud.Loadbalancer.V1.Listener.Types.Protocol) }, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Loadbalancer.V1.Listener), global::Yandex.Cloud.Loadbalancer.V1.Listener.Parser, new[]{ "Name", "Address", "Port", "Protocol", "TargetPort" }, null, new[]{ typeof(global::Yandex.Cloud.Loadbalancer.V1.Listener.Types.Protocol) }, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Loadbalancer.V1.TargetState), global::Yandex.Cloud.Loadbalancer.V1.TargetState.Parser, new[]{ "SubnetId", "Address", "Status" }, null, new[]{ typeof(global::Yandex.Cloud.Loadbalancer.V1.TargetState.Types.Status) }, null)
           }));
     }
@@ -620,7 +621,7 @@ namespace Yandex.Cloud.Loadbalancer.V1 {
   }
 
   /// <summary>
-  /// An AttachedTargetGroup resource. For more information, see [Attached Target Groups](/load-balancer/concepts)
+  /// An AttachedTargetGroup resource. For more information, see [Targets and groups](/docs/load-balancer/concepts/target-resources).
   /// </summary>
   internal sealed partial class AttachedTargetGroup : pb::IMessage<AttachedTargetGroup> {
     private static readonly pb::MessageParser<AttachedTargetGroup> _parser = new pb::MessageParser<AttachedTargetGroup>(() => new AttachedTargetGroup());
@@ -810,6 +811,7 @@ namespace Yandex.Cloud.Loadbalancer.V1 {
       address_ = other.address_;
       port_ = other.port_;
       protocol_ = other.protocol_;
+      targetPort_ = other.targetPort_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -874,6 +876,20 @@ namespace Yandex.Cloud.Loadbalancer.V1 {
       }
     }
 
+    /// <summary>Field number for the "target_port" field.</summary>
+    public const int TargetPortFieldNumber = 5;
+    private long targetPort_;
+    /// <summary>
+    /// Port of a target.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long TargetPort {
+      get { return targetPort_; }
+      set {
+        targetPort_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as Listener);
@@ -891,6 +907,7 @@ namespace Yandex.Cloud.Loadbalancer.V1 {
       if (Address != other.Address) return false;
       if (Port != other.Port) return false;
       if (Protocol != other.Protocol) return false;
+      if (TargetPort != other.TargetPort) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -901,6 +918,7 @@ namespace Yandex.Cloud.Loadbalancer.V1 {
       if (Address.Length != 0) hash ^= Address.GetHashCode();
       if (Port != 0L) hash ^= Port.GetHashCode();
       if (Protocol != 0) hash ^= Protocol.GetHashCode();
+      if (TargetPort != 0L) hash ^= TargetPort.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -930,6 +948,10 @@ namespace Yandex.Cloud.Loadbalancer.V1 {
         output.WriteRawTag(32);
         output.WriteEnum((int) Protocol);
       }
+      if (TargetPort != 0L) {
+        output.WriteRawTag(40);
+        output.WriteInt64(TargetPort);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -949,6 +971,9 @@ namespace Yandex.Cloud.Loadbalancer.V1 {
       }
       if (Protocol != 0) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Protocol);
+      }
+      if (TargetPort != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(TargetPort);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -972,6 +997,9 @@ namespace Yandex.Cloud.Loadbalancer.V1 {
       }
       if (other.Protocol != 0) {
         Protocol = other.Protocol;
+      }
+      if (other.TargetPort != 0L) {
+        TargetPort = other.TargetPort;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -998,6 +1026,10 @@ namespace Yandex.Cloud.Loadbalancer.V1 {
           }
           case 32: {
             Protocol = (global::Yandex.Cloud.Loadbalancer.V1.Listener.Types.Protocol) input.ReadEnum();
+            break;
+          }
+          case 40: {
+            TargetPort = input.ReadInt64();
             break;
           }
         }

@@ -26,76 +26,83 @@ namespace Yandex.Cloud.Vpc.V1 {
           string.Concat(
             "Cil5YW5kZXgvY2xvdWQvdnBjL3YxL25ldHdvcmtfc2VydmljZS5wcm90bxIT",
             "eWFuZGV4LmNsb3VkLnZwYy52MRocZ29vZ2xlL2FwaS9hbm5vdGF0aW9ucy5w",
-            "cm90bxogZ29vZ2xlL3Byb3RvYnVmL2ZpZWxkX21hc2sucHJvdG8aGnlhbmRl",
-            "eC9hcGkvb3BlcmF0aW9uLnByb3RvGiF5YW5kZXgvY2xvdWQvdnBjL3YxL25l",
-            "dHdvcmsucHJvdG8aIHlhbmRleC9jbG91ZC92cGMvdjEvc3VibmV0LnByb3Rv",
-            "GiZ5YW5kZXgvY2xvdWQvb3BlcmF0aW9uL29wZXJhdGlvbi5wcm90bxodeWFu",
-            "ZGV4L2Nsb3VkL3ZhbGlkYXRpb24ucHJvdG8iNQoRR2V0TmV0d29ya1JlcXVl",
-            "c3QSIAoKbmV0d29ya19pZBgBIAEoCUIM6McxAYrIMQQ8PTUwIpABChNMaXN0",
-            "TmV0d29ya3NSZXF1ZXN0Eh8KCWZvbGRlcl9pZBgBIAEoCUIM6McxAYrIMQQ8",
-            "PTUwEh0KCXBhZ2Vfc2l6ZRgCIAEoA0IK+scxBjw9MTAwMBIdCgpwYWdlX3Rv",
-            "a2VuGAMgASgJQgmKyDEFPD0xMDASGgoGZmlsdGVyGAQgASgJQgqKyDEGPD0x",
-            "MDAwIl8KFExpc3ROZXR3b3Jrc1Jlc3BvbnNlEi4KCG5ldHdvcmtzGAEgAygL",
-            "MhwueWFuZGV4LmNsb3VkLnZwYy52MS5OZXR3b3JrEhcKD25leHRfcGFnZV90",
-            "b2tlbhgCIAEoCSLAAgoUQ3JlYXRlTmV0d29ya1JlcXVlc3QSHwoJZm9sZGVy",
-            "X2lkGAEgASgJQgzoxzEBisgxBDw9NTASLwoEbmFtZRgCIAEoCUIh8scxHXxb",
-            "YS16XVstYS16MC05XXsxLDYxfVthLXowLTldEh4KC2Rlc2NyaXB0aW9uGAMg",
-            "ASgJQgmKyDEFPD0yNTYShgEKBmxhYmVscxgEIAMoCzI1LnlhbmRleC5jbG91",
-            "ZC52cGMudjEuQ3JlYXRlTmV0d29ya1JlcXVlc3QuTGFiZWxzRW50cnlCP4LI",
-            "MQQ8PTY0isgxBDw9NjPyxzELWy1fMC05YS16XSqyyDEGGgQxLTYzssgxEhIQ",
-            "W2Etel1bLV8wLTlhLXpdKhotCgtMYWJlbHNFbnRyeRILCgNrZXkYASABKAkS",
-            "DQoFdmFsdWUYAiABKAk6AjgBIisKFUNyZWF0ZU5ldHdvcmtNZXRhZGF0YRIS",
-            "CgpuZXR3b3JrX2lkGAEgASgJIvICChRVcGRhdGVOZXR3b3JrUmVxdWVzdBIg",
-            "CgpuZXR3b3JrX2lkGAEgASgJQgzoxzEBisgxBDw9NTASLwoLdXBkYXRlX21h",
-            "c2sYAiABKAsyGi5nb29nbGUucHJvdG9idWYuRmllbGRNYXNrEi8KBG5hbWUY",
-            "AyABKAlCIfLHMR18W2Etel1bLWEtejAtOV17MSw2MX1bYS16MC05XRIeCgtk",
-            "ZXNjcmlwdGlvbhgEIAEoCUIJisgxBTw9MjU2EoYBCgZsYWJlbHMYBSADKAsy",
-            "NS55YW5kZXguY2xvdWQudnBjLnYxLlVwZGF0ZU5ldHdvcmtSZXF1ZXN0Lkxh",
-            "YmVsc0VudHJ5Qj+CyDEEPD02NIrIMQQ8PTYz8scxC1stXzAtOWEtel0qssgx",
-            "BhoEMS02M7LIMRISEFthLXpdWy1fMC05YS16XSoaLQoLTGFiZWxzRW50cnkS",
-            "CwoDa2V5GAEgASgJEg0KBXZhbHVlGAIgASgJOgI4ASIrChVVcGRhdGVOZXR3",
-            "b3JrTWV0YWRhdGESEgoKbmV0d29ya19pZBgBIAEoCSI4ChREZWxldGVOZXR3",
-            "b3JrUmVxdWVzdBIgCgpuZXR3b3JrX2lkGAEgASgJQgzoxzEBisgxBDw9NTAi",
-            "KwoVRGVsZXRlTmV0d29ya01ldGFkYXRhEhIKCm5ldHdvcmtfaWQYASABKAki",
-            "ewoZTGlzdE5ldHdvcmtTdWJuZXRzUmVxdWVzdBIgCgpuZXR3b3JrX2lkGAEg",
-            "ASgJQgzoxzEBisgxBDw9NTASHQoJcGFnZV9zaXplGAIgASgDQgr6xzEGPD0x",
-            "MDAwEh0KCnBhZ2VfdG9rZW4YAyABKAlCCYrIMQU8PTEwMCJjChpMaXN0TmV0",
-            "d29ya1N1Ym5ldHNSZXNwb25zZRIsCgdzdWJuZXRzGAEgAygLMhsueWFuZGV4",
-            "LmNsb3VkLnZwYy52MS5TdWJuZXQSFwoPbmV4dF9wYWdlX3Rva2VuGAIgASgJ",
-            "In4KHExpc3ROZXR3b3JrT3BlcmF0aW9uc1JlcXVlc3QSIAoKbmV0d29ya19p",
-            "ZBgBIAEoCUIM6McxAYrIMQQ8PTUwEh0KCXBhZ2Vfc2l6ZRgCIAEoA0IK+scx",
-            "Bjw9MTAwMBIdCgpwYWdlX3Rva2VuGAMgASgJQgmKyDEFPD0xMDAibwodTGlz",
-            "dE5ldHdvcmtPcGVyYXRpb25zUmVzcG9uc2USNQoKb3BlcmF0aW9ucxgBIAMo",
-            "CzIhLnlhbmRleC5jbG91ZC5vcGVyYXRpb24uT3BlcmF0aW9uEhcKD25leHRf",
-            "cGFnZV90b2tlbhgCIAEoCTK6CAoOTmV0d29ya1NlcnZpY2UScgoDR2V0EiYu",
-            "eWFuZGV4LmNsb3VkLnZwYy52MS5HZXROZXR3b3JrUmVxdWVzdBocLnlhbmRl",
-            "eC5jbG91ZC52cGMudjEuTmV0d29yayIlgtPkkwIfEh0vdnBjL3YxL25ldHdv",
-            "cmtzL3tuZXR3b3JrX2lkfRJ1CgRMaXN0EigueWFuZGV4LmNsb3VkLnZwYy52",
-            "MS5MaXN0TmV0d29ya3NSZXF1ZXN0GikueWFuZGV4LmNsb3VkLnZwYy52MS5M",
-            "aXN0TmV0d29ya3NSZXNwb25zZSIYgtPkkwISEhAvdnBjL3YxL25ldHdvcmtz",
-            "EpcBCgZDcmVhdGUSKS55YW5kZXguY2xvdWQudnBjLnYxLkNyZWF0ZU5ldHdv",
-            "cmtSZXF1ZXN0GiEueWFuZGV4LmNsb3VkLm9wZXJhdGlvbi5PcGVyYXRpb24i",
-            "P4LT5JMCFSIQL3ZwYy92MS9uZXR3b3JrczoBKrLSKiAKFUNyZWF0ZU5ldHdv",
-            "cmtNZXRhZGF0YRIHTmV0d29yaxKkAQoGVXBkYXRlEikueWFuZGV4LmNsb3Vk",
-            "LnZwYy52MS5VcGRhdGVOZXR3b3JrUmVxdWVzdBohLnlhbmRleC5jbG91ZC5v",
-            "cGVyYXRpb24uT3BlcmF0aW9uIkyC0+STAiIyHS92cGMvdjEvbmV0d29ya3Mv",
-            "e25ldHdvcmtfaWR9OgEqstIqIAoVVXBkYXRlTmV0d29ya01ldGFkYXRhEgdO",
-            "ZXR3b3JrEq8BCgZEZWxldGUSKS55YW5kZXguY2xvdWQudnBjLnYxLkRlbGV0",
-            "ZU5ldHdvcmtSZXF1ZXN0GiEueWFuZGV4LmNsb3VkLm9wZXJhdGlvbi5PcGVy",
-            "YXRpb24iV4LT5JMCHyodL3ZwYy92MS9uZXR3b3Jrcy97bmV0d29ya19pZH2y",
-            "0iouChVEZWxldGVOZXR3b3JrTWV0YWRhdGESFWdvb2dsZS5wcm90b2J1Zi5F",
-            "bXB0eRKdAQoLTGlzdFN1Ym5ldHMSLi55YW5kZXguY2xvdWQudnBjLnYxLkxp",
-            "c3ROZXR3b3JrU3VibmV0c1JlcXVlc3QaLy55YW5kZXguY2xvdWQudnBjLnYx",
-            "Lkxpc3ROZXR3b3JrU3VibmV0c1Jlc3BvbnNlIi2C0+STAicSJS92cGMvdjEv",
-            "bmV0d29ya3Mve25ldHdvcmtfaWR9L3N1Ym5ldHMSqQEKDkxpc3RPcGVyYXRp",
-            "b25zEjEueWFuZGV4LmNsb3VkLnZwYy52MS5MaXN0TmV0d29ya09wZXJhdGlv",
-            "bnNSZXF1ZXN0GjIueWFuZGV4LmNsb3VkLnZwYy52MS5MaXN0TmV0d29ya09w",
-            "ZXJhdGlvbnNSZXNwb25zZSIwgtPkkwIqEigvdnBjL3YxL25ldHdvcmtzL3tu",
-            "ZXR3b3JrX2lkfS9vcGVyYXRpb25zQj1aO2dpdGh1Yi5jb20veWFuZGV4LWNs",
-            "b3VkL2dvLWdlbnByb3RvL3lhbmRleC9jbG91ZC92cGMvdjE7dnBjYgZwcm90",
-            "bzM="));
+            "cm90bxogZ29vZ2xlL3Byb3RvYnVmL2ZpZWxkX21hc2sucHJvdG8aIHlhbmRl",
+            "eC9jbG91ZC9hcGkvb3BlcmF0aW9uLnByb3RvGiF5YW5kZXgvY2xvdWQvdnBj",
+            "L3YxL25ldHdvcmsucHJvdG8aIHlhbmRleC9jbG91ZC92cGMvdjEvc3VibmV0",
+            "LnByb3RvGiZ5YW5kZXgvY2xvdWQvb3BlcmF0aW9uL29wZXJhdGlvbi5wcm90",
+            "bxodeWFuZGV4L2Nsb3VkL3ZhbGlkYXRpb24ucHJvdG8iNQoRR2V0TmV0d29y",
+            "a1JlcXVlc3QSIAoKbmV0d29ya19pZBgBIAEoCUIM6McxAYrIMQQ8PTUwIpAB",
+            "ChNMaXN0TmV0d29ya3NSZXF1ZXN0Eh8KCWZvbGRlcl9pZBgBIAEoCUIM6Mcx",
+            "AYrIMQQ8PTUwEh0KCXBhZ2Vfc2l6ZRgCIAEoA0IK+scxBjw9MTAwMBIdCgpw",
+            "YWdlX3Rva2VuGAMgASgJQgmKyDEFPD0xMDASGgoGZmlsdGVyGAQgASgJQgqK",
+            "yDEGPD0xMDAwIl8KFExpc3ROZXR3b3Jrc1Jlc3BvbnNlEi4KCG5ldHdvcmtz",
+            "GAEgAygLMhwueWFuZGV4LmNsb3VkLnZwYy52MS5OZXR3b3JrEhcKD25leHRf",
+            "cGFnZV90b2tlbhgCIAEoCSLAAgoUQ3JlYXRlTmV0d29ya1JlcXVlc3QSHwoJ",
+            "Zm9sZGVyX2lkGAEgASgJQgzoxzEBisgxBDw9NTASLwoEbmFtZRgCIAEoCUIh",
+            "8scxHXxbYS16XVstYS16MC05XXsxLDYxfVthLXowLTldEh4KC2Rlc2NyaXB0",
+            "aW9uGAMgASgJQgmKyDEFPD0yNTYShgEKBmxhYmVscxgEIAMoCzI1LnlhbmRl",
+            "eC5jbG91ZC52cGMudjEuQ3JlYXRlTmV0d29ya1JlcXVlc3QuTGFiZWxzRW50",
+            "cnlCP4LIMQQ8PTY0isgxBDw9NjPyxzELWy1fMC05YS16XSqyyDEGGgQxLTYz",
+            "ssgxEhIQW2Etel1bLV8wLTlhLXpdKhotCgtMYWJlbHNFbnRyeRILCgNrZXkY",
+            "ASABKAkSDQoFdmFsdWUYAiABKAk6AjgBIisKFUNyZWF0ZU5ldHdvcmtNZXRh",
+            "ZGF0YRISCgpuZXR3b3JrX2lkGAEgASgJIvICChRVcGRhdGVOZXR3b3JrUmVx",
+            "dWVzdBIgCgpuZXR3b3JrX2lkGAEgASgJQgzoxzEBisgxBDw9NTASLwoLdXBk",
+            "YXRlX21hc2sYAiABKAsyGi5nb29nbGUucHJvdG9idWYuRmllbGRNYXNrEi8K",
+            "BG5hbWUYAyABKAlCIfLHMR18W2Etel1bLWEtejAtOV17MSw2MX1bYS16MC05",
+            "XRIeCgtkZXNjcmlwdGlvbhgEIAEoCUIJisgxBTw9MjU2EoYBCgZsYWJlbHMY",
+            "BSADKAsyNS55YW5kZXguY2xvdWQudnBjLnYxLlVwZGF0ZU5ldHdvcmtSZXF1",
+            "ZXN0LkxhYmVsc0VudHJ5Qj+CyDEEPD02NIrIMQQ8PTYz8scxC1stXzAtOWEt",
+            "el0qssgxBhoEMS02M7LIMRISEFthLXpdWy1fMC05YS16XSoaLQoLTGFiZWxz",
+            "RW50cnkSCwoDa2V5GAEgASgJEg0KBXZhbHVlGAIgASgJOgI4ASIrChVVcGRh",
+            "dGVOZXR3b3JrTWV0YWRhdGESEgoKbmV0d29ya19pZBgBIAEoCSI4ChREZWxl",
+            "dGVOZXR3b3JrUmVxdWVzdBIgCgpuZXR3b3JrX2lkGAEgASgJQgzoxzEBisgx",
+            "BDw9NTAiKwoVRGVsZXRlTmV0d29ya01ldGFkYXRhEhIKCm5ldHdvcmtfaWQY",
+            "ASABKAkiewoZTGlzdE5ldHdvcmtTdWJuZXRzUmVxdWVzdBIgCgpuZXR3b3Jr",
+            "X2lkGAEgASgJQgzoxzEBisgxBDw9NTASHQoJcGFnZV9zaXplGAIgASgDQgr6",
+            "xzEGPD0xMDAwEh0KCnBhZ2VfdG9rZW4YAyABKAlCCYrIMQU8PTEwMCJjChpM",
+            "aXN0TmV0d29ya1N1Ym5ldHNSZXNwb25zZRIsCgdzdWJuZXRzGAEgAygLMhsu",
+            "eWFuZGV4LmNsb3VkLnZwYy52MS5TdWJuZXQSFwoPbmV4dF9wYWdlX3Rva2Vu",
+            "GAIgASgJIn4KHExpc3ROZXR3b3JrT3BlcmF0aW9uc1JlcXVlc3QSIAoKbmV0",
+            "d29ya19pZBgBIAEoCUIM6McxAYrIMQQ8PTUwEh0KCXBhZ2Vfc2l6ZRgCIAEo",
+            "A0IK+scxBjw9MTAwMBIdCgpwYWdlX3Rva2VuGAMgASgJQgmKyDEFPD0xMDAi",
+            "bwodTGlzdE5ldHdvcmtPcGVyYXRpb25zUmVzcG9uc2USNQoKb3BlcmF0aW9u",
+            "cxgBIAMoCzIhLnlhbmRleC5jbG91ZC5vcGVyYXRpb24uT3BlcmF0aW9uEhcK",
+            "D25leHRfcGFnZV90b2tlbhgCIAEoCSJjChJNb3ZlTmV0d29ya1JlcXVlc3QS",
+            "IAoKbmV0d29ya19pZBgBIAEoCUIM6McxAYrIMQQ8PTUwEisKFWRlc3RpbmF0",
+            "aW9uX2ZvbGRlcl9pZBgCIAEoCUIM6McxAYrIMQQ8PTUwIikKE01vdmVOZXR3",
+            "b3JrTWV0YWRhdGESEgoKbmV0d29ya19pZBgBIAEoCTLgCQoOTmV0d29ya1Nl",
+            "cnZpY2UScgoDR2V0EiYueWFuZGV4LmNsb3VkLnZwYy52MS5HZXROZXR3b3Jr",
+            "UmVxdWVzdBocLnlhbmRleC5jbG91ZC52cGMudjEuTmV0d29yayIlgtPkkwIf",
+            "Eh0vdnBjL3YxL25ldHdvcmtzL3tuZXR3b3JrX2lkfRJ1CgRMaXN0EigueWFu",
+            "ZGV4LmNsb3VkLnZwYy52MS5MaXN0TmV0d29ya3NSZXF1ZXN0GikueWFuZGV4",
+            "LmNsb3VkLnZwYy52MS5MaXN0TmV0d29ya3NSZXNwb25zZSIYgtPkkwISEhAv",
+            "dnBjL3YxL25ldHdvcmtzEpcBCgZDcmVhdGUSKS55YW5kZXguY2xvdWQudnBj",
+            "LnYxLkNyZWF0ZU5ldHdvcmtSZXF1ZXN0GiEueWFuZGV4LmNsb3VkLm9wZXJh",
+            "dGlvbi5PcGVyYXRpb24iP4LT5JMCFSIQL3ZwYy92MS9uZXR3b3JrczoBKrLS",
+            "KiAKFUNyZWF0ZU5ldHdvcmtNZXRhZGF0YRIHTmV0d29yaxKkAQoGVXBkYXRl",
+            "EikueWFuZGV4LmNsb3VkLnZwYy52MS5VcGRhdGVOZXR3b3JrUmVxdWVzdBoh",
+            "LnlhbmRleC5jbG91ZC5vcGVyYXRpb24uT3BlcmF0aW9uIkyC0+STAiIyHS92",
+            "cGMvdjEvbmV0d29ya3Mve25ldHdvcmtfaWR9OgEqstIqIAoVVXBkYXRlTmV0",
+            "d29ya01ldGFkYXRhEgdOZXR3b3JrEq8BCgZEZWxldGUSKS55YW5kZXguY2xv",
+            "dWQudnBjLnYxLkRlbGV0ZU5ldHdvcmtSZXF1ZXN0GiEueWFuZGV4LmNsb3Vk",
+            "Lm9wZXJhdGlvbi5PcGVyYXRpb24iV4LT5JMCHyodL3ZwYy92MS9uZXR3b3Jr",
+            "cy97bmV0d29ya19pZH2y0iouChVEZWxldGVOZXR3b3JrTWV0YWRhdGESFWdv",
+            "b2dsZS5wcm90b2J1Zi5FbXB0eRKdAQoLTGlzdFN1Ym5ldHMSLi55YW5kZXgu",
+            "Y2xvdWQudnBjLnYxLkxpc3ROZXR3b3JrU3VibmV0c1JlcXVlc3QaLy55YW5k",
+            "ZXguY2xvdWQudnBjLnYxLkxpc3ROZXR3b3JrU3VibmV0c1Jlc3BvbnNlIi2C",
+            "0+STAicSJS92cGMvdjEvbmV0d29ya3Mve25ldHdvcmtfaWR9L3N1Ym5ldHMS",
+            "qQEKDkxpc3RPcGVyYXRpb25zEjEueWFuZGV4LmNsb3VkLnZwYy52MS5MaXN0",
+            "TmV0d29ya09wZXJhdGlvbnNSZXF1ZXN0GjIueWFuZGV4LmNsb3VkLnZwYy52",
+            "MS5MaXN0TmV0d29ya09wZXJhdGlvbnNSZXNwb25zZSIwgtPkkwIqEigvdnBj",
+            "L3YxL25ldHdvcmtzL3tuZXR3b3JrX2lkfS9vcGVyYXRpb25zEqMBCgRNb3Zl",
+            "EicueWFuZGV4LmNsb3VkLnZwYy52MS5Nb3ZlTmV0d29ya1JlcXVlc3QaIS55",
+            "YW5kZXguY2xvdWQub3BlcmF0aW9uLk9wZXJhdGlvbiJPgtPkkwInIiIvdnBj",
+            "L3YxL25ldHdvcmtzL3tuZXR3b3JrX2lkfTptb3ZlOgEqstIqHgoTTW92ZU5l",
+            "dHdvcmtNZXRhZGF0YRIHTmV0d29ya0JWChd5YW5kZXguY2xvdWQuYXBpLnZw",
+            "Yy52MVo7Z2l0aHViLmNvbS95YW5kZXgtY2xvdWQvZ28tZ2VucHJvdG8veWFu",
+            "ZGV4L2Nsb3VkL3ZwYy92MTt2cGNiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Yandex.Api.OperationReflection.Descriptor, global::Yandex.Cloud.Vpc.V1.NetworkReflection.Descriptor, global::Yandex.Cloud.Vpc.V1.SubnetReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Yandex.Cloud.Api.OperationReflection.Descriptor, global::Yandex.Cloud.Vpc.V1.NetworkReflection.Descriptor, global::Yandex.Cloud.Vpc.V1.SubnetReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.GetNetworkRequest), global::Yandex.Cloud.Vpc.V1.GetNetworkRequest.Parser, new[]{ "NetworkId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.ListNetworksRequest), global::Yandex.Cloud.Vpc.V1.ListNetworksRequest.Parser, new[]{ "FolderId", "PageSize", "PageToken", "Filter" }, null, null, null),
@@ -109,7 +116,9 @@ namespace Yandex.Cloud.Vpc.V1 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.ListNetworkSubnetsRequest), global::Yandex.Cloud.Vpc.V1.ListNetworkSubnetsRequest.Parser, new[]{ "NetworkId", "PageSize", "PageToken" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.ListNetworkSubnetsResponse), global::Yandex.Cloud.Vpc.V1.ListNetworkSubnetsResponse.Parser, new[]{ "Subnets", "NextPageToken" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.ListNetworkOperationsRequest), global::Yandex.Cloud.Vpc.V1.ListNetworkOperationsRequest.Parser, new[]{ "NetworkId", "PageSize", "PageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.ListNetworkOperationsResponse), global::Yandex.Cloud.Vpc.V1.ListNetworkOperationsResponse.Parser, new[]{ "Operations", "NextPageToken" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.ListNetworkOperationsResponse), global::Yandex.Cloud.Vpc.V1.ListNetworkOperationsResponse.Parser, new[]{ "Operations", "NextPageToken" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.MoveNetworkRequest), global::Yandex.Cloud.Vpc.V1.MoveNetworkRequest.Parser, new[]{ "NetworkId", "DestinationFolderId" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.MoveNetworkMetadata), global::Yandex.Cloud.Vpc.V1.MoveNetworkMetadata.Parser, new[]{ "NetworkId" }, null, null, null)
           }));
     }
     #endregion
@@ -2353,6 +2362,301 @@ namespace Yandex.Cloud.Vpc.V1 {
           }
           case 18: {
             NextPageToken = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  internal sealed partial class MoveNetworkRequest : pb::IMessage<MoveNetworkRequest> {
+    private static readonly pb::MessageParser<MoveNetworkRequest> _parser = new pb::MessageParser<MoveNetworkRequest>(() => new MoveNetworkRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<MoveNetworkRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Vpc.V1.NetworkServiceReflection.Descriptor.MessageTypes[13]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public MoveNetworkRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public MoveNetworkRequest(MoveNetworkRequest other) : this() {
+      networkId_ = other.networkId_;
+      destinationFolderId_ = other.destinationFolderId_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public MoveNetworkRequest Clone() {
+      return new MoveNetworkRequest(this);
+    }
+
+    /// <summary>Field number for the "network_id" field.</summary>
+    public const int NetworkIdFieldNumber = 1;
+    private string networkId_ = "";
+    /// <summary>
+    /// ID of the Network resource to move.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string NetworkId {
+      get { return networkId_; }
+      set {
+        networkId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "destination_folder_id" field.</summary>
+    public const int DestinationFolderIdFieldNumber = 2;
+    private string destinationFolderId_ = "";
+    /// <summary>
+    /// ID of the destination folder.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string DestinationFolderId {
+      get { return destinationFolderId_; }
+      set {
+        destinationFolderId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as MoveNetworkRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(MoveNetworkRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (NetworkId != other.NetworkId) return false;
+      if (DestinationFolderId != other.DestinationFolderId) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (NetworkId.Length != 0) hash ^= NetworkId.GetHashCode();
+      if (DestinationFolderId.Length != 0) hash ^= DestinationFolderId.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (NetworkId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(NetworkId);
+      }
+      if (DestinationFolderId.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(DestinationFolderId);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (NetworkId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(NetworkId);
+      }
+      if (DestinationFolderId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(DestinationFolderId);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(MoveNetworkRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.NetworkId.Length != 0) {
+        NetworkId = other.NetworkId;
+      }
+      if (other.DestinationFolderId.Length != 0) {
+        DestinationFolderId = other.DestinationFolderId;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            NetworkId = input.ReadString();
+            break;
+          }
+          case 18: {
+            DestinationFolderId = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  internal sealed partial class MoveNetworkMetadata : pb::IMessage<MoveNetworkMetadata> {
+    private static readonly pb::MessageParser<MoveNetworkMetadata> _parser = new pb::MessageParser<MoveNetworkMetadata>(() => new MoveNetworkMetadata());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<MoveNetworkMetadata> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Vpc.V1.NetworkServiceReflection.Descriptor.MessageTypes[14]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public MoveNetworkMetadata() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public MoveNetworkMetadata(MoveNetworkMetadata other) : this() {
+      networkId_ = other.networkId_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public MoveNetworkMetadata Clone() {
+      return new MoveNetworkMetadata(this);
+    }
+
+    /// <summary>Field number for the "network_id" field.</summary>
+    public const int NetworkIdFieldNumber = 1;
+    private string networkId_ = "";
+    /// <summary>
+    /// ID of the network that is being moved.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string NetworkId {
+      get { return networkId_; }
+      set {
+        networkId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as MoveNetworkMetadata);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(MoveNetworkMetadata other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (NetworkId != other.NetworkId) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (NetworkId.Length != 0) hash ^= NetworkId.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (NetworkId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(NetworkId);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (NetworkId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(NetworkId);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(MoveNetworkMetadata other) {
+      if (other == null) {
+        return;
+      }
+      if (other.NetworkId.Length != 0) {
+        NetworkId = other.NetworkId;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            NetworkId = input.ReadString();
             break;
           }
         }

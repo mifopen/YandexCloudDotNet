@@ -49,58 +49,62 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
             "DAoIQ1JFQVRJTkcQARILCgdSVU5OSU5HEAISCQoFRVJST1IQAxIMCghVUERB",
             "VElORxAEEgwKCFNUT1BQSU5HEAUSCwoHU1RPUFBFRBAGEgwKCFNUQVJUSU5H",
             "EAciPQoKTW9uaXRvcmluZxIMCgRuYW1lGAEgASgJEhMKC2Rlc2NyaXB0aW9u",
-            "GAIgASgJEgwKBGxpbmsYAyABKAki0wMKDUNsdXN0ZXJDb25maWcSDwoHdmVy",
+            "GAIgASgJEgwKBGxpbmsYAyABKAkiiwQKDUNsdXN0ZXJDb25maWcSDwoHdmVy",
             "c2lvbhgBIAEoCRJMCgpjbGlja2hvdXNlGAIgASgLMjgueWFuZGV4LmNsb3Vk",
             "Lm1kYi5jbGlja2hvdXNlLnYxLkNsdXN0ZXJDb25maWcuQ2xpY2tob3VzZRJK",
             "Cgl6b29rZWVwZXIYAyABKAsyNy55YW5kZXguY2xvdWQubWRiLmNsaWNraG91",
             "c2UudjEuQ2x1c3RlckNvbmZpZy5ab29rZWVwZXISMwoTYmFja3VwX3dpbmRv",
-            "d19zdGFydBgEIAEoCzIWLmdvb2dsZS50eXBlLlRpbWVPZkRheRqWAQoKQ2xp",
-            "Y2tob3VzZRJKCgZjb25maWcYASABKAsyOi55YW5kZXguY2xvdWQubWRiLmNs",
-            "aWNraG91c2UudjEuY29uZmlnLkNsaWNraG91c2VDb25maWdTZXQSPAoJcmVz",
-            "b3VyY2VzGAIgASgLMikueWFuZGV4LmNsb3VkLm1kYi5jbGlja2hvdXNlLnYx",
-            "LlJlc291cmNlcxpJCglab29rZWVwZXISPAoJcmVzb3VyY2VzGAEgASgLMiku",
-            "eWFuZGV4LmNsb3VkLm1kYi5jbGlja2hvdXNlLnYxLlJlc291cmNlcyJmCgVT",
-            "aGFyZBIMCgRuYW1lGAEgASgJEhIKCmNsdXN0ZXJfaWQYAiABKAkSOwoGY29u",
-            "ZmlnGAMgASgLMisueWFuZGV4LmNsb3VkLm1kYi5jbGlja2hvdXNlLnYxLlNo",
-            "YXJkQ29uZmlnIp8CCgtTaGFyZENvbmZpZxJKCgpjbGlja2hvdXNlGAEgASgL",
-            "MjYueWFuZGV4LmNsb3VkLm1kYi5jbGlja2hvdXNlLnYxLlNoYXJkQ29uZmln",
-            "LkNsaWNraG91c2UawwEKCkNsaWNraG91c2USSgoGY29uZmlnGAEgASgLMjou",
-            "eWFuZGV4LmNsb3VkLm1kYi5jbGlja2hvdXNlLnYxLmNvbmZpZy5DbGlja2hv",
-            "dXNlQ29uZmlnU2V0EjwKCXJlc291cmNlcxgCIAEoCzIpLnlhbmRleC5jbG91",
-            "ZC5tZGIuY2xpY2tob3VzZS52MS5SZXNvdXJjZXMSKwoGd2VpZ2h0GAMgASgL",
-            "MhsuZ29vZ2xlLnByb3RvYnVmLkludDY0VmFsdWUi4AMKBEhvc3QSDAoEbmFt",
-            "ZRgBIAEoCRISCgpjbHVzdGVyX2lkGAIgASgJEg8KB3pvbmVfaWQYAyABKAkS",
-            "NwoEdHlwZRgEIAEoDjIpLnlhbmRleC5jbG91ZC5tZGIuY2xpY2tob3VzZS52",
-            "MS5Ib3N0LlR5cGUSPAoJcmVzb3VyY2VzGAUgASgLMikueWFuZGV4LmNsb3Vk",
-            "Lm1kYi5jbGlja2hvdXNlLnYxLlJlc291cmNlcxI7CgZoZWFsdGgYBiABKA4y",
-            "Ky55YW5kZXguY2xvdWQubWRiLmNsaWNraG91c2UudjEuSG9zdC5IZWFsdGgS",
-            "OQoIc2VydmljZXMYByADKAsyJy55YW5kZXguY2xvdWQubWRiLmNsaWNraG91",
-            "c2UudjEuU2VydmljZRIRCglzdWJuZXRfaWQYCCABKAkSGAoQYXNzaWduX3B1",
-            "YmxpY19pcBgJIAEoCBISCgpzaGFyZF9uYW1lGAogASgJIjsKBFR5cGUSFAoQ",
-            "VFlQRV9VTlNQRUNJRklFRBAAEg4KCkNMSUNLSE9VU0UQARINCglaT09LRUVQ",
-            "RVIQAiI4CgZIZWFsdGgSCwoHVU5LTk9XThAAEgkKBUFMSVZFEAESCAoEREVB",
-            "RBACEgwKCERFR1JBREVEEAMi7gEKB1NlcnZpY2USOgoEdHlwZRgBIAEoDjIs",
-            "LnlhbmRleC5jbG91ZC5tZGIuY2xpY2tob3VzZS52MS5TZXJ2aWNlLlR5cGUS",
-            "PgoGaGVhbHRoGAIgASgOMi4ueWFuZGV4LmNsb3VkLm1kYi5jbGlja2hvdXNl",
-            "LnYxLlNlcnZpY2UuSGVhbHRoIjsKBFR5cGUSFAoQVFlQRV9VTlNQRUNJRklF",
-            "RBAAEg4KCkNMSUNLSE9VU0UQARINCglaT09LRUVQRVIQAiIqCgZIZWFsdGgS",
-            "CwoHVU5LTk9XThAAEgkKBUFMSVZFEAESCAoEREVBRBACIlAKCVJlc291cmNl",
-            "cxIaChJyZXNvdXJjZV9wcmVzZXRfaWQYASABKAkSEQoJZGlza19zaXplGAIg",
-            "ASgDEhQKDGRpc2tfdHlwZV9pZBgDIAEoCUJPWk1naXRodWIuY29tL3lhbmRl",
-            "eC1jbG91ZC9nby1nZW5wcm90by95YW5kZXgvY2xvdWQvbWRiL2NsaWNraG91",
-            "c2UvdjE7Y2xpY2tob3VzZWIGcHJvdG8z"));
+            "d19zdGFydBgEIAEoCzIWLmdvb2dsZS50eXBlLlRpbWVPZkRheRI2CgZhY2Nl",
+            "c3MYBSABKAsyJi55YW5kZXguY2xvdWQubWRiLmNsaWNraG91c2UudjEuQWNj",
+            "ZXNzGpYBCgpDbGlja2hvdXNlEkoKBmNvbmZpZxgBIAEoCzI6LnlhbmRleC5j",
+            "bG91ZC5tZGIuY2xpY2tob3VzZS52MS5jb25maWcuQ2xpY2tob3VzZUNvbmZp",
+            "Z1NldBI8CglyZXNvdXJjZXMYAiABKAsyKS55YW5kZXguY2xvdWQubWRiLmNs",
+            "aWNraG91c2UudjEuUmVzb3VyY2VzGkkKCVpvb2tlZXBlchI8CglyZXNvdXJj",
+            "ZXMYASABKAsyKS55YW5kZXguY2xvdWQubWRiLmNsaWNraG91c2UudjEuUmVz",
+            "b3VyY2VzImYKBVNoYXJkEgwKBG5hbWUYASABKAkSEgoKY2x1c3Rlcl9pZBgC",
+            "IAEoCRI7CgZjb25maWcYAyABKAsyKy55YW5kZXguY2xvdWQubWRiLmNsaWNr",
+            "aG91c2UudjEuU2hhcmRDb25maWcinwIKC1NoYXJkQ29uZmlnEkoKCmNsaWNr",
+            "aG91c2UYASABKAsyNi55YW5kZXguY2xvdWQubWRiLmNsaWNraG91c2UudjEu",
+            "U2hhcmRDb25maWcuQ2xpY2tob3VzZRrDAQoKQ2xpY2tob3VzZRJKCgZjb25m",
+            "aWcYASABKAsyOi55YW5kZXguY2xvdWQubWRiLmNsaWNraG91c2UudjEuY29u",
+            "ZmlnLkNsaWNraG91c2VDb25maWdTZXQSPAoJcmVzb3VyY2VzGAIgASgLMiku",
+            "eWFuZGV4LmNsb3VkLm1kYi5jbGlja2hvdXNlLnYxLlJlc291cmNlcxIrCgZ3",
+            "ZWlnaHQYAyABKAsyGy5nb29nbGUucHJvdG9idWYuSW50NjRWYWx1ZSLgAwoE",
+            "SG9zdBIMCgRuYW1lGAEgASgJEhIKCmNsdXN0ZXJfaWQYAiABKAkSDwoHem9u",
+            "ZV9pZBgDIAEoCRI3CgR0eXBlGAQgASgOMikueWFuZGV4LmNsb3VkLm1kYi5j",
+            "bGlja2hvdXNlLnYxLkhvc3QuVHlwZRI8CglyZXNvdXJjZXMYBSABKAsyKS55",
+            "YW5kZXguY2xvdWQubWRiLmNsaWNraG91c2UudjEuUmVzb3VyY2VzEjsKBmhl",
+            "YWx0aBgGIAEoDjIrLnlhbmRleC5jbG91ZC5tZGIuY2xpY2tob3VzZS52MS5I",
+            "b3N0LkhlYWx0aBI5CghzZXJ2aWNlcxgHIAMoCzInLnlhbmRleC5jbG91ZC5t",
+            "ZGIuY2xpY2tob3VzZS52MS5TZXJ2aWNlEhEKCXN1Ym5ldF9pZBgIIAEoCRIY",
+            "ChBhc3NpZ25fcHVibGljX2lwGAkgASgIEhIKCnNoYXJkX25hbWUYCiABKAki",
+            "OwoEVHlwZRIUChBUWVBFX1VOU1BFQ0lGSUVEEAASDgoKQ0xJQ0tIT1VTRRAB",
+            "Eg0KCVpPT0tFRVBFUhACIjgKBkhlYWx0aBILCgdVTktOT1dOEAASCQoFQUxJ",
+            "VkUQARIICgRERUFEEAISDAoIREVHUkFERUQQAyLuAQoHU2VydmljZRI6CgR0",
+            "eXBlGAEgASgOMiwueWFuZGV4LmNsb3VkLm1kYi5jbGlja2hvdXNlLnYxLlNl",
+            "cnZpY2UuVHlwZRI+CgZoZWFsdGgYAiABKA4yLi55YW5kZXguY2xvdWQubWRi",
+            "LmNsaWNraG91c2UudjEuU2VydmljZS5IZWFsdGgiOwoEVHlwZRIUChBUWVBF",
+            "X1VOU1BFQ0lGSUVEEAASDgoKQ0xJQ0tIT1VTRRABEg0KCVpPT0tFRVBFUhAC",
+            "IioKBkhlYWx0aBILCgdVTktOT1dOEAASCQoFQUxJVkUQARIICgRERUFEEAIi",
+            "UAoJUmVzb3VyY2VzEhoKEnJlc291cmNlX3ByZXNldF9pZBgBIAEoCRIRCglk",
+            "aXNrX3NpemUYAiABKAMSFAoMZGlza190eXBlX2lkGAMgASgJIiwKBkFjY2Vz",
+            "cxIRCglkYXRhX2xlbnMYASABKAgSDwoHd2ViX3NxbBgCIAEoCEJzCiJ5YW5k",
+            "ZXguY2xvdWQuYXBpLm1kYi5jbGlja2hvdXNlLnYxWk1naXRodWIuY29tL3lh",
+            "bmRleC1jbG91ZC9nby1nZW5wcm90by95YW5kZXgvY2xvdWQvbWRiL2NsaWNr",
+            "aG91c2UvdjE7Y2xpY2tob3VzZWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.WrappersReflection.Descriptor, global::Google.Type.TimeofdayReflection.Descriptor, global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Cluster), global::Yandex.Cloud.Mdb.Clickhouse.V1.Cluster.Parser, new[]{ "Id", "FolderId", "CreatedAt", "Name", "Description", "Labels", "Environment", "Monitoring", "Config", "NetworkId", "Health", "Status" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Cluster.Types.Environment), typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Cluster.Types.Health), typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Cluster.Types.Status) }, new pbr::GeneratedClrTypeInfo[] { null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Monitoring), global::Yandex.Cloud.Mdb.Clickhouse.V1.Monitoring.Parser, new[]{ "Name", "Description", "Link" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterConfig), global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterConfig.Parser, new[]{ "Version", "Clickhouse", "Zookeeper", "BackupWindowStart" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterConfig.Types.Clickhouse), global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterConfig.Types.Clickhouse.Parser, new[]{ "Config", "Resources" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterConfig), global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterConfig.Parser, new[]{ "Version", "Clickhouse", "Zookeeper", "BackupWindowStart", "Access" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterConfig.Types.Clickhouse), global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterConfig.Types.Clickhouse.Parser, new[]{ "Config", "Resources" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterConfig.Types.Zookeeper), global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterConfig.Types.Zookeeper.Parser, new[]{ "Resources" }, null, null, null)}),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Shard), global::Yandex.Cloud.Mdb.Clickhouse.V1.Shard.Parser, new[]{ "Name", "ClusterId", "Config" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.ShardConfig), global::Yandex.Cloud.Mdb.Clickhouse.V1.ShardConfig.Parser, new[]{ "Clickhouse" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.ShardConfig.Types.Clickhouse), global::Yandex.Cloud.Mdb.Clickhouse.V1.ShardConfig.Types.Clickhouse.Parser, new[]{ "Config", "Resources", "Weight" }, null, null, null)}),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Host), global::Yandex.Cloud.Mdb.Clickhouse.V1.Host.Parser, new[]{ "Name", "ClusterId", "ZoneId", "Type", "Resources", "Health", "Services", "SubnetId", "AssignPublicIp", "ShardName" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Host.Types.Type), typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Host.Types.Health) }, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Service), global::Yandex.Cloud.Mdb.Clickhouse.V1.Service.Parser, new[]{ "Type", "Health" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Service.Types.Type), typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Service.Types.Health) }, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Resources), global::Yandex.Cloud.Mdb.Clickhouse.V1.Resources.Parser, new[]{ "ResourcePresetId", "DiskSize", "DiskTypeId" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Resources), global::Yandex.Cloud.Mdb.Clickhouse.V1.Resources.Parser, new[]{ "ResourcePresetId", "DiskSize", "DiskTypeId" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Access), global::Yandex.Cloud.Mdb.Clickhouse.V1.Access.Parser, new[]{ "DataLens", "WebSql" }, null, null, null)
           }));
     }
     #endregion
@@ -886,6 +890,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       clickhouse_ = other.clickhouse_ != null ? other.clickhouse_.Clone() : null;
       zookeeper_ = other.zookeeper_ != null ? other.zookeeper_.Clone() : null;
       backupWindowStart_ = other.backupWindowStart_ != null ? other.backupWindowStart_.Clone() : null;
+      access_ = other.access_ != null ? other.access_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -950,6 +955,20 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       }
     }
 
+    /// <summary>Field number for the "access" field.</summary>
+    public const int AccessFieldNumber = 5;
+    private global::Yandex.Cloud.Mdb.Clickhouse.V1.Access access_;
+    /// <summary>
+    /// Access policy to DB
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Mdb.Clickhouse.V1.Access Access {
+      get { return access_; }
+      set {
+        access_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as ClusterConfig);
@@ -967,6 +986,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       if (!object.Equals(Clickhouse, other.Clickhouse)) return false;
       if (!object.Equals(Zookeeper, other.Zookeeper)) return false;
       if (!object.Equals(BackupWindowStart, other.BackupWindowStart)) return false;
+      if (!object.Equals(Access, other.Access)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -977,6 +997,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       if (clickhouse_ != null) hash ^= Clickhouse.GetHashCode();
       if (zookeeper_ != null) hash ^= Zookeeper.GetHashCode();
       if (backupWindowStart_ != null) hash ^= BackupWindowStart.GetHashCode();
+      if (access_ != null) hash ^= Access.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1006,6 +1027,10 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
         output.WriteRawTag(34);
         output.WriteMessage(BackupWindowStart);
       }
+      if (access_ != null) {
+        output.WriteRawTag(42);
+        output.WriteMessage(Access);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1025,6 +1050,9 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       }
       if (backupWindowStart_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(BackupWindowStart);
+      }
+      if (access_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Access);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1057,6 +1085,12 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
           BackupWindowStart = new global::Google.Type.TimeOfDay();
         }
         BackupWindowStart.MergeFrom(other.BackupWindowStart);
+      }
+      if (other.access_ != null) {
+        if (access_ == null) {
+          Access = new global::Yandex.Cloud.Mdb.Clickhouse.V1.Access();
+        }
+        Access.MergeFrom(other.Access);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -1092,6 +1126,13 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
               BackupWindowStart = new global::Google.Type.TimeOfDay();
             }
             input.ReadMessage(BackupWindowStart);
+            break;
+          }
+          case 42: {
+            if (access_ == null) {
+              Access = new global::Yandex.Cloud.Mdb.Clickhouse.V1.Access();
+            }
+            input.ReadMessage(Access);
             break;
           }
         }
@@ -2694,8 +2735,8 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     /// Type of the storage environment for the host.
     /// Possible values:
     /// * network-hdd — network HDD drive,
-    /// * network-nvme — network SSD drive,
-    /// * local-nvme — local SSD storage.
+    /// * network-ssd — network SSD drive,
+    /// * local-ssd — local SSD storage.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string DiskTypeId {
@@ -2813,6 +2854,169 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
           }
           case 26: {
             DiskTypeId = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  internal sealed partial class Access : pb::IMessage<Access> {
+    private static readonly pb::MessageParser<Access> _parser = new pb::MessageParser<Access>(() => new Access());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<Access> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterReflection.Descriptor.MessageTypes[8]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public Access() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public Access(Access other) : this() {
+      dataLens_ = other.dataLens_;
+      webSql_ = other.webSql_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public Access Clone() {
+      return new Access(this);
+    }
+
+    /// <summary>Field number for the "data_lens" field.</summary>
+    public const int DataLensFieldNumber = 1;
+    private bool dataLens_;
+    /// <summary>
+    /// Allow access for DataLens
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool DataLens {
+      get { return dataLens_; }
+      set {
+        dataLens_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "web_sql" field.</summary>
+    public const int WebSqlFieldNumber = 2;
+    private bool webSql_;
+    /// <summary>
+    /// Allow access for Web SQL
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool WebSql {
+      get { return webSql_; }
+      set {
+        webSql_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as Access);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(Access other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (DataLens != other.DataLens) return false;
+      if (WebSql != other.WebSql) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (DataLens != false) hash ^= DataLens.GetHashCode();
+      if (WebSql != false) hash ^= WebSql.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (DataLens != false) {
+        output.WriteRawTag(8);
+        output.WriteBool(DataLens);
+      }
+      if (WebSql != false) {
+        output.WriteRawTag(16);
+        output.WriteBool(WebSql);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (DataLens != false) {
+        size += 1 + 1;
+      }
+      if (WebSql != false) {
+        size += 1 + 1;
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(Access other) {
+      if (other == null) {
+        return;
+      }
+      if (other.DataLens != false) {
+        DataLens = other.DataLens;
+      }
+      if (other.WebSql != false) {
+        WebSql = other.WebSql;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            DataLens = input.ReadBool();
+            break;
+          }
+          case 16: {
+            WebSql = input.ReadBool();
             break;
           }
         }

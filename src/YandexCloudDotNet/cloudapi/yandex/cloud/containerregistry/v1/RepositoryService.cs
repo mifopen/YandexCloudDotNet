@@ -26,26 +26,58 @@ namespace Yandex.Cloud.Containerregistry.V1 {
           string.Concat(
             "Cjp5YW5kZXgvY2xvdWQvY29udGFpbmVycmVnaXN0cnkvdjEvcmVwb3NpdG9y",
             "eV9zZXJ2aWNlLnByb3RvEiF5YW5kZXguY2xvdWQuY29udGFpbmVycmVnaXN0",
-            "cnkudjEaMnlhbmRleC9jbG91ZC9jb250YWluZXJyZWdpc3RyeS92MS9yZXBv",
-            "c2l0b3J5LnByb3RvGh15YW5kZXgvY2xvdWQvdmFsaWRhdGlvbi5wcm90bxoc",
-            "Z29vZ2xlL2FwaS9hbm5vdGF0aW9ucy5wcm90byLMAQoXTGlzdFJlcG9zaXRv",
-            "cmllc1JlcXVlc3QSHQoLcmVnaXN0cnlfaWQYASABKAlCCIrIMQQ8PTUwEhsK",
-            "CWZvbGRlcl9pZBgGIAEoCUIIisgxBDw9NTASHQoJcGFnZV9zaXplGAIgASgD",
-            "Qgr6xzEGPD0xMDAwEh0KCnBhZ2VfdG9rZW4YAyABKAlCCYrIMQU8PTEwMBIa",
-            "CgZmaWx0ZXIYBCABKAlCCorIMQY8PTEwMDASGwoIb3JkZXJfYnkYBSABKAlC",
-            "CYrIMQU8PTEwMCJ4ChhMaXN0UmVwb3NpdG9yaWVzUmVzcG9uc2USQwoMcmVw",
-            "b3NpdG9yaWVzGAEgAygLMi0ueWFuZGV4LmNsb3VkLmNvbnRhaW5lcnJlZ2lz",
-            "dHJ5LnYxLlJlcG9zaXRvcnkSFwoPbmV4dF9wYWdlX3Rva2VuGAIgASgJMsIB",
-            "ChFSZXBvc2l0b3J5U2VydmljZRKsAQoETGlzdBI6LnlhbmRleC5jbG91ZC5j",
-            "b250YWluZXJyZWdpc3RyeS52MS5MaXN0UmVwb3NpdG9yaWVzUmVxdWVzdBo7",
-            "LnlhbmRleC5jbG91ZC5jb250YWluZXJyZWdpc3RyeS52MS5MaXN0UmVwb3Np",
-            "dG9yaWVzUmVzcG9uc2UiK4LT5JMCJRIjL2NvbnRhaW5lci1yZWdpc3RyeS92",
-            "MS9yZXBvc2l0b3JpZXNCWVpXZ2l0aHViLmNvbS95YW5kZXgtY2xvdWQvZ28t",
-            "Z2VucHJvdG8veWFuZGV4L2Nsb3VkL2NvbnRhaW5lcnJlZ2lzdHJ5L3YxO2Nv",
-            "bnRhaW5lcnJlZ2lzdHJ5YgZwcm90bzM="));
+            "cnkudjEaIHlhbmRleC9jbG91ZC9hcGkvb3BlcmF0aW9uLnByb3RvGiB5YW5k",
+            "ZXgvY2xvdWQvYWNjZXNzL2FjY2Vzcy5wcm90bxoyeWFuZGV4L2Nsb3VkL2Nv",
+            "bnRhaW5lcnJlZ2lzdHJ5L3YxL3JlcG9zaXRvcnkucHJvdG8aJnlhbmRleC9j",
+            "bG91ZC9vcGVyYXRpb24vb3BlcmF0aW9uLnByb3RvGh15YW5kZXgvY2xvdWQv",
+            "dmFsaWRhdGlvbi5wcm90bxocZ29vZ2xlL2FwaS9hbm5vdGF0aW9ucy5wcm90",
+            "byI7ChRHZXRSZXBvc2l0b3J5UmVxdWVzdBIjCg1yZXBvc2l0b3J5X2lkGAEg",
+            "ASgJQgzoxzEBisgxBDw9NTAifQoaR2V0UmVwb3NpdG9yeUJ5TmFtZVJlcXVl",
+            "c3QSXwoPcmVwb3NpdG9yeV9uYW1lGAEgASgJQkboxzEB8scxPlthLXowLTld",
+            "Kyg/OlsuXy1dW2EtejAtOV0rKSooLyhbYS16MC05XSsoPzpbLl8tXVthLXow",
+            "LTldKykqKSkqIswBChdMaXN0UmVwb3NpdG9yaWVzUmVxdWVzdBIdCgtyZWdp",
+            "c3RyeV9pZBgBIAEoCUIIisgxBDw9NTASGwoJZm9sZGVyX2lkGAYgASgJQgiK",
+            "yDEEPD01MBIdCglwYWdlX3NpemUYAiABKANCCvrHMQY8PTEwMDASHQoKcGFn",
+            "ZV90b2tlbhgDIAEoCUIJisgxBTw9MTAwEhoKBmZpbHRlchgEIAEoCUIKisgx",
+            "Bjw9MTAwMBIbCghvcmRlcl9ieRgFIAEoCUIJisgxBTw9MTAwIngKGExpc3RS",
+            "ZXBvc2l0b3JpZXNSZXNwb25zZRJDCgxyZXBvc2l0b3JpZXMYASADKAsyLS55",
+            "YW5kZXguY2xvdWQuY29udGFpbmVycmVnaXN0cnkudjEuUmVwb3NpdG9yeRIX",
+            "Cg9uZXh0X3BhZ2VfdG9rZW4YAiABKAkyqAkKEVJlcG9zaXRvcnlTZXJ2aWNl",
+            "EqoBCgNHZXQSNy55YW5kZXguY2xvdWQuY29udGFpbmVycmVnaXN0cnkudjEu",
+            "R2V0UmVwb3NpdG9yeVJlcXVlc3QaLS55YW5kZXguY2xvdWQuY29udGFpbmVy",
+            "cmVnaXN0cnkudjEuUmVwb3NpdG9yeSI7gtPkkwI1EjMvY29udGFpbmVyLXJl",
+            "Z2lzdHJ5L3YxL3JlcG9zaXRvcmllcy97cmVwb3NpdG9yeV9pZH0SeQoJR2V0",
+            "QnlOYW1lEj0ueWFuZGV4LmNsb3VkLmNvbnRhaW5lcnJlZ2lzdHJ5LnYxLkdl",
+            "dFJlcG9zaXRvcnlCeU5hbWVSZXF1ZXN0Gi0ueWFuZGV4LmNsb3VkLmNvbnRh",
+            "aW5lcnJlZ2lzdHJ5LnYxLlJlcG9zaXRvcnkSrAEKBExpc3QSOi55YW5kZXgu",
+            "Y2xvdWQuY29udGFpbmVycmVnaXN0cnkudjEuTGlzdFJlcG9zaXRvcmllc1Jl",
+            "cXVlc3QaOy55YW5kZXguY2xvdWQuY29udGFpbmVycmVnaXN0cnkudjEuTGlz",
+            "dFJlcG9zaXRvcmllc1Jlc3BvbnNlIiuC0+STAiUSIy9jb250YWluZXItcmVn",
+            "aXN0cnkvdjEvcmVwb3NpdG9yaWVzEsMBChJMaXN0QWNjZXNzQmluZGluZ3MS",
+            "Li55YW5kZXguY2xvdWQuYWNjZXNzLkxpc3RBY2Nlc3NCaW5kaW5nc1JlcXVl",
+            "c3QaLy55YW5kZXguY2xvdWQuYWNjZXNzLkxpc3RBY2Nlc3NCaW5kaW5nc1Jl",
+            "c3BvbnNlIkyC0+STAkYSRC9jb250YWluZXItcmVnaXN0cnkvdjEvcmVwb3Np",
+            "dG9yaWVzL3tyZXNvdXJjZV9pZH06bGlzdEFjY2Vzc0JpbmRpbmdzEvMBChFT",
+            "ZXRBY2Nlc3NCaW5kaW5ncxItLnlhbmRleC5jbG91ZC5hY2Nlc3MuU2V0QWNj",
+            "ZXNzQmluZGluZ3NSZXF1ZXN0GiEueWFuZGV4LmNsb3VkLm9wZXJhdGlvbi5P",
+            "cGVyYXRpb24iiwGC0+STAkgiQy9jb250YWluZXItcmVnaXN0cnkvdjEvcmVw",
+            "b3NpdG9yaWVzL3tyZXNvdXJjZV9pZH06c2V0QWNjZXNzQmluZGluZ3M6ASqy",
+            "0io5CiBhY2Nlc3MuU2V0QWNjZXNzQmluZGluZ3NNZXRhZGF0YRIVZ29vZ2xl",
+            "LnByb3RvYnVmLkVtcHR5Ev8BChRVcGRhdGVBY2Nlc3NCaW5kaW5ncxIwLnlh",
+            "bmRleC5jbG91ZC5hY2Nlc3MuVXBkYXRlQWNjZXNzQmluZGluZ3NSZXF1ZXN0",
+            "GiEueWFuZGV4LmNsb3VkLm9wZXJhdGlvbi5PcGVyYXRpb24ikQGC0+STAksi",
+            "Ri9jb250YWluZXItcmVnaXN0cnkvdjEvcmVwb3NpdG9yaWVzL3tyZXNvdXJj",
+            "ZV9pZH06dXBkYXRlQWNjZXNzQmluZGluZ3M6ASqy0io8CiNhY2Nlc3MuVXBk",
+            "YXRlQWNjZXNzQmluZGluZ3NNZXRhZGF0YRIVZ29vZ2xlLnByb3RvYnVmLkVt",
+            "cHR5QoABCiV5YW5kZXguY2xvdWQuYXBpLmNvbnRhaW5lcnJlZ2lzdHJ5LnYx",
+            "WldnaXRodWIuY29tL3lhbmRleC1jbG91ZC9nby1nZW5wcm90by95YW5kZXgv",
+            "Y2xvdWQvY29udGFpbmVycmVnaXN0cnkvdjE7Y29udGFpbmVycmVnaXN0cnli",
+            "BnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Yandex.Cloud.Containerregistry.V1.RepositoryReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, global::Google.Api.AnnotationsReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Yandex.Cloud.Api.OperationReflection.Descriptor, global::Yandex.Cloud.Access.AccessReflection.Descriptor, global::Yandex.Cloud.Containerregistry.V1.RepositoryReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, global::Google.Api.AnnotationsReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.GetRepositoryRequest), global::Yandex.Cloud.Containerregistry.V1.GetRepositoryRequest.Parser, new[]{ "RepositoryId" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.GetRepositoryByNameRequest), global::Yandex.Cloud.Containerregistry.V1.GetRepositoryByNameRequest.Parser, new[]{ "RepositoryName" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.ListRepositoriesRequest), global::Yandex.Cloud.Containerregistry.V1.ListRepositoriesRequest.Parser, new[]{ "RegistryId", "FolderId", "PageSize", "PageToken", "Filter", "OrderBy" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.ListRepositoriesResponse), global::Yandex.Cloud.Containerregistry.V1.ListRepositoriesResponse.Parser, new[]{ "Repositories", "NextPageToken" }, null, null, null)
           }));
@@ -54,6 +86,274 @@ namespace Yandex.Cloud.Containerregistry.V1 {
 
   }
   #region Messages
+  internal sealed partial class GetRepositoryRequest : pb::IMessage<GetRepositoryRequest> {
+    private static readonly pb::MessageParser<GetRepositoryRequest> _parser = new pb::MessageParser<GetRepositoryRequest>(() => new GetRepositoryRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<GetRepositoryRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Containerregistry.V1.RepositoryServiceReflection.Descriptor.MessageTypes[0]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public GetRepositoryRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public GetRepositoryRequest(GetRepositoryRequest other) : this() {
+      repositoryId_ = other.repositoryId_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public GetRepositoryRequest Clone() {
+      return new GetRepositoryRequest(this);
+    }
+
+    /// <summary>Field number for the "repository_id" field.</summary>
+    public const int RepositoryIdFieldNumber = 1;
+    private string repositoryId_ = "";
+    /// <summary>
+    /// ID of the Repository resource to return.
+    ///
+    /// To get the repository ID use a [RepositoryService.List] request.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string RepositoryId {
+      get { return repositoryId_; }
+      set {
+        repositoryId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as GetRepositoryRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(GetRepositoryRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (RepositoryId != other.RepositoryId) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (RepositoryId.Length != 0) hash ^= RepositoryId.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (RepositoryId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(RepositoryId);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (RepositoryId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(RepositoryId);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(GetRepositoryRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.RepositoryId.Length != 0) {
+        RepositoryId = other.RepositoryId;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            RepositoryId = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  internal sealed partial class GetRepositoryByNameRequest : pb::IMessage<GetRepositoryByNameRequest> {
+    private static readonly pb::MessageParser<GetRepositoryByNameRequest> _parser = new pb::MessageParser<GetRepositoryByNameRequest>(() => new GetRepositoryByNameRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<GetRepositoryByNameRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Containerregistry.V1.RepositoryServiceReflection.Descriptor.MessageTypes[1]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public GetRepositoryByNameRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public GetRepositoryByNameRequest(GetRepositoryByNameRequest other) : this() {
+      repositoryName_ = other.repositoryName_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public GetRepositoryByNameRequest Clone() {
+      return new GetRepositoryByNameRequest(this);
+    }
+
+    /// <summary>Field number for the "repository_name" field.</summary>
+    public const int RepositoryNameFieldNumber = 1;
+    private string repositoryName_ = "";
+    /// <summary>
+    /// Name of the Repository resource to return.
+    ///
+    /// To get the repository name use a [RepositoryService.List] request.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string RepositoryName {
+      get { return repositoryName_; }
+      set {
+        repositoryName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as GetRepositoryByNameRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(GetRepositoryByNameRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (RepositoryName != other.RepositoryName) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (RepositoryName.Length != 0) hash ^= RepositoryName.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (RepositoryName.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(RepositoryName);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (RepositoryName.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(RepositoryName);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(GetRepositoryByNameRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.RepositoryName.Length != 0) {
+        RepositoryName = other.RepositoryName;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            RepositoryName = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
   internal sealed partial class ListRepositoriesRequest : pb::IMessage<ListRepositoriesRequest> {
     private static readonly pb::MessageParser<ListRepositoriesRequest> _parser = new pb::MessageParser<ListRepositoriesRequest>(() => new ListRepositoriesRequest());
     private pb::UnknownFieldSet _unknownFields;
@@ -62,7 +362,7 @@ namespace Yandex.Cloud.Containerregistry.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Containerregistry.V1.RepositoryServiceReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Yandex.Cloud.Containerregistry.V1.RepositoryServiceReflection.Descriptor.MessageTypes[2]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -361,7 +661,7 @@ namespace Yandex.Cloud.Containerregistry.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Containerregistry.V1.RepositoryServiceReflection.Descriptor.MessageTypes[1]; }
+      get { return global::Yandex.Cloud.Containerregistry.V1.RepositoryServiceReflection.Descriptor.MessageTypes[3]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

@@ -125,7 +125,7 @@ namespace Yandex.Cloud.Iam.V1 {
       /// <summary>
       /// Returns the specified ServiceAccount resource.
       ///
-      /// To get the list of available ServiceAccount resources, use a [List] request.
+      /// To get the list of available ServiceAccount resources, make a [List] request.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -139,7 +139,7 @@ namespace Yandex.Cloud.Iam.V1 {
       /// <summary>
       /// Returns the specified ServiceAccount resource.
       ///
-      /// To get the list of available ServiceAccount resources, use a [List] request.
+      /// To get the list of available ServiceAccount resources, make a [List] request.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
@@ -151,7 +151,7 @@ namespace Yandex.Cloud.Iam.V1 {
       /// <summary>
       /// Returns the specified ServiceAccount resource.
       ///
-      /// To get the list of available ServiceAccount resources, use a [List] request.
+      /// To get the list of available ServiceAccount resources, make a [List] request.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -165,7 +165,7 @@ namespace Yandex.Cloud.Iam.V1 {
       /// <summary>
       /// Returns the specified ServiceAccount resource.
       ///
-      /// To get the list of available ServiceAccount resources, use a [List] request.
+      /// To get the list of available ServiceAccount resources, make a [List] request.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>

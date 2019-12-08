@@ -27,10 +27,11 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
             "Cip5YW5kZXgvY2xvdWQvbWRiL21vbmdvZGIvdjEvZGF0YWJhc2UucHJvdG8S",
             "G3lhbmRleC5jbG91ZC5tZGIubW9uZ29kYi52MRodeWFuZGV4L2Nsb3VkL3Zh",
             "bGlkYXRpb24ucHJvdG8iLAoIRGF0YWJhc2USDAoEbmFtZRgBIAEoCRISCgpj",
-            "bHVzdGVyX2lkGAIgASgJIjwKDERhdGFiYXNlU3BlYxIsCgRuYW1lGAEgASgJ",
-            "Qh7oxzEBisgxBDw9NjPyxzEOW2EtekEtWjAtOV8tXSpCSVpHZ2l0aHViLmNv",
-            "bS95YW5kZXgtY2xvdWQvZ28tZ2VucHJvdG8veWFuZGV4L2Nsb3VkL21kYi9t",
-            "b25nb2RiL3YxO21vbmdvZGJiBnByb3RvMw=="));
+            "bHVzdGVyX2lkGAIgASgJIkEKDERhdGFiYXNlU3BlYxIxCgRuYW1lGAEgASgJ",
+            "QiPoxzEBisgxBDw9NjPyxzETW2EtekEtWjAtOV8tXXsxLDYzfUJqCh95YW5k",
+            "ZXguY2xvdWQuYXBpLm1kYi5tb25nb2RiLnYxWkdnaXRodWIuY29tL3lhbmRl",
+            "eC1jbG91ZC9nby1nZW5wcm90by95YW5kZXgvY2xvdWQvbWRiL21vbmdvZGIv",
+            "djE7bW9uZ29kYmIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Yandex.Cloud.ValidationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {

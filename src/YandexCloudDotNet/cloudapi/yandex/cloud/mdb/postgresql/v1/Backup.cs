@@ -30,9 +30,9 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
             "Cglmb2xkZXJfaWQYAiABKAkSLgoKY3JlYXRlZF9hdBgDIAEoCzIaLmdvb2ds",
             "ZS5wcm90b2J1Zi5UaW1lc3RhbXASGQoRc291cmNlX2NsdXN0ZXJfaWQYBCAB",
             "KAkSLgoKc3RhcnRlZF9hdBgFIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1l",
-            "c3RhbXBCT1pNZ2l0aHViLmNvbS95YW5kZXgtY2xvdWQvZ28tZ2VucHJvdG8v",
-            "eWFuZGV4L2Nsb3VkL21kYi9wb3N0Z3Jlc3FsL3YxO3Bvc3RncmVzcWxiBnBy",
-            "b3RvMw=="));
+            "c3RhbXBCcwoieWFuZGV4LmNsb3VkLmFwaS5tZGIucG9zdGdyZXNxbC52MVpN",
+            "Z2l0aHViLmNvbS95YW5kZXgtY2xvdWQvZ28tZ2VucHJvdG8veWFuZGV4L2Ns",
+            "b3VkL21kYi9wb3N0Z3Jlc3FsL3YxO3Bvc3RncmVzcWxiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {

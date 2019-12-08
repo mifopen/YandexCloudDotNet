@@ -38,9 +38,9 @@ namespace Yandex.Cloud.Compute.V1 {
             "Y29tcHV0ZS92MS96b25lcy97em9uZV9pZH0SeAoETGlzdBIpLnlhbmRleC5j",
             "bG91ZC5jb21wdXRlLnYxLkxpc3Rab25lc1JlcXVlc3QaKi55YW5kZXguY2xv",
             "dWQuY29tcHV0ZS52MS5MaXN0Wm9uZXNSZXNwb25zZSIZgtPkkwITEhEvY29t",
-            "cHV0ZS92MS96b25lc0JFWkNnaXRodWIuY29tL3lhbmRleC1jbG91ZC9nby1n",
-            "ZW5wcm90by95YW5kZXgvY2xvdWQvY29tcHV0ZS92MTtjb21wdXRlYgZwcm90",
-            "bzM="));
+            "cHV0ZS92MS96b25lc0JiCht5YW5kZXguY2xvdWQuYXBpLmNvbXB1dGUudjFa",
+            "Q2dpdGh1Yi5jb20veWFuZGV4LWNsb3VkL2dvLWdlbnByb3RvL3lhbmRleC9j",
+            "bG91ZC9jb21wdXRlL3YxO2NvbXB1dGViBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Yandex.Cloud.Compute.V1.ZoneReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {

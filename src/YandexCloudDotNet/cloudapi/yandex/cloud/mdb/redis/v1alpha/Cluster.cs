@@ -68,9 +68,10 @@ namespace Yandex.Cloud.Mdb.Redis.V1Alpha {
             "SGVhbHRoIjUKBFR5cGUSFAoQVFlQRV9VTlNQRUNJRklFRBAAEgkKBVJFRElT",
             "EAESDAoIU0VOVElORUwQAiIxCgZIZWFsdGgSEgoOSEVBTFRIX1VOS05PV04Q",
             "ABIJCgVBTElWRRABEggKBERFQUQQAiI6CglSZXNvdXJjZXMSGgoScmVzb3Vy",
-            "Y2VfcHJlc2V0X2lkGAEgASgJEhEKCWRpc2tfc2l6ZRgCIAEoA0JKWkhnaXRo",
-            "dWIuY29tL3lhbmRleC1jbG91ZC9nby1nZW5wcm90by95YW5kZXgvY2xvdWQv",
-            "bWRiL3JlZGlzL3YxYWxwaGE7cmVkaXNiBnByb3RvMw=="));
+            "Y2VfcHJlc2V0X2lkGAEgASgJEhEKCWRpc2tfc2l6ZRgCIAEoA0JuCiJ5YW5k",
+            "ZXguY2xvdWQuYXBpLm1kYi5yZWRpcy52MWFscGhhWkhnaXRodWIuY29tL3lh",
+            "bmRleC1jbG91ZC9nby1nZW5wcm90by95YW5kZXgvY2xvdWQvbWRiL3JlZGlz",
+            "L3YxYWxwaGE7cmVkaXNiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Yandex.Cloud.Mdb.Redis.V1Alpha.Config.Redis50Reflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {

@@ -41,9 +41,10 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
             "a3VwX2lkfRKXAQoETGlzdBIyLnlhbmRleC5jbG91ZC5tZGIucG9zdGdyZXNx",
             "bC52MS5MaXN0QmFja3Vwc1JlcXVlc3QaMy55YW5kZXguY2xvdWQubWRiLnBv",
             "c3RncmVzcWwudjEuTGlzdEJhY2t1cHNSZXNwb25zZSImgtPkkwIgEh4vbWFu",
-            "YWdlZC1wb3N0Z3Jlc3FsL3YxL2JhY2t1cHNCT1pNZ2l0aHViLmNvbS95YW5k",
-            "ZXgtY2xvdWQvZ28tZ2VucHJvdG8veWFuZGV4L2Nsb3VkL21kYi9wb3N0Z3Jl",
-            "c3FsL3YxO3Bvc3RncmVzcWxiBnByb3RvMw=="));
+            "YWdlZC1wb3N0Z3Jlc3FsL3YxL2JhY2t1cHNCcwoieWFuZGV4LmNsb3VkLmFw",
+            "aS5tZGIucG9zdGdyZXNxbC52MVpNZ2l0aHViLmNvbS95YW5kZXgtY2xvdWQv",
+            "Z28tZ2VucHJvdG8veWFuZGV4L2Nsb3VkL21kYi9wb3N0Z3Jlc3FsL3YxO3Bv",
+            "c3RncmVzcWxiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, global::Yandex.Cloud.Mdb.Postgresql.V1.BackupReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {

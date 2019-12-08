@@ -25,22 +25,162 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "Cil5YW5kZXgvY2xvdWQvbWRiL2NsaWNraG91c2UvdjEvdXNlci5wcm90bxIe",
-            "eWFuZGV4LmNsb3VkLm1kYi5jbGlja2hvdXNlLnYxGh15YW5kZXgvY2xvdWQv",
-            "dmFsaWRhdGlvbi5wcm90byJpCgRVc2VyEgwKBG5hbWUYASABKAkSEgoKY2x1",
-            "c3Rlcl9pZBgCIAEoCRI/CgtwZXJtaXNzaW9ucxgDIAMoCzIqLnlhbmRleC5j",
-            "bG91ZC5tZGIuY2xpY2tob3VzZS52MS5QZXJtaXNzaW9uIiMKClBlcm1pc3Np",
-            "b24SFQoNZGF0YWJhc2VfbmFtZRgBIAEoCSKZAQoIVXNlclNwZWMSKwoEbmFt",
-            "ZRgBIAEoCUId6McxAYrIMQQ8PTYz8scxDVthLXpBLVowLTlfXSoSHwoIcGFz",
-            "c3dvcmQYAiABKAlCDejHMQGKyDEFOC0xMjgSPwoLcGVybWlzc2lvbnMYAyAD",
-            "KAsyKi55YW5kZXguY2xvdWQubWRiLmNsaWNraG91c2UudjEuUGVybWlzc2lv",
-            "bkJPWk1naXRodWIuY29tL3lhbmRleC1jbG91ZC9nby1nZW5wcm90by95YW5k",
-            "ZXgvY2xvdWQvbWRiL2NsaWNraG91c2UvdjE7Y2xpY2tob3VzZWIGcHJvdG8z"));
+            "eWFuZGV4LmNsb3VkLm1kYi5jbGlja2hvdXNlLnYxGh5nb29nbGUvcHJvdG9i",
+            "dWYvd3JhcHBlcnMucHJvdG8aHXlhbmRleC9jbG91ZC92YWxpZGF0aW9uLnBy",
+            "b3RvIqkBCgRVc2VyEgwKBG5hbWUYASABKAkSEgoKY2x1c3Rlcl9pZBgCIAEo",
+            "CRI/CgtwZXJtaXNzaW9ucxgDIAMoCzIqLnlhbmRleC5jbG91ZC5tZGIuY2xp",
+            "Y2tob3VzZS52MS5QZXJtaXNzaW9uEj4KCHNldHRpbmdzGAQgASgLMiwueWFu",
+            "ZGV4LmNsb3VkLm1kYi5jbGlja2hvdXNlLnYxLlVzZXJTZXR0aW5ncyIjCgpQ",
+            "ZXJtaXNzaW9uEhUKDWRhdGFiYXNlX25hbWUYASABKAki2QEKCFVzZXJTcGVj",
+            "EisKBG5hbWUYASABKAlCHejHMQGKyDEEPD02M/LHMQ1bYS16QS1aMC05X10q",
+            "Eh8KCHBhc3N3b3JkGAIgASgJQg3oxzEBisgxBTgtMTI4Ej8KC3Blcm1pc3Np",
+            "b25zGAMgAygLMioueWFuZGV4LmNsb3VkLm1kYi5jbGlja2hvdXNlLnYxLlBl",
+            "cm1pc3Npb24SPgoIc2V0dGluZ3MYBCABKAsyLC55YW5kZXguY2xvdWQubWRi",
+            "LmNsaWNraG91c2UudjEuVXNlclNldHRpbmdzIpgvCgxVc2VyU2V0dGluZ3MS",
+            "NgoIcmVhZG9ubHkYASABKAsyGy5nb29nbGUucHJvdG9idWYuSW50NjRWYWx1",
+            "ZUIH+scxAzAtMhItCglhbGxvd19kZGwYAiABKAsyGi5nb29nbGUucHJvdG9i",
+            "dWYuQm9vbFZhbHVlEjsKDWluc2VydF9xdW9ydW0YAyABKAsyGy5nb29nbGUu",
+            "cHJvdG9idWYuSW50NjRWYWx1ZUIH+scxAz49MBI8Cg9jb25uZWN0X3RpbWVv",
+            "dXQYJyABKAsyGy5nb29nbGUucHJvdG9idWYuSW50NjRWYWx1ZUIG+scxAj4w",
+            "EjwKD3JlY2VpdmVfdGltZW91dBgoIAEoCzIbLmdvb2dsZS5wcm90b2J1Zi5J",
+            "bnQ2NFZhbHVlQgb6xzECPjASOQoMc2VuZF90aW1lb3V0GCkgASgLMhsuZ29v",
+            "Z2xlLnByb3RvYnVmLkludDY0VmFsdWVCBvrHMQI+MBJGChVpbnNlcnRfcXVv",
+            "cnVtX3RpbWVvdXQYBCABKAsyGy5nb29nbGUucHJvdG9idWYuSW50NjRWYWx1",
+            "ZUIK+scxBj49MTAwMBJBCh1zZWxlY3Rfc2VxdWVudGlhbF9jb25zaXN0ZW5j",
+            "eRgFIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5Cb29sVmFsdWUSWgopbWF4X3Jl",
+            "cGxpY2FfZGVsYXlfZm9yX2Rpc3RyaWJ1dGVkX3F1ZXJpZXMYBiABKAsyGy5n",
+            "b29nbGUucHJvdG9idWYuSW50NjRWYWx1ZUIK+scxBj49MTAwMBJWCjJmYWxs",
+            "YmFja190b19zdGFsZV9yZXBsaWNhc19mb3JfZGlzdHJpYnV0ZWRfcXVlcmll",
+            "cxgHIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5Cb29sVmFsdWUSTwohcmVwbGlj",
+            "YXRpb25fYWx0ZXJfcGFydGl0aW9uc19zeW5jGCogASgLMhsuZ29vZ2xlLnBy",
+            "b3RvYnVmLkludDY0VmFsdWVCB/rHMQMwLTISZQoYZGlzdHJpYnV0ZWRfcHJv",
+            "ZHVjdF9tb2RlGCsgASgOMkMueWFuZGV4LmNsb3VkLm1kYi5jbGlja2hvdXNl",
+            "LnYxLlVzZXJTZXR0aW5ncy5EaXN0cmlidXRlZFByb2R1Y3RNb2RlEkwKKGRp",
+            "c3RyaWJ1dGVkX2FnZ3JlZ2F0aW9uX21lbW9yeV9lZmZpY2llbnQYSCABKAsy",
+            "Gi5nb29nbGUucHJvdG9idWYuQm9vbFZhbHVlEkEKHGRpc3RyaWJ1dGVkX2Rk",
+            "bF90YXNrX3RpbWVvdXQYSSABKAsyGy5nb29nbGUucHJvdG9idWYuSW50NjRW",
+            "YWx1ZRIrCgdjb21waWxlGCwgASgLMhouZ29vZ2xlLnByb3RvYnVmLkJvb2xW",
+            "YWx1ZRJCChRtaW5fY291bnRfdG9fY29tcGlsZRgtIAEoCzIbLmdvb2dsZS5w",
+            "cm90b2J1Zi5JbnQ2NFZhbHVlQgf6xzEDPj0wEjcKE2NvbXBpbGVfZXhwcmVz",
+            "c2lvbnMYLiABKAsyGi5nb29nbGUucHJvdG9idWYuQm9vbFZhbHVlEk0KH21p",
+            "bl9jb3VudF90b19jb21waWxlX2V4cHJlc3Npb24YLyABKAsyGy5nb29nbGUu",
+            "cHJvdG9idWYuSW50NjRWYWx1ZUIH+scxAz49MBI7Cg5tYXhfYmxvY2tfc2l6",
+            "ZRgJIAEoCzIbLmdvb2dsZS5wcm90b2J1Zi5JbnQ2NFZhbHVlQgb6xzECPjAS",
+            "SAoabWluX2luc2VydF9ibG9ja19zaXplX3Jvd3MYMCABKAsyGy5nb29nbGUu",
+            "cHJvdG9idWYuSW50NjRWYWx1ZUIH+scxAz49MBJJChttaW5faW5zZXJ0X2Js",
+            "b2NrX3NpemVfYnl0ZXMYMSABKAsyGy5nb29nbGUucHJvdG9idWYuSW50NjRW",
+            "YWx1ZUIH+scxAz49MBJCChVtYXhfaW5zZXJ0X2Jsb2NrX3NpemUYCiABKAsy",
+            "Gy5nb29nbGUucHJvdG9idWYuSW50NjRWYWx1ZUIG+scxAj4wEkgKGm1pbl9i",
+            "eXRlc190b191c2VfZGlyZWN0X2lvGDIgASgLMhsuZ29vZ2xlLnByb3RvYnVm",
+            "LkludDY0VmFsdWVCB/rHMQM+PTASOgoWdXNlX3VuY29tcHJlc3NlZF9jYWNo",
+            "ZRgzIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5Cb29sVmFsdWUSTQogbWVyZ2Vf",
+            "dHJlZV9tYXhfcm93c190b191c2VfY2FjaGUYNCABKAsyGy5nb29nbGUucHJv",
+            "dG9idWYuSW50NjRWYWx1ZUIG+scxAj4wEk4KIW1lcmdlX3RyZWVfbWF4X2J5",
+            "dGVzX3RvX3VzZV9jYWNoZRg1IAEoCzIbLmdvb2dsZS5wcm90b2J1Zi5JbnQ2",
+            "NFZhbHVlQgb6xzECPjASVAonbWVyZ2VfdHJlZV9taW5fcm93c19mb3JfY29u",
+            "Y3VycmVudF9yZWFkGDYgASgLMhsuZ29vZ2xlLnByb3RvYnVmLkludDY0VmFs",
+            "dWVCBvrHMQI+MBJVCihtZXJnZV90cmVlX21pbl9ieXRlc19mb3JfY29uY3Vy",
+            "cmVudF9yZWFkGDcgASgLMhsuZ29vZ2xlLnByb3RvYnVmLkludDY0VmFsdWVC",
+            "BvrHMQI+MBJHCiJtYXhfYnl0ZXNfYmVmb3JlX2V4dGVybmFsX2dyb3VwX2J5",
+            "GEogASgLMhsuZ29vZ2xlLnByb3RvYnVmLkludDY0VmFsdWUSQwoebWF4X2J5",
+            "dGVzX2JlZm9yZV9leHRlcm5hbF9zb3J0GEsgASgLMhsuZ29vZ2xlLnByb3Rv",
+            "YnVmLkludDY0VmFsdWUSQQocZ3JvdXBfYnlfdHdvX2xldmVsX3RocmVzaG9s",
+            "ZBhMIAEoCzIbLmdvb2dsZS5wcm90b2J1Zi5JbnQ2NFZhbHVlEkcKImdyb3Vw",
+            "X2J5X3R3b19sZXZlbF90aHJlc2hvbGRfYnl0ZXMYTSABKAsyGy5nb29nbGUu",
+            "cHJvdG9idWYuSW50NjRWYWx1ZRI2Cghwcmlvcml0eRg4IAEoCzIbLmdvb2ds",
+            "ZS5wcm90b2J1Zi5JbnQ2NFZhbHVlQgf6xzEDPj0wEjgKC21heF90aHJlYWRz",
+            "GAggASgLMhsuZ29vZ2xlLnByb3RvYnVmLkludDY0VmFsdWVCBvrHMQI+MBI+",
+            "ChBtYXhfbWVtb3J5X3VzYWdlGAsgASgLMhsuZ29vZ2xlLnByb3RvYnVmLklu",
+            "dDY0VmFsdWVCB/rHMQM+PTASRwoZbWF4X21lbW9yeV91c2FnZV9mb3JfdXNl",
+            "chgMIAEoCzIbLmdvb2dsZS5wcm90b2J1Zi5JbnQ2NFZhbHVlQgf6xzEDPj0w",
+            "EjoKFW1heF9uZXR3b3JrX2JhbmR3aWR0aBg5IAEoCzIbLmdvb2dsZS5wcm90",
+            "b2J1Zi5JbnQ2NFZhbHVlEkMKHm1heF9uZXR3b3JrX2JhbmR3aWR0aF9mb3Jf",
+            "dXNlchg6IAEoCzIbLmdvb2dsZS5wcm90b2J1Zi5JbnQ2NFZhbHVlEjcKE2Zv",
+            "cmNlX2luZGV4X2J5X2RhdGUYOyABKAsyGi5nb29nbGUucHJvdG9idWYuQm9v",
+            "bFZhbHVlEjUKEWZvcmNlX3ByaW1hcnlfa2V5GDwgASgLMhouZ29vZ2xlLnBy",
+            "b3RvYnVmLkJvb2xWYWx1ZRI+ChBtYXhfcm93c190b19yZWFkGA0gASgLMhsu",
+            "Z29vZ2xlLnByb3RvYnVmLkludDY0VmFsdWVCB/rHMQM+PTASPwoRbWF4X2J5",
+            "dGVzX3RvX3JlYWQYDiABKAsyGy5nb29nbGUucHJvdG9idWYuSW50NjRWYWx1",
+            "ZUIH+scxAz49MBJVChJyZWFkX292ZXJmbG93X21vZGUYDyABKA4yOS55YW5k",
+            "ZXguY2xvdWQubWRiLmNsaWNraG91c2UudjEuVXNlclNldHRpbmdzLk92ZXJm",
+            "bG93TW9kZRJCChRtYXhfcm93c190b19ncm91cF9ieRgQIAEoCzIbLmdvb2ds",
+            "ZS5wcm90b2J1Zi5JbnQ2NFZhbHVlQgf6xzEDPj0wEmAKFmdyb3VwX2J5X292",
+            "ZXJmbG93X21vZGUYESABKA4yQC55YW5kZXguY2xvdWQubWRiLmNsaWNraG91",
+            "c2UudjEuVXNlclNldHRpbmdzLkdyb3VwQnlPdmVyZmxvd01vZGUSPgoQbWF4",
+            "X3Jvd3NfdG9fc29ydBgSIAEoCzIbLmdvb2dsZS5wcm90b2J1Zi5JbnQ2NFZh",
+            "bHVlQgf6xzEDPj0wEj8KEW1heF9ieXRlc190b19zb3J0GBMgASgLMhsuZ29v",
+            "Z2xlLnByb3RvYnVmLkludDY0VmFsdWVCB/rHMQM+PTASVQoSc29ydF9vdmVy",
+            "Zmxvd19tb2RlGBQgASgOMjkueWFuZGV4LmNsb3VkLm1kYi5jbGlja2hvdXNl",
+            "LnYxLlVzZXJTZXR0aW5ncy5PdmVyZmxvd01vZGUSPQoPbWF4X3Jlc3VsdF9y",
+            "b3dzGBUgASgLMhsuZ29vZ2xlLnByb3RvYnVmLkludDY0VmFsdWVCB/rHMQM+",
+            "PTASPgoQbWF4X3Jlc3VsdF9ieXRlcxgWIAEoCzIbLmdvb2dsZS5wcm90b2J1",
+            "Zi5JbnQ2NFZhbHVlQgf6xzEDPj0wElcKFHJlc3VsdF9vdmVyZmxvd19tb2Rl",
+            "GBcgASgOMjkueWFuZGV4LmNsb3VkLm1kYi5jbGlja2hvdXNlLnYxLlVzZXJT",
+            "ZXR0aW5ncy5PdmVyZmxvd01vZGUSQgoUbWF4X3Jvd3NfaW5fZGlzdGluY3QY",
+            "GCABKAsyGy5nb29nbGUucHJvdG9idWYuSW50NjRWYWx1ZUIH+scxAz49MBJD",
+            "ChVtYXhfYnl0ZXNfaW5fZGlzdGluY3QYGSABKAsyGy5nb29nbGUucHJvdG9i",
+            "dWYuSW50NjRWYWx1ZUIH+scxAz49MBJZChZkaXN0aW5jdF9vdmVyZmxvd19t",
+            "b2RlGBogASgOMjkueWFuZGV4LmNsb3VkLm1kYi5jbGlja2hvdXNlLnYxLlVz",
+            "ZXJTZXR0aW5ncy5PdmVyZmxvd01vZGUSQgoUbWF4X3Jvd3NfdG9fdHJhbnNm",
+            "ZXIYGyABKAsyGy5nb29nbGUucHJvdG9idWYuSW50NjRWYWx1ZUIH+scxAz49",
+            "MBJDChVtYXhfYnl0ZXNfdG9fdHJhbnNmZXIYHCABKAsyGy5nb29nbGUucHJv",
+            "dG9idWYuSW50NjRWYWx1ZUIH+scxAz49MBJZChZ0cmFuc2Zlcl9vdmVyZmxv",
+            "d19tb2RlGB0gASgOMjkueWFuZGV4LmNsb3VkLm1kYi5jbGlja2hvdXNlLnYx",
+            "LlVzZXJTZXR0aW5ncy5PdmVyZmxvd01vZGUSQAoSbWF4X2V4ZWN1dGlvbl90",
+            "aW1lGB4gASgLMhsuZ29vZ2xlLnByb3RvYnVmLkludDY0VmFsdWVCB/rHMQM+",
+            "PTASWAoVdGltZW91dF9vdmVyZmxvd19tb2RlGB8gASgOMjkueWFuZGV4LmNs",
+            "b3VkLm1kYi5jbGlja2hvdXNlLnYxLlVzZXJTZXR0aW5ncy5PdmVyZmxvd01v",
+            "ZGUSQQoTbWF4X2NvbHVtbnNfdG9fcmVhZBggIAEoCzIbLmdvb2dsZS5wcm90",
+            "b2J1Zi5JbnQ2NFZhbHVlQgf6xzEDPj0wEkMKFW1heF90ZW1wb3JhcnlfY29s",
+            "dW1ucxghIAEoCzIbLmdvb2dsZS5wcm90b2J1Zi5JbnQ2NFZhbHVlQgf6xzED",
+            "Pj0wEk0KH21heF90ZW1wb3Jhcnlfbm9uX2NvbnN0X2NvbHVtbnMYIiABKAsy",
+            "Gy5nb29nbGUucHJvdG9idWYuSW50NjRWYWx1ZUIH+scxAz49MBI7Cg5tYXhf",
+            "cXVlcnlfc2l6ZRgjIAEoCzIbLmdvb2dsZS5wcm90b2J1Zi5JbnQ2NFZhbHVl",
+            "Qgb6xzECPjASOgoNbWF4X2FzdF9kZXB0aBgkIAEoCzIbLmdvb2dsZS5wcm90",
+            "b2J1Zi5JbnQ2NFZhbHVlQgb6xzECPjASPQoQbWF4X2FzdF9lbGVtZW50cxgl",
+            "IAEoCzIbLmdvb2dsZS5wcm90b2J1Zi5JbnQ2NFZhbHVlQgb6xzECPjASRgoZ",
+            "bWF4X2V4cGFuZGVkX2FzdF9lbGVtZW50cxgmIAEoCzIbLmdvb2dsZS5wcm90",
+            "b2J1Zi5JbnQ2NFZhbHVlQgb6xzECPjASTQopaW5wdXRfZm9ybWF0X3ZhbHVl",
+            "c19pbnRlcnByZXRfZXhwcmVzc2lvbnMYPSABKAsyGi5nb29nbGUucHJvdG9i",
+            "dWYuQm9vbFZhbHVlEkwKKGlucHV0X2Zvcm1hdF9kZWZhdWx0c19mb3Jfb21p",
+            "dHRlZF9maWVsZHMYPiABKAsyGi5nb29nbGUucHJvdG9idWYuQm9vbFZhbHVl",
+            "EksKJ291dHB1dF9mb3JtYXRfanNvbl9xdW90ZV82NGJpdF9pbnRlZ2Vycxg/",
+            "IAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5Cb29sVmFsdWUSRgoib3V0cHV0X2Zv",
+            "cm1hdF9qc29uX3F1b3RlX2Rlbm9ybWFscxhAIAEoCzIaLmdvb2dsZS5wcm90",
+            "b2J1Zi5Cb29sVmFsdWUSSgombG93X2NhcmRpbmFsaXR5X2FsbG93X2luX25h",
+            "dGl2ZV9mb3JtYXQYTiABKAsyGi5nb29nbGUucHJvdG9idWYuQm9vbFZhbHVl",
+            "Ek0KKWVtcHR5X3Jlc3VsdF9mb3JfYWdncmVnYXRpb25fYnlfZW1wdHlfc2V0",
+            "GE8gASgLMhouZ29vZ2xlLnByb3RvYnVmLkJvb2xWYWx1ZRI8ChdodHRwX2Nv",
+            "bm5lY3Rpb25fdGltZW91dBhBIAEoCzIbLmdvb2dsZS5wcm90b2J1Zi5JbnQ2",
+            "NFZhbHVlEjkKFGh0dHBfcmVjZWl2ZV90aW1lb3V0GEIgASgLMhsuZ29vZ2xl",
+            "LnByb3RvYnVmLkludDY0VmFsdWUSNgoRaHR0cF9zZW5kX3RpbWVvdXQYQyAB",
+            "KAsyGy5nb29nbGUucHJvdG9idWYuSW50NjRWYWx1ZRI7ChdlbmFibGVfaHR0",
+            "cF9jb21wcmVzc2lvbhhEIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5Cb29sVmFs",
+            "dWUSQQodc2VuZF9wcm9ncmVzc19pbl9odHRwX2hlYWRlcnMYRSABKAsyGi5n",
+            "b29nbGUucHJvdG9idWYuQm9vbFZhbHVlEkMKHmh0dHBfaGVhZGVyc19wcm9n",
+            "cmVzc19pbnRlcnZhbBhGIAEoCzIbLmdvb2dsZS5wcm90b2J1Zi5JbnQ2NFZh",
+            "bHVlEjgKFGFkZF9odHRwX2NvcnNfaGVhZGVyGEcgASgLMhouZ29vZ2xlLnBy",
+            "b3RvYnVmLkJvb2xWYWx1ZSJfCgxPdmVyZmxvd01vZGUSHQoZT1ZFUkZMT1df",
+            "TU9ERV9VTlNQRUNJRklFRBAAEhcKE09WRVJGTE9XX01PREVfVEhST1cQARIX",
+            "ChNPVkVSRkxPV19NT0RFX0JSRUFLEAIioQEKE0dyb3VwQnlPdmVyZmxvd01v",
+            "ZGUSJgoiR1JPVVBfQllfT1ZFUkZMT1dfTU9ERV9VTlNQRUNJRklFRBAAEiAK",
+            "HEdST1VQX0JZX09WRVJGTE9XX01PREVfVEhST1cQARIgChxHUk9VUF9CWV9P",
+            "VkVSRkxPV19NT0RFX0JSRUFLEAISHgoaR1JPVVBfQllfT1ZFUkZMT1dfTU9E",
+            "RV9BTlkQAyLSAQoWRGlzdHJpYnV0ZWRQcm9kdWN0TW9kZRIoCiRESVNUUklC",
+            "VVRFRF9QUk9EVUNUX01PREVfVU5TUEVDSUZJRUQQABIhCh1ESVNUUklCVVRF",
+            "RF9QUk9EVUNUX01PREVfREVOWRABEiIKHkRJU1RSSUJVVEVEX1BST0RVQ1Rf",
+            "TU9ERV9MT0NBTBACEiMKH0RJU1RSSUJVVEVEX1BST0RVQ1RfTU9ERV9HTE9C",
+            "QUwQAxIiCh5ESVNUUklCVVRFRF9QUk9EVUNUX01PREVfQUxMT1cQBEJzCiJ5",
+            "YW5kZXguY2xvdWQuYXBpLm1kYi5jbGlja2hvdXNlLnYxWk1naXRodWIuY29t",
+            "L3lhbmRleC1jbG91ZC9nby1nZW5wcm90by95YW5kZXgvY2xvdWQvbWRiL2Ns",
+            "aWNraG91c2UvdjE7Y2xpY2tob3VzZWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Yandex.Cloud.ValidationReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.WrappersReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.User), global::Yandex.Cloud.Mdb.Clickhouse.V1.User.Parser, new[]{ "Name", "ClusterId", "Permissions" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.User), global::Yandex.Cloud.Mdb.Clickhouse.V1.User.Parser, new[]{ "Name", "ClusterId", "Permissions", "Settings" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Permission), global::Yandex.Cloud.Mdb.Clickhouse.V1.Permission.Parser, new[]{ "DatabaseName" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSpec), global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSpec.Parser, new[]{ "Name", "Password", "Permissions" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSpec), global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSpec.Parser, new[]{ "Name", "Password", "Permissions", "Settings" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings), global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Parser, new[]{ "Readonly", "AllowDdl", "InsertQuorum", "ConnectTimeout", "ReceiveTimeout", "SendTimeout", "InsertQuorumTimeout", "SelectSequentialConsistency", "MaxReplicaDelayForDistributedQueries", "FallbackToStaleReplicasForDistributedQueries", "ReplicationAlterPartitionsSync", "DistributedProductMode", "DistributedAggregationMemoryEfficient", "DistributedDdlTaskTimeout", "Compile", "MinCountToCompile", "CompileExpressions", "MinCountToCompileExpression", "MaxBlockSize", "MinInsertBlockSizeRows", "MinInsertBlockSizeBytes", "MaxInsertBlockSize", "MinBytesToUseDirectIo", "UseUncompressedCache", "MergeTreeMaxRowsToUseCache", "MergeTreeMaxBytesToUseCache", "MergeTreeMinRowsForConcurrentRead", "MergeTreeMinBytesForConcurrentRead", "MaxBytesBeforeExternalGroupBy", "MaxBytesBeforeExternalSort", "GroupByTwoLevelThreshold", "GroupByTwoLevelThresholdBytes", "Priority", "MaxThreads", "MaxMemoryUsage", "MaxMemoryUsageForUser", "MaxNetworkBandwidth", "MaxNetworkBandwidthForUser", "ForceIndexByDate", "ForcePrimaryKey", "MaxRowsToRead", "MaxBytesToRead", "ReadOverflowMode", "MaxRowsToGroupBy", "GroupByOverflowMode", "MaxRowsToSort", "MaxBytesToSort", "SortOverflowMode", "MaxResultRows", "MaxResultBytes", "ResultOverflowMode", "MaxRowsInDistinct", "MaxBytesInDistinct", "DistinctOverflowMode", "MaxRowsToTransfer", "MaxBytesToTransfer", "TransferOverflowMode", "MaxExecutionTime", "TimeoutOverflowMode", "MaxColumnsToRead", "MaxTemporaryColumns", "MaxTemporaryNonConstColumns", "MaxQuerySize", "MaxAstDepth", "MaxAstElements", "MaxExpandedAstElements", "InputFormatValuesInterpretExpressions", "InputFormatDefaultsForOmittedFields", "OutputFormatJsonQuote64BitIntegers", "OutputFormatJsonQuoteDenormals", "LowCardinalityAllowInNativeFormat", "EmptyResultForAggregationByEmptySet", "HttpConnectionTimeout", "HttpReceiveTimeout", "HttpSendTimeout", "EnableHttpCompression", "SendProgressInHttpHeaders", "HttpHeadersProgressInterval", "AddHttpCorsHeader" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode), typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.GroupByOverflowMode), typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.DistributedProductMode) }, null)
           }));
     }
     #endregion
@@ -79,6 +219,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       name_ = other.name_;
       clusterId_ = other.clusterId_;
       permissions_ = other.permissions_.Clone();
+      settings_ = other.settings_ != null ? other.settings_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -128,6 +269,17 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       get { return permissions_; }
     }
 
+    /// <summary>Field number for the "settings" field.</summary>
+    public const int SettingsFieldNumber = 4;
+    private global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings settings_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings Settings {
+      get { return settings_; }
+      set {
+        settings_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as User);
@@ -144,6 +296,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       if (Name != other.Name) return false;
       if (ClusterId != other.ClusterId) return false;
       if(!permissions_.Equals(other.permissions_)) return false;
+      if (!object.Equals(Settings, other.Settings)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -153,6 +306,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       if (Name.Length != 0) hash ^= Name.GetHashCode();
       if (ClusterId.Length != 0) hash ^= ClusterId.GetHashCode();
       hash ^= permissions_.GetHashCode();
+      if (settings_ != null) hash ^= Settings.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -175,6 +329,10 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
         output.WriteString(ClusterId);
       }
       permissions_.WriteTo(output, _repeated_permissions_codec);
+      if (settings_ != null) {
+        output.WriteRawTag(34);
+        output.WriteMessage(Settings);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -190,6 +348,9 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(ClusterId);
       }
       size += permissions_.CalculateSize(_repeated_permissions_codec);
+      if (settings_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Settings);
+      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -208,6 +369,12 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
         ClusterId = other.ClusterId;
       }
       permissions_.Add(other.permissions_);
+      if (other.settings_ != null) {
+        if (settings_ == null) {
+          Settings = new global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings();
+        }
+        Settings.MergeFrom(other.Settings);
+      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -229,6 +396,13 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
           }
           case 26: {
             permissions_.AddEntriesFrom(input, _repeated_permissions_codec);
+            break;
+          }
+          case 34: {
+            if (settings_ == null) {
+              Settings = new global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings();
+            }
+            input.ReadMessage(Settings);
             break;
           }
         }
@@ -397,6 +571,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       name_ = other.name_;
       password_ = other.password_;
       permissions_ = other.permissions_.Clone();
+      settings_ = other.settings_ != null ? other.settings_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -446,6 +621,17 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       get { return permissions_; }
     }
 
+    /// <summary>Field number for the "settings" field.</summary>
+    public const int SettingsFieldNumber = 4;
+    private global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings settings_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings Settings {
+      get { return settings_; }
+      set {
+        settings_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as UserSpec);
@@ -462,6 +648,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       if (Name != other.Name) return false;
       if (Password != other.Password) return false;
       if(!permissions_.Equals(other.permissions_)) return false;
+      if (!object.Equals(Settings, other.Settings)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -471,6 +658,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       if (Name.Length != 0) hash ^= Name.GetHashCode();
       if (Password.Length != 0) hash ^= Password.GetHashCode();
       hash ^= permissions_.GetHashCode();
+      if (settings_ != null) hash ^= Settings.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -493,6 +681,10 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
         output.WriteString(Password);
       }
       permissions_.WriteTo(output, _repeated_permissions_codec);
+      if (settings_ != null) {
+        output.WriteRawTag(34);
+        output.WriteMessage(Settings);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -508,6 +700,9 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Password);
       }
       size += permissions_.CalculateSize(_repeated_permissions_codec);
+      if (settings_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Settings);
+      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -526,6 +721,12 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
         Password = other.Password;
       }
       permissions_.Add(other.permissions_);
+      if (other.settings_ != null) {
+        if (settings_ == null) {
+          Settings = new global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings();
+        }
+        Settings.MergeFrom(other.Settings);
+      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -549,9 +750,3034 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
             permissions_.AddEntriesFrom(input, _repeated_permissions_codec);
             break;
           }
+          case 34: {
+            if (settings_ == null) {
+              Settings = new global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings();
+            }
+            input.ReadMessage(Settings);
+            break;
+          }
         }
       }
     }
+
+  }
+
+  /// <summary>
+  /// ClickHouse user settings. Supported settings are a limited subset of all settings
+  /// described in [ClickHouse documentation](https://clickhouse.yandex/docs/en/operations/settings/).
+  /// </summary>
+  internal sealed partial class UserSettings : pb::IMessage<UserSettings> {
+    private static readonly pb::MessageParser<UserSettings> _parser = new pb::MessageParser<UserSettings>(() => new UserSettings());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<UserSettings> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.UserReflection.Descriptor.MessageTypes[3]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public UserSettings() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public UserSettings(UserSettings other) : this() {
+      Readonly = other.Readonly;
+      AllowDdl = other.AllowDdl;
+      InsertQuorum = other.InsertQuorum;
+      ConnectTimeout = other.ConnectTimeout;
+      ReceiveTimeout = other.ReceiveTimeout;
+      SendTimeout = other.SendTimeout;
+      InsertQuorumTimeout = other.InsertQuorumTimeout;
+      SelectSequentialConsistency = other.SelectSequentialConsistency;
+      MaxReplicaDelayForDistributedQueries = other.MaxReplicaDelayForDistributedQueries;
+      FallbackToStaleReplicasForDistributedQueries = other.FallbackToStaleReplicasForDistributedQueries;
+      ReplicationAlterPartitionsSync = other.ReplicationAlterPartitionsSync;
+      distributedProductMode_ = other.distributedProductMode_;
+      DistributedAggregationMemoryEfficient = other.DistributedAggregationMemoryEfficient;
+      DistributedDdlTaskTimeout = other.DistributedDdlTaskTimeout;
+      Compile = other.Compile;
+      MinCountToCompile = other.MinCountToCompile;
+      CompileExpressions = other.CompileExpressions;
+      MinCountToCompileExpression = other.MinCountToCompileExpression;
+      MaxBlockSize = other.MaxBlockSize;
+      MinInsertBlockSizeRows = other.MinInsertBlockSizeRows;
+      MinInsertBlockSizeBytes = other.MinInsertBlockSizeBytes;
+      MaxInsertBlockSize = other.MaxInsertBlockSize;
+      MinBytesToUseDirectIo = other.MinBytesToUseDirectIo;
+      UseUncompressedCache = other.UseUncompressedCache;
+      MergeTreeMaxRowsToUseCache = other.MergeTreeMaxRowsToUseCache;
+      MergeTreeMaxBytesToUseCache = other.MergeTreeMaxBytesToUseCache;
+      MergeTreeMinRowsForConcurrentRead = other.MergeTreeMinRowsForConcurrentRead;
+      MergeTreeMinBytesForConcurrentRead = other.MergeTreeMinBytesForConcurrentRead;
+      MaxBytesBeforeExternalGroupBy = other.MaxBytesBeforeExternalGroupBy;
+      MaxBytesBeforeExternalSort = other.MaxBytesBeforeExternalSort;
+      GroupByTwoLevelThreshold = other.GroupByTwoLevelThreshold;
+      GroupByTwoLevelThresholdBytes = other.GroupByTwoLevelThresholdBytes;
+      Priority = other.Priority;
+      MaxThreads = other.MaxThreads;
+      MaxMemoryUsage = other.MaxMemoryUsage;
+      MaxMemoryUsageForUser = other.MaxMemoryUsageForUser;
+      MaxNetworkBandwidth = other.MaxNetworkBandwidth;
+      MaxNetworkBandwidthForUser = other.MaxNetworkBandwidthForUser;
+      ForceIndexByDate = other.ForceIndexByDate;
+      ForcePrimaryKey = other.ForcePrimaryKey;
+      MaxRowsToRead = other.MaxRowsToRead;
+      MaxBytesToRead = other.MaxBytesToRead;
+      readOverflowMode_ = other.readOverflowMode_;
+      MaxRowsToGroupBy = other.MaxRowsToGroupBy;
+      groupByOverflowMode_ = other.groupByOverflowMode_;
+      MaxRowsToSort = other.MaxRowsToSort;
+      MaxBytesToSort = other.MaxBytesToSort;
+      sortOverflowMode_ = other.sortOverflowMode_;
+      MaxResultRows = other.MaxResultRows;
+      MaxResultBytes = other.MaxResultBytes;
+      resultOverflowMode_ = other.resultOverflowMode_;
+      MaxRowsInDistinct = other.MaxRowsInDistinct;
+      MaxBytesInDistinct = other.MaxBytesInDistinct;
+      distinctOverflowMode_ = other.distinctOverflowMode_;
+      MaxRowsToTransfer = other.MaxRowsToTransfer;
+      MaxBytesToTransfer = other.MaxBytesToTransfer;
+      transferOverflowMode_ = other.transferOverflowMode_;
+      MaxExecutionTime = other.MaxExecutionTime;
+      timeoutOverflowMode_ = other.timeoutOverflowMode_;
+      MaxColumnsToRead = other.MaxColumnsToRead;
+      MaxTemporaryColumns = other.MaxTemporaryColumns;
+      MaxTemporaryNonConstColumns = other.MaxTemporaryNonConstColumns;
+      MaxQuerySize = other.MaxQuerySize;
+      MaxAstDepth = other.MaxAstDepth;
+      MaxAstElements = other.MaxAstElements;
+      MaxExpandedAstElements = other.MaxExpandedAstElements;
+      InputFormatValuesInterpretExpressions = other.InputFormatValuesInterpretExpressions;
+      InputFormatDefaultsForOmittedFields = other.InputFormatDefaultsForOmittedFields;
+      OutputFormatJsonQuote64BitIntegers = other.OutputFormatJsonQuote64BitIntegers;
+      OutputFormatJsonQuoteDenormals = other.OutputFormatJsonQuoteDenormals;
+      LowCardinalityAllowInNativeFormat = other.LowCardinalityAllowInNativeFormat;
+      EmptyResultForAggregationByEmptySet = other.EmptyResultForAggregationByEmptySet;
+      HttpConnectionTimeout = other.HttpConnectionTimeout;
+      HttpReceiveTimeout = other.HttpReceiveTimeout;
+      HttpSendTimeout = other.HttpSendTimeout;
+      EnableHttpCompression = other.EnableHttpCompression;
+      SendProgressInHttpHeaders = other.SendProgressInHttpHeaders;
+      HttpHeadersProgressInterval = other.HttpHeadersProgressInterval;
+      AddHttpCorsHeader = other.AddHttpCorsHeader;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public UserSettings Clone() {
+      return new UserSettings(this);
+    }
+
+    /// <summary>Field number for the "readonly" field.</summary>
+    public const int ReadonlyFieldNumber = 1;
+    private static readonly pb::FieldCodec<long?> _single_readonly_codec = pb::FieldCodec.ForStructWrapper<long>(10);
+    private long? readonly_;
+    /// <summary>
+    /// Restricts permissions for non-DDL queries.
+    /// Possible values:
+    /// * 0 (default) —  no restrictions.
+    /// * 1 — only read data queries are allowed.
+    /// * 2 — read data and change settings queries are allowed.
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.yandex/docs/en/operations/settings/permissions_for_queries/#settings_readonly).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? Readonly {
+      get { return readonly_; }
+      set {
+        readonly_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "allow_ddl" field.</summary>
+    public const int AllowDdlFieldNumber = 2;
+    private static readonly pb::FieldCodec<bool?> _single_allowDdl_codec = pb::FieldCodec.ForStructWrapper<bool>(18);
+    private bool? allowDdl_;
+    /// <summary>
+    /// Whether DDL queries are allowed. Default value: `false`.
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.yandex/docs/en/operations/settings/permissions_for_queries/#settings_allow_ddl).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool? AllowDdl {
+      get { return allowDdl_; }
+      set {
+        allowDdl_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "insert_quorum" field.</summary>
+    public const int InsertQuorumFieldNumber = 3;
+    private static readonly pb::FieldCodec<long?> _single_insertQuorum_codec = pb::FieldCodec.ForStructWrapper<long>(26);
+    private long? insertQuorum_;
+    /// <summary>
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.yandex/docs/en/operations/settings/settings/#settings-insert_quorum).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? InsertQuorum {
+      get { return insertQuorum_; }
+      set {
+        insertQuorum_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "connect_timeout" field.</summary>
+    public const int ConnectTimeoutFieldNumber = 39;
+    private static readonly pb::FieldCodec<long?> _single_connectTimeout_codec = pb::FieldCodec.ForStructWrapper<long>(314);
+    private long? connectTimeout_;
+    /// <summary>
+    /// Connection timeout in milliseconds.
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.yandex/docs/en/operations/settings/settings/#connect-timeout-receive-timeout-send-timeout).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? ConnectTimeout {
+      get { return connectTimeout_; }
+      set {
+        connectTimeout_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "receive_timeout" field.</summary>
+    public const int ReceiveTimeoutFieldNumber = 40;
+    private static readonly pb::FieldCodec<long?> _single_receiveTimeout_codec = pb::FieldCodec.ForStructWrapper<long>(322);
+    private long? receiveTimeout_;
+    /// <summary>
+    /// Receive timeout in milliseconds.
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.yandex/docs/en/operations/settings/settings/#connect-timeout-receive-timeout-send-timeout).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? ReceiveTimeout {
+      get { return receiveTimeout_; }
+      set {
+        receiveTimeout_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "send_timeout" field.</summary>
+    public const int SendTimeoutFieldNumber = 41;
+    private static readonly pb::FieldCodec<long?> _single_sendTimeout_codec = pb::FieldCodec.ForStructWrapper<long>(330);
+    private long? sendTimeout_;
+    /// <summary>
+    /// Send timeout in milliseconds.
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.yandex/docs/en/operations/settings/settings/#connect-timeout-receive-timeout-send-timeout).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? SendTimeout {
+      get { return sendTimeout_; }
+      set {
+        sendTimeout_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "insert_quorum_timeout" field.</summary>
+    public const int InsertQuorumTimeoutFieldNumber = 4;
+    private static readonly pb::FieldCodec<long?> _single_insertQuorumTimeout_codec = pb::FieldCodec.ForStructWrapper<long>(34);
+    private long? insertQuorumTimeout_;
+    /// <summary>
+    /// Quorum write timeout in milliseconds. Default value: 60000.
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.yandex/docs/en/operations/settings/settings/#settings-insert_quorum_timeout).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? InsertQuorumTimeout {
+      get { return insertQuorumTimeout_; }
+      set {
+        insertQuorumTimeout_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "select_sequential_consistency" field.</summary>
+    public const int SelectSequentialConsistencyFieldNumber = 5;
+    private static readonly pb::FieldCodec<bool?> _single_selectSequentialConsistency_codec = pb::FieldCodec.ForStructWrapper<bool>(42);
+    private bool? selectSequentialConsistency_;
+    /// <summary>
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.yandex/docs/en/operations/settings/settings/#settings-select_sequential_consistency).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool? SelectSequentialConsistency {
+      get { return selectSequentialConsistency_; }
+      set {
+        selectSequentialConsistency_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "max_replica_delay_for_distributed_queries" field.</summary>
+    public const int MaxReplicaDelayForDistributedQueriesFieldNumber = 6;
+    private static readonly pb::FieldCodec<long?> _single_maxReplicaDelayForDistributedQueries_codec = pb::FieldCodec.ForStructWrapper<long>(50);
+    private long? maxReplicaDelayForDistributedQueries_;
+    /// <summary>
+    /// Max replica delay in milliseconds. If a replica lags more than the set value, this replica is not used. Default value: 300000.
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.yandex/docs/en/operations/settings/settings/#settings-max_replica_delay_for_distributed_queries).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? MaxReplicaDelayForDistributedQueries {
+      get { return maxReplicaDelayForDistributedQueries_; }
+      set {
+        maxReplicaDelayForDistributedQueries_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "fallback_to_stale_replicas_for_distributed_queries" field.</summary>
+    public const int FallbackToStaleReplicasForDistributedQueriesFieldNumber = 7;
+    private static readonly pb::FieldCodec<bool?> _single_fallbackToStaleReplicasForDistributedQueries_codec = pb::FieldCodec.ForStructWrapper<bool>(58);
+    private bool? fallbackToStaleReplicasForDistributedQueries_;
+    /// <summary>
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.yandex/docs/en/operations/settings/settings/#settings-fallback_to_stale_replicas_for_distributed_queries).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool? FallbackToStaleReplicasForDistributedQueries {
+      get { return fallbackToStaleReplicasForDistributedQueries_; }
+      set {
+        fallbackToStaleReplicasForDistributedQueries_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "replication_alter_partitions_sync" field.</summary>
+    public const int ReplicationAlterPartitionsSyncFieldNumber = 42;
+    private static readonly pb::FieldCodec<long?> _single_replicationAlterPartitionsSync_codec = pb::FieldCodec.ForStructWrapper<long>(338);
+    private long? replicationAlterPartitionsSync_;
+    /// <summary>
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.yandex/docs/en/query_language/alter/#synchronicity-of-alter-queries).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? ReplicationAlterPartitionsSync {
+      get { return replicationAlterPartitionsSync_; }
+      set {
+        replicationAlterPartitionsSync_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "distributed_product_mode" field.</summary>
+    public const int DistributedProductModeFieldNumber = 43;
+    private global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.DistributedProductMode distributedProductMode_ = 0;
+    /// <summary>
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.yandex/docs/en/operations/settings/settings/#distributed-product-mode).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.DistributedProductMode DistributedProductMode {
+      get { return distributedProductMode_; }
+      set {
+        distributedProductMode_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "distributed_aggregation_memory_efficient" field.</summary>
+    public const int DistributedAggregationMemoryEfficientFieldNumber = 72;
+    private static readonly pb::FieldCodec<bool?> _single_distributedAggregationMemoryEfficient_codec = pb::FieldCodec.ForStructWrapper<bool>(578);
+    private bool? distributedAggregationMemoryEfficient_;
+    /// <summary>
+    /// Whether the memory-saving mode of distributed aggregation is enabled.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool? DistributedAggregationMemoryEfficient {
+      get { return distributedAggregationMemoryEfficient_; }
+      set {
+        distributedAggregationMemoryEfficient_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "distributed_ddl_task_timeout" field.</summary>
+    public const int DistributedDdlTaskTimeoutFieldNumber = 73;
+    private static readonly pb::FieldCodec<long?> _single_distributedDdlTaskTimeout_codec = pb::FieldCodec.ForStructWrapper<long>(586);
+    private long? distributedDdlTaskTimeout_;
+    /// <summary>
+    /// Timeout for DDL queries, in milliseconds.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? DistributedDdlTaskTimeout {
+      get { return distributedDdlTaskTimeout_; }
+      set {
+        distributedDdlTaskTimeout_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "compile" field.</summary>
+    public const int CompileFieldNumber = 44;
+    private static readonly pb::FieldCodec<bool?> _single_compile_codec = pb::FieldCodec.ForStructWrapper<bool>(354);
+    private bool? compile_;
+    /// <summary>
+    /// Whether query compilation is enabled.
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.yandex/docs/en/operations/settings/settings/#compile).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool? Compile {
+      get { return compile_; }
+      set {
+        compile_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "min_count_to_compile" field.</summary>
+    public const int MinCountToCompileFieldNumber = 45;
+    private static readonly pb::FieldCodec<long?> _single_minCountToCompile_codec = pb::FieldCodec.ForStructWrapper<long>(362);
+    private long? minCountToCompile_;
+    /// <summary>
+    /// The number of structurally identical queries before they are compiled.
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.yandex/docs/en/operations/settings/settings/#min-count-to-compile).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? MinCountToCompile {
+      get { return minCountToCompile_; }
+      set {
+        minCountToCompile_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "compile_expressions" field.</summary>
+    public const int CompileExpressionsFieldNumber = 46;
+    private static readonly pb::FieldCodec<bool?> _single_compileExpressions_codec = pb::FieldCodec.ForStructWrapper<bool>(370);
+    private bool? compileExpressions_;
+    /// <summary>
+    /// Whether expression compilation is enabled.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool? CompileExpressions {
+      get { return compileExpressions_; }
+      set {
+        compileExpressions_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "min_count_to_compile_expression" field.</summary>
+    public const int MinCountToCompileExpressionFieldNumber = 47;
+    private static readonly pb::FieldCodec<long?> _single_minCountToCompileExpression_codec = pb::FieldCodec.ForStructWrapper<long>(378);
+    private long? minCountToCompileExpression_;
+    /// <summary>
+    /// The number of identical expressions before they are compiled.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? MinCountToCompileExpression {
+      get { return minCountToCompileExpression_; }
+      set {
+        minCountToCompileExpression_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "max_block_size" field.</summary>
+    public const int MaxBlockSizeFieldNumber = 9;
+    private static readonly pb::FieldCodec<long?> _single_maxBlockSize_codec = pb::FieldCodec.ForStructWrapper<long>(74);
+    private long? maxBlockSize_;
+    /// <summary>
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.yandex/docs/en/operations/settings/settings/#max-block-size).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? MaxBlockSize {
+      get { return maxBlockSize_; }
+      set {
+        maxBlockSize_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "min_insert_block_size_rows" field.</summary>
+    public const int MinInsertBlockSizeRowsFieldNumber = 48;
+    private static readonly pb::FieldCodec<long?> _single_minInsertBlockSizeRows_codec = pb::FieldCodec.ForStructWrapper<long>(386);
+    private long? minInsertBlockSizeRows_;
+    /// <summary>
+    /// Squash blocks passed to INSERT query to specified size in rows, if blocks are not big enough. If set to `0`,
+    /// blocks will never be squashed.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? MinInsertBlockSizeRows {
+      get { return minInsertBlockSizeRows_; }
+      set {
+        minInsertBlockSizeRows_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "min_insert_block_size_bytes" field.</summary>
+    public const int MinInsertBlockSizeBytesFieldNumber = 49;
+    private static readonly pb::FieldCodec<long?> _single_minInsertBlockSizeBytes_codec = pb::FieldCodec.ForStructWrapper<long>(394);
+    private long? minInsertBlockSizeBytes_;
+    /// <summary>
+    /// Squash blocks passed to INSERT query to specified size in bytes, if blocks are not big enough.  If set to `0`,
+    /// blocks will never be squashed.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? MinInsertBlockSizeBytes {
+      get { return minInsertBlockSizeBytes_; }
+      set {
+        minInsertBlockSizeBytes_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "max_insert_block_size" field.</summary>
+    public const int MaxInsertBlockSizeFieldNumber = 10;
+    private static readonly pb::FieldCodec<long?> _single_maxInsertBlockSize_codec = pb::FieldCodec.ForStructWrapper<long>(82);
+    private long? maxInsertBlockSize_;
+    /// <summary>
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.yandex/docs/en/operations/settings/settings/#settings-max_insert_block_size).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? MaxInsertBlockSize {
+      get { return maxInsertBlockSize_; }
+      set {
+        maxInsertBlockSize_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "min_bytes_to_use_direct_io" field.</summary>
+    public const int MinBytesToUseDirectIoFieldNumber = 50;
+    private static readonly pb::FieldCodec<long?> _single_minBytesToUseDirectIo_codec = pb::FieldCodec.ForStructWrapper<long>(402);
+    private long? minBytesToUseDirectIo_;
+    /// <summary>
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.yandex/docs/en/operations/settings/settings/#settings-min_bytes_to_use_direct_io).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? MinBytesToUseDirectIo {
+      get { return minBytesToUseDirectIo_; }
+      set {
+        minBytesToUseDirectIo_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "use_uncompressed_cache" field.</summary>
+    public const int UseUncompressedCacheFieldNumber = 51;
+    private static readonly pb::FieldCodec<bool?> _single_useUncompressedCache_codec = pb::FieldCodec.ForStructWrapper<bool>(410);
+    private bool? useUncompressedCache_;
+    /// <summary>
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.yandex/docs/en/operations/settings/settings/#setting-use_uncompressed_cache).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool? UseUncompressedCache {
+      get { return useUncompressedCache_; }
+      set {
+        useUncompressedCache_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "merge_tree_max_rows_to_use_cache" field.</summary>
+    public const int MergeTreeMaxRowsToUseCacheFieldNumber = 52;
+    private static readonly pb::FieldCodec<long?> _single_mergeTreeMaxRowsToUseCache_codec = pb::FieldCodec.ForStructWrapper<long>(418);
+    private long? mergeTreeMaxRowsToUseCache_;
+    /// <summary>
+    /// The maximum request size in rows to use the cache of uncompressed data. The cache is not used for requests larger
+    /// than the specified value.
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.yandex/docs/en/operations/settings/settings/#setting-merge_tree_max_rows_to_use_cache).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? MergeTreeMaxRowsToUseCache {
+      get { return mergeTreeMaxRowsToUseCache_; }
+      set {
+        mergeTreeMaxRowsToUseCache_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "merge_tree_max_bytes_to_use_cache" field.</summary>
+    public const int MergeTreeMaxBytesToUseCacheFieldNumber = 53;
+    private static readonly pb::FieldCodec<long?> _single_mergeTreeMaxBytesToUseCache_codec = pb::FieldCodec.ForStructWrapper<long>(426);
+    private long? mergeTreeMaxBytesToUseCache_;
+    /// <summary>
+    /// The maximum request size in bytes to use the cache of uncompressed data. The cache is not used for requests larger
+    /// than the specified value.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? MergeTreeMaxBytesToUseCache {
+      get { return mergeTreeMaxBytesToUseCache_; }
+      set {
+        mergeTreeMaxBytesToUseCache_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "merge_tree_min_rows_for_concurrent_read" field.</summary>
+    public const int MergeTreeMinRowsForConcurrentReadFieldNumber = 54;
+    private static readonly pb::FieldCodec<long?> _single_mergeTreeMinRowsForConcurrentRead_codec = pb::FieldCodec.ForStructWrapper<long>(434);
+    private long? mergeTreeMinRowsForConcurrentRead_;
+    /// <summary>
+    /// The minimum number of rows to be read from a file to enable concurrent read.
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.yandex/docs/en/operations/settings/settings/#setting-merge_tree_min_rows_for_concurrent_read).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? MergeTreeMinRowsForConcurrentRead {
+      get { return mergeTreeMinRowsForConcurrentRead_; }
+      set {
+        mergeTreeMinRowsForConcurrentRead_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "merge_tree_min_bytes_for_concurrent_read" field.</summary>
+    public const int MergeTreeMinBytesForConcurrentReadFieldNumber = 55;
+    private static readonly pb::FieldCodec<long?> _single_mergeTreeMinBytesForConcurrentRead_codec = pb::FieldCodec.ForStructWrapper<long>(442);
+    private long? mergeTreeMinBytesForConcurrentRead_;
+    /// <summary>
+    /// The minimum number of bytes to be read from a file to enable concurrent read.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? MergeTreeMinBytesForConcurrentRead {
+      get { return mergeTreeMinBytesForConcurrentRead_; }
+      set {
+        mergeTreeMinBytesForConcurrentRead_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "max_bytes_before_external_group_by" field.</summary>
+    public const int MaxBytesBeforeExternalGroupByFieldNumber = 74;
+    private static readonly pb::FieldCodec<long?> _single_maxBytesBeforeExternalGroupBy_codec = pb::FieldCodec.ForStructWrapper<long>(594);
+    private long? maxBytesBeforeExternalGroupBy_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? MaxBytesBeforeExternalGroupBy {
+      get { return maxBytesBeforeExternalGroupBy_; }
+      set {
+        maxBytesBeforeExternalGroupBy_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "max_bytes_before_external_sort" field.</summary>
+    public const int MaxBytesBeforeExternalSortFieldNumber = 75;
+    private static readonly pb::FieldCodec<long?> _single_maxBytesBeforeExternalSort_codec = pb::FieldCodec.ForStructWrapper<long>(602);
+    private long? maxBytesBeforeExternalSort_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? MaxBytesBeforeExternalSort {
+      get { return maxBytesBeforeExternalSort_; }
+      set {
+        maxBytesBeforeExternalSort_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "group_by_two_level_threshold" field.</summary>
+    public const int GroupByTwoLevelThresholdFieldNumber = 76;
+    private static readonly pb::FieldCodec<long?> _single_groupByTwoLevelThreshold_codec = pb::FieldCodec.ForStructWrapper<long>(610);
+    private long? groupByTwoLevelThreshold_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? GroupByTwoLevelThreshold {
+      get { return groupByTwoLevelThreshold_; }
+      set {
+        groupByTwoLevelThreshold_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "group_by_two_level_threshold_bytes" field.</summary>
+    public const int GroupByTwoLevelThresholdBytesFieldNumber = 77;
+    private static readonly pb::FieldCodec<long?> _single_groupByTwoLevelThresholdBytes_codec = pb::FieldCodec.ForStructWrapper<long>(618);
+    private long? groupByTwoLevelThresholdBytes_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? GroupByTwoLevelThresholdBytes {
+      get { return groupByTwoLevelThresholdBytes_; }
+      set {
+        groupByTwoLevelThresholdBytes_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "priority" field.</summary>
+    public const int PriorityFieldNumber = 56;
+    private static readonly pb::FieldCodec<long?> _single_priority_codec = pb::FieldCodec.ForStructWrapper<long>(450);
+    private long? priority_;
+    /// <summary>
+    /// Priority of the query.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? Priority {
+      get { return priority_; }
+      set {
+        priority_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "max_threads" field.</summary>
+    public const int MaxThreadsFieldNumber = 8;
+    private static readonly pb::FieldCodec<long?> _single_maxThreads_codec = pb::FieldCodec.ForStructWrapper<long>(66);
+    private long? maxThreads_;
+    /// <summary>
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.yandex/docs/en/operations/settings/settings/#settings-max_threads).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? MaxThreads {
+      get { return maxThreads_; }
+      set {
+        maxThreads_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "max_memory_usage" field.</summary>
+    public const int MaxMemoryUsageFieldNumber = 11;
+    private static readonly pb::FieldCodec<long?> _single_maxMemoryUsage_codec = pb::FieldCodec.ForStructWrapper<long>(90);
+    private long? maxMemoryUsage_;
+    /// <summary>
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.yandex/docs/en/operations/settings/query_complexity/#settings_max_memory_usage).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? MaxMemoryUsage {
+      get { return maxMemoryUsage_; }
+      set {
+        maxMemoryUsage_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "max_memory_usage_for_user" field.</summary>
+    public const int MaxMemoryUsageForUserFieldNumber = 12;
+    private static readonly pb::FieldCodec<long?> _single_maxMemoryUsageForUser_codec = pb::FieldCodec.ForStructWrapper<long>(98);
+    private long? maxMemoryUsageForUser_;
+    /// <summary>
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.yandex/docs/en/operations/settings/query_complexity/#max-memory-usage-for-user).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? MaxMemoryUsageForUser {
+      get { return maxMemoryUsageForUser_; }
+      set {
+        maxMemoryUsageForUser_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "max_network_bandwidth" field.</summary>
+    public const int MaxNetworkBandwidthFieldNumber = 57;
+    private static readonly pb::FieldCodec<long?> _single_maxNetworkBandwidth_codec = pb::FieldCodec.ForStructWrapper<long>(458);
+    private long? maxNetworkBandwidth_;
+    /// <summary>
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.yandex/docs/en/operations/settings/settings/#settings-max_network_bandwidth).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? MaxNetworkBandwidth {
+      get { return maxNetworkBandwidth_; }
+      set {
+        maxNetworkBandwidth_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "max_network_bandwidth_for_user" field.</summary>
+    public const int MaxNetworkBandwidthForUserFieldNumber = 58;
+    private static readonly pb::FieldCodec<long?> _single_maxNetworkBandwidthForUser_codec = pb::FieldCodec.ForStructWrapper<long>(466);
+    private long? maxNetworkBandwidthForUser_;
+    /// <summary>
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.yandex/docs/en/operations/settings/settings/#settings-max_network_bandwidth_for_user).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? MaxNetworkBandwidthForUser {
+      get { return maxNetworkBandwidthForUser_; }
+      set {
+        maxNetworkBandwidthForUser_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "force_index_by_date" field.</summary>
+    public const int ForceIndexByDateFieldNumber = 59;
+    private static readonly pb::FieldCodec<bool?> _single_forceIndexByDate_codec = pb::FieldCodec.ForStructWrapper<bool>(474);
+    private bool? forceIndexByDate_;
+    /// <summary>
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.yandex/docs/en/operations/settings/settings/#settings-force_index_by_date).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool? ForceIndexByDate {
+      get { return forceIndexByDate_; }
+      set {
+        forceIndexByDate_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "force_primary_key" field.</summary>
+    public const int ForcePrimaryKeyFieldNumber = 60;
+    private static readonly pb::FieldCodec<bool?> _single_forcePrimaryKey_codec = pb::FieldCodec.ForStructWrapper<bool>(482);
+    private bool? forcePrimaryKey_;
+    /// <summary>
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.yandex/docs/en/operations/settings/settings/#force-primary-key).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool? ForcePrimaryKey {
+      get { return forcePrimaryKey_; }
+      set {
+        forcePrimaryKey_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "max_rows_to_read" field.</summary>
+    public const int MaxRowsToReadFieldNumber = 13;
+    private static readonly pb::FieldCodec<long?> _single_maxRowsToRead_codec = pb::FieldCodec.ForStructWrapper<long>(106);
+    private long? maxRowsToRead_;
+    /// <summary>
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.yandex/docs/en/operations/settings/query_complexity/#max-rows-to-read).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? MaxRowsToRead {
+      get { return maxRowsToRead_; }
+      set {
+        maxRowsToRead_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "max_bytes_to_read" field.</summary>
+    public const int MaxBytesToReadFieldNumber = 14;
+    private static readonly pb::FieldCodec<long?> _single_maxBytesToRead_codec = pb::FieldCodec.ForStructWrapper<long>(114);
+    private long? maxBytesToRead_;
+    /// <summary>
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.yandex/docs/en/operations/settings/query_complexity/#max-bytes-to-read).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? MaxBytesToRead {
+      get { return maxBytesToRead_; }
+      set {
+        maxBytesToRead_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "read_overflow_mode" field.</summary>
+    public const int ReadOverflowModeFieldNumber = 15;
+    private global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode readOverflowMode_ = 0;
+    /// <summary>
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.yandex/docs/en/operations/settings/query_complexity/#read-overflow-mode).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode ReadOverflowMode {
+      get { return readOverflowMode_; }
+      set {
+        readOverflowMode_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "max_rows_to_group_by" field.</summary>
+    public const int MaxRowsToGroupByFieldNumber = 16;
+    private static readonly pb::FieldCodec<long?> _single_maxRowsToGroupBy_codec = pb::FieldCodec.ForStructWrapper<long>(130);
+    private long? maxRowsToGroupBy_;
+    /// <summary>
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.yandex/docs/en/operations/settings/query_complexity/#max-rows-to-group-by).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? MaxRowsToGroupBy {
+      get { return maxRowsToGroupBy_; }
+      set {
+        maxRowsToGroupBy_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "group_by_overflow_mode" field.</summary>
+    public const int GroupByOverflowModeFieldNumber = 17;
+    private global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.GroupByOverflowMode groupByOverflowMode_ = 0;
+    /// <summary>
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.yandex/docs/en/operations/settings/query_complexity/#group-by-overflow-mode).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.GroupByOverflowMode GroupByOverflowMode {
+      get { return groupByOverflowMode_; }
+      set {
+        groupByOverflowMode_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "max_rows_to_sort" field.</summary>
+    public const int MaxRowsToSortFieldNumber = 18;
+    private static readonly pb::FieldCodec<long?> _single_maxRowsToSort_codec = pb::FieldCodec.ForStructWrapper<long>(146);
+    private long? maxRowsToSort_;
+    /// <summary>
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.yandex/docs/en/operations/settings/query_complexity/#max-rows-to-sort).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? MaxRowsToSort {
+      get { return maxRowsToSort_; }
+      set {
+        maxRowsToSort_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "max_bytes_to_sort" field.</summary>
+    public const int MaxBytesToSortFieldNumber = 19;
+    private static readonly pb::FieldCodec<long?> _single_maxBytesToSort_codec = pb::FieldCodec.ForStructWrapper<long>(154);
+    private long? maxBytesToSort_;
+    /// <summary>
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.yandex/docs/en/operations/settings/query_complexity/#max-bytes-to-sort).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? MaxBytesToSort {
+      get { return maxBytesToSort_; }
+      set {
+        maxBytesToSort_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "sort_overflow_mode" field.</summary>
+    public const int SortOverflowModeFieldNumber = 20;
+    private global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode sortOverflowMode_ = 0;
+    /// <summary>
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.yandex/docs/en/operations/settings/query_complexity/#sort-overflow-mode).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode SortOverflowMode {
+      get { return sortOverflowMode_; }
+      set {
+        sortOverflowMode_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "max_result_rows" field.</summary>
+    public const int MaxResultRowsFieldNumber = 21;
+    private static readonly pb::FieldCodec<long?> _single_maxResultRows_codec = pb::FieldCodec.ForStructWrapper<long>(170);
+    private long? maxResultRows_;
+    /// <summary>
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.yandex/docs/en/operations/settings/query_complexity/#max-result-rows).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? MaxResultRows {
+      get { return maxResultRows_; }
+      set {
+        maxResultRows_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "max_result_bytes" field.</summary>
+    public const int MaxResultBytesFieldNumber = 22;
+    private static readonly pb::FieldCodec<long?> _single_maxResultBytes_codec = pb::FieldCodec.ForStructWrapper<long>(178);
+    private long? maxResultBytes_;
+    /// <summary>
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.yandex/docs/en/operations/settings/query_complexity/#max-result-bytes).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? MaxResultBytes {
+      get { return maxResultBytes_; }
+      set {
+        maxResultBytes_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "result_overflow_mode" field.</summary>
+    public const int ResultOverflowModeFieldNumber = 23;
+    private global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode resultOverflowMode_ = 0;
+    /// <summary>
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.yandex/docs/en/operations/settings/query_complexity/#result-overflow-mode).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode ResultOverflowMode {
+      get { return resultOverflowMode_; }
+      set {
+        resultOverflowMode_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "max_rows_in_distinct" field.</summary>
+    public const int MaxRowsInDistinctFieldNumber = 24;
+    private static readonly pb::FieldCodec<long?> _single_maxRowsInDistinct_codec = pb::FieldCodec.ForStructWrapper<long>(194);
+    private long? maxRowsInDistinct_;
+    /// <summary>
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.yandex/docs/en/operations/settings/query_complexity/#max-rows-in-distinct).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? MaxRowsInDistinct {
+      get { return maxRowsInDistinct_; }
+      set {
+        maxRowsInDistinct_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "max_bytes_in_distinct" field.</summary>
+    public const int MaxBytesInDistinctFieldNumber = 25;
+    private static readonly pb::FieldCodec<long?> _single_maxBytesInDistinct_codec = pb::FieldCodec.ForStructWrapper<long>(202);
+    private long? maxBytesInDistinct_;
+    /// <summary>
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.yandex/docs/en/operations/settings/query_complexity/#max-bytes-in-distinct).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? MaxBytesInDistinct {
+      get { return maxBytesInDistinct_; }
+      set {
+        maxBytesInDistinct_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "distinct_overflow_mode" field.</summary>
+    public const int DistinctOverflowModeFieldNumber = 26;
+    private global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode distinctOverflowMode_ = 0;
+    /// <summary>
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.yandex/docs/en/operations/settings/query_complexity/#distinct-overflow-mode).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode DistinctOverflowMode {
+      get { return distinctOverflowMode_; }
+      set {
+        distinctOverflowMode_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "max_rows_to_transfer" field.</summary>
+    public const int MaxRowsToTransferFieldNumber = 27;
+    private static readonly pb::FieldCodec<long?> _single_maxRowsToTransfer_codec = pb::FieldCodec.ForStructWrapper<long>(218);
+    private long? maxRowsToTransfer_;
+    /// <summary>
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.yandex/docs/en/operations/settings/query_complexity/#max-rows-to-transfer).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? MaxRowsToTransfer {
+      get { return maxRowsToTransfer_; }
+      set {
+        maxRowsToTransfer_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "max_bytes_to_transfer" field.</summary>
+    public const int MaxBytesToTransferFieldNumber = 28;
+    private static readonly pb::FieldCodec<long?> _single_maxBytesToTransfer_codec = pb::FieldCodec.ForStructWrapper<long>(226);
+    private long? maxBytesToTransfer_;
+    /// <summary>
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.yandex/docs/en/operations/settings/query_complexity/#max-bytes-to-transfer).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? MaxBytesToTransfer {
+      get { return maxBytesToTransfer_; }
+      set {
+        maxBytesToTransfer_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "transfer_overflow_mode" field.</summary>
+    public const int TransferOverflowModeFieldNumber = 29;
+    private global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode transferOverflowMode_ = 0;
+    /// <summary>
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.yandex/docs/en/operations/settings/query_complexity/#transfer-overflow-mode).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode TransferOverflowMode {
+      get { return transferOverflowMode_; }
+      set {
+        transferOverflowMode_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "max_execution_time" field.</summary>
+    public const int MaxExecutionTimeFieldNumber = 30;
+    private static readonly pb::FieldCodec<long?> _single_maxExecutionTime_codec = pb::FieldCodec.ForStructWrapper<long>(242);
+    private long? maxExecutionTime_;
+    /// <summary>
+    /// Maximum query execution time in milliseconds.
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.yandex/docs/en/operations/settings/query_complexity/#max-execution-time).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? MaxExecutionTime {
+      get { return maxExecutionTime_; }
+      set {
+        maxExecutionTime_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "timeout_overflow_mode" field.</summary>
+    public const int TimeoutOverflowModeFieldNumber = 31;
+    private global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode timeoutOverflowMode_ = 0;
+    /// <summary>
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.yandex/docs/en/operations/settings/query_complexity/#timeout-overflow-mode).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode TimeoutOverflowMode {
+      get { return timeoutOverflowMode_; }
+      set {
+        timeoutOverflowMode_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "max_columns_to_read" field.</summary>
+    public const int MaxColumnsToReadFieldNumber = 32;
+    private static readonly pb::FieldCodec<long?> _single_maxColumnsToRead_codec = pb::FieldCodec.ForStructWrapper<long>(258);
+    private long? maxColumnsToRead_;
+    /// <summary>
+    /// Maximum number of columns that can be read from a table in a single query.
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.yandex/docs/en/operations/settings/query_complexity/#max-columns-to-read).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? MaxColumnsToRead {
+      get { return maxColumnsToRead_; }
+      set {
+        maxColumnsToRead_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "max_temporary_columns" field.</summary>
+    public const int MaxTemporaryColumnsFieldNumber = 33;
+    private static readonly pb::FieldCodec<long?> _single_maxTemporaryColumns_codec = pb::FieldCodec.ForStructWrapper<long>(266);
+    private long? maxTemporaryColumns_;
+    /// <summary>
+    /// Maximum number of temporary columns that must be kept in RAM at the same time when running a query, including constant columns.
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.yandex/docs/en/operations/settings/query_complexity/#max-temporary-columns).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? MaxTemporaryColumns {
+      get { return maxTemporaryColumns_; }
+      set {
+        maxTemporaryColumns_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "max_temporary_non_const_columns" field.</summary>
+    public const int MaxTemporaryNonConstColumnsFieldNumber = 34;
+    private static readonly pb::FieldCodec<long?> _single_maxTemporaryNonConstColumns_codec = pb::FieldCodec.ForStructWrapper<long>(274);
+    private long? maxTemporaryNonConstColumns_;
+    /// <summary>
+    /// Maximum number of temporary columns that must be kept in RAM at the same time when running a query, excluding constant columns.
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.yandex/docs/en/operations/settings/query_complexity/#max-temporary-non-const-columns).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? MaxTemporaryNonConstColumns {
+      get { return maxTemporaryNonConstColumns_; }
+      set {
+        maxTemporaryNonConstColumns_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "max_query_size" field.</summary>
+    public const int MaxQuerySizeFieldNumber = 35;
+    private static readonly pb::FieldCodec<long?> _single_maxQuerySize_codec = pb::FieldCodec.ForStructWrapper<long>(282);
+    private long? maxQuerySize_;
+    /// <summary>
+    /// The maximum part of a query that can be taken to RAM for parsing with the SQL parser, in bytes. Default value: 262144.
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.yandex/docs/en/operations/settings/settings/#settings-max_query_size).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? MaxQuerySize {
+      get { return maxQuerySize_; }
+      set {
+        maxQuerySize_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "max_ast_depth" field.</summary>
+    public const int MaxAstDepthFieldNumber = 36;
+    private static readonly pb::FieldCodec<long?> _single_maxAstDepth_codec = pb::FieldCodec.ForStructWrapper<long>(290);
+    private long? maxAstDepth_;
+    /// <summary>
+    /// Maximum depth of query syntax tree. Default value: 1000.
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.yandex/docs/en/operations/settings/query_complexity/#max-ast-depth).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? MaxAstDepth {
+      get { return maxAstDepth_; }
+      set {
+        maxAstDepth_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "max_ast_elements" field.</summary>
+    public const int MaxAstElementsFieldNumber = 37;
+    private static readonly pb::FieldCodec<long?> _single_maxAstElements_codec = pb::FieldCodec.ForStructWrapper<long>(298);
+    private long? maxAstElements_;
+    /// <summary>
+    /// Maximum size of query syntax tree in number of nodes. Default value: 50000.
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.yandex/docs/en/operations/settings/query_complexity/#max-ast-elements).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? MaxAstElements {
+      get { return maxAstElements_; }
+      set {
+        maxAstElements_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "max_expanded_ast_elements" field.</summary>
+    public const int MaxExpandedAstElementsFieldNumber = 38;
+    private static readonly pb::FieldCodec<long?> _single_maxExpandedAstElements_codec = pb::FieldCodec.ForStructWrapper<long>(306);
+    private long? maxExpandedAstElements_;
+    /// <summary>
+    /// Maximum size of query syntax tree in number of nodes after expansion of aliases and the asterisk. Default value: 500000.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? MaxExpandedAstElements {
+      get { return maxExpandedAstElements_; }
+      set {
+        maxExpandedAstElements_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "input_format_values_interpret_expressions" field.</summary>
+    public const int InputFormatValuesInterpretExpressionsFieldNumber = 61;
+    private static readonly pb::FieldCodec<bool?> _single_inputFormatValuesInterpretExpressions_codec = pb::FieldCodec.ForStructWrapper<bool>(490);
+    private bool? inputFormatValuesInterpretExpressions_;
+    /// <summary>
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.yandex/docs/en/operations/settings/settings/#settings-input_format_values_interpret_expressions).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool? InputFormatValuesInterpretExpressions {
+      get { return inputFormatValuesInterpretExpressions_; }
+      set {
+        inputFormatValuesInterpretExpressions_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "input_format_defaults_for_omitted_fields" field.</summary>
+    public const int InputFormatDefaultsForOmittedFieldsFieldNumber = 62;
+    private static readonly pb::FieldCodec<bool?> _single_inputFormatDefaultsForOmittedFields_codec = pb::FieldCodec.ForStructWrapper<bool>(498);
+    private bool? inputFormatDefaultsForOmittedFields_;
+    /// <summary>
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.yandex/docs/en/operations/settings/settings/#session_settings-input_format_defaults_for_omitted_fields).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool? InputFormatDefaultsForOmittedFields {
+      get { return inputFormatDefaultsForOmittedFields_; }
+      set {
+        inputFormatDefaultsForOmittedFields_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "output_format_json_quote_64bit_integers" field.</summary>
+    public const int OutputFormatJsonQuote64BitIntegersFieldNumber = 63;
+    private static readonly pb::FieldCodec<bool?> _single_outputFormatJsonQuote64BitIntegers_codec = pb::FieldCodec.ForStructWrapper<bool>(506);
+    private bool? outputFormatJsonQuote64BitIntegers_;
+    /// <summary>
+    /// Whether quoting of 64-bit integers is enabled in JSON output format.
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.yandex/docs/en/operations/settings/settings/#session_settings-output_format_json_quote_64bit_integers).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool? OutputFormatJsonQuote64BitIntegers {
+      get { return outputFormatJsonQuote64BitIntegers_; }
+      set {
+        outputFormatJsonQuote64BitIntegers_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "output_format_json_quote_denormals" field.</summary>
+    public const int OutputFormatJsonQuoteDenormalsFieldNumber = 64;
+    private static readonly pb::FieldCodec<bool?> _single_outputFormatJsonQuoteDenormals_codec = pb::FieldCodec.ForStructWrapper<bool>(514);
+    private bool? outputFormatJsonQuoteDenormals_;
+    /// <summary>
+    /// Whether output of special floating-point values (`+nan`, `-nan`, `+inf` and `-inf`) is enabled in JSON output format.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool? OutputFormatJsonQuoteDenormals {
+      get { return outputFormatJsonQuoteDenormals_; }
+      set {
+        outputFormatJsonQuoteDenormals_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "low_cardinality_allow_in_native_format" field.</summary>
+    public const int LowCardinalityAllowInNativeFormatFieldNumber = 78;
+    private static readonly pb::FieldCodec<bool?> _single_lowCardinalityAllowInNativeFormat_codec = pb::FieldCodec.ForStructWrapper<bool>(626);
+    private bool? lowCardinalityAllowInNativeFormat_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool? LowCardinalityAllowInNativeFormat {
+      get { return lowCardinalityAllowInNativeFormat_; }
+      set {
+        lowCardinalityAllowInNativeFormat_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "empty_result_for_aggregation_by_empty_set" field.</summary>
+    public const int EmptyResultForAggregationByEmptySetFieldNumber = 79;
+    private static readonly pb::FieldCodec<bool?> _single_emptyResultForAggregationByEmptySet_codec = pb::FieldCodec.ForStructWrapper<bool>(634);
+    private bool? emptyResultForAggregationByEmptySet_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool? EmptyResultForAggregationByEmptySet {
+      get { return emptyResultForAggregationByEmptySet_; }
+      set {
+        emptyResultForAggregationByEmptySet_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "http_connection_timeout" field.</summary>
+    public const int HttpConnectionTimeoutFieldNumber = 65;
+    private static readonly pb::FieldCodec<long?> _single_httpConnectionTimeout_codec = pb::FieldCodec.ForStructWrapper<long>(522);
+    private long? httpConnectionTimeout_;
+    /// <summary>
+    /// HTTP connection timeout, in milliseconds.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? HttpConnectionTimeout {
+      get { return httpConnectionTimeout_; }
+      set {
+        httpConnectionTimeout_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "http_receive_timeout" field.</summary>
+    public const int HttpReceiveTimeoutFieldNumber = 66;
+    private static readonly pb::FieldCodec<long?> _single_httpReceiveTimeout_codec = pb::FieldCodec.ForStructWrapper<long>(530);
+    private long? httpReceiveTimeout_;
+    /// <summary>
+    /// HTTP receive timeout, in milliseconds.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? HttpReceiveTimeout {
+      get { return httpReceiveTimeout_; }
+      set {
+        httpReceiveTimeout_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "http_send_timeout" field.</summary>
+    public const int HttpSendTimeoutFieldNumber = 67;
+    private static readonly pb::FieldCodec<long?> _single_httpSendTimeout_codec = pb::FieldCodec.ForStructWrapper<long>(538);
+    private long? httpSendTimeout_;
+    /// <summary>
+    /// HTTP send timeout, in milliseconds.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? HttpSendTimeout {
+      get { return httpSendTimeout_; }
+      set {
+        httpSendTimeout_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "enable_http_compression" field.</summary>
+    public const int EnableHttpCompressionFieldNumber = 68;
+    private static readonly pb::FieldCodec<bool?> _single_enableHttpCompression_codec = pb::FieldCodec.ForStructWrapper<bool>(546);
+    private bool? enableHttpCompression_;
+    /// <summary>
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.yandex/docs/en/operations/settings/settings/#settings-enable_http_compression).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool? EnableHttpCompression {
+      get { return enableHttpCompression_; }
+      set {
+        enableHttpCompression_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "send_progress_in_http_headers" field.</summary>
+    public const int SendProgressInHttpHeadersFieldNumber = 69;
+    private static readonly pb::FieldCodec<bool?> _single_sendProgressInHttpHeaders_codec = pb::FieldCodec.ForStructWrapper<bool>(554);
+    private bool? sendProgressInHttpHeaders_;
+    /// <summary>
+    /// Whether progress notifications using X-ClickHouse-Progress headers are enabled. Default value: `false`.
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.yandex/docs/en/operations/settings/settings/#settings-send_progress_in_http_headers).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool? SendProgressInHttpHeaders {
+      get { return sendProgressInHttpHeaders_; }
+      set {
+        sendProgressInHttpHeaders_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "http_headers_progress_interval" field.</summary>
+    public const int HttpHeadersProgressIntervalFieldNumber = 70;
+    private static readonly pb::FieldCodec<long?> _single_httpHeadersProgressInterval_codec = pb::FieldCodec.ForStructWrapper<long>(562);
+    private long? httpHeadersProgressInterval_;
+    /// <summary>
+    /// Minimum interval between progress notifications, in milliseconds. Default value: 100.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? HttpHeadersProgressInterval {
+      get { return httpHeadersProgressInterval_; }
+      set {
+        httpHeadersProgressInterval_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "add_http_cors_header" field.</summary>
+    public const int AddHttpCorsHeaderFieldNumber = 71;
+    private static readonly pb::FieldCodec<bool?> _single_addHttpCorsHeader_codec = pb::FieldCodec.ForStructWrapper<bool>(570);
+    private bool? addHttpCorsHeader_;
+    /// <summary>
+    /// Whether CORS header in HTTP responses is enabled. Default value: `false`.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool? AddHttpCorsHeader {
+      get { return addHttpCorsHeader_; }
+      set {
+        addHttpCorsHeader_ = value;
+      }
+    }
+
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as UserSettings);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(UserSettings other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Readonly != other.Readonly) return false;
+      if (AllowDdl != other.AllowDdl) return false;
+      if (InsertQuorum != other.InsertQuorum) return false;
+      if (ConnectTimeout != other.ConnectTimeout) return false;
+      if (ReceiveTimeout != other.ReceiveTimeout) return false;
+      if (SendTimeout != other.SendTimeout) return false;
+      if (InsertQuorumTimeout != other.InsertQuorumTimeout) return false;
+      if (SelectSequentialConsistency != other.SelectSequentialConsistency) return false;
+      if (MaxReplicaDelayForDistributedQueries != other.MaxReplicaDelayForDistributedQueries) return false;
+      if (FallbackToStaleReplicasForDistributedQueries != other.FallbackToStaleReplicasForDistributedQueries) return false;
+      if (ReplicationAlterPartitionsSync != other.ReplicationAlterPartitionsSync) return false;
+      if (DistributedProductMode != other.DistributedProductMode) return false;
+      if (DistributedAggregationMemoryEfficient != other.DistributedAggregationMemoryEfficient) return false;
+      if (DistributedDdlTaskTimeout != other.DistributedDdlTaskTimeout) return false;
+      if (Compile != other.Compile) return false;
+      if (MinCountToCompile != other.MinCountToCompile) return false;
+      if (CompileExpressions != other.CompileExpressions) return false;
+      if (MinCountToCompileExpression != other.MinCountToCompileExpression) return false;
+      if (MaxBlockSize != other.MaxBlockSize) return false;
+      if (MinInsertBlockSizeRows != other.MinInsertBlockSizeRows) return false;
+      if (MinInsertBlockSizeBytes != other.MinInsertBlockSizeBytes) return false;
+      if (MaxInsertBlockSize != other.MaxInsertBlockSize) return false;
+      if (MinBytesToUseDirectIo != other.MinBytesToUseDirectIo) return false;
+      if (UseUncompressedCache != other.UseUncompressedCache) return false;
+      if (MergeTreeMaxRowsToUseCache != other.MergeTreeMaxRowsToUseCache) return false;
+      if (MergeTreeMaxBytesToUseCache != other.MergeTreeMaxBytesToUseCache) return false;
+      if (MergeTreeMinRowsForConcurrentRead != other.MergeTreeMinRowsForConcurrentRead) return false;
+      if (MergeTreeMinBytesForConcurrentRead != other.MergeTreeMinBytesForConcurrentRead) return false;
+      if (MaxBytesBeforeExternalGroupBy != other.MaxBytesBeforeExternalGroupBy) return false;
+      if (MaxBytesBeforeExternalSort != other.MaxBytesBeforeExternalSort) return false;
+      if (GroupByTwoLevelThreshold != other.GroupByTwoLevelThreshold) return false;
+      if (GroupByTwoLevelThresholdBytes != other.GroupByTwoLevelThresholdBytes) return false;
+      if (Priority != other.Priority) return false;
+      if (MaxThreads != other.MaxThreads) return false;
+      if (MaxMemoryUsage != other.MaxMemoryUsage) return false;
+      if (MaxMemoryUsageForUser != other.MaxMemoryUsageForUser) return false;
+      if (MaxNetworkBandwidth != other.MaxNetworkBandwidth) return false;
+      if (MaxNetworkBandwidthForUser != other.MaxNetworkBandwidthForUser) return false;
+      if (ForceIndexByDate != other.ForceIndexByDate) return false;
+      if (ForcePrimaryKey != other.ForcePrimaryKey) return false;
+      if (MaxRowsToRead != other.MaxRowsToRead) return false;
+      if (MaxBytesToRead != other.MaxBytesToRead) return false;
+      if (ReadOverflowMode != other.ReadOverflowMode) return false;
+      if (MaxRowsToGroupBy != other.MaxRowsToGroupBy) return false;
+      if (GroupByOverflowMode != other.GroupByOverflowMode) return false;
+      if (MaxRowsToSort != other.MaxRowsToSort) return false;
+      if (MaxBytesToSort != other.MaxBytesToSort) return false;
+      if (SortOverflowMode != other.SortOverflowMode) return false;
+      if (MaxResultRows != other.MaxResultRows) return false;
+      if (MaxResultBytes != other.MaxResultBytes) return false;
+      if (ResultOverflowMode != other.ResultOverflowMode) return false;
+      if (MaxRowsInDistinct != other.MaxRowsInDistinct) return false;
+      if (MaxBytesInDistinct != other.MaxBytesInDistinct) return false;
+      if (DistinctOverflowMode != other.DistinctOverflowMode) return false;
+      if (MaxRowsToTransfer != other.MaxRowsToTransfer) return false;
+      if (MaxBytesToTransfer != other.MaxBytesToTransfer) return false;
+      if (TransferOverflowMode != other.TransferOverflowMode) return false;
+      if (MaxExecutionTime != other.MaxExecutionTime) return false;
+      if (TimeoutOverflowMode != other.TimeoutOverflowMode) return false;
+      if (MaxColumnsToRead != other.MaxColumnsToRead) return false;
+      if (MaxTemporaryColumns != other.MaxTemporaryColumns) return false;
+      if (MaxTemporaryNonConstColumns != other.MaxTemporaryNonConstColumns) return false;
+      if (MaxQuerySize != other.MaxQuerySize) return false;
+      if (MaxAstDepth != other.MaxAstDepth) return false;
+      if (MaxAstElements != other.MaxAstElements) return false;
+      if (MaxExpandedAstElements != other.MaxExpandedAstElements) return false;
+      if (InputFormatValuesInterpretExpressions != other.InputFormatValuesInterpretExpressions) return false;
+      if (InputFormatDefaultsForOmittedFields != other.InputFormatDefaultsForOmittedFields) return false;
+      if (OutputFormatJsonQuote64BitIntegers != other.OutputFormatJsonQuote64BitIntegers) return false;
+      if (OutputFormatJsonQuoteDenormals != other.OutputFormatJsonQuoteDenormals) return false;
+      if (LowCardinalityAllowInNativeFormat != other.LowCardinalityAllowInNativeFormat) return false;
+      if (EmptyResultForAggregationByEmptySet != other.EmptyResultForAggregationByEmptySet) return false;
+      if (HttpConnectionTimeout != other.HttpConnectionTimeout) return false;
+      if (HttpReceiveTimeout != other.HttpReceiveTimeout) return false;
+      if (HttpSendTimeout != other.HttpSendTimeout) return false;
+      if (EnableHttpCompression != other.EnableHttpCompression) return false;
+      if (SendProgressInHttpHeaders != other.SendProgressInHttpHeaders) return false;
+      if (HttpHeadersProgressInterval != other.HttpHeadersProgressInterval) return false;
+      if (AddHttpCorsHeader != other.AddHttpCorsHeader) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (readonly_ != null) hash ^= Readonly.GetHashCode();
+      if (allowDdl_ != null) hash ^= AllowDdl.GetHashCode();
+      if (insertQuorum_ != null) hash ^= InsertQuorum.GetHashCode();
+      if (connectTimeout_ != null) hash ^= ConnectTimeout.GetHashCode();
+      if (receiveTimeout_ != null) hash ^= ReceiveTimeout.GetHashCode();
+      if (sendTimeout_ != null) hash ^= SendTimeout.GetHashCode();
+      if (insertQuorumTimeout_ != null) hash ^= InsertQuorumTimeout.GetHashCode();
+      if (selectSequentialConsistency_ != null) hash ^= SelectSequentialConsistency.GetHashCode();
+      if (maxReplicaDelayForDistributedQueries_ != null) hash ^= MaxReplicaDelayForDistributedQueries.GetHashCode();
+      if (fallbackToStaleReplicasForDistributedQueries_ != null) hash ^= FallbackToStaleReplicasForDistributedQueries.GetHashCode();
+      if (replicationAlterPartitionsSync_ != null) hash ^= ReplicationAlterPartitionsSync.GetHashCode();
+      if (DistributedProductMode != 0) hash ^= DistributedProductMode.GetHashCode();
+      if (distributedAggregationMemoryEfficient_ != null) hash ^= DistributedAggregationMemoryEfficient.GetHashCode();
+      if (distributedDdlTaskTimeout_ != null) hash ^= DistributedDdlTaskTimeout.GetHashCode();
+      if (compile_ != null) hash ^= Compile.GetHashCode();
+      if (minCountToCompile_ != null) hash ^= MinCountToCompile.GetHashCode();
+      if (compileExpressions_ != null) hash ^= CompileExpressions.GetHashCode();
+      if (minCountToCompileExpression_ != null) hash ^= MinCountToCompileExpression.GetHashCode();
+      if (maxBlockSize_ != null) hash ^= MaxBlockSize.GetHashCode();
+      if (minInsertBlockSizeRows_ != null) hash ^= MinInsertBlockSizeRows.GetHashCode();
+      if (minInsertBlockSizeBytes_ != null) hash ^= MinInsertBlockSizeBytes.GetHashCode();
+      if (maxInsertBlockSize_ != null) hash ^= MaxInsertBlockSize.GetHashCode();
+      if (minBytesToUseDirectIo_ != null) hash ^= MinBytesToUseDirectIo.GetHashCode();
+      if (useUncompressedCache_ != null) hash ^= UseUncompressedCache.GetHashCode();
+      if (mergeTreeMaxRowsToUseCache_ != null) hash ^= MergeTreeMaxRowsToUseCache.GetHashCode();
+      if (mergeTreeMaxBytesToUseCache_ != null) hash ^= MergeTreeMaxBytesToUseCache.GetHashCode();
+      if (mergeTreeMinRowsForConcurrentRead_ != null) hash ^= MergeTreeMinRowsForConcurrentRead.GetHashCode();
+      if (mergeTreeMinBytesForConcurrentRead_ != null) hash ^= MergeTreeMinBytesForConcurrentRead.GetHashCode();
+      if (maxBytesBeforeExternalGroupBy_ != null) hash ^= MaxBytesBeforeExternalGroupBy.GetHashCode();
+      if (maxBytesBeforeExternalSort_ != null) hash ^= MaxBytesBeforeExternalSort.GetHashCode();
+      if (groupByTwoLevelThreshold_ != null) hash ^= GroupByTwoLevelThreshold.GetHashCode();
+      if (groupByTwoLevelThresholdBytes_ != null) hash ^= GroupByTwoLevelThresholdBytes.GetHashCode();
+      if (priority_ != null) hash ^= Priority.GetHashCode();
+      if (maxThreads_ != null) hash ^= MaxThreads.GetHashCode();
+      if (maxMemoryUsage_ != null) hash ^= MaxMemoryUsage.GetHashCode();
+      if (maxMemoryUsageForUser_ != null) hash ^= MaxMemoryUsageForUser.GetHashCode();
+      if (maxNetworkBandwidth_ != null) hash ^= MaxNetworkBandwidth.GetHashCode();
+      if (maxNetworkBandwidthForUser_ != null) hash ^= MaxNetworkBandwidthForUser.GetHashCode();
+      if (forceIndexByDate_ != null) hash ^= ForceIndexByDate.GetHashCode();
+      if (forcePrimaryKey_ != null) hash ^= ForcePrimaryKey.GetHashCode();
+      if (maxRowsToRead_ != null) hash ^= MaxRowsToRead.GetHashCode();
+      if (maxBytesToRead_ != null) hash ^= MaxBytesToRead.GetHashCode();
+      if (ReadOverflowMode != 0) hash ^= ReadOverflowMode.GetHashCode();
+      if (maxRowsToGroupBy_ != null) hash ^= MaxRowsToGroupBy.GetHashCode();
+      if (GroupByOverflowMode != 0) hash ^= GroupByOverflowMode.GetHashCode();
+      if (maxRowsToSort_ != null) hash ^= MaxRowsToSort.GetHashCode();
+      if (maxBytesToSort_ != null) hash ^= MaxBytesToSort.GetHashCode();
+      if (SortOverflowMode != 0) hash ^= SortOverflowMode.GetHashCode();
+      if (maxResultRows_ != null) hash ^= MaxResultRows.GetHashCode();
+      if (maxResultBytes_ != null) hash ^= MaxResultBytes.GetHashCode();
+      if (ResultOverflowMode != 0) hash ^= ResultOverflowMode.GetHashCode();
+      if (maxRowsInDistinct_ != null) hash ^= MaxRowsInDistinct.GetHashCode();
+      if (maxBytesInDistinct_ != null) hash ^= MaxBytesInDistinct.GetHashCode();
+      if (DistinctOverflowMode != 0) hash ^= DistinctOverflowMode.GetHashCode();
+      if (maxRowsToTransfer_ != null) hash ^= MaxRowsToTransfer.GetHashCode();
+      if (maxBytesToTransfer_ != null) hash ^= MaxBytesToTransfer.GetHashCode();
+      if (TransferOverflowMode != 0) hash ^= TransferOverflowMode.GetHashCode();
+      if (maxExecutionTime_ != null) hash ^= MaxExecutionTime.GetHashCode();
+      if (TimeoutOverflowMode != 0) hash ^= TimeoutOverflowMode.GetHashCode();
+      if (maxColumnsToRead_ != null) hash ^= MaxColumnsToRead.GetHashCode();
+      if (maxTemporaryColumns_ != null) hash ^= MaxTemporaryColumns.GetHashCode();
+      if (maxTemporaryNonConstColumns_ != null) hash ^= MaxTemporaryNonConstColumns.GetHashCode();
+      if (maxQuerySize_ != null) hash ^= MaxQuerySize.GetHashCode();
+      if (maxAstDepth_ != null) hash ^= MaxAstDepth.GetHashCode();
+      if (maxAstElements_ != null) hash ^= MaxAstElements.GetHashCode();
+      if (maxExpandedAstElements_ != null) hash ^= MaxExpandedAstElements.GetHashCode();
+      if (inputFormatValuesInterpretExpressions_ != null) hash ^= InputFormatValuesInterpretExpressions.GetHashCode();
+      if (inputFormatDefaultsForOmittedFields_ != null) hash ^= InputFormatDefaultsForOmittedFields.GetHashCode();
+      if (outputFormatJsonQuote64BitIntegers_ != null) hash ^= OutputFormatJsonQuote64BitIntegers.GetHashCode();
+      if (outputFormatJsonQuoteDenormals_ != null) hash ^= OutputFormatJsonQuoteDenormals.GetHashCode();
+      if (lowCardinalityAllowInNativeFormat_ != null) hash ^= LowCardinalityAllowInNativeFormat.GetHashCode();
+      if (emptyResultForAggregationByEmptySet_ != null) hash ^= EmptyResultForAggregationByEmptySet.GetHashCode();
+      if (httpConnectionTimeout_ != null) hash ^= HttpConnectionTimeout.GetHashCode();
+      if (httpReceiveTimeout_ != null) hash ^= HttpReceiveTimeout.GetHashCode();
+      if (httpSendTimeout_ != null) hash ^= HttpSendTimeout.GetHashCode();
+      if (enableHttpCompression_ != null) hash ^= EnableHttpCompression.GetHashCode();
+      if (sendProgressInHttpHeaders_ != null) hash ^= SendProgressInHttpHeaders.GetHashCode();
+      if (httpHeadersProgressInterval_ != null) hash ^= HttpHeadersProgressInterval.GetHashCode();
+      if (addHttpCorsHeader_ != null) hash ^= AddHttpCorsHeader.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (readonly_ != null) {
+        _single_readonly_codec.WriteTagAndValue(output, Readonly);
+      }
+      if (allowDdl_ != null) {
+        _single_allowDdl_codec.WriteTagAndValue(output, AllowDdl);
+      }
+      if (insertQuorum_ != null) {
+        _single_insertQuorum_codec.WriteTagAndValue(output, InsertQuorum);
+      }
+      if (insertQuorumTimeout_ != null) {
+        _single_insertQuorumTimeout_codec.WriteTagAndValue(output, InsertQuorumTimeout);
+      }
+      if (selectSequentialConsistency_ != null) {
+        _single_selectSequentialConsistency_codec.WriteTagAndValue(output, SelectSequentialConsistency);
+      }
+      if (maxReplicaDelayForDistributedQueries_ != null) {
+        _single_maxReplicaDelayForDistributedQueries_codec.WriteTagAndValue(output, MaxReplicaDelayForDistributedQueries);
+      }
+      if (fallbackToStaleReplicasForDistributedQueries_ != null) {
+        _single_fallbackToStaleReplicasForDistributedQueries_codec.WriteTagAndValue(output, FallbackToStaleReplicasForDistributedQueries);
+      }
+      if (maxThreads_ != null) {
+        _single_maxThreads_codec.WriteTagAndValue(output, MaxThreads);
+      }
+      if (maxBlockSize_ != null) {
+        _single_maxBlockSize_codec.WriteTagAndValue(output, MaxBlockSize);
+      }
+      if (maxInsertBlockSize_ != null) {
+        _single_maxInsertBlockSize_codec.WriteTagAndValue(output, MaxInsertBlockSize);
+      }
+      if (maxMemoryUsage_ != null) {
+        _single_maxMemoryUsage_codec.WriteTagAndValue(output, MaxMemoryUsage);
+      }
+      if (maxMemoryUsageForUser_ != null) {
+        _single_maxMemoryUsageForUser_codec.WriteTagAndValue(output, MaxMemoryUsageForUser);
+      }
+      if (maxRowsToRead_ != null) {
+        _single_maxRowsToRead_codec.WriteTagAndValue(output, MaxRowsToRead);
+      }
+      if (maxBytesToRead_ != null) {
+        _single_maxBytesToRead_codec.WriteTagAndValue(output, MaxBytesToRead);
+      }
+      if (ReadOverflowMode != 0) {
+        output.WriteRawTag(120);
+        output.WriteEnum((int) ReadOverflowMode);
+      }
+      if (maxRowsToGroupBy_ != null) {
+        _single_maxRowsToGroupBy_codec.WriteTagAndValue(output, MaxRowsToGroupBy);
+      }
+      if (GroupByOverflowMode != 0) {
+        output.WriteRawTag(136, 1);
+        output.WriteEnum((int) GroupByOverflowMode);
+      }
+      if (maxRowsToSort_ != null) {
+        _single_maxRowsToSort_codec.WriteTagAndValue(output, MaxRowsToSort);
+      }
+      if (maxBytesToSort_ != null) {
+        _single_maxBytesToSort_codec.WriteTagAndValue(output, MaxBytesToSort);
+      }
+      if (SortOverflowMode != 0) {
+        output.WriteRawTag(160, 1);
+        output.WriteEnum((int) SortOverflowMode);
+      }
+      if (maxResultRows_ != null) {
+        _single_maxResultRows_codec.WriteTagAndValue(output, MaxResultRows);
+      }
+      if (maxResultBytes_ != null) {
+        _single_maxResultBytes_codec.WriteTagAndValue(output, MaxResultBytes);
+      }
+      if (ResultOverflowMode != 0) {
+        output.WriteRawTag(184, 1);
+        output.WriteEnum((int) ResultOverflowMode);
+      }
+      if (maxRowsInDistinct_ != null) {
+        _single_maxRowsInDistinct_codec.WriteTagAndValue(output, MaxRowsInDistinct);
+      }
+      if (maxBytesInDistinct_ != null) {
+        _single_maxBytesInDistinct_codec.WriteTagAndValue(output, MaxBytesInDistinct);
+      }
+      if (DistinctOverflowMode != 0) {
+        output.WriteRawTag(208, 1);
+        output.WriteEnum((int) DistinctOverflowMode);
+      }
+      if (maxRowsToTransfer_ != null) {
+        _single_maxRowsToTransfer_codec.WriteTagAndValue(output, MaxRowsToTransfer);
+      }
+      if (maxBytesToTransfer_ != null) {
+        _single_maxBytesToTransfer_codec.WriteTagAndValue(output, MaxBytesToTransfer);
+      }
+      if (TransferOverflowMode != 0) {
+        output.WriteRawTag(232, 1);
+        output.WriteEnum((int) TransferOverflowMode);
+      }
+      if (maxExecutionTime_ != null) {
+        _single_maxExecutionTime_codec.WriteTagAndValue(output, MaxExecutionTime);
+      }
+      if (TimeoutOverflowMode != 0) {
+        output.WriteRawTag(248, 1);
+        output.WriteEnum((int) TimeoutOverflowMode);
+      }
+      if (maxColumnsToRead_ != null) {
+        _single_maxColumnsToRead_codec.WriteTagAndValue(output, MaxColumnsToRead);
+      }
+      if (maxTemporaryColumns_ != null) {
+        _single_maxTemporaryColumns_codec.WriteTagAndValue(output, MaxTemporaryColumns);
+      }
+      if (maxTemporaryNonConstColumns_ != null) {
+        _single_maxTemporaryNonConstColumns_codec.WriteTagAndValue(output, MaxTemporaryNonConstColumns);
+      }
+      if (maxQuerySize_ != null) {
+        _single_maxQuerySize_codec.WriteTagAndValue(output, MaxQuerySize);
+      }
+      if (maxAstDepth_ != null) {
+        _single_maxAstDepth_codec.WriteTagAndValue(output, MaxAstDepth);
+      }
+      if (maxAstElements_ != null) {
+        _single_maxAstElements_codec.WriteTagAndValue(output, MaxAstElements);
+      }
+      if (maxExpandedAstElements_ != null) {
+        _single_maxExpandedAstElements_codec.WriteTagAndValue(output, MaxExpandedAstElements);
+      }
+      if (connectTimeout_ != null) {
+        _single_connectTimeout_codec.WriteTagAndValue(output, ConnectTimeout);
+      }
+      if (receiveTimeout_ != null) {
+        _single_receiveTimeout_codec.WriteTagAndValue(output, ReceiveTimeout);
+      }
+      if (sendTimeout_ != null) {
+        _single_sendTimeout_codec.WriteTagAndValue(output, SendTimeout);
+      }
+      if (replicationAlterPartitionsSync_ != null) {
+        _single_replicationAlterPartitionsSync_codec.WriteTagAndValue(output, ReplicationAlterPartitionsSync);
+      }
+      if (DistributedProductMode != 0) {
+        output.WriteRawTag(216, 2);
+        output.WriteEnum((int) DistributedProductMode);
+      }
+      if (compile_ != null) {
+        _single_compile_codec.WriteTagAndValue(output, Compile);
+      }
+      if (minCountToCompile_ != null) {
+        _single_minCountToCompile_codec.WriteTagAndValue(output, MinCountToCompile);
+      }
+      if (compileExpressions_ != null) {
+        _single_compileExpressions_codec.WriteTagAndValue(output, CompileExpressions);
+      }
+      if (minCountToCompileExpression_ != null) {
+        _single_minCountToCompileExpression_codec.WriteTagAndValue(output, MinCountToCompileExpression);
+      }
+      if (minInsertBlockSizeRows_ != null) {
+        _single_minInsertBlockSizeRows_codec.WriteTagAndValue(output, MinInsertBlockSizeRows);
+      }
+      if (minInsertBlockSizeBytes_ != null) {
+        _single_minInsertBlockSizeBytes_codec.WriteTagAndValue(output, MinInsertBlockSizeBytes);
+      }
+      if (minBytesToUseDirectIo_ != null) {
+        _single_minBytesToUseDirectIo_codec.WriteTagAndValue(output, MinBytesToUseDirectIo);
+      }
+      if (useUncompressedCache_ != null) {
+        _single_useUncompressedCache_codec.WriteTagAndValue(output, UseUncompressedCache);
+      }
+      if (mergeTreeMaxRowsToUseCache_ != null) {
+        _single_mergeTreeMaxRowsToUseCache_codec.WriteTagAndValue(output, MergeTreeMaxRowsToUseCache);
+      }
+      if (mergeTreeMaxBytesToUseCache_ != null) {
+        _single_mergeTreeMaxBytesToUseCache_codec.WriteTagAndValue(output, MergeTreeMaxBytesToUseCache);
+      }
+      if (mergeTreeMinRowsForConcurrentRead_ != null) {
+        _single_mergeTreeMinRowsForConcurrentRead_codec.WriteTagAndValue(output, MergeTreeMinRowsForConcurrentRead);
+      }
+      if (mergeTreeMinBytesForConcurrentRead_ != null) {
+        _single_mergeTreeMinBytesForConcurrentRead_codec.WriteTagAndValue(output, MergeTreeMinBytesForConcurrentRead);
+      }
+      if (priority_ != null) {
+        _single_priority_codec.WriteTagAndValue(output, Priority);
+      }
+      if (maxNetworkBandwidth_ != null) {
+        _single_maxNetworkBandwidth_codec.WriteTagAndValue(output, MaxNetworkBandwidth);
+      }
+      if (maxNetworkBandwidthForUser_ != null) {
+        _single_maxNetworkBandwidthForUser_codec.WriteTagAndValue(output, MaxNetworkBandwidthForUser);
+      }
+      if (forceIndexByDate_ != null) {
+        _single_forceIndexByDate_codec.WriteTagAndValue(output, ForceIndexByDate);
+      }
+      if (forcePrimaryKey_ != null) {
+        _single_forcePrimaryKey_codec.WriteTagAndValue(output, ForcePrimaryKey);
+      }
+      if (inputFormatValuesInterpretExpressions_ != null) {
+        _single_inputFormatValuesInterpretExpressions_codec.WriteTagAndValue(output, InputFormatValuesInterpretExpressions);
+      }
+      if (inputFormatDefaultsForOmittedFields_ != null) {
+        _single_inputFormatDefaultsForOmittedFields_codec.WriteTagAndValue(output, InputFormatDefaultsForOmittedFields);
+      }
+      if (outputFormatJsonQuote64BitIntegers_ != null) {
+        _single_outputFormatJsonQuote64BitIntegers_codec.WriteTagAndValue(output, OutputFormatJsonQuote64BitIntegers);
+      }
+      if (outputFormatJsonQuoteDenormals_ != null) {
+        _single_outputFormatJsonQuoteDenormals_codec.WriteTagAndValue(output, OutputFormatJsonQuoteDenormals);
+      }
+      if (httpConnectionTimeout_ != null) {
+        _single_httpConnectionTimeout_codec.WriteTagAndValue(output, HttpConnectionTimeout);
+      }
+      if (httpReceiveTimeout_ != null) {
+        _single_httpReceiveTimeout_codec.WriteTagAndValue(output, HttpReceiveTimeout);
+      }
+      if (httpSendTimeout_ != null) {
+        _single_httpSendTimeout_codec.WriteTagAndValue(output, HttpSendTimeout);
+      }
+      if (enableHttpCompression_ != null) {
+        _single_enableHttpCompression_codec.WriteTagAndValue(output, EnableHttpCompression);
+      }
+      if (sendProgressInHttpHeaders_ != null) {
+        _single_sendProgressInHttpHeaders_codec.WriteTagAndValue(output, SendProgressInHttpHeaders);
+      }
+      if (httpHeadersProgressInterval_ != null) {
+        _single_httpHeadersProgressInterval_codec.WriteTagAndValue(output, HttpHeadersProgressInterval);
+      }
+      if (addHttpCorsHeader_ != null) {
+        _single_addHttpCorsHeader_codec.WriteTagAndValue(output, AddHttpCorsHeader);
+      }
+      if (distributedAggregationMemoryEfficient_ != null) {
+        _single_distributedAggregationMemoryEfficient_codec.WriteTagAndValue(output, DistributedAggregationMemoryEfficient);
+      }
+      if (distributedDdlTaskTimeout_ != null) {
+        _single_distributedDdlTaskTimeout_codec.WriteTagAndValue(output, DistributedDdlTaskTimeout);
+      }
+      if (maxBytesBeforeExternalGroupBy_ != null) {
+        _single_maxBytesBeforeExternalGroupBy_codec.WriteTagAndValue(output, MaxBytesBeforeExternalGroupBy);
+      }
+      if (maxBytesBeforeExternalSort_ != null) {
+        _single_maxBytesBeforeExternalSort_codec.WriteTagAndValue(output, MaxBytesBeforeExternalSort);
+      }
+      if (groupByTwoLevelThreshold_ != null) {
+        _single_groupByTwoLevelThreshold_codec.WriteTagAndValue(output, GroupByTwoLevelThreshold);
+      }
+      if (groupByTwoLevelThresholdBytes_ != null) {
+        _single_groupByTwoLevelThresholdBytes_codec.WriteTagAndValue(output, GroupByTwoLevelThresholdBytes);
+      }
+      if (lowCardinalityAllowInNativeFormat_ != null) {
+        _single_lowCardinalityAllowInNativeFormat_codec.WriteTagAndValue(output, LowCardinalityAllowInNativeFormat);
+      }
+      if (emptyResultForAggregationByEmptySet_ != null) {
+        _single_emptyResultForAggregationByEmptySet_codec.WriteTagAndValue(output, EmptyResultForAggregationByEmptySet);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (readonly_ != null) {
+        size += _single_readonly_codec.CalculateSizeWithTag(Readonly);
+      }
+      if (allowDdl_ != null) {
+        size += _single_allowDdl_codec.CalculateSizeWithTag(AllowDdl);
+      }
+      if (insertQuorum_ != null) {
+        size += _single_insertQuorum_codec.CalculateSizeWithTag(InsertQuorum);
+      }
+      if (connectTimeout_ != null) {
+        size += _single_connectTimeout_codec.CalculateSizeWithTag(ConnectTimeout);
+      }
+      if (receiveTimeout_ != null) {
+        size += _single_receiveTimeout_codec.CalculateSizeWithTag(ReceiveTimeout);
+      }
+      if (sendTimeout_ != null) {
+        size += _single_sendTimeout_codec.CalculateSizeWithTag(SendTimeout);
+      }
+      if (insertQuorumTimeout_ != null) {
+        size += _single_insertQuorumTimeout_codec.CalculateSizeWithTag(InsertQuorumTimeout);
+      }
+      if (selectSequentialConsistency_ != null) {
+        size += _single_selectSequentialConsistency_codec.CalculateSizeWithTag(SelectSequentialConsistency);
+      }
+      if (maxReplicaDelayForDistributedQueries_ != null) {
+        size += _single_maxReplicaDelayForDistributedQueries_codec.CalculateSizeWithTag(MaxReplicaDelayForDistributedQueries);
+      }
+      if (fallbackToStaleReplicasForDistributedQueries_ != null) {
+        size += _single_fallbackToStaleReplicasForDistributedQueries_codec.CalculateSizeWithTag(FallbackToStaleReplicasForDistributedQueries);
+      }
+      if (replicationAlterPartitionsSync_ != null) {
+        size += _single_replicationAlterPartitionsSync_codec.CalculateSizeWithTag(ReplicationAlterPartitionsSync);
+      }
+      if (DistributedProductMode != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeEnumSize((int) DistributedProductMode);
+      }
+      if (distributedAggregationMemoryEfficient_ != null) {
+        size += _single_distributedAggregationMemoryEfficient_codec.CalculateSizeWithTag(DistributedAggregationMemoryEfficient);
+      }
+      if (distributedDdlTaskTimeout_ != null) {
+        size += _single_distributedDdlTaskTimeout_codec.CalculateSizeWithTag(DistributedDdlTaskTimeout);
+      }
+      if (compile_ != null) {
+        size += _single_compile_codec.CalculateSizeWithTag(Compile);
+      }
+      if (minCountToCompile_ != null) {
+        size += _single_minCountToCompile_codec.CalculateSizeWithTag(MinCountToCompile);
+      }
+      if (compileExpressions_ != null) {
+        size += _single_compileExpressions_codec.CalculateSizeWithTag(CompileExpressions);
+      }
+      if (minCountToCompileExpression_ != null) {
+        size += _single_minCountToCompileExpression_codec.CalculateSizeWithTag(MinCountToCompileExpression);
+      }
+      if (maxBlockSize_ != null) {
+        size += _single_maxBlockSize_codec.CalculateSizeWithTag(MaxBlockSize);
+      }
+      if (minInsertBlockSizeRows_ != null) {
+        size += _single_minInsertBlockSizeRows_codec.CalculateSizeWithTag(MinInsertBlockSizeRows);
+      }
+      if (minInsertBlockSizeBytes_ != null) {
+        size += _single_minInsertBlockSizeBytes_codec.CalculateSizeWithTag(MinInsertBlockSizeBytes);
+      }
+      if (maxInsertBlockSize_ != null) {
+        size += _single_maxInsertBlockSize_codec.CalculateSizeWithTag(MaxInsertBlockSize);
+      }
+      if (minBytesToUseDirectIo_ != null) {
+        size += _single_minBytesToUseDirectIo_codec.CalculateSizeWithTag(MinBytesToUseDirectIo);
+      }
+      if (useUncompressedCache_ != null) {
+        size += _single_useUncompressedCache_codec.CalculateSizeWithTag(UseUncompressedCache);
+      }
+      if (mergeTreeMaxRowsToUseCache_ != null) {
+        size += _single_mergeTreeMaxRowsToUseCache_codec.CalculateSizeWithTag(MergeTreeMaxRowsToUseCache);
+      }
+      if (mergeTreeMaxBytesToUseCache_ != null) {
+        size += _single_mergeTreeMaxBytesToUseCache_codec.CalculateSizeWithTag(MergeTreeMaxBytesToUseCache);
+      }
+      if (mergeTreeMinRowsForConcurrentRead_ != null) {
+        size += _single_mergeTreeMinRowsForConcurrentRead_codec.CalculateSizeWithTag(MergeTreeMinRowsForConcurrentRead);
+      }
+      if (mergeTreeMinBytesForConcurrentRead_ != null) {
+        size += _single_mergeTreeMinBytesForConcurrentRead_codec.CalculateSizeWithTag(MergeTreeMinBytesForConcurrentRead);
+      }
+      if (maxBytesBeforeExternalGroupBy_ != null) {
+        size += _single_maxBytesBeforeExternalGroupBy_codec.CalculateSizeWithTag(MaxBytesBeforeExternalGroupBy);
+      }
+      if (maxBytesBeforeExternalSort_ != null) {
+        size += _single_maxBytesBeforeExternalSort_codec.CalculateSizeWithTag(MaxBytesBeforeExternalSort);
+      }
+      if (groupByTwoLevelThreshold_ != null) {
+        size += _single_groupByTwoLevelThreshold_codec.CalculateSizeWithTag(GroupByTwoLevelThreshold);
+      }
+      if (groupByTwoLevelThresholdBytes_ != null) {
+        size += _single_groupByTwoLevelThresholdBytes_codec.CalculateSizeWithTag(GroupByTwoLevelThresholdBytes);
+      }
+      if (priority_ != null) {
+        size += _single_priority_codec.CalculateSizeWithTag(Priority);
+      }
+      if (maxThreads_ != null) {
+        size += _single_maxThreads_codec.CalculateSizeWithTag(MaxThreads);
+      }
+      if (maxMemoryUsage_ != null) {
+        size += _single_maxMemoryUsage_codec.CalculateSizeWithTag(MaxMemoryUsage);
+      }
+      if (maxMemoryUsageForUser_ != null) {
+        size += _single_maxMemoryUsageForUser_codec.CalculateSizeWithTag(MaxMemoryUsageForUser);
+      }
+      if (maxNetworkBandwidth_ != null) {
+        size += _single_maxNetworkBandwidth_codec.CalculateSizeWithTag(MaxNetworkBandwidth);
+      }
+      if (maxNetworkBandwidthForUser_ != null) {
+        size += _single_maxNetworkBandwidthForUser_codec.CalculateSizeWithTag(MaxNetworkBandwidthForUser);
+      }
+      if (forceIndexByDate_ != null) {
+        size += _single_forceIndexByDate_codec.CalculateSizeWithTag(ForceIndexByDate);
+      }
+      if (forcePrimaryKey_ != null) {
+        size += _single_forcePrimaryKey_codec.CalculateSizeWithTag(ForcePrimaryKey);
+      }
+      if (maxRowsToRead_ != null) {
+        size += _single_maxRowsToRead_codec.CalculateSizeWithTag(MaxRowsToRead);
+      }
+      if (maxBytesToRead_ != null) {
+        size += _single_maxBytesToRead_codec.CalculateSizeWithTag(MaxBytesToRead);
+      }
+      if (ReadOverflowMode != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) ReadOverflowMode);
+      }
+      if (maxRowsToGroupBy_ != null) {
+        size += _single_maxRowsToGroupBy_codec.CalculateSizeWithTag(MaxRowsToGroupBy);
+      }
+      if (GroupByOverflowMode != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeEnumSize((int) GroupByOverflowMode);
+      }
+      if (maxRowsToSort_ != null) {
+        size += _single_maxRowsToSort_codec.CalculateSizeWithTag(MaxRowsToSort);
+      }
+      if (maxBytesToSort_ != null) {
+        size += _single_maxBytesToSort_codec.CalculateSizeWithTag(MaxBytesToSort);
+      }
+      if (SortOverflowMode != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeEnumSize((int) SortOverflowMode);
+      }
+      if (maxResultRows_ != null) {
+        size += _single_maxResultRows_codec.CalculateSizeWithTag(MaxResultRows);
+      }
+      if (maxResultBytes_ != null) {
+        size += _single_maxResultBytes_codec.CalculateSizeWithTag(MaxResultBytes);
+      }
+      if (ResultOverflowMode != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeEnumSize((int) ResultOverflowMode);
+      }
+      if (maxRowsInDistinct_ != null) {
+        size += _single_maxRowsInDistinct_codec.CalculateSizeWithTag(MaxRowsInDistinct);
+      }
+      if (maxBytesInDistinct_ != null) {
+        size += _single_maxBytesInDistinct_codec.CalculateSizeWithTag(MaxBytesInDistinct);
+      }
+      if (DistinctOverflowMode != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeEnumSize((int) DistinctOverflowMode);
+      }
+      if (maxRowsToTransfer_ != null) {
+        size += _single_maxRowsToTransfer_codec.CalculateSizeWithTag(MaxRowsToTransfer);
+      }
+      if (maxBytesToTransfer_ != null) {
+        size += _single_maxBytesToTransfer_codec.CalculateSizeWithTag(MaxBytesToTransfer);
+      }
+      if (TransferOverflowMode != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeEnumSize((int) TransferOverflowMode);
+      }
+      if (maxExecutionTime_ != null) {
+        size += _single_maxExecutionTime_codec.CalculateSizeWithTag(MaxExecutionTime);
+      }
+      if (TimeoutOverflowMode != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeEnumSize((int) TimeoutOverflowMode);
+      }
+      if (maxColumnsToRead_ != null) {
+        size += _single_maxColumnsToRead_codec.CalculateSizeWithTag(MaxColumnsToRead);
+      }
+      if (maxTemporaryColumns_ != null) {
+        size += _single_maxTemporaryColumns_codec.CalculateSizeWithTag(MaxTemporaryColumns);
+      }
+      if (maxTemporaryNonConstColumns_ != null) {
+        size += _single_maxTemporaryNonConstColumns_codec.CalculateSizeWithTag(MaxTemporaryNonConstColumns);
+      }
+      if (maxQuerySize_ != null) {
+        size += _single_maxQuerySize_codec.CalculateSizeWithTag(MaxQuerySize);
+      }
+      if (maxAstDepth_ != null) {
+        size += _single_maxAstDepth_codec.CalculateSizeWithTag(MaxAstDepth);
+      }
+      if (maxAstElements_ != null) {
+        size += _single_maxAstElements_codec.CalculateSizeWithTag(MaxAstElements);
+      }
+      if (maxExpandedAstElements_ != null) {
+        size += _single_maxExpandedAstElements_codec.CalculateSizeWithTag(MaxExpandedAstElements);
+      }
+      if (inputFormatValuesInterpretExpressions_ != null) {
+        size += _single_inputFormatValuesInterpretExpressions_codec.CalculateSizeWithTag(InputFormatValuesInterpretExpressions);
+      }
+      if (inputFormatDefaultsForOmittedFields_ != null) {
+        size += _single_inputFormatDefaultsForOmittedFields_codec.CalculateSizeWithTag(InputFormatDefaultsForOmittedFields);
+      }
+      if (outputFormatJsonQuote64BitIntegers_ != null) {
+        size += _single_outputFormatJsonQuote64BitIntegers_codec.CalculateSizeWithTag(OutputFormatJsonQuote64BitIntegers);
+      }
+      if (outputFormatJsonQuoteDenormals_ != null) {
+        size += _single_outputFormatJsonQuoteDenormals_codec.CalculateSizeWithTag(OutputFormatJsonQuoteDenormals);
+      }
+      if (lowCardinalityAllowInNativeFormat_ != null) {
+        size += _single_lowCardinalityAllowInNativeFormat_codec.CalculateSizeWithTag(LowCardinalityAllowInNativeFormat);
+      }
+      if (emptyResultForAggregationByEmptySet_ != null) {
+        size += _single_emptyResultForAggregationByEmptySet_codec.CalculateSizeWithTag(EmptyResultForAggregationByEmptySet);
+      }
+      if (httpConnectionTimeout_ != null) {
+        size += _single_httpConnectionTimeout_codec.CalculateSizeWithTag(HttpConnectionTimeout);
+      }
+      if (httpReceiveTimeout_ != null) {
+        size += _single_httpReceiveTimeout_codec.CalculateSizeWithTag(HttpReceiveTimeout);
+      }
+      if (httpSendTimeout_ != null) {
+        size += _single_httpSendTimeout_codec.CalculateSizeWithTag(HttpSendTimeout);
+      }
+      if (enableHttpCompression_ != null) {
+        size += _single_enableHttpCompression_codec.CalculateSizeWithTag(EnableHttpCompression);
+      }
+      if (sendProgressInHttpHeaders_ != null) {
+        size += _single_sendProgressInHttpHeaders_codec.CalculateSizeWithTag(SendProgressInHttpHeaders);
+      }
+      if (httpHeadersProgressInterval_ != null) {
+        size += _single_httpHeadersProgressInterval_codec.CalculateSizeWithTag(HttpHeadersProgressInterval);
+      }
+      if (addHttpCorsHeader_ != null) {
+        size += _single_addHttpCorsHeader_codec.CalculateSizeWithTag(AddHttpCorsHeader);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(UserSettings other) {
+      if (other == null) {
+        return;
+      }
+      if (other.readonly_ != null) {
+        if (readonly_ == null || other.Readonly != 0L) {
+          Readonly = other.Readonly;
+        }
+      }
+      if (other.allowDdl_ != null) {
+        if (allowDdl_ == null || other.AllowDdl != false) {
+          AllowDdl = other.AllowDdl;
+        }
+      }
+      if (other.insertQuorum_ != null) {
+        if (insertQuorum_ == null || other.InsertQuorum != 0L) {
+          InsertQuorum = other.InsertQuorum;
+        }
+      }
+      if (other.connectTimeout_ != null) {
+        if (connectTimeout_ == null || other.ConnectTimeout != 0L) {
+          ConnectTimeout = other.ConnectTimeout;
+        }
+      }
+      if (other.receiveTimeout_ != null) {
+        if (receiveTimeout_ == null || other.ReceiveTimeout != 0L) {
+          ReceiveTimeout = other.ReceiveTimeout;
+        }
+      }
+      if (other.sendTimeout_ != null) {
+        if (sendTimeout_ == null || other.SendTimeout != 0L) {
+          SendTimeout = other.SendTimeout;
+        }
+      }
+      if (other.insertQuorumTimeout_ != null) {
+        if (insertQuorumTimeout_ == null || other.InsertQuorumTimeout != 0L) {
+          InsertQuorumTimeout = other.InsertQuorumTimeout;
+        }
+      }
+      if (other.selectSequentialConsistency_ != null) {
+        if (selectSequentialConsistency_ == null || other.SelectSequentialConsistency != false) {
+          SelectSequentialConsistency = other.SelectSequentialConsistency;
+        }
+      }
+      if (other.maxReplicaDelayForDistributedQueries_ != null) {
+        if (maxReplicaDelayForDistributedQueries_ == null || other.MaxReplicaDelayForDistributedQueries != 0L) {
+          MaxReplicaDelayForDistributedQueries = other.MaxReplicaDelayForDistributedQueries;
+        }
+      }
+      if (other.fallbackToStaleReplicasForDistributedQueries_ != null) {
+        if (fallbackToStaleReplicasForDistributedQueries_ == null || other.FallbackToStaleReplicasForDistributedQueries != false) {
+          FallbackToStaleReplicasForDistributedQueries = other.FallbackToStaleReplicasForDistributedQueries;
+        }
+      }
+      if (other.replicationAlterPartitionsSync_ != null) {
+        if (replicationAlterPartitionsSync_ == null || other.ReplicationAlterPartitionsSync != 0L) {
+          ReplicationAlterPartitionsSync = other.ReplicationAlterPartitionsSync;
+        }
+      }
+      if (other.DistributedProductMode != 0) {
+        DistributedProductMode = other.DistributedProductMode;
+      }
+      if (other.distributedAggregationMemoryEfficient_ != null) {
+        if (distributedAggregationMemoryEfficient_ == null || other.DistributedAggregationMemoryEfficient != false) {
+          DistributedAggregationMemoryEfficient = other.DistributedAggregationMemoryEfficient;
+        }
+      }
+      if (other.distributedDdlTaskTimeout_ != null) {
+        if (distributedDdlTaskTimeout_ == null || other.DistributedDdlTaskTimeout != 0L) {
+          DistributedDdlTaskTimeout = other.DistributedDdlTaskTimeout;
+        }
+      }
+      if (other.compile_ != null) {
+        if (compile_ == null || other.Compile != false) {
+          Compile = other.Compile;
+        }
+      }
+      if (other.minCountToCompile_ != null) {
+        if (minCountToCompile_ == null || other.MinCountToCompile != 0L) {
+          MinCountToCompile = other.MinCountToCompile;
+        }
+      }
+      if (other.compileExpressions_ != null) {
+        if (compileExpressions_ == null || other.CompileExpressions != false) {
+          CompileExpressions = other.CompileExpressions;
+        }
+      }
+      if (other.minCountToCompileExpression_ != null) {
+        if (minCountToCompileExpression_ == null || other.MinCountToCompileExpression != 0L) {
+          MinCountToCompileExpression = other.MinCountToCompileExpression;
+        }
+      }
+      if (other.maxBlockSize_ != null) {
+        if (maxBlockSize_ == null || other.MaxBlockSize != 0L) {
+          MaxBlockSize = other.MaxBlockSize;
+        }
+      }
+      if (other.minInsertBlockSizeRows_ != null) {
+        if (minInsertBlockSizeRows_ == null || other.MinInsertBlockSizeRows != 0L) {
+          MinInsertBlockSizeRows = other.MinInsertBlockSizeRows;
+        }
+      }
+      if (other.minInsertBlockSizeBytes_ != null) {
+        if (minInsertBlockSizeBytes_ == null || other.MinInsertBlockSizeBytes != 0L) {
+          MinInsertBlockSizeBytes = other.MinInsertBlockSizeBytes;
+        }
+      }
+      if (other.maxInsertBlockSize_ != null) {
+        if (maxInsertBlockSize_ == null || other.MaxInsertBlockSize != 0L) {
+          MaxInsertBlockSize = other.MaxInsertBlockSize;
+        }
+      }
+      if (other.minBytesToUseDirectIo_ != null) {
+        if (minBytesToUseDirectIo_ == null || other.MinBytesToUseDirectIo != 0L) {
+          MinBytesToUseDirectIo = other.MinBytesToUseDirectIo;
+        }
+      }
+      if (other.useUncompressedCache_ != null) {
+        if (useUncompressedCache_ == null || other.UseUncompressedCache != false) {
+          UseUncompressedCache = other.UseUncompressedCache;
+        }
+      }
+      if (other.mergeTreeMaxRowsToUseCache_ != null) {
+        if (mergeTreeMaxRowsToUseCache_ == null || other.MergeTreeMaxRowsToUseCache != 0L) {
+          MergeTreeMaxRowsToUseCache = other.MergeTreeMaxRowsToUseCache;
+        }
+      }
+      if (other.mergeTreeMaxBytesToUseCache_ != null) {
+        if (mergeTreeMaxBytesToUseCache_ == null || other.MergeTreeMaxBytesToUseCache != 0L) {
+          MergeTreeMaxBytesToUseCache = other.MergeTreeMaxBytesToUseCache;
+        }
+      }
+      if (other.mergeTreeMinRowsForConcurrentRead_ != null) {
+        if (mergeTreeMinRowsForConcurrentRead_ == null || other.MergeTreeMinRowsForConcurrentRead != 0L) {
+          MergeTreeMinRowsForConcurrentRead = other.MergeTreeMinRowsForConcurrentRead;
+        }
+      }
+      if (other.mergeTreeMinBytesForConcurrentRead_ != null) {
+        if (mergeTreeMinBytesForConcurrentRead_ == null || other.MergeTreeMinBytesForConcurrentRead != 0L) {
+          MergeTreeMinBytesForConcurrentRead = other.MergeTreeMinBytesForConcurrentRead;
+        }
+      }
+      if (other.maxBytesBeforeExternalGroupBy_ != null) {
+        if (maxBytesBeforeExternalGroupBy_ == null || other.MaxBytesBeforeExternalGroupBy != 0L) {
+          MaxBytesBeforeExternalGroupBy = other.MaxBytesBeforeExternalGroupBy;
+        }
+      }
+      if (other.maxBytesBeforeExternalSort_ != null) {
+        if (maxBytesBeforeExternalSort_ == null || other.MaxBytesBeforeExternalSort != 0L) {
+          MaxBytesBeforeExternalSort = other.MaxBytesBeforeExternalSort;
+        }
+      }
+      if (other.groupByTwoLevelThreshold_ != null) {
+        if (groupByTwoLevelThreshold_ == null || other.GroupByTwoLevelThreshold != 0L) {
+          GroupByTwoLevelThreshold = other.GroupByTwoLevelThreshold;
+        }
+      }
+      if (other.groupByTwoLevelThresholdBytes_ != null) {
+        if (groupByTwoLevelThresholdBytes_ == null || other.GroupByTwoLevelThresholdBytes != 0L) {
+          GroupByTwoLevelThresholdBytes = other.GroupByTwoLevelThresholdBytes;
+        }
+      }
+      if (other.priority_ != null) {
+        if (priority_ == null || other.Priority != 0L) {
+          Priority = other.Priority;
+        }
+      }
+      if (other.maxThreads_ != null) {
+        if (maxThreads_ == null || other.MaxThreads != 0L) {
+          MaxThreads = other.MaxThreads;
+        }
+      }
+      if (other.maxMemoryUsage_ != null) {
+        if (maxMemoryUsage_ == null || other.MaxMemoryUsage != 0L) {
+          MaxMemoryUsage = other.MaxMemoryUsage;
+        }
+      }
+      if (other.maxMemoryUsageForUser_ != null) {
+        if (maxMemoryUsageForUser_ == null || other.MaxMemoryUsageForUser != 0L) {
+          MaxMemoryUsageForUser = other.MaxMemoryUsageForUser;
+        }
+      }
+      if (other.maxNetworkBandwidth_ != null) {
+        if (maxNetworkBandwidth_ == null || other.MaxNetworkBandwidth != 0L) {
+          MaxNetworkBandwidth = other.MaxNetworkBandwidth;
+        }
+      }
+      if (other.maxNetworkBandwidthForUser_ != null) {
+        if (maxNetworkBandwidthForUser_ == null || other.MaxNetworkBandwidthForUser != 0L) {
+          MaxNetworkBandwidthForUser = other.MaxNetworkBandwidthForUser;
+        }
+      }
+      if (other.forceIndexByDate_ != null) {
+        if (forceIndexByDate_ == null || other.ForceIndexByDate != false) {
+          ForceIndexByDate = other.ForceIndexByDate;
+        }
+      }
+      if (other.forcePrimaryKey_ != null) {
+        if (forcePrimaryKey_ == null || other.ForcePrimaryKey != false) {
+          ForcePrimaryKey = other.ForcePrimaryKey;
+        }
+      }
+      if (other.maxRowsToRead_ != null) {
+        if (maxRowsToRead_ == null || other.MaxRowsToRead != 0L) {
+          MaxRowsToRead = other.MaxRowsToRead;
+        }
+      }
+      if (other.maxBytesToRead_ != null) {
+        if (maxBytesToRead_ == null || other.MaxBytesToRead != 0L) {
+          MaxBytesToRead = other.MaxBytesToRead;
+        }
+      }
+      if (other.ReadOverflowMode != 0) {
+        ReadOverflowMode = other.ReadOverflowMode;
+      }
+      if (other.maxRowsToGroupBy_ != null) {
+        if (maxRowsToGroupBy_ == null || other.MaxRowsToGroupBy != 0L) {
+          MaxRowsToGroupBy = other.MaxRowsToGroupBy;
+        }
+      }
+      if (other.GroupByOverflowMode != 0) {
+        GroupByOverflowMode = other.GroupByOverflowMode;
+      }
+      if (other.maxRowsToSort_ != null) {
+        if (maxRowsToSort_ == null || other.MaxRowsToSort != 0L) {
+          MaxRowsToSort = other.MaxRowsToSort;
+        }
+      }
+      if (other.maxBytesToSort_ != null) {
+        if (maxBytesToSort_ == null || other.MaxBytesToSort != 0L) {
+          MaxBytesToSort = other.MaxBytesToSort;
+        }
+      }
+      if (other.SortOverflowMode != 0) {
+        SortOverflowMode = other.SortOverflowMode;
+      }
+      if (other.maxResultRows_ != null) {
+        if (maxResultRows_ == null || other.MaxResultRows != 0L) {
+          MaxResultRows = other.MaxResultRows;
+        }
+      }
+      if (other.maxResultBytes_ != null) {
+        if (maxResultBytes_ == null || other.MaxResultBytes != 0L) {
+          MaxResultBytes = other.MaxResultBytes;
+        }
+      }
+      if (other.ResultOverflowMode != 0) {
+        ResultOverflowMode = other.ResultOverflowMode;
+      }
+      if (other.maxRowsInDistinct_ != null) {
+        if (maxRowsInDistinct_ == null || other.MaxRowsInDistinct != 0L) {
+          MaxRowsInDistinct = other.MaxRowsInDistinct;
+        }
+      }
+      if (other.maxBytesInDistinct_ != null) {
+        if (maxBytesInDistinct_ == null || other.MaxBytesInDistinct != 0L) {
+          MaxBytesInDistinct = other.MaxBytesInDistinct;
+        }
+      }
+      if (other.DistinctOverflowMode != 0) {
+        DistinctOverflowMode = other.DistinctOverflowMode;
+      }
+      if (other.maxRowsToTransfer_ != null) {
+        if (maxRowsToTransfer_ == null || other.MaxRowsToTransfer != 0L) {
+          MaxRowsToTransfer = other.MaxRowsToTransfer;
+        }
+      }
+      if (other.maxBytesToTransfer_ != null) {
+        if (maxBytesToTransfer_ == null || other.MaxBytesToTransfer != 0L) {
+          MaxBytesToTransfer = other.MaxBytesToTransfer;
+        }
+      }
+      if (other.TransferOverflowMode != 0) {
+        TransferOverflowMode = other.TransferOverflowMode;
+      }
+      if (other.maxExecutionTime_ != null) {
+        if (maxExecutionTime_ == null || other.MaxExecutionTime != 0L) {
+          MaxExecutionTime = other.MaxExecutionTime;
+        }
+      }
+      if (other.TimeoutOverflowMode != 0) {
+        TimeoutOverflowMode = other.TimeoutOverflowMode;
+      }
+      if (other.maxColumnsToRead_ != null) {
+        if (maxColumnsToRead_ == null || other.MaxColumnsToRead != 0L) {
+          MaxColumnsToRead = other.MaxColumnsToRead;
+        }
+      }
+      if (other.maxTemporaryColumns_ != null) {
+        if (maxTemporaryColumns_ == null || other.MaxTemporaryColumns != 0L) {
+          MaxTemporaryColumns = other.MaxTemporaryColumns;
+        }
+      }
+      if (other.maxTemporaryNonConstColumns_ != null) {
+        if (maxTemporaryNonConstColumns_ == null || other.MaxTemporaryNonConstColumns != 0L) {
+          MaxTemporaryNonConstColumns = other.MaxTemporaryNonConstColumns;
+        }
+      }
+      if (other.maxQuerySize_ != null) {
+        if (maxQuerySize_ == null || other.MaxQuerySize != 0L) {
+          MaxQuerySize = other.MaxQuerySize;
+        }
+      }
+      if (other.maxAstDepth_ != null) {
+        if (maxAstDepth_ == null || other.MaxAstDepth != 0L) {
+          MaxAstDepth = other.MaxAstDepth;
+        }
+      }
+      if (other.maxAstElements_ != null) {
+        if (maxAstElements_ == null || other.MaxAstElements != 0L) {
+          MaxAstElements = other.MaxAstElements;
+        }
+      }
+      if (other.maxExpandedAstElements_ != null) {
+        if (maxExpandedAstElements_ == null || other.MaxExpandedAstElements != 0L) {
+          MaxExpandedAstElements = other.MaxExpandedAstElements;
+        }
+      }
+      if (other.inputFormatValuesInterpretExpressions_ != null) {
+        if (inputFormatValuesInterpretExpressions_ == null || other.InputFormatValuesInterpretExpressions != false) {
+          InputFormatValuesInterpretExpressions = other.InputFormatValuesInterpretExpressions;
+        }
+      }
+      if (other.inputFormatDefaultsForOmittedFields_ != null) {
+        if (inputFormatDefaultsForOmittedFields_ == null || other.InputFormatDefaultsForOmittedFields != false) {
+          InputFormatDefaultsForOmittedFields = other.InputFormatDefaultsForOmittedFields;
+        }
+      }
+      if (other.outputFormatJsonQuote64BitIntegers_ != null) {
+        if (outputFormatJsonQuote64BitIntegers_ == null || other.OutputFormatJsonQuote64BitIntegers != false) {
+          OutputFormatJsonQuote64BitIntegers = other.OutputFormatJsonQuote64BitIntegers;
+        }
+      }
+      if (other.outputFormatJsonQuoteDenormals_ != null) {
+        if (outputFormatJsonQuoteDenormals_ == null || other.OutputFormatJsonQuoteDenormals != false) {
+          OutputFormatJsonQuoteDenormals = other.OutputFormatJsonQuoteDenormals;
+        }
+      }
+      if (other.lowCardinalityAllowInNativeFormat_ != null) {
+        if (lowCardinalityAllowInNativeFormat_ == null || other.LowCardinalityAllowInNativeFormat != false) {
+          LowCardinalityAllowInNativeFormat = other.LowCardinalityAllowInNativeFormat;
+        }
+      }
+      if (other.emptyResultForAggregationByEmptySet_ != null) {
+        if (emptyResultForAggregationByEmptySet_ == null || other.EmptyResultForAggregationByEmptySet != false) {
+          EmptyResultForAggregationByEmptySet = other.EmptyResultForAggregationByEmptySet;
+        }
+      }
+      if (other.httpConnectionTimeout_ != null) {
+        if (httpConnectionTimeout_ == null || other.HttpConnectionTimeout != 0L) {
+          HttpConnectionTimeout = other.HttpConnectionTimeout;
+        }
+      }
+      if (other.httpReceiveTimeout_ != null) {
+        if (httpReceiveTimeout_ == null || other.HttpReceiveTimeout != 0L) {
+          HttpReceiveTimeout = other.HttpReceiveTimeout;
+        }
+      }
+      if (other.httpSendTimeout_ != null) {
+        if (httpSendTimeout_ == null || other.HttpSendTimeout != 0L) {
+          HttpSendTimeout = other.HttpSendTimeout;
+        }
+      }
+      if (other.enableHttpCompression_ != null) {
+        if (enableHttpCompression_ == null || other.EnableHttpCompression != false) {
+          EnableHttpCompression = other.EnableHttpCompression;
+        }
+      }
+      if (other.sendProgressInHttpHeaders_ != null) {
+        if (sendProgressInHttpHeaders_ == null || other.SendProgressInHttpHeaders != false) {
+          SendProgressInHttpHeaders = other.SendProgressInHttpHeaders;
+        }
+      }
+      if (other.httpHeadersProgressInterval_ != null) {
+        if (httpHeadersProgressInterval_ == null || other.HttpHeadersProgressInterval != 0L) {
+          HttpHeadersProgressInterval = other.HttpHeadersProgressInterval;
+        }
+      }
+      if (other.addHttpCorsHeader_ != null) {
+        if (addHttpCorsHeader_ == null || other.AddHttpCorsHeader != false) {
+          AddHttpCorsHeader = other.AddHttpCorsHeader;
+        }
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            long? value = _single_readonly_codec.Read(input);
+            if (readonly_ == null || value != 0L) {
+              Readonly = value;
+            }
+            break;
+          }
+          case 18: {
+            bool? value = _single_allowDdl_codec.Read(input);
+            if (allowDdl_ == null || value != false) {
+              AllowDdl = value;
+            }
+            break;
+          }
+          case 26: {
+            long? value = _single_insertQuorum_codec.Read(input);
+            if (insertQuorum_ == null || value != 0L) {
+              InsertQuorum = value;
+            }
+            break;
+          }
+          case 34: {
+            long? value = _single_insertQuorumTimeout_codec.Read(input);
+            if (insertQuorumTimeout_ == null || value != 0L) {
+              InsertQuorumTimeout = value;
+            }
+            break;
+          }
+          case 42: {
+            bool? value = _single_selectSequentialConsistency_codec.Read(input);
+            if (selectSequentialConsistency_ == null || value != false) {
+              SelectSequentialConsistency = value;
+            }
+            break;
+          }
+          case 50: {
+            long? value = _single_maxReplicaDelayForDistributedQueries_codec.Read(input);
+            if (maxReplicaDelayForDistributedQueries_ == null || value != 0L) {
+              MaxReplicaDelayForDistributedQueries = value;
+            }
+            break;
+          }
+          case 58: {
+            bool? value = _single_fallbackToStaleReplicasForDistributedQueries_codec.Read(input);
+            if (fallbackToStaleReplicasForDistributedQueries_ == null || value != false) {
+              FallbackToStaleReplicasForDistributedQueries = value;
+            }
+            break;
+          }
+          case 66: {
+            long? value = _single_maxThreads_codec.Read(input);
+            if (maxThreads_ == null || value != 0L) {
+              MaxThreads = value;
+            }
+            break;
+          }
+          case 74: {
+            long? value = _single_maxBlockSize_codec.Read(input);
+            if (maxBlockSize_ == null || value != 0L) {
+              MaxBlockSize = value;
+            }
+            break;
+          }
+          case 82: {
+            long? value = _single_maxInsertBlockSize_codec.Read(input);
+            if (maxInsertBlockSize_ == null || value != 0L) {
+              MaxInsertBlockSize = value;
+            }
+            break;
+          }
+          case 90: {
+            long? value = _single_maxMemoryUsage_codec.Read(input);
+            if (maxMemoryUsage_ == null || value != 0L) {
+              MaxMemoryUsage = value;
+            }
+            break;
+          }
+          case 98: {
+            long? value = _single_maxMemoryUsageForUser_codec.Read(input);
+            if (maxMemoryUsageForUser_ == null || value != 0L) {
+              MaxMemoryUsageForUser = value;
+            }
+            break;
+          }
+          case 106: {
+            long? value = _single_maxRowsToRead_codec.Read(input);
+            if (maxRowsToRead_ == null || value != 0L) {
+              MaxRowsToRead = value;
+            }
+            break;
+          }
+          case 114: {
+            long? value = _single_maxBytesToRead_codec.Read(input);
+            if (maxBytesToRead_ == null || value != 0L) {
+              MaxBytesToRead = value;
+            }
+            break;
+          }
+          case 120: {
+            ReadOverflowMode = (global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode) input.ReadEnum();
+            break;
+          }
+          case 130: {
+            long? value = _single_maxRowsToGroupBy_codec.Read(input);
+            if (maxRowsToGroupBy_ == null || value != 0L) {
+              MaxRowsToGroupBy = value;
+            }
+            break;
+          }
+          case 136: {
+            GroupByOverflowMode = (global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.GroupByOverflowMode) input.ReadEnum();
+            break;
+          }
+          case 146: {
+            long? value = _single_maxRowsToSort_codec.Read(input);
+            if (maxRowsToSort_ == null || value != 0L) {
+              MaxRowsToSort = value;
+            }
+            break;
+          }
+          case 154: {
+            long? value = _single_maxBytesToSort_codec.Read(input);
+            if (maxBytesToSort_ == null || value != 0L) {
+              MaxBytesToSort = value;
+            }
+            break;
+          }
+          case 160: {
+            SortOverflowMode = (global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode) input.ReadEnum();
+            break;
+          }
+          case 170: {
+            long? value = _single_maxResultRows_codec.Read(input);
+            if (maxResultRows_ == null || value != 0L) {
+              MaxResultRows = value;
+            }
+            break;
+          }
+          case 178: {
+            long? value = _single_maxResultBytes_codec.Read(input);
+            if (maxResultBytes_ == null || value != 0L) {
+              MaxResultBytes = value;
+            }
+            break;
+          }
+          case 184: {
+            ResultOverflowMode = (global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode) input.ReadEnum();
+            break;
+          }
+          case 194: {
+            long? value = _single_maxRowsInDistinct_codec.Read(input);
+            if (maxRowsInDistinct_ == null || value != 0L) {
+              MaxRowsInDistinct = value;
+            }
+            break;
+          }
+          case 202: {
+            long? value = _single_maxBytesInDistinct_codec.Read(input);
+            if (maxBytesInDistinct_ == null || value != 0L) {
+              MaxBytesInDistinct = value;
+            }
+            break;
+          }
+          case 208: {
+            DistinctOverflowMode = (global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode) input.ReadEnum();
+            break;
+          }
+          case 218: {
+            long? value = _single_maxRowsToTransfer_codec.Read(input);
+            if (maxRowsToTransfer_ == null || value != 0L) {
+              MaxRowsToTransfer = value;
+            }
+            break;
+          }
+          case 226: {
+            long? value = _single_maxBytesToTransfer_codec.Read(input);
+            if (maxBytesToTransfer_ == null || value != 0L) {
+              MaxBytesToTransfer = value;
+            }
+            break;
+          }
+          case 232: {
+            TransferOverflowMode = (global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode) input.ReadEnum();
+            break;
+          }
+          case 242: {
+            long? value = _single_maxExecutionTime_codec.Read(input);
+            if (maxExecutionTime_ == null || value != 0L) {
+              MaxExecutionTime = value;
+            }
+            break;
+          }
+          case 248: {
+            TimeoutOverflowMode = (global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode) input.ReadEnum();
+            break;
+          }
+          case 258: {
+            long? value = _single_maxColumnsToRead_codec.Read(input);
+            if (maxColumnsToRead_ == null || value != 0L) {
+              MaxColumnsToRead = value;
+            }
+            break;
+          }
+          case 266: {
+            long? value = _single_maxTemporaryColumns_codec.Read(input);
+            if (maxTemporaryColumns_ == null || value != 0L) {
+              MaxTemporaryColumns = value;
+            }
+            break;
+          }
+          case 274: {
+            long? value = _single_maxTemporaryNonConstColumns_codec.Read(input);
+            if (maxTemporaryNonConstColumns_ == null || value != 0L) {
+              MaxTemporaryNonConstColumns = value;
+            }
+            break;
+          }
+          case 282: {
+            long? value = _single_maxQuerySize_codec.Read(input);
+            if (maxQuerySize_ == null || value != 0L) {
+              MaxQuerySize = value;
+            }
+            break;
+          }
+          case 290: {
+            long? value = _single_maxAstDepth_codec.Read(input);
+            if (maxAstDepth_ == null || value != 0L) {
+              MaxAstDepth = value;
+            }
+            break;
+          }
+          case 298: {
+            long? value = _single_maxAstElements_codec.Read(input);
+            if (maxAstElements_ == null || value != 0L) {
+              MaxAstElements = value;
+            }
+            break;
+          }
+          case 306: {
+            long? value = _single_maxExpandedAstElements_codec.Read(input);
+            if (maxExpandedAstElements_ == null || value != 0L) {
+              MaxExpandedAstElements = value;
+            }
+            break;
+          }
+          case 314: {
+            long? value = _single_connectTimeout_codec.Read(input);
+            if (connectTimeout_ == null || value != 0L) {
+              ConnectTimeout = value;
+            }
+            break;
+          }
+          case 322: {
+            long? value = _single_receiveTimeout_codec.Read(input);
+            if (receiveTimeout_ == null || value != 0L) {
+              ReceiveTimeout = value;
+            }
+            break;
+          }
+          case 330: {
+            long? value = _single_sendTimeout_codec.Read(input);
+            if (sendTimeout_ == null || value != 0L) {
+              SendTimeout = value;
+            }
+            break;
+          }
+          case 338: {
+            long? value = _single_replicationAlterPartitionsSync_codec.Read(input);
+            if (replicationAlterPartitionsSync_ == null || value != 0L) {
+              ReplicationAlterPartitionsSync = value;
+            }
+            break;
+          }
+          case 344: {
+            DistributedProductMode = (global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.DistributedProductMode) input.ReadEnum();
+            break;
+          }
+          case 354: {
+            bool? value = _single_compile_codec.Read(input);
+            if (compile_ == null || value != false) {
+              Compile = value;
+            }
+            break;
+          }
+          case 362: {
+            long? value = _single_minCountToCompile_codec.Read(input);
+            if (minCountToCompile_ == null || value != 0L) {
+              MinCountToCompile = value;
+            }
+            break;
+          }
+          case 370: {
+            bool? value = _single_compileExpressions_codec.Read(input);
+            if (compileExpressions_ == null || value != false) {
+              CompileExpressions = value;
+            }
+            break;
+          }
+          case 378: {
+            long? value = _single_minCountToCompileExpression_codec.Read(input);
+            if (minCountToCompileExpression_ == null || value != 0L) {
+              MinCountToCompileExpression = value;
+            }
+            break;
+          }
+          case 386: {
+            long? value = _single_minInsertBlockSizeRows_codec.Read(input);
+            if (minInsertBlockSizeRows_ == null || value != 0L) {
+              MinInsertBlockSizeRows = value;
+            }
+            break;
+          }
+          case 394: {
+            long? value = _single_minInsertBlockSizeBytes_codec.Read(input);
+            if (minInsertBlockSizeBytes_ == null || value != 0L) {
+              MinInsertBlockSizeBytes = value;
+            }
+            break;
+          }
+          case 402: {
+            long? value = _single_minBytesToUseDirectIo_codec.Read(input);
+            if (minBytesToUseDirectIo_ == null || value != 0L) {
+              MinBytesToUseDirectIo = value;
+            }
+            break;
+          }
+          case 410: {
+            bool? value = _single_useUncompressedCache_codec.Read(input);
+            if (useUncompressedCache_ == null || value != false) {
+              UseUncompressedCache = value;
+            }
+            break;
+          }
+          case 418: {
+            long? value = _single_mergeTreeMaxRowsToUseCache_codec.Read(input);
+            if (mergeTreeMaxRowsToUseCache_ == null || value != 0L) {
+              MergeTreeMaxRowsToUseCache = value;
+            }
+            break;
+          }
+          case 426: {
+            long? value = _single_mergeTreeMaxBytesToUseCache_codec.Read(input);
+            if (mergeTreeMaxBytesToUseCache_ == null || value != 0L) {
+              MergeTreeMaxBytesToUseCache = value;
+            }
+            break;
+          }
+          case 434: {
+            long? value = _single_mergeTreeMinRowsForConcurrentRead_codec.Read(input);
+            if (mergeTreeMinRowsForConcurrentRead_ == null || value != 0L) {
+              MergeTreeMinRowsForConcurrentRead = value;
+            }
+            break;
+          }
+          case 442: {
+            long? value = _single_mergeTreeMinBytesForConcurrentRead_codec.Read(input);
+            if (mergeTreeMinBytesForConcurrentRead_ == null || value != 0L) {
+              MergeTreeMinBytesForConcurrentRead = value;
+            }
+            break;
+          }
+          case 450: {
+            long? value = _single_priority_codec.Read(input);
+            if (priority_ == null || value != 0L) {
+              Priority = value;
+            }
+            break;
+          }
+          case 458: {
+            long? value = _single_maxNetworkBandwidth_codec.Read(input);
+            if (maxNetworkBandwidth_ == null || value != 0L) {
+              MaxNetworkBandwidth = value;
+            }
+            break;
+          }
+          case 466: {
+            long? value = _single_maxNetworkBandwidthForUser_codec.Read(input);
+            if (maxNetworkBandwidthForUser_ == null || value != 0L) {
+              MaxNetworkBandwidthForUser = value;
+            }
+            break;
+          }
+          case 474: {
+            bool? value = _single_forceIndexByDate_codec.Read(input);
+            if (forceIndexByDate_ == null || value != false) {
+              ForceIndexByDate = value;
+            }
+            break;
+          }
+          case 482: {
+            bool? value = _single_forcePrimaryKey_codec.Read(input);
+            if (forcePrimaryKey_ == null || value != false) {
+              ForcePrimaryKey = value;
+            }
+            break;
+          }
+          case 490: {
+            bool? value = _single_inputFormatValuesInterpretExpressions_codec.Read(input);
+            if (inputFormatValuesInterpretExpressions_ == null || value != false) {
+              InputFormatValuesInterpretExpressions = value;
+            }
+            break;
+          }
+          case 498: {
+            bool? value = _single_inputFormatDefaultsForOmittedFields_codec.Read(input);
+            if (inputFormatDefaultsForOmittedFields_ == null || value != false) {
+              InputFormatDefaultsForOmittedFields = value;
+            }
+            break;
+          }
+          case 506: {
+            bool? value = _single_outputFormatJsonQuote64BitIntegers_codec.Read(input);
+            if (outputFormatJsonQuote64BitIntegers_ == null || value != false) {
+              OutputFormatJsonQuote64BitIntegers = value;
+            }
+            break;
+          }
+          case 514: {
+            bool? value = _single_outputFormatJsonQuoteDenormals_codec.Read(input);
+            if (outputFormatJsonQuoteDenormals_ == null || value != false) {
+              OutputFormatJsonQuoteDenormals = value;
+            }
+            break;
+          }
+          case 522: {
+            long? value = _single_httpConnectionTimeout_codec.Read(input);
+            if (httpConnectionTimeout_ == null || value != 0L) {
+              HttpConnectionTimeout = value;
+            }
+            break;
+          }
+          case 530: {
+            long? value = _single_httpReceiveTimeout_codec.Read(input);
+            if (httpReceiveTimeout_ == null || value != 0L) {
+              HttpReceiveTimeout = value;
+            }
+            break;
+          }
+          case 538: {
+            long? value = _single_httpSendTimeout_codec.Read(input);
+            if (httpSendTimeout_ == null || value != 0L) {
+              HttpSendTimeout = value;
+            }
+            break;
+          }
+          case 546: {
+            bool? value = _single_enableHttpCompression_codec.Read(input);
+            if (enableHttpCompression_ == null || value != false) {
+              EnableHttpCompression = value;
+            }
+            break;
+          }
+          case 554: {
+            bool? value = _single_sendProgressInHttpHeaders_codec.Read(input);
+            if (sendProgressInHttpHeaders_ == null || value != false) {
+              SendProgressInHttpHeaders = value;
+            }
+            break;
+          }
+          case 562: {
+            long? value = _single_httpHeadersProgressInterval_codec.Read(input);
+            if (httpHeadersProgressInterval_ == null || value != 0L) {
+              HttpHeadersProgressInterval = value;
+            }
+            break;
+          }
+          case 570: {
+            bool? value = _single_addHttpCorsHeader_codec.Read(input);
+            if (addHttpCorsHeader_ == null || value != false) {
+              AddHttpCorsHeader = value;
+            }
+            break;
+          }
+          case 578: {
+            bool? value = _single_distributedAggregationMemoryEfficient_codec.Read(input);
+            if (distributedAggregationMemoryEfficient_ == null || value != false) {
+              DistributedAggregationMemoryEfficient = value;
+            }
+            break;
+          }
+          case 586: {
+            long? value = _single_distributedDdlTaskTimeout_codec.Read(input);
+            if (distributedDdlTaskTimeout_ == null || value != 0L) {
+              DistributedDdlTaskTimeout = value;
+            }
+            break;
+          }
+          case 594: {
+            long? value = _single_maxBytesBeforeExternalGroupBy_codec.Read(input);
+            if (maxBytesBeforeExternalGroupBy_ == null || value != 0L) {
+              MaxBytesBeforeExternalGroupBy = value;
+            }
+            break;
+          }
+          case 602: {
+            long? value = _single_maxBytesBeforeExternalSort_codec.Read(input);
+            if (maxBytesBeforeExternalSort_ == null || value != 0L) {
+              MaxBytesBeforeExternalSort = value;
+            }
+            break;
+          }
+          case 610: {
+            long? value = _single_groupByTwoLevelThreshold_codec.Read(input);
+            if (groupByTwoLevelThreshold_ == null || value != 0L) {
+              GroupByTwoLevelThreshold = value;
+            }
+            break;
+          }
+          case 618: {
+            long? value = _single_groupByTwoLevelThresholdBytes_codec.Read(input);
+            if (groupByTwoLevelThresholdBytes_ == null || value != 0L) {
+              GroupByTwoLevelThresholdBytes = value;
+            }
+            break;
+          }
+          case 626: {
+            bool? value = _single_lowCardinalityAllowInNativeFormat_codec.Read(input);
+            if (lowCardinalityAllowInNativeFormat_ == null || value != false) {
+              LowCardinalityAllowInNativeFormat = value;
+            }
+            break;
+          }
+          case 634: {
+            bool? value = _single_emptyResultForAggregationByEmptySet_codec.Read(input);
+            if (emptyResultForAggregationByEmptySet_ == null || value != false) {
+              EmptyResultForAggregationByEmptySet = value;
+            }
+            break;
+          }
+        }
+      }
+    }
+
+    #region Nested types
+    /// <summary>Container for nested types declared in the UserSettings message type.</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static partial class Types {
+      internal enum OverflowMode {
+        [pbr::OriginalName("OVERFLOW_MODE_UNSPECIFIED")] Unspecified = 0,
+        [pbr::OriginalName("OVERFLOW_MODE_THROW")] Throw = 1,
+        [pbr::OriginalName("OVERFLOW_MODE_BREAK")] Break = 2,
+      }
+
+      internal enum GroupByOverflowMode {
+        [pbr::OriginalName("GROUP_BY_OVERFLOW_MODE_UNSPECIFIED")] Unspecified = 0,
+        [pbr::OriginalName("GROUP_BY_OVERFLOW_MODE_THROW")] Throw = 1,
+        [pbr::OriginalName("GROUP_BY_OVERFLOW_MODE_BREAK")] Break = 2,
+        [pbr::OriginalName("GROUP_BY_OVERFLOW_MODE_ANY")] Any = 3,
+      }
+
+      internal enum DistributedProductMode {
+        [pbr::OriginalName("DISTRIBUTED_PRODUCT_MODE_UNSPECIFIED")] Unspecified = 0,
+        [pbr::OriginalName("DISTRIBUTED_PRODUCT_MODE_DENY")] Deny = 1,
+        [pbr::OriginalName("DISTRIBUTED_PRODUCT_MODE_LOCAL")] Local = 2,
+        [pbr::OriginalName("DISTRIBUTED_PRODUCT_MODE_GLOBAL")] Global = 3,
+        [pbr::OriginalName("DISTRIBUTED_PRODUCT_MODE_ALLOW")] Allow = 4,
+      }
+
+    }
+    #endregion
 
   }
 

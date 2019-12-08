@@ -26,8 +26,9 @@ namespace Yandex.Cloud.Iam.V1 {
           string.Concat(
             "Ch55YW5kZXgvY2xvdWQvaWFtL3YxL3JvbGUucHJvdG8SE3lhbmRleC5jbG91",
             "ZC5pYW0udjEiJwoEUm9sZRIKCgJpZBgBIAEoCRITCgtkZXNjcmlwdGlvbhgC",
-            "IAEoCUI9WjtnaXRodWIuY29tL3lhbmRleC1jbG91ZC9nby1nZW5wcm90by95",
-            "YW5kZXgvY2xvdWQvaWFtL3YxO2lhbWIGcHJvdG8z"));
+            "IAEoCUJWChd5YW5kZXguY2xvdWQuYXBpLmlhbS52MVo7Z2l0aHViLmNvbS95",
+            "YW5kZXgtY2xvdWQvZ28tZ2VucHJvdG8veWFuZGV4L2Nsb3VkL2lhbS92MTtp",
+            "YW1iBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {

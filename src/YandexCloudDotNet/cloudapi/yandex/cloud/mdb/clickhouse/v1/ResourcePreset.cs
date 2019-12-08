@@ -27,9 +27,10 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
             "CjR5YW5kZXgvY2xvdWQvbWRiL2NsaWNraG91c2UvdjEvcmVzb3VyY2VfcHJl",
             "c2V0LnByb3RvEh55YW5kZXguY2xvdWQubWRiLmNsaWNraG91c2UudjEiTQoO",
             "UmVzb3VyY2VQcmVzZXQSCgoCaWQYASABKAkSEAoIem9uZV9pZHMYAiADKAkS",
-            "DQoFY29yZXMYAyABKAMSDgoGbWVtb3J5GAQgASgDQk9aTWdpdGh1Yi5jb20v",
-            "eWFuZGV4LWNsb3VkL2dvLWdlbnByb3RvL3lhbmRleC9jbG91ZC9tZGIvY2xp",
-            "Y2tob3VzZS92MTtjbGlja2hvdXNlYgZwcm90bzM="));
+            "DQoFY29yZXMYAyABKAMSDgoGbWVtb3J5GAQgASgDQnMKInlhbmRleC5jbG91",
+            "ZC5hcGkubWRiLmNsaWNraG91c2UudjFaTWdpdGh1Yi5jb20veWFuZGV4LWNs",
+            "b3VkL2dvLWdlbnByb3RvL3lhbmRleC9jbG91ZC9tZGIvY2xpY2tob3VzZS92",
+            "MTtjbGlja2hvdXNlYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {

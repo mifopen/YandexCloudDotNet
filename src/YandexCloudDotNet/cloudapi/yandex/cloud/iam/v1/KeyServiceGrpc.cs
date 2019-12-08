@@ -22,7 +22,9 @@ namespace Yandex.Cloud.Iam.V1 {
     static readonly grpc::Marshaller<global::Yandex.Cloud.Iam.V1.CreateKeyRequest> __Marshaller_yandex_cloud_iam_v1_CreateKeyRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Iam.V1.CreateKeyRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Iam.V1.CreateKeyResponse> __Marshaller_yandex_cloud_iam_v1_CreateKeyResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Iam.V1.CreateKeyResponse.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Iam.V1.DeleteKeyRequest> __Marshaller_yandex_cloud_iam_v1_DeleteKeyRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Iam.V1.DeleteKeyRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Google.Protobuf.WellKnownTypes.Empty> __Marshaller_google_protobuf_Empty = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Google.Protobuf.WellKnownTypes.Empty.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Yandex.Cloud.Operation.Operation> __Marshaller_yandex_cloud_operation_Operation = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Operation.Operation.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Yandex.Cloud.Iam.V1.ListKeyOperationsRequest> __Marshaller_yandex_cloud_iam_v1_ListKeyOperationsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Iam.V1.ListKeyOperationsRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Yandex.Cloud.Iam.V1.ListKeyOperationsResponse> __Marshaller_yandex_cloud_iam_v1_ListKeyOperationsResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Iam.V1.ListKeyOperationsResponse.Parser.ParseFrom);
 
     static readonly grpc::Method<global::Yandex.Cloud.Iam.V1.GetKeyRequest, global::Yandex.Cloud.Iam.V1.Key> __Method_Get = new grpc::Method<global::Yandex.Cloud.Iam.V1.GetKeyRequest, global::Yandex.Cloud.Iam.V1.Key>(
         grpc::MethodType.Unary,
@@ -45,12 +47,19 @@ namespace Yandex.Cloud.Iam.V1 {
         __Marshaller_yandex_cloud_iam_v1_CreateKeyRequest,
         __Marshaller_yandex_cloud_iam_v1_CreateKeyResponse);
 
-    static readonly grpc::Method<global::Yandex.Cloud.Iam.V1.DeleteKeyRequest, global::Google.Protobuf.WellKnownTypes.Empty> __Method_Delete = new grpc::Method<global::Yandex.Cloud.Iam.V1.DeleteKeyRequest, global::Google.Protobuf.WellKnownTypes.Empty>(
+    static readonly grpc::Method<global::Yandex.Cloud.Iam.V1.DeleteKeyRequest, global::Yandex.Cloud.Operation.Operation> __Method_Delete = new grpc::Method<global::Yandex.Cloud.Iam.V1.DeleteKeyRequest, global::Yandex.Cloud.Operation.Operation>(
         grpc::MethodType.Unary,
         __ServiceName,
         "Delete",
         __Marshaller_yandex_cloud_iam_v1_DeleteKeyRequest,
-        __Marshaller_google_protobuf_Empty);
+        __Marshaller_yandex_cloud_operation_Operation);
+
+    static readonly grpc::Method<global::Yandex.Cloud.Iam.V1.ListKeyOperationsRequest, global::Yandex.Cloud.Iam.V1.ListKeyOperationsResponse> __Method_ListOperations = new grpc::Method<global::Yandex.Cloud.Iam.V1.ListKeyOperationsRequest, global::Yandex.Cloud.Iam.V1.ListKeyOperationsResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "ListOperations",
+        __Marshaller_yandex_cloud_iam_v1_ListKeyOperationsRequest,
+        __Marshaller_yandex_cloud_iam_v1_ListKeyOperationsResponse);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -229,7 +238,7 @@ namespace Yandex.Cloud.Iam.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
-      public virtual global::Google.Protobuf.WellKnownTypes.Empty Delete(global::Yandex.Cloud.Iam.V1.DeleteKeyRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual global::Yandex.Cloud.Operation.Operation Delete(global::Yandex.Cloud.Iam.V1.DeleteKeyRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return Delete(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
@@ -239,7 +248,7 @@ namespace Yandex.Cloud.Iam.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
-      public virtual global::Google.Protobuf.WellKnownTypes.Empty Delete(global::Yandex.Cloud.Iam.V1.DeleteKeyRequest request, grpc::CallOptions options)
+      public virtual global::Yandex.Cloud.Operation.Operation Delete(global::Yandex.Cloud.Iam.V1.DeleteKeyRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_Delete, null, options, request);
       }
@@ -251,7 +260,7 @@ namespace Yandex.Cloud.Iam.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
-      public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> DeleteAsync(global::Yandex.Cloud.Iam.V1.DeleteKeyRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Operation.Operation> DeleteAsync(global::Yandex.Cloud.Iam.V1.DeleteKeyRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return DeleteAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
@@ -261,9 +270,53 @@ namespace Yandex.Cloud.Iam.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
-      public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> DeleteAsync(global::Yandex.Cloud.Iam.V1.DeleteKeyRequest request, grpc::CallOptions options)
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Operation.Operation> DeleteAsync(global::Yandex.Cloud.Iam.V1.DeleteKeyRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_Delete, null, options, request);
+      }
+      /// <summary>
+      /// Lists operations for the specified key.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.Iam.V1.ListKeyOperationsResponse ListOperations(global::Yandex.Cloud.Iam.V1.ListKeyOperationsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return ListOperations(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Lists operations for the specified key.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.Iam.V1.ListKeyOperationsResponse ListOperations(global::Yandex.Cloud.Iam.V1.ListKeyOperationsRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_ListOperations, null, options, request);
+      }
+      /// <summary>
+      /// Lists operations for the specified key.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Iam.V1.ListKeyOperationsResponse> ListOperationsAsync(global::Yandex.Cloud.Iam.V1.ListKeyOperationsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return ListOperationsAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Lists operations for the specified key.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Iam.V1.ListKeyOperationsResponse> ListOperationsAsync(global::Yandex.Cloud.Iam.V1.ListKeyOperationsRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_ListOperations, null, options, request);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       protected override KeyServiceClient NewInstance(ClientBaseConfiguration configuration)

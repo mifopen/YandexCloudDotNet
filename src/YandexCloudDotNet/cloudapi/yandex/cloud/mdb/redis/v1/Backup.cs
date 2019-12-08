@@ -26,16 +26,17 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
           string.Concat(
             "CiZ5YW5kZXgvY2xvdWQvbWRiL3JlZGlzL3YxL2JhY2t1cC5wcm90bxIZeWFu",
             "ZGV4LmNsb3VkLm1kYi5yZWRpcy52MRofZ29vZ2xlL3Byb3RvYnVmL3RpbWVz",
-            "dGFtcC5wcm90byKiAQoGQmFja3VwEgoKAmlkGAEgASgJEhEKCWZvbGRlcl9p",
+            "dGFtcC5wcm90byK+AQoGQmFja3VwEgoKAmlkGAEgASgJEhEKCWZvbGRlcl9p",
             "ZBgCIAEoCRIuCgpjcmVhdGVkX2F0GAMgASgLMhouZ29vZ2xlLnByb3RvYnVm",
             "LlRpbWVzdGFtcBIZChFzb3VyY2VfY2x1c3Rlcl9pZBgEIAEoCRIuCgpzdGFy",
-            "dGVkX2F0GAUgASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcEJFWkNn",
-            "aXRodWIuY29tL3lhbmRleC1jbG91ZC9nby1nZW5wcm90by95YW5kZXgvY2xv",
-            "dWQvbWRiL3JlZGlzL3YxO3JlZGlzYgZwcm90bzM="));
+            "dGVkX2F0GAUgASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcBIaChJz",
+            "b3VyY2Vfc2hhcmRfbmFtZXMYBiADKAlCZAodeWFuZGV4LmNsb3VkLmFwaS5t",
+            "ZGIucmVkaXMudjFaQ2dpdGh1Yi5jb20veWFuZGV4LWNsb3VkL2dvLWdlbnBy",
+            "b3RvL3lhbmRleC9jbG91ZC9tZGIvcmVkaXMvdjE7cmVkaXNiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1.Backup), global::Yandex.Cloud.Mdb.Redis.V1.Backup.Parser, new[]{ "Id", "FolderId", "CreatedAt", "SourceClusterId", "StartedAt" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1.Backup), global::Yandex.Cloud.Mdb.Redis.V1.Backup.Parser, new[]{ "Id", "FolderId", "CreatedAt", "SourceClusterId", "StartedAt", "SourceShardNames" }, null, null, null)
           }));
     }
     #endregion
@@ -76,6 +77,7 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
       createdAt_ = other.createdAt_ != null ? other.createdAt_.Clone() : null;
       sourceClusterId_ = other.sourceClusterId_;
       startedAt_ = other.startedAt_ != null ? other.startedAt_.Clone() : null;
+      sourceShardNames_ = other.sourceShardNames_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -156,6 +158,19 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
       }
     }
 
+    /// <summary>Field number for the "source_shard_names" field.</summary>
+    public const int SourceShardNamesFieldNumber = 6;
+    private static readonly pb::FieldCodec<string> _repeated_sourceShardNames_codec
+        = pb::FieldCodec.ForString(50);
+    private readonly pbc::RepeatedField<string> sourceShardNames_ = new pbc::RepeatedField<string>();
+    /// <summary>
+    /// Shard names used as a source for backup.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<string> SourceShardNames {
+      get { return sourceShardNames_; }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as Backup);
@@ -174,6 +189,7 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
       if (!object.Equals(CreatedAt, other.CreatedAt)) return false;
       if (SourceClusterId != other.SourceClusterId) return false;
       if (!object.Equals(StartedAt, other.StartedAt)) return false;
+      if(!sourceShardNames_.Equals(other.sourceShardNames_)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -185,6 +201,7 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
       if (createdAt_ != null) hash ^= CreatedAt.GetHashCode();
       if (SourceClusterId.Length != 0) hash ^= SourceClusterId.GetHashCode();
       if (startedAt_ != null) hash ^= StartedAt.GetHashCode();
+      hash ^= sourceShardNames_.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -218,6 +235,7 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
         output.WriteRawTag(42);
         output.WriteMessage(StartedAt);
       }
+      sourceShardNames_.WriteTo(output, _repeated_sourceShardNames_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -241,6 +259,7 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
       if (startedAt_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(StartedAt);
       }
+      size += sourceShardNames_.CalculateSize(_repeated_sourceShardNames_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -273,6 +292,7 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
         }
         StartedAt.MergeFrom(other.StartedAt);
       }
+      sourceShardNames_.Add(other.sourceShardNames_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -308,6 +328,10 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
               StartedAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
             }
             input.ReadMessage(StartedAt);
+            break;
+          }
+          case 50: {
+            sourceShardNames_.AddEntriesFrom(input, _repeated_sourceShardNames_codec);
             break;
           }
         }

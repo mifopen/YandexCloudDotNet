@@ -30,9 +30,10 @@ namespace Yandex.Cloud.Mdb.Mysql.V1Alpha {
             "LnByb3RvIqgBCgZCYWNrdXASEAoCaWQYASABKAlCBOjHMQESEQoJZm9sZGVy",
             "X2lkGAIgASgJEi4KCmNyZWF0ZWRfYXQYAyABKAsyGi5nb29nbGUucHJvdG9i",
             "dWYuVGltZXN0YW1wEhkKEXNvdXJjZV9jbHVzdGVyX2lkGAQgASgJEi4KCnN0",
-            "YXJ0ZWRfYXQYBSABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wQkpa",
-            "SGdpdGh1Yi5jb20veWFuZGV4LWNsb3VkL2dvLWdlbnByb3RvL3lhbmRleC9j",
-            "bG91ZC9tZGIvbXlzcWwvdjFhbHBoYTtteXNxbGIGcHJvdG8z"));
+            "YXJ0ZWRfYXQYBSABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wQm4K",
+            "InlhbmRleC5jbG91ZC5hcGkubWRiLm15c3FsLnYxYWxwaGFaSGdpdGh1Yi5j",
+            "b20veWFuZGV4LWNsb3VkL2dvLWdlbnByb3RvL3lhbmRleC9jbG91ZC9tZGIv",
+            "bXlzcWwvdjFhbHBoYTtteXNxbGIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Yandex.Cloud.ValidationReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {

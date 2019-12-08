@@ -27,79 +27,80 @@ namespace Yandex.Cloud.Mdb.Mysql.V1Alpha {
             "CjF5YW5kZXgvY2xvdWQvbWRiL215c3FsL3YxYWxwaGEvdXNlcl9zZXJ2aWNl",
             "LnByb3RvEh55YW5kZXguY2xvdWQubWRiLm15c3FsLnYxYWxwaGEaHGdvb2ds",
             "ZS9hcGkvYW5ub3RhdGlvbnMucHJvdG8aIGdvb2dsZS9wcm90b2J1Zi9maWVs",
-            "ZF9tYXNrLnByb3RvGhp5YW5kZXgvYXBpL29wZXJhdGlvbi5wcm90bxomeWFu",
-            "ZGV4L2Nsb3VkL29wZXJhdGlvbi9vcGVyYXRpb24ucHJvdG8aHXlhbmRleC9j",
-            "bG91ZC92YWxpZGF0aW9uLnByb3RvGil5YW5kZXgvY2xvdWQvbWRiL215c3Fs",
-            "L3YxYWxwaGEvdXNlci5wcm90byJkCg5HZXRVc2VyUmVxdWVzdBIgCgpjbHVz",
-            "dGVyX2lkGAEgASgJQgzoxzEBisgxBDw9NTASMAoJdXNlcl9uYW1lGAIgASgJ",
-            "Qh3oxzEBisgxBDw9NjPyxzENW2EtekEtWjAtOV9dKiJyChBMaXN0VXNlcnNS",
-            "ZXF1ZXN0EiAKCmNsdXN0ZXJfaWQYASABKAlCDOjHMQGKyDEEPD01MBIdCglw",
-            "YWdlX3NpemUYAiABKANCCvrHMQYwLTEwMDASHQoKcGFnZV90b2tlbhgDIAEo",
-            "CUIJisgxBTw9MTAwImEKEUxpc3RVc2Vyc1Jlc3BvbnNlEjMKBXVzZXJzGAEg",
-            "AygLMiQueWFuZGV4LmNsb3VkLm1kYi5teXNxbC52MWFscGhhLlVzZXISFwoP",
-            "bmV4dF9wYWdlX3Rva2VuGAIgASgJIngKEUNyZWF0ZVVzZXJSZXF1ZXN0EiAK",
-            "CmNsdXN0ZXJfaWQYASABKAlCDOjHMQGKyDEEPD01MBJBCgl1c2VyX3NwZWMY",
-            "AiABKAsyKC55YW5kZXguY2xvdWQubWRiLm15c3FsLnYxYWxwaGEuVXNlclNw",
-            "ZWNCBOjHMQEiOwoSQ3JlYXRlVXNlck1ldGFkYXRhEhIKCmNsdXN0ZXJfaWQY",
-            "ASABKAkSEQoJdXNlcl9uYW1lGAIgASgJIvYBChFVcGRhdGVVc2VyUmVxdWVz",
+            "ZF9tYXNrLnByb3RvGiB5YW5kZXgvY2xvdWQvYXBpL29wZXJhdGlvbi5wcm90",
+            "bxomeWFuZGV4L2Nsb3VkL29wZXJhdGlvbi9vcGVyYXRpb24ucHJvdG8aHXlh",
+            "bmRleC9jbG91ZC92YWxpZGF0aW9uLnByb3RvGil5YW5kZXgvY2xvdWQvbWRi",
+            "L215c3FsL3YxYWxwaGEvdXNlci5wcm90byJkCg5HZXRVc2VyUmVxdWVzdBIg",
+            "CgpjbHVzdGVyX2lkGAEgASgJQgzoxzEBisgxBDw9NTASMAoJdXNlcl9uYW1l",
+            "GAIgASgJQh3oxzEBisgxBDw9NjPyxzENW2EtekEtWjAtOV9dKiJyChBMaXN0",
+            "VXNlcnNSZXF1ZXN0EiAKCmNsdXN0ZXJfaWQYASABKAlCDOjHMQGKyDEEPD01",
+            "MBIdCglwYWdlX3NpemUYAiABKANCCvrHMQYwLTEwMDASHQoKcGFnZV90b2tl",
+            "bhgDIAEoCUIJisgxBTw9MTAwImEKEUxpc3RVc2Vyc1Jlc3BvbnNlEjMKBXVz",
+            "ZXJzGAEgAygLMiQueWFuZGV4LmNsb3VkLm1kYi5teXNxbC52MWFscGhhLlVz",
+            "ZXISFwoPbmV4dF9wYWdlX3Rva2VuGAIgASgJIngKEUNyZWF0ZVVzZXJSZXF1",
+            "ZXN0EiAKCmNsdXN0ZXJfaWQYASABKAlCDOjHMQGKyDEEPD01MBJBCgl1c2Vy",
+            "X3NwZWMYAiABKAsyKC55YW5kZXguY2xvdWQubWRiLm15c3FsLnYxYWxwaGEu",
+            "VXNlclNwZWNCBOjHMQEiOwoSQ3JlYXRlVXNlck1ldGFkYXRhEhIKCmNsdXN0",
+            "ZXJfaWQYASABKAkSEQoJdXNlcl9uYW1lGAIgASgJIvYBChFVcGRhdGVVc2Vy",
+            "UmVxdWVzdBIgCgpjbHVzdGVyX2lkGAEgASgJQgzoxzEBisgxBDw9NTASMAoJ",
+            "dXNlcl9uYW1lGAIgASgJQh3oxzEBisgxBDw9NjPyxzENW2EtekEtWjAtOV9d",
+            "KhIvCgt1cGRhdGVfbWFzaxgDIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5GaWVs",
+            "ZE1hc2sSGwoIcGFzc3dvcmQYBCABKAlCCYrIMQU4LTEyOBI/CgtwZXJtaXNz",
+            "aW9ucxgFIAMoCzIqLnlhbmRleC5jbG91ZC5tZGIubXlzcWwudjFhbHBoYS5Q",
+            "ZXJtaXNzaW9uIjsKElVwZGF0ZVVzZXJNZXRhZGF0YRISCgpjbHVzdGVyX2lk",
+            "GAEgASgJEhEKCXVzZXJfbmFtZRgCIAEoCSJnChFEZWxldGVVc2VyUmVxdWVz",
             "dBIgCgpjbHVzdGVyX2lkGAEgASgJQgzoxzEBisgxBDw9NTASMAoJdXNlcl9u",
-            "YW1lGAIgASgJQh3oxzEBisgxBDw9NjPyxzENW2EtekEtWjAtOV9dKhIvCgt1",
-            "cGRhdGVfbWFzaxgDIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5GaWVsZE1hc2sS",
-            "GwoIcGFzc3dvcmQYBCABKAlCCYrIMQU4LTEyOBI/CgtwZXJtaXNzaW9ucxgF",
-            "IAMoCzIqLnlhbmRleC5jbG91ZC5tZGIubXlzcWwudjFhbHBoYS5QZXJtaXNz",
-            "aW9uIjsKElVwZGF0ZVVzZXJNZXRhZGF0YRISCgpjbHVzdGVyX2lkGAEgASgJ",
-            "EhEKCXVzZXJfbmFtZRgCIAEoCSJnChFEZWxldGVVc2VyUmVxdWVzdBIgCgpj",
-            "bHVzdGVyX2lkGAEgASgJQgzoxzEBisgxBDw9NTASMAoJdXNlcl9uYW1lGAIg",
-            "ASgJQh3oxzEBisgxBDw9NjPyxzENW2EtekEtWjAtOV9dKiI7ChJEZWxldGVV",
-            "c2VyTWV0YWRhdGESEgoKY2x1c3Rlcl9pZBgBIAEoCRIRCgl1c2VyX25hbWUY",
-            "AiABKAkitgEKGkdyYW50VXNlclBlcm1pc3Npb25SZXF1ZXN0EiAKCmNsdXN0",
-            "ZXJfaWQYASABKAlCDOjHMQGKyDEEPD01MBIwCgl1c2VyX25hbWUYAiABKAlC",
-            "HejHMQGKyDEEPD02M/LHMQ1bYS16QS1aMC05X10qEkQKCnBlcm1pc3Npb24Y",
-            "AyABKAsyKi55YW5kZXguY2xvdWQubWRiLm15c3FsLnYxYWxwaGEuUGVybWlz",
-            "c2lvbkIE6McxASJEChtHcmFudFVzZXJQZXJtaXNzaW9uTWV0YWRhdGESEgoK",
-            "Y2x1c3Rlcl9pZBgBIAEoCRIRCgl1c2VyX25hbWUYAiABKAkiqAEKG1Jldm9r",
-            "ZVVzZXJQZXJtaXNzaW9uUmVxdWVzdBIgCgpjbHVzdGVyX2lkGAEgASgJQgzo",
-            "xzEBisgxBDw9NTASMAoJdXNlcl9uYW1lGAIgASgJQh3oxzEBisgxBDw9NjPy",
-            "xzENW2EtekEtWjAtOV9dKhI1Cg1kYXRhYmFzZV9uYW1lGAMgASgJQh7oxzEB",
-            "isgxBDw9NjPyxzEOW2EtekEtWjAtOV8tXSoiRQocUmV2b2tlVXNlclBlcm1p",
-            "c3Npb25NZXRhZGF0YRISCgpjbHVzdGVyX2lkGAEgASgJEhEKCXVzZXJfbmFt",
-            "ZRgCIAEoCTKtCwoLVXNlclNlcnZpY2USowEKA0dldBIuLnlhbmRleC5jbG91",
-            "ZC5tZGIubXlzcWwudjFhbHBoYS5HZXRVc2VyUmVxdWVzdBokLnlhbmRleC5j",
-            "bG91ZC5tZGIubXlzcWwudjFhbHBoYS5Vc2VyIkaC0+STAkASPi9tYW5hZ2Vk",
-            "LW15c3FsL3YxYWxwaGEvY2x1c3RlcnMve2NsdXN0ZXJfaWR9L3VzZXJzL3t1",
-            "c2VyX25hbWV9EqcBCgRMaXN0EjAueWFuZGV4LmNsb3VkLm1kYi5teXNxbC52",
-            "MWFscGhhLkxpc3RVc2Vyc1JlcXVlc3QaMS55YW5kZXguY2xvdWQubWRiLm15",
-            "c3FsLnYxYWxwaGEuTGlzdFVzZXJzUmVzcG9uc2UiOoLT5JMCNBIyL21hbmFn",
-            "ZWQtbXlzcWwvdjFhbHBoYS9jbHVzdGVycy97Y2x1c3Rlcl9pZH0vdXNlcnMS",
-            "uwEKBkNyZWF0ZRIxLnlhbmRleC5jbG91ZC5tZGIubXlzcWwudjFhbHBoYS5D",
-            "cmVhdGVVc2VyUmVxdWVzdBohLnlhbmRleC5jbG91ZC5vcGVyYXRpb24uT3Bl",
-            "cmF0aW9uIluC0+STAjciMi9tYW5hZ2VkLW15c3FsL3YxYWxwaGEvY2x1c3Rl",
-            "cnMve2NsdXN0ZXJfaWR9L3VzZXJzOgEqstIqGgoSQ3JlYXRlVXNlck1ldGFk",
-            "YXRhEgRVc2VyEscBCgZVcGRhdGUSMS55YW5kZXguY2xvdWQubWRiLm15c3Fs",
-            "LnYxYWxwaGEuVXBkYXRlVXNlclJlcXVlc3QaIS55YW5kZXguY2xvdWQub3Bl",
-            "cmF0aW9uLk9wZXJhdGlvbiJngtPkkwJDMj4vbWFuYWdlZC1teXNxbC92MWFs",
-            "cGhhL2NsdXN0ZXJzL3tjbHVzdGVyX2lkfS91c2Vycy97dXNlcl9uYW1lfToB",
-            "KrLSKhoKElVwZGF0ZVVzZXJNZXRhZGF0YRIEVXNlchLVAQoGRGVsZXRlEjEu",
-            "eWFuZGV4LmNsb3VkLm1kYi5teXNxbC52MWFscGhhLkRlbGV0ZVVzZXJSZXF1",
-            "ZXN0GiEueWFuZGV4LmNsb3VkLm9wZXJhdGlvbi5PcGVyYXRpb24idYLT5JMC",
-            "QCo+L21hbmFnZWQtbXlzcWwvdjFhbHBoYS9jbHVzdGVycy97Y2x1c3Rlcl9p",
-            "ZH0vdXNlcnMve3VzZXJfbmFtZX2y0iorChJEZWxldGVVc2VyTWV0YWRhdGES",
-            "FWdvb2dsZS5wcm90b2J1Zi5FbXB0eRLzAQoPR3JhbnRQZXJtaXNzaW9uEjou",
-            "eWFuZGV4LmNsb3VkLm1kYi5teXNxbC52MWFscGhhLkdyYW50VXNlclBlcm1p",
-            "c3Npb25SZXF1ZXN0GiEueWFuZGV4LmNsb3VkLm9wZXJhdGlvbi5PcGVyYXRp",
-            "b24igAGC0+STAlMiTi9tYW5hZ2VkLW15c3FsL3YxYWxwaGEvY2x1c3RlcnMv",
-            "e2NsdXN0ZXJfaWR9L3VzZXJzL3t1c2VyX25hbWV9OmdyYW50UGVybWlzc2lv",
-            "bjoBKrLSKiMKG0dyYW50VXNlclBlcm1pc3Npb25NZXRhZGF0YRIEVXNlchL3",
-            "AQoQUmV2b2tlUGVybWlzc2lvbhI7LnlhbmRleC5jbG91ZC5tZGIubXlzcWwu",
-            "djFhbHBoYS5SZXZva2VVc2VyUGVybWlzc2lvblJlcXVlc3QaIS55YW5kZXgu",
-            "Y2xvdWQub3BlcmF0aW9uLk9wZXJhdGlvbiKCAYLT5JMCVCJPL21hbmFnZWQt",
-            "bXlzcWwvdjFhbHBoYS9jbHVzdGVycy97Y2x1c3Rlcl9pZH0vdXNlcnMve3Vz",
-            "ZXJfbmFtZX06cmV2b2tlUGVybWlzc2lvbjoBKrLSKiQKHFJldm9rZVVzZXJQ",
-            "ZXJtaXNzaW9uTWV0YWRhdGESBFVzZXJCSlpIZ2l0aHViLmNvbS95YW5kZXgt",
-            "Y2xvdWQvZ28tZ2VucHJvdG8veWFuZGV4L2Nsb3VkL21kYi9teXNxbC92MWFs",
-            "cGhhO215c3FsYgZwcm90bzM="));
+            "YW1lGAIgASgJQh3oxzEBisgxBDw9NjPyxzENW2EtekEtWjAtOV9dKiI7ChJE",
+            "ZWxldGVVc2VyTWV0YWRhdGESEgoKY2x1c3Rlcl9pZBgBIAEoCRIRCgl1c2Vy",
+            "X25hbWUYAiABKAkitgEKGkdyYW50VXNlclBlcm1pc3Npb25SZXF1ZXN0EiAK",
+            "CmNsdXN0ZXJfaWQYASABKAlCDOjHMQGKyDEEPD01MBIwCgl1c2VyX25hbWUY",
+            "AiABKAlCHejHMQGKyDEEPD02M/LHMQ1bYS16QS1aMC05X10qEkQKCnBlcm1p",
+            "c3Npb24YAyABKAsyKi55YW5kZXguY2xvdWQubWRiLm15c3FsLnYxYWxwaGEu",
+            "UGVybWlzc2lvbkIE6McxASJEChtHcmFudFVzZXJQZXJtaXNzaW9uTWV0YWRh",
+            "dGESEgoKY2x1c3Rlcl9pZBgBIAEoCRIRCgl1c2VyX25hbWUYAiABKAkiqAEK",
+            "G1Jldm9rZVVzZXJQZXJtaXNzaW9uUmVxdWVzdBIgCgpjbHVzdGVyX2lkGAEg",
+            "ASgJQgzoxzEBisgxBDw9NTASMAoJdXNlcl9uYW1lGAIgASgJQh3oxzEBisgx",
+            "BDw9NjPyxzENW2EtekEtWjAtOV9dKhI1Cg1kYXRhYmFzZV9uYW1lGAMgASgJ",
+            "Qh7oxzEBisgxBDw9NjPyxzEOW2EtekEtWjAtOV8tXSoiRQocUmV2b2tlVXNl",
+            "clBlcm1pc3Npb25NZXRhZGF0YRISCgpjbHVzdGVyX2lkGAEgASgJEhEKCXVz",
+            "ZXJfbmFtZRgCIAEoCTKtCwoLVXNlclNlcnZpY2USowEKA0dldBIuLnlhbmRl",
+            "eC5jbG91ZC5tZGIubXlzcWwudjFhbHBoYS5HZXRVc2VyUmVxdWVzdBokLnlh",
+            "bmRleC5jbG91ZC5tZGIubXlzcWwudjFhbHBoYS5Vc2VyIkaC0+STAkASPi9t",
+            "YW5hZ2VkLW15c3FsL3YxYWxwaGEvY2x1c3RlcnMve2NsdXN0ZXJfaWR9L3Vz",
+            "ZXJzL3t1c2VyX25hbWV9EqcBCgRMaXN0EjAueWFuZGV4LmNsb3VkLm1kYi5t",
+            "eXNxbC52MWFscGhhLkxpc3RVc2Vyc1JlcXVlc3QaMS55YW5kZXguY2xvdWQu",
+            "bWRiLm15c3FsLnYxYWxwaGEuTGlzdFVzZXJzUmVzcG9uc2UiOoLT5JMCNBIy",
+            "L21hbmFnZWQtbXlzcWwvdjFhbHBoYS9jbHVzdGVycy97Y2x1c3Rlcl9pZH0v",
+            "dXNlcnMSuwEKBkNyZWF0ZRIxLnlhbmRleC5jbG91ZC5tZGIubXlzcWwudjFh",
+            "bHBoYS5DcmVhdGVVc2VyUmVxdWVzdBohLnlhbmRleC5jbG91ZC5vcGVyYXRp",
+            "b24uT3BlcmF0aW9uIluC0+STAjciMi9tYW5hZ2VkLW15c3FsL3YxYWxwaGEv",
+            "Y2x1c3RlcnMve2NsdXN0ZXJfaWR9L3VzZXJzOgEqstIqGgoSQ3JlYXRlVXNl",
+            "ck1ldGFkYXRhEgRVc2VyEscBCgZVcGRhdGUSMS55YW5kZXguY2xvdWQubWRi",
+            "Lm15c3FsLnYxYWxwaGEuVXBkYXRlVXNlclJlcXVlc3QaIS55YW5kZXguY2xv",
+            "dWQub3BlcmF0aW9uLk9wZXJhdGlvbiJngtPkkwJDMj4vbWFuYWdlZC1teXNx",
+            "bC92MWFscGhhL2NsdXN0ZXJzL3tjbHVzdGVyX2lkfS91c2Vycy97dXNlcl9u",
+            "YW1lfToBKrLSKhoKElVwZGF0ZVVzZXJNZXRhZGF0YRIEVXNlchLVAQoGRGVs",
+            "ZXRlEjEueWFuZGV4LmNsb3VkLm1kYi5teXNxbC52MWFscGhhLkRlbGV0ZVVz",
+            "ZXJSZXF1ZXN0GiEueWFuZGV4LmNsb3VkLm9wZXJhdGlvbi5PcGVyYXRpb24i",
+            "dYLT5JMCQCo+L21hbmFnZWQtbXlzcWwvdjFhbHBoYS9jbHVzdGVycy97Y2x1",
+            "c3Rlcl9pZH0vdXNlcnMve3VzZXJfbmFtZX2y0iorChJEZWxldGVVc2VyTWV0",
+            "YWRhdGESFWdvb2dsZS5wcm90b2J1Zi5FbXB0eRLzAQoPR3JhbnRQZXJtaXNz",
+            "aW9uEjoueWFuZGV4LmNsb3VkLm1kYi5teXNxbC52MWFscGhhLkdyYW50VXNl",
+            "clBlcm1pc3Npb25SZXF1ZXN0GiEueWFuZGV4LmNsb3VkLm9wZXJhdGlvbi5P",
+            "cGVyYXRpb24igAGC0+STAlMiTi9tYW5hZ2VkLW15c3FsL3YxYWxwaGEvY2x1",
+            "c3RlcnMve2NsdXN0ZXJfaWR9L3VzZXJzL3t1c2VyX25hbWV9OmdyYW50UGVy",
+            "bWlzc2lvbjoBKrLSKiMKG0dyYW50VXNlclBlcm1pc3Npb25NZXRhZGF0YRIE",
+            "VXNlchL3AQoQUmV2b2tlUGVybWlzc2lvbhI7LnlhbmRleC5jbG91ZC5tZGIu",
+            "bXlzcWwudjFhbHBoYS5SZXZva2VVc2VyUGVybWlzc2lvblJlcXVlc3QaIS55",
+            "YW5kZXguY2xvdWQub3BlcmF0aW9uLk9wZXJhdGlvbiKCAYLT5JMCVCJPL21h",
+            "bmFnZWQtbXlzcWwvdjFhbHBoYS9jbHVzdGVycy97Y2x1c3Rlcl9pZH0vdXNl",
+            "cnMve3VzZXJfbmFtZX06cmV2b2tlUGVybWlzc2lvbjoBKrLSKiQKHFJldm9r",
+            "ZVVzZXJQZXJtaXNzaW9uTWV0YWRhdGESBFVzZXJCbgoieWFuZGV4LmNsb3Vk",
+            "LmFwaS5tZGIubXlzcWwudjFhbHBoYVpIZ2l0aHViLmNvbS95YW5kZXgtY2xv",
+            "dWQvZ28tZ2VucHJvdG8veWFuZGV4L2Nsb3VkL21kYi9teXNxbC92MWFscGhh",
+            "O215c3FsYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Yandex.Api.OperationReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, global::Yandex.Cloud.Mdb.Mysql.V1Alpha.UserReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Yandex.Cloud.Api.OperationReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, global::Yandex.Cloud.Mdb.Mysql.V1Alpha.UserReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.GetUserRequest), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.GetUserRequest.Parser, new[]{ "ClusterId", "UserName" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.ListUsersRequest), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.ListUsersRequest.Parser, new[]{ "ClusterId", "PageSize", "PageToken" }, null, null, null),
@@ -159,7 +160,7 @@ namespace Yandex.Cloud.Mdb.Mysql.V1Alpha {
     public const int ClusterIdFieldNumber = 1;
     private string clusterId_ = "";
     /// <summary>
-    /// Required. ID of the MySQL cluster.
+    /// ID of the MySQL cluster.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ClusterId {
@@ -173,7 +174,7 @@ namespace Yandex.Cloud.Mdb.Mysql.V1Alpha {
     public const int UserNameFieldNumber = 2;
     private string userName_ = "";
     /// <summary>
-    /// Required.
+    /// Name of the user.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string UserName {
@@ -323,7 +324,7 @@ namespace Yandex.Cloud.Mdb.Mysql.V1Alpha {
     public const int ClusterIdFieldNumber = 1;
     private string clusterId_ = "";
     /// <summary>
-    /// Required. ID of the cluster to list MySQL users in.
+    /// ID of the cluster to list MySQL users in.
     /// To get the cluster ID, use a [ClusterService.List] request.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -678,7 +679,7 @@ namespace Yandex.Cloud.Mdb.Mysql.V1Alpha {
     public const int ClusterIdFieldNumber = 1;
     private string clusterId_ = "";
     /// <summary>
-    /// Required. ID of the MySQL cluster to create a user for.
+    /// ID of the MySQL cluster to create a user for.
     /// To get the cluster ID, use a [ClusterService.List] request.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1014,7 +1015,7 @@ namespace Yandex.Cloud.Mdb.Mysql.V1Alpha {
     public const int ClusterIdFieldNumber = 1;
     private string clusterId_ = "";
     /// <summary>
-    /// Required. ID of the MySQL cluster the user belongs to.
+    /// ID of the MySQL cluster the user belongs to.
     /// To get the cluster ID use a [ClusterService.List] request.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1029,7 +1030,7 @@ namespace Yandex.Cloud.Mdb.Mysql.V1Alpha {
     public const int UserNameFieldNumber = 2;
     private string userName_ = "";
     /// <summary>
-    /// Required. Name of the user to be updated.
+    /// Name of the user to be updated.
     /// To get the name of the user use a [UserService.List] request.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1430,7 +1431,7 @@ namespace Yandex.Cloud.Mdb.Mysql.V1Alpha {
     public const int ClusterIdFieldNumber = 1;
     private string clusterId_ = "";
     /// <summary>
-    /// Required. ID of the MySQL cluster the user belongs to.
+    /// ID of the MySQL cluster the user belongs to.
     /// To get the cluster ID, use a [ClusterService.List] request.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1445,7 +1446,7 @@ namespace Yandex.Cloud.Mdb.Mysql.V1Alpha {
     public const int UserNameFieldNumber = 2;
     private string userName_ = "";
     /// <summary>
-    /// Required. Name of the user to delete.
+    /// Name of the user to delete.
     /// To get the name of the user, use a [UserService.List] request.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1759,7 +1760,7 @@ namespace Yandex.Cloud.Mdb.Mysql.V1Alpha {
     public const int ClusterIdFieldNumber = 1;
     private string clusterId_ = "";
     /// <summary>
-    /// Required. ID of the MySQL cluster the user belongs to.
+    /// ID of the MySQL cluster the user belongs to.
     /// To get the cluster ID, use a [ClusterService.List] request.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1774,7 +1775,7 @@ namespace Yandex.Cloud.Mdb.Mysql.V1Alpha {
     public const int UserNameFieldNumber = 2;
     private string userName_ = "";
     /// <summary>
-    /// Required. Name of the user to grant the permission to.
+    /// Name of the user to grant the permission to.
     /// To get the name of the user, use a [UserService.List] request.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2125,7 +2126,7 @@ namespace Yandex.Cloud.Mdb.Mysql.V1Alpha {
     public const int ClusterIdFieldNumber = 1;
     private string clusterId_ = "";
     /// <summary>
-    /// Required. ID of the MySQL cluster the user belongs to.
+    /// ID of the MySQL cluster the user belongs to.
     /// To get the cluster ID, use a [ClusterService.List] request.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2140,7 +2141,7 @@ namespace Yandex.Cloud.Mdb.Mysql.V1Alpha {
     public const int UserNameFieldNumber = 2;
     private string userName_ = "";
     /// <summary>
-    /// Required. Name of the user to revoke a permission from.
+    /// Name of the user to revoke a permission from.
     /// To get the name of the user, use a [UserService.List] request.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

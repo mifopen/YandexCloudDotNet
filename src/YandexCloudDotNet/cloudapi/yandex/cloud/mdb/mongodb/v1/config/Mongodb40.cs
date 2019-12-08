@@ -99,9 +99,10 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1.Config {
             "Zy5Nb25nb3NDb25maWc0XzASSAoLdXNlcl9jb25maWcYAiABKAsyMy55YW5k",
             "ZXguY2xvdWQubWRiLm1vbmdvZGIudjEuY29uZmlnLk1vbmdvc0NvbmZpZzRf",
             "MBJLCg5kZWZhdWx0X2NvbmZpZxgDIAEoCzIzLnlhbmRleC5jbG91ZC5tZGIu",
-            "bW9uZ29kYi52MS5jb25maWcuTW9uZ29zQ29uZmlnNF8wQlBaTmdpdGh1Yi5j",
-            "b20veWFuZGV4LWNsb3VkL2dvLWdlbnByb3RvL3lhbmRleC9jbG91ZC9tZGIv",
-            "bW9uZ29kYi92MS9jb25maWc7bW9uZ29kYmIGcHJvdG8z"));
+            "bW9uZ29kYi52MS5jb25maWcuTW9uZ29zQ29uZmlnNF8wQngKJnlhbmRleC5j",
+            "bG91ZC5hcGkubWRiLm1vbmdvZGIudjEuY29uZmlnWk5naXRodWIuY29tL3lh",
+            "bmRleC1jbG91ZC9nby1nZW5wcm90by95YW5kZXgvY2xvdWQvbWRiL21vbmdv",
+            "ZGIvdjEvY29uZmlnO21vbmdvZGJiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.WrappersReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
@@ -2160,6 +2161,9 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1.Config {
         /// <summary>Field number for the "mode" field.</summary>
         public const int ModeFieldNumber = 1;
         private global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongoCfgConfig4_0.Types.OperationProfiling.Types.Mode mode_ = 0;
+        /// <summary>
+        /// Mode which specifies operations that should be profiled.
+        /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongoCfgConfig4_0.Types.OperationProfiling.Types.Mode Mode {
           get { return mode_; }
@@ -2174,7 +2178,8 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1.Config {
         private long? slowOpThreshold_;
         /// <summary>
         /// The slow operation time threshold, in milliseconds. Operations that run
-        /// for longer than this threshold are considered slow.
+        /// for longer than this threshold are considered slow, and are processed by the profiler
+        /// running in the SLOW_OP mode. For details see [MongoDB documentation](https://docs.mongodb.com/v4.0/reference/configuration-options/#operationProfiling.slowOpThresholdMs).
         /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public long? SlowOpThreshold {
@@ -2293,8 +2298,17 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1.Config {
         public static partial class Types {
           internal enum Mode {
             [pbr::OriginalName("MODE_UNSPECIFIED")] Unspecified = 0,
+            /// <summary>
+            /// The profiler is off and does not collect any data.
+            /// </summary>
             [pbr::OriginalName("OFF")] Off = 1,
+            /// <summary>
+            /// The profiler collects data for operations that take longer than the value of [slow_op_threshold].
+            /// </summary>
             [pbr::OriginalName("SLOW_OP")] SlowOp = 2,
+            /// <summary>
+            /// The profiler collects data for all operations.
+            /// </summary>
             [pbr::OriginalName("ALL")] All = 3,
           }
 
@@ -2483,6 +2497,9 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1.Config {
     /// <summary>Field number for the "net" field.</summary>
     public const int NetFieldNumber = 1;
     private global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongosConfig4_0.Types.Network net_;
+    /// <summary>
+    /// Network settings for mongos.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongosConfig4_0.Types.Network Net {
       get { return net_; }
@@ -2766,7 +2783,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1.Config {
     public const int EffectiveConfigFieldNumber = 1;
     private global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongodConfig4_0 effectiveConfig_;
     /// <summary>
-    /// Effective settings for a MongoDB 4.0 cluster (a combination of settings defined
+    /// Effective mongod settings for a MongoDB 4.0 cluster (a combination of settings defined
     /// in [user_config] and [default_config]).
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2781,7 +2798,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1.Config {
     public const int UserConfigFieldNumber = 2;
     private global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongodConfig4_0 userConfig_;
     /// <summary>
-    /// User-defined settings for a MongoDB 4.0 cluster.
+    /// User-defined mongod settings for a MongoDB 4.0 cluster.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongodConfig4_0 UserConfig {
@@ -2795,7 +2812,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1.Config {
     public const int DefaultConfigFieldNumber = 3;
     private global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongodConfig4_0 defaultConfig_;
     /// <summary>
-    /// Default configuration for a MongoDB 4.0 cluster.
+    /// Default mongod configuration for a MongoDB 4.0 cluster.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongodConfig4_0 DefaultConfig {
@@ -2979,7 +2996,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1.Config {
     public const int EffectiveConfigFieldNumber = 1;
     private global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongoCfgConfig4_0 effectiveConfig_;
     /// <summary>
-    /// Effective settings for a MongoDB 4.0 cluster (a combination of settings defined
+    /// Effective mongocfg settings for a MongoDB 4.0 cluster (a combination of settings defined
     /// in [user_config] and [default_config]).
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2994,7 +3011,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1.Config {
     public const int UserConfigFieldNumber = 2;
     private global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongoCfgConfig4_0 userConfig_;
     /// <summary>
-    /// User-defined settings for a MongoDB 4.0 cluster.
+    /// User-defined mongocfg settings for a MongoDB 4.0 cluster.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongoCfgConfig4_0 UserConfig {
@@ -3007,6 +3024,9 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1.Config {
     /// <summary>Field number for the "default_config" field.</summary>
     public const int DefaultConfigFieldNumber = 3;
     private global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongoCfgConfig4_0 defaultConfig_;
+    /// <summary>
+    /// Default mongocfg configuration for a MongoDB 4.0 cluster.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongoCfgConfig4_0 DefaultConfig {
       get { return defaultConfig_; }
@@ -3189,7 +3209,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1.Config {
     public const int EffectiveConfigFieldNumber = 1;
     private global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongosConfig4_0 effectiveConfig_;
     /// <summary>
-    /// Effective settings for a MongoDB 4.0 cluster (a combination of settings defined
+    /// Effective mongos settings for a MongoDB 4.0 cluster (a combination of settings defined
     /// in [user_config] and [default_config]).
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3204,7 +3224,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1.Config {
     public const int UserConfigFieldNumber = 2;
     private global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongosConfig4_0 userConfig_;
     /// <summary>
-    /// User-defined settings for a MongoDB 4.0 cluster.
+    /// User-defined mongos settings for a MongoDB 4.0 cluster.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongosConfig4_0 UserConfig {
@@ -3218,7 +3238,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1.Config {
     public const int DefaultConfigFieldNumber = 3;
     private global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongosConfig4_0 defaultConfig_;
     /// <summary>
-    /// Default configuration for a MongoDB 4.0 cluster.
+    /// Default mongos configuration for a MongoDB 4.0 cluster.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongosConfig4_0 DefaultConfig {

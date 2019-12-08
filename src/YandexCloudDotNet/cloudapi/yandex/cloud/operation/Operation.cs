@@ -34,8 +34,9 @@ namespace Yandex.Cloud.Operation {
             "CgRkb25lGAYgASgIEiYKCG1ldGFkYXRhGAcgASgLMhQuZ29vZ2xlLnByb3Rv",
             "YnVmLkFueRIjCgVlcnJvchgIIAEoCzISLmdvb2dsZS5ycGMuU3RhdHVzSAAS",
             "KAoIcmVzcG9uc2UYCSABKAsyFC5nb29nbGUucHJvdG9idWYuQW55SABCCAoG",
-            "cmVzdWx0QkZaRGdpdGh1Yi5jb20veWFuZGV4LWNsb3VkL2dvLWdlbnByb3Rv",
-            "L3lhbmRleC9jbG91ZC9vcGVyYXRpb247b3BlcmF0aW9uYgZwcm90bzM="));
+            "cmVzdWx0QmIKGnlhbmRleC5jbG91ZC5hcGkub3BlcmF0aW9uWkRnaXRodWIu",
+            "Y29tL3lhbmRleC1jbG91ZC9nby1nZW5wcm90by95YW5kZXgvY2xvdWQvb3Bl",
+            "cmF0aW9uO29wZXJhdGlvbmIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.AnyReflection.Descriptor, global::Google.Rpc.StatusReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {

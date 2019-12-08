@@ -27,7 +27,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1.Config {
             "CjJ5YW5kZXgvY2xvdWQvbWRiL3Bvc3RncmVzcWwvdjEvY29uZmlnL2hvc3Qx",
             "MS5wcm90bxIleWFuZGV4LmNsb3VkLm1kYi5wb3N0Z3Jlc3FsLnYxLmNvbmZp",
             "ZxoeZ29vZ2xlL3Byb3RvYnVmL3dyYXBwZXJzLnByb3RvGh15YW5kZXgvY2xv",
-            "dWQvdmFsaWRhdGlvbi5wcm90byLKJwoWUG9zdGdyZXNxbEhvc3RDb25maWcx",
+            "dWQvdmFsaWRhdGlvbi5wcm90byLYLgoWUG9zdGdyZXNxbEhvc3RDb25maWcx",
             "MRI9ChhyZWNvdmVyeV9taW5fYXBwbHlfZGVsYXkYASABKAsyGy5nb29nbGUu",
             "cHJvdG9idWYuSW50NjRWYWx1ZRIzCg5zaGFyZWRfYnVmZmVycxgCIAEoCzIb",
             "Lmdvb2dsZS5wcm90b2J1Zi5JbnQ2NFZhbHVlEjEKDHRlbXBfYnVmZmVycxgD",
@@ -105,48 +105,69 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1.Config {
             "b3RvYnVmLkJvb2xWYWx1ZRIxCg1leGl0X29uX2Vycm9yGDEgASgLMhouZ29v",
             "Z2xlLnByb3RvYnVmLkJvb2xWYWx1ZRIzCg1zZXFfcGFnZV9jb3N0GDIgASgL",
             "MhwuZ29vZ2xlLnByb3RvYnVmLkRvdWJsZVZhbHVlEjYKEHJhbmRvbV9wYWdl",
-            "X2Nvc3QYMyABKAsyHC5nb29nbGUucHJvdG9idWYuRG91YmxlVmFsdWUimgEK",
-            "E0NvbnN0cmFpbnRFeGNsdXNpb24SJAogQ09OU1RSQUlOVF9FWENMVVNJT05f",
-            "VU5TUEVDSUZJRUQQABIbChdDT05TVFJBSU5UX0VYQ0xVU0lPTl9PThABEhwK",
-            "GENPTlNUUkFJTlRfRVhDTFVTSU9OX09GRhACEiIKHkNPTlNUUkFJTlRfRVhD",
-            "TFVTSU9OX1BBUlRJVElPThADIpIBChFGb3JjZVBhcmFsbGVsTW9kZRIjCh9G",
-            "T1JDRV9QQVJBTExFTF9NT0RFX1VOU1BFQ0lGSUVEEAASGgoWRk9SQ0VfUEFS",
-            "QUxMRUxfTU9ERV9PThABEhsKF0ZPUkNFX1BBUkFMTEVMX01PREVfT0ZGEAIS",
-            "HwobRk9SQ0VfUEFSQUxMRUxfTU9ERV9SRUdSRVNTEAMikgIKCExvZ0xldmVs",
-            "EhkKFUxPR19MRVZFTF9VTlNQRUNJRklFRBAAEhQKEExPR19MRVZFTF9ERUJV",
-            "RzUQARIUChBMT0dfTEVWRUxfREVCVUc0EAISFAoQTE9HX0xFVkVMX0RFQlVH",
-            "MxADEhQKEExPR19MRVZFTF9ERUJVRzIQBBIUChBMT0dfTEVWRUxfREVCVUcx",
-            "EAUSEQoNTE9HX0xFVkVMX0xPRxAGEhQKEExPR19MRVZFTF9OT1RJQ0UQBxIV",
-            "ChFMT0dfTEVWRUxfV0FSTklORxAIEhMKD0xPR19MRVZFTF9FUlJPUhAJEhMK",
-            "D0xPR19MRVZFTF9GQVRBTBAKEhMKD0xPR19MRVZFTF9QQU5JQxALIpkBChFM",
-            "b2dFcnJvclZlcmJvc2l0eRIjCh9MT0dfRVJST1JfVkVSQk9TSVRZX1VOU1BF",
-            "Q0lGSUVEEAASHQoZTE9HX0VSUk9SX1ZFUkJPU0lUWV9URVJTRRABEh8KG0xP",
-            "R19FUlJPUl9WRVJCT1NJVFlfREVGQVVMVBACEh8KG0xPR19FUlJPUl9WRVJC",
-            "T1NJVFlfVkVSQk9TRRADIooBCgxMb2dTdGF0ZW1lbnQSHQoZTE9HX1NUQVRF",
-            "TUVOVF9VTlNQRUNJRklFRBAAEhYKEkxPR19TVEFURU1FTlRfTk9ORRABEhUK",
-            "EUxPR19TVEFURU1FTlRfRERMEAISFQoRTE9HX1NUQVRFTUVOVF9NT0QQAxIV",
-            "ChFMT0dfU1RBVEVNRU5UX0FMTBAEIuYBChRUcmFuc2FjdGlvbklzb2xhdGlv",
-            "bhIlCiFUUkFOU0FDVElPTl9JU09MQVRJT05fVU5TUEVDSUZJRUQQABIqCiZU",
-            "UkFOU0FDVElPTl9JU09MQVRJT05fUkVBRF9VTkNPTU1JVFRFRBABEigKJFRS",
-            "QU5TQUNUSU9OX0lTT0xBVElPTl9SRUFEX0NPTU1JVFRFRBACEikKJVRSQU5T",
-            "QUNUSU9OX0lTT0xBVElPTl9SRVBFQVRBQkxFX1JFQUQQAxImCiJUUkFOU0FD",
-            "VElPTl9JU09MQVRJT05fU0VSSUFMSVpBQkxFEAQiWwoLQnl0ZWFPdXRwdXQS",
-            "HAoYQllURUFfT1VUUFVUX1VOU1BFQ0lGSUVEEAASFAoQQllURUFfT1VUUFVU",
-            "X0hFWBABEhgKFEJZVEVBX09VVFBVVF9FU0NBUEVEEAIiUgoJWG1sQmluYXJ5",
-            "EhoKFlhNTF9CSU5BUllfVU5TUEVDSUZJRUQQABIVChFYTUxfQklOQVJZX0JB",
-            "U0U2NBABEhIKDlhNTF9CSU5BUllfSEVYEAIiWAoJWG1sT3B0aW9uEhoKFlhN",
-            "TF9PUFRJT05fVU5TUEVDSUZJRUQQABIXChNYTUxfT1BUSU9OX0RPQ1VNRU5U",
-            "EAESFgoSWE1MX09QVElPTl9DT05URU5UEAIimgEKDkJhY2tzbGFzaFF1b3Rl",
-            "Eh8KG0JBQ0tTTEFTSF9RVU9URV9VTlNQRUNJRklFRBAAEhMKD0JBQ0tTTEFT",
-            "SF9RVU9URRABEhYKEkJBQ0tTTEFTSF9RVU9URV9PThACEhcKE0JBQ0tTTEFT",
-            "SF9RVU9URV9PRkYQAxIhCh1CQUNLU0xBU0hfUVVPVEVfU0FGRV9FTkNPRElO",
-            "RxAEQlZaVGdpdGh1Yi5jb20veWFuZGV4LWNsb3VkL2dvLWdlbnByb3RvL3lh",
-            "bmRleC9jbG91ZC9tZGIvcG9zdGdyZXNxbC92MS9jb25maWc7cG9zdGdyZXNx",
-            "bGIGcHJvdG8z"));
+            "X2Nvc3QYMyABKAsyHC5nb29nbGUucHJvdG9idWYuRG91YmxlVmFsdWUSNQoR",
+            "ZW5hYmxlX2JpdG1hcHNjYW4YNiABKAsyGi5nb29nbGUucHJvdG9idWYuQm9v",
+            "bFZhbHVlEjIKDmVuYWJsZV9oYXNoYWdnGDcgASgLMhouZ29vZ2xlLnByb3Rv",
+            "YnVmLkJvb2xWYWx1ZRIzCg9lbmFibGVfaGFzaGpvaW4YOCABKAsyGi5nb29n",
+            "bGUucHJvdG9idWYuQm9vbFZhbHVlEjQKEGVuYWJsZV9pbmRleHNjYW4YOSAB",
+            "KAsyGi5nb29nbGUucHJvdG9idWYuQm9vbFZhbHVlEjgKFGVuYWJsZV9pbmRl",
+            "eG9ubHlzY2FuGDogASgLMhouZ29vZ2xlLnByb3RvYnVmLkJvb2xWYWx1ZRIz",
+            "Cg9lbmFibGVfbWF0ZXJpYWwYOyABKAsyGi5nb29nbGUucHJvdG9idWYuQm9v",
+            "bFZhbHVlEjQKEGVuYWJsZV9tZXJnZWpvaW4YPCABKAsyGi5nb29nbGUucHJv",
+            "dG9idWYuQm9vbFZhbHVlEjMKD2VuYWJsZV9uZXN0bG9vcBg9IAEoCzIaLmdv",
+            "b2dsZS5wcm90b2J1Zi5Cb29sVmFsdWUSMgoOZW5hYmxlX3NlcXNjYW4YPiAB",
+            "KAsyGi5nb29nbGUucHJvdG9idWYuQm9vbFZhbHVlEi8KC2VuYWJsZV9zb3J0",
+            "GD8gASgLMhouZ29vZ2xlLnByb3RvYnVmLkJvb2xWYWx1ZRIyCg5lbmFibGVf",
+            "dGlkc2NhbhhAIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5Cb29sVmFsdWUSRQoU",
+            "bWF4X3BhcmFsbGVsX3dvcmtlcnMYQSABKAsyGy5nb29nbGUucHJvdG9idWYu",
+            "SW50NjRWYWx1ZUIK+scxBjAtMTAyNBJQCh9tYXhfcGFyYWxsZWxfd29ya2Vy",
+            "c19wZXJfZ2F0aGVyGEIgASgLMhsuZ29vZ2xlLnByb3RvYnVmLkludDY0VmFs",
+            "dWVCCvrHMQYwLTEwMjQSEAoIdGltZXpvbmUYQyABKAkSSQoYZWZmZWN0aXZl",
+            "X2lvX2NvbmN1cnJlbmN5GEQgASgLMhsuZ29vZ2xlLnByb3RvYnVmLkludDY0",
+            "VmFsdWVCCvrHMQYwLTEwMDASTQoUZWZmZWN0aXZlX2NhY2hlX3NpemUYRSAB",
+            "KAsyGy5nb29nbGUucHJvdG9idWYuSW50NjRWYWx1ZUIS+scxDjAtNTQ5NzU1",
+            "ODEzODg4IpoBChNDb25zdHJhaW50RXhjbHVzaW9uEiQKIENPTlNUUkFJTlRf",
+            "RVhDTFVTSU9OX1VOU1BFQ0lGSUVEEAASGwoXQ09OU1RSQUlOVF9FWENMVVNJ",
+            "T05fT04QARIcChhDT05TVFJBSU5UX0VYQ0xVU0lPTl9PRkYQAhIiCh5DT05T",
+            "VFJBSU5UX0VYQ0xVU0lPTl9QQVJUSVRJT04QAyKSAQoRRm9yY2VQYXJhbGxl",
+            "bE1vZGUSIwofRk9SQ0VfUEFSQUxMRUxfTU9ERV9VTlNQRUNJRklFRBAAEhoK",
+            "FkZPUkNFX1BBUkFMTEVMX01PREVfT04QARIbChdGT1JDRV9QQVJBTExFTF9N",
+            "T0RFX09GRhACEh8KG0ZPUkNFX1BBUkFMTEVMX01PREVfUkVHUkVTUxADIpIC",
+            "CghMb2dMZXZlbBIZChVMT0dfTEVWRUxfVU5TUEVDSUZJRUQQABIUChBMT0df",
+            "TEVWRUxfREVCVUc1EAESFAoQTE9HX0xFVkVMX0RFQlVHNBACEhQKEExPR19M",
+            "RVZFTF9ERUJVRzMQAxIUChBMT0dfTEVWRUxfREVCVUcyEAQSFAoQTE9HX0xF",
+            "VkVMX0RFQlVHMRAFEhEKDUxPR19MRVZFTF9MT0cQBhIUChBMT0dfTEVWRUxf",
+            "Tk9USUNFEAcSFQoRTE9HX0xFVkVMX1dBUk5JTkcQCBITCg9MT0dfTEVWRUxf",
+            "RVJST1IQCRITCg9MT0dfTEVWRUxfRkFUQUwQChITCg9MT0dfTEVWRUxfUEFO",
+            "SUMQCyKZAQoRTG9nRXJyb3JWZXJib3NpdHkSIwofTE9HX0VSUk9SX1ZFUkJP",
+            "U0lUWV9VTlNQRUNJRklFRBAAEh0KGUxPR19FUlJPUl9WRVJCT1NJVFlfVEVS",
+            "U0UQARIfChtMT0dfRVJST1JfVkVSQk9TSVRZX0RFRkFVTFQQAhIfChtMT0df",
+            "RVJST1JfVkVSQk9TSVRZX1ZFUkJPU0UQAyKKAQoMTG9nU3RhdGVtZW50Eh0K",
+            "GUxPR19TVEFURU1FTlRfVU5TUEVDSUZJRUQQABIWChJMT0dfU1RBVEVNRU5U",
+            "X05PTkUQARIVChFMT0dfU1RBVEVNRU5UX0RETBACEhUKEUxPR19TVEFURU1F",
+            "TlRfTU9EEAMSFQoRTE9HX1NUQVRFTUVOVF9BTEwQBCLmAQoUVHJhbnNhY3Rp",
+            "b25Jc29sYXRpb24SJQohVFJBTlNBQ1RJT05fSVNPTEFUSU9OX1VOU1BFQ0lG",
+            "SUVEEAASKgomVFJBTlNBQ1RJT05fSVNPTEFUSU9OX1JFQURfVU5DT01NSVRU",
+            "RUQQARIoCiRUUkFOU0FDVElPTl9JU09MQVRJT05fUkVBRF9DT01NSVRURUQQ",
+            "AhIpCiVUUkFOU0FDVElPTl9JU09MQVRJT05fUkVQRUFUQUJMRV9SRUFEEAMS",
+            "JgoiVFJBTlNBQ1RJT05fSVNPTEFUSU9OX1NFUklBTElaQUJMRRAEIlsKC0J5",
+            "dGVhT3V0cHV0EhwKGEJZVEVBX09VVFBVVF9VTlNQRUNJRklFRBAAEhQKEEJZ",
+            "VEVBX09VVFBVVF9IRVgQARIYChRCWVRFQV9PVVRQVVRfRVNDQVBFRBACIlIK",
+            "CVhtbEJpbmFyeRIaChZYTUxfQklOQVJZX1VOU1BFQ0lGSUVEEAASFQoRWE1M",
+            "X0JJTkFSWV9CQVNFNjQQARISCg5YTUxfQklOQVJZX0hFWBACIlgKCVhtbE9w",
+            "dGlvbhIaChZYTUxfT1BUSU9OX1VOU1BFQ0lGSUVEEAASFwoTWE1MX09QVElP",
+            "Tl9ET0NVTUVOVBABEhYKElhNTF9PUFRJT05fQ09OVEVOVBACIpoBCg5CYWNr",
+            "c2xhc2hRdW90ZRIfChtCQUNLU0xBU0hfUVVPVEVfVU5TUEVDSUZJRUQQABIT",
+            "Cg9CQUNLU0xBU0hfUVVPVEUQARIWChJCQUNLU0xBU0hfUVVPVEVfT04QAhIX",
+            "ChNCQUNLU0xBU0hfUVVPVEVfT0ZGEAMSIQodQkFDS1NMQVNIX1FVT1RFX1NB",
+            "RkVfRU5DT0RJTkcQBEKBAQopeWFuZGV4LmNsb3VkLmFwaS5tZGIucG9zdGdy",
+            "ZXNxbC52MS5jb25maWdaVGdpdGh1Yi5jb20veWFuZGV4LWNsb3VkL2dvLWdl",
+            "bnByb3RvL3lhbmRleC9jbG91ZC9tZGIvcG9zdGdyZXNxbC92MS9jb25maWc7",
+            "cG9zdGdyZXNxbGIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.WrappersReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig11), global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig11.Parser, new[]{ "RecoveryMinApplyDelay", "SharedBuffers", "TempBuffers", "WorkMem", "TempFileLimit", "BackendFlushAfter", "OldSnapshotThreshold", "MaxStandbyStreamingDelay", "ConstraintExclusion", "CursorTupleFraction", "FromCollapseLimit", "JoinCollapseLimit", "ForceParallelMode", "ClientMinMessages", "LogMinMessages", "LogMinErrorStatement", "LogMinDurationStatement", "LogCheckpoints", "LogConnections", "LogDisconnections", "LogDuration", "LogErrorVerbosity", "LogLockWaits", "LogStatement", "LogTempFiles", "SearchPath", "RowSecurity", "DefaultTransactionIsolation", "StatementTimeout", "LockTimeout", "IdleInTransactionSessionTimeout", "ByteaOutput", "Xmlbinary", "Xmloption", "GinPendingListLimit", "DeadlockTimeout", "MaxLocksPerTransaction", "MaxPredLocksPerTransaction", "ArrayNulls", "BackslashQuote", "DefaultWithOids", "EscapeStringWarning", "LoCompatPrivileges", "OperatorPrecedenceWarning", "QuoteAllIdentifiers", "StandardConformingStrings", "SynchronizeSeqscans", "TransformNullEquals", "ExitOnError", "SeqPageCost", "RandomPageCost" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig11.Types.ConstraintExclusion), typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig11.Types.ForceParallelMode), typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig11.Types.LogLevel), typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig11.Types.LogErrorVerbosity), typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig11.Types.LogStatement), typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig11.Types.TransactionIsolation), typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig11.Types.ByteaOutput), typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig11.Types.XmlBinary), typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig11.Types.XmlOption), typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig11.Types.BackslashQuote) }, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig11), global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig11.Parser, new[]{ "RecoveryMinApplyDelay", "SharedBuffers", "TempBuffers", "WorkMem", "TempFileLimit", "BackendFlushAfter", "OldSnapshotThreshold", "MaxStandbyStreamingDelay", "ConstraintExclusion", "CursorTupleFraction", "FromCollapseLimit", "JoinCollapseLimit", "ForceParallelMode", "ClientMinMessages", "LogMinMessages", "LogMinErrorStatement", "LogMinDurationStatement", "LogCheckpoints", "LogConnections", "LogDisconnections", "LogDuration", "LogErrorVerbosity", "LogLockWaits", "LogStatement", "LogTempFiles", "SearchPath", "RowSecurity", "DefaultTransactionIsolation", "StatementTimeout", "LockTimeout", "IdleInTransactionSessionTimeout", "ByteaOutput", "Xmlbinary", "Xmloption", "GinPendingListLimit", "DeadlockTimeout", "MaxLocksPerTransaction", "MaxPredLocksPerTransaction", "ArrayNulls", "BackslashQuote", "DefaultWithOids", "EscapeStringWarning", "LoCompatPrivileges", "OperatorPrecedenceWarning", "QuoteAllIdentifiers", "StandardConformingStrings", "SynchronizeSeqscans", "TransformNullEquals", "ExitOnError", "SeqPageCost", "RandomPageCost", "EnableBitmapscan", "EnableHashagg", "EnableHashjoin", "EnableIndexscan", "EnableIndexonlyscan", "EnableMaterial", "EnableMergejoin", "EnableNestloop", "EnableSeqscan", "EnableSort", "EnableTidscan", "MaxParallelWorkers", "MaxParallelWorkersPerGather", "Timezone", "EffectiveIoConcurrency", "EffectiveCacheSize" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig11.Types.ConstraintExclusion), typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig11.Types.ForceParallelMode), typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig11.Types.LogLevel), typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig11.Types.LogErrorVerbosity), typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig11.Types.LogStatement), typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig11.Types.TransactionIsolation), typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig11.Types.ByteaOutput), typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig11.Types.XmlBinary), typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig11.Types.XmlOption), typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig11.Types.BackslashQuote) }, null)
           }));
     }
     #endregion
@@ -234,6 +255,22 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1.Config {
       ExitOnError = other.ExitOnError;
       SeqPageCost = other.SeqPageCost;
       RandomPageCost = other.RandomPageCost;
+      EnableBitmapscan = other.EnableBitmapscan;
+      EnableHashagg = other.EnableHashagg;
+      EnableHashjoin = other.EnableHashjoin;
+      EnableIndexscan = other.EnableIndexscan;
+      EnableIndexonlyscan = other.EnableIndexonlyscan;
+      EnableMaterial = other.EnableMaterial;
+      EnableMergejoin = other.EnableMergejoin;
+      EnableNestloop = other.EnableNestloop;
+      EnableSeqscan = other.EnableSeqscan;
+      EnableSort = other.EnableSort;
+      EnableTidscan = other.EnableTidscan;
+      MaxParallelWorkers = other.MaxParallelWorkers;
+      MaxParallelWorkersPerGather = other.MaxParallelWorkersPerGather;
+      timezone_ = other.timezone_;
+      EffectiveIoConcurrency = other.EffectiveIoConcurrency;
+      EffectiveCacheSize = other.EffectiveCacheSize;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -915,6 +952,212 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1.Config {
     }
 
 
+    /// <summary>Field number for the "enable_bitmapscan" field.</summary>
+    public const int EnableBitmapscanFieldNumber = 54;
+    private static readonly pb::FieldCodec<bool?> _single_enableBitmapscan_codec = pb::FieldCodec.ForStructWrapper<bool>(434);
+    private bool? enableBitmapscan_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool? EnableBitmapscan {
+      get { return enableBitmapscan_; }
+      set {
+        enableBitmapscan_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "enable_hashagg" field.</summary>
+    public const int EnableHashaggFieldNumber = 55;
+    private static readonly pb::FieldCodec<bool?> _single_enableHashagg_codec = pb::FieldCodec.ForStructWrapper<bool>(442);
+    private bool? enableHashagg_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool? EnableHashagg {
+      get { return enableHashagg_; }
+      set {
+        enableHashagg_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "enable_hashjoin" field.</summary>
+    public const int EnableHashjoinFieldNumber = 56;
+    private static readonly pb::FieldCodec<bool?> _single_enableHashjoin_codec = pb::FieldCodec.ForStructWrapper<bool>(450);
+    private bool? enableHashjoin_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool? EnableHashjoin {
+      get { return enableHashjoin_; }
+      set {
+        enableHashjoin_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "enable_indexscan" field.</summary>
+    public const int EnableIndexscanFieldNumber = 57;
+    private static readonly pb::FieldCodec<bool?> _single_enableIndexscan_codec = pb::FieldCodec.ForStructWrapper<bool>(458);
+    private bool? enableIndexscan_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool? EnableIndexscan {
+      get { return enableIndexscan_; }
+      set {
+        enableIndexscan_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "enable_indexonlyscan" field.</summary>
+    public const int EnableIndexonlyscanFieldNumber = 58;
+    private static readonly pb::FieldCodec<bool?> _single_enableIndexonlyscan_codec = pb::FieldCodec.ForStructWrapper<bool>(466);
+    private bool? enableIndexonlyscan_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool? EnableIndexonlyscan {
+      get { return enableIndexonlyscan_; }
+      set {
+        enableIndexonlyscan_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "enable_material" field.</summary>
+    public const int EnableMaterialFieldNumber = 59;
+    private static readonly pb::FieldCodec<bool?> _single_enableMaterial_codec = pb::FieldCodec.ForStructWrapper<bool>(474);
+    private bool? enableMaterial_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool? EnableMaterial {
+      get { return enableMaterial_; }
+      set {
+        enableMaterial_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "enable_mergejoin" field.</summary>
+    public const int EnableMergejoinFieldNumber = 60;
+    private static readonly pb::FieldCodec<bool?> _single_enableMergejoin_codec = pb::FieldCodec.ForStructWrapper<bool>(482);
+    private bool? enableMergejoin_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool? EnableMergejoin {
+      get { return enableMergejoin_; }
+      set {
+        enableMergejoin_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "enable_nestloop" field.</summary>
+    public const int EnableNestloopFieldNumber = 61;
+    private static readonly pb::FieldCodec<bool?> _single_enableNestloop_codec = pb::FieldCodec.ForStructWrapper<bool>(490);
+    private bool? enableNestloop_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool? EnableNestloop {
+      get { return enableNestloop_; }
+      set {
+        enableNestloop_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "enable_seqscan" field.</summary>
+    public const int EnableSeqscanFieldNumber = 62;
+    private static readonly pb::FieldCodec<bool?> _single_enableSeqscan_codec = pb::FieldCodec.ForStructWrapper<bool>(498);
+    private bool? enableSeqscan_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool? EnableSeqscan {
+      get { return enableSeqscan_; }
+      set {
+        enableSeqscan_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "enable_sort" field.</summary>
+    public const int EnableSortFieldNumber = 63;
+    private static readonly pb::FieldCodec<bool?> _single_enableSort_codec = pb::FieldCodec.ForStructWrapper<bool>(506);
+    private bool? enableSort_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool? EnableSort {
+      get { return enableSort_; }
+      set {
+        enableSort_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "enable_tidscan" field.</summary>
+    public const int EnableTidscanFieldNumber = 64;
+    private static readonly pb::FieldCodec<bool?> _single_enableTidscan_codec = pb::FieldCodec.ForStructWrapper<bool>(514);
+    private bool? enableTidscan_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool? EnableTidscan {
+      get { return enableTidscan_; }
+      set {
+        enableTidscan_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "max_parallel_workers" field.</summary>
+    public const int MaxParallelWorkersFieldNumber = 65;
+    private static readonly pb::FieldCodec<long?> _single_maxParallelWorkers_codec = pb::FieldCodec.ForStructWrapper<long>(522);
+    private long? maxParallelWorkers_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? MaxParallelWorkers {
+      get { return maxParallelWorkers_; }
+      set {
+        maxParallelWorkers_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "max_parallel_workers_per_gather" field.</summary>
+    public const int MaxParallelWorkersPerGatherFieldNumber = 66;
+    private static readonly pb::FieldCodec<long?> _single_maxParallelWorkersPerGather_codec = pb::FieldCodec.ForStructWrapper<long>(530);
+    private long? maxParallelWorkersPerGather_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? MaxParallelWorkersPerGather {
+      get { return maxParallelWorkersPerGather_; }
+      set {
+        maxParallelWorkersPerGather_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "timezone" field.</summary>
+    public const int TimezoneFieldNumber = 67;
+    private string timezone_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Timezone {
+      get { return timezone_; }
+      set {
+        timezone_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "effective_io_concurrency" field.</summary>
+    public const int EffectiveIoConcurrencyFieldNumber = 68;
+    private static readonly pb::FieldCodec<long?> _single_effectiveIoConcurrency_codec = pb::FieldCodec.ForStructWrapper<long>(546);
+    private long? effectiveIoConcurrency_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? EffectiveIoConcurrency {
+      get { return effectiveIoConcurrency_; }
+      set {
+        effectiveIoConcurrency_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "effective_cache_size" field.</summary>
+    public const int EffectiveCacheSizeFieldNumber = 69;
+    private static readonly pb::FieldCodec<long?> _single_effectiveCacheSize_codec = pb::FieldCodec.ForStructWrapper<long>(554);
+    private long? effectiveCacheSize_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? EffectiveCacheSize {
+      get { return effectiveCacheSize_; }
+      set {
+        effectiveCacheSize_ = value;
+      }
+    }
+
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as PostgresqlHostConfig11);
@@ -979,6 +1222,22 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1.Config {
       if (ExitOnError != other.ExitOnError) return false;
       if (!pbc::ProtobufEqualityComparers.BitwiseNullableDoubleEqualityComparer.Equals(SeqPageCost, other.SeqPageCost)) return false;
       if (!pbc::ProtobufEqualityComparers.BitwiseNullableDoubleEqualityComparer.Equals(RandomPageCost, other.RandomPageCost)) return false;
+      if (EnableBitmapscan != other.EnableBitmapscan) return false;
+      if (EnableHashagg != other.EnableHashagg) return false;
+      if (EnableHashjoin != other.EnableHashjoin) return false;
+      if (EnableIndexscan != other.EnableIndexscan) return false;
+      if (EnableIndexonlyscan != other.EnableIndexonlyscan) return false;
+      if (EnableMaterial != other.EnableMaterial) return false;
+      if (EnableMergejoin != other.EnableMergejoin) return false;
+      if (EnableNestloop != other.EnableNestloop) return false;
+      if (EnableSeqscan != other.EnableSeqscan) return false;
+      if (EnableSort != other.EnableSort) return false;
+      if (EnableTidscan != other.EnableTidscan) return false;
+      if (MaxParallelWorkers != other.MaxParallelWorkers) return false;
+      if (MaxParallelWorkersPerGather != other.MaxParallelWorkersPerGather) return false;
+      if (Timezone != other.Timezone) return false;
+      if (EffectiveIoConcurrency != other.EffectiveIoConcurrency) return false;
+      if (EffectiveCacheSize != other.EffectiveCacheSize) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1036,6 +1295,22 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1.Config {
       if (exitOnError_ != null) hash ^= ExitOnError.GetHashCode();
       if (seqPageCost_ != null) hash ^= pbc::ProtobufEqualityComparers.BitwiseNullableDoubleEqualityComparer.GetHashCode(SeqPageCost);
       if (randomPageCost_ != null) hash ^= pbc::ProtobufEqualityComparers.BitwiseNullableDoubleEqualityComparer.GetHashCode(RandomPageCost);
+      if (enableBitmapscan_ != null) hash ^= EnableBitmapscan.GetHashCode();
+      if (enableHashagg_ != null) hash ^= EnableHashagg.GetHashCode();
+      if (enableHashjoin_ != null) hash ^= EnableHashjoin.GetHashCode();
+      if (enableIndexscan_ != null) hash ^= EnableIndexscan.GetHashCode();
+      if (enableIndexonlyscan_ != null) hash ^= EnableIndexonlyscan.GetHashCode();
+      if (enableMaterial_ != null) hash ^= EnableMaterial.GetHashCode();
+      if (enableMergejoin_ != null) hash ^= EnableMergejoin.GetHashCode();
+      if (enableNestloop_ != null) hash ^= EnableNestloop.GetHashCode();
+      if (enableSeqscan_ != null) hash ^= EnableSeqscan.GetHashCode();
+      if (enableSort_ != null) hash ^= EnableSort.GetHashCode();
+      if (enableTidscan_ != null) hash ^= EnableTidscan.GetHashCode();
+      if (maxParallelWorkers_ != null) hash ^= MaxParallelWorkers.GetHashCode();
+      if (maxParallelWorkersPerGather_ != null) hash ^= MaxParallelWorkersPerGather.GetHashCode();
+      if (Timezone.Length != 0) hash ^= Timezone.GetHashCode();
+      if (effectiveIoConcurrency_ != null) hash ^= EffectiveIoConcurrency.GetHashCode();
+      if (effectiveCacheSize_ != null) hash ^= EffectiveCacheSize.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1215,6 +1490,55 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1.Config {
       if (randomPageCost_ != null) {
         _single_randomPageCost_codec.WriteTagAndValue(output, RandomPageCost);
       }
+      if (enableBitmapscan_ != null) {
+        _single_enableBitmapscan_codec.WriteTagAndValue(output, EnableBitmapscan);
+      }
+      if (enableHashagg_ != null) {
+        _single_enableHashagg_codec.WriteTagAndValue(output, EnableHashagg);
+      }
+      if (enableHashjoin_ != null) {
+        _single_enableHashjoin_codec.WriteTagAndValue(output, EnableHashjoin);
+      }
+      if (enableIndexscan_ != null) {
+        _single_enableIndexscan_codec.WriteTagAndValue(output, EnableIndexscan);
+      }
+      if (enableIndexonlyscan_ != null) {
+        _single_enableIndexonlyscan_codec.WriteTagAndValue(output, EnableIndexonlyscan);
+      }
+      if (enableMaterial_ != null) {
+        _single_enableMaterial_codec.WriteTagAndValue(output, EnableMaterial);
+      }
+      if (enableMergejoin_ != null) {
+        _single_enableMergejoin_codec.WriteTagAndValue(output, EnableMergejoin);
+      }
+      if (enableNestloop_ != null) {
+        _single_enableNestloop_codec.WriteTagAndValue(output, EnableNestloop);
+      }
+      if (enableSeqscan_ != null) {
+        _single_enableSeqscan_codec.WriteTagAndValue(output, EnableSeqscan);
+      }
+      if (enableSort_ != null) {
+        _single_enableSort_codec.WriteTagAndValue(output, EnableSort);
+      }
+      if (enableTidscan_ != null) {
+        _single_enableTidscan_codec.WriteTagAndValue(output, EnableTidscan);
+      }
+      if (maxParallelWorkers_ != null) {
+        _single_maxParallelWorkers_codec.WriteTagAndValue(output, MaxParallelWorkers);
+      }
+      if (maxParallelWorkersPerGather_ != null) {
+        _single_maxParallelWorkersPerGather_codec.WriteTagAndValue(output, MaxParallelWorkersPerGather);
+      }
+      if (Timezone.Length != 0) {
+        output.WriteRawTag(154, 4);
+        output.WriteString(Timezone);
+      }
+      if (effectiveIoConcurrency_ != null) {
+        _single_effectiveIoConcurrency_codec.WriteTagAndValue(output, EffectiveIoConcurrency);
+      }
+      if (effectiveCacheSize_ != null) {
+        _single_effectiveCacheSize_codec.WriteTagAndValue(output, EffectiveCacheSize);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1375,6 +1699,54 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1.Config {
       }
       if (randomPageCost_ != null) {
         size += _single_randomPageCost_codec.CalculateSizeWithTag(RandomPageCost);
+      }
+      if (enableBitmapscan_ != null) {
+        size += _single_enableBitmapscan_codec.CalculateSizeWithTag(EnableBitmapscan);
+      }
+      if (enableHashagg_ != null) {
+        size += _single_enableHashagg_codec.CalculateSizeWithTag(EnableHashagg);
+      }
+      if (enableHashjoin_ != null) {
+        size += _single_enableHashjoin_codec.CalculateSizeWithTag(EnableHashjoin);
+      }
+      if (enableIndexscan_ != null) {
+        size += _single_enableIndexscan_codec.CalculateSizeWithTag(EnableIndexscan);
+      }
+      if (enableIndexonlyscan_ != null) {
+        size += _single_enableIndexonlyscan_codec.CalculateSizeWithTag(EnableIndexonlyscan);
+      }
+      if (enableMaterial_ != null) {
+        size += _single_enableMaterial_codec.CalculateSizeWithTag(EnableMaterial);
+      }
+      if (enableMergejoin_ != null) {
+        size += _single_enableMergejoin_codec.CalculateSizeWithTag(EnableMergejoin);
+      }
+      if (enableNestloop_ != null) {
+        size += _single_enableNestloop_codec.CalculateSizeWithTag(EnableNestloop);
+      }
+      if (enableSeqscan_ != null) {
+        size += _single_enableSeqscan_codec.CalculateSizeWithTag(EnableSeqscan);
+      }
+      if (enableSort_ != null) {
+        size += _single_enableSort_codec.CalculateSizeWithTag(EnableSort);
+      }
+      if (enableTidscan_ != null) {
+        size += _single_enableTidscan_codec.CalculateSizeWithTag(EnableTidscan);
+      }
+      if (maxParallelWorkers_ != null) {
+        size += _single_maxParallelWorkers_codec.CalculateSizeWithTag(MaxParallelWorkers);
+      }
+      if (maxParallelWorkersPerGather_ != null) {
+        size += _single_maxParallelWorkersPerGather_codec.CalculateSizeWithTag(MaxParallelWorkersPerGather);
+      }
+      if (Timezone.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(Timezone);
+      }
+      if (effectiveIoConcurrency_ != null) {
+        size += _single_effectiveIoConcurrency_codec.CalculateSizeWithTag(EffectiveIoConcurrency);
+      }
+      if (effectiveCacheSize_ != null) {
+        size += _single_effectiveCacheSize_codec.CalculateSizeWithTag(EffectiveCacheSize);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1614,6 +1986,84 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1.Config {
       if (other.randomPageCost_ != null) {
         if (randomPageCost_ == null || other.RandomPageCost != 0D) {
           RandomPageCost = other.RandomPageCost;
+        }
+      }
+      if (other.enableBitmapscan_ != null) {
+        if (enableBitmapscan_ == null || other.EnableBitmapscan != false) {
+          EnableBitmapscan = other.EnableBitmapscan;
+        }
+      }
+      if (other.enableHashagg_ != null) {
+        if (enableHashagg_ == null || other.EnableHashagg != false) {
+          EnableHashagg = other.EnableHashagg;
+        }
+      }
+      if (other.enableHashjoin_ != null) {
+        if (enableHashjoin_ == null || other.EnableHashjoin != false) {
+          EnableHashjoin = other.EnableHashjoin;
+        }
+      }
+      if (other.enableIndexscan_ != null) {
+        if (enableIndexscan_ == null || other.EnableIndexscan != false) {
+          EnableIndexscan = other.EnableIndexscan;
+        }
+      }
+      if (other.enableIndexonlyscan_ != null) {
+        if (enableIndexonlyscan_ == null || other.EnableIndexonlyscan != false) {
+          EnableIndexonlyscan = other.EnableIndexonlyscan;
+        }
+      }
+      if (other.enableMaterial_ != null) {
+        if (enableMaterial_ == null || other.EnableMaterial != false) {
+          EnableMaterial = other.EnableMaterial;
+        }
+      }
+      if (other.enableMergejoin_ != null) {
+        if (enableMergejoin_ == null || other.EnableMergejoin != false) {
+          EnableMergejoin = other.EnableMergejoin;
+        }
+      }
+      if (other.enableNestloop_ != null) {
+        if (enableNestloop_ == null || other.EnableNestloop != false) {
+          EnableNestloop = other.EnableNestloop;
+        }
+      }
+      if (other.enableSeqscan_ != null) {
+        if (enableSeqscan_ == null || other.EnableSeqscan != false) {
+          EnableSeqscan = other.EnableSeqscan;
+        }
+      }
+      if (other.enableSort_ != null) {
+        if (enableSort_ == null || other.EnableSort != false) {
+          EnableSort = other.EnableSort;
+        }
+      }
+      if (other.enableTidscan_ != null) {
+        if (enableTidscan_ == null || other.EnableTidscan != false) {
+          EnableTidscan = other.EnableTidscan;
+        }
+      }
+      if (other.maxParallelWorkers_ != null) {
+        if (maxParallelWorkers_ == null || other.MaxParallelWorkers != 0L) {
+          MaxParallelWorkers = other.MaxParallelWorkers;
+        }
+      }
+      if (other.maxParallelWorkersPerGather_ != null) {
+        if (maxParallelWorkersPerGather_ == null || other.MaxParallelWorkersPerGather != 0L) {
+          MaxParallelWorkersPerGather = other.MaxParallelWorkersPerGather;
+        }
+      }
+      if (other.Timezone.Length != 0) {
+        Timezone = other.Timezone;
+      }
+      if (other.effectiveIoConcurrency_ != null) {
+        if (effectiveIoConcurrency_ == null || other.EffectiveIoConcurrency != 0L) {
+          EffectiveIoConcurrency = other.EffectiveIoConcurrency;
+        }
+      }
+      if (other.effectiveCacheSize_ != null) {
+        if (effectiveCacheSize_ == null || other.EffectiveCacheSize != 0L) {
+          EffectiveCacheSize = other.EffectiveCacheSize;
         }
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
@@ -1942,6 +2392,115 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1.Config {
             double? value = _single_randomPageCost_codec.Read(input);
             if (randomPageCost_ == null || value != 0D) {
               RandomPageCost = value;
+            }
+            break;
+          }
+          case 434: {
+            bool? value = _single_enableBitmapscan_codec.Read(input);
+            if (enableBitmapscan_ == null || value != false) {
+              EnableBitmapscan = value;
+            }
+            break;
+          }
+          case 442: {
+            bool? value = _single_enableHashagg_codec.Read(input);
+            if (enableHashagg_ == null || value != false) {
+              EnableHashagg = value;
+            }
+            break;
+          }
+          case 450: {
+            bool? value = _single_enableHashjoin_codec.Read(input);
+            if (enableHashjoin_ == null || value != false) {
+              EnableHashjoin = value;
+            }
+            break;
+          }
+          case 458: {
+            bool? value = _single_enableIndexscan_codec.Read(input);
+            if (enableIndexscan_ == null || value != false) {
+              EnableIndexscan = value;
+            }
+            break;
+          }
+          case 466: {
+            bool? value = _single_enableIndexonlyscan_codec.Read(input);
+            if (enableIndexonlyscan_ == null || value != false) {
+              EnableIndexonlyscan = value;
+            }
+            break;
+          }
+          case 474: {
+            bool? value = _single_enableMaterial_codec.Read(input);
+            if (enableMaterial_ == null || value != false) {
+              EnableMaterial = value;
+            }
+            break;
+          }
+          case 482: {
+            bool? value = _single_enableMergejoin_codec.Read(input);
+            if (enableMergejoin_ == null || value != false) {
+              EnableMergejoin = value;
+            }
+            break;
+          }
+          case 490: {
+            bool? value = _single_enableNestloop_codec.Read(input);
+            if (enableNestloop_ == null || value != false) {
+              EnableNestloop = value;
+            }
+            break;
+          }
+          case 498: {
+            bool? value = _single_enableSeqscan_codec.Read(input);
+            if (enableSeqscan_ == null || value != false) {
+              EnableSeqscan = value;
+            }
+            break;
+          }
+          case 506: {
+            bool? value = _single_enableSort_codec.Read(input);
+            if (enableSort_ == null || value != false) {
+              EnableSort = value;
+            }
+            break;
+          }
+          case 514: {
+            bool? value = _single_enableTidscan_codec.Read(input);
+            if (enableTidscan_ == null || value != false) {
+              EnableTidscan = value;
+            }
+            break;
+          }
+          case 522: {
+            long? value = _single_maxParallelWorkers_codec.Read(input);
+            if (maxParallelWorkers_ == null || value != 0L) {
+              MaxParallelWorkers = value;
+            }
+            break;
+          }
+          case 530: {
+            long? value = _single_maxParallelWorkersPerGather_codec.Read(input);
+            if (maxParallelWorkersPerGather_ == null || value != 0L) {
+              MaxParallelWorkersPerGather = value;
+            }
+            break;
+          }
+          case 538: {
+            Timezone = input.ReadString();
+            break;
+          }
+          case 546: {
+            long? value = _single_effectiveIoConcurrency_codec.Read(input);
+            if (effectiveIoConcurrency_ == null || value != 0L) {
+              EffectiveIoConcurrency = value;
+            }
+            break;
+          }
+          case 554: {
+            long? value = _single_effectiveCacheSize_codec.Read(input);
+            if (effectiveCacheSize_ == null || value != 0L) {
+              EffectiveCacheSize = value;
             }
             break;
           }

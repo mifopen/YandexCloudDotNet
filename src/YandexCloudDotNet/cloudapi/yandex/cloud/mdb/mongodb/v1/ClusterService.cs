@@ -28,277 +28,297 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
             "LnByb3RvEht5YW5kZXguY2xvdWQubWRiLm1vbmdvZGIudjEaHGdvb2dsZS9h",
             "cGkvYW5ub3RhdGlvbnMucHJvdG8aIGdvb2dsZS9wcm90b2J1Zi9maWVsZF9t",
             "YXNrLnByb3RvGh9nb29nbGUvcHJvdG9idWYvdGltZXN0YW1wLnByb3RvGhtn",
-            "b29nbGUvdHlwZS90aW1lb2ZkYXkucHJvdG8aGnlhbmRleC9hcGkvb3BlcmF0",
-            "aW9uLnByb3RvGiZ5YW5kZXgvY2xvdWQvb3BlcmF0aW9uL29wZXJhdGlvbi5w",
-            "cm90bxodeWFuZGV4L2Nsb3VkL3ZhbGlkYXRpb24ucHJvdG8aKHlhbmRleC9j",
-            "bG91ZC9tZGIvbW9uZ29kYi92MS9iYWNrdXAucHJvdG8aKXlhbmRleC9jbG91",
-            "ZC9tZGIvbW9uZ29kYi92MS9jbHVzdGVyLnByb3RvGip5YW5kZXgvY2xvdWQv",
-            "bWRiL21vbmdvZGIvdjEvZGF0YWJhc2UucHJvdG8aJnlhbmRleC9jbG91ZC9t",
-            "ZGIvbW9uZ29kYi92MS91c2VyLnByb3RvGjN5YW5kZXgvY2xvdWQvbWRiL21v",
-            "bmdvZGIvdjEvY29uZmlnL21vbmdvZGIzXzYucHJvdG8aM3lhbmRleC9jbG91",
-            "ZC9tZGIvbW9uZ29kYi92MS9jb25maWcvbW9uZ29kYjRfMC5wcm90byI1ChFH",
-            "ZXRDbHVzdGVyUmVxdWVzdBIgCgpjbHVzdGVyX2lkGAEgASgJQgzoxzEBisgx",
-            "BDw9NTAikAEKE0xpc3RDbHVzdGVyc1JlcXVlc3QSHwoJZm9sZGVyX2lkGAEg",
-            "ASgJQgzoxzEBisgxBDw9NTASHQoJcGFnZV9zaXplGAIgASgDQgr6xzEGPD0x",
-            "MDAwEh0KCnBhZ2VfdG9rZW4YAyABKAlCCYrIMQU8PTEwMBIaCgZmaWx0ZXIY",
-            "BCABKAlCCorIMQY8PTEwMDAiZwoUTGlzdENsdXN0ZXJzUmVzcG9uc2USNgoI",
-            "Y2x1c3RlcnMYASADKAsyJC55YW5kZXguY2xvdWQubWRiLm1vbmdvZGIudjEu",
-            "Q2x1c3RlchIXCg9uZXh0X3BhZ2VfdG9rZW4YAiABKAkiyAUKFENyZWF0ZUNs",
-            "dXN0ZXJSZXF1ZXN0Eh8KCWZvbGRlcl9pZBgBIAEoCUIM6McxAYrIMQQ8PTUw",
-            "EisKBG5hbWUYAiABKAlCHejHMQGKyDEEPD02M/LHMQ1bYS16QS1aMC05X10q",
-            "Eh4KC2Rlc2NyaXB0aW9uGAMgASgJQgmKyDEFPD0yNTYSjgEKBmxhYmVscxgE",
-            "IAMoCzI9LnlhbmRleC5jbG91ZC5tZGIubW9uZ29kYi52MS5DcmVhdGVDbHVz",
-            "dGVyUmVxdWVzdC5MYWJlbHNFbnRyeUI/gsgxBDw9NjSKyDEEPD02M/LHMQtb",
-            "LV8wLTlhLXpdKrLIMQYaBDw9NjOyyDESEhBbYS16XVstXzAtOWEtel0qEksK",
-            "C2Vudmlyb25tZW50GAUgASgOMjAueWFuZGV4LmNsb3VkLm1kYi5tb25nb2Ri",
-            "LnYxLkNsdXN0ZXIuRW52aXJvbm1lbnRCBOjHMQESQgoLY29uZmlnX3NwZWMY",
-            "BiABKAsyJy55YW5kZXguY2xvdWQubWRiLm1vbmdvZGIudjEuQ29uZmlnU3Bl",
-            "Y0IE6McxARJJCg5kYXRhYmFzZV9zcGVjcxgHIAMoCzIpLnlhbmRleC5jbG91",
-            "ZC5tZGIubW9uZ29kYi52MS5EYXRhYmFzZVNwZWNCBoLIMQI+MBJBCgp1c2Vy",
-            "X3NwZWNzGAggAygLMiUueWFuZGV4LmNsb3VkLm1kYi5tb25nb2RiLnYxLlVz",
-            "ZXJTcGVjQgaCyDECPjASQQoKaG9zdF9zcGVjcxgJIAMoCzIlLnlhbmRleC5j",
-            "bG91ZC5tZGIubW9uZ29kYi52MS5Ib3N0U3BlY0IGgsgxAj4wEiAKCm5ldHdv",
-            "cmtfaWQYCiABKAlCDOjHMQGKyDEEPD01MBotCgtMYWJlbHNFbnRyeRILCgNr",
-            "ZXkYASABKAkSDQoFdmFsdWUYAiABKAk6AjgBIisKFUNyZWF0ZUNsdXN0ZXJN",
-            "ZXRhZGF0YRISCgpjbHVzdGVyX2lkGAEgASgJIocDChRVcGRhdGVDbHVzdGVy",
-            "UmVxdWVzdBIgCgpjbHVzdGVyX2lkGAEgASgJQgzoxzEBisgxBDw9NTASLwoL",
-            "dXBkYXRlX21hc2sYAiABKAsyGi5nb29nbGUucHJvdG9idWYuRmllbGRNYXNr",
-            "Eh4KC2Rlc2NyaXB0aW9uGAMgASgJQgmKyDEFPD0yNTYSjgEKBmxhYmVscxgE",
-            "IAMoCzI9LnlhbmRleC5jbG91ZC5tZGIubW9uZ29kYi52MS5VcGRhdGVDbHVz",
-            "dGVyUmVxdWVzdC5MYWJlbHNFbnRyeUI/gsgxBDw9NjSKyDEEPD02M/LHMQtb",
-            "LV8wLTlhLXpdKrLIMQYaBDw9NjOyyDESEhBbYS16XVstXzAtOWEtel0qEjwK",
-            "C2NvbmZpZ19zcGVjGAUgASgLMicueWFuZGV4LmNsb3VkLm1kYi5tb25nb2Ri",
-            "LnYxLkNvbmZpZ1NwZWMaLQoLTGFiZWxzRW50cnkSCwoDa2V5GAEgASgJEg0K",
-            "BXZhbHVlGAIgASgJOgI4ASIrChVVcGRhdGVDbHVzdGVyTWV0YWRhdGESEgoK",
-            "Y2x1c3Rlcl9pZBgBIAEoCSI4ChREZWxldGVDbHVzdGVyUmVxdWVzdBIgCgpj",
-            "bHVzdGVyX2lkGAEgASgJQgzoxzEBisgxBDw9NTAiKwoVRGVsZXRlQ2x1c3Rl",
-            "ck1ldGFkYXRhEhIKCmNsdXN0ZXJfaWQYASABKAkiNwoTU3RhcnRDbHVzdGVy",
-            "UmVxdWVzdBIgCgpjbHVzdGVyX2lkGAEgASgJQgzoxzEBisgxBDw9NTAiKgoU",
-            "U3RhcnRDbHVzdGVyTWV0YWRhdGESEgoKY2x1c3Rlcl9pZBgBIAEoCSI2ChJT",
-            "dG9wQ2x1c3RlclJlcXVlc3QSIAoKY2x1c3Rlcl9pZBgBIAEoCUIM6McxAYrI",
-            "MQQ8PTUwIikKE1N0b3BDbHVzdGVyTWV0YWRhdGESEgoKY2x1c3Rlcl9pZBgB",
-            "IAEoCSJjChJNb3ZlQ2x1c3RlclJlcXVlc3QSIAoKY2x1c3Rlcl9pZBgBIAEo",
-            "CUIM6McxAYrIMQQ8PTUwEisKFWRlc3RpbmF0aW9uX2ZvbGRlcl9pZBgCIAEo",
-            "CUIM6McxAYrIMQQ8PTUwImIKE01vdmVDbHVzdGVyTWV0YWRhdGESEgoKY2x1",
-            "c3Rlcl9pZBgBIAEoCRIYChBzb3VyY2VfZm9sZGVyX2lkGAIgASgJEh0KFWRl",
-            "c3RpbmF0aW9uX2ZvbGRlcl9pZBgDIAEoCSI4ChRCYWNrdXBDbHVzdGVyUmVx",
-            "dWVzdBIgCgpjbHVzdGVyX2lkGAEgASgJQgzoxzEBisgxBDw9NTAiKwoVQmFj",
-            "a3VwQ2x1c3Rlck1ldGFkYXRhEhIKCmNsdXN0ZXJfaWQYASABKAkitQQKFVJl",
-            "c3RvcmVDbHVzdGVyUmVxdWVzdBIXCgliYWNrdXBfaWQYASABKAlCBOjHMQES",
-            "LAoEbmFtZRgCIAEoCUIe6McxAYrIMQQ8PTYz8scxDlthLXpBLVowLTlfLV0q",
-            "Eh4KC2Rlc2NyaXB0aW9uGAMgASgJQgmKyDEFPD0yNTYSjwEKBmxhYmVscxgE",
-            "IAMoCzI+LnlhbmRleC5jbG91ZC5tZGIubW9uZ29kYi52MS5SZXN0b3JlQ2x1",
-            "c3RlclJlcXVlc3QuTGFiZWxzRW50cnlCP4LIMQQ8PTY0isgxBDw9NjPyxzEL",
-            "Wy1fMC05YS16XSqyyDEGGgQ8PTYzssgxEhIQW2Etel1bLV8wLTlhLXpdKhJL",
-            "CgtlbnZpcm9ubWVudBgFIAEoDjIwLnlhbmRleC5jbG91ZC5tZGIubW9uZ29k",
-            "Yi52MS5DbHVzdGVyLkVudmlyb25tZW50QgToxzEBEkIKC2NvbmZpZ19zcGVj",
-            "GAYgASgLMicueWFuZGV4LmNsb3VkLm1kYi5tb25nb2RiLnYxLkNvbmZpZ1Nw",
-            "ZWNCBOjHMQESQQoKaG9zdF9zcGVjcxgHIAMoCzIlLnlhbmRleC5jbG91ZC5t",
-            "ZGIubW9uZ29kYi52MS5Ib3N0U3BlY0IGgsgxAj4wEiAKCm5ldHdvcmtfaWQY",
-            "CCABKAlCDOjHMQGKyDEEPD01MBotCgtMYWJlbHNFbnRyeRILCgNrZXkYASAB",
-            "KAkSDQoFdmFsdWUYAiABKAk6AjgBIj8KFlJlc3RvcmVDbHVzdGVyTWV0YWRh",
-            "dGESEgoKY2x1c3Rlcl9pZBgBIAEoCRIRCgliYWNrdXBfaWQYAiABKAkisAEK",
-            "CUxvZ1JlY29yZBItCgl0aW1lc3RhbXAYASABKAsyGi5nb29nbGUucHJvdG9i",
-            "dWYuVGltZXN0YW1wEkQKB21lc3NhZ2UYAiADKAsyMy55YW5kZXguY2xvdWQu",
-            "bWRiLm1vbmdvZGIudjEuTG9nUmVjb3JkLk1lc3NhZ2VFbnRyeRouCgxNZXNz",
-            "YWdlRW50cnkSCwoDa2V5GAEgASgJEg0KBXZhbHVlGAIgASgJOgI4ASL7AgoW",
-            "TGlzdENsdXN0ZXJMb2dzUmVxdWVzdBIgCgpjbHVzdGVyX2lkGAEgASgJQgzo",
-            "xzEBisgxBDw9NTASFQoNY29sdW1uX2ZpbHRlchgCIAMoCRJVCgxzZXJ2aWNl",
-            "X3R5cGUYAyABKA4yPy55YW5kZXguY2xvdWQubWRiLm1vbmdvZGIudjEuTGlz",
-            "dENsdXN0ZXJMb2dzUmVxdWVzdC5TZXJ2aWNlVHlwZRItCglmcm9tX3RpbWUY",
-            "BCABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wEisKB3RvX3RpbWUY",
-            "BSABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wEh0KCXBhZ2Vfc2l6",
-            "ZRgGIAEoA0IK+scxBjw9MTAwMBIdCgpwYWdlX3Rva2VuGAcgASgJQgmKyDEF",
-            "PD0xMDAiNwoLU2VydmljZVR5cGUSHAoYU0VSVklDRV9UWVBFX1VOU1BFQ0lG",
-            "SUVEEAASCgoGTU9OR09EEAEiaAoXTGlzdENsdXN0ZXJMb2dzUmVzcG9uc2US",
-            "NAoEbG9ncxgBIAMoCzImLnlhbmRleC5jbG91ZC5tZGIubW9uZ29kYi52MS5M",
-            "b2dSZWNvcmQSFwoPbmV4dF9wYWdlX3Rva2VuGAIgASgJIn4KHExpc3RDbHVz",
-            "dGVyT3BlcmF0aW9uc1JlcXVlc3QSIAoKY2x1c3Rlcl9pZBgBIAEoCUIM6Mcx",
-            "AYrIMQQ8PTUwEh0KCXBhZ2Vfc2l6ZRgCIAEoA0IK+scxBjw9MTAwMBIdCgpw",
-            "YWdlX3Rva2VuGAMgASgJQgmKyDEFPD0xMDAibwodTGlzdENsdXN0ZXJPcGVy",
-            "YXRpb25zUmVzcG9uc2USNQoKb3BlcmF0aW9ucxgBIAMoCzIhLnlhbmRleC5j",
-            "bG91ZC5vcGVyYXRpb24uT3BlcmF0aW9uEhcKD25leHRfcGFnZV90b2tlbhgC",
-            "IAEoCSJ7ChlMaXN0Q2x1c3RlckJhY2t1cHNSZXF1ZXN0EiAKCmNsdXN0ZXJf",
-            "aWQYASABKAlCDOjHMQGKyDEEPD01MBIdCglwYWdlX3NpemUYAiABKANCCvrH",
-            "MQY8PTEwMDASHQoKcGFnZV90b2tlbhgDIAEoCUIJisgxBTw9MTAwImsKGkxp",
-            "c3RDbHVzdGVyQmFja3Vwc1Jlc3BvbnNlEjQKB2JhY2t1cHMYASADKAsyIy55",
-            "YW5kZXguY2xvdWQubWRiLm1vbmdvZGIudjEuQmFja3VwEhcKD25leHRfcGFn",
-            "ZV90b2tlbhgCIAEoCSJ5ChdMaXN0Q2x1c3Rlckhvc3RzUmVxdWVzdBIgCgpj",
-            "bHVzdGVyX2lkGAEgASgJQgzoxzEBisgxBDw9NTASHQoJcGFnZV9zaXplGAIg",
-            "ASgDQgr6xzEGPD0xMDAwEh0KCnBhZ2VfdG9rZW4YAyABKAlCCYrIMQU8PTEw",
-            "MCJlChhMaXN0Q2x1c3Rlckhvc3RzUmVzcG9uc2USMAoFaG9zdHMYASADKAsy",
-            "IS55YW5kZXguY2xvdWQubWRiLm1vbmdvZGIudjEuSG9zdBIXCg9uZXh0X3Bh",
-            "Z2VfdG9rZW4YAiABKAkifQoWQWRkQ2x1c3Rlckhvc3RzUmVxdWVzdBIgCgpj",
-            "bHVzdGVyX2lkGAEgASgJQgzoxzEBisgxBDw9NTASQQoKaG9zdF9zcGVjcxgC",
-            "IAMoCzIlLnlhbmRleC5jbG91ZC5tZGIubW9uZ29kYi52MS5Ib3N0U3BlY0IG",
-            "gsgxAj4wIkEKF0FkZENsdXN0ZXJIb3N0c01ldGFkYXRhEhIKCmNsdXN0ZXJf",
-            "aWQYASABKAkSEgoKaG9zdF9uYW1lcxgCIAMoCSJiChlEZWxldGVDbHVzdGVy",
-            "SG9zdHNSZXF1ZXN0EiAKCmNsdXN0ZXJfaWQYASABKAlCDOjHMQGKyDEEPD01",
-            "MBIjCgpob3N0X25hbWVzGAIgAygJQg+CyDECPjCKyDEFPD0yNTMiRAoaRGVs",
-            "ZXRlQ2x1c3Rlckhvc3RzTWV0YWRhdGESEgoKY2x1c3Rlcl9pZBgBIAEoCRIS",
-            "Cgpob3N0X25hbWVzGAIgAygJIs8DChxFbmFibGVDbHVzdGVyU2hhcmRpbmdS",
-            "ZXF1ZXN0EiAKCmNsdXN0ZXJfaWQYASABKAlCDOjHMQGKyDEEPD01MBJaCght",
-            "b25nb2NmZxgCIAEoCzJCLnlhbmRleC5jbG91ZC5tZGIubW9uZ29kYi52MS5F",
-            "bmFibGVDbHVzdGVyU2hhcmRpbmdSZXF1ZXN0Lk1vbmdvQ2ZnQgToxzEBElYK",
-            "Bm1vbmdvcxgDIAEoCzJALnlhbmRleC5jbG91ZC5tZGIubW9uZ29kYi52MS5F",
-            "bmFibGVDbHVzdGVyU2hhcmRpbmdSZXF1ZXN0Lk1vbmdvc0IE6McxARJBCgpo",
-            "b3N0X3NwZWNzGAQgAygLMiUueWFuZGV4LmNsb3VkLm1kYi5tb25nb2RiLnYx",
-            "Lkhvc3RTcGVjQgaCyDECPjAaSwoITW9uZ29DZmcSPwoJcmVzb3VyY2VzGAEg",
-            "ASgLMiYueWFuZGV4LmNsb3VkLm1kYi5tb25nb2RiLnYxLlJlc291cmNlc0IE",
-            "6McxARpJCgZNb25nb3MSPwoJcmVzb3VyY2VzGAEgASgLMiYueWFuZGV4LmNs",
-            "b3VkLm1kYi5tb25nb2RiLnYxLlJlc291cmNlc0IE6McxASIzCh1FbmFibGVD",
-            "bHVzdGVyU2hhcmRpbmdNZXRhZGF0YRISCgpjbHVzdGVyX2lkGAEgASgJIm4K",
-            "FkdldENsdXN0ZXJTaGFyZFJlcXVlc3QSIAoKY2x1c3Rlcl9pZBgBIAEoCUIM",
-            "6McxAYrIMQQ8PTUwEjIKCnNoYXJkX25hbWUYAiABKAlCHujHMQGKyDEEPD02",
-            "M/LHMQ5bYS16QS1aMC05Xy1dKiJ6ChhMaXN0Q2x1c3RlclNoYXJkc1JlcXVl",
-            "c3QSIAoKY2x1c3Rlcl9pZBgBIAEoCUIM6McxAYrIMQQ8PTUwEh0KCXBhZ2Vf",
-            "c2l6ZRgCIAEoA0IK+scxBjw9MTAwMBIdCgpwYWdlX3Rva2VuGAMgASgJQgmK",
-            "yDEFPD0xMDAiaAoZTGlzdENsdXN0ZXJTaGFyZHNSZXNwb25zZRIyCgZzaGFy",
-            "ZHMYASADKAsyIi55YW5kZXguY2xvdWQubWRiLm1vbmdvZGIudjEuU2hhcmQS",
-            "FwoPbmV4dF9wYWdlX3Rva2VuGAIgASgJIrEBChZBZGRDbHVzdGVyU2hhcmRS",
-            "ZXF1ZXN0EiAKCmNsdXN0ZXJfaWQYASABKAlCDOjHMQGKyDEEPD01MBIyCgpz",
-            "aGFyZF9uYW1lGAIgASgJQh7oxzEBisgxBDw9NjPyxzEOW2EtekEtWjAtOV8t",
-            "XSoSQQoKaG9zdF9zcGVjcxgDIAMoCzIlLnlhbmRleC5jbG91ZC5tZGIubW9u",
-            "Z29kYi52MS5Ib3N0U3BlY0IGgsgxAj4wIkEKF0FkZENsdXN0ZXJTaGFyZE1l",
-            "dGFkYXRhEhIKCmNsdXN0ZXJfaWQYASABKAkSEgoKc2hhcmRfbmFtZRgCIAEo",
-            "CSJxChlEZWxldGVDbHVzdGVyU2hhcmRSZXF1ZXN0EiAKCmNsdXN0ZXJfaWQY",
-            "ASABKAlCDOjHMQGKyDEEPD01MBIyCgpzaGFyZF9uYW1lGAIgASgJQh7oxzEB",
-            "isgxBDw9NjPyxzEOW2EtekEtWjAtOV8tXSoiRAoaRGVsZXRlQ2x1c3RlclNo",
-            "YXJkTWV0YWRhdGESEgoKY2x1c3Rlcl9pZBgBIAEoCRISCgpzaGFyZF9uYW1l",
-            "GAIgASgJIsIBCghIb3N0U3BlYxIZCgd6b25lX2lkGAEgASgJQgiKyDEEPD01",
-            "MBIbCglzdWJuZXRfaWQYAiABKAlCCIrIMQQ8PTUwEhgKEGFzc2lnbl9wdWJs",
-            "aWNfaXAYAyABKAgSNAoEdHlwZRgEIAEoDjImLnlhbmRleC5jbG91ZC5tZGIu",
-            "bW9uZ29kYi52MS5Ib3N0LlR5cGUSLgoKc2hhcmRfbmFtZRgFIAEoCUIaisgx",
-            "BDw9NjPyxzEOW2EtekEtWjAtOV8tXSoihQUKDk1vbmdvZGJTcGVjM182EkIK",
-            "Bm1vbmdvZBgBIAEoCzIyLnlhbmRleC5jbG91ZC5tZGIubW9uZ29kYi52MS5N",
-            "b25nb2RiU3BlYzNfNi5Nb25nb2QSRgoIbW9uZ29jZmcYAiABKAsyNC55YW5k",
-            "ZXguY2xvdWQubWRiLm1vbmdvZGIudjEuTW9uZ29kYlNwZWMzXzYuTW9uZ29D",
-            "ZmcSQgoGbW9uZ29zGAMgASgLMjIueWFuZGV4LmNsb3VkLm1kYi5tb25nb2Ri",
-            "LnYxLk1vbmdvZGJTcGVjM182Lk1vbmdvcxqIAQoGTW9uZ29kEkMKBmNvbmZp",
-            "ZxgBIAEoCzIzLnlhbmRleC5jbG91ZC5tZGIubW9uZ29kYi52MS5jb25maWcu",
-            "TW9uZ29kQ29uZmlnM182EjkKCXJlc291cmNlcxgCIAEoCzImLnlhbmRleC5j",
-            "bG91ZC5tZGIubW9uZ29kYi52MS5SZXNvdXJjZXMajAEKCE1vbmdvQ2ZnEkUK",
-            "BmNvbmZpZxgBIAEoCzI1LnlhbmRleC5jbG91ZC5tZGIubW9uZ29kYi52MS5j",
-            "b25maWcuTW9uZ29DZmdDb25maWczXzYSOQoJcmVzb3VyY2VzGAIgASgLMiYu",
-            "eWFuZGV4LmNsb3VkLm1kYi5tb25nb2RiLnYxLlJlc291cmNlcxqIAQoGTW9u",
-            "Z29zEkMKBmNvbmZpZxgBIAEoCzIzLnlhbmRleC5jbG91ZC5tZGIubW9uZ29k",
-            "Yi52MS5jb25maWcuTW9uZ29zQ29uZmlnM182EjkKCXJlc291cmNlcxgCIAEo",
-            "CzImLnlhbmRleC5jbG91ZC5tZGIubW9uZ29kYi52MS5SZXNvdXJjZXMihQUK",
-            "Dk1vbmdvZGJTcGVjNF8wEkIKBm1vbmdvZBgBIAEoCzIyLnlhbmRleC5jbG91",
-            "ZC5tZGIubW9uZ29kYi52MS5Nb25nb2RiU3BlYzRfMC5Nb25nb2QSRgoIbW9u",
-            "Z29jZmcYAiABKAsyNC55YW5kZXguY2xvdWQubWRiLm1vbmdvZGIudjEuTW9u",
-            "Z29kYlNwZWM0XzAuTW9uZ29DZmcSQgoGbW9uZ29zGAMgASgLMjIueWFuZGV4",
-            "LmNsb3VkLm1kYi5tb25nb2RiLnYxLk1vbmdvZGJTcGVjNF8wLk1vbmdvcxqI",
-            "AQoGTW9uZ29kEkMKBmNvbmZpZxgBIAEoCzIzLnlhbmRleC5jbG91ZC5tZGIu",
-            "bW9uZ29kYi52MS5jb25maWcuTW9uZ29kQ29uZmlnNF8wEjkKCXJlc291cmNl",
-            "cxgCIAEoCzImLnlhbmRleC5jbG91ZC5tZGIubW9uZ29kYi52MS5SZXNvdXJj",
-            "ZXMajAEKCE1vbmdvQ2ZnEkUKBmNvbmZpZxgBIAEoCzI1LnlhbmRleC5jbG91",
-            "ZC5tZGIubW9uZ29kYi52MS5jb25maWcuTW9uZ29DZmdDb25maWc0XzASOQoJ",
-            "cmVzb3VyY2VzGAIgASgLMiYueWFuZGV4LmNsb3VkLm1kYi5tb25nb2RiLnYx",
-            "LlJlc291cmNlcxqIAQoGTW9uZ29zEkMKBmNvbmZpZxgBIAEoCzIzLnlhbmRl",
-            "eC5jbG91ZC5tZGIubW9uZ29kYi52MS5jb25maWcuTW9uZ29zQ29uZmlnNF8w",
-            "EjkKCXJlc291cmNlcxgCIAEoCzImLnlhbmRleC5jbG91ZC5tZGIubW9uZ29k",
-            "Yi52MS5SZXNvdXJjZXMimwIKCkNvbmZpZ1NwZWMSDwoHdmVyc2lvbhgBIAEo",
-            "CRIlCh1mZWF0dXJlX2NvbXBhdGliaWxpdHlfdmVyc2lvbhgFIAEoCRJHChBt",
-            "b25nb2RiX3NwZWNfM182GAIgASgLMisueWFuZGV4LmNsb3VkLm1kYi5tb25n",
-            "b2RiLnYxLk1vbmdvZGJTcGVjM182SAASRwoQbW9uZ29kYl9zcGVjXzRfMBgE",
-            "IAEoCzIrLnlhbmRleC5jbG91ZC5tZGIubW9uZ29kYi52MS5Nb25nb2RiU3Bl",
-            "YzRfMEgAEjMKE2JhY2t1cF93aW5kb3dfc3RhcnQYAyABKAsyFi5nb29nbGUu",
-            "dHlwZS5UaW1lT2ZEYXlCDgoMbW9uZ29kYl9zcGVjMrwfCg5DbHVzdGVyU2Vy",
-            "dmljZRKOAQoDR2V0Ei4ueWFuZGV4LmNsb3VkLm1kYi5tb25nb2RiLnYxLkdl",
-            "dENsdXN0ZXJSZXF1ZXN0GiQueWFuZGV4LmNsb3VkLm1kYi5tb25nb2RiLnYx",
-            "LkNsdXN0ZXIiMYLT5JMCKxIpL21hbmFnZWQtbW9uZ29kYi92MS9jbHVzdGVy",
-            "cy97Y2x1c3Rlcl9pZH0SkQEKBExpc3QSMC55YW5kZXguY2xvdWQubWRiLm1v",
-            "bmdvZGIudjEuTGlzdENsdXN0ZXJzUmVxdWVzdBoxLnlhbmRleC5jbG91ZC5t",
-            "ZGIubW9uZ29kYi52MS5MaXN0Q2x1c3RlcnNSZXNwb25zZSIkgtPkkwIeEhwv",
-            "bWFuYWdlZC1tb25nb2RiL3YxL2NsdXN0ZXJzEqsBCgZDcmVhdGUSMS55YW5k",
-            "ZXguY2xvdWQubWRiLm1vbmdvZGIudjEuQ3JlYXRlQ2x1c3RlclJlcXVlc3Qa",
-            "IS55YW5kZXguY2xvdWQub3BlcmF0aW9uLk9wZXJhdGlvbiJLgtPkkwIhIhwv",
-            "bWFuYWdlZC1tb25nb2RiL3YxL2NsdXN0ZXJzOgEqstIqIAoVQ3JlYXRlQ2x1",
-            "c3Rlck1ldGFkYXRhEgdDbHVzdGVyErgBCgZVcGRhdGUSMS55YW5kZXguY2xv",
-            "dWQubWRiLm1vbmdvZGIudjEuVXBkYXRlQ2x1c3RlclJlcXVlc3QaIS55YW5k",
-            "ZXguY2xvdWQub3BlcmF0aW9uLk9wZXJhdGlvbiJYgtPkkwIuMikvbWFuYWdl",
-            "ZC1tb25nb2RiL3YxL2NsdXN0ZXJzL3tjbHVzdGVyX2lkfToBKrLSKiAKFVVw",
-            "ZGF0ZUNsdXN0ZXJNZXRhZGF0YRIHQ2x1c3RlchLDAQoGRGVsZXRlEjEueWFu",
-            "ZGV4LmNsb3VkLm1kYi5tb25nb2RiLnYxLkRlbGV0ZUNsdXN0ZXJSZXF1ZXN0",
-            "GiEueWFuZGV4LmNsb3VkLm9wZXJhdGlvbi5PcGVyYXRpb24iY4LT5JMCKyop",
-            "L21hbmFnZWQtbW9uZ29kYi92MS9jbHVzdGVycy97Y2x1c3Rlcl9pZH2y0iou",
-            "ChVEZWxldGVDbHVzdGVyTWV0YWRhdGESFWdvb2dsZS5wcm90b2J1Zi5FbXB0",
-            "eRK4AQoFU3RhcnQSMC55YW5kZXguY2xvdWQubWRiLm1vbmdvZGIudjEuU3Rh",
-            "cnRDbHVzdGVyUmVxdWVzdBohLnlhbmRleC5jbG91ZC5vcGVyYXRpb24uT3Bl",
-            "cmF0aW9uIlqC0+STAjEiLy9tYW5hZ2VkLW1vbmdvZGIvdjEvY2x1c3RlcnMv",
-            "e2NsdXN0ZXJfaWR9OnN0YXJ0stIqHwoUU3RhcnRDbHVzdGVyTWV0YWRhdGES",
-            "B0NsdXN0ZXIStAEKBFN0b3ASLy55YW5kZXguY2xvdWQubWRiLm1vbmdvZGIu",
-            "djEuU3RvcENsdXN0ZXJSZXF1ZXN0GiEueWFuZGV4LmNsb3VkLm9wZXJhdGlv",
-            "bi5PcGVyYXRpb24iWILT5JMCMCIuL21hbmFnZWQtbW9uZ29kYi92MS9jbHVz",
-            "dGVycy97Y2x1c3Rlcl9pZH06c3RvcLLSKh4KE1N0b3BDbHVzdGVyTWV0YWRh",
-            "dGESB0NsdXN0ZXIStAEKBE1vdmUSLy55YW5kZXguY2xvdWQubWRiLm1vbmdv",
-            "ZGIudjEuTW92ZUNsdXN0ZXJSZXF1ZXN0GiEueWFuZGV4LmNsb3VkLm9wZXJh",
-            "dGlvbi5PcGVyYXRpb24iWILT5JMCMCIuL21hbmFnZWQtbW9uZ29kYi92MS9j",
-            "bHVzdGVycy97Y2x1c3Rlcl9pZH06bW92ZbLSKh4KE01vdmVDbHVzdGVyTWV0",
-            "YWRhdGESB0NsdXN0ZXISvAEKBkJhY2t1cBIxLnlhbmRleC5jbG91ZC5tZGIu",
-            "bW9uZ29kYi52MS5CYWNrdXBDbHVzdGVyUmVxdWVzdBohLnlhbmRleC5jbG91",
-            "ZC5vcGVyYXRpb24uT3BlcmF0aW9uIlyC0+STAjIiMC9tYW5hZ2VkLW1vbmdv",
-            "ZGIvdjEvY2x1c3RlcnMve2NsdXN0ZXJfaWR9OmJhY2t1cLLSKiAKFUJhY2t1",
-            "cENsdXN0ZXJNZXRhZGF0YRIHQ2x1c3RlchK2AQoHUmVzdG9yZRIyLnlhbmRl",
-            "eC5jbG91ZC5tZGIubW9uZ29kYi52MS5SZXN0b3JlQ2x1c3RlclJlcXVlc3Qa",
-            "IS55YW5kZXguY2xvdWQub3BlcmF0aW9uLk9wZXJhdGlvbiJUgtPkkwIpIiQv",
-            "bWFuYWdlZC1tb25nb2RiL3YxL2NsdXN0ZXJzOnJlc3RvcmU6ASqy0iohChZS",
-            "ZXN0b3JlQ2x1c3Rlck1ldGFkYXRhEgdDbHVzdGVyEq0BCghMaXN0TG9ncxIz",
-            "LnlhbmRleC5jbG91ZC5tZGIubW9uZ29kYi52MS5MaXN0Q2x1c3RlckxvZ3NS",
-            "ZXF1ZXN0GjQueWFuZGV4LmNsb3VkLm1kYi5tb25nb2RiLnYxLkxpc3RDbHVz",
-            "dGVyTG9nc1Jlc3BvbnNlIjaC0+STAjASLi9tYW5hZ2VkLW1vbmdvZGIvdjEv",
-            "Y2x1c3RlcnMve2NsdXN0ZXJfaWR9OmxvZ3MSxQEKDkxpc3RPcGVyYXRpb25z",
-            "EjkueWFuZGV4LmNsb3VkLm1kYi5tb25nb2RiLnYxLkxpc3RDbHVzdGVyT3Bl",
-            "cmF0aW9uc1JlcXVlc3QaOi55YW5kZXguY2xvdWQubWRiLm1vbmdvZGIudjEu",
-            "TGlzdENsdXN0ZXJPcGVyYXRpb25zUmVzcG9uc2UiPILT5JMCNhI0L21hbmFn",
-            "ZWQtbW9uZ29kYi92MS9jbHVzdGVycy97Y2x1c3Rlcl9pZH0vb3BlcmF0aW9u",
-            "cxK5AQoLTGlzdEJhY2t1cHMSNi55YW5kZXguY2xvdWQubWRiLm1vbmdvZGIu",
-            "djEuTGlzdENsdXN0ZXJCYWNrdXBzUmVxdWVzdBo3LnlhbmRleC5jbG91ZC5t",
-            "ZGIubW9uZ29kYi52MS5MaXN0Q2x1c3RlckJhY2t1cHNSZXNwb25zZSI5gtPk",
-            "kwIzEjEvbWFuYWdlZC1tb25nb2RiL3YxL2NsdXN0ZXJzL3tjbHVzdGVyX2lk",
-            "fS9iYWNrdXBzErEBCglMaXN0SG9zdHMSNC55YW5kZXguY2xvdWQubWRiLm1v",
-            "bmdvZGIudjEuTGlzdENsdXN0ZXJIb3N0c1JlcXVlc3QaNS55YW5kZXguY2xv",
-            "dWQubWRiLm1vbmdvZGIudjEuTGlzdENsdXN0ZXJIb3N0c1Jlc3BvbnNlIjeC",
-            "0+STAjESLy9tYW5hZ2VkLW1vbmdvZGIvdjEvY2x1c3RlcnMve2NsdXN0ZXJf",
-            "aWR9L2hvc3RzEt4BCghBZGRIb3N0cxIzLnlhbmRleC5jbG91ZC5tZGIubW9u",
-            "Z29kYi52MS5BZGRDbHVzdGVySG9zdHNSZXF1ZXN0GiEueWFuZGV4LmNsb3Vk",
-            "Lm9wZXJhdGlvbi5PcGVyYXRpb24ieoLT5JMCQCI7L21hbmFnZWQtbW9uZ29k",
-            "Yi92MS9jbHVzdGVycy97Y2x1c3Rlcl9pZH0vaG9zdHM6YmF0Y2hDcmVhdGU6",
-            "ASqy0iowChdBZGRDbHVzdGVySG9zdHNNZXRhZGF0YRIVZ29vZ2xlLnByb3Rv",
-            "YnVmLkVtcHR5EucBCgtEZWxldGVIb3N0cxI2LnlhbmRleC5jbG91ZC5tZGIu",
-            "bW9uZ29kYi52MS5EZWxldGVDbHVzdGVySG9zdHNSZXF1ZXN0GiEueWFuZGV4",
-            "LmNsb3VkLm9wZXJhdGlvbi5PcGVyYXRpb24ifYLT5JMCQCI7L21hbmFnZWQt",
-            "bW9uZ29kYi92MS9jbHVzdGVycy97Y2x1c3Rlcl9pZH0vaG9zdHM6YmF0Y2hE",
-            "ZWxldGU6ASqy0iozChpEZWxldGVDbHVzdGVySG9zdHNNZXRhZGF0YRIVZ29v",
-            "Z2xlLnByb3RvYnVmLkVtcHR5Eu0BCg5FbmFibGVTaGFyZGluZxI5LnlhbmRl",
-            "eC5jbG91ZC5tZGIubW9uZ29kYi52MS5FbmFibGVDbHVzdGVyU2hhcmRpbmdS",
-            "ZXF1ZXN0GiEueWFuZGV4LmNsb3VkLm9wZXJhdGlvbi5PcGVyYXRpb24ifYLT",
-            "5JMCPSI4L21hbmFnZWQtbW9uZ29kYi92MS9jbHVzdGVycy97Y2x1c3Rlcl9p",
-            "ZH06ZW5hYmxlU2hhcmRpbmc6ASqy0io2Ch1FbmFibGVDbHVzdGVyU2hhcmRp",
-            "bmdNZXRhZGF0YRIVZ29vZ2xlLnByb3RvYnVmLkVtcHR5EqoBCghHZXRTaGFy",
-            "ZBIzLnlhbmRleC5jbG91ZC5tZGIubW9uZ29kYi52MS5HZXRDbHVzdGVyU2hh",
-            "cmRSZXF1ZXN0GiIueWFuZGV4LmNsb3VkLm1kYi5tb25nb2RiLnYxLlNoYXJk",
-            "IkWC0+STAj8SPS9tYW5hZ2VkLW1vbmdvZGIvdjEvY2x1c3RlcnMve2NsdXN0",
-            "ZXJfaWR9L3NoYXJkcy97c2hhcmRfbmFtZX0StQEKCkxpc3RTaGFyZHMSNS55",
-            "YW5kZXguY2xvdWQubWRiLm1vbmdvZGIudjEuTGlzdENsdXN0ZXJTaGFyZHNS",
-            "ZXF1ZXN0GjYueWFuZGV4LmNsb3VkLm1kYi5tb25nb2RiLnYxLkxpc3RDbHVz",
-            "dGVyU2hhcmRzUmVzcG9uc2UiOILT5JMCMhIwL21hbmFnZWQtbW9uZ29kYi92",
-            "MS9jbHVzdGVycy97Y2x1c3Rlcl9pZH0vc2hhcmRzEsMBCghBZGRTaGFyZBIz",
-            "LnlhbmRleC5jbG91ZC5tZGIubW9uZ29kYi52MS5BZGRDbHVzdGVyU2hhcmRS",
-            "ZXF1ZXN0GiEueWFuZGV4LmNsb3VkLm9wZXJhdGlvbi5PcGVyYXRpb24iX4LT",
-            "5JMCNSIwL21hbmFnZWQtbW9uZ29kYi92MS9jbHVzdGVycy97Y2x1c3Rlcl9p",
-            "ZH0vc2hhcmRzOgEqstIqIAoXQWRkQ2x1c3RlclNoYXJkTWV0YWRhdGESBVNo",
-            "YXJkEuYBCgtEZWxldGVTaGFyZBI2LnlhbmRleC5jbG91ZC5tZGIubW9uZ29k",
-            "Yi52MS5EZWxldGVDbHVzdGVyU2hhcmRSZXF1ZXN0GiEueWFuZGV4LmNsb3Vk",
-            "Lm9wZXJhdGlvbi5PcGVyYXRpb24ifILT5JMCPyo9L21hbmFnZWQtbW9uZ29k",
-            "Yi92MS9jbHVzdGVycy97Y2x1c3Rlcl9pZH0vc2hhcmRzL3tzaGFyZF9uYW1l",
-            "fbLSKjMKGkRlbGV0ZUNsdXN0ZXJTaGFyZE1ldGFkYXRhEhVnb29nbGUucHJv",
-            "dG9idWYuRW1wdHlCSVpHZ2l0aHViLmNvbS95YW5kZXgtY2xvdWQvZ28tZ2Vu",
-            "cHJvdG8veWFuZGV4L2Nsb3VkL21kYi9tb25nb2RiL3YxO21vbmdvZGJiBnBy",
-            "b3RvMw=="));
+            "b29nbGUvdHlwZS90aW1lb2ZkYXkucHJvdG8aIHlhbmRleC9jbG91ZC9hcGkv",
+            "b3BlcmF0aW9uLnByb3RvGiZ5YW5kZXgvY2xvdWQvb3BlcmF0aW9uL29wZXJh",
+            "dGlvbi5wcm90bxodeWFuZGV4L2Nsb3VkL3ZhbGlkYXRpb24ucHJvdG8aKHlh",
+            "bmRleC9jbG91ZC9tZGIvbW9uZ29kYi92MS9iYWNrdXAucHJvdG8aKXlhbmRl",
+            "eC9jbG91ZC9tZGIvbW9uZ29kYi92MS9jbHVzdGVyLnByb3RvGip5YW5kZXgv",
+            "Y2xvdWQvbWRiL21vbmdvZGIvdjEvZGF0YWJhc2UucHJvdG8aJnlhbmRleC9j",
+            "bG91ZC9tZGIvbW9uZ29kYi92MS91c2VyLnByb3RvGjN5YW5kZXgvY2xvdWQv",
+            "bWRiL21vbmdvZGIvdjEvY29uZmlnL21vbmdvZGIzXzYucHJvdG8aM3lhbmRl",
+            "eC9jbG91ZC9tZGIvbW9uZ29kYi92MS9jb25maWcvbW9uZ29kYjRfMC5wcm90",
+            "bxozeWFuZGV4L2Nsb3VkL21kYi9tb25nb2RiL3YxL2NvbmZpZy9tb25nb2Ri",
+            "NF8yLnByb3RvIjUKEUdldENsdXN0ZXJSZXF1ZXN0EiAKCmNsdXN0ZXJfaWQY",
+            "ASABKAlCDOjHMQGKyDEEPD01MCKQAQoTTGlzdENsdXN0ZXJzUmVxdWVzdBIf",
+            "Cglmb2xkZXJfaWQYASABKAlCDOjHMQGKyDEEPD01MBIdCglwYWdlX3NpemUY",
+            "AiABKANCCvrHMQY8PTEwMDASHQoKcGFnZV90b2tlbhgDIAEoCUIJisgxBTw9",
+            "MTAwEhoKBmZpbHRlchgEIAEoCUIKisgxBjw9MTAwMCJnChRMaXN0Q2x1c3Rl",
+            "cnNSZXNwb25zZRI2CghjbHVzdGVycxgBIAMoCzIkLnlhbmRleC5jbG91ZC5t",
+            "ZGIubW9uZ29kYi52MS5DbHVzdGVyEhcKD25leHRfcGFnZV90b2tlbhgCIAEo",
+            "CSLIBQoUQ3JlYXRlQ2x1c3RlclJlcXVlc3QSHwoJZm9sZGVyX2lkGAEgASgJ",
+            "QgzoxzEBisgxBDw9NTASKwoEbmFtZRgCIAEoCUId6McxAYrIMQQ8PTYz8scx",
+            "DVthLXpBLVowLTlfXSoSHgoLZGVzY3JpcHRpb24YAyABKAlCCYrIMQU8PTI1",
+            "NhKOAQoGbGFiZWxzGAQgAygLMj0ueWFuZGV4LmNsb3VkLm1kYi5tb25nb2Ri",
+            "LnYxLkNyZWF0ZUNsdXN0ZXJSZXF1ZXN0LkxhYmVsc0VudHJ5Qj+CyDEEPD02",
+            "NIrIMQQ8PTYz8scxC1stXzAtOWEtel0qssgxBhoEPD02M7LIMRISEFthLXpd",
+            "Wy1fMC05YS16XSoSSwoLZW52aXJvbm1lbnQYBSABKA4yMC55YW5kZXguY2xv",
+            "dWQubWRiLm1vbmdvZGIudjEuQ2x1c3Rlci5FbnZpcm9ubWVudEIE6McxARJC",
+            "Cgtjb25maWdfc3BlYxgGIAEoCzInLnlhbmRleC5jbG91ZC5tZGIubW9uZ29k",
+            "Yi52MS5Db25maWdTcGVjQgToxzEBEkkKDmRhdGFiYXNlX3NwZWNzGAcgAygL",
+            "MikueWFuZGV4LmNsb3VkLm1kYi5tb25nb2RiLnYxLkRhdGFiYXNlU3BlY0IG",
+            "gsgxAj4wEkEKCnVzZXJfc3BlY3MYCCADKAsyJS55YW5kZXguY2xvdWQubWRi",
+            "Lm1vbmdvZGIudjEuVXNlclNwZWNCBoLIMQI+MBJBCgpob3N0X3NwZWNzGAkg",
+            "AygLMiUueWFuZGV4LmNsb3VkLm1kYi5tb25nb2RiLnYxLkhvc3RTcGVjQgaC",
+            "yDECPjASIAoKbmV0d29ya19pZBgKIAEoCUIM6McxAYrIMQQ8PTUwGi0KC0xh",
+            "YmVsc0VudHJ5EgsKA2tleRgBIAEoCRINCgV2YWx1ZRgCIAEoCToCOAEiKwoV",
+            "Q3JlYXRlQ2x1c3Rlck1ldGFkYXRhEhIKCmNsdXN0ZXJfaWQYASABKAkihwMK",
+            "FFVwZGF0ZUNsdXN0ZXJSZXF1ZXN0EiAKCmNsdXN0ZXJfaWQYASABKAlCDOjH",
+            "MQGKyDEEPD01MBIvCgt1cGRhdGVfbWFzaxgCIAEoCzIaLmdvb2dsZS5wcm90",
+            "b2J1Zi5GaWVsZE1hc2sSHgoLZGVzY3JpcHRpb24YAyABKAlCCYrIMQU8PTI1",
+            "NhKOAQoGbGFiZWxzGAQgAygLMj0ueWFuZGV4LmNsb3VkLm1kYi5tb25nb2Ri",
+            "LnYxLlVwZGF0ZUNsdXN0ZXJSZXF1ZXN0LkxhYmVsc0VudHJ5Qj+CyDEEPD02",
+            "NIrIMQQ8PTYz8scxC1stXzAtOWEtel0qssgxBhoEPD02M7LIMRISEFthLXpd",
+            "Wy1fMC05YS16XSoSPAoLY29uZmlnX3NwZWMYBSABKAsyJy55YW5kZXguY2xv",
+            "dWQubWRiLm1vbmdvZGIudjEuQ29uZmlnU3BlYxotCgtMYWJlbHNFbnRyeRIL",
+            "CgNrZXkYASABKAkSDQoFdmFsdWUYAiABKAk6AjgBIisKFVVwZGF0ZUNsdXN0",
+            "ZXJNZXRhZGF0YRISCgpjbHVzdGVyX2lkGAEgASgJIjgKFERlbGV0ZUNsdXN0",
+            "ZXJSZXF1ZXN0EiAKCmNsdXN0ZXJfaWQYASABKAlCDOjHMQGKyDEEPD01MCIr",
+            "ChVEZWxldGVDbHVzdGVyTWV0YWRhdGESEgoKY2x1c3Rlcl9pZBgBIAEoCSI3",
+            "ChNTdGFydENsdXN0ZXJSZXF1ZXN0EiAKCmNsdXN0ZXJfaWQYASABKAlCDOjH",
+            "MQGKyDEEPD01MCIqChRTdGFydENsdXN0ZXJNZXRhZGF0YRISCgpjbHVzdGVy",
+            "X2lkGAEgASgJIjYKElN0b3BDbHVzdGVyUmVxdWVzdBIgCgpjbHVzdGVyX2lk",
+            "GAEgASgJQgzoxzEBisgxBDw9NTAiKQoTU3RvcENsdXN0ZXJNZXRhZGF0YRIS",
+            "CgpjbHVzdGVyX2lkGAEgASgJImMKEk1vdmVDbHVzdGVyUmVxdWVzdBIgCgpj",
+            "bHVzdGVyX2lkGAEgASgJQgzoxzEBisgxBDw9NTASKwoVZGVzdGluYXRpb25f",
+            "Zm9sZGVyX2lkGAIgASgJQgzoxzEBisgxBDw9NTAiYgoTTW92ZUNsdXN0ZXJN",
+            "ZXRhZGF0YRISCgpjbHVzdGVyX2lkGAEgASgJEhgKEHNvdXJjZV9mb2xkZXJf",
+            "aWQYAiABKAkSHQoVZGVzdGluYXRpb25fZm9sZGVyX2lkGAMgASgJIjgKFEJh",
+            "Y2t1cENsdXN0ZXJSZXF1ZXN0EiAKCmNsdXN0ZXJfaWQYASABKAlCDOjHMQGK",
+            "yDEEPD01MCIrChVCYWNrdXBDbHVzdGVyTWV0YWRhdGESEgoKY2x1c3Rlcl9p",
+            "ZBgBIAEoCSLSBAoVUmVzdG9yZUNsdXN0ZXJSZXF1ZXN0EhcKCWJhY2t1cF9p",
+            "ZBgBIAEoCUIE6McxARIsCgRuYW1lGAIgASgJQh7oxzEBisgxBDw9NjPyxzEO",
+            "W2EtekEtWjAtOV8tXSoSHgoLZGVzY3JpcHRpb24YAyABKAlCCYrIMQU8PTI1",
+            "NhKPAQoGbGFiZWxzGAQgAygLMj4ueWFuZGV4LmNsb3VkLm1kYi5tb25nb2Ri",
+            "LnYxLlJlc3RvcmVDbHVzdGVyUmVxdWVzdC5MYWJlbHNFbnRyeUI/gsgxBDw9",
+            "NjSKyDEEPD02M/LHMQtbLV8wLTlhLXpdKrLIMQYaBDw9NjOyyDESEhBbYS16",
+            "XVstXzAtOWEtel0qEksKC2Vudmlyb25tZW50GAUgASgOMjAueWFuZGV4LmNs",
+            "b3VkLm1kYi5tb25nb2RiLnYxLkNsdXN0ZXIuRW52aXJvbm1lbnRCBOjHMQES",
+            "QgoLY29uZmlnX3NwZWMYBiABKAsyJy55YW5kZXguY2xvdWQubWRiLm1vbmdv",
+            "ZGIudjEuQ29uZmlnU3BlY0IE6McxARJBCgpob3N0X3NwZWNzGAcgAygLMiUu",
+            "eWFuZGV4LmNsb3VkLm1kYi5tb25nb2RiLnYxLkhvc3RTcGVjQgaCyDECPjAS",
+            "IAoKbmV0d29ya19pZBgIIAEoCUIM6McxAYrIMQQ8PTUwEhsKCWZvbGRlcl9p",
+            "ZBgJIAEoCUIIisgxBDw9NTAaLQoLTGFiZWxzRW50cnkSCwoDa2V5GAEgASgJ",
+            "Eg0KBXZhbHVlGAIgASgJOgI4ASI/ChZSZXN0b3JlQ2x1c3Rlck1ldGFkYXRh",
+            "EhIKCmNsdXN0ZXJfaWQYASABKAkSEQoJYmFja3VwX2lkGAIgASgJIrABCglM",
+            "b2dSZWNvcmQSLQoJdGltZXN0YW1wGAEgASgLMhouZ29vZ2xlLnByb3RvYnVm",
+            "LlRpbWVzdGFtcBJECgdtZXNzYWdlGAIgAygLMjMueWFuZGV4LmNsb3VkLm1k",
+            "Yi5tb25nb2RiLnYxLkxvZ1JlY29yZC5NZXNzYWdlRW50cnkaLgoMTWVzc2Fn",
+            "ZUVudHJ5EgsKA2tleRgBIAEoCRINCgV2YWx1ZRgCIAEoCToCOAEi+wIKFkxp",
+            "c3RDbHVzdGVyTG9nc1JlcXVlc3QSIAoKY2x1c3Rlcl9pZBgBIAEoCUIM6Mcx",
+            "AYrIMQQ8PTUwEhUKDWNvbHVtbl9maWx0ZXIYAiADKAkSVQoMc2VydmljZV90",
+            "eXBlGAMgASgOMj8ueWFuZGV4LmNsb3VkLm1kYi5tb25nb2RiLnYxLkxpc3RD",
+            "bHVzdGVyTG9nc1JlcXVlc3QuU2VydmljZVR5cGUSLQoJZnJvbV90aW1lGAQg",
+            "ASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcBIrCgd0b190aW1lGAUg",
+            "ASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcBIdCglwYWdlX3NpemUY",
+            "BiABKANCCvrHMQY8PTEwMDASHQoKcGFnZV90b2tlbhgHIAEoCUIJisgxBTw9",
+            "MTAwIjcKC1NlcnZpY2VUeXBlEhwKGFNFUlZJQ0VfVFlQRV9VTlNQRUNJRklF",
+            "RBAAEgoKBk1PTkdPRBABImgKF0xpc3RDbHVzdGVyTG9nc1Jlc3BvbnNlEjQK",
+            "BGxvZ3MYASADKAsyJi55YW5kZXguY2xvdWQubWRiLm1vbmdvZGIudjEuTG9n",
+            "UmVjb3JkEhcKD25leHRfcGFnZV90b2tlbhgCIAEoCSJ+ChxMaXN0Q2x1c3Rl",
+            "ck9wZXJhdGlvbnNSZXF1ZXN0EiAKCmNsdXN0ZXJfaWQYASABKAlCDOjHMQGK",
+            "yDEEPD01MBIdCglwYWdlX3NpemUYAiABKANCCvrHMQY8PTEwMDASHQoKcGFn",
+            "ZV90b2tlbhgDIAEoCUIJisgxBTw9MTAwIm8KHUxpc3RDbHVzdGVyT3BlcmF0",
+            "aW9uc1Jlc3BvbnNlEjUKCm9wZXJhdGlvbnMYASADKAsyIS55YW5kZXguY2xv",
+            "dWQub3BlcmF0aW9uLk9wZXJhdGlvbhIXCg9uZXh0X3BhZ2VfdG9rZW4YAiAB",
+            "KAkiewoZTGlzdENsdXN0ZXJCYWNrdXBzUmVxdWVzdBIgCgpjbHVzdGVyX2lk",
+            "GAEgASgJQgzoxzEBisgxBDw9NTASHQoJcGFnZV9zaXplGAIgASgDQgr6xzEG",
+            "PD0xMDAwEh0KCnBhZ2VfdG9rZW4YAyABKAlCCYrIMQU8PTEwMCJrChpMaXN0",
+            "Q2x1c3RlckJhY2t1cHNSZXNwb25zZRI0CgdiYWNrdXBzGAEgAygLMiMueWFu",
+            "ZGV4LmNsb3VkLm1kYi5tb25nb2RiLnYxLkJhY2t1cBIXCg9uZXh0X3BhZ2Vf",
+            "dG9rZW4YAiABKAkieQoXTGlzdENsdXN0ZXJIb3N0c1JlcXVlc3QSIAoKY2x1",
+            "c3Rlcl9pZBgBIAEoCUIM6McxAYrIMQQ8PTUwEh0KCXBhZ2Vfc2l6ZRgCIAEo",
+            "A0IK+scxBjw9MTAwMBIdCgpwYWdlX3Rva2VuGAMgASgJQgmKyDEFPD0xMDAi",
+            "ZQoYTGlzdENsdXN0ZXJIb3N0c1Jlc3BvbnNlEjAKBWhvc3RzGAEgAygLMiEu",
+            "eWFuZGV4LmNsb3VkLm1kYi5tb25nb2RiLnYxLkhvc3QSFwoPbmV4dF9wYWdl",
+            "X3Rva2VuGAIgASgJIn0KFkFkZENsdXN0ZXJIb3N0c1JlcXVlc3QSIAoKY2x1",
+            "c3Rlcl9pZBgBIAEoCUIM6McxAYrIMQQ8PTUwEkEKCmhvc3Rfc3BlY3MYAiAD",
+            "KAsyJS55YW5kZXguY2xvdWQubWRiLm1vbmdvZGIudjEuSG9zdFNwZWNCBoLI",
+            "MQI+MCJBChdBZGRDbHVzdGVySG9zdHNNZXRhZGF0YRISCgpjbHVzdGVyX2lk",
+            "GAEgASgJEhIKCmhvc3RfbmFtZXMYAiADKAkiYgoZRGVsZXRlQ2x1c3Rlckhv",
+            "c3RzUmVxdWVzdBIgCgpjbHVzdGVyX2lkGAEgASgJQgzoxzEBisgxBDw9NTAS",
+            "IwoKaG9zdF9uYW1lcxgCIAMoCUIPgsgxAj4wisgxBTw9MjUzIkQKGkRlbGV0",
+            "ZUNsdXN0ZXJIb3N0c01ldGFkYXRhEhIKCmNsdXN0ZXJfaWQYASABKAkSEgoK",
+            "aG9zdF9uYW1lcxgCIAMoCSLPAwocRW5hYmxlQ2x1c3RlclNoYXJkaW5nUmVx",
+            "dWVzdBIgCgpjbHVzdGVyX2lkGAEgASgJQgzoxzEBisgxBDw9NTASWgoIbW9u",
+            "Z29jZmcYAiABKAsyQi55YW5kZXguY2xvdWQubWRiLm1vbmdvZGIudjEuRW5h",
+            "YmxlQ2x1c3RlclNoYXJkaW5nUmVxdWVzdC5Nb25nb0NmZ0IE6McxARJWCgZt",
+            "b25nb3MYAyABKAsyQC55YW5kZXguY2xvdWQubWRiLm1vbmdvZGIudjEuRW5h",
+            "YmxlQ2x1c3RlclNoYXJkaW5nUmVxdWVzdC5Nb25nb3NCBOjHMQESQQoKaG9z",
+            "dF9zcGVjcxgEIAMoCzIlLnlhbmRleC5jbG91ZC5tZGIubW9uZ29kYi52MS5I",
+            "b3N0U3BlY0IGgsgxAj4wGksKCE1vbmdvQ2ZnEj8KCXJlc291cmNlcxgBIAEo",
+            "CzImLnlhbmRleC5jbG91ZC5tZGIubW9uZ29kYi52MS5SZXNvdXJjZXNCBOjH",
+            "MQEaSQoGTW9uZ29zEj8KCXJlc291cmNlcxgBIAEoCzImLnlhbmRleC5jbG91",
+            "ZC5tZGIubW9uZ29kYi52MS5SZXNvdXJjZXNCBOjHMQEiMwodRW5hYmxlQ2x1",
+            "c3RlclNoYXJkaW5nTWV0YWRhdGESEgoKY2x1c3Rlcl9pZBgBIAEoCSJuChZH",
+            "ZXRDbHVzdGVyU2hhcmRSZXF1ZXN0EiAKCmNsdXN0ZXJfaWQYASABKAlCDOjH",
+            "MQGKyDEEPD01MBIyCgpzaGFyZF9uYW1lGAIgASgJQh7oxzEBisgxBDw9NjPy",
+            "xzEOW2EtekEtWjAtOV8tXSoiegoYTGlzdENsdXN0ZXJTaGFyZHNSZXF1ZXN0",
+            "EiAKCmNsdXN0ZXJfaWQYASABKAlCDOjHMQGKyDEEPD01MBIdCglwYWdlX3Np",
+            "emUYAiABKANCCvrHMQY8PTEwMDASHQoKcGFnZV90b2tlbhgDIAEoCUIJisgx",
+            "BTw9MTAwImgKGUxpc3RDbHVzdGVyU2hhcmRzUmVzcG9uc2USMgoGc2hhcmRz",
+            "GAEgAygLMiIueWFuZGV4LmNsb3VkLm1kYi5tb25nb2RiLnYxLlNoYXJkEhcK",
+            "D25leHRfcGFnZV90b2tlbhgCIAEoCSKxAQoWQWRkQ2x1c3RlclNoYXJkUmVx",
+            "dWVzdBIgCgpjbHVzdGVyX2lkGAEgASgJQgzoxzEBisgxBDw9NTASMgoKc2hh",
+            "cmRfbmFtZRgCIAEoCUIe6McxAYrIMQQ8PTYz8scxDlthLXpBLVowLTlfLV0q",
+            "EkEKCmhvc3Rfc3BlY3MYAyADKAsyJS55YW5kZXguY2xvdWQubWRiLm1vbmdv",
+            "ZGIudjEuSG9zdFNwZWNCBoLIMQI+MCJBChdBZGRDbHVzdGVyU2hhcmRNZXRh",
+            "ZGF0YRISCgpjbHVzdGVyX2lkGAEgASgJEhIKCnNoYXJkX25hbWUYAiABKAki",
+            "cQoZRGVsZXRlQ2x1c3RlclNoYXJkUmVxdWVzdBIgCgpjbHVzdGVyX2lkGAEg",
+            "ASgJQgzoxzEBisgxBDw9NTASMgoKc2hhcmRfbmFtZRgCIAEoCUIe6McxAYrI",
+            "MQQ8PTYz8scxDlthLXpBLVowLTlfLV0qIkQKGkRlbGV0ZUNsdXN0ZXJTaGFy",
+            "ZE1ldGFkYXRhEhIKCmNsdXN0ZXJfaWQYASABKAkSEgoKc2hhcmRfbmFtZRgC",
+            "IAEoCSLCAQoISG9zdFNwZWMSGQoHem9uZV9pZBgBIAEoCUIIisgxBDw9NTAS",
+            "GwoJc3VibmV0X2lkGAIgASgJQgiKyDEEPD01MBIYChBhc3NpZ25fcHVibGlj",
+            "X2lwGAMgASgIEjQKBHR5cGUYBCABKA4yJi55YW5kZXguY2xvdWQubWRiLm1v",
+            "bmdvZGIudjEuSG9zdC5UeXBlEi4KCnNoYXJkX25hbWUYBSABKAlCGorIMQQ8",
+            "PTYz8scxDlthLXpBLVowLTlfLV0qIoUFCg5Nb25nb2RiU3BlYzNfNhJCCgZt",
+            "b25nb2QYASABKAsyMi55YW5kZXguY2xvdWQubWRiLm1vbmdvZGIudjEuTW9u",
+            "Z29kYlNwZWMzXzYuTW9uZ29kEkYKCG1vbmdvY2ZnGAIgASgLMjQueWFuZGV4",
+            "LmNsb3VkLm1kYi5tb25nb2RiLnYxLk1vbmdvZGJTcGVjM182Lk1vbmdvQ2Zn",
+            "EkIKBm1vbmdvcxgDIAEoCzIyLnlhbmRleC5jbG91ZC5tZGIubW9uZ29kYi52",
+            "MS5Nb25nb2RiU3BlYzNfNi5Nb25nb3MaiAEKBk1vbmdvZBJDCgZjb25maWcY",
+            "ASABKAsyMy55YW5kZXguY2xvdWQubWRiLm1vbmdvZGIudjEuY29uZmlnLk1v",
+            "bmdvZENvbmZpZzNfNhI5CglyZXNvdXJjZXMYAiABKAsyJi55YW5kZXguY2xv",
+            "dWQubWRiLm1vbmdvZGIudjEuUmVzb3VyY2VzGowBCghNb25nb0NmZxJFCgZj",
+            "b25maWcYASABKAsyNS55YW5kZXguY2xvdWQubWRiLm1vbmdvZGIudjEuY29u",
+            "ZmlnLk1vbmdvQ2ZnQ29uZmlnM182EjkKCXJlc291cmNlcxgCIAEoCzImLnlh",
+            "bmRleC5jbG91ZC5tZGIubW9uZ29kYi52MS5SZXNvdXJjZXMaiAEKBk1vbmdv",
+            "cxJDCgZjb25maWcYASABKAsyMy55YW5kZXguY2xvdWQubWRiLm1vbmdvZGIu",
+            "djEuY29uZmlnLk1vbmdvc0NvbmZpZzNfNhI5CglyZXNvdXJjZXMYAiABKAsy",
+            "Ji55YW5kZXguY2xvdWQubWRiLm1vbmdvZGIudjEuUmVzb3VyY2VzIoUFCg5N",
+            "b25nb2RiU3BlYzRfMBJCCgZtb25nb2QYASABKAsyMi55YW5kZXguY2xvdWQu",
+            "bWRiLm1vbmdvZGIudjEuTW9uZ29kYlNwZWM0XzAuTW9uZ29kEkYKCG1vbmdv",
+            "Y2ZnGAIgASgLMjQueWFuZGV4LmNsb3VkLm1kYi5tb25nb2RiLnYxLk1vbmdv",
+            "ZGJTcGVjNF8wLk1vbmdvQ2ZnEkIKBm1vbmdvcxgDIAEoCzIyLnlhbmRleC5j",
+            "bG91ZC5tZGIubW9uZ29kYi52MS5Nb25nb2RiU3BlYzRfMC5Nb25nb3MaiAEK",
+            "Bk1vbmdvZBJDCgZjb25maWcYASABKAsyMy55YW5kZXguY2xvdWQubWRiLm1v",
+            "bmdvZGIudjEuY29uZmlnLk1vbmdvZENvbmZpZzRfMBI5CglyZXNvdXJjZXMY",
+            "AiABKAsyJi55YW5kZXguY2xvdWQubWRiLm1vbmdvZGIudjEuUmVzb3VyY2Vz",
+            "GowBCghNb25nb0NmZxJFCgZjb25maWcYASABKAsyNS55YW5kZXguY2xvdWQu",
+            "bWRiLm1vbmdvZGIudjEuY29uZmlnLk1vbmdvQ2ZnQ29uZmlnNF8wEjkKCXJl",
+            "c291cmNlcxgCIAEoCzImLnlhbmRleC5jbG91ZC5tZGIubW9uZ29kYi52MS5S",
+            "ZXNvdXJjZXMaiAEKBk1vbmdvcxJDCgZjb25maWcYASABKAsyMy55YW5kZXgu",
+            "Y2xvdWQubWRiLm1vbmdvZGIudjEuY29uZmlnLk1vbmdvc0NvbmZpZzRfMBI5",
+            "CglyZXNvdXJjZXMYAiABKAsyJi55YW5kZXguY2xvdWQubWRiLm1vbmdvZGIu",
+            "djEuUmVzb3VyY2VzIoUFCg5Nb25nb2RiU3BlYzRfMhJCCgZtb25nb2QYASAB",
+            "KAsyMi55YW5kZXguY2xvdWQubWRiLm1vbmdvZGIudjEuTW9uZ29kYlNwZWM0",
+            "XzIuTW9uZ29kEkYKCG1vbmdvY2ZnGAIgASgLMjQueWFuZGV4LmNsb3VkLm1k",
+            "Yi5tb25nb2RiLnYxLk1vbmdvZGJTcGVjNF8yLk1vbmdvQ2ZnEkIKBm1vbmdv",
+            "cxgDIAEoCzIyLnlhbmRleC5jbG91ZC5tZGIubW9uZ29kYi52MS5Nb25nb2Ri",
+            "U3BlYzRfMi5Nb25nb3MaiAEKBk1vbmdvZBJDCgZjb25maWcYASABKAsyMy55",
+            "YW5kZXguY2xvdWQubWRiLm1vbmdvZGIudjEuY29uZmlnLk1vbmdvZENvbmZp",
+            "ZzRfMhI5CglyZXNvdXJjZXMYAiABKAsyJi55YW5kZXguY2xvdWQubWRiLm1v",
+            "bmdvZGIudjEuUmVzb3VyY2VzGowBCghNb25nb0NmZxJFCgZjb25maWcYASAB",
+            "KAsyNS55YW5kZXguY2xvdWQubWRiLm1vbmdvZGIudjEuY29uZmlnLk1vbmdv",
+            "Q2ZnQ29uZmlnNF8yEjkKCXJlc291cmNlcxgCIAEoCzImLnlhbmRleC5jbG91",
+            "ZC5tZGIubW9uZ29kYi52MS5SZXNvdXJjZXMaiAEKBk1vbmdvcxJDCgZjb25m",
+            "aWcYASABKAsyMy55YW5kZXguY2xvdWQubWRiLm1vbmdvZGIudjEuY29uZmln",
+            "Lk1vbmdvc0NvbmZpZzRfMhI5CglyZXNvdXJjZXMYAiABKAsyJi55YW5kZXgu",
+            "Y2xvdWQubWRiLm1vbmdvZGIudjEuUmVzb3VyY2VzIpkDCgpDb25maWdTcGVj",
+            "Eg8KB3ZlcnNpb24YASABKAkSJQodZmVhdHVyZV9jb21wYXRpYmlsaXR5X3Zl",
+            "cnNpb24YBSABKAkSRwoQbW9uZ29kYl9zcGVjXzNfNhgCIAEoCzIrLnlhbmRl",
+            "eC5jbG91ZC5tZGIubW9uZ29kYi52MS5Nb25nb2RiU3BlYzNfNkgAEkcKEG1v",
+            "bmdvZGJfc3BlY180XzAYBCABKAsyKy55YW5kZXguY2xvdWQubWRiLm1vbmdv",
+            "ZGIudjEuTW9uZ29kYlNwZWM0XzBIABJHChBtb25nb2RiX3NwZWNfNF8yGAcg",
+            "ASgLMisueWFuZGV4LmNsb3VkLm1kYi5tb25nb2RiLnYxLk1vbmdvZGJTcGVj",
+            "NF8ySAASMwoTYmFja3VwX3dpbmRvd19zdGFydBgDIAEoCzIWLmdvb2dsZS50",
+            "eXBlLlRpbWVPZkRheRIzCgZhY2Nlc3MYBiABKAsyIy55YW5kZXguY2xvdWQu",
+            "bWRiLm1vbmdvZGIudjEuQWNjZXNzQg4KDG1vbmdvZGJfc3BlYzK/HwoOQ2x1",
+            "c3RlclNlcnZpY2USjgEKA0dldBIuLnlhbmRleC5jbG91ZC5tZGIubW9uZ29k",
+            "Yi52MS5HZXRDbHVzdGVyUmVxdWVzdBokLnlhbmRleC5jbG91ZC5tZGIubW9u",
+            "Z29kYi52MS5DbHVzdGVyIjGC0+STAisSKS9tYW5hZ2VkLW1vbmdvZGIvdjEv",
+            "Y2x1c3RlcnMve2NsdXN0ZXJfaWR9EpEBCgRMaXN0EjAueWFuZGV4LmNsb3Vk",
+            "Lm1kYi5tb25nb2RiLnYxLkxpc3RDbHVzdGVyc1JlcXVlc3QaMS55YW5kZXgu",
+            "Y2xvdWQubWRiLm1vbmdvZGIudjEuTGlzdENsdXN0ZXJzUmVzcG9uc2UiJILT",
+            "5JMCHhIcL21hbmFnZWQtbW9uZ29kYi92MS9jbHVzdGVycxKrAQoGQ3JlYXRl",
+            "EjEueWFuZGV4LmNsb3VkLm1kYi5tb25nb2RiLnYxLkNyZWF0ZUNsdXN0ZXJS",
+            "ZXF1ZXN0GiEueWFuZGV4LmNsb3VkLm9wZXJhdGlvbi5PcGVyYXRpb24iS4LT",
+            "5JMCISIcL21hbmFnZWQtbW9uZ29kYi92MS9jbHVzdGVyczoBKrLSKiAKFUNy",
+            "ZWF0ZUNsdXN0ZXJNZXRhZGF0YRIHQ2x1c3RlchK4AQoGVXBkYXRlEjEueWFu",
+            "ZGV4LmNsb3VkLm1kYi5tb25nb2RiLnYxLlVwZGF0ZUNsdXN0ZXJSZXF1ZXN0",
+            "GiEueWFuZGV4LmNsb3VkLm9wZXJhdGlvbi5PcGVyYXRpb24iWILT5JMCLjIp",
+            "L21hbmFnZWQtbW9uZ29kYi92MS9jbHVzdGVycy97Y2x1c3Rlcl9pZH06ASqy",
+            "0iogChVVcGRhdGVDbHVzdGVyTWV0YWRhdGESB0NsdXN0ZXISwwEKBkRlbGV0",
+            "ZRIxLnlhbmRleC5jbG91ZC5tZGIubW9uZ29kYi52MS5EZWxldGVDbHVzdGVy",
+            "UmVxdWVzdBohLnlhbmRleC5jbG91ZC5vcGVyYXRpb24uT3BlcmF0aW9uImOC",
+            "0+STAisqKS9tYW5hZ2VkLW1vbmdvZGIvdjEvY2x1c3RlcnMve2NsdXN0ZXJf",
+            "aWR9stIqLgoVRGVsZXRlQ2x1c3Rlck1ldGFkYXRhEhVnb29nbGUucHJvdG9i",
+            "dWYuRW1wdHkSuAEKBVN0YXJ0EjAueWFuZGV4LmNsb3VkLm1kYi5tb25nb2Ri",
+            "LnYxLlN0YXJ0Q2x1c3RlclJlcXVlc3QaIS55YW5kZXguY2xvdWQub3BlcmF0",
+            "aW9uLk9wZXJhdGlvbiJagtPkkwIxIi8vbWFuYWdlZC1tb25nb2RiL3YxL2Ns",
+            "dXN0ZXJzL3tjbHVzdGVyX2lkfTpzdGFydLLSKh8KFFN0YXJ0Q2x1c3Rlck1l",
+            "dGFkYXRhEgdDbHVzdGVyErQBCgRTdG9wEi8ueWFuZGV4LmNsb3VkLm1kYi5t",
+            "b25nb2RiLnYxLlN0b3BDbHVzdGVyUmVxdWVzdBohLnlhbmRleC5jbG91ZC5v",
+            "cGVyYXRpb24uT3BlcmF0aW9uIliC0+STAjAiLi9tYW5hZ2VkLW1vbmdvZGIv",
+            "djEvY2x1c3RlcnMve2NsdXN0ZXJfaWR9OnN0b3Cy0ioeChNTdG9wQ2x1c3Rl",
+            "ck1ldGFkYXRhEgdDbHVzdGVyErcBCgRNb3ZlEi8ueWFuZGV4LmNsb3VkLm1k",
+            "Yi5tb25nb2RiLnYxLk1vdmVDbHVzdGVyUmVxdWVzdBohLnlhbmRleC5jbG91",
+            "ZC5vcGVyYXRpb24uT3BlcmF0aW9uIluC0+STAjMiLi9tYW5hZ2VkLW1vbmdv",
+            "ZGIvdjEvY2x1c3RlcnMve2NsdXN0ZXJfaWR9Om1vdmU6ASqy0ioeChNNb3Zl",
+            "Q2x1c3Rlck1ldGFkYXRhEgdDbHVzdGVyErwBCgZCYWNrdXASMS55YW5kZXgu",
+            "Y2xvdWQubWRiLm1vbmdvZGIudjEuQmFja3VwQ2x1c3RlclJlcXVlc3QaIS55",
+            "YW5kZXguY2xvdWQub3BlcmF0aW9uLk9wZXJhdGlvbiJcgtPkkwIyIjAvbWFu",
+            "YWdlZC1tb25nb2RiL3YxL2NsdXN0ZXJzL3tjbHVzdGVyX2lkfTpiYWNrdXCy",
+            "0iogChVCYWNrdXBDbHVzdGVyTWV0YWRhdGESB0NsdXN0ZXIStgEKB1Jlc3Rv",
+            "cmUSMi55YW5kZXguY2xvdWQubWRiLm1vbmdvZGIudjEuUmVzdG9yZUNsdXN0",
+            "ZXJSZXF1ZXN0GiEueWFuZGV4LmNsb3VkLm9wZXJhdGlvbi5PcGVyYXRpb24i",
+            "VILT5JMCKSIkL21hbmFnZWQtbW9uZ29kYi92MS9jbHVzdGVyczpyZXN0b3Jl",
+            "OgEqstIqIQoWUmVzdG9yZUNsdXN0ZXJNZXRhZGF0YRIHQ2x1c3RlchKtAQoI",
+            "TGlzdExvZ3MSMy55YW5kZXguY2xvdWQubWRiLm1vbmdvZGIudjEuTGlzdENs",
+            "dXN0ZXJMb2dzUmVxdWVzdBo0LnlhbmRleC5jbG91ZC5tZGIubW9uZ29kYi52",
+            "MS5MaXN0Q2x1c3RlckxvZ3NSZXNwb25zZSI2gtPkkwIwEi4vbWFuYWdlZC1t",
+            "b25nb2RiL3YxL2NsdXN0ZXJzL3tjbHVzdGVyX2lkfTpsb2dzEsUBCg5MaXN0",
+            "T3BlcmF0aW9ucxI5LnlhbmRleC5jbG91ZC5tZGIubW9uZ29kYi52MS5MaXN0",
+            "Q2x1c3Rlck9wZXJhdGlvbnNSZXF1ZXN0GjoueWFuZGV4LmNsb3VkLm1kYi5t",
+            "b25nb2RiLnYxLkxpc3RDbHVzdGVyT3BlcmF0aW9uc1Jlc3BvbnNlIjyC0+ST",
+            "AjYSNC9tYW5hZ2VkLW1vbmdvZGIvdjEvY2x1c3RlcnMve2NsdXN0ZXJfaWR9",
+            "L29wZXJhdGlvbnMSuQEKC0xpc3RCYWNrdXBzEjYueWFuZGV4LmNsb3VkLm1k",
+            "Yi5tb25nb2RiLnYxLkxpc3RDbHVzdGVyQmFja3Vwc1JlcXVlc3QaNy55YW5k",
+            "ZXguY2xvdWQubWRiLm1vbmdvZGIudjEuTGlzdENsdXN0ZXJCYWNrdXBzUmVz",
+            "cG9uc2UiOYLT5JMCMxIxL21hbmFnZWQtbW9uZ29kYi92MS9jbHVzdGVycy97",
+            "Y2x1c3Rlcl9pZH0vYmFja3VwcxKxAQoJTGlzdEhvc3RzEjQueWFuZGV4LmNs",
+            "b3VkLm1kYi5tb25nb2RiLnYxLkxpc3RDbHVzdGVySG9zdHNSZXF1ZXN0GjUu",
+            "eWFuZGV4LmNsb3VkLm1kYi5tb25nb2RiLnYxLkxpc3RDbHVzdGVySG9zdHNS",
+            "ZXNwb25zZSI3gtPkkwIxEi8vbWFuYWdlZC1tb25nb2RiL3YxL2NsdXN0ZXJz",
+            "L3tjbHVzdGVyX2lkfS9ob3N0cxLeAQoIQWRkSG9zdHMSMy55YW5kZXguY2xv",
+            "dWQubWRiLm1vbmdvZGIudjEuQWRkQ2x1c3Rlckhvc3RzUmVxdWVzdBohLnlh",
+            "bmRleC5jbG91ZC5vcGVyYXRpb24uT3BlcmF0aW9uInqC0+STAkAiOy9tYW5h",
+            "Z2VkLW1vbmdvZGIvdjEvY2x1c3RlcnMve2NsdXN0ZXJfaWR9L2hvc3RzOmJh",
+            "dGNoQ3JlYXRlOgEqstIqMAoXQWRkQ2x1c3Rlckhvc3RzTWV0YWRhdGESFWdv",
+            "b2dsZS5wcm90b2J1Zi5FbXB0eRLnAQoLRGVsZXRlSG9zdHMSNi55YW5kZXgu",
+            "Y2xvdWQubWRiLm1vbmdvZGIudjEuRGVsZXRlQ2x1c3Rlckhvc3RzUmVxdWVz",
+            "dBohLnlhbmRleC5jbG91ZC5vcGVyYXRpb24uT3BlcmF0aW9uIn2C0+STAkAi",
+            "Oy9tYW5hZ2VkLW1vbmdvZGIvdjEvY2x1c3RlcnMve2NsdXN0ZXJfaWR9L2hv",
+            "c3RzOmJhdGNoRGVsZXRlOgEqstIqMwoaRGVsZXRlQ2x1c3Rlckhvc3RzTWV0",
+            "YWRhdGESFWdvb2dsZS5wcm90b2J1Zi5FbXB0eRLtAQoORW5hYmxlU2hhcmRp",
+            "bmcSOS55YW5kZXguY2xvdWQubWRiLm1vbmdvZGIudjEuRW5hYmxlQ2x1c3Rl",
+            "clNoYXJkaW5nUmVxdWVzdBohLnlhbmRleC5jbG91ZC5vcGVyYXRpb24uT3Bl",
+            "cmF0aW9uIn2C0+STAj0iOC9tYW5hZ2VkLW1vbmdvZGIvdjEvY2x1c3RlcnMv",
+            "e2NsdXN0ZXJfaWR9OmVuYWJsZVNoYXJkaW5nOgEqstIqNgodRW5hYmxlQ2x1",
+            "c3RlclNoYXJkaW5nTWV0YWRhdGESFWdvb2dsZS5wcm90b2J1Zi5FbXB0eRKq",
+            "AQoIR2V0U2hhcmQSMy55YW5kZXguY2xvdWQubWRiLm1vbmdvZGIudjEuR2V0",
+            "Q2x1c3RlclNoYXJkUmVxdWVzdBoiLnlhbmRleC5jbG91ZC5tZGIubW9uZ29k",
+            "Yi52MS5TaGFyZCJFgtPkkwI/Ej0vbWFuYWdlZC1tb25nb2RiL3YxL2NsdXN0",
+            "ZXJzL3tjbHVzdGVyX2lkfS9zaGFyZHMve3NoYXJkX25hbWV9ErUBCgpMaXN0",
+            "U2hhcmRzEjUueWFuZGV4LmNsb3VkLm1kYi5tb25nb2RiLnYxLkxpc3RDbHVz",
+            "dGVyU2hhcmRzUmVxdWVzdBo2LnlhbmRleC5jbG91ZC5tZGIubW9uZ29kYi52",
+            "MS5MaXN0Q2x1c3RlclNoYXJkc1Jlc3BvbnNlIjiC0+STAjISMC9tYW5hZ2Vk",
+            "LW1vbmdvZGIvdjEvY2x1c3RlcnMve2NsdXN0ZXJfaWR9L3NoYXJkcxLDAQoI",
+            "QWRkU2hhcmQSMy55YW5kZXguY2xvdWQubWRiLm1vbmdvZGIudjEuQWRkQ2x1",
+            "c3RlclNoYXJkUmVxdWVzdBohLnlhbmRleC5jbG91ZC5vcGVyYXRpb24uT3Bl",
+            "cmF0aW9uIl+C0+STAjUiMC9tYW5hZ2VkLW1vbmdvZGIvdjEvY2x1c3RlcnMv",
+            "e2NsdXN0ZXJfaWR9L3NoYXJkczoBKrLSKiAKF0FkZENsdXN0ZXJTaGFyZE1l",
+            "dGFkYXRhEgVTaGFyZBLmAQoLRGVsZXRlU2hhcmQSNi55YW5kZXguY2xvdWQu",
+            "bWRiLm1vbmdvZGIudjEuRGVsZXRlQ2x1c3RlclNoYXJkUmVxdWVzdBohLnlh",
+            "bmRleC5jbG91ZC5vcGVyYXRpb24uT3BlcmF0aW9uInyC0+STAj8qPS9tYW5h",
+            "Z2VkLW1vbmdvZGIvdjEvY2x1c3RlcnMve2NsdXN0ZXJfaWR9L3NoYXJkcy97",
+            "c2hhcmRfbmFtZX2y0iozChpEZWxldGVDbHVzdGVyU2hhcmRNZXRhZGF0YRIV",
+            "Z29vZ2xlLnByb3RvYnVmLkVtcHR5QmoKH3lhbmRleC5jbG91ZC5hcGkubWRi",
+            "Lm1vbmdvZGIudjFaR2dpdGh1Yi5jb20veWFuZGV4LWNsb3VkL2dvLWdlbnBy",
+            "b3RvL3lhbmRleC9jbG91ZC9tZGIvbW9uZ29kYi92MTttb25nb2RiYgZwcm90",
+            "bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Google.Type.TimeofdayReflection.Descriptor, global::Yandex.Api.OperationReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, global::Yandex.Cloud.Mdb.Mongodb.V1.BackupReflection.Descriptor, global::Yandex.Cloud.Mdb.Mongodb.V1.ClusterReflection.Descriptor, global::Yandex.Cloud.Mdb.Mongodb.V1.DatabaseReflection.Descriptor, global::Yandex.Cloud.Mdb.Mongodb.V1.UserReflection.Descriptor, global::Yandex.Cloud.Mdb.Mongodb.V1.Config.Mongodb36Reflection.Descriptor, global::Yandex.Cloud.Mdb.Mongodb.V1.Config.Mongodb40Reflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Google.Type.TimeofdayReflection.Descriptor, global::Yandex.Cloud.Api.OperationReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, global::Yandex.Cloud.Mdb.Mongodb.V1.BackupReflection.Descriptor, global::Yandex.Cloud.Mdb.Mongodb.V1.ClusterReflection.Descriptor, global::Yandex.Cloud.Mdb.Mongodb.V1.DatabaseReflection.Descriptor, global::Yandex.Cloud.Mdb.Mongodb.V1.UserReflection.Descriptor, global::Yandex.Cloud.Mdb.Mongodb.V1.Config.Mongodb36Reflection.Descriptor, global::Yandex.Cloud.Mdb.Mongodb.V1.Config.Mongodb40Reflection.Descriptor, global::Yandex.Cloud.Mdb.Mongodb.V1.Config.Mongodb42Reflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.GetClusterRequest), global::Yandex.Cloud.Mdb.Mongodb.V1.GetClusterRequest.Parser, new[]{ "ClusterId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.ListClustersRequest), global::Yandex.Cloud.Mdb.Mongodb.V1.ListClustersRequest.Parser, new[]{ "FolderId", "PageSize", "PageToken", "Filter" }, null, null, null),
@@ -317,7 +337,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.MoveClusterMetadata), global::Yandex.Cloud.Mdb.Mongodb.V1.MoveClusterMetadata.Parser, new[]{ "ClusterId", "SourceFolderId", "DestinationFolderId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.BackupClusterRequest), global::Yandex.Cloud.Mdb.Mongodb.V1.BackupClusterRequest.Parser, new[]{ "ClusterId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.BackupClusterMetadata), global::Yandex.Cloud.Mdb.Mongodb.V1.BackupClusterMetadata.Parser, new[]{ "ClusterId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.RestoreClusterRequest), global::Yandex.Cloud.Mdb.Mongodb.V1.RestoreClusterRequest.Parser, new[]{ "BackupId", "Name", "Description", "Labels", "Environment", "ConfigSpec", "HostSpecs", "NetworkId" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.RestoreClusterRequest), global::Yandex.Cloud.Mdb.Mongodb.V1.RestoreClusterRequest.Parser, new[]{ "BackupId", "Name", "Description", "Labels", "Environment", "ConfigSpec", "HostSpecs", "NetworkId", "FolderId" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.RestoreClusterMetadata), global::Yandex.Cloud.Mdb.Mongodb.V1.RestoreClusterMetadata.Parser, new[]{ "ClusterId", "BackupId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.LogRecord), global::Yandex.Cloud.Mdb.Mongodb.V1.LogRecord.Parser, new[]{ "Timestamp", "Message" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.ListClusterLogsRequest), global::Yandex.Cloud.Mdb.Mongodb.V1.ListClusterLogsRequest.Parser, new[]{ "ClusterId", "ColumnFilter", "ServiceType", "FromTime", "ToTime", "PageSize", "PageToken" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.ListClusterLogsRequest.Types.ServiceType) }, null),
@@ -349,7 +369,10 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_0), global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_0.Parser, new[]{ "Mongod", "Mongocfg", "Mongos" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_0.Types.Mongod), global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_0.Types.Mongod.Parser, new[]{ "Config", "Resources" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_0.Types.MongoCfg), global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_0.Types.MongoCfg.Parser, new[]{ "Config", "Resources" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_0.Types.Mongos), global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_0.Types.Mongos.Parser, new[]{ "Config", "Resources" }, null, null, null)}),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.ConfigSpec), global::Yandex.Cloud.Mdb.Mongodb.V1.ConfigSpec.Parser, new[]{ "Version", "FeatureCompatibilityVersion", "MongodbSpec36", "MongodbSpec40", "BackupWindowStart" }, new[]{ "MongodbSpec" }, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_2), global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_2.Parser, new[]{ "Mongod", "Mongocfg", "Mongos" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_2.Types.Mongod), global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_2.Types.Mongod.Parser, new[]{ "Config", "Resources" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_2.Types.MongoCfg), global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_2.Types.MongoCfg.Parser, new[]{ "Config", "Resources" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_2.Types.Mongos), global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_2.Types.Mongos.Parser, new[]{ "Config", "Resources" }, null, null, null)}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.ConfigSpec), global::Yandex.Cloud.Mdb.Mongodb.V1.ConfigSpec.Parser, new[]{ "Version", "FeatureCompatibilityVersion", "MongodbSpec36", "MongodbSpec40", "MongodbSpec42", "BackupWindowStart", "Access" }, new[]{ "MongodbSpec" }, null, null)
           }));
     }
     #endregion
@@ -2093,7 +2116,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
     public const int ClusterIdFieldNumber = 1;
     private string clusterId_ = "";
     /// <summary>
-    /// Required. ID of the MongoDB cluster to start.
+    /// ID of the MongoDB cluster to start.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ClusterId {
@@ -2225,7 +2248,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
     public const int ClusterIdFieldNumber = 1;
     private string clusterId_ = "";
     /// <summary>
-    /// Required. ID of the MongoDB cluster.
+    /// ID of the MongoDB cluster.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ClusterId {
@@ -2357,7 +2380,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
     public const int ClusterIdFieldNumber = 1;
     private string clusterId_ = "";
     /// <summary>
-    /// Required. ID of the MongoDB cluster to stop.
+    /// ID of the MongoDB cluster to stop.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ClusterId {
@@ -2489,7 +2512,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
     public const int ClusterIdFieldNumber = 1;
     private string clusterId_ = "";
     /// <summary>
-    /// Required. ID of the MongoDB cluster.
+    /// ID of the MongoDB cluster.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ClusterId {
@@ -3238,6 +3261,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
       configSpec_ = other.configSpec_ != null ? other.configSpec_.Clone() : null;
       hostSpecs_ = other.hostSpecs_.Clone();
       networkId_ = other.networkId_;
+      folderId_ = other.folderId_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -3349,13 +3373,27 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
     public const int NetworkIdFieldNumber = 8;
     private string networkId_ = "";
     /// <summary>
-    /// Required. ID of the network to create the MongoDB cluster in.
+    /// ID of the network to create the MongoDB cluster in.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string NetworkId {
       get { return networkId_; }
       set {
         networkId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "folder_id" field.</summary>
+    public const int FolderIdFieldNumber = 9;
+    private string folderId_ = "";
+    /// <summary>
+    /// Required. ID of the folder to create the MongoDB cluster in.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string FolderId {
+      get { return folderId_; }
+      set {
+        folderId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
@@ -3380,6 +3418,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
       if (!object.Equals(ConfigSpec, other.ConfigSpec)) return false;
       if(!hostSpecs_.Equals(other.hostSpecs_)) return false;
       if (NetworkId != other.NetworkId) return false;
+      if (FolderId != other.FolderId) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -3394,6 +3433,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
       if (configSpec_ != null) hash ^= ConfigSpec.GetHashCode();
       hash ^= hostSpecs_.GetHashCode();
       if (NetworkId.Length != 0) hash ^= NetworkId.GetHashCode();
+      if (FolderId.Length != 0) hash ^= FolderId.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -3433,6 +3473,10 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
         output.WriteRawTag(66);
         output.WriteString(NetworkId);
       }
+      if (FolderId.Length != 0) {
+        output.WriteRawTag(74);
+        output.WriteString(FolderId);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -3460,6 +3504,9 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
       size += hostSpecs_.CalculateSize(_repeated_hostSpecs_codec);
       if (NetworkId.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(NetworkId);
+      }
+      if (FolderId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(FolderId);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -3494,6 +3541,9 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
       hostSpecs_.Add(other.hostSpecs_);
       if (other.NetworkId.Length != 0) {
         NetworkId = other.NetworkId;
+      }
+      if (other.FolderId.Length != 0) {
+        FolderId = other.FolderId;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -3539,6 +3589,10 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
           }
           case 66: {
             NetworkId = input.ReadString();
+            break;
+          }
+          case 74: {
+            FolderId = input.ReadString();
             break;
           }
         }
@@ -3915,7 +3969,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
     public const int ClusterIdFieldNumber = 1;
     private string clusterId_ = "";
     /// <summary>
-    /// Required. ID of the MongoDB cluster to request logs for.
+    /// ID of the MongoDB cluster to request logs for.
     /// To get the MongoDB cluster ID use a [ClusterService.List] request.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4406,7 +4460,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
     public const int ClusterIdFieldNumber = 1;
     private string clusterId_ = "";
     /// <summary>
-    /// Required. ID of the MongoDB Cluster resource to list operations for.
+    /// ID of the MongoDB Cluster resource to list operations for.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ClusterId {
@@ -4756,7 +4810,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
     public const int ClusterIdFieldNumber = 1;
     private string clusterId_ = "";
     /// <summary>
-    /// Required. ID of the MongoDB cluster.
+    /// ID of the MongoDB cluster.
     /// To get the MongoDB cluster ID, use a [ClusterService.List] request.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5107,7 +5161,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
     public const int ClusterIdFieldNumber = 1;
     private string clusterId_ = "";
     /// <summary>
-    /// Required. ID of the MongoDB cluster.
+    /// ID of the MongoDB cluster.
     /// To get the MongoDB cluster ID, use a [ClusterService.List] request.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5457,7 +5511,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
     public const int ClusterIdFieldNumber = 1;
     private string clusterId_ = "";
     /// <summary>
-    /// Required. ID of the MongoDB cluster to add hosts to.
+    /// ID of the MongoDB cluster to add hosts to.
     /// To get the MongoDB cluster ID use a [ClusterService.List] request.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5768,7 +5822,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
     public const int ClusterIdFieldNumber = 1;
     private string clusterId_ = "";
     /// <summary>
-    /// Required. ID of the MongoDB cluster to remove hosts from.
+    /// ID of the MongoDB cluster to remove hosts from.
     /// To get the MongoDB cluster ID, use a [ClusterService.List] request.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6081,7 +6135,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
     public const int ClusterIdFieldNumber = 1;
     private string clusterId_ = "";
     /// <summary>
-    /// Required. ID of the MongoDB cluster.
+    /// ID of the MongoDB cluster to enable sharding for.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ClusterId {
@@ -6094,6 +6148,9 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
     /// <summary>Field number for the "mongocfg" field.</summary>
     public const int MongocfgFieldNumber = 2;
     private global::Yandex.Cloud.Mdb.Mongodb.V1.EnableClusterShardingRequest.Types.MongoCfg mongocfg_;
+    /// <summary>
+    /// mongocfg specification for sharding.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Mdb.Mongodb.V1.EnableClusterShardingRequest.Types.MongoCfg Mongocfg {
       get { return mongocfg_; }
@@ -6105,6 +6162,9 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
     /// <summary>Field number for the "mongos" field.</summary>
     public const int MongosFieldNumber = 3;
     private global::Yandex.Cloud.Mdb.Mongodb.V1.EnableClusterShardingRequest.Types.Mongos mongos_;
+    /// <summary>
+    /// mongos specification for sharding.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Mdb.Mongodb.V1.EnableClusterShardingRequest.Types.Mongos Mongos {
       get { return mongos_; }
@@ -6118,6 +6178,9 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
     private static readonly pb::FieldCodec<global::Yandex.Cloud.Mdb.Mongodb.V1.HostSpec> _repeated_hostSpecs_codec
         = pb::FieldCodec.ForMessage(34, global::Yandex.Cloud.Mdb.Mongodb.V1.HostSpec.Parser);
     private readonly pbc::RepeatedField<global::Yandex.Cloud.Mdb.Mongodb.V1.HostSpec> hostSpecs_ = new pbc::RepeatedField<global::Yandex.Cloud.Mdb.Mongodb.V1.HostSpec>();
+    /// <summary>
+    /// Configurations for mongos and mongocfg hosts.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::RepeatedField<global::Yandex.Cloud.Mdb.Mongodb.V1.HostSpec> HostSpecs {
       get { return hostSpecs_; }
@@ -6299,6 +6362,9 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
         /// <summary>Field number for the "resources" field.</summary>
         public const int ResourcesFieldNumber = 1;
         private global::Yandex.Cloud.Mdb.Mongodb.V1.Resources resources_;
+        /// <summary>
+        /// Resources for mongocfg hosts.
+        /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public global::Yandex.Cloud.Mdb.Mongodb.V1.Resources Resources {
           get { return resources_; }
@@ -6434,6 +6500,9 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
         /// <summary>Field number for the "resources" field.</summary>
         public const int ResourcesFieldNumber = 1;
         private global::Yandex.Cloud.Mdb.Mongodb.V1.Resources resources_;
+        /// <summary>
+        /// Resources for mongos hosts.
+        /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public global::Yandex.Cloud.Mdb.Mongodb.V1.Resources Resources {
           get { return resources_; }
@@ -6575,7 +6644,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
     public const int ClusterIdFieldNumber = 1;
     private string clusterId_ = "";
     /// <summary>
-    /// Required. ID of the MongoDB cluster.
+    /// ID of the MongoDB cluster that sharding is being enabled for.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ClusterId {
@@ -6707,6 +6776,10 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
     /// <summary>Field number for the "cluster_id" field.</summary>
     public const int ClusterIdFieldNumber = 1;
     private string clusterId_ = "";
+    /// <summary>
+    /// ID of the MongoDB cluster that the shard belongs to.
+    /// To get the cluster ID use a [ClusterService.List] request.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ClusterId {
       get { return clusterId_; }
@@ -6718,6 +6791,10 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
     /// <summary>Field number for the "shard_name" field.</summary>
     public const int ShardNameFieldNumber = 2;
     private string shardName_ = "";
+    /// <summary>
+    /// Name of the MongoDB shard to return.
+    /// To get the name of the shard use a [ClusterService.ListShards] request.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ShardName {
       get { return shardName_; }
@@ -6865,6 +6942,10 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
     /// <summary>Field number for the "cluster_id" field.</summary>
     public const int ClusterIdFieldNumber = 1;
     private string clusterId_ = "";
+    /// <summary>
+    /// ID of the MongoDB cluster to list databases in.
+    /// To get the cluster ID, use a [ClusterService.List] request.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ClusterId {
       get { return clusterId_; }
@@ -6876,6 +6957,11 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
     /// <summary>Field number for the "page_size" field.</summary>
     public const int PageSizeFieldNumber = 2;
     private long pageSize_;
+    /// <summary>
+    /// The maximum number of results per page to return. If the number of available
+    /// results is larger than [page_size], the service returns a [ListClusterShardsResponse.next_page_token]
+    /// that can be used to get the next page of results in subsequent list requests.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long PageSize {
       get { return pageSize_; }
@@ -6887,6 +6973,10 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
     /// <summary>Field number for the "page_token" field.</summary>
     public const int PageTokenFieldNumber = 3;
     private string pageToken_ = "";
+    /// <summary>
+    /// Page token. To get the next page of results, set [page_token] to the
+    /// [ListClusterShardsResponse.next_page_token] returned by a previous list request.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string PageToken {
       get { return pageToken_; }
@@ -7051,6 +7141,9 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
     private static readonly pb::FieldCodec<global::Yandex.Cloud.Mdb.Mongodb.V1.Shard> _repeated_shards_codec
         = pb::FieldCodec.ForMessage(10, global::Yandex.Cloud.Mdb.Mongodb.V1.Shard.Parser);
     private readonly pbc::RepeatedField<global::Yandex.Cloud.Mdb.Mongodb.V1.Shard> shards_ = new pbc::RepeatedField<global::Yandex.Cloud.Mdb.Mongodb.V1.Shard>();
+    /// <summary>
+    /// List of MongoDB shards.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::RepeatedField<global::Yandex.Cloud.Mdb.Mongodb.V1.Shard> Shards {
       get { return shards_; }
@@ -7059,6 +7152,12 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
     /// <summary>Field number for the "next_page_token" field.</summary>
     public const int NextPageTokenFieldNumber = 2;
     private string nextPageToken_ = "";
+    /// <summary>
+    /// This token allows you to get the next page of results for list requests. If the number of results
+    /// is larger than [ListClusterShardsRequest.page_size], use the [next_page_token] as the value
+    /// for the [ListClusterShardsRequest.page_token] parameter in the next list request. Each subsequent
+    /// list request will have its own [next_page_token] to continue paging through the results.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string NextPageToken {
       get { return nextPageToken_; }
@@ -7199,6 +7298,10 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
     /// <summary>Field number for the "cluster_id" field.</summary>
     public const int ClusterIdFieldNumber = 1;
     private string clusterId_ = "";
+    /// <summary>
+    /// ID of the MongoDB cluster to add a shard to.
+    /// To get the cluster ID, use a [ClusterService.List] request.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ClusterId {
       get { return clusterId_; }
@@ -7210,6 +7313,9 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
     /// <summary>Field number for the "shard_name" field.</summary>
     public const int ShardNameFieldNumber = 2;
     private string shardName_ = "";
+    /// <summary>
+    /// Name of the MongoDB shard to create.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ShardName {
       get { return shardName_; }
@@ -7223,6 +7329,9 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
     private static readonly pb::FieldCodec<global::Yandex.Cloud.Mdb.Mongodb.V1.HostSpec> _repeated_hostSpecs_codec
         = pb::FieldCodec.ForMessage(26, global::Yandex.Cloud.Mdb.Mongodb.V1.HostSpec.Parser);
     private readonly pbc::RepeatedField<global::Yandex.Cloud.Mdb.Mongodb.V1.HostSpec> hostSpecs_ = new pbc::RepeatedField<global::Yandex.Cloud.Mdb.Mongodb.V1.HostSpec>();
+    /// <summary>
+    /// Configurations for mongod hosts to be created with the shard.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::RepeatedField<global::Yandex.Cloud.Mdb.Mongodb.V1.HostSpec> HostSpecs {
       get { return hostSpecs_; }
@@ -7375,6 +7484,9 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
     /// <summary>Field number for the "cluster_id" field.</summary>
     public const int ClusterIdFieldNumber = 1;
     private string clusterId_ = "";
+    /// <summary>
+    /// ID of the MongoDB cluster that a shard is being added to.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ClusterId {
       get { return clusterId_; }
@@ -7386,6 +7498,9 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
     /// <summary>Field number for the "shard_name" field.</summary>
     public const int ShardNameFieldNumber = 2;
     private string shardName_ = "";
+    /// <summary>
+    /// Name of the shard being added.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ShardName {
       get { return shardName_; }
@@ -7532,6 +7647,10 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
     /// <summary>Field number for the "cluster_id" field.</summary>
     public const int ClusterIdFieldNumber = 1;
     private string clusterId_ = "";
+    /// <summary>
+    /// ID of the MongoDB cluster to delete a shard in.
+    /// To get the cluster ID, use a [ClusterService.List] request.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ClusterId {
       get { return clusterId_; }
@@ -7543,6 +7662,10 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
     /// <summary>Field number for the "shard_name" field.</summary>
     public const int ShardNameFieldNumber = 2;
     private string shardName_ = "";
+    /// <summary>
+    /// Name of the MongoDB shard to delete.
+    /// To get the name of the shard use a [ClusterService.ListShards] request.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ShardName {
       get { return shardName_; }
@@ -7689,6 +7812,9 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
     /// <summary>Field number for the "cluster_id" field.</summary>
     public const int ClusterIdFieldNumber = 1;
     private string clusterId_ = "";
+    /// <summary>
+    /// ID of the MongoDB cluster that a shard is being deleted in.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ClusterId {
       get { return clusterId_; }
@@ -7700,6 +7826,9 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
     /// <summary>Field number for the "shard_name" field.</summary>
     public const int ShardNameFieldNumber = 2;
     private string shardName_ = "";
+    /// <summary>
+    /// Name of the shard being deleted.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ShardName {
       get { return shardName_; }
@@ -7915,6 +8044,9 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
     /// <summary>Field number for the "shard_name" field.</summary>
     public const int ShardNameFieldNumber = 5;
     private string shardName_ = "";
+    /// <summary>
+    /// Name of the shard that the host belongs to.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ShardName {
       get { return shardName_; }
@@ -8111,7 +8243,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
     public const int MongodFieldNumber = 1;
     private global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec3_6.Types.Mongod mongod_;
     /// <summary>
-    /// Configuration and resource allocation for a mongod host.
+    /// Configuration and resource allocation for mongod 3.6 hosts.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec3_6.Types.Mongod Mongod {
@@ -8125,7 +8257,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
     public const int MongocfgFieldNumber = 2;
     private global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec3_6.Types.MongoCfg mongocfg_;
     /// <summary>
-    /// Configuration and resource allocation for a mongocfg host.
+    /// Configuration and resource allocation for mongocfg 3.6 hosts.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec3_6.Types.MongoCfg Mongocfg {
@@ -8139,7 +8271,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
     public const int MongosFieldNumber = 3;
     private global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec3_6.Types.Mongos mongos_;
     /// <summary>
-    /// Configuration and resource allocation for a mongos host.
+    /// Configuration and resource allocation for mongos 3.6 hosts.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec3_6.Types.Mongos Mongos {
@@ -8324,7 +8456,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
         public const int ConfigFieldNumber = 1;
         private global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongodConfig3_6 config_;
         /// <summary>
-        /// Configuration for a mongod 3.6 hosts.
+        /// Configuration for mongod 3.6 hosts.
         /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongodConfig3_6 Config {
@@ -8338,7 +8470,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
         public const int ResourcesFieldNumber = 2;
         private global::Yandex.Cloud.Mdb.Mongodb.V1.Resources resources_;
         /// <summary>
-        /// Resources allocated to mongod hosts.
+        /// Resources allocated to each mongod host.
         /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public global::Yandex.Cloud.Mdb.Mongodb.V1.Resources Resources {
@@ -8498,6 +8630,9 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
         /// <summary>Field number for the "config" field.</summary>
         public const int ConfigFieldNumber = 1;
         private global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongoCfgConfig3_6 config_;
+        /// <summary>
+        /// Configuration for mongocfg 3.6 hosts.
+        /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongoCfgConfig3_6 Config {
           get { return config_; }
@@ -8510,7 +8645,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
         public const int ResourcesFieldNumber = 2;
         private global::Yandex.Cloud.Mdb.Mongodb.V1.Resources resources_;
         /// <summary>
-        /// Resources allocated to mongocfg hosts.
+        /// Resources allocated to each mongocfg host.
         /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public global::Yandex.Cloud.Mdb.Mongodb.V1.Resources Resources {
@@ -8670,6 +8805,9 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
         /// <summary>Field number for the "config" field.</summary>
         public const int ConfigFieldNumber = 1;
         private global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongosConfig3_6 config_;
+        /// <summary>
+        /// Configuration for mongos 3.6 hosts.
+        /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongosConfig3_6 Config {
           get { return config_; }
@@ -8682,7 +8820,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
         public const int ResourcesFieldNumber = 2;
         private global::Yandex.Cloud.Mdb.Mongodb.V1.Resources resources_;
         /// <summary>
-        /// Resources allocated to mongos hosts.
+        /// Resources allocated to each mongos host.
         /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public global::Yandex.Cloud.Mdb.Mongodb.V1.Resources Resources {
@@ -8848,6 +8986,9 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
     /// <summary>Field number for the "mongod" field.</summary>
     public const int MongodFieldNumber = 1;
     private global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_0.Types.Mongod mongod_;
+    /// <summary>
+    /// Configuration and resource allocation for mongod 4.0 hosts.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_0.Types.Mongod Mongod {
       get { return mongod_; }
@@ -8859,6 +9000,9 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
     /// <summary>Field number for the "mongocfg" field.</summary>
     public const int MongocfgFieldNumber = 2;
     private global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_0.Types.MongoCfg mongocfg_;
+    /// <summary>
+    /// Configuration and resource allocation for mongocfg 4.0 hosts.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_0.Types.MongoCfg Mongocfg {
       get { return mongocfg_; }
@@ -8870,6 +9014,9 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
     /// <summary>Field number for the "mongos" field.</summary>
     public const int MongosFieldNumber = 3;
     private global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_0.Types.Mongos mongos_;
+    /// <summary>
+    /// Configuration and resource allocation for mongos 4.0 hosts.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_0.Types.Mongos Mongos {
       get { return mongos_; }
@@ -9053,7 +9200,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
         public const int ConfigFieldNumber = 1;
         private global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongodConfig4_0 config_;
         /// <summary>
-        /// Configuration for a mongod 4.0 host.
+        /// Configuration for mongod 4.0 hosts.
         /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongodConfig4_0 Config {
@@ -9067,7 +9214,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
         public const int ResourcesFieldNumber = 2;
         private global::Yandex.Cloud.Mdb.Mongodb.V1.Resources resources_;
         /// <summary>
-        /// Resources allocated to mongod hosts.
+        /// Resources allocated to each mongod host.
         /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public global::Yandex.Cloud.Mdb.Mongodb.V1.Resources Resources {
@@ -9227,6 +9374,9 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
         /// <summary>Field number for the "config" field.</summary>
         public const int ConfigFieldNumber = 1;
         private global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongoCfgConfig4_0 config_;
+        /// <summary>
+        /// Configuration for mongocfg 4.0 hosts.
+        /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongoCfgConfig4_0 Config {
           get { return config_; }
@@ -9239,7 +9389,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
         public const int ResourcesFieldNumber = 2;
         private global::Yandex.Cloud.Mdb.Mongodb.V1.Resources resources_;
         /// <summary>
-        /// Resources allocated to mongocfg hosts.
+        /// Resources allocated to each mongocfg host.
         /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public global::Yandex.Cloud.Mdb.Mongodb.V1.Resources Resources {
@@ -9399,6 +9549,9 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
         /// <summary>Field number for the "config" field.</summary>
         public const int ConfigFieldNumber = 1;
         private global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongosConfig4_0 config_;
+        /// <summary>
+        /// Configuration for mongos 4.0 hosts.
+        /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongosConfig4_0 Config {
           get { return config_; }
@@ -9411,7 +9564,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
         public const int ResourcesFieldNumber = 2;
         private global::Yandex.Cloud.Mdb.Mongodb.V1.Resources resources_;
         /// <summary>
-        /// Resources allocated to mongos hosts.
+        /// Resources allocated to each mongos host.
         /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public global::Yandex.Cloud.Mdb.Mongodb.V1.Resources Resources {
@@ -9538,6 +9691,750 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
 
   }
 
+  internal sealed partial class MongodbSpec4_2 : pb::IMessage<MongodbSpec4_2> {
+    private static readonly pb::MessageParser<MongodbSpec4_2> _parser = new pb::MessageParser<MongodbSpec4_2>(() => new MongodbSpec4_2());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<MongodbSpec4_2> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Mdb.Mongodb.V1.ClusterServiceReflection.Descriptor.MessageTypes[44]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public MongodbSpec4_2() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public MongodbSpec4_2(MongodbSpec4_2 other) : this() {
+      mongod_ = other.mongod_ != null ? other.mongod_.Clone() : null;
+      mongocfg_ = other.mongocfg_ != null ? other.mongocfg_.Clone() : null;
+      mongos_ = other.mongos_ != null ? other.mongos_.Clone() : null;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public MongodbSpec4_2 Clone() {
+      return new MongodbSpec4_2(this);
+    }
+
+    /// <summary>Field number for the "mongod" field.</summary>
+    public const int MongodFieldNumber = 1;
+    private global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_2.Types.Mongod mongod_;
+    /// <summary>
+    /// Configuration and resource allocation for mongod 4.2 hosts.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_2.Types.Mongod Mongod {
+      get { return mongod_; }
+      set {
+        mongod_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "mongocfg" field.</summary>
+    public const int MongocfgFieldNumber = 2;
+    private global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_2.Types.MongoCfg mongocfg_;
+    /// <summary>
+    /// Configuration and resource allocation for mongocfg 4.2 hosts.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_2.Types.MongoCfg Mongocfg {
+      get { return mongocfg_; }
+      set {
+        mongocfg_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "mongos" field.</summary>
+    public const int MongosFieldNumber = 3;
+    private global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_2.Types.Mongos mongos_;
+    /// <summary>
+    /// Configuration and resource allocation for mongos 4.2 hosts.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_2.Types.Mongos Mongos {
+      get { return mongos_; }
+      set {
+        mongos_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as MongodbSpec4_2);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(MongodbSpec4_2 other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (!object.Equals(Mongod, other.Mongod)) return false;
+      if (!object.Equals(Mongocfg, other.Mongocfg)) return false;
+      if (!object.Equals(Mongos, other.Mongos)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (mongod_ != null) hash ^= Mongod.GetHashCode();
+      if (mongocfg_ != null) hash ^= Mongocfg.GetHashCode();
+      if (mongos_ != null) hash ^= Mongos.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (mongod_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(Mongod);
+      }
+      if (mongocfg_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(Mongocfg);
+      }
+      if (mongos_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(Mongos);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (mongod_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Mongod);
+      }
+      if (mongocfg_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Mongocfg);
+      }
+      if (mongos_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Mongos);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(MongodbSpec4_2 other) {
+      if (other == null) {
+        return;
+      }
+      if (other.mongod_ != null) {
+        if (mongod_ == null) {
+          Mongod = new global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_2.Types.Mongod();
+        }
+        Mongod.MergeFrom(other.Mongod);
+      }
+      if (other.mongocfg_ != null) {
+        if (mongocfg_ == null) {
+          Mongocfg = new global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_2.Types.MongoCfg();
+        }
+        Mongocfg.MergeFrom(other.Mongocfg);
+      }
+      if (other.mongos_ != null) {
+        if (mongos_ == null) {
+          Mongos = new global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_2.Types.Mongos();
+        }
+        Mongos.MergeFrom(other.Mongos);
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            if (mongod_ == null) {
+              Mongod = new global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_2.Types.Mongod();
+            }
+            input.ReadMessage(Mongod);
+            break;
+          }
+          case 18: {
+            if (mongocfg_ == null) {
+              Mongocfg = new global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_2.Types.MongoCfg();
+            }
+            input.ReadMessage(Mongocfg);
+            break;
+          }
+          case 26: {
+            if (mongos_ == null) {
+              Mongos = new global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_2.Types.Mongos();
+            }
+            input.ReadMessage(Mongos);
+            break;
+          }
+        }
+      }
+    }
+
+    #region Nested types
+    /// <summary>Container for nested types declared in the MongodbSpec4_2 message type.</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static partial class Types {
+      internal sealed partial class Mongod : pb::IMessage<Mongod> {
+        private static readonly pb::MessageParser<Mongod> _parser = new pb::MessageParser<Mongod>(() => new Mongod());
+        private pb::UnknownFieldSet _unknownFields;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public static pb::MessageParser<Mongod> Parser { get { return _parser; } }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public static pbr::MessageDescriptor Descriptor {
+          get { return global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_2.Descriptor.NestedTypes[0]; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        pbr::MessageDescriptor pb::IMessage.Descriptor {
+          get { return Descriptor; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public Mongod() {
+          OnConstruction();
+        }
+
+        partial void OnConstruction();
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public Mongod(Mongod other) : this() {
+          config_ = other.config_ != null ? other.config_.Clone() : null;
+          resources_ = other.resources_ != null ? other.resources_.Clone() : null;
+          _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public Mongod Clone() {
+          return new Mongod(this);
+        }
+
+        /// <summary>Field number for the "config" field.</summary>
+        public const int ConfigFieldNumber = 1;
+        private global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongodConfig4_2 config_;
+        /// <summary>
+        /// Configuration for mongod 4.2 hosts.
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongodConfig4_2 Config {
+          get { return config_; }
+          set {
+            config_ = value;
+          }
+        }
+
+        /// <summary>Field number for the "resources" field.</summary>
+        public const int ResourcesFieldNumber = 2;
+        private global::Yandex.Cloud.Mdb.Mongodb.V1.Resources resources_;
+        /// <summary>
+        /// Resources allocated to each mongod host.
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public global::Yandex.Cloud.Mdb.Mongodb.V1.Resources Resources {
+          get { return resources_; }
+          set {
+            resources_ = value;
+          }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override bool Equals(object other) {
+          return Equals(other as Mongod);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public bool Equals(Mongod other) {
+          if (ReferenceEquals(other, null)) {
+            return false;
+          }
+          if (ReferenceEquals(other, this)) {
+            return true;
+          }
+          if (!object.Equals(Config, other.Config)) return false;
+          if (!object.Equals(Resources, other.Resources)) return false;
+          return Equals(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override int GetHashCode() {
+          int hash = 1;
+          if (config_ != null) hash ^= Config.GetHashCode();
+          if (resources_ != null) hash ^= Resources.GetHashCode();
+          if (_unknownFields != null) {
+            hash ^= _unknownFields.GetHashCode();
+          }
+          return hash;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override string ToString() {
+          return pb::JsonFormatter.ToDiagnosticString(this);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void WriteTo(pb::CodedOutputStream output) {
+          if (config_ != null) {
+            output.WriteRawTag(10);
+            output.WriteMessage(Config);
+          }
+          if (resources_ != null) {
+            output.WriteRawTag(18);
+            output.WriteMessage(Resources);
+          }
+          if (_unknownFields != null) {
+            _unknownFields.WriteTo(output);
+          }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public int CalculateSize() {
+          int size = 0;
+          if (config_ != null) {
+            size += 1 + pb::CodedOutputStream.ComputeMessageSize(Config);
+          }
+          if (resources_ != null) {
+            size += 1 + pb::CodedOutputStream.ComputeMessageSize(Resources);
+          }
+          if (_unknownFields != null) {
+            size += _unknownFields.CalculateSize();
+          }
+          return size;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void MergeFrom(Mongod other) {
+          if (other == null) {
+            return;
+          }
+          if (other.config_ != null) {
+            if (config_ == null) {
+              Config = new global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongodConfig4_2();
+            }
+            Config.MergeFrom(other.Config);
+          }
+          if (other.resources_ != null) {
+            if (resources_ == null) {
+              Resources = new global::Yandex.Cloud.Mdb.Mongodb.V1.Resources();
+            }
+            Resources.MergeFrom(other.Resources);
+          }
+          _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void MergeFrom(pb::CodedInputStream input) {
+          uint tag;
+          while ((tag = input.ReadTag()) != 0) {
+            switch(tag) {
+              default:
+                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+                break;
+              case 10: {
+                if (config_ == null) {
+                  Config = new global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongodConfig4_2();
+                }
+                input.ReadMessage(Config);
+                break;
+              }
+              case 18: {
+                if (resources_ == null) {
+                  Resources = new global::Yandex.Cloud.Mdb.Mongodb.V1.Resources();
+                }
+                input.ReadMessage(Resources);
+                break;
+              }
+            }
+          }
+        }
+
+      }
+
+      internal sealed partial class MongoCfg : pb::IMessage<MongoCfg> {
+        private static readonly pb::MessageParser<MongoCfg> _parser = new pb::MessageParser<MongoCfg>(() => new MongoCfg());
+        private pb::UnknownFieldSet _unknownFields;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public static pb::MessageParser<MongoCfg> Parser { get { return _parser; } }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public static pbr::MessageDescriptor Descriptor {
+          get { return global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_2.Descriptor.NestedTypes[1]; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        pbr::MessageDescriptor pb::IMessage.Descriptor {
+          get { return Descriptor; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public MongoCfg() {
+          OnConstruction();
+        }
+
+        partial void OnConstruction();
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public MongoCfg(MongoCfg other) : this() {
+          config_ = other.config_ != null ? other.config_.Clone() : null;
+          resources_ = other.resources_ != null ? other.resources_.Clone() : null;
+          _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public MongoCfg Clone() {
+          return new MongoCfg(this);
+        }
+
+        /// <summary>Field number for the "config" field.</summary>
+        public const int ConfigFieldNumber = 1;
+        private global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongoCfgConfig4_2 config_;
+        /// <summary>
+        /// Configuration for mongocfg 4.2 hosts.
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongoCfgConfig4_2 Config {
+          get { return config_; }
+          set {
+            config_ = value;
+          }
+        }
+
+        /// <summary>Field number for the "resources" field.</summary>
+        public const int ResourcesFieldNumber = 2;
+        private global::Yandex.Cloud.Mdb.Mongodb.V1.Resources resources_;
+        /// <summary>
+        /// Resources allocated to each mongocfg host.
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public global::Yandex.Cloud.Mdb.Mongodb.V1.Resources Resources {
+          get { return resources_; }
+          set {
+            resources_ = value;
+          }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override bool Equals(object other) {
+          return Equals(other as MongoCfg);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public bool Equals(MongoCfg other) {
+          if (ReferenceEquals(other, null)) {
+            return false;
+          }
+          if (ReferenceEquals(other, this)) {
+            return true;
+          }
+          if (!object.Equals(Config, other.Config)) return false;
+          if (!object.Equals(Resources, other.Resources)) return false;
+          return Equals(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override int GetHashCode() {
+          int hash = 1;
+          if (config_ != null) hash ^= Config.GetHashCode();
+          if (resources_ != null) hash ^= Resources.GetHashCode();
+          if (_unknownFields != null) {
+            hash ^= _unknownFields.GetHashCode();
+          }
+          return hash;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override string ToString() {
+          return pb::JsonFormatter.ToDiagnosticString(this);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void WriteTo(pb::CodedOutputStream output) {
+          if (config_ != null) {
+            output.WriteRawTag(10);
+            output.WriteMessage(Config);
+          }
+          if (resources_ != null) {
+            output.WriteRawTag(18);
+            output.WriteMessage(Resources);
+          }
+          if (_unknownFields != null) {
+            _unknownFields.WriteTo(output);
+          }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public int CalculateSize() {
+          int size = 0;
+          if (config_ != null) {
+            size += 1 + pb::CodedOutputStream.ComputeMessageSize(Config);
+          }
+          if (resources_ != null) {
+            size += 1 + pb::CodedOutputStream.ComputeMessageSize(Resources);
+          }
+          if (_unknownFields != null) {
+            size += _unknownFields.CalculateSize();
+          }
+          return size;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void MergeFrom(MongoCfg other) {
+          if (other == null) {
+            return;
+          }
+          if (other.config_ != null) {
+            if (config_ == null) {
+              Config = new global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongoCfgConfig4_2();
+            }
+            Config.MergeFrom(other.Config);
+          }
+          if (other.resources_ != null) {
+            if (resources_ == null) {
+              Resources = new global::Yandex.Cloud.Mdb.Mongodb.V1.Resources();
+            }
+            Resources.MergeFrom(other.Resources);
+          }
+          _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void MergeFrom(pb::CodedInputStream input) {
+          uint tag;
+          while ((tag = input.ReadTag()) != 0) {
+            switch(tag) {
+              default:
+                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+                break;
+              case 10: {
+                if (config_ == null) {
+                  Config = new global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongoCfgConfig4_2();
+                }
+                input.ReadMessage(Config);
+                break;
+              }
+              case 18: {
+                if (resources_ == null) {
+                  Resources = new global::Yandex.Cloud.Mdb.Mongodb.V1.Resources();
+                }
+                input.ReadMessage(Resources);
+                break;
+              }
+            }
+          }
+        }
+
+      }
+
+      internal sealed partial class Mongos : pb::IMessage<Mongos> {
+        private static readonly pb::MessageParser<Mongos> _parser = new pb::MessageParser<Mongos>(() => new Mongos());
+        private pb::UnknownFieldSet _unknownFields;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public static pb::MessageParser<Mongos> Parser { get { return _parser; } }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public static pbr::MessageDescriptor Descriptor {
+          get { return global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_2.Descriptor.NestedTypes[2]; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        pbr::MessageDescriptor pb::IMessage.Descriptor {
+          get { return Descriptor; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public Mongos() {
+          OnConstruction();
+        }
+
+        partial void OnConstruction();
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public Mongos(Mongos other) : this() {
+          config_ = other.config_ != null ? other.config_.Clone() : null;
+          resources_ = other.resources_ != null ? other.resources_.Clone() : null;
+          _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public Mongos Clone() {
+          return new Mongos(this);
+        }
+
+        /// <summary>Field number for the "config" field.</summary>
+        public const int ConfigFieldNumber = 1;
+        private global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongosConfig4_2 config_;
+        /// <summary>
+        /// Configuration for mongos 4.2 hosts.
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongosConfig4_2 Config {
+          get { return config_; }
+          set {
+            config_ = value;
+          }
+        }
+
+        /// <summary>Field number for the "resources" field.</summary>
+        public const int ResourcesFieldNumber = 2;
+        private global::Yandex.Cloud.Mdb.Mongodb.V1.Resources resources_;
+        /// <summary>
+        /// Resources allocated to each mongos host.
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public global::Yandex.Cloud.Mdb.Mongodb.V1.Resources Resources {
+          get { return resources_; }
+          set {
+            resources_ = value;
+          }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override bool Equals(object other) {
+          return Equals(other as Mongos);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public bool Equals(Mongos other) {
+          if (ReferenceEquals(other, null)) {
+            return false;
+          }
+          if (ReferenceEquals(other, this)) {
+            return true;
+          }
+          if (!object.Equals(Config, other.Config)) return false;
+          if (!object.Equals(Resources, other.Resources)) return false;
+          return Equals(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override int GetHashCode() {
+          int hash = 1;
+          if (config_ != null) hash ^= Config.GetHashCode();
+          if (resources_ != null) hash ^= Resources.GetHashCode();
+          if (_unknownFields != null) {
+            hash ^= _unknownFields.GetHashCode();
+          }
+          return hash;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override string ToString() {
+          return pb::JsonFormatter.ToDiagnosticString(this);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void WriteTo(pb::CodedOutputStream output) {
+          if (config_ != null) {
+            output.WriteRawTag(10);
+            output.WriteMessage(Config);
+          }
+          if (resources_ != null) {
+            output.WriteRawTag(18);
+            output.WriteMessage(Resources);
+          }
+          if (_unknownFields != null) {
+            _unknownFields.WriteTo(output);
+          }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public int CalculateSize() {
+          int size = 0;
+          if (config_ != null) {
+            size += 1 + pb::CodedOutputStream.ComputeMessageSize(Config);
+          }
+          if (resources_ != null) {
+            size += 1 + pb::CodedOutputStream.ComputeMessageSize(Resources);
+          }
+          if (_unknownFields != null) {
+            size += _unknownFields.CalculateSize();
+          }
+          return size;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void MergeFrom(Mongos other) {
+          if (other == null) {
+            return;
+          }
+          if (other.config_ != null) {
+            if (config_ == null) {
+              Config = new global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongosConfig4_2();
+            }
+            Config.MergeFrom(other.Config);
+          }
+          if (other.resources_ != null) {
+            if (resources_ == null) {
+              Resources = new global::Yandex.Cloud.Mdb.Mongodb.V1.Resources();
+            }
+            Resources.MergeFrom(other.Resources);
+          }
+          _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void MergeFrom(pb::CodedInputStream input) {
+          uint tag;
+          while ((tag = input.ReadTag()) != 0) {
+            switch(tag) {
+              default:
+                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+                break;
+              case 10: {
+                if (config_ == null) {
+                  Config = new global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongosConfig4_2();
+                }
+                input.ReadMessage(Config);
+                break;
+              }
+              case 18: {
+                if (resources_ == null) {
+                  Resources = new global::Yandex.Cloud.Mdb.Mongodb.V1.Resources();
+                }
+                input.ReadMessage(Resources);
+                break;
+              }
+            }
+          }
+        }
+
+      }
+
+    }
+    #endregion
+
+  }
+
   internal sealed partial class ConfigSpec : pb::IMessage<ConfigSpec> {
     private static readonly pb::MessageParser<ConfigSpec> _parser = new pb::MessageParser<ConfigSpec>(() => new ConfigSpec());
     private pb::UnknownFieldSet _unknownFields;
@@ -9546,7 +10443,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Mdb.Mongodb.V1.ClusterServiceReflection.Descriptor.MessageTypes[44]; }
+      get { return global::Yandex.Cloud.Mdb.Mongodb.V1.ClusterServiceReflection.Descriptor.MessageTypes[45]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -9566,12 +10463,16 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
       version_ = other.version_;
       featureCompatibilityVersion_ = other.featureCompatibilityVersion_;
       backupWindowStart_ = other.backupWindowStart_ != null ? other.backupWindowStart_.Clone() : null;
+      access_ = other.access_ != null ? other.access_.Clone() : null;
       switch (other.MongodbSpecCase) {
         case MongodbSpecOneofCase.MongodbSpec36:
           MongodbSpec36 = other.MongodbSpec36.Clone();
           break;
         case MongodbSpecOneofCase.MongodbSpec40:
           MongodbSpec40 = other.MongodbSpec40.Clone();
+          break;
+        case MongodbSpecOneofCase.MongodbSpec42:
+          MongodbSpec42 = other.MongodbSpec42.Clone();
           break;
       }
 
@@ -9587,10 +10488,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
     public const int VersionFieldNumber = 1;
     private string version_ = "";
     /// <summary>
-    /// Version of MongoDB used in the cluster.
-    /// Possible values:
-    /// * 3.6
-    /// * 4.0
+    /// Version of MongoDB used in the cluster. Possible values: `3.6`, `4.0`, `4.2`.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Version {
@@ -9604,10 +10502,12 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
     public const int FeatureCompatibilityVersionFieldNumber = 5;
     private string featureCompatibilityVersion_ = "";
     /// <summary>
-    /// MongoDB feature compatibility version.
+    /// MongoDB feature compatibility version. See usage details in [MongoDB documentation](https://docs.mongodb.com/manual/reference/command/setFeatureCompatibilityVersion/).
+    ///
     /// Possible values:
-    /// * 3.6
-    /// * 4.0
+    /// * `3.6` — persist data compatibility for version 3.6. After setting this option the data will not be compatible with 3.4 or older.
+    /// * `4.0` — persist data compatibility for version 4.0. After setting this option the data will not be compatible with 3.6 or older.
+    /// * `4.2` — persist data compatibility for version 4.2. After setting this option the data will not be compatible with 4.0 or older.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string FeatureCompatibilityVersion {
@@ -9645,6 +10545,20 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
       }
     }
 
+    /// <summary>Field number for the "mongodb_spec_4_2" field.</summary>
+    public const int MongodbSpec42FieldNumber = 7;
+    /// <summary>
+    /// Configuration and resource allocation for a MongoDB 4.2 cluster.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_2 MongodbSpec42 {
+      get { return mongodbSpecCase_ == MongodbSpecOneofCase.MongodbSpec42 ? (global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_2) mongodbSpec_ : null; }
+      set {
+        mongodbSpec_ = value;
+        mongodbSpecCase_ = value == null ? MongodbSpecOneofCase.None : MongodbSpecOneofCase.MongodbSpec42;
+      }
+    }
+
     /// <summary>Field number for the "backup_window_start" field.</summary>
     public const int BackupWindowStartFieldNumber = 3;
     private global::Google.Type.TimeOfDay backupWindowStart_;
@@ -9659,12 +10573,27 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
       }
     }
 
+    /// <summary>Field number for the "access" field.</summary>
+    public const int AccessFieldNumber = 6;
+    private global::Yandex.Cloud.Mdb.Mongodb.V1.Access access_;
+    /// <summary>
+    /// Access policy to DB
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Mdb.Mongodb.V1.Access Access {
+      get { return access_; }
+      set {
+        access_ = value;
+      }
+    }
+
     private object mongodbSpec_;
     /// <summary>Enum of possible cases for the "mongodb_spec" oneof.</summary>
     public enum MongodbSpecOneofCase {
       None = 0,
       MongodbSpec36 = 2,
       MongodbSpec40 = 4,
+      MongodbSpec42 = 7,
     }
     private MongodbSpecOneofCase mongodbSpecCase_ = MongodbSpecOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -9695,7 +10624,9 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
       if (FeatureCompatibilityVersion != other.FeatureCompatibilityVersion) return false;
       if (!object.Equals(MongodbSpec36, other.MongodbSpec36)) return false;
       if (!object.Equals(MongodbSpec40, other.MongodbSpec40)) return false;
+      if (!object.Equals(MongodbSpec42, other.MongodbSpec42)) return false;
       if (!object.Equals(BackupWindowStart, other.BackupWindowStart)) return false;
+      if (!object.Equals(Access, other.Access)) return false;
       if (MongodbSpecCase != other.MongodbSpecCase) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -9707,7 +10638,9 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
       if (FeatureCompatibilityVersion.Length != 0) hash ^= FeatureCompatibilityVersion.GetHashCode();
       if (mongodbSpecCase_ == MongodbSpecOneofCase.MongodbSpec36) hash ^= MongodbSpec36.GetHashCode();
       if (mongodbSpecCase_ == MongodbSpecOneofCase.MongodbSpec40) hash ^= MongodbSpec40.GetHashCode();
+      if (mongodbSpecCase_ == MongodbSpecOneofCase.MongodbSpec42) hash ^= MongodbSpec42.GetHashCode();
       if (backupWindowStart_ != null) hash ^= BackupWindowStart.GetHashCode();
+      if (access_ != null) hash ^= Access.GetHashCode();
       hash ^= (int) mongodbSpecCase_;
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -9742,6 +10675,14 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
         output.WriteRawTag(42);
         output.WriteString(FeatureCompatibilityVersion);
       }
+      if (access_ != null) {
+        output.WriteRawTag(50);
+        output.WriteMessage(Access);
+      }
+      if (mongodbSpecCase_ == MongodbSpecOneofCase.MongodbSpec42) {
+        output.WriteRawTag(58);
+        output.WriteMessage(MongodbSpec42);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -9762,8 +10703,14 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
       if (mongodbSpecCase_ == MongodbSpecOneofCase.MongodbSpec40) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(MongodbSpec40);
       }
+      if (mongodbSpecCase_ == MongodbSpecOneofCase.MongodbSpec42) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(MongodbSpec42);
+      }
       if (backupWindowStart_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(BackupWindowStart);
+      }
+      if (access_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Access);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -9788,6 +10735,12 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
         }
         BackupWindowStart.MergeFrom(other.BackupWindowStart);
       }
+      if (other.access_ != null) {
+        if (access_ == null) {
+          Access = new global::Yandex.Cloud.Mdb.Mongodb.V1.Access();
+        }
+        Access.MergeFrom(other.Access);
+      }
       switch (other.MongodbSpecCase) {
         case MongodbSpecOneofCase.MongodbSpec36:
           if (MongodbSpec36 == null) {
@@ -9800,6 +10753,12 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
             MongodbSpec40 = new global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_0();
           }
           MongodbSpec40.MergeFrom(other.MongodbSpec40);
+          break;
+        case MongodbSpecOneofCase.MongodbSpec42:
+          if (MongodbSpec42 == null) {
+            MongodbSpec42 = new global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_2();
+          }
+          MongodbSpec42.MergeFrom(other.MongodbSpec42);
           break;
       }
 
@@ -9845,6 +10804,22 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
           }
           case 42: {
             FeatureCompatibilityVersion = input.ReadString();
+            break;
+          }
+          case 50: {
+            if (access_ == null) {
+              Access = new global::Yandex.Cloud.Mdb.Mongodb.V1.Access();
+            }
+            input.ReadMessage(Access);
+            break;
+          }
+          case 58: {
+            global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_2 subBuilder = new global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_2();
+            if (mongodbSpecCase_ == MongodbSpecOneofCase.MongodbSpec42) {
+              subBuilder.MergeFrom(MongodbSpec42);
+            }
+            input.ReadMessage(subBuilder);
+            MongodbSpec42 = subBuilder;
             break;
           }
         }

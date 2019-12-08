@@ -26,18 +26,23 @@ namespace Yandex.Cloud.Iam.V1 {
           string.Concat(
             "CiZ5YW5kZXgvY2xvdWQvaWFtL3YxL3VzZXJfYWNjb3VudC5wcm90bxITeWFu",
             "ZGV4LmNsb3VkLmlhbS52MRodeWFuZGV4L2Nsb3VkL3ZhbGlkYXRpb24ucHJv",
-            "dG8igQEKC1VzZXJBY2NvdW50EgoKAmlkGAEgASgJElYKHHlhbmRleF9wYXNz",
+            "dG8iygEKC1VzZXJBY2NvdW50EgoKAmlkGAEgASgJElYKHHlhbmRleF9wYXNz",
             "cG9ydF91c2VyX2FjY291bnQYAiABKAsyLi55YW5kZXguY2xvdWQuaWFtLnYx",
-            "LllhbmRleFBhc3Nwb3J0VXNlckFjY291bnRIAEIOCgx1c2VyX2FjY291bnQi",
-            "QQoZWWFuZGV4UGFzc3BvcnRVc2VyQWNjb3VudBINCgVsb2dpbhgBIAEoCRIV",
-            "Cg1kZWZhdWx0X2VtYWlsGAIgASgJQj1aO2dpdGh1Yi5jb20veWFuZGV4LWNs",
-            "b3VkL2dvLWdlbnByb3RvL3lhbmRleC9jbG91ZC9pYW0vdjE7aWFtYgZwcm90",
-            "bzM="));
+            "LllhbmRleFBhc3Nwb3J0VXNlckFjY291bnRIABJBChFzYW1sX3VzZXJfYWNj",
+            "b3VudBgDIAEoCzIkLnlhbmRleC5jbG91ZC5pYW0udjEuU2FtbFVzZXJBY2Nv",
+            "dW50SABCFAoMdXNlcl9hY2NvdW50EgTAwTEBIkEKGVlhbmRleFBhc3Nwb3J0",
+            "VXNlckFjY291bnQSDQoFbG9naW4YASABKAkSFQoNZGVmYXVsdF9lbWFpbBgC",
+            "IAEoCSJWCg9TYW1sVXNlckFjY291bnQSIwoNZmVkZXJhdGlvbl9pZBgBIAEo",
+            "CUIM6McxAYrIMQQ8PTUwEh4KB25hbWVfaWQYAiABKAlCDejHMQGKyDEFMS0y",
+            "NTZCVgoXeWFuZGV4LmNsb3VkLmFwaS5pYW0udjFaO2dpdGh1Yi5jb20veWFu",
+            "ZGV4LWNsb3VkL2dvLWdlbnByb3RvL3lhbmRleC9jbG91ZC9pYW0vdjE7aWFt",
+            "YgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Yandex.Cloud.ValidationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.UserAccount), global::Yandex.Cloud.Iam.V1.UserAccount.Parser, new[]{ "Id", "YandexPassportUserAccount" }, new[]{ "UserAccount" }, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.YandexPassportUserAccount), global::Yandex.Cloud.Iam.V1.YandexPassportUserAccount.Parser, new[]{ "Login", "DefaultEmail" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.UserAccount), global::Yandex.Cloud.Iam.V1.UserAccount.Parser, new[]{ "Id", "YandexPassportUserAccount", "SamlUserAccount" }, new[]{ "UserAccount" }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.YandexPassportUserAccount), global::Yandex.Cloud.Iam.V1.YandexPassportUserAccount.Parser, new[]{ "Login", "DefaultEmail" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.SamlUserAccount), global::Yandex.Cloud.Iam.V1.SamlUserAccount.Parser, new[]{ "FederationId", "NameId" }, null, null, null)
           }));
     }
     #endregion
@@ -77,6 +82,9 @@ namespace Yandex.Cloud.Iam.V1 {
         case UserAccountOneofCase.YandexPassportUserAccount:
           YandexPassportUserAccount = other.YandexPassportUserAccount.Clone();
           break;
+        case UserAccountOneofCase.SamlUserAccount:
+          SamlUserAccount = other.SamlUserAccount.Clone();
+          break;
       }
 
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
@@ -115,11 +123,26 @@ namespace Yandex.Cloud.Iam.V1 {
       }
     }
 
+    /// <summary>Field number for the "saml_user_account" field.</summary>
+    public const int SamlUserAccountFieldNumber = 3;
+    /// <summary>
+    /// A SAML federated user.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Iam.V1.SamlUserAccount SamlUserAccount {
+      get { return userAccountCase_ == UserAccountOneofCase.SamlUserAccount ? (global::Yandex.Cloud.Iam.V1.SamlUserAccount) userAccount_ : null; }
+      set {
+        userAccount_ = value;
+        userAccountCase_ = value == null ? UserAccountOneofCase.None : UserAccountOneofCase.SamlUserAccount;
+      }
+    }
+
     private object userAccount_;
     /// <summary>Enum of possible cases for the "user_account" oneof.</summary>
     public enum UserAccountOneofCase {
       None = 0,
       YandexPassportUserAccount = 2,
+      SamlUserAccount = 3,
     }
     private UserAccountOneofCase userAccountCase_ = UserAccountOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -148,6 +171,7 @@ namespace Yandex.Cloud.Iam.V1 {
       }
       if (Id != other.Id) return false;
       if (!object.Equals(YandexPassportUserAccount, other.YandexPassportUserAccount)) return false;
+      if (!object.Equals(SamlUserAccount, other.SamlUserAccount)) return false;
       if (UserAccountCase != other.UserAccountCase) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -157,6 +181,7 @@ namespace Yandex.Cloud.Iam.V1 {
       int hash = 1;
       if (Id.Length != 0) hash ^= Id.GetHashCode();
       if (userAccountCase_ == UserAccountOneofCase.YandexPassportUserAccount) hash ^= YandexPassportUserAccount.GetHashCode();
+      if (userAccountCase_ == UserAccountOneofCase.SamlUserAccount) hash ^= SamlUserAccount.GetHashCode();
       hash ^= (int) userAccountCase_;
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -179,6 +204,10 @@ namespace Yandex.Cloud.Iam.V1 {
         output.WriteRawTag(18);
         output.WriteMessage(YandexPassportUserAccount);
       }
+      if (userAccountCase_ == UserAccountOneofCase.SamlUserAccount) {
+        output.WriteRawTag(26);
+        output.WriteMessage(SamlUserAccount);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -192,6 +221,9 @@ namespace Yandex.Cloud.Iam.V1 {
       }
       if (userAccountCase_ == UserAccountOneofCase.YandexPassportUserAccount) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(YandexPassportUserAccount);
+      }
+      if (userAccountCase_ == UserAccountOneofCase.SamlUserAccount) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(SamlUserAccount);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -213,6 +245,12 @@ namespace Yandex.Cloud.Iam.V1 {
             YandexPassportUserAccount = new global::Yandex.Cloud.Iam.V1.YandexPassportUserAccount();
           }
           YandexPassportUserAccount.MergeFrom(other.YandexPassportUserAccount);
+          break;
+        case UserAccountOneofCase.SamlUserAccount:
+          if (SamlUserAccount == null) {
+            SamlUserAccount = new global::Yandex.Cloud.Iam.V1.SamlUserAccount();
+          }
+          SamlUserAccount.MergeFrom(other.SamlUserAccount);
           break;
       }
 
@@ -240,6 +278,15 @@ namespace Yandex.Cloud.Iam.V1 {
             YandexPassportUserAccount = subBuilder;
             break;
           }
+          case 26: {
+            global::Yandex.Cloud.Iam.V1.SamlUserAccount subBuilder = new global::Yandex.Cloud.Iam.V1.SamlUserAccount();
+            if (userAccountCase_ == UserAccountOneofCase.SamlUserAccount) {
+              subBuilder.MergeFrom(SamlUserAccount);
+            }
+            input.ReadMessage(subBuilder);
+            SamlUserAccount = subBuilder;
+            break;
+          }
         }
       }
     }
@@ -247,7 +294,8 @@ namespace Yandex.Cloud.Iam.V1 {
   }
 
   /// <summary>
-  /// A YandexPassportUserAccount resource. For more information, see [Yandex.Passport account](/docs/iam/concepts/#passport).
+  /// A YandexPassportUserAccount resource.
+  /// For more information, see [Yandex.Passport account](/docs/iam/concepts/#passport).
   /// </summary>
   internal sealed partial class YandexPassportUserAccount : pb::IMessage<YandexPassportUserAccount> {
     private static readonly pb::MessageParser<YandexPassportUserAccount> _parser = new pb::MessageParser<YandexPassportUserAccount>(() => new YandexPassportUserAccount());
@@ -404,6 +452,174 @@ namespace Yandex.Cloud.Iam.V1 {
           }
           case 18: {
             DefaultEmail = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  /// <summary>
+  /// A SAML federated user.
+  /// For more information, see [federations](/docs/iam/concepts/users/saml-federations).
+  /// </summary>
+  internal sealed partial class SamlUserAccount : pb::IMessage<SamlUserAccount> {
+    private static readonly pb::MessageParser<SamlUserAccount> _parser = new pb::MessageParser<SamlUserAccount>(() => new SamlUserAccount());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<SamlUserAccount> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Iam.V1.UserAccountReflection.Descriptor.MessageTypes[2]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public SamlUserAccount() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public SamlUserAccount(SamlUserAccount other) : this() {
+      federationId_ = other.federationId_;
+      nameId_ = other.nameId_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public SamlUserAccount Clone() {
+      return new SamlUserAccount(this);
+    }
+
+    /// <summary>Field number for the "federation_id" field.</summary>
+    public const int FederationIdFieldNumber = 1;
+    private string federationId_ = "";
+    /// <summary>
+    /// ID of the federation that the federation belongs to.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string FederationId {
+      get { return federationId_; }
+      set {
+        federationId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "name_id" field.</summary>
+    public const int NameIdFieldNumber = 2;
+    private string nameId_ = "";
+    /// <summary>
+    /// Name Id of the SAML federated user.
+    /// The name is unique within the federation. 1-256 characters long.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string NameId {
+      get { return nameId_; }
+      set {
+        nameId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as SamlUserAccount);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(SamlUserAccount other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (FederationId != other.FederationId) return false;
+      if (NameId != other.NameId) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (FederationId.Length != 0) hash ^= FederationId.GetHashCode();
+      if (NameId.Length != 0) hash ^= NameId.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (FederationId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(FederationId);
+      }
+      if (NameId.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(NameId);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (FederationId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(FederationId);
+      }
+      if (NameId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(NameId);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(SamlUserAccount other) {
+      if (other == null) {
+        return;
+      }
+      if (other.FederationId.Length != 0) {
+        FederationId = other.FederationId;
+      }
+      if (other.NameId.Length != 0) {
+        NameId = other.NameId;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            FederationId = input.ReadString();
+            break;
+          }
+          case 18: {
+            NameId = input.ReadString();
             break;
           }
         }

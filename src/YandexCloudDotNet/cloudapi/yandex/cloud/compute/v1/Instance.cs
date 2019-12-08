@@ -26,7 +26,7 @@ namespace Yandex.Cloud.Compute.V1 {
           string.Concat(
             "CiZ5YW5kZXgvY2xvdWQvY29tcHV0ZS92MS9pbnN0YW5jZS5wcm90bxIXeWFu",
             "ZGV4LmNsb3VkLmNvbXB1dGUudjEaH2dvb2dsZS9wcm90b2J1Zi90aW1lc3Rh",
-            "bXAucHJvdG8i1QcKCEluc3RhbmNlEgoKAmlkGAEgASgJEhEKCWZvbGRlcl9p",
+            "bXAucHJvdG8imQgKCEluc3RhbmNlEgoKAmlkGAEgASgJEhEKCWZvbGRlcl9p",
             "ZBgCIAEoCRIuCgpjcmVhdGVkX2F0GAMgASgLMhouZ29vZ2xlLnByb3RvYnVm",
             "LlRpbWVzdGFtcBIMCgRuYW1lGAQgASgJEhMKC2Rlc2NyaXB0aW9uGAUgASgJ",
             "Ej0KBmxhYmVscxgGIAMoCzItLnlhbmRleC5jbG91ZC5jb21wdXRlLnYxLklu",
@@ -42,42 +42,49 @@ namespace Yandex.Cloud.Compute.V1 {
             "cHV0ZS52MS5OZXR3b3JrSW50ZXJmYWNlEgwKBGZxZG4YECABKAkSRAoRc2No",
             "ZWR1bGluZ19wb2xpY3kYESABKAsyKS55YW5kZXguY2xvdWQuY29tcHV0ZS52",
             "MS5TY2hlZHVsaW5nUG9saWN5EhoKEnNlcnZpY2VfYWNjb3VudF9pZBgSIAEo",
-            "CRotCgtMYWJlbHNFbnRyeRILCgNrZXkYASABKAkSDQoFdmFsdWUYAiABKAk6",
-            "AjgBGi8KDU1ldGFkYXRhRW50cnkSCwoDa2V5GAEgASgJEg0KBXZhbHVlGAIg",
-            "ASgJOgI4ASKsAQoGU3RhdHVzEhYKElNUQVRVU19VTlNQRUNJRklFRBAAEhAK",
-            "DFBST1ZJU0lPTklORxABEgsKB1JVTk5JTkcQAhIMCghTVE9QUElORxADEgsK",
-            "B1NUT1BQRUQQBBIMCghTVEFSVElORxAFEg4KClJFU1RBUlRJTkcQBhIMCghV",
-            "UERBVElORxAHEgkKBUVSUk9SEAgSCwoHQ1JBU0hFRBAJEgwKCERFTEVUSU5H",
-            "EAoiTwoJUmVzb3VyY2VzEg4KBm1lbW9yeRgBIAEoAxINCgVjb3JlcxgCIAEo",
-            "AxIVCg1jb3JlX2ZyYWN0aW9uGAMgASgDEgwKBGdwdXMYBCABKAMiwAEKDEF0",
-            "dGFjaGVkRGlzaxI4CgRtb2RlGAEgASgOMioueWFuZGV4LmNsb3VkLmNvbXB1",
-            "dGUudjEuQXR0YWNoZWREaXNrLk1vZGUSEwoLZGV2aWNlX25hbWUYAiABKAkS",
-            "EwoLYXV0b19kZWxldGUYAyABKAgSDwoHZGlza19pZBgEIAEoCSI7CgRNb2Rl",
-            "EhQKEE1PREVfVU5TUEVDSUZJRUQQABINCglSRUFEX09OTFkQARIOCgpSRUFE",
-            "X1dSSVRFEAIi0wEKEE5ldHdvcmtJbnRlcmZhY2USDQoFaW5kZXgYASABKAkS",
-            "EwoLbWFjX2FkZHJlc3MYAiABKAkSEQoJc3VibmV0X2lkGAMgASgJEkMKEnBy",
-            "aW1hcnlfdjRfYWRkcmVzcxgEIAEoCzInLnlhbmRleC5jbG91ZC5jb21wdXRl",
-            "LnYxLlByaW1hcnlBZGRyZXNzEkMKEnByaW1hcnlfdjZfYWRkcmVzcxgFIAEo",
-            "CzInLnlhbmRleC5jbG91ZC5jb21wdXRlLnYxLlByaW1hcnlBZGRyZXNzIl8K",
-            "DlByaW1hcnlBZGRyZXNzEg8KB2FkZHJlc3MYASABKAkSPAoOb25lX3RvX29u",
-            "ZV9uYXQYAiABKAsyJC55YW5kZXguY2xvdWQuY29tcHV0ZS52MS5PbmVUb09u",
-            "ZU5hdCJWCgtPbmVUb09uZU5hdBIPCgdhZGRyZXNzGAEgASgJEjYKCmlwX3Zl",
-            "cnNpb24YAiABKA4yIi55YW5kZXguY2xvdWQuY29tcHV0ZS52MS5JcFZlcnNp",
-            "b24iJwoQU2NoZWR1bGluZ1BvbGljeRITCgtwcmVlbXB0aWJsZRgBIAEoCCo7",
-            "CglJcFZlcnNpb24SGgoWSVBfVkVSU0lPTl9VTlNQRUNJRklFRBAAEggKBElQ",
-            "VjQQARIICgRJUFY2EAJCRVpDZ2l0aHViLmNvbS95YW5kZXgtY2xvdWQvZ28t",
-            "Z2VucHJvdG8veWFuZGV4L2Nsb3VkL2NvbXB1dGUvdjE7Y29tcHV0ZWIGcHJv",
-            "dG8z"));
+            "CRJCChBuZXR3b3JrX3NldHRpbmdzGBMgASgLMigueWFuZGV4LmNsb3VkLmNv",
+            "bXB1dGUudjEuTmV0d29ya1NldHRpbmdzGi0KC0xhYmVsc0VudHJ5EgsKA2tl",
+            "eRgBIAEoCRINCgV2YWx1ZRgCIAEoCToCOAEaLwoNTWV0YWRhdGFFbnRyeRIL",
+            "CgNrZXkYASABKAkSDQoFdmFsdWUYAiABKAk6AjgBIqwBCgZTdGF0dXMSFgoS",
+            "U1RBVFVTX1VOU1BFQ0lGSUVEEAASEAoMUFJPVklTSU9OSU5HEAESCwoHUlVO",
+            "TklORxACEgwKCFNUT1BQSU5HEAMSCwoHU1RPUFBFRBAEEgwKCFNUQVJUSU5H",
+            "EAUSDgoKUkVTVEFSVElORxAGEgwKCFVQREFUSU5HEAcSCQoFRVJST1IQCBIL",
+            "CgdDUkFTSEVEEAkSDAoIREVMRVRJTkcQCiJPCglSZXNvdXJjZXMSDgoGbWVt",
+            "b3J5GAEgASgDEg0KBWNvcmVzGAIgASgDEhUKDWNvcmVfZnJhY3Rpb24YAyAB",
+            "KAMSDAoEZ3B1cxgEIAEoAyLAAQoMQXR0YWNoZWREaXNrEjgKBG1vZGUYASAB",
+            "KA4yKi55YW5kZXguY2xvdWQuY29tcHV0ZS52MS5BdHRhY2hlZERpc2suTW9k",
+            "ZRITCgtkZXZpY2VfbmFtZRgCIAEoCRITCgthdXRvX2RlbGV0ZRgDIAEoCBIP",
+            "CgdkaXNrX2lkGAQgASgJIjsKBE1vZGUSFAoQTU9ERV9VTlNQRUNJRklFRBAA",
+            "Eg0KCVJFQURfT05MWRABEg4KClJFQURfV1JJVEUQAiLTAQoQTmV0d29ya0lu",
+            "dGVyZmFjZRINCgVpbmRleBgBIAEoCRITCgttYWNfYWRkcmVzcxgCIAEoCRIR",
+            "CglzdWJuZXRfaWQYAyABKAkSQwoScHJpbWFyeV92NF9hZGRyZXNzGAQgASgL",
+            "MicueWFuZGV4LmNsb3VkLmNvbXB1dGUudjEuUHJpbWFyeUFkZHJlc3MSQwoS",
+            "cHJpbWFyeV92Nl9hZGRyZXNzGAUgASgLMicueWFuZGV4LmNsb3VkLmNvbXB1",
+            "dGUudjEuUHJpbWFyeUFkZHJlc3MiXwoOUHJpbWFyeUFkZHJlc3MSDwoHYWRk",
+            "cmVzcxgBIAEoCRI8Cg5vbmVfdG9fb25lX25hdBgCIAEoCzIkLnlhbmRleC5j",
+            "bG91ZC5jb21wdXRlLnYxLk9uZVRvT25lTmF0IlYKC09uZVRvT25lTmF0Eg8K",
+            "B2FkZHJlc3MYASABKAkSNgoKaXBfdmVyc2lvbhgCIAEoDjIiLnlhbmRleC5j",
+            "bG91ZC5jb21wdXRlLnYxLklwVmVyc2lvbiInChBTY2hlZHVsaW5nUG9saWN5",
+            "EhMKC3ByZWVtcHRpYmxlGAEgASgIIq4BCg9OZXR3b3JrU2V0dGluZ3MSOwoE",
+            "dHlwZRgBIAEoDjItLnlhbmRleC5jbG91ZC5jb21wdXRlLnYxLk5ldHdvcmtT",
+            "ZXR0aW5ncy5UeXBlIl4KBFR5cGUSFAoQVFlQRV9VTlNQRUNJRklFRBAAEgwK",
+            "CFNUQU5EQVJEEAESGAoUU09GVFdBUkVfQUNDRUxFUkFURUQQAhIYChRIQVJE",
+            "V0FSRV9BQ0NFTEVSQVRFRBADKjsKCUlwVmVyc2lvbhIaChZJUF9WRVJTSU9O",
+            "X1VOU1BFQ0lGSUVEEAASCAoESVBWNBABEggKBElQVjYQAkJiCht5YW5kZXgu",
+            "Y2xvdWQuYXBpLmNvbXB1dGUudjFaQ2dpdGh1Yi5jb20veWFuZGV4LWNsb3Vk",
+            "L2dvLWdlbnByb3RvL3lhbmRleC9jbG91ZC9jb21wdXRlL3YxO2NvbXB1dGVi",
+            "BnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Yandex.Cloud.Compute.V1.IpVersion), }, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instance), global::Yandex.Cloud.Compute.V1.Instance.Parser, new[]{ "Id", "FolderId", "CreatedAt", "Name", "Description", "Labels", "ZoneId", "PlatformId", "Resources", "Status", "Metadata", "BootDisk", "SecondaryDisks", "NetworkInterfaces", "Fqdn", "SchedulingPolicy", "ServiceAccountId" }, null, new[]{ typeof(global::Yandex.Cloud.Compute.V1.Instance.Types.Status) }, new pbr::GeneratedClrTypeInfo[] { null, null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instance), global::Yandex.Cloud.Compute.V1.Instance.Parser, new[]{ "Id", "FolderId", "CreatedAt", "Name", "Description", "Labels", "ZoneId", "PlatformId", "Resources", "Status", "Metadata", "BootDisk", "SecondaryDisks", "NetworkInterfaces", "Fqdn", "SchedulingPolicy", "ServiceAccountId", "NetworkSettings" }, null, new[]{ typeof(global::Yandex.Cloud.Compute.V1.Instance.Types.Status) }, new pbr::GeneratedClrTypeInfo[] { null, null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Resources), global::Yandex.Cloud.Compute.V1.Resources.Parser, new[]{ "Memory", "Cores", "CoreFraction", "Gpus" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.AttachedDisk), global::Yandex.Cloud.Compute.V1.AttachedDisk.Parser, new[]{ "Mode", "DeviceName", "AutoDelete", "DiskId" }, null, new[]{ typeof(global::Yandex.Cloud.Compute.V1.AttachedDisk.Types.Mode) }, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.NetworkInterface), global::Yandex.Cloud.Compute.V1.NetworkInterface.Parser, new[]{ "Index", "MacAddress", "SubnetId", "PrimaryV4Address", "PrimaryV6Address" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.PrimaryAddress), global::Yandex.Cloud.Compute.V1.PrimaryAddress.Parser, new[]{ "Address", "OneToOneNat" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.OneToOneNat), global::Yandex.Cloud.Compute.V1.OneToOneNat.Parser, new[]{ "Address", "IpVersion" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.SchedulingPolicy), global::Yandex.Cloud.Compute.V1.SchedulingPolicy.Parser, new[]{ "Preemptible" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.SchedulingPolicy), global::Yandex.Cloud.Compute.V1.SchedulingPolicy.Parser, new[]{ "Preemptible" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.NetworkSettings), global::Yandex.Cloud.Compute.V1.NetworkSettings.Parser, new[]{ "Type" }, null, new[]{ typeof(global::Yandex.Cloud.Compute.V1.NetworkSettings.Types.Type) }, null)
           }));
     }
     #endregion
@@ -144,6 +151,7 @@ namespace Yandex.Cloud.Compute.V1 {
       fqdn_ = other.fqdn_;
       schedulingPolicy_ = other.schedulingPolicy_ != null ? other.schedulingPolicy_.Clone() : null;
       serviceAccountId_ = other.serviceAccountId_;
+      networkSettings_ = other.networkSettings_ != null ? other.networkSettings_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -378,7 +386,7 @@ namespace Yandex.Cloud.Compute.V1 {
     public const int ServiceAccountIdFieldNumber = 18;
     private string serviceAccountId_ = "";
     /// <summary>
-    /// ID of the service account. For more information, see [Service accounts](/docs/iam/concepts/users/service-accounts).
+    /// ID of the service account to use for [authentication inside the instance](/docs/compute/operations/vm-connect/auth-inside-vm).
     /// To get the service account ID, use a [yandex.cloud.iam.v1.ServiceAccountService.List] request.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -386,6 +394,20 @@ namespace Yandex.Cloud.Compute.V1 {
       get { return serviceAccountId_; }
       set {
         serviceAccountId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "network_settings" field.</summary>
+    public const int NetworkSettingsFieldNumber = 19;
+    private global::Yandex.Cloud.Compute.V1.NetworkSettings networkSettings_;
+    /// <summary>
+    /// Do not specify this field, network settings are not supported yet.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Compute.V1.NetworkSettings NetworkSettings {
+      get { return networkSettings_; }
+      set {
+        networkSettings_ = value;
       }
     }
 
@@ -419,6 +441,7 @@ namespace Yandex.Cloud.Compute.V1 {
       if (Fqdn != other.Fqdn) return false;
       if (!object.Equals(SchedulingPolicy, other.SchedulingPolicy)) return false;
       if (ServiceAccountId != other.ServiceAccountId) return false;
+      if (!object.Equals(NetworkSettings, other.NetworkSettings)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -442,6 +465,7 @@ namespace Yandex.Cloud.Compute.V1 {
       if (Fqdn.Length != 0) hash ^= Fqdn.GetHashCode();
       if (schedulingPolicy_ != null) hash ^= SchedulingPolicy.GetHashCode();
       if (ServiceAccountId.Length != 0) hash ^= ServiceAccountId.GetHashCode();
+      if (networkSettings_ != null) hash ^= NetworkSettings.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -511,6 +535,10 @@ namespace Yandex.Cloud.Compute.V1 {
         output.WriteRawTag(146, 1);
         output.WriteString(ServiceAccountId);
       }
+      if (networkSettings_ != null) {
+        output.WriteRawTag(154, 1);
+        output.WriteMessage(NetworkSettings);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -561,6 +589,9 @@ namespace Yandex.Cloud.Compute.V1 {
       }
       if (ServiceAccountId.Length != 0) {
         size += 2 + pb::CodedOutputStream.ComputeStringSize(ServiceAccountId);
+      }
+      if (networkSettings_ != null) {
+        size += 2 + pb::CodedOutputStream.ComputeMessageSize(NetworkSettings);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -627,6 +658,12 @@ namespace Yandex.Cloud.Compute.V1 {
       }
       if (other.ServiceAccountId.Length != 0) {
         ServiceAccountId = other.ServiceAccountId;
+      }
+      if (other.networkSettings_ != null) {
+        if (networkSettings_ == null) {
+          NetworkSettings = new global::Yandex.Cloud.Compute.V1.NetworkSettings();
+        }
+        NetworkSettings.MergeFrom(other.NetworkSettings);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -717,6 +754,13 @@ namespace Yandex.Cloud.Compute.V1 {
           }
           case 146: {
             ServiceAccountId = input.ReadString();
+            break;
+          }
+          case 154: {
+            if (networkSettings_ == null) {
+              NetworkSettings = new global::Yandex.Cloud.Compute.V1.NetworkSettings();
+            }
+            input.ReadMessage(NetworkSettings);
             break;
           }
         }
@@ -1979,6 +2023,161 @@ namespace Yandex.Cloud.Compute.V1 {
         }
       }
     }
+
+  }
+
+  internal sealed partial class NetworkSettings : pb::IMessage<NetworkSettings> {
+    private static readonly pb::MessageParser<NetworkSettings> _parser = new pb::MessageParser<NetworkSettings>(() => new NetworkSettings());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<NetworkSettings> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Compute.V1.InstanceReflection.Descriptor.MessageTypes[7]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public NetworkSettings() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public NetworkSettings(NetworkSettings other) : this() {
+      type_ = other.type_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public NetworkSettings Clone() {
+      return new NetworkSettings(this);
+    }
+
+    /// <summary>Field number for the "type" field.</summary>
+    public const int TypeFieldNumber = 1;
+    private global::Yandex.Cloud.Compute.V1.NetworkSettings.Types.Type type_ = 0;
+    /// <summary>
+    /// Do not specify this field, network settings are not supported yet.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Compute.V1.NetworkSettings.Types.Type Type {
+      get { return type_; }
+      set {
+        type_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as NetworkSettings);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(NetworkSettings other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Type != other.Type) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Type != 0) hash ^= Type.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (Type != 0) {
+        output.WriteRawTag(8);
+        output.WriteEnum((int) Type);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Type != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Type);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(NetworkSettings other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Type != 0) {
+        Type = other.Type;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            Type = (global::Yandex.Cloud.Compute.V1.NetworkSettings.Types.Type) input.ReadEnum();
+            break;
+          }
+        }
+      }
+    }
+
+    #region Nested types
+    /// <summary>Container for nested types declared in the NetworkSettings message type.</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static partial class Types {
+      internal enum Type {
+        [pbr::OriginalName("TYPE_UNSPECIFIED")] Unspecified = 0,
+        /// <summary>
+        /// Standard network.
+        /// </summary>
+        [pbr::OriginalName("STANDARD")] Standard = 1,
+        /// <summary>
+        /// Software accelerated network.
+        /// </summary>
+        [pbr::OriginalName("SOFTWARE_ACCELERATED")] SoftwareAccelerated = 2,
+        /// <summary>
+        /// Hardware accelerated network (not available yet, reserved for future use).
+        /// </summary>
+        [pbr::OriginalName("HARDWARE_ACCELERATED")] HardwareAccelerated = 3,
+      }
+
+    }
+    #endregion
 
   }
 

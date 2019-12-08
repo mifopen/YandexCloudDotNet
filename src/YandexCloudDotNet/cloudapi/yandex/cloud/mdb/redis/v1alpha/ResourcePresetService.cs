@@ -27,26 +27,27 @@ namespace Yandex.Cloud.Mdb.Redis.V1Alpha {
             "Cjx5YW5kZXgvY2xvdWQvbWRiL3JlZGlzL3YxYWxwaGEvcmVzb3VyY2VfcHJl",
             "c2V0X3NlcnZpY2UucHJvdG8SHnlhbmRleC5jbG91ZC5tZGIucmVkaXMudjFh",
             "bHBoYRocZ29vZ2xlL2FwaS9hbm5vdGF0aW9ucy5wcm90bxo0eWFuZGV4L2Ns",
-            "b3VkL21kYi9yZWRpcy92MWFscGhhL3Jlc291cmNlX3ByZXNldC5wcm90byI2",
-            "ChhHZXRSZXNvdXJjZVByZXNldFJlcXVlc3QSGgoScmVzb3VyY2VfcHJlc2V0",
-            "X2lkGAEgASgJIkMKGkxpc3RSZXNvdXJjZVByZXNldHNSZXF1ZXN0EhEKCXBh",
-            "Z2Vfc2l6ZRgCIAEoAxISCgpwYWdlX3Rva2VuGAMgASgJIoABChtMaXN0UmVz",
-            "b3VyY2VQcmVzZXRzUmVzcG9uc2USSAoQcmVzb3VyY2VfcHJlc2V0cxgBIAMo",
-            "CzIuLnlhbmRleC5jbG91ZC5tZGIucmVkaXMudjFhbHBoYS5SZXNvdXJjZVBy",
-            "ZXNldBIXCg9uZXh0X3BhZ2VfdG9rZW4YAiABKAkygAMKFVJlc291cmNlUHJl",
-            "c2V0U2VydmljZRK0AQoDR2V0EjgueWFuZGV4LmNsb3VkLm1kYi5yZWRpcy52",
-            "MWFscGhhLkdldFJlc291cmNlUHJlc2V0UmVxdWVzdBouLnlhbmRleC5jbG91",
-            "ZC5tZGIucmVkaXMudjFhbHBoYS5SZXNvdXJjZVByZXNldCJDgtPkkwI9Ejsv",
-            "bWFuYWdlZC1yZWRpcy92MWFscGhhL3Jlc291cmNlUHJlc2V0cy97cmVzb3Vy",
-            "Y2VfcHJlc2V0X2lkfRKvAQoETGlzdBI6LnlhbmRleC5jbG91ZC5tZGIucmVk",
-            "aXMudjFhbHBoYS5MaXN0UmVzb3VyY2VQcmVzZXRzUmVxdWVzdBo7LnlhbmRl",
-            "eC5jbG91ZC5tZGIucmVkaXMudjFhbHBoYS5MaXN0UmVzb3VyY2VQcmVzZXRz",
-            "UmVzcG9uc2UiLoLT5JMCKBImL21hbmFnZWQtcmVkaXMvdjFhbHBoYS9yZXNv",
-            "dXJjZVByZXNldHNCSlpIZ2l0aHViLmNvbS95YW5kZXgtY2xvdWQvZ28tZ2Vu",
-            "cHJvdG8veWFuZGV4L2Nsb3VkL21kYi9yZWRpcy92MWFscGhhO3JlZGlzYgZw",
-            "cm90bzM="));
+            "b3VkL21kYi9yZWRpcy92MWFscGhhL3Jlc291cmNlX3ByZXNldC5wcm90bxod",
+            "eWFuZGV4L2Nsb3VkL3ZhbGlkYXRpb24ucHJvdG8iPAoYR2V0UmVzb3VyY2VQ",
+            "cmVzZXRSZXF1ZXN0EiAKEnJlc291cmNlX3ByZXNldF9pZBgBIAEoCUIE6Mcx",
+            "ASJDChpMaXN0UmVzb3VyY2VQcmVzZXRzUmVxdWVzdBIRCglwYWdlX3NpemUY",
+            "AiABKAMSEgoKcGFnZV90b2tlbhgDIAEoCSKAAQobTGlzdFJlc291cmNlUHJl",
+            "c2V0c1Jlc3BvbnNlEkgKEHJlc291cmNlX3ByZXNldHMYASADKAsyLi55YW5k",
+            "ZXguY2xvdWQubWRiLnJlZGlzLnYxYWxwaGEuUmVzb3VyY2VQcmVzZXQSFwoP",
+            "bmV4dF9wYWdlX3Rva2VuGAIgASgJMoADChVSZXNvdXJjZVByZXNldFNlcnZp",
+            "Y2UStAEKA0dldBI4LnlhbmRleC5jbG91ZC5tZGIucmVkaXMudjFhbHBoYS5H",
+            "ZXRSZXNvdXJjZVByZXNldFJlcXVlc3QaLi55YW5kZXguY2xvdWQubWRiLnJl",
+            "ZGlzLnYxYWxwaGEuUmVzb3VyY2VQcmVzZXQiQ4LT5JMCPRI7L21hbmFnZWQt",
+            "cmVkaXMvdjFhbHBoYS9yZXNvdXJjZVByZXNldHMve3Jlc291cmNlX3ByZXNl",
+            "dF9pZH0SrwEKBExpc3QSOi55YW5kZXguY2xvdWQubWRiLnJlZGlzLnYxYWxw",
+            "aGEuTGlzdFJlc291cmNlUHJlc2V0c1JlcXVlc3QaOy55YW5kZXguY2xvdWQu",
+            "bWRiLnJlZGlzLnYxYWxwaGEuTGlzdFJlc291cmNlUHJlc2V0c1Jlc3BvbnNl",
+            "Ii6C0+STAigSJi9tYW5hZ2VkLXJlZGlzL3YxYWxwaGEvcmVzb3VyY2VQcmVz",
+            "ZXRzQm4KInlhbmRleC5jbG91ZC5hcGkubWRiLnJlZGlzLnYxYWxwaGFaSGdp",
+            "dGh1Yi5jb20veWFuZGV4LWNsb3VkL2dvLWdlbnByb3RvL3lhbmRleC9jbG91",
+            "ZC9tZGIvcmVkaXMvdjFhbHBoYTtyZWRpc2IGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Yandex.Cloud.Mdb.Redis.V1Alpha.ResourcePresetReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Yandex.Cloud.Mdb.Redis.V1Alpha.ResourcePresetReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1Alpha.GetResourcePresetRequest), global::Yandex.Cloud.Mdb.Redis.V1Alpha.GetResourcePresetRequest.Parser, new[]{ "ResourcePresetId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1Alpha.ListResourcePresetsRequest), global::Yandex.Cloud.Mdb.Redis.V1Alpha.ListResourcePresetsRequest.Parser, new[]{ "PageSize", "PageToken" }, null, null, null),
@@ -95,7 +96,7 @@ namespace Yandex.Cloud.Mdb.Redis.V1Alpha {
     public const int ResourcePresetIdFieldNumber = 1;
     private string resourcePresetId_ = "";
     /// <summary>
-    /// Required. ID of the resource preset to return.
+    /// ID of the resource preset to return.
     /// To get the resource preset ID, use a [ResourcePresetService.List] request.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

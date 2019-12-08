@@ -26,6 +26,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Clickhouse.V1.StartClusterRequest> __Marshaller_yandex_cloud_mdb_clickhouse_v1_StartClusterRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Clickhouse.V1.StartClusterRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Clickhouse.V1.StopClusterRequest> __Marshaller_yandex_cloud_mdb_clickhouse_v1_StopClusterRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Clickhouse.V1.StopClusterRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Clickhouse.V1.MoveClusterRequest> __Marshaller_yandex_cloud_mdb_clickhouse_v1_MoveClusterRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Clickhouse.V1.MoveClusterRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Clickhouse.V1.AddClusterZookeeperRequest> __Marshaller_yandex_cloud_mdb_clickhouse_v1_AddClusterZookeeperRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Clickhouse.V1.AddClusterZookeeperRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Clickhouse.V1.BackupClusterRequest> __Marshaller_yandex_cloud_mdb_clickhouse_v1_BackupClusterRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Clickhouse.V1.BackupClusterRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Clickhouse.V1.RestoreClusterRequest> __Marshaller_yandex_cloud_mdb_clickhouse_v1_RestoreClusterRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Clickhouse.V1.RestoreClusterRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Clickhouse.V1.ListClusterLogsRequest> __Marshaller_yandex_cloud_mdb_clickhouse_v1_ListClusterLogsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Clickhouse.V1.ListClusterLogsRequest.Parser.ParseFrom);
@@ -45,6 +46,8 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Clickhouse.V1.AddClusterShardRequest> __Marshaller_yandex_cloud_mdb_clickhouse_v1_AddClusterShardRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Clickhouse.V1.AddClusterShardRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Clickhouse.V1.UpdateClusterShardRequest> __Marshaller_yandex_cloud_mdb_clickhouse_v1_UpdateClusterShardRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Clickhouse.V1.UpdateClusterShardRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Clickhouse.V1.DeleteClusterShardRequest> __Marshaller_yandex_cloud_mdb_clickhouse_v1_DeleteClusterShardRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Clickhouse.V1.DeleteClusterShardRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Clickhouse.V1.CreateClusterExternalDictionaryRequest> __Marshaller_yandex_cloud_mdb_clickhouse_v1_CreateClusterExternalDictionaryRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Clickhouse.V1.CreateClusterExternalDictionaryRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Clickhouse.V1.DeleteClusterExternalDictionaryRequest> __Marshaller_yandex_cloud_mdb_clickhouse_v1_DeleteClusterExternalDictionaryRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Clickhouse.V1.DeleteClusterExternalDictionaryRequest.Parser.ParseFrom);
 
     static readonly grpc::Method<global::Yandex.Cloud.Mdb.Clickhouse.V1.GetClusterRequest, global::Yandex.Cloud.Mdb.Clickhouse.V1.Cluster> __Method_Get = new grpc::Method<global::Yandex.Cloud.Mdb.Clickhouse.V1.GetClusterRequest, global::Yandex.Cloud.Mdb.Clickhouse.V1.Cluster>(
         grpc::MethodType.Unary,
@@ -100,6 +103,13 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
         __ServiceName,
         "Move",
         __Marshaller_yandex_cloud_mdb_clickhouse_v1_MoveClusterRequest,
+        __Marshaller_yandex_cloud_operation_Operation);
+
+    static readonly grpc::Method<global::Yandex.Cloud.Mdb.Clickhouse.V1.AddClusterZookeeperRequest, global::Yandex.Cloud.Operation.Operation> __Method_AddZookeeper = new grpc::Method<global::Yandex.Cloud.Mdb.Clickhouse.V1.AddClusterZookeeperRequest, global::Yandex.Cloud.Operation.Operation>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "AddZookeeper",
+        __Marshaller_yandex_cloud_mdb_clickhouse_v1_AddClusterZookeeperRequest,
         __Marshaller_yandex_cloud_operation_Operation);
 
     static readonly grpc::Method<global::Yandex.Cloud.Mdb.Clickhouse.V1.BackupClusterRequest, global::Yandex.Cloud.Operation.Operation> __Method_Backup = new grpc::Method<global::Yandex.Cloud.Mdb.Clickhouse.V1.BackupClusterRequest, global::Yandex.Cloud.Operation.Operation>(
@@ -191,6 +201,20 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
         __ServiceName,
         "DeleteShard",
         __Marshaller_yandex_cloud_mdb_clickhouse_v1_DeleteClusterShardRequest,
+        __Marshaller_yandex_cloud_operation_Operation);
+
+    static readonly grpc::Method<global::Yandex.Cloud.Mdb.Clickhouse.V1.CreateClusterExternalDictionaryRequest, global::Yandex.Cloud.Operation.Operation> __Method_CreateExternalDictionary = new grpc::Method<global::Yandex.Cloud.Mdb.Clickhouse.V1.CreateClusterExternalDictionaryRequest, global::Yandex.Cloud.Operation.Operation>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "CreateExternalDictionary",
+        __Marshaller_yandex_cloud_mdb_clickhouse_v1_CreateClusterExternalDictionaryRequest,
+        __Marshaller_yandex_cloud_operation_Operation);
+
+    static readonly grpc::Method<global::Yandex.Cloud.Mdb.Clickhouse.V1.DeleteClusterExternalDictionaryRequest, global::Yandex.Cloud.Operation.Operation> __Method_DeleteExternalDictionary = new grpc::Method<global::Yandex.Cloud.Mdb.Clickhouse.V1.DeleteClusterExternalDictionaryRequest, global::Yandex.Cloud.Operation.Operation>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "DeleteExternalDictionary",
+        __Marshaller_yandex_cloud_mdb_clickhouse_v1_DeleteClusterExternalDictionaryRequest,
         __Marshaller_yandex_cloud_operation_Operation);
 
     /// <summary>Service descriptor</summary>
@@ -587,6 +611,50 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
         return CallInvoker.AsyncUnaryCall(__Method_Move, null, options, request);
       }
       /// <summary>
+      /// Adds a ZooKeeper subcluster to the specified ClickHouse cluster.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.Operation.Operation AddZookeeper(global::Yandex.Cloud.Mdb.Clickhouse.V1.AddClusterZookeeperRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return AddZookeeper(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Adds a ZooKeeper subcluster to the specified ClickHouse cluster.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.Operation.Operation AddZookeeper(global::Yandex.Cloud.Mdb.Clickhouse.V1.AddClusterZookeeperRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_AddZookeeper, null, options, request);
+      }
+      /// <summary>
+      /// Adds a ZooKeeper subcluster to the specified ClickHouse cluster.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Operation.Operation> AddZookeeperAsync(global::Yandex.Cloud.Mdb.Clickhouse.V1.AddClusterZookeeperRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return AddZookeeperAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Adds a ZooKeeper subcluster to the specified ClickHouse cluster.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Operation.Operation> AddZookeeperAsync(global::Yandex.Cloud.Mdb.Clickhouse.V1.AddClusterZookeeperRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_AddZookeeper, null, options, request);
+      }
+      /// <summary>
       /// Creates a backup for the specified ClickHouse cluster.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
@@ -676,7 +744,6 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       }
       /// <summary>
       /// Retrieves logs for the specified ClickHouse cluster.
-      /// For more information about logs, see the [Logs](/docs/managed-clickhouse/concepts/logs) section of the documentation.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -689,7 +756,6 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       }
       /// <summary>
       /// Retrieves logs for the specified ClickHouse cluster.
-      /// For more information about logs, see the [Logs](/docs/managed-clickhouse/concepts/logs) section of the documentation.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
@@ -700,7 +766,6 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       }
       /// <summary>
       /// Retrieves logs for the specified ClickHouse cluster.
-      /// For more information about logs, see the [Logs](/docs/managed-clickhouse/concepts/logs) section of the documentation.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -713,7 +778,6 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       }
       /// <summary>
       /// Retrieves logs for the specified ClickHouse cluster.
-      /// For more information about logs, see the [Logs](/docs/managed-clickhouse/concepts/logs) section of the documentation.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
@@ -1161,6 +1225,94 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Operation.Operation> DeleteShardAsync(global::Yandex.Cloud.Mdb.Clickhouse.V1.DeleteClusterShardRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_DeleteShard, null, options, request);
+      }
+      /// <summary>
+      /// Creates an external dictionary for the specified ClickHouse cluster.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.Operation.Operation CreateExternalDictionary(global::Yandex.Cloud.Mdb.Clickhouse.V1.CreateClusterExternalDictionaryRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return CreateExternalDictionary(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Creates an external dictionary for the specified ClickHouse cluster.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.Operation.Operation CreateExternalDictionary(global::Yandex.Cloud.Mdb.Clickhouse.V1.CreateClusterExternalDictionaryRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_CreateExternalDictionary, null, options, request);
+      }
+      /// <summary>
+      /// Creates an external dictionary for the specified ClickHouse cluster.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Operation.Operation> CreateExternalDictionaryAsync(global::Yandex.Cloud.Mdb.Clickhouse.V1.CreateClusterExternalDictionaryRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return CreateExternalDictionaryAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Creates an external dictionary for the specified ClickHouse cluster.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Operation.Operation> CreateExternalDictionaryAsync(global::Yandex.Cloud.Mdb.Clickhouse.V1.CreateClusterExternalDictionaryRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_CreateExternalDictionary, null, options, request);
+      }
+      /// <summary>
+      /// Deletes the specified external dictionary.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.Operation.Operation DeleteExternalDictionary(global::Yandex.Cloud.Mdb.Clickhouse.V1.DeleteClusterExternalDictionaryRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return DeleteExternalDictionary(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Deletes the specified external dictionary.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.Operation.Operation DeleteExternalDictionary(global::Yandex.Cloud.Mdb.Clickhouse.V1.DeleteClusterExternalDictionaryRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_DeleteExternalDictionary, null, options, request);
+      }
+      /// <summary>
+      /// Deletes the specified external dictionary.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Operation.Operation> DeleteExternalDictionaryAsync(global::Yandex.Cloud.Mdb.Clickhouse.V1.DeleteClusterExternalDictionaryRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return DeleteExternalDictionaryAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Deletes the specified external dictionary.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Operation.Operation> DeleteExternalDictionaryAsync(global::Yandex.Cloud.Mdb.Clickhouse.V1.DeleteClusterExternalDictionaryRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_DeleteExternalDictionary, null, options, request);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       protected override ClusterServiceClient NewInstance(ClientBaseConfiguration configuration)

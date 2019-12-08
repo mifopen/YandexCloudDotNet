@@ -28,6 +28,7 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
     static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Redis.V1.MoveClusterRequest> __Marshaller_yandex_cloud_mdb_redis_v1_MoveClusterRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Redis.V1.MoveClusterRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Redis.V1.BackupClusterRequest> __Marshaller_yandex_cloud_mdb_redis_v1_BackupClusterRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Redis.V1.BackupClusterRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Redis.V1.RestoreClusterRequest> __Marshaller_yandex_cloud_mdb_redis_v1_RestoreClusterRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Redis.V1.RestoreClusterRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Redis.V1.StartClusterFailoverRequest> __Marshaller_yandex_cloud_mdb_redis_v1_StartClusterFailoverRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Redis.V1.StartClusterFailoverRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Redis.V1.ListClusterLogsRequest> __Marshaller_yandex_cloud_mdb_redis_v1_ListClusterLogsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Redis.V1.ListClusterLogsRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Redis.V1.ListClusterLogsResponse> __Marshaller_yandex_cloud_mdb_redis_v1_ListClusterLogsResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Redis.V1.ListClusterLogsResponse.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Redis.V1.ListClusterOperationsRequest> __Marshaller_yandex_cloud_mdb_redis_v1_ListClusterOperationsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Redis.V1.ListClusterOperationsRequest.Parser.ParseFrom);
@@ -38,6 +39,13 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
     static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Redis.V1.ListClusterHostsResponse> __Marshaller_yandex_cloud_mdb_redis_v1_ListClusterHostsResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Redis.V1.ListClusterHostsResponse.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Redis.V1.AddClusterHostsRequest> __Marshaller_yandex_cloud_mdb_redis_v1_AddClusterHostsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Redis.V1.AddClusterHostsRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Redis.V1.DeleteClusterHostsRequest> __Marshaller_yandex_cloud_mdb_redis_v1_DeleteClusterHostsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Redis.V1.DeleteClusterHostsRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Redis.V1.GetClusterShardRequest> __Marshaller_yandex_cloud_mdb_redis_v1_GetClusterShardRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Redis.V1.GetClusterShardRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Redis.V1.Shard> __Marshaller_yandex_cloud_mdb_redis_v1_Shard = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Redis.V1.Shard.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Redis.V1.ListClusterShardsRequest> __Marshaller_yandex_cloud_mdb_redis_v1_ListClusterShardsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Redis.V1.ListClusterShardsRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Redis.V1.ListClusterShardsResponse> __Marshaller_yandex_cloud_mdb_redis_v1_ListClusterShardsResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Redis.V1.ListClusterShardsResponse.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Redis.V1.AddClusterShardRequest> __Marshaller_yandex_cloud_mdb_redis_v1_AddClusterShardRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Redis.V1.AddClusterShardRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Redis.V1.DeleteClusterShardRequest> __Marshaller_yandex_cloud_mdb_redis_v1_DeleteClusterShardRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Redis.V1.DeleteClusterShardRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Redis.V1.RebalanceClusterRequest> __Marshaller_yandex_cloud_mdb_redis_v1_RebalanceClusterRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Redis.V1.RebalanceClusterRequest.Parser.ParseFrom);
 
     static readonly grpc::Method<global::Yandex.Cloud.Mdb.Redis.V1.GetClusterRequest, global::Yandex.Cloud.Mdb.Redis.V1.Cluster> __Method_Get = new grpc::Method<global::Yandex.Cloud.Mdb.Redis.V1.GetClusterRequest, global::Yandex.Cloud.Mdb.Redis.V1.Cluster>(
         grpc::MethodType.Unary,
@@ -109,6 +117,13 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
         __Marshaller_yandex_cloud_mdb_redis_v1_RestoreClusterRequest,
         __Marshaller_yandex_cloud_operation_Operation);
 
+    static readonly grpc::Method<global::Yandex.Cloud.Mdb.Redis.V1.StartClusterFailoverRequest, global::Yandex.Cloud.Operation.Operation> __Method_StartFailover = new grpc::Method<global::Yandex.Cloud.Mdb.Redis.V1.StartClusterFailoverRequest, global::Yandex.Cloud.Operation.Operation>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "StartFailover",
+        __Marshaller_yandex_cloud_mdb_redis_v1_StartClusterFailoverRequest,
+        __Marshaller_yandex_cloud_operation_Operation);
+
     static readonly grpc::Method<global::Yandex.Cloud.Mdb.Redis.V1.ListClusterLogsRequest, global::Yandex.Cloud.Mdb.Redis.V1.ListClusterLogsResponse> __Method_ListLogs = new grpc::Method<global::Yandex.Cloud.Mdb.Redis.V1.ListClusterLogsRequest, global::Yandex.Cloud.Mdb.Redis.V1.ListClusterLogsResponse>(
         grpc::MethodType.Unary,
         __ServiceName,
@@ -149,6 +164,41 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
         __ServiceName,
         "DeleteHosts",
         __Marshaller_yandex_cloud_mdb_redis_v1_DeleteClusterHostsRequest,
+        __Marshaller_yandex_cloud_operation_Operation);
+
+    static readonly grpc::Method<global::Yandex.Cloud.Mdb.Redis.V1.GetClusterShardRequest, global::Yandex.Cloud.Mdb.Redis.V1.Shard> __Method_GetShard = new grpc::Method<global::Yandex.Cloud.Mdb.Redis.V1.GetClusterShardRequest, global::Yandex.Cloud.Mdb.Redis.V1.Shard>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "GetShard",
+        __Marshaller_yandex_cloud_mdb_redis_v1_GetClusterShardRequest,
+        __Marshaller_yandex_cloud_mdb_redis_v1_Shard);
+
+    static readonly grpc::Method<global::Yandex.Cloud.Mdb.Redis.V1.ListClusterShardsRequest, global::Yandex.Cloud.Mdb.Redis.V1.ListClusterShardsResponse> __Method_ListShards = new grpc::Method<global::Yandex.Cloud.Mdb.Redis.V1.ListClusterShardsRequest, global::Yandex.Cloud.Mdb.Redis.V1.ListClusterShardsResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "ListShards",
+        __Marshaller_yandex_cloud_mdb_redis_v1_ListClusterShardsRequest,
+        __Marshaller_yandex_cloud_mdb_redis_v1_ListClusterShardsResponse);
+
+    static readonly grpc::Method<global::Yandex.Cloud.Mdb.Redis.V1.AddClusterShardRequest, global::Yandex.Cloud.Operation.Operation> __Method_AddShard = new grpc::Method<global::Yandex.Cloud.Mdb.Redis.V1.AddClusterShardRequest, global::Yandex.Cloud.Operation.Operation>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "AddShard",
+        __Marshaller_yandex_cloud_mdb_redis_v1_AddClusterShardRequest,
+        __Marshaller_yandex_cloud_operation_Operation);
+
+    static readonly grpc::Method<global::Yandex.Cloud.Mdb.Redis.V1.DeleteClusterShardRequest, global::Yandex.Cloud.Operation.Operation> __Method_DeleteShard = new grpc::Method<global::Yandex.Cloud.Mdb.Redis.V1.DeleteClusterShardRequest, global::Yandex.Cloud.Operation.Operation>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "DeleteShard",
+        __Marshaller_yandex_cloud_mdb_redis_v1_DeleteClusterShardRequest,
+        __Marshaller_yandex_cloud_operation_Operation);
+
+    static readonly grpc::Method<global::Yandex.Cloud.Mdb.Redis.V1.RebalanceClusterRequest, global::Yandex.Cloud.Operation.Operation> __Method_Rebalance = new grpc::Method<global::Yandex.Cloud.Mdb.Redis.V1.RebalanceClusterRequest, global::Yandex.Cloud.Operation.Operation>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "Rebalance",
+        __Marshaller_yandex_cloud_mdb_redis_v1_RebalanceClusterRequest,
         __Marshaller_yandex_cloud_operation_Operation);
 
     /// <summary>Service descriptor</summary>
@@ -633,8 +683,51 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
         return CallInvoker.AsyncUnaryCall(__Method_Restore, null, options, request);
       }
       /// <summary>
+      /// Start a manual failover on the specified Redis cluster.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.Operation.Operation StartFailover(global::Yandex.Cloud.Mdb.Redis.V1.StartClusterFailoverRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return StartFailover(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Start a manual failover on the specified Redis cluster.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.Operation.Operation StartFailover(global::Yandex.Cloud.Mdb.Redis.V1.StartClusterFailoverRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_StartFailover, null, options, request);
+      }
+      /// <summary>
+      /// Start a manual failover on the specified Redis cluster.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Operation.Operation> StartFailoverAsync(global::Yandex.Cloud.Mdb.Redis.V1.StartClusterFailoverRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return StartFailoverAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Start a manual failover on the specified Redis cluster.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Operation.Operation> StartFailoverAsync(global::Yandex.Cloud.Mdb.Redis.V1.StartClusterFailoverRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_StartFailover, null, options, request);
+      }
+      /// <summary>
       /// Retrieves logs for the specified Redis cluster.
-      /// For more information about logs, see the [Logs](/docs/managed-redis/concepts/logs) section in the documentation.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -647,7 +740,6 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
       }
       /// <summary>
       /// Retrieves logs for the specified Redis cluster.
-      /// For more information about logs, see the [Logs](/docs/managed-redis/concepts/logs) section in the documentation.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
@@ -658,7 +750,6 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
       }
       /// <summary>
       /// Retrieves logs for the specified Redis cluster.
-      /// For more information about logs, see the [Logs](/docs/managed-redis/concepts/logs) section in the documentation.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -671,7 +762,6 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
       }
       /// <summary>
       /// Retrieves logs for the specified Redis cluster.
-      /// For more information about logs, see the [Logs](/docs/managed-redis/concepts/logs) section in the documentation.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
@@ -899,6 +989,226 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
       public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Operation.Operation> DeleteHostsAsync(global::Yandex.Cloud.Mdb.Redis.V1.DeleteClusterHostsRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_DeleteHosts, null, options, request);
+      }
+      /// <summary>
+      /// Returns the specified shard.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.Mdb.Redis.V1.Shard GetShard(global::Yandex.Cloud.Mdb.Redis.V1.GetClusterShardRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return GetShard(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Returns the specified shard.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.Mdb.Redis.V1.Shard GetShard(global::Yandex.Cloud.Mdb.Redis.V1.GetClusterShardRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_GetShard, null, options, request);
+      }
+      /// <summary>
+      /// Returns the specified shard.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Mdb.Redis.V1.Shard> GetShardAsync(global::Yandex.Cloud.Mdb.Redis.V1.GetClusterShardRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return GetShardAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Returns the specified shard.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Mdb.Redis.V1.Shard> GetShardAsync(global::Yandex.Cloud.Mdb.Redis.V1.GetClusterShardRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_GetShard, null, options, request);
+      }
+      /// <summary>
+      /// Retrieves a list of shards.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.Mdb.Redis.V1.ListClusterShardsResponse ListShards(global::Yandex.Cloud.Mdb.Redis.V1.ListClusterShardsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return ListShards(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Retrieves a list of shards.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.Mdb.Redis.V1.ListClusterShardsResponse ListShards(global::Yandex.Cloud.Mdb.Redis.V1.ListClusterShardsRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_ListShards, null, options, request);
+      }
+      /// <summary>
+      /// Retrieves a list of shards.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Mdb.Redis.V1.ListClusterShardsResponse> ListShardsAsync(global::Yandex.Cloud.Mdb.Redis.V1.ListClusterShardsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return ListShardsAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Retrieves a list of shards.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Mdb.Redis.V1.ListClusterShardsResponse> ListShardsAsync(global::Yandex.Cloud.Mdb.Redis.V1.ListClusterShardsRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_ListShards, null, options, request);
+      }
+      /// <summary>
+      /// Creates a new shard.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.Operation.Operation AddShard(global::Yandex.Cloud.Mdb.Redis.V1.AddClusterShardRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return AddShard(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Creates a new shard.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.Operation.Operation AddShard(global::Yandex.Cloud.Mdb.Redis.V1.AddClusterShardRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_AddShard, null, options, request);
+      }
+      /// <summary>
+      /// Creates a new shard.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Operation.Operation> AddShardAsync(global::Yandex.Cloud.Mdb.Redis.V1.AddClusterShardRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return AddShardAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Creates a new shard.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Operation.Operation> AddShardAsync(global::Yandex.Cloud.Mdb.Redis.V1.AddClusterShardRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_AddShard, null, options, request);
+      }
+      /// <summary>
+      /// Deletes the specified shard.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.Operation.Operation DeleteShard(global::Yandex.Cloud.Mdb.Redis.V1.DeleteClusterShardRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return DeleteShard(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Deletes the specified shard.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.Operation.Operation DeleteShard(global::Yandex.Cloud.Mdb.Redis.V1.DeleteClusterShardRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_DeleteShard, null, options, request);
+      }
+      /// <summary>
+      /// Deletes the specified shard.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Operation.Operation> DeleteShardAsync(global::Yandex.Cloud.Mdb.Redis.V1.DeleteClusterShardRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return DeleteShardAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Deletes the specified shard.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Operation.Operation> DeleteShardAsync(global::Yandex.Cloud.Mdb.Redis.V1.DeleteClusterShardRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_DeleteShard, null, options, request);
+      }
+      /// <summary>
+      /// Rebalances the cluster. Evenly distributes all the hash slots between the shards.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.Operation.Operation Rebalance(global::Yandex.Cloud.Mdb.Redis.V1.RebalanceClusterRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return Rebalance(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Rebalances the cluster. Evenly distributes all the hash slots between the shards.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.Operation.Operation Rebalance(global::Yandex.Cloud.Mdb.Redis.V1.RebalanceClusterRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_Rebalance, null, options, request);
+      }
+      /// <summary>
+      /// Rebalances the cluster. Evenly distributes all the hash slots between the shards.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Operation.Operation> RebalanceAsync(global::Yandex.Cloud.Mdb.Redis.V1.RebalanceClusterRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return RebalanceAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Rebalances the cluster. Evenly distributes all the hash slots between the shards.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Operation.Operation> RebalanceAsync(global::Yandex.Cloud.Mdb.Redis.V1.RebalanceClusterRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_Rebalance, null, options, request);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       protected override ClusterServiceClient NewInstance(ClientBaseConfiguration configuration)

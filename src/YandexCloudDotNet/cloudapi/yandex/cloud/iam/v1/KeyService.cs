@@ -26,8 +26,9 @@ namespace Yandex.Cloud.Iam.V1 {
           string.Concat(
             "CiV5YW5kZXgvY2xvdWQvaWFtL3YxL2tleV9zZXJ2aWNlLnByb3RvEhN5YW5k",
             "ZXguY2xvdWQuaWFtLnYxGhxnb29nbGUvYXBpL2Fubm90YXRpb25zLnByb3Rv",
-            "Ghtnb29nbGUvcHJvdG9idWYvZW1wdHkucHJvdG8aHXlhbmRleC9jbG91ZC9p",
-            "YW0vdjEva2V5LnByb3RvGh15YW5kZXgvY2xvdWQvdmFsaWRhdGlvbi5wcm90",
+            "Gh15YW5kZXgvY2xvdWQvaWFtL3YxL2tleS5wcm90bxogeWFuZGV4L2Nsb3Vk",
+            "L2FwaS9vcGVyYXRpb24ucHJvdG8aJnlhbmRleC9jbG91ZC9vcGVyYXRpb24v",
+            "b3BlcmF0aW9uLnByb3RvGh15YW5kZXgvY2xvdWQvdmFsaWRhdGlvbi5wcm90",
             "byJdCg1HZXRLZXlSZXF1ZXN0EhwKBmtleV9pZBgBIAEoCUIM6McxAYrIMQQ8",
             "PTUwEi4KBmZvcm1hdBgCIAEoDjIeLnlhbmRleC5jbG91ZC5pYW0udjEuS2V5",
             "Rm9ybWF0IqUBCg9MaXN0S2V5c1JlcXVlc3QSLgoGZm9ybWF0GAEgASgOMh4u",
@@ -43,28 +44,42 @@ namespace Yandex.Cloud.Iam.V1 {
             "Z29yaXRobSJPChFDcmVhdGVLZXlSZXNwb25zZRIlCgNrZXkYASABKAsyGC55",
             "YW5kZXguY2xvdWQuaWFtLnYxLktleRITCgtwcml2YXRlX2tleRgCIAEoCSIw",
             "ChBEZWxldGVLZXlSZXF1ZXN0EhwKBmtleV9pZBgBIAEoCUIM6McxAYrIMQQ8",
-            "PTUwKhkKCUtleUZvcm1hdBIMCghQRU1fRklMRRAAMrUDCgpLZXlTZXJ2aWNl",
-            "EmIKA0dldBIiLnlhbmRleC5jbG91ZC5pYW0udjEuR2V0S2V5UmVxdWVzdBoY",
-            "LnlhbmRleC5jbG91ZC5pYW0udjEuS2V5Ih2C0+STAhcSFS9pYW0vdjEva2V5",
-            "cy97a2V5X2lkfRJpCgRMaXN0EiQueWFuZGV4LmNsb3VkLmlhbS52MS5MaXN0",
-            "S2V5c1JlcXVlc3QaJS55YW5kZXguY2xvdWQuaWFtLnYxLkxpc3RLZXlzUmVz",
-            "cG9uc2UiFILT5JMCDhIML2lhbS92MS9rZXlzEnAKBkNyZWF0ZRIlLnlhbmRl",
-            "eC5jbG91ZC5pYW0udjEuQ3JlYXRlS2V5UmVxdWVzdBomLnlhbmRleC5jbG91",
-            "ZC5pYW0udjEuQ3JlYXRlS2V5UmVzcG9uc2UiF4LT5JMCESIML2lhbS92MS9r",
-            "ZXlzOgEqEmYKBkRlbGV0ZRIlLnlhbmRleC5jbG91ZC5pYW0udjEuRGVsZXRl",
-            "S2V5UmVxdWVzdBoWLmdvb2dsZS5wcm90b2J1Zi5FbXB0eSIdgtPkkwIXKhUv",
-            "aWFtL3YxL2tleXMve2tleV9pZH1CPVo7Z2l0aHViLmNvbS95YW5kZXgtY2xv",
-            "dWQvZ28tZ2VucHJvdG8veWFuZGV4L2Nsb3VkL2lhbS92MTtpYW1iBnByb3Rv",
-            "Mw=="));
+            "PTUwIiMKEURlbGV0ZUtleU1ldGFkYXRhEg4KBmtleV9pZBgBIAEoCSJ2ChhM",
+            "aXN0S2V5T3BlcmF0aW9uc1JlcXVlc3QSHAoGa2V5X2lkGAEgASgJQgzoxzEB",
+            "isgxBDw9NTASHQoJcGFnZV9zaXplGAIgASgDQgr6xzEGMC0xMDAwEh0KCnBh",
+            "Z2VfdG9rZW4YAyABKAlCCYrIMQU8PTEwMCJrChlMaXN0S2V5T3BlcmF0aW9u",
+            "c1Jlc3BvbnNlEjUKCm9wZXJhdGlvbnMYASADKAsyIS55YW5kZXguY2xvdWQu",
+            "b3BlcmF0aW9uLk9wZXJhdGlvbhIXCg9uZXh0X3BhZ2VfdG9rZW4YAiABKAkq",
+            "GQoJS2V5Rm9ybWF0EgwKCFBFTV9GSUxFEAAyiwUKCktleVNlcnZpY2USYgoD",
+            "R2V0EiIueWFuZGV4LmNsb3VkLmlhbS52MS5HZXRLZXlSZXF1ZXN0GhgueWFu",
+            "ZGV4LmNsb3VkLmlhbS52MS5LZXkiHYLT5JMCFxIVL2lhbS92MS9rZXlzL3tr",
+            "ZXlfaWR9EmkKBExpc3QSJC55YW5kZXguY2xvdWQuaWFtLnYxLkxpc3RLZXlz",
+            "UmVxdWVzdBolLnlhbmRleC5jbG91ZC5pYW0udjEuTGlzdEtleXNSZXNwb25z",
+            "ZSIUgtPkkwIOEgwvaWFtL3YxL2tleXMScAoGQ3JlYXRlEiUueWFuZGV4LmNs",
+            "b3VkLmlhbS52MS5DcmVhdGVLZXlSZXF1ZXN0GiYueWFuZGV4LmNsb3VkLmlh",
+            "bS52MS5DcmVhdGVLZXlSZXNwb25zZSIXgtPkkwIRIgwvaWFtL3YxL2tleXM6",
+            "ASoSnwEKBkRlbGV0ZRIlLnlhbmRleC5jbG91ZC5pYW0udjEuRGVsZXRlS2V5",
+            "UmVxdWVzdBohLnlhbmRleC5jbG91ZC5vcGVyYXRpb24uT3BlcmF0aW9uIkuC",
+            "0+STAhcqFS9pYW0vdjEva2V5cy97a2V5X2lkfbLSKioKEURlbGV0ZUtleU1l",
+            "dGFkYXRhEhVnb29nbGUucHJvdG9idWYuRW1wdHkSmQEKDkxpc3RPcGVyYXRp",
+            "b25zEi0ueWFuZGV4LmNsb3VkLmlhbS52MS5MaXN0S2V5T3BlcmF0aW9uc1Jl",
+            "cXVlc3QaLi55YW5kZXguY2xvdWQuaWFtLnYxLkxpc3RLZXlPcGVyYXRpb25z",
+            "UmVzcG9uc2UiKILT5JMCIhIgL2lhbS92MS9rZXlzL3trZXlfaWR9L29wZXJh",
+            "dGlvbnNCVgoXeWFuZGV4LmNsb3VkLmFwaS5pYW0udjFaO2dpdGh1Yi5jb20v",
+            "eWFuZGV4LWNsb3VkL2dvLWdlbnByb3RvL3lhbmRleC9jbG91ZC9pYW0vdjE7",
+            "aWFtYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Yandex.Cloud.Iam.V1.KeyReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Yandex.Cloud.Iam.V1.KeyReflection.Descriptor, global::Yandex.Cloud.Api.OperationReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Yandex.Cloud.Iam.V1.KeyFormat), }, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.GetKeyRequest), global::Yandex.Cloud.Iam.V1.GetKeyRequest.Parser, new[]{ "KeyId", "Format" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.ListKeysRequest), global::Yandex.Cloud.Iam.V1.ListKeysRequest.Parser, new[]{ "Format", "ServiceAccountId", "PageSize", "PageToken" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.ListKeysResponse), global::Yandex.Cloud.Iam.V1.ListKeysResponse.Parser, new[]{ "Keys", "NextPageToken" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.CreateKeyRequest), global::Yandex.Cloud.Iam.V1.CreateKeyRequest.Parser, new[]{ "ServiceAccountId", "Description", "Format", "KeyAlgorithm" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.CreateKeyResponse), global::Yandex.Cloud.Iam.V1.CreateKeyResponse.Parser, new[]{ "Key", "PrivateKey" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.DeleteKeyRequest), global::Yandex.Cloud.Iam.V1.DeleteKeyRequest.Parser, new[]{ "KeyId" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.DeleteKeyRequest), global::Yandex.Cloud.Iam.V1.DeleteKeyRequest.Parser, new[]{ "KeyId" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.DeleteKeyMetadata), global::Yandex.Cloud.Iam.V1.DeleteKeyMetadata.Parser, new[]{ "KeyId" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.ListKeyOperationsRequest), global::Yandex.Cloud.Iam.V1.ListKeyOperationsRequest.Parser, new[]{ "KeyId", "PageSize", "PageToken" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.ListKeyOperationsResponse), global::Yandex.Cloud.Iam.V1.ListKeyOperationsResponse.Parser, new[]{ "Operations", "NextPageToken" }, null, null, null)
           }));
     }
     #endregion
@@ -1159,6 +1174,495 @@ namespace Yandex.Cloud.Iam.V1 {
             break;
           case 10: {
             KeyId = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  internal sealed partial class DeleteKeyMetadata : pb::IMessage<DeleteKeyMetadata> {
+    private static readonly pb::MessageParser<DeleteKeyMetadata> _parser = new pb::MessageParser<DeleteKeyMetadata>(() => new DeleteKeyMetadata());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<DeleteKeyMetadata> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Iam.V1.KeyServiceReflection.Descriptor.MessageTypes[6]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DeleteKeyMetadata() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DeleteKeyMetadata(DeleteKeyMetadata other) : this() {
+      keyId_ = other.keyId_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DeleteKeyMetadata Clone() {
+      return new DeleteKeyMetadata(this);
+    }
+
+    /// <summary>Field number for the "key_id" field.</summary>
+    public const int KeyIdFieldNumber = 1;
+    private string keyId_ = "";
+    /// <summary>
+    /// ID of the key that is being deleted.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string KeyId {
+      get { return keyId_; }
+      set {
+        keyId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as DeleteKeyMetadata);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(DeleteKeyMetadata other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (KeyId != other.KeyId) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (KeyId.Length != 0) hash ^= KeyId.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (KeyId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(KeyId);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (KeyId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(KeyId);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(DeleteKeyMetadata other) {
+      if (other == null) {
+        return;
+      }
+      if (other.KeyId.Length != 0) {
+        KeyId = other.KeyId;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            KeyId = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  internal sealed partial class ListKeyOperationsRequest : pb::IMessage<ListKeyOperationsRequest> {
+    private static readonly pb::MessageParser<ListKeyOperationsRequest> _parser = new pb::MessageParser<ListKeyOperationsRequest>(() => new ListKeyOperationsRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<ListKeyOperationsRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Iam.V1.KeyServiceReflection.Descriptor.MessageTypes[7]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ListKeyOperationsRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ListKeyOperationsRequest(ListKeyOperationsRequest other) : this() {
+      keyId_ = other.keyId_;
+      pageSize_ = other.pageSize_;
+      pageToken_ = other.pageToken_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ListKeyOperationsRequest Clone() {
+      return new ListKeyOperationsRequest(this);
+    }
+
+    /// <summary>Field number for the "key_id" field.</summary>
+    public const int KeyIdFieldNumber = 1;
+    private string keyId_ = "";
+    /// <summary>
+    /// ID of the key to list operations for.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string KeyId {
+      get { return keyId_; }
+      set {
+        keyId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "page_size" field.</summary>
+    public const int PageSizeFieldNumber = 2;
+    private long pageSize_;
+    /// <summary>
+    /// The maximum number of results per page to return. If the number of available
+    /// results is larger than [page_size],
+    /// the service returns a [ListKeyOperationsResponse.next_page_token]
+    /// that can be used to get the next page of results in subsequent list requests.
+    /// Default value: 100.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long PageSize {
+      get { return pageSize_; }
+      set {
+        pageSize_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "page_token" field.</summary>
+    public const int PageTokenFieldNumber = 3;
+    private string pageToken_ = "";
+    /// <summary>
+    /// Page token. To get the next page of results, set [page_token] to the
+    /// [ListKeyOperationsResponse.next_page_token] returned by a previous list request.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string PageToken {
+      get { return pageToken_; }
+      set {
+        pageToken_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as ListKeyOperationsRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(ListKeyOperationsRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (KeyId != other.KeyId) return false;
+      if (PageSize != other.PageSize) return false;
+      if (PageToken != other.PageToken) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (KeyId.Length != 0) hash ^= KeyId.GetHashCode();
+      if (PageSize != 0L) hash ^= PageSize.GetHashCode();
+      if (PageToken.Length != 0) hash ^= PageToken.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (KeyId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(KeyId);
+      }
+      if (PageSize != 0L) {
+        output.WriteRawTag(16);
+        output.WriteInt64(PageSize);
+      }
+      if (PageToken.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(PageToken);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (KeyId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(KeyId);
+      }
+      if (PageSize != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(PageSize);
+      }
+      if (PageToken.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(PageToken);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(ListKeyOperationsRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.KeyId.Length != 0) {
+        KeyId = other.KeyId;
+      }
+      if (other.PageSize != 0L) {
+        PageSize = other.PageSize;
+      }
+      if (other.PageToken.Length != 0) {
+        PageToken = other.PageToken;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            KeyId = input.ReadString();
+            break;
+          }
+          case 16: {
+            PageSize = input.ReadInt64();
+            break;
+          }
+          case 26: {
+            PageToken = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  internal sealed partial class ListKeyOperationsResponse : pb::IMessage<ListKeyOperationsResponse> {
+    private static readonly pb::MessageParser<ListKeyOperationsResponse> _parser = new pb::MessageParser<ListKeyOperationsResponse>(() => new ListKeyOperationsResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<ListKeyOperationsResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Iam.V1.KeyServiceReflection.Descriptor.MessageTypes[8]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ListKeyOperationsResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ListKeyOperationsResponse(ListKeyOperationsResponse other) : this() {
+      operations_ = other.operations_.Clone();
+      nextPageToken_ = other.nextPageToken_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ListKeyOperationsResponse Clone() {
+      return new ListKeyOperationsResponse(this);
+    }
+
+    /// <summary>Field number for the "operations" field.</summary>
+    public const int OperationsFieldNumber = 1;
+    private static readonly pb::FieldCodec<global::Yandex.Cloud.Operation.Operation> _repeated_operations_codec
+        = pb::FieldCodec.ForMessage(10, global::Yandex.Cloud.Operation.Operation.Parser);
+    private readonly pbc::RepeatedField<global::Yandex.Cloud.Operation.Operation> operations_ = new pbc::RepeatedField<global::Yandex.Cloud.Operation.Operation>();
+    /// <summary>
+    /// List of operations for the specified key.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<global::Yandex.Cloud.Operation.Operation> Operations {
+      get { return operations_; }
+    }
+
+    /// <summary>Field number for the "next_page_token" field.</summary>
+    public const int NextPageTokenFieldNumber = 2;
+    private string nextPageToken_ = "";
+    /// <summary>
+    /// This token allows you to get the next page of results for list requests. If the number of results
+    /// is larger than [ListKeyOperationsRequest.page_size], use the [next_page_token] as the value
+    /// for the [ListKeyOperationsRequest.page_token] query parameter in the next list request.
+    /// Each subsequent list request will have its own [next_page_token] to continue paging through the results.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string NextPageToken {
+      get { return nextPageToken_; }
+      set {
+        nextPageToken_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as ListKeyOperationsResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(ListKeyOperationsResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if(!operations_.Equals(other.operations_)) return false;
+      if (NextPageToken != other.NextPageToken) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      hash ^= operations_.GetHashCode();
+      if (NextPageToken.Length != 0) hash ^= NextPageToken.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      operations_.WriteTo(output, _repeated_operations_codec);
+      if (NextPageToken.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(NextPageToken);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      size += operations_.CalculateSize(_repeated_operations_codec);
+      if (NextPageToken.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(NextPageToken);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(ListKeyOperationsResponse other) {
+      if (other == null) {
+        return;
+      }
+      operations_.Add(other.operations_);
+      if (other.NextPageToken.Length != 0) {
+        NextPageToken = other.NextPageToken;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            operations_.AddEntriesFrom(input, _repeated_operations_codec);
+            break;
+          }
+          case 18: {
+            NextPageToken = input.ReadString();
             break;
           }
         }

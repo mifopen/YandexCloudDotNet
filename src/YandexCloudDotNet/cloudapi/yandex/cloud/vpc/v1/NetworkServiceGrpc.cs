@@ -27,6 +27,7 @@ namespace Yandex.Cloud.Vpc.V1 {
     static readonly grpc::Marshaller<global::Yandex.Cloud.Vpc.V1.ListNetworkSubnetsResponse> __Marshaller_yandex_cloud_vpc_v1_ListNetworkSubnetsResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Vpc.V1.ListNetworkSubnetsResponse.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Vpc.V1.ListNetworkOperationsRequest> __Marshaller_yandex_cloud_vpc_v1_ListNetworkOperationsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Vpc.V1.ListNetworkOperationsRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Vpc.V1.ListNetworkOperationsResponse> __Marshaller_yandex_cloud_vpc_v1_ListNetworkOperationsResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Vpc.V1.ListNetworkOperationsResponse.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Yandex.Cloud.Vpc.V1.MoveNetworkRequest> __Marshaller_yandex_cloud_vpc_v1_MoveNetworkRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Vpc.V1.MoveNetworkRequest.Parser.ParseFrom);
 
     static readonly grpc::Method<global::Yandex.Cloud.Vpc.V1.GetNetworkRequest, global::Yandex.Cloud.Vpc.V1.Network> __Method_Get = new grpc::Method<global::Yandex.Cloud.Vpc.V1.GetNetworkRequest, global::Yandex.Cloud.Vpc.V1.Network>(
         grpc::MethodType.Unary,
@@ -76,6 +77,13 @@ namespace Yandex.Cloud.Vpc.V1 {
         "ListOperations",
         __Marshaller_yandex_cloud_vpc_v1_ListNetworkOperationsRequest,
         __Marshaller_yandex_cloud_vpc_v1_ListNetworkOperationsResponse);
+
+    static readonly grpc::Method<global::Yandex.Cloud.Vpc.V1.MoveNetworkRequest, global::Yandex.Cloud.Operation.Operation> __Method_Move = new grpc::Method<global::Yandex.Cloud.Vpc.V1.MoveNetworkRequest, global::Yandex.Cloud.Operation.Operation>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "Move",
+        __Marshaller_yandex_cloud_vpc_v1_MoveNetworkRequest,
+        __Marshaller_yandex_cloud_operation_Operation);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -429,6 +437,50 @@ namespace Yandex.Cloud.Vpc.V1 {
       public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Vpc.V1.ListNetworkOperationsResponse> ListOperationsAsync(global::Yandex.Cloud.Vpc.V1.ListNetworkOperationsRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_ListOperations, null, options, request);
+      }
+      /// <summary>
+      /// Move network to another folder.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.Operation.Operation Move(global::Yandex.Cloud.Vpc.V1.MoveNetworkRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return Move(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Move network to another folder.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.Operation.Operation Move(global::Yandex.Cloud.Vpc.V1.MoveNetworkRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_Move, null, options, request);
+      }
+      /// <summary>
+      /// Move network to another folder.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Operation.Operation> MoveAsync(global::Yandex.Cloud.Vpc.V1.MoveNetworkRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return MoveAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Move network to another folder.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Operation.Operation> MoveAsync(global::Yandex.Cloud.Vpc.V1.MoveNetworkRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_Move, null, options, request);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       protected override NetworkServiceClient NewInstance(ClientBaseConfiguration configuration)

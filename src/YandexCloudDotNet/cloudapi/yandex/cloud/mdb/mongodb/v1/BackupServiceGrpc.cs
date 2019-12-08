@@ -64,9 +64,9 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
       }
 
       /// <summary>
-      /// Returns the specified MongoDB Backup resource.
+      /// Returns the specified MongoDB backup.
       ///
-      /// To get the list of available MongoDB Backup resources, make a [List] request.
+      /// To get the list of available MongoDB backups, make a [List] request.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -78,9 +78,9 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
         return Get(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// Returns the specified MongoDB Backup resource.
+      /// Returns the specified MongoDB backup.
       ///
-      /// To get the list of available MongoDB Backup resources, make a [List] request.
+      /// To get the list of available MongoDB backups, make a [List] request.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
@@ -90,9 +90,9 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
         return CallInvoker.BlockingUnaryCall(__Method_Get, null, options, request);
       }
       /// <summary>
-      /// Returns the specified MongoDB Backup resource.
+      /// Returns the specified MongoDB backup.
       ///
-      /// To get the list of available MongoDB Backup resources, make a [List] request.
+      /// To get the list of available MongoDB backups, make a [List] request.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -104,9 +104,9 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
         return GetAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// Returns the specified MongoDB Backup resource.
+      /// Returns the specified MongoDB backup.
       ///
-      /// To get the list of available MongoDB Backup resources, make a [List] request.
+      /// To get the list of available MongoDB backups, make a [List] request.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
@@ -116,7 +116,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
         return CallInvoker.AsyncUnaryCall(__Method_Get, null, options, request);
       }
       /// <summary>
-      /// Retrieves the list of Backup resources available for the specified folder.
+      /// Retrieves the list of backups available for the specified folder.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -128,7 +128,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
         return List(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// Retrieves the list of Backup resources available for the specified folder.
+      /// Retrieves the list of backups available for the specified folder.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
@@ -138,7 +138,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
         return CallInvoker.BlockingUnaryCall(__Method_List, null, options, request);
       }
       /// <summary>
-      /// Retrieves the list of Backup resources available for the specified folder.
+      /// Retrieves the list of backups available for the specified folder.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -150,7 +150,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
         return ListAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// Retrieves the list of Backup resources available for the specified folder.
+      /// Retrieves the list of backups available for the specified folder.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>

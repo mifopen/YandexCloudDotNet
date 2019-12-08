@@ -30,9 +30,10 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
             "ZXJfaWQYAiABKAkSLgoKY3JlYXRlZF9hdBgDIAEoCzIaLmdvb2dsZS5wcm90",
             "b2J1Zi5UaW1lc3RhbXASGQoRc291cmNlX2NsdXN0ZXJfaWQYBCABKAkSLgoK",
             "c3RhcnRlZF9hdBgFIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXAS",
-            "GgoSc291cmNlX3NoYXJkX25hbWVzGAYgAygJQklaR2dpdGh1Yi5jb20veWFu",
-            "ZGV4LWNsb3VkL2dvLWdlbnByb3RvL3lhbmRleC9jbG91ZC9tZGIvbW9uZ29k",
-            "Yi92MTttb25nb2RiYgZwcm90bzM="));
+            "GgoSc291cmNlX3NoYXJkX25hbWVzGAYgAygJQmoKH3lhbmRleC5jbG91ZC5h",
+            "cGkubWRiLm1vbmdvZGIudjFaR2dpdGh1Yi5jb20veWFuZGV4LWNsb3VkL2dv",
+            "LWdlbnByb3RvL3lhbmRleC9jbG91ZC9tZGIvbW9uZ29kYi92MTttb25nb2Ri",
+            "YgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {

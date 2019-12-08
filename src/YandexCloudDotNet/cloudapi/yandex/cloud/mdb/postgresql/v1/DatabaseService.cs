@@ -27,60 +27,61 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
             "CjV5YW5kZXgvY2xvdWQvbWRiL3Bvc3RncmVzcWwvdjEvZGF0YWJhc2Vfc2Vy",
             "dmljZS5wcm90bxIeeWFuZGV4LmNsb3VkLm1kYi5wb3N0Z3Jlc3FsLnYxGhxn",
             "b29nbGUvYXBpL2Fubm90YXRpb25zLnByb3RvGiBnb29nbGUvcHJvdG9idWYv",
-            "ZmllbGRfbWFzay5wcm90bxoaeWFuZGV4L2FwaS9vcGVyYXRpb24ucHJvdG8a",
-            "HXlhbmRleC9jbG91ZC92YWxpZGF0aW9uLnByb3RvGiZ5YW5kZXgvY2xvdWQv",
-            "b3BlcmF0aW9uL29wZXJhdGlvbi5wcm90bxoteWFuZGV4L2Nsb3VkL21kYi9w",
-            "b3N0Z3Jlc3FsL3YxL2RhdGFiYXNlLnByb3RvIm0KEkdldERhdGFiYXNlUmVx",
-            "dWVzdBIgCgpjbHVzdGVyX2lkGAEgASgJQgzoxzEBisgxBDw9NTASNQoNZGF0",
-            "YWJhc2VfbmFtZRgCIAEoCUIe6McxAYrIMQQ8PTYz8scxDlthLXpBLVowLTlf",
-            "LV0qInYKFExpc3REYXRhYmFzZXNSZXF1ZXN0EiAKCmNsdXN0ZXJfaWQYASAB",
-            "KAlCDOjHMQGKyDEEPD01MBIdCglwYWdlX3NpemUYAiABKANCCvrHMQY8PTEw",
-            "MDASHQoKcGFnZV90b2tlbhgDIAEoCUIJisgxBTw9MTAwIm0KFUxpc3REYXRh",
-            "YmFzZXNSZXNwb25zZRI7CglkYXRhYmFzZXMYASADKAsyKC55YW5kZXguY2xv",
-            "dWQubWRiLnBvc3RncmVzcWwudjEuRGF0YWJhc2USFwoPbmV4dF9wYWdlX3Rv",
-            "a2VuGAIgASgJIoQBChVDcmVhdGVEYXRhYmFzZVJlcXVlc3QSIAoKY2x1c3Rl",
-            "cl9pZBgBIAEoCUIM6McxAYrIMQQ8PTUwEkkKDWRhdGFiYXNlX3NwZWMYAiAB",
-            "KAsyLC55YW5kZXguY2xvdWQubWRiLnBvc3RncmVzcWwudjEuRGF0YWJhc2VT",
-            "cGVjQgToxzEBIkMKFkNyZWF0ZURhdGFiYXNlTWV0YWRhdGESEgoKY2x1c3Rl",
-            "cl9pZBgBIAEoCRIVCg1kYXRhYmFzZV9uYW1lGAIgASgJIuABChVVcGRhdGVE",
-            "YXRhYmFzZVJlcXVlc3QSIAoKY2x1c3Rlcl9pZBgBIAEoCUIM6McxAYrIMQQ8",
-            "PTUwEjUKDWRhdGFiYXNlX25hbWUYAiABKAlCHujHMQGKyDEEPD02M/LHMQ5b",
-            "YS16QS1aMC05Xy1dKhIvCgt1cGRhdGVfbWFzaxgDIAEoCzIaLmdvb2dsZS5w",
-            "cm90b2J1Zi5GaWVsZE1hc2sSPQoKZXh0ZW5zaW9ucxgEIAMoCzIpLnlhbmRl",
-            "eC5jbG91ZC5tZGIucG9zdGdyZXNxbC52MS5FeHRlbnNpb24iQwoWVXBkYXRl",
-            "RGF0YWJhc2VNZXRhZGF0YRISCgpjbHVzdGVyX2lkGAEgASgJEhUKDWRhdGFi",
-            "YXNlX25hbWUYAiABKAkicAoVRGVsZXRlRGF0YWJhc2VSZXF1ZXN0EiAKCmNs",
-            "dXN0ZXJfaWQYASABKAlCDOjHMQGKyDEEPD01MBI1Cg1kYXRhYmFzZV9uYW1l",
-            "GAIgASgJQh7oxzEBisgxBDw9NjPyxzEOW2EtekEtWjAtOV8tXSoiQwoWRGVs",
-            "ZXRlRGF0YWJhc2VNZXRhZGF0YRISCgpjbHVzdGVyX2lkGAEgASgJEhUKDWRh",
-            "dGFiYXNlX25hbWUYAiABKAkykggKD0RhdGFiYXNlU2VydmljZRKzAQoDR2V0",
-            "EjIueWFuZGV4LmNsb3VkLm1kYi5wb3N0Z3Jlc3FsLnYxLkdldERhdGFiYXNl",
-            "UmVxdWVzdBooLnlhbmRleC5jbG91ZC5tZGIucG9zdGdyZXNxbC52MS5EYXRh",
-            "YmFzZSJOgtPkkwJIEkYvbWFuYWdlZC1wb3N0Z3Jlc3FsL3YxL2NsdXN0ZXJz",
-            "L3tjbHVzdGVyX2lkfS9kYXRhYmFzZXMve2RhdGFiYXNlX25hbWV9ErMBCgRM",
-            "aXN0EjQueWFuZGV4LmNsb3VkLm1kYi5wb3N0Z3Jlc3FsLnYxLkxpc3REYXRh",
-            "YmFzZXNSZXF1ZXN0GjUueWFuZGV4LmNsb3VkLm1kYi5wb3N0Z3Jlc3FsLnYx",
-            "Lkxpc3REYXRhYmFzZXNSZXNwb25zZSI+gtPkkwI4EjYvbWFuYWdlZC1wb3N0",
-            "Z3Jlc3FsL3YxL2NsdXN0ZXJzL3tjbHVzdGVyX2lkfS9kYXRhYmFzZXMSywEK",
-            "BkNyZWF0ZRI1LnlhbmRleC5jbG91ZC5tZGIucG9zdGdyZXNxbC52MS5DcmVh",
-            "dGVEYXRhYmFzZVJlcXVlc3QaIS55YW5kZXguY2xvdWQub3BlcmF0aW9uLk9w",
-            "ZXJhdGlvbiJngtPkkwI7IjYvbWFuYWdlZC1wb3N0Z3Jlc3FsL3YxL2NsdXN0",
-            "ZXJzL3tjbHVzdGVyX2lkfS9kYXRhYmFzZXM6ASqy0ioiChZDcmVhdGVEYXRh",
-            "YmFzZU1ldGFkYXRhEghEYXRhYmFzZRLbAQoGVXBkYXRlEjUueWFuZGV4LmNs",
-            "b3VkLm1kYi5wb3N0Z3Jlc3FsLnYxLlVwZGF0ZURhdGFiYXNlUmVxdWVzdBoh",
-            "LnlhbmRleC5jbG91ZC5vcGVyYXRpb24uT3BlcmF0aW9uIneC0+STAksyRi9t",
-            "YW5hZ2VkLXBvc3RncmVzcWwvdjEvY2x1c3RlcnMve2NsdXN0ZXJfaWR9L2Rh",
-            "dGFiYXNlcy97ZGF0YWJhc2VfbmFtZX06ASqy0ioiChZVcGRhdGVEYXRhYmFz",
-            "ZU1ldGFkYXRhEghEYXRhYmFzZRLmAQoGRGVsZXRlEjUueWFuZGV4LmNsb3Vk",
-            "Lm1kYi5wb3N0Z3Jlc3FsLnYxLkRlbGV0ZURhdGFiYXNlUmVxdWVzdBohLnlh",
-            "bmRleC5jbG91ZC5vcGVyYXRpb24uT3BlcmF0aW9uIoEBgtPkkwJIKkYvbWFu",
-            "YWdlZC1wb3N0Z3Jlc3FsL3YxL2NsdXN0ZXJzL3tjbHVzdGVyX2lkfS9kYXRh",
-            "YmFzZXMve2RhdGFiYXNlX25hbWV9stIqLwoWRGVsZXRlRGF0YWJhc2VNZXRh",
-            "ZGF0YRIVZ29vZ2xlLnByb3RvYnVmLkVtcHR5Qk9aTWdpdGh1Yi5jb20veWFu",
-            "ZGV4LWNsb3VkL2dvLWdlbnByb3RvL3lhbmRleC9jbG91ZC9tZGIvcG9zdGdy",
-            "ZXNxbC92MTtwb3N0Z3Jlc3FsYgZwcm90bzM="));
+            "ZmllbGRfbWFzay5wcm90bxogeWFuZGV4L2Nsb3VkL2FwaS9vcGVyYXRpb24u",
+            "cHJvdG8aHXlhbmRleC9jbG91ZC92YWxpZGF0aW9uLnByb3RvGiZ5YW5kZXgv",
+            "Y2xvdWQvb3BlcmF0aW9uL29wZXJhdGlvbi5wcm90bxoteWFuZGV4L2Nsb3Vk",
+            "L21kYi9wb3N0Z3Jlc3FsL3YxL2RhdGFiYXNlLnByb3RvIm0KEkdldERhdGFi",
+            "YXNlUmVxdWVzdBIgCgpjbHVzdGVyX2lkGAEgASgJQgzoxzEBisgxBDw9NTAS",
+            "NQoNZGF0YWJhc2VfbmFtZRgCIAEoCUIe6McxAYrIMQQ8PTYz8scxDlthLXpB",
+            "LVowLTlfLV0qInYKFExpc3REYXRhYmFzZXNSZXF1ZXN0EiAKCmNsdXN0ZXJf",
+            "aWQYASABKAlCDOjHMQGKyDEEPD01MBIdCglwYWdlX3NpemUYAiABKANCCvrH",
+            "MQY8PTEwMDASHQoKcGFnZV90b2tlbhgDIAEoCUIJisgxBTw9MTAwIm0KFUxp",
+            "c3REYXRhYmFzZXNSZXNwb25zZRI7CglkYXRhYmFzZXMYASADKAsyKC55YW5k",
+            "ZXguY2xvdWQubWRiLnBvc3RncmVzcWwudjEuRGF0YWJhc2USFwoPbmV4dF9w",
+            "YWdlX3Rva2VuGAIgASgJIoQBChVDcmVhdGVEYXRhYmFzZVJlcXVlc3QSIAoK",
+            "Y2x1c3Rlcl9pZBgBIAEoCUIM6McxAYrIMQQ8PTUwEkkKDWRhdGFiYXNlX3Nw",
+            "ZWMYAiABKAsyLC55YW5kZXguY2xvdWQubWRiLnBvc3RncmVzcWwudjEuRGF0",
+            "YWJhc2VTcGVjQgToxzEBIkMKFkNyZWF0ZURhdGFiYXNlTWV0YWRhdGESEgoK",
+            "Y2x1c3Rlcl9pZBgBIAEoCRIVCg1kYXRhYmFzZV9uYW1lGAIgASgJIuABChVV",
+            "cGRhdGVEYXRhYmFzZVJlcXVlc3QSIAoKY2x1c3Rlcl9pZBgBIAEoCUIM6Mcx",
+            "AYrIMQQ8PTUwEjUKDWRhdGFiYXNlX25hbWUYAiABKAlCHujHMQGKyDEEPD02",
+            "M/LHMQ5bYS16QS1aMC05Xy1dKhIvCgt1cGRhdGVfbWFzaxgDIAEoCzIaLmdv",
+            "b2dsZS5wcm90b2J1Zi5GaWVsZE1hc2sSPQoKZXh0ZW5zaW9ucxgEIAMoCzIp",
+            "LnlhbmRleC5jbG91ZC5tZGIucG9zdGdyZXNxbC52MS5FeHRlbnNpb24iQwoW",
+            "VXBkYXRlRGF0YWJhc2VNZXRhZGF0YRISCgpjbHVzdGVyX2lkGAEgASgJEhUK",
+            "DWRhdGFiYXNlX25hbWUYAiABKAkicAoVRGVsZXRlRGF0YWJhc2VSZXF1ZXN0",
+            "EiAKCmNsdXN0ZXJfaWQYASABKAlCDOjHMQGKyDEEPD01MBI1Cg1kYXRhYmFz",
+            "ZV9uYW1lGAIgASgJQh7oxzEBisgxBDw9NjPyxzEOW2EtekEtWjAtOV8tXSoi",
+            "QwoWRGVsZXRlRGF0YWJhc2VNZXRhZGF0YRISCgpjbHVzdGVyX2lkGAEgASgJ",
+            "EhUKDWRhdGFiYXNlX25hbWUYAiABKAkykggKD0RhdGFiYXNlU2VydmljZRKz",
+            "AQoDR2V0EjIueWFuZGV4LmNsb3VkLm1kYi5wb3N0Z3Jlc3FsLnYxLkdldERh",
+            "dGFiYXNlUmVxdWVzdBooLnlhbmRleC5jbG91ZC5tZGIucG9zdGdyZXNxbC52",
+            "MS5EYXRhYmFzZSJOgtPkkwJIEkYvbWFuYWdlZC1wb3N0Z3Jlc3FsL3YxL2Ns",
+            "dXN0ZXJzL3tjbHVzdGVyX2lkfS9kYXRhYmFzZXMve2RhdGFiYXNlX25hbWV9",
+            "ErMBCgRMaXN0EjQueWFuZGV4LmNsb3VkLm1kYi5wb3N0Z3Jlc3FsLnYxLkxp",
+            "c3REYXRhYmFzZXNSZXF1ZXN0GjUueWFuZGV4LmNsb3VkLm1kYi5wb3N0Z3Jl",
+            "c3FsLnYxLkxpc3REYXRhYmFzZXNSZXNwb25zZSI+gtPkkwI4EjYvbWFuYWdl",
+            "ZC1wb3N0Z3Jlc3FsL3YxL2NsdXN0ZXJzL3tjbHVzdGVyX2lkfS9kYXRhYmFz",
+            "ZXMSywEKBkNyZWF0ZRI1LnlhbmRleC5jbG91ZC5tZGIucG9zdGdyZXNxbC52",
+            "MS5DcmVhdGVEYXRhYmFzZVJlcXVlc3QaIS55YW5kZXguY2xvdWQub3BlcmF0",
+            "aW9uLk9wZXJhdGlvbiJngtPkkwI7IjYvbWFuYWdlZC1wb3N0Z3Jlc3FsL3Yx",
+            "L2NsdXN0ZXJzL3tjbHVzdGVyX2lkfS9kYXRhYmFzZXM6ASqy0ioiChZDcmVh",
+            "dGVEYXRhYmFzZU1ldGFkYXRhEghEYXRhYmFzZRLbAQoGVXBkYXRlEjUueWFu",
+            "ZGV4LmNsb3VkLm1kYi5wb3N0Z3Jlc3FsLnYxLlVwZGF0ZURhdGFiYXNlUmVx",
+            "dWVzdBohLnlhbmRleC5jbG91ZC5vcGVyYXRpb24uT3BlcmF0aW9uIneC0+ST",
+            "AksyRi9tYW5hZ2VkLXBvc3RncmVzcWwvdjEvY2x1c3RlcnMve2NsdXN0ZXJf",
+            "aWR9L2RhdGFiYXNlcy97ZGF0YWJhc2VfbmFtZX06ASqy0ioiChZVcGRhdGVE",
+            "YXRhYmFzZU1ldGFkYXRhEghEYXRhYmFzZRLmAQoGRGVsZXRlEjUueWFuZGV4",
+            "LmNsb3VkLm1kYi5wb3N0Z3Jlc3FsLnYxLkRlbGV0ZURhdGFiYXNlUmVxdWVz",
+            "dBohLnlhbmRleC5jbG91ZC5vcGVyYXRpb24uT3BlcmF0aW9uIoEBgtPkkwJI",
+            "KkYvbWFuYWdlZC1wb3N0Z3Jlc3FsL3YxL2NsdXN0ZXJzL3tjbHVzdGVyX2lk",
+            "fS9kYXRhYmFzZXMve2RhdGFiYXNlX25hbWV9stIqLwoWRGVsZXRlRGF0YWJh",
+            "c2VNZXRhZGF0YRIVZ29vZ2xlLnByb3RvYnVmLkVtcHR5QnMKInlhbmRleC5j",
+            "bG91ZC5hcGkubWRiLnBvc3RncmVzcWwudjFaTWdpdGh1Yi5jb20veWFuZGV4",
+            "LWNsb3VkL2dvLWdlbnByb3RvL3lhbmRleC9jbG91ZC9tZGIvcG9zdGdyZXNx",
+            "bC92MTtwb3N0Z3Jlc3FsYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Yandex.Api.OperationReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.Mdb.Postgresql.V1.DatabaseReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Yandex.Cloud.Api.OperationReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.Mdb.Postgresql.V1.DatabaseReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.GetDatabaseRequest), global::Yandex.Cloud.Mdb.Postgresql.V1.GetDatabaseRequest.Parser, new[]{ "ClusterId", "DatabaseName" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.ListDatabasesRequest), global::Yandex.Cloud.Mdb.Postgresql.V1.ListDatabasesRequest.Parser, new[]{ "ClusterId", "PageSize", "PageToken" }, null, null, null),
@@ -652,7 +653,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
     public const int ClusterIdFieldNumber = 1;
     private string clusterId_ = "";
     /// <summary>
-    /// Required. ID of the PostgreSQL cluster to create a database in.
+    /// ID of the PostgreSQL cluster to create a database in.
     /// To get the cluster ID use a [ClusterService.List] request.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -667,7 +668,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
     public const int DatabaseSpecFieldNumber = 2;
     private global::Yandex.Cloud.Mdb.Postgresql.V1.DatabaseSpec databaseSpec_;
     /// <summary>
-    /// Required. Configuration of the database to create.
+    /// Configuration of the database to create.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Mdb.Postgresql.V1.DatabaseSpec DatabaseSpec {
@@ -987,7 +988,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
     public const int ClusterIdFieldNumber = 1;
     private string clusterId_ = "";
     /// <summary>
-    /// Required. ID of the PostgreSQL cluster to update a database in.
+    /// ID of the PostgreSQL cluster to update a database in.
     /// To get the cluster ID use a [ClusterService.List] request.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1002,7 +1003,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
     public const int DatabaseNameFieldNumber = 2;
     private string databaseName_ = "";
     /// <summary>
-    /// Required. Name of the database to update.
+    /// Name of the database to update.
     /// To get the name of the database use a [DatabaseService.List] request.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1376,7 +1377,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
     public const int ClusterIdFieldNumber = 1;
     private string clusterId_ = "";
     /// <summary>
-    /// Required. ID of the PostgreSQL cluster to delete a database in.
+    /// ID of the PostgreSQL cluster to delete a database in.
     /// To get the cluster ID, use a [ClusterService.List] request.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1391,7 +1392,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
     public const int DatabaseNameFieldNumber = 2;
     private string databaseName_ = "";
     /// <summary>
-    /// Required. Name of the database to delete.
+    /// Name of the database to delete.
     /// To get the name of the database, use a [DatabaseService.List] request.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

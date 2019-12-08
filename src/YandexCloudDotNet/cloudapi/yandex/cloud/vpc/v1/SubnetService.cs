@@ -26,81 +26,90 @@ namespace Yandex.Cloud.Vpc.V1 {
           string.Concat(
             "Cih5YW5kZXgvY2xvdWQvdnBjL3YxL3N1Ym5ldF9zZXJ2aWNlLnByb3RvEhN5",
             "YW5kZXguY2xvdWQudnBjLnYxGhxnb29nbGUvYXBpL2Fubm90YXRpb25zLnBy",
-            "b3RvGiBnb29nbGUvcHJvdG9idWYvZmllbGRfbWFzay5wcm90bxoaeWFuZGV4",
-            "L2FwaS9vcGVyYXRpb24ucHJvdG8aIHlhbmRleC9jbG91ZC92cGMvdjEvc3Vi",
-            "bmV0LnByb3RvGiZ5YW5kZXgvY2xvdWQvb3BlcmF0aW9uL29wZXJhdGlvbi5w",
-            "cm90bxodeWFuZGV4L2Nsb3VkL3ZhbGlkYXRpb24ucHJvdG8iMwoQR2V0U3Vi",
-            "bmV0UmVxdWVzdBIfCglzdWJuZXRfaWQYASABKAlCDOjHMQGKyDEEPD01MCKP",
-            "AQoSTGlzdFN1Ym5ldHNSZXF1ZXN0Eh8KCWZvbGRlcl9pZBgBIAEoCUIM6Mcx",
-            "AYrIMQQ8PTUwEh0KCXBhZ2Vfc2l6ZRgCIAEoA0IK+scxBjw9MTAwMBIdCgpw",
-            "YWdlX3Rva2VuGAMgASgJQgmKyDEFPD0xMDASGgoGZmlsdGVyGAQgASgJQgqK",
-            "yDEGPD0xMDAwIlwKE0xpc3RTdWJuZXRzUmVzcG9uc2USLAoHc3VibmV0cxgB",
-            "IAMoCzIbLnlhbmRleC5jbG91ZC52cGMudjEuU3VibmV0EhcKD25leHRfcGFn",
-            "ZV90b2tlbhgCIAEoCSLNAwoTQ3JlYXRlU3VibmV0UmVxdWVzdBIfCglmb2xk",
-            "ZXJfaWQYASABKAlCDOjHMQGKyDEEPD01MBIvCgRuYW1lGAIgASgJQiHyxzEd",
-            "fFthLXpdWy1hLXowLTldezEsNjF9W2EtejAtOV0SHgoLZGVzY3JpcHRpb24Y",
-            "AyABKAlCCYrIMQU8PTI1NhKFAQoGbGFiZWxzGAQgAygLMjQueWFuZGV4LmNs",
-            "b3VkLnZwYy52MS5DcmVhdGVTdWJuZXRSZXF1ZXN0LkxhYmVsc0VudHJ5Qj+C",
-            "yDEEPD02NIrIMQQ8PTYz8scxC1stXzAtOWEtel0qssgxBhoEMS02M7LIMRIS",
-            "EFthLXpdWy1fMC05YS16XSoSIAoKbmV0d29ya19pZBgFIAEoCUIM6McxAYrI",
-            "MQQ8PTUwEhkKB3pvbmVfaWQYBiABKAlCCIrIMQQ8PTUwEhYKDnY0X2NpZHJf",
-            "YmxvY2tzGAcgAygJEhYKDnY2X2NpZHJfYmxvY2tzGAggAygJEiAKDnJvdXRl",
-            "X3RhYmxlX2lkGAkgASgJQgiKyDEEPD01MBotCgtMYWJlbHNFbnRyeRILCgNr",
-            "ZXkYASABKAkSDQoFdmFsdWUYAiABKAk6AjgBIikKFENyZWF0ZVN1Ym5ldE1l",
-            "dGFkYXRhEhEKCXN1Ym5ldF9pZBgBIAEoCSKRAwoTVXBkYXRlU3VibmV0UmVx",
-            "dWVzdBIfCglzdWJuZXRfaWQYASABKAlCDOjHMQGKyDEEPD01MBIvCgt1cGRh",
-            "dGVfbWFzaxgCIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5GaWVsZE1hc2sSLwoE",
-            "bmFtZRgDIAEoCUIh8scxHXxbYS16XVstYS16MC05XXsxLDYxfVthLXowLTld",
-            "Eh4KC2Rlc2NyaXB0aW9uGAQgASgJQgmKyDEFPD0yNTYShQEKBmxhYmVscxgF",
-            "IAMoCzI0LnlhbmRleC5jbG91ZC52cGMudjEuVXBkYXRlU3VibmV0UmVxdWVz",
-            "dC5MYWJlbHNFbnRyeUI/gsgxBDw9NjSKyDEEPD02M/LHMQtbLV8wLTlhLXpd",
-            "KrLIMQYaBDEtNjOyyDESEhBbYS16XVstXzAtOWEtel0qEiAKDnJvdXRlX3Rh",
-            "YmxlX2lkGAYgASgJQgiKyDEEPD01MBotCgtMYWJlbHNFbnRyeRILCgNrZXkY",
-            "ASABKAkSDQoFdmFsdWUYAiABKAk6AjgBIikKFFVwZGF0ZVN1Ym5ldE1ldGFk",
-            "YXRhEhEKCXN1Ym5ldF9pZBgBIAEoCSI2ChNEZWxldGVTdWJuZXRSZXF1ZXN0",
-            "Eh8KCXN1Ym5ldF9pZBgBIAEoCUIM6McxAYrIMQQ8PTUwIikKFERlbGV0ZVN1",
-            "Ym5ldE1ldGFkYXRhEhEKCXN1Ym5ldF9pZBgBIAEoCSJ8ChtMaXN0U3VibmV0",
-            "T3BlcmF0aW9uc1JlcXVlc3QSHwoJc3VibmV0X2lkGAEgASgJQgzoxzEBisgx",
-            "BDw9NTASHQoJcGFnZV9zaXplGAIgASgDQgr6xzEGPD0xMDAwEh0KCnBhZ2Vf",
-            "dG9rZW4YAyABKAlCCYrIMQU8PTEwMCJuChxMaXN0U3VibmV0T3BlcmF0aW9u",
-            "c1Jlc3BvbnNlEjUKCm9wZXJhdGlvbnMYASADKAsyIS55YW5kZXguY2xvdWQu",
-            "b3BlcmF0aW9uLk9wZXJhdGlvbhIXCg9uZXh0X3BhZ2VfdG9rZW4YAiABKAky",
-            "gQcKDVN1Ym5ldFNlcnZpY2USbgoDR2V0EiUueWFuZGV4LmNsb3VkLnZwYy52",
-            "MS5HZXRTdWJuZXRSZXF1ZXN0GhsueWFuZGV4LmNsb3VkLnZwYy52MS5TdWJu",
-            "ZXQiI4LT5JMCHRIbL3ZwYy92MS9zdWJuZXRzL3tzdWJuZXRfaWR9EnIKBExp",
-            "c3QSJy55YW5kZXguY2xvdWQudnBjLnYxLkxpc3RTdWJuZXRzUmVxdWVzdBoo",
-            "LnlhbmRleC5jbG91ZC52cGMudjEuTGlzdFN1Ym5ldHNSZXNwb25zZSIXgtPk",
-            "kwIREg8vdnBjL3YxL3N1Ym5ldHMSkwEKBkNyZWF0ZRIoLnlhbmRleC5jbG91",
-            "ZC52cGMudjEuQ3JlYXRlU3VibmV0UmVxdWVzdBohLnlhbmRleC5jbG91ZC5v",
-            "cGVyYXRpb24uT3BlcmF0aW9uIjyC0+STAhQiDy92cGMvdjEvc3VibmV0czoB",
-            "KrLSKh4KFENyZWF0ZVN1Ym5ldE1ldGFkYXRhEgZTdWJuZXQSnwEKBlVwZGF0",
-            "ZRIoLnlhbmRleC5jbG91ZC52cGMudjEuVXBkYXRlU3VibmV0UmVxdWVzdBoh",
-            "LnlhbmRleC5jbG91ZC5vcGVyYXRpb24uT3BlcmF0aW9uIkiC0+STAiAyGy92",
-            "cGMvdjEvc3VibmV0cy97c3VibmV0X2lkfToBKrLSKh4KFFVwZGF0ZVN1Ym5l",
-            "dE1ldGFkYXRhEgZTdWJuZXQSqwEKBkRlbGV0ZRIoLnlhbmRleC5jbG91ZC52",
-            "cGMudjEuRGVsZXRlU3VibmV0UmVxdWVzdBohLnlhbmRleC5jbG91ZC5vcGVy",
-            "YXRpb24uT3BlcmF0aW9uIlSC0+STAh0qGy92cGMvdjEvc3VibmV0cy97c3Vi",
-            "bmV0X2lkfbLSKi0KFERlbGV0ZVN1Ym5ldE1ldGFkYXRhEhVnb29nbGUucHJv",
-            "dG9idWYuRW1wdHkSpQEKDkxpc3RPcGVyYXRpb25zEjAueWFuZGV4LmNsb3Vk",
-            "LnZwYy52MS5MaXN0U3VibmV0T3BlcmF0aW9uc1JlcXVlc3QaMS55YW5kZXgu",
-            "Y2xvdWQudnBjLnYxLkxpc3RTdWJuZXRPcGVyYXRpb25zUmVzcG9uc2UiLoLT",
-            "5JMCKBImL3ZwYy92MS9zdWJuZXRzL3tzdWJuZXRfaWR9L29wZXJhdGlvbnNC",
-            "PVo7Z2l0aHViLmNvbS95YW5kZXgtY2xvdWQvZ28tZ2VucHJvdG8veWFuZGV4",
-            "L2Nsb3VkL3ZwYy92MTt2cGNiBnByb3RvMw=="));
+            "b3RvGiBnb29nbGUvcHJvdG9idWYvZmllbGRfbWFzay5wcm90bxogeWFuZGV4",
+            "L2Nsb3VkL2FwaS9vcGVyYXRpb24ucHJvdG8aIHlhbmRleC9jbG91ZC92cGMv",
+            "djEvc3VibmV0LnByb3RvGiZ5YW5kZXgvY2xvdWQvb3BlcmF0aW9uL29wZXJh",
+            "dGlvbi5wcm90bxodeWFuZGV4L2Nsb3VkL3ZhbGlkYXRpb24ucHJvdG8iMwoQ",
+            "R2V0U3VibmV0UmVxdWVzdBIfCglzdWJuZXRfaWQYASABKAlCDOjHMQGKyDEE",
+            "PD01MCKPAQoSTGlzdFN1Ym5ldHNSZXF1ZXN0Eh8KCWZvbGRlcl9pZBgBIAEo",
+            "CUIM6McxAYrIMQQ8PTUwEh0KCXBhZ2Vfc2l6ZRgCIAEoA0IK+scxBjw9MTAw",
+            "MBIdCgpwYWdlX3Rva2VuGAMgASgJQgmKyDEFPD0xMDASGgoGZmlsdGVyGAQg",
+            "ASgJQgqKyDEGPD0xMDAwIlwKE0xpc3RTdWJuZXRzUmVzcG9uc2USLAoHc3Vi",
+            "bmV0cxgBIAMoCzIbLnlhbmRleC5jbG91ZC52cGMudjEuU3VibmV0EhcKD25l",
+            "eHRfcGFnZV90b2tlbhgCIAEoCSK1AwoTQ3JlYXRlU3VibmV0UmVxdWVzdBIf",
+            "Cglmb2xkZXJfaWQYASABKAlCDOjHMQGKyDEEPD01MBIvCgRuYW1lGAIgASgJ",
+            "QiHyxzEdfFthLXpdWy1hLXowLTldezEsNjF9W2EtejAtOV0SHgoLZGVzY3Jp",
+            "cHRpb24YAyABKAlCCYrIMQU8PTI1NhKFAQoGbGFiZWxzGAQgAygLMjQueWFu",
+            "ZGV4LmNsb3VkLnZwYy52MS5DcmVhdGVTdWJuZXRSZXF1ZXN0LkxhYmVsc0Vu",
+            "dHJ5Qj+CyDEEPD02NIrIMQQ8PTYz8scxC1stXzAtOWEtel0qssgxBhoEMS02",
+            "M7LIMRISEFthLXpdWy1fMC05YS16XSoSIAoKbmV0d29ya19pZBgFIAEoCUIM",
+            "6McxAYrIMQQ8PTUwEhkKB3pvbmVfaWQYBiABKAlCCIrIMQQ8PTUwEhYKDnY0",
+            "X2NpZHJfYmxvY2tzGAcgAygJEiAKDnJvdXRlX3RhYmxlX2lkGAkgASgJQgiK",
+            "yDEEPD01MBotCgtMYWJlbHNFbnRyeRILCgNrZXkYASABKAkSDQoFdmFsdWUY",
+            "AiABKAk6AjgBIikKFENyZWF0ZVN1Ym5ldE1ldGFkYXRhEhEKCXN1Ym5ldF9p",
+            "ZBgBIAEoCSKRAwoTVXBkYXRlU3VibmV0UmVxdWVzdBIfCglzdWJuZXRfaWQY",
+            "ASABKAlCDOjHMQGKyDEEPD01MBIvCgt1cGRhdGVfbWFzaxgCIAEoCzIaLmdv",
+            "b2dsZS5wcm90b2J1Zi5GaWVsZE1hc2sSLwoEbmFtZRgDIAEoCUIh8scxHXxb",
+            "YS16XVstYS16MC05XXsxLDYxfVthLXowLTldEh4KC2Rlc2NyaXB0aW9uGAQg",
+            "ASgJQgmKyDEFPD0yNTYShQEKBmxhYmVscxgFIAMoCzI0LnlhbmRleC5jbG91",
+            "ZC52cGMudjEuVXBkYXRlU3VibmV0UmVxdWVzdC5MYWJlbHNFbnRyeUI/gsgx",
+            "BDw9NjSKyDEEPD02M/LHMQtbLV8wLTlhLXpdKrLIMQYaBDEtNjOyyDESEhBb",
+            "YS16XVstXzAtOWEtel0qEiAKDnJvdXRlX3RhYmxlX2lkGAYgASgJQgiKyDEE",
+            "PD01MBotCgtMYWJlbHNFbnRyeRILCgNrZXkYASABKAkSDQoFdmFsdWUYAiAB",
+            "KAk6AjgBIikKFFVwZGF0ZVN1Ym5ldE1ldGFkYXRhEhEKCXN1Ym5ldF9pZBgB",
+            "IAEoCSI2ChNEZWxldGVTdWJuZXRSZXF1ZXN0Eh8KCXN1Ym5ldF9pZBgBIAEo",
+            "CUIM6McxAYrIMQQ8PTUwIikKFERlbGV0ZVN1Ym5ldE1ldGFkYXRhEhEKCXN1",
+            "Ym5ldF9pZBgBIAEoCSJ8ChtMaXN0U3VibmV0T3BlcmF0aW9uc1JlcXVlc3QS",
+            "HwoJc3VibmV0X2lkGAEgASgJQgzoxzEBisgxBDw9NTASHQoJcGFnZV9zaXpl",
+            "GAIgASgDQgr6xzEGPD0xMDAwEh0KCnBhZ2VfdG9rZW4YAyABKAlCCYrIMQU8",
+            "PTEwMCJuChxMaXN0U3VibmV0T3BlcmF0aW9uc1Jlc3BvbnNlEjUKCm9wZXJh",
+            "dGlvbnMYASADKAsyIS55YW5kZXguY2xvdWQub3BlcmF0aW9uLk9wZXJhdGlv",
+            "bhIXCg9uZXh0X3BhZ2VfdG9rZW4YAiABKAkiYQoRTW92ZVN1Ym5ldFJlcXVl",
+            "c3QSHwoJc3VibmV0X2lkGAEgASgJQgzoxzEBisgxBDw9NTASKwoVZGVzdGlu",
+            "YXRpb25fZm9sZGVyX2lkGAIgASgJQgzoxzEBisgxBDw9NTAiJwoSTW92ZVN1",
+            "Ym5ldE1ldGFkYXRhEhEKCXN1Ym5ldF9pZBgBIAEoCTKiCAoNU3VibmV0U2Vy",
+            "dmljZRJuCgNHZXQSJS55YW5kZXguY2xvdWQudnBjLnYxLkdldFN1Ym5ldFJl",
+            "cXVlc3QaGy55YW5kZXguY2xvdWQudnBjLnYxLlN1Ym5ldCIjgtPkkwIdEhsv",
+            "dnBjL3YxL3N1Ym5ldHMve3N1Ym5ldF9pZH0ScgoETGlzdBInLnlhbmRleC5j",
+            "bG91ZC52cGMudjEuTGlzdFN1Ym5ldHNSZXF1ZXN0GigueWFuZGV4LmNsb3Vk",
+            "LnZwYy52MS5MaXN0U3VibmV0c1Jlc3BvbnNlIheC0+STAhESDy92cGMvdjEv",
+            "c3VibmV0cxKTAQoGQ3JlYXRlEigueWFuZGV4LmNsb3VkLnZwYy52MS5DcmVh",
+            "dGVTdWJuZXRSZXF1ZXN0GiEueWFuZGV4LmNsb3VkLm9wZXJhdGlvbi5PcGVy",
+            "YXRpb24iPILT5JMCFCIPL3ZwYy92MS9zdWJuZXRzOgEqstIqHgoUQ3JlYXRl",
+            "U3VibmV0TWV0YWRhdGESBlN1Ym5ldBKfAQoGVXBkYXRlEigueWFuZGV4LmNs",
+            "b3VkLnZwYy52MS5VcGRhdGVTdWJuZXRSZXF1ZXN0GiEueWFuZGV4LmNsb3Vk",
+            "Lm9wZXJhdGlvbi5PcGVyYXRpb24iSILT5JMCIDIbL3ZwYy92MS9zdWJuZXRz",
+            "L3tzdWJuZXRfaWR9OgEqstIqHgoUVXBkYXRlU3VibmV0TWV0YWRhdGESBlN1",
+            "Ym5ldBKrAQoGRGVsZXRlEigueWFuZGV4LmNsb3VkLnZwYy52MS5EZWxldGVT",
+            "dWJuZXRSZXF1ZXN0GiEueWFuZGV4LmNsb3VkLm9wZXJhdGlvbi5PcGVyYXRp",
+            "b24iVILT5JMCHSobL3ZwYy92MS9zdWJuZXRzL3tzdWJuZXRfaWR9stIqLQoU",
+            "RGVsZXRlU3VibmV0TWV0YWRhdGESFWdvb2dsZS5wcm90b2J1Zi5FbXB0eRKl",
+            "AQoOTGlzdE9wZXJhdGlvbnMSMC55YW5kZXguY2xvdWQudnBjLnYxLkxpc3RT",
+            "dWJuZXRPcGVyYXRpb25zUmVxdWVzdBoxLnlhbmRleC5jbG91ZC52cGMudjEu",
+            "TGlzdFN1Ym5ldE9wZXJhdGlvbnNSZXNwb25zZSIugtPkkwIoEiYvdnBjL3Yx",
+            "L3N1Ym5ldHMve3N1Ym5ldF9pZH0vb3BlcmF0aW9ucxKeAQoETW92ZRImLnlh",
+            "bmRleC5jbG91ZC52cGMudjEuTW92ZVN1Ym5ldFJlcXVlc3QaIS55YW5kZXgu",
+            "Y2xvdWQub3BlcmF0aW9uLk9wZXJhdGlvbiJLgtPkkwIlIiAvdnBjL3YxL3N1",
+            "Ym5ldHMve3N1Ym5ldF9pZH06bW92ZToBKrLSKhwKEk1vdmVTdWJuZXRNZXRh",
+            "ZGF0YRIGU3VibmV0QlYKF3lhbmRleC5jbG91ZC5hcGkudnBjLnYxWjtnaXRo",
+            "dWIuY29tL3lhbmRleC1jbG91ZC9nby1nZW5wcm90by95YW5kZXgvY2xvdWQv",
+            "dnBjL3YxO3ZwY2IGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Yandex.Api.OperationReflection.Descriptor, global::Yandex.Cloud.Vpc.V1.SubnetReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Yandex.Cloud.Api.OperationReflection.Descriptor, global::Yandex.Cloud.Vpc.V1.SubnetReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.GetSubnetRequest), global::Yandex.Cloud.Vpc.V1.GetSubnetRequest.Parser, new[]{ "SubnetId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.ListSubnetsRequest), global::Yandex.Cloud.Vpc.V1.ListSubnetsRequest.Parser, new[]{ "FolderId", "PageSize", "PageToken", "Filter" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.ListSubnetsResponse), global::Yandex.Cloud.Vpc.V1.ListSubnetsResponse.Parser, new[]{ "Subnets", "NextPageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.CreateSubnetRequest), global::Yandex.Cloud.Vpc.V1.CreateSubnetRequest.Parser, new[]{ "FolderId", "Name", "Description", "Labels", "NetworkId", "ZoneId", "V4CidrBlocks", "V6CidrBlocks", "RouteTableId" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.CreateSubnetRequest), global::Yandex.Cloud.Vpc.V1.CreateSubnetRequest.Parser, new[]{ "FolderId", "Name", "Description", "Labels", "NetworkId", "ZoneId", "V4CidrBlocks", "RouteTableId" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.CreateSubnetMetadata), global::Yandex.Cloud.Vpc.V1.CreateSubnetMetadata.Parser, new[]{ "SubnetId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.UpdateSubnetRequest), global::Yandex.Cloud.Vpc.V1.UpdateSubnetRequest.Parser, new[]{ "SubnetId", "UpdateMask", "Name", "Description", "Labels", "RouteTableId" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.UpdateSubnetMetadata), global::Yandex.Cloud.Vpc.V1.UpdateSubnetMetadata.Parser, new[]{ "SubnetId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.DeleteSubnetRequest), global::Yandex.Cloud.Vpc.V1.DeleteSubnetRequest.Parser, new[]{ "SubnetId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.DeleteSubnetMetadata), global::Yandex.Cloud.Vpc.V1.DeleteSubnetMetadata.Parser, new[]{ "SubnetId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.ListSubnetOperationsRequest), global::Yandex.Cloud.Vpc.V1.ListSubnetOperationsRequest.Parser, new[]{ "SubnetId", "PageSize", "PageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.ListSubnetOperationsResponse), global::Yandex.Cloud.Vpc.V1.ListSubnetOperationsResponse.Parser, new[]{ "Operations", "NextPageToken" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.ListSubnetOperationsResponse), global::Yandex.Cloud.Vpc.V1.ListSubnetOperationsResponse.Parser, new[]{ "Operations", "NextPageToken" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.MoveSubnetRequest), global::Yandex.Cloud.Vpc.V1.MoveSubnetRequest.Parser, new[]{ "SubnetId", "DestinationFolderId" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.MoveSubnetMetadata), global::Yandex.Cloud.Vpc.V1.MoveSubnetMetadata.Parser, new[]{ "SubnetId" }, null, null, null)
           }));
     }
     #endregion
@@ -666,7 +675,6 @@ namespace Yandex.Cloud.Vpc.V1 {
       networkId_ = other.networkId_;
       zoneId_ = other.zoneId_;
       v4CidrBlocks_ = other.v4CidrBlocks_.Clone();
-      v6CidrBlocks_ = other.v6CidrBlocks_.Clone();
       routeTableId_ = other.routeTableId_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -779,19 +787,6 @@ namespace Yandex.Cloud.Vpc.V1 {
       get { return v4CidrBlocks_; }
     }
 
-    /// <summary>Field number for the "v6_cidr_blocks" field.</summary>
-    public const int V6CidrBlocksFieldNumber = 8;
-    private static readonly pb::FieldCodec<string> _repeated_v6CidrBlocks_codec
-        = pb::FieldCodec.ForString(66);
-    private readonly pbc::RepeatedField<string> v6CidrBlocks_ = new pbc::RepeatedField<string>();
-    /// <summary>
-    /// IPv6 not available yet.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<string> V6CidrBlocks {
-      get { return v6CidrBlocks_; }
-    }
-
     /// <summary>Field number for the "route_table_id" field.</summary>
     public const int RouteTableIdFieldNumber = 9;
     private string routeTableId_ = "";
@@ -826,7 +821,6 @@ namespace Yandex.Cloud.Vpc.V1 {
       if (NetworkId != other.NetworkId) return false;
       if (ZoneId != other.ZoneId) return false;
       if(!v4CidrBlocks_.Equals(other.v4CidrBlocks_)) return false;
-      if(!v6CidrBlocks_.Equals(other.v6CidrBlocks_)) return false;
       if (RouteTableId != other.RouteTableId) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -841,7 +835,6 @@ namespace Yandex.Cloud.Vpc.V1 {
       if (NetworkId.Length != 0) hash ^= NetworkId.GetHashCode();
       if (ZoneId.Length != 0) hash ^= ZoneId.GetHashCode();
       hash ^= v4CidrBlocks_.GetHashCode();
-      hash ^= v6CidrBlocks_.GetHashCode();
       if (RouteTableId.Length != 0) hash ^= RouteTableId.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -878,7 +871,6 @@ namespace Yandex.Cloud.Vpc.V1 {
         output.WriteString(ZoneId);
       }
       v4CidrBlocks_.WriteTo(output, _repeated_v4CidrBlocks_codec);
-      v6CidrBlocks_.WriteTo(output, _repeated_v6CidrBlocks_codec);
       if (RouteTableId.Length != 0) {
         output.WriteRawTag(74);
         output.WriteString(RouteTableId);
@@ -908,7 +900,6 @@ namespace Yandex.Cloud.Vpc.V1 {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(ZoneId);
       }
       size += v4CidrBlocks_.CalculateSize(_repeated_v4CidrBlocks_codec);
-      size += v6CidrBlocks_.CalculateSize(_repeated_v6CidrBlocks_codec);
       if (RouteTableId.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(RouteTableId);
       }
@@ -940,7 +931,6 @@ namespace Yandex.Cloud.Vpc.V1 {
         ZoneId = other.ZoneId;
       }
       v4CidrBlocks_.Add(other.v4CidrBlocks_);
-      v6CidrBlocks_.Add(other.v6CidrBlocks_);
       if (other.RouteTableId.Length != 0) {
         RouteTableId = other.RouteTableId;
       }
@@ -981,10 +971,6 @@ namespace Yandex.Cloud.Vpc.V1 {
           }
           case 58: {
             v4CidrBlocks_.AddEntriesFrom(input, _repeated_v4CidrBlocks_codec);
-            break;
-          }
-          case 66: {
-            v6CidrBlocks_.AddEntriesFrom(input, _repeated_v6CidrBlocks_codec);
             break;
           }
           case 74: {
@@ -2159,6 +2145,301 @@ namespace Yandex.Cloud.Vpc.V1 {
           }
           case 18: {
             NextPageToken = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  internal sealed partial class MoveSubnetRequest : pb::IMessage<MoveSubnetRequest> {
+    private static readonly pb::MessageParser<MoveSubnetRequest> _parser = new pb::MessageParser<MoveSubnetRequest>(() => new MoveSubnetRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<MoveSubnetRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Vpc.V1.SubnetServiceReflection.Descriptor.MessageTypes[11]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public MoveSubnetRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public MoveSubnetRequest(MoveSubnetRequest other) : this() {
+      subnetId_ = other.subnetId_;
+      destinationFolderId_ = other.destinationFolderId_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public MoveSubnetRequest Clone() {
+      return new MoveSubnetRequest(this);
+    }
+
+    /// <summary>Field number for the "subnet_id" field.</summary>
+    public const int SubnetIdFieldNumber = 1;
+    private string subnetId_ = "";
+    /// <summary>
+    /// ID of the Subnet resource to move.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string SubnetId {
+      get { return subnetId_; }
+      set {
+        subnetId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "destination_folder_id" field.</summary>
+    public const int DestinationFolderIdFieldNumber = 2;
+    private string destinationFolderId_ = "";
+    /// <summary>
+    /// ID of the destination folder.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string DestinationFolderId {
+      get { return destinationFolderId_; }
+      set {
+        destinationFolderId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as MoveSubnetRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(MoveSubnetRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (SubnetId != other.SubnetId) return false;
+      if (DestinationFolderId != other.DestinationFolderId) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (SubnetId.Length != 0) hash ^= SubnetId.GetHashCode();
+      if (DestinationFolderId.Length != 0) hash ^= DestinationFolderId.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (SubnetId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(SubnetId);
+      }
+      if (DestinationFolderId.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(DestinationFolderId);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (SubnetId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(SubnetId);
+      }
+      if (DestinationFolderId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(DestinationFolderId);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(MoveSubnetRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.SubnetId.Length != 0) {
+        SubnetId = other.SubnetId;
+      }
+      if (other.DestinationFolderId.Length != 0) {
+        DestinationFolderId = other.DestinationFolderId;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            SubnetId = input.ReadString();
+            break;
+          }
+          case 18: {
+            DestinationFolderId = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  internal sealed partial class MoveSubnetMetadata : pb::IMessage<MoveSubnetMetadata> {
+    private static readonly pb::MessageParser<MoveSubnetMetadata> _parser = new pb::MessageParser<MoveSubnetMetadata>(() => new MoveSubnetMetadata());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<MoveSubnetMetadata> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Vpc.V1.SubnetServiceReflection.Descriptor.MessageTypes[12]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public MoveSubnetMetadata() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public MoveSubnetMetadata(MoveSubnetMetadata other) : this() {
+      subnetId_ = other.subnetId_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public MoveSubnetMetadata Clone() {
+      return new MoveSubnetMetadata(this);
+    }
+
+    /// <summary>Field number for the "subnet_id" field.</summary>
+    public const int SubnetIdFieldNumber = 1;
+    private string subnetId_ = "";
+    /// <summary>
+    /// ID of the Subnet resource that is being moved.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string SubnetId {
+      get { return subnetId_; }
+      set {
+        subnetId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as MoveSubnetMetadata);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(MoveSubnetMetadata other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (SubnetId != other.SubnetId) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (SubnetId.Length != 0) hash ^= SubnetId.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (SubnetId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(SubnetId);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (SubnetId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(SubnetId);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(MoveSubnetMetadata other) {
+      if (other == null) {
+        return;
+      }
+      if (other.SubnetId.Length != 0) {
+        SubnetId = other.SubnetId;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            SubnetId = input.ReadString();
             break;
           }
         }

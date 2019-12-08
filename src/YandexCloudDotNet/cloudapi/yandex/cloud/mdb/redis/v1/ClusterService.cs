@@ -28,189 +28,241 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
             "cm90bxIZeWFuZGV4LmNsb3VkLm1kYi5yZWRpcy52MRocZ29vZ2xlL2FwaS9h",
             "bm5vdGF0aW9ucy5wcm90bxogZ29vZ2xlL3Byb3RvYnVmL2ZpZWxkX21hc2su",
             "cHJvdG8aH2dvb2dsZS9wcm90b2J1Zi90aW1lc3RhbXAucHJvdG8aG2dvb2ds",
-            "ZS90eXBlL3RpbWVvZmRheS5wcm90bxoaeWFuZGV4L2FwaS9vcGVyYXRpb24u",
-            "cHJvdG8aJnlhbmRleC9jbG91ZC9vcGVyYXRpb24vb3BlcmF0aW9uLnByb3Rv",
-            "Gh15YW5kZXgvY2xvdWQvdmFsaWRhdGlvbi5wcm90bxomeWFuZGV4L2Nsb3Vk",
-            "L21kYi9yZWRpcy92MS9iYWNrdXAucHJvdG8aJ3lhbmRleC9jbG91ZC9tZGIv",
-            "cmVkaXMvdjEvY2x1c3Rlci5wcm90bxoveWFuZGV4L2Nsb3VkL21kYi9yZWRp",
-            "cy92MS9jb25maWcvcmVkaXM1XzAucHJvdG8iNQoRR2V0Q2x1c3RlclJlcXVl",
-            "c3QSIAoKY2x1c3Rlcl9pZBgBIAEoCUIM6McxAYrIMQQ8PTUwIpABChNMaXN0",
-            "Q2x1c3RlcnNSZXF1ZXN0Eh8KCWZvbGRlcl9pZBgBIAEoCUIM6McxAYrIMQQ8",
-            "PTUwEh0KCXBhZ2Vfc2l6ZRgCIAEoA0IK+scxBjAtMTAwMBIdCgpwYWdlX3Rv",
-            "a2VuGAMgASgJQgmKyDEFPD0xMDASGgoGZmlsdGVyGAQgASgJQgqKyDEGPD0x",
-            "MDAwImUKFExpc3RDbHVzdGVyc1Jlc3BvbnNlEjQKCGNsdXN0ZXJzGAEgAygL",
-            "MiIueWFuZGV4LmNsb3VkLm1kYi5yZWRpcy52MS5DbHVzdGVyEhcKD25leHRf",
-            "cGFnZV90b2tlbhgCIAEoCSKzBAoUQ3JlYXRlQ2x1c3RlclJlcXVlc3QSHwoJ",
-            "Zm9sZGVyX2lkGAEgASgJQgzoxzEBisgxBDw9NTASLAoEbmFtZRgCIAEoCUIe",
-            "6McxAYrIMQQ8PTYz8scxDlthLXpBLVowLTlfLV0qEh4KC2Rlc2NyaXB0aW9u",
-            "GAMgASgJQgmKyDEFPD0yNTYSjAEKBmxhYmVscxgEIAMoCzI7LnlhbmRleC5j",
-            "bG91ZC5tZGIucmVkaXMudjEuQ3JlYXRlQ2x1c3RlclJlcXVlc3QuTGFiZWxz",
-            "RW50cnlCP4LIMQQ8PTY0isgxBDw9NjPyxzELWy1fMC05YS16XSqyyDEGGgQ8",
-            "PTYzssgxEhIQW2Etel1bLV8wLTlhLXpdKhJJCgtlbnZpcm9ubWVudBgFIAEo",
-            "DjIuLnlhbmRleC5jbG91ZC5tZGIucmVkaXMudjEuQ2x1c3Rlci5FbnZpcm9u",
-            "bWVudEIE6McxARJACgtjb25maWdfc3BlYxgGIAEoCzIlLnlhbmRleC5jbG91",
-            "ZC5tZGIucmVkaXMudjEuQ29uZmlnU3BlY0IE6McxARI/Cgpob3N0X3NwZWNz",
-            "GAcgAygLMiMueWFuZGV4LmNsb3VkLm1kYi5yZWRpcy52MS5Ib3N0U3BlY0IG",
-            "gsgxAj4wEiAKCm5ldHdvcmtfaWQYCiABKAlCDOjHMQGKyDEEPD01MBotCgtM",
-            "YWJlbHNFbnRyeRILCgNrZXkYASABKAkSDQoFdmFsdWUYAiABKAk6AjgBIisK",
-            "FUNyZWF0ZUNsdXN0ZXJNZXRhZGF0YRISCgpjbHVzdGVyX2lkGAEgASgJIq0D",
-            "ChRVcGRhdGVDbHVzdGVyUmVxdWVzdBIgCgpjbHVzdGVyX2lkGAEgASgJQgzo",
-            "xzEBisgxBDw9NTASLwoLdXBkYXRlX21hc2sYAiABKAsyGi5nb29nbGUucHJv",
-            "dG9idWYuRmllbGRNYXNrEh4KC2Rlc2NyaXB0aW9uGAMgASgJQgmKyDEFPD0y",
-            "NTYSjAEKBmxhYmVscxgEIAMoCzI7LnlhbmRleC5jbG91ZC5tZGIucmVkaXMu",
-            "djEuVXBkYXRlQ2x1c3RlclJlcXVlc3QuTGFiZWxzRW50cnlCP4LIMQQ8PTY0",
-            "isgxBDw9NjPyxzELWy1fMC05YS16XSqyyDEGGgQ8PTYzssgxEhIQW2Etel1b",
-            "LV8wLTlhLXpdKhI6Cgtjb25maWdfc3BlYxgFIAEoCzIlLnlhbmRleC5jbG91",
-            "ZC5tZGIucmVkaXMudjEuQ29uZmlnU3BlYxIoCgRuYW1lGAYgASgJQhqKyDEE",
-            "PD02M/LHMQ5bYS16QS1aMC05Xy1dKhotCgtMYWJlbHNFbnRyeRILCgNrZXkY",
-            "ASABKAkSDQoFdmFsdWUYAiABKAk6AjgBIisKFVVwZGF0ZUNsdXN0ZXJNZXRh",
-            "ZGF0YRISCgpjbHVzdGVyX2lkGAEgASgJIjgKFERlbGV0ZUNsdXN0ZXJSZXF1",
-            "ZXN0EiAKCmNsdXN0ZXJfaWQYASABKAlCDOjHMQGKyDEEPD01MCIrChVEZWxl",
-            "dGVDbHVzdGVyTWV0YWRhdGESEgoKY2x1c3Rlcl9pZBgBIAEoCSI3ChNTdGFy",
-            "dENsdXN0ZXJSZXF1ZXN0EiAKCmNsdXN0ZXJfaWQYASABKAlCDOjHMQGKyDEE",
-            "PD01MCIqChRTdGFydENsdXN0ZXJNZXRhZGF0YRISCgpjbHVzdGVyX2lkGAEg",
-            "ASgJIjYKElN0b3BDbHVzdGVyUmVxdWVzdBIgCgpjbHVzdGVyX2lkGAEgASgJ",
-            "QgzoxzEBisgxBDw9NTAiKQoTU3RvcENsdXN0ZXJNZXRhZGF0YRISCgpjbHVz",
-            "dGVyX2lkGAEgASgJImMKEk1vdmVDbHVzdGVyUmVxdWVzdBIgCgpjbHVzdGVy",
-            "X2lkGAEgASgJQgzoxzEBisgxBDw9NTASKwoVZGVzdGluYXRpb25fZm9sZGVy",
-            "X2lkGAIgASgJQgzoxzEBisgxBDw9NTAiYgoTTW92ZUNsdXN0ZXJNZXRhZGF0",
-            "YRISCgpjbHVzdGVyX2lkGAEgASgJEhgKEHNvdXJjZV9mb2xkZXJfaWQYAiAB",
-            "KAkSHQoVZGVzdGluYXRpb25fZm9sZGVyX2lkGAMgASgJIjgKFEJhY2t1cENs",
+            "ZS90eXBlL3RpbWVvZmRheS5wcm90bxogeWFuZGV4L2Nsb3VkL2FwaS9vcGVy",
+            "YXRpb24ucHJvdG8aJnlhbmRleC9jbG91ZC9vcGVyYXRpb24vb3BlcmF0aW9u",
+            "LnByb3RvGh15YW5kZXgvY2xvdWQvdmFsaWRhdGlvbi5wcm90bxomeWFuZGV4",
+            "L2Nsb3VkL21kYi9yZWRpcy92MS9iYWNrdXAucHJvdG8aJ3lhbmRleC9jbG91",
+            "ZC9tZGIvcmVkaXMvdjEvY2x1c3Rlci5wcm90bxoveWFuZGV4L2Nsb3VkL21k",
+            "Yi9yZWRpcy92MS9jb25maWcvcmVkaXM1XzAucHJvdG8iNQoRR2V0Q2x1c3Rl",
+            "clJlcXVlc3QSIAoKY2x1c3Rlcl9pZBgBIAEoCUIM6McxAYrIMQQ8PTUwIpAB",
+            "ChNMaXN0Q2x1c3RlcnNSZXF1ZXN0Eh8KCWZvbGRlcl9pZBgBIAEoCUIM6Mcx",
+            "AYrIMQQ8PTUwEh0KCXBhZ2Vfc2l6ZRgCIAEoA0IK+scxBjAtMTAwMBIdCgpw",
+            "YWdlX3Rva2VuGAMgASgJQgmKyDEFPD0xMDASGgoGZmlsdGVyGAQgASgJQgqK",
+            "yDEGPD0xMDAwImUKFExpc3RDbHVzdGVyc1Jlc3BvbnNlEjQKCGNsdXN0ZXJz",
+            "GAEgAygLMiIueWFuZGV4LmNsb3VkLm1kYi5yZWRpcy52MS5DbHVzdGVyEhcK",
+            "D25leHRfcGFnZV90b2tlbhgCIAEoCSLEBAoUQ3JlYXRlQ2x1c3RlclJlcXVl",
+            "c3QSHwoJZm9sZGVyX2lkGAEgASgJQgzoxzEBisgxBDw9NTASLAoEbmFtZRgC",
+            "IAEoCUIe6McxAYrIMQQ8PTYz8scxDlthLXpBLVowLTlfLV0qEh4KC2Rlc2Ny",
+            "aXB0aW9uGAMgASgJQgmKyDEFPD0yNTYSjAEKBmxhYmVscxgEIAMoCzI7Lnlh",
+            "bmRleC5jbG91ZC5tZGIucmVkaXMudjEuQ3JlYXRlQ2x1c3RlclJlcXVlc3Qu",
+            "TGFiZWxzRW50cnlCP4LIMQQ8PTY0isgxBDw9NjPyxzELWy1fMC05YS16XSqy",
+            "yDEGGgQ8PTYzssgxEhIQW2Etel1bLV8wLTlhLXpdKhJJCgtlbnZpcm9ubWVu",
+            "dBgFIAEoDjIuLnlhbmRleC5jbG91ZC5tZGIucmVkaXMudjEuQ2x1c3Rlci5F",
+            "bnZpcm9ubWVudEIE6McxARJACgtjb25maWdfc3BlYxgGIAEoCzIlLnlhbmRl",
+            "eC5jbG91ZC5tZGIucmVkaXMudjEuQ29uZmlnU3BlY0IE6McxARI/Cgpob3N0",
+            "X3NwZWNzGAcgAygLMiMueWFuZGV4LmNsb3VkLm1kYi5yZWRpcy52MS5Ib3N0",
+            "U3BlY0IGgsgxAj4wEiAKCm5ldHdvcmtfaWQYCiABKAlCDOjHMQGKyDEEPD01",
+            "MBIPCgdzaGFyZGVkGAsgASgIGi0KC0xhYmVsc0VudHJ5EgsKA2tleRgBIAEo",
+            "CRINCgV2YWx1ZRgCIAEoCToCOAEiKwoVQ3JlYXRlQ2x1c3Rlck1ldGFkYXRh",
+            "EhIKCmNsdXN0ZXJfaWQYASABKAkirQMKFFVwZGF0ZUNsdXN0ZXJSZXF1ZXN0",
+            "EiAKCmNsdXN0ZXJfaWQYASABKAlCDOjHMQGKyDEEPD01MBIvCgt1cGRhdGVf",
+            "bWFzaxgCIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5GaWVsZE1hc2sSHgoLZGVz",
+            "Y3JpcHRpb24YAyABKAlCCYrIMQU8PTI1NhKMAQoGbGFiZWxzGAQgAygLMjsu",
+            "eWFuZGV4LmNsb3VkLm1kYi5yZWRpcy52MS5VcGRhdGVDbHVzdGVyUmVxdWVz",
+            "dC5MYWJlbHNFbnRyeUI/gsgxBDw9NjSKyDEEPD02M/LHMQtbLV8wLTlhLXpd",
+            "KrLIMQYaBDw9NjOyyDESEhBbYS16XVstXzAtOWEtel0qEjoKC2NvbmZpZ19z",
+            "cGVjGAUgASgLMiUueWFuZGV4LmNsb3VkLm1kYi5yZWRpcy52MS5Db25maWdT",
+            "cGVjEigKBG5hbWUYBiABKAlCGorIMQQ8PTYz8scxDlthLXpBLVowLTlfLV0q",
+            "Gi0KC0xhYmVsc0VudHJ5EgsKA2tleRgBIAEoCRINCgV2YWx1ZRgCIAEoCToC",
+            "OAEiKwoVVXBkYXRlQ2x1c3Rlck1ldGFkYXRhEhIKCmNsdXN0ZXJfaWQYASAB",
+            "KAkiOAoURGVsZXRlQ2x1c3RlclJlcXVlc3QSIAoKY2x1c3Rlcl9pZBgBIAEo",
+            "CUIM6McxAYrIMQQ8PTUwIisKFURlbGV0ZUNsdXN0ZXJNZXRhZGF0YRISCgpj",
+            "bHVzdGVyX2lkGAEgASgJIjcKE1N0YXJ0Q2x1c3RlclJlcXVlc3QSIAoKY2x1",
+            "c3Rlcl9pZBgBIAEoCUIM6McxAYrIMQQ8PTUwIioKFFN0YXJ0Q2x1c3Rlck1l",
+            "dGFkYXRhEhIKCmNsdXN0ZXJfaWQYASABKAkiNgoSU3RvcENsdXN0ZXJSZXF1",
+            "ZXN0EiAKCmNsdXN0ZXJfaWQYASABKAlCDOjHMQGKyDEEPD01MCIpChNTdG9w",
+            "Q2x1c3Rlck1ldGFkYXRhEhIKCmNsdXN0ZXJfaWQYASABKAkiYwoSTW92ZUNs",
             "dXN0ZXJSZXF1ZXN0EiAKCmNsdXN0ZXJfaWQYASABKAlCDOjHMQGKyDEEPD01",
-            "MCIrChVCYWNrdXBDbHVzdGVyTWV0YWRhdGESEgoKY2x1c3Rlcl9pZBgBIAEo",
-            "CSKtBAoVUmVzdG9yZUNsdXN0ZXJSZXF1ZXN0EhcKCWJhY2t1cF9pZBgBIAEo",
-            "CUIE6McxARIsCgRuYW1lGAIgASgJQh7oxzEBisgxBDw9NjPyxzEOW2EtekEt",
-            "WjAtOV8tXSoSHgoLZGVzY3JpcHRpb24YAyABKAlCCYrIMQU8PTI1NhKNAQoG",
-            "bGFiZWxzGAQgAygLMjwueWFuZGV4LmNsb3VkLm1kYi5yZWRpcy52MS5SZXN0",
-            "b3JlQ2x1c3RlclJlcXVlc3QuTGFiZWxzRW50cnlCP4LIMQQ8PTY0isgxBDw9",
-            "NjPyxzELWy1fMC05YS16XSqyyDEGGgQ8PTYzssgxEhIQW2Etel1bLV8wLTlh",
-            "LXpdKhJJCgtlbnZpcm9ubWVudBgFIAEoDjIuLnlhbmRleC5jbG91ZC5tZGIu",
-            "cmVkaXMudjEuQ2x1c3Rlci5FbnZpcm9ubWVudEIE6McxARJACgtjb25maWdf",
-            "c3BlYxgGIAEoCzIlLnlhbmRleC5jbG91ZC5tZGIucmVkaXMudjEuQ29uZmln",
-            "U3BlY0IE6McxARI/Cgpob3N0X3NwZWNzGAcgAygLMiMueWFuZGV4LmNsb3Vk",
-            "Lm1kYi5yZWRpcy52MS5Ib3N0U3BlY0IGgsgxAj4wEiAKCm5ldHdvcmtfaWQY",
-            "CCABKAlCDOjHMQGKyDEEPD01MBotCgtMYWJlbHNFbnRyeRILCgNrZXkYASAB",
-            "KAkSDQoFdmFsdWUYAiABKAk6AjgBIj8KFlJlc3RvcmVDbHVzdGVyTWV0YWRh",
-            "dGESEgoKY2x1c3Rlcl9pZBgBIAEoCRIRCgliYWNrdXBfaWQYAiABKAkirgEK",
-            "CUxvZ1JlY29yZBItCgl0aW1lc3RhbXAYASABKAsyGi5nb29nbGUucHJvdG9i",
-            "dWYuVGltZXN0YW1wEkIKB21lc3NhZ2UYAiADKAsyMS55YW5kZXguY2xvdWQu",
-            "bWRiLnJlZGlzLnYxLkxvZ1JlY29yZC5NZXNzYWdlRW50cnkaLgoMTWVzc2Fn",
-            "ZUVudHJ5EgsKA2tleRgBIAEoCRINCgV2YWx1ZRgCIAEoCToCOAEi+AIKFkxp",
-            "c3RDbHVzdGVyTG9nc1JlcXVlc3QSIAoKY2x1c3Rlcl9pZBgBIAEoCUIM6Mcx",
-            "AYrIMQQ8PTUwEhUKDWNvbHVtbl9maWx0ZXIYAiADKAkSUwoMc2VydmljZV90",
-            "eXBlGAMgASgOMj0ueWFuZGV4LmNsb3VkLm1kYi5yZWRpcy52MS5MaXN0Q2x1",
-            "c3RlckxvZ3NSZXF1ZXN0LlNlcnZpY2VUeXBlEi0KCWZyb21fdGltZRgEIAEo",
-            "CzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXASKwoHdG9fdGltZRgFIAEo",
-            "CzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXASHQoJcGFnZV9zaXplGAYg",
-            "ASgDQgr6xzEGMC0xMDAwEh0KCnBhZ2VfdG9rZW4YByABKAlCCYrIMQU8PTEw",
-            "MCI2CgtTZXJ2aWNlVHlwZRIcChhTRVJWSUNFX1RZUEVfVU5TUEVDSUZJRUQQ",
-            "ABIJCgVSRURJUxABImYKF0xpc3RDbHVzdGVyTG9nc1Jlc3BvbnNlEjIKBGxv",
-            "Z3MYASADKAsyJC55YW5kZXguY2xvdWQubWRiLnJlZGlzLnYxLkxvZ1JlY29y",
-            "ZBIXCg9uZXh0X3BhZ2VfdG9rZW4YAiABKAkifgocTGlzdENsdXN0ZXJPcGVy",
-            "YXRpb25zUmVxdWVzdBIgCgpjbHVzdGVyX2lkGAEgASgJQgzoxzEBisgxBDw9",
-            "NTASHQoJcGFnZV9zaXplGAIgASgDQgr6xzEGMC0xMDAwEh0KCnBhZ2VfdG9r",
-            "ZW4YAyABKAlCCYrIMQU8PTEwMCJvCh1MaXN0Q2x1c3Rlck9wZXJhdGlvbnNS",
-            "ZXNwb25zZRI1CgpvcGVyYXRpb25zGAEgAygLMiEueWFuZGV4LmNsb3VkLm9w",
-            "ZXJhdGlvbi5PcGVyYXRpb24SFwoPbmV4dF9wYWdlX3Rva2VuGAIgASgJInsK",
-            "GUxpc3RDbHVzdGVyQmFja3Vwc1JlcXVlc3QSIAoKY2x1c3Rlcl9pZBgBIAEo",
-            "CUIM6McxAYrIMQQ8PTUwEh0KCXBhZ2Vfc2l6ZRgCIAEoA0IK+scxBjAtMTAw",
-            "MBIdCgpwYWdlX3Rva2VuGAMgASgJQgmKyDEFPD0xMDAiaQoaTGlzdENsdXN0",
-            "ZXJCYWNrdXBzUmVzcG9uc2USMgoHYmFja3VwcxgBIAMoCzIhLnlhbmRleC5j",
-            "bG91ZC5tZGIucmVkaXMudjEuQmFja3VwEhcKD25leHRfcGFnZV90b2tlbhgC",
-            "IAEoCSJ5ChdMaXN0Q2x1c3Rlckhvc3RzUmVxdWVzdBIgCgpjbHVzdGVyX2lk",
-            "GAEgASgJQgzoxzEBisgxBDw9NTASHQoJcGFnZV9zaXplGAIgASgDQgr6xzEG",
-            "MC0xMDAwEh0KCnBhZ2VfdG9rZW4YAyABKAlCCYrIMQU8PTEwMCJjChhMaXN0",
-            "Q2x1c3Rlckhvc3RzUmVzcG9uc2USLgoFaG9zdHMYASADKAsyHy55YW5kZXgu",
-            "Y2xvdWQubWRiLnJlZGlzLnYxLkhvc3QSFwoPbmV4dF9wYWdlX3Rva2VuGAIg",
-            "ASgJInsKFkFkZENsdXN0ZXJIb3N0c1JlcXVlc3QSIAoKY2x1c3Rlcl9pZBgB",
-            "IAEoCUIM6McxAYrIMQQ8PTUwEj8KCmhvc3Rfc3BlY3MYAiADKAsyIy55YW5k",
-            "ZXguY2xvdWQubWRiLnJlZGlzLnYxLkhvc3RTcGVjQgaCyDECPjAiQQoXQWRk",
-            "Q2x1c3Rlckhvc3RzTWV0YWRhdGESEgoKY2x1c3Rlcl9pZBgBIAEoCRISCgpo",
-            "b3N0X25hbWVzGAIgAygJImIKGURlbGV0ZUNsdXN0ZXJIb3N0c1JlcXVlc3QS",
-            "IAoKY2x1c3Rlcl9pZBgBIAEoCUIM6McxAYrIMQQ8PTUwEiMKCmhvc3RfbmFt",
-            "ZXMYAiADKAlCD4LIMQI+MIrIMQU8PTI1MyJEChpEZWxldGVDbHVzdGVySG9z",
-            "dHNNZXRhZGF0YRISCgpjbHVzdGVyX2lkGAEgASgJEhIKCmhvc3RfbmFtZXMY",
-            "AiADKAkiLgoISG9zdFNwZWMSDwoHem9uZV9pZBgBIAEoCRIRCglzdWJuZXRf",
-            "aWQYAiABKAki5wEKCkNvbmZpZ1NwZWMSDwoHdmVyc2lvbhgBIAEoCRJMChBy",
-            "ZWRpc19jb25maWdfNV8wGAIgASgLMjAueWFuZGV4LmNsb3VkLm1kYi5yZWRp",
-            "cy52MS5jb25maWcuUmVkaXNDb25maWc1XzBIABI3CglyZXNvdXJjZXMYAyAB",
-            "KAsyJC55YW5kZXguY2xvdWQubWRiLnJlZGlzLnYxLlJlc291cmNlcxIzChNi",
-            "YWNrdXBfd2luZG93X3N0YXJ0GAQgASgLMhYuZ29vZ2xlLnR5cGUuVGltZU9m",
-            "RGF5QgwKCnJlZGlzX3NwZWMy7BYKDkNsdXN0ZXJTZXJ2aWNlEogBCgNHZXQS",
-            "LC55YW5kZXguY2xvdWQubWRiLnJlZGlzLnYxLkdldENsdXN0ZXJSZXF1ZXN0",
-            "GiIueWFuZGV4LmNsb3VkLm1kYi5yZWRpcy52MS5DbHVzdGVyIi+C0+STAikS",
-            "Jy9tYW5hZ2VkLXJlZGlzL3YxL2NsdXN0ZXJzL3tjbHVzdGVyX2lkfRKLAQoE",
-            "TGlzdBIuLnlhbmRleC5jbG91ZC5tZGIucmVkaXMudjEuTGlzdENsdXN0ZXJz",
-            "UmVxdWVzdBovLnlhbmRleC5jbG91ZC5tZGIucmVkaXMudjEuTGlzdENsdXN0",
-            "ZXJzUmVzcG9uc2UiIoLT5JMCHBIaL21hbmFnZWQtcmVkaXMvdjEvY2x1c3Rl",
-            "cnMSpwEKBkNyZWF0ZRIvLnlhbmRleC5jbG91ZC5tZGIucmVkaXMudjEuQ3Jl",
-            "YXRlQ2x1c3RlclJlcXVlc3QaIS55YW5kZXguY2xvdWQub3BlcmF0aW9uLk9w",
-            "ZXJhdGlvbiJJgtPkkwIfIhovbWFuYWdlZC1yZWRpcy92MS9jbHVzdGVyczoB",
-            "KrLSKiAKFUNyZWF0ZUNsdXN0ZXJNZXRhZGF0YRIHQ2x1c3RlchK0AQoGVXBk",
-            "YXRlEi8ueWFuZGV4LmNsb3VkLm1kYi5yZWRpcy52MS5VcGRhdGVDbHVzdGVy",
-            "UmVxdWVzdBohLnlhbmRleC5jbG91ZC5vcGVyYXRpb24uT3BlcmF0aW9uIlaC",
-            "0+STAiwyJy9tYW5hZ2VkLXJlZGlzL3YxL2NsdXN0ZXJzL3tjbHVzdGVyX2lk",
-            "fToBKrLSKiAKFVVwZGF0ZUNsdXN0ZXJNZXRhZGF0YRIHQ2x1c3RlchK/AQoG",
-            "RGVsZXRlEi8ueWFuZGV4LmNsb3VkLm1kYi5yZWRpcy52MS5EZWxldGVDbHVz",
-            "dGVyUmVxdWVzdBohLnlhbmRleC5jbG91ZC5vcGVyYXRpb24uT3BlcmF0aW9u",
-            "ImGC0+STAikqJy9tYW5hZ2VkLXJlZGlzL3YxL2NsdXN0ZXJzL3tjbHVzdGVy",
-            "X2lkfbLSKi4KFURlbGV0ZUNsdXN0ZXJNZXRhZGF0YRIVZ29vZ2xlLnByb3Rv",
-            "YnVmLkVtcHR5ErQBCgVTdGFydBIuLnlhbmRleC5jbG91ZC5tZGIucmVkaXMu",
-            "djEuU3RhcnRDbHVzdGVyUmVxdWVzdBohLnlhbmRleC5jbG91ZC5vcGVyYXRp",
-            "b24uT3BlcmF0aW9uIliC0+STAi8iLS9tYW5hZ2VkLXJlZGlzL3YxL2NsdXN0",
-            "ZXJzL3tjbHVzdGVyX2lkfTpzdGFydLLSKh8KFFN0YXJ0Q2x1c3Rlck1ldGFk",
-            "YXRhEgdDbHVzdGVyErABCgRTdG9wEi0ueWFuZGV4LmNsb3VkLm1kYi5yZWRp",
-            "cy52MS5TdG9wQ2x1c3RlclJlcXVlc3QaIS55YW5kZXguY2xvdWQub3BlcmF0",
-            "aW9uLk9wZXJhdGlvbiJWgtPkkwIuIiwvbWFuYWdlZC1yZWRpcy92MS9jbHVz",
-            "dGVycy97Y2x1c3Rlcl9pZH06c3RvcLLSKh4KE1N0b3BDbHVzdGVyTWV0YWRh",
-            "dGESB0NsdXN0ZXISsAEKBE1vdmUSLS55YW5kZXguY2xvdWQubWRiLnJlZGlz",
-            "LnYxLk1vdmVDbHVzdGVyUmVxdWVzdBohLnlhbmRleC5jbG91ZC5vcGVyYXRp",
-            "b24uT3BlcmF0aW9uIlaC0+STAi4iLC9tYW5hZ2VkLXJlZGlzL3YxL2NsdXN0",
-            "ZXJzL3tjbHVzdGVyX2lkfTptb3ZlstIqHgoTTW92ZUNsdXN0ZXJNZXRhZGF0",
-            "YRIHQ2x1c3RlchK4AQoGQmFja3VwEi8ueWFuZGV4LmNsb3VkLm1kYi5yZWRp",
-            "cy52MS5CYWNrdXBDbHVzdGVyUmVxdWVzdBohLnlhbmRleC5jbG91ZC5vcGVy",
-            "YXRpb24uT3BlcmF0aW9uIlqC0+STAjAiLi9tYW5hZ2VkLXJlZGlzL3YxL2Ns",
-            "dXN0ZXJzL3tjbHVzdGVyX2lkfTpiYWNrdXCy0iogChVCYWNrdXBDbHVzdGVy",
-            "TWV0YWRhdGESB0NsdXN0ZXISsgEKB1Jlc3RvcmUSMC55YW5kZXguY2xvdWQu",
-            "bWRiLnJlZGlzLnYxLlJlc3RvcmVDbHVzdGVyUmVxdWVzdBohLnlhbmRleC5j",
-            "bG91ZC5vcGVyYXRpb24uT3BlcmF0aW9uIlKC0+STAiciIi9tYW5hZ2VkLXJl",
-            "ZGlzL3YxL2NsdXN0ZXJzOnJlc3RvcmU6ASqy0iohChZSZXN0b3JlQ2x1c3Rl",
-            "ck1ldGFkYXRhEgdDbHVzdGVyEqcBCghMaXN0TG9ncxIxLnlhbmRleC5jbG91",
-            "ZC5tZGIucmVkaXMudjEuTGlzdENsdXN0ZXJMb2dzUmVxdWVzdBoyLnlhbmRl",
-            "eC5jbG91ZC5tZGIucmVkaXMudjEuTGlzdENsdXN0ZXJMb2dzUmVzcG9uc2Ui",
-            "NILT5JMCLhIsL21hbmFnZWQtcmVkaXMvdjEvY2x1c3RlcnMve2NsdXN0ZXJf",
-            "aWR9OmxvZ3MSvwEKDkxpc3RPcGVyYXRpb25zEjcueWFuZGV4LmNsb3VkLm1k",
-            "Yi5yZWRpcy52MS5MaXN0Q2x1c3Rlck9wZXJhdGlvbnNSZXF1ZXN0GjgueWFu",
-            "ZGV4LmNsb3VkLm1kYi5yZWRpcy52MS5MaXN0Q2x1c3Rlck9wZXJhdGlvbnNS",
-            "ZXNwb25zZSI6gtPkkwI0EjIvbWFuYWdlZC1yZWRpcy92MS9jbHVzdGVycy97",
-            "Y2x1c3Rlcl9pZH0vb3BlcmF0aW9ucxKzAQoLTGlzdEJhY2t1cHMSNC55YW5k",
-            "ZXguY2xvdWQubWRiLnJlZGlzLnYxLkxpc3RDbHVzdGVyQmFja3Vwc1JlcXVl",
-            "c3QaNS55YW5kZXguY2xvdWQubWRiLnJlZGlzLnYxLkxpc3RDbHVzdGVyQmFj",
-            "a3Vwc1Jlc3BvbnNlIjeC0+STAjESLy9tYW5hZ2VkLXJlZGlzL3YxL2NsdXN0",
-            "ZXJzL3tjbHVzdGVyX2lkfS9iYWNrdXBzEqsBCglMaXN0SG9zdHMSMi55YW5k",
-            "ZXguY2xvdWQubWRiLnJlZGlzLnYxLkxpc3RDbHVzdGVySG9zdHNSZXF1ZXN0",
-            "GjMueWFuZGV4LmNsb3VkLm1kYi5yZWRpcy52MS5MaXN0Q2x1c3Rlckhvc3Rz",
-            "UmVzcG9uc2UiNYLT5JMCLxItL21hbmFnZWQtcmVkaXMvdjEvY2x1c3RlcnMv",
-            "e2NsdXN0ZXJfaWR9L2hvc3RzEtoBCghBZGRIb3N0cxIxLnlhbmRleC5jbG91",
-            "ZC5tZGIucmVkaXMudjEuQWRkQ2x1c3Rlckhvc3RzUmVxdWVzdBohLnlhbmRl",
-            "eC5jbG91ZC5vcGVyYXRpb24uT3BlcmF0aW9uIniC0+STAj4iOS9tYW5hZ2Vk",
-            "LXJlZGlzL3YxL2NsdXN0ZXJzL3tjbHVzdGVyX2lkfS9ob3N0czpiYXRjaENy",
-            "ZWF0ZToBKrLSKjAKF0FkZENsdXN0ZXJIb3N0c01ldGFkYXRhEhVnb29nbGUu",
-            "cHJvdG9idWYuRW1wdHkS4wEKC0RlbGV0ZUhvc3RzEjQueWFuZGV4LmNsb3Vk",
-            "Lm1kYi5yZWRpcy52MS5EZWxldGVDbHVzdGVySG9zdHNSZXF1ZXN0GiEueWFu",
-            "ZGV4LmNsb3VkLm9wZXJhdGlvbi5PcGVyYXRpb24ie4LT5JMCPiI5L21hbmFn",
-            "ZWQtcmVkaXMvdjEvY2x1c3RlcnMve2NsdXN0ZXJfaWR9L2hvc3RzOmJhdGNo",
-            "RGVsZXRlOgEqstIqMwoaRGVsZXRlQ2x1c3Rlckhvc3RzTWV0YWRhdGESFWdv",
-            "b2dsZS5wcm90b2J1Zi5FbXB0eUJFWkNnaXRodWIuY29tL3lhbmRleC1jbG91",
-            "ZC9nby1nZW5wcm90by95YW5kZXgvY2xvdWQvbWRiL3JlZGlzL3YxO3JlZGlz",
-            "YgZwcm90bzM="));
+            "MBIrChVkZXN0aW5hdGlvbl9mb2xkZXJfaWQYAiABKAlCDOjHMQGKyDEEPD01",
+            "MCJiChNNb3ZlQ2x1c3Rlck1ldGFkYXRhEhIKCmNsdXN0ZXJfaWQYASABKAkS",
+            "GAoQc291cmNlX2ZvbGRlcl9pZBgCIAEoCRIdChVkZXN0aW5hdGlvbl9mb2xk",
+            "ZXJfaWQYAyABKAkiOAoUQmFja3VwQ2x1c3RlclJlcXVlc3QSIAoKY2x1c3Rl",
+            "cl9pZBgBIAEoCUIM6McxAYrIMQQ8PTUwIisKFUJhY2t1cENsdXN0ZXJNZXRh",
+            "ZGF0YRISCgpjbHVzdGVyX2lkGAEgASgJIsoEChVSZXN0b3JlQ2x1c3RlclJl",
+            "cXVlc3QSFwoJYmFja3VwX2lkGAEgASgJQgToxzEBEiwKBG5hbWUYAiABKAlC",
+            "HujHMQGKyDEEPD02M/LHMQ5bYS16QS1aMC05Xy1dKhIeCgtkZXNjcmlwdGlv",
+            "bhgDIAEoCUIJisgxBTw9MjU2Eo0BCgZsYWJlbHMYBCADKAsyPC55YW5kZXgu",
+            "Y2xvdWQubWRiLnJlZGlzLnYxLlJlc3RvcmVDbHVzdGVyUmVxdWVzdC5MYWJl",
+            "bHNFbnRyeUI/gsgxBDw9NjSKyDEEPD02M/LHMQtbLV8wLTlhLXpdKrLIMQYa",
+            "BDw9NjOyyDESEhBbYS16XVstXzAtOWEtel0qEkkKC2Vudmlyb25tZW50GAUg",
+            "ASgOMi4ueWFuZGV4LmNsb3VkLm1kYi5yZWRpcy52MS5DbHVzdGVyLkVudmly",
+            "b25tZW50QgToxzEBEkAKC2NvbmZpZ19zcGVjGAYgASgLMiUueWFuZGV4LmNs",
+            "b3VkLm1kYi5yZWRpcy52MS5Db25maWdTcGVjQgToxzEBEj8KCmhvc3Rfc3Bl",
+            "Y3MYByADKAsyIy55YW5kZXguY2xvdWQubWRiLnJlZGlzLnYxLkhvc3RTcGVj",
+            "QgaCyDECPjASIAoKbmV0d29ya19pZBgIIAEoCUIM6McxAYrIMQQ8PTUwEhsK",
+            "CWZvbGRlcl9pZBgJIAEoCUIIisgxBDw9NTAaLQoLTGFiZWxzRW50cnkSCwoD",
+            "a2V5GAEgASgJEg0KBXZhbHVlGAIgASgJOgI4ASI/ChZSZXN0b3JlQ2x1c3Rl",
+            "ck1ldGFkYXRhEhIKCmNsdXN0ZXJfaWQYASABKAkSEQoJYmFja3VwX2lkGAIg",
+            "ASgJIj8KG1N0YXJ0Q2x1c3RlckZhaWxvdmVyUmVxdWVzdBIgCgpjbHVzdGVy",
+            "X2lkGAEgASgJQgzoxzEBisgxBDw9NTAiMgocU3RhcnRDbHVzdGVyRmFpbG92",
+            "ZXJNZXRhZGF0YRISCgpjbHVzdGVyX2lkGAEgASgJIq4BCglMb2dSZWNvcmQS",
+            "LQoJdGltZXN0YW1wGAEgASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFt",
+            "cBJCCgdtZXNzYWdlGAIgAygLMjEueWFuZGV4LmNsb3VkLm1kYi5yZWRpcy52",
+            "MS5Mb2dSZWNvcmQuTWVzc2FnZUVudHJ5Gi4KDE1lc3NhZ2VFbnRyeRILCgNr",
+            "ZXkYASABKAkSDQoFdmFsdWUYAiABKAk6AjgBIvgCChZMaXN0Q2x1c3Rlckxv",
+            "Z3NSZXF1ZXN0EiAKCmNsdXN0ZXJfaWQYASABKAlCDOjHMQGKyDEEPD01MBIV",
+            "Cg1jb2x1bW5fZmlsdGVyGAIgAygJElMKDHNlcnZpY2VfdHlwZRgDIAEoDjI9",
+            "LnlhbmRleC5jbG91ZC5tZGIucmVkaXMudjEuTGlzdENsdXN0ZXJMb2dzUmVx",
+            "dWVzdC5TZXJ2aWNlVHlwZRItCglmcm9tX3RpbWUYBCABKAsyGi5nb29nbGUu",
+            "cHJvdG9idWYuVGltZXN0YW1wEisKB3RvX3RpbWUYBSABKAsyGi5nb29nbGUu",
+            "cHJvdG9idWYuVGltZXN0YW1wEh0KCXBhZ2Vfc2l6ZRgGIAEoA0IK+scxBjAt",
+            "MTAwMBIdCgpwYWdlX3Rva2VuGAcgASgJQgmKyDEFPD0xMDAiNgoLU2Vydmlj",
+            "ZVR5cGUSHAoYU0VSVklDRV9UWVBFX1VOU1BFQ0lGSUVEEAASCQoFUkVESVMQ",
+            "ASJmChdMaXN0Q2x1c3RlckxvZ3NSZXNwb25zZRIyCgRsb2dzGAEgAygLMiQu",
+            "eWFuZGV4LmNsb3VkLm1kYi5yZWRpcy52MS5Mb2dSZWNvcmQSFwoPbmV4dF9w",
+            "YWdlX3Rva2VuGAIgASgJIn4KHExpc3RDbHVzdGVyT3BlcmF0aW9uc1JlcXVl",
+            "c3QSIAoKY2x1c3Rlcl9pZBgBIAEoCUIM6McxAYrIMQQ8PTUwEh0KCXBhZ2Vf",
+            "c2l6ZRgCIAEoA0IK+scxBjAtMTAwMBIdCgpwYWdlX3Rva2VuGAMgASgJQgmK",
+            "yDEFPD0xMDAibwodTGlzdENsdXN0ZXJPcGVyYXRpb25zUmVzcG9uc2USNQoK",
+            "b3BlcmF0aW9ucxgBIAMoCzIhLnlhbmRleC5jbG91ZC5vcGVyYXRpb24uT3Bl",
+            "cmF0aW9uEhcKD25leHRfcGFnZV90b2tlbhgCIAEoCSJ7ChlMaXN0Q2x1c3Rl",
+            "ckJhY2t1cHNSZXF1ZXN0EiAKCmNsdXN0ZXJfaWQYASABKAlCDOjHMQGKyDEE",
+            "PD01MBIdCglwYWdlX3NpemUYAiABKANCCvrHMQYwLTEwMDASHQoKcGFnZV90",
+            "b2tlbhgDIAEoCUIJisgxBTw9MTAwImkKGkxpc3RDbHVzdGVyQmFja3Vwc1Jl",
+            "c3BvbnNlEjIKB2JhY2t1cHMYASADKAsyIS55YW5kZXguY2xvdWQubWRiLnJl",
+            "ZGlzLnYxLkJhY2t1cBIXCg9uZXh0X3BhZ2VfdG9rZW4YAiABKAkieQoXTGlz",
+            "dENsdXN0ZXJIb3N0c1JlcXVlc3QSIAoKY2x1c3Rlcl9pZBgBIAEoCUIM6Mcx",
+            "AYrIMQQ8PTUwEh0KCXBhZ2Vfc2l6ZRgCIAEoA0IK+scxBjAtMTAwMBIdCgpw",
+            "YWdlX3Rva2VuGAMgASgJQgmKyDEFPD0xMDAiYwoYTGlzdENsdXN0ZXJIb3N0",
+            "c1Jlc3BvbnNlEi4KBWhvc3RzGAEgAygLMh8ueWFuZGV4LmNsb3VkLm1kYi5y",
+            "ZWRpcy52MS5Ib3N0EhcKD25leHRfcGFnZV90b2tlbhgCIAEoCSJ7ChZBZGRD",
+            "bHVzdGVySG9zdHNSZXF1ZXN0EiAKCmNsdXN0ZXJfaWQYASABKAlCDOjHMQGK",
+            "yDEEPD01MBI/Cgpob3N0X3NwZWNzGAIgAygLMiMueWFuZGV4LmNsb3VkLm1k",
+            "Yi5yZWRpcy52MS5Ib3N0U3BlY0IGgsgxAj4wIkEKF0FkZENsdXN0ZXJIb3N0",
+            "c01ldGFkYXRhEhIKCmNsdXN0ZXJfaWQYASABKAkSEgoKaG9zdF9uYW1lcxgC",
+            "IAMoCSJiChlEZWxldGVDbHVzdGVySG9zdHNSZXF1ZXN0EiAKCmNsdXN0ZXJf",
+            "aWQYASABKAlCDOjHMQGKyDEEPD01MBIjCgpob3N0X25hbWVzGAIgAygJQg+C",
+            "yDECPjCKyDEFPD0yNTMiRAoaRGVsZXRlQ2x1c3Rlckhvc3RzTWV0YWRhdGES",
+            "EgoKY2x1c3Rlcl9pZBgBIAEoCRISCgpob3N0X25hbWVzGAIgAygJIm4KFkdl",
+            "dENsdXN0ZXJTaGFyZFJlcXVlc3QSIAoKY2x1c3Rlcl9pZBgBIAEoCUIM6Mcx",
+            "AYrIMQQ8PTUwEjIKCnNoYXJkX25hbWUYAiABKAlCHujHMQGKyDEEPD02M/LH",
+            "MQ5bYS16QS1aMC05Xy1dKiJ6ChhMaXN0Q2x1c3RlclNoYXJkc1JlcXVlc3QS",
+            "IAoKY2x1c3Rlcl9pZBgBIAEoCUIM6McxAYrIMQQ8PTUwEh0KCXBhZ2Vfc2l6",
+            "ZRgCIAEoA0IK+scxBjw9MTAwMBIdCgpwYWdlX3Rva2VuGAMgASgJQgmKyDEF",
+            "PD0xMDAiZgoZTGlzdENsdXN0ZXJTaGFyZHNSZXNwb25zZRIwCgZzaGFyZHMY",
+            "ASADKAsyIC55YW5kZXguY2xvdWQubWRiLnJlZGlzLnYxLlNoYXJkEhcKD25l",
+            "eHRfcGFnZV90b2tlbhgCIAEoCSKvAQoWQWRkQ2x1c3RlclNoYXJkUmVxdWVz",
+            "dBIgCgpjbHVzdGVyX2lkGAEgASgJQgzoxzEBisgxBDw9NTASMgoKc2hhcmRf",
+            "bmFtZRgCIAEoCUIe6McxAYrIMQQ8PTYz8scxDlthLXpBLVowLTlfLV0qEj8K",
+            "Cmhvc3Rfc3BlY3MYBCADKAsyIy55YW5kZXguY2xvdWQubWRiLnJlZGlzLnYx",
+            "Lkhvc3RTcGVjQgaCyDECPjAiQQoXQWRkQ2x1c3RlclNoYXJkTWV0YWRhdGES",
+            "EgoKY2x1c3Rlcl9pZBgBIAEoCRISCgpzaGFyZF9uYW1lGAIgASgJInEKGURl",
+            "bGV0ZUNsdXN0ZXJTaGFyZFJlcXVlc3QSIAoKY2x1c3Rlcl9pZBgBIAEoCUIM",
+            "6McxAYrIMQQ8PTUwEjIKCnNoYXJkX25hbWUYAiABKAlCHujHMQGKyDEEPD02",
+            "M/LHMQ5bYS16QS1aMC05Xy1dKiJEChpEZWxldGVDbHVzdGVyU2hhcmRNZXRh",
+            "ZGF0YRISCgpjbHVzdGVyX2lkGAEgASgJEhIKCnNoYXJkX25hbWUYAiABKAki",
+            "OwoXUmViYWxhbmNlQ2x1c3RlclJlcXVlc3QSIAoKY2x1c3Rlcl9pZBgBIAEo",
+            "CUIM6McxAYrIMQQ8PTUwIi4KGFJlYmFsYW5jZUNsdXN0ZXJNZXRhZGF0YRIS",
+            "CgpjbHVzdGVyX2lkGAEgASgJIl4KCEhvc3RTcGVjEg8KB3pvbmVfaWQYASAB",
+            "KAkSEQoJc3VibmV0X2lkGAIgASgJEi4KCnNoYXJkX25hbWUYAyABKAlCGorI",
+            "MQQ8PTYz8scxDlthLXpBLVowLTlfLV0qIpoCCgpDb25maWdTcGVjEg8KB3Zl",
+            "cnNpb24YASABKAkSTAoQcmVkaXNfY29uZmlnXzVfMBgCIAEoCzIwLnlhbmRl",
+            "eC5jbG91ZC5tZGIucmVkaXMudjEuY29uZmlnLlJlZGlzQ29uZmlnNV8wSAAS",
+            "NwoJcmVzb3VyY2VzGAMgASgLMiQueWFuZGV4LmNsb3VkLm1kYi5yZWRpcy52",
+            "MS5SZXNvdXJjZXMSMwoTYmFja3VwX3dpbmRvd19zdGFydBgEIAEoCzIWLmdv",
+            "b2dsZS50eXBlLlRpbWVPZkRheRIxCgZhY2Nlc3MYBSABKAsyIS55YW5kZXgu",
+            "Y2xvdWQubWRiLnJlZGlzLnYxLkFjY2Vzc0IMCgpyZWRpc19zcGVjMo0gCg5D",
+            "bHVzdGVyU2VydmljZRKIAQoDR2V0EiwueWFuZGV4LmNsb3VkLm1kYi5yZWRp",
+            "cy52MS5HZXRDbHVzdGVyUmVxdWVzdBoiLnlhbmRleC5jbG91ZC5tZGIucmVk",
+            "aXMudjEuQ2x1c3RlciIvgtPkkwIpEicvbWFuYWdlZC1yZWRpcy92MS9jbHVz",
+            "dGVycy97Y2x1c3Rlcl9pZH0SiwEKBExpc3QSLi55YW5kZXguY2xvdWQubWRi",
+            "LnJlZGlzLnYxLkxpc3RDbHVzdGVyc1JlcXVlc3QaLy55YW5kZXguY2xvdWQu",
+            "bWRiLnJlZGlzLnYxLkxpc3RDbHVzdGVyc1Jlc3BvbnNlIiKC0+STAhwSGi9t",
+            "YW5hZ2VkLXJlZGlzL3YxL2NsdXN0ZXJzEqcBCgZDcmVhdGUSLy55YW5kZXgu",
+            "Y2xvdWQubWRiLnJlZGlzLnYxLkNyZWF0ZUNsdXN0ZXJSZXF1ZXN0GiEueWFu",
+            "ZGV4LmNsb3VkLm9wZXJhdGlvbi5PcGVyYXRpb24iSYLT5JMCHyIaL21hbmFn",
+            "ZWQtcmVkaXMvdjEvY2x1c3RlcnM6ASqy0iogChVDcmVhdGVDbHVzdGVyTWV0",
+            "YWRhdGESB0NsdXN0ZXIStAEKBlVwZGF0ZRIvLnlhbmRleC5jbG91ZC5tZGIu",
+            "cmVkaXMudjEuVXBkYXRlQ2x1c3RlclJlcXVlc3QaIS55YW5kZXguY2xvdWQu",
+            "b3BlcmF0aW9uLk9wZXJhdGlvbiJWgtPkkwIsMicvbWFuYWdlZC1yZWRpcy92",
+            "MS9jbHVzdGVycy97Y2x1c3Rlcl9pZH06ASqy0iogChVVcGRhdGVDbHVzdGVy",
+            "TWV0YWRhdGESB0NsdXN0ZXISvwEKBkRlbGV0ZRIvLnlhbmRleC5jbG91ZC5t",
+            "ZGIucmVkaXMudjEuRGVsZXRlQ2x1c3RlclJlcXVlc3QaIS55YW5kZXguY2xv",
+            "dWQub3BlcmF0aW9uLk9wZXJhdGlvbiJhgtPkkwIpKicvbWFuYWdlZC1yZWRp",
+            "cy92MS9jbHVzdGVycy97Y2x1c3Rlcl9pZH2y0iouChVEZWxldGVDbHVzdGVy",
+            "TWV0YWRhdGESFWdvb2dsZS5wcm90b2J1Zi5FbXB0eRK0AQoFU3RhcnQSLi55",
+            "YW5kZXguY2xvdWQubWRiLnJlZGlzLnYxLlN0YXJ0Q2x1c3RlclJlcXVlc3Qa",
+            "IS55YW5kZXguY2xvdWQub3BlcmF0aW9uLk9wZXJhdGlvbiJYgtPkkwIvIi0v",
+            "bWFuYWdlZC1yZWRpcy92MS9jbHVzdGVycy97Y2x1c3Rlcl9pZH06c3RhcnSy",
+            "0iofChRTdGFydENsdXN0ZXJNZXRhZGF0YRIHQ2x1c3RlchKwAQoEU3RvcBIt",
+            "LnlhbmRleC5jbG91ZC5tZGIucmVkaXMudjEuU3RvcENsdXN0ZXJSZXF1ZXN0",
+            "GiEueWFuZGV4LmNsb3VkLm9wZXJhdGlvbi5PcGVyYXRpb24iVoLT5JMCLiIs",
+            "L21hbmFnZWQtcmVkaXMvdjEvY2x1c3RlcnMve2NsdXN0ZXJfaWR9OnN0b3Cy",
+            "0ioeChNTdG9wQ2x1c3Rlck1ldGFkYXRhEgdDbHVzdGVyErMBCgRNb3ZlEi0u",
+            "eWFuZGV4LmNsb3VkLm1kYi5yZWRpcy52MS5Nb3ZlQ2x1c3RlclJlcXVlc3Qa",
+            "IS55YW5kZXguY2xvdWQub3BlcmF0aW9uLk9wZXJhdGlvbiJZgtPkkwIxIiwv",
+            "bWFuYWdlZC1yZWRpcy92MS9jbHVzdGVycy97Y2x1c3Rlcl9pZH06bW92ZToB",
+            "KrLSKh4KE01vdmVDbHVzdGVyTWV0YWRhdGESB0NsdXN0ZXISuAEKBkJhY2t1",
+            "cBIvLnlhbmRleC5jbG91ZC5tZGIucmVkaXMudjEuQmFja3VwQ2x1c3RlclJl",
+            "cXVlc3QaIS55YW5kZXguY2xvdWQub3BlcmF0aW9uLk9wZXJhdGlvbiJagtPk",
+            "kwIwIi4vbWFuYWdlZC1yZWRpcy92MS9jbHVzdGVycy97Y2x1c3Rlcl9pZH06",
+            "YmFja3VwstIqIAoVQmFja3VwQ2x1c3Rlck1ldGFkYXRhEgdDbHVzdGVyErIB",
+            "CgdSZXN0b3JlEjAueWFuZGV4LmNsb3VkLm1kYi5yZWRpcy52MS5SZXN0b3Jl",
+            "Q2x1c3RlclJlcXVlc3QaIS55YW5kZXguY2xvdWQub3BlcmF0aW9uLk9wZXJh",
+            "dGlvbiJSgtPkkwInIiIvbWFuYWdlZC1yZWRpcy92MS9jbHVzdGVyczpyZXN0",
+            "b3JlOgEqstIqIQoWUmVzdG9yZUNsdXN0ZXJNZXRhZGF0YRIHQ2x1c3RlchLU",
+            "AQoNU3RhcnRGYWlsb3ZlchI2LnlhbmRleC5jbG91ZC5tZGIucmVkaXMudjEu",
+            "U3RhcnRDbHVzdGVyRmFpbG92ZXJSZXF1ZXN0GiEueWFuZGV4LmNsb3VkLm9w",
+            "ZXJhdGlvbi5PcGVyYXRpb24iaILT5JMCNyI1L21hbmFnZWQtcmVkaXMvdjEv",
+            "Y2x1c3RlcnMve2NsdXN0ZXJfaWR9OnN0YXJ0RmFpbG92ZXKy0ionChxTdGFy",
+            "dENsdXN0ZXJGYWlsb3Zlck1ldGFkYXRhEgdDbHVzdGVyEqcBCghMaXN0TG9n",
+            "cxIxLnlhbmRleC5jbG91ZC5tZGIucmVkaXMudjEuTGlzdENsdXN0ZXJMb2dz",
+            "UmVxdWVzdBoyLnlhbmRleC5jbG91ZC5tZGIucmVkaXMudjEuTGlzdENsdXN0",
+            "ZXJMb2dzUmVzcG9uc2UiNILT5JMCLhIsL21hbmFnZWQtcmVkaXMvdjEvY2x1",
+            "c3RlcnMve2NsdXN0ZXJfaWR9OmxvZ3MSvwEKDkxpc3RPcGVyYXRpb25zEjcu",
+            "eWFuZGV4LmNsb3VkLm1kYi5yZWRpcy52MS5MaXN0Q2x1c3Rlck9wZXJhdGlv",
+            "bnNSZXF1ZXN0GjgueWFuZGV4LmNsb3VkLm1kYi5yZWRpcy52MS5MaXN0Q2x1",
+            "c3Rlck9wZXJhdGlvbnNSZXNwb25zZSI6gtPkkwI0EjIvbWFuYWdlZC1yZWRp",
+            "cy92MS9jbHVzdGVycy97Y2x1c3Rlcl9pZH0vb3BlcmF0aW9ucxKzAQoLTGlz",
+            "dEJhY2t1cHMSNC55YW5kZXguY2xvdWQubWRiLnJlZGlzLnYxLkxpc3RDbHVz",
+            "dGVyQmFja3Vwc1JlcXVlc3QaNS55YW5kZXguY2xvdWQubWRiLnJlZGlzLnYx",
+            "Lkxpc3RDbHVzdGVyQmFja3Vwc1Jlc3BvbnNlIjeC0+STAjESLy9tYW5hZ2Vk",
+            "LXJlZGlzL3YxL2NsdXN0ZXJzL3tjbHVzdGVyX2lkfS9iYWNrdXBzEqsBCglM",
+            "aXN0SG9zdHMSMi55YW5kZXguY2xvdWQubWRiLnJlZGlzLnYxLkxpc3RDbHVz",
+            "dGVySG9zdHNSZXF1ZXN0GjMueWFuZGV4LmNsb3VkLm1kYi5yZWRpcy52MS5M",
+            "aXN0Q2x1c3Rlckhvc3RzUmVzcG9uc2UiNYLT5JMCLxItL21hbmFnZWQtcmVk",
+            "aXMvdjEvY2x1c3RlcnMve2NsdXN0ZXJfaWR9L2hvc3RzEtoBCghBZGRIb3N0",
+            "cxIxLnlhbmRleC5jbG91ZC5tZGIucmVkaXMudjEuQWRkQ2x1c3Rlckhvc3Rz",
+            "UmVxdWVzdBohLnlhbmRleC5jbG91ZC5vcGVyYXRpb24uT3BlcmF0aW9uIniC",
+            "0+STAj4iOS9tYW5hZ2VkLXJlZGlzL3YxL2NsdXN0ZXJzL3tjbHVzdGVyX2lk",
+            "fS9ob3N0czpiYXRjaENyZWF0ZToBKrLSKjAKF0FkZENsdXN0ZXJIb3N0c01l",
+            "dGFkYXRhEhVnb29nbGUucHJvdG9idWYuRW1wdHkS4wEKC0RlbGV0ZUhvc3Rz",
+            "EjQueWFuZGV4LmNsb3VkLm1kYi5yZWRpcy52MS5EZWxldGVDbHVzdGVySG9z",
+            "dHNSZXF1ZXN0GiEueWFuZGV4LmNsb3VkLm9wZXJhdGlvbi5PcGVyYXRpb24i",
+            "e4LT5JMCPiI5L21hbmFnZWQtcmVkaXMvdjEvY2x1c3RlcnMve2NsdXN0ZXJf",
+            "aWR9L2hvc3RzOmJhdGNoRGVsZXRlOgEqstIqMwoaRGVsZXRlQ2x1c3Rlckhv",
+            "c3RzTWV0YWRhdGESFWdvb2dsZS5wcm90b2J1Zi5FbXB0eRKkAQoIR2V0U2hh",
+            "cmQSMS55YW5kZXguY2xvdWQubWRiLnJlZGlzLnYxLkdldENsdXN0ZXJTaGFy",
+            "ZFJlcXVlc3QaIC55YW5kZXguY2xvdWQubWRiLnJlZGlzLnYxLlNoYXJkIkOC",
+            "0+STAj0SOy9tYW5hZ2VkLXJlZGlzL3YxL2NsdXN0ZXJzL3tjbHVzdGVyX2lk",
+            "fS9zaGFyZHMve3NoYXJkX25hbWV9Eq8BCgpMaXN0U2hhcmRzEjMueWFuZGV4",
+            "LmNsb3VkLm1kYi5yZWRpcy52MS5MaXN0Q2x1c3RlclNoYXJkc1JlcXVlc3Qa",
+            "NC55YW5kZXguY2xvdWQubWRiLnJlZGlzLnYxLkxpc3RDbHVzdGVyU2hhcmRz",
+            "UmVzcG9uc2UiNoLT5JMCMBIuL21hbmFnZWQtcmVkaXMvdjEvY2x1c3RlcnMv",
+            "e2NsdXN0ZXJfaWR9L3NoYXJkcxK/AQoIQWRkU2hhcmQSMS55YW5kZXguY2xv",
+            "dWQubWRiLnJlZGlzLnYxLkFkZENsdXN0ZXJTaGFyZFJlcXVlc3QaIS55YW5k",
+            "ZXguY2xvdWQub3BlcmF0aW9uLk9wZXJhdGlvbiJdgtPkkwIzIi4vbWFuYWdl",
+            "ZC1yZWRpcy92MS9jbHVzdGVycy97Y2x1c3Rlcl9pZH0vc2hhcmRzOgEqstIq",
+            "IAoXQWRkQ2x1c3RlclNoYXJkTWV0YWRhdGESBVNoYXJkEuIBCgtEZWxldGVT",
+            "aGFyZBI0LnlhbmRleC5jbG91ZC5tZGIucmVkaXMudjEuRGVsZXRlQ2x1c3Rl",
+            "clNoYXJkUmVxdWVzdBohLnlhbmRleC5jbG91ZC5vcGVyYXRpb24uT3BlcmF0",
+            "aW9uInqC0+STAj0qOy9tYW5hZ2VkLXJlZGlzL3YxL2NsdXN0ZXJzL3tjbHVz",
+            "dGVyX2lkfS9zaGFyZHMve3NoYXJkX25hbWV9stIqMwoaRGVsZXRlQ2x1c3Rl",
+            "clNoYXJkTWV0YWRhdGESFWdvb2dsZS5wcm90b2J1Zi5FbXB0eRLEAQoJUmVi",
+            "YWxhbmNlEjIueWFuZGV4LmNsb3VkLm1kYi5yZWRpcy52MS5SZWJhbGFuY2VD",
+            "bHVzdGVyUmVxdWVzdBohLnlhbmRleC5jbG91ZC5vcGVyYXRpb24uT3BlcmF0",
+            "aW9uImCC0+STAjMiMS9tYW5hZ2VkLXJlZGlzL3YxL2NsdXN0ZXJzL3tjbHVz",
+            "dGVyX2lkfTpyZWJhbGFuY2Wy0iojChhSZWJhbGFuY2VDbHVzdGVyTWV0YWRh",
+            "dGESB0NsdXN0ZXJCZAodeWFuZGV4LmNsb3VkLmFwaS5tZGIucmVkaXMudjFa",
+            "Q2dpdGh1Yi5jb20veWFuZGV4LWNsb3VkL2dvLWdlbnByb3RvL3lhbmRleC9j",
+            "bG91ZC9tZGIvcmVkaXMvdjE7cmVkaXNiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Google.Type.TimeofdayReflection.Descriptor, global::Yandex.Api.OperationReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, global::Yandex.Cloud.Mdb.Redis.V1.BackupReflection.Descriptor, global::Yandex.Cloud.Mdb.Redis.V1.ClusterReflection.Descriptor, global::Yandex.Cloud.Mdb.Redis.V1.Config.Redis50Reflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Google.Type.TimeofdayReflection.Descriptor, global::Yandex.Cloud.Api.OperationReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, global::Yandex.Cloud.Mdb.Redis.V1.BackupReflection.Descriptor, global::Yandex.Cloud.Mdb.Redis.V1.ClusterReflection.Descriptor, global::Yandex.Cloud.Mdb.Redis.V1.Config.Redis50Reflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1.GetClusterRequest), global::Yandex.Cloud.Mdb.Redis.V1.GetClusterRequest.Parser, new[]{ "ClusterId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1.ListClustersRequest), global::Yandex.Cloud.Mdb.Redis.V1.ListClustersRequest.Parser, new[]{ "FolderId", "PageSize", "PageToken", "Filter" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1.ListClustersResponse), global::Yandex.Cloud.Mdb.Redis.V1.ListClustersResponse.Parser, new[]{ "Clusters", "NextPageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1.CreateClusterRequest), global::Yandex.Cloud.Mdb.Redis.V1.CreateClusterRequest.Parser, new[]{ "FolderId", "Name", "Description", "Labels", "Environment", "ConfigSpec", "HostSpecs", "NetworkId" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1.CreateClusterRequest), global::Yandex.Cloud.Mdb.Redis.V1.CreateClusterRequest.Parser, new[]{ "FolderId", "Name", "Description", "Labels", "Environment", "ConfigSpec", "HostSpecs", "NetworkId", "Sharded" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1.CreateClusterMetadata), global::Yandex.Cloud.Mdb.Redis.V1.CreateClusterMetadata.Parser, new[]{ "ClusterId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1.UpdateClusterRequest), global::Yandex.Cloud.Mdb.Redis.V1.UpdateClusterRequest.Parser, new[]{ "ClusterId", "UpdateMask", "Description", "Labels", "ConfigSpec", "Name" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1.UpdateClusterMetadata), global::Yandex.Cloud.Mdb.Redis.V1.UpdateClusterMetadata.Parser, new[]{ "ClusterId" }, null, null, null),
@@ -224,8 +276,10 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1.MoveClusterMetadata), global::Yandex.Cloud.Mdb.Redis.V1.MoveClusterMetadata.Parser, new[]{ "ClusterId", "SourceFolderId", "DestinationFolderId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1.BackupClusterRequest), global::Yandex.Cloud.Mdb.Redis.V1.BackupClusterRequest.Parser, new[]{ "ClusterId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1.BackupClusterMetadata), global::Yandex.Cloud.Mdb.Redis.V1.BackupClusterMetadata.Parser, new[]{ "ClusterId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1.RestoreClusterRequest), global::Yandex.Cloud.Mdb.Redis.V1.RestoreClusterRequest.Parser, new[]{ "BackupId", "Name", "Description", "Labels", "Environment", "ConfigSpec", "HostSpecs", "NetworkId" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1.RestoreClusterRequest), global::Yandex.Cloud.Mdb.Redis.V1.RestoreClusterRequest.Parser, new[]{ "BackupId", "Name", "Description", "Labels", "Environment", "ConfigSpec", "HostSpecs", "NetworkId", "FolderId" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1.RestoreClusterMetadata), global::Yandex.Cloud.Mdb.Redis.V1.RestoreClusterMetadata.Parser, new[]{ "ClusterId", "BackupId" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1.StartClusterFailoverRequest), global::Yandex.Cloud.Mdb.Redis.V1.StartClusterFailoverRequest.Parser, new[]{ "ClusterId" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1.StartClusterFailoverMetadata), global::Yandex.Cloud.Mdb.Redis.V1.StartClusterFailoverMetadata.Parser, new[]{ "ClusterId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1.LogRecord), global::Yandex.Cloud.Mdb.Redis.V1.LogRecord.Parser, new[]{ "Timestamp", "Message" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1.ListClusterLogsRequest), global::Yandex.Cloud.Mdb.Redis.V1.ListClusterLogsRequest.Parser, new[]{ "ClusterId", "ColumnFilter", "ServiceType", "FromTime", "ToTime", "PageSize", "PageToken" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Redis.V1.ListClusterLogsRequest.Types.ServiceType) }, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1.ListClusterLogsResponse), global::Yandex.Cloud.Mdb.Redis.V1.ListClusterLogsResponse.Parser, new[]{ "Logs", "NextPageToken" }, null, null, null),
@@ -239,8 +293,17 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1.AddClusterHostsMetadata), global::Yandex.Cloud.Mdb.Redis.V1.AddClusterHostsMetadata.Parser, new[]{ "ClusterId", "HostNames" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1.DeleteClusterHostsRequest), global::Yandex.Cloud.Mdb.Redis.V1.DeleteClusterHostsRequest.Parser, new[]{ "ClusterId", "HostNames" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1.DeleteClusterHostsMetadata), global::Yandex.Cloud.Mdb.Redis.V1.DeleteClusterHostsMetadata.Parser, new[]{ "ClusterId", "HostNames" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1.HostSpec), global::Yandex.Cloud.Mdb.Redis.V1.HostSpec.Parser, new[]{ "ZoneId", "SubnetId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1.ConfigSpec), global::Yandex.Cloud.Mdb.Redis.V1.ConfigSpec.Parser, new[]{ "Version", "RedisConfig50", "Resources", "BackupWindowStart" }, new[]{ "RedisSpec" }, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1.GetClusterShardRequest), global::Yandex.Cloud.Mdb.Redis.V1.GetClusterShardRequest.Parser, new[]{ "ClusterId", "ShardName" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1.ListClusterShardsRequest), global::Yandex.Cloud.Mdb.Redis.V1.ListClusterShardsRequest.Parser, new[]{ "ClusterId", "PageSize", "PageToken" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1.ListClusterShardsResponse), global::Yandex.Cloud.Mdb.Redis.V1.ListClusterShardsResponse.Parser, new[]{ "Shards", "NextPageToken" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1.AddClusterShardRequest), global::Yandex.Cloud.Mdb.Redis.V1.AddClusterShardRequest.Parser, new[]{ "ClusterId", "ShardName", "HostSpecs" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1.AddClusterShardMetadata), global::Yandex.Cloud.Mdb.Redis.V1.AddClusterShardMetadata.Parser, new[]{ "ClusterId", "ShardName" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1.DeleteClusterShardRequest), global::Yandex.Cloud.Mdb.Redis.V1.DeleteClusterShardRequest.Parser, new[]{ "ClusterId", "ShardName" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1.DeleteClusterShardMetadata), global::Yandex.Cloud.Mdb.Redis.V1.DeleteClusterShardMetadata.Parser, new[]{ "ClusterId", "ShardName" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1.RebalanceClusterRequest), global::Yandex.Cloud.Mdb.Redis.V1.RebalanceClusterRequest.Parser, new[]{ "ClusterId" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1.RebalanceClusterMetadata), global::Yandex.Cloud.Mdb.Redis.V1.RebalanceClusterMetadata.Parser, new[]{ "ClusterId" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1.HostSpec), global::Yandex.Cloud.Mdb.Redis.V1.HostSpec.Parser, new[]{ "ZoneId", "SubnetId", "ShardName" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1.ConfigSpec), global::Yandex.Cloud.Mdb.Redis.V1.ConfigSpec.Parser, new[]{ "Version", "RedisConfig50", "Resources", "BackupWindowStart", "Access" }, new[]{ "RedisSpec" }, null, null)
           }));
     }
     #endregion
@@ -804,6 +867,7 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
       configSpec_ = other.configSpec_ != null ? other.configSpec_.Clone() : null;
       hostSpecs_ = other.hostSpecs_.Clone();
       networkId_ = other.networkId_;
+      sharded_ = other.sharded_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -923,6 +987,20 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
       }
     }
 
+    /// <summary>Field number for the "sharded" field.</summary>
+    public const int ShardedFieldNumber = 11;
+    private bool sharded_;
+    /// <summary>
+    /// Redis cluster mode on/off.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Sharded {
+      get { return sharded_; }
+      set {
+        sharded_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as CreateClusterRequest);
@@ -944,6 +1022,7 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
       if (!object.Equals(ConfigSpec, other.ConfigSpec)) return false;
       if(!hostSpecs_.Equals(other.hostSpecs_)) return false;
       if (NetworkId != other.NetworkId) return false;
+      if (Sharded != other.Sharded) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -958,6 +1037,7 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
       if (configSpec_ != null) hash ^= ConfigSpec.GetHashCode();
       hash ^= hostSpecs_.GetHashCode();
       if (NetworkId.Length != 0) hash ^= NetworkId.GetHashCode();
+      if (Sharded != false) hash ^= Sharded.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -997,6 +1077,10 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
         output.WriteRawTag(82);
         output.WriteString(NetworkId);
       }
+      if (Sharded != false) {
+        output.WriteRawTag(88);
+        output.WriteBool(Sharded);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1024,6 +1108,9 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
       size += hostSpecs_.CalculateSize(_repeated_hostSpecs_codec);
       if (NetworkId.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(NetworkId);
+      }
+      if (Sharded != false) {
+        size += 1 + 1;
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1058,6 +1145,9 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
       hostSpecs_.Add(other.hostSpecs_);
       if (other.NetworkId.Length != 0) {
         NetworkId = other.NetworkId;
+      }
+      if (other.Sharded != false) {
+        Sharded = other.Sharded;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -1103,6 +1193,10 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
           }
           case 82: {
             NetworkId = input.ReadString();
+            break;
+          }
+          case 88: {
+            Sharded = input.ReadBool();
             break;
           }
         }
@@ -1974,7 +2068,7 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
     public const int ClusterIdFieldNumber = 1;
     private string clusterId_ = "";
     /// <summary>
-    /// Required. ID of the Redis cluster to start.
+    /// ID of the Redis cluster to start.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ClusterId {
@@ -2106,7 +2200,7 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
     public const int ClusterIdFieldNumber = 1;
     private string clusterId_ = "";
     /// <summary>
-    /// Required. ID of the Redis cluster.
+    /// ID of the Redis cluster.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ClusterId {
@@ -2238,7 +2332,7 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
     public const int ClusterIdFieldNumber = 1;
     private string clusterId_ = "";
     /// <summary>
-    /// Required. ID of the Redis cluster to stop.
+    /// ID of the Redis cluster to stop.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ClusterId {
@@ -2370,7 +2464,7 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
     public const int ClusterIdFieldNumber = 1;
     private string clusterId_ = "";
     /// <summary>
-    /// Required. ID of the Redis cluster.
+    /// ID of the Redis cluster.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ClusterId {
@@ -3119,6 +3213,7 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
       configSpec_ = other.configSpec_ != null ? other.configSpec_.Clone() : null;
       hostSpecs_ = other.hostSpecs_.Clone();
       networkId_ = other.networkId_;
+      folderId_ = other.folderId_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -3240,6 +3335,20 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
       }
     }
 
+    /// <summary>Field number for the "folder_id" field.</summary>
+    public const int FolderIdFieldNumber = 9;
+    private string folderId_ = "";
+    /// <summary>
+    /// ID of the folder to create the Redis cluster in.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string FolderId {
+      get { return folderId_; }
+      set {
+        folderId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as RestoreClusterRequest);
@@ -3261,6 +3370,7 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
       if (!object.Equals(ConfigSpec, other.ConfigSpec)) return false;
       if(!hostSpecs_.Equals(other.hostSpecs_)) return false;
       if (NetworkId != other.NetworkId) return false;
+      if (FolderId != other.FolderId) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -3275,6 +3385,7 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
       if (configSpec_ != null) hash ^= ConfigSpec.GetHashCode();
       hash ^= hostSpecs_.GetHashCode();
       if (NetworkId.Length != 0) hash ^= NetworkId.GetHashCode();
+      if (FolderId.Length != 0) hash ^= FolderId.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -3314,6 +3425,10 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
         output.WriteRawTag(66);
         output.WriteString(NetworkId);
       }
+      if (FolderId.Length != 0) {
+        output.WriteRawTag(74);
+        output.WriteString(FolderId);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -3341,6 +3456,9 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
       size += hostSpecs_.CalculateSize(_repeated_hostSpecs_codec);
       if (NetworkId.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(NetworkId);
+      }
+      if (FolderId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(FolderId);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -3375,6 +3493,9 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
       hostSpecs_.Add(other.hostSpecs_);
       if (other.NetworkId.Length != 0) {
         NetworkId = other.NetworkId;
+      }
+      if (other.FolderId.Length != 0) {
+        FolderId = other.FolderId;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -3420,6 +3541,10 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
           }
           case 66: {
             NetworkId = input.ReadString();
+            break;
+          }
+          case 74: {
+            FolderId = input.ReadString();
             break;
           }
         }
@@ -3591,6 +3716,270 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
 
   }
 
+  internal sealed partial class StartClusterFailoverRequest : pb::IMessage<StartClusterFailoverRequest> {
+    private static readonly pb::MessageParser<StartClusterFailoverRequest> _parser = new pb::MessageParser<StartClusterFailoverRequest>(() => new StartClusterFailoverRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<StartClusterFailoverRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Mdb.Redis.V1.ClusterServiceReflection.Descriptor.MessageTypes[19]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public StartClusterFailoverRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public StartClusterFailoverRequest(StartClusterFailoverRequest other) : this() {
+      clusterId_ = other.clusterId_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public StartClusterFailoverRequest Clone() {
+      return new StartClusterFailoverRequest(this);
+    }
+
+    /// <summary>Field number for the "cluster_id" field.</summary>
+    public const int ClusterIdFieldNumber = 1;
+    private string clusterId_ = "";
+    /// <summary>
+    /// ID of the Redis cluster to start failover on.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ClusterId {
+      get { return clusterId_; }
+      set {
+        clusterId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as StartClusterFailoverRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(StartClusterFailoverRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (ClusterId != other.ClusterId) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (ClusterId.Length != 0) hash ^= ClusterId.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (ClusterId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(ClusterId);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (ClusterId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ClusterId);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(StartClusterFailoverRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.ClusterId.Length != 0) {
+        ClusterId = other.ClusterId;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            ClusterId = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  internal sealed partial class StartClusterFailoverMetadata : pb::IMessage<StartClusterFailoverMetadata> {
+    private static readonly pb::MessageParser<StartClusterFailoverMetadata> _parser = new pb::MessageParser<StartClusterFailoverMetadata>(() => new StartClusterFailoverMetadata());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<StartClusterFailoverMetadata> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Mdb.Redis.V1.ClusterServiceReflection.Descriptor.MessageTypes[20]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public StartClusterFailoverMetadata() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public StartClusterFailoverMetadata(StartClusterFailoverMetadata other) : this() {
+      clusterId_ = other.clusterId_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public StartClusterFailoverMetadata Clone() {
+      return new StartClusterFailoverMetadata(this);
+    }
+
+    /// <summary>Field number for the "cluster_id" field.</summary>
+    public const int ClusterIdFieldNumber = 1;
+    private string clusterId_ = "";
+    /// <summary>
+    /// ID of the Redis cluster on which failover will be initiated.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ClusterId {
+      get { return clusterId_; }
+      set {
+        clusterId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as StartClusterFailoverMetadata);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(StartClusterFailoverMetadata other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (ClusterId != other.ClusterId) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (ClusterId.Length != 0) hash ^= ClusterId.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (ClusterId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(ClusterId);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (ClusterId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ClusterId);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(StartClusterFailoverMetadata other) {
+      if (other == null) {
+        return;
+      }
+      if (other.ClusterId.Length != 0) {
+        ClusterId = other.ClusterId;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            ClusterId = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
   internal sealed partial class LogRecord : pb::IMessage<LogRecord> {
     private static readonly pb::MessageParser<LogRecord> _parser = new pb::MessageParser<LogRecord>(() => new LogRecord());
     private pb::UnknownFieldSet _unknownFields;
@@ -3599,7 +3988,7 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Mdb.Redis.V1.ClusterServiceReflection.Descriptor.MessageTypes[19]; }
+      get { return global::Yandex.Cloud.Mdb.Redis.V1.ClusterServiceReflection.Descriptor.MessageTypes[21]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3760,7 +4149,7 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Mdb.Redis.V1.ClusterServiceReflection.Descriptor.MessageTypes[20]; }
+      get { return global::Yandex.Cloud.Mdb.Redis.V1.ClusterServiceReflection.Descriptor.MessageTypes[22]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4099,7 +4488,7 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Mdb.Redis.V1.ClusterServiceReflection.Descriptor.MessageTypes[21]; }
+      get { return global::Yandex.Cloud.Mdb.Redis.V1.ClusterServiceReflection.Descriptor.MessageTypes[23]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4257,7 +4646,7 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Mdb.Redis.V1.ClusterServiceReflection.Descriptor.MessageTypes[22]; }
+      get { return global::Yandex.Cloud.Mdb.Redis.V1.ClusterServiceReflection.Descriptor.MessageTypes[24]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4454,7 +4843,7 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Mdb.Redis.V1.ClusterServiceReflection.Descriptor.MessageTypes[23]; }
+      get { return global::Yandex.Cloud.Mdb.Redis.V1.ClusterServiceReflection.Descriptor.MessageTypes[25]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4612,7 +5001,7 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Mdb.Redis.V1.ClusterServiceReflection.Descriptor.MessageTypes[24]; }
+      get { return global::Yandex.Cloud.Mdb.Redis.V1.ClusterServiceReflection.Descriptor.MessageTypes[26]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4810,7 +5199,7 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Mdb.Redis.V1.ClusterServiceReflection.Descriptor.MessageTypes[25]; }
+      get { return global::Yandex.Cloud.Mdb.Redis.V1.ClusterServiceReflection.Descriptor.MessageTypes[27]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4968,7 +5357,7 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Mdb.Redis.V1.ClusterServiceReflection.Descriptor.MessageTypes[26]; }
+      get { return global::Yandex.Cloud.Mdb.Redis.V1.ClusterServiceReflection.Descriptor.MessageTypes[28]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5166,7 +5555,7 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Mdb.Redis.V1.ClusterServiceReflection.Descriptor.MessageTypes[27]; }
+      get { return global::Yandex.Cloud.Mdb.Redis.V1.ClusterServiceReflection.Descriptor.MessageTypes[29]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5324,7 +5713,7 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Mdb.Redis.V1.ClusterServiceReflection.Descriptor.MessageTypes[28]; }
+      get { return global::Yandex.Cloud.Mdb.Redis.V1.ClusterServiceReflection.Descriptor.MessageTypes[30]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5480,7 +5869,7 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Mdb.Redis.V1.ClusterServiceReflection.Descriptor.MessageTypes[29]; }
+      get { return global::Yandex.Cloud.Mdb.Redis.V1.ClusterServiceReflection.Descriptor.MessageTypes[31]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5635,7 +6024,7 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Mdb.Redis.V1.ClusterServiceReflection.Descriptor.MessageTypes[30]; }
+      get { return global::Yandex.Cloud.Mdb.Redis.V1.ClusterServiceReflection.Descriptor.MessageTypes[32]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5791,7 +6180,7 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Mdb.Redis.V1.ClusterServiceReflection.Descriptor.MessageTypes[31]; }
+      get { return global::Yandex.Cloud.Mdb.Redis.V1.ClusterServiceReflection.Descriptor.MessageTypes[33]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5938,6 +6327,1476 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
 
   }
 
+  internal sealed partial class GetClusterShardRequest : pb::IMessage<GetClusterShardRequest> {
+    private static readonly pb::MessageParser<GetClusterShardRequest> _parser = new pb::MessageParser<GetClusterShardRequest>(() => new GetClusterShardRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<GetClusterShardRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Mdb.Redis.V1.ClusterServiceReflection.Descriptor.MessageTypes[34]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public GetClusterShardRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public GetClusterShardRequest(GetClusterShardRequest other) : this() {
+      clusterId_ = other.clusterId_;
+      shardName_ = other.shardName_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public GetClusterShardRequest Clone() {
+      return new GetClusterShardRequest(this);
+    }
+
+    /// <summary>Field number for the "cluster_id" field.</summary>
+    public const int ClusterIdFieldNumber = 1;
+    private string clusterId_ = "";
+    /// <summary>
+    /// ID of the Redis cluster the shard belongs to.
+    /// To get the cluster ID use a [ClusterService.List] request.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ClusterId {
+      get { return clusterId_; }
+      set {
+        clusterId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "shard_name" field.</summary>
+    public const int ShardNameFieldNumber = 2;
+    private string shardName_ = "";
+    /// <summary>
+    /// Name of Redis shard to return.
+    /// To get the shard name use a [ClusterService.ListShards] request.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ShardName {
+      get { return shardName_; }
+      set {
+        shardName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as GetClusterShardRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(GetClusterShardRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (ClusterId != other.ClusterId) return false;
+      if (ShardName != other.ShardName) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (ClusterId.Length != 0) hash ^= ClusterId.GetHashCode();
+      if (ShardName.Length != 0) hash ^= ShardName.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (ClusterId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(ClusterId);
+      }
+      if (ShardName.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(ShardName);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (ClusterId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ClusterId);
+      }
+      if (ShardName.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ShardName);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(GetClusterShardRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.ClusterId.Length != 0) {
+        ClusterId = other.ClusterId;
+      }
+      if (other.ShardName.Length != 0) {
+        ShardName = other.ShardName;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            ClusterId = input.ReadString();
+            break;
+          }
+          case 18: {
+            ShardName = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  internal sealed partial class ListClusterShardsRequest : pb::IMessage<ListClusterShardsRequest> {
+    private static readonly pb::MessageParser<ListClusterShardsRequest> _parser = new pb::MessageParser<ListClusterShardsRequest>(() => new ListClusterShardsRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<ListClusterShardsRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Mdb.Redis.V1.ClusterServiceReflection.Descriptor.MessageTypes[35]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ListClusterShardsRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ListClusterShardsRequest(ListClusterShardsRequest other) : this() {
+      clusterId_ = other.clusterId_;
+      pageSize_ = other.pageSize_;
+      pageToken_ = other.pageToken_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ListClusterShardsRequest Clone() {
+      return new ListClusterShardsRequest(this);
+    }
+
+    /// <summary>Field number for the "cluster_id" field.</summary>
+    public const int ClusterIdFieldNumber = 1;
+    private string clusterId_ = "";
+    /// <summary>
+    /// ID of the Redis cluster to list shards in.
+    /// To get the cluster ID use a [ClusterService.List] request.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ClusterId {
+      get { return clusterId_; }
+      set {
+        clusterId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "page_size" field.</summary>
+    public const int PageSizeFieldNumber = 2;
+    private long pageSize_;
+    /// <summary>
+    /// The maximum number of results per page to return. If the number of available
+    /// results is larger than [page_size],
+    /// the service returns a [ListClusterShardsResponse.next_page_token]
+    /// that can be used to get the next page of results in subsequent list requests.
+    /// Default value: 100.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long PageSize {
+      get { return pageSize_; }
+      set {
+        pageSize_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "page_token" field.</summary>
+    public const int PageTokenFieldNumber = 3;
+    private string pageToken_ = "";
+    /// <summary>
+    /// Page token. To get the next page of results, set [page_token] to the
+    /// [ListClusterShardsResponse.next_page_token] returned by a previous list request.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string PageToken {
+      get { return pageToken_; }
+      set {
+        pageToken_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as ListClusterShardsRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(ListClusterShardsRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (ClusterId != other.ClusterId) return false;
+      if (PageSize != other.PageSize) return false;
+      if (PageToken != other.PageToken) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (ClusterId.Length != 0) hash ^= ClusterId.GetHashCode();
+      if (PageSize != 0L) hash ^= PageSize.GetHashCode();
+      if (PageToken.Length != 0) hash ^= PageToken.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (ClusterId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(ClusterId);
+      }
+      if (PageSize != 0L) {
+        output.WriteRawTag(16);
+        output.WriteInt64(PageSize);
+      }
+      if (PageToken.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(PageToken);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (ClusterId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ClusterId);
+      }
+      if (PageSize != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(PageSize);
+      }
+      if (PageToken.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(PageToken);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(ListClusterShardsRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.ClusterId.Length != 0) {
+        ClusterId = other.ClusterId;
+      }
+      if (other.PageSize != 0L) {
+        PageSize = other.PageSize;
+      }
+      if (other.PageToken.Length != 0) {
+        PageToken = other.PageToken;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            ClusterId = input.ReadString();
+            break;
+          }
+          case 16: {
+            PageSize = input.ReadInt64();
+            break;
+          }
+          case 26: {
+            PageToken = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  internal sealed partial class ListClusterShardsResponse : pb::IMessage<ListClusterShardsResponse> {
+    private static readonly pb::MessageParser<ListClusterShardsResponse> _parser = new pb::MessageParser<ListClusterShardsResponse>(() => new ListClusterShardsResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<ListClusterShardsResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Mdb.Redis.V1.ClusterServiceReflection.Descriptor.MessageTypes[36]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ListClusterShardsResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ListClusterShardsResponse(ListClusterShardsResponse other) : this() {
+      shards_ = other.shards_.Clone();
+      nextPageToken_ = other.nextPageToken_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ListClusterShardsResponse Clone() {
+      return new ListClusterShardsResponse(this);
+    }
+
+    /// <summary>Field number for the "shards" field.</summary>
+    public const int ShardsFieldNumber = 1;
+    private static readonly pb::FieldCodec<global::Yandex.Cloud.Mdb.Redis.V1.Shard> _repeated_shards_codec
+        = pb::FieldCodec.ForMessage(10, global::Yandex.Cloud.Mdb.Redis.V1.Shard.Parser);
+    private readonly pbc::RepeatedField<global::Yandex.Cloud.Mdb.Redis.V1.Shard> shards_ = new pbc::RepeatedField<global::Yandex.Cloud.Mdb.Redis.V1.Shard>();
+    /// <summary>
+    /// List of Redis shards.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<global::Yandex.Cloud.Mdb.Redis.V1.Shard> Shards {
+      get { return shards_; }
+    }
+
+    /// <summary>Field number for the "next_page_token" field.</summary>
+    public const int NextPageTokenFieldNumber = 2;
+    private string nextPageToken_ = "";
+    /// <summary>
+    /// This token allows you to get the next page of results for list requests. If the number of results
+    /// is larger than [ListClusterShardsRequest.page_size], use
+    /// the [next_page_token] as the value
+    /// for the [ListClusterShardsRequest.page_token] query parameter
+    /// in the next list request. Each subsequent list request will have its own
+    /// [next_page_token] to continue paging through the results.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string NextPageToken {
+      get { return nextPageToken_; }
+      set {
+        nextPageToken_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as ListClusterShardsResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(ListClusterShardsResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if(!shards_.Equals(other.shards_)) return false;
+      if (NextPageToken != other.NextPageToken) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      hash ^= shards_.GetHashCode();
+      if (NextPageToken.Length != 0) hash ^= NextPageToken.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      shards_.WriteTo(output, _repeated_shards_codec);
+      if (NextPageToken.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(NextPageToken);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      size += shards_.CalculateSize(_repeated_shards_codec);
+      if (NextPageToken.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(NextPageToken);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(ListClusterShardsResponse other) {
+      if (other == null) {
+        return;
+      }
+      shards_.Add(other.shards_);
+      if (other.NextPageToken.Length != 0) {
+        NextPageToken = other.NextPageToken;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            shards_.AddEntriesFrom(input, _repeated_shards_codec);
+            break;
+          }
+          case 18: {
+            NextPageToken = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  internal sealed partial class AddClusterShardRequest : pb::IMessage<AddClusterShardRequest> {
+    private static readonly pb::MessageParser<AddClusterShardRequest> _parser = new pb::MessageParser<AddClusterShardRequest>(() => new AddClusterShardRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<AddClusterShardRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Mdb.Redis.V1.ClusterServiceReflection.Descriptor.MessageTypes[37]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public AddClusterShardRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public AddClusterShardRequest(AddClusterShardRequest other) : this() {
+      clusterId_ = other.clusterId_;
+      shardName_ = other.shardName_;
+      hostSpecs_ = other.hostSpecs_.Clone();
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public AddClusterShardRequest Clone() {
+      return new AddClusterShardRequest(this);
+    }
+
+    /// <summary>Field number for the "cluster_id" field.</summary>
+    public const int ClusterIdFieldNumber = 1;
+    private string clusterId_ = "";
+    /// <summary>
+    /// ID of the Redis cluster to create a shard in.
+    /// To get the cluster ID use a [ClusterService.List] request.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ClusterId {
+      get { return clusterId_; }
+      set {
+        clusterId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "shard_name" field.</summary>
+    public const int ShardNameFieldNumber = 2;
+    private string shardName_ = "";
+    /// <summary>
+    /// Name of the shard.
+    /// The name must be unique within the cluster.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ShardName {
+      get { return shardName_; }
+      set {
+        shardName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "host_specs" field.</summary>
+    public const int HostSpecsFieldNumber = 4;
+    private static readonly pb::FieldCodec<global::Yandex.Cloud.Mdb.Redis.V1.HostSpec> _repeated_hostSpecs_codec
+        = pb::FieldCodec.ForMessage(34, global::Yandex.Cloud.Mdb.Redis.V1.HostSpec.Parser);
+    private readonly pbc::RepeatedField<global::Yandex.Cloud.Mdb.Redis.V1.HostSpec> hostSpecs_ = new pbc::RepeatedField<global::Yandex.Cloud.Mdb.Redis.V1.HostSpec>();
+    /// <summary>
+    /// Configurations for Redis hosts that should be created with the shard.
+    /// Must contain at least one element.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<global::Yandex.Cloud.Mdb.Redis.V1.HostSpec> HostSpecs {
+      get { return hostSpecs_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as AddClusterShardRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(AddClusterShardRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (ClusterId != other.ClusterId) return false;
+      if (ShardName != other.ShardName) return false;
+      if(!hostSpecs_.Equals(other.hostSpecs_)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (ClusterId.Length != 0) hash ^= ClusterId.GetHashCode();
+      if (ShardName.Length != 0) hash ^= ShardName.GetHashCode();
+      hash ^= hostSpecs_.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (ClusterId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(ClusterId);
+      }
+      if (ShardName.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(ShardName);
+      }
+      hostSpecs_.WriteTo(output, _repeated_hostSpecs_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (ClusterId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ClusterId);
+      }
+      if (ShardName.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ShardName);
+      }
+      size += hostSpecs_.CalculateSize(_repeated_hostSpecs_codec);
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(AddClusterShardRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.ClusterId.Length != 0) {
+        ClusterId = other.ClusterId;
+      }
+      if (other.ShardName.Length != 0) {
+        ShardName = other.ShardName;
+      }
+      hostSpecs_.Add(other.hostSpecs_);
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            ClusterId = input.ReadString();
+            break;
+          }
+          case 18: {
+            ShardName = input.ReadString();
+            break;
+          }
+          case 34: {
+            hostSpecs_.AddEntriesFrom(input, _repeated_hostSpecs_codec);
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  internal sealed partial class AddClusterShardMetadata : pb::IMessage<AddClusterShardMetadata> {
+    private static readonly pb::MessageParser<AddClusterShardMetadata> _parser = new pb::MessageParser<AddClusterShardMetadata>(() => new AddClusterShardMetadata());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<AddClusterShardMetadata> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Mdb.Redis.V1.ClusterServiceReflection.Descriptor.MessageTypes[38]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public AddClusterShardMetadata() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public AddClusterShardMetadata(AddClusterShardMetadata other) : this() {
+      clusterId_ = other.clusterId_;
+      shardName_ = other.shardName_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public AddClusterShardMetadata Clone() {
+      return new AddClusterShardMetadata(this);
+    }
+
+    /// <summary>Field number for the "cluster_id" field.</summary>
+    public const int ClusterIdFieldNumber = 1;
+    private string clusterId_ = "";
+    /// <summary>
+    /// ID of the Redis cluster that a shard is being added to.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ClusterId {
+      get { return clusterId_; }
+      set {
+        clusterId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "shard_name" field.</summary>
+    public const int ShardNameFieldNumber = 2;
+    private string shardName_ = "";
+    /// <summary>
+    /// Name of the Redis shard that is being created.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ShardName {
+      get { return shardName_; }
+      set {
+        shardName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as AddClusterShardMetadata);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(AddClusterShardMetadata other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (ClusterId != other.ClusterId) return false;
+      if (ShardName != other.ShardName) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (ClusterId.Length != 0) hash ^= ClusterId.GetHashCode();
+      if (ShardName.Length != 0) hash ^= ShardName.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (ClusterId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(ClusterId);
+      }
+      if (ShardName.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(ShardName);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (ClusterId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ClusterId);
+      }
+      if (ShardName.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ShardName);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(AddClusterShardMetadata other) {
+      if (other == null) {
+        return;
+      }
+      if (other.ClusterId.Length != 0) {
+        ClusterId = other.ClusterId;
+      }
+      if (other.ShardName.Length != 0) {
+        ShardName = other.ShardName;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            ClusterId = input.ReadString();
+            break;
+          }
+          case 18: {
+            ShardName = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  internal sealed partial class DeleteClusterShardRequest : pb::IMessage<DeleteClusterShardRequest> {
+    private static readonly pb::MessageParser<DeleteClusterShardRequest> _parser = new pb::MessageParser<DeleteClusterShardRequest>(() => new DeleteClusterShardRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<DeleteClusterShardRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Mdb.Redis.V1.ClusterServiceReflection.Descriptor.MessageTypes[39]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DeleteClusterShardRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DeleteClusterShardRequest(DeleteClusterShardRequest other) : this() {
+      clusterId_ = other.clusterId_;
+      shardName_ = other.shardName_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DeleteClusterShardRequest Clone() {
+      return new DeleteClusterShardRequest(this);
+    }
+
+    /// <summary>Field number for the "cluster_id" field.</summary>
+    public const int ClusterIdFieldNumber = 1;
+    private string clusterId_ = "";
+    /// <summary>
+    /// ID of the Redis cluster the shard belongs to.
+    /// To get the cluster ID use a [ClusterService.List] request.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ClusterId {
+      get { return clusterId_; }
+      set {
+        clusterId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "shard_name" field.</summary>
+    public const int ShardNameFieldNumber = 2;
+    private string shardName_ = "";
+    /// <summary>
+    /// Name of the Redis shard to delete.
+    /// To get the shard name use a [ClusterService.ListShards] request.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ShardName {
+      get { return shardName_; }
+      set {
+        shardName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as DeleteClusterShardRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(DeleteClusterShardRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (ClusterId != other.ClusterId) return false;
+      if (ShardName != other.ShardName) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (ClusterId.Length != 0) hash ^= ClusterId.GetHashCode();
+      if (ShardName.Length != 0) hash ^= ShardName.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (ClusterId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(ClusterId);
+      }
+      if (ShardName.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(ShardName);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (ClusterId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ClusterId);
+      }
+      if (ShardName.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ShardName);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(DeleteClusterShardRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.ClusterId.Length != 0) {
+        ClusterId = other.ClusterId;
+      }
+      if (other.ShardName.Length != 0) {
+        ShardName = other.ShardName;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            ClusterId = input.ReadString();
+            break;
+          }
+          case 18: {
+            ShardName = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  internal sealed partial class DeleteClusterShardMetadata : pb::IMessage<DeleteClusterShardMetadata> {
+    private static readonly pb::MessageParser<DeleteClusterShardMetadata> _parser = new pb::MessageParser<DeleteClusterShardMetadata>(() => new DeleteClusterShardMetadata());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<DeleteClusterShardMetadata> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Mdb.Redis.V1.ClusterServiceReflection.Descriptor.MessageTypes[40]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DeleteClusterShardMetadata() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DeleteClusterShardMetadata(DeleteClusterShardMetadata other) : this() {
+      clusterId_ = other.clusterId_;
+      shardName_ = other.shardName_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DeleteClusterShardMetadata Clone() {
+      return new DeleteClusterShardMetadata(this);
+    }
+
+    /// <summary>Field number for the "cluster_id" field.</summary>
+    public const int ClusterIdFieldNumber = 1;
+    private string clusterId_ = "";
+    /// <summary>
+    /// ID of the Redis cluster the shard belongs to.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ClusterId {
+      get { return clusterId_; }
+      set {
+        clusterId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "shard_name" field.</summary>
+    public const int ShardNameFieldNumber = 2;
+    private string shardName_ = "";
+    /// <summary>
+    /// Name of the Redis shard that is being deleted.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ShardName {
+      get { return shardName_; }
+      set {
+        shardName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as DeleteClusterShardMetadata);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(DeleteClusterShardMetadata other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (ClusterId != other.ClusterId) return false;
+      if (ShardName != other.ShardName) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (ClusterId.Length != 0) hash ^= ClusterId.GetHashCode();
+      if (ShardName.Length != 0) hash ^= ShardName.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (ClusterId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(ClusterId);
+      }
+      if (ShardName.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(ShardName);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (ClusterId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ClusterId);
+      }
+      if (ShardName.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ShardName);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(DeleteClusterShardMetadata other) {
+      if (other == null) {
+        return;
+      }
+      if (other.ClusterId.Length != 0) {
+        ClusterId = other.ClusterId;
+      }
+      if (other.ShardName.Length != 0) {
+        ShardName = other.ShardName;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            ClusterId = input.ReadString();
+            break;
+          }
+          case 18: {
+            ShardName = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  internal sealed partial class RebalanceClusterRequest : pb::IMessage<RebalanceClusterRequest> {
+    private static readonly pb::MessageParser<RebalanceClusterRequest> _parser = new pb::MessageParser<RebalanceClusterRequest>(() => new RebalanceClusterRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<RebalanceClusterRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Mdb.Redis.V1.ClusterServiceReflection.Descriptor.MessageTypes[41]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public RebalanceClusterRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public RebalanceClusterRequest(RebalanceClusterRequest other) : this() {
+      clusterId_ = other.clusterId_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public RebalanceClusterRequest Clone() {
+      return new RebalanceClusterRequest(this);
+    }
+
+    /// <summary>Field number for the "cluster_id" field.</summary>
+    public const int ClusterIdFieldNumber = 1;
+    private string clusterId_ = "";
+    /// <summary>
+    /// ID of the Redis cluster to rebalance.
+    /// To get the cluster ID use a [ClusterService.List] request.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ClusterId {
+      get { return clusterId_; }
+      set {
+        clusterId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as RebalanceClusterRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(RebalanceClusterRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (ClusterId != other.ClusterId) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (ClusterId.Length != 0) hash ^= ClusterId.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (ClusterId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(ClusterId);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (ClusterId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ClusterId);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(RebalanceClusterRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.ClusterId.Length != 0) {
+        ClusterId = other.ClusterId;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            ClusterId = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  internal sealed partial class RebalanceClusterMetadata : pb::IMessage<RebalanceClusterMetadata> {
+    private static readonly pb::MessageParser<RebalanceClusterMetadata> _parser = new pb::MessageParser<RebalanceClusterMetadata>(() => new RebalanceClusterMetadata());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<RebalanceClusterMetadata> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Mdb.Redis.V1.ClusterServiceReflection.Descriptor.MessageTypes[42]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public RebalanceClusterMetadata() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public RebalanceClusterMetadata(RebalanceClusterMetadata other) : this() {
+      clusterId_ = other.clusterId_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public RebalanceClusterMetadata Clone() {
+      return new RebalanceClusterMetadata(this);
+    }
+
+    /// <summary>Field number for the "cluster_id" field.</summary>
+    public const int ClusterIdFieldNumber = 1;
+    private string clusterId_ = "";
+    /// <summary>
+    /// ID of the Redis cluster that is being rebalancing.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ClusterId {
+      get { return clusterId_; }
+      set {
+        clusterId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as RebalanceClusterMetadata);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(RebalanceClusterMetadata other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (ClusterId != other.ClusterId) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (ClusterId.Length != 0) hash ^= ClusterId.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (ClusterId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(ClusterId);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (ClusterId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ClusterId);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(RebalanceClusterMetadata other) {
+      if (other == null) {
+        return;
+      }
+      if (other.ClusterId.Length != 0) {
+        ClusterId = other.ClusterId;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            ClusterId = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
   internal sealed partial class HostSpec : pb::IMessage<HostSpec> {
     private static readonly pb::MessageParser<HostSpec> _parser = new pb::MessageParser<HostSpec>(() => new HostSpec());
     private pb::UnknownFieldSet _unknownFields;
@@ -5946,7 +7805,7 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Mdb.Redis.V1.ClusterServiceReflection.Descriptor.MessageTypes[32]; }
+      get { return global::Yandex.Cloud.Mdb.Redis.V1.ClusterServiceReflection.Descriptor.MessageTypes[43]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5965,6 +7824,7 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
     public HostSpec(HostSpec other) : this() {
       zoneId_ = other.zoneId_;
       subnetId_ = other.subnetId_;
+      shardName_ = other.shardName_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -6004,6 +7864,21 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
       }
     }
 
+    /// <summary>Field number for the "shard_name" field.</summary>
+    public const int ShardNameFieldNumber = 3;
+    private string shardName_ = "";
+    /// <summary>
+    /// ID of the Redis shard the host belongs to.
+    /// To get the shard ID use a [ClusterService.ListShards] request.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ShardName {
+      get { return shardName_; }
+      set {
+        shardName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as HostSpec);
@@ -6019,6 +7894,7 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
       }
       if (ZoneId != other.ZoneId) return false;
       if (SubnetId != other.SubnetId) return false;
+      if (ShardName != other.ShardName) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -6027,6 +7903,7 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
       int hash = 1;
       if (ZoneId.Length != 0) hash ^= ZoneId.GetHashCode();
       if (SubnetId.Length != 0) hash ^= SubnetId.GetHashCode();
+      if (ShardName.Length != 0) hash ^= ShardName.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -6048,6 +7925,10 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
         output.WriteRawTag(18);
         output.WriteString(SubnetId);
       }
+      if (ShardName.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(ShardName);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -6061,6 +7942,9 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
       }
       if (SubnetId.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(SubnetId);
+      }
+      if (ShardName.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ShardName);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -6078,6 +7962,9 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
       }
       if (other.SubnetId.Length != 0) {
         SubnetId = other.SubnetId;
+      }
+      if (other.ShardName.Length != 0) {
+        ShardName = other.ShardName;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -6098,6 +7985,10 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
             SubnetId = input.ReadString();
             break;
           }
+          case 26: {
+            ShardName = input.ReadString();
+            break;
+          }
         }
       }
     }
@@ -6112,7 +8003,7 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Mdb.Redis.V1.ClusterServiceReflection.Descriptor.MessageTypes[33]; }
+      get { return global::Yandex.Cloud.Mdb.Redis.V1.ClusterServiceReflection.Descriptor.MessageTypes[44]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6132,6 +8023,7 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
       version_ = other.version_;
       resources_ = other.resources_ != null ? other.resources_.Clone() : null;
       backupWindowStart_ = other.backupWindowStart_ != null ? other.backupWindowStart_.Clone() : null;
+      access_ = other.access_ != null ? other.access_.Clone() : null;
       switch (other.RedisSpecCase) {
         case RedisSpecOneofCase.RedisConfig50:
           RedisConfig50 = other.RedisConfig50.Clone();
@@ -6200,6 +8092,20 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
       }
     }
 
+    /// <summary>Field number for the "access" field.</summary>
+    public const int AccessFieldNumber = 5;
+    private global::Yandex.Cloud.Mdb.Redis.V1.Access access_;
+    /// <summary>
+    /// Access policy to DB
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Mdb.Redis.V1.Access Access {
+      get { return access_; }
+      set {
+        access_ = value;
+      }
+    }
+
     private object redisSpec_;
     /// <summary>Enum of possible cases for the "redis_spec" oneof.</summary>
     public enum RedisSpecOneofCase {
@@ -6235,6 +8141,7 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
       if (!object.Equals(RedisConfig50, other.RedisConfig50)) return false;
       if (!object.Equals(Resources, other.Resources)) return false;
       if (!object.Equals(BackupWindowStart, other.BackupWindowStart)) return false;
+      if (!object.Equals(Access, other.Access)) return false;
       if (RedisSpecCase != other.RedisSpecCase) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -6246,6 +8153,7 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
       if (redisSpecCase_ == RedisSpecOneofCase.RedisConfig50) hash ^= RedisConfig50.GetHashCode();
       if (resources_ != null) hash ^= Resources.GetHashCode();
       if (backupWindowStart_ != null) hash ^= BackupWindowStart.GetHashCode();
+      if (access_ != null) hash ^= Access.GetHashCode();
       hash ^= (int) redisSpecCase_;
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -6276,6 +8184,10 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
         output.WriteRawTag(34);
         output.WriteMessage(BackupWindowStart);
       }
+      if (access_ != null) {
+        output.WriteRawTag(42);
+        output.WriteMessage(Access);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -6295,6 +8207,9 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
       }
       if (backupWindowStart_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(BackupWindowStart);
+      }
+      if (access_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Access);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -6321,6 +8236,12 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
           BackupWindowStart = new global::Google.Type.TimeOfDay();
         }
         BackupWindowStart.MergeFrom(other.BackupWindowStart);
+      }
+      if (other.access_ != null) {
+        if (access_ == null) {
+          Access = new global::Yandex.Cloud.Mdb.Redis.V1.Access();
+        }
+        Access.MergeFrom(other.Access);
       }
       switch (other.RedisSpecCase) {
         case RedisSpecOneofCase.RedisConfig50:
@@ -6367,6 +8288,13 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
               BackupWindowStart = new global::Google.Type.TimeOfDay();
             }
             input.ReadMessage(BackupWindowStart);
+            break;
+          }
+          case 42: {
+            if (access_ == null) {
+              Access = new global::Yandex.Cloud.Mdb.Redis.V1.Access();
+            }
+            input.ReadMessage(Access);
             break;
           }
         }

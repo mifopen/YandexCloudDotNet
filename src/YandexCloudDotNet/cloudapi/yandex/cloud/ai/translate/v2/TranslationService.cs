@@ -28,40 +28,51 @@ namespace Yandex.Cloud.Ai.Translate.V2 {
             "cnZpY2UucHJvdG8SHHlhbmRleC5jbG91ZC5haS50cmFuc2xhdGUudjIaHGdv",
             "b2dsZS9hcGkvYW5ub3RhdGlvbnMucHJvdG8aHXlhbmRleC9jbG91ZC92YWxp",
             "ZGF0aW9uLnByb3RvGi55YW5kZXgvY2xvdWQvYWkvdHJhbnNsYXRlL3YyL3Ry",
-            "YW5zbGF0aW9uLnByb3RvIrQCChBUcmFuc2xhdGVSZXF1ZXN0EiUKFHNvdXJj",
+            "YW5zbGF0aW9uLnByb3RvIoQDChBUcmFuc2xhdGVSZXF1ZXN0EiUKFHNvdXJj",
             "ZV9sYW5ndWFnZV9jb2RlGAEgASgJQgeKyDEDPD0zEikKFHRhcmdldF9sYW5n",
             "dWFnZV9jb2RlGAIgASgJQgvoxzEBisgxAzw9MxJFCgZmb3JtYXQYAyABKA4y",
             "NS55YW5kZXguY2xvdWQuYWkudHJhbnNsYXRlLnYyLlRyYW5zbGF0ZVJlcXVl",
             "c3QuRm9ybWF0EhUKBXRleHRzGAQgAygJQgaCyDECPjASGwoJZm9sZGVyX2lk",
-            "GAUgASgJQgiKyDEEPD01MBIXCgVtb2RlbBgGIAEoCUIIisgxBDw9NTAiOgoG",
-            "Rm9ybWF0EhYKEkZPUk1BVF9VTlNQRUNJRklFRBAAEg4KClBMQUlOX1RFWFQQ",
-            "ARIICgRIVE1MEAIiVwoRVHJhbnNsYXRlUmVzcG9uc2USQgoMdHJhbnNsYXRp",
-            "b25zGAEgAygLMiwueWFuZGV4LmNsb3VkLmFpLnRyYW5zbGF0ZS52Mi5UcmFu",
-            "c2xhdGVkVGV4dCKAAQoVRGV0ZWN0TGFuZ3VhZ2VSZXF1ZXN0EhwKBHRleHQY",
-            "ASABKAlCDujHMQGKyDEGPD0xMDAwEiwKE2xhbmd1YWdlX2NvZGVfaGludHMY",
-            "AiADKAlCD4LIMQQ8PTEwisgxAzw9MxIbCglmb2xkZXJfaWQYAyABKAlCCIrI",
-            "MQQ8PTUwIi8KFkRldGVjdExhbmd1YWdlUmVzcG9uc2USFQoNbGFuZ3VhZ2Vf",
-            "Y29kZRgBIAEoCSIzChRMaXN0TGFuZ3VhZ2VzUmVxdWVzdBIbCglmb2xkZXJf",
-            "aWQYASABKAlCCIrIMQQ8PTUwIlIKFUxpc3RMYW5ndWFnZXNSZXNwb25zZRI5",
-            "CglsYW5ndWFnZXMYASADKAsyJi55YW5kZXguY2xvdWQuYWkudHJhbnNsYXRl",
-            "LnYyLkxhbmd1YWdlMuUDChJUcmFuc2xhdGlvblNlcnZpY2USkAEKCVRyYW5z",
-            "bGF0ZRIuLnlhbmRleC5jbG91ZC5haS50cmFuc2xhdGUudjIuVHJhbnNsYXRl",
-            "UmVxdWVzdBovLnlhbmRleC5jbG91ZC5haS50cmFuc2xhdGUudjIuVHJhbnNs",
-            "YXRlUmVzcG9uc2UiIoLT5JMCHCIXL3RyYW5zbGF0ZS92Mi90cmFuc2xhdGU6",
-            "ASoSnAEKDkRldGVjdExhbmd1YWdlEjMueWFuZGV4LmNsb3VkLmFpLnRyYW5z",
-            "bGF0ZS52Mi5EZXRlY3RMYW5ndWFnZVJlcXVlc3QaNC55YW5kZXguY2xvdWQu",
-            "YWkudHJhbnNsYXRlLnYyLkRldGVjdExhbmd1YWdlUmVzcG9uc2UiH4LT5JMC",
-            "GSIUL3RyYW5zbGF0ZS92Mi9kZXRlY3Q6ASoSnAEKDUxpc3RMYW5ndWFnZXMS",
-            "Mi55YW5kZXguY2xvdWQuYWkudHJhbnNsYXRlLnYyLkxpc3RMYW5ndWFnZXNS",
-            "ZXF1ZXN0GjMueWFuZGV4LmNsb3VkLmFpLnRyYW5zbGF0ZS52Mi5MaXN0TGFu",
-            "Z3VhZ2VzUmVzcG9uc2UiIoLT5JMCHCIXL3RyYW5zbGF0ZS92Mi9sYW5ndWFn",
-            "ZXM6ASpCTFpKZ2l0aHViLmNvbS95YW5kZXgtY2xvdWQvZ28tZ2VucHJvdG8v",
-            "eWFuZGV4L2Nsb3VkL2FpL3RyYW5zbGF0ZS92Mjt0cmFuc2xhdGViBnByb3Rv",
-            "Mw=="));
+            "GAUgASgJQgiKyDEEPD01MBIXCgVtb2RlbBgGIAEoCUIIisgxBDw9NTASTgoP",
+            "Z2xvc3NhcnlfY29uZmlnGAcgASgLMjUueWFuZGV4LmNsb3VkLmFpLnRyYW5z",
+            "bGF0ZS52Mi5UcmFuc2xhdGVHbG9zc2FyeUNvbmZpZyI6CgZGb3JtYXQSFgoS",
+            "Rk9STUFUX1VOU1BFQ0lGSUVEEAASDgoKUExBSU5fVEVYVBABEggKBEhUTUwQ",
+            "AiJ3ChdUcmFuc2xhdGVHbG9zc2FyeUNvbmZpZxJDCg1nbG9zc2FyeV9kYXRh",
+            "GAEgASgLMioueWFuZGV4LmNsb3VkLmFpLnRyYW5zbGF0ZS52Mi5HbG9zc2Fy",
+            "eURhdGFIAEIXCg9nbG9zc2FyeV9zb3VyY2USBMDBMQEiXAoMR2xvc3NhcnlE",
+            "YXRhEkwKDmdsb3NzYXJ5X3BhaXJzGAEgAygLMioueWFuZGV4LmNsb3VkLmFp",
+            "LnRyYW5zbGF0ZS52Mi5HbG9zc2FyeVBhaXJCCILIMQQxLTUwIkgKDEdsb3Nz",
+            "YXJ5UGFpchIZCgtzb3VyY2VfdGV4dBgBIAEoCUIE6McxARIdCg90cmFuc2xh",
+            "dGVkX3RleHQYAiABKAlCBOjHMQEiVwoRVHJhbnNsYXRlUmVzcG9uc2USQgoM",
+            "dHJhbnNsYXRpb25zGAEgAygLMiwueWFuZGV4LmNsb3VkLmFpLnRyYW5zbGF0",
+            "ZS52Mi5UcmFuc2xhdGVkVGV4dCKAAQoVRGV0ZWN0TGFuZ3VhZ2VSZXF1ZXN0",
+            "EhwKBHRleHQYASABKAlCDujHMQGKyDEGPD0xMDAwEiwKE2xhbmd1YWdlX2Nv",
+            "ZGVfaGludHMYAiADKAlCD4LIMQQ8PTEwisgxAzw9MxIbCglmb2xkZXJfaWQY",
+            "AyABKAlCCIrIMQQ8PTUwIi8KFkRldGVjdExhbmd1YWdlUmVzcG9uc2USFQoN",
+            "bGFuZ3VhZ2VfY29kZRgBIAEoCSIzChRMaXN0TGFuZ3VhZ2VzUmVxdWVzdBIb",
+            "Cglmb2xkZXJfaWQYASABKAlCCIrIMQQ8PTUwIlIKFUxpc3RMYW5ndWFnZXNS",
+            "ZXNwb25zZRI5CglsYW5ndWFnZXMYASADKAsyJi55YW5kZXguY2xvdWQuYWku",
+            "dHJhbnNsYXRlLnYyLkxhbmd1YWdlMuUDChJUcmFuc2xhdGlvblNlcnZpY2US",
+            "kAEKCVRyYW5zbGF0ZRIuLnlhbmRleC5jbG91ZC5haS50cmFuc2xhdGUudjIu",
+            "VHJhbnNsYXRlUmVxdWVzdBovLnlhbmRleC5jbG91ZC5haS50cmFuc2xhdGUu",
+            "djIuVHJhbnNsYXRlUmVzcG9uc2UiIoLT5JMCHCIXL3RyYW5zbGF0ZS92Mi90",
+            "cmFuc2xhdGU6ASoSnAEKDkRldGVjdExhbmd1YWdlEjMueWFuZGV4LmNsb3Vk",
+            "LmFpLnRyYW5zbGF0ZS52Mi5EZXRlY3RMYW5ndWFnZVJlcXVlc3QaNC55YW5k",
+            "ZXguY2xvdWQuYWkudHJhbnNsYXRlLnYyLkRldGVjdExhbmd1YWdlUmVzcG9u",
+            "c2UiH4LT5JMCGSIUL3RyYW5zbGF0ZS92Mi9kZXRlY3Q6ASoSnAEKDUxpc3RM",
+            "YW5ndWFnZXMSMi55YW5kZXguY2xvdWQuYWkudHJhbnNsYXRlLnYyLkxpc3RM",
+            "YW5ndWFnZXNSZXF1ZXN0GjMueWFuZGV4LmNsb3VkLmFpLnRyYW5zbGF0ZS52",
+            "Mi5MaXN0TGFuZ3VhZ2VzUmVzcG9uc2UiIoLT5JMCHCIXL3RyYW5zbGF0ZS92",
+            "Mi9sYW5ndWFnZXM6ASpCbgogeWFuZGV4LmNsb3VkLmFwaS5haS50cmFuc2xh",
+            "dGUudjJaSmdpdGh1Yi5jb20veWFuZGV4LWNsb3VkL2dvLWdlbnByb3RvL3lh",
+            "bmRleC9jbG91ZC9haS90cmFuc2xhdGUvdjI7dHJhbnNsYXRlYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, global::Yandex.Cloud.Ai.Translate.V2.TranslationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Translate.V2.TranslateRequest), global::Yandex.Cloud.Ai.Translate.V2.TranslateRequest.Parser, new[]{ "SourceLanguageCode", "TargetLanguageCode", "Format", "Texts", "FolderId", "Model" }, null, new[]{ typeof(global::Yandex.Cloud.Ai.Translate.V2.TranslateRequest.Types.Format) }, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Translate.V2.TranslateRequest), global::Yandex.Cloud.Ai.Translate.V2.TranslateRequest.Parser, new[]{ "SourceLanguageCode", "TargetLanguageCode", "Format", "Texts", "FolderId", "Model", "GlossaryConfig" }, null, new[]{ typeof(global::Yandex.Cloud.Ai.Translate.V2.TranslateRequest.Types.Format) }, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Translate.V2.TranslateGlossaryConfig), global::Yandex.Cloud.Ai.Translate.V2.TranslateGlossaryConfig.Parser, new[]{ "GlossaryData" }, new[]{ "GlossarySource" }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Translate.V2.GlossaryData), global::Yandex.Cloud.Ai.Translate.V2.GlossaryData.Parser, new[]{ "GlossaryPairs" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Translate.V2.GlossaryPair), global::Yandex.Cloud.Ai.Translate.V2.GlossaryPair.Parser, new[]{ "SourceText", "TranslatedText" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Translate.V2.TranslateResponse), global::Yandex.Cloud.Ai.Translate.V2.TranslateResponse.Parser, new[]{ "Translations" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Translate.V2.DetectLanguageRequest), global::Yandex.Cloud.Ai.Translate.V2.DetectLanguageRequest.Parser, new[]{ "Text", "LanguageCodeHints", "FolderId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Translate.V2.DetectLanguageResponse), global::Yandex.Cloud.Ai.Translate.V2.DetectLanguageResponse.Parser, new[]{ "LanguageCode" }, null, null, null),
@@ -104,6 +115,7 @@ namespace Yandex.Cloud.Ai.Translate.V2 {
       texts_ = other.texts_.Clone();
       folderId_ = other.folderId_;
       model_ = other.model_;
+      glossaryConfig_ = other.glossaryConfig_ != null ? other.glossaryConfig_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -118,6 +130,8 @@ namespace Yandex.Cloud.Ai.Translate.V2 {
     /// <summary>
     /// The text language to translate from.
     /// Specified in [ISO 639-1](https://en.wikipedia.org/wiki/ISO_639-1) format (for example, `` ru ``).
+    ///
+    /// Required for translating with glossary.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string SourceLanguageCode {
@@ -200,6 +214,20 @@ namespace Yandex.Cloud.Ai.Translate.V2 {
       }
     }
 
+    /// <summary>Field number for the "glossary_config" field.</summary>
+    public const int GlossaryConfigFieldNumber = 7;
+    private global::Yandex.Cloud.Ai.Translate.V2.TranslateGlossaryConfig glossaryConfig_;
+    /// <summary>
+    /// Glossary to be applied for the translation. For more information, see [Glossaries](/docs/translate/concepts/glossary).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Ai.Translate.V2.TranslateGlossaryConfig GlossaryConfig {
+      get { return glossaryConfig_; }
+      set {
+        glossaryConfig_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as TranslateRequest);
@@ -219,6 +247,7 @@ namespace Yandex.Cloud.Ai.Translate.V2 {
       if(!texts_.Equals(other.texts_)) return false;
       if (FolderId != other.FolderId) return false;
       if (Model != other.Model) return false;
+      if (!object.Equals(GlossaryConfig, other.GlossaryConfig)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -231,6 +260,7 @@ namespace Yandex.Cloud.Ai.Translate.V2 {
       hash ^= texts_.GetHashCode();
       if (FolderId.Length != 0) hash ^= FolderId.GetHashCode();
       if (Model.Length != 0) hash ^= Model.GetHashCode();
+      if (glossaryConfig_ != null) hash ^= GlossaryConfig.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -265,6 +295,10 @@ namespace Yandex.Cloud.Ai.Translate.V2 {
         output.WriteRawTag(50);
         output.WriteString(Model);
       }
+      if (glossaryConfig_ != null) {
+        output.WriteRawTag(58);
+        output.WriteMessage(GlossaryConfig);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -288,6 +322,9 @@ namespace Yandex.Cloud.Ai.Translate.V2 {
       }
       if (Model.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Model);
+      }
+      if (glossaryConfig_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(GlossaryConfig);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -315,6 +352,12 @@ namespace Yandex.Cloud.Ai.Translate.V2 {
       }
       if (other.Model.Length != 0) {
         Model = other.Model;
+      }
+      if (other.glossaryConfig_ != null) {
+        if (glossaryConfig_ == null) {
+          GlossaryConfig = new global::Yandex.Cloud.Ai.Translate.V2.TranslateGlossaryConfig();
+        }
+        GlossaryConfig.MergeFrom(other.GlossaryConfig);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -351,6 +394,13 @@ namespace Yandex.Cloud.Ai.Translate.V2 {
             Model = input.ReadString();
             break;
           }
+          case 58: {
+            if (glossaryConfig_ == null) {
+              GlossaryConfig = new global::Yandex.Cloud.Ai.Translate.V2.TranslateGlossaryConfig();
+            }
+            input.ReadMessage(GlossaryConfig);
+            break;
+          }
         }
       }
     }
@@ -376,6 +426,464 @@ namespace Yandex.Cloud.Ai.Translate.V2 {
 
   }
 
+  internal sealed partial class TranslateGlossaryConfig : pb::IMessage<TranslateGlossaryConfig> {
+    private static readonly pb::MessageParser<TranslateGlossaryConfig> _parser = new pb::MessageParser<TranslateGlossaryConfig>(() => new TranslateGlossaryConfig());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<TranslateGlossaryConfig> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Ai.Translate.V2.TranslationServiceReflection.Descriptor.MessageTypes[1]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public TranslateGlossaryConfig() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public TranslateGlossaryConfig(TranslateGlossaryConfig other) : this() {
+      switch (other.GlossarySourceCase) {
+        case GlossarySourceOneofCase.GlossaryData:
+          GlossaryData = other.GlossaryData.Clone();
+          break;
+      }
+
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public TranslateGlossaryConfig Clone() {
+      return new TranslateGlossaryConfig(this);
+    }
+
+    /// <summary>Field number for the "glossary_data" field.</summary>
+    public const int GlossaryDataFieldNumber = 1;
+    /// <summary>
+    /// Pass glossary data in the request. Currently, only this way to pass glossary is supported.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Ai.Translate.V2.GlossaryData GlossaryData {
+      get { return glossarySourceCase_ == GlossarySourceOneofCase.GlossaryData ? (global::Yandex.Cloud.Ai.Translate.V2.GlossaryData) glossarySource_ : null; }
+      set {
+        glossarySource_ = value;
+        glossarySourceCase_ = value == null ? GlossarySourceOneofCase.None : GlossarySourceOneofCase.GlossaryData;
+      }
+    }
+
+    private object glossarySource_;
+    /// <summary>Enum of possible cases for the "glossary_source" oneof.</summary>
+    public enum GlossarySourceOneofCase {
+      None = 0,
+      GlossaryData = 1,
+    }
+    private GlossarySourceOneofCase glossarySourceCase_ = GlossarySourceOneofCase.None;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public GlossarySourceOneofCase GlossarySourceCase {
+      get { return glossarySourceCase_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void ClearGlossarySource() {
+      glossarySourceCase_ = GlossarySourceOneofCase.None;
+      glossarySource_ = null;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as TranslateGlossaryConfig);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(TranslateGlossaryConfig other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (!object.Equals(GlossaryData, other.GlossaryData)) return false;
+      if (GlossarySourceCase != other.GlossarySourceCase) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (glossarySourceCase_ == GlossarySourceOneofCase.GlossaryData) hash ^= GlossaryData.GetHashCode();
+      hash ^= (int) glossarySourceCase_;
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (glossarySourceCase_ == GlossarySourceOneofCase.GlossaryData) {
+        output.WriteRawTag(10);
+        output.WriteMessage(GlossaryData);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (glossarySourceCase_ == GlossarySourceOneofCase.GlossaryData) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(GlossaryData);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(TranslateGlossaryConfig other) {
+      if (other == null) {
+        return;
+      }
+      switch (other.GlossarySourceCase) {
+        case GlossarySourceOneofCase.GlossaryData:
+          if (GlossaryData == null) {
+            GlossaryData = new global::Yandex.Cloud.Ai.Translate.V2.GlossaryData();
+          }
+          GlossaryData.MergeFrom(other.GlossaryData);
+          break;
+      }
+
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            global::Yandex.Cloud.Ai.Translate.V2.GlossaryData subBuilder = new global::Yandex.Cloud.Ai.Translate.V2.GlossaryData();
+            if (glossarySourceCase_ == GlossarySourceOneofCase.GlossaryData) {
+              subBuilder.MergeFrom(GlossaryData);
+            }
+            input.ReadMessage(subBuilder);
+            GlossaryData = subBuilder;
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  internal sealed partial class GlossaryData : pb::IMessage<GlossaryData> {
+    private static readonly pb::MessageParser<GlossaryData> _parser = new pb::MessageParser<GlossaryData>(() => new GlossaryData());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<GlossaryData> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Ai.Translate.V2.TranslationServiceReflection.Descriptor.MessageTypes[2]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public GlossaryData() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public GlossaryData(GlossaryData other) : this() {
+      glossaryPairs_ = other.glossaryPairs_.Clone();
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public GlossaryData Clone() {
+      return new GlossaryData(this);
+    }
+
+    /// <summary>Field number for the "glossary_pairs" field.</summary>
+    public const int GlossaryPairsFieldNumber = 1;
+    private static readonly pb::FieldCodec<global::Yandex.Cloud.Ai.Translate.V2.GlossaryPair> _repeated_glossaryPairs_codec
+        = pb::FieldCodec.ForMessage(10, global::Yandex.Cloud.Ai.Translate.V2.GlossaryPair.Parser);
+    private readonly pbc::RepeatedField<global::Yandex.Cloud.Ai.Translate.V2.GlossaryPair> glossaryPairs_ = new pbc::RepeatedField<global::Yandex.Cloud.Ai.Translate.V2.GlossaryPair>();
+    /// <summary>
+    /// Array of text pairs.
+    ///
+    /// The maximum total length of all source texts is 10000 characters.
+    /// The maximum total length of all translated texts is 10000 characters.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<global::Yandex.Cloud.Ai.Translate.V2.GlossaryPair> GlossaryPairs {
+      get { return glossaryPairs_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as GlossaryData);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(GlossaryData other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if(!glossaryPairs_.Equals(other.glossaryPairs_)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      hash ^= glossaryPairs_.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      glossaryPairs_.WriteTo(output, _repeated_glossaryPairs_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      size += glossaryPairs_.CalculateSize(_repeated_glossaryPairs_codec);
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(GlossaryData other) {
+      if (other == null) {
+        return;
+      }
+      glossaryPairs_.Add(other.glossaryPairs_);
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            glossaryPairs_.AddEntriesFrom(input, _repeated_glossaryPairs_codec);
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  internal sealed partial class GlossaryPair : pb::IMessage<GlossaryPair> {
+    private static readonly pb::MessageParser<GlossaryPair> _parser = new pb::MessageParser<GlossaryPair>(() => new GlossaryPair());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<GlossaryPair> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Ai.Translate.V2.TranslationServiceReflection.Descriptor.MessageTypes[3]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public GlossaryPair() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public GlossaryPair(GlossaryPair other) : this() {
+      sourceText_ = other.sourceText_;
+      translatedText_ = other.translatedText_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public GlossaryPair Clone() {
+      return new GlossaryPair(this);
+    }
+
+    /// <summary>Field number for the "source_text" field.</summary>
+    public const int SourceTextFieldNumber = 1;
+    private string sourceText_ = "";
+    /// <summary>
+    /// Text in the source language.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string SourceText {
+      get { return sourceText_; }
+      set {
+        sourceText_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "translated_text" field.</summary>
+    public const int TranslatedTextFieldNumber = 2;
+    private string translatedText_ = "";
+    /// <summary>
+    /// Text in the target language.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string TranslatedText {
+      get { return translatedText_; }
+      set {
+        translatedText_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as GlossaryPair);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(GlossaryPair other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (SourceText != other.SourceText) return false;
+      if (TranslatedText != other.TranslatedText) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (SourceText.Length != 0) hash ^= SourceText.GetHashCode();
+      if (TranslatedText.Length != 0) hash ^= TranslatedText.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (SourceText.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(SourceText);
+      }
+      if (TranslatedText.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(TranslatedText);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (SourceText.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(SourceText);
+      }
+      if (TranslatedText.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(TranslatedText);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(GlossaryPair other) {
+      if (other == null) {
+        return;
+      }
+      if (other.SourceText.Length != 0) {
+        SourceText = other.SourceText;
+      }
+      if (other.TranslatedText.Length != 0) {
+        TranslatedText = other.TranslatedText;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            SourceText = input.ReadString();
+            break;
+          }
+          case 18: {
+            TranslatedText = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
   internal sealed partial class TranslateResponse : pb::IMessage<TranslateResponse> {
     private static readonly pb::MessageParser<TranslateResponse> _parser = new pb::MessageParser<TranslateResponse>(() => new TranslateResponse());
     private pb::UnknownFieldSet _unknownFields;
@@ -384,7 +892,7 @@ namespace Yandex.Cloud.Ai.Translate.V2 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Ai.Translate.V2.TranslationServiceReflection.Descriptor.MessageTypes[1]; }
+      get { return global::Yandex.Cloud.Ai.Translate.V2.TranslationServiceReflection.Descriptor.MessageTypes[4]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -508,7 +1016,7 @@ namespace Yandex.Cloud.Ai.Translate.V2 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Ai.Translate.V2.TranslationServiceReflection.Descriptor.MessageTypes[2]; }
+      get { return global::Yandex.Cloud.Ai.Translate.V2.TranslationServiceReflection.Descriptor.MessageTypes[5]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -699,7 +1207,7 @@ namespace Yandex.Cloud.Ai.Translate.V2 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Ai.Translate.V2.TranslationServiceReflection.Descriptor.MessageTypes[3]; }
+      get { return global::Yandex.Cloud.Ai.Translate.V2.TranslationServiceReflection.Descriptor.MessageTypes[6]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -833,7 +1341,7 @@ namespace Yandex.Cloud.Ai.Translate.V2 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Ai.Translate.V2.TranslationServiceReflection.Descriptor.MessageTypes[4]; }
+      get { return global::Yandex.Cloud.Ai.Translate.V2.TranslationServiceReflection.Descriptor.MessageTypes[7]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -967,7 +1475,7 @@ namespace Yandex.Cloud.Ai.Translate.V2 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Ai.Translate.V2.TranslationServiceReflection.Descriptor.MessageTypes[5]; }
+      get { return global::Yandex.Cloud.Ai.Translate.V2.TranslationServiceReflection.Descriptor.MessageTypes[8]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

@@ -58,9 +58,10 @@ namespace Yandex.Cloud.Iam.V1.Awscompatibility {
             "ZRI8LnlhbmRleC5jbG91ZC5pYW0udjEuYXdzY29tcGF0aWJpbGl0eS5EZWxl",
             "dGVBY2Nlc3NLZXlSZXF1ZXN0GhYuZ29vZ2xlLnByb3RvYnVmLkVtcHR5IjyC",
             "0+STAjYqNC9pYW0vYXdzLWNvbXBhdGliaWxpdHkvdjEvYWNjZXNzS2V5cy97",
-            "YWNjZXNzX2tleV9pZH1CW1pZZ2l0aHViLmNvbS95YW5kZXgtY2xvdWQvZ28t",
-            "Z2VucHJvdG8veWFuZGV4L2Nsb3VkL2lhbS92MS9hd3Njb21wYXRpYmlsaXR5",
-            "O2F3c2NvbXBhdGliaWxpdHliBnByb3RvMw=="));
+            "YWNjZXNzX2tleV9pZH1ChQEKKHlhbmRleC5jbG91ZC5hcGkuaWFtLnYxLmF3",
+            "c2NvbXBhdGliaWxpdHlaWWdpdGh1Yi5jb20veWFuZGV4LWNsb3VkL2dvLWdl",
+            "bnByb3RvL3lhbmRleC9jbG91ZC9pYW0vdjEvYXdzY29tcGF0aWJpbGl0eTth",
+            "d3Njb21wYXRpYmlsaXR5YgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Yandex.Cloud.Iam.V1.Awscompatibility.AccessKeyReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {

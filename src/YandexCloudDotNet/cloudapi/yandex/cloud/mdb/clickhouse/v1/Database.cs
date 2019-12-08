@@ -28,9 +28,10 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
             "dG8SHnlhbmRleC5jbG91ZC5tZGIuY2xpY2tob3VzZS52MRodeWFuZGV4L2Ns",
             "b3VkL3ZhbGlkYXRpb24ucHJvdG8iLAoIRGF0YWJhc2USDAoEbmFtZRgBIAEo",
             "CRISCgpjbHVzdGVyX2lkGAIgASgJIjwKDERhdGFiYXNlU3BlYxIsCgRuYW1l",
-            "GAEgASgJQh7oxzEBisgxBDw9NjPyxzEOW2EtekEtWjAtOV8tXSpCT1pNZ2l0",
-            "aHViLmNvbS95YW5kZXgtY2xvdWQvZ28tZ2VucHJvdG8veWFuZGV4L2Nsb3Vk",
-            "L21kYi9jbGlja2hvdXNlL3YxO2NsaWNraG91c2ViBnByb3RvMw=="));
+            "GAEgASgJQh7oxzEBisgxBDw9NjPyxzEOW2EtekEtWjAtOV8tXSpCcwoieWFu",
+            "ZGV4LmNsb3VkLmFwaS5tZGIuY2xpY2tob3VzZS52MVpNZ2l0aHViLmNvbS95",
+            "YW5kZXgtY2xvdWQvZ28tZ2VucHJvdG8veWFuZGV4L2Nsb3VkL21kYi9jbGlj",
+            "a2hvdXNlL3YxO2NsaWNraG91c2ViBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Yandex.Cloud.ValidationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
