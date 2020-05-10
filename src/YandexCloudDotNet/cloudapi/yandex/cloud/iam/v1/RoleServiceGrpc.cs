@@ -45,7 +45,7 @@ namespace Yandex.Cloud.Iam.V1 {
     {
       /// <summary>Creates a new client for RoleService</summary>
       /// <param name="channel">The channel to use to make remote calls.</param>
-      public RoleServiceClient(grpc::Channel channel) : base(channel)
+      public RoleServiceClient(grpc::ChannelBase channel) : base(channel)
       {
       }
       /// <summary>Creates a new client for RoleService that uses a custom <c>CallInvoker</c>.</summary>

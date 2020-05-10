@@ -158,34 +158,34 @@ namespace Yandex.Cloud.K8S.V1 {
             "YgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Yandex.Cloud.Api.OperationReflection.Descriptor, global::Yandex.Cloud.K8S.V1.ClusterReflection.Descriptor, global::Yandex.Cloud.K8S.V1.NodeGroupReflection.Descriptor, global::Yandex.Cloud.K8S.V1.NodeReflection.Descriptor, global::Yandex.Cloud.K8S.V1.VersionReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.GetClusterRequest), global::Yandex.Cloud.K8S.V1.GetClusterRequest.Parser, new[]{ "ClusterId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.ListClustersRequest), global::Yandex.Cloud.K8S.V1.ListClustersRequest.Parser, new[]{ "FolderId", "PageSize", "PageToken", "Filter" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.ListClustersResponse), global::Yandex.Cloud.K8S.V1.ListClustersResponse.Parser, new[]{ "Clusters", "NextPageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.DeleteClusterRequest), global::Yandex.Cloud.K8S.V1.DeleteClusterRequest.Parser, new[]{ "ClusterId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.DeleteClusterMetadata), global::Yandex.Cloud.K8S.V1.DeleteClusterMetadata.Parser, new[]{ "ClusterId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.StopClusterRequest), global::Yandex.Cloud.K8S.V1.StopClusterRequest.Parser, new[]{ "ClusterId", "ServiceAccountId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.StopClusterMetadata), global::Yandex.Cloud.K8S.V1.StopClusterMetadata.Parser, new[]{ "ClusterId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.StartClusterRequest), global::Yandex.Cloud.K8S.V1.StartClusterRequest.Parser, new[]{ "ClusterId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.StartClusterMetadata), global::Yandex.Cloud.K8S.V1.StartClusterMetadata.Parser, new[]{ "ClusterId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.UpdateClusterRequest), global::Yandex.Cloud.K8S.V1.UpdateClusterRequest.Parser, new[]{ "ClusterId", "UpdateMask", "Name", "Description", "Labels", "GatewayIpv4Address", "MasterSpec", "ServiceAccountId", "NodeServiceAccountId", "NetworkPolicy" }, new[]{ "InternetGateway" }, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.MasterUpdateSpec), global::Yandex.Cloud.K8S.V1.MasterUpdateSpec.Parser, new[]{ "Version", "MaintenancePolicy" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.UpdateClusterMetadata), global::Yandex.Cloud.K8S.V1.UpdateClusterMetadata.Parser, new[]{ "ClusterId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.CreateClusterRequest), global::Yandex.Cloud.K8S.V1.CreateClusterRequest.Parser, new[]{ "FolderId", "Name", "Description", "Labels", "NetworkId", "MasterSpec", "IpAllocationPolicy", "GatewayIpv4Address", "ServiceAccountId", "NodeServiceAccountId", "ReleaseChannel", "NetworkPolicy", "KmsProvider" }, new[]{ "InternetGateway" }, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.CreateClusterMetadata), global::Yandex.Cloud.K8S.V1.CreateClusterMetadata.Parser, new[]{ "ClusterId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.AutoUpgradeMasterMetadata), global::Yandex.Cloud.K8S.V1.AutoUpgradeMasterMetadata.Parser, new[]{ "ClusterId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.ListClusterOperationsRequest), global::Yandex.Cloud.K8S.V1.ListClusterOperationsRequest.Parser, new[]{ "ClusterId", "PageSize", "PageToken", "Filter" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.ListClusterOperationsResponse), global::Yandex.Cloud.K8S.V1.ListClusterOperationsResponse.Parser, new[]{ "Operations", "NextPageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.ListClusterNodeGroupsRequest), global::Yandex.Cloud.K8S.V1.ListClusterNodeGroupsRequest.Parser, new[]{ "ClusterId", "PageSize", "PageToken", "Filter" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.ListClusterNodeGroupsResponse), global::Yandex.Cloud.K8S.V1.ListClusterNodeGroupsResponse.Parser, new[]{ "NodeGroups", "NextPageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.ListClusterNodesRequest), global::Yandex.Cloud.K8S.V1.ListClusterNodesRequest.Parser, new[]{ "ClusterId", "PageSize", "PageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.ListClusterNodesResponse), global::Yandex.Cloud.K8S.V1.ListClusterNodesResponse.Parser, new[]{ "Nodes", "NextPageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.MasterSpec), global::Yandex.Cloud.K8S.V1.MasterSpec.Parser, new[]{ "ZonalMasterSpec", "RegionalMasterSpec", "Version", "MaintenancePolicy" }, new[]{ "MasterType" }, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.ZonalMasterSpec), global::Yandex.Cloud.K8S.V1.ZonalMasterSpec.Parser, new[]{ "ZoneId", "InternalV4AddressSpec", "ExternalV4AddressSpec" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.RegionalMasterSpec), global::Yandex.Cloud.K8S.V1.RegionalMasterSpec.Parser, new[]{ "RegionId", "Locations", "ExternalV4AddressSpec" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.InternalAddressSpec), global::Yandex.Cloud.K8S.V1.InternalAddressSpec.Parser, new[]{ "SubnetId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.ExternalAddressSpec), global::Yandex.Cloud.K8S.V1.ExternalAddressSpec.Parser, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.MasterLocation), global::Yandex.Cloud.K8S.V1.MasterLocation.Parser, new[]{ "ZoneId", "InternalV4AddressSpec" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.GetClusterRequest), global::Yandex.Cloud.K8S.V1.GetClusterRequest.Parser, new[]{ "ClusterId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.ListClustersRequest), global::Yandex.Cloud.K8S.V1.ListClustersRequest.Parser, new[]{ "FolderId", "PageSize", "PageToken", "Filter" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.ListClustersResponse), global::Yandex.Cloud.K8S.V1.ListClustersResponse.Parser, new[]{ "Clusters", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.DeleteClusterRequest), global::Yandex.Cloud.K8S.V1.DeleteClusterRequest.Parser, new[]{ "ClusterId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.DeleteClusterMetadata), global::Yandex.Cloud.K8S.V1.DeleteClusterMetadata.Parser, new[]{ "ClusterId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.StopClusterRequest), global::Yandex.Cloud.K8S.V1.StopClusterRequest.Parser, new[]{ "ClusterId", "ServiceAccountId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.StopClusterMetadata), global::Yandex.Cloud.K8S.V1.StopClusterMetadata.Parser, new[]{ "ClusterId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.StartClusterRequest), global::Yandex.Cloud.K8S.V1.StartClusterRequest.Parser, new[]{ "ClusterId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.StartClusterMetadata), global::Yandex.Cloud.K8S.V1.StartClusterMetadata.Parser, new[]{ "ClusterId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.UpdateClusterRequest), global::Yandex.Cloud.K8S.V1.UpdateClusterRequest.Parser, new[]{ "ClusterId", "UpdateMask", "Name", "Description", "Labels", "GatewayIpv4Address", "MasterSpec", "ServiceAccountId", "NodeServiceAccountId", "NetworkPolicy" }, new[]{ "InternetGateway" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.MasterUpdateSpec), global::Yandex.Cloud.K8S.V1.MasterUpdateSpec.Parser, new[]{ "Version", "MaintenancePolicy" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.UpdateClusterMetadata), global::Yandex.Cloud.K8S.V1.UpdateClusterMetadata.Parser, new[]{ "ClusterId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.CreateClusterRequest), global::Yandex.Cloud.K8S.V1.CreateClusterRequest.Parser, new[]{ "FolderId", "Name", "Description", "Labels", "NetworkId", "MasterSpec", "IpAllocationPolicy", "GatewayIpv4Address", "ServiceAccountId", "NodeServiceAccountId", "ReleaseChannel", "NetworkPolicy", "KmsProvider" }, new[]{ "InternetGateway" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.CreateClusterMetadata), global::Yandex.Cloud.K8S.V1.CreateClusterMetadata.Parser, new[]{ "ClusterId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.AutoUpgradeMasterMetadata), global::Yandex.Cloud.K8S.V1.AutoUpgradeMasterMetadata.Parser, new[]{ "ClusterId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.ListClusterOperationsRequest), global::Yandex.Cloud.K8S.V1.ListClusterOperationsRequest.Parser, new[]{ "ClusterId", "PageSize", "PageToken", "Filter" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.ListClusterOperationsResponse), global::Yandex.Cloud.K8S.V1.ListClusterOperationsResponse.Parser, new[]{ "Operations", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.ListClusterNodeGroupsRequest), global::Yandex.Cloud.K8S.V1.ListClusterNodeGroupsRequest.Parser, new[]{ "ClusterId", "PageSize", "PageToken", "Filter" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.ListClusterNodeGroupsResponse), global::Yandex.Cloud.K8S.V1.ListClusterNodeGroupsResponse.Parser, new[]{ "NodeGroups", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.ListClusterNodesRequest), global::Yandex.Cloud.K8S.V1.ListClusterNodesRequest.Parser, new[]{ "ClusterId", "PageSize", "PageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.ListClusterNodesResponse), global::Yandex.Cloud.K8S.V1.ListClusterNodesResponse.Parser, new[]{ "Nodes", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.MasterSpec), global::Yandex.Cloud.K8S.V1.MasterSpec.Parser, new[]{ "ZonalMasterSpec", "RegionalMasterSpec", "Version", "MaintenancePolicy" }, new[]{ "MasterType" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.ZonalMasterSpec), global::Yandex.Cloud.K8S.V1.ZonalMasterSpec.Parser, new[]{ "ZoneId", "InternalV4AddressSpec", "ExternalV4AddressSpec" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.RegionalMasterSpec), global::Yandex.Cloud.K8S.V1.RegionalMasterSpec.Parser, new[]{ "RegionId", "Locations", "ExternalV4AddressSpec" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.InternalAddressSpec), global::Yandex.Cloud.K8S.V1.InternalAddressSpec.Parser, new[]{ "SubnetId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.ExternalAddressSpec), global::Yandex.Cloud.K8S.V1.ExternalAddressSpec.Parser, null, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.MasterLocation), global::Yandex.Cloud.K8S.V1.MasterLocation.Parser, new[]{ "ZoneId", "InternalV4AddressSpec" }, null, null, null, null)
           }));
     }
     #endregion
@@ -1651,7 +1651,7 @@ namespace Yandex.Cloud.K8S.V1 {
     /// <summary>Field number for the "labels" field.</summary>
     public const int LabelsFieldNumber = 5;
     private static readonly pbc::MapField<string, string>.Codec _map_labels_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 42);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 42);
     private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
     /// <summary>
     /// Resource labels as `key:value` pairs.
@@ -2400,7 +2400,7 @@ namespace Yandex.Cloud.K8S.V1 {
     /// <summary>Field number for the "labels" field.</summary>
     public const int LabelsFieldNumber = 4;
     private static readonly pbc::MapField<string, string>.Codec _map_labels_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 34);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 34);
     private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
     /// <summary>
     /// Resource labels as `key:value` pairs.
@@ -2498,7 +2498,7 @@ namespace Yandex.Cloud.K8S.V1 {
 
     /// <summary>Field number for the "release_channel" field.</summary>
     public const int ReleaseChannelFieldNumber = 11;
-    private global::Yandex.Cloud.K8S.V1.ReleaseChannel releaseChannel_ = 0;
+    private global::Yandex.Cloud.K8S.V1.ReleaseChannel releaseChannel_ = global::Yandex.Cloud.K8S.V1.ReleaseChannel.Unspecified;
     /// <summary>
     /// Release channel for the master.
     /// </summary>
@@ -2596,7 +2596,7 @@ namespace Yandex.Cloud.K8S.V1 {
       if (internetGatewayCase_ == InternetGatewayOneofCase.GatewayIpv4Address) hash ^= GatewayIpv4Address.GetHashCode();
       if (ServiceAccountId.Length != 0) hash ^= ServiceAccountId.GetHashCode();
       if (NodeServiceAccountId.Length != 0) hash ^= NodeServiceAccountId.GetHashCode();
-      if (ReleaseChannel != 0) hash ^= ReleaseChannel.GetHashCode();
+      if (ReleaseChannel != global::Yandex.Cloud.K8S.V1.ReleaseChannel.Unspecified) hash ^= ReleaseChannel.GetHashCode();
       if (networkPolicy_ != null) hash ^= NetworkPolicy.GetHashCode();
       if (kmsProvider_ != null) hash ^= KmsProvider.GetHashCode();
       hash ^= (int) internetGatewayCase_;
@@ -2650,7 +2650,7 @@ namespace Yandex.Cloud.K8S.V1 {
         output.WriteRawTag(82);
         output.WriteString(NodeServiceAccountId);
       }
-      if (ReleaseChannel != 0) {
+      if (ReleaseChannel != global::Yandex.Cloud.K8S.V1.ReleaseChannel.Unspecified) {
         output.WriteRawTag(88);
         output.WriteEnum((int) ReleaseChannel);
       }
@@ -2698,7 +2698,7 @@ namespace Yandex.Cloud.K8S.V1 {
       if (NodeServiceAccountId.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(NodeServiceAccountId);
       }
-      if (ReleaseChannel != 0) {
+      if (ReleaseChannel != global::Yandex.Cloud.K8S.V1.ReleaseChannel.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) ReleaseChannel);
       }
       if (networkPolicy_ != null) {
@@ -2749,7 +2749,7 @@ namespace Yandex.Cloud.K8S.V1 {
       if (other.NodeServiceAccountId.Length != 0) {
         NodeServiceAccountId = other.NodeServiceAccountId;
       }
-      if (other.ReleaseChannel != 0) {
+      if (other.ReleaseChannel != global::Yandex.Cloud.K8S.V1.ReleaseChannel.Unspecified) {
         ReleaseChannel = other.ReleaseChannel;
       }
       if (other.networkPolicy_ != null) {

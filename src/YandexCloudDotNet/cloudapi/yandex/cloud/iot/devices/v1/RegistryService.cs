@@ -161,32 +161,32 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
             "YgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, global::Yandex.Cloud.Api.OperationReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.Iot.Devices.V1.RegistryReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.GetRegistryRequest), global::Yandex.Cloud.Iot.Devices.V1.GetRegistryRequest.Parser, new[]{ "RegistryId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.ListRegistriesRequest), global::Yandex.Cloud.Iot.Devices.V1.ListRegistriesRequest.Parser, new[]{ "FolderId", "PageSize", "PageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.ListRegistriesResponse), global::Yandex.Cloud.Iot.Devices.V1.ListRegistriesResponse.Parser, new[]{ "Registries", "NextPageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.CreateRegistryRequest), global::Yandex.Cloud.Iot.Devices.V1.CreateRegistryRequest.Parser, new[]{ "FolderId", "Name", "Description", "Labels", "Certificates", "Password" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.CreateRegistryRequest.Types.Certificate), global::Yandex.Cloud.Iot.Devices.V1.CreateRegistryRequest.Types.Certificate.Parser, new[]{ "CertificateData" }, null, null, null)}),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.CreateRegistryMetadata), global::Yandex.Cloud.Iot.Devices.V1.CreateRegistryMetadata.Parser, new[]{ "RegistryId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.UpdateRegistryRequest), global::Yandex.Cloud.Iot.Devices.V1.UpdateRegistryRequest.Parser, new[]{ "RegistryId", "UpdateMask", "Name", "Description", "Labels" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.UpdateRegistryMetadata), global::Yandex.Cloud.Iot.Devices.V1.UpdateRegistryMetadata.Parser, new[]{ "RegistryId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.DeleteRegistryRequest), global::Yandex.Cloud.Iot.Devices.V1.DeleteRegistryRequest.Parser, new[]{ "RegistryId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.DeleteRegistryMetadata), global::Yandex.Cloud.Iot.Devices.V1.DeleteRegistryMetadata.Parser, new[]{ "RegistryId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.ListRegistryCertificatesRequest), global::Yandex.Cloud.Iot.Devices.V1.ListRegistryCertificatesRequest.Parser, new[]{ "RegistryId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.ListRegistryCertificatesResponse), global::Yandex.Cloud.Iot.Devices.V1.ListRegistryCertificatesResponse.Parser, new[]{ "Certificates" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.AddRegistryCertificateRequest), global::Yandex.Cloud.Iot.Devices.V1.AddRegistryCertificateRequest.Parser, new[]{ "RegistryId", "CertificateData" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.AddRegistryCertificateMetadata), global::Yandex.Cloud.Iot.Devices.V1.AddRegistryCertificateMetadata.Parser, new[]{ "RegistryId", "Fingerprint" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.DeleteRegistryCertificateRequest), global::Yandex.Cloud.Iot.Devices.V1.DeleteRegistryCertificateRequest.Parser, new[]{ "RegistryId", "Fingerprint" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.DeleteRegistryCertificateMetadata), global::Yandex.Cloud.Iot.Devices.V1.DeleteRegistryCertificateMetadata.Parser, new[]{ "RegistryId", "Fingerprint" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.ListRegistryPasswordsRequest), global::Yandex.Cloud.Iot.Devices.V1.ListRegistryPasswordsRequest.Parser, new[]{ "RegistryId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.ListRegistryPasswordsResponse), global::Yandex.Cloud.Iot.Devices.V1.ListRegistryPasswordsResponse.Parser, new[]{ "Passwords" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.AddRegistryPasswordRequest), global::Yandex.Cloud.Iot.Devices.V1.AddRegistryPasswordRequest.Parser, new[]{ "RegistryId", "Password" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.AddRegistryPasswordMetadata), global::Yandex.Cloud.Iot.Devices.V1.AddRegistryPasswordMetadata.Parser, new[]{ "RegistryId", "PasswordId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.DeleteRegistryPasswordRequest), global::Yandex.Cloud.Iot.Devices.V1.DeleteRegistryPasswordRequest.Parser, new[]{ "RegistryId", "PasswordId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.DeleteRegistryPasswordMetadata), global::Yandex.Cloud.Iot.Devices.V1.DeleteRegistryPasswordMetadata.Parser, new[]{ "RegistryId", "PasswordId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.ListDeviceTopicAliasesRequest), global::Yandex.Cloud.Iot.Devices.V1.ListDeviceTopicAliasesRequest.Parser, new[]{ "RegistryId", "PageSize", "PageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.ListDeviceTopicAliasesResponse), global::Yandex.Cloud.Iot.Devices.V1.ListDeviceTopicAliasesResponse.Parser, new[]{ "Aliases", "NextPageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.ListRegistryOperationsRequest), global::Yandex.Cloud.Iot.Devices.V1.ListRegistryOperationsRequest.Parser, new[]{ "RegistryId", "PageSize", "PageToken", "Filter" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.ListRegistryOperationsResponse), global::Yandex.Cloud.Iot.Devices.V1.ListRegistryOperationsResponse.Parser, new[]{ "Operations", "NextPageToken" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.GetRegistryRequest), global::Yandex.Cloud.Iot.Devices.V1.GetRegistryRequest.Parser, new[]{ "RegistryId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.ListRegistriesRequest), global::Yandex.Cloud.Iot.Devices.V1.ListRegistriesRequest.Parser, new[]{ "FolderId", "PageSize", "PageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.ListRegistriesResponse), global::Yandex.Cloud.Iot.Devices.V1.ListRegistriesResponse.Parser, new[]{ "Registries", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.CreateRegistryRequest), global::Yandex.Cloud.Iot.Devices.V1.CreateRegistryRequest.Parser, new[]{ "FolderId", "Name", "Description", "Labels", "Certificates", "Password" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.CreateRegistryRequest.Types.Certificate), global::Yandex.Cloud.Iot.Devices.V1.CreateRegistryRequest.Types.Certificate.Parser, new[]{ "CertificateData" }, null, null, null, null)}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.CreateRegistryMetadata), global::Yandex.Cloud.Iot.Devices.V1.CreateRegistryMetadata.Parser, new[]{ "RegistryId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.UpdateRegistryRequest), global::Yandex.Cloud.Iot.Devices.V1.UpdateRegistryRequest.Parser, new[]{ "RegistryId", "UpdateMask", "Name", "Description", "Labels" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.UpdateRegistryMetadata), global::Yandex.Cloud.Iot.Devices.V1.UpdateRegistryMetadata.Parser, new[]{ "RegistryId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.DeleteRegistryRequest), global::Yandex.Cloud.Iot.Devices.V1.DeleteRegistryRequest.Parser, new[]{ "RegistryId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.DeleteRegistryMetadata), global::Yandex.Cloud.Iot.Devices.V1.DeleteRegistryMetadata.Parser, new[]{ "RegistryId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.ListRegistryCertificatesRequest), global::Yandex.Cloud.Iot.Devices.V1.ListRegistryCertificatesRequest.Parser, new[]{ "RegistryId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.ListRegistryCertificatesResponse), global::Yandex.Cloud.Iot.Devices.V1.ListRegistryCertificatesResponse.Parser, new[]{ "Certificates" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.AddRegistryCertificateRequest), global::Yandex.Cloud.Iot.Devices.V1.AddRegistryCertificateRequest.Parser, new[]{ "RegistryId", "CertificateData" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.AddRegistryCertificateMetadata), global::Yandex.Cloud.Iot.Devices.V1.AddRegistryCertificateMetadata.Parser, new[]{ "RegistryId", "Fingerprint" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.DeleteRegistryCertificateRequest), global::Yandex.Cloud.Iot.Devices.V1.DeleteRegistryCertificateRequest.Parser, new[]{ "RegistryId", "Fingerprint" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.DeleteRegistryCertificateMetadata), global::Yandex.Cloud.Iot.Devices.V1.DeleteRegistryCertificateMetadata.Parser, new[]{ "RegistryId", "Fingerprint" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.ListRegistryPasswordsRequest), global::Yandex.Cloud.Iot.Devices.V1.ListRegistryPasswordsRequest.Parser, new[]{ "RegistryId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.ListRegistryPasswordsResponse), global::Yandex.Cloud.Iot.Devices.V1.ListRegistryPasswordsResponse.Parser, new[]{ "Passwords" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.AddRegistryPasswordRequest), global::Yandex.Cloud.Iot.Devices.V1.AddRegistryPasswordRequest.Parser, new[]{ "RegistryId", "Password" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.AddRegistryPasswordMetadata), global::Yandex.Cloud.Iot.Devices.V1.AddRegistryPasswordMetadata.Parser, new[]{ "RegistryId", "PasswordId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.DeleteRegistryPasswordRequest), global::Yandex.Cloud.Iot.Devices.V1.DeleteRegistryPasswordRequest.Parser, new[]{ "RegistryId", "PasswordId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.DeleteRegistryPasswordMetadata), global::Yandex.Cloud.Iot.Devices.V1.DeleteRegistryPasswordMetadata.Parser, new[]{ "RegistryId", "PasswordId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.ListDeviceTopicAliasesRequest), global::Yandex.Cloud.Iot.Devices.V1.ListDeviceTopicAliasesRequest.Parser, new[]{ "RegistryId", "PageSize", "PageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.ListDeviceTopicAliasesResponse), global::Yandex.Cloud.Iot.Devices.V1.ListDeviceTopicAliasesResponse.Parser, new[]{ "Aliases", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.ListRegistryOperationsRequest), global::Yandex.Cloud.Iot.Devices.V1.ListRegistryOperationsRequest.Parser, new[]{ "RegistryId", "PageSize", "PageToken", "Filter" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.ListRegistryOperationsResponse), global::Yandex.Cloud.Iot.Devices.V1.ListRegistryOperationsResponse.Parser, new[]{ "Operations", "NextPageToken" }, null, null, null, null)
           }));
     }
     #endregion
@@ -772,7 +772,7 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     /// <summary>Field number for the "labels" field.</summary>
     public const int LabelsFieldNumber = 4;
     private static readonly pbc::MapField<string, string>.Codec _map_labels_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 34);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 34);
     private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
     /// <summary>
     /// Resource labels as `key:value` pairs.
@@ -1334,7 +1334,7 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     /// <summary>Field number for the "labels" field.</summary>
     public const int LabelsFieldNumber = 5;
     private static readonly pbc::MapField<string, string>.Codec _map_labels_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 42);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 42);
     private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
     /// <summary>
     /// Resource labels as `key:value` pairs.

@@ -36,8 +36,8 @@ namespace Yandex.Cloud.Iam.V1.Awscompatibility {
             "b3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.Awscompatibility.AccessKey), global::Yandex.Cloud.Iam.V1.Awscompatibility.AccessKey.Parser, new[]{ "Id", "ServiceAccountId", "CreatedAt", "Description", "KeyId" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.Awscompatibility.AccessKey), global::Yandex.Cloud.Iam.V1.Awscompatibility.AccessKey.Parser, new[]{ "Id", "ServiceAccountId", "CreatedAt", "Description", "KeyId" }, null, null, null, null)
           }));
     }
     #endregion

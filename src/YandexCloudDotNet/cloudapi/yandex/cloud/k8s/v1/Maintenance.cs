@@ -49,12 +49,12 @@ namespace Yandex.Cloud.K8S.V1 {
             "azhzYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Type.DayofweekReflection.Descriptor, global::Google.Type.TimeofdayReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.DurationReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.MaintenanceWindow), global::Yandex.Cloud.K8S.V1.MaintenanceWindow.Parser, new[]{ "Anytime", "DailyMaintenanceWindow", "WeeklyMaintenanceWindow" }, new[]{ "Policy" }, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.AnytimeMaintenanceWindow), global::Yandex.Cloud.K8S.V1.AnytimeMaintenanceWindow.Parser, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.DailyMaintenanceWindow), global::Yandex.Cloud.K8S.V1.DailyMaintenanceWindow.Parser, new[]{ "StartTime", "Duration" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.DaysOfWeekMaintenanceWindow), global::Yandex.Cloud.K8S.V1.DaysOfWeekMaintenanceWindow.Parser, new[]{ "Days", "StartTime", "Duration" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.WeeklyMaintenanceWindow), global::Yandex.Cloud.K8S.V1.WeeklyMaintenanceWindow.Parser, new[]{ "DaysOfWeek" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.MaintenanceWindow), global::Yandex.Cloud.K8S.V1.MaintenanceWindow.Parser, new[]{ "Anytime", "DailyMaintenanceWindow", "WeeklyMaintenanceWindow" }, new[]{ "Policy" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.AnytimeMaintenanceWindow), global::Yandex.Cloud.K8S.V1.AnytimeMaintenanceWindow.Parser, null, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.DailyMaintenanceWindow), global::Yandex.Cloud.K8S.V1.DailyMaintenanceWindow.Parser, new[]{ "StartTime", "Duration" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.DaysOfWeekMaintenanceWindow), global::Yandex.Cloud.K8S.V1.DaysOfWeekMaintenanceWindow.Parser, new[]{ "Days", "StartTime", "Duration" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.WeeklyMaintenanceWindow), global::Yandex.Cloud.K8S.V1.WeeklyMaintenanceWindow.Parser, new[]{ "DaysOfWeek" }, null, null, null, null)
           }));
     }
     #endregion

@@ -33,9 +33,9 @@ namespace Yandex.Cloud.Ai.Translate.V2 {
             "aS90cmFuc2xhdGUvdjI7dHJhbnNsYXRlYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Translate.V2.TranslatedText), global::Yandex.Cloud.Ai.Translate.V2.TranslatedText.Parser, new[]{ "Text", "DetectedLanguageCode" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Translate.V2.Language), global::Yandex.Cloud.Ai.Translate.V2.Language.Parser, new[]{ "Code", "Name" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Translate.V2.TranslatedText), global::Yandex.Cloud.Ai.Translate.V2.TranslatedText.Parser, new[]{ "Text", "DetectedLanguageCode" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Translate.V2.Language), global::Yandex.Cloud.Ai.Translate.V2.Language.Parser, new[]{ "Code", "Name" }, null, null, null, null)
           }));
     }
     #endregion

@@ -82,16 +82,16 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
             "YgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Yandex.Cloud.Api.OperationReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, global::Yandex.Cloud.Mdb.Clickhouse.V1.MlModelReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.GetMlModelRequest), global::Yandex.Cloud.Mdb.Clickhouse.V1.GetMlModelRequest.Parser, new[]{ "ClusterId", "MlModelName" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.ListMlModelsRequest), global::Yandex.Cloud.Mdb.Clickhouse.V1.ListMlModelsRequest.Parser, new[]{ "ClusterId", "PageSize", "PageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.ListMlModelsResponse), global::Yandex.Cloud.Mdb.Clickhouse.V1.ListMlModelsResponse.Parser, new[]{ "MlModels", "NextPageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.CreateMlModelRequest), global::Yandex.Cloud.Mdb.Clickhouse.V1.CreateMlModelRequest.Parser, new[]{ "ClusterId", "MlModelName", "Type", "Uri" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.CreateMlModelMetadata), global::Yandex.Cloud.Mdb.Clickhouse.V1.CreateMlModelMetadata.Parser, new[]{ "ClusterId", "MlModelName" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.UpdateMlModelRequest), global::Yandex.Cloud.Mdb.Clickhouse.V1.UpdateMlModelRequest.Parser, new[]{ "ClusterId", "MlModelName", "UpdateMask", "Uri" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.UpdateMlModelMetadata), global::Yandex.Cloud.Mdb.Clickhouse.V1.UpdateMlModelMetadata.Parser, new[]{ "ClusterId", "MlModelName" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.DeleteMlModelRequest), global::Yandex.Cloud.Mdb.Clickhouse.V1.DeleteMlModelRequest.Parser, new[]{ "ClusterId", "MlModelName" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.DeleteMlModelMetadata), global::Yandex.Cloud.Mdb.Clickhouse.V1.DeleteMlModelMetadata.Parser, new[]{ "ClusterId", "MlModelName" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.GetMlModelRequest), global::Yandex.Cloud.Mdb.Clickhouse.V1.GetMlModelRequest.Parser, new[]{ "ClusterId", "MlModelName" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.ListMlModelsRequest), global::Yandex.Cloud.Mdb.Clickhouse.V1.ListMlModelsRequest.Parser, new[]{ "ClusterId", "PageSize", "PageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.ListMlModelsResponse), global::Yandex.Cloud.Mdb.Clickhouse.V1.ListMlModelsResponse.Parser, new[]{ "MlModels", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.CreateMlModelRequest), global::Yandex.Cloud.Mdb.Clickhouse.V1.CreateMlModelRequest.Parser, new[]{ "ClusterId", "MlModelName", "Type", "Uri" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.CreateMlModelMetadata), global::Yandex.Cloud.Mdb.Clickhouse.V1.CreateMlModelMetadata.Parser, new[]{ "ClusterId", "MlModelName" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.UpdateMlModelRequest), global::Yandex.Cloud.Mdb.Clickhouse.V1.UpdateMlModelRequest.Parser, new[]{ "ClusterId", "MlModelName", "UpdateMask", "Uri" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.UpdateMlModelMetadata), global::Yandex.Cloud.Mdb.Clickhouse.V1.UpdateMlModelMetadata.Parser, new[]{ "ClusterId", "MlModelName" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.DeleteMlModelRequest), global::Yandex.Cloud.Mdb.Clickhouse.V1.DeleteMlModelRequest.Parser, new[]{ "ClusterId", "MlModelName" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.DeleteMlModelMetadata), global::Yandex.Cloud.Mdb.Clickhouse.V1.DeleteMlModelMetadata.Parser, new[]{ "ClusterId", "MlModelName" }, null, null, null, null)
           }));
     }
     #endregion
@@ -689,7 +689,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
 
     /// <summary>Field number for the "type" field.</summary>
     public const int TypeFieldNumber = 3;
-    private global::Yandex.Cloud.Mdb.Clickhouse.V1.MlModelType type_ = 0;
+    private global::Yandex.Cloud.Mdb.Clickhouse.V1.MlModelType type_ = global::Yandex.Cloud.Mdb.Clickhouse.V1.MlModelType.Unspecified;
     /// <summary>
     /// Type of the model.
     /// </summary>
@@ -740,7 +740,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       int hash = 1;
       if (ClusterId.Length != 0) hash ^= ClusterId.GetHashCode();
       if (MlModelName.Length != 0) hash ^= MlModelName.GetHashCode();
-      if (Type != 0) hash ^= Type.GetHashCode();
+      if (Type != global::Yandex.Cloud.Mdb.Clickhouse.V1.MlModelType.Unspecified) hash ^= Type.GetHashCode();
       if (Uri.Length != 0) hash ^= Uri.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -763,7 +763,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
         output.WriteRawTag(18);
         output.WriteString(MlModelName);
       }
-      if (Type != 0) {
+      if (Type != global::Yandex.Cloud.Mdb.Clickhouse.V1.MlModelType.Unspecified) {
         output.WriteRawTag(24);
         output.WriteEnum((int) Type);
       }
@@ -785,7 +785,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       if (MlModelName.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(MlModelName);
       }
-      if (Type != 0) {
+      if (Type != global::Yandex.Cloud.Mdb.Clickhouse.V1.MlModelType.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Type);
       }
       if (Uri.Length != 0) {
@@ -808,7 +808,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       if (other.MlModelName.Length != 0) {
         MlModelName = other.MlModelName;
       }
-      if (other.Type != 0) {
+      if (other.Type != global::Yandex.Cloud.Mdb.Clickhouse.V1.MlModelType.Unspecified) {
         Type = other.Type;
       }
       if (other.Uri.Length != 0) {

@@ -44,9 +44,9 @@ namespace Yandex.Cloud.Compute.V1 {
             "eWFuZGV4L2Nsb3VkL2NvbXB1dGUvdjE7Y29tcHV0ZWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Image), global::Yandex.Cloud.Compute.V1.Image.Parser, new[]{ "Id", "FolderId", "CreatedAt", "Name", "Description", "Labels", "Family", "StorageSize", "MinDiskSize", "ProductIds", "Status", "Os" }, null, new[]{ typeof(global::Yandex.Cloud.Compute.V1.Image.Types.Status) }, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Os), global::Yandex.Cloud.Compute.V1.Os.Parser, new[]{ "Type" }, null, new[]{ typeof(global::Yandex.Cloud.Compute.V1.Os.Types.Type) }, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Image), global::Yandex.Cloud.Compute.V1.Image.Parser, new[]{ "Id", "FolderId", "CreatedAt", "Name", "Description", "Labels", "Family", "StorageSize", "MinDiskSize", "ProductIds", "Status", "Os" }, null, new[]{ typeof(global::Yandex.Cloud.Compute.V1.Image.Types.Status) }, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Os), global::Yandex.Cloud.Compute.V1.Os.Parser, new[]{ "Type" }, null, new[]{ typeof(global::Yandex.Cloud.Compute.V1.Os.Types.Type) }, null, null)
           }));
     }
     #endregion
@@ -171,7 +171,7 @@ namespace Yandex.Cloud.Compute.V1 {
     /// <summary>Field number for the "labels" field.</summary>
     public const int LabelsFieldNumber = 6;
     private static readonly pbc::MapField<string, string>.Codec _map_labels_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 50);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 50);
     private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
     /// <summary>
     /// Resource labels as `key:value` pairs. Maximum of 64 per resource.
@@ -249,7 +249,7 @@ namespace Yandex.Cloud.Compute.V1 {
 
     /// <summary>Field number for the "status" field.</summary>
     public const int StatusFieldNumber = 11;
-    private global::Yandex.Cloud.Compute.V1.Image.Types.Status status_ = 0;
+    private global::Yandex.Cloud.Compute.V1.Image.Types.Status status_ = global::Yandex.Cloud.Compute.V1.Image.Types.Status.Unspecified;
     /// <summary>
     /// Current status of the image.
     /// </summary>
@@ -316,7 +316,7 @@ namespace Yandex.Cloud.Compute.V1 {
       if (StorageSize != 0L) hash ^= StorageSize.GetHashCode();
       if (MinDiskSize != 0L) hash ^= MinDiskSize.GetHashCode();
       hash ^= productIds_.GetHashCode();
-      if (Status != 0) hash ^= Status.GetHashCode();
+      if (Status != global::Yandex.Cloud.Compute.V1.Image.Types.Status.Unspecified) hash ^= Status.GetHashCode();
       if (os_ != null) hash ^= Os.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -365,7 +365,7 @@ namespace Yandex.Cloud.Compute.V1 {
         output.WriteInt64(MinDiskSize);
       }
       productIds_.WriteTo(output, _repeated_productIds_codec);
-      if (Status != 0) {
+      if (Status != global::Yandex.Cloud.Compute.V1.Image.Types.Status.Unspecified) {
         output.WriteRawTag(88);
         output.WriteEnum((int) Status);
       }
@@ -407,7 +407,7 @@ namespace Yandex.Cloud.Compute.V1 {
         size += 1 + pb::CodedOutputStream.ComputeInt64Size(MinDiskSize);
       }
       size += productIds_.CalculateSize(_repeated_productIds_codec);
-      if (Status != 0) {
+      if (Status != global::Yandex.Cloud.Compute.V1.Image.Types.Status.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Status);
       }
       if (os_ != null) {
@@ -453,7 +453,7 @@ namespace Yandex.Cloud.Compute.V1 {
         MinDiskSize = other.MinDiskSize;
       }
       productIds_.Add(other.productIds_);
-      if (other.Status != 0) {
+      if (other.Status != global::Yandex.Cloud.Compute.V1.Image.Types.Status.Unspecified) {
         Status = other.Status;
       }
       if (other.os_ != null) {
@@ -596,7 +596,7 @@ namespace Yandex.Cloud.Compute.V1 {
 
     /// <summary>Field number for the "type" field.</summary>
     public const int TypeFieldNumber = 1;
-    private global::Yandex.Cloud.Compute.V1.Os.Types.Type type_ = 0;
+    private global::Yandex.Cloud.Compute.V1.Os.Types.Type type_ = global::Yandex.Cloud.Compute.V1.Os.Types.Type.Unspecified;
     /// <summary>
     /// Operating system type. The default is `LINUX`.
     ///
@@ -630,7 +630,7 @@ namespace Yandex.Cloud.Compute.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override int GetHashCode() {
       int hash = 1;
-      if (Type != 0) hash ^= Type.GetHashCode();
+      if (Type != global::Yandex.Cloud.Compute.V1.Os.Types.Type.Unspecified) hash ^= Type.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -644,7 +644,7 @@ namespace Yandex.Cloud.Compute.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public void WriteTo(pb::CodedOutputStream output) {
-      if (Type != 0) {
+      if (Type != global::Yandex.Cloud.Compute.V1.Os.Types.Type.Unspecified) {
         output.WriteRawTag(8);
         output.WriteEnum((int) Type);
       }
@@ -656,7 +656,7 @@ namespace Yandex.Cloud.Compute.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CalculateSize() {
       int size = 0;
-      if (Type != 0) {
+      if (Type != global::Yandex.Cloud.Compute.V1.Os.Types.Type.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Type);
       }
       if (_unknownFields != null) {
@@ -670,7 +670,7 @@ namespace Yandex.Cloud.Compute.V1 {
       if (other == null) {
         return;
       }
-      if (other.Type != 0) {
+      if (other.Type != global::Yandex.Cloud.Compute.V1.Os.Types.Type.Unspecified) {
         Type = other.Type;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);

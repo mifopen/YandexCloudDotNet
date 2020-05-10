@@ -48,11 +48,11 @@ namespace Yandex.Cloud.Dataproc.Manager.V1 {
             "Z2VyL3YxO2RhdGFwcm9jX21hbmFnZXJiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Yandex.Cloud.ValidationReflection.Descriptor, global::Yandex.Cloud.Dataproc.Manager.V1.JobReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.Manager.V1.ListJobsRequest), global::Yandex.Cloud.Dataproc.Manager.V1.ListJobsRequest.Parser, new[]{ "ClusterId", "PageSize", "PageToken", "Filter" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.Manager.V1.ListJobsResponse), global::Yandex.Cloud.Dataproc.Manager.V1.ListJobsResponse.Parser, new[]{ "Jobs", "NextPageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.Manager.V1.UpdateJobStatusRequest), global::Yandex.Cloud.Dataproc.Manager.V1.UpdateJobStatusRequest.Parser, new[]{ "ClusterId", "JobId", "Status" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.Manager.V1.UpdateJobStatusResponse), global::Yandex.Cloud.Dataproc.Manager.V1.UpdateJobStatusResponse.Parser, null, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.Manager.V1.ListJobsRequest), global::Yandex.Cloud.Dataproc.Manager.V1.ListJobsRequest.Parser, new[]{ "ClusterId", "PageSize", "PageToken", "Filter" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.Manager.V1.ListJobsResponse), global::Yandex.Cloud.Dataproc.Manager.V1.ListJobsResponse.Parser, new[]{ "Jobs", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.Manager.V1.UpdateJobStatusRequest), global::Yandex.Cloud.Dataproc.Manager.V1.UpdateJobStatusRequest.Parser, new[]{ "ClusterId", "JobId", "Status" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.Manager.V1.UpdateJobStatusResponse), global::Yandex.Cloud.Dataproc.Manager.V1.UpdateJobStatusResponse.Parser, null, null, null, null, null)
           }));
     }
     #endregion
@@ -513,7 +513,7 @@ namespace Yandex.Cloud.Dataproc.Manager.V1 {
 
     /// <summary>Field number for the "status" field.</summary>
     public const int StatusFieldNumber = 3;
-    private global::Yandex.Cloud.Dataproc.Manager.V1.Job.Types.Status status_ = 0;
+    private global::Yandex.Cloud.Dataproc.Manager.V1.Job.Types.Status status_ = global::Yandex.Cloud.Dataproc.Manager.V1.Job.Types.Status.Unspecified;
     /// <summary>
     /// Required. New status of the job.
     /// </summary>
@@ -549,7 +549,7 @@ namespace Yandex.Cloud.Dataproc.Manager.V1 {
       int hash = 1;
       if (ClusterId.Length != 0) hash ^= ClusterId.GetHashCode();
       if (JobId.Length != 0) hash ^= JobId.GetHashCode();
-      if (Status != 0) hash ^= Status.GetHashCode();
+      if (Status != global::Yandex.Cloud.Dataproc.Manager.V1.Job.Types.Status.Unspecified) hash ^= Status.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -571,7 +571,7 @@ namespace Yandex.Cloud.Dataproc.Manager.V1 {
         output.WriteRawTag(18);
         output.WriteString(JobId);
       }
-      if (Status != 0) {
+      if (Status != global::Yandex.Cloud.Dataproc.Manager.V1.Job.Types.Status.Unspecified) {
         output.WriteRawTag(24);
         output.WriteEnum((int) Status);
       }
@@ -589,7 +589,7 @@ namespace Yandex.Cloud.Dataproc.Manager.V1 {
       if (JobId.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(JobId);
       }
-      if (Status != 0) {
+      if (Status != global::Yandex.Cloud.Dataproc.Manager.V1.Job.Types.Status.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Status);
       }
       if (_unknownFields != null) {
@@ -609,7 +609,7 @@ namespace Yandex.Cloud.Dataproc.Manager.V1 {
       if (other.JobId.Length != 0) {
         JobId = other.JobId;
       }
-      if (other.Status != 0) {
+      if (other.Status != global::Yandex.Cloud.Dataproc.Manager.V1.Job.Types.Status.Unspecified) {
         Status = other.Status;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);

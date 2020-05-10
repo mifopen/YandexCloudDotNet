@@ -67,9 +67,9 @@ namespace Yandex.Cloud.Mdb.Mysql.V1.Config {
             "L3YxL2NvbmZpZztteXNxbGIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.WrappersReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.Config.MysqlConfig5_7), global::Yandex.Cloud.Mdb.Mysql.V1.Config.MysqlConfig5_7.Parser, new[]{ "InnodbBufferPoolSize", "MaxConnections", "LongQueryTime", "GeneralLog", "AuditLog", "SqlMode", "MaxAllowedPacket", "DefaultAuthenticationPlugin" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Mysql.V1.Config.MysqlConfig5_7.Types.SQLMode), typeof(global::Yandex.Cloud.Mdb.Mysql.V1.Config.MysqlConfig5_7.Types.AuthPlugin) }, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.Config.MysqlConfigSet5_7), global::Yandex.Cloud.Mdb.Mysql.V1.Config.MysqlConfigSet5_7.Parser, new[]{ "EffectiveConfig", "UserConfig", "DefaultConfig" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.Config.MysqlConfig5_7), global::Yandex.Cloud.Mdb.Mysql.V1.Config.MysqlConfig5_7.Parser, new[]{ "InnodbBufferPoolSize", "MaxConnections", "LongQueryTime", "GeneralLog", "AuditLog", "SqlMode", "MaxAllowedPacket", "DefaultAuthenticationPlugin" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Mysql.V1.Config.MysqlConfig5_7.Types.SQLMode), typeof(global::Yandex.Cloud.Mdb.Mysql.V1.Config.MysqlConfig5_7.Types.AuthPlugin) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.Config.MysqlConfigSet5_7), global::Yandex.Cloud.Mdb.Mysql.V1.Config.MysqlConfigSet5_7.Parser, new[]{ "EffectiveConfig", "UserConfig", "DefaultConfig" }, null, null, null, null)
           }));
     }
     #endregion
@@ -245,7 +245,7 @@ namespace Yandex.Cloud.Mdb.Mysql.V1.Config {
 
     /// <summary>Field number for the "default_authentication_plugin" field.</summary>
     public const int DefaultAuthenticationPluginFieldNumber = 8;
-    private global::Yandex.Cloud.Mdb.Mysql.V1.Config.MysqlConfig5_7.Types.AuthPlugin defaultAuthenticationPlugin_ = 0;
+    private global::Yandex.Cloud.Mdb.Mysql.V1.Config.MysqlConfig5_7.Types.AuthPlugin defaultAuthenticationPlugin_ = global::Yandex.Cloud.Mdb.Mysql.V1.Config.MysqlConfig5_7.Types.AuthPlugin.Unspecified;
     /// <summary>
     /// Authentication plugin used in the managed MySQL cluster.
     /// </summary>
@@ -291,7 +291,7 @@ namespace Yandex.Cloud.Mdb.Mysql.V1.Config {
       if (auditLog_ != null) hash ^= AuditLog.GetHashCode();
       hash ^= sqlMode_.GetHashCode();
       if (maxAllowedPacket_ != null) hash ^= MaxAllowedPacket.GetHashCode();
-      if (DefaultAuthenticationPlugin != 0) hash ^= DefaultAuthenticationPlugin.GetHashCode();
+      if (DefaultAuthenticationPlugin != global::Yandex.Cloud.Mdb.Mysql.V1.Config.MysqlConfig5_7.Types.AuthPlugin.Unspecified) hash ^= DefaultAuthenticationPlugin.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -324,7 +324,7 @@ namespace Yandex.Cloud.Mdb.Mysql.V1.Config {
       if (maxAllowedPacket_ != null) {
         _single_maxAllowedPacket_codec.WriteTagAndValue(output, MaxAllowedPacket);
       }
-      if (DefaultAuthenticationPlugin != 0) {
+      if (DefaultAuthenticationPlugin != global::Yandex.Cloud.Mdb.Mysql.V1.Config.MysqlConfig5_7.Types.AuthPlugin.Unspecified) {
         output.WriteRawTag(64);
         output.WriteEnum((int) DefaultAuthenticationPlugin);
       }
@@ -355,7 +355,7 @@ namespace Yandex.Cloud.Mdb.Mysql.V1.Config {
       if (maxAllowedPacket_ != null) {
         size += _single_maxAllowedPacket_codec.CalculateSizeWithTag(MaxAllowedPacket);
       }
-      if (DefaultAuthenticationPlugin != 0) {
+      if (DefaultAuthenticationPlugin != global::Yandex.Cloud.Mdb.Mysql.V1.Config.MysqlConfig5_7.Types.AuthPlugin.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) DefaultAuthenticationPlugin);
       }
       if (_unknownFields != null) {
@@ -400,7 +400,7 @@ namespace Yandex.Cloud.Mdb.Mysql.V1.Config {
           MaxAllowedPacket = other.MaxAllowedPacket;
         }
       }
-      if (other.DefaultAuthenticationPlugin != 0) {
+      if (other.DefaultAuthenticationPlugin != global::Yandex.Cloud.Mdb.Mysql.V1.Config.MysqlConfig5_7.Types.AuthPlugin.Unspecified) {
         DefaultAuthenticationPlugin = other.DefaultAuthenticationPlugin;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);

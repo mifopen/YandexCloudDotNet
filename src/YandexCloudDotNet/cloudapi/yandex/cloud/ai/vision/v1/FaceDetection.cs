@@ -35,9 +35,9 @@ namespace Yandex.Cloud.Ai.Vision.V1 {
             "bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Yandex.Cloud.Ai.Vision.V1.PrimitivesReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Vision.V1.FaceAnnotation), global::Yandex.Cloud.Ai.Vision.V1.FaceAnnotation.Parser, new[]{ "Faces" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Vision.V1.Face), global::Yandex.Cloud.Ai.Vision.V1.Face.Parser, new[]{ "BoundingBox" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Vision.V1.FaceAnnotation), global::Yandex.Cloud.Ai.Vision.V1.FaceAnnotation.Parser, new[]{ "Faces" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Vision.V1.Face), global::Yandex.Cloud.Ai.Vision.V1.Face.Parser, new[]{ "BoundingBox" }, null, null, null, null)
           }));
     }
     #endregion

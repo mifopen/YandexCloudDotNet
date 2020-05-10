@@ -40,9 +40,9 @@ namespace Yandex.Cloud.Iam.V1 {
             "BnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.CreateIamTokenRequest), global::Yandex.Cloud.Iam.V1.CreateIamTokenRequest.Parser, new[]{ "YandexPassportOauthToken", "Jwt" }, new[]{ "Identity" }, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.CreateIamTokenResponse), global::Yandex.Cloud.Iam.V1.CreateIamTokenResponse.Parser, new[]{ "IamToken", "ExpiresAt" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.CreateIamTokenRequest), global::Yandex.Cloud.Iam.V1.CreateIamTokenRequest.Parser, new[]{ "YandexPassportOauthToken", "Jwt" }, new[]{ "Identity" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.CreateIamTokenResponse), global::Yandex.Cloud.Iam.V1.CreateIamTokenResponse.Parser, new[]{ "IamToken", "ExpiresAt" }, null, null, null, null)
           }));
     }
     #endregion

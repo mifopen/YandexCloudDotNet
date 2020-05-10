@@ -88,7 +88,7 @@ namespace Yandex.Cloud.Resourcemanager.V1 {
     {
       /// <summary>Creates a new client for CloudService</summary>
       /// <param name="channel">The channel to use to make remote calls.</param>
-      public CloudServiceClient(grpc::Channel channel) : base(channel)
+      public CloudServiceClient(grpc::ChannelBase channel) : base(channel)
       {
       }
       /// <summary>Creates a new client for CloudService that uses a custom <c>CallInvoker</c>.</summary>

@@ -92,18 +92,18 @@ namespace Yandex.Cloud.Compute.V1 {
             "dXRlYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Yandex.Cloud.Api.OperationReflection.Descriptor, global::Yandex.Cloud.Compute.V1.SnapshotReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.GetSnapshotRequest), global::Yandex.Cloud.Compute.V1.GetSnapshotRequest.Parser, new[]{ "SnapshotId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.ListSnapshotsRequest), global::Yandex.Cloud.Compute.V1.ListSnapshotsRequest.Parser, new[]{ "FolderId", "PageSize", "PageToken", "Filter" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.ListSnapshotsResponse), global::Yandex.Cloud.Compute.V1.ListSnapshotsResponse.Parser, new[]{ "Snapshots", "NextPageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.CreateSnapshotRequest), global::Yandex.Cloud.Compute.V1.CreateSnapshotRequest.Parser, new[]{ "FolderId", "DiskId", "Name", "Description", "Labels" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.CreateSnapshotMetadata), global::Yandex.Cloud.Compute.V1.CreateSnapshotMetadata.Parser, new[]{ "SnapshotId", "DiskId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.UpdateSnapshotRequest), global::Yandex.Cloud.Compute.V1.UpdateSnapshotRequest.Parser, new[]{ "SnapshotId", "UpdateMask", "Name", "Description", "Labels" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.UpdateSnapshotMetadata), global::Yandex.Cloud.Compute.V1.UpdateSnapshotMetadata.Parser, new[]{ "SnapshotId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.DeleteSnapshotRequest), global::Yandex.Cloud.Compute.V1.DeleteSnapshotRequest.Parser, new[]{ "SnapshotId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.DeleteSnapshotMetadata), global::Yandex.Cloud.Compute.V1.DeleteSnapshotMetadata.Parser, new[]{ "SnapshotId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.ListSnapshotOperationsRequest), global::Yandex.Cloud.Compute.V1.ListSnapshotOperationsRequest.Parser, new[]{ "SnapshotId", "PageSize", "PageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.ListSnapshotOperationsResponse), global::Yandex.Cloud.Compute.V1.ListSnapshotOperationsResponse.Parser, new[]{ "Operations", "NextPageToken" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.GetSnapshotRequest), global::Yandex.Cloud.Compute.V1.GetSnapshotRequest.Parser, new[]{ "SnapshotId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.ListSnapshotsRequest), global::Yandex.Cloud.Compute.V1.ListSnapshotsRequest.Parser, new[]{ "FolderId", "PageSize", "PageToken", "Filter" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.ListSnapshotsResponse), global::Yandex.Cloud.Compute.V1.ListSnapshotsResponse.Parser, new[]{ "Snapshots", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.CreateSnapshotRequest), global::Yandex.Cloud.Compute.V1.CreateSnapshotRequest.Parser, new[]{ "FolderId", "DiskId", "Name", "Description", "Labels" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.CreateSnapshotMetadata), global::Yandex.Cloud.Compute.V1.CreateSnapshotMetadata.Parser, new[]{ "SnapshotId", "DiskId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.UpdateSnapshotRequest), global::Yandex.Cloud.Compute.V1.UpdateSnapshotRequest.Parser, new[]{ "SnapshotId", "UpdateMask", "Name", "Description", "Labels" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.UpdateSnapshotMetadata), global::Yandex.Cloud.Compute.V1.UpdateSnapshotMetadata.Parser, new[]{ "SnapshotId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.DeleteSnapshotRequest), global::Yandex.Cloud.Compute.V1.DeleteSnapshotRequest.Parser, new[]{ "SnapshotId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.DeleteSnapshotMetadata), global::Yandex.Cloud.Compute.V1.DeleteSnapshotMetadata.Parser, new[]{ "SnapshotId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.ListSnapshotOperationsRequest), global::Yandex.Cloud.Compute.V1.ListSnapshotOperationsRequest.Parser, new[]{ "SnapshotId", "PageSize", "PageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.ListSnapshotOperationsResponse), global::Yandex.Cloud.Compute.V1.ListSnapshotOperationsResponse.Parser, new[]{ "Operations", "NextPageToken" }, null, null, null, null)
           }));
     }
     #endregion
@@ -736,7 +736,7 @@ namespace Yandex.Cloud.Compute.V1 {
     /// <summary>Field number for the "labels" field.</summary>
     public const int LabelsFieldNumber = 6;
     private static readonly pbc::MapField<string, string>.Codec _map_labels_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 50);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 50);
     private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
     /// <summary>
     /// Resource labels as `key:value` pairs.
@@ -1148,7 +1148,7 @@ namespace Yandex.Cloud.Compute.V1 {
     /// <summary>Field number for the "labels" field.</summary>
     public const int LabelsFieldNumber = 5;
     private static readonly pbc::MapField<string, string>.Codec _map_labels_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 42);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 42);
     private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
     /// <summary>
     /// Resource labels as `key:value` pairs.

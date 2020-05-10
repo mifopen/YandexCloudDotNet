@@ -56,9 +56,9 @@ namespace Yandex.Cloud.Kms.V1 {
             "cHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.DurationReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Yandex.Cloud.Kms.V1.SymmetricAlgorithm), }, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Kms.V1.SymmetricKey), global::Yandex.Cloud.Kms.V1.SymmetricKey.Parser, new[]{ "Id", "FolderId", "CreatedAt", "Name", "Description", "Labels", "Status", "PrimaryVersion", "DefaultAlgorithm", "RotatedAt", "RotationPeriod" }, null, new[]{ typeof(global::Yandex.Cloud.Kms.V1.SymmetricKey.Types.Status) }, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Kms.V1.SymmetricKeyVersion), global::Yandex.Cloud.Kms.V1.SymmetricKeyVersion.Parser, new[]{ "Id", "KeyId", "Status", "Algorithm", "CreatedAt", "Primary", "DestroyAt" }, null, new[]{ typeof(global::Yandex.Cloud.Kms.V1.SymmetricKeyVersion.Types.Status) }, null)
+          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Yandex.Cloud.Kms.V1.SymmetricAlgorithm), }, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Kms.V1.SymmetricKey), global::Yandex.Cloud.Kms.V1.SymmetricKey.Parser, new[]{ "Id", "FolderId", "CreatedAt", "Name", "Description", "Labels", "Status", "PrimaryVersion", "DefaultAlgorithm", "RotatedAt", "RotationPeriod" }, null, new[]{ typeof(global::Yandex.Cloud.Kms.V1.SymmetricKey.Types.Status) }, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Kms.V1.SymmetricKeyVersion), global::Yandex.Cloud.Kms.V1.SymmetricKeyVersion.Parser, new[]{ "Id", "KeyId", "Status", "Algorithm", "CreatedAt", "Primary", "DestroyAt" }, null, new[]{ typeof(global::Yandex.Cloud.Kms.V1.SymmetricKeyVersion.Types.Status) }, null, null)
           }));
     }
     #endregion
@@ -207,7 +207,7 @@ namespace Yandex.Cloud.Kms.V1 {
     /// <summary>Field number for the "labels" field.</summary>
     public const int LabelsFieldNumber = 6;
     private static readonly pbc::MapField<string, string>.Codec _map_labels_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 50);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 50);
     private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
     /// <summary>
     /// Custom labels for the key as `key:value` pairs. Maximum 64 per key.
@@ -219,7 +219,7 @@ namespace Yandex.Cloud.Kms.V1 {
 
     /// <summary>Field number for the "status" field.</summary>
     public const int StatusFieldNumber = 7;
-    private global::Yandex.Cloud.Kms.V1.SymmetricKey.Types.Status status_ = 0;
+    private global::Yandex.Cloud.Kms.V1.SymmetricKey.Types.Status status_ = global::Yandex.Cloud.Kms.V1.SymmetricKey.Types.Status.Unspecified;
     /// <summary>
     /// Current status of the key.
     /// </summary>
@@ -248,7 +248,7 @@ namespace Yandex.Cloud.Kms.V1 {
 
     /// <summary>Field number for the "default_algorithm" field.</summary>
     public const int DefaultAlgorithmFieldNumber = 9;
-    private global::Yandex.Cloud.Kms.V1.SymmetricAlgorithm defaultAlgorithm_ = 0;
+    private global::Yandex.Cloud.Kms.V1.SymmetricAlgorithm defaultAlgorithm_ = global::Yandex.Cloud.Kms.V1.SymmetricAlgorithm.Unspecified;
     /// <summary>
     /// Default encryption algorithm to be used with new versions of the key.
     /// </summary>
@@ -325,9 +325,9 @@ namespace Yandex.Cloud.Kms.V1 {
       if (Name.Length != 0) hash ^= Name.GetHashCode();
       if (Description.Length != 0) hash ^= Description.GetHashCode();
       hash ^= Labels.GetHashCode();
-      if (Status != 0) hash ^= Status.GetHashCode();
+      if (Status != global::Yandex.Cloud.Kms.V1.SymmetricKey.Types.Status.Unspecified) hash ^= Status.GetHashCode();
       if (primaryVersion_ != null) hash ^= PrimaryVersion.GetHashCode();
-      if (DefaultAlgorithm != 0) hash ^= DefaultAlgorithm.GetHashCode();
+      if (DefaultAlgorithm != global::Yandex.Cloud.Kms.V1.SymmetricAlgorithm.Unspecified) hash ^= DefaultAlgorithm.GetHashCode();
       if (rotatedAt_ != null) hash ^= RotatedAt.GetHashCode();
       if (rotationPeriod_ != null) hash ^= RotationPeriod.GetHashCode();
       if (_unknownFields != null) {
@@ -364,7 +364,7 @@ namespace Yandex.Cloud.Kms.V1 {
         output.WriteString(Description);
       }
       labels_.WriteTo(output, _map_labels_codec);
-      if (Status != 0) {
+      if (Status != global::Yandex.Cloud.Kms.V1.SymmetricKey.Types.Status.Unspecified) {
         output.WriteRawTag(56);
         output.WriteEnum((int) Status);
       }
@@ -372,7 +372,7 @@ namespace Yandex.Cloud.Kms.V1 {
         output.WriteRawTag(66);
         output.WriteMessage(PrimaryVersion);
       }
-      if (DefaultAlgorithm != 0) {
+      if (DefaultAlgorithm != global::Yandex.Cloud.Kms.V1.SymmetricAlgorithm.Unspecified) {
         output.WriteRawTag(72);
         output.WriteEnum((int) DefaultAlgorithm);
       }
@@ -408,13 +408,13 @@ namespace Yandex.Cloud.Kms.V1 {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Description);
       }
       size += labels_.CalculateSize(_map_labels_codec);
-      if (Status != 0) {
+      if (Status != global::Yandex.Cloud.Kms.V1.SymmetricKey.Types.Status.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Status);
       }
       if (primaryVersion_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(PrimaryVersion);
       }
-      if (DefaultAlgorithm != 0) {
+      if (DefaultAlgorithm != global::Yandex.Cloud.Kms.V1.SymmetricAlgorithm.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) DefaultAlgorithm);
       }
       if (rotatedAt_ != null) {
@@ -453,7 +453,7 @@ namespace Yandex.Cloud.Kms.V1 {
         Description = other.Description;
       }
       labels_.Add(other.labels_);
-      if (other.Status != 0) {
+      if (other.Status != global::Yandex.Cloud.Kms.V1.SymmetricKey.Types.Status.Unspecified) {
         Status = other.Status;
       }
       if (other.primaryVersion_ != null) {
@@ -462,7 +462,7 @@ namespace Yandex.Cloud.Kms.V1 {
         }
         PrimaryVersion.MergeFrom(other.PrimaryVersion);
       }
-      if (other.DefaultAlgorithm != 0) {
+      if (other.DefaultAlgorithm != global::Yandex.Cloud.Kms.V1.SymmetricAlgorithm.Unspecified) {
         DefaultAlgorithm = other.DefaultAlgorithm;
       }
       if (other.rotatedAt_ != null) {
@@ -648,7 +648,7 @@ namespace Yandex.Cloud.Kms.V1 {
 
     /// <summary>Field number for the "status" field.</summary>
     public const int StatusFieldNumber = 3;
-    private global::Yandex.Cloud.Kms.V1.SymmetricKeyVersion.Types.Status status_ = 0;
+    private global::Yandex.Cloud.Kms.V1.SymmetricKeyVersion.Types.Status status_ = global::Yandex.Cloud.Kms.V1.SymmetricKeyVersion.Types.Status.Unspecified;
     /// <summary>
     /// Status of the key version.
     /// </summary>
@@ -662,7 +662,7 @@ namespace Yandex.Cloud.Kms.V1 {
 
     /// <summary>Field number for the "algorithm" field.</summary>
     public const int AlgorithmFieldNumber = 4;
-    private global::Yandex.Cloud.Kms.V1.SymmetricAlgorithm algorithm_ = 0;
+    private global::Yandex.Cloud.Kms.V1.SymmetricAlgorithm algorithm_ = global::Yandex.Cloud.Kms.V1.SymmetricAlgorithm.Unspecified;
     /// <summary>
     /// Encryption algorithm that should be used when using the key version to encrypt plaintext.
     /// </summary>
@@ -746,8 +746,8 @@ namespace Yandex.Cloud.Kms.V1 {
       int hash = 1;
       if (Id.Length != 0) hash ^= Id.GetHashCode();
       if (KeyId.Length != 0) hash ^= KeyId.GetHashCode();
-      if (Status != 0) hash ^= Status.GetHashCode();
-      if (Algorithm != 0) hash ^= Algorithm.GetHashCode();
+      if (Status != global::Yandex.Cloud.Kms.V1.SymmetricKeyVersion.Types.Status.Unspecified) hash ^= Status.GetHashCode();
+      if (Algorithm != global::Yandex.Cloud.Kms.V1.SymmetricAlgorithm.Unspecified) hash ^= Algorithm.GetHashCode();
       if (createdAt_ != null) hash ^= CreatedAt.GetHashCode();
       if (Primary != false) hash ^= Primary.GetHashCode();
       if (destroyAt_ != null) hash ^= DestroyAt.GetHashCode();
@@ -772,11 +772,11 @@ namespace Yandex.Cloud.Kms.V1 {
         output.WriteRawTag(18);
         output.WriteString(KeyId);
       }
-      if (Status != 0) {
+      if (Status != global::Yandex.Cloud.Kms.V1.SymmetricKeyVersion.Types.Status.Unspecified) {
         output.WriteRawTag(24);
         output.WriteEnum((int) Status);
       }
-      if (Algorithm != 0) {
+      if (Algorithm != global::Yandex.Cloud.Kms.V1.SymmetricAlgorithm.Unspecified) {
         output.WriteRawTag(32);
         output.WriteEnum((int) Algorithm);
       }
@@ -806,10 +806,10 @@ namespace Yandex.Cloud.Kms.V1 {
       if (KeyId.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(KeyId);
       }
-      if (Status != 0) {
+      if (Status != global::Yandex.Cloud.Kms.V1.SymmetricKeyVersion.Types.Status.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Status);
       }
-      if (Algorithm != 0) {
+      if (Algorithm != global::Yandex.Cloud.Kms.V1.SymmetricAlgorithm.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Algorithm);
       }
       if (createdAt_ != null) {
@@ -838,10 +838,10 @@ namespace Yandex.Cloud.Kms.V1 {
       if (other.KeyId.Length != 0) {
         KeyId = other.KeyId;
       }
-      if (other.Status != 0) {
+      if (other.Status != global::Yandex.Cloud.Kms.V1.SymmetricKeyVersion.Types.Status.Unspecified) {
         Status = other.Status;
       }
-      if (other.Algorithm != 0) {
+      if (other.Algorithm != global::Yandex.Cloud.Kms.V1.SymmetricAlgorithm.Unspecified) {
         Algorithm = other.Algorithm;
       }
       if (other.createdAt_ != null) {

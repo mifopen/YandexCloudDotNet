@@ -47,10 +47,10 @@ namespace Yandex.Cloud.Dataproc.V1 {
             "L2Nsb3VkL2RhdGFwcm9jL3YxO2RhdGFwcm9jYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Yandex.Cloud.Dataproc.V1.ResourcePresetReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.GetResourcePresetRequest), global::Yandex.Cloud.Dataproc.V1.GetResourcePresetRequest.Parser, new[]{ "ResourcePresetId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.ListResourcePresetsRequest), global::Yandex.Cloud.Dataproc.V1.ListResourcePresetsRequest.Parser, new[]{ "PageSize", "PageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.ListResourcePresetsResponse), global::Yandex.Cloud.Dataproc.V1.ListResourcePresetsResponse.Parser, new[]{ "ResourcePresets", "NextPageToken" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.GetResourcePresetRequest), global::Yandex.Cloud.Dataproc.V1.GetResourcePresetRequest.Parser, new[]{ "ResourcePresetId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.ListResourcePresetsRequest), global::Yandex.Cloud.Dataproc.V1.ListResourcePresetsRequest.Parser, new[]{ "PageSize", "PageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.ListResourcePresetsResponse), global::Yandex.Cloud.Dataproc.V1.ListResourcePresetsResponse.Parser, new[]{ "ResourcePresets", "NextPageToken" }, null, null, null, null)
           }));
     }
     #endregion

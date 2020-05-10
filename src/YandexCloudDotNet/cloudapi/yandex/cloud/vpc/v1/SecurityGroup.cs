@@ -55,11 +55,11 @@ namespace Yandex.Cloud.Vpc.V1 {
             "by1nZW5wcm90by95YW5kZXgvY2xvdWQvdnBjL3YxO3ZwY2IGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.SecurityGroup), global::Yandex.Cloud.Vpc.V1.SecurityGroup.Parser, new[]{ "Id", "FolderId", "CreatedAt", "Name", "Description", "Labels", "NetworkId", "Status", "Rules" }, null, new[]{ typeof(global::Yandex.Cloud.Vpc.V1.SecurityGroup.Types.Status) }, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.SecurityGroupRule), global::Yandex.Cloud.Vpc.V1.SecurityGroupRule.Parser, new[]{ "Id", "Description", "Labels", "Direction", "Ports", "ProtocolName", "ProtocolNumber", "CidrBlocks" }, new[]{ "Target" }, new[]{ typeof(global::Yandex.Cloud.Vpc.V1.SecurityGroupRule.Types.Direction) }, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.PortRange), global::Yandex.Cloud.Vpc.V1.PortRange.Parser, new[]{ "FromPort", "ToPort" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.CidrBlocks), global::Yandex.Cloud.Vpc.V1.CidrBlocks.Parser, new[]{ "V4CidrBlocks", "V6CidrBlocks" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.SecurityGroup), global::Yandex.Cloud.Vpc.V1.SecurityGroup.Parser, new[]{ "Id", "FolderId", "CreatedAt", "Name", "Description", "Labels", "NetworkId", "Status", "Rules" }, null, new[]{ typeof(global::Yandex.Cloud.Vpc.V1.SecurityGroup.Types.Status) }, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.SecurityGroupRule), global::Yandex.Cloud.Vpc.V1.SecurityGroupRule.Parser, new[]{ "Id", "Description", "Labels", "Direction", "Ports", "ProtocolName", "ProtocolNumber", "CidrBlocks" }, new[]{ "Target" }, new[]{ typeof(global::Yandex.Cloud.Vpc.V1.SecurityGroupRule.Types.Direction) }, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.PortRange), global::Yandex.Cloud.Vpc.V1.PortRange.Parser, new[]{ "FromPort", "ToPort" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.CidrBlocks), global::Yandex.Cloud.Vpc.V1.CidrBlocks.Parser, new[]{ "V4CidrBlocks", "V6CidrBlocks" }, null, null, null, null)
           }));
     }
     #endregion
@@ -166,7 +166,7 @@ namespace Yandex.Cloud.Vpc.V1 {
     /// <summary>Field number for the "labels" field.</summary>
     public const int LabelsFieldNumber = 6;
     private static readonly pbc::MapField<string, string>.Codec _map_labels_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 50);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 50);
     private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::MapField<string, string> Labels {
@@ -186,7 +186,7 @@ namespace Yandex.Cloud.Vpc.V1 {
 
     /// <summary>Field number for the "status" field.</summary>
     public const int StatusFieldNumber = 8;
-    private global::Yandex.Cloud.Vpc.V1.SecurityGroup.Types.Status status_ = 0;
+    private global::Yandex.Cloud.Vpc.V1.SecurityGroup.Types.Status status_ = global::Yandex.Cloud.Vpc.V1.SecurityGroup.Types.Status.Unspecified;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Vpc.V1.SecurityGroup.Types.Status Status {
       get { return status_; }
@@ -240,7 +240,7 @@ namespace Yandex.Cloud.Vpc.V1 {
       if (Description.Length != 0) hash ^= Description.GetHashCode();
       hash ^= Labels.GetHashCode();
       if (NetworkId.Length != 0) hash ^= NetworkId.GetHashCode();
-      if (Status != 0) hash ^= Status.GetHashCode();
+      if (Status != global::Yandex.Cloud.Vpc.V1.SecurityGroup.Types.Status.Unspecified) hash ^= Status.GetHashCode();
       hash ^= rules_.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -280,7 +280,7 @@ namespace Yandex.Cloud.Vpc.V1 {
         output.WriteRawTag(58);
         output.WriteString(NetworkId);
       }
-      if (Status != 0) {
+      if (Status != global::Yandex.Cloud.Vpc.V1.SecurityGroup.Types.Status.Unspecified) {
         output.WriteRawTag(64);
         output.WriteEnum((int) Status);
       }
@@ -312,7 +312,7 @@ namespace Yandex.Cloud.Vpc.V1 {
       if (NetworkId.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(NetworkId);
       }
-      if (Status != 0) {
+      if (Status != global::Yandex.Cloud.Vpc.V1.SecurityGroup.Types.Status.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Status);
       }
       size += rules_.CalculateSize(_repeated_rules_codec);
@@ -349,7 +349,7 @@ namespace Yandex.Cloud.Vpc.V1 {
       if (other.NetworkId.Length != 0) {
         NetworkId = other.NetworkId;
       }
-      if (other.Status != 0) {
+      if (other.Status != global::Yandex.Cloud.Vpc.V1.SecurityGroup.Types.Status.Unspecified) {
         Status = other.Status;
       }
       rules_.Add(other.rules_);
@@ -501,7 +501,7 @@ namespace Yandex.Cloud.Vpc.V1 {
     /// <summary>Field number for the "labels" field.</summary>
     public const int LabelsFieldNumber = 3;
     private static readonly pbc::MapField<string, string>.Codec _map_labels_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 26);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 26);
     private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::MapField<string, string> Labels {
@@ -510,7 +510,7 @@ namespace Yandex.Cloud.Vpc.V1 {
 
     /// <summary>Field number for the "direction" field.</summary>
     public const int DirectionFieldNumber = 4;
-    private global::Yandex.Cloud.Vpc.V1.SecurityGroupRule.Types.Direction direction_ = 0;
+    private global::Yandex.Cloud.Vpc.V1.SecurityGroupRule.Types.Direction direction_ = global::Yandex.Cloud.Vpc.V1.SecurityGroupRule.Types.Direction.Unspecified;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Vpc.V1.SecurityGroupRule.Types.Direction Direction {
       get { return direction_; }
@@ -619,7 +619,7 @@ namespace Yandex.Cloud.Vpc.V1 {
       if (Id.Length != 0) hash ^= Id.GetHashCode();
       if (Description.Length != 0) hash ^= Description.GetHashCode();
       hash ^= Labels.GetHashCode();
-      if (Direction != 0) hash ^= Direction.GetHashCode();
+      if (Direction != global::Yandex.Cloud.Vpc.V1.SecurityGroupRule.Types.Direction.Unspecified) hash ^= Direction.GetHashCode();
       if (ports_ != null) hash ^= Ports.GetHashCode();
       if (ProtocolName.Length != 0) hash ^= ProtocolName.GetHashCode();
       if (ProtocolNumber != 0L) hash ^= ProtocolNumber.GetHashCode();
@@ -647,7 +647,7 @@ namespace Yandex.Cloud.Vpc.V1 {
         output.WriteString(Description);
       }
       labels_.WriteTo(output, _map_labels_codec);
-      if (Direction != 0) {
+      if (Direction != global::Yandex.Cloud.Vpc.V1.SecurityGroupRule.Types.Direction.Unspecified) {
         output.WriteRawTag(32);
         output.WriteEnum((int) Direction);
       }
@@ -682,7 +682,7 @@ namespace Yandex.Cloud.Vpc.V1 {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Description);
       }
       size += labels_.CalculateSize(_map_labels_codec);
-      if (Direction != 0) {
+      if (Direction != global::Yandex.Cloud.Vpc.V1.SecurityGroupRule.Types.Direction.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Direction);
       }
       if (ports_ != null) {
@@ -715,7 +715,7 @@ namespace Yandex.Cloud.Vpc.V1 {
         Description = other.Description;
       }
       labels_.Add(other.labels_);
-      if (other.Direction != 0) {
+      if (other.Direction != global::Yandex.Cloud.Vpc.V1.SecurityGroupRule.Types.Direction.Unspecified) {
         Direction = other.Direction;
       }
       if (other.ports_ != null) {

@@ -52,16 +52,16 @@ namespace Yandex.Cloud.Access {
             "by95YW5kZXgvY2xvdWQvYWNjZXNzO2FjY2Vzc2IGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Yandex.Cloud.ValidationReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Yandex.Cloud.Access.AccessBindingAction), }, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Access.Subject), global::Yandex.Cloud.Access.Subject.Parser, new[]{ "Id", "Type" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Access.AccessBinding), global::Yandex.Cloud.Access.AccessBinding.Parser, new[]{ "RoleId", "Subject" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Access.ListAccessBindingsRequest), global::Yandex.Cloud.Access.ListAccessBindingsRequest.Parser, new[]{ "ResourceId", "PageSize", "PageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Access.ListAccessBindingsResponse), global::Yandex.Cloud.Access.ListAccessBindingsResponse.Parser, new[]{ "AccessBindings", "NextPageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Access.SetAccessBindingsRequest), global::Yandex.Cloud.Access.SetAccessBindingsRequest.Parser, new[]{ "ResourceId", "AccessBindings" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Access.SetAccessBindingsMetadata), global::Yandex.Cloud.Access.SetAccessBindingsMetadata.Parser, new[]{ "ResourceId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Access.UpdateAccessBindingsRequest), global::Yandex.Cloud.Access.UpdateAccessBindingsRequest.Parser, new[]{ "ResourceId", "AccessBindingDeltas" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Access.UpdateAccessBindingsMetadata), global::Yandex.Cloud.Access.UpdateAccessBindingsMetadata.Parser, new[]{ "ResourceId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Access.AccessBindingDelta), global::Yandex.Cloud.Access.AccessBindingDelta.Parser, new[]{ "Action", "AccessBinding" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Yandex.Cloud.Access.AccessBindingAction), }, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Access.Subject), global::Yandex.Cloud.Access.Subject.Parser, new[]{ "Id", "Type" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Access.AccessBinding), global::Yandex.Cloud.Access.AccessBinding.Parser, new[]{ "RoleId", "Subject" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Access.ListAccessBindingsRequest), global::Yandex.Cloud.Access.ListAccessBindingsRequest.Parser, new[]{ "ResourceId", "PageSize", "PageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Access.ListAccessBindingsResponse), global::Yandex.Cloud.Access.ListAccessBindingsResponse.Parser, new[]{ "AccessBindings", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Access.SetAccessBindingsRequest), global::Yandex.Cloud.Access.SetAccessBindingsRequest.Parser, new[]{ "ResourceId", "AccessBindings" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Access.SetAccessBindingsMetadata), global::Yandex.Cloud.Access.SetAccessBindingsMetadata.Parser, new[]{ "ResourceId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Access.UpdateAccessBindingsRequest), global::Yandex.Cloud.Access.UpdateAccessBindingsRequest.Parser, new[]{ "ResourceId", "AccessBindingDeltas" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Access.UpdateAccessBindingsMetadata), global::Yandex.Cloud.Access.UpdateAccessBindingsMetadata.Parser, new[]{ "ResourceId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Access.AccessBindingDelta), global::Yandex.Cloud.Access.AccessBindingDelta.Parser, new[]{ "Action", "AccessBinding" }, null, null, null, null)
           }));
     }
     #endregion
@@ -1408,7 +1408,7 @@ namespace Yandex.Cloud.Access {
 
     /// <summary>Field number for the "action" field.</summary>
     public const int ActionFieldNumber = 1;
-    private global::Yandex.Cloud.Access.AccessBindingAction action_ = 0;
+    private global::Yandex.Cloud.Access.AccessBindingAction action_ = global::Yandex.Cloud.Access.AccessBindingAction.Unspecified;
     /// <summary>
     /// The action that is being performed on an access binding.
     /// </summary>
@@ -1455,7 +1455,7 @@ namespace Yandex.Cloud.Access {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override int GetHashCode() {
       int hash = 1;
-      if (Action != 0) hash ^= Action.GetHashCode();
+      if (Action != global::Yandex.Cloud.Access.AccessBindingAction.Unspecified) hash ^= Action.GetHashCode();
       if (accessBinding_ != null) hash ^= AccessBinding.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -1470,7 +1470,7 @@ namespace Yandex.Cloud.Access {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public void WriteTo(pb::CodedOutputStream output) {
-      if (Action != 0) {
+      if (Action != global::Yandex.Cloud.Access.AccessBindingAction.Unspecified) {
         output.WriteRawTag(8);
         output.WriteEnum((int) Action);
       }
@@ -1486,7 +1486,7 @@ namespace Yandex.Cloud.Access {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CalculateSize() {
       int size = 0;
-      if (Action != 0) {
+      if (Action != global::Yandex.Cloud.Access.AccessBindingAction.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Action);
       }
       if (accessBinding_ != null) {
@@ -1503,7 +1503,7 @@ namespace Yandex.Cloud.Access {
       if (other == null) {
         return;
       }
-      if (other.Action != 0) {
+      if (other.Action != global::Yandex.Cloud.Access.AccessBindingAction.Unspecified) {
         Action = other.Action;
       }
       if (other.accessBinding_ != null) {

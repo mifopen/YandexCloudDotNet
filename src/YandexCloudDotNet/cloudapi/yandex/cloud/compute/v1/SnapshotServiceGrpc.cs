@@ -79,7 +79,7 @@ namespace Yandex.Cloud.Compute.V1 {
     {
       /// <summary>Creates a new client for SnapshotService</summary>
       /// <param name="channel">The channel to use to make remote calls.</param>
-      public SnapshotServiceClient(grpc::Channel channel) : base(channel)
+      public SnapshotServiceClient(grpc::ChannelBase channel) : base(channel)
       {
       }
       /// <summary>Creates a new client for SnapshotService that uses a custom <c>CallInvoker</c>.</summary>

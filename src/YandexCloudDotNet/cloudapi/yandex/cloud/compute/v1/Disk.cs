@@ -43,8 +43,8 @@ namespace Yandex.Cloud.Compute.V1 {
             "L2NvbXB1dGUvdjE7Y29tcHV0ZWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Disk), global::Yandex.Cloud.Compute.V1.Disk.Parser, new[]{ "Id", "FolderId", "CreatedAt", "Name", "Description", "Labels", "TypeId", "ZoneId", "Size", "BlockSize", "ProductIds", "Status", "SourceImageId", "SourceSnapshotId", "InstanceIds" }, new[]{ "Source" }, new[]{ typeof(global::Yandex.Cloud.Compute.V1.Disk.Types.Status) }, new pbr::GeneratedClrTypeInfo[] { null, })
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Disk), global::Yandex.Cloud.Compute.V1.Disk.Parser, new[]{ "Id", "FolderId", "CreatedAt", "Name", "Description", "Labels", "TypeId", "ZoneId", "Size", "BlockSize", "ProductIds", "Status", "SourceImageId", "SourceSnapshotId", "InstanceIds" }, new[]{ "Source" }, new[]{ typeof(global::Yandex.Cloud.Compute.V1.Disk.Types.Status) }, null, new pbr::GeneratedClrTypeInfo[] { null, })
           }));
     }
     #endregion
@@ -179,7 +179,7 @@ namespace Yandex.Cloud.Compute.V1 {
     /// <summary>Field number for the "labels" field.</summary>
     public const int LabelsFieldNumber = 6;
     private static readonly pbc::MapField<string, string>.Codec _map_labels_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 50);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 50);
     private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
     /// <summary>
     /// Resource labels as `key:value` pairs. Maximum of 64 per resource.
@@ -267,7 +267,7 @@ namespace Yandex.Cloud.Compute.V1 {
 
     /// <summary>Field number for the "status" field.</summary>
     public const int StatusFieldNumber = 11;
-    private global::Yandex.Cloud.Compute.V1.Disk.Types.Status status_ = 0;
+    private global::Yandex.Cloud.Compute.V1.Disk.Types.Status status_ = global::Yandex.Cloud.Compute.V1.Disk.Types.Status.Unspecified;
     /// <summary>
     /// Current status of the disk.
     /// </summary>
@@ -385,7 +385,7 @@ namespace Yandex.Cloud.Compute.V1 {
       if (Size != 0L) hash ^= Size.GetHashCode();
       if (BlockSize != 0L) hash ^= BlockSize.GetHashCode();
       hash ^= productIds_.GetHashCode();
-      if (Status != 0) hash ^= Status.GetHashCode();
+      if (Status != global::Yandex.Cloud.Compute.V1.Disk.Types.Status.Unspecified) hash ^= Status.GetHashCode();
       if (sourceCase_ == SourceOneofCase.SourceImageId) hash ^= SourceImageId.GetHashCode();
       if (sourceCase_ == SourceOneofCase.SourceSnapshotId) hash ^= SourceSnapshotId.GetHashCode();
       hash ^= instanceIds_.GetHashCode();
@@ -437,7 +437,7 @@ namespace Yandex.Cloud.Compute.V1 {
         output.WriteInt64(Size);
       }
       productIds_.WriteTo(output, _repeated_productIds_codec);
-      if (Status != 0) {
+      if (Status != global::Yandex.Cloud.Compute.V1.Disk.Types.Status.Unspecified) {
         output.WriteRawTag(88);
         output.WriteEnum((int) Status);
       }
@@ -491,7 +491,7 @@ namespace Yandex.Cloud.Compute.V1 {
         size += 1 + pb::CodedOutputStream.ComputeInt64Size(BlockSize);
       }
       size += productIds_.CalculateSize(_repeated_productIds_codec);
-      if (Status != 0) {
+      if (Status != global::Yandex.Cloud.Compute.V1.Disk.Types.Status.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Status);
       }
       if (sourceCase_ == SourceOneofCase.SourceImageId) {
@@ -544,7 +544,7 @@ namespace Yandex.Cloud.Compute.V1 {
         BlockSize = other.BlockSize;
       }
       productIds_.Add(other.productIds_);
-      if (other.Status != 0) {
+      if (other.Status != global::Yandex.Cloud.Compute.V1.Disk.Types.Status.Unspecified) {
         Status = other.Status;
       }
       instanceIds_.Add(other.instanceIds_);

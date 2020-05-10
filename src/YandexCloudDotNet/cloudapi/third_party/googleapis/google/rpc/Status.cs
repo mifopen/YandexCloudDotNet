@@ -32,8 +32,8 @@ namespace Google.Rpc {
             "dXM7c3RhdHVzogIDUlBDYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.AnyReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Google.Rpc.Status), global::Google.Rpc.Status.Parser, new[]{ "Code", "Message", "Details" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Google.Rpc.Status), global::Google.Rpc.Status.Parser, new[]{ "Code", "Message", "Details" }, null, null, null, null)
           }));
     }
     #endregion

@@ -159,28 +159,28 @@ namespace Yandex.Cloud.Kms.V1 {
             "cm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.DurationReflection.Descriptor, global::Yandex.Cloud.Access.AccessReflection.Descriptor, global::Yandex.Cloud.Api.OperationReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, global::Yandex.Cloud.Kms.V1.SymmetricKeyReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Kms.V1.CreateSymmetricKeyRequest), global::Yandex.Cloud.Kms.V1.CreateSymmetricKeyRequest.Parser, new[]{ "FolderId", "Name", "Description", "Labels", "DefaultAlgorithm", "RotationPeriod" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Kms.V1.CreateSymmetricKeyMetadata), global::Yandex.Cloud.Kms.V1.CreateSymmetricKeyMetadata.Parser, new[]{ "KeyId", "PrimaryVersionId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Kms.V1.GetSymmetricKeyRequest), global::Yandex.Cloud.Kms.V1.GetSymmetricKeyRequest.Parser, new[]{ "KeyId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Kms.V1.ListSymmetricKeysRequest), global::Yandex.Cloud.Kms.V1.ListSymmetricKeysRequest.Parser, new[]{ "FolderId", "PageSize", "PageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Kms.V1.ListSymmetricKeysResponse), global::Yandex.Cloud.Kms.V1.ListSymmetricKeysResponse.Parser, new[]{ "Keys", "NextPageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Kms.V1.ListSymmetricKeyVersionsRequest), global::Yandex.Cloud.Kms.V1.ListSymmetricKeyVersionsRequest.Parser, new[]{ "KeyId", "PageSize", "PageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Kms.V1.ListSymmetricKeyVersionsResponse), global::Yandex.Cloud.Kms.V1.ListSymmetricKeyVersionsResponse.Parser, new[]{ "KeyVersions", "NextPageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Kms.V1.UpdateSymmetricKeyRequest), global::Yandex.Cloud.Kms.V1.UpdateSymmetricKeyRequest.Parser, new[]{ "KeyId", "UpdateMask", "Name", "Description", "Status", "Labels", "DefaultAlgorithm", "RotationPeriod" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Kms.V1.UpdateSymmetricKeyMetadata), global::Yandex.Cloud.Kms.V1.UpdateSymmetricKeyMetadata.Parser, new[]{ "KeyId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Kms.V1.DeleteSymmetricKeyRequest), global::Yandex.Cloud.Kms.V1.DeleteSymmetricKeyRequest.Parser, new[]{ "KeyId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Kms.V1.DeleteSymmetricKeyMetadata), global::Yandex.Cloud.Kms.V1.DeleteSymmetricKeyMetadata.Parser, new[]{ "KeyId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Kms.V1.SetPrimarySymmetricKeyVersionRequest), global::Yandex.Cloud.Kms.V1.SetPrimarySymmetricKeyVersionRequest.Parser, new[]{ "KeyId", "VersionId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Kms.V1.SetPrimarySymmetricKeyVersionMetadata), global::Yandex.Cloud.Kms.V1.SetPrimarySymmetricKeyVersionMetadata.Parser, new[]{ "KeyId", "VersionId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Kms.V1.RotateSymmetricKeyRequest), global::Yandex.Cloud.Kms.V1.RotateSymmetricKeyRequest.Parser, new[]{ "KeyId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Kms.V1.RotateSymmetricKeyMetadata), global::Yandex.Cloud.Kms.V1.RotateSymmetricKeyMetadata.Parser, new[]{ "KeyId", "NewPrimaryVersionId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Kms.V1.ScheduleSymmetricKeyVersionDestructionRequest), global::Yandex.Cloud.Kms.V1.ScheduleSymmetricKeyVersionDestructionRequest.Parser, new[]{ "KeyId", "VersionId", "PendingPeriod" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Kms.V1.ScheduleSymmetricKeyVersionDestructionMetadata), global::Yandex.Cloud.Kms.V1.ScheduleSymmetricKeyVersionDestructionMetadata.Parser, new[]{ "KeyId", "VersionId", "DestroyAt" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Kms.V1.CancelSymmetricKeyVersionDestructionRequest), global::Yandex.Cloud.Kms.V1.CancelSymmetricKeyVersionDestructionRequest.Parser, new[]{ "KeyId", "VersionId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Kms.V1.CancelSymmetricKeyVersionDestructionMetadata), global::Yandex.Cloud.Kms.V1.CancelSymmetricKeyVersionDestructionMetadata.Parser, new[]{ "KeyId", "VersionId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Kms.V1.ListSymmetricKeyOperationsRequest), global::Yandex.Cloud.Kms.V1.ListSymmetricKeyOperationsRequest.Parser, new[]{ "KeyId", "PageSize", "PageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Kms.V1.ListSymmetricKeyOperationsResponse), global::Yandex.Cloud.Kms.V1.ListSymmetricKeyOperationsResponse.Parser, new[]{ "Operations", "NextPageToken" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Kms.V1.CreateSymmetricKeyRequest), global::Yandex.Cloud.Kms.V1.CreateSymmetricKeyRequest.Parser, new[]{ "FolderId", "Name", "Description", "Labels", "DefaultAlgorithm", "RotationPeriod" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Kms.V1.CreateSymmetricKeyMetadata), global::Yandex.Cloud.Kms.V1.CreateSymmetricKeyMetadata.Parser, new[]{ "KeyId", "PrimaryVersionId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Kms.V1.GetSymmetricKeyRequest), global::Yandex.Cloud.Kms.V1.GetSymmetricKeyRequest.Parser, new[]{ "KeyId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Kms.V1.ListSymmetricKeysRequest), global::Yandex.Cloud.Kms.V1.ListSymmetricKeysRequest.Parser, new[]{ "FolderId", "PageSize", "PageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Kms.V1.ListSymmetricKeysResponse), global::Yandex.Cloud.Kms.V1.ListSymmetricKeysResponse.Parser, new[]{ "Keys", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Kms.V1.ListSymmetricKeyVersionsRequest), global::Yandex.Cloud.Kms.V1.ListSymmetricKeyVersionsRequest.Parser, new[]{ "KeyId", "PageSize", "PageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Kms.V1.ListSymmetricKeyVersionsResponse), global::Yandex.Cloud.Kms.V1.ListSymmetricKeyVersionsResponse.Parser, new[]{ "KeyVersions", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Kms.V1.UpdateSymmetricKeyRequest), global::Yandex.Cloud.Kms.V1.UpdateSymmetricKeyRequest.Parser, new[]{ "KeyId", "UpdateMask", "Name", "Description", "Status", "Labels", "DefaultAlgorithm", "RotationPeriod" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Kms.V1.UpdateSymmetricKeyMetadata), global::Yandex.Cloud.Kms.V1.UpdateSymmetricKeyMetadata.Parser, new[]{ "KeyId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Kms.V1.DeleteSymmetricKeyRequest), global::Yandex.Cloud.Kms.V1.DeleteSymmetricKeyRequest.Parser, new[]{ "KeyId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Kms.V1.DeleteSymmetricKeyMetadata), global::Yandex.Cloud.Kms.V1.DeleteSymmetricKeyMetadata.Parser, new[]{ "KeyId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Kms.V1.SetPrimarySymmetricKeyVersionRequest), global::Yandex.Cloud.Kms.V1.SetPrimarySymmetricKeyVersionRequest.Parser, new[]{ "KeyId", "VersionId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Kms.V1.SetPrimarySymmetricKeyVersionMetadata), global::Yandex.Cloud.Kms.V1.SetPrimarySymmetricKeyVersionMetadata.Parser, new[]{ "KeyId", "VersionId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Kms.V1.RotateSymmetricKeyRequest), global::Yandex.Cloud.Kms.V1.RotateSymmetricKeyRequest.Parser, new[]{ "KeyId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Kms.V1.RotateSymmetricKeyMetadata), global::Yandex.Cloud.Kms.V1.RotateSymmetricKeyMetadata.Parser, new[]{ "KeyId", "NewPrimaryVersionId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Kms.V1.ScheduleSymmetricKeyVersionDestructionRequest), global::Yandex.Cloud.Kms.V1.ScheduleSymmetricKeyVersionDestructionRequest.Parser, new[]{ "KeyId", "VersionId", "PendingPeriod" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Kms.V1.ScheduleSymmetricKeyVersionDestructionMetadata), global::Yandex.Cloud.Kms.V1.ScheduleSymmetricKeyVersionDestructionMetadata.Parser, new[]{ "KeyId", "VersionId", "DestroyAt" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Kms.V1.CancelSymmetricKeyVersionDestructionRequest), global::Yandex.Cloud.Kms.V1.CancelSymmetricKeyVersionDestructionRequest.Parser, new[]{ "KeyId", "VersionId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Kms.V1.CancelSymmetricKeyVersionDestructionMetadata), global::Yandex.Cloud.Kms.V1.CancelSymmetricKeyVersionDestructionMetadata.Parser, new[]{ "KeyId", "VersionId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Kms.V1.ListSymmetricKeyOperationsRequest), global::Yandex.Cloud.Kms.V1.ListSymmetricKeyOperationsRequest.Parser, new[]{ "KeyId", "PageSize", "PageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Kms.V1.ListSymmetricKeyOperationsResponse), global::Yandex.Cloud.Kms.V1.ListSymmetricKeyOperationsResponse.Parser, new[]{ "Operations", "NextPageToken" }, null, null, null, null)
           }));
     }
     #endregion
@@ -271,7 +271,7 @@ namespace Yandex.Cloud.Kms.V1 {
     /// <summary>Field number for the "labels" field.</summary>
     public const int LabelsFieldNumber = 4;
     private static readonly pbc::MapField<string, string>.Codec _map_labels_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 34);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 34);
     private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
     /// <summary>
     /// Custom labels for the symmetric KMS key as `key:value` pairs. Maximum 64 per key.
@@ -284,7 +284,7 @@ namespace Yandex.Cloud.Kms.V1 {
 
     /// <summary>Field number for the "default_algorithm" field.</summary>
     public const int DefaultAlgorithmFieldNumber = 5;
-    private global::Yandex.Cloud.Kms.V1.SymmetricAlgorithm defaultAlgorithm_ = 0;
+    private global::Yandex.Cloud.Kms.V1.SymmetricAlgorithm defaultAlgorithm_ = global::Yandex.Cloud.Kms.V1.SymmetricAlgorithm.Unspecified;
     /// <summary>
     /// Encryption algorithm to be used with a new key version, generated with the next rotation.
     /// </summary>
@@ -340,7 +340,7 @@ namespace Yandex.Cloud.Kms.V1 {
       if (Name.Length != 0) hash ^= Name.GetHashCode();
       if (Description.Length != 0) hash ^= Description.GetHashCode();
       hash ^= Labels.GetHashCode();
-      if (DefaultAlgorithm != 0) hash ^= DefaultAlgorithm.GetHashCode();
+      if (DefaultAlgorithm != global::Yandex.Cloud.Kms.V1.SymmetricAlgorithm.Unspecified) hash ^= DefaultAlgorithm.GetHashCode();
       if (rotationPeriod_ != null) hash ^= RotationPeriod.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -368,7 +368,7 @@ namespace Yandex.Cloud.Kms.V1 {
         output.WriteString(Description);
       }
       labels_.WriteTo(output, _map_labels_codec);
-      if (DefaultAlgorithm != 0) {
+      if (DefaultAlgorithm != global::Yandex.Cloud.Kms.V1.SymmetricAlgorithm.Unspecified) {
         output.WriteRawTag(40);
         output.WriteEnum((int) DefaultAlgorithm);
       }
@@ -394,7 +394,7 @@ namespace Yandex.Cloud.Kms.V1 {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Description);
       }
       size += labels_.CalculateSize(_map_labels_codec);
-      if (DefaultAlgorithm != 0) {
+      if (DefaultAlgorithm != global::Yandex.Cloud.Kms.V1.SymmetricAlgorithm.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) DefaultAlgorithm);
       }
       if (rotationPeriod_ != null) {
@@ -421,7 +421,7 @@ namespace Yandex.Cloud.Kms.V1 {
         Description = other.Description;
       }
       labels_.Add(other.labels_);
-      if (other.DefaultAlgorithm != 0) {
+      if (other.DefaultAlgorithm != global::Yandex.Cloud.Kms.V1.SymmetricAlgorithm.Unspecified) {
         DefaultAlgorithm = other.DefaultAlgorithm;
       }
       if (other.rotationPeriod_ != null) {
@@ -1584,7 +1584,7 @@ namespace Yandex.Cloud.Kms.V1 {
 
     /// <summary>Field number for the "status" field.</summary>
     public const int StatusFieldNumber = 5;
-    private global::Yandex.Cloud.Kms.V1.SymmetricKey.Types.Status status_ = 0;
+    private global::Yandex.Cloud.Kms.V1.SymmetricKey.Types.Status status_ = global::Yandex.Cloud.Kms.V1.SymmetricKey.Types.Status.Unspecified;
     /// <summary>
     /// New status for the symmetric KMS key.
     /// Using the [SymmetricKeyService.Update] method you can only set ACTIVE or INACTIVE status.
@@ -1600,7 +1600,7 @@ namespace Yandex.Cloud.Kms.V1 {
     /// <summary>Field number for the "labels" field.</summary>
     public const int LabelsFieldNumber = 6;
     private static readonly pbc::MapField<string, string>.Codec _map_labels_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 50);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 50);
     private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
     /// <summary>
     /// Custom labels for the symmetric KMS key as `key:value` pairs. Maximum 64 per key.
@@ -1612,7 +1612,7 @@ namespace Yandex.Cloud.Kms.V1 {
 
     /// <summary>Field number for the "default_algorithm" field.</summary>
     public const int DefaultAlgorithmFieldNumber = 7;
-    private global::Yandex.Cloud.Kms.V1.SymmetricAlgorithm defaultAlgorithm_ = 0;
+    private global::Yandex.Cloud.Kms.V1.SymmetricAlgorithm defaultAlgorithm_ = global::Yandex.Cloud.Kms.V1.SymmetricAlgorithm.Unspecified;
     /// <summary>
     /// Default encryption algorithm to be used with new versions of the symmetric KMS key.
     /// </summary>
@@ -1669,9 +1669,9 @@ namespace Yandex.Cloud.Kms.V1 {
       if (updateMask_ != null) hash ^= UpdateMask.GetHashCode();
       if (Name.Length != 0) hash ^= Name.GetHashCode();
       if (Description.Length != 0) hash ^= Description.GetHashCode();
-      if (Status != 0) hash ^= Status.GetHashCode();
+      if (Status != global::Yandex.Cloud.Kms.V1.SymmetricKey.Types.Status.Unspecified) hash ^= Status.GetHashCode();
       hash ^= Labels.GetHashCode();
-      if (DefaultAlgorithm != 0) hash ^= DefaultAlgorithm.GetHashCode();
+      if (DefaultAlgorithm != global::Yandex.Cloud.Kms.V1.SymmetricAlgorithm.Unspecified) hash ^= DefaultAlgorithm.GetHashCode();
       if (rotationPeriod_ != null) hash ^= RotationPeriod.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -1702,12 +1702,12 @@ namespace Yandex.Cloud.Kms.V1 {
         output.WriteRawTag(34);
         output.WriteString(Description);
       }
-      if (Status != 0) {
+      if (Status != global::Yandex.Cloud.Kms.V1.SymmetricKey.Types.Status.Unspecified) {
         output.WriteRawTag(40);
         output.WriteEnum((int) Status);
       }
       labels_.WriteTo(output, _map_labels_codec);
-      if (DefaultAlgorithm != 0) {
+      if (DefaultAlgorithm != global::Yandex.Cloud.Kms.V1.SymmetricAlgorithm.Unspecified) {
         output.WriteRawTag(56);
         output.WriteEnum((int) DefaultAlgorithm);
       }
@@ -1735,11 +1735,11 @@ namespace Yandex.Cloud.Kms.V1 {
       if (Description.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Description);
       }
-      if (Status != 0) {
+      if (Status != global::Yandex.Cloud.Kms.V1.SymmetricKey.Types.Status.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Status);
       }
       size += labels_.CalculateSize(_map_labels_codec);
-      if (DefaultAlgorithm != 0) {
+      if (DefaultAlgorithm != global::Yandex.Cloud.Kms.V1.SymmetricAlgorithm.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) DefaultAlgorithm);
       }
       if (rotationPeriod_ != null) {
@@ -1771,11 +1771,11 @@ namespace Yandex.Cloud.Kms.V1 {
       if (other.Description.Length != 0) {
         Description = other.Description;
       }
-      if (other.Status != 0) {
+      if (other.Status != global::Yandex.Cloud.Kms.V1.SymmetricKey.Types.Status.Unspecified) {
         Status = other.Status;
       }
       labels_.Add(other.labels_);
-      if (other.DefaultAlgorithm != 0) {
+      if (other.DefaultAlgorithm != global::Yandex.Cloud.Kms.V1.SymmetricAlgorithm.Unspecified) {
         DefaultAlgorithm = other.DefaultAlgorithm;
       }
       if (other.rotationPeriod_ != null) {

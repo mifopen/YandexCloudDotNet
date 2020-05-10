@@ -62,11 +62,11 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
             "YgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.DurationReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Functions.V1.Function), global::Yandex.Cloud.Serverless.Functions.V1.Function.Parser, new[]{ "Id", "FolderId", "CreatedAt", "Name", "Description", "Labels", "LogGroupId", "HttpInvokeUrl", "Status" }, null, new[]{ typeof(global::Yandex.Cloud.Serverless.Functions.V1.Function.Types.Status) }, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Functions.V1.Version), global::Yandex.Cloud.Serverless.Functions.V1.Version.Parser, new[]{ "Id", "FunctionId", "Description", "CreatedAt", "Runtime", "Entrypoint", "Resources", "ExecutionTimeout", "ServiceAccountId", "ImageSize", "Status", "Tags", "LogGroupId", "Environment" }, null, new[]{ typeof(global::Yandex.Cloud.Serverless.Functions.V1.Version.Types.Status) }, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Functions.V1.Resources), global::Yandex.Cloud.Serverless.Functions.V1.Resources.Parser, new[]{ "Memory" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Functions.V1.Package), global::Yandex.Cloud.Serverless.Functions.V1.Package.Parser, new[]{ "BucketName", "ObjectName", "Sha256" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Functions.V1.Function), global::Yandex.Cloud.Serverless.Functions.V1.Function.Parser, new[]{ "Id", "FolderId", "CreatedAt", "Name", "Description", "Labels", "LogGroupId", "HttpInvokeUrl", "Status" }, null, new[]{ typeof(global::Yandex.Cloud.Serverless.Functions.V1.Function.Types.Status) }, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Functions.V1.Version), global::Yandex.Cloud.Serverless.Functions.V1.Version.Parser, new[]{ "Id", "FunctionId", "Description", "CreatedAt", "Runtime", "Entrypoint", "Resources", "ExecutionTimeout", "ServiceAccountId", "ImageSize", "Status", "Tags", "LogGroupId", "Environment" }, null, new[]{ typeof(global::Yandex.Cloud.Serverless.Functions.V1.Version.Types.Status) }, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Functions.V1.Resources), global::Yandex.Cloud.Serverless.Functions.V1.Resources.Parser, new[]{ "Memory" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Functions.V1.Package), global::Yandex.Cloud.Serverless.Functions.V1.Package.Parser, new[]{ "BucketName", "ObjectName", "Sha256" }, null, null, null, null)
           }));
     }
     #endregion
@@ -191,7 +191,7 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "labels" field.</summary>
     public const int LabelsFieldNumber = 6;
     private static readonly pbc::MapField<string, string>.Codec _map_labels_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 50);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 50);
     private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
     /// <summary>
     /// Function labels as `key:value` pairs.
@@ -231,7 +231,7 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
 
     /// <summary>Field number for the "status" field.</summary>
     public const int StatusFieldNumber = 9;
-    private global::Yandex.Cloud.Serverless.Functions.V1.Function.Types.Status status_ = 0;
+    private global::Yandex.Cloud.Serverless.Functions.V1.Function.Types.Status status_ = global::Yandex.Cloud.Serverless.Functions.V1.Function.Types.Status.Unspecified;
     /// <summary>
     /// Status of the function.
     /// </summary>
@@ -279,7 +279,7 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
       hash ^= Labels.GetHashCode();
       if (LogGroupId.Length != 0) hash ^= LogGroupId.GetHashCode();
       if (HttpInvokeUrl.Length != 0) hash ^= HttpInvokeUrl.GetHashCode();
-      if (Status != 0) hash ^= Status.GetHashCode();
+      if (Status != global::Yandex.Cloud.Serverless.Functions.V1.Function.Types.Status.Unspecified) hash ^= Status.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -322,7 +322,7 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
         output.WriteRawTag(66);
         output.WriteString(HttpInvokeUrl);
       }
-      if (Status != 0) {
+      if (Status != global::Yandex.Cloud.Serverless.Functions.V1.Function.Types.Status.Unspecified) {
         output.WriteRawTag(72);
         output.WriteEnum((int) Status);
       }
@@ -356,7 +356,7 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
       if (HttpInvokeUrl.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(HttpInvokeUrl);
       }
-      if (Status != 0) {
+      if (Status != global::Yandex.Cloud.Serverless.Functions.V1.Function.Types.Status.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Status);
       }
       if (_unknownFields != null) {
@@ -395,7 +395,7 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
       if (other.HttpInvokeUrl.Length != 0) {
         HttpInvokeUrl = other.HttpInvokeUrl;
       }
-      if (other.Status != 0) {
+      if (other.Status != global::Yandex.Cloud.Serverless.Functions.V1.Function.Types.Status.Unspecified) {
         Status = other.Status;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
@@ -679,7 +679,7 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
 
     /// <summary>Field number for the "status" field.</summary>
     public const int StatusFieldNumber = 13;
-    private global::Yandex.Cloud.Serverless.Functions.V1.Version.Types.Status status_ = 0;
+    private global::Yandex.Cloud.Serverless.Functions.V1.Version.Types.Status status_ = global::Yandex.Cloud.Serverless.Functions.V1.Version.Types.Status.Unspecified;
     /// <summary>
     /// Status of the version.
     /// </summary>
@@ -721,7 +721,7 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "environment" field.</summary>
     public const int EnvironmentFieldNumber = 16;
     private static readonly pbc::MapField<string, string>.Codec _map_environment_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 130);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 130);
     private readonly pbc::MapField<string, string> environment_ = new pbc::MapField<string, string>();
     /// <summary>
     /// Environment settings for the version.
@@ -774,7 +774,7 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
       if (executionTimeout_ != null) hash ^= ExecutionTimeout.GetHashCode();
       if (ServiceAccountId.Length != 0) hash ^= ServiceAccountId.GetHashCode();
       if (ImageSize != 0L) hash ^= ImageSize.GetHashCode();
-      if (Status != 0) hash ^= Status.GetHashCode();
+      if (Status != global::Yandex.Cloud.Serverless.Functions.V1.Version.Types.Status.Unspecified) hash ^= Status.GetHashCode();
       hash ^= tags_.GetHashCode();
       if (LogGroupId.Length != 0) hash ^= LogGroupId.GetHashCode();
       hash ^= Environment.GetHashCode();
@@ -831,7 +831,7 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
         output.WriteRawTag(96);
         output.WriteInt64(ImageSize);
       }
-      if (Status != 0) {
+      if (Status != global::Yandex.Cloud.Serverless.Functions.V1.Version.Types.Status.Unspecified) {
         output.WriteRawTag(104);
         output.WriteEnum((int) Status);
       }
@@ -879,7 +879,7 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
       if (ImageSize != 0L) {
         size += 1 + pb::CodedOutputStream.ComputeInt64Size(ImageSize);
       }
-      if (Status != 0) {
+      if (Status != global::Yandex.Cloud.Serverless.Functions.V1.Version.Types.Status.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Status);
       }
       size += tags_.CalculateSize(_repeated_tags_codec);
@@ -937,7 +937,7 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
       if (other.ImageSize != 0L) {
         ImageSize = other.ImageSize;
       }
-      if (other.Status != 0) {
+      if (other.Status != global::Yandex.Cloud.Serverless.Functions.V1.Version.Types.Status.Unspecified) {
         Status = other.Status;
       }
       tags_.Add(other.tags_);

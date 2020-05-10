@@ -103,20 +103,20 @@ namespace Yandex.Cloud.Mdb.Mysql.V1 {
             "bXlzcWwvdjE7bXlzcWxiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Yandex.Cloud.Api.OperationReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, global::Yandex.Cloud.Mdb.Mysql.V1.UserReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.GetUserRequest), global::Yandex.Cloud.Mdb.Mysql.V1.GetUserRequest.Parser, new[]{ "ClusterId", "UserName" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.ListUsersRequest), global::Yandex.Cloud.Mdb.Mysql.V1.ListUsersRequest.Parser, new[]{ "ClusterId", "PageSize", "PageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.ListUsersResponse), global::Yandex.Cloud.Mdb.Mysql.V1.ListUsersResponse.Parser, new[]{ "Users", "NextPageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.CreateUserRequest), global::Yandex.Cloud.Mdb.Mysql.V1.CreateUserRequest.Parser, new[]{ "ClusterId", "UserSpec" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.CreateUserMetadata), global::Yandex.Cloud.Mdb.Mysql.V1.CreateUserMetadata.Parser, new[]{ "ClusterId", "UserName" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.UpdateUserRequest), global::Yandex.Cloud.Mdb.Mysql.V1.UpdateUserRequest.Parser, new[]{ "ClusterId", "UserName", "UpdateMask", "Password", "Permissions", "GlobalPermissions", "ConnectionLimits", "AuthenticationPlugin" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.UpdateUserMetadata), global::Yandex.Cloud.Mdb.Mysql.V1.UpdateUserMetadata.Parser, new[]{ "ClusterId", "UserName" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.DeleteUserRequest), global::Yandex.Cloud.Mdb.Mysql.V1.DeleteUserRequest.Parser, new[]{ "ClusterId", "UserName" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.DeleteUserMetadata), global::Yandex.Cloud.Mdb.Mysql.V1.DeleteUserMetadata.Parser, new[]{ "ClusterId", "UserName" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.GrantUserPermissionRequest), global::Yandex.Cloud.Mdb.Mysql.V1.GrantUserPermissionRequest.Parser, new[]{ "ClusterId", "UserName", "Permission" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.GrantUserPermissionMetadata), global::Yandex.Cloud.Mdb.Mysql.V1.GrantUserPermissionMetadata.Parser, new[]{ "ClusterId", "UserName" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.RevokeUserPermissionRequest), global::Yandex.Cloud.Mdb.Mysql.V1.RevokeUserPermissionRequest.Parser, new[]{ "ClusterId", "UserName", "Permission" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.RevokeUserPermissionMetadata), global::Yandex.Cloud.Mdb.Mysql.V1.RevokeUserPermissionMetadata.Parser, new[]{ "ClusterId", "UserName" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.GetUserRequest), global::Yandex.Cloud.Mdb.Mysql.V1.GetUserRequest.Parser, new[]{ "ClusterId", "UserName" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.ListUsersRequest), global::Yandex.Cloud.Mdb.Mysql.V1.ListUsersRequest.Parser, new[]{ "ClusterId", "PageSize", "PageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.ListUsersResponse), global::Yandex.Cloud.Mdb.Mysql.V1.ListUsersResponse.Parser, new[]{ "Users", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.CreateUserRequest), global::Yandex.Cloud.Mdb.Mysql.V1.CreateUserRequest.Parser, new[]{ "ClusterId", "UserSpec" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.CreateUserMetadata), global::Yandex.Cloud.Mdb.Mysql.V1.CreateUserMetadata.Parser, new[]{ "ClusterId", "UserName" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.UpdateUserRequest), global::Yandex.Cloud.Mdb.Mysql.V1.UpdateUserRequest.Parser, new[]{ "ClusterId", "UserName", "UpdateMask", "Password", "Permissions", "GlobalPermissions", "ConnectionLimits", "AuthenticationPlugin" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.UpdateUserMetadata), global::Yandex.Cloud.Mdb.Mysql.V1.UpdateUserMetadata.Parser, new[]{ "ClusterId", "UserName" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.DeleteUserRequest), global::Yandex.Cloud.Mdb.Mysql.V1.DeleteUserRequest.Parser, new[]{ "ClusterId", "UserName" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.DeleteUserMetadata), global::Yandex.Cloud.Mdb.Mysql.V1.DeleteUserMetadata.Parser, new[]{ "ClusterId", "UserName" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.GrantUserPermissionRequest), global::Yandex.Cloud.Mdb.Mysql.V1.GrantUserPermissionRequest.Parser, new[]{ "ClusterId", "UserName", "Permission" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.GrantUserPermissionMetadata), global::Yandex.Cloud.Mdb.Mysql.V1.GrantUserPermissionMetadata.Parser, new[]{ "ClusterId", "UserName" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.RevokeUserPermissionRequest), global::Yandex.Cloud.Mdb.Mysql.V1.RevokeUserPermissionRequest.Parser, new[]{ "ClusterId", "UserName", "Permission" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.RevokeUserPermissionMetadata), global::Yandex.Cloud.Mdb.Mysql.V1.RevokeUserPermissionMetadata.Parser, new[]{ "ClusterId", "UserName" }, null, null, null, null)
           }));
     }
     #endregion
@@ -1116,7 +1116,7 @@ namespace Yandex.Cloud.Mdb.Mysql.V1 {
 
     /// <summary>Field number for the "authentication_plugin" field.</summary>
     public const int AuthenticationPluginFieldNumber = 8;
-    private global::Yandex.Cloud.Mdb.Mysql.V1.AuthPlugin authenticationPlugin_ = 0;
+    private global::Yandex.Cloud.Mdb.Mysql.V1.AuthPlugin authenticationPlugin_ = global::Yandex.Cloud.Mdb.Mysql.V1.AuthPlugin.Unspecified;
     /// <summary>
     /// New user authentication plugin.
     /// </summary>
@@ -1162,7 +1162,7 @@ namespace Yandex.Cloud.Mdb.Mysql.V1 {
       hash ^= permissions_.GetHashCode();
       hash ^= globalPermissions_.GetHashCode();
       if (connectionLimits_ != null) hash ^= ConnectionLimits.GetHashCode();
-      if (AuthenticationPlugin != 0) hash ^= AuthenticationPlugin.GetHashCode();
+      if (AuthenticationPlugin != global::Yandex.Cloud.Mdb.Mysql.V1.AuthPlugin.Unspecified) hash ^= AuthenticationPlugin.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1198,7 +1198,7 @@ namespace Yandex.Cloud.Mdb.Mysql.V1 {
         output.WriteRawTag(58);
         output.WriteMessage(ConnectionLimits);
       }
-      if (AuthenticationPlugin != 0) {
+      if (AuthenticationPlugin != global::Yandex.Cloud.Mdb.Mysql.V1.AuthPlugin.Unspecified) {
         output.WriteRawTag(64);
         output.WriteEnum((int) AuthenticationPlugin);
       }
@@ -1227,7 +1227,7 @@ namespace Yandex.Cloud.Mdb.Mysql.V1 {
       if (connectionLimits_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(ConnectionLimits);
       }
-      if (AuthenticationPlugin != 0) {
+      if (AuthenticationPlugin != global::Yandex.Cloud.Mdb.Mysql.V1.AuthPlugin.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) AuthenticationPlugin);
       }
       if (_unknownFields != null) {
@@ -1264,7 +1264,7 @@ namespace Yandex.Cloud.Mdb.Mysql.V1 {
         }
         ConnectionLimits.MergeFrom(other.ConnectionLimits);
       }
-      if (other.AuthenticationPlugin != 0) {
+      if (other.AuthenticationPlugin != global::Yandex.Cloud.Mdb.Mysql.V1.AuthPlugin.Unspecified) {
         AuthenticationPlugin = other.AuthenticationPlugin;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);

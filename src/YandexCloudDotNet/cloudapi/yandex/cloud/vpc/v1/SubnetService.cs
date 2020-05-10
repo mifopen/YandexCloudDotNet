@@ -96,20 +96,20 @@ namespace Yandex.Cloud.Vpc.V1 {
             "dnBjL3YxO3ZwY2IGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Yandex.Cloud.Api.OperationReflection.Descriptor, global::Yandex.Cloud.Vpc.V1.SubnetReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.GetSubnetRequest), global::Yandex.Cloud.Vpc.V1.GetSubnetRequest.Parser, new[]{ "SubnetId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.ListSubnetsRequest), global::Yandex.Cloud.Vpc.V1.ListSubnetsRequest.Parser, new[]{ "FolderId", "PageSize", "PageToken", "Filter" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.ListSubnetsResponse), global::Yandex.Cloud.Vpc.V1.ListSubnetsResponse.Parser, new[]{ "Subnets", "NextPageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.CreateSubnetRequest), global::Yandex.Cloud.Vpc.V1.CreateSubnetRequest.Parser, new[]{ "FolderId", "Name", "Description", "Labels", "NetworkId", "ZoneId", "V4CidrBlocks", "RouteTableId" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.CreateSubnetMetadata), global::Yandex.Cloud.Vpc.V1.CreateSubnetMetadata.Parser, new[]{ "SubnetId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.UpdateSubnetRequest), global::Yandex.Cloud.Vpc.V1.UpdateSubnetRequest.Parser, new[]{ "SubnetId", "UpdateMask", "Name", "Description", "Labels", "RouteTableId" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.UpdateSubnetMetadata), global::Yandex.Cloud.Vpc.V1.UpdateSubnetMetadata.Parser, new[]{ "SubnetId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.DeleteSubnetRequest), global::Yandex.Cloud.Vpc.V1.DeleteSubnetRequest.Parser, new[]{ "SubnetId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.DeleteSubnetMetadata), global::Yandex.Cloud.Vpc.V1.DeleteSubnetMetadata.Parser, new[]{ "SubnetId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.ListSubnetOperationsRequest), global::Yandex.Cloud.Vpc.V1.ListSubnetOperationsRequest.Parser, new[]{ "SubnetId", "PageSize", "PageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.ListSubnetOperationsResponse), global::Yandex.Cloud.Vpc.V1.ListSubnetOperationsResponse.Parser, new[]{ "Operations", "NextPageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.MoveSubnetRequest), global::Yandex.Cloud.Vpc.V1.MoveSubnetRequest.Parser, new[]{ "SubnetId", "DestinationFolderId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.MoveSubnetMetadata), global::Yandex.Cloud.Vpc.V1.MoveSubnetMetadata.Parser, new[]{ "SubnetId" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.GetSubnetRequest), global::Yandex.Cloud.Vpc.V1.GetSubnetRequest.Parser, new[]{ "SubnetId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.ListSubnetsRequest), global::Yandex.Cloud.Vpc.V1.ListSubnetsRequest.Parser, new[]{ "FolderId", "PageSize", "PageToken", "Filter" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.ListSubnetsResponse), global::Yandex.Cloud.Vpc.V1.ListSubnetsResponse.Parser, new[]{ "Subnets", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.CreateSubnetRequest), global::Yandex.Cloud.Vpc.V1.CreateSubnetRequest.Parser, new[]{ "FolderId", "Name", "Description", "Labels", "NetworkId", "ZoneId", "V4CidrBlocks", "RouteTableId" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.CreateSubnetMetadata), global::Yandex.Cloud.Vpc.V1.CreateSubnetMetadata.Parser, new[]{ "SubnetId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.UpdateSubnetRequest), global::Yandex.Cloud.Vpc.V1.UpdateSubnetRequest.Parser, new[]{ "SubnetId", "UpdateMask", "Name", "Description", "Labels", "RouteTableId" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.UpdateSubnetMetadata), global::Yandex.Cloud.Vpc.V1.UpdateSubnetMetadata.Parser, new[]{ "SubnetId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.DeleteSubnetRequest), global::Yandex.Cloud.Vpc.V1.DeleteSubnetRequest.Parser, new[]{ "SubnetId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.DeleteSubnetMetadata), global::Yandex.Cloud.Vpc.V1.DeleteSubnetMetadata.Parser, new[]{ "SubnetId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.ListSubnetOperationsRequest), global::Yandex.Cloud.Vpc.V1.ListSubnetOperationsRequest.Parser, new[]{ "SubnetId", "PageSize", "PageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.ListSubnetOperationsResponse), global::Yandex.Cloud.Vpc.V1.ListSubnetOperationsResponse.Parser, new[]{ "Operations", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.MoveSubnetRequest), global::Yandex.Cloud.Vpc.V1.MoveSubnetRequest.Parser, new[]{ "SubnetId", "DestinationFolderId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.MoveSubnetMetadata), global::Yandex.Cloud.Vpc.V1.MoveSubnetMetadata.Parser, new[]{ "SubnetId" }, null, null, null, null)
           }));
     }
     #endregion
@@ -731,7 +731,7 @@ namespace Yandex.Cloud.Vpc.V1 {
     /// <summary>Field number for the "labels" field.</summary>
     public const int LabelsFieldNumber = 4;
     private static readonly pbc::MapField<string, string>.Codec _map_labels_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 34);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 34);
     private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
     /// <summary>
     /// Resource labels, `` key:value `` pairs.
@@ -1214,7 +1214,7 @@ namespace Yandex.Cloud.Vpc.V1 {
     /// <summary>Field number for the "labels" field.</summary>
     public const int LabelsFieldNumber = 5;
     private static readonly pbc::MapField<string, string>.Codec _map_labels_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 42);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 42);
     private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
     /// <summary>
     /// Resource labels as `` key:value `` pairs.

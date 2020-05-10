@@ -72,15 +72,15 @@ namespace Yandex.Cloud.Kms.V1 {
             "bnByb3RvL3lhbmRleC9jbG91ZC9rbXMvdjE7a21zYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Yandex.Cloud.Kms.V1.SymmetricKeyReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Kms.V1.SymmetricEncryptRequest), global::Yandex.Cloud.Kms.V1.SymmetricEncryptRequest.Parser, new[]{ "KeyId", "VersionId", "AadContext", "Plaintext" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Kms.V1.SymmetricEncryptResponse), global::Yandex.Cloud.Kms.V1.SymmetricEncryptResponse.Parser, new[]{ "KeyId", "VersionId", "Ciphertext" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Kms.V1.SymmetricDecryptRequest), global::Yandex.Cloud.Kms.V1.SymmetricDecryptRequest.Parser, new[]{ "KeyId", "AadContext", "Ciphertext" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Kms.V1.SymmetricDecryptResponse), global::Yandex.Cloud.Kms.V1.SymmetricDecryptResponse.Parser, new[]{ "KeyId", "VersionId", "Plaintext" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Kms.V1.GenerateDataKeyRequest), global::Yandex.Cloud.Kms.V1.GenerateDataKeyRequest.Parser, new[]{ "KeyId", "VersionId", "AadContext", "DataKeySpec", "SkipPlaintext" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Kms.V1.GenerateDataKeyResponse), global::Yandex.Cloud.Kms.V1.GenerateDataKeyResponse.Parser, new[]{ "KeyId", "VersionId", "DataKeyPlaintext", "DataKeyCiphertext" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Kms.V1.SymmetricReEncryptRequest), global::Yandex.Cloud.Kms.V1.SymmetricReEncryptRequest.Parser, new[]{ "KeyId", "VersionId", "AadContext", "SourceKeyId", "SourceAadContext", "Ciphertext" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Kms.V1.SymmetricReEncryptResponse), global::Yandex.Cloud.Kms.V1.SymmetricReEncryptResponse.Parser, new[]{ "KeyId", "VersionId", "SourceKeyId", "SourceVersionId", "Ciphertext" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Kms.V1.SymmetricEncryptRequest), global::Yandex.Cloud.Kms.V1.SymmetricEncryptRequest.Parser, new[]{ "KeyId", "VersionId", "AadContext", "Plaintext" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Kms.V1.SymmetricEncryptResponse), global::Yandex.Cloud.Kms.V1.SymmetricEncryptResponse.Parser, new[]{ "KeyId", "VersionId", "Ciphertext" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Kms.V1.SymmetricDecryptRequest), global::Yandex.Cloud.Kms.V1.SymmetricDecryptRequest.Parser, new[]{ "KeyId", "AadContext", "Ciphertext" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Kms.V1.SymmetricDecryptResponse), global::Yandex.Cloud.Kms.V1.SymmetricDecryptResponse.Parser, new[]{ "KeyId", "VersionId", "Plaintext" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Kms.V1.GenerateDataKeyRequest), global::Yandex.Cloud.Kms.V1.GenerateDataKeyRequest.Parser, new[]{ "KeyId", "VersionId", "AadContext", "DataKeySpec", "SkipPlaintext" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Kms.V1.GenerateDataKeyResponse), global::Yandex.Cloud.Kms.V1.GenerateDataKeyResponse.Parser, new[]{ "KeyId", "VersionId", "DataKeyPlaintext", "DataKeyCiphertext" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Kms.V1.SymmetricReEncryptRequest), global::Yandex.Cloud.Kms.V1.SymmetricReEncryptRequest.Parser, new[]{ "KeyId", "VersionId", "AadContext", "SourceKeyId", "SourceAadContext", "Ciphertext" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Kms.V1.SymmetricReEncryptResponse), global::Yandex.Cloud.Kms.V1.SymmetricReEncryptResponse.Parser, new[]{ "KeyId", "VersionId", "SourceKeyId", "SourceVersionId", "Ciphertext" }, null, null, null, null)
           }));
     }
     #endregion
@@ -986,7 +986,7 @@ namespace Yandex.Cloud.Kms.V1 {
 
     /// <summary>Field number for the "data_key_spec" field.</summary>
     public const int DataKeySpecFieldNumber = 4;
-    private global::Yandex.Cloud.Kms.V1.SymmetricAlgorithm dataKeySpec_ = 0;
+    private global::Yandex.Cloud.Kms.V1.SymmetricAlgorithm dataKeySpec_ = global::Yandex.Cloud.Kms.V1.SymmetricAlgorithm.Unspecified;
     /// <summary>
     /// Encryption algorithm and key length for the generated data key.
     /// </summary>
@@ -1040,7 +1040,7 @@ namespace Yandex.Cloud.Kms.V1 {
       if (KeyId.Length != 0) hash ^= KeyId.GetHashCode();
       if (VersionId.Length != 0) hash ^= VersionId.GetHashCode();
       if (AadContext.Length != 0) hash ^= AadContext.GetHashCode();
-      if (DataKeySpec != 0) hash ^= DataKeySpec.GetHashCode();
+      if (DataKeySpec != global::Yandex.Cloud.Kms.V1.SymmetricAlgorithm.Unspecified) hash ^= DataKeySpec.GetHashCode();
       if (SkipPlaintext != false) hash ^= SkipPlaintext.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -1067,7 +1067,7 @@ namespace Yandex.Cloud.Kms.V1 {
         output.WriteRawTag(26);
         output.WriteBytes(AadContext);
       }
-      if (DataKeySpec != 0) {
+      if (DataKeySpec != global::Yandex.Cloud.Kms.V1.SymmetricAlgorithm.Unspecified) {
         output.WriteRawTag(32);
         output.WriteEnum((int) DataKeySpec);
       }
@@ -1092,7 +1092,7 @@ namespace Yandex.Cloud.Kms.V1 {
       if (AadContext.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeBytesSize(AadContext);
       }
-      if (DataKeySpec != 0) {
+      if (DataKeySpec != global::Yandex.Cloud.Kms.V1.SymmetricAlgorithm.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) DataKeySpec);
       }
       if (SkipPlaintext != false) {
@@ -1118,7 +1118,7 @@ namespace Yandex.Cloud.Kms.V1 {
       if (other.AadContext.Length != 0) {
         AadContext = other.AadContext;
       }
-      if (other.DataKeySpec != 0) {
+      if (other.DataKeySpec != global::Yandex.Cloud.Kms.V1.SymmetricAlgorithm.Unspecified) {
         DataKeySpec = other.DataKeySpec;
       }
       if (other.SkipPlaintext != false) {

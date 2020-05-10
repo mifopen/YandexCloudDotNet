@@ -99,20 +99,20 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
             "Z29kYi92MTttb25nb2RiYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.Mdb.Mongodb.V1.UserReflection.Descriptor, global::Yandex.Cloud.Api.OperationReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.GetUserRequest), global::Yandex.Cloud.Mdb.Mongodb.V1.GetUserRequest.Parser, new[]{ "ClusterId", "UserName" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.ListUsersRequest), global::Yandex.Cloud.Mdb.Mongodb.V1.ListUsersRequest.Parser, new[]{ "ClusterId", "PageSize", "PageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.ListUsersResponse), global::Yandex.Cloud.Mdb.Mongodb.V1.ListUsersResponse.Parser, new[]{ "Users", "NextPageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.CreateUserRequest), global::Yandex.Cloud.Mdb.Mongodb.V1.CreateUserRequest.Parser, new[]{ "ClusterId", "UserSpec" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.CreateUserMetadata), global::Yandex.Cloud.Mdb.Mongodb.V1.CreateUserMetadata.Parser, new[]{ "ClusterId", "UserName" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.UpdateUserRequest), global::Yandex.Cloud.Mdb.Mongodb.V1.UpdateUserRequest.Parser, new[]{ "ClusterId", "UserName", "UpdateMask", "Password", "Permissions" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.UpdateUserMetadata), global::Yandex.Cloud.Mdb.Mongodb.V1.UpdateUserMetadata.Parser, new[]{ "ClusterId", "UserName" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.DeleteUserRequest), global::Yandex.Cloud.Mdb.Mongodb.V1.DeleteUserRequest.Parser, new[]{ "ClusterId", "UserName" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.DeleteUserMetadata), global::Yandex.Cloud.Mdb.Mongodb.V1.DeleteUserMetadata.Parser, new[]{ "ClusterId", "UserName" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.GrantUserPermissionRequest), global::Yandex.Cloud.Mdb.Mongodb.V1.GrantUserPermissionRequest.Parser, new[]{ "ClusterId", "UserName", "Permission" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.GrantUserPermissionMetadata), global::Yandex.Cloud.Mdb.Mongodb.V1.GrantUserPermissionMetadata.Parser, new[]{ "ClusterId", "UserName" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.RevokeUserPermissionRequest), global::Yandex.Cloud.Mdb.Mongodb.V1.RevokeUserPermissionRequest.Parser, new[]{ "ClusterId", "UserName", "DatabaseName" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.RevokeUserPermissionMetadata), global::Yandex.Cloud.Mdb.Mongodb.V1.RevokeUserPermissionMetadata.Parser, new[]{ "ClusterId", "UserName" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.GetUserRequest), global::Yandex.Cloud.Mdb.Mongodb.V1.GetUserRequest.Parser, new[]{ "ClusterId", "UserName" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.ListUsersRequest), global::Yandex.Cloud.Mdb.Mongodb.V1.ListUsersRequest.Parser, new[]{ "ClusterId", "PageSize", "PageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.ListUsersResponse), global::Yandex.Cloud.Mdb.Mongodb.V1.ListUsersResponse.Parser, new[]{ "Users", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.CreateUserRequest), global::Yandex.Cloud.Mdb.Mongodb.V1.CreateUserRequest.Parser, new[]{ "ClusterId", "UserSpec" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.CreateUserMetadata), global::Yandex.Cloud.Mdb.Mongodb.V1.CreateUserMetadata.Parser, new[]{ "ClusterId", "UserName" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.UpdateUserRequest), global::Yandex.Cloud.Mdb.Mongodb.V1.UpdateUserRequest.Parser, new[]{ "ClusterId", "UserName", "UpdateMask", "Password", "Permissions" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.UpdateUserMetadata), global::Yandex.Cloud.Mdb.Mongodb.V1.UpdateUserMetadata.Parser, new[]{ "ClusterId", "UserName" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.DeleteUserRequest), global::Yandex.Cloud.Mdb.Mongodb.V1.DeleteUserRequest.Parser, new[]{ "ClusterId", "UserName" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.DeleteUserMetadata), global::Yandex.Cloud.Mdb.Mongodb.V1.DeleteUserMetadata.Parser, new[]{ "ClusterId", "UserName" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.GrantUserPermissionRequest), global::Yandex.Cloud.Mdb.Mongodb.V1.GrantUserPermissionRequest.Parser, new[]{ "ClusterId", "UserName", "Permission" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.GrantUserPermissionMetadata), global::Yandex.Cloud.Mdb.Mongodb.V1.GrantUserPermissionMetadata.Parser, new[]{ "ClusterId", "UserName" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.RevokeUserPermissionRequest), global::Yandex.Cloud.Mdb.Mongodb.V1.RevokeUserPermissionRequest.Parser, new[]{ "ClusterId", "UserName", "DatabaseName" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.RevokeUserPermissionMetadata), global::Yandex.Cloud.Mdb.Mongodb.V1.RevokeUserPermissionMetadata.Parser, new[]{ "ClusterId", "UserName" }, null, null, null, null)
           }));
     }
     #endregion

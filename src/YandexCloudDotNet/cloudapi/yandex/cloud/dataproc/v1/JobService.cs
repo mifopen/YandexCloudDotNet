@@ -70,14 +70,14 @@ namespace Yandex.Cloud.Dataproc.V1 {
             "MTtkYXRhcHJvY2IGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Yandex.Cloud.Dataproc.V1.JobReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, global::Yandex.Cloud.Api.OperationReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.GetJobRequest), global::Yandex.Cloud.Dataproc.V1.GetJobRequest.Parser, new[]{ "ClusterId", "JobId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.ListJobsRequest), global::Yandex.Cloud.Dataproc.V1.ListJobsRequest.Parser, new[]{ "ClusterId", "PageSize", "PageToken", "Filter" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.ListJobsResponse), global::Yandex.Cloud.Dataproc.V1.ListJobsResponse.Parser, new[]{ "Jobs", "NextPageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.CreateJobRequest), global::Yandex.Cloud.Dataproc.V1.CreateJobRequest.Parser, new[]{ "ClusterId", "Name", "MapreduceJob", "SparkJob", "PysparkJob", "HiveJob" }, new[]{ "JobSpec" }, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.CreateJobMetadata), global::Yandex.Cloud.Dataproc.V1.CreateJobMetadata.Parser, new[]{ "ClusterId", "JobId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.ListJobLogRequest), global::Yandex.Cloud.Dataproc.V1.ListJobLogRequest.Parser, new[]{ "ClusterId", "JobId", "PageSize", "PageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.ListJobLogResponse), global::Yandex.Cloud.Dataproc.V1.ListJobLogResponse.Parser, new[]{ "Content", "NextPageToken" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.GetJobRequest), global::Yandex.Cloud.Dataproc.V1.GetJobRequest.Parser, new[]{ "ClusterId", "JobId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.ListJobsRequest), global::Yandex.Cloud.Dataproc.V1.ListJobsRequest.Parser, new[]{ "ClusterId", "PageSize", "PageToken", "Filter" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.ListJobsResponse), global::Yandex.Cloud.Dataproc.V1.ListJobsResponse.Parser, new[]{ "Jobs", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.CreateJobRequest), global::Yandex.Cloud.Dataproc.V1.CreateJobRequest.Parser, new[]{ "ClusterId", "Name", "MapreduceJob", "SparkJob", "PysparkJob", "HiveJob" }, new[]{ "JobSpec" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.CreateJobMetadata), global::Yandex.Cloud.Dataproc.V1.CreateJobMetadata.Parser, new[]{ "ClusterId", "JobId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.ListJobLogRequest), global::Yandex.Cloud.Dataproc.V1.ListJobLogRequest.Parser, new[]{ "ClusterId", "JobId", "PageSize", "PageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.ListJobLogResponse), global::Yandex.Cloud.Dataproc.V1.ListJobLogResponse.Parser, new[]{ "Content", "NextPageToken" }, null, null, null, null)
           }));
     }
     #endregion

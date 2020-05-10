@@ -87,7 +87,7 @@ namespace Yandex.Cloud.Vpc.V1 {
     {
       /// <summary>Creates a new client for SubnetService</summary>
       /// <param name="channel">The channel to use to make remote calls.</param>
-      public SubnetServiceClient(grpc::Channel channel) : base(channel)
+      public SubnetServiceClient(grpc::ChannelBase channel) : base(channel)
       {
       }
       /// <summary>Creates a new client for SubnetService that uses a custom <c>CallInvoker</c>.</summary>

@@ -48,11 +48,11 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
             "L3YxO2RldmljZXNiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.Registry), global::Yandex.Cloud.Iot.Devices.V1.Registry.Parser, new[]{ "Id", "FolderId", "CreatedAt", "Name", "Description", "Labels", "Status", "LogGroupId" }, null, new[]{ typeof(global::Yandex.Cloud.Iot.Devices.V1.Registry.Types.Status) }, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.RegistryCertificate), global::Yandex.Cloud.Iot.Devices.V1.RegistryCertificate.Parser, new[]{ "RegistryId", "Fingerprint", "CertificateData", "CreatedAt" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.DeviceAlias), global::Yandex.Cloud.Iot.Devices.V1.DeviceAlias.Parser, new[]{ "DeviceId", "TopicPrefix", "Alias" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.RegistryPassword), global::Yandex.Cloud.Iot.Devices.V1.RegistryPassword.Parser, new[]{ "RegistryId", "Id", "CreatedAt" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.Registry), global::Yandex.Cloud.Iot.Devices.V1.Registry.Parser, new[]{ "Id", "FolderId", "CreatedAt", "Name", "Description", "Labels", "Status", "LogGroupId" }, null, new[]{ typeof(global::Yandex.Cloud.Iot.Devices.V1.Registry.Types.Status) }, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.RegistryCertificate), global::Yandex.Cloud.Iot.Devices.V1.RegistryCertificate.Parser, new[]{ "RegistryId", "Fingerprint", "CertificateData", "CreatedAt" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.DeviceAlias), global::Yandex.Cloud.Iot.Devices.V1.DeviceAlias.Parser, new[]{ "DeviceId", "TopicPrefix", "Alias" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.RegistryPassword), global::Yandex.Cloud.Iot.Devices.V1.RegistryPassword.Parser, new[]{ "RegistryId", "Id", "CreatedAt" }, null, null, null, null)
           }));
     }
     #endregion
@@ -176,7 +176,7 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     /// <summary>Field number for the "labels" field.</summary>
     public const int LabelsFieldNumber = 6;
     private static readonly pbc::MapField<string, string>.Codec _map_labels_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 50);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 50);
     private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
     /// <summary>
     /// Resource labels as `key:value` pairs. Мaximum of 64 per resource.
@@ -188,7 +188,7 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
 
     /// <summary>Field number for the "status" field.</summary>
     public const int StatusFieldNumber = 7;
-    private global::Yandex.Cloud.Iot.Devices.V1.Registry.Types.Status status_ = 0;
+    private global::Yandex.Cloud.Iot.Devices.V1.Registry.Types.Status status_ = global::Yandex.Cloud.Iot.Devices.V1.Registry.Types.Status.Unspecified;
     /// <summary>
     /// Status of the registry.
     /// </summary>
@@ -247,7 +247,7 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
       if (Name.Length != 0) hash ^= Name.GetHashCode();
       if (Description.Length != 0) hash ^= Description.GetHashCode();
       hash ^= Labels.GetHashCode();
-      if (Status != 0) hash ^= Status.GetHashCode();
+      if (Status != global::Yandex.Cloud.Iot.Devices.V1.Registry.Types.Status.Unspecified) hash ^= Status.GetHashCode();
       if (LogGroupId.Length != 0) hash ^= LogGroupId.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -283,7 +283,7 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
         output.WriteString(Description);
       }
       labels_.WriteTo(output, _map_labels_codec);
-      if (Status != 0) {
+      if (Status != global::Yandex.Cloud.Iot.Devices.V1.Registry.Types.Status.Unspecified) {
         output.WriteRawTag(56);
         output.WriteEnum((int) Status);
       }
@@ -315,7 +315,7 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Description);
       }
       size += labels_.CalculateSize(_map_labels_codec);
-      if (Status != 0) {
+      if (Status != global::Yandex.Cloud.Iot.Devices.V1.Registry.Types.Status.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Status);
       }
       if (LogGroupId.Length != 0) {
@@ -351,7 +351,7 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
         Description = other.Description;
       }
       labels_.Add(other.labels_);
-      if (other.Status != 0) {
+      if (other.Status != global::Yandex.Cloud.Iot.Devices.V1.Registry.Types.Status.Unspecified) {
         Status = other.Status;
       }
       if (other.LogGroupId.Length != 0) {

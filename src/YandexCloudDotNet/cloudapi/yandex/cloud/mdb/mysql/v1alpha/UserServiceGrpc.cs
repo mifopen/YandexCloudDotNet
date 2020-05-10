@@ -86,7 +86,7 @@ namespace Yandex.Cloud.Mdb.Mysql.V1Alpha {
     {
       /// <summary>Creates a new client for UserService</summary>
       /// <param name="channel">The channel to use to make remote calls.</param>
-      public UserServiceClient(grpc::Channel channel) : base(channel)
+      public UserServiceClient(grpc::ChannelBase channel) : base(channel)
       {
       }
       /// <summary>Creates a new client for UserService that uses a custom <c>CallInvoker</c>.</summary>

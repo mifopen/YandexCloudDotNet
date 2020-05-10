@@ -34,8 +34,8 @@ namespace Yandex.Cloud.Iam.V1 {
             "by1nZW5wcm90by95YW5kZXgvY2xvdWQvaWFtL3YxO2lhbWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.ServiceAccount), global::Yandex.Cloud.Iam.V1.ServiceAccount.Parser, new[]{ "Id", "FolderId", "CreatedAt", "Name", "Description" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.ServiceAccount), global::Yandex.Cloud.Iam.V1.ServiceAccount.Parser, new[]{ "Id", "FolderId", "CreatedAt", "Name", "Description" }, null, null, null, null)
           }));
     }
     #endregion

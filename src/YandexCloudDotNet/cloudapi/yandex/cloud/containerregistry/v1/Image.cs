@@ -39,8 +39,8 @@ namespace Yandex.Cloud.Containerregistry.V1 {
             "aXN0cnliBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Yandex.Cloud.Containerregistry.V1.BlobReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.Image), global::Yandex.Cloud.Containerregistry.V1.Image.Parser, new[]{ "Id", "Name", "Digest", "CompressedSize", "Config", "Layers", "Tags", "CreatedAt" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.Image), global::Yandex.Cloud.Containerregistry.V1.Image.Parser, new[]{ "Id", "Name", "Digest", "CompressedSize", "Config", "Layers", "Tags", "CreatedAt" }, null, null, null, null)
           }));
     }
     #endregion

@@ -108,18 +108,18 @@ namespace Yandex.Cloud.Resourcemanager.V1 {
             "ZXNvdXJjZW1hbmFnZXIvdjE7cmVzb3VyY2VtYW5hZ2VyYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Yandex.Cloud.Api.OperationReflection.Descriptor, global::Yandex.Cloud.Resourcemanager.V1.FolderReflection.Descriptor, global::Yandex.Cloud.Access.AccessReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Resourcemanager.V1.GetFolderRequest), global::Yandex.Cloud.Resourcemanager.V1.GetFolderRequest.Parser, new[]{ "FolderId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Resourcemanager.V1.ListFoldersRequest), global::Yandex.Cloud.Resourcemanager.V1.ListFoldersRequest.Parser, new[]{ "CloudId", "PageSize", "PageToken", "Filter" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Resourcemanager.V1.ListFoldersResponse), global::Yandex.Cloud.Resourcemanager.V1.ListFoldersResponse.Parser, new[]{ "Folders", "NextPageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Resourcemanager.V1.CreateFolderRequest), global::Yandex.Cloud.Resourcemanager.V1.CreateFolderRequest.Parser, new[]{ "CloudId", "Name", "Description", "Labels" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Resourcemanager.V1.CreateFolderMetadata), global::Yandex.Cloud.Resourcemanager.V1.CreateFolderMetadata.Parser, new[]{ "FolderId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Resourcemanager.V1.UpdateFolderRequest), global::Yandex.Cloud.Resourcemanager.V1.UpdateFolderRequest.Parser, new[]{ "FolderId", "UpdateMask", "Name", "Description", "Labels" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Resourcemanager.V1.UpdateFolderMetadata), global::Yandex.Cloud.Resourcemanager.V1.UpdateFolderMetadata.Parser, new[]{ "FolderId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Resourcemanager.V1.DeleteFolderRequest), global::Yandex.Cloud.Resourcemanager.V1.DeleteFolderRequest.Parser, new[]{ "FolderId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Resourcemanager.V1.DeleteFolderMetadata), global::Yandex.Cloud.Resourcemanager.V1.DeleteFolderMetadata.Parser, new[]{ "FolderId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Resourcemanager.V1.ListFolderOperationsRequest), global::Yandex.Cloud.Resourcemanager.V1.ListFolderOperationsRequest.Parser, new[]{ "FolderId", "PageSize", "PageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Resourcemanager.V1.ListFolderOperationsResponse), global::Yandex.Cloud.Resourcemanager.V1.ListFolderOperationsResponse.Parser, new[]{ "Operations", "NextPageToken" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Resourcemanager.V1.GetFolderRequest), global::Yandex.Cloud.Resourcemanager.V1.GetFolderRequest.Parser, new[]{ "FolderId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Resourcemanager.V1.ListFoldersRequest), global::Yandex.Cloud.Resourcemanager.V1.ListFoldersRequest.Parser, new[]{ "CloudId", "PageSize", "PageToken", "Filter" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Resourcemanager.V1.ListFoldersResponse), global::Yandex.Cloud.Resourcemanager.V1.ListFoldersResponse.Parser, new[]{ "Folders", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Resourcemanager.V1.CreateFolderRequest), global::Yandex.Cloud.Resourcemanager.V1.CreateFolderRequest.Parser, new[]{ "CloudId", "Name", "Description", "Labels" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Resourcemanager.V1.CreateFolderMetadata), global::Yandex.Cloud.Resourcemanager.V1.CreateFolderMetadata.Parser, new[]{ "FolderId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Resourcemanager.V1.UpdateFolderRequest), global::Yandex.Cloud.Resourcemanager.V1.UpdateFolderRequest.Parser, new[]{ "FolderId", "UpdateMask", "Name", "Description", "Labels" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Resourcemanager.V1.UpdateFolderMetadata), global::Yandex.Cloud.Resourcemanager.V1.UpdateFolderMetadata.Parser, new[]{ "FolderId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Resourcemanager.V1.DeleteFolderRequest), global::Yandex.Cloud.Resourcemanager.V1.DeleteFolderRequest.Parser, new[]{ "FolderId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Resourcemanager.V1.DeleteFolderMetadata), global::Yandex.Cloud.Resourcemanager.V1.DeleteFolderMetadata.Parser, new[]{ "FolderId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Resourcemanager.V1.ListFolderOperationsRequest), global::Yandex.Cloud.Resourcemanager.V1.ListFolderOperationsRequest.Parser, new[]{ "FolderId", "PageSize", "PageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Resourcemanager.V1.ListFolderOperationsResponse), global::Yandex.Cloud.Resourcemanager.V1.ListFolderOperationsResponse.Parser, new[]{ "Operations", "NextPageToken" }, null, null, null, null)
           }));
     }
     #endregion
@@ -739,7 +739,7 @@ namespace Yandex.Cloud.Resourcemanager.V1 {
     /// <summary>Field number for the "labels" field.</summary>
     public const int LabelsFieldNumber = 4;
     private static readonly pbc::MapField<string, string>.Codec _map_labels_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 34);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 34);
     private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
     /// <summary>
     /// Resource labels as `` key:value `` pairs.
@@ -1105,7 +1105,7 @@ namespace Yandex.Cloud.Resourcemanager.V1 {
     /// <summary>Field number for the "labels" field.</summary>
     public const int LabelsFieldNumber = 5;
     private static readonly pbc::MapField<string, string>.Codec _map_labels_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 42);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 42);
     private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
     /// <summary>
     /// Resource labels as `` key:value `` pairs.

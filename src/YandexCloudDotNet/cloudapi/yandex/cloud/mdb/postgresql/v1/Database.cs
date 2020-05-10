@@ -42,10 +42,10 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
             "cmVzcWwvdjE7cG9zdGdyZXNxbGIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Yandex.Cloud.ValidationReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Database), global::Yandex.Cloud.Mdb.Postgresql.V1.Database.Parser, new[]{ "Name", "ClusterId", "Owner", "LcCollate", "LcCtype", "Extensions" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Extension), global::Yandex.Cloud.Mdb.Postgresql.V1.Extension.Parser, new[]{ "Name", "Version" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.DatabaseSpec), global::Yandex.Cloud.Mdb.Postgresql.V1.DatabaseSpec.Parser, new[]{ "Name", "Owner", "LcCollate", "LcCtype", "Extensions" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Database), global::Yandex.Cloud.Mdb.Postgresql.V1.Database.Parser, new[]{ "Name", "ClusterId", "Owner", "LcCollate", "LcCtype", "Extensions" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Extension), global::Yandex.Cloud.Mdb.Postgresql.V1.Extension.Parser, new[]{ "Name", "Version" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.DatabaseSpec), global::Yandex.Cloud.Mdb.Postgresql.V1.DatabaseSpec.Parser, new[]{ "Name", "Owner", "LcCollate", "LcCtype", "Extensions" }, null, null, null, null)
           }));
     }
     #endregion

@@ -71,15 +71,15 @@ namespace Yandex.Cloud.Ai.Vision.V1 {
             "L3lhbmRleC9jbG91ZC9haS92aXNpb24vdjE7dmlzaW9uYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Yandex.Cloud.Ai.Vision.V1.TextDetectionReflection.Descriptor, global::Yandex.Cloud.Ai.Vision.V1.ClassificationReflection.Descriptor, global::Yandex.Cloud.Ai.Vision.V1.FaceDetectionReflection.Descriptor, global::Yandex.Cloud.Ai.Vision.V1.ImageCopySearchReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Rpc.StatusReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Vision.V1.BatchAnalyzeRequest), global::Yandex.Cloud.Ai.Vision.V1.BatchAnalyzeRequest.Parser, new[]{ "AnalyzeSpecs", "FolderId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Vision.V1.AnalyzeSpec), global::Yandex.Cloud.Ai.Vision.V1.AnalyzeSpec.Parser, new[]{ "Content", "Signature", "Features", "MimeType" }, new[]{ "Source" }, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Vision.V1.Feature), global::Yandex.Cloud.Ai.Vision.V1.Feature.Parser, new[]{ "Type", "ClassificationConfig", "TextDetectionConfig" }, new[]{ "Config" }, new[]{ typeof(global::Yandex.Cloud.Ai.Vision.V1.Feature.Types.Type) }, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Vision.V1.FeatureClassificationConfig), global::Yandex.Cloud.Ai.Vision.V1.FeatureClassificationConfig.Parser, new[]{ "Model" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Vision.V1.FeatureTextDetectionConfig), global::Yandex.Cloud.Ai.Vision.V1.FeatureTextDetectionConfig.Parser, new[]{ "LanguageCodes", "Model" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Vision.V1.BatchAnalyzeResponse), global::Yandex.Cloud.Ai.Vision.V1.BatchAnalyzeResponse.Parser, new[]{ "Results" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Vision.V1.AnalyzeResult), global::Yandex.Cloud.Ai.Vision.V1.AnalyzeResult.Parser, new[]{ "Results", "Error" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Vision.V1.FeatureResult), global::Yandex.Cloud.Ai.Vision.V1.FeatureResult.Parser, new[]{ "TextDetection", "Classification", "FaceDetection", "ImageCopySearch", "Error" }, new[]{ "Feature" }, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Vision.V1.BatchAnalyzeRequest), global::Yandex.Cloud.Ai.Vision.V1.BatchAnalyzeRequest.Parser, new[]{ "AnalyzeSpecs", "FolderId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Vision.V1.AnalyzeSpec), global::Yandex.Cloud.Ai.Vision.V1.AnalyzeSpec.Parser, new[]{ "Content", "Signature", "Features", "MimeType" }, new[]{ "Source" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Vision.V1.Feature), global::Yandex.Cloud.Ai.Vision.V1.Feature.Parser, new[]{ "Type", "ClassificationConfig", "TextDetectionConfig" }, new[]{ "Config" }, new[]{ typeof(global::Yandex.Cloud.Ai.Vision.V1.Feature.Types.Type) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Vision.V1.FeatureClassificationConfig), global::Yandex.Cloud.Ai.Vision.V1.FeatureClassificationConfig.Parser, new[]{ "Model" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Vision.V1.FeatureTextDetectionConfig), global::Yandex.Cloud.Ai.Vision.V1.FeatureTextDetectionConfig.Parser, new[]{ "LanguageCodes", "Model" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Vision.V1.BatchAnalyzeResponse), global::Yandex.Cloud.Ai.Vision.V1.BatchAnalyzeResponse.Parser, new[]{ "Results" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Vision.V1.AnalyzeResult), global::Yandex.Cloud.Ai.Vision.V1.AnalyzeResult.Parser, new[]{ "Results", "Error" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Vision.V1.FeatureResult), global::Yandex.Cloud.Ai.Vision.V1.FeatureResult.Parser, new[]{ "TextDetection", "Classification", "FaceDetection", "ImageCopySearch", "Error" }, new[]{ "Feature" }, null, null, null)
           }));
     }
     #endregion
@@ -541,7 +541,7 @@ namespace Yandex.Cloud.Ai.Vision.V1 {
 
     /// <summary>Field number for the "type" field.</summary>
     public const int TypeFieldNumber = 1;
-    private global::Yandex.Cloud.Ai.Vision.V1.Feature.Types.Type type_ = 0;
+    private global::Yandex.Cloud.Ai.Vision.V1.Feature.Types.Type type_ = global::Yandex.Cloud.Ai.Vision.V1.Feature.Types.Type.Unspecified;
     /// <summary>
     /// Type of requested feature.
     /// </summary>
@@ -623,7 +623,7 @@ namespace Yandex.Cloud.Ai.Vision.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override int GetHashCode() {
       int hash = 1;
-      if (Type != 0) hash ^= Type.GetHashCode();
+      if (Type != global::Yandex.Cloud.Ai.Vision.V1.Feature.Types.Type.Unspecified) hash ^= Type.GetHashCode();
       if (configCase_ == ConfigOneofCase.ClassificationConfig) hash ^= ClassificationConfig.GetHashCode();
       if (configCase_ == ConfigOneofCase.TextDetectionConfig) hash ^= TextDetectionConfig.GetHashCode();
       hash ^= (int) configCase_;
@@ -640,7 +640,7 @@ namespace Yandex.Cloud.Ai.Vision.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public void WriteTo(pb::CodedOutputStream output) {
-      if (Type != 0) {
+      if (Type != global::Yandex.Cloud.Ai.Vision.V1.Feature.Types.Type.Unspecified) {
         output.WriteRawTag(8);
         output.WriteEnum((int) Type);
       }
@@ -660,7 +660,7 @@ namespace Yandex.Cloud.Ai.Vision.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CalculateSize() {
       int size = 0;
-      if (Type != 0) {
+      if (Type != global::Yandex.Cloud.Ai.Vision.V1.Feature.Types.Type.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Type);
       }
       if (configCase_ == ConfigOneofCase.ClassificationConfig) {
@@ -680,7 +680,7 @@ namespace Yandex.Cloud.Ai.Vision.V1 {
       if (other == null) {
         return;
       }
-      if (other.Type != 0) {
+      if (other.Type != global::Yandex.Cloud.Ai.Vision.V1.Feature.Types.Type.Unspecified) {
         Type = other.Type;
       }
       switch (other.ConfigCase) {

@@ -40,10 +40,10 @@ namespace Yandex.Cloud.K8S.V1 {
             "OHNiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Yandex.Cloud.K8S.V1.ClusterReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.ListVersionsRequest), global::Yandex.Cloud.K8S.V1.ListVersionsRequest.Parser, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.ListVersionsResponse), global::Yandex.Cloud.K8S.V1.ListVersionsResponse.Parser, new[]{ "AvailableVersions" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.AvailableVersions), global::Yandex.Cloud.K8S.V1.AvailableVersions.Parser, new[]{ "ReleaseChannel", "Versions" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.ListVersionsRequest), global::Yandex.Cloud.K8S.V1.ListVersionsRequest.Parser, null, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.ListVersionsResponse), global::Yandex.Cloud.K8S.V1.ListVersionsResponse.Parser, new[]{ "AvailableVersions" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.AvailableVersions), global::Yandex.Cloud.K8S.V1.AvailableVersions.Parser, new[]{ "ReleaseChannel", "Versions" }, null, null, null, null)
           }));
     }
     #endregion
@@ -312,7 +312,7 @@ namespace Yandex.Cloud.K8S.V1 {
 
     /// <summary>Field number for the "release_channel" field.</summary>
     public const int ReleaseChannelFieldNumber = 1;
-    private global::Yandex.Cloud.K8S.V1.ReleaseChannel releaseChannel_ = 0;
+    private global::Yandex.Cloud.K8S.V1.ReleaseChannel releaseChannel_ = global::Yandex.Cloud.K8S.V1.ReleaseChannel.Unspecified;
     /// <summary>
     /// Release channel: `RAPID`, `REGULAR` or `STABLE`. For more details see [documentation](https://cloud.yandex.ru/docs/managed-kubernetes/concepts/release-channels-and-updates).
     /// </summary>
@@ -358,7 +358,7 @@ namespace Yandex.Cloud.K8S.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override int GetHashCode() {
       int hash = 1;
-      if (ReleaseChannel != 0) hash ^= ReleaseChannel.GetHashCode();
+      if (ReleaseChannel != global::Yandex.Cloud.K8S.V1.ReleaseChannel.Unspecified) hash ^= ReleaseChannel.GetHashCode();
       hash ^= versions_.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -373,7 +373,7 @@ namespace Yandex.Cloud.K8S.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public void WriteTo(pb::CodedOutputStream output) {
-      if (ReleaseChannel != 0) {
+      if (ReleaseChannel != global::Yandex.Cloud.K8S.V1.ReleaseChannel.Unspecified) {
         output.WriteRawTag(8);
         output.WriteEnum((int) ReleaseChannel);
       }
@@ -386,7 +386,7 @@ namespace Yandex.Cloud.K8S.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CalculateSize() {
       int size = 0;
-      if (ReleaseChannel != 0) {
+      if (ReleaseChannel != global::Yandex.Cloud.K8S.V1.ReleaseChannel.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) ReleaseChannel);
       }
       size += versions_.CalculateSize(_repeated_versions_codec);
@@ -401,7 +401,7 @@ namespace Yandex.Cloud.K8S.V1 {
       if (other == null) {
         return;
       }
-      if (other.ReleaseChannel != 0) {
+      if (other.ReleaseChannel != global::Yandex.Cloud.K8S.V1.ReleaseChannel.Unspecified) {
         ReleaseChannel = other.ReleaseChannel;
       }
       versions_.Add(other.versions_);

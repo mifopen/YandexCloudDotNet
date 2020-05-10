@@ -34,9 +34,9 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
             "a2hvdXNlL3YxO2NsaWNraG91c2ViBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Yandex.Cloud.ValidationReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Database), global::Yandex.Cloud.Mdb.Clickhouse.V1.Database.Parser, new[]{ "Name", "ClusterId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.DatabaseSpec), global::Yandex.Cloud.Mdb.Clickhouse.V1.DatabaseSpec.Parser, new[]{ "Name" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Database), global::Yandex.Cloud.Mdb.Clickhouse.V1.Database.Parser, new[]{ "Name", "ClusterId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.DatabaseSpec), global::Yandex.Cloud.Mdb.Clickhouse.V1.DatabaseSpec.Parser, new[]{ "Name" }, null, null, null, null)
           }));
     }
     #endregion

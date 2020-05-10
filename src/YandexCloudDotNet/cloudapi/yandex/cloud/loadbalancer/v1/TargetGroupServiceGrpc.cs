@@ -95,7 +95,7 @@ namespace Yandex.Cloud.Loadbalancer.V1 {
     {
       /// <summary>Creates a new client for TargetGroupService</summary>
       /// <param name="channel">The channel to use to make remote calls.</param>
-      public TargetGroupServiceClient(grpc::Channel channel) : base(channel)
+      public TargetGroupServiceClient(grpc::ChannelBase channel) : base(channel)
       {
       }
       /// <summary>Creates a new client for TargetGroupService that uses a custom <c>CallInvoker</c>.</summary>

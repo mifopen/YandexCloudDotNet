@@ -33,9 +33,9 @@ namespace Yandex.Cloud.Ai.Vision.V1 {
             "YgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Vision.V1.Polygon), global::Yandex.Cloud.Ai.Vision.V1.Polygon.Parser, new[]{ "Vertices" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Vision.V1.Vertex), global::Yandex.Cloud.Ai.Vision.V1.Vertex.Parser, new[]{ "X", "Y" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Vision.V1.Polygon), global::Yandex.Cloud.Ai.Vision.V1.Polygon.Parser, new[]{ "Vertices" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Vision.V1.Vertex), global::Yandex.Cloud.Ai.Vision.V1.Vertex.Parser, new[]{ "X", "Y" }, null, null, null, null)
           }));
     }
     #endregion

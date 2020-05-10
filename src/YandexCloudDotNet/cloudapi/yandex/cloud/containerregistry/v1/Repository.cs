@@ -32,8 +32,8 @@ namespace Yandex.Cloud.Containerregistry.V1 {
             "aW5lcnJlZ2lzdHJ5L3YxO2NvbnRhaW5lcnJlZ2lzdHJ5YgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.Repository), global::Yandex.Cloud.Containerregistry.V1.Repository.Parser, new[]{ "Name", "Id" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.Repository), global::Yandex.Cloud.Containerregistry.V1.Repository.Parser, new[]{ "Name", "Id" }, null, null, null, null)
           }));
     }
     #endregion

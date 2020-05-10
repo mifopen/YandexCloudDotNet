@@ -84,14 +84,14 @@ namespace Yandex.Cloud.Resourcemanager.V1 {
             "b3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Yandex.Cloud.Resourcemanager.V1.CloudReflection.Descriptor, global::Yandex.Cloud.Api.OperationReflection.Descriptor, global::Yandex.Cloud.Access.AccessReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Resourcemanager.V1.GetCloudRequest), global::Yandex.Cloud.Resourcemanager.V1.GetCloudRequest.Parser, new[]{ "CloudId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Resourcemanager.V1.ListCloudsRequest), global::Yandex.Cloud.Resourcemanager.V1.ListCloudsRequest.Parser, new[]{ "PageSize", "PageToken", "Filter" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Resourcemanager.V1.ListCloudsResponse), global::Yandex.Cloud.Resourcemanager.V1.ListCloudsResponse.Parser, new[]{ "Clouds", "NextPageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Resourcemanager.V1.ListCloudOperationsRequest), global::Yandex.Cloud.Resourcemanager.V1.ListCloudOperationsRequest.Parser, new[]{ "CloudId", "PageSize", "PageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Resourcemanager.V1.ListCloudOperationsResponse), global::Yandex.Cloud.Resourcemanager.V1.ListCloudOperationsResponse.Parser, new[]{ "Operations", "NextPageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Resourcemanager.V1.UpdateCloudRequest), global::Yandex.Cloud.Resourcemanager.V1.UpdateCloudRequest.Parser, new[]{ "CloudId", "UpdateMask", "Name", "Description" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Resourcemanager.V1.UpdateCloudMetadata), global::Yandex.Cloud.Resourcemanager.V1.UpdateCloudMetadata.Parser, new[]{ "CloudId" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Resourcemanager.V1.GetCloudRequest), global::Yandex.Cloud.Resourcemanager.V1.GetCloudRequest.Parser, new[]{ "CloudId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Resourcemanager.V1.ListCloudsRequest), global::Yandex.Cloud.Resourcemanager.V1.ListCloudsRequest.Parser, new[]{ "PageSize", "PageToken", "Filter" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Resourcemanager.V1.ListCloudsResponse), global::Yandex.Cloud.Resourcemanager.V1.ListCloudsResponse.Parser, new[]{ "Clouds", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Resourcemanager.V1.ListCloudOperationsRequest), global::Yandex.Cloud.Resourcemanager.V1.ListCloudOperationsRequest.Parser, new[]{ "CloudId", "PageSize", "PageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Resourcemanager.V1.ListCloudOperationsResponse), global::Yandex.Cloud.Resourcemanager.V1.ListCloudOperationsResponse.Parser, new[]{ "Operations", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Resourcemanager.V1.UpdateCloudRequest), global::Yandex.Cloud.Resourcemanager.V1.UpdateCloudRequest.Parser, new[]{ "CloudId", "UpdateMask", "Name", "Description" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Resourcemanager.V1.UpdateCloudMetadata), global::Yandex.Cloud.Resourcemanager.V1.UpdateCloudMetadata.Parser, new[]{ "CloudId" }, null, null, null, null)
           }));
     }
     #endregion

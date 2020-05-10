@@ -172,7 +172,7 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     {
       /// <summary>Creates a new client for FunctionService</summary>
       /// <param name="channel">The channel to use to make remote calls.</param>
-      public FunctionServiceClient(grpc::Channel channel) : base(channel)
+      public FunctionServiceClient(grpc::ChannelBase channel) : base(channel)
       {
       }
       /// <summary>Creates a new client for FunctionService that uses a custom <c>CallInvoker</c>.</summary>

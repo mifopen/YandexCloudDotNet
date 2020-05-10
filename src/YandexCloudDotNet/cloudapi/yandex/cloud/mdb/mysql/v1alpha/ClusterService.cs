@@ -213,40 +213,40 @@ namespace Yandex.Cloud.Mdb.Mysql.V1Alpha {
             "eXNxbC92MWFscGhhO215c3FsYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Google.Type.TimeofdayReflection.Descriptor, global::Yandex.Cloud.Api.OperationReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, global::Yandex.Cloud.Mdb.Mysql.V1Alpha.BackupReflection.Descriptor, global::Yandex.Cloud.Mdb.Mysql.V1Alpha.ClusterReflection.Descriptor, global::Yandex.Cloud.Mdb.Mysql.V1Alpha.DatabaseReflection.Descriptor, global::Yandex.Cloud.Mdb.Mysql.V1Alpha.UserReflection.Descriptor, global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Config.Mysql57Reflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.GetClusterRequest), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.GetClusterRequest.Parser, new[]{ "ClusterId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.ListClustersRequest), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.ListClustersRequest.Parser, new[]{ "FolderId", "PageSize", "PageToken", "Filter" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.ListClustersResponse), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.ListClustersResponse.Parser, new[]{ "Clusters", "NextPageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.CreateClusterRequest), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.CreateClusterRequest.Parser, new[]{ "FolderId", "Name", "Description", "Labels", "Environment", "ConfigSpec", "DatabaseSpecs", "UserSpecs", "HostSpecs", "NetworkId" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.CreateClusterMetadata), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.CreateClusterMetadata.Parser, new[]{ "ClusterId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.UpdateClusterRequest), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.UpdateClusterRequest.Parser, new[]{ "ClusterId", "UpdateMask", "Description", "Labels", "ConfigSpec", "Name" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.UpdateClusterMetadata), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.UpdateClusterMetadata.Parser, new[]{ "ClusterId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.DeleteClusterRequest), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.DeleteClusterRequest.Parser, new[]{ "ClusterId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.DeleteClusterMetadata), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.DeleteClusterMetadata.Parser, new[]{ "ClusterId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.BackupClusterRequest), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.BackupClusterRequest.Parser, new[]{ "ClusterId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.BackupClusterMetadata), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.BackupClusterMetadata.Parser, new[]{ "ClusterId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.RestoreClusterRequest), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.RestoreClusterRequest.Parser, new[]{ "BackupId", "Time", "Name", "Description", "Labels", "Environment", "ConfigSpec", "HostSpecs", "NetworkId" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.RestoreClusterMetadata), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.RestoreClusterMetadata.Parser, new[]{ "ClusterId", "BackupId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.LogRecord), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.LogRecord.Parser, new[]{ "Timestamp", "Message" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.ListClusterLogsRequest), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.ListClusterLogsRequest.Parser, new[]{ "ClusterId", "ColumnFilter", "ServiceType", "FromTime", "ToTime", "PageSize", "PageToken", "AlwaysNextPageToken" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.ListClusterLogsRequest.Types.ServiceType) }, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.ListClusterLogsResponse), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.ListClusterLogsResponse.Parser, new[]{ "Logs", "NextPageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.ListClusterOperationsRequest), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.ListClusterOperationsRequest.Parser, new[]{ "ClusterId", "PageSize", "PageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.ListClusterOperationsResponse), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.ListClusterOperationsResponse.Parser, new[]{ "Operations", "NextPageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.ListClusterBackupsRequest), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.ListClusterBackupsRequest.Parser, new[]{ "ClusterId", "PageSize", "PageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.ListClusterBackupsResponse), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.ListClusterBackupsResponse.Parser, new[]{ "Backups", "NextPageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.ListClusterHostsRequest), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.ListClusterHostsRequest.Parser, new[]{ "ClusterId", "PageSize", "PageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.ListClusterHostsResponse), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.ListClusterHostsResponse.Parser, new[]{ "Hosts", "NextPageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.AddClusterHostsRequest), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.AddClusterHostsRequest.Parser, new[]{ "ClusterId", "HostSpecs" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.AddClusterHostsMetadata), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.AddClusterHostsMetadata.Parser, new[]{ "ClusterId", "HostNames" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.DeleteClusterHostsRequest), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.DeleteClusterHostsRequest.Parser, new[]{ "ClusterId", "HostNames" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.DeleteClusterHostsMetadata), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.DeleteClusterHostsMetadata.Parser, new[]{ "ClusterId", "HostNames" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.StartClusterRequest), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.StartClusterRequest.Parser, new[]{ "ClusterId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.StartClusterMetadata), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.StartClusterMetadata.Parser, new[]{ "ClusterId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.StopClusterRequest), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.StopClusterRequest.Parser, new[]{ "ClusterId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.StopClusterMetadata), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.StopClusterMetadata.Parser, new[]{ "ClusterId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.UpdateClusterHostsMetadata), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.UpdateClusterHostsMetadata.Parser, new[]{ "ClusterId", "HostNames" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.HostSpec), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.HostSpec.Parser, new[]{ "ZoneId", "SubnetId", "AssignPublicIp" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.ConfigSpec), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.ConfigSpec.Parser, new[]{ "Version", "MysqlConfig57", "Resources", "BackupWindowStart" }, new[]{ "MysqlConfig" }, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.GetClusterRequest), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.GetClusterRequest.Parser, new[]{ "ClusterId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.ListClustersRequest), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.ListClustersRequest.Parser, new[]{ "FolderId", "PageSize", "PageToken", "Filter" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.ListClustersResponse), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.ListClustersResponse.Parser, new[]{ "Clusters", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.CreateClusterRequest), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.CreateClusterRequest.Parser, new[]{ "FolderId", "Name", "Description", "Labels", "Environment", "ConfigSpec", "DatabaseSpecs", "UserSpecs", "HostSpecs", "NetworkId" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.CreateClusterMetadata), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.CreateClusterMetadata.Parser, new[]{ "ClusterId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.UpdateClusterRequest), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.UpdateClusterRequest.Parser, new[]{ "ClusterId", "UpdateMask", "Description", "Labels", "ConfigSpec", "Name" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.UpdateClusterMetadata), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.UpdateClusterMetadata.Parser, new[]{ "ClusterId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.DeleteClusterRequest), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.DeleteClusterRequest.Parser, new[]{ "ClusterId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.DeleteClusterMetadata), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.DeleteClusterMetadata.Parser, new[]{ "ClusterId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.BackupClusterRequest), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.BackupClusterRequest.Parser, new[]{ "ClusterId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.BackupClusterMetadata), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.BackupClusterMetadata.Parser, new[]{ "ClusterId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.RestoreClusterRequest), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.RestoreClusterRequest.Parser, new[]{ "BackupId", "Time", "Name", "Description", "Labels", "Environment", "ConfigSpec", "HostSpecs", "NetworkId" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.RestoreClusterMetadata), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.RestoreClusterMetadata.Parser, new[]{ "ClusterId", "BackupId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.LogRecord), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.LogRecord.Parser, new[]{ "Timestamp", "Message" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.ListClusterLogsRequest), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.ListClusterLogsRequest.Parser, new[]{ "ClusterId", "ColumnFilter", "ServiceType", "FromTime", "ToTime", "PageSize", "PageToken", "AlwaysNextPageToken" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.ListClusterLogsRequest.Types.ServiceType) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.ListClusterLogsResponse), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.ListClusterLogsResponse.Parser, new[]{ "Logs", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.ListClusterOperationsRequest), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.ListClusterOperationsRequest.Parser, new[]{ "ClusterId", "PageSize", "PageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.ListClusterOperationsResponse), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.ListClusterOperationsResponse.Parser, new[]{ "Operations", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.ListClusterBackupsRequest), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.ListClusterBackupsRequest.Parser, new[]{ "ClusterId", "PageSize", "PageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.ListClusterBackupsResponse), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.ListClusterBackupsResponse.Parser, new[]{ "Backups", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.ListClusterHostsRequest), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.ListClusterHostsRequest.Parser, new[]{ "ClusterId", "PageSize", "PageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.ListClusterHostsResponse), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.ListClusterHostsResponse.Parser, new[]{ "Hosts", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.AddClusterHostsRequest), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.AddClusterHostsRequest.Parser, new[]{ "ClusterId", "HostSpecs" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.AddClusterHostsMetadata), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.AddClusterHostsMetadata.Parser, new[]{ "ClusterId", "HostNames" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.DeleteClusterHostsRequest), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.DeleteClusterHostsRequest.Parser, new[]{ "ClusterId", "HostNames" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.DeleteClusterHostsMetadata), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.DeleteClusterHostsMetadata.Parser, new[]{ "ClusterId", "HostNames" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.StartClusterRequest), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.StartClusterRequest.Parser, new[]{ "ClusterId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.StartClusterMetadata), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.StartClusterMetadata.Parser, new[]{ "ClusterId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.StopClusterRequest), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.StopClusterRequest.Parser, new[]{ "ClusterId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.StopClusterMetadata), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.StopClusterMetadata.Parser, new[]{ "ClusterId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.UpdateClusterHostsMetadata), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.UpdateClusterHostsMetadata.Parser, new[]{ "ClusterId", "HostNames" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.HostSpec), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.HostSpec.Parser, new[]{ "ZoneId", "SubnetId", "AssignPublicIp" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.ConfigSpec), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.ConfigSpec.Parser, new[]{ "Version", "MysqlConfig57", "Resources", "BackupWindowStart" }, new[]{ "MysqlConfig" }, null, null, null)
           }));
     }
     #endregion
@@ -865,7 +865,7 @@ namespace Yandex.Cloud.Mdb.Mysql.V1Alpha {
     /// <summary>Field number for the "labels" field.</summary>
     public const int LabelsFieldNumber = 4;
     private static readonly pbc::MapField<string, string>.Codec _map_labels_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 34);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 34);
     private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
     /// <summary>
     /// Custom labels for the MySQL cluster as `key:value` pairs. Maximum 64 per resource.
@@ -878,7 +878,7 @@ namespace Yandex.Cloud.Mdb.Mysql.V1Alpha {
 
     /// <summary>Field number for the "environment" field.</summary>
     public const int EnvironmentFieldNumber = 5;
-    private global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Cluster.Types.Environment environment_ = 0;
+    private global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Cluster.Types.Environment environment_ = global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Cluster.Types.Environment.Unspecified;
     /// <summary>
     /// Deployment environment of the MySQL cluster.
     /// </summary>
@@ -990,7 +990,7 @@ namespace Yandex.Cloud.Mdb.Mysql.V1Alpha {
       if (Name.Length != 0) hash ^= Name.GetHashCode();
       if (Description.Length != 0) hash ^= Description.GetHashCode();
       hash ^= Labels.GetHashCode();
-      if (Environment != 0) hash ^= Environment.GetHashCode();
+      if (Environment != global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Cluster.Types.Environment.Unspecified) hash ^= Environment.GetHashCode();
       if (configSpec_ != null) hash ^= ConfigSpec.GetHashCode();
       hash ^= databaseSpecs_.GetHashCode();
       hash ^= userSpecs_.GetHashCode();
@@ -1022,7 +1022,7 @@ namespace Yandex.Cloud.Mdb.Mysql.V1Alpha {
         output.WriteString(Description);
       }
       labels_.WriteTo(output, _map_labels_codec);
-      if (Environment != 0) {
+      if (Environment != global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Cluster.Types.Environment.Unspecified) {
         output.WriteRawTag(40);
         output.WriteEnum((int) Environment);
       }
@@ -1055,7 +1055,7 @@ namespace Yandex.Cloud.Mdb.Mysql.V1Alpha {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Description);
       }
       size += labels_.CalculateSize(_map_labels_codec);
-      if (Environment != 0) {
+      if (Environment != global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Cluster.Types.Environment.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Environment);
       }
       if (configSpec_ != null) {
@@ -1088,7 +1088,7 @@ namespace Yandex.Cloud.Mdb.Mysql.V1Alpha {
         Description = other.Description;
       }
       labels_.Add(other.labels_);
-      if (other.Environment != 0) {
+      if (other.Environment != global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Cluster.Types.Environment.Unspecified) {
         Environment = other.Environment;
       }
       if (other.configSpec_ != null) {
@@ -1380,7 +1380,7 @@ namespace Yandex.Cloud.Mdb.Mysql.V1Alpha {
     /// <summary>Field number for the "labels" field.</summary>
     public const int LabelsFieldNumber = 4;
     private static readonly pbc::MapField<string, string>.Codec _map_labels_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 34);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 34);
     private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
     /// <summary>
     /// Custom labels for the MySQL cluster as `key:value` pairs. Maximum 64 per resource.
@@ -2355,7 +2355,7 @@ namespace Yandex.Cloud.Mdb.Mysql.V1Alpha {
     /// <summary>Field number for the "labels" field.</summary>
     public const int LabelsFieldNumber = 6;
     private static readonly pbc::MapField<string, string>.Codec _map_labels_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 50);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 50);
     private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
     /// <summary>
     /// Custom labels for the MySQL cluster as `key:value` pairs. Maximum 64 per resource.
@@ -2368,7 +2368,7 @@ namespace Yandex.Cloud.Mdb.Mysql.V1Alpha {
 
     /// <summary>Field number for the "environment" field.</summary>
     public const int EnvironmentFieldNumber = 7;
-    private global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Cluster.Types.Environment environment_ = 0;
+    private global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Cluster.Types.Environment environment_ = global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Cluster.Types.Environment.Unspecified;
     /// <summary>
     /// Deployment environment of the new MySQL cluster.
     /// </summary>
@@ -2455,7 +2455,7 @@ namespace Yandex.Cloud.Mdb.Mysql.V1Alpha {
       if (Name.Length != 0) hash ^= Name.GetHashCode();
       if (Description.Length != 0) hash ^= Description.GetHashCode();
       hash ^= Labels.GetHashCode();
-      if (Environment != 0) hash ^= Environment.GetHashCode();
+      if (Environment != global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Cluster.Types.Environment.Unspecified) hash ^= Environment.GetHashCode();
       if (configSpec_ != null) hash ^= ConfigSpec.GetHashCode();
       hash ^= hostSpecs_.GetHashCode();
       if (NetworkId.Length != 0) hash ^= NetworkId.GetHashCode();
@@ -2489,7 +2489,7 @@ namespace Yandex.Cloud.Mdb.Mysql.V1Alpha {
         output.WriteString(Description);
       }
       labels_.WriteTo(output, _map_labels_codec);
-      if (Environment != 0) {
+      if (Environment != global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Cluster.Types.Environment.Unspecified) {
         output.WriteRawTag(56);
         output.WriteEnum((int) Environment);
       }
@@ -2523,7 +2523,7 @@ namespace Yandex.Cloud.Mdb.Mysql.V1Alpha {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Description);
       }
       size += labels_.CalculateSize(_map_labels_codec);
-      if (Environment != 0) {
+      if (Environment != global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Cluster.Types.Environment.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Environment);
       }
       if (configSpec_ != null) {
@@ -2560,7 +2560,7 @@ namespace Yandex.Cloud.Mdb.Mysql.V1Alpha {
         Description = other.Description;
       }
       labels_.Add(other.labels_);
-      if (other.Environment != 0) {
+      if (other.Environment != global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Cluster.Types.Environment.Unspecified) {
         Environment = other.Environment;
       }
       if (other.configSpec_ != null) {
@@ -2847,7 +2847,7 @@ namespace Yandex.Cloud.Mdb.Mysql.V1Alpha {
     /// <summary>Field number for the "message" field.</summary>
     public const int MessageFieldNumber = 2;
     private static readonly pbc::MapField<string, string>.Codec _map_message_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 18);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 18);
     private readonly pbc::MapField<string, string> message_ = new pbc::MapField<string, string>();
     /// <summary>
     /// Contents of the log record.
@@ -3028,7 +3028,7 @@ namespace Yandex.Cloud.Mdb.Mysql.V1Alpha {
 
     /// <summary>Field number for the "service_type" field.</summary>
     public const int ServiceTypeFieldNumber = 3;
-    private global::Yandex.Cloud.Mdb.Mysql.V1Alpha.ListClusterLogsRequest.Types.ServiceType serviceType_ = 0;
+    private global::Yandex.Cloud.Mdb.Mysql.V1Alpha.ListClusterLogsRequest.Types.ServiceType serviceType_ = global::Yandex.Cloud.Mdb.Mysql.V1Alpha.ListClusterLogsRequest.Types.ServiceType.Unspecified;
     /// <summary>
     /// Type of the service to request logs about.
     /// </summary>
@@ -3142,7 +3142,7 @@ namespace Yandex.Cloud.Mdb.Mysql.V1Alpha {
       int hash = 1;
       if (ClusterId.Length != 0) hash ^= ClusterId.GetHashCode();
       hash ^= columnFilter_.GetHashCode();
-      if (ServiceType != 0) hash ^= ServiceType.GetHashCode();
+      if (ServiceType != global::Yandex.Cloud.Mdb.Mysql.V1Alpha.ListClusterLogsRequest.Types.ServiceType.Unspecified) hash ^= ServiceType.GetHashCode();
       if (fromTime_ != null) hash ^= FromTime.GetHashCode();
       if (toTime_ != null) hash ^= ToTime.GetHashCode();
       if (PageSize != 0L) hash ^= PageSize.GetHashCode();
@@ -3166,7 +3166,7 @@ namespace Yandex.Cloud.Mdb.Mysql.V1Alpha {
         output.WriteString(ClusterId);
       }
       columnFilter_.WriteTo(output, _repeated_columnFilter_codec);
-      if (ServiceType != 0) {
+      if (ServiceType != global::Yandex.Cloud.Mdb.Mysql.V1Alpha.ListClusterLogsRequest.Types.ServiceType.Unspecified) {
         output.WriteRawTag(24);
         output.WriteEnum((int) ServiceType);
       }
@@ -3202,7 +3202,7 @@ namespace Yandex.Cloud.Mdb.Mysql.V1Alpha {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(ClusterId);
       }
       size += columnFilter_.CalculateSize(_repeated_columnFilter_codec);
-      if (ServiceType != 0) {
+      if (ServiceType != global::Yandex.Cloud.Mdb.Mysql.V1Alpha.ListClusterLogsRequest.Types.ServiceType.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) ServiceType);
       }
       if (fromTime_ != null) {
@@ -3235,7 +3235,7 @@ namespace Yandex.Cloud.Mdb.Mysql.V1Alpha {
         ClusterId = other.ClusterId;
       }
       columnFilter_.Add(other.columnFilter_);
-      if (other.ServiceType != 0) {
+      if (other.ServiceType != global::Yandex.Cloud.Mdb.Mysql.V1Alpha.ListClusterLogsRequest.Types.ServiceType.Unspecified) {
         ServiceType = other.ServiceType;
       }
       if (other.fromTime_ != null) {

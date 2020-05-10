@@ -47,10 +47,10 @@ namespace Yandex.Cloud.Mdb.Mysql.V1Alpha {
             "eWFuZGV4L2Nsb3VkL21kYi9teXNxbC92MWFscGhhO215c3FsYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.WrappersReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.User), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.User.Parser, new[]{ "Name", "ClusterId", "Permissions" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Permission), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Permission.Parser, new[]{ "DatabaseName", "Roles" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Permission.Types.Privilege) }, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.UserSpec), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.UserSpec.Parser, new[]{ "Name", "Password", "Permissions" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.User), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.User.Parser, new[]{ "Name", "ClusterId", "Permissions" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Permission), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Permission.Parser, new[]{ "DatabaseName", "Roles" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Permission.Types.Privilege) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.UserSpec), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.UserSpec.Parser, new[]{ "Name", "Password", "Permissions" }, null, null, null, null)
           }));
     }
     #endregion

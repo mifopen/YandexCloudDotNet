@@ -48,9 +48,9 @@ namespace Yandex.Cloud.Marketplace.V1.Metering {
             "cmluZzttZXRlcmluZ2IGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, global::Yandex.Cloud.Marketplace.V1.Metering.UsageRecordReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Marketplace.V1.Metering.WriteImageProductUsageRequest), global::Yandex.Cloud.Marketplace.V1.Metering.WriteImageProductUsageRequest.Parser, new[]{ "ValidateOnly", "ProductId", "UsageRecords" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Marketplace.V1.Metering.WriteImageProductUsageResponse), global::Yandex.Cloud.Marketplace.V1.Metering.WriteImageProductUsageResponse.Parser, new[]{ "Accepted", "Rejected" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Marketplace.V1.Metering.WriteImageProductUsageRequest), global::Yandex.Cloud.Marketplace.V1.Metering.WriteImageProductUsageRequest.Parser, new[]{ "ValidateOnly", "ProductId", "UsageRecords" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Marketplace.V1.Metering.WriteImageProductUsageResponse), global::Yandex.Cloud.Marketplace.V1.Metering.WriteImageProductUsageResponse.Parser, new[]{ "Accepted", "Rejected" }, null, null, null, null)
           }));
     }
     #endregion

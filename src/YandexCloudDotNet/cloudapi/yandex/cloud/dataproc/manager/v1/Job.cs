@@ -76,13 +76,13 @@ namespace Yandex.Cloud.Dataproc.Manager.V1 {
             "dGFwcm9jX21hbmFnZXJiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.Manager.V1.Job), global::Yandex.Cloud.Dataproc.Manager.V1.Job.Parser, new[]{ "Id", "ClusterId", "CreatedAt", "StartedAt", "FinishedAt", "Name", "CreatedBy", "Status", "MapreduceJob", "SparkJob", "PysparkJob", "HiveJob" }, new[]{ "JobSpec" }, new[]{ typeof(global::Yandex.Cloud.Dataproc.Manager.V1.Job.Types.Status) }, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.Manager.V1.MapreduceJob), global::Yandex.Cloud.Dataproc.Manager.V1.MapreduceJob.Parser, new[]{ "Args", "JarFileUris", "FileUris", "ArchiveUris", "Properties", "MainJarFileUri", "MainClass" }, new[]{ "Driver" }, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.Manager.V1.SparkJob), global::Yandex.Cloud.Dataproc.Manager.V1.SparkJob.Parser, new[]{ "Args", "JarFileUris", "FileUris", "ArchiveUris", "Properties", "MainJarFileUri", "MainClass" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.Manager.V1.PysparkJob), global::Yandex.Cloud.Dataproc.Manager.V1.PysparkJob.Parser, new[]{ "Args", "JarFileUris", "FileUris", "ArchiveUris", "Properties", "MainPythonFileUri", "PythonFileUris" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.Manager.V1.QueryList), global::Yandex.Cloud.Dataproc.Manager.V1.QueryList.Parser, new[]{ "Queries" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.Manager.V1.HiveJob), global::Yandex.Cloud.Dataproc.Manager.V1.HiveJob.Parser, new[]{ "Properties", "ContinueOnFailure", "ScriptVariables", "JarFileUris", "QueryFileUri", "QueryList" }, new[]{ "QueryType" }, null, new pbr::GeneratedClrTypeInfo[] { null, null, })
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.Manager.V1.Job), global::Yandex.Cloud.Dataproc.Manager.V1.Job.Parser, new[]{ "Id", "ClusterId", "CreatedAt", "StartedAt", "FinishedAt", "Name", "CreatedBy", "Status", "MapreduceJob", "SparkJob", "PysparkJob", "HiveJob" }, new[]{ "JobSpec" }, new[]{ typeof(global::Yandex.Cloud.Dataproc.Manager.V1.Job.Types.Status) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.Manager.V1.MapreduceJob), global::Yandex.Cloud.Dataproc.Manager.V1.MapreduceJob.Parser, new[]{ "Args", "JarFileUris", "FileUris", "ArchiveUris", "Properties", "MainJarFileUri", "MainClass" }, new[]{ "Driver" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.Manager.V1.SparkJob), global::Yandex.Cloud.Dataproc.Manager.V1.SparkJob.Parser, new[]{ "Args", "JarFileUris", "FileUris", "ArchiveUris", "Properties", "MainJarFileUri", "MainClass" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.Manager.V1.PysparkJob), global::Yandex.Cloud.Dataproc.Manager.V1.PysparkJob.Parser, new[]{ "Args", "JarFileUris", "FileUris", "ArchiveUris", "Properties", "MainPythonFileUri", "PythonFileUris" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.Manager.V1.QueryList), global::Yandex.Cloud.Dataproc.Manager.V1.QueryList.Parser, new[]{ "Queries" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.Manager.V1.HiveJob), global::Yandex.Cloud.Dataproc.Manager.V1.HiveJob.Parser, new[]{ "Properties", "ContinueOnFailure", "ScriptVariables", "JarFileUris", "QueryFileUri", "QueryList" }, new[]{ "QueryType" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, null, })
           }));
     }
     #endregion
@@ -249,7 +249,7 @@ namespace Yandex.Cloud.Dataproc.Manager.V1 {
 
     /// <summary>Field number for the "status" field.</summary>
     public const int StatusFieldNumber = 7;
-    private global::Yandex.Cloud.Dataproc.Manager.V1.Job.Types.Status status_ = 0;
+    private global::Yandex.Cloud.Dataproc.Manager.V1.Job.Types.Status status_ = global::Yandex.Cloud.Dataproc.Manager.V1.Job.Types.Status.Unspecified;
     /// <summary>
     /// Status.
     /// </summary>
@@ -365,7 +365,7 @@ namespace Yandex.Cloud.Dataproc.Manager.V1 {
       if (finishedAt_ != null) hash ^= FinishedAt.GetHashCode();
       if (Name.Length != 0) hash ^= Name.GetHashCode();
       if (CreatedBy.Length != 0) hash ^= CreatedBy.GetHashCode();
-      if (Status != 0) hash ^= Status.GetHashCode();
+      if (Status != global::Yandex.Cloud.Dataproc.Manager.V1.Job.Types.Status.Unspecified) hash ^= Status.GetHashCode();
       if (jobSpecCase_ == JobSpecOneofCase.MapreduceJob) hash ^= MapreduceJob.GetHashCode();
       if (jobSpecCase_ == JobSpecOneofCase.SparkJob) hash ^= SparkJob.GetHashCode();
       if (jobSpecCase_ == JobSpecOneofCase.PysparkJob) hash ^= PysparkJob.GetHashCode();
@@ -408,7 +408,7 @@ namespace Yandex.Cloud.Dataproc.Manager.V1 {
         output.WriteRawTag(50);
         output.WriteString(Name);
       }
-      if (Status != 0) {
+      if (Status != global::Yandex.Cloud.Dataproc.Manager.V1.Job.Types.Status.Unspecified) {
         output.WriteRawTag(56);
         output.WriteEnum((int) Status);
       }
@@ -461,7 +461,7 @@ namespace Yandex.Cloud.Dataproc.Manager.V1 {
       if (CreatedBy.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(CreatedBy);
       }
-      if (Status != 0) {
+      if (Status != global::Yandex.Cloud.Dataproc.Manager.V1.Job.Types.Status.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Status);
       }
       if (jobSpecCase_ == JobSpecOneofCase.MapreduceJob) {
@@ -517,7 +517,7 @@ namespace Yandex.Cloud.Dataproc.Manager.V1 {
       if (other.CreatedBy.Length != 0) {
         CreatedBy = other.CreatedBy;
       }
-      if (other.Status != 0) {
+      if (other.Status != global::Yandex.Cloud.Dataproc.Manager.V1.Job.Types.Status.Unspecified) {
         Status = other.Status;
       }
       switch (other.JobSpecCase) {
@@ -774,7 +774,7 @@ namespace Yandex.Cloud.Dataproc.Manager.V1 {
     /// <summary>Field number for the "properties" field.</summary>
     public const int PropertiesFieldNumber = 5;
     private static readonly pbc::MapField<string, string>.Codec _map_properties_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 42);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 42);
     private readonly pbc::MapField<string, string> properties_ = new pbc::MapField<string, string>();
     /// <summary>
     /// A mapping of property names to values, used to configure Data Proc.
@@ -1076,7 +1076,7 @@ namespace Yandex.Cloud.Dataproc.Manager.V1 {
     /// <summary>Field number for the "properties" field.</summary>
     public const int PropertiesFieldNumber = 5;
     private static readonly pbc::MapField<string, string>.Codec _map_properties_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 42);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 42);
     private readonly pbc::MapField<string, string> properties_ = new pbc::MapField<string, string>();
     /// <summary>
     /// A mapping of property names to values, used to configure Data Proc.
@@ -1354,7 +1354,7 @@ namespace Yandex.Cloud.Dataproc.Manager.V1 {
     /// <summary>Field number for the "properties" field.</summary>
     public const int PropertiesFieldNumber = 5;
     private static readonly pbc::MapField<string, string>.Codec _map_properties_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 42);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 42);
     private readonly pbc::MapField<string, string> properties_ = new pbc::MapField<string, string>();
     /// <summary>
     /// A mapping of property names to values, used to configure Data Proc.
@@ -1699,7 +1699,7 @@ namespace Yandex.Cloud.Dataproc.Manager.V1 {
     /// <summary>Field number for the "properties" field.</summary>
     public const int PropertiesFieldNumber = 1;
     private static readonly pbc::MapField<string, string>.Codec _map_properties_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 10);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 10);
     private readonly pbc::MapField<string, string> properties_ = new pbc::MapField<string, string>();
     /// <summary>
     /// A mapping of property names to values, used to configure Hive.
@@ -1726,7 +1726,7 @@ namespace Yandex.Cloud.Dataproc.Manager.V1 {
     /// <summary>Field number for the "script_variables" field.</summary>
     public const int ScriptVariablesFieldNumber = 3;
     private static readonly pbc::MapField<string, string>.Codec _map_scriptVariables_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 26);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 26);
     private readonly pbc::MapField<string, string> scriptVariables_ = new pbc::MapField<string, string>();
     /// <summary>
     /// Mapping of query variable names to values.

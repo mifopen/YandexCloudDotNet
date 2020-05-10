@@ -45,7 +45,7 @@ namespace Yandex.Cloud.Compute.V1 {
     {
       /// <summary>Creates a new client for DiskTypeService</summary>
       /// <param name="channel">The channel to use to make remote calls.</param>
-      public DiskTypeServiceClient(grpc::Channel channel) : base(channel)
+      public DiskTypeServiceClient(grpc::ChannelBase channel) : base(channel)
       {
       }
       /// <summary>Creates a new client for DiskTypeService that uses a custom <c>CallInvoker</c>.</summary>

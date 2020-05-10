@@ -44,10 +44,10 @@ namespace Yandex.Cloud.Marketplace.V1.Metering {
             "a2V0cGxhY2UvdjEvbWV0ZXJpbmc7bWV0ZXJpbmdiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Marketplace.V1.Metering.UsageRecord), global::Yandex.Cloud.Marketplace.V1.Metering.UsageRecord.Parser, new[]{ "Uuid", "SkuId", "Quantity", "Timestamp" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Marketplace.V1.Metering.AcceptedUsageRecord), global::Yandex.Cloud.Marketplace.V1.Metering.AcceptedUsageRecord.Parser, new[]{ "Uuid" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Marketplace.V1.Metering.RejectedUsageRecord), global::Yandex.Cloud.Marketplace.V1.Metering.RejectedUsageRecord.Parser, new[]{ "Uuid", "Reason" }, null, new[]{ typeof(global::Yandex.Cloud.Marketplace.V1.Metering.RejectedUsageRecord.Types.Reason) }, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Marketplace.V1.Metering.UsageRecord), global::Yandex.Cloud.Marketplace.V1.Metering.UsageRecord.Parser, new[]{ "Uuid", "SkuId", "Quantity", "Timestamp" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Marketplace.V1.Metering.AcceptedUsageRecord), global::Yandex.Cloud.Marketplace.V1.Metering.AcceptedUsageRecord.Parser, new[]{ "Uuid" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Marketplace.V1.Metering.RejectedUsageRecord), global::Yandex.Cloud.Marketplace.V1.Metering.RejectedUsageRecord.Parser, new[]{ "Uuid", "Reason" }, null, new[]{ typeof(global::Yandex.Cloud.Marketplace.V1.Metering.RejectedUsageRecord.Types.Reason) }, null, null)
           }));
     }
     #endregion
@@ -468,7 +468,7 @@ namespace Yandex.Cloud.Marketplace.V1.Metering {
 
     /// <summary>Field number for the "reason" field.</summary>
     public const int ReasonFieldNumber = 2;
-    private global::Yandex.Cloud.Marketplace.V1.Metering.RejectedUsageRecord.Types.Reason reason_ = 0;
+    private global::Yandex.Cloud.Marketplace.V1.Metering.RejectedUsageRecord.Types.Reason reason_ = global::Yandex.Cloud.Marketplace.V1.Metering.RejectedUsageRecord.Types.Reason.Unspecified;
     /// <summary>
     /// The reason of rejection
     /// </summary>
@@ -502,7 +502,7 @@ namespace Yandex.Cloud.Marketplace.V1.Metering {
     public override int GetHashCode() {
       int hash = 1;
       if (Uuid.Length != 0) hash ^= Uuid.GetHashCode();
-      if (Reason != 0) hash ^= Reason.GetHashCode();
+      if (Reason != global::Yandex.Cloud.Marketplace.V1.Metering.RejectedUsageRecord.Types.Reason.Unspecified) hash ^= Reason.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -520,7 +520,7 @@ namespace Yandex.Cloud.Marketplace.V1.Metering {
         output.WriteRawTag(10);
         output.WriteString(Uuid);
       }
-      if (Reason != 0) {
+      if (Reason != global::Yandex.Cloud.Marketplace.V1.Metering.RejectedUsageRecord.Types.Reason.Unspecified) {
         output.WriteRawTag(16);
         output.WriteEnum((int) Reason);
       }
@@ -535,7 +535,7 @@ namespace Yandex.Cloud.Marketplace.V1.Metering {
       if (Uuid.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Uuid);
       }
-      if (Reason != 0) {
+      if (Reason != global::Yandex.Cloud.Marketplace.V1.Metering.RejectedUsageRecord.Types.Reason.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Reason);
       }
       if (_unknownFields != null) {
@@ -552,7 +552,7 @@ namespace Yandex.Cloud.Marketplace.V1.Metering {
       if (other.Uuid.Length != 0) {
         Uuid = other.Uuid;
       }
-      if (other.Reason != 0) {
+      if (other.Reason != global::Yandex.Cloud.Marketplace.V1.Metering.RejectedUsageRecord.Types.Reason.Unspecified) {
         Reason = other.Reason;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);

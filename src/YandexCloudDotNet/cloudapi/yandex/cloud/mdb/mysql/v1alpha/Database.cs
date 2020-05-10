@@ -34,9 +34,9 @@ namespace Yandex.Cloud.Mdb.Mysql.V1Alpha {
             "bC92MWFscGhhO215c3FsYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Yandex.Cloud.ValidationReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Database), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Database.Parser, new[]{ "Name", "ClusterId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.DatabaseSpec), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.DatabaseSpec.Parser, new[]{ "Name" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Database), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Database.Parser, new[]{ "Name", "ClusterId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.DatabaseSpec), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.DatabaseSpec.Parser, new[]{ "Name" }, null, null, null, null)
           }));
     }
     #endregion

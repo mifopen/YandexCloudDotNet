@@ -35,8 +35,8 @@ namespace Yandex.Cloud.Mdb.Redis.V1Alpha {
             "b3VkL21kYi9yZWRpcy92MWFscGhhO3JlZGlzYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1Alpha.Backup), global::Yandex.Cloud.Mdb.Redis.V1Alpha.Backup.Parser, new[]{ "Id", "FolderId", "CreatedAt", "SourceClusterId", "StartedAt" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1Alpha.Backup), global::Yandex.Cloud.Mdb.Redis.V1Alpha.Backup.Parser, new[]{ "Id", "FolderId", "CreatedAt", "SourceClusterId", "StartedAt" }, null, null, null, null)
           }));
     }
     #endregion

@@ -31,8 +31,8 @@ namespace Yandex.Cloud.Endpoint {
             "ZXgvY2xvdWQvZW5kcG9pbnQ7ZW5kcG9pbnRiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Endpoint.ApiEndpoint), global::Yandex.Cloud.Endpoint.ApiEndpoint.Parser, new[]{ "Id", "Address" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Endpoint.ApiEndpoint), global::Yandex.Cloud.Endpoint.ApiEndpoint.Parser, new[]{ "Id", "Address" }, null, null, null, null)
           }));
     }
     #endregion

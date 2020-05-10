@@ -48,10 +48,10 @@ namespace Yandex.Cloud.Mdb.Mysql.V1 {
             "BnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Yandex.Cloud.Mdb.Mysql.V1.ResourcePresetReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.GetResourcePresetRequest), global::Yandex.Cloud.Mdb.Mysql.V1.GetResourcePresetRequest.Parser, new[]{ "ResourcePresetId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.ListResourcePresetsRequest), global::Yandex.Cloud.Mdb.Mysql.V1.ListResourcePresetsRequest.Parser, new[]{ "PageSize", "PageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.ListResourcePresetsResponse), global::Yandex.Cloud.Mdb.Mysql.V1.ListResourcePresetsResponse.Parser, new[]{ "ResourcePresets", "NextPageToken" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.GetResourcePresetRequest), global::Yandex.Cloud.Mdb.Mysql.V1.GetResourcePresetRequest.Parser, new[]{ "ResourcePresetId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.ListResourcePresetsRequest), global::Yandex.Cloud.Mdb.Mysql.V1.ListResourcePresetsRequest.Parser, new[]{ "PageSize", "PageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.ListResourcePresetsResponse), global::Yandex.Cloud.Mdb.Mysql.V1.ListResourcePresetsResponse.Parser, new[]{ "ResourcePresets", "NextPageToken" }, null, null, null, null)
           }));
     }
     #endregion

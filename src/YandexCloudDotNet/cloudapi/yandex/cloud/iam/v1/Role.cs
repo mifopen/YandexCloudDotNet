@@ -31,8 +31,8 @@ namespace Yandex.Cloud.Iam.V1 {
             "YW1iBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.Role), global::Yandex.Cloud.Iam.V1.Role.Parser, new[]{ "Id", "Description" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.Role), global::Yandex.Cloud.Iam.V1.Role.Parser, new[]{ "Id", "Description" }, null, null, null, null)
           }));
     }
     #endregion

@@ -126,23 +126,23 @@ namespace Yandex.Cloud.Containerregistry.V1 {
             "b250YWluZXJyZWdpc3RyeS92MTtjb250YWluZXJyZWdpc3RyeWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Yandex.Cloud.Api.OperationReflection.Descriptor, global::Yandex.Cloud.Containerregistry.V1.ImageReflection.Descriptor, global::Yandex.Cloud.Containerregistry.V1.LifecyclePolicyReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.GetLifecyclePolicyRequest), global::Yandex.Cloud.Containerregistry.V1.GetLifecyclePolicyRequest.Parser, new[]{ "LifecyclePolicyId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.ListLifecyclePoliciesRequest), global::Yandex.Cloud.Containerregistry.V1.ListLifecyclePoliciesRequest.Parser, new[]{ "RegistryId", "RepositoryId", "PageSize", "PageToken", "Filter", "OrderBy" }, new[]{ "Id" }, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.ListLifecyclePoliciesResponse), global::Yandex.Cloud.Containerregistry.V1.ListLifecyclePoliciesResponse.Parser, new[]{ "LifecyclePolicies", "NextPageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.CreateLifecyclePolicyRequest), global::Yandex.Cloud.Containerregistry.V1.CreateLifecyclePolicyRequest.Parser, new[]{ "RepositoryId", "Name", "Description", "Status", "Rules" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.UpdateLifecyclePolicyRequest), global::Yandex.Cloud.Containerregistry.V1.UpdateLifecyclePolicyRequest.Parser, new[]{ "LifecyclePolicyId", "UpdateMask", "Name", "Description", "Status", "Rules" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.DeleteLifecyclePolicyRequest), global::Yandex.Cloud.Containerregistry.V1.DeleteLifecyclePolicyRequest.Parser, new[]{ "LifecyclePolicyId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.CreateLifecyclePolicyMetadata), global::Yandex.Cloud.Containerregistry.V1.CreateLifecyclePolicyMetadata.Parser, new[]{ "LifecyclePolicyId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.UpdateLifecyclePolicyMetadata), global::Yandex.Cloud.Containerregistry.V1.UpdateLifecyclePolicyMetadata.Parser, new[]{ "LifecyclePolicyId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.DeleteLifecyclePolicyMetadata), global::Yandex.Cloud.Containerregistry.V1.DeleteLifecyclePolicyMetadata.Parser, new[]{ "LifecyclePolicyId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.DryRunLifecyclePolicyRequest), global::Yandex.Cloud.Containerregistry.V1.DryRunLifecyclePolicyRequest.Parser, new[]{ "LifecyclePolicyId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.DryRunLifecyclePolicyMetadata), global::Yandex.Cloud.Containerregistry.V1.DryRunLifecyclePolicyMetadata.Parser, new[]{ "DryRunLifecyclePolicyResultId", "LifecyclePolicyId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.DryRunLifecyclePolicyResult), global::Yandex.Cloud.Containerregistry.V1.DryRunLifecyclePolicyResult.Parser, new[]{ "DryRunLifecyclePolicyResultId", "LifecyclePolicyId", "RunAt", "AffectedImagesCount" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.ListDryRunLifecyclePolicyResultsRequest), global::Yandex.Cloud.Containerregistry.V1.ListDryRunLifecyclePolicyResultsRequest.Parser, new[]{ "LifecyclePolicyId", "PageSize", "PageToken", "Filter", "OrderBy" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.ListDryRunLifecyclePolicyResultsResponse), global::Yandex.Cloud.Containerregistry.V1.ListDryRunLifecyclePolicyResultsResponse.Parser, new[]{ "DryRunLifecyclePolicyResults", "NextPageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.ListDryRunLifecyclePolicyResultAffectedImagesRequest), global::Yandex.Cloud.Containerregistry.V1.ListDryRunLifecyclePolicyResultAffectedImagesRequest.Parser, new[]{ "DryRunLifecyclePolicyResultId", "PageSize", "PageToken", "Filter", "OrderBy" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.ListDryRunLifecyclePolicyResultAffectedImagesResponse), global::Yandex.Cloud.Containerregistry.V1.ListDryRunLifecyclePolicyResultAffectedImagesResponse.Parser, new[]{ "AffectedImages", "DryRunLifecyclePolicyResultId", "LifecyclePolicyId", "RunAt", "AffectedImagesCount", "NextPageToken" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.GetLifecyclePolicyRequest), global::Yandex.Cloud.Containerregistry.V1.GetLifecyclePolicyRequest.Parser, new[]{ "LifecyclePolicyId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.ListLifecyclePoliciesRequest), global::Yandex.Cloud.Containerregistry.V1.ListLifecyclePoliciesRequest.Parser, new[]{ "RegistryId", "RepositoryId", "PageSize", "PageToken", "Filter", "OrderBy" }, new[]{ "Id" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.ListLifecyclePoliciesResponse), global::Yandex.Cloud.Containerregistry.V1.ListLifecyclePoliciesResponse.Parser, new[]{ "LifecyclePolicies", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.CreateLifecyclePolicyRequest), global::Yandex.Cloud.Containerregistry.V1.CreateLifecyclePolicyRequest.Parser, new[]{ "RepositoryId", "Name", "Description", "Status", "Rules" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.UpdateLifecyclePolicyRequest), global::Yandex.Cloud.Containerregistry.V1.UpdateLifecyclePolicyRequest.Parser, new[]{ "LifecyclePolicyId", "UpdateMask", "Name", "Description", "Status", "Rules" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.DeleteLifecyclePolicyRequest), global::Yandex.Cloud.Containerregistry.V1.DeleteLifecyclePolicyRequest.Parser, new[]{ "LifecyclePolicyId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.CreateLifecyclePolicyMetadata), global::Yandex.Cloud.Containerregistry.V1.CreateLifecyclePolicyMetadata.Parser, new[]{ "LifecyclePolicyId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.UpdateLifecyclePolicyMetadata), global::Yandex.Cloud.Containerregistry.V1.UpdateLifecyclePolicyMetadata.Parser, new[]{ "LifecyclePolicyId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.DeleteLifecyclePolicyMetadata), global::Yandex.Cloud.Containerregistry.V1.DeleteLifecyclePolicyMetadata.Parser, new[]{ "LifecyclePolicyId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.DryRunLifecyclePolicyRequest), global::Yandex.Cloud.Containerregistry.V1.DryRunLifecyclePolicyRequest.Parser, new[]{ "LifecyclePolicyId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.DryRunLifecyclePolicyMetadata), global::Yandex.Cloud.Containerregistry.V1.DryRunLifecyclePolicyMetadata.Parser, new[]{ "DryRunLifecyclePolicyResultId", "LifecyclePolicyId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.DryRunLifecyclePolicyResult), global::Yandex.Cloud.Containerregistry.V1.DryRunLifecyclePolicyResult.Parser, new[]{ "DryRunLifecyclePolicyResultId", "LifecyclePolicyId", "RunAt", "AffectedImagesCount" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.ListDryRunLifecyclePolicyResultsRequest), global::Yandex.Cloud.Containerregistry.V1.ListDryRunLifecyclePolicyResultsRequest.Parser, new[]{ "LifecyclePolicyId", "PageSize", "PageToken", "Filter", "OrderBy" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.ListDryRunLifecyclePolicyResultsResponse), global::Yandex.Cloud.Containerregistry.V1.ListDryRunLifecyclePolicyResultsResponse.Parser, new[]{ "DryRunLifecyclePolicyResults", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.ListDryRunLifecyclePolicyResultAffectedImagesRequest), global::Yandex.Cloud.Containerregistry.V1.ListDryRunLifecyclePolicyResultAffectedImagesRequest.Parser, new[]{ "DryRunLifecyclePolicyResultId", "PageSize", "PageToken", "Filter", "OrderBy" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.ListDryRunLifecyclePolicyResultAffectedImagesResponse), global::Yandex.Cloud.Containerregistry.V1.ListDryRunLifecyclePolicyResultAffectedImagesResponse.Parser, new[]{ "AffectedImages", "DryRunLifecyclePolicyResultId", "LifecyclePolicyId", "RunAt", "AffectedImagesCount", "NextPageToken" }, null, null, null, null)
           }));
     }
     #endregion
@@ -800,7 +800,7 @@ namespace Yandex.Cloud.Containerregistry.V1 {
 
     /// <summary>Field number for the "status" field.</summary>
     public const int StatusFieldNumber = 4;
-    private global::Yandex.Cloud.Containerregistry.V1.LifecyclePolicy.Types.Status status_ = 0;
+    private global::Yandex.Cloud.Containerregistry.V1.LifecyclePolicy.Types.Status status_ = global::Yandex.Cloud.Containerregistry.V1.LifecyclePolicy.Types.Status.Unspecified;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Containerregistry.V1.LifecyclePolicy.Types.Status Status {
       get { return status_; }
@@ -846,7 +846,7 @@ namespace Yandex.Cloud.Containerregistry.V1 {
       if (RepositoryId.Length != 0) hash ^= RepositoryId.GetHashCode();
       if (Name.Length != 0) hash ^= Name.GetHashCode();
       if (Description.Length != 0) hash ^= Description.GetHashCode();
-      if (Status != 0) hash ^= Status.GetHashCode();
+      if (Status != global::Yandex.Cloud.Containerregistry.V1.LifecyclePolicy.Types.Status.Unspecified) hash ^= Status.GetHashCode();
       hash ^= rules_.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -873,7 +873,7 @@ namespace Yandex.Cloud.Containerregistry.V1 {
         output.WriteRawTag(26);
         output.WriteString(Description);
       }
-      if (Status != 0) {
+      if (Status != global::Yandex.Cloud.Containerregistry.V1.LifecyclePolicy.Types.Status.Unspecified) {
         output.WriteRawTag(32);
         output.WriteEnum((int) Status);
       }
@@ -895,7 +895,7 @@ namespace Yandex.Cloud.Containerregistry.V1 {
       if (Description.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Description);
       }
-      if (Status != 0) {
+      if (Status != global::Yandex.Cloud.Containerregistry.V1.LifecyclePolicy.Types.Status.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Status);
       }
       size += rules_.CalculateSize(_repeated_rules_codec);
@@ -919,7 +919,7 @@ namespace Yandex.Cloud.Containerregistry.V1 {
       if (other.Description.Length != 0) {
         Description = other.Description;
       }
-      if (other.Status != 0) {
+      if (other.Status != global::Yandex.Cloud.Containerregistry.V1.LifecyclePolicy.Types.Status.Unspecified) {
         Status = other.Status;
       }
       rules_.Add(other.rules_);
@@ -1045,7 +1045,7 @@ namespace Yandex.Cloud.Containerregistry.V1 {
 
     /// <summary>Field number for the "status" field.</summary>
     public const int StatusFieldNumber = 5;
-    private global::Yandex.Cloud.Containerregistry.V1.LifecyclePolicy.Types.Status status_ = 0;
+    private global::Yandex.Cloud.Containerregistry.V1.LifecyclePolicy.Types.Status status_ = global::Yandex.Cloud.Containerregistry.V1.LifecyclePolicy.Types.Status.Unspecified;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Containerregistry.V1.LifecyclePolicy.Types.Status Status {
       get { return status_; }
@@ -1093,7 +1093,7 @@ namespace Yandex.Cloud.Containerregistry.V1 {
       if (updateMask_ != null) hash ^= UpdateMask.GetHashCode();
       if (Name.Length != 0) hash ^= Name.GetHashCode();
       if (Description.Length != 0) hash ^= Description.GetHashCode();
-      if (Status != 0) hash ^= Status.GetHashCode();
+      if (Status != global::Yandex.Cloud.Containerregistry.V1.LifecyclePolicy.Types.Status.Unspecified) hash ^= Status.GetHashCode();
       hash ^= rules_.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -1124,7 +1124,7 @@ namespace Yandex.Cloud.Containerregistry.V1 {
         output.WriteRawTag(34);
         output.WriteString(Description);
       }
-      if (Status != 0) {
+      if (Status != global::Yandex.Cloud.Containerregistry.V1.LifecyclePolicy.Types.Status.Unspecified) {
         output.WriteRawTag(40);
         output.WriteEnum((int) Status);
       }
@@ -1149,7 +1149,7 @@ namespace Yandex.Cloud.Containerregistry.V1 {
       if (Description.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Description);
       }
-      if (Status != 0) {
+      if (Status != global::Yandex.Cloud.Containerregistry.V1.LifecyclePolicy.Types.Status.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Status);
       }
       size += rules_.CalculateSize(_repeated_rules_codec);
@@ -1179,7 +1179,7 @@ namespace Yandex.Cloud.Containerregistry.V1 {
       if (other.Description.Length != 0) {
         Description = other.Description;
       }
-      if (other.Status != 0) {
+      if (other.Status != global::Yandex.Cloud.Containerregistry.V1.LifecyclePolicy.Types.Status.Unspecified) {
         Status = other.Status;
       }
       rules_.Add(other.rules_);

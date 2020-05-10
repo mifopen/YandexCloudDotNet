@@ -40,9 +40,9 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
             "by95YW5kZXgvY2xvdWQvaW90L2RldmljZXMvdjE7ZGV2aWNlc2IGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.PublishRegistryDataRequest), global::Yandex.Cloud.Iot.Devices.V1.PublishRegistryDataRequest.Parser, new[]{ "RegistryId", "Topic", "Data" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.PublishRegistryDataResponse), global::Yandex.Cloud.Iot.Devices.V1.PublishRegistryDataResponse.Parser, null, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.PublishRegistryDataRequest), global::Yandex.Cloud.Iot.Devices.V1.PublishRegistryDataRequest.Parser, new[]{ "RegistryId", "Topic", "Data" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.PublishRegistryDataResponse), global::Yandex.Cloud.Iot.Devices.V1.PublishRegistryDataResponse.Parser, null, null, null, null, null)
           }));
     }
     #endregion

@@ -94,18 +94,18 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
             "L3NlcnZlcmxlc3MvdHJpZ2dlcnMvdjE7dHJpZ2dlcnNiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Google.Api.AnnotationsReflection.Descriptor, global::Yandex.Cloud.Api.OperationReflection.Descriptor, global::Yandex.Cloud.Serverless.Triggers.V1.TriggerReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Triggers.V1.GetTriggerRequest), global::Yandex.Cloud.Serverless.Triggers.V1.GetTriggerRequest.Parser, new[]{ "TriggerId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Triggers.V1.ListTriggersRequest), global::Yandex.Cloud.Serverless.Triggers.V1.ListTriggersRequest.Parser, new[]{ "FolderId", "PageSize", "PageToken", "Filter" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Triggers.V1.ListTriggersResponse), global::Yandex.Cloud.Serverless.Triggers.V1.ListTriggersResponse.Parser, new[]{ "Triggers", "NextPageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Triggers.V1.CreateTriggerRequest), global::Yandex.Cloud.Serverless.Triggers.V1.CreateTriggerRequest.Parser, new[]{ "FolderId", "Name", "Description", "Labels", "Rule" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Triggers.V1.CreateTriggerMetadata), global::Yandex.Cloud.Serverless.Triggers.V1.CreateTriggerMetadata.Parser, new[]{ "TriggerId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Triggers.V1.UpdateTriggerRequest), global::Yandex.Cloud.Serverless.Triggers.V1.UpdateTriggerRequest.Parser, new[]{ "TriggerId", "UpdateMask", "Name", "Description", "Labels" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Triggers.V1.UpdateTriggerMetadata), global::Yandex.Cloud.Serverless.Triggers.V1.UpdateTriggerMetadata.Parser, new[]{ "TriggerId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Triggers.V1.DeleteTriggerRequest), global::Yandex.Cloud.Serverless.Triggers.V1.DeleteTriggerRequest.Parser, new[]{ "TriggerId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Triggers.V1.DeleteTriggerMetadata), global::Yandex.Cloud.Serverless.Triggers.V1.DeleteTriggerMetadata.Parser, new[]{ "TriggerId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Triggers.V1.ListTriggerOperationsRequest), global::Yandex.Cloud.Serverless.Triggers.V1.ListTriggerOperationsRequest.Parser, new[]{ "TriggerId", "PageSize", "PageToken", "Filter" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Triggers.V1.ListTriggerOperationsResponse), global::Yandex.Cloud.Serverless.Triggers.V1.ListTriggerOperationsResponse.Parser, new[]{ "Operations", "NextPageToken" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Triggers.V1.GetTriggerRequest), global::Yandex.Cloud.Serverless.Triggers.V1.GetTriggerRequest.Parser, new[]{ "TriggerId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Triggers.V1.ListTriggersRequest), global::Yandex.Cloud.Serverless.Triggers.V1.ListTriggersRequest.Parser, new[]{ "FolderId", "PageSize", "PageToken", "Filter" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Triggers.V1.ListTriggersResponse), global::Yandex.Cloud.Serverless.Triggers.V1.ListTriggersResponse.Parser, new[]{ "Triggers", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Triggers.V1.CreateTriggerRequest), global::Yandex.Cloud.Serverless.Triggers.V1.CreateTriggerRequest.Parser, new[]{ "FolderId", "Name", "Description", "Labels", "Rule" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Triggers.V1.CreateTriggerMetadata), global::Yandex.Cloud.Serverless.Triggers.V1.CreateTriggerMetadata.Parser, new[]{ "TriggerId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Triggers.V1.UpdateTriggerRequest), global::Yandex.Cloud.Serverless.Triggers.V1.UpdateTriggerRequest.Parser, new[]{ "TriggerId", "UpdateMask", "Name", "Description", "Labels" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Triggers.V1.UpdateTriggerMetadata), global::Yandex.Cloud.Serverless.Triggers.V1.UpdateTriggerMetadata.Parser, new[]{ "TriggerId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Triggers.V1.DeleteTriggerRequest), global::Yandex.Cloud.Serverless.Triggers.V1.DeleteTriggerRequest.Parser, new[]{ "TriggerId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Triggers.V1.DeleteTriggerMetadata), global::Yandex.Cloud.Serverless.Triggers.V1.DeleteTriggerMetadata.Parser, new[]{ "TriggerId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Triggers.V1.ListTriggerOperationsRequest), global::Yandex.Cloud.Serverless.Triggers.V1.ListTriggerOperationsRequest.Parser, new[]{ "TriggerId", "PageSize", "PageToken", "Filter" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Triggers.V1.ListTriggerOperationsResponse), global::Yandex.Cloud.Serverless.Triggers.V1.ListTriggerOperationsResponse.Parser, new[]{ "Operations", "NextPageToken" }, null, null, null, null)
           }));
     }
     #endregion
@@ -730,7 +730,7 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
     /// <summary>Field number for the "labels" field.</summary>
     public const int LabelsFieldNumber = 4;
     private static readonly pbc::MapField<string, string>.Codec _map_labels_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 34);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 34);
     private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
     /// <summary>
     /// Resource labels as `key:value` pairs.
@@ -1133,7 +1133,7 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
     /// <summary>Field number for the "labels" field.</summary>
     public const int LabelsFieldNumber = 5;
     private static readonly pbc::MapField<string, string>.Codec _map_labels_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 42);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 42);
     private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
     /// <summary>
     /// Trigger labels as `key:value` pairs.

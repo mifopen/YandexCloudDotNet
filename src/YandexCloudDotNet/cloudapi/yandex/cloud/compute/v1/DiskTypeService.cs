@@ -45,10 +45,10 @@ namespace Yandex.Cloud.Compute.V1 {
             "b3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Yandex.Cloud.Compute.V1.DiskTypeReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.GetDiskTypeRequest), global::Yandex.Cloud.Compute.V1.GetDiskTypeRequest.Parser, new[]{ "DiskTypeId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.ListDiskTypesRequest), global::Yandex.Cloud.Compute.V1.ListDiskTypesRequest.Parser, new[]{ "PageSize", "PageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.ListDiskTypesResponse), global::Yandex.Cloud.Compute.V1.ListDiskTypesResponse.Parser, new[]{ "DiskTypes", "NextPageToken" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.GetDiskTypeRequest), global::Yandex.Cloud.Compute.V1.GetDiskTypeRequest.Parser, new[]{ "DiskTypeId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.ListDiskTypesRequest), global::Yandex.Cloud.Compute.V1.ListDiskTypesRequest.Parser, new[]{ "PageSize", "PageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.ListDiskTypesResponse), global::Yandex.Cloud.Compute.V1.ListDiskTypesResponse.Parser, new[]{ "DiskTypes", "NextPageToken" }, null, null, null, null)
           }));
     }
     #endregion

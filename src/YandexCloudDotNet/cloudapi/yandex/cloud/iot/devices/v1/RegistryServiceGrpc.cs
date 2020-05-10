@@ -138,7 +138,7 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     {
       /// <summary>Creates a new client for RegistryService</summary>
       /// <param name="channel">The channel to use to make remote calls.</param>
-      public RegistryServiceClient(grpc::Channel channel) : base(channel)
+      public RegistryServiceClient(grpc::ChannelBase channel) : base(channel)
       {
       }
       /// <summary>Creates a new client for RegistryService that uses a custom <c>CallInvoker</c>.</summary>

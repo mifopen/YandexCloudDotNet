@@ -103,22 +103,22 @@ namespace Yandex.Cloud.Vpc.V1 {
             "ZGV4L2Nsb3VkL3ZwYy92MTt2cGNiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Yandex.Cloud.Api.OperationReflection.Descriptor, global::Yandex.Cloud.Vpc.V1.NetworkReflection.Descriptor, global::Yandex.Cloud.Vpc.V1.SubnetReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.GetNetworkRequest), global::Yandex.Cloud.Vpc.V1.GetNetworkRequest.Parser, new[]{ "NetworkId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.ListNetworksRequest), global::Yandex.Cloud.Vpc.V1.ListNetworksRequest.Parser, new[]{ "FolderId", "PageSize", "PageToken", "Filter" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.ListNetworksResponse), global::Yandex.Cloud.Vpc.V1.ListNetworksResponse.Parser, new[]{ "Networks", "NextPageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.CreateNetworkRequest), global::Yandex.Cloud.Vpc.V1.CreateNetworkRequest.Parser, new[]{ "FolderId", "Name", "Description", "Labels" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.CreateNetworkMetadata), global::Yandex.Cloud.Vpc.V1.CreateNetworkMetadata.Parser, new[]{ "NetworkId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.UpdateNetworkRequest), global::Yandex.Cloud.Vpc.V1.UpdateNetworkRequest.Parser, new[]{ "NetworkId", "UpdateMask", "Name", "Description", "Labels" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.UpdateNetworkMetadata), global::Yandex.Cloud.Vpc.V1.UpdateNetworkMetadata.Parser, new[]{ "NetworkId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.DeleteNetworkRequest), global::Yandex.Cloud.Vpc.V1.DeleteNetworkRequest.Parser, new[]{ "NetworkId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.DeleteNetworkMetadata), global::Yandex.Cloud.Vpc.V1.DeleteNetworkMetadata.Parser, new[]{ "NetworkId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.ListNetworkSubnetsRequest), global::Yandex.Cloud.Vpc.V1.ListNetworkSubnetsRequest.Parser, new[]{ "NetworkId", "PageSize", "PageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.ListNetworkSubnetsResponse), global::Yandex.Cloud.Vpc.V1.ListNetworkSubnetsResponse.Parser, new[]{ "Subnets", "NextPageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.ListNetworkOperationsRequest), global::Yandex.Cloud.Vpc.V1.ListNetworkOperationsRequest.Parser, new[]{ "NetworkId", "PageSize", "PageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.ListNetworkOperationsResponse), global::Yandex.Cloud.Vpc.V1.ListNetworkOperationsResponse.Parser, new[]{ "Operations", "NextPageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.MoveNetworkRequest), global::Yandex.Cloud.Vpc.V1.MoveNetworkRequest.Parser, new[]{ "NetworkId", "DestinationFolderId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.MoveNetworkMetadata), global::Yandex.Cloud.Vpc.V1.MoveNetworkMetadata.Parser, new[]{ "NetworkId" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.GetNetworkRequest), global::Yandex.Cloud.Vpc.V1.GetNetworkRequest.Parser, new[]{ "NetworkId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.ListNetworksRequest), global::Yandex.Cloud.Vpc.V1.ListNetworksRequest.Parser, new[]{ "FolderId", "PageSize", "PageToken", "Filter" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.ListNetworksResponse), global::Yandex.Cloud.Vpc.V1.ListNetworksResponse.Parser, new[]{ "Networks", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.CreateNetworkRequest), global::Yandex.Cloud.Vpc.V1.CreateNetworkRequest.Parser, new[]{ "FolderId", "Name", "Description", "Labels" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.CreateNetworkMetadata), global::Yandex.Cloud.Vpc.V1.CreateNetworkMetadata.Parser, new[]{ "NetworkId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.UpdateNetworkRequest), global::Yandex.Cloud.Vpc.V1.UpdateNetworkRequest.Parser, new[]{ "NetworkId", "UpdateMask", "Name", "Description", "Labels" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.UpdateNetworkMetadata), global::Yandex.Cloud.Vpc.V1.UpdateNetworkMetadata.Parser, new[]{ "NetworkId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.DeleteNetworkRequest), global::Yandex.Cloud.Vpc.V1.DeleteNetworkRequest.Parser, new[]{ "NetworkId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.DeleteNetworkMetadata), global::Yandex.Cloud.Vpc.V1.DeleteNetworkMetadata.Parser, new[]{ "NetworkId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.ListNetworkSubnetsRequest), global::Yandex.Cloud.Vpc.V1.ListNetworkSubnetsRequest.Parser, new[]{ "NetworkId", "PageSize", "PageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.ListNetworkSubnetsResponse), global::Yandex.Cloud.Vpc.V1.ListNetworkSubnetsResponse.Parser, new[]{ "Subnets", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.ListNetworkOperationsRequest), global::Yandex.Cloud.Vpc.V1.ListNetworkOperationsRequest.Parser, new[]{ "NetworkId", "PageSize", "PageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.ListNetworkOperationsResponse), global::Yandex.Cloud.Vpc.V1.ListNetworkOperationsResponse.Parser, new[]{ "Operations", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.MoveNetworkRequest), global::Yandex.Cloud.Vpc.V1.MoveNetworkRequest.Parser, new[]{ "NetworkId", "DestinationFolderId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.MoveNetworkMetadata), global::Yandex.Cloud.Vpc.V1.MoveNetworkMetadata.Parser, new[]{ "NetworkId" }, null, null, null, null)
           }));
     }
     #endregion
@@ -736,7 +736,7 @@ namespace Yandex.Cloud.Vpc.V1 {
     /// <summary>Field number for the "labels" field.</summary>
     public const int LabelsFieldNumber = 4;
     private static readonly pbc::MapField<string, string>.Codec _map_labels_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 34);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 34);
     private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
     /// <summary>
     /// Resource labels as `` key:value `` pairs.
@@ -1102,7 +1102,7 @@ namespace Yandex.Cloud.Vpc.V1 {
     /// <summary>Field number for the "labels" field.</summary>
     public const int LabelsFieldNumber = 5;
     private static readonly pbc::MapField<string, string>.Codec _map_labels_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 42);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 42);
     private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
     /// <summary>
     /// Resource labels as `` key:value `` pairs.

@@ -37,8 +37,8 @@ namespace Yandex.Cloud.Iam.V1 {
             "b3RvL3lhbmRleC9jbG91ZC9pYW0vdjE7aWFtYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.Key), global::Yandex.Cloud.Iam.V1.Key.Parser, new[]{ "Id", "UserAccountId", "ServiceAccountId", "CreatedAt", "Description", "KeyAlgorithm", "PublicKey" }, new[]{ "Subject" }, new[]{ typeof(global::Yandex.Cloud.Iam.V1.Key.Types.Algorithm) }, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.Key), global::Yandex.Cloud.Iam.V1.Key.Parser, new[]{ "Id", "UserAccountId", "ServiceAccountId", "CreatedAt", "Description", "KeyAlgorithm", "PublicKey" }, new[]{ "Subject" }, new[]{ typeof(global::Yandex.Cloud.Iam.V1.Key.Types.Algorithm) }, null, null)
           }));
     }
     #endregion
@@ -167,7 +167,7 @@ namespace Yandex.Cloud.Iam.V1 {
 
     /// <summary>Field number for the "key_algorithm" field.</summary>
     public const int KeyAlgorithmFieldNumber = 6;
-    private global::Yandex.Cloud.Iam.V1.Key.Types.Algorithm keyAlgorithm_ = 0;
+    private global::Yandex.Cloud.Iam.V1.Key.Types.Algorithm keyAlgorithm_ = global::Yandex.Cloud.Iam.V1.Key.Types.Algorithm.Unspecified;
     /// <summary>
     /// An algorithm used to generate a key pair of the Key resource.
     /// </summary>
@@ -244,7 +244,7 @@ namespace Yandex.Cloud.Iam.V1 {
       if (subjectCase_ == SubjectOneofCase.ServiceAccountId) hash ^= ServiceAccountId.GetHashCode();
       if (createdAt_ != null) hash ^= CreatedAt.GetHashCode();
       if (Description.Length != 0) hash ^= Description.GetHashCode();
-      if (KeyAlgorithm != 0) hash ^= KeyAlgorithm.GetHashCode();
+      if (KeyAlgorithm != global::Yandex.Cloud.Iam.V1.Key.Types.Algorithm.Unspecified) hash ^= KeyAlgorithm.GetHashCode();
       if (PublicKey.Length != 0) hash ^= PublicKey.GetHashCode();
       hash ^= (int) subjectCase_;
       if (_unknownFields != null) {
@@ -280,7 +280,7 @@ namespace Yandex.Cloud.Iam.V1 {
         output.WriteRawTag(42);
         output.WriteString(Description);
       }
-      if (KeyAlgorithm != 0) {
+      if (KeyAlgorithm != global::Yandex.Cloud.Iam.V1.Key.Types.Algorithm.Unspecified) {
         output.WriteRawTag(48);
         output.WriteEnum((int) KeyAlgorithm);
       }
@@ -311,7 +311,7 @@ namespace Yandex.Cloud.Iam.V1 {
       if (Description.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Description);
       }
-      if (KeyAlgorithm != 0) {
+      if (KeyAlgorithm != global::Yandex.Cloud.Iam.V1.Key.Types.Algorithm.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) KeyAlgorithm);
       }
       if (PublicKey.Length != 0) {
@@ -340,7 +340,7 @@ namespace Yandex.Cloud.Iam.V1 {
       if (other.Description.Length != 0) {
         Description = other.Description;
       }
-      if (other.KeyAlgorithm != 0) {
+      if (other.KeyAlgorithm != global::Yandex.Cloud.Iam.V1.Key.Types.Algorithm.Unspecified) {
         KeyAlgorithm = other.KeyAlgorithm;
       }
       if (other.PublicKey.Length != 0) {

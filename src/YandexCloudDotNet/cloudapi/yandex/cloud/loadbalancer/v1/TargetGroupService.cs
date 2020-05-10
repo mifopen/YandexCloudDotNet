@@ -117,22 +117,22 @@ namespace Yandex.Cloud.Loadbalancer.V1 {
             "MTtsb2FkYmFsYW5jZXJiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Yandex.Cloud.Api.OperationReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.Loadbalancer.V1.TargetGroupReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Loadbalancer.V1.GetTargetGroupRequest), global::Yandex.Cloud.Loadbalancer.V1.GetTargetGroupRequest.Parser, new[]{ "TargetGroupId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Loadbalancer.V1.ListTargetGroupsRequest), global::Yandex.Cloud.Loadbalancer.V1.ListTargetGroupsRequest.Parser, new[]{ "FolderId", "PageSize", "PageToken", "Filter" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Loadbalancer.V1.ListTargetGroupsResponse), global::Yandex.Cloud.Loadbalancer.V1.ListTargetGroupsResponse.Parser, new[]{ "TargetGroups", "NextPageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Loadbalancer.V1.CreateTargetGroupRequest), global::Yandex.Cloud.Loadbalancer.V1.CreateTargetGroupRequest.Parser, new[]{ "FolderId", "Name", "Description", "Labels", "RegionId", "Targets" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Loadbalancer.V1.CreateTargetGroupMetadata), global::Yandex.Cloud.Loadbalancer.V1.CreateTargetGroupMetadata.Parser, new[]{ "TargetGroupId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Loadbalancer.V1.UpdateTargetGroupRequest), global::Yandex.Cloud.Loadbalancer.V1.UpdateTargetGroupRequest.Parser, new[]{ "TargetGroupId", "UpdateMask", "Name", "Description", "Labels", "Targets" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Loadbalancer.V1.UpdateTargetGroupMetadata), global::Yandex.Cloud.Loadbalancer.V1.UpdateTargetGroupMetadata.Parser, new[]{ "TargetGroupId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Loadbalancer.V1.DeleteTargetGroupRequest), global::Yandex.Cloud.Loadbalancer.V1.DeleteTargetGroupRequest.Parser, new[]{ "TargetGroupId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Loadbalancer.V1.DeleteTargetGroupMetadata), global::Yandex.Cloud.Loadbalancer.V1.DeleteTargetGroupMetadata.Parser, new[]{ "TargetGroupId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Loadbalancer.V1.AddTargetsRequest), global::Yandex.Cloud.Loadbalancer.V1.AddTargetsRequest.Parser, new[]{ "TargetGroupId", "Targets" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Loadbalancer.V1.AddTargetsMetadata), global::Yandex.Cloud.Loadbalancer.V1.AddTargetsMetadata.Parser, new[]{ "TargetGroupId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Loadbalancer.V1.RemoveTargetsRequest), global::Yandex.Cloud.Loadbalancer.V1.RemoveTargetsRequest.Parser, new[]{ "TargetGroupId", "Targets" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Loadbalancer.V1.RemoveTargetsMetadata), global::Yandex.Cloud.Loadbalancer.V1.RemoveTargetsMetadata.Parser, new[]{ "TargetGroupId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Loadbalancer.V1.ListTargetGroupOperationsRequest), global::Yandex.Cloud.Loadbalancer.V1.ListTargetGroupOperationsRequest.Parser, new[]{ "TargetGroupId", "PageSize", "PageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Loadbalancer.V1.ListTargetGroupOperationsResponse), global::Yandex.Cloud.Loadbalancer.V1.ListTargetGroupOperationsResponse.Parser, new[]{ "Operations", "NextPageToken" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Loadbalancer.V1.GetTargetGroupRequest), global::Yandex.Cloud.Loadbalancer.V1.GetTargetGroupRequest.Parser, new[]{ "TargetGroupId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Loadbalancer.V1.ListTargetGroupsRequest), global::Yandex.Cloud.Loadbalancer.V1.ListTargetGroupsRequest.Parser, new[]{ "FolderId", "PageSize", "PageToken", "Filter" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Loadbalancer.V1.ListTargetGroupsResponse), global::Yandex.Cloud.Loadbalancer.V1.ListTargetGroupsResponse.Parser, new[]{ "TargetGroups", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Loadbalancer.V1.CreateTargetGroupRequest), global::Yandex.Cloud.Loadbalancer.V1.CreateTargetGroupRequest.Parser, new[]{ "FolderId", "Name", "Description", "Labels", "RegionId", "Targets" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Loadbalancer.V1.CreateTargetGroupMetadata), global::Yandex.Cloud.Loadbalancer.V1.CreateTargetGroupMetadata.Parser, new[]{ "TargetGroupId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Loadbalancer.V1.UpdateTargetGroupRequest), global::Yandex.Cloud.Loadbalancer.V1.UpdateTargetGroupRequest.Parser, new[]{ "TargetGroupId", "UpdateMask", "Name", "Description", "Labels", "Targets" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Loadbalancer.V1.UpdateTargetGroupMetadata), global::Yandex.Cloud.Loadbalancer.V1.UpdateTargetGroupMetadata.Parser, new[]{ "TargetGroupId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Loadbalancer.V1.DeleteTargetGroupRequest), global::Yandex.Cloud.Loadbalancer.V1.DeleteTargetGroupRequest.Parser, new[]{ "TargetGroupId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Loadbalancer.V1.DeleteTargetGroupMetadata), global::Yandex.Cloud.Loadbalancer.V1.DeleteTargetGroupMetadata.Parser, new[]{ "TargetGroupId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Loadbalancer.V1.AddTargetsRequest), global::Yandex.Cloud.Loadbalancer.V1.AddTargetsRequest.Parser, new[]{ "TargetGroupId", "Targets" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Loadbalancer.V1.AddTargetsMetadata), global::Yandex.Cloud.Loadbalancer.V1.AddTargetsMetadata.Parser, new[]{ "TargetGroupId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Loadbalancer.V1.RemoveTargetsRequest), global::Yandex.Cloud.Loadbalancer.V1.RemoveTargetsRequest.Parser, new[]{ "TargetGroupId", "Targets" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Loadbalancer.V1.RemoveTargetsMetadata), global::Yandex.Cloud.Loadbalancer.V1.RemoveTargetsMetadata.Parser, new[]{ "TargetGroupId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Loadbalancer.V1.ListTargetGroupOperationsRequest), global::Yandex.Cloud.Loadbalancer.V1.ListTargetGroupOperationsRequest.Parser, new[]{ "TargetGroupId", "PageSize", "PageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Loadbalancer.V1.ListTargetGroupOperationsResponse), global::Yandex.Cloud.Loadbalancer.V1.ListTargetGroupOperationsResponse.Parser, new[]{ "Operations", "NextPageToken" }, null, null, null, null)
           }));
     }
     #endregion
@@ -753,7 +753,7 @@ namespace Yandex.Cloud.Loadbalancer.V1 {
     /// <summary>Field number for the "labels" field.</summary>
     public const int LabelsFieldNumber = 4;
     private static readonly pbc::MapField<string, string>.Codec _map_labels_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 34);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 34);
     private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
     /// <summary>
     /// Resource labels as `` key:value `` pairs.
@@ -1172,7 +1172,7 @@ namespace Yandex.Cloud.Loadbalancer.V1 {
     /// <summary>Field number for the "labels" field.</summary>
     public const int LabelsFieldNumber = 5;
     private static readonly pbc::MapField<string, string>.Codec _map_labels_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 42);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 42);
     private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
     /// <summary>
     /// Resource labels as `` key:value `` pairs.

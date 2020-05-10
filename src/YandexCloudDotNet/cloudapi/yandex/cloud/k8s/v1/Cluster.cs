@@ -82,17 +82,17 @@ namespace Yandex.Cloud.K8S.V1 {
             "cy92MTtrOHNiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Yandex.Cloud.K8S.V1.MaintenanceReflection.Descriptor, global::Yandex.Cloud.K8S.V1.VersionReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Yandex.Cloud.K8S.V1.ReleaseChannel), }, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.Cluster), global::Yandex.Cloud.K8S.V1.Cluster.Parser, new[]{ "Id", "FolderId", "CreatedAt", "Name", "Description", "Labels", "Status", "Health", "NetworkId", "Master", "IpAllocationPolicy", "GatewayIpv4Address", "ServiceAccountId", "NodeServiceAccountId", "ReleaseChannel", "NetworkPolicy", "KmsProvider" }, new[]{ "InternetGateway" }, new[]{ typeof(global::Yandex.Cloud.K8S.V1.Cluster.Types.Status), typeof(global::Yandex.Cloud.K8S.V1.Cluster.Types.Health) }, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.Master), global::Yandex.Cloud.K8S.V1.Master.Parser, new[]{ "ZonalMaster", "RegionalMaster", "Version", "Endpoints", "MasterAuth", "VersionInfo", "MaintenancePolicy" }, new[]{ "MasterType" }, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.MasterAuth), global::Yandex.Cloud.K8S.V1.MasterAuth.Parser, new[]{ "ClusterCaCertificate" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.ZonalMaster), global::Yandex.Cloud.K8S.V1.ZonalMaster.Parser, new[]{ "ZoneId", "InternalV4Address", "ExternalV4Address" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.RegionalMaster), global::Yandex.Cloud.K8S.V1.RegionalMaster.Parser, new[]{ "RegionId", "InternalV4Address", "ExternalV4Address" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.MasterEndpoints), global::Yandex.Cloud.K8S.V1.MasterEndpoints.Parser, new[]{ "InternalV4Endpoint", "ExternalV4Endpoint" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.IPAllocationPolicy), global::Yandex.Cloud.K8S.V1.IPAllocationPolicy.Parser, new[]{ "ClusterIpv4CidrBlock", "NodeIpv4CidrMaskSize", "ServiceIpv4CidrBlock" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.MasterMaintenancePolicy), global::Yandex.Cloud.K8S.V1.MasterMaintenancePolicy.Parser, new[]{ "AutoUpgrade", "MaintenanceWindow" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.NetworkPolicy), global::Yandex.Cloud.K8S.V1.NetworkPolicy.Parser, new[]{ "Provider" }, null, new[]{ typeof(global::Yandex.Cloud.K8S.V1.NetworkPolicy.Types.Provider) }, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.KMSProvider), global::Yandex.Cloud.K8S.V1.KMSProvider.Parser, new[]{ "KeyId" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Yandex.Cloud.K8S.V1.ReleaseChannel), }, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.Cluster), global::Yandex.Cloud.K8S.V1.Cluster.Parser, new[]{ "Id", "FolderId", "CreatedAt", "Name", "Description", "Labels", "Status", "Health", "NetworkId", "Master", "IpAllocationPolicy", "GatewayIpv4Address", "ServiceAccountId", "NodeServiceAccountId", "ReleaseChannel", "NetworkPolicy", "KmsProvider" }, new[]{ "InternetGateway" }, new[]{ typeof(global::Yandex.Cloud.K8S.V1.Cluster.Types.Status), typeof(global::Yandex.Cloud.K8S.V1.Cluster.Types.Health) }, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.Master), global::Yandex.Cloud.K8S.V1.Master.Parser, new[]{ "ZonalMaster", "RegionalMaster", "Version", "Endpoints", "MasterAuth", "VersionInfo", "MaintenancePolicy" }, new[]{ "MasterType" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.MasterAuth), global::Yandex.Cloud.K8S.V1.MasterAuth.Parser, new[]{ "ClusterCaCertificate" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.ZonalMaster), global::Yandex.Cloud.K8S.V1.ZonalMaster.Parser, new[]{ "ZoneId", "InternalV4Address", "ExternalV4Address" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.RegionalMaster), global::Yandex.Cloud.K8S.V1.RegionalMaster.Parser, new[]{ "RegionId", "InternalV4Address", "ExternalV4Address" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.MasterEndpoints), global::Yandex.Cloud.K8S.V1.MasterEndpoints.Parser, new[]{ "InternalV4Endpoint", "ExternalV4Endpoint" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.IPAllocationPolicy), global::Yandex.Cloud.K8S.V1.IPAllocationPolicy.Parser, new[]{ "ClusterIpv4CidrBlock", "NodeIpv4CidrMaskSize", "ServiceIpv4CidrBlock" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.MasterMaintenancePolicy), global::Yandex.Cloud.K8S.V1.MasterMaintenancePolicy.Parser, new[]{ "AutoUpgrade", "MaintenanceWindow" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.NetworkPolicy), global::Yandex.Cloud.K8S.V1.NetworkPolicy.Parser, new[]{ "Provider" }, null, new[]{ typeof(global::Yandex.Cloud.K8S.V1.NetworkPolicy.Types.Provider) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.KMSProvider), global::Yandex.Cloud.K8S.V1.KMSProvider.Parser, new[]{ "KeyId" }, null, null, null, null)
           }));
     }
     #endregion
@@ -250,7 +250,7 @@ namespace Yandex.Cloud.K8S.V1 {
     /// <summary>Field number for the "labels" field.</summary>
     public const int LabelsFieldNumber = 6;
     private static readonly pbc::MapField<string, string>.Codec _map_labels_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 50);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 50);
     private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
     /// <summary>
     /// Resource labels as `key:value` pairs. Мaximum of 64 per resource.
@@ -262,7 +262,7 @@ namespace Yandex.Cloud.K8S.V1 {
 
     /// <summary>Field number for the "status" field.</summary>
     public const int StatusFieldNumber = 7;
-    private global::Yandex.Cloud.K8S.V1.Cluster.Types.Status status_ = 0;
+    private global::Yandex.Cloud.K8S.V1.Cluster.Types.Status status_ = global::Yandex.Cloud.K8S.V1.Cluster.Types.Status.Unspecified;
     /// <summary>
     /// Status of the Kubernetes cluster.
     /// </summary>
@@ -276,7 +276,7 @@ namespace Yandex.Cloud.K8S.V1 {
 
     /// <summary>Field number for the "health" field.</summary>
     public const int HealthFieldNumber = 8;
-    private global::Yandex.Cloud.K8S.V1.Cluster.Types.Health health_ = 0;
+    private global::Yandex.Cloud.K8S.V1.Cluster.Types.Health health_ = global::Yandex.Cloud.K8S.V1.Cluster.Types.Health.Unspecified;
     /// <summary>
     /// Health of the Kubernetes cluster.
     /// </summary>
@@ -374,7 +374,7 @@ namespace Yandex.Cloud.K8S.V1 {
 
     /// <summary>Field number for the "release_channel" field.</summary>
     public const int ReleaseChannelFieldNumber = 15;
-    private global::Yandex.Cloud.K8S.V1.ReleaseChannel releaseChannel_ = 0;
+    private global::Yandex.Cloud.K8S.V1.ReleaseChannel releaseChannel_ = global::Yandex.Cloud.K8S.V1.ReleaseChannel.Unspecified;
     /// <summary>
     /// When creating a Kubernetes cluster, you should specify one of three release channels. The release channel contains several Kubernetes versions.
     /// Channels differ in the set of available versions, the management of auto-updates, and the updates received.
@@ -475,15 +475,15 @@ namespace Yandex.Cloud.K8S.V1 {
       if (Name.Length != 0) hash ^= Name.GetHashCode();
       if (Description.Length != 0) hash ^= Description.GetHashCode();
       hash ^= Labels.GetHashCode();
-      if (Status != 0) hash ^= Status.GetHashCode();
-      if (Health != 0) hash ^= Health.GetHashCode();
+      if (Status != global::Yandex.Cloud.K8S.V1.Cluster.Types.Status.Unspecified) hash ^= Status.GetHashCode();
+      if (Health != global::Yandex.Cloud.K8S.V1.Cluster.Types.Health.Unspecified) hash ^= Health.GetHashCode();
       if (NetworkId.Length != 0) hash ^= NetworkId.GetHashCode();
       if (master_ != null) hash ^= Master.GetHashCode();
       if (ipAllocationPolicy_ != null) hash ^= IpAllocationPolicy.GetHashCode();
       if (internetGatewayCase_ == InternetGatewayOneofCase.GatewayIpv4Address) hash ^= GatewayIpv4Address.GetHashCode();
       if (ServiceAccountId.Length != 0) hash ^= ServiceAccountId.GetHashCode();
       if (NodeServiceAccountId.Length != 0) hash ^= NodeServiceAccountId.GetHashCode();
-      if (ReleaseChannel != 0) hash ^= ReleaseChannel.GetHashCode();
+      if (ReleaseChannel != global::Yandex.Cloud.K8S.V1.ReleaseChannel.Unspecified) hash ^= ReleaseChannel.GetHashCode();
       if (networkPolicy_ != null) hash ^= NetworkPolicy.GetHashCode();
       if (kmsProvider_ != null) hash ^= KmsProvider.GetHashCode();
       hash ^= (int) internetGatewayCase_;
@@ -521,11 +521,11 @@ namespace Yandex.Cloud.K8S.V1 {
         output.WriteString(Description);
       }
       labels_.WriteTo(output, _map_labels_codec);
-      if (Status != 0) {
+      if (Status != global::Yandex.Cloud.K8S.V1.Cluster.Types.Status.Unspecified) {
         output.WriteRawTag(56);
         output.WriteEnum((int) Status);
       }
-      if (Health != 0) {
+      if (Health != global::Yandex.Cloud.K8S.V1.Cluster.Types.Health.Unspecified) {
         output.WriteRawTag(64);
         output.WriteEnum((int) Health);
       }
@@ -553,7 +553,7 @@ namespace Yandex.Cloud.K8S.V1 {
         output.WriteRawTag(114);
         output.WriteString(NodeServiceAccountId);
       }
-      if (ReleaseChannel != 0) {
+      if (ReleaseChannel != global::Yandex.Cloud.K8S.V1.ReleaseChannel.Unspecified) {
         output.WriteRawTag(120);
         output.WriteEnum((int) ReleaseChannel);
       }
@@ -589,10 +589,10 @@ namespace Yandex.Cloud.K8S.V1 {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Description);
       }
       size += labels_.CalculateSize(_map_labels_codec);
-      if (Status != 0) {
+      if (Status != global::Yandex.Cloud.K8S.V1.Cluster.Types.Status.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Status);
       }
-      if (Health != 0) {
+      if (Health != global::Yandex.Cloud.K8S.V1.Cluster.Types.Health.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Health);
       }
       if (NetworkId.Length != 0) {
@@ -613,7 +613,7 @@ namespace Yandex.Cloud.K8S.V1 {
       if (NodeServiceAccountId.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(NodeServiceAccountId);
       }
-      if (ReleaseChannel != 0) {
+      if (ReleaseChannel != global::Yandex.Cloud.K8S.V1.ReleaseChannel.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) ReleaseChannel);
       }
       if (networkPolicy_ != null) {
@@ -652,10 +652,10 @@ namespace Yandex.Cloud.K8S.V1 {
         Description = other.Description;
       }
       labels_.Add(other.labels_);
-      if (other.Status != 0) {
+      if (other.Status != global::Yandex.Cloud.K8S.V1.Cluster.Types.Status.Unspecified) {
         Status = other.Status;
       }
-      if (other.Health != 0) {
+      if (other.Health != global::Yandex.Cloud.K8S.V1.Cluster.Types.Health.Unspecified) {
         Health = other.Health;
       }
       if (other.NetworkId.Length != 0) {
@@ -679,7 +679,7 @@ namespace Yandex.Cloud.K8S.V1 {
       if (other.NodeServiceAccountId.Length != 0) {
         NodeServiceAccountId = other.NodeServiceAccountId;
       }
-      if (other.ReleaseChannel != 0) {
+      if (other.ReleaseChannel != global::Yandex.Cloud.K8S.V1.ReleaseChannel.Unspecified) {
         ReleaseChannel = other.ReleaseChannel;
       }
       if (other.networkPolicy_ != null) {
@@ -2332,7 +2332,7 @@ namespace Yandex.Cloud.K8S.V1 {
 
     /// <summary>Field number for the "provider" field.</summary>
     public const int ProviderFieldNumber = 1;
-    private global::Yandex.Cloud.K8S.V1.NetworkPolicy.Types.Provider provider_ = 0;
+    private global::Yandex.Cloud.K8S.V1.NetworkPolicy.Types.Provider provider_ = global::Yandex.Cloud.K8S.V1.NetworkPolicy.Types.Provider.Unspecified;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.K8S.V1.NetworkPolicy.Types.Provider Provider {
       get { return provider_; }
@@ -2361,7 +2361,7 @@ namespace Yandex.Cloud.K8S.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override int GetHashCode() {
       int hash = 1;
-      if (Provider != 0) hash ^= Provider.GetHashCode();
+      if (Provider != global::Yandex.Cloud.K8S.V1.NetworkPolicy.Types.Provider.Unspecified) hash ^= Provider.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -2375,7 +2375,7 @@ namespace Yandex.Cloud.K8S.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public void WriteTo(pb::CodedOutputStream output) {
-      if (Provider != 0) {
+      if (Provider != global::Yandex.Cloud.K8S.V1.NetworkPolicy.Types.Provider.Unspecified) {
         output.WriteRawTag(8);
         output.WriteEnum((int) Provider);
       }
@@ -2387,7 +2387,7 @@ namespace Yandex.Cloud.K8S.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CalculateSize() {
       int size = 0;
-      if (Provider != 0) {
+      if (Provider != global::Yandex.Cloud.K8S.V1.NetworkPolicy.Types.Provider.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Provider);
       }
       if (_unknownFields != null) {
@@ -2401,7 +2401,7 @@ namespace Yandex.Cloud.K8S.V1 {
       if (other == null) {
         return;
       }
-      if (other.Provider != 0) {
+      if (other.Provider != global::Yandex.Cloud.K8S.V1.NetworkPolicy.Types.Provider.Unspecified) {
         Provider = other.Provider;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);

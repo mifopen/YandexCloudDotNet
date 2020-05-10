@@ -45,7 +45,7 @@ namespace Yandex.Cloud.Compute.V1 {
     {
       /// <summary>Creates a new client for ZoneService</summary>
       /// <param name="channel">The channel to use to make remote calls.</param>
-      public ZoneServiceClient(grpc::Channel channel) : base(channel)
+      public ZoneServiceClient(grpc::ChannelBase channel) : base(channel)
       {
       }
       /// <summary>Creates a new client for ZoneService that uses a custom <c>CallInvoker</c>.</summary>

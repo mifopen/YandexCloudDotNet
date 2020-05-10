@@ -32,8 +32,8 @@ namespace Yandex.Cloud.Dataproc.V1 {
             "bmRleC9jbG91ZC9kYXRhcHJvYy92MTtkYXRhcHJvY2IGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.ResourcePreset), global::Yandex.Cloud.Dataproc.V1.ResourcePreset.Parser, new[]{ "Id", "ZoneIds", "Cores", "Memory" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.ResourcePreset), global::Yandex.Cloud.Dataproc.V1.ResourcePreset.Parser, new[]{ "Id", "ZoneIds", "Cores", "Memory" }, null, null, null, null)
           }));
     }
     #endregion

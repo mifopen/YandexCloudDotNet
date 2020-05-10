@@ -76,18 +76,18 @@ namespace Yandex.Cloud.Iam.V1 {
             "bWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Yandex.Cloud.Api.OperationReflection.Descriptor, global::Yandex.Cloud.Iam.V1.ApiKeyReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.GetApiKeyRequest), global::Yandex.Cloud.Iam.V1.GetApiKeyRequest.Parser, new[]{ "ApiKeyId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.ListApiKeysRequest), global::Yandex.Cloud.Iam.V1.ListApiKeysRequest.Parser, new[]{ "ServiceAccountId", "PageSize", "PageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.ListApiKeysResponse), global::Yandex.Cloud.Iam.V1.ListApiKeysResponse.Parser, new[]{ "ApiKeys", "NextPageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.CreateApiKeyRequest), global::Yandex.Cloud.Iam.V1.CreateApiKeyRequest.Parser, new[]{ "ServiceAccountId", "Description" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.CreateApiKeyResponse), global::Yandex.Cloud.Iam.V1.CreateApiKeyResponse.Parser, new[]{ "ApiKey", "Secret" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.UpdateApiKeyRequest), global::Yandex.Cloud.Iam.V1.UpdateApiKeyRequest.Parser, new[]{ "ApiKeyId", "UpdateMask", "Description" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.UpdateApiKeyMetadata), global::Yandex.Cloud.Iam.V1.UpdateApiKeyMetadata.Parser, new[]{ "ApiKeyId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.DeleteApiKeyRequest), global::Yandex.Cloud.Iam.V1.DeleteApiKeyRequest.Parser, new[]{ "ApiKeyId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.DeleteApiKeyMetadata), global::Yandex.Cloud.Iam.V1.DeleteApiKeyMetadata.Parser, new[]{ "ApiKeyId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.ListApiKeyOperationsRequest), global::Yandex.Cloud.Iam.V1.ListApiKeyOperationsRequest.Parser, new[]{ "ApiKeyId", "PageSize", "PageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.ListApiKeyOperationsResponse), global::Yandex.Cloud.Iam.V1.ListApiKeyOperationsResponse.Parser, new[]{ "Operations", "NextPageToken" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.GetApiKeyRequest), global::Yandex.Cloud.Iam.V1.GetApiKeyRequest.Parser, new[]{ "ApiKeyId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.ListApiKeysRequest), global::Yandex.Cloud.Iam.V1.ListApiKeysRequest.Parser, new[]{ "ServiceAccountId", "PageSize", "PageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.ListApiKeysResponse), global::Yandex.Cloud.Iam.V1.ListApiKeysResponse.Parser, new[]{ "ApiKeys", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.CreateApiKeyRequest), global::Yandex.Cloud.Iam.V1.CreateApiKeyRequest.Parser, new[]{ "ServiceAccountId", "Description" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.CreateApiKeyResponse), global::Yandex.Cloud.Iam.V1.CreateApiKeyResponse.Parser, new[]{ "ApiKey", "Secret" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.UpdateApiKeyRequest), global::Yandex.Cloud.Iam.V1.UpdateApiKeyRequest.Parser, new[]{ "ApiKeyId", "UpdateMask", "Description" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.UpdateApiKeyMetadata), global::Yandex.Cloud.Iam.V1.UpdateApiKeyMetadata.Parser, new[]{ "ApiKeyId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.DeleteApiKeyRequest), global::Yandex.Cloud.Iam.V1.DeleteApiKeyRequest.Parser, new[]{ "ApiKeyId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.DeleteApiKeyMetadata), global::Yandex.Cloud.Iam.V1.DeleteApiKeyMetadata.Parser, new[]{ "ApiKeyId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.ListApiKeyOperationsRequest), global::Yandex.Cloud.Iam.V1.ListApiKeyOperationsRequest.Parser, new[]{ "ApiKeyId", "PageSize", "PageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.ListApiKeyOperationsResponse), global::Yandex.Cloud.Iam.V1.ListApiKeyOperationsResponse.Parser, new[]{ "Operations", "NextPageToken" }, null, null, null, null)
           }));
     }
     #endregion

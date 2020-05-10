@@ -35,9 +35,9 @@ namespace Yandex.Cloud.K8S.V1 {
             "Z2VucHJvdG8veWFuZGV4L2Nsb3VkL2s4cy92MTtrOHNiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Yandex.Cloud.ValidationReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.VersionInfo), global::Yandex.Cloud.K8S.V1.VersionInfo.Parser, new[]{ "CurrentVersion", "NewRevisionAvailable", "NewRevisionSummary", "VersionDeprecated" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.UpdateVersionSpec), global::Yandex.Cloud.K8S.V1.UpdateVersionSpec.Parser, new[]{ "Version", "LatestRevision" }, new[]{ "Specifier" }, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.VersionInfo), global::Yandex.Cloud.K8S.V1.VersionInfo.Parser, new[]{ "CurrentVersion", "NewRevisionAvailable", "NewRevisionSummary", "VersionDeprecated" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.UpdateVersionSpec), global::Yandex.Cloud.K8S.V1.UpdateVersionSpec.Parser, new[]{ "Version", "LatestRevision" }, new[]{ "Specifier" }, null, null, null)
           }));
     }
     #endregion

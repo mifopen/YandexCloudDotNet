@@ -44,9 +44,9 @@ namespace Yandex.Cloud.Mdb.Mysql.V1Alpha.Config {
             "bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.WrappersReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Config.MysqlConfig5_7), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Config.MysqlConfig5_7.Parser, new[]{ "InnodbBufferPoolSize", "MaxConnections", "LongQueryTime" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Config.MysqlConfigSet5_7), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Config.MysqlConfigSet5_7.Parser, new[]{ "EffectiveConfig", "UserConfig", "DefaultConfig" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Config.MysqlConfig5_7), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Config.MysqlConfig5_7.Parser, new[]{ "InnodbBufferPoolSize", "MaxConnections", "LongQueryTime" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Config.MysqlConfigSet5_7), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Config.MysqlConfigSet5_7.Parser, new[]{ "EffectiveConfig", "UserConfig", "DefaultConfig" }, null, null, null, null)
           }));
     }
     #endregion

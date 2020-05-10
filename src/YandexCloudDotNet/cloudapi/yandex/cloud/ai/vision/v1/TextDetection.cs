@@ -48,13 +48,13 @@ namespace Yandex.Cloud.Ai.Vision.V1 {
             "ZGV4L2Nsb3VkL2FpL3Zpc2lvbi92MTt2aXNpb25iBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Yandex.Cloud.Ai.Vision.V1.PrimitivesReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Vision.V1.TextAnnotation), global::Yandex.Cloud.Ai.Vision.V1.TextAnnotation.Parser, new[]{ "Pages" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Vision.V1.Page), global::Yandex.Cloud.Ai.Vision.V1.Page.Parser, new[]{ "Width", "Height", "Blocks", "Entities" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Vision.V1.Entity), global::Yandex.Cloud.Ai.Vision.V1.Entity.Parser, new[]{ "Name", "Text" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Vision.V1.Block), global::Yandex.Cloud.Ai.Vision.V1.Block.Parser, new[]{ "BoundingBox", "Lines" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Vision.V1.Line), global::Yandex.Cloud.Ai.Vision.V1.Line.Parser, new[]{ "BoundingBox", "Words", "Confidence" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Vision.V1.Word), global::Yandex.Cloud.Ai.Vision.V1.Word.Parser, new[]{ "BoundingBox", "Text", "Confidence", "Languages", "EntityIndex" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Vision.V1.Word.Types.DetectedLanguage), global::Yandex.Cloud.Ai.Vision.V1.Word.Types.DetectedLanguage.Parser, new[]{ "LanguageCode", "Confidence" }, null, null, null)})
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Vision.V1.TextAnnotation), global::Yandex.Cloud.Ai.Vision.V1.TextAnnotation.Parser, new[]{ "Pages" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Vision.V1.Page), global::Yandex.Cloud.Ai.Vision.V1.Page.Parser, new[]{ "Width", "Height", "Blocks", "Entities" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Vision.V1.Entity), global::Yandex.Cloud.Ai.Vision.V1.Entity.Parser, new[]{ "Name", "Text" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Vision.V1.Block), global::Yandex.Cloud.Ai.Vision.V1.Block.Parser, new[]{ "BoundingBox", "Lines" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Vision.V1.Line), global::Yandex.Cloud.Ai.Vision.V1.Line.Parser, new[]{ "BoundingBox", "Words", "Confidence" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Vision.V1.Word), global::Yandex.Cloud.Ai.Vision.V1.Word.Parser, new[]{ "BoundingBox", "Text", "Confidence", "Languages", "EntityIndex" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Vision.V1.Word.Types.DetectedLanguage), global::Yandex.Cloud.Ai.Vision.V1.Word.Types.DetectedLanguage.Parser, new[]{ "LanguageCode", "Confidence" }, null, null, null, null)})
           }));
     }
     #endregion

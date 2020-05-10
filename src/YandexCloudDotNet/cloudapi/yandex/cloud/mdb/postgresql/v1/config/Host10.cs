@@ -167,8 +167,8 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1.Config {
             "Z3Jlc3FsL3YxL2NvbmZpZztwb3N0Z3Jlc3FsYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.WrappersReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10), global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Parser, new[]{ "RecoveryMinApplyDelay", "SharedBuffers", "TempBuffers", "WorkMem", "ReplacementSortTuples", "TempFileLimit", "BackendFlushAfter", "OldSnapshotThreshold", "MaxStandbyStreamingDelay", "ConstraintExclusion", "CursorTupleFraction", "FromCollapseLimit", "JoinCollapseLimit", "ForceParallelMode", "ClientMinMessages", "LogMinMessages", "LogMinErrorStatement", "LogMinDurationStatement", "LogCheckpoints", "LogConnections", "LogDisconnections", "LogDuration", "LogErrorVerbosity", "LogLockWaits", "LogStatement", "LogTempFiles", "SearchPath", "RowSecurity", "DefaultTransactionIsolation", "StatementTimeout", "LockTimeout", "IdleInTransactionSessionTimeout", "ByteaOutput", "Xmlbinary", "Xmloption", "GinPendingListLimit", "DeadlockTimeout", "MaxLocksPerTransaction", "MaxPredLocksPerTransaction", "ArrayNulls", "BackslashQuote", "DefaultWithOids", "EscapeStringWarning", "LoCompatPrivileges", "OperatorPrecedenceWarning", "QuoteAllIdentifiers", "StandardConformingStrings", "SynchronizeSeqscans", "TransformNullEquals", "ExitOnError", "SeqPageCost", "RandomPageCost", "EnableBitmapscan", "EnableHashagg", "EnableHashjoin", "EnableIndexscan", "EnableIndexonlyscan", "EnableMaterial", "EnableMergejoin", "EnableNestloop", "EnableSeqscan", "EnableSort", "EnableTidscan", "MaxParallelWorkers", "MaxParallelWorkersPerGather", "Timezone", "EffectiveIoConcurrency", "EffectiveCacheSize" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.ConstraintExclusion), typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.ForceParallelMode), typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.LogLevel), typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.LogErrorVerbosity), typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.LogStatement), typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.TransactionIsolation), typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.ByteaOutput), typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.XmlBinary), typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.XmlOption), typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.BackslashQuote) }, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10), global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Parser, new[]{ "RecoveryMinApplyDelay", "SharedBuffers", "TempBuffers", "WorkMem", "ReplacementSortTuples", "TempFileLimit", "BackendFlushAfter", "OldSnapshotThreshold", "MaxStandbyStreamingDelay", "ConstraintExclusion", "CursorTupleFraction", "FromCollapseLimit", "JoinCollapseLimit", "ForceParallelMode", "ClientMinMessages", "LogMinMessages", "LogMinErrorStatement", "LogMinDurationStatement", "LogCheckpoints", "LogConnections", "LogDisconnections", "LogDuration", "LogErrorVerbosity", "LogLockWaits", "LogStatement", "LogTempFiles", "SearchPath", "RowSecurity", "DefaultTransactionIsolation", "StatementTimeout", "LockTimeout", "IdleInTransactionSessionTimeout", "ByteaOutput", "Xmlbinary", "Xmloption", "GinPendingListLimit", "DeadlockTimeout", "MaxLocksPerTransaction", "MaxPredLocksPerTransaction", "ArrayNulls", "BackslashQuote", "DefaultWithOids", "EscapeStringWarning", "LoCompatPrivileges", "OperatorPrecedenceWarning", "QuoteAllIdentifiers", "StandardConformingStrings", "SynchronizeSeqscans", "TransformNullEquals", "ExitOnError", "SeqPageCost", "RandomPageCost", "EnableBitmapscan", "EnableHashagg", "EnableHashjoin", "EnableIndexscan", "EnableIndexonlyscan", "EnableMaterial", "EnableMergejoin", "EnableNestloop", "EnableSeqscan", "EnableSort", "EnableTidscan", "MaxParallelWorkers", "MaxParallelWorkersPerGather", "Timezone", "EffectiveIoConcurrency", "EffectiveCacheSize" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.ConstraintExclusion), typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.ForceParallelMode), typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.LogLevel), typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.LogErrorVerbosity), typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.LogStatement), typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.TransactionIsolation), typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.ByteaOutput), typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.XmlBinary), typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.XmlOption), typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.BackslashQuote) }, null, null)
           }));
     }
     #endregion
@@ -421,7 +421,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1.Config {
 
     /// <summary>Field number for the "constraint_exclusion" field.</summary>
     public const int ConstraintExclusionFieldNumber = 10;
-    private global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.ConstraintExclusion constraintExclusion_ = 0;
+    private global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.ConstraintExclusion constraintExclusion_ = global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.ConstraintExclusion.Unspecified;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.ConstraintExclusion ConstraintExclusion {
       get { return constraintExclusion_; }
@@ -471,7 +471,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1.Config {
 
     /// <summary>Field number for the "force_parallel_mode" field.</summary>
     public const int ForceParallelModeFieldNumber = 14;
-    private global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.ForceParallelMode forceParallelMode_ = 0;
+    private global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.ForceParallelMode forceParallelMode_ = global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.ForceParallelMode.Unspecified;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.ForceParallelMode ForceParallelMode {
       get { return forceParallelMode_; }
@@ -482,7 +482,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1.Config {
 
     /// <summary>Field number for the "client_min_messages" field.</summary>
     public const int ClientMinMessagesFieldNumber = 15;
-    private global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.LogLevel clientMinMessages_ = 0;
+    private global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.LogLevel clientMinMessages_ = global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.LogLevel.Unspecified;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.LogLevel ClientMinMessages {
       get { return clientMinMessages_; }
@@ -493,7 +493,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1.Config {
 
     /// <summary>Field number for the "log_min_messages" field.</summary>
     public const int LogMinMessagesFieldNumber = 16;
-    private global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.LogLevel logMinMessages_ = 0;
+    private global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.LogLevel logMinMessages_ = global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.LogLevel.Unspecified;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.LogLevel LogMinMessages {
       get { return logMinMessages_; }
@@ -504,7 +504,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1.Config {
 
     /// <summary>Field number for the "log_min_error_statement" field.</summary>
     public const int LogMinErrorStatementFieldNumber = 17;
-    private global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.LogLevel logMinErrorStatement_ = 0;
+    private global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.LogLevel logMinErrorStatement_ = global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.LogLevel.Unspecified;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.LogLevel LogMinErrorStatement {
       get { return logMinErrorStatement_; }
@@ -583,7 +583,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1.Config {
 
     /// <summary>Field number for the "log_error_verbosity" field.</summary>
     public const int LogErrorVerbosityFieldNumber = 23;
-    private global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.LogErrorVerbosity logErrorVerbosity_ = 0;
+    private global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.LogErrorVerbosity logErrorVerbosity_ = global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.LogErrorVerbosity.Unspecified;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.LogErrorVerbosity LogErrorVerbosity {
       get { return logErrorVerbosity_; }
@@ -607,7 +607,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1.Config {
 
     /// <summary>Field number for the "log_statement" field.</summary>
     public const int LogStatementFieldNumber = 25;
-    private global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.LogStatement logStatement_ = 0;
+    private global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.LogStatement logStatement_ = global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.LogStatement.Unspecified;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.LogStatement LogStatement {
       get { return logStatement_; }
@@ -655,7 +655,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1.Config {
 
     /// <summary>Field number for the "default_transaction_isolation" field.</summary>
     public const int DefaultTransactionIsolationFieldNumber = 29;
-    private global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.TransactionIsolation defaultTransactionIsolation_ = 0;
+    private global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.TransactionIsolation defaultTransactionIsolation_ = global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.TransactionIsolation.Unspecified;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.TransactionIsolation DefaultTransactionIsolation {
       get { return defaultTransactionIsolation_; }
@@ -714,7 +714,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1.Config {
 
     /// <summary>Field number for the "bytea_output" field.</summary>
     public const int ByteaOutputFieldNumber = 33;
-    private global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.ByteaOutput byteaOutput_ = 0;
+    private global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.ByteaOutput byteaOutput_ = global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.ByteaOutput.Unspecified;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.ByteaOutput ByteaOutput {
       get { return byteaOutput_; }
@@ -725,7 +725,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1.Config {
 
     /// <summary>Field number for the "xmlbinary" field.</summary>
     public const int XmlbinaryFieldNumber = 34;
-    private global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.XmlBinary xmlbinary_ = 0;
+    private global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.XmlBinary xmlbinary_ = global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.XmlBinary.Unspecified;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.XmlBinary Xmlbinary {
       get { return xmlbinary_; }
@@ -736,7 +736,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1.Config {
 
     /// <summary>Field number for the "xmloption" field.</summary>
     public const int XmloptionFieldNumber = 35;
-    private global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.XmlOption xmloption_ = 0;
+    private global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.XmlOption xmloption_ = global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.XmlOption.Unspecified;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.XmlOption Xmloption {
       get { return xmloption_; }
@@ -818,7 +818,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1.Config {
 
     /// <summary>Field number for the "backslash_quote" field.</summary>
     public const int BackslashQuoteFieldNumber = 41;
-    private global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.BackslashQuote backslashQuote_ = 0;
+    private global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.BackslashQuote backslashQuote_ = global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.BackslashQuote.Unspecified;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.BackslashQuote BackslashQuote {
       get { return backslashQuote_; }
@@ -1272,38 +1272,38 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1.Config {
       if (backendFlushAfter_ != null) hash ^= BackendFlushAfter.GetHashCode();
       if (oldSnapshotThreshold_ != null) hash ^= OldSnapshotThreshold.GetHashCode();
       if (maxStandbyStreamingDelay_ != null) hash ^= MaxStandbyStreamingDelay.GetHashCode();
-      if (ConstraintExclusion != 0) hash ^= ConstraintExclusion.GetHashCode();
+      if (ConstraintExclusion != global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.ConstraintExclusion.Unspecified) hash ^= ConstraintExclusion.GetHashCode();
       if (cursorTupleFraction_ != null) hash ^= pbc::ProtobufEqualityComparers.BitwiseNullableDoubleEqualityComparer.GetHashCode(CursorTupleFraction);
       if (fromCollapseLimit_ != null) hash ^= FromCollapseLimit.GetHashCode();
       if (joinCollapseLimit_ != null) hash ^= JoinCollapseLimit.GetHashCode();
-      if (ForceParallelMode != 0) hash ^= ForceParallelMode.GetHashCode();
-      if (ClientMinMessages != 0) hash ^= ClientMinMessages.GetHashCode();
-      if (LogMinMessages != 0) hash ^= LogMinMessages.GetHashCode();
-      if (LogMinErrorStatement != 0) hash ^= LogMinErrorStatement.GetHashCode();
+      if (ForceParallelMode != global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.ForceParallelMode.Unspecified) hash ^= ForceParallelMode.GetHashCode();
+      if (ClientMinMessages != global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.LogLevel.Unspecified) hash ^= ClientMinMessages.GetHashCode();
+      if (LogMinMessages != global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.LogLevel.Unspecified) hash ^= LogMinMessages.GetHashCode();
+      if (LogMinErrorStatement != global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.LogLevel.Unspecified) hash ^= LogMinErrorStatement.GetHashCode();
       if (logMinDurationStatement_ != null) hash ^= LogMinDurationStatement.GetHashCode();
       if (logCheckpoints_ != null) hash ^= LogCheckpoints.GetHashCode();
       if (logConnections_ != null) hash ^= LogConnections.GetHashCode();
       if (logDisconnections_ != null) hash ^= LogDisconnections.GetHashCode();
       if (logDuration_ != null) hash ^= LogDuration.GetHashCode();
-      if (LogErrorVerbosity != 0) hash ^= LogErrorVerbosity.GetHashCode();
+      if (LogErrorVerbosity != global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.LogErrorVerbosity.Unspecified) hash ^= LogErrorVerbosity.GetHashCode();
       if (logLockWaits_ != null) hash ^= LogLockWaits.GetHashCode();
-      if (LogStatement != 0) hash ^= LogStatement.GetHashCode();
+      if (LogStatement != global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.LogStatement.Unspecified) hash ^= LogStatement.GetHashCode();
       if (logTempFiles_ != null) hash ^= LogTempFiles.GetHashCode();
       if (SearchPath.Length != 0) hash ^= SearchPath.GetHashCode();
       if (rowSecurity_ != null) hash ^= RowSecurity.GetHashCode();
-      if (DefaultTransactionIsolation != 0) hash ^= DefaultTransactionIsolation.GetHashCode();
+      if (DefaultTransactionIsolation != global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.TransactionIsolation.Unspecified) hash ^= DefaultTransactionIsolation.GetHashCode();
       if (statementTimeout_ != null) hash ^= StatementTimeout.GetHashCode();
       if (lockTimeout_ != null) hash ^= LockTimeout.GetHashCode();
       if (idleInTransactionSessionTimeout_ != null) hash ^= IdleInTransactionSessionTimeout.GetHashCode();
-      if (ByteaOutput != 0) hash ^= ByteaOutput.GetHashCode();
-      if (Xmlbinary != 0) hash ^= Xmlbinary.GetHashCode();
-      if (Xmloption != 0) hash ^= Xmloption.GetHashCode();
+      if (ByteaOutput != global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.ByteaOutput.Unspecified) hash ^= ByteaOutput.GetHashCode();
+      if (Xmlbinary != global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.XmlBinary.Unspecified) hash ^= Xmlbinary.GetHashCode();
+      if (Xmloption != global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.XmlOption.Unspecified) hash ^= Xmloption.GetHashCode();
       if (ginPendingListLimit_ != null) hash ^= GinPendingListLimit.GetHashCode();
       if (deadlockTimeout_ != null) hash ^= DeadlockTimeout.GetHashCode();
       if (maxLocksPerTransaction_ != null) hash ^= MaxLocksPerTransaction.GetHashCode();
       if (maxPredLocksPerTransaction_ != null) hash ^= MaxPredLocksPerTransaction.GetHashCode();
       if (arrayNulls_ != null) hash ^= ArrayNulls.GetHashCode();
-      if (BackslashQuote != 0) hash ^= BackslashQuote.GetHashCode();
+      if (BackslashQuote != global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.BackslashQuote.Unspecified) hash ^= BackslashQuote.GetHashCode();
       if (defaultWithOids_ != null) hash ^= DefaultWithOids.GetHashCode();
       if (escapeStringWarning_ != null) hash ^= EscapeStringWarning.GetHashCode();
       if (loCompatPrivileges_ != null) hash ^= LoCompatPrivileges.GetHashCode();
@@ -1371,7 +1371,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1.Config {
       if (maxStandbyStreamingDelay_ != null) {
         _single_maxStandbyStreamingDelay_codec.WriteTagAndValue(output, MaxStandbyStreamingDelay);
       }
-      if (ConstraintExclusion != 0) {
+      if (ConstraintExclusion != global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.ConstraintExclusion.Unspecified) {
         output.WriteRawTag(80);
         output.WriteEnum((int) ConstraintExclusion);
       }
@@ -1384,19 +1384,19 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1.Config {
       if (joinCollapseLimit_ != null) {
         _single_joinCollapseLimit_codec.WriteTagAndValue(output, JoinCollapseLimit);
       }
-      if (ForceParallelMode != 0) {
+      if (ForceParallelMode != global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.ForceParallelMode.Unspecified) {
         output.WriteRawTag(112);
         output.WriteEnum((int) ForceParallelMode);
       }
-      if (ClientMinMessages != 0) {
+      if (ClientMinMessages != global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.LogLevel.Unspecified) {
         output.WriteRawTag(120);
         output.WriteEnum((int) ClientMinMessages);
       }
-      if (LogMinMessages != 0) {
+      if (LogMinMessages != global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.LogLevel.Unspecified) {
         output.WriteRawTag(128, 1);
         output.WriteEnum((int) LogMinMessages);
       }
-      if (LogMinErrorStatement != 0) {
+      if (LogMinErrorStatement != global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.LogLevel.Unspecified) {
         output.WriteRawTag(136, 1);
         output.WriteEnum((int) LogMinErrorStatement);
       }
@@ -1415,14 +1415,14 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1.Config {
       if (logDuration_ != null) {
         _single_logDuration_codec.WriteTagAndValue(output, LogDuration);
       }
-      if (LogErrorVerbosity != 0) {
+      if (LogErrorVerbosity != global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.LogErrorVerbosity.Unspecified) {
         output.WriteRawTag(184, 1);
         output.WriteEnum((int) LogErrorVerbosity);
       }
       if (logLockWaits_ != null) {
         _single_logLockWaits_codec.WriteTagAndValue(output, LogLockWaits);
       }
-      if (LogStatement != 0) {
+      if (LogStatement != global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.LogStatement.Unspecified) {
         output.WriteRawTag(200, 1);
         output.WriteEnum((int) LogStatement);
       }
@@ -1436,7 +1436,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1.Config {
       if (rowSecurity_ != null) {
         _single_rowSecurity_codec.WriteTagAndValue(output, RowSecurity);
       }
-      if (DefaultTransactionIsolation != 0) {
+      if (DefaultTransactionIsolation != global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.TransactionIsolation.Unspecified) {
         output.WriteRawTag(232, 1);
         output.WriteEnum((int) DefaultTransactionIsolation);
       }
@@ -1449,15 +1449,15 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1.Config {
       if (idleInTransactionSessionTimeout_ != null) {
         _single_idleInTransactionSessionTimeout_codec.WriteTagAndValue(output, IdleInTransactionSessionTimeout);
       }
-      if (ByteaOutput != 0) {
+      if (ByteaOutput != global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.ByteaOutput.Unspecified) {
         output.WriteRawTag(136, 2);
         output.WriteEnum((int) ByteaOutput);
       }
-      if (Xmlbinary != 0) {
+      if (Xmlbinary != global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.XmlBinary.Unspecified) {
         output.WriteRawTag(144, 2);
         output.WriteEnum((int) Xmlbinary);
       }
-      if (Xmloption != 0) {
+      if (Xmloption != global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.XmlOption.Unspecified) {
         output.WriteRawTag(152, 2);
         output.WriteEnum((int) Xmloption);
       }
@@ -1476,7 +1476,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1.Config {
       if (arrayNulls_ != null) {
         _single_arrayNulls_codec.WriteTagAndValue(output, ArrayNulls);
       }
-      if (BackslashQuote != 0) {
+      if (BackslashQuote != global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.BackslashQuote.Unspecified) {
         output.WriteRawTag(200, 2);
         output.WriteEnum((int) BackslashQuote);
       }
@@ -1597,7 +1597,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1.Config {
       if (maxStandbyStreamingDelay_ != null) {
         size += _single_maxStandbyStreamingDelay_codec.CalculateSizeWithTag(MaxStandbyStreamingDelay);
       }
-      if (ConstraintExclusion != 0) {
+      if (ConstraintExclusion != global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.ConstraintExclusion.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) ConstraintExclusion);
       }
       if (cursorTupleFraction_ != null) {
@@ -1609,16 +1609,16 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1.Config {
       if (joinCollapseLimit_ != null) {
         size += _single_joinCollapseLimit_codec.CalculateSizeWithTag(JoinCollapseLimit);
       }
-      if (ForceParallelMode != 0) {
+      if (ForceParallelMode != global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.ForceParallelMode.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) ForceParallelMode);
       }
-      if (ClientMinMessages != 0) {
+      if (ClientMinMessages != global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.LogLevel.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) ClientMinMessages);
       }
-      if (LogMinMessages != 0) {
+      if (LogMinMessages != global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.LogLevel.Unspecified) {
         size += 2 + pb::CodedOutputStream.ComputeEnumSize((int) LogMinMessages);
       }
-      if (LogMinErrorStatement != 0) {
+      if (LogMinErrorStatement != global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.LogLevel.Unspecified) {
         size += 2 + pb::CodedOutputStream.ComputeEnumSize((int) LogMinErrorStatement);
       }
       if (logMinDurationStatement_ != null) {
@@ -1636,13 +1636,13 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1.Config {
       if (logDuration_ != null) {
         size += _single_logDuration_codec.CalculateSizeWithTag(LogDuration);
       }
-      if (LogErrorVerbosity != 0) {
+      if (LogErrorVerbosity != global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.LogErrorVerbosity.Unspecified) {
         size += 2 + pb::CodedOutputStream.ComputeEnumSize((int) LogErrorVerbosity);
       }
       if (logLockWaits_ != null) {
         size += _single_logLockWaits_codec.CalculateSizeWithTag(LogLockWaits);
       }
-      if (LogStatement != 0) {
+      if (LogStatement != global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.LogStatement.Unspecified) {
         size += 2 + pb::CodedOutputStream.ComputeEnumSize((int) LogStatement);
       }
       if (logTempFiles_ != null) {
@@ -1654,7 +1654,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1.Config {
       if (rowSecurity_ != null) {
         size += _single_rowSecurity_codec.CalculateSizeWithTag(RowSecurity);
       }
-      if (DefaultTransactionIsolation != 0) {
+      if (DefaultTransactionIsolation != global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.TransactionIsolation.Unspecified) {
         size += 2 + pb::CodedOutputStream.ComputeEnumSize((int) DefaultTransactionIsolation);
       }
       if (statementTimeout_ != null) {
@@ -1666,13 +1666,13 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1.Config {
       if (idleInTransactionSessionTimeout_ != null) {
         size += _single_idleInTransactionSessionTimeout_codec.CalculateSizeWithTag(IdleInTransactionSessionTimeout);
       }
-      if (ByteaOutput != 0) {
+      if (ByteaOutput != global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.ByteaOutput.Unspecified) {
         size += 2 + pb::CodedOutputStream.ComputeEnumSize((int) ByteaOutput);
       }
-      if (Xmlbinary != 0) {
+      if (Xmlbinary != global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.XmlBinary.Unspecified) {
         size += 2 + pb::CodedOutputStream.ComputeEnumSize((int) Xmlbinary);
       }
-      if (Xmloption != 0) {
+      if (Xmloption != global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.XmlOption.Unspecified) {
         size += 2 + pb::CodedOutputStream.ComputeEnumSize((int) Xmloption);
       }
       if (ginPendingListLimit_ != null) {
@@ -1690,7 +1690,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1.Config {
       if (arrayNulls_ != null) {
         size += _single_arrayNulls_codec.CalculateSizeWithTag(ArrayNulls);
       }
-      if (BackslashQuote != 0) {
+      if (BackslashQuote != global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.BackslashQuote.Unspecified) {
         size += 2 + pb::CodedOutputStream.ComputeEnumSize((int) BackslashQuote);
       }
       if (defaultWithOids_ != null) {
@@ -1830,7 +1830,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1.Config {
           MaxStandbyStreamingDelay = other.MaxStandbyStreamingDelay;
         }
       }
-      if (other.ConstraintExclusion != 0) {
+      if (other.ConstraintExclusion != global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.ConstraintExclusion.Unspecified) {
         ConstraintExclusion = other.ConstraintExclusion;
       }
       if (other.cursorTupleFraction_ != null) {
@@ -1848,16 +1848,16 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1.Config {
           JoinCollapseLimit = other.JoinCollapseLimit;
         }
       }
-      if (other.ForceParallelMode != 0) {
+      if (other.ForceParallelMode != global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.ForceParallelMode.Unspecified) {
         ForceParallelMode = other.ForceParallelMode;
       }
-      if (other.ClientMinMessages != 0) {
+      if (other.ClientMinMessages != global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.LogLevel.Unspecified) {
         ClientMinMessages = other.ClientMinMessages;
       }
-      if (other.LogMinMessages != 0) {
+      if (other.LogMinMessages != global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.LogLevel.Unspecified) {
         LogMinMessages = other.LogMinMessages;
       }
-      if (other.LogMinErrorStatement != 0) {
+      if (other.LogMinErrorStatement != global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.LogLevel.Unspecified) {
         LogMinErrorStatement = other.LogMinErrorStatement;
       }
       if (other.logMinDurationStatement_ != null) {
@@ -1885,7 +1885,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1.Config {
           LogDuration = other.LogDuration;
         }
       }
-      if (other.LogErrorVerbosity != 0) {
+      if (other.LogErrorVerbosity != global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.LogErrorVerbosity.Unspecified) {
         LogErrorVerbosity = other.LogErrorVerbosity;
       }
       if (other.logLockWaits_ != null) {
@@ -1893,7 +1893,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1.Config {
           LogLockWaits = other.LogLockWaits;
         }
       }
-      if (other.LogStatement != 0) {
+      if (other.LogStatement != global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.LogStatement.Unspecified) {
         LogStatement = other.LogStatement;
       }
       if (other.logTempFiles_ != null) {
@@ -1909,7 +1909,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1.Config {
           RowSecurity = other.RowSecurity;
         }
       }
-      if (other.DefaultTransactionIsolation != 0) {
+      if (other.DefaultTransactionIsolation != global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.TransactionIsolation.Unspecified) {
         DefaultTransactionIsolation = other.DefaultTransactionIsolation;
       }
       if (other.statementTimeout_ != null) {
@@ -1927,13 +1927,13 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1.Config {
           IdleInTransactionSessionTimeout = other.IdleInTransactionSessionTimeout;
         }
       }
-      if (other.ByteaOutput != 0) {
+      if (other.ByteaOutput != global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.ByteaOutput.Unspecified) {
         ByteaOutput = other.ByteaOutput;
       }
-      if (other.Xmlbinary != 0) {
+      if (other.Xmlbinary != global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.XmlBinary.Unspecified) {
         Xmlbinary = other.Xmlbinary;
       }
-      if (other.Xmloption != 0) {
+      if (other.Xmloption != global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.XmlOption.Unspecified) {
         Xmloption = other.Xmloption;
       }
       if (other.ginPendingListLimit_ != null) {
@@ -1961,7 +1961,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1.Config {
           ArrayNulls = other.ArrayNulls;
         }
       }
-      if (other.BackslashQuote != 0) {
+      if (other.BackslashQuote != global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig10.Types.BackslashQuote.Unspecified) {
         BackslashQuote = other.BackslashQuote;
       }
       if (other.defaultWithOids_ != null) {

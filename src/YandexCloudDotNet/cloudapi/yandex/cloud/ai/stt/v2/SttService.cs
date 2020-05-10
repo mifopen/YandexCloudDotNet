@@ -76,18 +76,18 @@ namespace Yandex.Cloud.Ai.Stt.V2 {
             "bmRleC9jbG91ZC9haS9zdHQvdjI7c3R0YgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.DurationReflection.Descriptor, global::Yandex.Cloud.Api.OperationReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Stt.V2.LongRunningRecognitionRequest), global::Yandex.Cloud.Ai.Stt.V2.LongRunningRecognitionRequest.Parser, new[]{ "Config", "Audio" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Stt.V2.LongRunningRecognitionResponse), global::Yandex.Cloud.Ai.Stt.V2.LongRunningRecognitionResponse.Parser, new[]{ "Chunks" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Stt.V2.StreamingRecognitionRequest), global::Yandex.Cloud.Ai.Stt.V2.StreamingRecognitionRequest.Parser, new[]{ "Config", "AudioContent" }, new[]{ "StreamingRequest" }, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Stt.V2.StreamingRecognitionResponse), global::Yandex.Cloud.Ai.Stt.V2.StreamingRecognitionResponse.Parser, new[]{ "Chunks" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Stt.V2.RecognitionAudio), global::Yandex.Cloud.Ai.Stt.V2.RecognitionAudio.Parser, new[]{ "Content", "Uri" }, new[]{ "AudioSource" }, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Stt.V2.RecognitionConfig), global::Yandex.Cloud.Ai.Stt.V2.RecognitionConfig.Parser, new[]{ "Specification", "FolderId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Stt.V2.RecognitionSpec), global::Yandex.Cloud.Ai.Stt.V2.RecognitionSpec.Parser, new[]{ "AudioEncoding", "SampleRateHertz", "LanguageCode", "ProfanityFilter", "Model", "PartialResults", "SingleUtterance", "AudioChannelCount", "RawResults" }, null, new[]{ typeof(global::Yandex.Cloud.Ai.Stt.V2.RecognitionSpec.Types.AudioEncoding) }, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Stt.V2.SpeechRecognitionChunk), global::Yandex.Cloud.Ai.Stt.V2.SpeechRecognitionChunk.Parser, new[]{ "Alternatives", "Final", "EndOfUtterance" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Stt.V2.SpeechRecognitionResult), global::Yandex.Cloud.Ai.Stt.V2.SpeechRecognitionResult.Parser, new[]{ "Alternatives", "ChannelTag" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Stt.V2.SpeechRecognitionAlternative), global::Yandex.Cloud.Ai.Stt.V2.SpeechRecognitionAlternative.Parser, new[]{ "Text", "Confidence", "Words" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Stt.V2.WordInfo), global::Yandex.Cloud.Ai.Stt.V2.WordInfo.Parser, new[]{ "StartTime", "EndTime", "Word", "Confidence" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Stt.V2.LongRunningRecognitionRequest), global::Yandex.Cloud.Ai.Stt.V2.LongRunningRecognitionRequest.Parser, new[]{ "Config", "Audio" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Stt.V2.LongRunningRecognitionResponse), global::Yandex.Cloud.Ai.Stt.V2.LongRunningRecognitionResponse.Parser, new[]{ "Chunks" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Stt.V2.StreamingRecognitionRequest), global::Yandex.Cloud.Ai.Stt.V2.StreamingRecognitionRequest.Parser, new[]{ "Config", "AudioContent" }, new[]{ "StreamingRequest" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Stt.V2.StreamingRecognitionResponse), global::Yandex.Cloud.Ai.Stt.V2.StreamingRecognitionResponse.Parser, new[]{ "Chunks" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Stt.V2.RecognitionAudio), global::Yandex.Cloud.Ai.Stt.V2.RecognitionAudio.Parser, new[]{ "Content", "Uri" }, new[]{ "AudioSource" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Stt.V2.RecognitionConfig), global::Yandex.Cloud.Ai.Stt.V2.RecognitionConfig.Parser, new[]{ "Specification", "FolderId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Stt.V2.RecognitionSpec), global::Yandex.Cloud.Ai.Stt.V2.RecognitionSpec.Parser, new[]{ "AudioEncoding", "SampleRateHertz", "LanguageCode", "ProfanityFilter", "Model", "PartialResults", "SingleUtterance", "AudioChannelCount", "RawResults" }, null, new[]{ typeof(global::Yandex.Cloud.Ai.Stt.V2.RecognitionSpec.Types.AudioEncoding) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Stt.V2.SpeechRecognitionChunk), global::Yandex.Cloud.Ai.Stt.V2.SpeechRecognitionChunk.Parser, new[]{ "Alternatives", "Final", "EndOfUtterance" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Stt.V2.SpeechRecognitionResult), global::Yandex.Cloud.Ai.Stt.V2.SpeechRecognitionResult.Parser, new[]{ "Alternatives", "ChannelTag" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Stt.V2.SpeechRecognitionAlternative), global::Yandex.Cloud.Ai.Stt.V2.SpeechRecognitionAlternative.Parser, new[]{ "Text", "Confidence", "Words" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Stt.V2.WordInfo), global::Yandex.Cloud.Ai.Stt.V2.WordInfo.Parser, new[]{ "StartTime", "EndTime", "Word", "Confidence" }, null, null, null, null)
           }));
     }
     #endregion
@@ -1096,7 +1096,7 @@ namespace Yandex.Cloud.Ai.Stt.V2 {
 
     /// <summary>Field number for the "audio_encoding" field.</summary>
     public const int AudioEncodingFieldNumber = 1;
-    private global::Yandex.Cloud.Ai.Stt.V2.RecognitionSpec.Types.AudioEncoding audioEncoding_ = 0;
+    private global::Yandex.Cloud.Ai.Stt.V2.RecognitionSpec.Types.AudioEncoding audioEncoding_ = global::Yandex.Cloud.Ai.Stt.V2.RecognitionSpec.Types.AudioEncoding.Unspecified;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Ai.Stt.V2.RecognitionSpec.Types.AudioEncoding AudioEncoding {
       get { return audioEncoding_; }
@@ -1238,7 +1238,7 @@ namespace Yandex.Cloud.Ai.Stt.V2 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override int GetHashCode() {
       int hash = 1;
-      if (AudioEncoding != 0) hash ^= AudioEncoding.GetHashCode();
+      if (AudioEncoding != global::Yandex.Cloud.Ai.Stt.V2.RecognitionSpec.Types.AudioEncoding.Unspecified) hash ^= AudioEncoding.GetHashCode();
       if (SampleRateHertz != 0L) hash ^= SampleRateHertz.GetHashCode();
       if (LanguageCode.Length != 0) hash ^= LanguageCode.GetHashCode();
       if (ProfanityFilter != false) hash ^= ProfanityFilter.GetHashCode();
@@ -1260,7 +1260,7 @@ namespace Yandex.Cloud.Ai.Stt.V2 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public void WriteTo(pb::CodedOutputStream output) {
-      if (AudioEncoding != 0) {
+      if (AudioEncoding != global::Yandex.Cloud.Ai.Stt.V2.RecognitionSpec.Types.AudioEncoding.Unspecified) {
         output.WriteRawTag(8);
         output.WriteEnum((int) AudioEncoding);
       }
@@ -1304,7 +1304,7 @@ namespace Yandex.Cloud.Ai.Stt.V2 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CalculateSize() {
       int size = 0;
-      if (AudioEncoding != 0) {
+      if (AudioEncoding != global::Yandex.Cloud.Ai.Stt.V2.RecognitionSpec.Types.AudioEncoding.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) AudioEncoding);
       }
       if (SampleRateHertz != 0L) {
@@ -1342,7 +1342,7 @@ namespace Yandex.Cloud.Ai.Stt.V2 {
       if (other == null) {
         return;
       }
-      if (other.AudioEncoding != 0) {
+      if (other.AudioEncoding != global::Yandex.Cloud.Ai.Stt.V2.RecognitionSpec.Types.AudioEncoding.Unspecified) {
         AudioEncoding = other.AudioEncoding;
       }
       if (other.SampleRateHertz != 0L) {

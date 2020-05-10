@@ -32,8 +32,8 @@ namespace Yandex.Cloud.Compute.V1 {
             "cHV0ZWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.DiskType), global::Yandex.Cloud.Compute.V1.DiskType.Parser, new[]{ "Id", "Description", "ZoneIds" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.DiskType), global::Yandex.Cloud.Compute.V1.DiskType.Parser, new[]{ "Id", "Description", "ZoneIds" }, null, null, null, null)
           }));
     }
     #endregion

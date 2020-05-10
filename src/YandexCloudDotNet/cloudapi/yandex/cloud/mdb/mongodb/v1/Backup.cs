@@ -36,8 +36,8 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
             "YgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Backup), global::Yandex.Cloud.Mdb.Mongodb.V1.Backup.Parser, new[]{ "Id", "FolderId", "CreatedAt", "SourceClusterId", "StartedAt", "SourceShardNames" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Backup), global::Yandex.Cloud.Mdb.Mongodb.V1.Backup.Parser, new[]{ "Id", "FolderId", "CreatedAt", "SourceClusterId", "StartedAt", "SourceShardNames" }, null, null, null, null)
           }));
     }
     #endregion

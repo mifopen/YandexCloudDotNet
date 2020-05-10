@@ -69,11 +69,11 @@ namespace Yandex.Cloud.Loadbalancer.V1 {
             "Mw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, global::Yandex.Cloud.Loadbalancer.V1.HealthCheckReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Yandex.Cloud.Loadbalancer.V1.IpVersion), }, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Loadbalancer.V1.NetworkLoadBalancer), global::Yandex.Cloud.Loadbalancer.V1.NetworkLoadBalancer.Parser, new[]{ "Id", "FolderId", "CreatedAt", "Name", "Description", "Labels", "RegionId", "Status", "Type", "SessionAffinity", "Listeners", "AttachedTargetGroups" }, null, new[]{ typeof(global::Yandex.Cloud.Loadbalancer.V1.NetworkLoadBalancer.Types.Status), typeof(global::Yandex.Cloud.Loadbalancer.V1.NetworkLoadBalancer.Types.Type), typeof(global::Yandex.Cloud.Loadbalancer.V1.NetworkLoadBalancer.Types.SessionAffinity) }, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Loadbalancer.V1.AttachedTargetGroup), global::Yandex.Cloud.Loadbalancer.V1.AttachedTargetGroup.Parser, new[]{ "TargetGroupId", "HealthChecks" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Loadbalancer.V1.Listener), global::Yandex.Cloud.Loadbalancer.V1.Listener.Parser, new[]{ "Name", "Address", "Port", "Protocol", "TargetPort", "SubnetId" }, null, new[]{ typeof(global::Yandex.Cloud.Loadbalancer.V1.Listener.Types.Protocol) }, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Loadbalancer.V1.TargetState), global::Yandex.Cloud.Loadbalancer.V1.TargetState.Parser, new[]{ "SubnetId", "Address", "Status" }, null, new[]{ typeof(global::Yandex.Cloud.Loadbalancer.V1.TargetState.Types.Status) }, null)
+          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Yandex.Cloud.Loadbalancer.V1.IpVersion), }, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Loadbalancer.V1.NetworkLoadBalancer), global::Yandex.Cloud.Loadbalancer.V1.NetworkLoadBalancer.Parser, new[]{ "Id", "FolderId", "CreatedAt", "Name", "Description", "Labels", "RegionId", "Status", "Type", "SessionAffinity", "Listeners", "AttachedTargetGroups" }, null, new[]{ typeof(global::Yandex.Cloud.Loadbalancer.V1.NetworkLoadBalancer.Types.Status), typeof(global::Yandex.Cloud.Loadbalancer.V1.NetworkLoadBalancer.Types.Type), typeof(global::Yandex.Cloud.Loadbalancer.V1.NetworkLoadBalancer.Types.SessionAffinity) }, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Loadbalancer.V1.AttachedTargetGroup), global::Yandex.Cloud.Loadbalancer.V1.AttachedTargetGroup.Parser, new[]{ "TargetGroupId", "HealthChecks" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Loadbalancer.V1.Listener), global::Yandex.Cloud.Loadbalancer.V1.Listener.Parser, new[]{ "Name", "Address", "Port", "Protocol", "TargetPort", "SubnetId" }, null, new[]{ typeof(global::Yandex.Cloud.Loadbalancer.V1.Listener.Types.Protocol) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Loadbalancer.V1.TargetState), global::Yandex.Cloud.Loadbalancer.V1.TargetState.Parser, new[]{ "SubnetId", "Address", "Status" }, null, new[]{ typeof(global::Yandex.Cloud.Loadbalancer.V1.TargetState.Types.Status) }, null, null)
           }));
     }
     #endregion
@@ -220,7 +220,7 @@ namespace Yandex.Cloud.Loadbalancer.V1 {
     /// <summary>Field number for the "labels" field.</summary>
     public const int LabelsFieldNumber = 6;
     private static readonly pbc::MapField<string, string>.Codec _map_labels_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 50);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 50);
     private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
     /// <summary>
     /// Resource labels as `` key:value `` pairs. Мaximum of 64 per resource.
@@ -246,7 +246,7 @@ namespace Yandex.Cloud.Loadbalancer.V1 {
 
     /// <summary>Field number for the "status" field.</summary>
     public const int StatusFieldNumber = 9;
-    private global::Yandex.Cloud.Loadbalancer.V1.NetworkLoadBalancer.Types.Status status_ = 0;
+    private global::Yandex.Cloud.Loadbalancer.V1.NetworkLoadBalancer.Types.Status status_ = global::Yandex.Cloud.Loadbalancer.V1.NetworkLoadBalancer.Types.Status.Unspecified;
     /// <summary>
     /// Status of the network load balancer.
     /// </summary>
@@ -260,7 +260,7 @@ namespace Yandex.Cloud.Loadbalancer.V1 {
 
     /// <summary>Field number for the "type" field.</summary>
     public const int TypeFieldNumber = 10;
-    private global::Yandex.Cloud.Loadbalancer.V1.NetworkLoadBalancer.Types.Type type_ = 0;
+    private global::Yandex.Cloud.Loadbalancer.V1.NetworkLoadBalancer.Types.Type type_ = global::Yandex.Cloud.Loadbalancer.V1.NetworkLoadBalancer.Types.Type.Unspecified;
     /// <summary>
     /// Type of the network load balancer. Only external network load balancers are available now.
     /// </summary>
@@ -274,7 +274,7 @@ namespace Yandex.Cloud.Loadbalancer.V1 {
 
     /// <summary>Field number for the "session_affinity" field.</summary>
     public const int SessionAffinityFieldNumber = 11;
-    private global::Yandex.Cloud.Loadbalancer.V1.NetworkLoadBalancer.Types.SessionAffinity sessionAffinity_ = 0;
+    private global::Yandex.Cloud.Loadbalancer.V1.NetworkLoadBalancer.Types.SessionAffinity sessionAffinity_ = global::Yandex.Cloud.Loadbalancer.V1.NetworkLoadBalancer.Types.SessionAffinity.Unspecified;
     /// <summary>
     /// Type of the session affinity. Only 5-tuple affinity is available now.
     /// </summary>
@@ -350,9 +350,9 @@ namespace Yandex.Cloud.Loadbalancer.V1 {
       if (Description.Length != 0) hash ^= Description.GetHashCode();
       hash ^= Labels.GetHashCode();
       if (RegionId.Length != 0) hash ^= RegionId.GetHashCode();
-      if (Status != 0) hash ^= Status.GetHashCode();
-      if (Type != 0) hash ^= Type.GetHashCode();
-      if (SessionAffinity != 0) hash ^= SessionAffinity.GetHashCode();
+      if (Status != global::Yandex.Cloud.Loadbalancer.V1.NetworkLoadBalancer.Types.Status.Unspecified) hash ^= Status.GetHashCode();
+      if (Type != global::Yandex.Cloud.Loadbalancer.V1.NetworkLoadBalancer.Types.Type.Unspecified) hash ^= Type.GetHashCode();
+      if (SessionAffinity != global::Yandex.Cloud.Loadbalancer.V1.NetworkLoadBalancer.Types.SessionAffinity.Unspecified) hash ^= SessionAffinity.GetHashCode();
       hash ^= listeners_.GetHashCode();
       hash ^= attachedTargetGroups_.GetHashCode();
       if (_unknownFields != null) {
@@ -393,15 +393,15 @@ namespace Yandex.Cloud.Loadbalancer.V1 {
         output.WriteRawTag(58);
         output.WriteString(RegionId);
       }
-      if (Status != 0) {
+      if (Status != global::Yandex.Cloud.Loadbalancer.V1.NetworkLoadBalancer.Types.Status.Unspecified) {
         output.WriteRawTag(72);
         output.WriteEnum((int) Status);
       }
-      if (Type != 0) {
+      if (Type != global::Yandex.Cloud.Loadbalancer.V1.NetworkLoadBalancer.Types.Type.Unspecified) {
         output.WriteRawTag(80);
         output.WriteEnum((int) Type);
       }
-      if (SessionAffinity != 0) {
+      if (SessionAffinity != global::Yandex.Cloud.Loadbalancer.V1.NetworkLoadBalancer.Types.SessionAffinity.Unspecified) {
         output.WriteRawTag(88);
         output.WriteEnum((int) SessionAffinity);
       }
@@ -434,13 +434,13 @@ namespace Yandex.Cloud.Loadbalancer.V1 {
       if (RegionId.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(RegionId);
       }
-      if (Status != 0) {
+      if (Status != global::Yandex.Cloud.Loadbalancer.V1.NetworkLoadBalancer.Types.Status.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Status);
       }
-      if (Type != 0) {
+      if (Type != global::Yandex.Cloud.Loadbalancer.V1.NetworkLoadBalancer.Types.Type.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Type);
       }
-      if (SessionAffinity != 0) {
+      if (SessionAffinity != global::Yandex.Cloud.Loadbalancer.V1.NetworkLoadBalancer.Types.SessionAffinity.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) SessionAffinity);
       }
       size += listeners_.CalculateSize(_repeated_listeners_codec);
@@ -478,13 +478,13 @@ namespace Yandex.Cloud.Loadbalancer.V1 {
       if (other.RegionId.Length != 0) {
         RegionId = other.RegionId;
       }
-      if (other.Status != 0) {
+      if (other.Status != global::Yandex.Cloud.Loadbalancer.V1.NetworkLoadBalancer.Types.Status.Unspecified) {
         Status = other.Status;
       }
-      if (other.Type != 0) {
+      if (other.Type != global::Yandex.Cloud.Loadbalancer.V1.NetworkLoadBalancer.Types.Type.Unspecified) {
         Type = other.Type;
       }
-      if (other.SessionAffinity != 0) {
+      if (other.SessionAffinity != global::Yandex.Cloud.Loadbalancer.V1.NetworkLoadBalancer.Types.SessionAffinity.Unspecified) {
         SessionAffinity = other.SessionAffinity;
       }
       listeners_.Add(other.listeners_);
@@ -870,7 +870,7 @@ namespace Yandex.Cloud.Loadbalancer.V1 {
 
     /// <summary>Field number for the "protocol" field.</summary>
     public const int ProtocolFieldNumber = 4;
-    private global::Yandex.Cloud.Loadbalancer.V1.Listener.Types.Protocol protocol_ = 0;
+    private global::Yandex.Cloud.Loadbalancer.V1.Listener.Types.Protocol protocol_ = global::Yandex.Cloud.Loadbalancer.V1.Listener.Types.Protocol.Unspecified;
     /// <summary>
     /// Network protocol for incoming traffic.
     /// </summary>
@@ -938,7 +938,7 @@ namespace Yandex.Cloud.Loadbalancer.V1 {
       if (Name.Length != 0) hash ^= Name.GetHashCode();
       if (Address.Length != 0) hash ^= Address.GetHashCode();
       if (Port != 0L) hash ^= Port.GetHashCode();
-      if (Protocol != 0) hash ^= Protocol.GetHashCode();
+      if (Protocol != global::Yandex.Cloud.Loadbalancer.V1.Listener.Types.Protocol.Unspecified) hash ^= Protocol.GetHashCode();
       if (TargetPort != 0L) hash ^= TargetPort.GetHashCode();
       if (SubnetId.Length != 0) hash ^= SubnetId.GetHashCode();
       if (_unknownFields != null) {
@@ -966,7 +966,7 @@ namespace Yandex.Cloud.Loadbalancer.V1 {
         output.WriteRawTag(24);
         output.WriteInt64(Port);
       }
-      if (Protocol != 0) {
+      if (Protocol != global::Yandex.Cloud.Loadbalancer.V1.Listener.Types.Protocol.Unspecified) {
         output.WriteRawTag(32);
         output.WriteEnum((int) Protocol);
       }
@@ -995,7 +995,7 @@ namespace Yandex.Cloud.Loadbalancer.V1 {
       if (Port != 0L) {
         size += 1 + pb::CodedOutputStream.ComputeInt64Size(Port);
       }
-      if (Protocol != 0) {
+      if (Protocol != global::Yandex.Cloud.Loadbalancer.V1.Listener.Types.Protocol.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Protocol);
       }
       if (TargetPort != 0L) {
@@ -1024,7 +1024,7 @@ namespace Yandex.Cloud.Loadbalancer.V1 {
       if (other.Port != 0L) {
         Port = other.Port;
       }
-      if (other.Protocol != 0) {
+      if (other.Protocol != global::Yandex.Cloud.Loadbalancer.V1.Listener.Types.Protocol.Unspecified) {
         Protocol = other.Protocol;
       }
       if (other.TargetPort != 0L) {
@@ -1159,7 +1159,7 @@ namespace Yandex.Cloud.Loadbalancer.V1 {
 
     /// <summary>Field number for the "status" field.</summary>
     public const int StatusFieldNumber = 3;
-    private global::Yandex.Cloud.Loadbalancer.V1.TargetState.Types.Status status_ = 0;
+    private global::Yandex.Cloud.Loadbalancer.V1.TargetState.Types.Status status_ = global::Yandex.Cloud.Loadbalancer.V1.TargetState.Types.Status.Unspecified;
     /// <summary>
     /// Status of the target.
     /// </summary>
@@ -1195,7 +1195,7 @@ namespace Yandex.Cloud.Loadbalancer.V1 {
       int hash = 1;
       if (SubnetId.Length != 0) hash ^= SubnetId.GetHashCode();
       if (Address.Length != 0) hash ^= Address.GetHashCode();
-      if (Status != 0) hash ^= Status.GetHashCode();
+      if (Status != global::Yandex.Cloud.Loadbalancer.V1.TargetState.Types.Status.Unspecified) hash ^= Status.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1217,7 +1217,7 @@ namespace Yandex.Cloud.Loadbalancer.V1 {
         output.WriteRawTag(18);
         output.WriteString(Address);
       }
-      if (Status != 0) {
+      if (Status != global::Yandex.Cloud.Loadbalancer.V1.TargetState.Types.Status.Unspecified) {
         output.WriteRawTag(24);
         output.WriteEnum((int) Status);
       }
@@ -1235,7 +1235,7 @@ namespace Yandex.Cloud.Loadbalancer.V1 {
       if (Address.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Address);
       }
-      if (Status != 0) {
+      if (Status != global::Yandex.Cloud.Loadbalancer.V1.TargetState.Types.Status.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Status);
       }
       if (_unknownFields != null) {
@@ -1255,7 +1255,7 @@ namespace Yandex.Cloud.Loadbalancer.V1 {
       if (other.Address.Length != 0) {
         Address = other.Address;
       }
-      if (other.Status != 0) {
+      if (other.Status != global::Yandex.Cloud.Loadbalancer.V1.TargetState.Types.Status.Unspecified) {
         Status = other.Status;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);

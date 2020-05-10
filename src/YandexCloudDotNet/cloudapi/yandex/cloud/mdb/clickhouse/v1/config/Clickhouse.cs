@@ -164,21 +164,21 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1.Config {
             "Y2xpY2tob3VzZS92MS9jb25maWc7Y2xpY2tob3VzZWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.WrappersReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig), global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Parser, new[]{ "LogLevel", "MergeTree", "Compression", "Dictionaries", "GraphiteRollup", "MaxConnections", "MaxConcurrentQueries", "KeepAliveTimeout", "UncompressedCacheSize", "MarkCacheSize", "MaxTableSizeToDrop", "MaxPartitionSizeToDrop", "BuiltinDictionariesReloadInterval", "Timezone", "GeobaseUri" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.LogLevel) }, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.MergeTree), global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.MergeTree.Parser, new[]{ "ReplicatedDeduplicationWindow", "ReplicatedDeduplicationWindowSeconds", "PartsToDelayInsert", "PartsToThrowInsert", "MaxReplicatedMergesInQueue", "NumberOfFreeEntriesInPoolToLowerMaxSizeOfMerge", "MaxBytesToMergeAtMinSpaceInPool" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.Compression), global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.Compression.Parser, new[]{ "Method", "MinPartSize", "MinPartSizeRatio" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.Compression.Types.Method) }, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary), global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Parser, new[]{ "Name", "Structure", "Layout", "FixedLifetime", "LifetimeRange", "HttpSource", "MysqlSource", "ClickhouseSource", "MongodbSource", "PostgresqlSource" }, new[]{ "Lifetime", "Source" }, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Types.HttpSource), global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Types.HttpSource.Parser, new[]{ "Url", "Format" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Types.MysqlSource), global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Types.MysqlSource.Parser, new[]{ "Db", "Table", "Port", "User", "Password", "Replicas", "Where", "InvalidateQuery" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Types.MysqlSource.Types.Replica), global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Types.MysqlSource.Types.Replica.Parser, new[]{ "Host", "Priority", "Port", "User", "Password" }, null, null, null)}),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Types.ClickhouseSource), global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Types.ClickhouseSource.Parser, new[]{ "Db", "Table", "Host", "Port", "User", "Password", "Where" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Types.MongodbSource), global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Types.MongodbSource.Parser, new[]{ "Db", "Collection", "Host", "Port", "User", "Password" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Types.PostgresqlSource), global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Types.PostgresqlSource.Parser, new[]{ "Db", "Table", "Hosts", "Port", "User", "Password", "InvalidateQuery", "SslMode" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Types.PostgresqlSource.Types.SslMode) }, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Types.Structure), global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Types.Structure.Parser, new[]{ "Id", "Key", "RangeMin", "RangeMax", "Attributes" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Types.Structure.Types.Attribute), global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Types.Structure.Types.Attribute.Parser, new[]{ "Name", "Type", "NullValue", "Expression", "Hierarchical", "Injective" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Types.Structure.Types.Id), global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Types.Structure.Types.Id.Parser, new[]{ "Name" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Types.Structure.Types.Key), global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Types.Structure.Types.Key.Parser, new[]{ "Attributes" }, null, null, null)}),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Types.Layout), global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Types.Layout.Parser, new[]{ "Type", "SizeInCells" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Types.Layout.Types.Type) }, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Types.Range), global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Types.Range.Parser, new[]{ "Min", "Max" }, null, null, null)}),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.GraphiteRollup), global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.GraphiteRollup.Parser, new[]{ "Name", "Patterns" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.GraphiteRollup.Types.Pattern), global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.GraphiteRollup.Types.Pattern.Parser, new[]{ "Regexp", "Function", "Retention" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.GraphiteRollup.Types.Pattern.Types.Retention), global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.GraphiteRollup.Types.Pattern.Types.Retention.Parser, new[]{ "Age", "Precision" }, null, null, null)})})}),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfigSet), global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfigSet.Parser, new[]{ "EffectiveConfig", "UserConfig", "DefaultConfig" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig), global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Parser, new[]{ "LogLevel", "MergeTree", "Compression", "Dictionaries", "GraphiteRollup", "MaxConnections", "MaxConcurrentQueries", "KeepAliveTimeout", "UncompressedCacheSize", "MarkCacheSize", "MaxTableSizeToDrop", "MaxPartitionSizeToDrop", "BuiltinDictionariesReloadInterval", "Timezone", "GeobaseUri" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.LogLevel) }, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.MergeTree), global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.MergeTree.Parser, new[]{ "ReplicatedDeduplicationWindow", "ReplicatedDeduplicationWindowSeconds", "PartsToDelayInsert", "PartsToThrowInsert", "MaxReplicatedMergesInQueue", "NumberOfFreeEntriesInPoolToLowerMaxSizeOfMerge", "MaxBytesToMergeAtMinSpaceInPool" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.Compression), global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.Compression.Parser, new[]{ "Method", "MinPartSize", "MinPartSizeRatio" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.Compression.Types.Method) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary), global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Parser, new[]{ "Name", "Structure", "Layout", "FixedLifetime", "LifetimeRange", "HttpSource", "MysqlSource", "ClickhouseSource", "MongodbSource", "PostgresqlSource" }, new[]{ "Lifetime", "Source" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Types.HttpSource), global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Types.HttpSource.Parser, new[]{ "Url", "Format" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Types.MysqlSource), global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Types.MysqlSource.Parser, new[]{ "Db", "Table", "Port", "User", "Password", "Replicas", "Where", "InvalidateQuery" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Types.MysqlSource.Types.Replica), global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Types.MysqlSource.Types.Replica.Parser, new[]{ "Host", "Priority", "Port", "User", "Password" }, null, null, null, null)}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Types.ClickhouseSource), global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Types.ClickhouseSource.Parser, new[]{ "Db", "Table", "Host", "Port", "User", "Password", "Where" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Types.MongodbSource), global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Types.MongodbSource.Parser, new[]{ "Db", "Collection", "Host", "Port", "User", "Password" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Types.PostgresqlSource), global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Types.PostgresqlSource.Parser, new[]{ "Db", "Table", "Hosts", "Port", "User", "Password", "InvalidateQuery", "SslMode" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Types.PostgresqlSource.Types.SslMode) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Types.Structure), global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Types.Structure.Parser, new[]{ "Id", "Key", "RangeMin", "RangeMax", "Attributes" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Types.Structure.Types.Attribute), global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Types.Structure.Types.Attribute.Parser, new[]{ "Name", "Type", "NullValue", "Expression", "Hierarchical", "Injective" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Types.Structure.Types.Id), global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Types.Structure.Types.Id.Parser, new[]{ "Name" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Types.Structure.Types.Key), global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Types.Structure.Types.Key.Parser, new[]{ "Attributes" }, null, null, null, null)}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Types.Layout), global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Types.Layout.Parser, new[]{ "Type", "SizeInCells" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Types.Layout.Types.Type) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Types.Range), global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Types.Range.Parser, new[]{ "Min", "Max" }, null, null, null, null)}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.GraphiteRollup), global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.GraphiteRollup.Parser, new[]{ "Name", "Patterns" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.GraphiteRollup.Types.Pattern), global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.GraphiteRollup.Types.Pattern.Parser, new[]{ "Regexp", "Function", "Retention" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.GraphiteRollup.Types.Pattern.Types.Retention), global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.GraphiteRollup.Types.Pattern.Types.Retention.Parser, new[]{ "Age", "Precision" }, null, null, null, null)})})}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfigSet), global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfigSet.Parser, new[]{ "EffectiveConfig", "UserConfig", "DefaultConfig" }, null, null, null, null)
           }));
     }
     #endregion
@@ -241,7 +241,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1.Config {
 
     /// <summary>Field number for the "log_level" field.</summary>
     public const int LogLevelFieldNumber = 1;
-    private global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.LogLevel logLevel_ = 0;
+    private global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.LogLevel logLevel_ = global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.LogLevel.Unspecified;
     /// <summary>
     /// Logging level for the ClickHouse cluster. Possible values: TRACE, DEBUG, INFORMATION, WARNING, ERROR.
     /// </summary>
@@ -501,7 +501,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1.Config {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override int GetHashCode() {
       int hash = 1;
-      if (LogLevel != 0) hash ^= LogLevel.GetHashCode();
+      if (LogLevel != global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.LogLevel.Unspecified) hash ^= LogLevel.GetHashCode();
       if (mergeTree_ != null) hash ^= MergeTree.GetHashCode();
       hash ^= compression_.GetHashCode();
       hash ^= dictionaries_.GetHashCode();
@@ -529,7 +529,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1.Config {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public void WriteTo(pb::CodedOutputStream output) {
-      if (LogLevel != 0) {
+      if (LogLevel != global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.LogLevel.Unspecified) {
         output.WriteRawTag(8);
         output.WriteEnum((int) LogLevel);
       }
@@ -580,7 +580,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1.Config {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CalculateSize() {
       int size = 0;
-      if (LogLevel != 0) {
+      if (LogLevel != global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.LogLevel.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) LogLevel);
       }
       if (mergeTree_ != null) {
@@ -630,7 +630,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1.Config {
       if (other == null) {
         return;
       }
-      if (other.LogLevel != 0) {
+      if (other.LogLevel != global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.LogLevel.Unspecified) {
         LogLevel = other.LogLevel;
       }
       if (other.mergeTree_ != null) {
@@ -1206,7 +1206,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1.Config {
 
         /// <summary>Field number for the "method" field.</summary>
         public const int MethodFieldNumber = 1;
-        private global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.Compression.Types.Method method_ = 0;
+        private global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.Compression.Types.Method method_ = global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.Compression.Types.Method.Unspecified;
         /// <summary>
         /// Compression method to use for the specified combination of `min_part_size` and `min_part_size_ratio`.
         /// </summary>
@@ -1268,7 +1268,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1.Config {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public override int GetHashCode() {
           int hash = 1;
-          if (Method != 0) hash ^= Method.GetHashCode();
+          if (Method != global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.Compression.Types.Method.Unspecified) hash ^= Method.GetHashCode();
           if (MinPartSize != 0L) hash ^= MinPartSize.GetHashCode();
           if (MinPartSizeRatio != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(MinPartSizeRatio);
           if (_unknownFields != null) {
@@ -1284,7 +1284,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1.Config {
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public void WriteTo(pb::CodedOutputStream output) {
-          if (Method != 0) {
+          if (Method != global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.Compression.Types.Method.Unspecified) {
             output.WriteRawTag(8);
             output.WriteEnum((int) Method);
           }
@@ -1304,7 +1304,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1.Config {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public int CalculateSize() {
           int size = 0;
-          if (Method != 0) {
+          if (Method != global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.Compression.Types.Method.Unspecified) {
             size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Method);
           }
           if (MinPartSize != 0L) {
@@ -1324,7 +1324,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1.Config {
           if (other == null) {
             return;
           }
-          if (other.Method != 0) {
+          if (other.Method != global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.Compression.Types.Method.Unspecified) {
             Method = other.Method;
           }
           if (other.MinPartSize != 0L) {
@@ -3443,7 +3443,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1.Config {
 
             /// <summary>Field number for the "ssl_mode" field.</summary>
             public const int SslModeFieldNumber = 8;
-            private global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Types.PostgresqlSource.Types.SslMode sslMode_ = 0;
+            private global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Types.PostgresqlSource.Types.SslMode sslMode_ = global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Types.PostgresqlSource.Types.SslMode.Unspecified;
             /// <summary>
             /// Mode of SSL TCP/IP connection to the PostgreSQL host.
             /// For more details, see [PostgreSQL documentation](https://www.postgresql.org/docs/current/libpq-ssl.html).
@@ -3490,7 +3490,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1.Config {
               if (User.Length != 0) hash ^= User.GetHashCode();
               if (Password.Length != 0) hash ^= Password.GetHashCode();
               if (InvalidateQuery.Length != 0) hash ^= InvalidateQuery.GetHashCode();
-              if (SslMode != 0) hash ^= SslMode.GetHashCode();
+              if (SslMode != global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Types.PostgresqlSource.Types.SslMode.Unspecified) hash ^= SslMode.GetHashCode();
               if (_unknownFields != null) {
                 hash ^= _unknownFields.GetHashCode();
               }
@@ -3529,7 +3529,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1.Config {
                 output.WriteRawTag(58);
                 output.WriteString(InvalidateQuery);
               }
-              if (SslMode != 0) {
+              if (SslMode != global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Types.PostgresqlSource.Types.SslMode.Unspecified) {
                 output.WriteRawTag(64);
                 output.WriteEnum((int) SslMode);
               }
@@ -3560,7 +3560,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1.Config {
               if (InvalidateQuery.Length != 0) {
                 size += 1 + pb::CodedOutputStream.ComputeStringSize(InvalidateQuery);
               }
-              if (SslMode != 0) {
+              if (SslMode != global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Types.PostgresqlSource.Types.SslMode.Unspecified) {
                 size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) SslMode);
               }
               if (_unknownFields != null) {
@@ -3593,7 +3593,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1.Config {
               if (other.InvalidateQuery.Length != 0) {
                 InvalidateQuery = other.InvalidateQuery;
               }
-              if (other.SslMode != 0) {
+              if (other.SslMode != global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Types.PostgresqlSource.Types.SslMode.Unspecified) {
                 SslMode = other.SslMode;
               }
               _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
@@ -4550,7 +4550,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1.Config {
 
             /// <summary>Field number for the "type" field.</summary>
             public const int TypeFieldNumber = 1;
-            private global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Types.Layout.Types.Type type_ = 0;
+            private global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Types.Layout.Types.Type type_ = global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Types.Layout.Types.Type.Unspecified;
             /// <summary>
             /// Layout type for an external dictionary.
             /// </summary>
@@ -4598,7 +4598,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1.Config {
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
             public override int GetHashCode() {
               int hash = 1;
-              if (Type != 0) hash ^= Type.GetHashCode();
+              if (Type != global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Types.Layout.Types.Type.Unspecified) hash ^= Type.GetHashCode();
               if (SizeInCells != 0L) hash ^= SizeInCells.GetHashCode();
               if (_unknownFields != null) {
                 hash ^= _unknownFields.GetHashCode();
@@ -4613,7 +4613,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1.Config {
 
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
             public void WriteTo(pb::CodedOutputStream output) {
-              if (Type != 0) {
+              if (Type != global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Types.Layout.Types.Type.Unspecified) {
                 output.WriteRawTag(8);
                 output.WriteEnum((int) Type);
               }
@@ -4629,7 +4629,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1.Config {
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
             public int CalculateSize() {
               int size = 0;
-              if (Type != 0) {
+              if (Type != global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Types.Layout.Types.Type.Unspecified) {
                 size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Type);
               }
               if (SizeInCells != 0L) {
@@ -4646,7 +4646,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1.Config {
               if (other == null) {
                 return;
               }
-              if (other.Type != 0) {
+              if (other.Type != global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Types.Layout.Types.Type.Unspecified) {
                 Type = other.Type;
               }
               if (other.SizeInCells != 0L) {

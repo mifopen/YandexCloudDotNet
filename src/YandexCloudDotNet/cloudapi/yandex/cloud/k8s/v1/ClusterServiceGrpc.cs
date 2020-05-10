@@ -113,7 +113,7 @@ namespace Yandex.Cloud.K8S.V1 {
     {
       /// <summary>Creates a new client for ClusterService</summary>
       /// <param name="channel">The channel to use to make remote calls.</param>
-      public ClusterServiceClient(grpc::Channel channel) : base(channel)
+      public ClusterServiceClient(grpc::ChannelBase channel) : base(channel)
       {
       }
       /// <summary>Creates a new client for ClusterService that uses a custom <c>CallInvoker</c>.</summary>

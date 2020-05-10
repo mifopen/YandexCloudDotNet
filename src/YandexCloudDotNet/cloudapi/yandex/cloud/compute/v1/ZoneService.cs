@@ -43,10 +43,10 @@ namespace Yandex.Cloud.Compute.V1 {
             "bG91ZC9jb21wdXRlL3YxO2NvbXB1dGViBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Yandex.Cloud.Compute.V1.ZoneReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.ListZonesRequest), global::Yandex.Cloud.Compute.V1.ListZonesRequest.Parser, new[]{ "PageSize", "PageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.ListZonesResponse), global::Yandex.Cloud.Compute.V1.ListZonesResponse.Parser, new[]{ "Zones", "NextPageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.GetZoneRequest), global::Yandex.Cloud.Compute.V1.GetZoneRequest.Parser, new[]{ "ZoneId" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.ListZonesRequest), global::Yandex.Cloud.Compute.V1.ListZonesRequest.Parser, new[]{ "PageSize", "PageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.ListZonesResponse), global::Yandex.Cloud.Compute.V1.ListZonesResponse.Parser, new[]{ "Zones", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.GetZoneRequest), global::Yandex.Cloud.Compute.V1.GetZoneRequest.Parser, new[]{ "ZoneId" }, null, null, null, null)
           }));
     }
     #endregion

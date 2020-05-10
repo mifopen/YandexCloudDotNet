@@ -63,7 +63,7 @@ namespace Yandex.Cloud.Kms.V1 {
     {
       /// <summary>Creates a new client for SymmetricCryptoService</summary>
       /// <param name="channel">The channel to use to make remote calls.</param>
-      public SymmetricCryptoServiceClient(grpc::Channel channel) : base(channel)
+      public SymmetricCryptoServiceClient(grpc::ChannelBase channel) : base(channel)
       {
       }
       /// <summary>Creates a new client for SymmetricCryptoService that uses a custom <c>CallInvoker</c>.</summary>

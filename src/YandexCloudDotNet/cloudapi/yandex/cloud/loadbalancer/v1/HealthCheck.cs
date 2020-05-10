@@ -44,9 +44,9 @@ namespace Yandex.Cloud.Loadbalancer.V1 {
             "b3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.DurationReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Loadbalancer.V1.HealthCheck), global::Yandex.Cloud.Loadbalancer.V1.HealthCheck.Parser, new[]{ "Name", "Interval", "Timeout", "UnhealthyThreshold", "HealthyThreshold", "TcpOptions", "HttpOptions" }, new[]{ "Options" }, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Loadbalancer.V1.HealthCheck.Types.TcpOptions), global::Yandex.Cloud.Loadbalancer.V1.HealthCheck.Types.TcpOptions.Parser, new[]{ "Port" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Loadbalancer.V1.HealthCheck.Types.HttpOptions), global::Yandex.Cloud.Loadbalancer.V1.HealthCheck.Types.HttpOptions.Parser, new[]{ "Port", "Path" }, null, null, null)})
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Loadbalancer.V1.HealthCheck), global::Yandex.Cloud.Loadbalancer.V1.HealthCheck.Parser, new[]{ "Name", "Interval", "Timeout", "UnhealthyThreshold", "HealthyThreshold", "TcpOptions", "HttpOptions" }, new[]{ "Options" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Loadbalancer.V1.HealthCheck.Types.TcpOptions), global::Yandex.Cloud.Loadbalancer.V1.HealthCheck.Types.TcpOptions.Parser, new[]{ "Port" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Loadbalancer.V1.HealthCheck.Types.HttpOptions), global::Yandex.Cloud.Loadbalancer.V1.HealthCheck.Types.HttpOptions.Parser, new[]{ "Port", "Path" }, null, null, null, null)})
           }));
     }
     #endregion

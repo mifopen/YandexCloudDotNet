@@ -68,11 +68,11 @@ namespace Yandex.Cloud.Mdb.Mysql.V1 {
             "O215c3FsYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.WrappersReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Yandex.Cloud.Mdb.Mysql.V1.GlobalPermission), typeof(global::Yandex.Cloud.Mdb.Mysql.V1.AuthPlugin), }, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.User), global::Yandex.Cloud.Mdb.Mysql.V1.User.Parser, new[]{ "Name", "ClusterId", "Permissions", "GlobalPermissions", "ConnectionLimits", "AuthenticationPlugin" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.Permission), global::Yandex.Cloud.Mdb.Mysql.V1.Permission.Parser, new[]{ "DatabaseName", "Roles" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Mysql.V1.Permission.Types.Privilege) }, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.ConnectionLimits), global::Yandex.Cloud.Mdb.Mysql.V1.ConnectionLimits.Parser, new[]{ "MaxQuestionsPerHour", "MaxUpdatesPerHour", "MaxConnectionsPerHour", "MaxUserConnections" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.UserSpec), global::Yandex.Cloud.Mdb.Mysql.V1.UserSpec.Parser, new[]{ "Name", "Password", "Permissions", "GlobalPermissions", "ConnectionLimits", "AuthenticationPlugin" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Yandex.Cloud.Mdb.Mysql.V1.GlobalPermission), typeof(global::Yandex.Cloud.Mdb.Mysql.V1.AuthPlugin), }, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.User), global::Yandex.Cloud.Mdb.Mysql.V1.User.Parser, new[]{ "Name", "ClusterId", "Permissions", "GlobalPermissions", "ConnectionLimits", "AuthenticationPlugin" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.Permission), global::Yandex.Cloud.Mdb.Mysql.V1.Permission.Parser, new[]{ "DatabaseName", "Roles" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Mysql.V1.Permission.Types.Privilege) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.ConnectionLimits), global::Yandex.Cloud.Mdb.Mysql.V1.ConnectionLimits.Parser, new[]{ "MaxQuestionsPerHour", "MaxUpdatesPerHour", "MaxConnectionsPerHour", "MaxUserConnections" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.UserSpec), global::Yandex.Cloud.Mdb.Mysql.V1.UserSpec.Parser, new[]{ "Name", "Password", "Permissions", "GlobalPermissions", "ConnectionLimits", "AuthenticationPlugin" }, null, null, null, null)
           }));
     }
     #endregion
@@ -224,7 +224,7 @@ namespace Yandex.Cloud.Mdb.Mysql.V1 {
 
     /// <summary>Field number for the "authentication_plugin" field.</summary>
     public const int AuthenticationPluginFieldNumber = 6;
-    private global::Yandex.Cloud.Mdb.Mysql.V1.AuthPlugin authenticationPlugin_ = 0;
+    private global::Yandex.Cloud.Mdb.Mysql.V1.AuthPlugin authenticationPlugin_ = global::Yandex.Cloud.Mdb.Mysql.V1.AuthPlugin.Unspecified;
     /// <summary>
     /// User authentication plugin.
     /// </summary>
@@ -266,7 +266,7 @@ namespace Yandex.Cloud.Mdb.Mysql.V1 {
       hash ^= permissions_.GetHashCode();
       hash ^= globalPermissions_.GetHashCode();
       if (connectionLimits_ != null) hash ^= ConnectionLimits.GetHashCode();
-      if (AuthenticationPlugin != 0) hash ^= AuthenticationPlugin.GetHashCode();
+      if (AuthenticationPlugin != global::Yandex.Cloud.Mdb.Mysql.V1.AuthPlugin.Unspecified) hash ^= AuthenticationPlugin.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -294,7 +294,7 @@ namespace Yandex.Cloud.Mdb.Mysql.V1 {
         output.WriteRawTag(42);
         output.WriteMessage(ConnectionLimits);
       }
-      if (AuthenticationPlugin != 0) {
+      if (AuthenticationPlugin != global::Yandex.Cloud.Mdb.Mysql.V1.AuthPlugin.Unspecified) {
         output.WriteRawTag(48);
         output.WriteEnum((int) AuthenticationPlugin);
       }
@@ -317,7 +317,7 @@ namespace Yandex.Cloud.Mdb.Mysql.V1 {
       if (connectionLimits_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(ConnectionLimits);
       }
-      if (AuthenticationPlugin != 0) {
+      if (AuthenticationPlugin != global::Yandex.Cloud.Mdb.Mysql.V1.AuthPlugin.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) AuthenticationPlugin);
       }
       if (_unknownFields != null) {
@@ -345,7 +345,7 @@ namespace Yandex.Cloud.Mdb.Mysql.V1 {
         }
         ConnectionLimits.MergeFrom(other.ConnectionLimits);
       }
-      if (other.AuthenticationPlugin != 0) {
+      if (other.AuthenticationPlugin != global::Yandex.Cloud.Mdb.Mysql.V1.AuthPlugin.Unspecified) {
         AuthenticationPlugin = other.AuthenticationPlugin;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
@@ -994,7 +994,7 @@ namespace Yandex.Cloud.Mdb.Mysql.V1 {
 
     /// <summary>Field number for the "authentication_plugin" field.</summary>
     public const int AuthenticationPluginFieldNumber = 6;
-    private global::Yandex.Cloud.Mdb.Mysql.V1.AuthPlugin authenticationPlugin_ = 0;
+    private global::Yandex.Cloud.Mdb.Mysql.V1.AuthPlugin authenticationPlugin_ = global::Yandex.Cloud.Mdb.Mysql.V1.AuthPlugin.Unspecified;
     /// <summary>
     /// User authentication plugin.
     /// </summary>
@@ -1036,7 +1036,7 @@ namespace Yandex.Cloud.Mdb.Mysql.V1 {
       hash ^= permissions_.GetHashCode();
       hash ^= globalPermissions_.GetHashCode();
       if (connectionLimits_ != null) hash ^= ConnectionLimits.GetHashCode();
-      if (AuthenticationPlugin != 0) hash ^= AuthenticationPlugin.GetHashCode();
+      if (AuthenticationPlugin != global::Yandex.Cloud.Mdb.Mysql.V1.AuthPlugin.Unspecified) hash ^= AuthenticationPlugin.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1064,7 +1064,7 @@ namespace Yandex.Cloud.Mdb.Mysql.V1 {
         output.WriteRawTag(42);
         output.WriteMessage(ConnectionLimits);
       }
-      if (AuthenticationPlugin != 0) {
+      if (AuthenticationPlugin != global::Yandex.Cloud.Mdb.Mysql.V1.AuthPlugin.Unspecified) {
         output.WriteRawTag(48);
         output.WriteEnum((int) AuthenticationPlugin);
       }
@@ -1087,7 +1087,7 @@ namespace Yandex.Cloud.Mdb.Mysql.V1 {
       if (connectionLimits_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(ConnectionLimits);
       }
-      if (AuthenticationPlugin != 0) {
+      if (AuthenticationPlugin != global::Yandex.Cloud.Mdb.Mysql.V1.AuthPlugin.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) AuthenticationPlugin);
       }
       if (_unknownFields != null) {
@@ -1115,7 +1115,7 @@ namespace Yandex.Cloud.Mdb.Mysql.V1 {
         }
         ConnectionLimits.MergeFrom(other.ConnectionLimits);
       }
-      if (other.AuthenticationPlugin != 0) {
+      if (other.AuthenticationPlugin != global::Yandex.Cloud.Mdb.Mysql.V1.AuthPlugin.Unspecified) {
         AuthenticationPlugin = other.AuthenticationPlugin;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);

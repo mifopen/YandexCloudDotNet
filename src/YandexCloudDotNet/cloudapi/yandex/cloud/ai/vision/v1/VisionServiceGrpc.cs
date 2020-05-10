@@ -36,7 +36,7 @@ namespace Yandex.Cloud.Ai.Vision.V1 {
     {
       /// <summary>Creates a new client for VisionService</summary>
       /// <param name="channel">The channel to use to make remote calls.</param>
-      public VisionServiceClient(grpc::Channel channel) : base(channel)
+      public VisionServiceClient(grpc::ChannelBase channel) : base(channel)
       {
       }
       /// <summary>Creates a new client for VisionService that uses a custom <c>CallInvoker</c>.</summary>

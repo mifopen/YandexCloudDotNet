@@ -144,30 +144,30 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
             "L2Nsb3VkL2lvdC9kZXZpY2VzL3YxO2RldmljZXNiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, global::Yandex.Cloud.Api.OperationReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.Iot.Devices.V1.DeviceReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.GetDeviceRequest), global::Yandex.Cloud.Iot.Devices.V1.GetDeviceRequest.Parser, new[]{ "DeviceId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.ListDevicesRequest), global::Yandex.Cloud.Iot.Devices.V1.ListDevicesRequest.Parser, new[]{ "RegistryId", "FolderId", "PageSize", "PageToken" }, new[]{ "Id" }, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.ListDevicesResponse), global::Yandex.Cloud.Iot.Devices.V1.ListDevicesResponse.Parser, new[]{ "Devices", "NextPageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.CreateDeviceRequest), global::Yandex.Cloud.Iot.Devices.V1.CreateDeviceRequest.Parser, new[]{ "RegistryId", "Name", "Description", "Certificates", "TopicAliases", "Password" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.CreateDeviceRequest.Types.Certificate), global::Yandex.Cloud.Iot.Devices.V1.CreateDeviceRequest.Types.Certificate.Parser, new[]{ "CertificateData" }, null, null, null)}),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.CreateDeviceMetadata), global::Yandex.Cloud.Iot.Devices.V1.CreateDeviceMetadata.Parser, new[]{ "DeviceId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.UpdateDeviceRequest), global::Yandex.Cloud.Iot.Devices.V1.UpdateDeviceRequest.Parser, new[]{ "DeviceId", "UpdateMask", "Name", "Description", "TopicAliases" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.UpdateDeviceMetadata), global::Yandex.Cloud.Iot.Devices.V1.UpdateDeviceMetadata.Parser, new[]{ "DeviceId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.DeleteDeviceRequest), global::Yandex.Cloud.Iot.Devices.V1.DeleteDeviceRequest.Parser, new[]{ "DeviceId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.DeleteDeviceMetadata), global::Yandex.Cloud.Iot.Devices.V1.DeleteDeviceMetadata.Parser, new[]{ "DeviceId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.ListDeviceCertificatesRequest), global::Yandex.Cloud.Iot.Devices.V1.ListDeviceCertificatesRequest.Parser, new[]{ "DeviceId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.ListDeviceCertificatesResponse), global::Yandex.Cloud.Iot.Devices.V1.ListDeviceCertificatesResponse.Parser, new[]{ "Certificates" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.AddDeviceCertificateRequest), global::Yandex.Cloud.Iot.Devices.V1.AddDeviceCertificateRequest.Parser, new[]{ "DeviceId", "CertificateData" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.AddDeviceCertificateMetadata), global::Yandex.Cloud.Iot.Devices.V1.AddDeviceCertificateMetadata.Parser, new[]{ "DeviceId", "Fingerprint" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.DeleteDeviceCertificateRequest), global::Yandex.Cloud.Iot.Devices.V1.DeleteDeviceCertificateRequest.Parser, new[]{ "DeviceId", "Fingerprint" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.DeleteDeviceCertificateMetadata), global::Yandex.Cloud.Iot.Devices.V1.DeleteDeviceCertificateMetadata.Parser, new[]{ "DeviceId", "Fingerprint" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.ListDevicePasswordsRequest), global::Yandex.Cloud.Iot.Devices.V1.ListDevicePasswordsRequest.Parser, new[]{ "DeviceId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.ListDevicePasswordsResponse), global::Yandex.Cloud.Iot.Devices.V1.ListDevicePasswordsResponse.Parser, new[]{ "Passwords" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.AddDevicePasswordRequest), global::Yandex.Cloud.Iot.Devices.V1.AddDevicePasswordRequest.Parser, new[]{ "DeviceId", "Password" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.AddDevicePasswordMetadata), global::Yandex.Cloud.Iot.Devices.V1.AddDevicePasswordMetadata.Parser, new[]{ "DeviceId", "PasswordId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.DeleteDevicePasswordRequest), global::Yandex.Cloud.Iot.Devices.V1.DeleteDevicePasswordRequest.Parser, new[]{ "DeviceId", "PasswordId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.DeleteDevicePasswordMetadata), global::Yandex.Cloud.Iot.Devices.V1.DeleteDevicePasswordMetadata.Parser, new[]{ "DeviceId", "PasswordId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.ListDeviceOperationsRequest), global::Yandex.Cloud.Iot.Devices.V1.ListDeviceOperationsRequest.Parser, new[]{ "DeviceId", "PageSize", "PageToken", "Filter" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.ListDeviceOperationsResponse), global::Yandex.Cloud.Iot.Devices.V1.ListDeviceOperationsResponse.Parser, new[]{ "Operations", "NextPageToken" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.GetDeviceRequest), global::Yandex.Cloud.Iot.Devices.V1.GetDeviceRequest.Parser, new[]{ "DeviceId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.ListDevicesRequest), global::Yandex.Cloud.Iot.Devices.V1.ListDevicesRequest.Parser, new[]{ "RegistryId", "FolderId", "PageSize", "PageToken" }, new[]{ "Id" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.ListDevicesResponse), global::Yandex.Cloud.Iot.Devices.V1.ListDevicesResponse.Parser, new[]{ "Devices", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.CreateDeviceRequest), global::Yandex.Cloud.Iot.Devices.V1.CreateDeviceRequest.Parser, new[]{ "RegistryId", "Name", "Description", "Certificates", "TopicAliases", "Password" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.CreateDeviceRequest.Types.Certificate), global::Yandex.Cloud.Iot.Devices.V1.CreateDeviceRequest.Types.Certificate.Parser, new[]{ "CertificateData" }, null, null, null, null)}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.CreateDeviceMetadata), global::Yandex.Cloud.Iot.Devices.V1.CreateDeviceMetadata.Parser, new[]{ "DeviceId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.UpdateDeviceRequest), global::Yandex.Cloud.Iot.Devices.V1.UpdateDeviceRequest.Parser, new[]{ "DeviceId", "UpdateMask", "Name", "Description", "TopicAliases" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.UpdateDeviceMetadata), global::Yandex.Cloud.Iot.Devices.V1.UpdateDeviceMetadata.Parser, new[]{ "DeviceId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.DeleteDeviceRequest), global::Yandex.Cloud.Iot.Devices.V1.DeleteDeviceRequest.Parser, new[]{ "DeviceId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.DeleteDeviceMetadata), global::Yandex.Cloud.Iot.Devices.V1.DeleteDeviceMetadata.Parser, new[]{ "DeviceId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.ListDeviceCertificatesRequest), global::Yandex.Cloud.Iot.Devices.V1.ListDeviceCertificatesRequest.Parser, new[]{ "DeviceId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.ListDeviceCertificatesResponse), global::Yandex.Cloud.Iot.Devices.V1.ListDeviceCertificatesResponse.Parser, new[]{ "Certificates" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.AddDeviceCertificateRequest), global::Yandex.Cloud.Iot.Devices.V1.AddDeviceCertificateRequest.Parser, new[]{ "DeviceId", "CertificateData" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.AddDeviceCertificateMetadata), global::Yandex.Cloud.Iot.Devices.V1.AddDeviceCertificateMetadata.Parser, new[]{ "DeviceId", "Fingerprint" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.DeleteDeviceCertificateRequest), global::Yandex.Cloud.Iot.Devices.V1.DeleteDeviceCertificateRequest.Parser, new[]{ "DeviceId", "Fingerprint" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.DeleteDeviceCertificateMetadata), global::Yandex.Cloud.Iot.Devices.V1.DeleteDeviceCertificateMetadata.Parser, new[]{ "DeviceId", "Fingerprint" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.ListDevicePasswordsRequest), global::Yandex.Cloud.Iot.Devices.V1.ListDevicePasswordsRequest.Parser, new[]{ "DeviceId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.ListDevicePasswordsResponse), global::Yandex.Cloud.Iot.Devices.V1.ListDevicePasswordsResponse.Parser, new[]{ "Passwords" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.AddDevicePasswordRequest), global::Yandex.Cloud.Iot.Devices.V1.AddDevicePasswordRequest.Parser, new[]{ "DeviceId", "Password" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.AddDevicePasswordMetadata), global::Yandex.Cloud.Iot.Devices.V1.AddDevicePasswordMetadata.Parser, new[]{ "DeviceId", "PasswordId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.DeleteDevicePasswordRequest), global::Yandex.Cloud.Iot.Devices.V1.DeleteDevicePasswordRequest.Parser, new[]{ "DeviceId", "PasswordId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.DeleteDevicePasswordMetadata), global::Yandex.Cloud.Iot.Devices.V1.DeleteDevicePasswordMetadata.Parser, new[]{ "DeviceId", "PasswordId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.ListDeviceOperationsRequest), global::Yandex.Cloud.Iot.Devices.V1.ListDeviceOperationsRequest.Parser, new[]{ "DeviceId", "PageSize", "PageToken", "Filter" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.ListDeviceOperationsResponse), global::Yandex.Cloud.Iot.Devices.V1.ListDeviceOperationsResponse.Parser, new[]{ "Operations", "NextPageToken" }, null, null, null, null)
           }));
     }
     #endregion
@@ -830,7 +830,7 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     /// <summary>Field number for the "topic_aliases" field.</summary>
     public const int TopicAliasesFieldNumber = 5;
     private static readonly pbc::MapField<string, string>.Codec _map_topicAliases_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 42);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 42);
     private readonly pbc::MapField<string, string> topicAliases_ = new pbc::MapField<string, string>();
     /// <summary>
     /// Alias of a device topic.
@@ -1381,7 +1381,7 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     /// <summary>Field number for the "topic_aliases" field.</summary>
     public const int TopicAliasesFieldNumber = 5;
     private static readonly pbc::MapField<string, string>.Codec _map_topicAliases_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 42);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 42);
     private readonly pbc::MapField<string, string> topicAliases_ = new pbc::MapField<string, string>();
     /// <summary>
     /// Alias of a device topic.

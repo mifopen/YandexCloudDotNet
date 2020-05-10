@@ -59,12 +59,12 @@ namespace Yandex.Cloud.Containerregistry.V1 {
             "YWluZXJyZWdpc3RyeS92MTtjb250YWluZXJyZWdpc3RyeWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Yandex.Cloud.Api.OperationReflection.Descriptor, global::Yandex.Cloud.Containerregistry.V1.ImageReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, global::Google.Api.AnnotationsReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.ListImagesRequest), global::Yandex.Cloud.Containerregistry.V1.ListImagesRequest.Parser, new[]{ "RegistryId", "RepositoryName", "FolderId", "PageSize", "PageToken", "Filter", "OrderBy" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.ListImagesResponse), global::Yandex.Cloud.Containerregistry.V1.ListImagesResponse.Parser, new[]{ "Images", "NextPageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.GetImageRequest), global::Yandex.Cloud.Containerregistry.V1.GetImageRequest.Parser, new[]{ "ImageId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.DeleteImageRequest), global::Yandex.Cloud.Containerregistry.V1.DeleteImageRequest.Parser, new[]{ "ImageId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.DeleteImageMetadata), global::Yandex.Cloud.Containerregistry.V1.DeleteImageMetadata.Parser, new[]{ "ImageId" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.ListImagesRequest), global::Yandex.Cloud.Containerregistry.V1.ListImagesRequest.Parser, new[]{ "RegistryId", "RepositoryName", "FolderId", "PageSize", "PageToken", "Filter", "OrderBy" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.ListImagesResponse), global::Yandex.Cloud.Containerregistry.V1.ListImagesResponse.Parser, new[]{ "Images", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.GetImageRequest), global::Yandex.Cloud.Containerregistry.V1.GetImageRequest.Parser, new[]{ "ImageId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.DeleteImageRequest), global::Yandex.Cloud.Containerregistry.V1.DeleteImageRequest.Parser, new[]{ "ImageId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.DeleteImageMetadata), global::Yandex.Cloud.Containerregistry.V1.DeleteImageMetadata.Parser, new[]{ "ImageId" }, null, null, null, null)
           }));
     }
     #endregion

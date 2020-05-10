@@ -41,9 +41,9 @@ namespace Yandex.Cloud.Operation {
             "ZGV4L2Nsb3VkL29wZXJhdGlvbjtvcGVyYXRpb25iBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Operation.GetOperationRequest), global::Yandex.Cloud.Operation.GetOperationRequest.Parser, new[]{ "OperationId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Operation.CancelOperationRequest), global::Yandex.Cloud.Operation.CancelOperationRequest.Parser, new[]{ "OperationId" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Operation.GetOperationRequest), global::Yandex.Cloud.Operation.GetOperationRequest.Parser, new[]{ "OperationId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Operation.CancelOperationRequest), global::Yandex.Cloud.Operation.CancelOperationRequest.Parser, new[]{ "OperationId" }, null, null, null, null)
           }));
     }
     #endregion

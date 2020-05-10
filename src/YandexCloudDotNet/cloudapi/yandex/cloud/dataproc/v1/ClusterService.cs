@@ -138,28 +138,28 @@ namespace Yandex.Cloud.Dataproc.V1 {
             "YXByb2MvdjE7ZGF0YXByb2NiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Yandex.Cloud.Dataproc.V1.CommonReflection.Descriptor, global::Yandex.Cloud.Dataproc.V1.ClusterReflection.Descriptor, global::Yandex.Cloud.Dataproc.V1.SubclusterReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, global::Yandex.Cloud.Api.OperationReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.GetClusterRequest), global::Yandex.Cloud.Dataproc.V1.GetClusterRequest.Parser, new[]{ "ClusterId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.ListClustersRequest), global::Yandex.Cloud.Dataproc.V1.ListClustersRequest.Parser, new[]{ "FolderId", "PageSize", "PageToken", "Filter" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.ListClustersResponse), global::Yandex.Cloud.Dataproc.V1.ListClustersResponse.Parser, new[]{ "Clusters", "NextPageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.CreateSubclusterConfigSpec), global::Yandex.Cloud.Dataproc.V1.CreateSubclusterConfigSpec.Parser, new[]{ "Name", "Role", "Resources", "SubnetId", "HostsCount" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.UpdateSubclusterConfigSpec), global::Yandex.Cloud.Dataproc.V1.UpdateSubclusterConfigSpec.Parser, new[]{ "Id", "Name", "Resources", "HostsCount" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.CreateClusterConfigSpec), global::Yandex.Cloud.Dataproc.V1.CreateClusterConfigSpec.Parser, new[]{ "VersionId", "Hadoop", "SubclustersSpec" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.UpdateClusterConfigSpec), global::Yandex.Cloud.Dataproc.V1.UpdateClusterConfigSpec.Parser, new[]{ "SubclustersSpec" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.CreateClusterRequest), global::Yandex.Cloud.Dataproc.V1.CreateClusterRequest.Parser, new[]{ "FolderId", "Name", "Description", "Labels", "ConfigSpec", "ZoneId", "ServiceAccountId", "Bucket" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.CreateClusterMetadata), global::Yandex.Cloud.Dataproc.V1.CreateClusterMetadata.Parser, new[]{ "ClusterId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.UpdateClusterRequest), global::Yandex.Cloud.Dataproc.V1.UpdateClusterRequest.Parser, new[]{ "ClusterId", "UpdateMask", "Description", "Labels", "ConfigSpec", "Name", "ServiceAccountId", "Bucket", "DecommissionTimeout" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.UpdateClusterMetadata), global::Yandex.Cloud.Dataproc.V1.UpdateClusterMetadata.Parser, new[]{ "ClusterId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.DeleteClusterRequest), global::Yandex.Cloud.Dataproc.V1.DeleteClusterRequest.Parser, new[]{ "ClusterId", "DecommissionTimeout" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.DeleteClusterMetadata), global::Yandex.Cloud.Dataproc.V1.DeleteClusterMetadata.Parser, new[]{ "ClusterId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.StartClusterRequest), global::Yandex.Cloud.Dataproc.V1.StartClusterRequest.Parser, new[]{ "ClusterId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.StartClusterMetadata), global::Yandex.Cloud.Dataproc.V1.StartClusterMetadata.Parser, new[]{ "ClusterId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.StopClusterRequest), global::Yandex.Cloud.Dataproc.V1.StopClusterRequest.Parser, new[]{ "ClusterId", "DecommissionTimeout" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.StopClusterMetadata), global::Yandex.Cloud.Dataproc.V1.StopClusterMetadata.Parser, new[]{ "ClusterId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.ListClusterOperationsRequest), global::Yandex.Cloud.Dataproc.V1.ListClusterOperationsRequest.Parser, new[]{ "ClusterId", "PageSize", "PageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.ListClusterOperationsResponse), global::Yandex.Cloud.Dataproc.V1.ListClusterOperationsResponse.Parser, new[]{ "Operations", "NextPageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.ListClusterHostsRequest), global::Yandex.Cloud.Dataproc.V1.ListClusterHostsRequest.Parser, new[]{ "ClusterId", "PageSize", "PageToken", "Filter" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.ListClusterHostsResponse), global::Yandex.Cloud.Dataproc.V1.ListClusterHostsResponse.Parser, new[]{ "Hosts", "NextPageToken" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.GetClusterRequest), global::Yandex.Cloud.Dataproc.V1.GetClusterRequest.Parser, new[]{ "ClusterId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.ListClustersRequest), global::Yandex.Cloud.Dataproc.V1.ListClustersRequest.Parser, new[]{ "FolderId", "PageSize", "PageToken", "Filter" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.ListClustersResponse), global::Yandex.Cloud.Dataproc.V1.ListClustersResponse.Parser, new[]{ "Clusters", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.CreateSubclusterConfigSpec), global::Yandex.Cloud.Dataproc.V1.CreateSubclusterConfigSpec.Parser, new[]{ "Name", "Role", "Resources", "SubnetId", "HostsCount" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.UpdateSubclusterConfigSpec), global::Yandex.Cloud.Dataproc.V1.UpdateSubclusterConfigSpec.Parser, new[]{ "Id", "Name", "Resources", "HostsCount" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.CreateClusterConfigSpec), global::Yandex.Cloud.Dataproc.V1.CreateClusterConfigSpec.Parser, new[]{ "VersionId", "Hadoop", "SubclustersSpec" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.UpdateClusterConfigSpec), global::Yandex.Cloud.Dataproc.V1.UpdateClusterConfigSpec.Parser, new[]{ "SubclustersSpec" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.CreateClusterRequest), global::Yandex.Cloud.Dataproc.V1.CreateClusterRequest.Parser, new[]{ "FolderId", "Name", "Description", "Labels", "ConfigSpec", "ZoneId", "ServiceAccountId", "Bucket" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.CreateClusterMetadata), global::Yandex.Cloud.Dataproc.V1.CreateClusterMetadata.Parser, new[]{ "ClusterId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.UpdateClusterRequest), global::Yandex.Cloud.Dataproc.V1.UpdateClusterRequest.Parser, new[]{ "ClusterId", "UpdateMask", "Description", "Labels", "ConfigSpec", "Name", "ServiceAccountId", "Bucket", "DecommissionTimeout" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.UpdateClusterMetadata), global::Yandex.Cloud.Dataproc.V1.UpdateClusterMetadata.Parser, new[]{ "ClusterId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.DeleteClusterRequest), global::Yandex.Cloud.Dataproc.V1.DeleteClusterRequest.Parser, new[]{ "ClusterId", "DecommissionTimeout" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.DeleteClusterMetadata), global::Yandex.Cloud.Dataproc.V1.DeleteClusterMetadata.Parser, new[]{ "ClusterId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.StartClusterRequest), global::Yandex.Cloud.Dataproc.V1.StartClusterRequest.Parser, new[]{ "ClusterId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.StartClusterMetadata), global::Yandex.Cloud.Dataproc.V1.StartClusterMetadata.Parser, new[]{ "ClusterId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.StopClusterRequest), global::Yandex.Cloud.Dataproc.V1.StopClusterRequest.Parser, new[]{ "ClusterId", "DecommissionTimeout" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.StopClusterMetadata), global::Yandex.Cloud.Dataproc.V1.StopClusterMetadata.Parser, new[]{ "ClusterId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.ListClusterOperationsRequest), global::Yandex.Cloud.Dataproc.V1.ListClusterOperationsRequest.Parser, new[]{ "ClusterId", "PageSize", "PageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.ListClusterOperationsResponse), global::Yandex.Cloud.Dataproc.V1.ListClusterOperationsResponse.Parser, new[]{ "Operations", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.ListClusterHostsRequest), global::Yandex.Cloud.Dataproc.V1.ListClusterHostsRequest.Parser, new[]{ "ClusterId", "PageSize", "PageToken", "Filter" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.ListClusterHostsResponse), global::Yandex.Cloud.Dataproc.V1.ListClusterHostsResponse.Parser, new[]{ "Hosts", "NextPageToken" }, null, null, null, null)
           }));
     }
     #endregion
@@ -750,7 +750,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
 
     /// <summary>Field number for the "role" field.</summary>
     public const int RoleFieldNumber = 2;
-    private global::Yandex.Cloud.Dataproc.V1.Role role_ = 0;
+    private global::Yandex.Cloud.Dataproc.V1.Role role_ = global::Yandex.Cloud.Dataproc.V1.Role.Unspecified;
     /// <summary>
     /// Role of the subcluster in the Data Proc cluster.
     /// </summary>
@@ -829,7 +829,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (Role != 0) hash ^= Role.GetHashCode();
+      if (Role != global::Yandex.Cloud.Dataproc.V1.Role.Unspecified) hash ^= Role.GetHashCode();
       if (resources_ != null) hash ^= Resources.GetHashCode();
       if (SubnetId.Length != 0) hash ^= SubnetId.GetHashCode();
       if (HostsCount != 0L) hash ^= HostsCount.GetHashCode();
@@ -850,7 +850,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
-      if (Role != 0) {
+      if (Role != global::Yandex.Cloud.Dataproc.V1.Role.Unspecified) {
         output.WriteRawTag(16);
         output.WriteEnum((int) Role);
       }
@@ -877,7 +877,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
-      if (Role != 0) {
+      if (Role != global::Yandex.Cloud.Dataproc.V1.Role.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Role);
       }
       if (resources_ != null) {
@@ -903,7 +903,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
       if (other.Name.Length != 0) {
         Name = other.Name;
       }
-      if (other.Role != 0) {
+      if (other.Role != global::Yandex.Cloud.Dataproc.V1.Role.Unspecified) {
         Role = other.Role;
       }
       if (other.resources_ != null) {
@@ -1598,7 +1598,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
     /// <summary>Field number for the "labels" field.</summary>
     public const int LabelsFieldNumber = 4;
     private static readonly pbc::MapField<string, string>.Codec _map_labels_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 34);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 34);
     private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
     /// <summary>
     /// Cluster labels as `key:value` pairs.
@@ -2082,7 +2082,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
     /// <summary>Field number for the "labels" field.</summary>
     public const int LabelsFieldNumber = 4;
     private static readonly pbc::MapField<string, string>.Codec _map_labels_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 34);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 34);
     private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
     /// <summary>
     /// A new set of cluster labels as `key:value` pairs.

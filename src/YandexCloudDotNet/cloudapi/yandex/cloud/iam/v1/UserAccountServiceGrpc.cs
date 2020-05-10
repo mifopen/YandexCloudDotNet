@@ -36,7 +36,7 @@ namespace Yandex.Cloud.Iam.V1 {
     {
       /// <summary>Creates a new client for UserAccountService</summary>
       /// <param name="channel">The channel to use to make remote calls.</param>
-      public UserAccountServiceClient(grpc::Channel channel) : base(channel)
+      public UserAccountServiceClient(grpc::ChannelBase channel) : base(channel)
       {
       }
       /// <summary>Creates a new client for UserAccountService that uses a custom <c>CallInvoker</c>.</summary>

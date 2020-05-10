@@ -47,9 +47,9 @@ namespace Yandex.Cloud.Mdb.Redis.V1.Config {
             "ZGlzL3YxL2NvbmZpZztyZWRpc2IGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.WrappersReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1.Config.RedisConfig5_0), global::Yandex.Cloud.Mdb.Redis.V1.Config.RedisConfig5_0.Parser, new[]{ "MaxmemoryPolicy", "Timeout", "Password" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Redis.V1.Config.RedisConfig5_0.Types.MaxmemoryPolicy) }, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1.Config.RedisConfigSet5_0), global::Yandex.Cloud.Mdb.Redis.V1.Config.RedisConfigSet5_0.Parser, new[]{ "EffectiveConfig", "UserConfig", "DefaultConfig" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1.Config.RedisConfig5_0), global::Yandex.Cloud.Mdb.Redis.V1.Config.RedisConfig5_0.Parser, new[]{ "MaxmemoryPolicy", "Timeout", "Password" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Redis.V1.Config.RedisConfig5_0.Types.MaxmemoryPolicy) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1.Config.RedisConfigSet5_0), global::Yandex.Cloud.Mdb.Redis.V1.Config.RedisConfigSet5_0.Parser, new[]{ "EffectiveConfig", "UserConfig", "DefaultConfig" }, null, null, null, null)
           }));
     }
     #endregion
@@ -98,7 +98,7 @@ namespace Yandex.Cloud.Mdb.Redis.V1.Config {
 
     /// <summary>Field number for the "maxmemory_policy" field.</summary>
     public const int MaxmemoryPolicyFieldNumber = 1;
-    private global::Yandex.Cloud.Mdb.Redis.V1.Config.RedisConfig5_0.Types.MaxmemoryPolicy maxmemoryPolicy_ = 0;
+    private global::Yandex.Cloud.Mdb.Redis.V1.Config.RedisConfig5_0.Types.MaxmemoryPolicy maxmemoryPolicy_ = global::Yandex.Cloud.Mdb.Redis.V1.Config.RedisConfig5_0.Types.MaxmemoryPolicy.Unspecified;
     /// <summary>
     /// Redis key eviction policy for a dataset that reaches maximum memory,
     /// available to the host. Redis maxmemory setting depends on Managed
@@ -167,7 +167,7 @@ namespace Yandex.Cloud.Mdb.Redis.V1.Config {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override int GetHashCode() {
       int hash = 1;
-      if (MaxmemoryPolicy != 0) hash ^= MaxmemoryPolicy.GetHashCode();
+      if (MaxmemoryPolicy != global::Yandex.Cloud.Mdb.Redis.V1.Config.RedisConfig5_0.Types.MaxmemoryPolicy.Unspecified) hash ^= MaxmemoryPolicy.GetHashCode();
       if (timeout_ != null) hash ^= Timeout.GetHashCode();
       if (Password.Length != 0) hash ^= Password.GetHashCode();
       if (_unknownFields != null) {
@@ -183,7 +183,7 @@ namespace Yandex.Cloud.Mdb.Redis.V1.Config {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public void WriteTo(pb::CodedOutputStream output) {
-      if (MaxmemoryPolicy != 0) {
+      if (MaxmemoryPolicy != global::Yandex.Cloud.Mdb.Redis.V1.Config.RedisConfig5_0.Types.MaxmemoryPolicy.Unspecified) {
         output.WriteRawTag(8);
         output.WriteEnum((int) MaxmemoryPolicy);
       }
@@ -202,7 +202,7 @@ namespace Yandex.Cloud.Mdb.Redis.V1.Config {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CalculateSize() {
       int size = 0;
-      if (MaxmemoryPolicy != 0) {
+      if (MaxmemoryPolicy != global::Yandex.Cloud.Mdb.Redis.V1.Config.RedisConfig5_0.Types.MaxmemoryPolicy.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) MaxmemoryPolicy);
       }
       if (timeout_ != null) {
@@ -222,7 +222,7 @@ namespace Yandex.Cloud.Mdb.Redis.V1.Config {
       if (other == null) {
         return;
       }
-      if (other.MaxmemoryPolicy != 0) {
+      if (other.MaxmemoryPolicy != global::Yandex.Cloud.Mdb.Redis.V1.Config.RedisConfig5_0.Types.MaxmemoryPolicy.Unspecified) {
         MaxmemoryPolicy = other.MaxmemoryPolicy;
       }
       if (other.timeout_ != null) {

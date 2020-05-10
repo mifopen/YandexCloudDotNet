@@ -78,18 +78,18 @@ namespace Yandex.Cloud.Iam.V1 {
             "Mw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Yandex.Cloud.Iam.V1.KeyReflection.Descriptor, global::Yandex.Cloud.Api.OperationReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Yandex.Cloud.Iam.V1.KeyFormat), }, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.GetKeyRequest), global::Yandex.Cloud.Iam.V1.GetKeyRequest.Parser, new[]{ "KeyId", "Format" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.ListKeysRequest), global::Yandex.Cloud.Iam.V1.ListKeysRequest.Parser, new[]{ "Format", "ServiceAccountId", "PageSize", "PageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.ListKeysResponse), global::Yandex.Cloud.Iam.V1.ListKeysResponse.Parser, new[]{ "Keys", "NextPageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.CreateKeyRequest), global::Yandex.Cloud.Iam.V1.CreateKeyRequest.Parser, new[]{ "ServiceAccountId", "Description", "Format", "KeyAlgorithm" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.CreateKeyResponse), global::Yandex.Cloud.Iam.V1.CreateKeyResponse.Parser, new[]{ "Key", "PrivateKey" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.UpdateKeyRequest), global::Yandex.Cloud.Iam.V1.UpdateKeyRequest.Parser, new[]{ "KeyId", "UpdateMask", "Description" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.UpdateKeyMetadata), global::Yandex.Cloud.Iam.V1.UpdateKeyMetadata.Parser, new[]{ "KeyId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.DeleteKeyRequest), global::Yandex.Cloud.Iam.V1.DeleteKeyRequest.Parser, new[]{ "KeyId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.DeleteKeyMetadata), global::Yandex.Cloud.Iam.V1.DeleteKeyMetadata.Parser, new[]{ "KeyId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.ListKeyOperationsRequest), global::Yandex.Cloud.Iam.V1.ListKeyOperationsRequest.Parser, new[]{ "KeyId", "PageSize", "PageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.ListKeyOperationsResponse), global::Yandex.Cloud.Iam.V1.ListKeyOperationsResponse.Parser, new[]{ "Operations", "NextPageToken" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Yandex.Cloud.Iam.V1.KeyFormat), }, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.GetKeyRequest), global::Yandex.Cloud.Iam.V1.GetKeyRequest.Parser, new[]{ "KeyId", "Format" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.ListKeysRequest), global::Yandex.Cloud.Iam.V1.ListKeysRequest.Parser, new[]{ "Format", "ServiceAccountId", "PageSize", "PageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.ListKeysResponse), global::Yandex.Cloud.Iam.V1.ListKeysResponse.Parser, new[]{ "Keys", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.CreateKeyRequest), global::Yandex.Cloud.Iam.V1.CreateKeyRequest.Parser, new[]{ "ServiceAccountId", "Description", "Format", "KeyAlgorithm" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.CreateKeyResponse), global::Yandex.Cloud.Iam.V1.CreateKeyResponse.Parser, new[]{ "Key", "PrivateKey" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.UpdateKeyRequest), global::Yandex.Cloud.Iam.V1.UpdateKeyRequest.Parser, new[]{ "KeyId", "UpdateMask", "Description" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.UpdateKeyMetadata), global::Yandex.Cloud.Iam.V1.UpdateKeyMetadata.Parser, new[]{ "KeyId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.DeleteKeyRequest), global::Yandex.Cloud.Iam.V1.DeleteKeyRequest.Parser, new[]{ "KeyId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.DeleteKeyMetadata), global::Yandex.Cloud.Iam.V1.DeleteKeyMetadata.Parser, new[]{ "KeyId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.ListKeyOperationsRequest), global::Yandex.Cloud.Iam.V1.ListKeyOperationsRequest.Parser, new[]{ "KeyId", "PageSize", "PageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.ListKeyOperationsResponse), global::Yandex.Cloud.Iam.V1.ListKeyOperationsResponse.Parser, new[]{ "Operations", "NextPageToken" }, null, null, null, null)
           }));
     }
     #endregion
@@ -158,7 +158,7 @@ namespace Yandex.Cloud.Iam.V1 {
 
     /// <summary>Field number for the "format" field.</summary>
     public const int FormatFieldNumber = 2;
-    private global::Yandex.Cloud.Iam.V1.KeyFormat format_ = 0;
+    private global::Yandex.Cloud.Iam.V1.KeyFormat format_ = global::Yandex.Cloud.Iam.V1.KeyFormat.PemFile;
     /// <summary>
     /// Output format of the key.
     /// </summary>
@@ -192,7 +192,7 @@ namespace Yandex.Cloud.Iam.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (KeyId.Length != 0) hash ^= KeyId.GetHashCode();
-      if (Format != 0) hash ^= Format.GetHashCode();
+      if (Format != global::Yandex.Cloud.Iam.V1.KeyFormat.PemFile) hash ^= Format.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -210,7 +210,7 @@ namespace Yandex.Cloud.Iam.V1 {
         output.WriteRawTag(10);
         output.WriteString(KeyId);
       }
-      if (Format != 0) {
+      if (Format != global::Yandex.Cloud.Iam.V1.KeyFormat.PemFile) {
         output.WriteRawTag(16);
         output.WriteEnum((int) Format);
       }
@@ -225,7 +225,7 @@ namespace Yandex.Cloud.Iam.V1 {
       if (KeyId.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(KeyId);
       }
-      if (Format != 0) {
+      if (Format != global::Yandex.Cloud.Iam.V1.KeyFormat.PemFile) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Format);
       }
       if (_unknownFields != null) {
@@ -242,7 +242,7 @@ namespace Yandex.Cloud.Iam.V1 {
       if (other.KeyId.Length != 0) {
         KeyId = other.KeyId;
       }
-      if (other.Format != 0) {
+      if (other.Format != global::Yandex.Cloud.Iam.V1.KeyFormat.PemFile) {
         Format = other.Format;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
@@ -309,7 +309,7 @@ namespace Yandex.Cloud.Iam.V1 {
 
     /// <summary>Field number for the "format" field.</summary>
     public const int FormatFieldNumber = 1;
-    private global::Yandex.Cloud.Iam.V1.KeyFormat format_ = 0;
+    private global::Yandex.Cloud.Iam.V1.KeyFormat format_ = global::Yandex.Cloud.Iam.V1.KeyFormat.PemFile;
     /// <summary>
     /// Output format of the key.
     /// </summary>
@@ -393,7 +393,7 @@ namespace Yandex.Cloud.Iam.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override int GetHashCode() {
       int hash = 1;
-      if (Format != 0) hash ^= Format.GetHashCode();
+      if (Format != global::Yandex.Cloud.Iam.V1.KeyFormat.PemFile) hash ^= Format.GetHashCode();
       if (ServiceAccountId.Length != 0) hash ^= ServiceAccountId.GetHashCode();
       if (PageSize != 0L) hash ^= PageSize.GetHashCode();
       if (PageToken.Length != 0) hash ^= PageToken.GetHashCode();
@@ -410,7 +410,7 @@ namespace Yandex.Cloud.Iam.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public void WriteTo(pb::CodedOutputStream output) {
-      if (Format != 0) {
+      if (Format != global::Yandex.Cloud.Iam.V1.KeyFormat.PemFile) {
         output.WriteRawTag(8);
         output.WriteEnum((int) Format);
       }
@@ -434,7 +434,7 @@ namespace Yandex.Cloud.Iam.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CalculateSize() {
       int size = 0;
-      if (Format != 0) {
+      if (Format != global::Yandex.Cloud.Iam.V1.KeyFormat.PemFile) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Format);
       }
       if (ServiceAccountId.Length != 0) {
@@ -457,7 +457,7 @@ namespace Yandex.Cloud.Iam.V1 {
       if (other == null) {
         return;
       }
-      if (other.Format != 0) {
+      if (other.Format != global::Yandex.Cloud.Iam.V1.KeyFormat.PemFile) {
         Format = other.Format;
       }
       if (other.ServiceAccountId.Length != 0) {
@@ -731,7 +731,7 @@ namespace Yandex.Cloud.Iam.V1 {
 
     /// <summary>Field number for the "format" field.</summary>
     public const int FormatFieldNumber = 3;
-    private global::Yandex.Cloud.Iam.V1.KeyFormat format_ = 0;
+    private global::Yandex.Cloud.Iam.V1.KeyFormat format_ = global::Yandex.Cloud.Iam.V1.KeyFormat.PemFile;
     /// <summary>
     /// Output format of the key.
     /// </summary>
@@ -745,7 +745,7 @@ namespace Yandex.Cloud.Iam.V1 {
 
     /// <summary>Field number for the "key_algorithm" field.</summary>
     public const int KeyAlgorithmFieldNumber = 4;
-    private global::Yandex.Cloud.Iam.V1.Key.Types.Algorithm keyAlgorithm_ = 0;
+    private global::Yandex.Cloud.Iam.V1.Key.Types.Algorithm keyAlgorithm_ = global::Yandex.Cloud.Iam.V1.Key.Types.Algorithm.Unspecified;
     /// <summary>
     /// An algorithm used to generate a key pair of the Key resource.
     /// </summary>
@@ -782,8 +782,8 @@ namespace Yandex.Cloud.Iam.V1 {
       int hash = 1;
       if (ServiceAccountId.Length != 0) hash ^= ServiceAccountId.GetHashCode();
       if (Description.Length != 0) hash ^= Description.GetHashCode();
-      if (Format != 0) hash ^= Format.GetHashCode();
-      if (KeyAlgorithm != 0) hash ^= KeyAlgorithm.GetHashCode();
+      if (Format != global::Yandex.Cloud.Iam.V1.KeyFormat.PemFile) hash ^= Format.GetHashCode();
+      if (KeyAlgorithm != global::Yandex.Cloud.Iam.V1.Key.Types.Algorithm.Unspecified) hash ^= KeyAlgorithm.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -805,11 +805,11 @@ namespace Yandex.Cloud.Iam.V1 {
         output.WriteRawTag(18);
         output.WriteString(Description);
       }
-      if (Format != 0) {
+      if (Format != global::Yandex.Cloud.Iam.V1.KeyFormat.PemFile) {
         output.WriteRawTag(24);
         output.WriteEnum((int) Format);
       }
-      if (KeyAlgorithm != 0) {
+      if (KeyAlgorithm != global::Yandex.Cloud.Iam.V1.Key.Types.Algorithm.Unspecified) {
         output.WriteRawTag(32);
         output.WriteEnum((int) KeyAlgorithm);
       }
@@ -827,10 +827,10 @@ namespace Yandex.Cloud.Iam.V1 {
       if (Description.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Description);
       }
-      if (Format != 0) {
+      if (Format != global::Yandex.Cloud.Iam.V1.KeyFormat.PemFile) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Format);
       }
-      if (KeyAlgorithm != 0) {
+      if (KeyAlgorithm != global::Yandex.Cloud.Iam.V1.Key.Types.Algorithm.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) KeyAlgorithm);
       }
       if (_unknownFields != null) {
@@ -850,10 +850,10 @@ namespace Yandex.Cloud.Iam.V1 {
       if (other.Description.Length != 0) {
         Description = other.Description;
       }
-      if (other.Format != 0) {
+      if (other.Format != global::Yandex.Cloud.Iam.V1.KeyFormat.PemFile) {
         Format = other.Format;
       }
-      if (other.KeyAlgorithm != 0) {
+      if (other.KeyAlgorithm != global::Yandex.Cloud.Iam.V1.Key.Types.Algorithm.Unspecified) {
         KeyAlgorithm = other.KeyAlgorithm;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);

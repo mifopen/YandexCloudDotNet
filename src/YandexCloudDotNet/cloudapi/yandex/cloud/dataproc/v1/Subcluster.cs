@@ -44,9 +44,9 @@ namespace Yandex.Cloud.Dataproc.V1 {
             "YXRhcHJvYy92MTtkYXRhcHJvY2IGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Yandex.Cloud.Dataproc.V1.CommonReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Yandex.Cloud.Dataproc.V1.Role), }, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.Subcluster), global::Yandex.Cloud.Dataproc.V1.Subcluster.Parser, new[]{ "Id", "ClusterId", "CreatedAt", "Name", "Role", "Resources", "SubnetId", "HostsCount" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.Host), global::Yandex.Cloud.Dataproc.V1.Host.Parser, new[]{ "Name", "SubclusterId", "Health", "ComputeInstanceId", "Role" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Yandex.Cloud.Dataproc.V1.Role), }, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.Subcluster), global::Yandex.Cloud.Dataproc.V1.Subcluster.Parser, new[]{ "Id", "ClusterId", "CreatedAt", "Name", "Role", "Resources", "SubnetId", "HostsCount" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.Host), global::Yandex.Cloud.Dataproc.V1.Host.Parser, new[]{ "Name", "SubclusterId", "Health", "ComputeInstanceId", "Role" }, null, null, null, null)
           }));
     }
     #endregion
@@ -193,7 +193,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
 
     /// <summary>Field number for the "role" field.</summary>
     public const int RoleFieldNumber = 5;
-    private global::Yandex.Cloud.Dataproc.V1.Role role_ = 0;
+    private global::Yandex.Cloud.Dataproc.V1.Role role_ = global::Yandex.Cloud.Dataproc.V1.Role.Unspecified;
     /// <summary>
     /// Role that is fulfilled by hosts of the subcluster.
     /// </summary>
@@ -278,7 +278,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
       if (ClusterId.Length != 0) hash ^= ClusterId.GetHashCode();
       if (createdAt_ != null) hash ^= CreatedAt.GetHashCode();
       if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (Role != 0) hash ^= Role.GetHashCode();
+      if (Role != global::Yandex.Cloud.Dataproc.V1.Role.Unspecified) hash ^= Role.GetHashCode();
       if (resources_ != null) hash ^= Resources.GetHashCode();
       if (SubnetId.Length != 0) hash ^= SubnetId.GetHashCode();
       if (HostsCount != 0L) hash ^= HostsCount.GetHashCode();
@@ -311,7 +311,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
         output.WriteRawTag(34);
         output.WriteString(Name);
       }
-      if (Role != 0) {
+      if (Role != global::Yandex.Cloud.Dataproc.V1.Role.Unspecified) {
         output.WriteRawTag(40);
         output.WriteEnum((int) Role);
       }
@@ -347,7 +347,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
-      if (Role != 0) {
+      if (Role != global::Yandex.Cloud.Dataproc.V1.Role.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Role);
       }
       if (resources_ != null) {
@@ -385,7 +385,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
       if (other.Name.Length != 0) {
         Name = other.Name;
       }
-      if (other.Role != 0) {
+      if (other.Role != global::Yandex.Cloud.Dataproc.V1.Role.Unspecified) {
         Role = other.Role;
       }
       if (other.resources_ != null) {
@@ -528,7 +528,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
 
     /// <summary>Field number for the "health" field.</summary>
     public const int HealthFieldNumber = 3;
-    private global::Yandex.Cloud.Dataproc.V1.Health health_ = 0;
+    private global::Yandex.Cloud.Dataproc.V1.Health health_ = global::Yandex.Cloud.Dataproc.V1.Health.Unknown;
     /// <summary>
     /// Host status code.
     /// </summary>
@@ -556,7 +556,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
 
     /// <summary>Field number for the "role" field.</summary>
     public const int RoleFieldNumber = 5;
-    private global::Yandex.Cloud.Dataproc.V1.Role role_ = 0;
+    private global::Yandex.Cloud.Dataproc.V1.Role role_ = global::Yandex.Cloud.Dataproc.V1.Role.Unspecified;
     /// <summary>
     /// Role of the host in the cluster.
     /// </summary>
@@ -594,9 +594,9 @@ namespace Yandex.Cloud.Dataproc.V1 {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
       if (SubclusterId.Length != 0) hash ^= SubclusterId.GetHashCode();
-      if (Health != 0) hash ^= Health.GetHashCode();
+      if (Health != global::Yandex.Cloud.Dataproc.V1.Health.Unknown) hash ^= Health.GetHashCode();
       if (ComputeInstanceId.Length != 0) hash ^= ComputeInstanceId.GetHashCode();
-      if (Role != 0) hash ^= Role.GetHashCode();
+      if (Role != global::Yandex.Cloud.Dataproc.V1.Role.Unspecified) hash ^= Role.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -618,7 +618,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
         output.WriteRawTag(18);
         output.WriteString(SubclusterId);
       }
-      if (Health != 0) {
+      if (Health != global::Yandex.Cloud.Dataproc.V1.Health.Unknown) {
         output.WriteRawTag(24);
         output.WriteEnum((int) Health);
       }
@@ -626,7 +626,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
         output.WriteRawTag(34);
         output.WriteString(ComputeInstanceId);
       }
-      if (Role != 0) {
+      if (Role != global::Yandex.Cloud.Dataproc.V1.Role.Unspecified) {
         output.WriteRawTag(40);
         output.WriteEnum((int) Role);
       }
@@ -644,13 +644,13 @@ namespace Yandex.Cloud.Dataproc.V1 {
       if (SubclusterId.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(SubclusterId);
       }
-      if (Health != 0) {
+      if (Health != global::Yandex.Cloud.Dataproc.V1.Health.Unknown) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Health);
       }
       if (ComputeInstanceId.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(ComputeInstanceId);
       }
-      if (Role != 0) {
+      if (Role != global::Yandex.Cloud.Dataproc.V1.Role.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Role);
       }
       if (_unknownFields != null) {
@@ -670,13 +670,13 @@ namespace Yandex.Cloud.Dataproc.V1 {
       if (other.SubclusterId.Length != 0) {
         SubclusterId = other.SubclusterId;
       }
-      if (other.Health != 0) {
+      if (other.Health != global::Yandex.Cloud.Dataproc.V1.Health.Unknown) {
         Health = other.Health;
       }
       if (other.ComputeInstanceId.Length != 0) {
         ComputeInstanceId = other.ComputeInstanceId;
       }
-      if (other.Role != 0) {
+      if (other.Role != global::Yandex.Cloud.Dataproc.V1.Role.Unspecified) {
         Role = other.Role;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);

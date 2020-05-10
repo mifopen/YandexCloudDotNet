@@ -36,7 +36,7 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     {
       /// <summary>Creates a new client for DeviceDataService</summary>
       /// <param name="channel">The channel to use to make remote calls.</param>
-      public DeviceDataServiceClient(grpc::Channel channel) : base(channel)
+      public DeviceDataServiceClient(grpc::ChannelBase channel) : base(channel)
       {
       }
       /// <summary>Creates a new client for DeviceDataService that uses a custom <c>CallInvoker</c>.</summary>

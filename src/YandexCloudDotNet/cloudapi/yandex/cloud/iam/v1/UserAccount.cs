@@ -43,10 +43,10 @@ namespace Yandex.Cloud.Iam.V1 {
             "YW5kZXgvY2xvdWQvaWFtL3YxO2lhbWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Yandex.Cloud.ValidationReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.UserAccount), global::Yandex.Cloud.Iam.V1.UserAccount.Parser, new[]{ "Id", "YandexPassportUserAccount", "SamlUserAccount" }, new[]{ "UserAccount" }, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.YandexPassportUserAccount), global::Yandex.Cloud.Iam.V1.YandexPassportUserAccount.Parser, new[]{ "Login", "DefaultEmail" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.SamlUserAccount), global::Yandex.Cloud.Iam.V1.SamlUserAccount.Parser, new[]{ "FederationId", "NameId", "Attributes" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.SamlUserAccount.Types.Attribute), global::Yandex.Cloud.Iam.V1.SamlUserAccount.Types.Attribute.Parser, new[]{ "Value" }, null, null, null),
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.UserAccount), global::Yandex.Cloud.Iam.V1.UserAccount.Parser, new[]{ "Id", "YandexPassportUserAccount", "SamlUserAccount" }, new[]{ "UserAccount" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.YandexPassportUserAccount), global::Yandex.Cloud.Iam.V1.YandexPassportUserAccount.Parser, new[]{ "Login", "DefaultEmail" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.SamlUserAccount), global::Yandex.Cloud.Iam.V1.SamlUserAccount.Parser, new[]{ "FederationId", "NameId", "Attributes" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.SamlUserAccount.Types.Attribute), global::Yandex.Cloud.Iam.V1.SamlUserAccount.Types.Attribute.Parser, new[]{ "Value" }, null, null, null, null),
             null, })
           }));
     }
@@ -537,7 +537,7 @@ namespace Yandex.Cloud.Iam.V1 {
     /// <summary>Field number for the "attributes" field.</summary>
     public const int AttributesFieldNumber = 3;
     private static readonly pbc::MapField<string, global::Yandex.Cloud.Iam.V1.SamlUserAccount.Types.Attribute>.Codec _map_attributes_codec
-        = new pbc::MapField<string, global::Yandex.Cloud.Iam.V1.SamlUserAccount.Types.Attribute>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForMessage(18, global::Yandex.Cloud.Iam.V1.SamlUserAccount.Types.Attribute.Parser), 26);
+        = new pbc::MapField<string, global::Yandex.Cloud.Iam.V1.SamlUserAccount.Types.Attribute>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForMessage(18, global::Yandex.Cloud.Iam.V1.SamlUserAccount.Types.Attribute.Parser), 26);
     private readonly pbc::MapField<string, global::Yandex.Cloud.Iam.V1.SamlUserAccount.Types.Attribute> attributes_ = new pbc::MapField<string, global::Yandex.Cloud.Iam.V1.SamlUserAccount.Types.Attribute>();
     /// <summary>
     /// Additional attributes of the SAML federated user.

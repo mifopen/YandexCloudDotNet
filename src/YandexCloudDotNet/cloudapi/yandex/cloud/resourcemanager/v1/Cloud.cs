@@ -34,8 +34,8 @@ namespace Yandex.Cloud.Resourcemanager.V1 {
             "bmFnZXIvdjE7cmVzb3VyY2VtYW5hZ2VyYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Resourcemanager.V1.Cloud), global::Yandex.Cloud.Resourcemanager.V1.Cloud.Parser, new[]{ "Id", "CreatedAt", "Name", "Description" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Resourcemanager.V1.Cloud), global::Yandex.Cloud.Resourcemanager.V1.Cloud.Parser, new[]{ "Id", "CreatedAt", "Name", "Description" }, null, null, null, null)
           }));
     }
     #endregion

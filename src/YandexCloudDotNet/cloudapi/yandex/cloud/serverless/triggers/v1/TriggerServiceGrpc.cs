@@ -79,7 +79,7 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
     {
       /// <summary>Creates a new client for TriggerService</summary>
       /// <param name="channel">The channel to use to make remote calls.</param>
-      public TriggerServiceClient(grpc::Channel channel) : base(channel)
+      public TriggerServiceClient(grpc::ChannelBase channel) : base(channel)
       {
       }
       /// <summary>Creates a new client for TriggerService that uses a custom <c>CallInvoker</c>.</summary>

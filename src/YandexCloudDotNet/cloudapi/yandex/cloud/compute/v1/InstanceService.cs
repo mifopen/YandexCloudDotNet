@@ -233,43 +233,43 @@ namespace Yandex.Cloud.Compute.V1 {
             "YW5kZXgvY2xvdWQvY29tcHV0ZS92MTtjb21wdXRlYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Yandex.Cloud.Api.OperationReflection.Descriptor, global::Yandex.Cloud.Compute.V1.InstanceReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Yandex.Cloud.Compute.V1.InstanceView), }, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.GetInstanceRequest), global::Yandex.Cloud.Compute.V1.GetInstanceRequest.Parser, new[]{ "InstanceId", "View" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.ListInstancesRequest), global::Yandex.Cloud.Compute.V1.ListInstancesRequest.Parser, new[]{ "FolderId", "PageSize", "PageToken", "Filter" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.ListInstancesResponse), global::Yandex.Cloud.Compute.V1.ListInstancesResponse.Parser, new[]{ "Instances", "NextPageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.CreateInstanceRequest), global::Yandex.Cloud.Compute.V1.CreateInstanceRequest.Parser, new[]{ "FolderId", "Name", "Description", "Labels", "ZoneId", "PlatformId", "ResourcesSpec", "Metadata", "BootDiskSpec", "SecondaryDiskSpecs", "NetworkInterfaceSpecs", "Hostname", "SchedulingPolicy", "ServiceAccountId", "NetworkSettings", "PlacementPolicy" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.CreateInstanceMetadata), global::Yandex.Cloud.Compute.V1.CreateInstanceMetadata.Parser, new[]{ "InstanceId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.UpdateInstanceRequest), global::Yandex.Cloud.Compute.V1.UpdateInstanceRequest.Parser, new[]{ "InstanceId", "UpdateMask", "Name", "Description", "Labels", "PlatformId", "ResourcesSpec", "Metadata", "ServiceAccountId", "NetworkSettings", "PlacementPolicy" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.UpdateInstanceMetadata), global::Yandex.Cloud.Compute.V1.UpdateInstanceMetadata.Parser, new[]{ "InstanceId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.DeleteInstanceRequest), global::Yandex.Cloud.Compute.V1.DeleteInstanceRequest.Parser, new[]{ "InstanceId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.DeleteInstanceMetadata), global::Yandex.Cloud.Compute.V1.DeleteInstanceMetadata.Parser, new[]{ "InstanceId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.UpdateInstanceMetadataRequest), global::Yandex.Cloud.Compute.V1.UpdateInstanceMetadataRequest.Parser, new[]{ "InstanceId", "Delete", "Upsert" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.UpdateInstanceMetadataMetadata), global::Yandex.Cloud.Compute.V1.UpdateInstanceMetadataMetadata.Parser, new[]{ "InstanceId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.GetInstanceSerialPortOutputRequest), global::Yandex.Cloud.Compute.V1.GetInstanceSerialPortOutputRequest.Parser, new[]{ "InstanceId", "Port" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.GetInstanceSerialPortOutputResponse), global::Yandex.Cloud.Compute.V1.GetInstanceSerialPortOutputResponse.Parser, new[]{ "Contents" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.StopInstanceRequest), global::Yandex.Cloud.Compute.V1.StopInstanceRequest.Parser, new[]{ "InstanceId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.StopInstanceMetadata), global::Yandex.Cloud.Compute.V1.StopInstanceMetadata.Parser, new[]{ "InstanceId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.StartInstanceRequest), global::Yandex.Cloud.Compute.V1.StartInstanceRequest.Parser, new[]{ "InstanceId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.StartInstanceMetadata), global::Yandex.Cloud.Compute.V1.StartInstanceMetadata.Parser, new[]{ "InstanceId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.RestartInstanceRequest), global::Yandex.Cloud.Compute.V1.RestartInstanceRequest.Parser, new[]{ "InstanceId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.RestartInstanceMetadata), global::Yandex.Cloud.Compute.V1.RestartInstanceMetadata.Parser, new[]{ "InstanceId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.AttachInstanceDiskRequest), global::Yandex.Cloud.Compute.V1.AttachInstanceDiskRequest.Parser, new[]{ "InstanceId", "AttachedDiskSpec" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.AttachInstanceDiskMetadata), global::Yandex.Cloud.Compute.V1.AttachInstanceDiskMetadata.Parser, new[]{ "InstanceId", "DiskId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.DetachInstanceDiskRequest), global::Yandex.Cloud.Compute.V1.DetachInstanceDiskRequest.Parser, new[]{ "InstanceId", "DiskId", "DeviceName" }, new[]{ "Disk" }, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.DetachInstanceDiskMetadata), global::Yandex.Cloud.Compute.V1.DetachInstanceDiskMetadata.Parser, new[]{ "InstanceId", "DiskId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.AddInstanceOneToOneNatRequest), global::Yandex.Cloud.Compute.V1.AddInstanceOneToOneNatRequest.Parser, new[]{ "InstanceId", "NetworkInterfaceIndex", "InternalAddress", "OneToOneNatSpec" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.AddInstanceOneToOneNatMetadata), global::Yandex.Cloud.Compute.V1.AddInstanceOneToOneNatMetadata.Parser, new[]{ "InstanceId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.RemoveInstanceOneToOneNatRequest), global::Yandex.Cloud.Compute.V1.RemoveInstanceOneToOneNatRequest.Parser, new[]{ "InstanceId", "NetworkInterfaceIndex", "InternalAddress" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.RemoveInstanceOneToOneNatMetadata), global::Yandex.Cloud.Compute.V1.RemoveInstanceOneToOneNatMetadata.Parser, new[]{ "InstanceId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.UpdateNetworkInterfaceRequest), global::Yandex.Cloud.Compute.V1.UpdateNetworkInterfaceRequest.Parser, new[]{ "InstanceId", "NetworkInterfaceIndex", "UpdateMask", "SecurityGroupIds" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.UpdateNetworkInterfaceMetadata), global::Yandex.Cloud.Compute.V1.UpdateNetworkInterfaceMetadata.Parser, new[]{ "InstanceId", "NetworkInterfaceIndex" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.ListInstanceOperationsRequest), global::Yandex.Cloud.Compute.V1.ListInstanceOperationsRequest.Parser, new[]{ "InstanceId", "PageSize", "PageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.ListInstanceOperationsResponse), global::Yandex.Cloud.Compute.V1.ListInstanceOperationsResponse.Parser, new[]{ "Operations", "NextPageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.ResourcesSpec), global::Yandex.Cloud.Compute.V1.ResourcesSpec.Parser, new[]{ "Memory", "Cores", "CoreFraction", "Gpus" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.AttachedDiskSpec), global::Yandex.Cloud.Compute.V1.AttachedDiskSpec.Parser, new[]{ "Mode", "DeviceName", "AutoDelete", "DiskSpec", "DiskId" }, new[]{ "Disk" }, new[]{ typeof(global::Yandex.Cloud.Compute.V1.AttachedDiskSpec.Types.Mode) }, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.AttachedDiskSpec.Types.DiskSpec), global::Yandex.Cloud.Compute.V1.AttachedDiskSpec.Types.DiskSpec.Parser, new[]{ "Name", "Description", "TypeId", "Size", "ImageId", "SnapshotId" }, new[]{ "Source" }, null, null)}),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.NetworkInterfaceSpec), global::Yandex.Cloud.Compute.V1.NetworkInterfaceSpec.Parser, new[]{ "SubnetId", "PrimaryV4AddressSpec", "PrimaryV6AddressSpec", "SecurityGroupIds" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.PrimaryAddressSpec), global::Yandex.Cloud.Compute.V1.PrimaryAddressSpec.Parser, new[]{ "Address", "OneToOneNatSpec" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.OneToOneNatSpec), global::Yandex.Cloud.Compute.V1.OneToOneNatSpec.Parser, new[]{ "IpVersion", "Address" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Yandex.Cloud.Compute.V1.InstanceView), }, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.GetInstanceRequest), global::Yandex.Cloud.Compute.V1.GetInstanceRequest.Parser, new[]{ "InstanceId", "View" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.ListInstancesRequest), global::Yandex.Cloud.Compute.V1.ListInstancesRequest.Parser, new[]{ "FolderId", "PageSize", "PageToken", "Filter" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.ListInstancesResponse), global::Yandex.Cloud.Compute.V1.ListInstancesResponse.Parser, new[]{ "Instances", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.CreateInstanceRequest), global::Yandex.Cloud.Compute.V1.CreateInstanceRequest.Parser, new[]{ "FolderId", "Name", "Description", "Labels", "ZoneId", "PlatformId", "ResourcesSpec", "Metadata", "BootDiskSpec", "SecondaryDiskSpecs", "NetworkInterfaceSpecs", "Hostname", "SchedulingPolicy", "ServiceAccountId", "NetworkSettings", "PlacementPolicy" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.CreateInstanceMetadata), global::Yandex.Cloud.Compute.V1.CreateInstanceMetadata.Parser, new[]{ "InstanceId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.UpdateInstanceRequest), global::Yandex.Cloud.Compute.V1.UpdateInstanceRequest.Parser, new[]{ "InstanceId", "UpdateMask", "Name", "Description", "Labels", "PlatformId", "ResourcesSpec", "Metadata", "ServiceAccountId", "NetworkSettings", "PlacementPolicy" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.UpdateInstanceMetadata), global::Yandex.Cloud.Compute.V1.UpdateInstanceMetadata.Parser, new[]{ "InstanceId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.DeleteInstanceRequest), global::Yandex.Cloud.Compute.V1.DeleteInstanceRequest.Parser, new[]{ "InstanceId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.DeleteInstanceMetadata), global::Yandex.Cloud.Compute.V1.DeleteInstanceMetadata.Parser, new[]{ "InstanceId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.UpdateInstanceMetadataRequest), global::Yandex.Cloud.Compute.V1.UpdateInstanceMetadataRequest.Parser, new[]{ "InstanceId", "Delete", "Upsert" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.UpdateInstanceMetadataMetadata), global::Yandex.Cloud.Compute.V1.UpdateInstanceMetadataMetadata.Parser, new[]{ "InstanceId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.GetInstanceSerialPortOutputRequest), global::Yandex.Cloud.Compute.V1.GetInstanceSerialPortOutputRequest.Parser, new[]{ "InstanceId", "Port" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.GetInstanceSerialPortOutputResponse), global::Yandex.Cloud.Compute.V1.GetInstanceSerialPortOutputResponse.Parser, new[]{ "Contents" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.StopInstanceRequest), global::Yandex.Cloud.Compute.V1.StopInstanceRequest.Parser, new[]{ "InstanceId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.StopInstanceMetadata), global::Yandex.Cloud.Compute.V1.StopInstanceMetadata.Parser, new[]{ "InstanceId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.StartInstanceRequest), global::Yandex.Cloud.Compute.V1.StartInstanceRequest.Parser, new[]{ "InstanceId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.StartInstanceMetadata), global::Yandex.Cloud.Compute.V1.StartInstanceMetadata.Parser, new[]{ "InstanceId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.RestartInstanceRequest), global::Yandex.Cloud.Compute.V1.RestartInstanceRequest.Parser, new[]{ "InstanceId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.RestartInstanceMetadata), global::Yandex.Cloud.Compute.V1.RestartInstanceMetadata.Parser, new[]{ "InstanceId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.AttachInstanceDiskRequest), global::Yandex.Cloud.Compute.V1.AttachInstanceDiskRequest.Parser, new[]{ "InstanceId", "AttachedDiskSpec" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.AttachInstanceDiskMetadata), global::Yandex.Cloud.Compute.V1.AttachInstanceDiskMetadata.Parser, new[]{ "InstanceId", "DiskId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.DetachInstanceDiskRequest), global::Yandex.Cloud.Compute.V1.DetachInstanceDiskRequest.Parser, new[]{ "InstanceId", "DiskId", "DeviceName" }, new[]{ "Disk" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.DetachInstanceDiskMetadata), global::Yandex.Cloud.Compute.V1.DetachInstanceDiskMetadata.Parser, new[]{ "InstanceId", "DiskId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.AddInstanceOneToOneNatRequest), global::Yandex.Cloud.Compute.V1.AddInstanceOneToOneNatRequest.Parser, new[]{ "InstanceId", "NetworkInterfaceIndex", "InternalAddress", "OneToOneNatSpec" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.AddInstanceOneToOneNatMetadata), global::Yandex.Cloud.Compute.V1.AddInstanceOneToOneNatMetadata.Parser, new[]{ "InstanceId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.RemoveInstanceOneToOneNatRequest), global::Yandex.Cloud.Compute.V1.RemoveInstanceOneToOneNatRequest.Parser, new[]{ "InstanceId", "NetworkInterfaceIndex", "InternalAddress" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.RemoveInstanceOneToOneNatMetadata), global::Yandex.Cloud.Compute.V1.RemoveInstanceOneToOneNatMetadata.Parser, new[]{ "InstanceId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.UpdateNetworkInterfaceRequest), global::Yandex.Cloud.Compute.V1.UpdateNetworkInterfaceRequest.Parser, new[]{ "InstanceId", "NetworkInterfaceIndex", "UpdateMask", "SecurityGroupIds" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.UpdateNetworkInterfaceMetadata), global::Yandex.Cloud.Compute.V1.UpdateNetworkInterfaceMetadata.Parser, new[]{ "InstanceId", "NetworkInterfaceIndex" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.ListInstanceOperationsRequest), global::Yandex.Cloud.Compute.V1.ListInstanceOperationsRequest.Parser, new[]{ "InstanceId", "PageSize", "PageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.ListInstanceOperationsResponse), global::Yandex.Cloud.Compute.V1.ListInstanceOperationsResponse.Parser, new[]{ "Operations", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.ResourcesSpec), global::Yandex.Cloud.Compute.V1.ResourcesSpec.Parser, new[]{ "Memory", "Cores", "CoreFraction", "Gpus" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.AttachedDiskSpec), global::Yandex.Cloud.Compute.V1.AttachedDiskSpec.Parser, new[]{ "Mode", "DeviceName", "AutoDelete", "DiskSpec", "DiskId" }, new[]{ "Disk" }, new[]{ typeof(global::Yandex.Cloud.Compute.V1.AttachedDiskSpec.Types.Mode) }, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.AttachedDiskSpec.Types.DiskSpec), global::Yandex.Cloud.Compute.V1.AttachedDiskSpec.Types.DiskSpec.Parser, new[]{ "Name", "Description", "TypeId", "Size", "ImageId", "SnapshotId" }, new[]{ "Source" }, null, null, null)}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.NetworkInterfaceSpec), global::Yandex.Cloud.Compute.V1.NetworkInterfaceSpec.Parser, new[]{ "SubnetId", "PrimaryV4AddressSpec", "PrimaryV6AddressSpec", "SecurityGroupIds" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.PrimaryAddressSpec), global::Yandex.Cloud.Compute.V1.PrimaryAddressSpec.Parser, new[]{ "Address", "OneToOneNatSpec" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.OneToOneNatSpec), global::Yandex.Cloud.Compute.V1.OneToOneNatSpec.Parser, new[]{ "IpVersion", "Address" }, null, null, null, null)
           }));
     }
     #endregion
@@ -342,7 +342,7 @@ namespace Yandex.Cloud.Compute.V1 {
 
     /// <summary>Field number for the "view" field.</summary>
     public const int ViewFieldNumber = 2;
-    private global::Yandex.Cloud.Compute.V1.InstanceView view_ = 0;
+    private global::Yandex.Cloud.Compute.V1.InstanceView view_ = global::Yandex.Cloud.Compute.V1.InstanceView.Basic;
     /// <summary>
     /// Defines which information about the Instance resource should be returned in the server response.
     /// </summary>
@@ -376,7 +376,7 @@ namespace Yandex.Cloud.Compute.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (InstanceId.Length != 0) hash ^= InstanceId.GetHashCode();
-      if (View != 0) hash ^= View.GetHashCode();
+      if (View != global::Yandex.Cloud.Compute.V1.InstanceView.Basic) hash ^= View.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -394,7 +394,7 @@ namespace Yandex.Cloud.Compute.V1 {
         output.WriteRawTag(10);
         output.WriteString(InstanceId);
       }
-      if (View != 0) {
+      if (View != global::Yandex.Cloud.Compute.V1.InstanceView.Basic) {
         output.WriteRawTag(16);
         output.WriteEnum((int) View);
       }
@@ -409,7 +409,7 @@ namespace Yandex.Cloud.Compute.V1 {
       if (InstanceId.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(InstanceId);
       }
-      if (View != 0) {
+      if (View != global::Yandex.Cloud.Compute.V1.InstanceView.Basic) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) View);
       }
       if (_unknownFields != null) {
@@ -426,7 +426,7 @@ namespace Yandex.Cloud.Compute.V1 {
       if (other.InstanceId.Length != 0) {
         InstanceId = other.InstanceId;
       }
-      if (other.View != 0) {
+      if (other.View != global::Yandex.Cloud.Compute.V1.InstanceView.Basic) {
         View = other.View;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
@@ -944,7 +944,7 @@ namespace Yandex.Cloud.Compute.V1 {
     /// <summary>Field number for the "labels" field.</summary>
     public const int LabelsFieldNumber = 4;
     private static readonly pbc::MapField<string, string>.Codec _map_labels_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 34);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 34);
     private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
     /// <summary>
     /// Resource labels as `key:value` pairs.
@@ -1006,7 +1006,7 @@ namespace Yandex.Cloud.Compute.V1 {
     /// <summary>Field number for the "metadata" field.</summary>
     public const int MetadataFieldNumber = 8;
     private static readonly pbc::MapField<string, string>.Codec _map_metadata_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 66);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 66);
     private readonly pbc::MapField<string, string> metadata_ = new pbc::MapField<string, string>();
     /// <summary>
     /// The metadata `key:value` pairs that will be assigned to this instance. This includes custom metadata and predefined keys.
@@ -1702,7 +1702,7 @@ namespace Yandex.Cloud.Compute.V1 {
     /// <summary>Field number for the "labels" field.</summary>
     public const int LabelsFieldNumber = 5;
     private static readonly pbc::MapField<string, string>.Codec _map_labels_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 42);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 42);
     private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
     /// <summary>
     /// Resource labels as `key:value` pairs.
@@ -1751,7 +1751,7 @@ namespace Yandex.Cloud.Compute.V1 {
     /// <summary>Field number for the "metadata" field.</summary>
     public const int MetadataFieldNumber = 8;
     private static readonly pbc::MapField<string, string>.Codec _map_metadata_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 66);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 66);
     private readonly pbc::MapField<string, string> metadata_ = new pbc::MapField<string, string>();
     /// <summary>
     /// The metadata `key:value` pairs that will be assigned to this instance. This includes custom metadata and predefined keys.
@@ -2530,7 +2530,7 @@ namespace Yandex.Cloud.Compute.V1 {
     /// <summary>Field number for the "upsert" field.</summary>
     public const int UpsertFieldNumber = 3;
     private static readonly pbc::MapField<string, string>.Codec _map_upsert_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 26);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 26);
     private readonly pbc::MapField<string, string> upsert_ = new pbc::MapField<string, string>();
     /// <summary>
     /// The metadata `key:value` pairs that will be added or updated to this instance.
@@ -6255,7 +6255,7 @@ namespace Yandex.Cloud.Compute.V1 {
 
     /// <summary>Field number for the "mode" field.</summary>
     public const int ModeFieldNumber = 1;
-    private global::Yandex.Cloud.Compute.V1.AttachedDiskSpec.Types.Mode mode_ = 0;
+    private global::Yandex.Cloud.Compute.V1.AttachedDiskSpec.Types.Mode mode_ = global::Yandex.Cloud.Compute.V1.AttachedDiskSpec.Types.Mode.Unspecified;
     /// <summary>
     /// The mode in which to attach this disk.
     /// </summary>
@@ -6371,7 +6371,7 @@ namespace Yandex.Cloud.Compute.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override int GetHashCode() {
       int hash = 1;
-      if (Mode != 0) hash ^= Mode.GetHashCode();
+      if (Mode != global::Yandex.Cloud.Compute.V1.AttachedDiskSpec.Types.Mode.Unspecified) hash ^= Mode.GetHashCode();
       if (DeviceName.Length != 0) hash ^= DeviceName.GetHashCode();
       if (AutoDelete != false) hash ^= AutoDelete.GetHashCode();
       if (diskCase_ == DiskOneofCase.DiskSpec) hash ^= DiskSpec.GetHashCode();
@@ -6390,7 +6390,7 @@ namespace Yandex.Cloud.Compute.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public void WriteTo(pb::CodedOutputStream output) {
-      if (Mode != 0) {
+      if (Mode != global::Yandex.Cloud.Compute.V1.AttachedDiskSpec.Types.Mode.Unspecified) {
         output.WriteRawTag(8);
         output.WriteEnum((int) Mode);
       }
@@ -6418,7 +6418,7 @@ namespace Yandex.Cloud.Compute.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CalculateSize() {
       int size = 0;
-      if (Mode != 0) {
+      if (Mode != global::Yandex.Cloud.Compute.V1.AttachedDiskSpec.Types.Mode.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Mode);
       }
       if (DeviceName.Length != 0) {
@@ -6444,7 +6444,7 @@ namespace Yandex.Cloud.Compute.V1 {
       if (other == null) {
         return;
       }
-      if (other.Mode != 0) {
+      if (other.Mode != global::Yandex.Cloud.Compute.V1.AttachedDiskSpec.Types.Mode.Unspecified) {
         Mode = other.Mode;
       }
       if (other.DeviceName.Length != 0) {
@@ -7282,7 +7282,7 @@ namespace Yandex.Cloud.Compute.V1 {
 
     /// <summary>Field number for the "ip_version" field.</summary>
     public const int IpVersionFieldNumber = 1;
-    private global::Yandex.Cloud.Compute.V1.IpVersion ipVersion_ = 0;
+    private global::Yandex.Cloud.Compute.V1.IpVersion ipVersion_ = global::Yandex.Cloud.Compute.V1.IpVersion.Unspecified;
     /// <summary>
     /// External IP address version.
     /// </summary>
@@ -7329,7 +7329,7 @@ namespace Yandex.Cloud.Compute.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override int GetHashCode() {
       int hash = 1;
-      if (IpVersion != 0) hash ^= IpVersion.GetHashCode();
+      if (IpVersion != global::Yandex.Cloud.Compute.V1.IpVersion.Unspecified) hash ^= IpVersion.GetHashCode();
       if (Address.Length != 0) hash ^= Address.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -7344,7 +7344,7 @@ namespace Yandex.Cloud.Compute.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public void WriteTo(pb::CodedOutputStream output) {
-      if (IpVersion != 0) {
+      if (IpVersion != global::Yandex.Cloud.Compute.V1.IpVersion.Unspecified) {
         output.WriteRawTag(8);
         output.WriteEnum((int) IpVersion);
       }
@@ -7360,7 +7360,7 @@ namespace Yandex.Cloud.Compute.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CalculateSize() {
       int size = 0;
-      if (IpVersion != 0) {
+      if (IpVersion != global::Yandex.Cloud.Compute.V1.IpVersion.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) IpVersion);
       }
       if (Address.Length != 0) {
@@ -7377,7 +7377,7 @@ namespace Yandex.Cloud.Compute.V1 {
       if (other == null) {
         return;
       }
-      if (other.IpVersion != 0) {
+      if (other.IpVersion != global::Yandex.Cloud.Compute.V1.IpVersion.Unspecified) {
         IpVersion = other.IpVersion;
       }
       if (other.Address.Length != 0) {

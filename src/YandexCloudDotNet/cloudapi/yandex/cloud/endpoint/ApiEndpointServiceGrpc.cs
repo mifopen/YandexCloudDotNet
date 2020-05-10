@@ -42,7 +42,7 @@ namespace Yandex.Cloud.Endpoint {
     {
       /// <summary>Creates a new client for ApiEndpointService</summary>
       /// <param name="channel">The channel to use to make remote calls.</param>
-      public ApiEndpointServiceClient(grpc::Channel channel) : base(channel)
+      public ApiEndpointServiceClient(grpc::ChannelBase channel) : base(channel)
       {
       }
       /// <summary>Creates a new client for ApiEndpointService that uses a custom <c>CallInvoker</c>.</summary>

@@ -71,11 +71,11 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
             "djE7cG9zdGdyZXNxbGIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.WrappersReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.User), global::Yandex.Cloud.Mdb.Postgresql.V1.User.Parser, new[]{ "Name", "ClusterId", "Permissions", "ConnLimit", "Settings", "Login", "Grants" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Permission), global::Yandex.Cloud.Mdb.Postgresql.V1.Permission.Parser, new[]{ "DatabaseName" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.UserSpec), global::Yandex.Cloud.Mdb.Postgresql.V1.UserSpec.Parser, new[]{ "Name", "Password", "Permissions", "ConnLimit", "Settings", "Login", "Grants" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.UserSettings), global::Yandex.Cloud.Mdb.Postgresql.V1.UserSettings.Parser, new[]{ "DefaultTransactionIsolation", "LockTimeout", "LogMinDurationStatement", "SynchronousCommit", "TempFileLimit", "LogStatement" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.UserSettings.Types.SynchronousCommit), typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.UserSettings.Types.LogStatement), typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.UserSettings.Types.TransactionIsolation) }, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.User), global::Yandex.Cloud.Mdb.Postgresql.V1.User.Parser, new[]{ "Name", "ClusterId", "Permissions", "ConnLimit", "Settings", "Login", "Grants" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Permission), global::Yandex.Cloud.Mdb.Postgresql.V1.Permission.Parser, new[]{ "DatabaseName" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.UserSpec), global::Yandex.Cloud.Mdb.Postgresql.V1.UserSpec.Parser, new[]{ "Name", "Password", "Permissions", "ConnLimit", "Settings", "Login", "Grants" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.UserSettings), global::Yandex.Cloud.Mdb.Postgresql.V1.UserSettings.Parser, new[]{ "DefaultTransactionIsolation", "LockTimeout", "LogMinDurationStatement", "SynchronousCommit", "TempFileLimit", "LogStatement" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.UserSettings.Types.SynchronousCommit), typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.UserSettings.Types.LogStatement), typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.UserSettings.Types.TransactionIsolation) }, null, null)
           }));
     }
     #endregion
@@ -896,7 +896,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
 
     /// <summary>Field number for the "default_transaction_isolation" field.</summary>
     public const int DefaultTransactionIsolationFieldNumber = 1;
-    private global::Yandex.Cloud.Mdb.Postgresql.V1.UserSettings.Types.TransactionIsolation defaultTransactionIsolation_ = 0;
+    private global::Yandex.Cloud.Mdb.Postgresql.V1.UserSettings.Types.TransactionIsolation defaultTransactionIsolation_ = global::Yandex.Cloud.Mdb.Postgresql.V1.UserSettings.Types.TransactionIsolation.Unspecified;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Mdb.Postgresql.V1.UserSettings.Types.TransactionIsolation DefaultTransactionIsolation {
       get { return defaultTransactionIsolation_; }
@@ -939,7 +939,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
 
     /// <summary>Field number for the "synchronous_commit" field.</summary>
     public const int SynchronousCommitFieldNumber = 4;
-    private global::Yandex.Cloud.Mdb.Postgresql.V1.UserSettings.Types.SynchronousCommit synchronousCommit_ = 0;
+    private global::Yandex.Cloud.Mdb.Postgresql.V1.UserSettings.Types.SynchronousCommit synchronousCommit_ = global::Yandex.Cloud.Mdb.Postgresql.V1.UserSettings.Types.SynchronousCommit.Unspecified;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Mdb.Postgresql.V1.UserSettings.Types.SynchronousCommit SynchronousCommit {
       get { return synchronousCommit_; }
@@ -966,7 +966,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
 
     /// <summary>Field number for the "log_statement" field.</summary>
     public const int LogStatementFieldNumber = 6;
-    private global::Yandex.Cloud.Mdb.Postgresql.V1.UserSettings.Types.LogStatement logStatement_ = 0;
+    private global::Yandex.Cloud.Mdb.Postgresql.V1.UserSettings.Types.LogStatement logStatement_ = global::Yandex.Cloud.Mdb.Postgresql.V1.UserSettings.Types.LogStatement.Unspecified;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Mdb.Postgresql.V1.UserSettings.Types.LogStatement LogStatement {
       get { return logStatement_; }
@@ -1000,12 +1000,12 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override int GetHashCode() {
       int hash = 1;
-      if (DefaultTransactionIsolation != 0) hash ^= DefaultTransactionIsolation.GetHashCode();
+      if (DefaultTransactionIsolation != global::Yandex.Cloud.Mdb.Postgresql.V1.UserSettings.Types.TransactionIsolation.Unspecified) hash ^= DefaultTransactionIsolation.GetHashCode();
       if (lockTimeout_ != null) hash ^= LockTimeout.GetHashCode();
       if (logMinDurationStatement_ != null) hash ^= LogMinDurationStatement.GetHashCode();
-      if (SynchronousCommit != 0) hash ^= SynchronousCommit.GetHashCode();
+      if (SynchronousCommit != global::Yandex.Cloud.Mdb.Postgresql.V1.UserSettings.Types.SynchronousCommit.Unspecified) hash ^= SynchronousCommit.GetHashCode();
       if (tempFileLimit_ != null) hash ^= TempFileLimit.GetHashCode();
-      if (LogStatement != 0) hash ^= LogStatement.GetHashCode();
+      if (LogStatement != global::Yandex.Cloud.Mdb.Postgresql.V1.UserSettings.Types.LogStatement.Unspecified) hash ^= LogStatement.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1019,7 +1019,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public void WriteTo(pb::CodedOutputStream output) {
-      if (DefaultTransactionIsolation != 0) {
+      if (DefaultTransactionIsolation != global::Yandex.Cloud.Mdb.Postgresql.V1.UserSettings.Types.TransactionIsolation.Unspecified) {
         output.WriteRawTag(8);
         output.WriteEnum((int) DefaultTransactionIsolation);
       }
@@ -1029,14 +1029,14 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
       if (logMinDurationStatement_ != null) {
         _single_logMinDurationStatement_codec.WriteTagAndValue(output, LogMinDurationStatement);
       }
-      if (SynchronousCommit != 0) {
+      if (SynchronousCommit != global::Yandex.Cloud.Mdb.Postgresql.V1.UserSettings.Types.SynchronousCommit.Unspecified) {
         output.WriteRawTag(32);
         output.WriteEnum((int) SynchronousCommit);
       }
       if (tempFileLimit_ != null) {
         _single_tempFileLimit_codec.WriteTagAndValue(output, TempFileLimit);
       }
-      if (LogStatement != 0) {
+      if (LogStatement != global::Yandex.Cloud.Mdb.Postgresql.V1.UserSettings.Types.LogStatement.Unspecified) {
         output.WriteRawTag(48);
         output.WriteEnum((int) LogStatement);
       }
@@ -1048,7 +1048,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CalculateSize() {
       int size = 0;
-      if (DefaultTransactionIsolation != 0) {
+      if (DefaultTransactionIsolation != global::Yandex.Cloud.Mdb.Postgresql.V1.UserSettings.Types.TransactionIsolation.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) DefaultTransactionIsolation);
       }
       if (lockTimeout_ != null) {
@@ -1057,13 +1057,13 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
       if (logMinDurationStatement_ != null) {
         size += _single_logMinDurationStatement_codec.CalculateSizeWithTag(LogMinDurationStatement);
       }
-      if (SynchronousCommit != 0) {
+      if (SynchronousCommit != global::Yandex.Cloud.Mdb.Postgresql.V1.UserSettings.Types.SynchronousCommit.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) SynchronousCommit);
       }
       if (tempFileLimit_ != null) {
         size += _single_tempFileLimit_codec.CalculateSizeWithTag(TempFileLimit);
       }
-      if (LogStatement != 0) {
+      if (LogStatement != global::Yandex.Cloud.Mdb.Postgresql.V1.UserSettings.Types.LogStatement.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) LogStatement);
       }
       if (_unknownFields != null) {
@@ -1077,7 +1077,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
       if (other == null) {
         return;
       }
-      if (other.DefaultTransactionIsolation != 0) {
+      if (other.DefaultTransactionIsolation != global::Yandex.Cloud.Mdb.Postgresql.V1.UserSettings.Types.TransactionIsolation.Unspecified) {
         DefaultTransactionIsolation = other.DefaultTransactionIsolation;
       }
       if (other.lockTimeout_ != null) {
@@ -1090,7 +1090,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
           LogMinDurationStatement = other.LogMinDurationStatement;
         }
       }
-      if (other.SynchronousCommit != 0) {
+      if (other.SynchronousCommit != global::Yandex.Cloud.Mdb.Postgresql.V1.UserSettings.Types.SynchronousCommit.Unspecified) {
         SynchronousCommit = other.SynchronousCommit;
       }
       if (other.tempFileLimit_ != null) {
@@ -1098,7 +1098,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
           TempFileLimit = other.TempFileLimit;
         }
       }
-      if (other.LogStatement != 0) {
+      if (other.LogStatement != global::Yandex.Cloud.Mdb.Postgresql.V1.UserSettings.Types.LogStatement.Unspecified) {
         LogStatement = other.LogStatement;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);

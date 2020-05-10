@@ -37,10 +37,10 @@ namespace Google.Api {
             "bnM7YW5ub3RhdGlvbnP4AQGiAgRHQVBJYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Google.Api.Http), global::Google.Api.Http.Parser, new[]{ "Rules" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Google.Api.HttpRule), global::Google.Api.HttpRule.Parser, new[]{ "Selector", "Get", "Put", "Post", "Delete", "Patch", "Custom", "Body", "AdditionalBindings" }, new[]{ "Pattern" }, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Google.Api.CustomHttpPattern), global::Google.Api.CustomHttpPattern.Parser, new[]{ "Kind", "Path" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Google.Api.Http), global::Google.Api.Http.Parser, new[]{ "Rules" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Google.Api.HttpRule), global::Google.Api.HttpRule.Parser, new[]{ "Selector", "Get", "Put", "Post", "Delete", "Patch", "Custom", "Body", "AdditionalBindings" }, new[]{ "Pattern" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Google.Api.CustomHttpPattern), global::Google.Api.CustomHttpPattern.Parser, new[]{ "Kind", "Path" }, null, null, null, null)
           }));
     }
     #endregion

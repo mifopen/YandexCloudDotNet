@@ -32,8 +32,8 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
             "ZGIvcmVkaXMvdjE7cmVkaXNiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1.ResourcePreset), global::Yandex.Cloud.Mdb.Redis.V1.ResourcePreset.Parser, new[]{ "Id", "ZoneIds", "Memory" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1.ResourcePreset), global::Yandex.Cloud.Mdb.Redis.V1.ResourcePreset.Parser, new[]{ "Id", "ZoneIds", "Memory" }, null, null, null, null)
           }));
     }
     #endregion

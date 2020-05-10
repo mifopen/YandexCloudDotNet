@@ -32,14 +32,20 @@ namespace Yandex.Cloud.Api {
             "dWIuY29tL3lhbmRleC1jbG91ZC9nby1nZW5wcm90by95YW5kZXgvY2xvdWQv",
             "YXBpO2FwaWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { pbr::FileDescriptor.DescriptorProtoFileDescriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Api.Operation), global::Yandex.Cloud.Api.Operation.Parser, new[]{ "Metadata", "Response" }, null, null, null)
+          new pbr::FileDescriptor[] { global::Google.Protobuf.Reflection.DescriptorReflection.Descriptor, },
+          new pbr::GeneratedClrTypeInfo(null, new pb::Extension[] { OperationExtensions.Operation }, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Api.Operation), global::Yandex.Cloud.Api.Operation.Parser, new[]{ "Metadata", "Response" }, null, null, null, null)
           }));
     }
     #endregion
 
   }
+  /// <summary>Holder for extension identifiers generated from the top level of yandex/cloud/api/operation.proto</summary>
+  internal static partial class OperationExtensions {
+    public static readonly pb::Extension<global::Google.Protobuf.Reflection.MethodOptions, global::Yandex.Cloud.Api.Operation> Operation =
+      new pb::Extension<global::Google.Protobuf.Reflection.MethodOptions, global::Yandex.Cloud.Api.Operation>(87334, pb::FieldCodec.ForMessage(698674, global::Yandex.Cloud.Api.Operation.Parser));
+  }
+
   #region Messages
   /// <summary>
   /// Operation is annotation for rpc that returns longrunning operation, describes

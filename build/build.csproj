@@ -16,7 +16,7 @@
     <PackageReference Include="GitVersion.Tool" Version="5.1.2" ExcludeAssets="all" />
     <PackageReference Include="Google.Protobuf" Version="3.7.0" />
     <PackageReference Include="Grpc" Version="1.20.1" />
-    <PackageReference Include="Grpc.Tools" Version="2.25.0" />
+    <PackageReference Include="Grpc.Tools" Version="2.28.1" />
     <PackageReference Include="Nuke.Common" Version="0.23.4" />
   </ItemGroup>
 

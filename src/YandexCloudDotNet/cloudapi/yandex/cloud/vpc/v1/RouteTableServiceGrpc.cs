@@ -87,7 +87,7 @@ namespace Yandex.Cloud.Vpc.V1 {
     {
       /// <summary>Creates a new client for RouteTableService</summary>
       /// <param name="channel">The channel to use to make remote calls.</param>
-      public RouteTableServiceClient(grpc::Channel channel) : base(channel)
+      public RouteTableServiceClient(grpc::ChannelBase channel) : base(channel)
       {
       }
       /// <summary>Creates a new client for RouteTableService that uses a custom <c>CallInvoker</c>.</summary>

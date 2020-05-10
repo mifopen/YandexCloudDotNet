@@ -297,48 +297,48 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
             "MTtwb3N0Z3Jlc3FsYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.WrappersReflection.Descriptor, global::Google.Type.TimeofdayReflection.Descriptor, global::Yandex.Cloud.Api.OperationReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, global::Yandex.Cloud.Mdb.Postgresql.V1.BackupReflection.Descriptor, global::Yandex.Cloud.Mdb.Postgresql.V1.ClusterReflection.Descriptor, global::Yandex.Cloud.Mdb.Postgresql.V1.DatabaseReflection.Descriptor, global::Yandex.Cloud.Mdb.Postgresql.V1.UserReflection.Descriptor, global::Yandex.Cloud.Mdb.Postgresql.V1.Config.Postgresql96Reflection.Descriptor, global::Yandex.Cloud.Mdb.Postgresql.V1.Config.Postgresql10Reflection.Descriptor, global::Yandex.Cloud.Mdb.Postgresql.V1.Config.Postgresql101CReflection.Descriptor, global::Yandex.Cloud.Mdb.Postgresql.V1.Config.Postgresql11Reflection.Descriptor, global::Yandex.Cloud.Mdb.Postgresql.V1.Config.Postgresql12Reflection.Descriptor, global::Yandex.Cloud.Mdb.Postgresql.V1.Config.Host96Reflection.Descriptor, global::Yandex.Cloud.Mdb.Postgresql.V1.Config.Host10Reflection.Descriptor, global::Yandex.Cloud.Mdb.Postgresql.V1.Config.Host101CReflection.Descriptor, global::Yandex.Cloud.Mdb.Postgresql.V1.Config.Host11Reflection.Descriptor, global::Yandex.Cloud.Mdb.Postgresql.V1.Config.Host12Reflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.GetClusterRequest), global::Yandex.Cloud.Mdb.Postgresql.V1.GetClusterRequest.Parser, new[]{ "ClusterId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.ListClustersRequest), global::Yandex.Cloud.Mdb.Postgresql.V1.ListClustersRequest.Parser, new[]{ "FolderId", "PageSize", "PageToken", "Filter" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.ListClustersResponse), global::Yandex.Cloud.Mdb.Postgresql.V1.ListClustersResponse.Parser, new[]{ "Clusters", "NextPageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.CreateClusterRequest), global::Yandex.Cloud.Mdb.Postgresql.V1.CreateClusterRequest.Parser, new[]{ "FolderId", "Name", "Description", "Labels", "Environment", "ConfigSpec", "DatabaseSpecs", "UserSpecs", "HostSpecs", "NetworkId" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.CreateClusterMetadata), global::Yandex.Cloud.Mdb.Postgresql.V1.CreateClusterMetadata.Parser, new[]{ "ClusterId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.UpdateClusterRequest), global::Yandex.Cloud.Mdb.Postgresql.V1.UpdateClusterRequest.Parser, new[]{ "ClusterId", "UpdateMask", "Description", "Labels", "ConfigSpec", "Name" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.UpdateClusterMetadata), global::Yandex.Cloud.Mdb.Postgresql.V1.UpdateClusterMetadata.Parser, new[]{ "ClusterId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.DeleteClusterRequest), global::Yandex.Cloud.Mdb.Postgresql.V1.DeleteClusterRequest.Parser, new[]{ "ClusterId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.DeleteClusterMetadata), global::Yandex.Cloud.Mdb.Postgresql.V1.DeleteClusterMetadata.Parser, new[]{ "ClusterId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.StartClusterRequest), global::Yandex.Cloud.Mdb.Postgresql.V1.StartClusterRequest.Parser, new[]{ "ClusterId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.StartClusterMetadata), global::Yandex.Cloud.Mdb.Postgresql.V1.StartClusterMetadata.Parser, new[]{ "ClusterId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.StopClusterRequest), global::Yandex.Cloud.Mdb.Postgresql.V1.StopClusterRequest.Parser, new[]{ "ClusterId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.StopClusterMetadata), global::Yandex.Cloud.Mdb.Postgresql.V1.StopClusterMetadata.Parser, new[]{ "ClusterId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.MoveClusterRequest), global::Yandex.Cloud.Mdb.Postgresql.V1.MoveClusterRequest.Parser, new[]{ "ClusterId", "DestinationFolderId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.MoveClusterMetadata), global::Yandex.Cloud.Mdb.Postgresql.V1.MoveClusterMetadata.Parser, new[]{ "ClusterId", "SourceFolderId", "DestinationFolderId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.BackupClusterRequest), global::Yandex.Cloud.Mdb.Postgresql.V1.BackupClusterRequest.Parser, new[]{ "ClusterId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.BackupClusterMetadata), global::Yandex.Cloud.Mdb.Postgresql.V1.BackupClusterMetadata.Parser, new[]{ "ClusterId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.RestoreClusterRequest), global::Yandex.Cloud.Mdb.Postgresql.V1.RestoreClusterRequest.Parser, new[]{ "BackupId", "Time", "TimeInclusive", "Name", "Description", "Labels", "Environment", "ConfigSpec", "HostSpecs", "NetworkId", "FolderId" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.RestoreClusterMetadata), global::Yandex.Cloud.Mdb.Postgresql.V1.RestoreClusterMetadata.Parser, new[]{ "ClusterId", "BackupId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.StartClusterFailoverRequest), global::Yandex.Cloud.Mdb.Postgresql.V1.StartClusterFailoverRequest.Parser, new[]{ "ClusterId", "HostName" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.StartClusterFailoverMetadata), global::Yandex.Cloud.Mdb.Postgresql.V1.StartClusterFailoverMetadata.Parser, new[]{ "ClusterId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.LogRecord), global::Yandex.Cloud.Mdb.Postgresql.V1.LogRecord.Parser, new[]{ "Timestamp", "Message" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.ListClusterLogsRequest), global::Yandex.Cloud.Mdb.Postgresql.V1.ListClusterLogsRequest.Parser, new[]{ "ClusterId", "ColumnFilter", "ServiceType", "FromTime", "ToTime", "PageSize", "PageToken", "AlwaysNextPageToken" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.ListClusterLogsRequest.Types.ServiceType) }, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.ListClusterLogsResponse), global::Yandex.Cloud.Mdb.Postgresql.V1.ListClusterLogsResponse.Parser, new[]{ "Logs", "NextPageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.StreamClusterLogsRequest), global::Yandex.Cloud.Mdb.Postgresql.V1.StreamClusterLogsRequest.Parser, new[]{ "ClusterId", "ColumnFilter", "ServiceType", "FromTime", "ToTime" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.StreamClusterLogsRequest.Types.ServiceType) }, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.ListClusterOperationsRequest), global::Yandex.Cloud.Mdb.Postgresql.V1.ListClusterOperationsRequest.Parser, new[]{ "ClusterId", "PageSize", "PageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.ListClusterOperationsResponse), global::Yandex.Cloud.Mdb.Postgresql.V1.ListClusterOperationsResponse.Parser, new[]{ "Operations", "NextPageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.ListClusterBackupsRequest), global::Yandex.Cloud.Mdb.Postgresql.V1.ListClusterBackupsRequest.Parser, new[]{ "ClusterId", "PageSize", "PageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.ListClusterBackupsResponse), global::Yandex.Cloud.Mdb.Postgresql.V1.ListClusterBackupsResponse.Parser, new[]{ "Backups", "NextPageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.ListClusterHostsRequest), global::Yandex.Cloud.Mdb.Postgresql.V1.ListClusterHostsRequest.Parser, new[]{ "ClusterId", "PageSize", "PageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.ListClusterHostsResponse), global::Yandex.Cloud.Mdb.Postgresql.V1.ListClusterHostsResponse.Parser, new[]{ "Hosts", "NextPageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.AddClusterHostsRequest), global::Yandex.Cloud.Mdb.Postgresql.V1.AddClusterHostsRequest.Parser, new[]{ "ClusterId", "HostSpecs" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.AddClusterHostsMetadata), global::Yandex.Cloud.Mdb.Postgresql.V1.AddClusterHostsMetadata.Parser, new[]{ "ClusterId", "HostNames" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.DeleteClusterHostsRequest), global::Yandex.Cloud.Mdb.Postgresql.V1.DeleteClusterHostsRequest.Parser, new[]{ "ClusterId", "HostNames" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.DeleteClusterHostsMetadata), global::Yandex.Cloud.Mdb.Postgresql.V1.DeleteClusterHostsMetadata.Parser, new[]{ "ClusterId", "HostNames" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.UpdateClusterHostsRequest), global::Yandex.Cloud.Mdb.Postgresql.V1.UpdateClusterHostsRequest.Parser, new[]{ "ClusterId", "UpdateHostSpecs" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.UpdateClusterHostsMetadata), global::Yandex.Cloud.Mdb.Postgresql.V1.UpdateClusterHostsMetadata.Parser, new[]{ "ClusterId", "HostNames" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.UpdateHostSpec), global::Yandex.Cloud.Mdb.Postgresql.V1.UpdateHostSpec.Parser, new[]{ "HostName", "ReplicationSource", "Priority", "ConfigSpec" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.HostSpec), global::Yandex.Cloud.Mdb.Postgresql.V1.HostSpec.Parser, new[]{ "ZoneId", "SubnetId", "AssignPublicIp", "ReplicationSource", "Priority", "ConfigSpec" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.ConfigSpec), global::Yandex.Cloud.Mdb.Postgresql.V1.ConfigSpec.Parser, new[]{ "Version", "PostgresqlConfig96", "PostgresqlConfig101C", "PostgresqlConfig10", "PostgresqlConfig11", "PostgresqlConfig12", "PoolerConfig", "Resources", "Autofailover", "BackupWindowStart", "Access" }, new[]{ "PostgresqlConfig" }, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.ConfigHostSpec), global::Yandex.Cloud.Mdb.Postgresql.V1.ConfigHostSpec.Parser, new[]{ "PostgresqlConfig96", "PostgresqlConfig101C", "PostgresqlConfig10", "PostgresqlConfig11", "PostgresqlConfig12" }, new[]{ "PostgresqlConfig" }, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.GetClusterRequest), global::Yandex.Cloud.Mdb.Postgresql.V1.GetClusterRequest.Parser, new[]{ "ClusterId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.ListClustersRequest), global::Yandex.Cloud.Mdb.Postgresql.V1.ListClustersRequest.Parser, new[]{ "FolderId", "PageSize", "PageToken", "Filter" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.ListClustersResponse), global::Yandex.Cloud.Mdb.Postgresql.V1.ListClustersResponse.Parser, new[]{ "Clusters", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.CreateClusterRequest), global::Yandex.Cloud.Mdb.Postgresql.V1.CreateClusterRequest.Parser, new[]{ "FolderId", "Name", "Description", "Labels", "Environment", "ConfigSpec", "DatabaseSpecs", "UserSpecs", "HostSpecs", "NetworkId" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.CreateClusterMetadata), global::Yandex.Cloud.Mdb.Postgresql.V1.CreateClusterMetadata.Parser, new[]{ "ClusterId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.UpdateClusterRequest), global::Yandex.Cloud.Mdb.Postgresql.V1.UpdateClusterRequest.Parser, new[]{ "ClusterId", "UpdateMask", "Description", "Labels", "ConfigSpec", "Name" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.UpdateClusterMetadata), global::Yandex.Cloud.Mdb.Postgresql.V1.UpdateClusterMetadata.Parser, new[]{ "ClusterId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.DeleteClusterRequest), global::Yandex.Cloud.Mdb.Postgresql.V1.DeleteClusterRequest.Parser, new[]{ "ClusterId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.DeleteClusterMetadata), global::Yandex.Cloud.Mdb.Postgresql.V1.DeleteClusterMetadata.Parser, new[]{ "ClusterId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.StartClusterRequest), global::Yandex.Cloud.Mdb.Postgresql.V1.StartClusterRequest.Parser, new[]{ "ClusterId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.StartClusterMetadata), global::Yandex.Cloud.Mdb.Postgresql.V1.StartClusterMetadata.Parser, new[]{ "ClusterId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.StopClusterRequest), global::Yandex.Cloud.Mdb.Postgresql.V1.StopClusterRequest.Parser, new[]{ "ClusterId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.StopClusterMetadata), global::Yandex.Cloud.Mdb.Postgresql.V1.StopClusterMetadata.Parser, new[]{ "ClusterId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.MoveClusterRequest), global::Yandex.Cloud.Mdb.Postgresql.V1.MoveClusterRequest.Parser, new[]{ "ClusterId", "DestinationFolderId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.MoveClusterMetadata), global::Yandex.Cloud.Mdb.Postgresql.V1.MoveClusterMetadata.Parser, new[]{ "ClusterId", "SourceFolderId", "DestinationFolderId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.BackupClusterRequest), global::Yandex.Cloud.Mdb.Postgresql.V1.BackupClusterRequest.Parser, new[]{ "ClusterId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.BackupClusterMetadata), global::Yandex.Cloud.Mdb.Postgresql.V1.BackupClusterMetadata.Parser, new[]{ "ClusterId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.RestoreClusterRequest), global::Yandex.Cloud.Mdb.Postgresql.V1.RestoreClusterRequest.Parser, new[]{ "BackupId", "Time", "TimeInclusive", "Name", "Description", "Labels", "Environment", "ConfigSpec", "HostSpecs", "NetworkId", "FolderId" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.RestoreClusterMetadata), global::Yandex.Cloud.Mdb.Postgresql.V1.RestoreClusterMetadata.Parser, new[]{ "ClusterId", "BackupId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.StartClusterFailoverRequest), global::Yandex.Cloud.Mdb.Postgresql.V1.StartClusterFailoverRequest.Parser, new[]{ "ClusterId", "HostName" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.StartClusterFailoverMetadata), global::Yandex.Cloud.Mdb.Postgresql.V1.StartClusterFailoverMetadata.Parser, new[]{ "ClusterId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.LogRecord), global::Yandex.Cloud.Mdb.Postgresql.V1.LogRecord.Parser, new[]{ "Timestamp", "Message" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.ListClusterLogsRequest), global::Yandex.Cloud.Mdb.Postgresql.V1.ListClusterLogsRequest.Parser, new[]{ "ClusterId", "ColumnFilter", "ServiceType", "FromTime", "ToTime", "PageSize", "PageToken", "AlwaysNextPageToken" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.ListClusterLogsRequest.Types.ServiceType) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.ListClusterLogsResponse), global::Yandex.Cloud.Mdb.Postgresql.V1.ListClusterLogsResponse.Parser, new[]{ "Logs", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.StreamClusterLogsRequest), global::Yandex.Cloud.Mdb.Postgresql.V1.StreamClusterLogsRequest.Parser, new[]{ "ClusterId", "ColumnFilter", "ServiceType", "FromTime", "ToTime" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.StreamClusterLogsRequest.Types.ServiceType) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.ListClusterOperationsRequest), global::Yandex.Cloud.Mdb.Postgresql.V1.ListClusterOperationsRequest.Parser, new[]{ "ClusterId", "PageSize", "PageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.ListClusterOperationsResponse), global::Yandex.Cloud.Mdb.Postgresql.V1.ListClusterOperationsResponse.Parser, new[]{ "Operations", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.ListClusterBackupsRequest), global::Yandex.Cloud.Mdb.Postgresql.V1.ListClusterBackupsRequest.Parser, new[]{ "ClusterId", "PageSize", "PageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.ListClusterBackupsResponse), global::Yandex.Cloud.Mdb.Postgresql.V1.ListClusterBackupsResponse.Parser, new[]{ "Backups", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.ListClusterHostsRequest), global::Yandex.Cloud.Mdb.Postgresql.V1.ListClusterHostsRequest.Parser, new[]{ "ClusterId", "PageSize", "PageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.ListClusterHostsResponse), global::Yandex.Cloud.Mdb.Postgresql.V1.ListClusterHostsResponse.Parser, new[]{ "Hosts", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.AddClusterHostsRequest), global::Yandex.Cloud.Mdb.Postgresql.V1.AddClusterHostsRequest.Parser, new[]{ "ClusterId", "HostSpecs" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.AddClusterHostsMetadata), global::Yandex.Cloud.Mdb.Postgresql.V1.AddClusterHostsMetadata.Parser, new[]{ "ClusterId", "HostNames" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.DeleteClusterHostsRequest), global::Yandex.Cloud.Mdb.Postgresql.V1.DeleteClusterHostsRequest.Parser, new[]{ "ClusterId", "HostNames" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.DeleteClusterHostsMetadata), global::Yandex.Cloud.Mdb.Postgresql.V1.DeleteClusterHostsMetadata.Parser, new[]{ "ClusterId", "HostNames" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.UpdateClusterHostsRequest), global::Yandex.Cloud.Mdb.Postgresql.V1.UpdateClusterHostsRequest.Parser, new[]{ "ClusterId", "UpdateHostSpecs" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.UpdateClusterHostsMetadata), global::Yandex.Cloud.Mdb.Postgresql.V1.UpdateClusterHostsMetadata.Parser, new[]{ "ClusterId", "HostNames" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.UpdateHostSpec), global::Yandex.Cloud.Mdb.Postgresql.V1.UpdateHostSpec.Parser, new[]{ "HostName", "ReplicationSource", "Priority", "ConfigSpec" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.HostSpec), global::Yandex.Cloud.Mdb.Postgresql.V1.HostSpec.Parser, new[]{ "ZoneId", "SubnetId", "AssignPublicIp", "ReplicationSource", "Priority", "ConfigSpec" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.ConfigSpec), global::Yandex.Cloud.Mdb.Postgresql.V1.ConfigSpec.Parser, new[]{ "Version", "PostgresqlConfig96", "PostgresqlConfig101C", "PostgresqlConfig10", "PostgresqlConfig11", "PostgresqlConfig12", "PoolerConfig", "Resources", "Autofailover", "BackupWindowStart", "Access" }, new[]{ "PostgresqlConfig" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.ConfigHostSpec), global::Yandex.Cloud.Mdb.Postgresql.V1.ConfigHostSpec.Parser, new[]{ "PostgresqlConfig96", "PostgresqlConfig101C", "PostgresqlConfig10", "PostgresqlConfig11", "PostgresqlConfig12" }, new[]{ "PostgresqlConfig" }, null, null, null)
           }));
     }
     #endregion
@@ -957,7 +957,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
     /// <summary>Field number for the "labels" field.</summary>
     public const int LabelsFieldNumber = 4;
     private static readonly pbc::MapField<string, string>.Codec _map_labels_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 34);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 34);
     private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
     /// <summary>
     /// Custom labels for the PostgreSQL cluster as `` key:value `` pairs. Maximum 64 per resource.
@@ -970,7 +970,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
 
     /// <summary>Field number for the "environment" field.</summary>
     public const int EnvironmentFieldNumber = 5;
-    private global::Yandex.Cloud.Mdb.Postgresql.V1.Cluster.Types.Environment environment_ = 0;
+    private global::Yandex.Cloud.Mdb.Postgresql.V1.Cluster.Types.Environment environment_ = global::Yandex.Cloud.Mdb.Postgresql.V1.Cluster.Types.Environment.Unspecified;
     /// <summary>
     /// Deployment environment of the PostgreSQL cluster.
     /// </summary>
@@ -1082,7 +1082,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
       if (Name.Length != 0) hash ^= Name.GetHashCode();
       if (Description.Length != 0) hash ^= Description.GetHashCode();
       hash ^= Labels.GetHashCode();
-      if (Environment != 0) hash ^= Environment.GetHashCode();
+      if (Environment != global::Yandex.Cloud.Mdb.Postgresql.V1.Cluster.Types.Environment.Unspecified) hash ^= Environment.GetHashCode();
       if (configSpec_ != null) hash ^= ConfigSpec.GetHashCode();
       hash ^= databaseSpecs_.GetHashCode();
       hash ^= userSpecs_.GetHashCode();
@@ -1114,7 +1114,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
         output.WriteString(Description);
       }
       labels_.WriteTo(output, _map_labels_codec);
-      if (Environment != 0) {
+      if (Environment != global::Yandex.Cloud.Mdb.Postgresql.V1.Cluster.Types.Environment.Unspecified) {
         output.WriteRawTag(40);
         output.WriteEnum((int) Environment);
       }
@@ -1147,7 +1147,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Description);
       }
       size += labels_.CalculateSize(_map_labels_codec);
-      if (Environment != 0) {
+      if (Environment != global::Yandex.Cloud.Mdb.Postgresql.V1.Cluster.Types.Environment.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Environment);
       }
       if (configSpec_ != null) {
@@ -1180,7 +1180,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
         Description = other.Description;
       }
       labels_.Add(other.labels_);
-      if (other.Environment != 0) {
+      if (other.Environment != global::Yandex.Cloud.Mdb.Postgresql.V1.Cluster.Types.Environment.Unspecified) {
         Environment = other.Environment;
       }
       if (other.configSpec_ != null) {
@@ -1472,7 +1472,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
     /// <summary>Field number for the "labels" field.</summary>
     public const int LabelsFieldNumber = 4;
     private static readonly pbc::MapField<string, string>.Codec _map_labels_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 34);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 34);
     private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
     /// <summary>
     /// Custom labels for the PostgreSQL cluster as `` key:value `` pairs. Maximum 64 per resource.
@@ -3353,7 +3353,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
     /// <summary>Field number for the "labels" field.</summary>
     public const int LabelsFieldNumber = 6;
     private static readonly pbc::MapField<string, string>.Codec _map_labels_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 50);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 50);
     private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
     /// <summary>
     /// Custom labels for the PostgreSQL cluster as `` key:value `` pairs. Maximum 64 per resource.
@@ -3366,7 +3366,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
 
     /// <summary>Field number for the "environment" field.</summary>
     public const int EnvironmentFieldNumber = 7;
-    private global::Yandex.Cloud.Mdb.Postgresql.V1.Cluster.Types.Environment environment_ = 0;
+    private global::Yandex.Cloud.Mdb.Postgresql.V1.Cluster.Types.Environment environment_ = global::Yandex.Cloud.Mdb.Postgresql.V1.Cluster.Types.Environment.Unspecified;
     /// <summary>
     /// Deployment environment of the new PostgreSQL cluster.
     /// </summary>
@@ -3470,7 +3470,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
       if (Name.Length != 0) hash ^= Name.GetHashCode();
       if (Description.Length != 0) hash ^= Description.GetHashCode();
       hash ^= Labels.GetHashCode();
-      if (Environment != 0) hash ^= Environment.GetHashCode();
+      if (Environment != global::Yandex.Cloud.Mdb.Postgresql.V1.Cluster.Types.Environment.Unspecified) hash ^= Environment.GetHashCode();
       if (configSpec_ != null) hash ^= ConfigSpec.GetHashCode();
       hash ^= hostSpecs_.GetHashCode();
       if (NetworkId.Length != 0) hash ^= NetworkId.GetHashCode();
@@ -3509,7 +3509,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
         output.WriteString(Description);
       }
       labels_.WriteTo(output, _map_labels_codec);
-      if (Environment != 0) {
+      if (Environment != global::Yandex.Cloud.Mdb.Postgresql.V1.Cluster.Types.Environment.Unspecified) {
         output.WriteRawTag(56);
         output.WriteEnum((int) Environment);
       }
@@ -3550,7 +3550,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Description);
       }
       size += labels_.CalculateSize(_map_labels_codec);
-      if (Environment != 0) {
+      if (Environment != global::Yandex.Cloud.Mdb.Postgresql.V1.Cluster.Types.Environment.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Environment);
       }
       if (configSpec_ != null) {
@@ -3593,7 +3593,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
         Description = other.Description;
       }
       labels_.Add(other.labels_);
-      if (other.Environment != 0) {
+      if (other.Environment != global::Yandex.Cloud.Mdb.Postgresql.V1.Cluster.Types.Environment.Unspecified) {
         Environment = other.Environment;
       }
       if (other.configSpec_ != null) {
@@ -4186,7 +4186,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
     /// <summary>Field number for the "message" field.</summary>
     public const int MessageFieldNumber = 2;
     private static readonly pbc::MapField<string, string>.Codec _map_message_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 18);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 18);
     private readonly pbc::MapField<string, string> message_ = new pbc::MapField<string, string>();
     /// <summary>
     /// Contents of the log record.
@@ -4367,7 +4367,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
 
     /// <summary>Field number for the "service_type" field.</summary>
     public const int ServiceTypeFieldNumber = 3;
-    private global::Yandex.Cloud.Mdb.Postgresql.V1.ListClusterLogsRequest.Types.ServiceType serviceType_ = 0;
+    private global::Yandex.Cloud.Mdb.Postgresql.V1.ListClusterLogsRequest.Types.ServiceType serviceType_ = global::Yandex.Cloud.Mdb.Postgresql.V1.ListClusterLogsRequest.Types.ServiceType.Unspecified;
     /// <summary>
     /// Type of the service to request logs about.
     /// </summary>
@@ -4481,7 +4481,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
       int hash = 1;
       if (ClusterId.Length != 0) hash ^= ClusterId.GetHashCode();
       hash ^= columnFilter_.GetHashCode();
-      if (ServiceType != 0) hash ^= ServiceType.GetHashCode();
+      if (ServiceType != global::Yandex.Cloud.Mdb.Postgresql.V1.ListClusterLogsRequest.Types.ServiceType.Unspecified) hash ^= ServiceType.GetHashCode();
       if (fromTime_ != null) hash ^= FromTime.GetHashCode();
       if (toTime_ != null) hash ^= ToTime.GetHashCode();
       if (PageSize != 0L) hash ^= PageSize.GetHashCode();
@@ -4505,7 +4505,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
         output.WriteString(ClusterId);
       }
       columnFilter_.WriteTo(output, _repeated_columnFilter_codec);
-      if (ServiceType != 0) {
+      if (ServiceType != global::Yandex.Cloud.Mdb.Postgresql.V1.ListClusterLogsRequest.Types.ServiceType.Unspecified) {
         output.WriteRawTag(24);
         output.WriteEnum((int) ServiceType);
       }
@@ -4541,7 +4541,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(ClusterId);
       }
       size += columnFilter_.CalculateSize(_repeated_columnFilter_codec);
-      if (ServiceType != 0) {
+      if (ServiceType != global::Yandex.Cloud.Mdb.Postgresql.V1.ListClusterLogsRequest.Types.ServiceType.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) ServiceType);
       }
       if (fromTime_ != null) {
@@ -4574,7 +4574,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
         ClusterId = other.ClusterId;
       }
       columnFilter_.Add(other.columnFilter_);
-      if (other.ServiceType != 0) {
+      if (other.ServiceType != global::Yandex.Cloud.Mdb.Postgresql.V1.ListClusterLogsRequest.Types.ServiceType.Unspecified) {
         ServiceType = other.ServiceType;
       }
       if (other.fromTime_ != null) {
@@ -4897,7 +4897,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
 
     /// <summary>Field number for the "service_type" field.</summary>
     public const int ServiceTypeFieldNumber = 3;
-    private global::Yandex.Cloud.Mdb.Postgresql.V1.StreamClusterLogsRequest.Types.ServiceType serviceType_ = 0;
+    private global::Yandex.Cloud.Mdb.Postgresql.V1.StreamClusterLogsRequest.Types.ServiceType serviceType_ = global::Yandex.Cloud.Mdb.Postgresql.V1.StreamClusterLogsRequest.Types.ServiceType.Unspecified;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Mdb.Postgresql.V1.StreamClusterLogsRequest.Types.ServiceType ServiceType {
       get { return serviceType_; }
@@ -4962,7 +4962,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
       int hash = 1;
       if (ClusterId.Length != 0) hash ^= ClusterId.GetHashCode();
       hash ^= columnFilter_.GetHashCode();
-      if (ServiceType != 0) hash ^= ServiceType.GetHashCode();
+      if (ServiceType != global::Yandex.Cloud.Mdb.Postgresql.V1.StreamClusterLogsRequest.Types.ServiceType.Unspecified) hash ^= ServiceType.GetHashCode();
       if (fromTime_ != null) hash ^= FromTime.GetHashCode();
       if (toTime_ != null) hash ^= ToTime.GetHashCode();
       if (_unknownFields != null) {
@@ -4983,7 +4983,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
         output.WriteString(ClusterId);
       }
       columnFilter_.WriteTo(output, _repeated_columnFilter_codec);
-      if (ServiceType != 0) {
+      if (ServiceType != global::Yandex.Cloud.Mdb.Postgresql.V1.StreamClusterLogsRequest.Types.ServiceType.Unspecified) {
         output.WriteRawTag(24);
         output.WriteEnum((int) ServiceType);
       }
@@ -5007,7 +5007,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(ClusterId);
       }
       size += columnFilter_.CalculateSize(_repeated_columnFilter_codec);
-      if (ServiceType != 0) {
+      if (ServiceType != global::Yandex.Cloud.Mdb.Postgresql.V1.StreamClusterLogsRequest.Types.ServiceType.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) ServiceType);
       }
       if (fromTime_ != null) {
@@ -5031,7 +5031,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
         ClusterId = other.ClusterId;
       }
       columnFilter_.Add(other.columnFilter_);
-      if (other.ServiceType != 0) {
+      if (other.ServiceType != global::Yandex.Cloud.Mdb.Postgresql.V1.StreamClusterLogsRequest.Types.ServiceType.Unspecified) {
         ServiceType = other.ServiceType;
       }
       if (other.fromTime_ != null) {

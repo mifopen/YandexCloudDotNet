@@ -70,7 +70,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
     {
       /// <summary>Creates a new client for SubclusterService</summary>
       /// <param name="channel">The channel to use to make remote calls.</param>
-      public SubclusterServiceClient(grpc::Channel channel) : base(channel)
+      public SubclusterServiceClient(grpc::ChannelBase channel) : base(channel)
       {
       }
       /// <summary>Creates a new client for SubclusterService that uses a custom <c>CallInvoker</c>.</summary>

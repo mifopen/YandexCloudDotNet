@@ -131,21 +131,21 @@ namespace Yandex.Cloud.K8S.V1 {
             "by1nZW5wcm90by95YW5kZXgvY2xvdWQvazhzL3YxO2s4c2IGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Yandex.Cloud.Api.OperationReflection.Descriptor, global::Yandex.Cloud.K8S.V1.NodeGroupReflection.Descriptor, global::Yandex.Cloud.K8S.V1.NodeReflection.Descriptor, global::Yandex.Cloud.K8S.V1.VersionReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.GetNodeGroupRequest), global::Yandex.Cloud.K8S.V1.GetNodeGroupRequest.Parser, new[]{ "NodeGroupId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.ListNodeGroupsRequest), global::Yandex.Cloud.K8S.V1.ListNodeGroupsRequest.Parser, new[]{ "FolderId", "PageSize", "PageToken", "Filter" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.ListNodeGroupsResponse), global::Yandex.Cloud.K8S.V1.ListNodeGroupsResponse.Parser, new[]{ "NodeGroups", "NextPageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.ListNodeGroupNodesRequest), global::Yandex.Cloud.K8S.V1.ListNodeGroupNodesRequest.Parser, new[]{ "NodeGroupId", "PageSize", "PageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.ListNodeGroupNodesResponse), global::Yandex.Cloud.K8S.V1.ListNodeGroupNodesResponse.Parser, new[]{ "Nodes", "NextPageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.DeleteNodeGroupRequest), global::Yandex.Cloud.K8S.V1.DeleteNodeGroupRequest.Parser, new[]{ "NodeGroupId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.DeleteNodeGroupMetadata), global::Yandex.Cloud.K8S.V1.DeleteNodeGroupMetadata.Parser, new[]{ "NodeGroupId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.UpdateNodeGroupRequest), global::Yandex.Cloud.K8S.V1.UpdateNodeGroupRequest.Parser, new[]{ "NodeGroupId", "UpdateMask", "Name", "Description", "Labels", "NodeTemplate", "ScalePolicy", "AllocationPolicy", "DeployPolicy", "Version", "MaintenancePolicy", "AllowedUnsafeSysctls", "NodeTaints", "NodeLabels" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.UpdateNodeGroupMetadata), global::Yandex.Cloud.K8S.V1.UpdateNodeGroupMetadata.Parser, new[]{ "NodeGroupId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.CreateNodeGroupRequest), global::Yandex.Cloud.K8S.V1.CreateNodeGroupRequest.Parser, new[]{ "ClusterId", "Name", "Description", "Labels", "NodeTemplate", "ScalePolicy", "AllocationPolicy", "DeployPolicy", "Version", "MaintenancePolicy", "AllowedUnsafeSysctls", "NodeTaints", "NodeLabels" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.CreateNodeGroupMetadata), global::Yandex.Cloud.K8S.V1.CreateNodeGroupMetadata.Parser, new[]{ "NodeGroupId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.AutoUpgradeNodeGroupMetadata), global::Yandex.Cloud.K8S.V1.AutoUpgradeNodeGroupMetadata.Parser, new[]{ "NodeGroupId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.ListNodeGroupOperationsRequest), global::Yandex.Cloud.K8S.V1.ListNodeGroupOperationsRequest.Parser, new[]{ "NodeGroupId", "PageSize", "PageToken", "Filter" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.ListNodeGroupOperationsResponse), global::Yandex.Cloud.K8S.V1.ListNodeGroupOperationsResponse.Parser, new[]{ "Operations", "NextPageToken" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.GetNodeGroupRequest), global::Yandex.Cloud.K8S.V1.GetNodeGroupRequest.Parser, new[]{ "NodeGroupId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.ListNodeGroupsRequest), global::Yandex.Cloud.K8S.V1.ListNodeGroupsRequest.Parser, new[]{ "FolderId", "PageSize", "PageToken", "Filter" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.ListNodeGroupsResponse), global::Yandex.Cloud.K8S.V1.ListNodeGroupsResponse.Parser, new[]{ "NodeGroups", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.ListNodeGroupNodesRequest), global::Yandex.Cloud.K8S.V1.ListNodeGroupNodesRequest.Parser, new[]{ "NodeGroupId", "PageSize", "PageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.ListNodeGroupNodesResponse), global::Yandex.Cloud.K8S.V1.ListNodeGroupNodesResponse.Parser, new[]{ "Nodes", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.DeleteNodeGroupRequest), global::Yandex.Cloud.K8S.V1.DeleteNodeGroupRequest.Parser, new[]{ "NodeGroupId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.DeleteNodeGroupMetadata), global::Yandex.Cloud.K8S.V1.DeleteNodeGroupMetadata.Parser, new[]{ "NodeGroupId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.UpdateNodeGroupRequest), global::Yandex.Cloud.K8S.V1.UpdateNodeGroupRequest.Parser, new[]{ "NodeGroupId", "UpdateMask", "Name", "Description", "Labels", "NodeTemplate", "ScalePolicy", "AllocationPolicy", "DeployPolicy", "Version", "MaintenancePolicy", "AllowedUnsafeSysctls", "NodeTaints", "NodeLabels" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.UpdateNodeGroupMetadata), global::Yandex.Cloud.K8S.V1.UpdateNodeGroupMetadata.Parser, new[]{ "NodeGroupId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.CreateNodeGroupRequest), global::Yandex.Cloud.K8S.V1.CreateNodeGroupRequest.Parser, new[]{ "ClusterId", "Name", "Description", "Labels", "NodeTemplate", "ScalePolicy", "AllocationPolicy", "DeployPolicy", "Version", "MaintenancePolicy", "AllowedUnsafeSysctls", "NodeTaints", "NodeLabels" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.CreateNodeGroupMetadata), global::Yandex.Cloud.K8S.V1.CreateNodeGroupMetadata.Parser, new[]{ "NodeGroupId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.AutoUpgradeNodeGroupMetadata), global::Yandex.Cloud.K8S.V1.AutoUpgradeNodeGroupMetadata.Parser, new[]{ "NodeGroupId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.ListNodeGroupOperationsRequest), global::Yandex.Cloud.K8S.V1.ListNodeGroupOperationsRequest.Parser, new[]{ "NodeGroupId", "PageSize", "PageToken", "Filter" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.ListNodeGroupOperationsResponse), global::Yandex.Cloud.K8S.V1.ListNodeGroupOperationsResponse.Parser, new[]{ "Operations", "NextPageToken" }, null, null, null, null)
           }));
     }
     #endregion
@@ -1413,7 +1413,7 @@ namespace Yandex.Cloud.K8S.V1 {
     /// <summary>Field number for the "labels" field.</summary>
     public const int LabelsFieldNumber = 5;
     private static readonly pbc::MapField<string, string>.Codec _map_labels_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 42);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 42);
     private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
     /// <summary>
     /// Resource labels as `key:value` pairs.
@@ -1540,7 +1540,7 @@ namespace Yandex.Cloud.K8S.V1 {
     /// <summary>Field number for the "node_labels" field.</summary>
     public const int NodeLabelsFieldNumber = 14;
     private static readonly pbc::MapField<string, string>.Codec _map_nodeLabels_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 114);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 114);
     private readonly pbc::MapField<string, string> nodeLabels_ = new pbc::MapField<string, string>();
     /// <summary>
     /// Labels that are assigned to the nodes of the node group at creation time.
@@ -2081,7 +2081,7 @@ namespace Yandex.Cloud.K8S.V1 {
     /// <summary>Field number for the "labels" field.</summary>
     public const int LabelsFieldNumber = 4;
     private static readonly pbc::MapField<string, string>.Codec _map_labels_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 34);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 34);
     private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
     /// <summary>
     /// Resource labels as `key:value` pairs.
@@ -2205,7 +2205,7 @@ namespace Yandex.Cloud.K8S.V1 {
     /// <summary>Field number for the "node_labels" field.</summary>
     public const int NodeLabelsFieldNumber = 12;
     private static readonly pbc::MapField<string, string>.Codec _map_nodeLabels_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 98);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 98);
     private readonly pbc::MapField<string, string> nodeLabels_ = new pbc::MapField<string, string>();
     /// <summary>
     /// Labels that are assigned to the nodes of the node group at creation time.

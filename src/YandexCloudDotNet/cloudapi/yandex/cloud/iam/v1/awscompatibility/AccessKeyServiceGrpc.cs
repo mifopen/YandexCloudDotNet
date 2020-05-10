@@ -80,7 +80,7 @@ namespace Yandex.Cloud.Iam.V1.Awscompatibility {
     {
       /// <summary>Creates a new client for AccessKeyService</summary>
       /// <param name="channel">The channel to use to make remote calls.</param>
-      public AccessKeyServiceClient(grpc::Channel channel) : base(channel)
+      public AccessKeyServiceClient(grpc::ChannelBase channel) : base(channel)
       {
       }
       /// <summary>Creates a new client for AccessKeyService that uses a custom <c>CallInvoker</c>.</summary>

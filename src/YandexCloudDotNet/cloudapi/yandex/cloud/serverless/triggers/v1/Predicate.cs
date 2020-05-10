@@ -41,10 +41,10 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
             "Z2Vycy92MTt0cmlnZ2Vyc2IGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Yandex.Cloud.ValidationReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Triggers.V1.Predicate), global::Yandex.Cloud.Serverless.Triggers.V1.Predicate.Parser, new[]{ "AndPredicate", "FieldValuePredicate" }, new[]{ "Predicate" }, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Triggers.V1.AndPredicate), global::Yandex.Cloud.Serverless.Triggers.V1.AndPredicate.Parser, new[]{ "Predicate" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Triggers.V1.FieldValuePredicate), global::Yandex.Cloud.Serverless.Triggers.V1.FieldValuePredicate.Parser, new[]{ "FieldPath", "Exact", "Prefix", "Suffix" }, new[]{ "Value" }, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Triggers.V1.Predicate), global::Yandex.Cloud.Serverless.Triggers.V1.Predicate.Parser, new[]{ "AndPredicate", "FieldValuePredicate" }, new[]{ "Predicate" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Triggers.V1.AndPredicate), global::Yandex.Cloud.Serverless.Triggers.V1.AndPredicate.Parser, new[]{ "Predicate" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Triggers.V1.FieldValuePredicate), global::Yandex.Cloud.Serverless.Triggers.V1.FieldValuePredicate.Parser, new[]{ "FieldPath", "Exact", "Prefix", "Suffix" }, new[]{ "Value" }, null, null, null)
           }));
     }
     #endregion

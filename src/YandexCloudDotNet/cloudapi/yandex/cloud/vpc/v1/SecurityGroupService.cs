@@ -118,24 +118,24 @@ namespace Yandex.Cloud.Vpc.V1 {
             "LWdlbnByb3RvL3lhbmRleC9jbG91ZC92cGMvdjE7dnBjYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Yandex.Cloud.Api.OperationReflection.Descriptor, global::Yandex.Cloud.Vpc.V1.SecurityGroupReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.GetSecurityGroupRequest), global::Yandex.Cloud.Vpc.V1.GetSecurityGroupRequest.Parser, new[]{ "SecurityGroupId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.ListSecurityGroupsRequest), global::Yandex.Cloud.Vpc.V1.ListSecurityGroupsRequest.Parser, new[]{ "FolderId", "PageSize", "PageToken", "Filter" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.ListSecurityGroupsResponse), global::Yandex.Cloud.Vpc.V1.ListSecurityGroupsResponse.Parser, new[]{ "SecurityGroups", "NextPageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.CreateSecurityGroupRequest), global::Yandex.Cloud.Vpc.V1.CreateSecurityGroupRequest.Parser, new[]{ "FolderId", "Name", "Description", "Labels", "NetworkId", "RuleSpecs" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.SecurityGroupRuleSpec), global::Yandex.Cloud.Vpc.V1.SecurityGroupRuleSpec.Parser, new[]{ "Description", "Labels", "Direction", "Ports", "ProtocolName", "ProtocolNumber", "CidrBlocks" }, new[]{ "Protocol", "Target" }, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.CreateSecurityGroupMetadata), global::Yandex.Cloud.Vpc.V1.CreateSecurityGroupMetadata.Parser, new[]{ "SecurityGroupId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.UpdateSecurityGroupRequest), global::Yandex.Cloud.Vpc.V1.UpdateSecurityGroupRequest.Parser, new[]{ "SecurityGroupId", "UpdateMask", "Name", "Description", "Labels", "RuleSpecs" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.UpdateSecurityGroupMetadata), global::Yandex.Cloud.Vpc.V1.UpdateSecurityGroupMetadata.Parser, new[]{ "SecurityGroupId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.UpdateSecurityGroupRulesRequest), global::Yandex.Cloud.Vpc.V1.UpdateSecurityGroupRulesRequest.Parser, new[]{ "SecurityGroupId", "DeletionRuleIds", "AdditionRuleSpecs" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.UpdateSecurityGroupRuleRequest), global::Yandex.Cloud.Vpc.V1.UpdateSecurityGroupRuleRequest.Parser, new[]{ "SecurityGroupId", "RuleId", "UpdateMask", "Description", "Labels" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.UpdateSecurityGroupRuleMetadata), global::Yandex.Cloud.Vpc.V1.UpdateSecurityGroupRuleMetadata.Parser, new[]{ "SecurityGroupId", "RuleId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.DeleteSecurityGroupRequest), global::Yandex.Cloud.Vpc.V1.DeleteSecurityGroupRequest.Parser, new[]{ "SecurityGroupId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.DeleteSecurityGroupMetadata), global::Yandex.Cloud.Vpc.V1.DeleteSecurityGroupMetadata.Parser, new[]{ "SecurityGroupId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.ListSecurityGroupOperationsRequest), global::Yandex.Cloud.Vpc.V1.ListSecurityGroupOperationsRequest.Parser, new[]{ "SecurityGroupId", "PageSize", "PageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.ListSecurityGroupOperationsResponse), global::Yandex.Cloud.Vpc.V1.ListSecurityGroupOperationsResponse.Parser, new[]{ "Operations", "NextPageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.MoveSecurityGroupRequest), global::Yandex.Cloud.Vpc.V1.MoveSecurityGroupRequest.Parser, new[]{ "SecurityGroupId", "DestinationFolderId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.MoveSecurityGroupMetadata), global::Yandex.Cloud.Vpc.V1.MoveSecurityGroupMetadata.Parser, new[]{ "SecurityGroupId" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.GetSecurityGroupRequest), global::Yandex.Cloud.Vpc.V1.GetSecurityGroupRequest.Parser, new[]{ "SecurityGroupId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.ListSecurityGroupsRequest), global::Yandex.Cloud.Vpc.V1.ListSecurityGroupsRequest.Parser, new[]{ "FolderId", "PageSize", "PageToken", "Filter" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.ListSecurityGroupsResponse), global::Yandex.Cloud.Vpc.V1.ListSecurityGroupsResponse.Parser, new[]{ "SecurityGroups", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.CreateSecurityGroupRequest), global::Yandex.Cloud.Vpc.V1.CreateSecurityGroupRequest.Parser, new[]{ "FolderId", "Name", "Description", "Labels", "NetworkId", "RuleSpecs" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.SecurityGroupRuleSpec), global::Yandex.Cloud.Vpc.V1.SecurityGroupRuleSpec.Parser, new[]{ "Description", "Labels", "Direction", "Ports", "ProtocolName", "ProtocolNumber", "CidrBlocks" }, new[]{ "Protocol", "Target" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.CreateSecurityGroupMetadata), global::Yandex.Cloud.Vpc.V1.CreateSecurityGroupMetadata.Parser, new[]{ "SecurityGroupId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.UpdateSecurityGroupRequest), global::Yandex.Cloud.Vpc.V1.UpdateSecurityGroupRequest.Parser, new[]{ "SecurityGroupId", "UpdateMask", "Name", "Description", "Labels", "RuleSpecs" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.UpdateSecurityGroupMetadata), global::Yandex.Cloud.Vpc.V1.UpdateSecurityGroupMetadata.Parser, new[]{ "SecurityGroupId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.UpdateSecurityGroupRulesRequest), global::Yandex.Cloud.Vpc.V1.UpdateSecurityGroupRulesRequest.Parser, new[]{ "SecurityGroupId", "DeletionRuleIds", "AdditionRuleSpecs" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.UpdateSecurityGroupRuleRequest), global::Yandex.Cloud.Vpc.V1.UpdateSecurityGroupRuleRequest.Parser, new[]{ "SecurityGroupId", "RuleId", "UpdateMask", "Description", "Labels" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.UpdateSecurityGroupRuleMetadata), global::Yandex.Cloud.Vpc.V1.UpdateSecurityGroupRuleMetadata.Parser, new[]{ "SecurityGroupId", "RuleId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.DeleteSecurityGroupRequest), global::Yandex.Cloud.Vpc.V1.DeleteSecurityGroupRequest.Parser, new[]{ "SecurityGroupId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.DeleteSecurityGroupMetadata), global::Yandex.Cloud.Vpc.V1.DeleteSecurityGroupMetadata.Parser, new[]{ "SecurityGroupId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.ListSecurityGroupOperationsRequest), global::Yandex.Cloud.Vpc.V1.ListSecurityGroupOperationsRequest.Parser, new[]{ "SecurityGroupId", "PageSize", "PageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.ListSecurityGroupOperationsResponse), global::Yandex.Cloud.Vpc.V1.ListSecurityGroupOperationsResponse.Parser, new[]{ "Operations", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.MoveSecurityGroupRequest), global::Yandex.Cloud.Vpc.V1.MoveSecurityGroupRequest.Parser, new[]{ "SecurityGroupId", "DestinationFolderId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.MoveSecurityGroupMetadata), global::Yandex.Cloud.Vpc.V1.MoveSecurityGroupMetadata.Parser, new[]{ "SecurityGroupId" }, null, null, null, null)
           }));
     }
     #endregion
@@ -711,7 +711,7 @@ namespace Yandex.Cloud.Vpc.V1 {
     /// <summary>Field number for the "labels" field.</summary>
     public const int LabelsFieldNumber = 4;
     private static readonly pbc::MapField<string, string>.Codec _map_labels_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 34);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 34);
     private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::MapField<string, string> Labels {
@@ -955,7 +955,7 @@ namespace Yandex.Cloud.Vpc.V1 {
     /// <summary>Field number for the "labels" field.</summary>
     public const int LabelsFieldNumber = 2;
     private static readonly pbc::MapField<string, string>.Codec _map_labels_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 18);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 18);
     private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::MapField<string, string> Labels {
@@ -964,7 +964,7 @@ namespace Yandex.Cloud.Vpc.V1 {
 
     /// <summary>Field number for the "direction" field.</summary>
     public const int DirectionFieldNumber = 3;
-    private global::Yandex.Cloud.Vpc.V1.SecurityGroupRule.Types.Direction direction_ = 0;
+    private global::Yandex.Cloud.Vpc.V1.SecurityGroupRule.Types.Direction direction_ = global::Yandex.Cloud.Vpc.V1.SecurityGroupRule.Types.Direction.Unspecified;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Vpc.V1.SecurityGroupRule.Types.Direction Direction {
       get { return direction_; }
@@ -1091,7 +1091,7 @@ namespace Yandex.Cloud.Vpc.V1 {
       int hash = 1;
       if (Description.Length != 0) hash ^= Description.GetHashCode();
       hash ^= Labels.GetHashCode();
-      if (Direction != 0) hash ^= Direction.GetHashCode();
+      if (Direction != global::Yandex.Cloud.Vpc.V1.SecurityGroupRule.Types.Direction.Unspecified) hash ^= Direction.GetHashCode();
       if (ports_ != null) hash ^= Ports.GetHashCode();
       if (protocolCase_ == ProtocolOneofCase.ProtocolName) hash ^= ProtocolName.GetHashCode();
       if (protocolCase_ == ProtocolOneofCase.ProtocolNumber) hash ^= ProtocolNumber.GetHashCode();
@@ -1116,7 +1116,7 @@ namespace Yandex.Cloud.Vpc.V1 {
         output.WriteString(Description);
       }
       labels_.WriteTo(output, _map_labels_codec);
-      if (Direction != 0) {
+      if (Direction != global::Yandex.Cloud.Vpc.V1.SecurityGroupRule.Types.Direction.Unspecified) {
         output.WriteRawTag(24);
         output.WriteEnum((int) Direction);
       }
@@ -1148,7 +1148,7 @@ namespace Yandex.Cloud.Vpc.V1 {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Description);
       }
       size += labels_.CalculateSize(_map_labels_codec);
-      if (Direction != 0) {
+      if (Direction != global::Yandex.Cloud.Vpc.V1.SecurityGroupRule.Types.Direction.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Direction);
       }
       if (ports_ != null) {
@@ -1178,7 +1178,7 @@ namespace Yandex.Cloud.Vpc.V1 {
         Description = other.Description;
       }
       labels_.Add(other.labels_);
-      if (other.Direction != 0) {
+      if (other.Direction != global::Yandex.Cloud.Vpc.V1.SecurityGroupRule.Types.Direction.Unspecified) {
         Direction = other.Direction;
       }
       if (other.ports_ != null) {
@@ -1473,7 +1473,7 @@ namespace Yandex.Cloud.Vpc.V1 {
     /// <summary>Field number for the "labels" field.</summary>
     public const int LabelsFieldNumber = 5;
     private static readonly pbc::MapField<string, string>.Codec _map_labels_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 42);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 42);
     private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::MapField<string, string> Labels {
@@ -2035,7 +2035,7 @@ namespace Yandex.Cloud.Vpc.V1 {
     /// <summary>Field number for the "labels" field.</summary>
     public const int LabelsFieldNumber = 5;
     private static readonly pbc::MapField<string, string>.Codec _map_labels_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 42);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 42);
     private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::MapField<string, string> Labels {

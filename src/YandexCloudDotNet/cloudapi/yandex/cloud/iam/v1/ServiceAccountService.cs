@@ -102,18 +102,18 @@ namespace Yandex.Cloud.Iam.V1 {
             "ZGV4L2Nsb3VkL2lhbS92MTtpYW1iBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Yandex.Cloud.Api.OperationReflection.Descriptor, global::Yandex.Cloud.Iam.V1.ServiceAccountReflection.Descriptor, global::Yandex.Cloud.Access.AccessReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.GetServiceAccountRequest), global::Yandex.Cloud.Iam.V1.GetServiceAccountRequest.Parser, new[]{ "ServiceAccountId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.ListServiceAccountsRequest), global::Yandex.Cloud.Iam.V1.ListServiceAccountsRequest.Parser, new[]{ "FolderId", "PageSize", "PageToken", "Filter" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.ListServiceAccountsResponse), global::Yandex.Cloud.Iam.V1.ListServiceAccountsResponse.Parser, new[]{ "ServiceAccounts", "NextPageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.CreateServiceAccountRequest), global::Yandex.Cloud.Iam.V1.CreateServiceAccountRequest.Parser, new[]{ "FolderId", "Name", "Description" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.CreateServiceAccountMetadata), global::Yandex.Cloud.Iam.V1.CreateServiceAccountMetadata.Parser, new[]{ "ServiceAccountId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.UpdateServiceAccountRequest), global::Yandex.Cloud.Iam.V1.UpdateServiceAccountRequest.Parser, new[]{ "ServiceAccountId", "UpdateMask", "Name", "Description" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.UpdateServiceAccountMetadata), global::Yandex.Cloud.Iam.V1.UpdateServiceAccountMetadata.Parser, new[]{ "ServiceAccountId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.DeleteServiceAccountRequest), global::Yandex.Cloud.Iam.V1.DeleteServiceAccountRequest.Parser, new[]{ "ServiceAccountId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.DeleteServiceAccountMetadata), global::Yandex.Cloud.Iam.V1.DeleteServiceAccountMetadata.Parser, new[]{ "ServiceAccountId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.ListServiceAccountOperationsRequest), global::Yandex.Cloud.Iam.V1.ListServiceAccountOperationsRequest.Parser, new[]{ "ServiceAccountId", "PageSize", "PageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.ListServiceAccountOperationsResponse), global::Yandex.Cloud.Iam.V1.ListServiceAccountOperationsResponse.Parser, new[]{ "Operations", "NextPageToken" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.GetServiceAccountRequest), global::Yandex.Cloud.Iam.V1.GetServiceAccountRequest.Parser, new[]{ "ServiceAccountId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.ListServiceAccountsRequest), global::Yandex.Cloud.Iam.V1.ListServiceAccountsRequest.Parser, new[]{ "FolderId", "PageSize", "PageToken", "Filter" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.ListServiceAccountsResponse), global::Yandex.Cloud.Iam.V1.ListServiceAccountsResponse.Parser, new[]{ "ServiceAccounts", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.CreateServiceAccountRequest), global::Yandex.Cloud.Iam.V1.CreateServiceAccountRequest.Parser, new[]{ "FolderId", "Name", "Description" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.CreateServiceAccountMetadata), global::Yandex.Cloud.Iam.V1.CreateServiceAccountMetadata.Parser, new[]{ "ServiceAccountId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.UpdateServiceAccountRequest), global::Yandex.Cloud.Iam.V1.UpdateServiceAccountRequest.Parser, new[]{ "ServiceAccountId", "UpdateMask", "Name", "Description" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.UpdateServiceAccountMetadata), global::Yandex.Cloud.Iam.V1.UpdateServiceAccountMetadata.Parser, new[]{ "ServiceAccountId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.DeleteServiceAccountRequest), global::Yandex.Cloud.Iam.V1.DeleteServiceAccountRequest.Parser, new[]{ "ServiceAccountId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.DeleteServiceAccountMetadata), global::Yandex.Cloud.Iam.V1.DeleteServiceAccountMetadata.Parser, new[]{ "ServiceAccountId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.ListServiceAccountOperationsRequest), global::Yandex.Cloud.Iam.V1.ListServiceAccountOperationsRequest.Parser, new[]{ "ServiceAccountId", "PageSize", "PageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.ListServiceAccountOperationsResponse), global::Yandex.Cloud.Iam.V1.ListServiceAccountOperationsResponse.Parser, new[]{ "Operations", "NextPageToken" }, null, null, null, null)
           }));
     }
     #endregion

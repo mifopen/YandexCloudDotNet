@@ -347,65 +347,65 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
             "bG91ZC9tZGIvbW9uZ29kYi92MTttb25nb2RiYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Google.Type.TimeofdayReflection.Descriptor, global::Yandex.Cloud.Api.OperationReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, global::Yandex.Cloud.Mdb.Mongodb.V1.BackupReflection.Descriptor, global::Yandex.Cloud.Mdb.Mongodb.V1.ClusterReflection.Descriptor, global::Yandex.Cloud.Mdb.Mongodb.V1.DatabaseReflection.Descriptor, global::Yandex.Cloud.Mdb.Mongodb.V1.UserReflection.Descriptor, global::Yandex.Cloud.Mdb.Mongodb.V1.Config.Mongodb36Reflection.Descriptor, global::Yandex.Cloud.Mdb.Mongodb.V1.Config.Mongodb40Reflection.Descriptor, global::Yandex.Cloud.Mdb.Mongodb.V1.Config.Mongodb42Reflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.GetClusterRequest), global::Yandex.Cloud.Mdb.Mongodb.V1.GetClusterRequest.Parser, new[]{ "ClusterId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.ListClustersRequest), global::Yandex.Cloud.Mdb.Mongodb.V1.ListClustersRequest.Parser, new[]{ "FolderId", "PageSize", "PageToken", "Filter" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.ListClustersResponse), global::Yandex.Cloud.Mdb.Mongodb.V1.ListClustersResponse.Parser, new[]{ "Clusters", "NextPageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.CreateClusterRequest), global::Yandex.Cloud.Mdb.Mongodb.V1.CreateClusterRequest.Parser, new[]{ "FolderId", "Name", "Description", "Labels", "Environment", "ConfigSpec", "DatabaseSpecs", "UserSpecs", "HostSpecs", "NetworkId" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.CreateClusterMetadata), global::Yandex.Cloud.Mdb.Mongodb.V1.CreateClusterMetadata.Parser, new[]{ "ClusterId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.UpdateClusterRequest), global::Yandex.Cloud.Mdb.Mongodb.V1.UpdateClusterRequest.Parser, new[]{ "ClusterId", "UpdateMask", "Description", "Labels", "ConfigSpec", "Name" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.UpdateClusterMetadata), global::Yandex.Cloud.Mdb.Mongodb.V1.UpdateClusterMetadata.Parser, new[]{ "ClusterId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.DeleteClusterRequest), global::Yandex.Cloud.Mdb.Mongodb.V1.DeleteClusterRequest.Parser, new[]{ "ClusterId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.DeleteClusterMetadata), global::Yandex.Cloud.Mdb.Mongodb.V1.DeleteClusterMetadata.Parser, new[]{ "ClusterId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.StartClusterRequest), global::Yandex.Cloud.Mdb.Mongodb.V1.StartClusterRequest.Parser, new[]{ "ClusterId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.StartClusterMetadata), global::Yandex.Cloud.Mdb.Mongodb.V1.StartClusterMetadata.Parser, new[]{ "ClusterId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.StopClusterRequest), global::Yandex.Cloud.Mdb.Mongodb.V1.StopClusterRequest.Parser, new[]{ "ClusterId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.StopClusterMetadata), global::Yandex.Cloud.Mdb.Mongodb.V1.StopClusterMetadata.Parser, new[]{ "ClusterId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.MoveClusterRequest), global::Yandex.Cloud.Mdb.Mongodb.V1.MoveClusterRequest.Parser, new[]{ "ClusterId", "DestinationFolderId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.MoveClusterMetadata), global::Yandex.Cloud.Mdb.Mongodb.V1.MoveClusterMetadata.Parser, new[]{ "ClusterId", "SourceFolderId", "DestinationFolderId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.BackupClusterRequest), global::Yandex.Cloud.Mdb.Mongodb.V1.BackupClusterRequest.Parser, new[]{ "ClusterId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.BackupClusterMetadata), global::Yandex.Cloud.Mdb.Mongodb.V1.BackupClusterMetadata.Parser, new[]{ "ClusterId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.RestoreClusterRequest), global::Yandex.Cloud.Mdb.Mongodb.V1.RestoreClusterRequest.Parser, new[]{ "BackupId", "Name", "Description", "Labels", "Environment", "ConfigSpec", "HostSpecs", "NetworkId", "FolderId" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.RestoreClusterMetadata), global::Yandex.Cloud.Mdb.Mongodb.V1.RestoreClusterMetadata.Parser, new[]{ "ClusterId", "BackupId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.LogRecord), global::Yandex.Cloud.Mdb.Mongodb.V1.LogRecord.Parser, new[]{ "Timestamp", "Message" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.ListClusterLogsRequest), global::Yandex.Cloud.Mdb.Mongodb.V1.ListClusterLogsRequest.Parser, new[]{ "ClusterId", "ColumnFilter", "ServiceType", "FromTime", "ToTime", "PageSize", "PageToken" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.ListClusterLogsRequest.Types.ServiceType) }, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.ListClusterLogsResponse), global::Yandex.Cloud.Mdb.Mongodb.V1.ListClusterLogsResponse.Parser, new[]{ "Logs", "NextPageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.StreamClusterLogsRequest), global::Yandex.Cloud.Mdb.Mongodb.V1.StreamClusterLogsRequest.Parser, new[]{ "ClusterId", "ColumnFilter", "ServiceType", "FromTime", "ToTime" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.StreamClusterLogsRequest.Types.ServiceType) }, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.ListClusterOperationsRequest), global::Yandex.Cloud.Mdb.Mongodb.V1.ListClusterOperationsRequest.Parser, new[]{ "ClusterId", "PageSize", "PageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.ListClusterOperationsResponse), global::Yandex.Cloud.Mdb.Mongodb.V1.ListClusterOperationsResponse.Parser, new[]{ "Operations", "NextPageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.ListClusterBackupsRequest), global::Yandex.Cloud.Mdb.Mongodb.V1.ListClusterBackupsRequest.Parser, new[]{ "ClusterId", "PageSize", "PageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.ListClusterBackupsResponse), global::Yandex.Cloud.Mdb.Mongodb.V1.ListClusterBackupsResponse.Parser, new[]{ "Backups", "NextPageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.ListClusterHostsRequest), global::Yandex.Cloud.Mdb.Mongodb.V1.ListClusterHostsRequest.Parser, new[]{ "ClusterId", "PageSize", "PageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.ListClusterHostsResponse), global::Yandex.Cloud.Mdb.Mongodb.V1.ListClusterHostsResponse.Parser, new[]{ "Hosts", "NextPageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.AddClusterHostsRequest), global::Yandex.Cloud.Mdb.Mongodb.V1.AddClusterHostsRequest.Parser, new[]{ "ClusterId", "HostSpecs" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.AddClusterHostsMetadata), global::Yandex.Cloud.Mdb.Mongodb.V1.AddClusterHostsMetadata.Parser, new[]{ "ClusterId", "HostNames" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.DeleteClusterHostsRequest), global::Yandex.Cloud.Mdb.Mongodb.V1.DeleteClusterHostsRequest.Parser, new[]{ "ClusterId", "HostNames" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.DeleteClusterHostsMetadata), global::Yandex.Cloud.Mdb.Mongodb.V1.DeleteClusterHostsMetadata.Parser, new[]{ "ClusterId", "HostNames" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.EnableClusterShardingRequest), global::Yandex.Cloud.Mdb.Mongodb.V1.EnableClusterShardingRequest.Parser, new[]{ "ClusterId", "Mongocfg", "Mongos", "HostSpecs" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.EnableClusterShardingRequest.Types.MongoCfg), global::Yandex.Cloud.Mdb.Mongodb.V1.EnableClusterShardingRequest.Types.MongoCfg.Parser, new[]{ "Resources" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.EnableClusterShardingRequest.Types.Mongos), global::Yandex.Cloud.Mdb.Mongodb.V1.EnableClusterShardingRequest.Types.Mongos.Parser, new[]{ "Resources" }, null, null, null)}),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.EnableClusterShardingMetadata), global::Yandex.Cloud.Mdb.Mongodb.V1.EnableClusterShardingMetadata.Parser, new[]{ "ClusterId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.GetClusterShardRequest), global::Yandex.Cloud.Mdb.Mongodb.V1.GetClusterShardRequest.Parser, new[]{ "ClusterId", "ShardName" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.ListClusterShardsRequest), global::Yandex.Cloud.Mdb.Mongodb.V1.ListClusterShardsRequest.Parser, new[]{ "ClusterId", "PageSize", "PageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.ListClusterShardsResponse), global::Yandex.Cloud.Mdb.Mongodb.V1.ListClusterShardsResponse.Parser, new[]{ "Shards", "NextPageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.AddClusterShardRequest), global::Yandex.Cloud.Mdb.Mongodb.V1.AddClusterShardRequest.Parser, new[]{ "ClusterId", "ShardName", "HostSpecs" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.AddClusterShardMetadata), global::Yandex.Cloud.Mdb.Mongodb.V1.AddClusterShardMetadata.Parser, new[]{ "ClusterId", "ShardName" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.DeleteClusterShardRequest), global::Yandex.Cloud.Mdb.Mongodb.V1.DeleteClusterShardRequest.Parser, new[]{ "ClusterId", "ShardName" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.DeleteClusterShardMetadata), global::Yandex.Cloud.Mdb.Mongodb.V1.DeleteClusterShardMetadata.Parser, new[]{ "ClusterId", "ShardName" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.ResetupHostsRequest), global::Yandex.Cloud.Mdb.Mongodb.V1.ResetupHostsRequest.Parser, new[]{ "ClusterId", "HostNames" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.ResetupHostsMetadata), global::Yandex.Cloud.Mdb.Mongodb.V1.ResetupHostsMetadata.Parser, new[]{ "ClusterId", "HostNames" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.RestartHostsRequest), global::Yandex.Cloud.Mdb.Mongodb.V1.RestartHostsRequest.Parser, new[]{ "ClusterId", "HostNames" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.RestartHostsMetadata), global::Yandex.Cloud.Mdb.Mongodb.V1.RestartHostsMetadata.Parser, new[]{ "ClusterId", "HostNames" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.HostSpec), global::Yandex.Cloud.Mdb.Mongodb.V1.HostSpec.Parser, new[]{ "ZoneId", "SubnetId", "AssignPublicIp", "Type", "ShardName" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec3_6), global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec3_6.Parser, new[]{ "Mongod", "Mongocfg", "Mongos" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec3_6.Types.Mongod), global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec3_6.Types.Mongod.Parser, new[]{ "Config", "Resources" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec3_6.Types.MongoCfg), global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec3_6.Types.MongoCfg.Parser, new[]{ "Config", "Resources" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec3_6.Types.Mongos), global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec3_6.Types.Mongos.Parser, new[]{ "Config", "Resources" }, null, null, null)}),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_0), global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_0.Parser, new[]{ "Mongod", "Mongocfg", "Mongos" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_0.Types.Mongod), global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_0.Types.Mongod.Parser, new[]{ "Config", "Resources" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_0.Types.MongoCfg), global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_0.Types.MongoCfg.Parser, new[]{ "Config", "Resources" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_0.Types.Mongos), global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_0.Types.Mongos.Parser, new[]{ "Config", "Resources" }, null, null, null)}),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_2), global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_2.Parser, new[]{ "Mongod", "Mongocfg", "Mongos" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_2.Types.Mongod), global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_2.Types.Mongod.Parser, new[]{ "Config", "Resources" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_2.Types.MongoCfg), global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_2.Types.MongoCfg.Parser, new[]{ "Config", "Resources" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_2.Types.Mongos), global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_2.Types.Mongos.Parser, new[]{ "Config", "Resources" }, null, null, null)}),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.ConfigSpec), global::Yandex.Cloud.Mdb.Mongodb.V1.ConfigSpec.Parser, new[]{ "Version", "FeatureCompatibilityVersion", "MongodbSpec36", "MongodbSpec40", "MongodbSpec42", "BackupWindowStart", "Access" }, new[]{ "MongodbSpec" }, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.GetClusterRequest), global::Yandex.Cloud.Mdb.Mongodb.V1.GetClusterRequest.Parser, new[]{ "ClusterId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.ListClustersRequest), global::Yandex.Cloud.Mdb.Mongodb.V1.ListClustersRequest.Parser, new[]{ "FolderId", "PageSize", "PageToken", "Filter" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.ListClustersResponse), global::Yandex.Cloud.Mdb.Mongodb.V1.ListClustersResponse.Parser, new[]{ "Clusters", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.CreateClusterRequest), global::Yandex.Cloud.Mdb.Mongodb.V1.CreateClusterRequest.Parser, new[]{ "FolderId", "Name", "Description", "Labels", "Environment", "ConfigSpec", "DatabaseSpecs", "UserSpecs", "HostSpecs", "NetworkId" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.CreateClusterMetadata), global::Yandex.Cloud.Mdb.Mongodb.V1.CreateClusterMetadata.Parser, new[]{ "ClusterId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.UpdateClusterRequest), global::Yandex.Cloud.Mdb.Mongodb.V1.UpdateClusterRequest.Parser, new[]{ "ClusterId", "UpdateMask", "Description", "Labels", "ConfigSpec", "Name" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.UpdateClusterMetadata), global::Yandex.Cloud.Mdb.Mongodb.V1.UpdateClusterMetadata.Parser, new[]{ "ClusterId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.DeleteClusterRequest), global::Yandex.Cloud.Mdb.Mongodb.V1.DeleteClusterRequest.Parser, new[]{ "ClusterId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.DeleteClusterMetadata), global::Yandex.Cloud.Mdb.Mongodb.V1.DeleteClusterMetadata.Parser, new[]{ "ClusterId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.StartClusterRequest), global::Yandex.Cloud.Mdb.Mongodb.V1.StartClusterRequest.Parser, new[]{ "ClusterId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.StartClusterMetadata), global::Yandex.Cloud.Mdb.Mongodb.V1.StartClusterMetadata.Parser, new[]{ "ClusterId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.StopClusterRequest), global::Yandex.Cloud.Mdb.Mongodb.V1.StopClusterRequest.Parser, new[]{ "ClusterId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.StopClusterMetadata), global::Yandex.Cloud.Mdb.Mongodb.V1.StopClusterMetadata.Parser, new[]{ "ClusterId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.MoveClusterRequest), global::Yandex.Cloud.Mdb.Mongodb.V1.MoveClusterRequest.Parser, new[]{ "ClusterId", "DestinationFolderId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.MoveClusterMetadata), global::Yandex.Cloud.Mdb.Mongodb.V1.MoveClusterMetadata.Parser, new[]{ "ClusterId", "SourceFolderId", "DestinationFolderId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.BackupClusterRequest), global::Yandex.Cloud.Mdb.Mongodb.V1.BackupClusterRequest.Parser, new[]{ "ClusterId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.BackupClusterMetadata), global::Yandex.Cloud.Mdb.Mongodb.V1.BackupClusterMetadata.Parser, new[]{ "ClusterId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.RestoreClusterRequest), global::Yandex.Cloud.Mdb.Mongodb.V1.RestoreClusterRequest.Parser, new[]{ "BackupId", "Name", "Description", "Labels", "Environment", "ConfigSpec", "HostSpecs", "NetworkId", "FolderId" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.RestoreClusterMetadata), global::Yandex.Cloud.Mdb.Mongodb.V1.RestoreClusterMetadata.Parser, new[]{ "ClusterId", "BackupId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.LogRecord), global::Yandex.Cloud.Mdb.Mongodb.V1.LogRecord.Parser, new[]{ "Timestamp", "Message" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.ListClusterLogsRequest), global::Yandex.Cloud.Mdb.Mongodb.V1.ListClusterLogsRequest.Parser, new[]{ "ClusterId", "ColumnFilter", "ServiceType", "FromTime", "ToTime", "PageSize", "PageToken" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.ListClusterLogsRequest.Types.ServiceType) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.ListClusterLogsResponse), global::Yandex.Cloud.Mdb.Mongodb.V1.ListClusterLogsResponse.Parser, new[]{ "Logs", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.StreamClusterLogsRequest), global::Yandex.Cloud.Mdb.Mongodb.V1.StreamClusterLogsRequest.Parser, new[]{ "ClusterId", "ColumnFilter", "ServiceType", "FromTime", "ToTime" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.StreamClusterLogsRequest.Types.ServiceType) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.ListClusterOperationsRequest), global::Yandex.Cloud.Mdb.Mongodb.V1.ListClusterOperationsRequest.Parser, new[]{ "ClusterId", "PageSize", "PageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.ListClusterOperationsResponse), global::Yandex.Cloud.Mdb.Mongodb.V1.ListClusterOperationsResponse.Parser, new[]{ "Operations", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.ListClusterBackupsRequest), global::Yandex.Cloud.Mdb.Mongodb.V1.ListClusterBackupsRequest.Parser, new[]{ "ClusterId", "PageSize", "PageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.ListClusterBackupsResponse), global::Yandex.Cloud.Mdb.Mongodb.V1.ListClusterBackupsResponse.Parser, new[]{ "Backups", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.ListClusterHostsRequest), global::Yandex.Cloud.Mdb.Mongodb.V1.ListClusterHostsRequest.Parser, new[]{ "ClusterId", "PageSize", "PageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.ListClusterHostsResponse), global::Yandex.Cloud.Mdb.Mongodb.V1.ListClusterHostsResponse.Parser, new[]{ "Hosts", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.AddClusterHostsRequest), global::Yandex.Cloud.Mdb.Mongodb.V1.AddClusterHostsRequest.Parser, new[]{ "ClusterId", "HostSpecs" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.AddClusterHostsMetadata), global::Yandex.Cloud.Mdb.Mongodb.V1.AddClusterHostsMetadata.Parser, new[]{ "ClusterId", "HostNames" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.DeleteClusterHostsRequest), global::Yandex.Cloud.Mdb.Mongodb.V1.DeleteClusterHostsRequest.Parser, new[]{ "ClusterId", "HostNames" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.DeleteClusterHostsMetadata), global::Yandex.Cloud.Mdb.Mongodb.V1.DeleteClusterHostsMetadata.Parser, new[]{ "ClusterId", "HostNames" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.EnableClusterShardingRequest), global::Yandex.Cloud.Mdb.Mongodb.V1.EnableClusterShardingRequest.Parser, new[]{ "ClusterId", "Mongocfg", "Mongos", "HostSpecs" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.EnableClusterShardingRequest.Types.MongoCfg), global::Yandex.Cloud.Mdb.Mongodb.V1.EnableClusterShardingRequest.Types.MongoCfg.Parser, new[]{ "Resources" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.EnableClusterShardingRequest.Types.Mongos), global::Yandex.Cloud.Mdb.Mongodb.V1.EnableClusterShardingRequest.Types.Mongos.Parser, new[]{ "Resources" }, null, null, null, null)}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.EnableClusterShardingMetadata), global::Yandex.Cloud.Mdb.Mongodb.V1.EnableClusterShardingMetadata.Parser, new[]{ "ClusterId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.GetClusterShardRequest), global::Yandex.Cloud.Mdb.Mongodb.V1.GetClusterShardRequest.Parser, new[]{ "ClusterId", "ShardName" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.ListClusterShardsRequest), global::Yandex.Cloud.Mdb.Mongodb.V1.ListClusterShardsRequest.Parser, new[]{ "ClusterId", "PageSize", "PageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.ListClusterShardsResponse), global::Yandex.Cloud.Mdb.Mongodb.V1.ListClusterShardsResponse.Parser, new[]{ "Shards", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.AddClusterShardRequest), global::Yandex.Cloud.Mdb.Mongodb.V1.AddClusterShardRequest.Parser, new[]{ "ClusterId", "ShardName", "HostSpecs" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.AddClusterShardMetadata), global::Yandex.Cloud.Mdb.Mongodb.V1.AddClusterShardMetadata.Parser, new[]{ "ClusterId", "ShardName" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.DeleteClusterShardRequest), global::Yandex.Cloud.Mdb.Mongodb.V1.DeleteClusterShardRequest.Parser, new[]{ "ClusterId", "ShardName" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.DeleteClusterShardMetadata), global::Yandex.Cloud.Mdb.Mongodb.V1.DeleteClusterShardMetadata.Parser, new[]{ "ClusterId", "ShardName" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.ResetupHostsRequest), global::Yandex.Cloud.Mdb.Mongodb.V1.ResetupHostsRequest.Parser, new[]{ "ClusterId", "HostNames" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.ResetupHostsMetadata), global::Yandex.Cloud.Mdb.Mongodb.V1.ResetupHostsMetadata.Parser, new[]{ "ClusterId", "HostNames" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.RestartHostsRequest), global::Yandex.Cloud.Mdb.Mongodb.V1.RestartHostsRequest.Parser, new[]{ "ClusterId", "HostNames" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.RestartHostsMetadata), global::Yandex.Cloud.Mdb.Mongodb.V1.RestartHostsMetadata.Parser, new[]{ "ClusterId", "HostNames" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.HostSpec), global::Yandex.Cloud.Mdb.Mongodb.V1.HostSpec.Parser, new[]{ "ZoneId", "SubnetId", "AssignPublicIp", "Type", "ShardName" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec3_6), global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec3_6.Parser, new[]{ "Mongod", "Mongocfg", "Mongos" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec3_6.Types.Mongod), global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec3_6.Types.Mongod.Parser, new[]{ "Config", "Resources" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec3_6.Types.MongoCfg), global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec3_6.Types.MongoCfg.Parser, new[]{ "Config", "Resources" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec3_6.Types.Mongos), global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec3_6.Types.Mongos.Parser, new[]{ "Config", "Resources" }, null, null, null, null)}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_0), global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_0.Parser, new[]{ "Mongod", "Mongocfg", "Mongos" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_0.Types.Mongod), global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_0.Types.Mongod.Parser, new[]{ "Config", "Resources" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_0.Types.MongoCfg), global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_0.Types.MongoCfg.Parser, new[]{ "Config", "Resources" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_0.Types.Mongos), global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_0.Types.Mongos.Parser, new[]{ "Config", "Resources" }, null, null, null, null)}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_2), global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_2.Parser, new[]{ "Mongod", "Mongocfg", "Mongos" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_2.Types.Mongod), global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_2.Types.Mongod.Parser, new[]{ "Config", "Resources" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_2.Types.MongoCfg), global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_2.Types.MongoCfg.Parser, new[]{ "Config", "Resources" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_2.Types.Mongos), global::Yandex.Cloud.Mdb.Mongodb.V1.MongodbSpec4_2.Types.Mongos.Parser, new[]{ "Config", "Resources" }, null, null, null, null)}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.ConfigSpec), global::Yandex.Cloud.Mdb.Mongodb.V1.ConfigSpec.Parser, new[]{ "Version", "FeatureCompatibilityVersion", "MongodbSpec36", "MongodbSpec40", "MongodbSpec42", "BackupWindowStart", "Access" }, new[]{ "MongodbSpec" }, null, null, null)
           }));
     }
     #endregion
@@ -1019,7 +1019,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
     /// <summary>Field number for the "labels" field.</summary>
     public const int LabelsFieldNumber = 4;
     private static readonly pbc::MapField<string, string>.Codec _map_labels_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 34);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 34);
     private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
     /// <summary>
     /// Custom labels for the MongoDB cluster as `` key:value `` pairs. Maximum 64 per resource.
@@ -1032,7 +1032,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
 
     /// <summary>Field number for the "environment" field.</summary>
     public const int EnvironmentFieldNumber = 5;
-    private global::Yandex.Cloud.Mdb.Mongodb.V1.Cluster.Types.Environment environment_ = 0;
+    private global::Yandex.Cloud.Mdb.Mongodb.V1.Cluster.Types.Environment environment_ = global::Yandex.Cloud.Mdb.Mongodb.V1.Cluster.Types.Environment.Unspecified;
     /// <summary>
     /// Deployment environment of the MongoDB cluster.
     /// </summary>
@@ -1144,7 +1144,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
       if (Name.Length != 0) hash ^= Name.GetHashCode();
       if (Description.Length != 0) hash ^= Description.GetHashCode();
       hash ^= Labels.GetHashCode();
-      if (Environment != 0) hash ^= Environment.GetHashCode();
+      if (Environment != global::Yandex.Cloud.Mdb.Mongodb.V1.Cluster.Types.Environment.Unspecified) hash ^= Environment.GetHashCode();
       if (configSpec_ != null) hash ^= ConfigSpec.GetHashCode();
       hash ^= databaseSpecs_.GetHashCode();
       hash ^= userSpecs_.GetHashCode();
@@ -1176,7 +1176,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
         output.WriteString(Description);
       }
       labels_.WriteTo(output, _map_labels_codec);
-      if (Environment != 0) {
+      if (Environment != global::Yandex.Cloud.Mdb.Mongodb.V1.Cluster.Types.Environment.Unspecified) {
         output.WriteRawTag(40);
         output.WriteEnum((int) Environment);
       }
@@ -1209,7 +1209,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Description);
       }
       size += labels_.CalculateSize(_map_labels_codec);
-      if (Environment != 0) {
+      if (Environment != global::Yandex.Cloud.Mdb.Mongodb.V1.Cluster.Types.Environment.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Environment);
       }
       if (configSpec_ != null) {
@@ -1242,7 +1242,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
         Description = other.Description;
       }
       labels_.Add(other.labels_);
-      if (other.Environment != 0) {
+      if (other.Environment != global::Yandex.Cloud.Mdb.Mongodb.V1.Cluster.Types.Environment.Unspecified) {
         Environment = other.Environment;
       }
       if (other.configSpec_ != null) {
@@ -1534,7 +1534,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
     /// <summary>Field number for the "labels" field.</summary>
     public const int LabelsFieldNumber = 4;
     private static readonly pbc::MapField<string, string>.Codec _map_labels_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 34);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 34);
     private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
     /// <summary>
     /// Custom labels for the MongoDB cluster as `` key:value `` pairs. Maximum 64 per resource.
@@ -3380,7 +3380,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
     /// <summary>Field number for the "labels" field.</summary>
     public const int LabelsFieldNumber = 4;
     private static readonly pbc::MapField<string, string>.Codec _map_labels_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 34);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 34);
     private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
     /// <summary>
     /// Custom labels for the MongoDB cluster as `` key:value `` pairs. Maximum 64 per resource.
@@ -3393,7 +3393,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
 
     /// <summary>Field number for the "environment" field.</summary>
     public const int EnvironmentFieldNumber = 5;
-    private global::Yandex.Cloud.Mdb.Mongodb.V1.Cluster.Types.Environment environment_ = 0;
+    private global::Yandex.Cloud.Mdb.Mongodb.V1.Cluster.Types.Environment environment_ = global::Yandex.Cloud.Mdb.Mongodb.V1.Cluster.Types.Environment.Unspecified;
     /// <summary>
     /// Deployment environment of the new MongoDB cluster.
     /// </summary>
@@ -3493,7 +3493,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
       if (Name.Length != 0) hash ^= Name.GetHashCode();
       if (Description.Length != 0) hash ^= Description.GetHashCode();
       hash ^= Labels.GetHashCode();
-      if (Environment != 0) hash ^= Environment.GetHashCode();
+      if (Environment != global::Yandex.Cloud.Mdb.Mongodb.V1.Cluster.Types.Environment.Unspecified) hash ^= Environment.GetHashCode();
       if (configSpec_ != null) hash ^= ConfigSpec.GetHashCode();
       hash ^= hostSpecs_.GetHashCode();
       if (NetworkId.Length != 0) hash ^= NetworkId.GetHashCode();
@@ -3524,7 +3524,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
         output.WriteString(Description);
       }
       labels_.WriteTo(output, _map_labels_codec);
-      if (Environment != 0) {
+      if (Environment != global::Yandex.Cloud.Mdb.Mongodb.V1.Cluster.Types.Environment.Unspecified) {
         output.WriteRawTag(40);
         output.WriteEnum((int) Environment);
       }
@@ -3559,7 +3559,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Description);
       }
       size += labels_.CalculateSize(_map_labels_codec);
-      if (Environment != 0) {
+      if (Environment != global::Yandex.Cloud.Mdb.Mongodb.V1.Cluster.Types.Environment.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Environment);
       }
       if (configSpec_ != null) {
@@ -3593,7 +3593,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
         Description = other.Description;
       }
       labels_.Add(other.labels_);
-      if (other.Environment != 0) {
+      if (other.Environment != global::Yandex.Cloud.Mdb.Mongodb.V1.Cluster.Types.Environment.Unspecified) {
         Environment = other.Environment;
       }
       if (other.configSpec_ != null) {
@@ -3880,7 +3880,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
     /// <summary>Field number for the "message" field.</summary>
     public const int MessageFieldNumber = 2;
     private static readonly pbc::MapField<string, string>.Codec _map_message_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 18);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 18);
     private readonly pbc::MapField<string, string> message_ = new pbc::MapField<string, string>();
     /// <summary>
     /// Contents of the log record.
@@ -4060,7 +4060,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
 
     /// <summary>Field number for the "service_type" field.</summary>
     public const int ServiceTypeFieldNumber = 3;
-    private global::Yandex.Cloud.Mdb.Mongodb.V1.ListClusterLogsRequest.Types.ServiceType serviceType_ = 0;
+    private global::Yandex.Cloud.Mdb.Mongodb.V1.ListClusterLogsRequest.Types.ServiceType serviceType_ = global::Yandex.Cloud.Mdb.Mongodb.V1.ListClusterLogsRequest.Types.ServiceType.Unspecified;
     /// <summary>
     /// Type of the service to request logs about.
     /// </summary>
@@ -4154,7 +4154,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
       int hash = 1;
       if (ClusterId.Length != 0) hash ^= ClusterId.GetHashCode();
       hash ^= columnFilter_.GetHashCode();
-      if (ServiceType != 0) hash ^= ServiceType.GetHashCode();
+      if (ServiceType != global::Yandex.Cloud.Mdb.Mongodb.V1.ListClusterLogsRequest.Types.ServiceType.Unspecified) hash ^= ServiceType.GetHashCode();
       if (fromTime_ != null) hash ^= FromTime.GetHashCode();
       if (toTime_ != null) hash ^= ToTime.GetHashCode();
       if (PageSize != 0L) hash ^= PageSize.GetHashCode();
@@ -4177,7 +4177,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
         output.WriteString(ClusterId);
       }
       columnFilter_.WriteTo(output, _repeated_columnFilter_codec);
-      if (ServiceType != 0) {
+      if (ServiceType != global::Yandex.Cloud.Mdb.Mongodb.V1.ListClusterLogsRequest.Types.ServiceType.Unspecified) {
         output.WriteRawTag(24);
         output.WriteEnum((int) ServiceType);
       }
@@ -4209,7 +4209,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(ClusterId);
       }
       size += columnFilter_.CalculateSize(_repeated_columnFilter_codec);
-      if (ServiceType != 0) {
+      if (ServiceType != global::Yandex.Cloud.Mdb.Mongodb.V1.ListClusterLogsRequest.Types.ServiceType.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) ServiceType);
       }
       if (fromTime_ != null) {
@@ -4239,7 +4239,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
         ClusterId = other.ClusterId;
       }
       columnFilter_.Add(other.columnFilter_);
-      if (other.ServiceType != 0) {
+      if (other.ServiceType != global::Yandex.Cloud.Mdb.Mongodb.V1.ListClusterLogsRequest.Types.ServiceType.Unspecified) {
         ServiceType = other.ServiceType;
       }
       if (other.fromTime_ != null) {
@@ -4551,7 +4551,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
 
     /// <summary>Field number for the "service_type" field.</summary>
     public const int ServiceTypeFieldNumber = 3;
-    private global::Yandex.Cloud.Mdb.Mongodb.V1.StreamClusterLogsRequest.Types.ServiceType serviceType_ = 0;
+    private global::Yandex.Cloud.Mdb.Mongodb.V1.StreamClusterLogsRequest.Types.ServiceType serviceType_ = global::Yandex.Cloud.Mdb.Mongodb.V1.StreamClusterLogsRequest.Types.ServiceType.Unspecified;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Mdb.Mongodb.V1.StreamClusterLogsRequest.Types.ServiceType ServiceType {
       get { return serviceType_; }
@@ -4616,7 +4616,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
       int hash = 1;
       if (ClusterId.Length != 0) hash ^= ClusterId.GetHashCode();
       hash ^= columnFilter_.GetHashCode();
-      if (ServiceType != 0) hash ^= ServiceType.GetHashCode();
+      if (ServiceType != global::Yandex.Cloud.Mdb.Mongodb.V1.StreamClusterLogsRequest.Types.ServiceType.Unspecified) hash ^= ServiceType.GetHashCode();
       if (fromTime_ != null) hash ^= FromTime.GetHashCode();
       if (toTime_ != null) hash ^= ToTime.GetHashCode();
       if (_unknownFields != null) {
@@ -4637,7 +4637,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
         output.WriteString(ClusterId);
       }
       columnFilter_.WriteTo(output, _repeated_columnFilter_codec);
-      if (ServiceType != 0) {
+      if (ServiceType != global::Yandex.Cloud.Mdb.Mongodb.V1.StreamClusterLogsRequest.Types.ServiceType.Unspecified) {
         output.WriteRawTag(24);
         output.WriteEnum((int) ServiceType);
       }
@@ -4661,7 +4661,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(ClusterId);
       }
       size += columnFilter_.CalculateSize(_repeated_columnFilter_codec);
-      if (ServiceType != 0) {
+      if (ServiceType != global::Yandex.Cloud.Mdb.Mongodb.V1.StreamClusterLogsRequest.Types.ServiceType.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) ServiceType);
       }
       if (fromTime_ != null) {
@@ -4685,7 +4685,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
         ClusterId = other.ClusterId;
       }
       columnFilter_.Add(other.columnFilter_);
-      if (other.ServiceType != 0) {
+      if (other.ServiceType != global::Yandex.Cloud.Mdb.Mongodb.V1.StreamClusterLogsRequest.Types.ServiceType.Unspecified) {
         ServiceType = other.ServiceType;
       }
       if (other.fromTime_ != null) {
@@ -8987,7 +8987,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
 
     /// <summary>Field number for the "type" field.</summary>
     public const int TypeFieldNumber = 4;
-    private global::Yandex.Cloud.Mdb.Mongodb.V1.Host.Types.Type type_ = 0;
+    private global::Yandex.Cloud.Mdb.Mongodb.V1.Host.Types.Type type_ = global::Yandex.Cloud.Mdb.Mongodb.V1.Host.Types.Type.Unspecified;
     /// <summary>
     /// Type of the host to be deployed.
     /// </summary>
@@ -9040,7 +9040,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
       if (ZoneId.Length != 0) hash ^= ZoneId.GetHashCode();
       if (SubnetId.Length != 0) hash ^= SubnetId.GetHashCode();
       if (AssignPublicIp != false) hash ^= AssignPublicIp.GetHashCode();
-      if (Type != 0) hash ^= Type.GetHashCode();
+      if (Type != global::Yandex.Cloud.Mdb.Mongodb.V1.Host.Types.Type.Unspecified) hash ^= Type.GetHashCode();
       if (ShardName.Length != 0) hash ^= ShardName.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -9067,7 +9067,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
         output.WriteRawTag(24);
         output.WriteBool(AssignPublicIp);
       }
-      if (Type != 0) {
+      if (Type != global::Yandex.Cloud.Mdb.Mongodb.V1.Host.Types.Type.Unspecified) {
         output.WriteRawTag(32);
         output.WriteEnum((int) Type);
       }
@@ -9092,7 +9092,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
       if (AssignPublicIp != false) {
         size += 1 + 1;
       }
-      if (Type != 0) {
+      if (Type != global::Yandex.Cloud.Mdb.Mongodb.V1.Host.Types.Type.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Type);
       }
       if (ShardName.Length != 0) {
@@ -9118,7 +9118,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
       if (other.AssignPublicIp != false) {
         AssignPublicIp = other.AssignPublicIp;
       }
-      if (other.Type != 0) {
+      if (other.Type != global::Yandex.Cloud.Mdb.Mongodb.V1.Host.Types.Type.Unspecified) {
         Type = other.Type;
       }
       if (other.ShardName.Length != 0) {

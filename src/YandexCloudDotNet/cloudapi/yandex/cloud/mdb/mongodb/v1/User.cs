@@ -38,10 +38,10 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
             "bWRiL21vbmdvZGIvdjE7bW9uZ29kYmIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Yandex.Cloud.ValidationReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.User), global::Yandex.Cloud.Mdb.Mongodb.V1.User.Parser, new[]{ "Name", "ClusterId", "Permissions" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Permission), global::Yandex.Cloud.Mdb.Mongodb.V1.Permission.Parser, new[]{ "DatabaseName", "Roles" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.UserSpec), global::Yandex.Cloud.Mdb.Mongodb.V1.UserSpec.Parser, new[]{ "Name", "Password", "Permissions" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.User), global::Yandex.Cloud.Mdb.Mongodb.V1.User.Parser, new[]{ "Name", "ClusterId", "Permissions" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Permission), global::Yandex.Cloud.Mdb.Mongodb.V1.Permission.Parser, new[]{ "DatabaseName", "Roles" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.UserSpec), global::Yandex.Cloud.Mdb.Mongodb.V1.UserSpec.Parser, new[]{ "Name", "Password", "Permissions" }, null, null, null, null)
           }));
     }
     #endregion

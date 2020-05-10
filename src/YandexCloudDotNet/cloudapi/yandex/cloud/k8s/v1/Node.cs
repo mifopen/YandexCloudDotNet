@@ -79,19 +79,19 @@ namespace Yandex.Cloud.K8S.V1 {
             "azhzYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Yandex.Cloud.K8S.V1.IpVersion), }, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.Node), global::Yandex.Cloud.K8S.V1.Node.Parser, new[]{ "Status", "Spec", "CloudStatus", "KubernetesStatus" }, null, new[]{ typeof(global::Yandex.Cloud.K8S.V1.Node.Types.Status) }, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.Node.Types.KubernetesStatus), global::Yandex.Cloud.K8S.V1.Node.Types.KubernetesStatus.Parser, new[]{ "Id", "Conditions", "Taints", "AttachedVolumes" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.Node.Types.CloudStatus), global::Yandex.Cloud.K8S.V1.Node.Types.CloudStatus.Parser, new[]{ "Id", "Status", "StatusMessage" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.Node.Types.Spec), global::Yandex.Cloud.K8S.V1.Node.Types.Spec.Parser, new[]{ "Resources", "Disk" }, null, null, null)}),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.Condition), global::Yandex.Cloud.K8S.V1.Condition.Parser, new[]{ "Type", "Status", "Message", "LastHeartbeatTime", "LastTransitionTime" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.Taint), global::Yandex.Cloud.K8S.V1.Taint.Parser, new[]{ "Key", "Value", "Effect" }, null, new[]{ typeof(global::Yandex.Cloud.K8S.V1.Taint.Types.Effect) }, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.AttachedVolume), global::Yandex.Cloud.K8S.V1.AttachedVolume.Parser, new[]{ "DriverName", "VolumeHandle" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.NodeTemplate), global::Yandex.Cloud.K8S.V1.NodeTemplate.Parser, new[]{ "PlatformId", "ResourcesSpec", "BootDiskSpec", "Metadata", "V4AddressSpec", "SchedulingPolicy" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.NodeAddressSpec), global::Yandex.Cloud.K8S.V1.NodeAddressSpec.Parser, new[]{ "OneToOneNatSpec" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.OneToOneNatSpec), global::Yandex.Cloud.K8S.V1.OneToOneNatSpec.Parser, new[]{ "IpVersion" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.ResourcesSpec), global::Yandex.Cloud.K8S.V1.ResourcesSpec.Parser, new[]{ "Memory", "Cores", "CoreFraction" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.DiskSpec), global::Yandex.Cloud.K8S.V1.DiskSpec.Parser, new[]{ "DiskTypeId", "DiskSize" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.SchedulingPolicy), global::Yandex.Cloud.K8S.V1.SchedulingPolicy.Parser, new[]{ "Preemptible" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Yandex.Cloud.K8S.V1.IpVersion), }, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.Node), global::Yandex.Cloud.K8S.V1.Node.Parser, new[]{ "Status", "Spec", "CloudStatus", "KubernetesStatus" }, null, new[]{ typeof(global::Yandex.Cloud.K8S.V1.Node.Types.Status) }, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.Node.Types.KubernetesStatus), global::Yandex.Cloud.K8S.V1.Node.Types.KubernetesStatus.Parser, new[]{ "Id", "Conditions", "Taints", "AttachedVolumes" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.Node.Types.CloudStatus), global::Yandex.Cloud.K8S.V1.Node.Types.CloudStatus.Parser, new[]{ "Id", "Status", "StatusMessage" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.Node.Types.Spec), global::Yandex.Cloud.K8S.V1.Node.Types.Spec.Parser, new[]{ "Resources", "Disk" }, null, null, null, null)}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.Condition), global::Yandex.Cloud.K8S.V1.Condition.Parser, new[]{ "Type", "Status", "Message", "LastHeartbeatTime", "LastTransitionTime" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.Taint), global::Yandex.Cloud.K8S.V1.Taint.Parser, new[]{ "Key", "Value", "Effect" }, null, new[]{ typeof(global::Yandex.Cloud.K8S.V1.Taint.Types.Effect) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.AttachedVolume), global::Yandex.Cloud.K8S.V1.AttachedVolume.Parser, new[]{ "DriverName", "VolumeHandle" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.NodeTemplate), global::Yandex.Cloud.K8S.V1.NodeTemplate.Parser, new[]{ "PlatformId", "ResourcesSpec", "BootDiskSpec", "Metadata", "V4AddressSpec", "SchedulingPolicy" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.NodeAddressSpec), global::Yandex.Cloud.K8S.V1.NodeAddressSpec.Parser, new[]{ "OneToOneNatSpec" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.OneToOneNatSpec), global::Yandex.Cloud.K8S.V1.OneToOneNatSpec.Parser, new[]{ "IpVersion" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.ResourcesSpec), global::Yandex.Cloud.K8S.V1.ResourcesSpec.Parser, new[]{ "Memory", "Cores", "CoreFraction" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.DiskSpec), global::Yandex.Cloud.K8S.V1.DiskSpec.Parser, new[]{ "DiskTypeId", "DiskSize" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.SchedulingPolicy), global::Yandex.Cloud.K8S.V1.SchedulingPolicy.Parser, new[]{ "Preemptible" }, null, null, null, null)
           }));
     }
     #endregion
@@ -152,7 +152,7 @@ namespace Yandex.Cloud.K8S.V1 {
 
     /// <summary>Field number for the "status" field.</summary>
     public const int StatusFieldNumber = 1;
-    private global::Yandex.Cloud.K8S.V1.Node.Types.Status status_ = 0;
+    private global::Yandex.Cloud.K8S.V1.Node.Types.Status status_ = global::Yandex.Cloud.K8S.V1.Node.Types.Status.Unspecified;
     /// <summary>
     /// Computed node status.
     /// </summary>
@@ -231,7 +231,7 @@ namespace Yandex.Cloud.K8S.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override int GetHashCode() {
       int hash = 1;
-      if (Status != 0) hash ^= Status.GetHashCode();
+      if (Status != global::Yandex.Cloud.K8S.V1.Node.Types.Status.Unspecified) hash ^= Status.GetHashCode();
       if (spec_ != null) hash ^= Spec.GetHashCode();
       if (cloudStatus_ != null) hash ^= CloudStatus.GetHashCode();
       if (kubernetesStatus_ != null) hash ^= KubernetesStatus.GetHashCode();
@@ -248,7 +248,7 @@ namespace Yandex.Cloud.K8S.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public void WriteTo(pb::CodedOutputStream output) {
-      if (Status != 0) {
+      if (Status != global::Yandex.Cloud.K8S.V1.Node.Types.Status.Unspecified) {
         output.WriteRawTag(8);
         output.WriteEnum((int) Status);
       }
@@ -272,7 +272,7 @@ namespace Yandex.Cloud.K8S.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CalculateSize() {
       int size = 0;
-      if (Status != 0) {
+      if (Status != global::Yandex.Cloud.K8S.V1.Node.Types.Status.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Status);
       }
       if (spec_ != null) {
@@ -295,7 +295,7 @@ namespace Yandex.Cloud.K8S.V1 {
       if (other == null) {
         return;
       }
-      if (other.Status != 0) {
+      if (other.Status != global::Yandex.Cloud.K8S.V1.Node.Types.Status.Unspecified) {
         Status = other.Status;
       }
       if (other.spec_ != null) {
@@ -1309,7 +1309,7 @@ namespace Yandex.Cloud.K8S.V1 {
 
     /// <summary>Field number for the "effect" field.</summary>
     public const int EffectFieldNumber = 3;
-    private global::Yandex.Cloud.K8S.V1.Taint.Types.Effect effect_ = 0;
+    private global::Yandex.Cloud.K8S.V1.Taint.Types.Effect effect_ = global::Yandex.Cloud.K8S.V1.Taint.Types.Effect.Unspecified;
     /// <summary>
     /// The effect of the taint on pods that do not tolerate the taint.
     /// </summary>
@@ -1345,7 +1345,7 @@ namespace Yandex.Cloud.K8S.V1 {
       int hash = 1;
       if (Key.Length != 0) hash ^= Key.GetHashCode();
       if (Value.Length != 0) hash ^= Value.GetHashCode();
-      if (Effect != 0) hash ^= Effect.GetHashCode();
+      if (Effect != global::Yandex.Cloud.K8S.V1.Taint.Types.Effect.Unspecified) hash ^= Effect.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1367,7 +1367,7 @@ namespace Yandex.Cloud.K8S.V1 {
         output.WriteRawTag(18);
         output.WriteString(Value);
       }
-      if (Effect != 0) {
+      if (Effect != global::Yandex.Cloud.K8S.V1.Taint.Types.Effect.Unspecified) {
         output.WriteRawTag(24);
         output.WriteEnum((int) Effect);
       }
@@ -1385,7 +1385,7 @@ namespace Yandex.Cloud.K8S.V1 {
       if (Value.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Value);
       }
-      if (Effect != 0) {
+      if (Effect != global::Yandex.Cloud.K8S.V1.Taint.Types.Effect.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Effect);
       }
       if (_unknownFields != null) {
@@ -1405,7 +1405,7 @@ namespace Yandex.Cloud.K8S.V1 {
       if (other.Value.Length != 0) {
         Value = other.Value;
       }
-      if (other.Effect != 0) {
+      if (other.Effect != global::Yandex.Cloud.K8S.V1.Taint.Types.Effect.Unspecified) {
         Effect = other.Effect;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
@@ -1714,7 +1714,7 @@ namespace Yandex.Cloud.K8S.V1 {
     /// <summary>Field number for the "metadata" field.</summary>
     public const int MetadataFieldNumber = 4;
     private static readonly pbc::MapField<string, string>.Codec _map_metadata_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 34);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 34);
     private readonly pbc::MapField<string, string> metadata_ = new pbc::MapField<string, string>();
     /// <summary>
     /// The metadata as `key:value` pairs assigned to this instance template. This includes custom metadata and predefined keys.
@@ -2110,7 +2110,7 @@ namespace Yandex.Cloud.K8S.V1 {
 
     /// <summary>Field number for the "ip_version" field.</summary>
     public const int IpVersionFieldNumber = 1;
-    private global::Yandex.Cloud.K8S.V1.IpVersion ipVersion_ = 0;
+    private global::Yandex.Cloud.K8S.V1.IpVersion ipVersion_ = global::Yandex.Cloud.K8S.V1.IpVersion.Unspecified;
     /// <summary>
     /// IP version for the public IP address.
     /// </summary>
@@ -2142,7 +2142,7 @@ namespace Yandex.Cloud.K8S.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override int GetHashCode() {
       int hash = 1;
-      if (IpVersion != 0) hash ^= IpVersion.GetHashCode();
+      if (IpVersion != global::Yandex.Cloud.K8S.V1.IpVersion.Unspecified) hash ^= IpVersion.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -2156,7 +2156,7 @@ namespace Yandex.Cloud.K8S.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public void WriteTo(pb::CodedOutputStream output) {
-      if (IpVersion != 0) {
+      if (IpVersion != global::Yandex.Cloud.K8S.V1.IpVersion.Unspecified) {
         output.WriteRawTag(8);
         output.WriteEnum((int) IpVersion);
       }
@@ -2168,7 +2168,7 @@ namespace Yandex.Cloud.K8S.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CalculateSize() {
       int size = 0;
-      if (IpVersion != 0) {
+      if (IpVersion != global::Yandex.Cloud.K8S.V1.IpVersion.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) IpVersion);
       }
       if (_unknownFields != null) {
@@ -2182,7 +2182,7 @@ namespace Yandex.Cloud.K8S.V1 {
       if (other == null) {
         return;
       }
-      if (other.IpVersion != 0) {
+      if (other.IpVersion != global::Yandex.Cloud.K8S.V1.IpVersion.Unspecified) {
         IpVersion = other.IpVersion;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);

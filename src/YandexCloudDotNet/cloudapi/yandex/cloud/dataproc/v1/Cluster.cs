@@ -60,11 +60,11 @@ namespace Yandex.Cloud.Dataproc.V1 {
             "Yy92MTtkYXRhcHJvY2IGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Yandex.Cloud.Dataproc.V1.CommonReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.Cluster), global::Yandex.Cloud.Dataproc.V1.Cluster.Parser, new[]{ "Id", "FolderId", "CreatedAt", "Name", "Description", "Labels", "Monitoring", "Config", "Health", "Status", "ZoneId", "ServiceAccountId", "Bucket" }, null, new[]{ typeof(global::Yandex.Cloud.Dataproc.V1.Cluster.Types.Status) }, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.Monitoring), global::Yandex.Cloud.Dataproc.V1.Monitoring.Parser, new[]{ "Name", "Description", "Link" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.HadoopConfig), global::Yandex.Cloud.Dataproc.V1.HadoopConfig.Parser, new[]{ "Services", "Properties", "SshPublicKeys" }, null, new[]{ typeof(global::Yandex.Cloud.Dataproc.V1.HadoopConfig.Types.Service) }, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.ClusterConfig), global::Yandex.Cloud.Dataproc.V1.ClusterConfig.Parser, new[]{ "VersionId", "Hadoop" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.Cluster), global::Yandex.Cloud.Dataproc.V1.Cluster.Parser, new[]{ "Id", "FolderId", "CreatedAt", "Name", "Description", "Labels", "Monitoring", "Config", "Health", "Status", "ZoneId", "ServiceAccountId", "Bucket" }, null, new[]{ typeof(global::Yandex.Cloud.Dataproc.V1.Cluster.Types.Status) }, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.Monitoring), global::Yandex.Cloud.Dataproc.V1.Monitoring.Parser, new[]{ "Name", "Description", "Link" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.HadoopConfig), global::Yandex.Cloud.Dataproc.V1.HadoopConfig.Parser, new[]{ "Services", "Properties", "SshPublicKeys" }, null, new[]{ typeof(global::Yandex.Cloud.Dataproc.V1.HadoopConfig.Types.Service) }, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.ClusterConfig), global::Yandex.Cloud.Dataproc.V1.ClusterConfig.Parser, new[]{ "VersionId", "Hadoop" }, null, null, null, null)
           }));
     }
     #endregion
@@ -193,7 +193,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
     /// <summary>Field number for the "labels" field.</summary>
     public const int LabelsFieldNumber = 6;
     private static readonly pbc::MapField<string, string>.Codec _map_labels_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 50);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 50);
     private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
     /// <summary>
     /// Cluster labels as `key:value` pairs.
@@ -232,7 +232,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
 
     /// <summary>Field number for the "health" field.</summary>
     public const int HealthFieldNumber = 9;
-    private global::Yandex.Cloud.Dataproc.V1.Health health_ = 0;
+    private global::Yandex.Cloud.Dataproc.V1.Health health_ = global::Yandex.Cloud.Dataproc.V1.Health.Unknown;
     /// <summary>
     /// Aggregated cluster health.
     /// </summary>
@@ -246,7 +246,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
 
     /// <summary>Field number for the "status" field.</summary>
     public const int StatusFieldNumber = 10;
-    private global::Yandex.Cloud.Dataproc.V1.Cluster.Types.Status status_ = 0;
+    private global::Yandex.Cloud.Dataproc.V1.Cluster.Types.Status status_ = global::Yandex.Cloud.Dataproc.V1.Cluster.Types.Status.Unknown;
     /// <summary>
     /// Cluster status.
     /// </summary>
@@ -340,8 +340,8 @@ namespace Yandex.Cloud.Dataproc.V1 {
       hash ^= Labels.GetHashCode();
       hash ^= monitoring_.GetHashCode();
       if (config_ != null) hash ^= Config.GetHashCode();
-      if (Health != 0) hash ^= Health.GetHashCode();
-      if (Status != 0) hash ^= Status.GetHashCode();
+      if (Health != global::Yandex.Cloud.Dataproc.V1.Health.Unknown) hash ^= Health.GetHashCode();
+      if (Status != global::Yandex.Cloud.Dataproc.V1.Cluster.Types.Status.Unknown) hash ^= Status.GetHashCode();
       if (ZoneId.Length != 0) hash ^= ZoneId.GetHashCode();
       if (ServiceAccountId.Length != 0) hash ^= ServiceAccountId.GetHashCode();
       if (Bucket.Length != 0) hash ^= Bucket.GetHashCode();
@@ -384,11 +384,11 @@ namespace Yandex.Cloud.Dataproc.V1 {
         output.WriteRawTag(66);
         output.WriteMessage(Config);
       }
-      if (Health != 0) {
+      if (Health != global::Yandex.Cloud.Dataproc.V1.Health.Unknown) {
         output.WriteRawTag(72);
         output.WriteEnum((int) Health);
       }
-      if (Status != 0) {
+      if (Status != global::Yandex.Cloud.Dataproc.V1.Cluster.Types.Status.Unknown) {
         output.WriteRawTag(80);
         output.WriteEnum((int) Status);
       }
@@ -432,10 +432,10 @@ namespace Yandex.Cloud.Dataproc.V1 {
       if (config_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(Config);
       }
-      if (Health != 0) {
+      if (Health != global::Yandex.Cloud.Dataproc.V1.Health.Unknown) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Health);
       }
-      if (Status != 0) {
+      if (Status != global::Yandex.Cloud.Dataproc.V1.Cluster.Types.Status.Unknown) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Status);
       }
       if (ZoneId.Length != 0) {
@@ -484,10 +484,10 @@ namespace Yandex.Cloud.Dataproc.V1 {
         }
         Config.MergeFrom(other.Config);
       }
-      if (other.Health != 0) {
+      if (other.Health != global::Yandex.Cloud.Dataproc.V1.Health.Unknown) {
         Health = other.Health;
       }
-      if (other.Status != 0) {
+      if (other.Status != global::Yandex.Cloud.Dataproc.V1.Cluster.Types.Status.Unknown) {
         Status = other.Status;
       }
       if (other.ZoneId.Length != 0) {
@@ -865,7 +865,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
     /// <summary>Field number for the "properties" field.</summary>
     public const int PropertiesFieldNumber = 2;
     private static readonly pbc::MapField<string, string>.Codec _map_properties_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 18);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 18);
     private readonly pbc::MapField<string, string> properties_ = new pbc::MapField<string, string>();
     /// <summary>
     /// Properties set for all hosts in `*-site.xml` configurations. The key should indicate

@@ -37,8 +37,8 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
             "ZWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
-          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.FormatSchemaType), }, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.FormatSchema), global::Yandex.Cloud.Mdb.Clickhouse.V1.FormatSchema.Parser, new[]{ "Name", "ClusterId", "Type", "Uri" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.FormatSchemaType), }, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.FormatSchema), global::Yandex.Cloud.Mdb.Clickhouse.V1.FormatSchema.Parser, new[]{ "Name", "ClusterId", "Type", "Uri" }, null, null, null, null)
           }));
     }
     #endregion
@@ -115,7 +115,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
 
     /// <summary>Field number for the "type" field.</summary>
     public const int TypeFieldNumber = 3;
-    private global::Yandex.Cloud.Mdb.Clickhouse.V1.FormatSchemaType type_ = 0;
+    private global::Yandex.Cloud.Mdb.Clickhouse.V1.FormatSchemaType type_ = global::Yandex.Cloud.Mdb.Clickhouse.V1.FormatSchemaType.Unspecified;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Mdb.Clickhouse.V1.FormatSchemaType Type {
       get { return type_; }
@@ -160,7 +160,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
       if (ClusterId.Length != 0) hash ^= ClusterId.GetHashCode();
-      if (Type != 0) hash ^= Type.GetHashCode();
+      if (Type != global::Yandex.Cloud.Mdb.Clickhouse.V1.FormatSchemaType.Unspecified) hash ^= Type.GetHashCode();
       if (Uri.Length != 0) hash ^= Uri.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -183,7 +183,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
         output.WriteRawTag(18);
         output.WriteString(ClusterId);
       }
-      if (Type != 0) {
+      if (Type != global::Yandex.Cloud.Mdb.Clickhouse.V1.FormatSchemaType.Unspecified) {
         output.WriteRawTag(24);
         output.WriteEnum((int) Type);
       }
@@ -205,7 +205,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       if (ClusterId.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(ClusterId);
       }
-      if (Type != 0) {
+      if (Type != global::Yandex.Cloud.Mdb.Clickhouse.V1.FormatSchemaType.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Type);
       }
       if (Uri.Length != 0) {
@@ -228,7 +228,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       if (other.ClusterId.Length != 0) {
         ClusterId = other.ClusterId;
       }
-      if (other.Type != 0) {
+      if (other.Type != global::Yandex.Cloud.Mdb.Clickhouse.V1.FormatSchemaType.Unspecified) {
         Type = other.Type;
       }
       if (other.Uri.Length != 0) {

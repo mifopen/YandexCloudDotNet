@@ -46,9 +46,9 @@ namespace Yandex.Cloud.Containerregistry.V1 {
             "Mw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Yandex.Cloud.ValidationReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.DurationReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.LifecyclePolicy), global::Yandex.Cloud.Containerregistry.V1.LifecyclePolicy.Parser, new[]{ "Id", "Name", "RepositoryId", "Description", "Status", "CreatedAt", "Rules" }, null, new[]{ typeof(global::Yandex.Cloud.Containerregistry.V1.LifecyclePolicy.Types.Status) }, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.LifecycleRule), global::Yandex.Cloud.Containerregistry.V1.LifecycleRule.Parser, new[]{ "Description", "ExpirePeriod", "TagRegexp", "Untagged", "RetainedTop" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.LifecyclePolicy), global::Yandex.Cloud.Containerregistry.V1.LifecyclePolicy.Parser, new[]{ "Id", "Name", "RepositoryId", "Description", "Status", "CreatedAt", "Rules" }, null, new[]{ typeof(global::Yandex.Cloud.Containerregistry.V1.LifecyclePolicy.Types.Status) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.LifecycleRule), global::Yandex.Cloud.Containerregistry.V1.LifecycleRule.Parser, new[]{ "Description", "ExpirePeriod", "TagRegexp", "Untagged", "RetainedTop" }, null, null, null, null)
           }));
     }
     #endregion
@@ -141,7 +141,7 @@ namespace Yandex.Cloud.Containerregistry.V1 {
 
     /// <summary>Field number for the "status" field.</summary>
     public const int StatusFieldNumber = 5;
-    private global::Yandex.Cloud.Containerregistry.V1.LifecyclePolicy.Types.Status status_ = 0;
+    private global::Yandex.Cloud.Containerregistry.V1.LifecyclePolicy.Types.Status status_ = global::Yandex.Cloud.Containerregistry.V1.LifecyclePolicy.Types.Status.Unspecified;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Containerregistry.V1.LifecyclePolicy.Types.Status Status {
       get { return status_; }
@@ -201,7 +201,7 @@ namespace Yandex.Cloud.Containerregistry.V1 {
       if (Name.Length != 0) hash ^= Name.GetHashCode();
       if (RepositoryId.Length != 0) hash ^= RepositoryId.GetHashCode();
       if (Description.Length != 0) hash ^= Description.GetHashCode();
-      if (Status != 0) hash ^= Status.GetHashCode();
+      if (Status != global::Yandex.Cloud.Containerregistry.V1.LifecyclePolicy.Types.Status.Unspecified) hash ^= Status.GetHashCode();
       if (createdAt_ != null) hash ^= CreatedAt.GetHashCode();
       hash ^= rules_.GetHashCode();
       if (_unknownFields != null) {
@@ -233,7 +233,7 @@ namespace Yandex.Cloud.Containerregistry.V1 {
         output.WriteRawTag(34);
         output.WriteString(Description);
       }
-      if (Status != 0) {
+      if (Status != global::Yandex.Cloud.Containerregistry.V1.LifecyclePolicy.Types.Status.Unspecified) {
         output.WriteRawTag(40);
         output.WriteEnum((int) Status);
       }
@@ -262,7 +262,7 @@ namespace Yandex.Cloud.Containerregistry.V1 {
       if (Description.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Description);
       }
-      if (Status != 0) {
+      if (Status != global::Yandex.Cloud.Containerregistry.V1.LifecyclePolicy.Types.Status.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Status);
       }
       if (createdAt_ != null) {
@@ -292,7 +292,7 @@ namespace Yandex.Cloud.Containerregistry.V1 {
       if (other.Description.Length != 0) {
         Description = other.Description;
       }
-      if (other.Status != 0) {
+      if (other.Status != global::Yandex.Cloud.Containerregistry.V1.LifecyclePolicy.Types.Status.Unspecified) {
         Status = other.Status;
       }
       if (other.createdAt_ != null) {

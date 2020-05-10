@@ -33,9 +33,9 @@ namespace Yandex.Cloud.Ai.Vision.V1 {
             "YW5kZXgvY2xvdWQvYWkvdmlzaW9uL3YxO3Zpc2lvbmIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Vision.V1.ClassAnnotation), global::Yandex.Cloud.Ai.Vision.V1.ClassAnnotation.Parser, new[]{ "Properties" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Vision.V1.Property), global::Yandex.Cloud.Ai.Vision.V1.Property.Parser, new[]{ "Name", "Probability" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Vision.V1.ClassAnnotation), global::Yandex.Cloud.Ai.Vision.V1.ClassAnnotation.Parser, new[]{ "Properties" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Vision.V1.Property), global::Yandex.Cloud.Ai.Vision.V1.Property.Parser, new[]{ "Name", "Probability" }, null, null, null, null)
           }));
     }
     #endregion

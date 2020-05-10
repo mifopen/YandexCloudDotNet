@@ -45,7 +45,7 @@ namespace Yandex.Cloud.Mdb.Redis.V1Alpha {
     {
       /// <summary>Creates a new client for BackupService</summary>
       /// <param name="channel">The channel to use to make remote calls.</param>
-      public BackupServiceClient(grpc::Channel channel) : base(channel)
+      public BackupServiceClient(grpc::ChannelBase channel) : base(channel)
       {
       }
       /// <summary>Creates a new client for BackupService that uses a custom <c>CallInvoker</c>.</summary>

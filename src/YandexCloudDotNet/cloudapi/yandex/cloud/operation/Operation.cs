@@ -39,8 +39,8 @@ namespace Yandex.Cloud.Operation {
             "cmF0aW9uO29wZXJhdGlvbmIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.AnyReflection.Descriptor, global::Google.Rpc.StatusReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Operation.Operation), global::Yandex.Cloud.Operation.Operation.Parser, new[]{ "Id", "Description", "CreatedAt", "CreatedBy", "ModifiedAt", "Done", "Metadata", "Error", "Response" }, new[]{ "Result" }, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Operation.Operation), global::Yandex.Cloud.Operation.Operation.Parser, new[]{ "Id", "Description", "CreatedAt", "CreatedBy", "ModifiedAt", "Done", "Metadata", "Error", "Response" }, new[]{ "Result" }, null, null, null)
           }));
     }
     #endregion

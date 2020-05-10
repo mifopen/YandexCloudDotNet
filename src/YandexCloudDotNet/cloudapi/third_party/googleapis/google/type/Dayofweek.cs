@@ -33,7 +33,7 @@ namespace Google.Type {
             "YXlvZndlZWuiAgNHVFBiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
-          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Google.Type.DayOfWeek), }, null));
+          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Google.Type.DayOfWeek), }, null, null));
     }
     #endregion
 

@@ -33,8 +33,8 @@ namespace Yandex.Cloud.Compute.V1 {
             "cHJvdG8veWFuZGV4L2Nsb3VkL2NvbXB1dGUvdjE7Y29tcHV0ZWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Zone), global::Yandex.Cloud.Compute.V1.Zone.Parser, new[]{ "Id", "RegionId", "Status" }, null, new[]{ typeof(global::Yandex.Cloud.Compute.V1.Zone.Types.Status) }, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Zone), global::Yandex.Cloud.Compute.V1.Zone.Parser, new[]{ "Id", "RegionId", "Status" }, null, new[]{ typeof(global::Yandex.Cloud.Compute.V1.Zone.Types.Status) }, null, null)
           }));
     }
     #endregion
@@ -110,7 +110,7 @@ namespace Yandex.Cloud.Compute.V1 {
 
     /// <summary>Field number for the "status" field.</summary>
     public const int StatusFieldNumber = 3;
-    private global::Yandex.Cloud.Compute.V1.Zone.Types.Status status_ = 0;
+    private global::Yandex.Cloud.Compute.V1.Zone.Types.Status status_ = global::Yandex.Cloud.Compute.V1.Zone.Types.Status.Unspecified;
     /// <summary>
     /// Status of the zone.
     /// </summary>
@@ -146,7 +146,7 @@ namespace Yandex.Cloud.Compute.V1 {
       int hash = 1;
       if (Id.Length != 0) hash ^= Id.GetHashCode();
       if (RegionId.Length != 0) hash ^= RegionId.GetHashCode();
-      if (Status != 0) hash ^= Status.GetHashCode();
+      if (Status != global::Yandex.Cloud.Compute.V1.Zone.Types.Status.Unspecified) hash ^= Status.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -168,7 +168,7 @@ namespace Yandex.Cloud.Compute.V1 {
         output.WriteRawTag(18);
         output.WriteString(RegionId);
       }
-      if (Status != 0) {
+      if (Status != global::Yandex.Cloud.Compute.V1.Zone.Types.Status.Unspecified) {
         output.WriteRawTag(24);
         output.WriteEnum((int) Status);
       }
@@ -186,7 +186,7 @@ namespace Yandex.Cloud.Compute.V1 {
       if (RegionId.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(RegionId);
       }
-      if (Status != 0) {
+      if (Status != global::Yandex.Cloud.Compute.V1.Zone.Types.Status.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Status);
       }
       if (_unknownFields != null) {
@@ -206,7 +206,7 @@ namespace Yandex.Cloud.Compute.V1 {
       if (other.RegionId.Length != 0) {
         RegionId = other.RegionId;
       }
-      if (other.Status != 0) {
+      if (other.Status != global::Yandex.Cloud.Compute.V1.Zone.Types.Status.Unspecified) {
         Status = other.Status;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);

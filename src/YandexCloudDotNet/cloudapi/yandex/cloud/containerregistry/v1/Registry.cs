@@ -40,8 +40,8 @@ namespace Yandex.Cloud.Containerregistry.V1 {
             "bmVycmVnaXN0cnkvdjE7Y29udGFpbmVycmVnaXN0cnliBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.Registry), global::Yandex.Cloud.Containerregistry.V1.Registry.Parser, new[]{ "Id", "FolderId", "Name", "Status", "CreatedAt", "Labels" }, null, new[]{ typeof(global::Yandex.Cloud.Containerregistry.V1.Registry.Types.Status) }, new pbr::GeneratedClrTypeInfo[] { null, })
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.Registry), global::Yandex.Cloud.Containerregistry.V1.Registry.Parser, new[]{ "Id", "FolderId", "Name", "Status", "CreatedAt", "Labels" }, null, new[]{ typeof(global::Yandex.Cloud.Containerregistry.V1.Registry.Types.Status) }, null, new pbr::GeneratedClrTypeInfo[] { null, })
           }));
     }
     #endregion
@@ -134,7 +134,7 @@ namespace Yandex.Cloud.Containerregistry.V1 {
 
     /// <summary>Field number for the "status" field.</summary>
     public const int StatusFieldNumber = 4;
-    private global::Yandex.Cloud.Containerregistry.V1.Registry.Types.Status status_ = 0;
+    private global::Yandex.Cloud.Containerregistry.V1.Registry.Types.Status status_ = global::Yandex.Cloud.Containerregistry.V1.Registry.Types.Status.Unspecified;
     /// <summary>
     /// Output only. Status of the registry.
     /// </summary>
@@ -163,7 +163,7 @@ namespace Yandex.Cloud.Containerregistry.V1 {
     /// <summary>Field number for the "labels" field.</summary>
     public const int LabelsFieldNumber = 6;
     private static readonly pbc::MapField<string, string>.Codec _map_labels_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 50);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 50);
     private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
     /// <summary>
     /// Resource labels as `key:value` pairs. Мaximum of 64 per resource.
@@ -201,7 +201,7 @@ namespace Yandex.Cloud.Containerregistry.V1 {
       if (Id.Length != 0) hash ^= Id.GetHashCode();
       if (FolderId.Length != 0) hash ^= FolderId.GetHashCode();
       if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (Status != 0) hash ^= Status.GetHashCode();
+      if (Status != global::Yandex.Cloud.Containerregistry.V1.Registry.Types.Status.Unspecified) hash ^= Status.GetHashCode();
       if (createdAt_ != null) hash ^= CreatedAt.GetHashCode();
       hash ^= Labels.GetHashCode();
       if (_unknownFields != null) {
@@ -229,7 +229,7 @@ namespace Yandex.Cloud.Containerregistry.V1 {
         output.WriteRawTag(26);
         output.WriteString(Name);
       }
-      if (Status != 0) {
+      if (Status != global::Yandex.Cloud.Containerregistry.V1.Registry.Types.Status.Unspecified) {
         output.WriteRawTag(32);
         output.WriteEnum((int) Status);
       }
@@ -255,7 +255,7 @@ namespace Yandex.Cloud.Containerregistry.V1 {
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
-      if (Status != 0) {
+      if (Status != global::Yandex.Cloud.Containerregistry.V1.Registry.Types.Status.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Status);
       }
       if (createdAt_ != null) {
@@ -282,7 +282,7 @@ namespace Yandex.Cloud.Containerregistry.V1 {
       if (other.Name.Length != 0) {
         Name = other.Name;
       }
-      if (other.Status != 0) {
+      if (other.Status != global::Yandex.Cloud.Containerregistry.V1.Registry.Types.Status.Unspecified) {
         Status = other.Status;
       }
       if (other.createdAt_ != null) {

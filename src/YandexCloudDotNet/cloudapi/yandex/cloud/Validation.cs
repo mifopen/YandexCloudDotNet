@@ -40,14 +40,34 @@ namespace Yandex.Cloud {
             "WjZnaXRodWIuY29tL3lhbmRleC1jbG91ZC9nby1nZW5wcm90by95YW5kZXgv",
             "Y2xvdWQ7Y2xvdWRiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { pbr::FileDescriptor.DescriptorProtoFileDescriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.MapKeySpec), global::Yandex.Cloud.MapKeySpec.Parser, new[]{ "Value", "Pattern", "Length" }, null, null, null)
+          new pbr::FileDescriptor[] { global::Google.Protobuf.Reflection.DescriptorReflection.Descriptor, },
+          new pbr::GeneratedClrTypeInfo(null, new pb::Extension[] { ValidationExtensions.ExactlyOne, ValidationExtensions.Required, ValidationExtensions.Pattern, ValidationExtensions.Value, ValidationExtensions.Size, ValidationExtensions.Length, ValidationExtensions.Unique, ValidationExtensions.MapKey }, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.MapKeySpec), global::Yandex.Cloud.MapKeySpec.Parser, new[]{ "Value", "Pattern", "Length" }, null, null, null, null)
           }));
     }
     #endregion
 
   }
+  /// <summary>Holder for extension identifiers generated from the top level of yandex/cloud/validation.proto</summary>
+  internal static partial class ValidationExtensions {
+    public static readonly pb::Extension<global::Google.Protobuf.Reflection.OneofOptions, bool> ExactlyOne =
+      new pb::Extension<global::Google.Protobuf.Reflection.OneofOptions, bool>(101400, pb::FieldCodec.ForBool(811200, false));
+    public static readonly pb::Extension<global::Google.Protobuf.Reflection.FieldOptions, bool> Required =
+      new pb::Extension<global::Google.Protobuf.Reflection.FieldOptions, bool>(101501, pb::FieldCodec.ForBool(812008, false));
+    public static readonly pb::Extension<global::Google.Protobuf.Reflection.FieldOptions, string> Pattern =
+      new pb::Extension<global::Google.Protobuf.Reflection.FieldOptions, string>(101502, pb::FieldCodec.ForString(812018, ""));
+    public static readonly pb::Extension<global::Google.Protobuf.Reflection.FieldOptions, string> Value =
+      new pb::Extension<global::Google.Protobuf.Reflection.FieldOptions, string>(101503, pb::FieldCodec.ForString(812026, ""));
+    public static readonly pb::Extension<global::Google.Protobuf.Reflection.FieldOptions, string> Size =
+      new pb::Extension<global::Google.Protobuf.Reflection.FieldOptions, string>(101504, pb::FieldCodec.ForString(812034, ""));
+    public static readonly pb::Extension<global::Google.Protobuf.Reflection.FieldOptions, string> Length =
+      new pb::Extension<global::Google.Protobuf.Reflection.FieldOptions, string>(101505, pb::FieldCodec.ForString(812042, ""));
+    public static readonly pb::Extension<global::Google.Protobuf.Reflection.FieldOptions, bool> Unique =
+      new pb::Extension<global::Google.Protobuf.Reflection.FieldOptions, bool>(101506, pb::FieldCodec.ForBool(812048, false));
+    public static readonly pb::Extension<global::Google.Protobuf.Reflection.FieldOptions, global::Yandex.Cloud.MapKeySpec> MapKey =
+      new pb::Extension<global::Google.Protobuf.Reflection.FieldOptions, global::Yandex.Cloud.MapKeySpec>(101510, pb::FieldCodec.ForMessage(812082, global::Yandex.Cloud.MapKeySpec.Parser));
+  }
+
   #region Messages
   internal sealed partial class MapKeySpec : pb::IMessage<MapKeySpec> {
     private static readonly pb::MessageParser<MapKeySpec> _parser = new pb::MessageParser<MapKeySpec>(() => new MapKeySpec());

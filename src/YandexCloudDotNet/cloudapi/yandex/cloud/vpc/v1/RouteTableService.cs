@@ -101,20 +101,20 @@ namespace Yandex.Cloud.Vpc.V1 {
             "bnByb3RvL3lhbmRleC9jbG91ZC92cGMvdjE7dnBjYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Yandex.Cloud.Api.OperationReflection.Descriptor, global::Yandex.Cloud.Vpc.V1.RouteTableReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.GetRouteTableRequest), global::Yandex.Cloud.Vpc.V1.GetRouteTableRequest.Parser, new[]{ "RouteTableId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.ListRouteTablesRequest), global::Yandex.Cloud.Vpc.V1.ListRouteTablesRequest.Parser, new[]{ "FolderId", "PageSize", "PageToken", "Filter" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.ListRouteTablesResponse), global::Yandex.Cloud.Vpc.V1.ListRouteTablesResponse.Parser, new[]{ "RouteTables", "NextPageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.CreateRouteTableRequest), global::Yandex.Cloud.Vpc.V1.CreateRouteTableRequest.Parser, new[]{ "FolderId", "Name", "Description", "Labels", "NetworkId", "StaticRoutes" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.CreateRouteTableMetadata), global::Yandex.Cloud.Vpc.V1.CreateRouteTableMetadata.Parser, new[]{ "RouteTableId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.UpdateRouteTableRequest), global::Yandex.Cloud.Vpc.V1.UpdateRouteTableRequest.Parser, new[]{ "RouteTableId", "UpdateMask", "Name", "Description", "Labels", "StaticRoutes" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.UpdateRouteTableMetadata), global::Yandex.Cloud.Vpc.V1.UpdateRouteTableMetadata.Parser, new[]{ "RouteTableId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.DeleteRouteTableRequest), global::Yandex.Cloud.Vpc.V1.DeleteRouteTableRequest.Parser, new[]{ "RouteTableId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.DeleteRouteTableMetadata), global::Yandex.Cloud.Vpc.V1.DeleteRouteTableMetadata.Parser, new[]{ "RouteTableId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.ListRouteTableOperationsRequest), global::Yandex.Cloud.Vpc.V1.ListRouteTableOperationsRequest.Parser, new[]{ "RouteTableId", "PageSize", "PageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.ListRouteTableOperationsResponse), global::Yandex.Cloud.Vpc.V1.ListRouteTableOperationsResponse.Parser, new[]{ "Operations", "NextPageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.MoveRouteTableRequest), global::Yandex.Cloud.Vpc.V1.MoveRouteTableRequest.Parser, new[]{ "RouteTableId", "DestinationFolderId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.MoveRouteTableMetadata), global::Yandex.Cloud.Vpc.V1.MoveRouteTableMetadata.Parser, new[]{ "RouteTableId" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.GetRouteTableRequest), global::Yandex.Cloud.Vpc.V1.GetRouteTableRequest.Parser, new[]{ "RouteTableId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.ListRouteTablesRequest), global::Yandex.Cloud.Vpc.V1.ListRouteTablesRequest.Parser, new[]{ "FolderId", "PageSize", "PageToken", "Filter" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.ListRouteTablesResponse), global::Yandex.Cloud.Vpc.V1.ListRouteTablesResponse.Parser, new[]{ "RouteTables", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.CreateRouteTableRequest), global::Yandex.Cloud.Vpc.V1.CreateRouteTableRequest.Parser, new[]{ "FolderId", "Name", "Description", "Labels", "NetworkId", "StaticRoutes" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.CreateRouteTableMetadata), global::Yandex.Cloud.Vpc.V1.CreateRouteTableMetadata.Parser, new[]{ "RouteTableId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.UpdateRouteTableRequest), global::Yandex.Cloud.Vpc.V1.UpdateRouteTableRequest.Parser, new[]{ "RouteTableId", "UpdateMask", "Name", "Description", "Labels", "StaticRoutes" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.UpdateRouteTableMetadata), global::Yandex.Cloud.Vpc.V1.UpdateRouteTableMetadata.Parser, new[]{ "RouteTableId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.DeleteRouteTableRequest), global::Yandex.Cloud.Vpc.V1.DeleteRouteTableRequest.Parser, new[]{ "RouteTableId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.DeleteRouteTableMetadata), global::Yandex.Cloud.Vpc.V1.DeleteRouteTableMetadata.Parser, new[]{ "RouteTableId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.ListRouteTableOperationsRequest), global::Yandex.Cloud.Vpc.V1.ListRouteTableOperationsRequest.Parser, new[]{ "RouteTableId", "PageSize", "PageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.ListRouteTableOperationsResponse), global::Yandex.Cloud.Vpc.V1.ListRouteTableOperationsResponse.Parser, new[]{ "Operations", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.MoveRouteTableRequest), global::Yandex.Cloud.Vpc.V1.MoveRouteTableRequest.Parser, new[]{ "RouteTableId", "DestinationFolderId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.MoveRouteTableMetadata), global::Yandex.Cloud.Vpc.V1.MoveRouteTableMetadata.Parser, new[]{ "RouteTableId" }, null, null, null, null)
           }));
     }
     #endregion
@@ -734,7 +734,7 @@ namespace Yandex.Cloud.Vpc.V1 {
     /// <summary>Field number for the "labels" field.</summary>
     public const int LabelsFieldNumber = 4;
     private static readonly pbc::MapField<string, string>.Codec _map_labels_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 34);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 34);
     private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
     /// <summary>
     /// Resource labels, `` key:value `` pairs.
@@ -1152,7 +1152,7 @@ namespace Yandex.Cloud.Vpc.V1 {
     /// <summary>Field number for the "labels" field.</summary>
     public const int LabelsFieldNumber = 5;
     private static readonly pbc::MapField<string, string>.Codec _map_labels_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 42);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 42);
     private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
     /// <summary>
     /// Resource labels as `` key:value `` pairs.

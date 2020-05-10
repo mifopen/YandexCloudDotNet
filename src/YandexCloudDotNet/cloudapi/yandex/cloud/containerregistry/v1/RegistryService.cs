@@ -100,16 +100,16 @@ namespace Yandex.Cloud.Containerregistry.V1 {
             "bmVycmVnaXN0cnkvdjE7Y29udGFpbmVycmVnaXN0cnliBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Yandex.Cloud.Api.OperationReflection.Descriptor, global::Yandex.Cloud.Access.AccessReflection.Descriptor, global::Yandex.Cloud.Containerregistry.V1.RegistryReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Google.Api.AnnotationsReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.GetRegistryRequest), global::Yandex.Cloud.Containerregistry.V1.GetRegistryRequest.Parser, new[]{ "RegistryId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.ListRegistriesRequest), global::Yandex.Cloud.Containerregistry.V1.ListRegistriesRequest.Parser, new[]{ "FolderId", "PageSize", "PageToken", "Filter" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.ListRegistriesResponse), global::Yandex.Cloud.Containerregistry.V1.ListRegistriesResponse.Parser, new[]{ "Registries", "NextPageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.CreateRegistryRequest), global::Yandex.Cloud.Containerregistry.V1.CreateRegistryRequest.Parser, new[]{ "FolderId", "Name", "Labels" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.CreateRegistryMetadata), global::Yandex.Cloud.Containerregistry.V1.CreateRegistryMetadata.Parser, new[]{ "RegistryId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.UpdateRegistryRequest), global::Yandex.Cloud.Containerregistry.V1.UpdateRegistryRequest.Parser, new[]{ "RegistryId", "UpdateMask", "Name", "Labels" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.UpdateRegistryMetadata), global::Yandex.Cloud.Containerregistry.V1.UpdateRegistryMetadata.Parser, new[]{ "RegistryId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.DeleteRegistryRequest), global::Yandex.Cloud.Containerregistry.V1.DeleteRegistryRequest.Parser, new[]{ "RegistryId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.DeleteRegistryMetadata), global::Yandex.Cloud.Containerregistry.V1.DeleteRegistryMetadata.Parser, new[]{ "RegistryId" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.GetRegistryRequest), global::Yandex.Cloud.Containerregistry.V1.GetRegistryRequest.Parser, new[]{ "RegistryId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.ListRegistriesRequest), global::Yandex.Cloud.Containerregistry.V1.ListRegistriesRequest.Parser, new[]{ "FolderId", "PageSize", "PageToken", "Filter" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.ListRegistriesResponse), global::Yandex.Cloud.Containerregistry.V1.ListRegistriesResponse.Parser, new[]{ "Registries", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.CreateRegistryRequest), global::Yandex.Cloud.Containerregistry.V1.CreateRegistryRequest.Parser, new[]{ "FolderId", "Name", "Labels" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.CreateRegistryMetadata), global::Yandex.Cloud.Containerregistry.V1.CreateRegistryMetadata.Parser, new[]{ "RegistryId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.UpdateRegistryRequest), global::Yandex.Cloud.Containerregistry.V1.UpdateRegistryRequest.Parser, new[]{ "RegistryId", "UpdateMask", "Name", "Labels" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.UpdateRegistryMetadata), global::Yandex.Cloud.Containerregistry.V1.UpdateRegistryMetadata.Parser, new[]{ "RegistryId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.DeleteRegistryRequest), global::Yandex.Cloud.Containerregistry.V1.DeleteRegistryRequest.Parser, new[]{ "RegistryId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.DeleteRegistryMetadata), global::Yandex.Cloud.Containerregistry.V1.DeleteRegistryMetadata.Parser, new[]{ "RegistryId" }, null, null, null, null)
           }));
     }
     #endregion
@@ -717,7 +717,7 @@ namespace Yandex.Cloud.Containerregistry.V1 {
     /// <summary>Field number for the "labels" field.</summary>
     public const int LabelsFieldNumber = 3;
     private static readonly pbc::MapField<string, string>.Codec _map_labels_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 26);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 26);
     private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
     /// <summary>
     /// Resource labels as `key:value` pairs.
@@ -1054,7 +1054,7 @@ namespace Yandex.Cloud.Containerregistry.V1 {
     /// <summary>Field number for the "labels" field.</summary>
     public const int LabelsFieldNumber = 4;
     private static readonly pbc::MapField<string, string>.Codec _map_labels_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 34);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 34);
     private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
     /// <summary>
     /// Resource labels as `key:value` pairs.

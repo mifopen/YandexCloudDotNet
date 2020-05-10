@@ -35,9 +35,9 @@ namespace Yandex.Cloud.Ai.Vision.V1 {
             "aXNpb24vdjE7dmlzaW9uYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Vision.V1.ImageCopySearchAnnotation), global::Yandex.Cloud.Ai.Vision.V1.ImageCopySearchAnnotation.Parser, new[]{ "CopyCount", "TopResults" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Vision.V1.CopyMatch), global::Yandex.Cloud.Ai.Vision.V1.CopyMatch.Parser, new[]{ "ImageUrl", "PageUrl", "Title", "Description" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Vision.V1.ImageCopySearchAnnotation), global::Yandex.Cloud.Ai.Vision.V1.ImageCopySearchAnnotation.Parser, new[]{ "CopyCount", "TopResults" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Vision.V1.CopyMatch), global::Yandex.Cloud.Ai.Vision.V1.CopyMatch.Parser, new[]{ "ImageUrl", "PageUrl", "Title", "Description" }, null, null, null, null)
           }));
     }
     #endregion

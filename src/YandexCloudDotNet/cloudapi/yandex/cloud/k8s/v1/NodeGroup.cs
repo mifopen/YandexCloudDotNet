@@ -73,14 +73,14 @@ namespace Yandex.Cloud.K8S.V1 {
             "cHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Yandex.Cloud.K8S.V1.MaintenanceReflection.Descriptor, global::Yandex.Cloud.K8S.V1.NodeReflection.Descriptor, global::Yandex.Cloud.K8S.V1.VersionReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.NodeGroup), global::Yandex.Cloud.K8S.V1.NodeGroup.Parser, new[]{ "Id", "ClusterId", "CreatedAt", "Name", "Description", "Labels", "Status", "NodeTemplate", "ScalePolicy", "AllocationPolicy", "DeployPolicy", "InstanceGroupId", "NodeVersion", "VersionInfo", "MaintenancePolicy", "AllowedUnsafeSysctls", "NodeTaints", "NodeLabels" }, null, new[]{ typeof(global::Yandex.Cloud.K8S.V1.NodeGroup.Types.Status) }, new pbr::GeneratedClrTypeInfo[] { null, null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.ScalePolicy), global::Yandex.Cloud.K8S.V1.ScalePolicy.Parser, new[]{ "FixedScale", "AutoScale" }, new[]{ "ScaleType" }, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.ScalePolicy.Types.FixedScale), global::Yandex.Cloud.K8S.V1.ScalePolicy.Types.FixedScale.Parser, new[]{ "Size" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.ScalePolicy.Types.AutoScale), global::Yandex.Cloud.K8S.V1.ScalePolicy.Types.AutoScale.Parser, new[]{ "MinSize", "MaxSize", "InitialSize" }, null, null, null)}),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.NodeGroupAllocationPolicy), global::Yandex.Cloud.K8S.V1.NodeGroupAllocationPolicy.Parser, new[]{ "Locations" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.NodeGroupLocation), global::Yandex.Cloud.K8S.V1.NodeGroupLocation.Parser, new[]{ "ZoneId", "SubnetId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.NodeGroupMaintenancePolicy), global::Yandex.Cloud.K8S.V1.NodeGroupMaintenancePolicy.Parser, new[]{ "AutoUpgrade", "AutoRepair", "MaintenanceWindow" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.DeployPolicy), global::Yandex.Cloud.K8S.V1.DeployPolicy.Parser, new[]{ "MaxUnavailable", "MaxExpansion" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.NodeGroup), global::Yandex.Cloud.K8S.V1.NodeGroup.Parser, new[]{ "Id", "ClusterId", "CreatedAt", "Name", "Description", "Labels", "Status", "NodeTemplate", "ScalePolicy", "AllocationPolicy", "DeployPolicy", "InstanceGroupId", "NodeVersion", "VersionInfo", "MaintenancePolicy", "AllowedUnsafeSysctls", "NodeTaints", "NodeLabels" }, null, new[]{ typeof(global::Yandex.Cloud.K8S.V1.NodeGroup.Types.Status) }, null, new pbr::GeneratedClrTypeInfo[] { null, null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.ScalePolicy), global::Yandex.Cloud.K8S.V1.ScalePolicy.Parser, new[]{ "FixedScale", "AutoScale" }, new[]{ "ScaleType" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.ScalePolicy.Types.FixedScale), global::Yandex.Cloud.K8S.V1.ScalePolicy.Types.FixedScale.Parser, new[]{ "Size" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.ScalePolicy.Types.AutoScale), global::Yandex.Cloud.K8S.V1.ScalePolicy.Types.AutoScale.Parser, new[]{ "MinSize", "MaxSize", "InitialSize" }, null, null, null, null)}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.NodeGroupAllocationPolicy), global::Yandex.Cloud.K8S.V1.NodeGroupAllocationPolicy.Parser, new[]{ "Locations" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.NodeGroupLocation), global::Yandex.Cloud.K8S.V1.NodeGroupLocation.Parser, new[]{ "ZoneId", "SubnetId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.NodeGroupMaintenancePolicy), global::Yandex.Cloud.K8S.V1.NodeGroupMaintenancePolicy.Parser, new[]{ "AutoUpgrade", "AutoRepair", "MaintenanceWindow" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.DeployPolicy), global::Yandex.Cloud.K8S.V1.DeployPolicy.Parser, new[]{ "MaxUnavailable", "MaxExpansion" }, null, null, null, null)
           }));
     }
     #endregion
@@ -212,7 +212,7 @@ namespace Yandex.Cloud.K8S.V1 {
     /// <summary>Field number for the "labels" field.</summary>
     public const int LabelsFieldNumber = 6;
     private static readonly pbc::MapField<string, string>.Codec _map_labels_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 50);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 50);
     private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
     /// <summary>
     /// Resource labels as `key:value` pairs. Мaximum of 64 per resource.
@@ -224,7 +224,7 @@ namespace Yandex.Cloud.K8S.V1 {
 
     /// <summary>Field number for the "status" field.</summary>
     public const int StatusFieldNumber = 7;
-    private global::Yandex.Cloud.K8S.V1.NodeGroup.Types.Status status_ = 0;
+    private global::Yandex.Cloud.K8S.V1.NodeGroup.Types.Status status_ = global::Yandex.Cloud.K8S.V1.NodeGroup.Types.Status.Unspecified;
     /// <summary>
     /// Status of the node group.
     /// </summary>
@@ -378,7 +378,7 @@ namespace Yandex.Cloud.K8S.V1 {
     /// <summary>Field number for the "node_labels" field.</summary>
     public const int NodeLabelsFieldNumber = 17;
     private static readonly pbc::MapField<string, string>.Codec _map_nodeLabels_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 138);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 138);
     private readonly pbc::MapField<string, string> nodeLabels_ = new pbc::MapField<string, string>();
     /// <summary>
     /// Labels that are assigned to the nodes of the node group at creation time.
@@ -431,7 +431,7 @@ namespace Yandex.Cloud.K8S.V1 {
       if (Name.Length != 0) hash ^= Name.GetHashCode();
       if (Description.Length != 0) hash ^= Description.GetHashCode();
       hash ^= Labels.GetHashCode();
-      if (Status != 0) hash ^= Status.GetHashCode();
+      if (Status != global::Yandex.Cloud.K8S.V1.NodeGroup.Types.Status.Unspecified) hash ^= Status.GetHashCode();
       if (nodeTemplate_ != null) hash ^= NodeTemplate.GetHashCode();
       if (scalePolicy_ != null) hash ^= ScalePolicy.GetHashCode();
       if (allocationPolicy_ != null) hash ^= AllocationPolicy.GetHashCode();
@@ -477,7 +477,7 @@ namespace Yandex.Cloud.K8S.V1 {
         output.WriteString(Description);
       }
       labels_.WriteTo(output, _map_labels_codec);
-      if (Status != 0) {
+      if (Status != global::Yandex.Cloud.K8S.V1.NodeGroup.Types.Status.Unspecified) {
         output.WriteRawTag(56);
         output.WriteEnum((int) Status);
       }
@@ -540,7 +540,7 @@ namespace Yandex.Cloud.K8S.V1 {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Description);
       }
       size += labels_.CalculateSize(_map_labels_codec);
-      if (Status != 0) {
+      if (Status != global::Yandex.Cloud.K8S.V1.NodeGroup.Types.Status.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Status);
       }
       if (nodeTemplate_ != null) {
@@ -600,7 +600,7 @@ namespace Yandex.Cloud.K8S.V1 {
         Description = other.Description;
       }
       labels_.Add(other.labels_);
-      if (other.Status != 0) {
+      if (other.Status != global::Yandex.Cloud.K8S.V1.NodeGroup.Types.Status.Unspecified) {
         Status = other.Status;
       }
       if (other.nodeTemplate_ != null) {

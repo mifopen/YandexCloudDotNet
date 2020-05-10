@@ -41,8 +41,8 @@ namespace Yandex.Cloud.Compute.V1 {
             "by95YW5kZXgvY2xvdWQvY29tcHV0ZS92MTtjb21wdXRlYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Snapshot), global::Yandex.Cloud.Compute.V1.Snapshot.Parser, new[]{ "Id", "FolderId", "CreatedAt", "Name", "Description", "Labels", "StorageSize", "DiskSize", "ProductIds", "Status", "SourceDiskId" }, null, new[]{ typeof(global::Yandex.Cloud.Compute.V1.Snapshot.Types.Status) }, new pbr::GeneratedClrTypeInfo[] { null, })
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Snapshot), global::Yandex.Cloud.Compute.V1.Snapshot.Parser, new[]{ "Id", "FolderId", "CreatedAt", "Name", "Description", "Labels", "StorageSize", "DiskSize", "ProductIds", "Status", "SourceDiskId" }, null, new[]{ typeof(global::Yandex.Cloud.Compute.V1.Snapshot.Types.Status) }, null, new pbr::GeneratedClrTypeInfo[] { null, })
           }));
     }
     #endregion
@@ -166,7 +166,7 @@ namespace Yandex.Cloud.Compute.V1 {
     /// <summary>Field number for the "labels" field.</summary>
     public const int LabelsFieldNumber = 6;
     private static readonly pbc::MapField<string, string>.Codec _map_labels_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 50);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 50);
     private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
     /// <summary>
     /// Resource labels as `key:value` pairs. Maximum of 64 per resource.
@@ -226,7 +226,7 @@ namespace Yandex.Cloud.Compute.V1 {
 
     /// <summary>Field number for the "status" field.</summary>
     public const int StatusFieldNumber = 10;
-    private global::Yandex.Cloud.Compute.V1.Snapshot.Types.Status status_ = 0;
+    private global::Yandex.Cloud.Compute.V1.Snapshot.Types.Status status_ = global::Yandex.Cloud.Compute.V1.Snapshot.Types.Status.Unspecified;
     /// <summary>
     /// Current status of the snapshot.
     /// </summary>
@@ -291,7 +291,7 @@ namespace Yandex.Cloud.Compute.V1 {
       if (StorageSize != 0L) hash ^= StorageSize.GetHashCode();
       if (DiskSize != 0L) hash ^= DiskSize.GetHashCode();
       hash ^= productIds_.GetHashCode();
-      if (Status != 0) hash ^= Status.GetHashCode();
+      if (Status != global::Yandex.Cloud.Compute.V1.Snapshot.Types.Status.Unspecified) hash ^= Status.GetHashCode();
       if (SourceDiskId.Length != 0) hash ^= SourceDiskId.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -336,7 +336,7 @@ namespace Yandex.Cloud.Compute.V1 {
         output.WriteInt64(DiskSize);
       }
       productIds_.WriteTo(output, _repeated_productIds_codec);
-      if (Status != 0) {
+      if (Status != global::Yandex.Cloud.Compute.V1.Snapshot.Types.Status.Unspecified) {
         output.WriteRawTag(80);
         output.WriteEnum((int) Status);
       }
@@ -375,7 +375,7 @@ namespace Yandex.Cloud.Compute.V1 {
         size += 1 + pb::CodedOutputStream.ComputeInt64Size(DiskSize);
       }
       size += productIds_.CalculateSize(_repeated_productIds_codec);
-      if (Status != 0) {
+      if (Status != global::Yandex.Cloud.Compute.V1.Snapshot.Types.Status.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Status);
       }
       if (SourceDiskId.Length != 0) {
@@ -418,7 +418,7 @@ namespace Yandex.Cloud.Compute.V1 {
         DiskSize = other.DiskSize;
       }
       productIds_.Add(other.productIds_);
-      if (other.Status != 0) {
+      if (other.Status != global::Yandex.Cloud.Compute.V1.Snapshot.Types.Status.Unspecified) {
         Status = other.Status;
       }
       if (other.SourceDiskId.Length != 0) {

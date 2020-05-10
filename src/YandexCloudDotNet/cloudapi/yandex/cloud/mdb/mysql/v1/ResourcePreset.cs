@@ -32,8 +32,8 @@ namespace Yandex.Cloud.Mdb.Mysql.V1 {
             "L3lhbmRleC9jbG91ZC9tZGIvbXlzcWwvdjE7bXlzcWxiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.ResourcePreset), global::Yandex.Cloud.Mdb.Mysql.V1.ResourcePreset.Parser, new[]{ "Id", "ZoneIds", "Cores", "Memory" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.ResourcePreset), global::Yandex.Cloud.Mdb.Mysql.V1.ResourcePreset.Parser, new[]{ "Id", "ZoneIds", "Cores", "Memory" }, null, null, null, null)
           }));
     }
     #endregion

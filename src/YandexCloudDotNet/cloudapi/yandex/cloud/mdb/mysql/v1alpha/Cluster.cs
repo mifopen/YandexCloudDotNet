@@ -78,13 +78,13 @@ namespace Yandex.Cloud.Mdb.Mysql.V1Alpha {
             "cm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Google.Type.TimeofdayReflection.Descriptor, global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Config.Mysql57Reflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Cluster), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Cluster.Parser, new[]{ "Id", "FolderId", "CreatedAt", "Name", "Description", "Labels", "Environment", "Monitoring", "Config", "NetworkId", "Health", "Status" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Cluster.Types.Environment), typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Cluster.Types.Health), typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Cluster.Types.Status) }, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Monitoring), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Monitoring.Parser, new[]{ "Name", "Description", "Link" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.ClusterConfig), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.ClusterConfig.Parser, new[]{ "Version", "MysqlConfig57", "Resources", "BackupWindowStart" }, new[]{ "MysqlConfig" }, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Host), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Host.Parser, new[]{ "Name", "ClusterId", "ZoneId", "Resources", "Role", "Health", "Services", "SubnetId", "AssignPublicIp" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Host.Types.Role), typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Host.Types.Health) }, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Service), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Service.Parser, new[]{ "Type", "Health" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Service.Types.Type), typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Service.Types.Health) }, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Resources), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Resources.Parser, new[]{ "ResourcePresetId", "DiskSize", "DiskTypeId" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Cluster), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Cluster.Parser, new[]{ "Id", "FolderId", "CreatedAt", "Name", "Description", "Labels", "Environment", "Monitoring", "Config", "NetworkId", "Health", "Status" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Cluster.Types.Environment), typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Cluster.Types.Health), typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Cluster.Types.Status) }, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Monitoring), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Monitoring.Parser, new[]{ "Name", "Description", "Link" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.ClusterConfig), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.ClusterConfig.Parser, new[]{ "Version", "MysqlConfig57", "Resources", "BackupWindowStart" }, new[]{ "MysqlConfig" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Host), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Host.Parser, new[]{ "Name", "ClusterId", "ZoneId", "Resources", "Role", "Health", "Services", "SubnetId", "AssignPublicIp" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Host.Types.Role), typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Host.Types.Health) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Service), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Service.Parser, new[]{ "Type", "Health" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Service.Types.Type), typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Service.Types.Health) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Resources), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Resources.Parser, new[]{ "ResourcePresetId", "DiskSize", "DiskTypeId" }, null, null, null, null)
           }));
     }
     #endregion
@@ -213,7 +213,7 @@ namespace Yandex.Cloud.Mdb.Mysql.V1Alpha {
     /// <summary>Field number for the "labels" field.</summary>
     public const int LabelsFieldNumber = 6;
     private static readonly pbc::MapField<string, string>.Codec _map_labels_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 50);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 50);
     private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
     /// <summary>
     /// Custom labels for the MySQL cluster as `key:value` pairs.
@@ -226,7 +226,7 @@ namespace Yandex.Cloud.Mdb.Mysql.V1Alpha {
 
     /// <summary>Field number for the "environment" field.</summary>
     public const int EnvironmentFieldNumber = 7;
-    private global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Cluster.Types.Environment environment_ = 0;
+    private global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Cluster.Types.Environment environment_ = global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Cluster.Types.Environment.Unspecified;
     /// <summary>
     /// Deployment environment of the MySQL cluster.
     /// </summary>
@@ -281,7 +281,7 @@ namespace Yandex.Cloud.Mdb.Mysql.V1Alpha {
 
     /// <summary>Field number for the "health" field.</summary>
     public const int HealthFieldNumber = 11;
-    private global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Cluster.Types.Health health_ = 0;
+    private global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Cluster.Types.Health health_ = global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Cluster.Types.Health.Unknown;
     /// <summary>
     /// Aggregated cluster health.
     /// </summary>
@@ -295,7 +295,7 @@ namespace Yandex.Cloud.Mdb.Mysql.V1Alpha {
 
     /// <summary>Field number for the "status" field.</summary>
     public const int StatusFieldNumber = 12;
-    private global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Cluster.Types.Status status_ = 0;
+    private global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Cluster.Types.Status status_ = global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Cluster.Types.Status.Unknown;
     /// <summary>
     /// Current state of the cluster.
     /// </summary>
@@ -344,12 +344,12 @@ namespace Yandex.Cloud.Mdb.Mysql.V1Alpha {
       if (Name.Length != 0) hash ^= Name.GetHashCode();
       if (Description.Length != 0) hash ^= Description.GetHashCode();
       hash ^= Labels.GetHashCode();
-      if (Environment != 0) hash ^= Environment.GetHashCode();
+      if (Environment != global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Cluster.Types.Environment.Unspecified) hash ^= Environment.GetHashCode();
       hash ^= monitoring_.GetHashCode();
       if (config_ != null) hash ^= Config.GetHashCode();
       if (NetworkId.Length != 0) hash ^= NetworkId.GetHashCode();
-      if (Health != 0) hash ^= Health.GetHashCode();
-      if (Status != 0) hash ^= Status.GetHashCode();
+      if (Health != global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Cluster.Types.Health.Unknown) hash ^= Health.GetHashCode();
+      if (Status != global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Cluster.Types.Status.Unknown) hash ^= Status.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -384,7 +384,7 @@ namespace Yandex.Cloud.Mdb.Mysql.V1Alpha {
         output.WriteString(Description);
       }
       labels_.WriteTo(output, _map_labels_codec);
-      if (Environment != 0) {
+      if (Environment != global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Cluster.Types.Environment.Unspecified) {
         output.WriteRawTag(56);
         output.WriteEnum((int) Environment);
       }
@@ -397,11 +397,11 @@ namespace Yandex.Cloud.Mdb.Mysql.V1Alpha {
         output.WriteRawTag(82);
         output.WriteString(NetworkId);
       }
-      if (Health != 0) {
+      if (Health != global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Cluster.Types.Health.Unknown) {
         output.WriteRawTag(88);
         output.WriteEnum((int) Health);
       }
-      if (Status != 0) {
+      if (Status != global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Cluster.Types.Status.Unknown) {
         output.WriteRawTag(96);
         output.WriteEnum((int) Status);
       }
@@ -429,7 +429,7 @@ namespace Yandex.Cloud.Mdb.Mysql.V1Alpha {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Description);
       }
       size += labels_.CalculateSize(_map_labels_codec);
-      if (Environment != 0) {
+      if (Environment != global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Cluster.Types.Environment.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Environment);
       }
       size += monitoring_.CalculateSize(_repeated_monitoring_codec);
@@ -439,10 +439,10 @@ namespace Yandex.Cloud.Mdb.Mysql.V1Alpha {
       if (NetworkId.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(NetworkId);
       }
-      if (Health != 0) {
+      if (Health != global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Cluster.Types.Health.Unknown) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Health);
       }
-      if (Status != 0) {
+      if (Status != global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Cluster.Types.Status.Unknown) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Status);
       }
       if (_unknownFields != null) {
@@ -475,7 +475,7 @@ namespace Yandex.Cloud.Mdb.Mysql.V1Alpha {
         Description = other.Description;
       }
       labels_.Add(other.labels_);
-      if (other.Environment != 0) {
+      if (other.Environment != global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Cluster.Types.Environment.Unspecified) {
         Environment = other.Environment;
       }
       monitoring_.Add(other.monitoring_);
@@ -488,10 +488,10 @@ namespace Yandex.Cloud.Mdb.Mysql.V1Alpha {
       if (other.NetworkId.Length != 0) {
         NetworkId = other.NetworkId;
       }
-      if (other.Health != 0) {
+      if (other.Health != global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Cluster.Types.Health.Unknown) {
         Health = other.Health;
       }
-      if (other.Status != 0) {
+      if (other.Status != global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Cluster.Types.Status.Unknown) {
         Status = other.Status;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
@@ -1212,7 +1212,7 @@ namespace Yandex.Cloud.Mdb.Mysql.V1Alpha {
 
     /// <summary>Field number for the "role" field.</summary>
     public const int RoleFieldNumber = 5;
-    private global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Host.Types.Role role_ = 0;
+    private global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Host.Types.Role role_ = global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Host.Types.Role.Unknown;
     /// <summary>
     /// Role of the host in the cluster.
     /// </summary>
@@ -1226,7 +1226,7 @@ namespace Yandex.Cloud.Mdb.Mysql.V1Alpha {
 
     /// <summary>Field number for the "health" field.</summary>
     public const int HealthFieldNumber = 6;
-    private global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Host.Types.Health health_ = 0;
+    private global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Host.Types.Health health_ = global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Host.Types.Health.Unknown;
     /// <summary>
     /// Status code of the aggregated health of the host.
     /// </summary>
@@ -1311,8 +1311,8 @@ namespace Yandex.Cloud.Mdb.Mysql.V1Alpha {
       if (ClusterId.Length != 0) hash ^= ClusterId.GetHashCode();
       if (ZoneId.Length != 0) hash ^= ZoneId.GetHashCode();
       if (resources_ != null) hash ^= Resources.GetHashCode();
-      if (Role != 0) hash ^= Role.GetHashCode();
-      if (Health != 0) hash ^= Health.GetHashCode();
+      if (Role != global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Host.Types.Role.Unknown) hash ^= Role.GetHashCode();
+      if (Health != global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Host.Types.Health.Unknown) hash ^= Health.GetHashCode();
       hash ^= services_.GetHashCode();
       if (SubnetId.Length != 0) hash ^= SubnetId.GetHashCode();
       if (AssignPublicIp != false) hash ^= AssignPublicIp.GetHashCode();
@@ -1345,11 +1345,11 @@ namespace Yandex.Cloud.Mdb.Mysql.V1Alpha {
         output.WriteRawTag(34);
         output.WriteMessage(Resources);
       }
-      if (Role != 0) {
+      if (Role != global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Host.Types.Role.Unknown) {
         output.WriteRawTag(40);
         output.WriteEnum((int) Role);
       }
-      if (Health != 0) {
+      if (Health != global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Host.Types.Health.Unknown) {
         output.WriteRawTag(48);
         output.WriteEnum((int) Health);
       }
@@ -1382,10 +1382,10 @@ namespace Yandex.Cloud.Mdb.Mysql.V1Alpha {
       if (resources_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(Resources);
       }
-      if (Role != 0) {
+      if (Role != global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Host.Types.Role.Unknown) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Role);
       }
-      if (Health != 0) {
+      if (Health != global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Host.Types.Health.Unknown) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Health);
       }
       size += services_.CalculateSize(_repeated_services_codec);
@@ -1421,10 +1421,10 @@ namespace Yandex.Cloud.Mdb.Mysql.V1Alpha {
         }
         Resources.MergeFrom(other.Resources);
       }
-      if (other.Role != 0) {
+      if (other.Role != global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Host.Types.Role.Unknown) {
         Role = other.Role;
       }
-      if (other.Health != 0) {
+      if (other.Health != global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Host.Types.Health.Unknown) {
         Health = other.Health;
       }
       services_.Add(other.services_);
@@ -1568,7 +1568,7 @@ namespace Yandex.Cloud.Mdb.Mysql.V1Alpha {
 
     /// <summary>Field number for the "type" field.</summary>
     public const int TypeFieldNumber = 1;
-    private global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Service.Types.Type type_ = 0;
+    private global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Service.Types.Type type_ = global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Service.Types.Type.Unspecified;
     /// <summary>
     /// Type of the service provided by the host.
     /// </summary>
@@ -1582,7 +1582,7 @@ namespace Yandex.Cloud.Mdb.Mysql.V1Alpha {
 
     /// <summary>Field number for the "health" field.</summary>
     public const int HealthFieldNumber = 2;
-    private global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Service.Types.Health health_ = 0;
+    private global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Service.Types.Health health_ = global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Service.Types.Health.Unknown;
     /// <summary>
     /// Status code of server availability.
     /// </summary>
@@ -1615,8 +1615,8 @@ namespace Yandex.Cloud.Mdb.Mysql.V1Alpha {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override int GetHashCode() {
       int hash = 1;
-      if (Type != 0) hash ^= Type.GetHashCode();
-      if (Health != 0) hash ^= Health.GetHashCode();
+      if (Type != global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Service.Types.Type.Unspecified) hash ^= Type.GetHashCode();
+      if (Health != global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Service.Types.Health.Unknown) hash ^= Health.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1630,11 +1630,11 @@ namespace Yandex.Cloud.Mdb.Mysql.V1Alpha {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public void WriteTo(pb::CodedOutputStream output) {
-      if (Type != 0) {
+      if (Type != global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Service.Types.Type.Unspecified) {
         output.WriteRawTag(8);
         output.WriteEnum((int) Type);
       }
-      if (Health != 0) {
+      if (Health != global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Service.Types.Health.Unknown) {
         output.WriteRawTag(16);
         output.WriteEnum((int) Health);
       }
@@ -1646,10 +1646,10 @@ namespace Yandex.Cloud.Mdb.Mysql.V1Alpha {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CalculateSize() {
       int size = 0;
-      if (Type != 0) {
+      if (Type != global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Service.Types.Type.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Type);
       }
-      if (Health != 0) {
+      if (Health != global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Service.Types.Health.Unknown) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Health);
       }
       if (_unknownFields != null) {
@@ -1663,10 +1663,10 @@ namespace Yandex.Cloud.Mdb.Mysql.V1Alpha {
       if (other == null) {
         return;
       }
-      if (other.Type != 0) {
+      if (other.Type != global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Service.Types.Type.Unspecified) {
         Type = other.Type;
       }
-      if (other.Health != 0) {
+      if (other.Health != global::Yandex.Cloud.Mdb.Mysql.V1Alpha.Service.Types.Health.Unknown) {
         Health = other.Health;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);

@@ -102,20 +102,20 @@ namespace Yandex.Cloud.Compute.V1 {
             "djE7Y29tcHV0ZWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Yandex.Cloud.Api.OperationReflection.Descriptor, global::Yandex.Cloud.Compute.V1.InstanceReflection.Descriptor, global::Yandex.Cloud.Compute.V1.PlacementGroupReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.GetPlacementGroupRequest), global::Yandex.Cloud.Compute.V1.GetPlacementGroupRequest.Parser, new[]{ "PlacementGroupId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.ListPlacementGroupsRequest), global::Yandex.Cloud.Compute.V1.ListPlacementGroupsRequest.Parser, new[]{ "FolderId", "PageSize", "PageToken", "Filter" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.ListPlacementGroupsResponse), global::Yandex.Cloud.Compute.V1.ListPlacementGroupsResponse.Parser, new[]{ "PlacementGroups", "NextPageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.CreatePlacementGroupRequest), global::Yandex.Cloud.Compute.V1.CreatePlacementGroupRequest.Parser, new[]{ "FolderId", "Name", "Description", "Labels", "SpreadPlacementStrategy" }, new[]{ "PlacementStrategy" }, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.CreatePlacementGroupMetadata), global::Yandex.Cloud.Compute.V1.CreatePlacementGroupMetadata.Parser, new[]{ "PlacementGroupId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.UpdatePlacementGroupRequest), global::Yandex.Cloud.Compute.V1.UpdatePlacementGroupRequest.Parser, new[]{ "PlacementGroupId", "UpdateMask", "Name", "Description", "Labels" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.UpdatePlacementGroupMetadata), global::Yandex.Cloud.Compute.V1.UpdatePlacementGroupMetadata.Parser, new[]{ "PlacementGroupId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.DeletePlacementGroupRequest), global::Yandex.Cloud.Compute.V1.DeletePlacementGroupRequest.Parser, new[]{ "PlacementGroupId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.DeletePlacementGroupMetadata), global::Yandex.Cloud.Compute.V1.DeletePlacementGroupMetadata.Parser, new[]{ "PlacementGroupId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.ListPlacementGroupInstancesRequest), global::Yandex.Cloud.Compute.V1.ListPlacementGroupInstancesRequest.Parser, new[]{ "PlacementGroupId", "PageSize", "PageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.ListPlacementGroupInstancesResponse), global::Yandex.Cloud.Compute.V1.ListPlacementGroupInstancesResponse.Parser, new[]{ "Instances", "NextPageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.ListPlacementGroupOperationsRequest), global::Yandex.Cloud.Compute.V1.ListPlacementGroupOperationsRequest.Parser, new[]{ "PlacementGroupId", "PageSize", "PageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.ListPlacementGroupOperationsResponse), global::Yandex.Cloud.Compute.V1.ListPlacementGroupOperationsResponse.Parser, new[]{ "Operations", "NextPageToken" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.GetPlacementGroupRequest), global::Yandex.Cloud.Compute.V1.GetPlacementGroupRequest.Parser, new[]{ "PlacementGroupId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.ListPlacementGroupsRequest), global::Yandex.Cloud.Compute.V1.ListPlacementGroupsRequest.Parser, new[]{ "FolderId", "PageSize", "PageToken", "Filter" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.ListPlacementGroupsResponse), global::Yandex.Cloud.Compute.V1.ListPlacementGroupsResponse.Parser, new[]{ "PlacementGroups", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.CreatePlacementGroupRequest), global::Yandex.Cloud.Compute.V1.CreatePlacementGroupRequest.Parser, new[]{ "FolderId", "Name", "Description", "Labels", "SpreadPlacementStrategy" }, new[]{ "PlacementStrategy" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.CreatePlacementGroupMetadata), global::Yandex.Cloud.Compute.V1.CreatePlacementGroupMetadata.Parser, new[]{ "PlacementGroupId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.UpdatePlacementGroupRequest), global::Yandex.Cloud.Compute.V1.UpdatePlacementGroupRequest.Parser, new[]{ "PlacementGroupId", "UpdateMask", "Name", "Description", "Labels" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.UpdatePlacementGroupMetadata), global::Yandex.Cloud.Compute.V1.UpdatePlacementGroupMetadata.Parser, new[]{ "PlacementGroupId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.DeletePlacementGroupRequest), global::Yandex.Cloud.Compute.V1.DeletePlacementGroupRequest.Parser, new[]{ "PlacementGroupId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.DeletePlacementGroupMetadata), global::Yandex.Cloud.Compute.V1.DeletePlacementGroupMetadata.Parser, new[]{ "PlacementGroupId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.ListPlacementGroupInstancesRequest), global::Yandex.Cloud.Compute.V1.ListPlacementGroupInstancesRequest.Parser, new[]{ "PlacementGroupId", "PageSize", "PageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.ListPlacementGroupInstancesResponse), global::Yandex.Cloud.Compute.V1.ListPlacementGroupInstancesResponse.Parser, new[]{ "Instances", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.ListPlacementGroupOperationsRequest), global::Yandex.Cloud.Compute.V1.ListPlacementGroupOperationsRequest.Parser, new[]{ "PlacementGroupId", "PageSize", "PageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.ListPlacementGroupOperationsResponse), global::Yandex.Cloud.Compute.V1.ListPlacementGroupOperationsResponse.Parser, new[]{ "Operations", "NextPageToken" }, null, null, null, null)
           }));
     }
     #endregion
@@ -738,7 +738,7 @@ namespace Yandex.Cloud.Compute.V1 {
     /// <summary>Field number for the "labels" field.</summary>
     public const int LabelsFieldNumber = 4;
     private static readonly pbc::MapField<string, string>.Codec _map_labels_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 34);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 34);
     private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
     /// <summary>
     /// Resource labels as `key:value` pairs.
@@ -1165,7 +1165,7 @@ namespace Yandex.Cloud.Compute.V1 {
     /// <summary>Field number for the "labels" field.</summary>
     public const int LabelsFieldNumber = 5;
     private static readonly pbc::MapField<string, string>.Codec _map_labels_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 42);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 42);
     private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
     /// <summary>
     /// Resource labels as `key:value` pairs.

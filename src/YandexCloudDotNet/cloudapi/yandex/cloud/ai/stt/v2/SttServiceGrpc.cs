@@ -42,7 +42,7 @@ namespace Yandex.Cloud.Ai.Stt.V2 {
     {
       /// <summary>Creates a new client for SttService</summary>
       /// <param name="channel">The channel to use to make remote calls.</param>
-      public SttServiceClient(grpc::Channel channel) : base(channel)
+      public SttServiceClient(grpc::ChannelBase channel) : base(channel)
       {
       }
       /// <summary>Creates a new client for SttService that uses a custom <c>CallInvoker</c>.</summary>

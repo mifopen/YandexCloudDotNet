@@ -43,10 +43,10 @@ namespace Yandex.Cloud.Endpoint {
             "b3VkL2VuZHBvaW50O2VuZHBvaW50YgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Yandex.Cloud.Endpoint.ApiEndpointReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Endpoint.GetApiEndpointRequest), global::Yandex.Cloud.Endpoint.GetApiEndpointRequest.Parser, new[]{ "ApiEndpointId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Endpoint.ListApiEndpointsRequest), global::Yandex.Cloud.Endpoint.ListApiEndpointsRequest.Parser, new[]{ "PageSize", "PageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Endpoint.ListApiEndpointsResponse), global::Yandex.Cloud.Endpoint.ListApiEndpointsResponse.Parser, new[]{ "Endpoints", "NextPageToken" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Endpoint.GetApiEndpointRequest), global::Yandex.Cloud.Endpoint.GetApiEndpointRequest.Parser, new[]{ "ApiEndpointId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Endpoint.ListApiEndpointsRequest), global::Yandex.Cloud.Endpoint.ListApiEndpointsRequest.Parser, new[]{ "PageSize", "PageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Endpoint.ListApiEndpointsResponse), global::Yandex.Cloud.Endpoint.ListApiEndpointsResponse.Parser, new[]{ "Endpoints", "NextPageToken" }, null, null, null, null)
           }));
     }
     #endregion

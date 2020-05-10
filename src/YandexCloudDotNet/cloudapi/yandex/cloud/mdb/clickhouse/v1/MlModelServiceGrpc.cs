@@ -70,7 +70,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     {
       /// <summary>Creates a new client for MlModelService</summary>
       /// <param name="channel">The channel to use to make remote calls.</param>
-      public MlModelServiceClient(grpc::Channel channel) : base(channel)
+      public MlModelServiceClient(grpc::ChannelBase channel) : base(channel)
       {
       }
       /// <summary>Creates a new client for MlModelService that uses a custom <c>CallInvoker</c>.</summary>

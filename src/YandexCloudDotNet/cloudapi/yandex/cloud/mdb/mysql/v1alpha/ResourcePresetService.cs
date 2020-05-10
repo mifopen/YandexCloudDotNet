@@ -49,10 +49,10 @@ namespace Yandex.Cloud.Mdb.Mysql.V1Alpha {
             "L3YxYWxwaGE7bXlzcWxiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Yandex.Cloud.Mdb.Mysql.V1Alpha.ResourcePresetReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.GetResourcePresetRequest), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.GetResourcePresetRequest.Parser, new[]{ "ResourcePresetId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.ListResourcePresetsRequest), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.ListResourcePresetsRequest.Parser, new[]{ "PageSize", "PageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.ListResourcePresetsResponse), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.ListResourcePresetsResponse.Parser, new[]{ "ResourcePresets", "NextPageToken" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.GetResourcePresetRequest), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.GetResourcePresetRequest.Parser, new[]{ "ResourcePresetId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.ListResourcePresetsRequest), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.ListResourcePresetsRequest.Parser, new[]{ "PageSize", "PageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1Alpha.ListResourcePresetsResponse), global::Yandex.Cloud.Mdb.Mysql.V1Alpha.ListResourcePresetsResponse.Parser, new[]{ "ResourcePresets", "NextPageToken" }, null, null, null, null)
           }));
     }
     #endregion

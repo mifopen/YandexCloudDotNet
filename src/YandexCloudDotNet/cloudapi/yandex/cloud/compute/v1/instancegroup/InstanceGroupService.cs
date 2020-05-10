@@ -189,29 +189,29 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
             "ZS92MS9pbnN0YW5jZWdyb3VwO2luc3RhbmNlZ3JvdXBiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Google.Api.AnnotationsReflection.Descriptor, global::Yandex.Cloud.Api.OperationReflection.Descriptor, global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroupReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroupView), }, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.GetInstanceGroupRequest), global::Yandex.Cloud.Compute.V1.Instancegroup.GetInstanceGroupRequest.Parser, new[]{ "InstanceGroupId", "View" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.CreateInstanceGroupRequest), global::Yandex.Cloud.Compute.V1.Instancegroup.CreateInstanceGroupRequest.Parser, new[]{ "FolderId", "Name", "Description", "Labels", "InstanceTemplate", "ScalePolicy", "DeployPolicy", "AllocationPolicy", "LoadBalancerSpec", "HealthChecksSpec", "ServiceAccountId", "Variables" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.CreateInstanceGroupFromYamlRequest), global::Yandex.Cloud.Compute.V1.Instancegroup.CreateInstanceGroupFromYamlRequest.Parser, new[]{ "FolderId", "InstanceGroupYaml" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.CreateInstanceGroupMetadata), global::Yandex.Cloud.Compute.V1.Instancegroup.CreateInstanceGroupMetadata.Parser, new[]{ "InstanceGroupId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.UpdateInstanceGroupRequest), global::Yandex.Cloud.Compute.V1.Instancegroup.UpdateInstanceGroupRequest.Parser, new[]{ "InstanceGroupId", "UpdateMask", "Name", "Description", "Labels", "InstanceTemplate", "ScalePolicy", "DeployPolicy", "AllocationPolicy", "HealthChecksSpec", "ServiceAccountId", "LoadBalancerSpec", "Variables" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.UpdateInstanceGroupFromYamlRequest), global::Yandex.Cloud.Compute.V1.Instancegroup.UpdateInstanceGroupFromYamlRequest.Parser, new[]{ "InstanceGroupId", "InstanceGroupYaml" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.UpdateInstanceGroupMetadata), global::Yandex.Cloud.Compute.V1.Instancegroup.UpdateInstanceGroupMetadata.Parser, new[]{ "InstanceGroupId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.StartInstanceGroupRequest), global::Yandex.Cloud.Compute.V1.Instancegroup.StartInstanceGroupRequest.Parser, new[]{ "InstanceGroupId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.StartInstanceGroupMetadata), global::Yandex.Cloud.Compute.V1.Instancegroup.StartInstanceGroupMetadata.Parser, new[]{ "InstanceGroupId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.StopInstanceGroupRequest), global::Yandex.Cloud.Compute.V1.Instancegroup.StopInstanceGroupRequest.Parser, new[]{ "InstanceGroupId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.StopInstanceGroupMetadata), global::Yandex.Cloud.Compute.V1.Instancegroup.StopInstanceGroupMetadata.Parser, new[]{ "InstanceGroupId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.DeleteInstanceGroupRequest), global::Yandex.Cloud.Compute.V1.Instancegroup.DeleteInstanceGroupRequest.Parser, new[]{ "InstanceGroupId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.DeleteInstanceGroupMetadata), global::Yandex.Cloud.Compute.V1.Instancegroup.DeleteInstanceGroupMetadata.Parser, new[]{ "InstanceGroupId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.DeleteInstancesMetadata), global::Yandex.Cloud.Compute.V1.Instancegroup.DeleteInstancesMetadata.Parser, new[]{ "InstanceGroupId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.ListInstanceGroupsRequest), global::Yandex.Cloud.Compute.V1.Instancegroup.ListInstanceGroupsRequest.Parser, new[]{ "FolderId", "PageSize", "PageToken", "Filter", "View" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.ListInstanceGroupsResponse), global::Yandex.Cloud.Compute.V1.Instancegroup.ListInstanceGroupsResponse.Parser, new[]{ "InstanceGroups", "NextPageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.ListInstanceGroupInstancesRequest), global::Yandex.Cloud.Compute.V1.Instancegroup.ListInstanceGroupInstancesRequest.Parser, new[]{ "InstanceGroupId", "PageSize", "PageToken", "Filter" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.ListInstanceGroupInstancesResponse), global::Yandex.Cloud.Compute.V1.Instancegroup.ListInstanceGroupInstancesResponse.Parser, new[]{ "Instances", "NextPageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.ListInstanceGroupOperationsRequest), global::Yandex.Cloud.Compute.V1.Instancegroup.ListInstanceGroupOperationsRequest.Parser, new[]{ "InstanceGroupId", "PageSize", "PageToken", "Filter" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.ListInstanceGroupOperationsResponse), global::Yandex.Cloud.Compute.V1.Instancegroup.ListInstanceGroupOperationsResponse.Parser, new[]{ "Operations", "NextPageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.ListInstanceGroupLogRecordsRequest), global::Yandex.Cloud.Compute.V1.Instancegroup.ListInstanceGroupLogRecordsRequest.Parser, new[]{ "InstanceGroupId", "PageSize", "PageToken", "Filter" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.ListInstanceGroupLogRecordsResponse), global::Yandex.Cloud.Compute.V1.Instancegroup.ListInstanceGroupLogRecordsResponse.Parser, new[]{ "LogRecords", "NextPageToken" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroupView), }, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.GetInstanceGroupRequest), global::Yandex.Cloud.Compute.V1.Instancegroup.GetInstanceGroupRequest.Parser, new[]{ "InstanceGroupId", "View" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.CreateInstanceGroupRequest), global::Yandex.Cloud.Compute.V1.Instancegroup.CreateInstanceGroupRequest.Parser, new[]{ "FolderId", "Name", "Description", "Labels", "InstanceTemplate", "ScalePolicy", "DeployPolicy", "AllocationPolicy", "LoadBalancerSpec", "HealthChecksSpec", "ServiceAccountId", "Variables" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.CreateInstanceGroupFromYamlRequest), global::Yandex.Cloud.Compute.V1.Instancegroup.CreateInstanceGroupFromYamlRequest.Parser, new[]{ "FolderId", "InstanceGroupYaml" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.CreateInstanceGroupMetadata), global::Yandex.Cloud.Compute.V1.Instancegroup.CreateInstanceGroupMetadata.Parser, new[]{ "InstanceGroupId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.UpdateInstanceGroupRequest), global::Yandex.Cloud.Compute.V1.Instancegroup.UpdateInstanceGroupRequest.Parser, new[]{ "InstanceGroupId", "UpdateMask", "Name", "Description", "Labels", "InstanceTemplate", "ScalePolicy", "DeployPolicy", "AllocationPolicy", "HealthChecksSpec", "ServiceAccountId", "LoadBalancerSpec", "Variables" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.UpdateInstanceGroupFromYamlRequest), global::Yandex.Cloud.Compute.V1.Instancegroup.UpdateInstanceGroupFromYamlRequest.Parser, new[]{ "InstanceGroupId", "InstanceGroupYaml" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.UpdateInstanceGroupMetadata), global::Yandex.Cloud.Compute.V1.Instancegroup.UpdateInstanceGroupMetadata.Parser, new[]{ "InstanceGroupId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.StartInstanceGroupRequest), global::Yandex.Cloud.Compute.V1.Instancegroup.StartInstanceGroupRequest.Parser, new[]{ "InstanceGroupId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.StartInstanceGroupMetadata), global::Yandex.Cloud.Compute.V1.Instancegroup.StartInstanceGroupMetadata.Parser, new[]{ "InstanceGroupId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.StopInstanceGroupRequest), global::Yandex.Cloud.Compute.V1.Instancegroup.StopInstanceGroupRequest.Parser, new[]{ "InstanceGroupId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.StopInstanceGroupMetadata), global::Yandex.Cloud.Compute.V1.Instancegroup.StopInstanceGroupMetadata.Parser, new[]{ "InstanceGroupId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.DeleteInstanceGroupRequest), global::Yandex.Cloud.Compute.V1.Instancegroup.DeleteInstanceGroupRequest.Parser, new[]{ "InstanceGroupId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.DeleteInstanceGroupMetadata), global::Yandex.Cloud.Compute.V1.Instancegroup.DeleteInstanceGroupMetadata.Parser, new[]{ "InstanceGroupId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.DeleteInstancesMetadata), global::Yandex.Cloud.Compute.V1.Instancegroup.DeleteInstancesMetadata.Parser, new[]{ "InstanceGroupId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.ListInstanceGroupsRequest), global::Yandex.Cloud.Compute.V1.Instancegroup.ListInstanceGroupsRequest.Parser, new[]{ "FolderId", "PageSize", "PageToken", "Filter", "View" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.ListInstanceGroupsResponse), global::Yandex.Cloud.Compute.V1.Instancegroup.ListInstanceGroupsResponse.Parser, new[]{ "InstanceGroups", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.ListInstanceGroupInstancesRequest), global::Yandex.Cloud.Compute.V1.Instancegroup.ListInstanceGroupInstancesRequest.Parser, new[]{ "InstanceGroupId", "PageSize", "PageToken", "Filter" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.ListInstanceGroupInstancesResponse), global::Yandex.Cloud.Compute.V1.Instancegroup.ListInstanceGroupInstancesResponse.Parser, new[]{ "Instances", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.ListInstanceGroupOperationsRequest), global::Yandex.Cloud.Compute.V1.Instancegroup.ListInstanceGroupOperationsRequest.Parser, new[]{ "InstanceGroupId", "PageSize", "PageToken", "Filter" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.ListInstanceGroupOperationsResponse), global::Yandex.Cloud.Compute.V1.Instancegroup.ListInstanceGroupOperationsResponse.Parser, new[]{ "Operations", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.ListInstanceGroupLogRecordsRequest), global::Yandex.Cloud.Compute.V1.Instancegroup.ListInstanceGroupLogRecordsRequest.Parser, new[]{ "InstanceGroupId", "PageSize", "PageToken", "Filter" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.ListInstanceGroupLogRecordsResponse), global::Yandex.Cloud.Compute.V1.Instancegroup.ListInstanceGroupLogRecordsResponse.Parser, new[]{ "LogRecords", "NextPageToken" }, null, null, null, null)
           }));
     }
     #endregion
@@ -284,7 +284,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
 
     /// <summary>Field number for the "view" field.</summary>
     public const int ViewFieldNumber = 2;
-    private global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroupView view_ = 0;
+    private global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroupView view_ = global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroupView.Basic;
     /// <summary>
     /// Defines which information about the Instance template should be returned in the server response.
     /// </summary>
@@ -318,7 +318,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
     public override int GetHashCode() {
       int hash = 1;
       if (InstanceGroupId.Length != 0) hash ^= InstanceGroupId.GetHashCode();
-      if (View != 0) hash ^= View.GetHashCode();
+      if (View != global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroupView.Basic) hash ^= View.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -336,7 +336,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
         output.WriteRawTag(10);
         output.WriteString(InstanceGroupId);
       }
-      if (View != 0) {
+      if (View != global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroupView.Basic) {
         output.WriteRawTag(16);
         output.WriteEnum((int) View);
       }
@@ -351,7 +351,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
       if (InstanceGroupId.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(InstanceGroupId);
       }
-      if (View != 0) {
+      if (View != global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroupView.Basic) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) View);
       }
       if (_unknownFields != null) {
@@ -368,7 +368,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
       if (other.InstanceGroupId.Length != 0) {
         InstanceGroupId = other.InstanceGroupId;
       }
-      if (other.View != 0) {
+      if (other.View != global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroupView.Basic) {
         View = other.View;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
@@ -487,7 +487,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
     /// <summary>Field number for the "labels" field.</summary>
     public const int LabelsFieldNumber = 5;
     private static readonly pbc::MapField<string, string>.Codec _map_labels_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 42);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 42);
     private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
     /// <summary>
     /// Resource labels as `key:value` pairs.
@@ -1291,7 +1291,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
     /// <summary>Field number for the "labels" field.</summary>
     public const int LabelsFieldNumber = 5;
     private static readonly pbc::MapField<string, string>.Codec _map_labels_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 42);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 42);
     private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
     /// <summary>
     /// Resource labels as `key:value` pairs.
@@ -3045,7 +3045,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
 
     /// <summary>Field number for the "view" field.</summary>
     public const int ViewFieldNumber = 5;
-    private global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroupView view_ = 0;
+    private global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroupView view_ = global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroupView.Basic;
     /// <summary>
     /// Defines which information about the Instance template should be returned in the server response.
     /// </summary>
@@ -3085,7 +3085,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
       if (PageSize != 0L) hash ^= PageSize.GetHashCode();
       if (PageToken.Length != 0) hash ^= PageToken.GetHashCode();
       if (Filter.Length != 0) hash ^= Filter.GetHashCode();
-      if (View != 0) hash ^= View.GetHashCode();
+      if (View != global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroupView.Basic) hash ^= View.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -3115,7 +3115,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
         output.WriteRawTag(34);
         output.WriteString(Filter);
       }
-      if (View != 0) {
+      if (View != global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroupView.Basic) {
         output.WriteRawTag(40);
         output.WriteEnum((int) View);
       }
@@ -3139,7 +3139,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
       if (Filter.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Filter);
       }
-      if (View != 0) {
+      if (View != global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroupView.Basic) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) View);
       }
       if (_unknownFields != null) {
@@ -3165,7 +3165,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
       if (other.Filter.Length != 0) {
         Filter = other.Filter;
       }
-      if (other.View != 0) {
+      if (other.View != global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroupView.Basic) {
         View = other.View;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);

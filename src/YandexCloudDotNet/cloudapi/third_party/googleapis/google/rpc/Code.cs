@@ -36,7 +36,7 @@ namespace Google.Rpc {
             "b3RvL2dvb2dsZWFwaXMvcnBjL2NvZGU7Y29kZaICA1JQQ2IGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
-          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Google.Rpc.Code), }, null));
+          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Google.Rpc.Code), }, null, null));
     }
     #endregion
 

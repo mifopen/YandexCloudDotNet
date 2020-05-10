@@ -106,19 +106,19 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1.Config {
             "ZGIvdjEvY29uZmlnO21vbmdvZGJiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.WrappersReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongodConfig3_6), global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongodConfig3_6.Parser, new[]{ "Storage", "OperationProfiling", "Net" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongodConfig3_6.Types.Storage), global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongodConfig3_6.Types.Storage.Parser, new[]{ "WiredTiger", "Journal" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongodConfig3_6.Types.Storage.Types.WiredTiger), global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongodConfig3_6.Types.Storage.Types.WiredTiger.Parser, new[]{ "EngineConfig", "CollectionConfig" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongodConfig3_6.Types.Storage.Types.WiredTiger.Types.EngineConfig), global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongodConfig3_6.Types.Storage.Types.WiredTiger.Types.EngineConfig.Parser, new[]{ "CacheSizeGb" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongodConfig3_6.Types.Storage.Types.WiredTiger.Types.CollectionConfig), global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongodConfig3_6.Types.Storage.Types.WiredTiger.Types.CollectionConfig.Parser, new[]{ "BlockCompressor" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongodConfig3_6.Types.Storage.Types.WiredTiger.Types.CollectionConfig.Types.Compressor) }, null)}),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongodConfig3_6.Types.Storage.Types.Journal), global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongodConfig3_6.Types.Storage.Types.Journal.Parser, new[]{ "Enabled", "CommitInterval" }, null, null, null)}),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongodConfig3_6.Types.OperationProfiling), global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongodConfig3_6.Types.OperationProfiling.Parser, new[]{ "Mode", "SlowOpThreshold" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongodConfig3_6.Types.OperationProfiling.Types.Mode) }, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongodConfig3_6.Types.Network), global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongodConfig3_6.Types.Network.Parser, new[]{ "MaxIncomingConnections" }, null, null, null)}),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongoCfgConfig3_6), global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongoCfgConfig3_6.Parser, new[]{ "Storage", "OperationProfiling", "Net" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongoCfgConfig3_6.Types.Storage), global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongoCfgConfig3_6.Types.Storage.Parser, new[]{ "WiredTiger" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongoCfgConfig3_6.Types.Storage.Types.WiredTiger), global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongoCfgConfig3_6.Types.Storage.Types.WiredTiger.Parser, new[]{ "EngineConfig" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongoCfgConfig3_6.Types.Storage.Types.WiredTiger.Types.EngineConfig), global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongoCfgConfig3_6.Types.Storage.Types.WiredTiger.Types.EngineConfig.Parser, new[]{ "CacheSizeGb" }, null, null, null)})}),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongoCfgConfig3_6.Types.OperationProfiling), global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongoCfgConfig3_6.Types.OperationProfiling.Parser, new[]{ "Mode", "SlowOpThreshold" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongoCfgConfig3_6.Types.OperationProfiling.Types.Mode) }, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongoCfgConfig3_6.Types.Network), global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongoCfgConfig3_6.Types.Network.Parser, new[]{ "MaxIncomingConnections" }, null, null, null)}),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongosConfig3_6), global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongosConfig3_6.Parser, new[]{ "Net" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongosConfig3_6.Types.Network), global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongosConfig3_6.Types.Network.Parser, new[]{ "MaxIncomingConnections" }, null, null, null)}),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongodConfigSet3_6), global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongodConfigSet3_6.Parser, new[]{ "EffectiveConfig", "UserConfig", "DefaultConfig" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongoCfgConfigSet3_6), global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongoCfgConfigSet3_6.Parser, new[]{ "EffectiveConfig", "UserConfig", "DefaultConfig" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongosConfigSet3_6), global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongosConfigSet3_6.Parser, new[]{ "EffectiveConfig", "UserConfig", "DefaultConfig" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongodConfig3_6), global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongodConfig3_6.Parser, new[]{ "Storage", "OperationProfiling", "Net" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongodConfig3_6.Types.Storage), global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongodConfig3_6.Types.Storage.Parser, new[]{ "WiredTiger", "Journal" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongodConfig3_6.Types.Storage.Types.WiredTiger), global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongodConfig3_6.Types.Storage.Types.WiredTiger.Parser, new[]{ "EngineConfig", "CollectionConfig" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongodConfig3_6.Types.Storage.Types.WiredTiger.Types.EngineConfig), global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongodConfig3_6.Types.Storage.Types.WiredTiger.Types.EngineConfig.Parser, new[]{ "CacheSizeGb" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongodConfig3_6.Types.Storage.Types.WiredTiger.Types.CollectionConfig), global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongodConfig3_6.Types.Storage.Types.WiredTiger.Types.CollectionConfig.Parser, new[]{ "BlockCompressor" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongodConfig3_6.Types.Storage.Types.WiredTiger.Types.CollectionConfig.Types.Compressor) }, null, null)}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongodConfig3_6.Types.Storage.Types.Journal), global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongodConfig3_6.Types.Storage.Types.Journal.Parser, new[]{ "Enabled", "CommitInterval" }, null, null, null, null)}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongodConfig3_6.Types.OperationProfiling), global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongodConfig3_6.Types.OperationProfiling.Parser, new[]{ "Mode", "SlowOpThreshold" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongodConfig3_6.Types.OperationProfiling.Types.Mode) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongodConfig3_6.Types.Network), global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongodConfig3_6.Types.Network.Parser, new[]{ "MaxIncomingConnections" }, null, null, null, null)}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongoCfgConfig3_6), global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongoCfgConfig3_6.Parser, new[]{ "Storage", "OperationProfiling", "Net" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongoCfgConfig3_6.Types.Storage), global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongoCfgConfig3_6.Types.Storage.Parser, new[]{ "WiredTiger" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongoCfgConfig3_6.Types.Storage.Types.WiredTiger), global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongoCfgConfig3_6.Types.Storage.Types.WiredTiger.Parser, new[]{ "EngineConfig" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongoCfgConfig3_6.Types.Storage.Types.WiredTiger.Types.EngineConfig), global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongoCfgConfig3_6.Types.Storage.Types.WiredTiger.Types.EngineConfig.Parser, new[]{ "CacheSizeGb" }, null, null, null, null)})}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongoCfgConfig3_6.Types.OperationProfiling), global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongoCfgConfig3_6.Types.OperationProfiling.Parser, new[]{ "Mode", "SlowOpThreshold" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongoCfgConfig3_6.Types.OperationProfiling.Types.Mode) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongoCfgConfig3_6.Types.Network), global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongoCfgConfig3_6.Types.Network.Parser, new[]{ "MaxIncomingConnections" }, null, null, null, null)}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongosConfig3_6), global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongosConfig3_6.Parser, new[]{ "Net" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongosConfig3_6.Types.Network), global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongosConfig3_6.Types.Network.Parser, new[]{ "MaxIncomingConnections" }, null, null, null, null)}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongodConfigSet3_6), global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongodConfigSet3_6.Parser, new[]{ "EffectiveConfig", "UserConfig", "DefaultConfig" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongoCfgConfigSet3_6), global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongoCfgConfigSet3_6.Parser, new[]{ "EffectiveConfig", "UserConfig", "DefaultConfig" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongosConfigSet3_6), global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongosConfigSet3_6.Parser, new[]{ "EffectiveConfig", "UserConfig", "DefaultConfig" }, null, null, null, null)
           }));
     }
     #endregion
@@ -874,7 +874,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1.Config {
 
                 /// <summary>Field number for the "block_compressor" field.</summary>
                 public const int BlockCompressorFieldNumber = 1;
-                private global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongodConfig3_6.Types.Storage.Types.WiredTiger.Types.CollectionConfig.Types.Compressor blockCompressor_ = 0;
+                private global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongodConfig3_6.Types.Storage.Types.WiredTiger.Types.CollectionConfig.Types.Compressor blockCompressor_ = global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongodConfig3_6.Types.Storage.Types.WiredTiger.Types.CollectionConfig.Types.Compressor.Unspecified;
                 /// <summary>
                 /// Default type of compression to use for collection data.
                 /// </summary>
@@ -906,7 +906,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1.Config {
                 [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
                 public override int GetHashCode() {
                   int hash = 1;
-                  if (BlockCompressor != 0) hash ^= BlockCompressor.GetHashCode();
+                  if (BlockCompressor != global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongodConfig3_6.Types.Storage.Types.WiredTiger.Types.CollectionConfig.Types.Compressor.Unspecified) hash ^= BlockCompressor.GetHashCode();
                   if (_unknownFields != null) {
                     hash ^= _unknownFields.GetHashCode();
                   }
@@ -920,7 +920,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1.Config {
 
                 [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
                 public void WriteTo(pb::CodedOutputStream output) {
-                  if (BlockCompressor != 0) {
+                  if (BlockCompressor != global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongodConfig3_6.Types.Storage.Types.WiredTiger.Types.CollectionConfig.Types.Compressor.Unspecified) {
                     output.WriteRawTag(8);
                     output.WriteEnum((int) BlockCompressor);
                   }
@@ -932,7 +932,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1.Config {
                 [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
                 public int CalculateSize() {
                   int size = 0;
-                  if (BlockCompressor != 0) {
+                  if (BlockCompressor != global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongodConfig3_6.Types.Storage.Types.WiredTiger.Types.CollectionConfig.Types.Compressor.Unspecified) {
                     size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) BlockCompressor);
                   }
                   if (_unknownFields != null) {
@@ -946,7 +946,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1.Config {
                   if (other == null) {
                     return;
                   }
-                  if (other.BlockCompressor != 0) {
+                  if (other.BlockCompressor != global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongodConfig3_6.Types.Storage.Types.WiredTiger.Types.CollectionConfig.Types.Compressor.Unspecified) {
                     BlockCompressor = other.BlockCompressor;
                   }
                   _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
@@ -1219,7 +1219,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1.Config {
 
         /// <summary>Field number for the "mode" field.</summary>
         public const int ModeFieldNumber = 1;
-        private global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongodConfig3_6.Types.OperationProfiling.Types.Mode mode_ = 0;
+        private global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongodConfig3_6.Types.OperationProfiling.Types.Mode mode_ = global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongodConfig3_6.Types.OperationProfiling.Types.Mode.Unspecified;
         /// <summary>
         /// Mode which specifies operations that should be profiled.
         /// </summary>
@@ -1270,7 +1270,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1.Config {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public override int GetHashCode() {
           int hash = 1;
-          if (Mode != 0) hash ^= Mode.GetHashCode();
+          if (Mode != global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongodConfig3_6.Types.OperationProfiling.Types.Mode.Unspecified) hash ^= Mode.GetHashCode();
           if (slowOpThreshold_ != null) hash ^= SlowOpThreshold.GetHashCode();
           if (_unknownFields != null) {
             hash ^= _unknownFields.GetHashCode();
@@ -1285,7 +1285,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1.Config {
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public void WriteTo(pb::CodedOutputStream output) {
-          if (Mode != 0) {
+          if (Mode != global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongodConfig3_6.Types.OperationProfiling.Types.Mode.Unspecified) {
             output.WriteRawTag(8);
             output.WriteEnum((int) Mode);
           }
@@ -1300,7 +1300,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1.Config {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public int CalculateSize() {
           int size = 0;
-          if (Mode != 0) {
+          if (Mode != global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongodConfig3_6.Types.OperationProfiling.Types.Mode.Unspecified) {
             size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Mode);
           }
           if (slowOpThreshold_ != null) {
@@ -1317,7 +1317,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1.Config {
           if (other == null) {
             return;
           }
-          if (other.Mode != 0) {
+          if (other.Mode != global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongodConfig3_6.Types.OperationProfiling.Types.Mode.Unspecified) {
             Mode = other.Mode;
           }
           if (other.slowOpThreshold_ != null) {
@@ -2201,7 +2201,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1.Config {
 
         /// <summary>Field number for the "mode" field.</summary>
         public const int ModeFieldNumber = 1;
-        private global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongoCfgConfig3_6.Types.OperationProfiling.Types.Mode mode_ = 0;
+        private global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongoCfgConfig3_6.Types.OperationProfiling.Types.Mode mode_ = global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongoCfgConfig3_6.Types.OperationProfiling.Types.Mode.Unspecified;
         /// <summary>
         /// Operation profiling level. For details, see [MongoDB documentation](https://docs.mongodb.com/v3.6/tutorial/manage-the-database-profiler/).
         /// </summary>
@@ -2252,7 +2252,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1.Config {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public override int GetHashCode() {
           int hash = 1;
-          if (Mode != 0) hash ^= Mode.GetHashCode();
+          if (Mode != global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongoCfgConfig3_6.Types.OperationProfiling.Types.Mode.Unspecified) hash ^= Mode.GetHashCode();
           if (slowOpThreshold_ != null) hash ^= SlowOpThreshold.GetHashCode();
           if (_unknownFields != null) {
             hash ^= _unknownFields.GetHashCode();
@@ -2267,7 +2267,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1.Config {
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public void WriteTo(pb::CodedOutputStream output) {
-          if (Mode != 0) {
+          if (Mode != global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongoCfgConfig3_6.Types.OperationProfiling.Types.Mode.Unspecified) {
             output.WriteRawTag(8);
             output.WriteEnum((int) Mode);
           }
@@ -2282,7 +2282,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1.Config {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public int CalculateSize() {
           int size = 0;
-          if (Mode != 0) {
+          if (Mode != global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongoCfgConfig3_6.Types.OperationProfiling.Types.Mode.Unspecified) {
             size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Mode);
           }
           if (slowOpThreshold_ != null) {
@@ -2299,7 +2299,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1.Config {
           if (other == null) {
             return;
           }
-          if (other.Mode != 0) {
+          if (other.Mode != global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongoCfgConfig3_6.Types.OperationProfiling.Types.Mode.Unspecified) {
             Mode = other.Mode;
           }
           if (other.slowOpThreshold_ != null) {

@@ -36,7 +36,7 @@ namespace Yandex.Cloud.K8S.V1 {
     {
       /// <summary>Creates a new client for VersionService</summary>
       /// <param name="channel">The channel to use to make remote calls.</param>
-      public VersionServiceClient(grpc::Channel channel) : base(channel)
+      public VersionServiceClient(grpc::ChannelBase channel) : base(channel)
       {
       }
       /// <summary>Creates a new client for VersionService that uses a custom <c>CallInvoker</c>.</summary>

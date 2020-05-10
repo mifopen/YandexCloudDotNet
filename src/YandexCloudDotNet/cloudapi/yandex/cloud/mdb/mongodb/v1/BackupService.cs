@@ -46,10 +46,10 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
             "b2RiYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, global::Yandex.Cloud.Mdb.Mongodb.V1.BackupReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.GetBackupRequest), global::Yandex.Cloud.Mdb.Mongodb.V1.GetBackupRequest.Parser, new[]{ "BackupId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.ListBackupsRequest), global::Yandex.Cloud.Mdb.Mongodb.V1.ListBackupsRequest.Parser, new[]{ "FolderId", "PageSize", "PageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.ListBackupsResponse), global::Yandex.Cloud.Mdb.Mongodb.V1.ListBackupsResponse.Parser, new[]{ "Backups", "NextPageToken" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.GetBackupRequest), global::Yandex.Cloud.Mdb.Mongodb.V1.GetBackupRequest.Parser, new[]{ "BackupId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.ListBackupsRequest), global::Yandex.Cloud.Mdb.Mongodb.V1.ListBackupsRequest.Parser, new[]{ "FolderId", "PageSize", "PageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.ListBackupsResponse), global::Yandex.Cloud.Mdb.Mongodb.V1.ListBackupsResponse.Parser, new[]{ "Backups", "NextPageToken" }, null, null, null, null)
           }));
     }
     #endregion

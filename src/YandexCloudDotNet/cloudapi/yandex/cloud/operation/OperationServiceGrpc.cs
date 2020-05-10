@@ -44,7 +44,7 @@ namespace Yandex.Cloud.Operation {
     {
       /// <summary>Creates a new client for OperationService</summary>
       /// <param name="channel">The channel to use to make remote calls.</param>
-      public OperationServiceClient(grpc::Channel channel) : base(channel)
+      public OperationServiceClient(grpc::ChannelBase channel) : base(channel)
       {
       }
       /// <summary>Creates a new client for OperationService that uses a custom <c>CallInvoker</c>.</summary>

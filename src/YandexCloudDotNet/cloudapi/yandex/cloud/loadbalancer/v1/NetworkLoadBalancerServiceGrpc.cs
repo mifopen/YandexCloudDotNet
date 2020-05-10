@@ -136,7 +136,7 @@ namespace Yandex.Cloud.Loadbalancer.V1 {
     {
       /// <summary>Creates a new client for NetworkLoadBalancerService</summary>
       /// <param name="channel">The channel to use to make remote calls.</param>
-      public NetworkLoadBalancerServiceClient(grpc::Channel channel) : base(channel)
+      public NetworkLoadBalancerServiceClient(grpc::ChannelBase channel) : base(channel)
       {
       }
       /// <summary>Creates a new client for NetworkLoadBalancerService that uses a custom <c>CallInvoker</c>.</summary>

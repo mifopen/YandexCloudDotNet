@@ -68,14 +68,14 @@ namespace Yandex.Cloud.Mdb.Mysql.V1 {
             "bGIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Yandex.Cloud.Api.OperationReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, global::Yandex.Cloud.Mdb.Mysql.V1.DatabaseReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.GetDatabaseRequest), global::Yandex.Cloud.Mdb.Mysql.V1.GetDatabaseRequest.Parser, new[]{ "ClusterId", "DatabaseName" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.ListDatabasesRequest), global::Yandex.Cloud.Mdb.Mysql.V1.ListDatabasesRequest.Parser, new[]{ "ClusterId", "PageSize", "PageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.ListDatabasesResponse), global::Yandex.Cloud.Mdb.Mysql.V1.ListDatabasesResponse.Parser, new[]{ "Databases", "NextPageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.CreateDatabaseRequest), global::Yandex.Cloud.Mdb.Mysql.V1.CreateDatabaseRequest.Parser, new[]{ "ClusterId", "DatabaseSpec" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.CreateDatabaseMetadata), global::Yandex.Cloud.Mdb.Mysql.V1.CreateDatabaseMetadata.Parser, new[]{ "ClusterId", "DatabaseName" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.DeleteDatabaseRequest), global::Yandex.Cloud.Mdb.Mysql.V1.DeleteDatabaseRequest.Parser, new[]{ "ClusterId", "DatabaseName" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.DeleteDatabaseMetadata), global::Yandex.Cloud.Mdb.Mysql.V1.DeleteDatabaseMetadata.Parser, new[]{ "ClusterId", "DatabaseName" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.GetDatabaseRequest), global::Yandex.Cloud.Mdb.Mysql.V1.GetDatabaseRequest.Parser, new[]{ "ClusterId", "DatabaseName" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.ListDatabasesRequest), global::Yandex.Cloud.Mdb.Mysql.V1.ListDatabasesRequest.Parser, new[]{ "ClusterId", "PageSize", "PageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.ListDatabasesResponse), global::Yandex.Cloud.Mdb.Mysql.V1.ListDatabasesResponse.Parser, new[]{ "Databases", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.CreateDatabaseRequest), global::Yandex.Cloud.Mdb.Mysql.V1.CreateDatabaseRequest.Parser, new[]{ "ClusterId", "DatabaseSpec" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.CreateDatabaseMetadata), global::Yandex.Cloud.Mdb.Mysql.V1.CreateDatabaseMetadata.Parser, new[]{ "ClusterId", "DatabaseName" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.DeleteDatabaseRequest), global::Yandex.Cloud.Mdb.Mysql.V1.DeleteDatabaseRequest.Parser, new[]{ "ClusterId", "DatabaseName" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.DeleteDatabaseMetadata), global::Yandex.Cloud.Mdb.Mysql.V1.DeleteDatabaseMetadata.Parser, new[]{ "ClusterId", "DatabaseName" }, null, null, null, null)
           }));
     }
     #endregion

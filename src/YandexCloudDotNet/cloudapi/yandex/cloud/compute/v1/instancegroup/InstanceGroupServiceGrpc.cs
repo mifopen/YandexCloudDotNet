@@ -129,7 +129,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
     {
       /// <summary>Creates a new client for InstanceGroupService</summary>
       /// <param name="channel">The channel to use to make remote calls.</param>
-      public InstanceGroupServiceClient(grpc::Channel channel) : base(channel)
+      public InstanceGroupServiceClient(grpc::ChannelBase channel) : base(channel)
       {
       }
       /// <summary>Creates a new client for InstanceGroupService that uses a custom <c>CallInvoker</c>.</summary>

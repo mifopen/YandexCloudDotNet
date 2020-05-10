@@ -86,16 +86,16 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
             "b3VkL21kYi9jbGlja2hvdXNlL3YxO2NsaWNraG91c2ViBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Yandex.Cloud.Api.OperationReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, global::Yandex.Cloud.Mdb.Clickhouse.V1.FormatSchemaReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.GetFormatSchemaRequest), global::Yandex.Cloud.Mdb.Clickhouse.V1.GetFormatSchemaRequest.Parser, new[]{ "ClusterId", "FormatSchemaName" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.ListFormatSchemasRequest), global::Yandex.Cloud.Mdb.Clickhouse.V1.ListFormatSchemasRequest.Parser, new[]{ "ClusterId", "PageSize", "PageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.ListFormatSchemasResponse), global::Yandex.Cloud.Mdb.Clickhouse.V1.ListFormatSchemasResponse.Parser, new[]{ "FormatSchemas", "NextPageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.CreateFormatSchemaRequest), global::Yandex.Cloud.Mdb.Clickhouse.V1.CreateFormatSchemaRequest.Parser, new[]{ "ClusterId", "FormatSchemaName", "Type", "Uri" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.CreateFormatSchemaMetadata), global::Yandex.Cloud.Mdb.Clickhouse.V1.CreateFormatSchemaMetadata.Parser, new[]{ "ClusterId", "FormatSchemaName" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.UpdateFormatSchemaRequest), global::Yandex.Cloud.Mdb.Clickhouse.V1.UpdateFormatSchemaRequest.Parser, new[]{ "ClusterId", "FormatSchemaName", "UpdateMask", "Uri" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.UpdateFormatSchemaMetadata), global::Yandex.Cloud.Mdb.Clickhouse.V1.UpdateFormatSchemaMetadata.Parser, new[]{ "ClusterId", "FormatSchemaName" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.DeleteFormatSchemaRequest), global::Yandex.Cloud.Mdb.Clickhouse.V1.DeleteFormatSchemaRequest.Parser, new[]{ "ClusterId", "FormatSchemaName" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.DeleteFormatSchemaMetadata), global::Yandex.Cloud.Mdb.Clickhouse.V1.DeleteFormatSchemaMetadata.Parser, new[]{ "ClusterId", "FormatSchemaName" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.GetFormatSchemaRequest), global::Yandex.Cloud.Mdb.Clickhouse.V1.GetFormatSchemaRequest.Parser, new[]{ "ClusterId", "FormatSchemaName" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.ListFormatSchemasRequest), global::Yandex.Cloud.Mdb.Clickhouse.V1.ListFormatSchemasRequest.Parser, new[]{ "ClusterId", "PageSize", "PageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.ListFormatSchemasResponse), global::Yandex.Cloud.Mdb.Clickhouse.V1.ListFormatSchemasResponse.Parser, new[]{ "FormatSchemas", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.CreateFormatSchemaRequest), global::Yandex.Cloud.Mdb.Clickhouse.V1.CreateFormatSchemaRequest.Parser, new[]{ "ClusterId", "FormatSchemaName", "Type", "Uri" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.CreateFormatSchemaMetadata), global::Yandex.Cloud.Mdb.Clickhouse.V1.CreateFormatSchemaMetadata.Parser, new[]{ "ClusterId", "FormatSchemaName" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.UpdateFormatSchemaRequest), global::Yandex.Cloud.Mdb.Clickhouse.V1.UpdateFormatSchemaRequest.Parser, new[]{ "ClusterId", "FormatSchemaName", "UpdateMask", "Uri" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.UpdateFormatSchemaMetadata), global::Yandex.Cloud.Mdb.Clickhouse.V1.UpdateFormatSchemaMetadata.Parser, new[]{ "ClusterId", "FormatSchemaName" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.DeleteFormatSchemaRequest), global::Yandex.Cloud.Mdb.Clickhouse.V1.DeleteFormatSchemaRequest.Parser, new[]{ "ClusterId", "FormatSchemaName" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.DeleteFormatSchemaMetadata), global::Yandex.Cloud.Mdb.Clickhouse.V1.DeleteFormatSchemaMetadata.Parser, new[]{ "ClusterId", "FormatSchemaName" }, null, null, null, null)
           }));
     }
     #endregion
@@ -654,7 +654,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
 
     /// <summary>Field number for the "type" field.</summary>
     public const int TypeFieldNumber = 3;
-    private global::Yandex.Cloud.Mdb.Clickhouse.V1.FormatSchemaType type_ = 0;
+    private global::Yandex.Cloud.Mdb.Clickhouse.V1.FormatSchemaType type_ = global::Yandex.Cloud.Mdb.Clickhouse.V1.FormatSchemaType.Unspecified;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Mdb.Clickhouse.V1.FormatSchemaType Type {
       get { return type_; }
@@ -699,7 +699,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       int hash = 1;
       if (ClusterId.Length != 0) hash ^= ClusterId.GetHashCode();
       if (FormatSchemaName.Length != 0) hash ^= FormatSchemaName.GetHashCode();
-      if (Type != 0) hash ^= Type.GetHashCode();
+      if (Type != global::Yandex.Cloud.Mdb.Clickhouse.V1.FormatSchemaType.Unspecified) hash ^= Type.GetHashCode();
       if (Uri.Length != 0) hash ^= Uri.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -722,7 +722,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
         output.WriteRawTag(18);
         output.WriteString(FormatSchemaName);
       }
-      if (Type != 0) {
+      if (Type != global::Yandex.Cloud.Mdb.Clickhouse.V1.FormatSchemaType.Unspecified) {
         output.WriteRawTag(24);
         output.WriteEnum((int) Type);
       }
@@ -744,7 +744,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       if (FormatSchemaName.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(FormatSchemaName);
       }
-      if (Type != 0) {
+      if (Type != global::Yandex.Cloud.Mdb.Clickhouse.V1.FormatSchemaType.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Type);
       }
       if (Uri.Length != 0) {
@@ -767,7 +767,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       if (other.FormatSchemaName.Length != 0) {
         FormatSchemaName = other.FormatSchemaName;
       }
-      if (other.Type != 0) {
+      if (other.Type != global::Yandex.Cloud.Mdb.Clickhouse.V1.FormatSchemaType.Unspecified) {
         Type = other.Type;
       }
       if (other.Uri.Length != 0) {

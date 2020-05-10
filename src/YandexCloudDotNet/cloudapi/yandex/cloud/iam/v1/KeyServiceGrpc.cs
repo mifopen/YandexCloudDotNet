@@ -80,7 +80,7 @@ namespace Yandex.Cloud.Iam.V1 {
     {
       /// <summary>Creates a new client for KeyService</summary>
       /// <param name="channel">The channel to use to make remote calls.</param>
-      public KeyServiceClient(grpc::Channel channel) : base(channel)
+      public KeyServiceClient(grpc::ChannelBase channel) : base(channel)
       {
       }
       /// <summary>Creates a new client for KeyService that uses a custom <c>CallInvoker</c>.</summary>

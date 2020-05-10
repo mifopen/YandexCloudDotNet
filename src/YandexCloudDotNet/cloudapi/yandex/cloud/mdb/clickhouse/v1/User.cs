@@ -187,12 +187,12 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
             "a2hvdXNlL3YxO2NsaWNraG91c2ViBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.WrappersReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.User), global::Yandex.Cloud.Mdb.Clickhouse.V1.User.Parser, new[]{ "Name", "ClusterId", "Permissions", "Settings", "Quotas" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Permission), global::Yandex.Cloud.Mdb.Clickhouse.V1.Permission.Parser, new[]{ "DatabaseName" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSpec), global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSpec.Parser, new[]{ "Name", "Password", "Permissions", "Settings", "Quotas" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings), global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Parser, new[]{ "Readonly", "AllowDdl", "InsertQuorum", "ConnectTimeout", "ReceiveTimeout", "SendTimeout", "InsertQuorumTimeout", "SelectSequentialConsistency", "MaxReplicaDelayForDistributedQueries", "FallbackToStaleReplicasForDistributedQueries", "ReplicationAlterPartitionsSync", "DistributedProductMode", "DistributedAggregationMemoryEfficient", "DistributedDdlTaskTimeout", "Compile", "MinCountToCompile", "CompileExpressions", "MinCountToCompileExpression", "MaxBlockSize", "MinInsertBlockSizeRows", "MinInsertBlockSizeBytes", "MaxInsertBlockSize", "MinBytesToUseDirectIo", "UseUncompressedCache", "MergeTreeMaxRowsToUseCache", "MergeTreeMaxBytesToUseCache", "MergeTreeMinRowsForConcurrentRead", "MergeTreeMinBytesForConcurrentRead", "MaxBytesBeforeExternalGroupBy", "MaxBytesBeforeExternalSort", "GroupByTwoLevelThreshold", "GroupByTwoLevelThresholdBytes", "Priority", "MaxThreads", "MaxMemoryUsage", "MaxMemoryUsageForUser", "MaxNetworkBandwidth", "MaxNetworkBandwidthForUser", "ForceIndexByDate", "ForcePrimaryKey", "MaxRowsToRead", "MaxBytesToRead", "ReadOverflowMode", "MaxRowsToGroupBy", "GroupByOverflowMode", "MaxRowsToSort", "MaxBytesToSort", "SortOverflowMode", "MaxResultRows", "MaxResultBytes", "ResultOverflowMode", "MaxRowsInDistinct", "MaxBytesInDistinct", "DistinctOverflowMode", "MaxRowsToTransfer", "MaxBytesToTransfer", "TransferOverflowMode", "MaxExecutionTime", "TimeoutOverflowMode", "MaxColumnsToRead", "MaxTemporaryColumns", "MaxTemporaryNonConstColumns", "MaxQuerySize", "MaxAstDepth", "MaxAstElements", "MaxExpandedAstElements", "InputFormatValuesInterpretExpressions", "InputFormatDefaultsForOmittedFields", "OutputFormatJsonQuote64BitIntegers", "OutputFormatJsonQuoteDenormals", "LowCardinalityAllowInNativeFormat", "EmptyResultForAggregationByEmptySet", "HttpConnectionTimeout", "HttpReceiveTimeout", "HttpSendTimeout", "EnableHttpCompression", "SendProgressInHttpHeaders", "HttpHeadersProgressInterval", "AddHttpCorsHeader" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode), typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.GroupByOverflowMode), typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.DistributedProductMode) }, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.UserQuota), global::Yandex.Cloud.Mdb.Clickhouse.V1.UserQuota.Parser, new[]{ "IntervalDuration", "Queries", "Errors", "ResultRows", "ReadRows", "ExecutionTime" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.User), global::Yandex.Cloud.Mdb.Clickhouse.V1.User.Parser, new[]{ "Name", "ClusterId", "Permissions", "Settings", "Quotas" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Permission), global::Yandex.Cloud.Mdb.Clickhouse.V1.Permission.Parser, new[]{ "DatabaseName" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSpec), global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSpec.Parser, new[]{ "Name", "Password", "Permissions", "Settings", "Quotas" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings), global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Parser, new[]{ "Readonly", "AllowDdl", "InsertQuorum", "ConnectTimeout", "ReceiveTimeout", "SendTimeout", "InsertQuorumTimeout", "SelectSequentialConsistency", "MaxReplicaDelayForDistributedQueries", "FallbackToStaleReplicasForDistributedQueries", "ReplicationAlterPartitionsSync", "DistributedProductMode", "DistributedAggregationMemoryEfficient", "DistributedDdlTaskTimeout", "Compile", "MinCountToCompile", "CompileExpressions", "MinCountToCompileExpression", "MaxBlockSize", "MinInsertBlockSizeRows", "MinInsertBlockSizeBytes", "MaxInsertBlockSize", "MinBytesToUseDirectIo", "UseUncompressedCache", "MergeTreeMaxRowsToUseCache", "MergeTreeMaxBytesToUseCache", "MergeTreeMinRowsForConcurrentRead", "MergeTreeMinBytesForConcurrentRead", "MaxBytesBeforeExternalGroupBy", "MaxBytesBeforeExternalSort", "GroupByTwoLevelThreshold", "GroupByTwoLevelThresholdBytes", "Priority", "MaxThreads", "MaxMemoryUsage", "MaxMemoryUsageForUser", "MaxNetworkBandwidth", "MaxNetworkBandwidthForUser", "ForceIndexByDate", "ForcePrimaryKey", "MaxRowsToRead", "MaxBytesToRead", "ReadOverflowMode", "MaxRowsToGroupBy", "GroupByOverflowMode", "MaxRowsToSort", "MaxBytesToSort", "SortOverflowMode", "MaxResultRows", "MaxResultBytes", "ResultOverflowMode", "MaxRowsInDistinct", "MaxBytesInDistinct", "DistinctOverflowMode", "MaxRowsToTransfer", "MaxBytesToTransfer", "TransferOverflowMode", "MaxExecutionTime", "TimeoutOverflowMode", "MaxColumnsToRead", "MaxTemporaryColumns", "MaxTemporaryNonConstColumns", "MaxQuerySize", "MaxAstDepth", "MaxAstElements", "MaxExpandedAstElements", "InputFormatValuesInterpretExpressions", "InputFormatDefaultsForOmittedFields", "OutputFormatJsonQuote64BitIntegers", "OutputFormatJsonQuoteDenormals", "LowCardinalityAllowInNativeFormat", "EmptyResultForAggregationByEmptySet", "HttpConnectionTimeout", "HttpReceiveTimeout", "HttpSendTimeout", "EnableHttpCompression", "SendProgressInHttpHeaders", "HttpHeadersProgressInterval", "AddHttpCorsHeader" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode), typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.GroupByOverflowMode), typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.DistributedProductMode) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.UserQuota), global::Yandex.Cloud.Mdb.Clickhouse.V1.UserQuota.Parser, new[]{ "IntervalDuration", "Queries", "Errors", "ResultRows", "ReadRows", "ExecutionTime" }, null, null, null, null)
           }));
     }
     #endregion
@@ -1121,7 +1121,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
 
     /// <summary>Field number for the "distributed_product_mode" field.</summary>
     public const int DistributedProductModeFieldNumber = 43;
-    private global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.DistributedProductMode distributedProductMode_ = 0;
+    private global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.DistributedProductMode distributedProductMode_ = global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.DistributedProductMode.Unspecified;
     /// <summary>
     /// Determine the behavior of distributed subqueries. Possible values: DISTRIBUTED_PRODUCT_MODE_DENY,
     /// DISTRIBUTED_PRODUCT_MODE_LOCAL, DISTRIBUTED_PRODUCT_MODE_GLOBAL, DISTRIBUTED_PRODUCT_MODE_ALLOW.
@@ -1608,7 +1608,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
 
     /// <summary>Field number for the "read_overflow_mode" field.</summary>
     public const int ReadOverflowModeFieldNumber = 15;
-    private global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode readOverflowMode_ = 0;
+    private global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode readOverflowMode_ = global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode.Unspecified;
     /// <summary>
     /// Determine the behavior on exceeding max_rows_to_read or max_bytes_to_read limit.
     /// Possible values: OVERFLOW_MODE_THROW, OVERFLOW_MODE_BREAK.
@@ -1639,7 +1639,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
 
     /// <summary>Field number for the "group_by_overflow_mode" field.</summary>
     public const int GroupByOverflowModeFieldNumber = 17;
-    private global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.GroupByOverflowMode groupByOverflowMode_ = 0;
+    private global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.GroupByOverflowMode groupByOverflowMode_ = global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.GroupByOverflowMode.Unspecified;
     /// <summary>
     /// Determine the behavior on exceeding max_rows_to_group_by limit. Possible values: GROUP_BY_OVERFLOW_MODE_THROW,
     /// GROUP_BY_OVERFLOW_MODE_BREAK, GROUP_BY_OVERFLOW_MODE_ANY.
@@ -1686,7 +1686,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
 
     /// <summary>Field number for the "sort_overflow_mode" field.</summary>
     public const int SortOverflowModeFieldNumber = 20;
-    private global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode sortOverflowMode_ = 0;
+    private global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode sortOverflowMode_ = global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode.Unspecified;
     /// <summary>
     /// Determine the behavior on exceeding max_rows_to_sort or max_bytes_to_sort limit.
     /// Possible values: OVERFLOW_MODE_THROW, OVERFLOW_MODE_BREAK.
@@ -1733,7 +1733,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
 
     /// <summary>Field number for the "result_overflow_mode" field.</summary>
     public const int ResultOverflowModeFieldNumber = 23;
-    private global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode resultOverflowMode_ = 0;
+    private global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode resultOverflowMode_ = global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode.Unspecified;
     /// <summary>
     /// Determine the behavior on exceeding max_result_rows or max_result_bytes limit.
     /// Possible values: OVERFLOW_MODE_THROW, OVERFLOW_MODE_BREAK.
@@ -1780,7 +1780,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
 
     /// <summary>Field number for the "distinct_overflow_mode" field.</summary>
     public const int DistinctOverflowModeFieldNumber = 26;
-    private global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode distinctOverflowMode_ = 0;
+    private global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode distinctOverflowMode_ = global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode.Unspecified;
     /// <summary>
     /// Determine the behavior on exceeding max_rows_in_distinct or max_bytes_in_distinct limit.
     /// Possible values: OVERFLOW_MODE_THROW, OVERFLOW_MODE_BREAK.
@@ -1828,7 +1828,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
 
     /// <summary>Field number for the "transfer_overflow_mode" field.</summary>
     public const int TransferOverflowModeFieldNumber = 29;
-    private global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode transferOverflowMode_ = 0;
+    private global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode transferOverflowMode_ = global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode.Unspecified;
     /// <summary>
     /// Determine the behavior on exceeding max_rows_to_transfer or max_bytes_to_transfer limit.
     /// Possible values: OVERFLOW_MODE_THROW, OVERFLOW_MODE_BREAK.
@@ -1859,7 +1859,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
 
     /// <summary>Field number for the "timeout_overflow_mode" field.</summary>
     public const int TimeoutOverflowModeFieldNumber = 31;
-    private global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode timeoutOverflowMode_ = 0;
+    private global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode timeoutOverflowMode_ = global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode.Unspecified;
     /// <summary>
     /// Determine the behavior on exceeding max_execution_time limit.
     /// Possible values: OVERFLOW_MODE_THROW, OVERFLOW_MODE_BREAK.
@@ -2301,7 +2301,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       if (maxReplicaDelayForDistributedQueries_ != null) hash ^= MaxReplicaDelayForDistributedQueries.GetHashCode();
       if (fallbackToStaleReplicasForDistributedQueries_ != null) hash ^= FallbackToStaleReplicasForDistributedQueries.GetHashCode();
       if (replicationAlterPartitionsSync_ != null) hash ^= ReplicationAlterPartitionsSync.GetHashCode();
-      if (DistributedProductMode != 0) hash ^= DistributedProductMode.GetHashCode();
+      if (DistributedProductMode != global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.DistributedProductMode.Unspecified) hash ^= DistributedProductMode.GetHashCode();
       if (distributedAggregationMemoryEfficient_ != null) hash ^= DistributedAggregationMemoryEfficient.GetHashCode();
       if (distributedDdlTaskTimeout_ != null) hash ^= DistributedDdlTaskTimeout.GetHashCode();
       if (compile_ != null) hash ^= Compile.GetHashCode();
@@ -2332,23 +2332,23 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       if (forcePrimaryKey_ != null) hash ^= ForcePrimaryKey.GetHashCode();
       if (maxRowsToRead_ != null) hash ^= MaxRowsToRead.GetHashCode();
       if (maxBytesToRead_ != null) hash ^= MaxBytesToRead.GetHashCode();
-      if (ReadOverflowMode != 0) hash ^= ReadOverflowMode.GetHashCode();
+      if (ReadOverflowMode != global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode.Unspecified) hash ^= ReadOverflowMode.GetHashCode();
       if (maxRowsToGroupBy_ != null) hash ^= MaxRowsToGroupBy.GetHashCode();
-      if (GroupByOverflowMode != 0) hash ^= GroupByOverflowMode.GetHashCode();
+      if (GroupByOverflowMode != global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.GroupByOverflowMode.Unspecified) hash ^= GroupByOverflowMode.GetHashCode();
       if (maxRowsToSort_ != null) hash ^= MaxRowsToSort.GetHashCode();
       if (maxBytesToSort_ != null) hash ^= MaxBytesToSort.GetHashCode();
-      if (SortOverflowMode != 0) hash ^= SortOverflowMode.GetHashCode();
+      if (SortOverflowMode != global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode.Unspecified) hash ^= SortOverflowMode.GetHashCode();
       if (maxResultRows_ != null) hash ^= MaxResultRows.GetHashCode();
       if (maxResultBytes_ != null) hash ^= MaxResultBytes.GetHashCode();
-      if (ResultOverflowMode != 0) hash ^= ResultOverflowMode.GetHashCode();
+      if (ResultOverflowMode != global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode.Unspecified) hash ^= ResultOverflowMode.GetHashCode();
       if (maxRowsInDistinct_ != null) hash ^= MaxRowsInDistinct.GetHashCode();
       if (maxBytesInDistinct_ != null) hash ^= MaxBytesInDistinct.GetHashCode();
-      if (DistinctOverflowMode != 0) hash ^= DistinctOverflowMode.GetHashCode();
+      if (DistinctOverflowMode != global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode.Unspecified) hash ^= DistinctOverflowMode.GetHashCode();
       if (maxRowsToTransfer_ != null) hash ^= MaxRowsToTransfer.GetHashCode();
       if (maxBytesToTransfer_ != null) hash ^= MaxBytesToTransfer.GetHashCode();
-      if (TransferOverflowMode != 0) hash ^= TransferOverflowMode.GetHashCode();
+      if (TransferOverflowMode != global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode.Unspecified) hash ^= TransferOverflowMode.GetHashCode();
       if (maxExecutionTime_ != null) hash ^= MaxExecutionTime.GetHashCode();
-      if (TimeoutOverflowMode != 0) hash ^= TimeoutOverflowMode.GetHashCode();
+      if (TimeoutOverflowMode != global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode.Unspecified) hash ^= TimeoutOverflowMode.GetHashCode();
       if (maxColumnsToRead_ != null) hash ^= MaxColumnsToRead.GetHashCode();
       if (maxTemporaryColumns_ != null) hash ^= MaxTemporaryColumns.GetHashCode();
       if (maxTemporaryNonConstColumns_ != null) hash ^= MaxTemporaryNonConstColumns.GetHashCode();
@@ -2424,14 +2424,14 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       if (maxBytesToRead_ != null) {
         _single_maxBytesToRead_codec.WriteTagAndValue(output, MaxBytesToRead);
       }
-      if (ReadOverflowMode != 0) {
+      if (ReadOverflowMode != global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode.Unspecified) {
         output.WriteRawTag(120);
         output.WriteEnum((int) ReadOverflowMode);
       }
       if (maxRowsToGroupBy_ != null) {
         _single_maxRowsToGroupBy_codec.WriteTagAndValue(output, MaxRowsToGroupBy);
       }
-      if (GroupByOverflowMode != 0) {
+      if (GroupByOverflowMode != global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.GroupByOverflowMode.Unspecified) {
         output.WriteRawTag(136, 1);
         output.WriteEnum((int) GroupByOverflowMode);
       }
@@ -2441,7 +2441,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       if (maxBytesToSort_ != null) {
         _single_maxBytesToSort_codec.WriteTagAndValue(output, MaxBytesToSort);
       }
-      if (SortOverflowMode != 0) {
+      if (SortOverflowMode != global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode.Unspecified) {
         output.WriteRawTag(160, 1);
         output.WriteEnum((int) SortOverflowMode);
       }
@@ -2451,7 +2451,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       if (maxResultBytes_ != null) {
         _single_maxResultBytes_codec.WriteTagAndValue(output, MaxResultBytes);
       }
-      if (ResultOverflowMode != 0) {
+      if (ResultOverflowMode != global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode.Unspecified) {
         output.WriteRawTag(184, 1);
         output.WriteEnum((int) ResultOverflowMode);
       }
@@ -2461,7 +2461,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       if (maxBytesInDistinct_ != null) {
         _single_maxBytesInDistinct_codec.WriteTagAndValue(output, MaxBytesInDistinct);
       }
-      if (DistinctOverflowMode != 0) {
+      if (DistinctOverflowMode != global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode.Unspecified) {
         output.WriteRawTag(208, 1);
         output.WriteEnum((int) DistinctOverflowMode);
       }
@@ -2471,14 +2471,14 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       if (maxBytesToTransfer_ != null) {
         _single_maxBytesToTransfer_codec.WriteTagAndValue(output, MaxBytesToTransfer);
       }
-      if (TransferOverflowMode != 0) {
+      if (TransferOverflowMode != global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode.Unspecified) {
         output.WriteRawTag(232, 1);
         output.WriteEnum((int) TransferOverflowMode);
       }
       if (maxExecutionTime_ != null) {
         _single_maxExecutionTime_codec.WriteTagAndValue(output, MaxExecutionTime);
       }
-      if (TimeoutOverflowMode != 0) {
+      if (TimeoutOverflowMode != global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode.Unspecified) {
         output.WriteRawTag(248, 1);
         output.WriteEnum((int) TimeoutOverflowMode);
       }
@@ -2515,7 +2515,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       if (replicationAlterPartitionsSync_ != null) {
         _single_replicationAlterPartitionsSync_codec.WriteTagAndValue(output, ReplicationAlterPartitionsSync);
       }
-      if (DistributedProductMode != 0) {
+      if (DistributedProductMode != global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.DistributedProductMode.Unspecified) {
         output.WriteRawTag(216, 2);
         output.WriteEnum((int) DistributedProductMode);
       }
@@ -2668,7 +2668,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       if (replicationAlterPartitionsSync_ != null) {
         size += _single_replicationAlterPartitionsSync_codec.CalculateSizeWithTag(ReplicationAlterPartitionsSync);
       }
-      if (DistributedProductMode != 0) {
+      if (DistributedProductMode != global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.DistributedProductMode.Unspecified) {
         size += 2 + pb::CodedOutputStream.ComputeEnumSize((int) DistributedProductMode);
       }
       if (distributedAggregationMemoryEfficient_ != null) {
@@ -2761,13 +2761,13 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       if (maxBytesToRead_ != null) {
         size += _single_maxBytesToRead_codec.CalculateSizeWithTag(MaxBytesToRead);
       }
-      if (ReadOverflowMode != 0) {
+      if (ReadOverflowMode != global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) ReadOverflowMode);
       }
       if (maxRowsToGroupBy_ != null) {
         size += _single_maxRowsToGroupBy_codec.CalculateSizeWithTag(MaxRowsToGroupBy);
       }
-      if (GroupByOverflowMode != 0) {
+      if (GroupByOverflowMode != global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.GroupByOverflowMode.Unspecified) {
         size += 2 + pb::CodedOutputStream.ComputeEnumSize((int) GroupByOverflowMode);
       }
       if (maxRowsToSort_ != null) {
@@ -2776,7 +2776,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       if (maxBytesToSort_ != null) {
         size += _single_maxBytesToSort_codec.CalculateSizeWithTag(MaxBytesToSort);
       }
-      if (SortOverflowMode != 0) {
+      if (SortOverflowMode != global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode.Unspecified) {
         size += 2 + pb::CodedOutputStream.ComputeEnumSize((int) SortOverflowMode);
       }
       if (maxResultRows_ != null) {
@@ -2785,7 +2785,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       if (maxResultBytes_ != null) {
         size += _single_maxResultBytes_codec.CalculateSizeWithTag(MaxResultBytes);
       }
-      if (ResultOverflowMode != 0) {
+      if (ResultOverflowMode != global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode.Unspecified) {
         size += 2 + pb::CodedOutputStream.ComputeEnumSize((int) ResultOverflowMode);
       }
       if (maxRowsInDistinct_ != null) {
@@ -2794,7 +2794,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       if (maxBytesInDistinct_ != null) {
         size += _single_maxBytesInDistinct_codec.CalculateSizeWithTag(MaxBytesInDistinct);
       }
-      if (DistinctOverflowMode != 0) {
+      if (DistinctOverflowMode != global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode.Unspecified) {
         size += 2 + pb::CodedOutputStream.ComputeEnumSize((int) DistinctOverflowMode);
       }
       if (maxRowsToTransfer_ != null) {
@@ -2803,13 +2803,13 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       if (maxBytesToTransfer_ != null) {
         size += _single_maxBytesToTransfer_codec.CalculateSizeWithTag(MaxBytesToTransfer);
       }
-      if (TransferOverflowMode != 0) {
+      if (TransferOverflowMode != global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode.Unspecified) {
         size += 2 + pb::CodedOutputStream.ComputeEnumSize((int) TransferOverflowMode);
       }
       if (maxExecutionTime_ != null) {
         size += _single_maxExecutionTime_codec.CalculateSizeWithTag(MaxExecutionTime);
       }
-      if (TimeoutOverflowMode != 0) {
+      if (TimeoutOverflowMode != global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode.Unspecified) {
         size += 2 + pb::CodedOutputStream.ComputeEnumSize((int) TimeoutOverflowMode);
       }
       if (maxColumnsToRead_ != null) {
@@ -2938,7 +2938,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
           ReplicationAlterPartitionsSync = other.ReplicationAlterPartitionsSync;
         }
       }
-      if (other.DistributedProductMode != 0) {
+      if (other.DistributedProductMode != global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.DistributedProductMode.Unspecified) {
         DistributedProductMode = other.DistributedProductMode;
       }
       if (other.distributedAggregationMemoryEfficient_ != null) {
@@ -3091,7 +3091,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
           MaxBytesToRead = other.MaxBytesToRead;
         }
       }
-      if (other.ReadOverflowMode != 0) {
+      if (other.ReadOverflowMode != global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode.Unspecified) {
         ReadOverflowMode = other.ReadOverflowMode;
       }
       if (other.maxRowsToGroupBy_ != null) {
@@ -3099,7 +3099,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
           MaxRowsToGroupBy = other.MaxRowsToGroupBy;
         }
       }
-      if (other.GroupByOverflowMode != 0) {
+      if (other.GroupByOverflowMode != global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.GroupByOverflowMode.Unspecified) {
         GroupByOverflowMode = other.GroupByOverflowMode;
       }
       if (other.maxRowsToSort_ != null) {
@@ -3112,7 +3112,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
           MaxBytesToSort = other.MaxBytesToSort;
         }
       }
-      if (other.SortOverflowMode != 0) {
+      if (other.SortOverflowMode != global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode.Unspecified) {
         SortOverflowMode = other.SortOverflowMode;
       }
       if (other.maxResultRows_ != null) {
@@ -3125,7 +3125,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
           MaxResultBytes = other.MaxResultBytes;
         }
       }
-      if (other.ResultOverflowMode != 0) {
+      if (other.ResultOverflowMode != global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode.Unspecified) {
         ResultOverflowMode = other.ResultOverflowMode;
       }
       if (other.maxRowsInDistinct_ != null) {
@@ -3138,7 +3138,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
           MaxBytesInDistinct = other.MaxBytesInDistinct;
         }
       }
-      if (other.DistinctOverflowMode != 0) {
+      if (other.DistinctOverflowMode != global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode.Unspecified) {
         DistinctOverflowMode = other.DistinctOverflowMode;
       }
       if (other.maxRowsToTransfer_ != null) {
@@ -3151,7 +3151,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
           MaxBytesToTransfer = other.MaxBytesToTransfer;
         }
       }
-      if (other.TransferOverflowMode != 0) {
+      if (other.TransferOverflowMode != global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode.Unspecified) {
         TransferOverflowMode = other.TransferOverflowMode;
       }
       if (other.maxExecutionTime_ != null) {
@@ -3159,7 +3159,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
           MaxExecutionTime = other.MaxExecutionTime;
         }
       }
-      if (other.TimeoutOverflowMode != 0) {
+      if (other.TimeoutOverflowMode != global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode.Unspecified) {
         TimeoutOverflowMode = other.TimeoutOverflowMode;
       }
       if (other.maxColumnsToRead_ != null) {

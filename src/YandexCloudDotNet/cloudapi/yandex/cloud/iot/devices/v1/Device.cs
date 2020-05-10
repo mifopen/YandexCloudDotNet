@@ -43,10 +43,10 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
             "Y2VzL3YxO2RldmljZXNiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.Device), global::Yandex.Cloud.Iot.Devices.V1.Device.Parser, new[]{ "Id", "RegistryId", "CreatedAt", "Name", "Description", "TopicAliases" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.DeviceCertificate), global::Yandex.Cloud.Iot.Devices.V1.DeviceCertificate.Parser, new[]{ "DeviceId", "Fingerprint", "CertificateData", "CreatedAt" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.DevicePassword), global::Yandex.Cloud.Iot.Devices.V1.DevicePassword.Parser, new[]{ "DeviceId", "Id", "CreatedAt" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.Device), global::Yandex.Cloud.Iot.Devices.V1.Device.Parser, new[]{ "Id", "RegistryId", "CreatedAt", "Name", "Description", "TopicAliases" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.DeviceCertificate), global::Yandex.Cloud.Iot.Devices.V1.DeviceCertificate.Parser, new[]{ "DeviceId", "Fingerprint", "CertificateData", "CreatedAt" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.DevicePassword), global::Yandex.Cloud.Iot.Devices.V1.DevicePassword.Parser, new[]{ "DeviceId", "Id", "CreatedAt" }, null, null, null, null)
           }));
     }
     #endregion
@@ -168,7 +168,7 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     /// <summary>Field number for the "topic_aliases" field.</summary>
     public const int TopicAliasesFieldNumber = 6;
     private static readonly pbc::MapField<string, string>.Codec _map_topicAliases_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 50);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 50);
     private readonly pbc::MapField<string, string> topicAliases_ = new pbc::MapField<string, string>();
     /// <summary>
     /// Alias of a device topic.

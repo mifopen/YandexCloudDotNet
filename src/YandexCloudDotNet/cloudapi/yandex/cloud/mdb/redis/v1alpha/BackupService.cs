@@ -46,10 +46,10 @@ namespace Yandex.Cloud.Mdb.Redis.V1Alpha {
             "L3lhbmRleC9jbG91ZC9tZGIvcmVkaXMvdjFhbHBoYTtyZWRpc2IGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, global::Yandex.Cloud.Mdb.Redis.V1Alpha.BackupReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1Alpha.GetBackupRequest), global::Yandex.Cloud.Mdb.Redis.V1Alpha.GetBackupRequest.Parser, new[]{ "BackupId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1Alpha.ListBackupsRequest), global::Yandex.Cloud.Mdb.Redis.V1Alpha.ListBackupsRequest.Parser, new[]{ "FolderId", "PageSize", "PageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1Alpha.ListBackupsResponse), global::Yandex.Cloud.Mdb.Redis.V1Alpha.ListBackupsResponse.Parser, new[]{ "Backups", "NextPageToken" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1Alpha.GetBackupRequest), global::Yandex.Cloud.Mdb.Redis.V1Alpha.GetBackupRequest.Parser, new[]{ "BackupId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1Alpha.ListBackupsRequest), global::Yandex.Cloud.Mdb.Redis.V1Alpha.ListBackupsRequest.Parser, new[]{ "FolderId", "PageSize", "PageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1Alpha.ListBackupsResponse), global::Yandex.Cloud.Mdb.Redis.V1Alpha.ListBackupsResponse.Parser, new[]{ "Backups", "NextPageToken" }, null, null, null, null)
           }));
     }
     #endregion

@@ -222,35 +222,35 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
             "Z3JvdXA7aW5zdGFuY2Vncm91cGIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Yandex.Cloud.ValidationReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.DurationReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.IpVersion), }, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroup), global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroup.Parser, new[]{ "Id", "FolderId", "CreatedAt", "Name", "Description", "Labels", "InstanceTemplate", "ScalePolicy", "DeployPolicy", "AllocationPolicy", "LoadBalancerState", "ManagedInstancesState", "LoadBalancerSpec", "HealthChecksSpec", "ServiceAccountId", "Status", "Variables" }, null, new[]{ typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroup.Types.Status) }, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.Variable), global::Yandex.Cloud.Compute.V1.Instancegroup.Variable.Parser, new[]{ "Key", "Value" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.LoadBalancerState), global::Yandex.Cloud.Compute.V1.Instancegroup.LoadBalancerState.Parser, new[]{ "TargetGroupId", "StatusMessage" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.ManagedInstancesState), global::Yandex.Cloud.Compute.V1.Instancegroup.ManagedInstancesState.Parser, new[]{ "TargetSize", "RunningActualCount", "RunningOutdatedCount", "ProcessingCount" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.ManagedInstancesState.Types.Statuses), global::Yandex.Cloud.Compute.V1.Instancegroup.ManagedInstancesState.Types.Statuses.Parser, new[]{ "Creating", "Starting", "Opening", "Warming", "Running", "Closing", "Stopping", "Updating", "Deleting", "Failed" }, null, null, null)}),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.ScalePolicy), global::Yandex.Cloud.Compute.V1.Instancegroup.ScalePolicy.Parser, new[]{ "FixedScale", "AutoScale", "TestAutoScale" }, new[]{ "ScaleType" }, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.ScalePolicy.Types.AutoScale), global::Yandex.Cloud.Compute.V1.Instancegroup.ScalePolicy.Types.AutoScale.Parser, new[]{ "MinZoneSize", "MaxSize", "MeasurementDuration", "WarmupDuration", "StabilizationDuration", "InitialSize", "CpuUtilizationRule", "CustomRules" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.ScalePolicy.Types.CpuUtilizationRule), global::Yandex.Cloud.Compute.V1.Instancegroup.ScalePolicy.Types.CpuUtilizationRule.Parser, new[]{ "UtilizationTarget" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.ScalePolicy.Types.CustomRule), global::Yandex.Cloud.Compute.V1.Instancegroup.ScalePolicy.Types.CustomRule.Parser, new[]{ "RuleType", "MetricType", "MetricName", "Labels", "Target" }, null, new[]{ typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.ScalePolicy.Types.CustomRule.Types.RuleType), typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.ScalePolicy.Types.CustomRule.Types.MetricType) }, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.ScalePolicy.Types.FixedScale), global::Yandex.Cloud.Compute.V1.Instancegroup.ScalePolicy.Types.FixedScale.Parser, new[]{ "Size" }, null, null, null)}),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.DeployPolicy), global::Yandex.Cloud.Compute.V1.Instancegroup.DeployPolicy.Parser, new[]{ "MaxUnavailable", "MaxDeleting", "MaxCreating", "MaxExpansion", "StartupDuration" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.AllocationPolicy), global::Yandex.Cloud.Compute.V1.Instancegroup.AllocationPolicy.Parser, new[]{ "Zones" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.AllocationPolicy.Types.Zone), global::Yandex.Cloud.Compute.V1.Instancegroup.AllocationPolicy.Types.Zone.Parser, new[]{ "ZoneId" }, null, null, null)}),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceTemplate), global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceTemplate.Parser, new[]{ "Description", "Labels", "PlatformId", "ResourcesSpec", "Metadata", "BootDiskSpec", "SecondaryDiskSpecs", "NetworkInterfaceSpecs", "SchedulingPolicy", "ServiceAccountId", "NetworkSettings", "Name", "Hostname" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.ResourcesSpec), global::Yandex.Cloud.Compute.V1.Instancegroup.ResourcesSpec.Parser, new[]{ "Memory", "Cores", "CoreFraction", "Gpus" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.AttachedDiskSpec), global::Yandex.Cloud.Compute.V1.Instancegroup.AttachedDiskSpec.Parser, new[]{ "Mode", "DeviceName", "DiskSpec" }, null, new[]{ typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.AttachedDiskSpec.Types.Mode) }, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.AttachedDiskSpec.Types.DiskSpec), global::Yandex.Cloud.Compute.V1.Instancegroup.AttachedDiskSpec.Types.DiskSpec.Parser, new[]{ "Description", "TypeId", "Size", "ImageId", "SnapshotId" }, new[]{ "SourceOneof" }, null, null)}),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.NetworkInterfaceSpec), global::Yandex.Cloud.Compute.V1.Instancegroup.NetworkInterfaceSpec.Parser, new[]{ "NetworkId", "SubnetIds", "PrimaryV4AddressSpec", "PrimaryV6AddressSpec", "SecurityGroupIds" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.PrimaryAddressSpec), global::Yandex.Cloud.Compute.V1.Instancegroup.PrimaryAddressSpec.Parser, new[]{ "OneToOneNatSpec" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.OneToOneNatSpec), global::Yandex.Cloud.Compute.V1.Instancegroup.OneToOneNatSpec.Parser, new[]{ "IpVersion" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.SchedulingPolicy), global::Yandex.Cloud.Compute.V1.Instancegroup.SchedulingPolicy.Parser, new[]{ "Preemptible" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.NetworkSettings), global::Yandex.Cloud.Compute.V1.Instancegroup.NetworkSettings.Parser, new[]{ "Type" }, null, new[]{ typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.NetworkSettings.Types.Type) }, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.LoadBalancerSpec), global::Yandex.Cloud.Compute.V1.Instancegroup.LoadBalancerSpec.Parser, new[]{ "TargetGroupSpec" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.TargetGroupSpec), global::Yandex.Cloud.Compute.V1.Instancegroup.TargetGroupSpec.Parser, new[]{ "Name", "Description", "Labels" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.HealthChecksSpec), global::Yandex.Cloud.Compute.V1.Instancegroup.HealthChecksSpec.Parser, new[]{ "HealthCheckSpecs" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.HealthCheckSpec), global::Yandex.Cloud.Compute.V1.Instancegroup.HealthCheckSpec.Parser, new[]{ "Interval", "Timeout", "UnhealthyThreshold", "HealthyThreshold", "TcpOptions", "HttpOptions" }, new[]{ "HealthCheckOptions" }, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.HealthCheckSpec.Types.TcpOptions), global::Yandex.Cloud.Compute.V1.Instancegroup.HealthCheckSpec.Types.TcpOptions.Parser, new[]{ "Port" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.HealthCheckSpec.Types.HttpOptions), global::Yandex.Cloud.Compute.V1.Instancegroup.HealthCheckSpec.Types.HttpOptions.Parser, new[]{ "Port", "Path" }, null, null, null)}),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.ManagedInstance), global::Yandex.Cloud.Compute.V1.Instancegroup.ManagedInstance.Parser, new[]{ "Id", "Status", "InstanceId", "Fqdn", "Name", "StatusMessage", "ZoneId", "NetworkInterfaces", "StatusChangedAt" }, null, new[]{ typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.ManagedInstance.Types.Status) }, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.NetworkInterface), global::Yandex.Cloud.Compute.V1.Instancegroup.NetworkInterface.Parser, new[]{ "Index", "MacAddress", "SubnetId", "PrimaryV4Address", "PrimaryV6Address" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.PrimaryAddress), global::Yandex.Cloud.Compute.V1.Instancegroup.PrimaryAddress.Parser, new[]{ "Address", "OneToOneNat" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.OneToOneNat), global::Yandex.Cloud.Compute.V1.Instancegroup.OneToOneNat.Parser, new[]{ "Address", "IpVersion" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.LogRecord), global::Yandex.Cloud.Compute.V1.Instancegroup.LogRecord.Parser, new[]{ "Timestamp", "Message" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.IpVersion), }, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroup), global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroup.Parser, new[]{ "Id", "FolderId", "CreatedAt", "Name", "Description", "Labels", "InstanceTemplate", "ScalePolicy", "DeployPolicy", "AllocationPolicy", "LoadBalancerState", "ManagedInstancesState", "LoadBalancerSpec", "HealthChecksSpec", "ServiceAccountId", "Status", "Variables" }, null, new[]{ typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroup.Types.Status) }, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.Variable), global::Yandex.Cloud.Compute.V1.Instancegroup.Variable.Parser, new[]{ "Key", "Value" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.LoadBalancerState), global::Yandex.Cloud.Compute.V1.Instancegroup.LoadBalancerState.Parser, new[]{ "TargetGroupId", "StatusMessage" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.ManagedInstancesState), global::Yandex.Cloud.Compute.V1.Instancegroup.ManagedInstancesState.Parser, new[]{ "TargetSize", "RunningActualCount", "RunningOutdatedCount", "ProcessingCount" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.ManagedInstancesState.Types.Statuses), global::Yandex.Cloud.Compute.V1.Instancegroup.ManagedInstancesState.Types.Statuses.Parser, new[]{ "Creating", "Starting", "Opening", "Warming", "Running", "Closing", "Stopping", "Updating", "Deleting", "Failed" }, null, null, null, null)}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.ScalePolicy), global::Yandex.Cloud.Compute.V1.Instancegroup.ScalePolicy.Parser, new[]{ "FixedScale", "AutoScale", "TestAutoScale" }, new[]{ "ScaleType" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.ScalePolicy.Types.AutoScale), global::Yandex.Cloud.Compute.V1.Instancegroup.ScalePolicy.Types.AutoScale.Parser, new[]{ "MinZoneSize", "MaxSize", "MeasurementDuration", "WarmupDuration", "StabilizationDuration", "InitialSize", "CpuUtilizationRule", "CustomRules" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.ScalePolicy.Types.CpuUtilizationRule), global::Yandex.Cloud.Compute.V1.Instancegroup.ScalePolicy.Types.CpuUtilizationRule.Parser, new[]{ "UtilizationTarget" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.ScalePolicy.Types.CustomRule), global::Yandex.Cloud.Compute.V1.Instancegroup.ScalePolicy.Types.CustomRule.Parser, new[]{ "RuleType", "MetricType", "MetricName", "Labels", "Target" }, null, new[]{ typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.ScalePolicy.Types.CustomRule.Types.RuleType), typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.ScalePolicy.Types.CustomRule.Types.MetricType) }, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.ScalePolicy.Types.FixedScale), global::Yandex.Cloud.Compute.V1.Instancegroup.ScalePolicy.Types.FixedScale.Parser, new[]{ "Size" }, null, null, null, null)}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.DeployPolicy), global::Yandex.Cloud.Compute.V1.Instancegroup.DeployPolicy.Parser, new[]{ "MaxUnavailable", "MaxDeleting", "MaxCreating", "MaxExpansion", "StartupDuration" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.AllocationPolicy), global::Yandex.Cloud.Compute.V1.Instancegroup.AllocationPolicy.Parser, new[]{ "Zones" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.AllocationPolicy.Types.Zone), global::Yandex.Cloud.Compute.V1.Instancegroup.AllocationPolicy.Types.Zone.Parser, new[]{ "ZoneId" }, null, null, null, null)}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceTemplate), global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceTemplate.Parser, new[]{ "Description", "Labels", "PlatformId", "ResourcesSpec", "Metadata", "BootDiskSpec", "SecondaryDiskSpecs", "NetworkInterfaceSpecs", "SchedulingPolicy", "ServiceAccountId", "NetworkSettings", "Name", "Hostname" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.ResourcesSpec), global::Yandex.Cloud.Compute.V1.Instancegroup.ResourcesSpec.Parser, new[]{ "Memory", "Cores", "CoreFraction", "Gpus" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.AttachedDiskSpec), global::Yandex.Cloud.Compute.V1.Instancegroup.AttachedDiskSpec.Parser, new[]{ "Mode", "DeviceName", "DiskSpec" }, null, new[]{ typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.AttachedDiskSpec.Types.Mode) }, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.AttachedDiskSpec.Types.DiskSpec), global::Yandex.Cloud.Compute.V1.Instancegroup.AttachedDiskSpec.Types.DiskSpec.Parser, new[]{ "Description", "TypeId", "Size", "ImageId", "SnapshotId" }, new[]{ "SourceOneof" }, null, null, null)}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.NetworkInterfaceSpec), global::Yandex.Cloud.Compute.V1.Instancegroup.NetworkInterfaceSpec.Parser, new[]{ "NetworkId", "SubnetIds", "PrimaryV4AddressSpec", "PrimaryV6AddressSpec", "SecurityGroupIds" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.PrimaryAddressSpec), global::Yandex.Cloud.Compute.V1.Instancegroup.PrimaryAddressSpec.Parser, new[]{ "OneToOneNatSpec" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.OneToOneNatSpec), global::Yandex.Cloud.Compute.V1.Instancegroup.OneToOneNatSpec.Parser, new[]{ "IpVersion" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.SchedulingPolicy), global::Yandex.Cloud.Compute.V1.Instancegroup.SchedulingPolicy.Parser, new[]{ "Preemptible" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.NetworkSettings), global::Yandex.Cloud.Compute.V1.Instancegroup.NetworkSettings.Parser, new[]{ "Type" }, null, new[]{ typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.NetworkSettings.Types.Type) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.LoadBalancerSpec), global::Yandex.Cloud.Compute.V1.Instancegroup.LoadBalancerSpec.Parser, new[]{ "TargetGroupSpec" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.TargetGroupSpec), global::Yandex.Cloud.Compute.V1.Instancegroup.TargetGroupSpec.Parser, new[]{ "Name", "Description", "Labels" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.HealthChecksSpec), global::Yandex.Cloud.Compute.V1.Instancegroup.HealthChecksSpec.Parser, new[]{ "HealthCheckSpecs" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.HealthCheckSpec), global::Yandex.Cloud.Compute.V1.Instancegroup.HealthCheckSpec.Parser, new[]{ "Interval", "Timeout", "UnhealthyThreshold", "HealthyThreshold", "TcpOptions", "HttpOptions" }, new[]{ "HealthCheckOptions" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.HealthCheckSpec.Types.TcpOptions), global::Yandex.Cloud.Compute.V1.Instancegroup.HealthCheckSpec.Types.TcpOptions.Parser, new[]{ "Port" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.HealthCheckSpec.Types.HttpOptions), global::Yandex.Cloud.Compute.V1.Instancegroup.HealthCheckSpec.Types.HttpOptions.Parser, new[]{ "Port", "Path" }, null, null, null, null)}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.ManagedInstance), global::Yandex.Cloud.Compute.V1.Instancegroup.ManagedInstance.Parser, new[]{ "Id", "Status", "InstanceId", "Fqdn", "Name", "StatusMessage", "ZoneId", "NetworkInterfaces", "StatusChangedAt" }, null, new[]{ typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.ManagedInstance.Types.Status) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.NetworkInterface), global::Yandex.Cloud.Compute.V1.Instancegroup.NetworkInterface.Parser, new[]{ "Index", "MacAddress", "SubnetId", "PrimaryV4Address", "PrimaryV6Address" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.PrimaryAddress), global::Yandex.Cloud.Compute.V1.Instancegroup.PrimaryAddress.Parser, new[]{ "Address", "OneToOneNat" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.OneToOneNat), global::Yandex.Cloud.Compute.V1.Instancegroup.OneToOneNat.Parser, new[]{ "Address", "IpVersion" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.LogRecord), global::Yandex.Cloud.Compute.V1.Instancegroup.LogRecord.Parser, new[]{ "Timestamp", "Message" }, null, null, null, null)
           }));
     }
     #endregion
@@ -396,7 +396,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
     /// <summary>Field number for the "labels" field.</summary>
     public const int LabelsFieldNumber = 6;
     private static readonly pbc::MapField<string, string>.Codec _map_labels_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 50);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 50);
     private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
     /// <summary>
     /// Resource labels as `key:value` pairs.
@@ -537,7 +537,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
 
     /// <summary>Field number for the "status" field.</summary>
     public const int StatusFieldNumber = 17;
-    private global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroup.Types.Status status_ = 0;
+    private global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroup.Types.Status status_ = global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroup.Types.Status.Unspecified;
     /// <summary>
     /// Status of the instance group.
     /// </summary>
@@ -610,7 +610,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
       if (loadBalancerSpec_ != null) hash ^= LoadBalancerSpec.GetHashCode();
       if (healthChecksSpec_ != null) hash ^= HealthChecksSpec.GetHashCode();
       if (ServiceAccountId.Length != 0) hash ^= ServiceAccountId.GetHashCode();
-      if (Status != 0) hash ^= Status.GetHashCode();
+      if (Status != global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroup.Types.Status.Unspecified) hash ^= Status.GetHashCode();
       hash ^= variables_.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -682,7 +682,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
         output.WriteRawTag(130, 1);
         output.WriteString(ServiceAccountId);
       }
-      if (Status != 0) {
+      if (Status != global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroup.Types.Status.Unspecified) {
         output.WriteRawTag(136, 1);
         output.WriteEnum((int) Status);
       }
@@ -738,7 +738,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
       if (ServiceAccountId.Length != 0) {
         size += 2 + pb::CodedOutputStream.ComputeStringSize(ServiceAccountId);
       }
-      if (Status != 0) {
+      if (Status != global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroup.Types.Status.Unspecified) {
         size += 2 + pb::CodedOutputStream.ComputeEnumSize((int) Status);
       }
       size += variables_.CalculateSize(_repeated_variables_codec);
@@ -823,7 +823,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
       if (other.ServiceAccountId.Length != 0) {
         ServiceAccountId = other.ServiceAccountId;
       }
-      if (other.Status != 0) {
+      if (other.Status != global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroup.Types.Status.Unspecified) {
         Status = other.Status;
       }
       variables_.Add(other.variables_);
@@ -2730,7 +2730,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
 
         /// <summary>Field number for the "rule_type" field.</summary>
         public const int RuleTypeFieldNumber = 1;
-        private global::Yandex.Cloud.Compute.V1.Instancegroup.ScalePolicy.Types.CustomRule.Types.RuleType ruleType_ = 0;
+        private global::Yandex.Cloud.Compute.V1.Instancegroup.ScalePolicy.Types.CustomRule.Types.RuleType ruleType_ = global::Yandex.Cloud.Compute.V1.Instancegroup.ScalePolicy.Types.CustomRule.Types.RuleType.Unspecified;
         /// <summary>
         /// Custom metric rule type. This field affects which label from
         /// the custom metric should be used: `zone_id` or `instance_id`.
@@ -2745,7 +2745,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
 
         /// <summary>Field number for the "metric_type" field.</summary>
         public const int MetricTypeFieldNumber = 2;
-        private global::Yandex.Cloud.Compute.V1.Instancegroup.ScalePolicy.Types.CustomRule.Types.MetricType metricType_ = 0;
+        private global::Yandex.Cloud.Compute.V1.Instancegroup.ScalePolicy.Types.CustomRule.Types.MetricType metricType_ = global::Yandex.Cloud.Compute.V1.Instancegroup.ScalePolicy.Types.CustomRule.Types.MetricType.Unspecified;
         /// <summary>
         /// Type of custom metric. This field affects how Instance Groups calculates the average metric value.
         /// </summary>
@@ -2774,7 +2774,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
         /// <summary>Field number for the "labels" field.</summary>
         public const int LabelsFieldNumber = 5;
         private static readonly pbc::MapField<string, string>.Codec _map_labels_codec
-            = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 42);
+            = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 42);
         private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
         /// <summary>
         /// Labels of custom metric in Yandex Monitoring that should be used for scaling.
@@ -2822,8 +2822,8 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public override int GetHashCode() {
           int hash = 1;
-          if (RuleType != 0) hash ^= RuleType.GetHashCode();
-          if (MetricType != 0) hash ^= MetricType.GetHashCode();
+          if (RuleType != global::Yandex.Cloud.Compute.V1.Instancegroup.ScalePolicy.Types.CustomRule.Types.RuleType.Unspecified) hash ^= RuleType.GetHashCode();
+          if (MetricType != global::Yandex.Cloud.Compute.V1.Instancegroup.ScalePolicy.Types.CustomRule.Types.MetricType.Unspecified) hash ^= MetricType.GetHashCode();
           if (MetricName.Length != 0) hash ^= MetricName.GetHashCode();
           hash ^= Labels.GetHashCode();
           if (Target != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Target);
@@ -2840,11 +2840,11 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public void WriteTo(pb::CodedOutputStream output) {
-          if (RuleType != 0) {
+          if (RuleType != global::Yandex.Cloud.Compute.V1.Instancegroup.ScalePolicy.Types.CustomRule.Types.RuleType.Unspecified) {
             output.WriteRawTag(8);
             output.WriteEnum((int) RuleType);
           }
-          if (MetricType != 0) {
+          if (MetricType != global::Yandex.Cloud.Compute.V1.Instancegroup.ScalePolicy.Types.CustomRule.Types.MetricType.Unspecified) {
             output.WriteRawTag(16);
             output.WriteEnum((int) MetricType);
           }
@@ -2865,10 +2865,10 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public int CalculateSize() {
           int size = 0;
-          if (RuleType != 0) {
+          if (RuleType != global::Yandex.Cloud.Compute.V1.Instancegroup.ScalePolicy.Types.CustomRule.Types.RuleType.Unspecified) {
             size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) RuleType);
           }
-          if (MetricType != 0) {
+          if (MetricType != global::Yandex.Cloud.Compute.V1.Instancegroup.ScalePolicy.Types.CustomRule.Types.MetricType.Unspecified) {
             size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) MetricType);
           }
           if (MetricName.Length != 0) {
@@ -2889,10 +2889,10 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
           if (other == null) {
             return;
           }
-          if (other.RuleType != 0) {
+          if (other.RuleType != global::Yandex.Cloud.Compute.V1.Instancegroup.ScalePolicy.Types.CustomRule.Types.RuleType.Unspecified) {
             RuleType = other.RuleType;
           }
-          if (other.MetricType != 0) {
+          if (other.MetricType != global::Yandex.Cloud.Compute.V1.Instancegroup.ScalePolicy.Types.CustomRule.Types.MetricType.Unspecified) {
             MetricType = other.MetricType;
           }
           if (other.MetricName.Length != 0) {
@@ -3714,7 +3714,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
     /// <summary>Field number for the "labels" field.</summary>
     public const int LabelsFieldNumber = 2;
     private static readonly pbc::MapField<string, string>.Codec _map_labels_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 18);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 18);
     private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
     /// <summary>
     /// Resource labels as `key:value` pairs.
@@ -3758,7 +3758,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
     /// <summary>Field number for the "metadata" field.</summary>
     public const int MetadataFieldNumber = 5;
     private static readonly pbc::MapField<string, string>.Codec _map_metadata_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 42);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 42);
     private readonly pbc::MapField<string, string> metadata_ = new pbc::MapField<string, string>();
     /// <summary>
     /// The metadata `key:value` pairs assigned to this instance template. This includes custom metadata and predefined keys.
@@ -4449,7 +4449,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
 
     /// <summary>Field number for the "mode" field.</summary>
     public const int ModeFieldNumber = 1;
-    private global::Yandex.Cloud.Compute.V1.Instancegroup.AttachedDiskSpec.Types.Mode mode_ = 0;
+    private global::Yandex.Cloud.Compute.V1.Instancegroup.AttachedDiskSpec.Types.Mode mode_ = global::Yandex.Cloud.Compute.V1.Instancegroup.AttachedDiskSpec.Types.Mode.Unspecified;
     /// <summary>
     /// Access mode to the Disk resource.
     /// </summary>
@@ -4514,7 +4514,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override int GetHashCode() {
       int hash = 1;
-      if (Mode != 0) hash ^= Mode.GetHashCode();
+      if (Mode != global::Yandex.Cloud.Compute.V1.Instancegroup.AttachedDiskSpec.Types.Mode.Unspecified) hash ^= Mode.GetHashCode();
       if (DeviceName.Length != 0) hash ^= DeviceName.GetHashCode();
       if (diskSpec_ != null) hash ^= DiskSpec.GetHashCode();
       if (_unknownFields != null) {
@@ -4530,7 +4530,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public void WriteTo(pb::CodedOutputStream output) {
-      if (Mode != 0) {
+      if (Mode != global::Yandex.Cloud.Compute.V1.Instancegroup.AttachedDiskSpec.Types.Mode.Unspecified) {
         output.WriteRawTag(8);
         output.WriteEnum((int) Mode);
       }
@@ -4550,7 +4550,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CalculateSize() {
       int size = 0;
-      if (Mode != 0) {
+      if (Mode != global::Yandex.Cloud.Compute.V1.Instancegroup.AttachedDiskSpec.Types.Mode.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Mode);
       }
       if (DeviceName.Length != 0) {
@@ -4570,7 +4570,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
       if (other == null) {
         return;
       }
-      if (other.Mode != 0) {
+      if (other.Mode != global::Yandex.Cloud.Compute.V1.Instancegroup.AttachedDiskSpec.Types.Mode.Unspecified) {
         Mode = other.Mode;
       }
       if (other.DeviceName.Length != 0) {
@@ -5347,7 +5347,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
 
     /// <summary>Field number for the "ip_version" field.</summary>
     public const int IpVersionFieldNumber = 1;
-    private global::Yandex.Cloud.Compute.V1.Instancegroup.IpVersion ipVersion_ = 0;
+    private global::Yandex.Cloud.Compute.V1.Instancegroup.IpVersion ipVersion_ = global::Yandex.Cloud.Compute.V1.Instancegroup.IpVersion.Unspecified;
     /// <summary>
     /// IP version for the public IP address.
     /// </summary>
@@ -5379,7 +5379,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override int GetHashCode() {
       int hash = 1;
-      if (IpVersion != 0) hash ^= IpVersion.GetHashCode();
+      if (IpVersion != global::Yandex.Cloud.Compute.V1.Instancegroup.IpVersion.Unspecified) hash ^= IpVersion.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -5393,7 +5393,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public void WriteTo(pb::CodedOutputStream output) {
-      if (IpVersion != 0) {
+      if (IpVersion != global::Yandex.Cloud.Compute.V1.Instancegroup.IpVersion.Unspecified) {
         output.WriteRawTag(8);
         output.WriteEnum((int) IpVersion);
       }
@@ -5405,7 +5405,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CalculateSize() {
       int size = 0;
-      if (IpVersion != 0) {
+      if (IpVersion != global::Yandex.Cloud.Compute.V1.Instancegroup.IpVersion.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) IpVersion);
       }
       if (_unknownFields != null) {
@@ -5419,7 +5419,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
       if (other == null) {
         return;
       }
-      if (other.IpVersion != 0) {
+      if (other.IpVersion != global::Yandex.Cloud.Compute.V1.Instancegroup.IpVersion.Unspecified) {
         IpVersion = other.IpVersion;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
@@ -5613,7 +5613,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
 
     /// <summary>Field number for the "type" field.</summary>
     public const int TypeFieldNumber = 1;
-    private global::Yandex.Cloud.Compute.V1.Instancegroup.NetworkSettings.Types.Type type_ = 0;
+    private global::Yandex.Cloud.Compute.V1.Instancegroup.NetworkSettings.Types.Type type_ = global::Yandex.Cloud.Compute.V1.Instancegroup.NetworkSettings.Types.Type.Unspecified;
     /// <summary>
     /// Type of instance network.
     /// </summary>
@@ -5645,7 +5645,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override int GetHashCode() {
       int hash = 1;
-      if (Type != 0) hash ^= Type.GetHashCode();
+      if (Type != global::Yandex.Cloud.Compute.V1.Instancegroup.NetworkSettings.Types.Type.Unspecified) hash ^= Type.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -5659,7 +5659,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public void WriteTo(pb::CodedOutputStream output) {
-      if (Type != 0) {
+      if (Type != global::Yandex.Cloud.Compute.V1.Instancegroup.NetworkSettings.Types.Type.Unspecified) {
         output.WriteRawTag(8);
         output.WriteEnum((int) Type);
       }
@@ -5671,7 +5671,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CalculateSize() {
       int size = 0;
-      if (Type != 0) {
+      if (Type != global::Yandex.Cloud.Compute.V1.Instancegroup.NetworkSettings.Types.Type.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Type);
       }
       if (_unknownFields != null) {
@@ -5685,7 +5685,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
       if (other == null) {
         return;
       }
-      if (other.Type != 0) {
+      if (other.Type != global::Yandex.Cloud.Compute.V1.Instancegroup.NetworkSettings.Types.Type.Unspecified) {
         Type = other.Type;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
@@ -5928,7 +5928,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
     /// <summary>Field number for the "labels" field.</summary>
     public const int LabelsFieldNumber = 3;
     private static readonly pbc::MapField<string, string>.Codec _map_labels_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 26);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 26);
     private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
     /// <summary>
     /// Resource labels as `key:value` pairs.
@@ -6880,7 +6880,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
 
     /// <summary>Field number for the "status" field.</summary>
     public const int StatusFieldNumber = 2;
-    private global::Yandex.Cloud.Compute.V1.Instancegroup.ManagedInstance.Types.Status status_ = 0;
+    private global::Yandex.Cloud.Compute.V1.Instancegroup.ManagedInstance.Types.Status status_ = global::Yandex.Cloud.Compute.V1.Instancegroup.ManagedInstance.Types.Status.Unspecified;
     /// <summary>
     /// Status of the managed instance.
     /// </summary>
@@ -7018,7 +7018,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
     public override int GetHashCode() {
       int hash = 1;
       if (Id.Length != 0) hash ^= Id.GetHashCode();
-      if (Status != 0) hash ^= Status.GetHashCode();
+      if (Status != global::Yandex.Cloud.Compute.V1.Instancegroup.ManagedInstance.Types.Status.Unspecified) hash ^= Status.GetHashCode();
       if (InstanceId.Length != 0) hash ^= InstanceId.GetHashCode();
       if (Fqdn.Length != 0) hash ^= Fqdn.GetHashCode();
       if (Name.Length != 0) hash ^= Name.GetHashCode();
@@ -7043,7 +7043,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
         output.WriteRawTag(10);
         output.WriteString(Id);
       }
-      if (Status != 0) {
+      if (Status != global::Yandex.Cloud.Compute.V1.Instancegroup.ManagedInstance.Types.Status.Unspecified) {
         output.WriteRawTag(16);
         output.WriteEnum((int) Status);
       }
@@ -7083,7 +7083,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
       if (Id.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Id);
       }
-      if (Status != 0) {
+      if (Status != global::Yandex.Cloud.Compute.V1.Instancegroup.ManagedInstance.Types.Status.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Status);
       }
       if (InstanceId.Length != 0) {
@@ -7119,7 +7119,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
       if (other.Id.Length != 0) {
         Id = other.Id;
       }
-      if (other.Status != 0) {
+      if (other.Status != global::Yandex.Cloud.Compute.V1.Instancegroup.ManagedInstance.Types.Status.Unspecified) {
         Status = other.Status;
       }
       if (other.InstanceId.Length != 0) {
@@ -7758,7 +7758,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
 
     /// <summary>Field number for the "ip_version" field.</summary>
     public const int IpVersionFieldNumber = 2;
-    private global::Yandex.Cloud.Compute.V1.Instancegroup.IpVersion ipVersion_ = 0;
+    private global::Yandex.Cloud.Compute.V1.Instancegroup.IpVersion ipVersion_ = global::Yandex.Cloud.Compute.V1.Instancegroup.IpVersion.Unspecified;
     /// <summary>
     /// External IP address version.
     /// </summary>
@@ -7792,7 +7792,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
     public override int GetHashCode() {
       int hash = 1;
       if (Address.Length != 0) hash ^= Address.GetHashCode();
-      if (IpVersion != 0) hash ^= IpVersion.GetHashCode();
+      if (IpVersion != global::Yandex.Cloud.Compute.V1.Instancegroup.IpVersion.Unspecified) hash ^= IpVersion.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -7810,7 +7810,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
         output.WriteRawTag(10);
         output.WriteString(Address);
       }
-      if (IpVersion != 0) {
+      if (IpVersion != global::Yandex.Cloud.Compute.V1.Instancegroup.IpVersion.Unspecified) {
         output.WriteRawTag(16);
         output.WriteEnum((int) IpVersion);
       }
@@ -7825,7 +7825,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
       if (Address.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Address);
       }
-      if (IpVersion != 0) {
+      if (IpVersion != global::Yandex.Cloud.Compute.V1.Instancegroup.IpVersion.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) IpVersion);
       }
       if (_unknownFields != null) {
@@ -7842,7 +7842,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
       if (other.Address.Length != 0) {
         Address = other.Address;
       }
-      if (other.IpVersion != 0) {
+      if (other.IpVersion != global::Yandex.Cloud.Compute.V1.Instancegroup.IpVersion.Unspecified) {
         IpVersion = other.IpVersion;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);

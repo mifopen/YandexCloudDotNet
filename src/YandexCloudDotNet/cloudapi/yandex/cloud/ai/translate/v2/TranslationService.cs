@@ -68,16 +68,16 @@ namespace Yandex.Cloud.Ai.Translate.V2 {
             "bmRleC9jbG91ZC9haS90cmFuc2xhdGUvdjI7dHJhbnNsYXRlYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, global::Yandex.Cloud.Ai.Translate.V2.TranslationReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Translate.V2.TranslateRequest), global::Yandex.Cloud.Ai.Translate.V2.TranslateRequest.Parser, new[]{ "SourceLanguageCode", "TargetLanguageCode", "Format", "Texts", "FolderId", "Model", "GlossaryConfig" }, null, new[]{ typeof(global::Yandex.Cloud.Ai.Translate.V2.TranslateRequest.Types.Format) }, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Translate.V2.TranslateGlossaryConfig), global::Yandex.Cloud.Ai.Translate.V2.TranslateGlossaryConfig.Parser, new[]{ "GlossaryData" }, new[]{ "GlossarySource" }, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Translate.V2.GlossaryData), global::Yandex.Cloud.Ai.Translate.V2.GlossaryData.Parser, new[]{ "GlossaryPairs" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Translate.V2.GlossaryPair), global::Yandex.Cloud.Ai.Translate.V2.GlossaryPair.Parser, new[]{ "SourceText", "TranslatedText" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Translate.V2.TranslateResponse), global::Yandex.Cloud.Ai.Translate.V2.TranslateResponse.Parser, new[]{ "Translations" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Translate.V2.DetectLanguageRequest), global::Yandex.Cloud.Ai.Translate.V2.DetectLanguageRequest.Parser, new[]{ "Text", "LanguageCodeHints", "FolderId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Translate.V2.DetectLanguageResponse), global::Yandex.Cloud.Ai.Translate.V2.DetectLanguageResponse.Parser, new[]{ "LanguageCode" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Translate.V2.ListLanguagesRequest), global::Yandex.Cloud.Ai.Translate.V2.ListLanguagesRequest.Parser, new[]{ "FolderId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Translate.V2.ListLanguagesResponse), global::Yandex.Cloud.Ai.Translate.V2.ListLanguagesResponse.Parser, new[]{ "Languages" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Translate.V2.TranslateRequest), global::Yandex.Cloud.Ai.Translate.V2.TranslateRequest.Parser, new[]{ "SourceLanguageCode", "TargetLanguageCode", "Format", "Texts", "FolderId", "Model", "GlossaryConfig" }, null, new[]{ typeof(global::Yandex.Cloud.Ai.Translate.V2.TranslateRequest.Types.Format) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Translate.V2.TranslateGlossaryConfig), global::Yandex.Cloud.Ai.Translate.V2.TranslateGlossaryConfig.Parser, new[]{ "GlossaryData" }, new[]{ "GlossarySource" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Translate.V2.GlossaryData), global::Yandex.Cloud.Ai.Translate.V2.GlossaryData.Parser, new[]{ "GlossaryPairs" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Translate.V2.GlossaryPair), global::Yandex.Cloud.Ai.Translate.V2.GlossaryPair.Parser, new[]{ "SourceText", "TranslatedText" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Translate.V2.TranslateResponse), global::Yandex.Cloud.Ai.Translate.V2.TranslateResponse.Parser, new[]{ "Translations" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Translate.V2.DetectLanguageRequest), global::Yandex.Cloud.Ai.Translate.V2.DetectLanguageRequest.Parser, new[]{ "Text", "LanguageCodeHints", "FolderId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Translate.V2.DetectLanguageResponse), global::Yandex.Cloud.Ai.Translate.V2.DetectLanguageResponse.Parser, new[]{ "LanguageCode" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Translate.V2.ListLanguagesRequest), global::Yandex.Cloud.Ai.Translate.V2.ListLanguagesRequest.Parser, new[]{ "FolderId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Translate.V2.ListLanguagesResponse), global::Yandex.Cloud.Ai.Translate.V2.ListLanguagesResponse.Parser, new[]{ "Languages" }, null, null, null, null)
           }));
     }
     #endregion
@@ -158,7 +158,7 @@ namespace Yandex.Cloud.Ai.Translate.V2 {
 
     /// <summary>Field number for the "format" field.</summary>
     public const int FormatFieldNumber = 3;
-    private global::Yandex.Cloud.Ai.Translate.V2.TranslateRequest.Types.Format format_ = 0;
+    private global::Yandex.Cloud.Ai.Translate.V2.TranslateRequest.Types.Format format_ = global::Yandex.Cloud.Ai.Translate.V2.TranslateRequest.Types.Format.Unspecified;
     /// <summary>
     /// Format of the text.
     /// </summary>
@@ -256,7 +256,7 @@ namespace Yandex.Cloud.Ai.Translate.V2 {
       int hash = 1;
       if (SourceLanguageCode.Length != 0) hash ^= SourceLanguageCode.GetHashCode();
       if (TargetLanguageCode.Length != 0) hash ^= TargetLanguageCode.GetHashCode();
-      if (Format != 0) hash ^= Format.GetHashCode();
+      if (Format != global::Yandex.Cloud.Ai.Translate.V2.TranslateRequest.Types.Format.Unspecified) hash ^= Format.GetHashCode();
       hash ^= texts_.GetHashCode();
       if (FolderId.Length != 0) hash ^= FolderId.GetHashCode();
       if (Model.Length != 0) hash ^= Model.GetHashCode();
@@ -282,7 +282,7 @@ namespace Yandex.Cloud.Ai.Translate.V2 {
         output.WriteRawTag(18);
         output.WriteString(TargetLanguageCode);
       }
-      if (Format != 0) {
+      if (Format != global::Yandex.Cloud.Ai.Translate.V2.TranslateRequest.Types.Format.Unspecified) {
         output.WriteRawTag(24);
         output.WriteEnum((int) Format);
       }
@@ -313,7 +313,7 @@ namespace Yandex.Cloud.Ai.Translate.V2 {
       if (TargetLanguageCode.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(TargetLanguageCode);
       }
-      if (Format != 0) {
+      if (Format != global::Yandex.Cloud.Ai.Translate.V2.TranslateRequest.Types.Format.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Format);
       }
       size += texts_.CalculateSize(_repeated_texts_codec);
@@ -343,7 +343,7 @@ namespace Yandex.Cloud.Ai.Translate.V2 {
       if (other.TargetLanguageCode.Length != 0) {
         TargetLanguageCode = other.TargetLanguageCode;
       }
-      if (other.Format != 0) {
+      if (other.Format != global::Yandex.Cloud.Ai.Translate.V2.TranslateRequest.Types.Format.Unspecified) {
         Format = other.Format;
       }
       texts_.Add(other.texts_);

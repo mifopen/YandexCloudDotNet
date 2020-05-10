@@ -45,10 +45,10 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
             "b3VkL21kYi9yZWRpcy92MTtyZWRpc2IGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, global::Yandex.Cloud.Mdb.Redis.V1.BackupReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1.GetBackupRequest), global::Yandex.Cloud.Mdb.Redis.V1.GetBackupRequest.Parser, new[]{ "BackupId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1.ListBackupsRequest), global::Yandex.Cloud.Mdb.Redis.V1.ListBackupsRequest.Parser, new[]{ "FolderId", "PageSize", "PageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1.ListBackupsResponse), global::Yandex.Cloud.Mdb.Redis.V1.ListBackupsResponse.Parser, new[]{ "Backups", "NextPageToken" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1.GetBackupRequest), global::Yandex.Cloud.Mdb.Redis.V1.GetBackupRequest.Parser, new[]{ "BackupId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1.ListBackupsRequest), global::Yandex.Cloud.Mdb.Redis.V1.ListBackupsRequest.Parser, new[]{ "FolderId", "PageSize", "PageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1.ListBackupsResponse), global::Yandex.Cloud.Mdb.Redis.V1.ListBackupsResponse.Parser, new[]{ "Backups", "NextPageToken" }, null, null, null, null)
           }));
     }
     #endregion

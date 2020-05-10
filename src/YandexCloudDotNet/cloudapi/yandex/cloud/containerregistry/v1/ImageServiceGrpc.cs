@@ -54,7 +54,7 @@ namespace Yandex.Cloud.Containerregistry.V1 {
     {
       /// <summary>Creates a new client for ImageService</summary>
       /// <param name="channel">The channel to use to make remote calls.</param>
-      public ImageServiceClient(grpc::Channel channel) : base(channel)
+      public ImageServiceClient(grpc::ChannelBase channel) : base(channel)
       {
       }
       /// <summary>Creates a new client for ImageService that uses a custom <c>CallInvoker</c>.</summary>

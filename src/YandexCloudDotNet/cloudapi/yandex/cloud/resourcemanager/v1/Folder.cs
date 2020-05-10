@@ -40,8 +40,8 @@ namespace Yandex.Cloud.Resourcemanager.V1 {
             "cmVzb3VyY2VtYW5hZ2VyYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Resourcemanager.V1.Folder), global::Yandex.Cloud.Resourcemanager.V1.Folder.Parser, new[]{ "Id", "CloudId", "CreatedAt", "Name", "Description", "Labels", "Status" }, null, new[]{ typeof(global::Yandex.Cloud.Resourcemanager.V1.Folder.Types.Status) }, new pbr::GeneratedClrTypeInfo[] { null, })
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Resourcemanager.V1.Folder), global::Yandex.Cloud.Resourcemanager.V1.Folder.Parser, new[]{ "Id", "CloudId", "CreatedAt", "Name", "Description", "Labels", "Status" }, null, new[]{ typeof(global::Yandex.Cloud.Resourcemanager.V1.Folder.Types.Status) }, null, new pbr::GeneratedClrTypeInfo[] { null, })
           }));
     }
     #endregion
@@ -165,7 +165,7 @@ namespace Yandex.Cloud.Resourcemanager.V1 {
     /// <summary>Field number for the "labels" field.</summary>
     public const int LabelsFieldNumber = 6;
     private static readonly pbc::MapField<string, string>.Codec _map_labels_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 50);
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 50);
     private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
     /// <summary>
     /// Resource labels as `` key:value `` pairs. Мaximum of 64 per resource.
@@ -177,7 +177,7 @@ namespace Yandex.Cloud.Resourcemanager.V1 {
 
     /// <summary>Field number for the "status" field.</summary>
     public const int StatusFieldNumber = 7;
-    private global::Yandex.Cloud.Resourcemanager.V1.Folder.Types.Status status_ = 0;
+    private global::Yandex.Cloud.Resourcemanager.V1.Folder.Types.Status status_ = global::Yandex.Cloud.Resourcemanager.V1.Folder.Types.Status.Unspecified;
     /// <summary>
     /// Status of the folder.
     /// </summary>
@@ -221,7 +221,7 @@ namespace Yandex.Cloud.Resourcemanager.V1 {
       if (Name.Length != 0) hash ^= Name.GetHashCode();
       if (Description.Length != 0) hash ^= Description.GetHashCode();
       hash ^= Labels.GetHashCode();
-      if (Status != 0) hash ^= Status.GetHashCode();
+      if (Status != global::Yandex.Cloud.Resourcemanager.V1.Folder.Types.Status.Unspecified) hash ^= Status.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -256,7 +256,7 @@ namespace Yandex.Cloud.Resourcemanager.V1 {
         output.WriteString(Description);
       }
       labels_.WriteTo(output, _map_labels_codec);
-      if (Status != 0) {
+      if (Status != global::Yandex.Cloud.Resourcemanager.V1.Folder.Types.Status.Unspecified) {
         output.WriteRawTag(56);
         output.WriteEnum((int) Status);
       }
@@ -284,7 +284,7 @@ namespace Yandex.Cloud.Resourcemanager.V1 {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Description);
       }
       size += labels_.CalculateSize(_map_labels_codec);
-      if (Status != 0) {
+      if (Status != global::Yandex.Cloud.Resourcemanager.V1.Folder.Types.Status.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Status);
       }
       if (_unknownFields != null) {
@@ -317,7 +317,7 @@ namespace Yandex.Cloud.Resourcemanager.V1 {
         Description = other.Description;
       }
       labels_.Add(other.labels_);
-      if (other.Status != 0) {
+      if (other.Status != global::Yandex.Cloud.Resourcemanager.V1.Folder.Types.Status.Unspecified) {
         Status = other.Status;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);

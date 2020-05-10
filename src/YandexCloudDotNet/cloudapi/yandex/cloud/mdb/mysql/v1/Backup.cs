@@ -36,8 +36,8 @@ namespace Yandex.Cloud.Mdb.Mysql.V1 {
             "BnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Yandex.Cloud.ValidationReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.Backup), global::Yandex.Cloud.Mdb.Mysql.V1.Backup.Parser, new[]{ "Id", "FolderId", "CreatedAt", "SourceClusterId", "StartedAt" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.Backup), global::Yandex.Cloud.Mdb.Mysql.V1.Backup.Parser, new[]{ "Id", "FolderId", "CreatedAt", "SourceClusterId", "StartedAt" }, null, null, null, null)
           }));
     }
     #endregion

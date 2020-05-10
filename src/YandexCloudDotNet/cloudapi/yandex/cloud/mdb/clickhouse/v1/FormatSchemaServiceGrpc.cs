@@ -67,7 +67,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     {
       /// <summary>Creates a new client for FormatSchemaService</summary>
       /// <param name="channel">The channel to use to make remote calls.</param>
-      public FormatSchemaServiceClient(grpc::Channel channel) : base(channel)
+      public FormatSchemaServiceClient(grpc::ChannelBase channel) : base(channel)
       {
       }
       /// <summary>Creates a new client for FormatSchemaService that uses a custom <c>CallInvoker</c>.</summary>

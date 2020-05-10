@@ -33,7 +33,7 @@ namespace Yandex.Cloud.Marketplace.V1.Metering {
     {
       /// <summary>Creates a new client for ImageProductUsageService</summary>
       /// <param name="channel">The channel to use to make remote calls.</param>
-      public ImageProductUsageServiceClient(grpc::Channel channel) : base(channel)
+      public ImageProductUsageServiceClient(grpc::ChannelBase channel) : base(channel)
       {
       }
       /// <summary>Creates a new client for ImageProductUsageService that uses a custom <c>CallInvoker</c>.</summary>
