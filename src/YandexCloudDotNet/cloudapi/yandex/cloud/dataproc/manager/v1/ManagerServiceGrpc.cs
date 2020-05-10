@@ -9,7 +9,7 @@ using grpc = global::Grpc.Core;
 
 namespace Yandex.Cloud.Dataproc.Manager.V1 {
   /// <summary>
-  /// Dataproc manager service defifnition
+  /// Data Proc manager service defifnition
   /// </summary>
   internal static partial class DataprocManagerService
   {

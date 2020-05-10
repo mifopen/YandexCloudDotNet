@@ -45,6 +45,9 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
   #region Enums
   internal enum MlModelType {
     [pbr::OriginalName("ML_MODEL_TYPE_UNSPECIFIED")] Unspecified = 0,
+    /// <summary>
+    /// CatBoost model.
+    /// </summary>
     [pbr::OriginalName("ML_MODEL_TYPE_CATBOOST")] Catboost = 1,
   }
 
@@ -91,6 +94,9 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     /// <summary>Field number for the "name" field.</summary>
     public const int NameFieldNumber = 1;
     private string name_ = "";
+    /// <summary>
+    /// Name of the the model.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Name {
       get { return name_; }
@@ -102,6 +108,9 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     /// <summary>Field number for the "cluster_id" field.</summary>
     public const int ClusterIdFieldNumber = 2;
     private string clusterId_ = "";
+    /// <summary>
+    /// ID of the ClickHouse cluster that the model belongs to.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ClusterId {
       get { return clusterId_; }
@@ -113,6 +122,9 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     /// <summary>Field number for the "type" field.</summary>
     public const int TypeFieldNumber = 3;
     private global::Yandex.Cloud.Mdb.Clickhouse.V1.MlModelType type_ = 0;
+    /// <summary>
+    /// Type of the model.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Mdb.Clickhouse.V1.MlModelType Type {
       get { return type_; }
@@ -124,6 +136,9 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     /// <summary>Field number for the "uri" field.</summary>
     public const int UriFieldNumber = 4;
     private string uri_ = "";
+    /// <summary>
+    /// Model file URL. You can only use models stored in Yandex Object Storage.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Uri {
       get { return uri_; }

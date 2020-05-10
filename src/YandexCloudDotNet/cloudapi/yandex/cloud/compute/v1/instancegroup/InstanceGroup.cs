@@ -28,7 +28,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
             "bmNlX2dyb3VwLnByb3RvEiV5YW5kZXguY2xvdWQuY29tcHV0ZS52MS5pbnN0",
             "YW5jZWdyb3VwGh15YW5kZXgvY2xvdWQvdmFsaWRhdGlvbi5wcm90bxofZ29v",
             "Z2xlL3Byb3RvYnVmL3RpbWVzdGFtcC5wcm90bxoeZ29vZ2xlL3Byb3RvYnVm",
-            "L2R1cmF0aW9uLnByb3RvIu4ICg1JbnN0YW5jZUdyb3VwEgoKAmlkGAEgASgJ",
+            "L2R1cmF0aW9uLnByb3RvIrIJCg1JbnN0YW5jZUdyb3VwEgoKAmlkGAEgASgJ",
             "EhEKCWZvbGRlcl9pZBgCIAEoCRIuCgpjcmVhdGVkX2F0GAMgASgLMhouZ29v",
             "Z2xlLnByb3RvYnVmLlRpbWVzdGFtcBIMCgRuYW1lGAQgASgJEhMKC2Rlc2Ny",
             "aXB0aW9uGAUgASgJElAKBmxhYmVscxgGIAMoCzJALnlhbmRleC5jbG91ZC5j",
@@ -50,177 +50,197 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
             "dWQuY29tcHV0ZS52MS5pbnN0YW5jZWdyb3VwLkhlYWx0aENoZWNrc1NwZWMS",
             "GgoSc2VydmljZV9hY2NvdW50X2lkGBAgASgJEksKBnN0YXR1cxgRIAEoDjI7",
             "LnlhbmRleC5jbG91ZC5jb21wdXRlLnYxLmluc3RhbmNlZ3JvdXAuSW5zdGFu",
-            "Y2VHcm91cC5TdGF0dXMaLQoLTGFiZWxzRW50cnkSCwoDa2V5GAEgASgJEg0K",
-            "BXZhbHVlGAIgASgJOgI4ASJjCgZTdGF0dXMSFgoSU1RBVFVTX1VOU1BFQ0lG",
-            "SUVEEAASDAoIU1RBUlRJTkcQARIKCgZBQ1RJVkUQAhIMCghTVE9QUElORxAD",
-            "EgsKB1NUT1BQRUQQBBIMCghERUxFVElORxAFIkQKEUxvYWRCYWxhbmNlclN0",
-            "YXRlEhcKD3RhcmdldF9ncm91cF9pZBgBIAEoCRIWCg5zdGF0dXNfbWVzc2Fn",
-            "ZRgCIAEoCSK/AgoVTWFuYWdlZEluc3RhbmNlc1N0YXRlEhMKC3RhcmdldF9z",
-            "aXplGAEgASgDEhwKFHJ1bm5pbmdfYWN0dWFsX2NvdW50GAQgASgDEh4KFnJ1",
-            "bm5pbmdfb3V0ZGF0ZWRfY291bnQYBSABKAMSGAoQcHJvY2Vzc2luZ19jb3Vu",
-            "dBgGIAEoAxq4AQoIU3RhdHVzZXMSEAoIY3JlYXRpbmcYASABKAMSEAoIc3Rh",
-            "cnRpbmcYAiABKAMSDwoHb3BlbmluZxgDIAEoAxIPCgd3YXJtaW5nGAQgASgD",
-            "Eg8KB3J1bm5pbmcYBSABKAMSDwoHY2xvc2luZxgGIAEoAxIQCghzdG9wcGlu",
-            "ZxgHIAEoAxIQCgh1cGRhdGluZxgIIAEoAxIQCghkZWxldGluZxgJIAEoAxIO",
-            "CgZmYWlsZWQYCiABKAMi9QkKC1NjYWxlUG9saWN5ElQKC2ZpeGVkX3NjYWxl",
-            "GAEgASgLMj0ueWFuZGV4LmNsb3VkLmNvbXB1dGUudjEuaW5zdGFuY2Vncm91",
-            "cC5TY2FsZVBvbGljeS5GaXhlZFNjYWxlSAASUgoKYXV0b19zY2FsZRgCIAEo",
-            "CzI8LnlhbmRleC5jbG91ZC5jb21wdXRlLnYxLmluc3RhbmNlZ3JvdXAuU2Nh",
-            "bGVQb2xpY3kuQXV0b1NjYWxlSAAa+wMKCUF1dG9TY2FsZRIgCg1taW5fem9u",
-            "ZV9zaXplGAEgASgDQgn6xzEFMC0xMDASGwoIbWF4X3NpemUYAiABKANCCfrH",
-            "MQUwLTEwMBJHChRtZWFzdXJlbWVudF9kdXJhdGlvbhgDIAEoCzIZLmdvb2ds",
-            "ZS5wcm90b2J1Zi5EdXJhdGlvbkIO6McxAfrHMQYxbS0xMG0SPQoPd2FybXVw",
-            "X2R1cmF0aW9uGAQgASgLMhkuZ29vZ2xlLnByb3RvYnVmLkR1cmF0aW9uQgn6",
-            "xzEFPD0xMG0SRQoWc3RhYmlsaXphdGlvbl9kdXJhdGlvbhgFIAEoCzIZLmdv",
-            "b2dsZS5wcm90b2J1Zi5EdXJhdGlvbkIK+scxBjFtLTMwbRIdCgxpbml0aWFs",
-            "X3NpemUYBiABKANCB/rHMQM+PTESYwoUY3B1X3V0aWxpemF0aW9uX3J1bGUY",
-            "ByABKAsyRS55YW5kZXguY2xvdWQuY29tcHV0ZS52MS5pbnN0YW5jZWdyb3Vw",
-            "LlNjYWxlUG9saWN5LkNwdVV0aWxpemF0aW9uUnVsZRJcCgxjdXN0b21fcnVs",
-            "ZXMYCCADKAsyPS55YW5kZXguY2xvdWQuY29tcHV0ZS52MS5pbnN0YW5jZWdy",
-            "b3VwLlNjYWxlUG9saWN5LkN1c3RvbVJ1bGVCB4LIMQM8PTEaPAoSQ3B1VXRp",
-            "bGl6YXRpb25SdWxlEiYKEnV0aWxpemF0aW9uX3RhcmdldBgBIAEoAUIK+scx",
-            "BjEwLTEwMBrEAwoKQ3VzdG9tUnVsZRJfCglydWxlX3R5cGUYASABKA4yRi55",
-            "YW5kZXguY2xvdWQuY29tcHV0ZS52MS5pbnN0YW5jZWdyb3VwLlNjYWxlUG9s",
-            "aWN5LkN1c3RvbVJ1bGUuUnVsZVR5cGVCBOjHMQESYwoLbWV0cmljX3R5cGUY",
-            "AiABKA4ySC55YW5kZXguY2xvdWQuY29tcHV0ZS52MS5pbnN0YW5jZWdyb3Vw",
-            "LlNjYWxlUG9saWN5LkN1c3RvbVJ1bGUuTWV0cmljVHlwZUIE6McxARJPCgtt",
-            "ZXRyaWNfbmFtZRgDIAEoCUI66McxAfLHMTJbYS16QS1aMC05Li9AX11bIDAt",
-            "OWEtekEtWi4vQF8sOjsoKVxbXF08Pi1dezAsMTk4fRIWCgZ0YXJnZXQYBCAB",
-            "KAFCBvrHMQI+MCJECghSdWxlVHlwZRIZChVSVUxFX1RZUEVfVU5TUEVDSUZJ",
-            "RUQQABIPCgtVVElMSVpBVElPThABEgwKCFdPUktMT0FEEAIiQQoKTWV0cmlj",
-            "VHlwZRIbChdNRVRSSUNfVFlQRV9VTlNQRUNJRklFRBAAEgkKBUdBVUdFEAES",
-            "CwoHQ09VTlRFUhACGiUKCkZpeGVkU2NhbGUSFwoEc2l6ZRgBIAEoA0IJ+scx",
-            "BTEtMTAwQhIKCnNjYWxlX3R5cGUSBMDBMQEi1gEKDERlcGxveVBvbGljeRIi",
-            "Cg9tYXhfdW5hdmFpbGFibGUYASABKANCCfrHMQUwLTEwMBIfCgxtYXhfZGVs",
-            "ZXRpbmcYAiABKANCCfrHMQUwLTEwMBIfCgxtYXhfY3JlYXRpbmcYAyABKANC",
-            "CfrHMQUwLTEwMBIgCg1tYXhfZXhwYW5zaW9uGAYgASgDQgn6xzEFMC0xMDAS",
-            "PgoQc3RhcnR1cF9kdXJhdGlvbhgHIAEoCzIZLmdvb2dsZS5wcm90b2J1Zi5E",
-            "dXJhdGlvbkIJ+scxBTBtLTFoIocBChBBbGxvY2F0aW9uUG9saWN5ElQKBXpv",
-            "bmVzGAEgAygLMjwueWFuZGV4LmNsb3VkLmNvbXB1dGUudjEuaW5zdGFuY2Vn",
-            "cm91cC5BbGxvY2F0aW9uUG9saWN5LlpvbmVCB4LIMQM+PTEaHQoEWm9uZRIV",
-            "Cgd6b25lX2lkGAEgASgJQgToxzEBIq8HChBJbnN0YW5jZVRlbXBsYXRlEh4K",
-            "C2Rlc2NyaXB0aW9uGAEgASgJQgmKyDEFPD0yNTYSlAEKBmxhYmVscxgCIAMo",
-            "CzJDLnlhbmRleC5jbG91ZC5jb21wdXRlLnYxLmluc3RhbmNlZ3JvdXAuSW5z",
-            "dGFuY2VUZW1wbGF0ZS5MYWJlbHNFbnRyeUI/gsgxBDw9NjSKyDEEPD02M/LH",
-            "MQtbLV8wLTlhLXpdKrLIMQYaBDEtNjOyyDESEhBbYS16XVstXzAtOWEtel0q",
-            "EhMKC3BsYXRmb3JtX2lkGAMgASgJElIKDnJlc291cmNlc19zcGVjGAQgASgL",
-            "MjQueWFuZGV4LmNsb3VkLmNvbXB1dGUudjEuaW5zdGFuY2Vncm91cC5SZXNv",
-            "dXJjZXNTcGVjQgToxzEBEo4BCghtZXRhZGF0YRgFIAMoCzJFLnlhbmRleC5j",
-            "bG91ZC5jb21wdXRlLnYxLmluc3RhbmNlZ3JvdXAuSW5zdGFuY2VUZW1wbGF0",
-            "ZS5NZXRhZGF0YUVudHJ5QjWCyDEFPD0xMjiKyDEIPD0yNjIxNDSyyDEGGgQx",
-            "LTYzssgxEhIQW2Etel1bLV8wLTlhLXpdKhJVCg5ib290X2Rpc2tfc3BlYxgG",
-            "IAEoCzI3LnlhbmRleC5jbG91ZC5jb21wdXRlLnYxLmluc3RhbmNlZ3JvdXAu",
-            "QXR0YWNoZWREaXNrU3BlY0IE6McxARJeChRzZWNvbmRhcnlfZGlza19zcGVj",
-            "cxgHIAMoCzI3LnlhbmRleC5jbG91ZC5jb21wdXRlLnYxLmluc3RhbmNlZ3Jv",
-            "dXAuQXR0YWNoZWREaXNrU3BlY0IHgsgxAzw9MxJjChduZXR3b3JrX2ludGVy",
-            "ZmFjZV9zcGVjcxgIIAMoCzI7LnlhbmRleC5jbG91ZC5jb21wdXRlLnYxLmlu",
-            "c3RhbmNlZ3JvdXAuTmV0d29ya0ludGVyZmFjZVNwZWNCBYLIMQExElIKEXNj",
-            "aGVkdWxpbmdfcG9saWN5GAkgASgLMjcueWFuZGV4LmNsb3VkLmNvbXB1dGUu",
-            "djEuaW5zdGFuY2Vncm91cC5TY2hlZHVsaW5nUG9saWN5EhoKEnNlcnZpY2Vf",
-            "YWNjb3VudF9pZBgKIAEoCRotCgtMYWJlbHNFbnRyeRILCgNrZXkYASABKAkS",
-            "DQoFdmFsdWUYAiABKAk6AjgBGi8KDU1ldGFkYXRhRW50cnkSCwoDa2V5GAEg",
-            "ASgJEg0KBXZhbHVlGAIgASgJOgI4ASLVAQoNUmVzb3VyY2VzU3BlYxIiCgZt",
-            "ZW1vcnkYASABKANCEvrHMQ48PTI3NDg3NzkwNjk0NBJbCgVjb3JlcxgCIAEo",
-            "A0JM+scxSDEsMiw0LDYsOCwxMCwxMiwxNCwxNiwxOCwyMCwyMiwyNCwyNiwy",
-            "OCwzMCwzMiwzNCwzNiw0MCw0NCw0OCw1Miw1Niw2MCw2NBIoCg1jb3JlX2Zy",
-            "YWN0aW9uGAMgASgDQhH6xzENMCw1LDIwLDUwLDEwMBIZCgRncHVzGAQgASgD",
-            "Qgv6xzEHMCwxLDIsNCLpAwoQQXR0YWNoZWREaXNrU3BlYxJQCgRtb2RlGAEg",
-            "ASgOMjwueWFuZGV4LmNsb3VkLmNvbXB1dGUudjEuaW5zdGFuY2Vncm91cC5B",
-            "dHRhY2hlZERpc2tTcGVjLk1vZGVCBOjHMQESLwoLZGV2aWNlX25hbWUYAiAB",
-            "KAlCGvLHMRZ8W2Etel1bLV8wLTlhLXpdezAsMTl9ElkKCWRpc2tfc3BlYxgD",
-            "IAEoCzJALnlhbmRleC5jbG91ZC5jb21wdXRlLnYxLmluc3RhbmNlZ3JvdXAu",
-            "QXR0YWNoZWREaXNrU3BlYy5EaXNrU3BlY0IE6McxARq5AQoIRGlza1NwZWMS",
-            "HgoLZGVzY3JpcHRpb24YASABKAlCCYrIMQU8PTI1NhIVCgd0eXBlX2lkGAIg",
-            "ASgJQgToxzEBEicKBHNpemUYAyABKANCGfrHMRU0MTk0MzA0LTQzOTgwNDY1",
-            "MTExMDQSHAoIaW1hZ2VfaWQYBCABKAlCCIrIMQQ8PTUwSAASHwoLc25hcHNo",
-            "b3RfaWQYBSABKAlCCIrIMQQ8PTUwSABCDgoMc291cmNlX29uZW9mIjsKBE1v",
-            "ZGUSFAoQTU9ERV9VTlNQRUNJRklFRBAAEg0KCVJFQURfT05MWRABEg4KClJF",
-            "QURfV1JJVEUQAiL2AQoUTmV0d29ya0ludGVyZmFjZVNwZWMSEgoKbmV0d29y",
-            "a19pZBgBIAEoCRISCgpzdWJuZXRfaWRzGAIgAygJEloKF3ByaW1hcnlfdjRf",
-            "YWRkcmVzc19zcGVjGAMgASgLMjkueWFuZGV4LmNsb3VkLmNvbXB1dGUudjEu",
-            "aW5zdGFuY2Vncm91cC5QcmltYXJ5QWRkcmVzc1NwZWMSWgoXcHJpbWFyeV92",
-            "Nl9hZGRyZXNzX3NwZWMYBCABKAsyOS55YW5kZXguY2xvdWQuY29tcHV0ZS52",
-            "MS5pbnN0YW5jZWdyb3VwLlByaW1hcnlBZGRyZXNzU3BlYyJpChJQcmltYXJ5",
-            "QWRkcmVzc1NwZWMSUwoTb25lX3RvX29uZV9uYXRfc3BlYxgBIAEoCzI2Lnlh",
-            "bmRleC5jbG91ZC5jb21wdXRlLnYxLmluc3RhbmNlZ3JvdXAuT25lVG9PbmVO",
-            "YXRTcGVjIlcKD09uZVRvT25lTmF0U3BlYxJECgppcF92ZXJzaW9uGAEgASgO",
-            "MjAueWFuZGV4LmNsb3VkLmNvbXB1dGUudjEuaW5zdGFuY2Vncm91cC5JcFZl",
-            "cnNpb24iJwoQU2NoZWR1bGluZ1BvbGljeRITCgtwcmVlbXB0aWJsZRgBIAEo",
-            "CCJlChBMb2FkQmFsYW5jZXJTcGVjElEKEXRhcmdldF9ncm91cF9zcGVjGAEg",
-            "ASgLMjYueWFuZGV4LmNsb3VkLmNvbXB1dGUudjEuaW5zdGFuY2Vncm91cC5U",
-            "YXJnZXRHcm91cFNwZWMipwIKD1RhcmdldEdyb3VwU3BlYxIvCgRuYW1lGAEg",
-            "ASgJQiHyxzEdfFthLXpdWy1hLXowLTldezEsNjF9W2EtejAtOV0SHgoLZGVz",
-            "Y3JpcHRpb24YAiABKAlCCYrIMQU8PTI1NhKTAQoGbGFiZWxzGAMgAygLMkIu",
-            "eWFuZGV4LmNsb3VkLmNvbXB1dGUudjEuaW5zdGFuY2Vncm91cC5UYXJnZXRH",
-            "cm91cFNwZWMuTGFiZWxzRW50cnlCP4LIMQQ8PTY0isgxBDw9NjPyxzELWy1f",
-            "MC05YS16XSqyyDEGGgQxLTYzssgxEhIQW2Etel1bLV8wLTlhLXpdKhotCgtM",
-            "YWJlbHNFbnRyeRILCgNrZXkYASABKAkSDQoFdmFsdWUYAiABKAk6AjgBIm8K",
-            "EEhlYWx0aENoZWNrc1NwZWMSWwoSaGVhbHRoX2NoZWNrX3NwZWNzGAEgAygL",
-            "MjYueWFuZGV4LmNsb3VkLmNvbXB1dGUudjEuaW5zdGFuY2Vncm91cC5IZWFs",
-            "dGhDaGVja1NwZWNCB4LIMQM+PTEipAQKD0hlYWx0aENoZWNrU3BlYxI4Cghp",
-            "bnRlcnZhbBgBIAEoCzIZLmdvb2dsZS5wcm90b2J1Zi5EdXJhdGlvbkIL+scx",
-            "BzFzLTMwMHMSNgoHdGltZW91dBgCIAEoCzIZLmdvb2dsZS5wcm90b2J1Zi5E",
-            "dXJhdGlvbkIK+scxBjFzLTYwcxI1ChN1bmhlYWx0aHlfdGhyZXNob2xkGAMg",
-            "ASgDQhj6xzEUMCwyLDMsNCw1LDYsNyw4LDksMTASMwoRaGVhbHRoeV90aHJl",
-            "c2hvbGQYBCABKANCGPrHMRQwLDIsMyw0LDUsNiw3LDgsOSwxMBJYCgt0Y3Bf",
-            "b3B0aW9ucxgFIAEoCzJBLnlhbmRleC5jbG91ZC5jb21wdXRlLnYxLmluc3Rh",
-            "bmNlZ3JvdXAuSGVhbHRoQ2hlY2tTcGVjLlRjcE9wdGlvbnNIABJaCgxodHRw",
-            "X29wdGlvbnMYBiABKAsyQi55YW5kZXguY2xvdWQuY29tcHV0ZS52MS5pbnN0",
-            "YW5jZWdyb3VwLkhlYWx0aENoZWNrU3BlYy5IdHRwT3B0aW9uc0gAGicKClRj",
-            "cE9wdGlvbnMSGQoEcG9ydBgBIAEoA0IL+scxBzEtMzI3NjcaNgoLSHR0cE9w",
-            "dGlvbnMSGQoEcG9ydBgBIAEoA0IL+scxBzEtMzI3NjcSDAoEcGF0aBgCIAEo",
-            "CUIcChRoZWFsdGhfY2hlY2tfb3B0aW9ucxIEwMExASKoBQoPTWFuYWdlZElu",
-            "c3RhbmNlEgoKAmlkGAEgASgJEk0KBnN0YXR1cxgCIAEoDjI9LnlhbmRleC5j",
-            "bG91ZC5jb21wdXRlLnYxLmluc3RhbmNlZ3JvdXAuTWFuYWdlZEluc3RhbmNl",
-            "LlN0YXR1cxITCgtpbnN0YW5jZV9pZBgDIAEoCRIMCgRmcWRuGAQgASgJEgwK",
-            "BG5hbWUYBSABKAkSFgoOc3RhdHVzX21lc3NhZ2UYBiABKAkSDwoHem9uZV9p",
-            "ZBgHIAEoCRJTChJuZXR3b3JrX2ludGVyZmFjZXMYCCADKAsyNy55YW5kZXgu",
-            "Y2xvdWQuY29tcHV0ZS52MS5pbnN0YW5jZWdyb3VwLk5ldHdvcmtJbnRlcmZh",
-            "Y2USNQoRc3RhdHVzX2NoYW5nZWRfYXQYCSABKAsyGi5nb29nbGUucHJvdG9i",
-            "dWYuVGltZXN0YW1wItMCCgZTdGF0dXMSFgoSU1RBVFVTX1VOU1BFQ0lGSUVE",
-            "EAASFQoRQ1JFQVRJTkdfSU5TVEFOQ0UQCxIVChFVUERBVElOR19JTlNUQU5D",
-            "RRAMEhUKEURFTEVUSU5HX0lOU1RBTkNFEA0SFQoRU1RBUlRJTkdfSU5TVEFO",
-            "Q0UQDhIVChFTVE9QUElOR19JTlNUQU5DRRAPEh0KGUFXQUlUSU5HX1NUQVJU",
-            "VVBfRFVSQVRJT04QEBITCg9DSEVDS0lOR19IRUFMVEgQERITCg9PUEVOSU5H",
-            "X1RSQUZGSUMQEhIcChhBV0FJVElOR19XQVJNVVBfRFVSQVRJT04QExITCg9D",
-            "TE9TSU5HX1RSQUZGSUMQFBISCg5SVU5OSU5HX0FDVFVBTBAVEhQKEFJVTk5J",
-            "TkdfT1VUREFURUQQFhILCgdTVE9QUEVEEBcSCwoHREVMRVRFRBAYIu8BChBO",
-            "ZXR3b3JrSW50ZXJmYWNlEg0KBWluZGV4GAEgASgJEhMKC21hY19hZGRyZXNz",
-            "GAIgASgJEhEKCXN1Ym5ldF9pZBgDIAEoCRJRChJwcmltYXJ5X3Y0X2FkZHJl",
-            "c3MYBCABKAsyNS55YW5kZXguY2xvdWQuY29tcHV0ZS52MS5pbnN0YW5jZWdy",
-            "b3VwLlByaW1hcnlBZGRyZXNzElEKEnByaW1hcnlfdjZfYWRkcmVzcxgFIAEo",
-            "CzI1LnlhbmRleC5jbG91ZC5jb21wdXRlLnYxLmluc3RhbmNlZ3JvdXAuUHJp",
-            "bWFyeUFkZHJlc3MibQoOUHJpbWFyeUFkZHJlc3MSDwoHYWRkcmVzcxgBIAEo",
-            "CRJKCg5vbmVfdG9fb25lX25hdBgCIAEoCzIyLnlhbmRleC5jbG91ZC5jb21w",
-            "dXRlLnYxLmluc3RhbmNlZ3JvdXAuT25lVG9PbmVOYXQiZAoLT25lVG9PbmVO",
-            "YXQSDwoHYWRkcmVzcxgBIAEoCRJECgppcF92ZXJzaW9uGAIgASgOMjAueWFu",
-            "ZGV4LmNsb3VkLmNvbXB1dGUudjEuaW5zdGFuY2Vncm91cC5JcFZlcnNpb24i",
-            "SwoJTG9nUmVjb3JkEi0KCXRpbWVzdGFtcBgBIAEoCzIaLmdvb2dsZS5wcm90",
-            "b2J1Zi5UaW1lc3RhbXASDwoHbWVzc2FnZRgCIAEoCSo7CglJcFZlcnNpb24S",
-            "GgoWSVBfVkVSU0lPTl9VTlNQRUNJRklFRBAAEggKBElQVjQQARIICgRJUFY2",
-            "EAJChAEKKXlhbmRleC5jbG91ZC5hcGkuY29tcHV0ZS52MS5pbnN0YW5jZWdy",
-            "b3VwWldnaXRodWIuY29tL3lhbmRleC1jbG91ZC9nby1nZW5wcm90by95YW5k",
-            "ZXgvY2xvdWQvY29tcHV0ZS92MS9pbnN0YW5jZWdyb3VwO2luc3RhbmNlZ3Jv",
-            "dXBiBnByb3RvMw=="));
+            "Y2VHcm91cC5TdGF0dXMSQgoJdmFyaWFibGVzGBIgAygLMi8ueWFuZGV4LmNs",
+            "b3VkLmNvbXB1dGUudjEuaW5zdGFuY2Vncm91cC5WYXJpYWJsZRotCgtMYWJl",
+            "bHNFbnRyeRILCgNrZXkYASABKAkSDQoFdmFsdWUYAiABKAk6AjgBImMKBlN0",
+            "YXR1cxIWChJTVEFUVVNfVU5TUEVDSUZJRUQQABIMCghTVEFSVElORxABEgoK",
+            "BkFDVElWRRACEgwKCFNUT1BQSU5HEAMSCwoHU1RPUFBFRBAEEgwKCERFTEVU",
+            "SU5HEAUiTwoIVmFyaWFibGUSKQoDa2V5GAEgASgJQhyKyDEFMS0xMjjyxzEP",
+            "W2EtekEtWjAtOS5fLV0qEhgKBXZhbHVlGAIgASgJQgmKyDEFPD0xMjgiRAoR",
+            "TG9hZEJhbGFuY2VyU3RhdGUSFwoPdGFyZ2V0X2dyb3VwX2lkGAEgASgJEhYK",
+            "DnN0YXR1c19tZXNzYWdlGAIgASgJIr8CChVNYW5hZ2VkSW5zdGFuY2VzU3Rh",
+            "dGUSEwoLdGFyZ2V0X3NpemUYASABKAMSHAoUcnVubmluZ19hY3R1YWxfY291",
+            "bnQYBCABKAMSHgoWcnVubmluZ19vdXRkYXRlZF9jb3VudBgFIAEoAxIYChBw",
+            "cm9jZXNzaW5nX2NvdW50GAYgASgDGrgBCghTdGF0dXNlcxIQCghjcmVhdGlu",
+            "ZxgBIAEoAxIQCghzdGFydGluZxgCIAEoAxIPCgdvcGVuaW5nGAMgASgDEg8K",
+            "B3dhcm1pbmcYBCABKAMSDwoHcnVubmluZxgFIAEoAxIPCgdjbG9zaW5nGAYg",
+            "ASgDEhAKCHN0b3BwaW5nGAcgASgDEhAKCHVwZGF0aW5nGAggASgDEhAKCGRl",
+            "bGV0aW5nGAkgASgDEg4KBmZhaWxlZBgKIAEoAyKxDAoLU2NhbGVQb2xpY3kS",
+            "VAoLZml4ZWRfc2NhbGUYASABKAsyPS55YW5kZXguY2xvdWQuY29tcHV0ZS52",
+            "MS5pbnN0YW5jZWdyb3VwLlNjYWxlUG9saWN5LkZpeGVkU2NhbGVIABJSCgph",
+            "dXRvX3NjYWxlGAIgASgLMjwueWFuZGV4LmNsb3VkLmNvbXB1dGUudjEuaW5z",
+            "dGFuY2Vncm91cC5TY2FsZVBvbGljeS5BdXRvU2NhbGVIABJVCg90ZXN0X2F1",
+            "dG9fc2NhbGUYAyABKAsyPC55YW5kZXguY2xvdWQuY29tcHV0ZS52MS5pbnN0",
+            "YW5jZWdyb3VwLlNjYWxlUG9saWN5LkF1dG9TY2FsZRr7AwoJQXV0b1NjYWxl",
+            "EiAKDW1pbl96b25lX3NpemUYASABKANCCfrHMQUwLTEwMBIbCghtYXhfc2l6",
+            "ZRgCIAEoA0IJ+scxBTAtMTAwEkcKFG1lYXN1cmVtZW50X2R1cmF0aW9uGAMg",
+            "ASgLMhkuZ29vZ2xlLnByb3RvYnVmLkR1cmF0aW9uQg7oxzEB+scxBjFtLTEw",
+            "bRI9Cg93YXJtdXBfZHVyYXRpb24YBCABKAsyGS5nb29nbGUucHJvdG9idWYu",
+            "RHVyYXRpb25CCfrHMQU8PTEwbRJFChZzdGFiaWxpemF0aW9uX2R1cmF0aW9u",
+            "GAUgASgLMhkuZ29vZ2xlLnByb3RvYnVmLkR1cmF0aW9uQgr6xzEGMW0tMzBt",
+            "Eh0KDGluaXRpYWxfc2l6ZRgGIAEoA0IH+scxAz49MRJjChRjcHVfdXRpbGl6",
+            "YXRpb25fcnVsZRgHIAEoCzJFLnlhbmRleC5jbG91ZC5jb21wdXRlLnYxLmlu",
+            "c3RhbmNlZ3JvdXAuU2NhbGVQb2xpY3kuQ3B1VXRpbGl6YXRpb25SdWxlElwK",
+            "DGN1c3RvbV9ydWxlcxgIIAMoCzI9LnlhbmRleC5jbG91ZC5jb21wdXRlLnYx",
+            "Lmluc3RhbmNlZ3JvdXAuU2NhbGVQb2xpY3kuQ3VzdG9tUnVsZUIHgsgxAzw9",
+            "MRo8ChJDcHVVdGlsaXphdGlvblJ1bGUSJgoSdXRpbGl6YXRpb25fdGFyZ2V0",
+            "GAEgASgBQgr6xzEGMTAtMTAwGqkFCgpDdXN0b21SdWxlEl8KCXJ1bGVfdHlw",
+            "ZRgBIAEoDjJGLnlhbmRleC5jbG91ZC5jb21wdXRlLnYxLmluc3RhbmNlZ3Jv",
+            "dXAuU2NhbGVQb2xpY3kuQ3VzdG9tUnVsZS5SdWxlVHlwZUIE6McxARJjCgtt",
+            "ZXRyaWNfdHlwZRgCIAEoDjJILnlhbmRleC5jbG91ZC5jb21wdXRlLnYxLmlu",
+            "c3RhbmNlZ3JvdXAuU2NhbGVQb2xpY3kuQ3VzdG9tUnVsZS5NZXRyaWNUeXBl",
+            "QgToxzEBEk8KC21ldHJpY19uYW1lGAMgASgJQjroxzEB8scxMlthLXpBLVow",
+            "LTkuL0BfXVsgMC05YS16QS1aLi9AXyw6OygpXFtcXTw+LV17MCwxOTh9ErMB",
+            "CgZsYWJlbHMYBSADKAsySS55YW5kZXguY2xvdWQuY29tcHV0ZS52MS5pbnN0",
+            "YW5jZWdyb3VwLlNjYWxlUG9saWN5LkN1c3RvbVJ1bGUuTGFiZWxzRW50cnlC",
+            "WPLHMTJbYS16QS1aMC05Li9AX11bIDAtOWEtekEtWi4vQF8sOjsoKVxbXF08",
+            "Pi1dezAsMTk4fbLIMR4SHF5bYS16QS1aXVswLTlhLXpBLVpfXXswLDMxfSQS",
+            "FgoGdGFyZ2V0GAQgASgBQgb6xzECPjAaLQoLTGFiZWxzRW50cnkSCwoDa2V5",
+            "GAEgASgJEg0KBXZhbHVlGAIgASgJOgI4ASJECghSdWxlVHlwZRIZChVSVUxF",
+            "X1RZUEVfVU5TUEVDSUZJRUQQABIPCgtVVElMSVpBVElPThABEgwKCFdPUktM",
+            "T0FEEAIiQQoKTWV0cmljVHlwZRIbChdNRVRSSUNfVFlQRV9VTlNQRUNJRklF",
+            "RBAAEgkKBUdBVUdFEAESCwoHQ09VTlRFUhACGiUKCkZpeGVkU2NhbGUSFwoE",
+            "c2l6ZRgBIAEoA0IJ+scxBTEtMTAwQhIKCnNjYWxlX3R5cGUSBMDBMQEi1gEK",
+            "DERlcGxveVBvbGljeRIiCg9tYXhfdW5hdmFpbGFibGUYASABKANCCfrHMQUw",
+            "LTEwMBIfCgxtYXhfZGVsZXRpbmcYAiABKANCCfrHMQUwLTEwMBIfCgxtYXhf",
+            "Y3JlYXRpbmcYAyABKANCCfrHMQUwLTEwMBIgCg1tYXhfZXhwYW5zaW9uGAYg",
+            "ASgDQgn6xzEFMC0xMDASPgoQc3RhcnR1cF9kdXJhdGlvbhgHIAEoCzIZLmdv",
+            "b2dsZS5wcm90b2J1Zi5EdXJhdGlvbkIJ+scxBTBtLTFoIocBChBBbGxvY2F0",
+            "aW9uUG9saWN5ElQKBXpvbmVzGAEgAygLMjwueWFuZGV4LmNsb3VkLmNvbXB1",
+            "dGUudjEuaW5zdGFuY2Vncm91cC5BbGxvY2F0aW9uUG9saWN5LlpvbmVCB4LI",
+            "MQM+PTEaHQoEWm9uZRIVCgd6b25lX2lkGAEgASgJQgToxzEBIrMIChBJbnN0",
+            "YW5jZVRlbXBsYXRlEh4KC2Rlc2NyaXB0aW9uGAEgASgJQgmKyDEFPD0yNTYS",
+            "igEKBmxhYmVscxgCIAMoCzJDLnlhbmRleC5jbG91ZC5jb21wdXRlLnYxLmlu",
+            "c3RhbmNlZ3JvdXAuSW5zdGFuY2VUZW1wbGF0ZS5MYWJlbHNFbnRyeUI1gsgx",
+            "BDw9NjSKyDEFPD0xMjiyyDEGGgQxLTYzssgxFhIUW2Etel1bLV8uL1xAMC05",
+            "YS16XSoSGQoLcGxhdGZvcm1faWQYAyABKAlCBOjHMQESUgoOcmVzb3VyY2Vz",
+            "X3NwZWMYBCABKAsyNC55YW5kZXguY2xvdWQuY29tcHV0ZS52MS5pbnN0YW5j",
+            "ZWdyb3VwLlJlc291cmNlc1NwZWNCBOjHMQESjgEKCG1ldGFkYXRhGAUgAygL",
+            "MkUueWFuZGV4LmNsb3VkLmNvbXB1dGUudjEuaW5zdGFuY2Vncm91cC5JbnN0",
+            "YW5jZVRlbXBsYXRlLk1ldGFkYXRhRW50cnlCNYLIMQU8PTEyOIrIMQg8PTI2",
+            "MjE0NLLIMQYaBDEtNjOyyDESEhBbYS16XVstXzAtOWEtel0qElUKDmJvb3Rf",
+            "ZGlza19zcGVjGAYgASgLMjcueWFuZGV4LmNsb3VkLmNvbXB1dGUudjEuaW5z",
+            "dGFuY2Vncm91cC5BdHRhY2hlZERpc2tTcGVjQgToxzEBEl4KFHNlY29uZGFy",
+            "eV9kaXNrX3NwZWNzGAcgAygLMjcueWFuZGV4LmNsb3VkLmNvbXB1dGUudjEu",
+            "aW5zdGFuY2Vncm91cC5BdHRhY2hlZERpc2tTcGVjQgeCyDEDPD0zEmMKF25l",
+            "dHdvcmtfaW50ZXJmYWNlX3NwZWNzGAggAygLMjsueWFuZGV4LmNsb3VkLmNv",
+            "bXB1dGUudjEuaW5zdGFuY2Vncm91cC5OZXR3b3JrSW50ZXJmYWNlU3BlY0IF",
+            "gsgxATESUgoRc2NoZWR1bGluZ19wb2xpY3kYCSABKAsyNy55YW5kZXguY2xv",
+            "dWQuY29tcHV0ZS52MS5pbnN0YW5jZWdyb3VwLlNjaGVkdWxpbmdQb2xpY3kS",
+            "GgoSc2VydmljZV9hY2NvdW50X2lkGAogASgJElAKEG5ldHdvcmtfc2V0dGlu",
+            "Z3MYCyABKAsyNi55YW5kZXguY2xvdWQuY29tcHV0ZS52MS5pbnN0YW5jZWdy",
+            "b3VwLk5ldHdvcmtTZXR0aW5ncxIXCgRuYW1lGAwgASgJQgmKyDEFPD0xMjgS",
+            "GwoIaG9zdG5hbWUYDSABKAlCCYrIMQU8PTEyOBotCgtMYWJlbHNFbnRyeRIL",
+            "CgNrZXkYASABKAkSDQoFdmFsdWUYAiABKAk6AjgBGi8KDU1ldGFkYXRhRW50",
+            "cnkSCwoDa2V5GAEgASgJEg0KBXZhbHVlGAIgASgJOgI4ASLVAQoNUmVzb3Vy",
+            "Y2VzU3BlYxIiCgZtZW1vcnkYASABKANCEvrHMQ48PTgyNDYzMzcyMDgzMhJb",
+            "CgVjb3JlcxgCIAEoA0JM+scxSDEsMiw0LDYsOCwxMCwxMiwxNCwxNiwxOCwy",
+            "MCwyMiwyNCwyNiwyOCwzMCwzMiwzNCwzNiw0MCw0NCw0OCw1Miw1Niw2MCw2",
+            "NBIoCg1jb3JlX2ZyYWN0aW9uGAMgASgDQhH6xzENMCw1LDIwLDUwLDEwMBIZ",
+            "CgRncHVzGAQgASgDQgv6xzEHMCwxLDIsNCLpAwoQQXR0YWNoZWREaXNrU3Bl",
+            "YxJQCgRtb2RlGAEgASgOMjwueWFuZGV4LmNsb3VkLmNvbXB1dGUudjEuaW5z",
+            "dGFuY2Vncm91cC5BdHRhY2hlZERpc2tTcGVjLk1vZGVCBOjHMQESLwoLZGV2",
+            "aWNlX25hbWUYAiABKAlCGvLHMRZ8W2Etel1bLV8wLTlhLXpdezAsMTl9ElkK",
+            "CWRpc2tfc3BlYxgDIAEoCzJALnlhbmRleC5jbG91ZC5jb21wdXRlLnYxLmlu",
+            "c3RhbmNlZ3JvdXAuQXR0YWNoZWREaXNrU3BlYy5EaXNrU3BlY0IE6McxARq5",
+            "AQoIRGlza1NwZWMSHgoLZGVzY3JpcHRpb24YASABKAlCCYrIMQU8PTI1NhIV",
+            "Cgd0eXBlX2lkGAIgASgJQgToxzEBEicKBHNpemUYAyABKANCGfrHMRU0MTk0",
+            "MzA0LTQzOTgwNDY1MTExMDQSHAoIaW1hZ2VfaWQYBCABKAlCCIrIMQQ8PTUw",
+            "SAASHwoLc25hcHNob3RfaWQYBSABKAlCCIrIMQQ8PTUwSABCDgoMc291cmNl",
+            "X29uZW9mIjsKBE1vZGUSFAoQTU9ERV9VTlNQRUNJRklFRBAAEg0KCVJFQURf",
+            "T05MWRABEg4KClJFQURfV1JJVEUQAiKSAgoUTmV0d29ya0ludGVyZmFjZVNw",
+            "ZWMSEgoKbmV0d29ya19pZBgBIAEoCRISCgpzdWJuZXRfaWRzGAIgAygJEloK",
+            "F3ByaW1hcnlfdjRfYWRkcmVzc19zcGVjGAMgASgLMjkueWFuZGV4LmNsb3Vk",
+            "LmNvbXB1dGUudjEuaW5zdGFuY2Vncm91cC5QcmltYXJ5QWRkcmVzc1NwZWMS",
+            "WgoXcHJpbWFyeV92Nl9hZGRyZXNzX3NwZWMYBCABKAsyOS55YW5kZXguY2xv",
+            "dWQuY29tcHV0ZS52MS5pbnN0YW5jZWdyb3VwLlByaW1hcnlBZGRyZXNzU3Bl",
+            "YxIaChJzZWN1cml0eV9ncm91cF9pZHMYBSADKAkiaQoSUHJpbWFyeUFkZHJl",
+            "c3NTcGVjElMKE29uZV90b19vbmVfbmF0X3NwZWMYASABKAsyNi55YW5kZXgu",
+            "Y2xvdWQuY29tcHV0ZS52MS5pbnN0YW5jZWdyb3VwLk9uZVRvT25lTmF0U3Bl",
+            "YyJXCg9PbmVUb09uZU5hdFNwZWMSRAoKaXBfdmVyc2lvbhgBIAEoDjIwLnlh",
+            "bmRleC5jbG91ZC5jb21wdXRlLnYxLmluc3RhbmNlZ3JvdXAuSXBWZXJzaW9u",
+            "IicKEFNjaGVkdWxpbmdQb2xpY3kSEwoLcHJlZW1wdGlibGUYASABKAgivAEK",
+            "D05ldHdvcmtTZXR0aW5ncxJJCgR0eXBlGAEgASgOMjsueWFuZGV4LmNsb3Vk",
+            "LmNvbXB1dGUudjEuaW5zdGFuY2Vncm91cC5OZXR3b3JrU2V0dGluZ3MuVHlw",
+            "ZSJeCgRUeXBlEhQKEFRZUEVfVU5TUEVDSUZJRUQQABIMCghTVEFOREFSRBAB",
+            "EhgKFFNPRlRXQVJFX0FDQ0VMRVJBVEVEEAISGAoUSEFSRFdBUkVfQUNDRUxF",
+            "UkFURUQQAyJlChBMb2FkQmFsYW5jZXJTcGVjElEKEXRhcmdldF9ncm91cF9z",
+            "cGVjGAEgASgLMjYueWFuZGV4LmNsb3VkLmNvbXB1dGUudjEuaW5zdGFuY2Vn",
+            "cm91cC5UYXJnZXRHcm91cFNwZWMisgIKD1RhcmdldEdyb3VwU3BlYxIyCgRu",
+            "YW1lGAEgASgJQiTyxzEgfFthLXpdKFstYS16MC05XXswLDYxfVthLXowLTld",
+            "KT8SHgoLZGVzY3JpcHRpb24YAiABKAlCCYrIMQU8PTI1NhKbAQoGbGFiZWxz",
+            "GAMgAygLMkIueWFuZGV4LmNsb3VkLmNvbXB1dGUudjEuaW5zdGFuY2Vncm91",
+            "cC5UYXJnZXRHcm91cFNwZWMuTGFiZWxzRW50cnlCR4LIMQQ8PTY0isgxBDw9",
+            "NjPyxzEPWy1fLi9cQDAtOWEtel0qssgxBhoEMS02M7LIMRYSFFthLXpdWy1f",
+            "Li9cQDAtOWEtel0qGi0KC0xhYmVsc0VudHJ5EgsKA2tleRgBIAEoCRINCgV2",
+            "YWx1ZRgCIAEoCToCOAEibwoQSGVhbHRoQ2hlY2tzU3BlYxJbChJoZWFsdGhf",
+            "Y2hlY2tfc3BlY3MYASADKAsyNi55YW5kZXguY2xvdWQuY29tcHV0ZS52MS5p",
+            "bnN0YW5jZWdyb3VwLkhlYWx0aENoZWNrU3BlY0IHgsgxAz49MSKkBAoPSGVh",
+            "bHRoQ2hlY2tTcGVjEjgKCGludGVydmFsGAEgASgLMhkuZ29vZ2xlLnByb3Rv",
+            "YnVmLkR1cmF0aW9uQgv6xzEHMXMtMzAwcxI2Cgd0aW1lb3V0GAIgASgLMhku",
+            "Z29vZ2xlLnByb3RvYnVmLkR1cmF0aW9uQgr6xzEGMXMtNjBzEjUKE3VuaGVh",
+            "bHRoeV90aHJlc2hvbGQYAyABKANCGPrHMRQwLDIsMyw0LDUsNiw3LDgsOSwx",
+            "MBIzChFoZWFsdGh5X3RocmVzaG9sZBgEIAEoA0IY+scxFDAsMiwzLDQsNSw2",
+            "LDcsOCw5LDEwElgKC3RjcF9vcHRpb25zGAUgASgLMkEueWFuZGV4LmNsb3Vk",
+            "LmNvbXB1dGUudjEuaW5zdGFuY2Vncm91cC5IZWFsdGhDaGVja1NwZWMuVGNw",
+            "T3B0aW9uc0gAEloKDGh0dHBfb3B0aW9ucxgGIAEoCzJCLnlhbmRleC5jbG91",
+            "ZC5jb21wdXRlLnYxLmluc3RhbmNlZ3JvdXAuSGVhbHRoQ2hlY2tTcGVjLkh0",
+            "dHBPcHRpb25zSAAaJwoKVGNwT3B0aW9ucxIZCgRwb3J0GAEgASgDQgv6xzEH",
+            "MS02NTUzNRo2CgtIdHRwT3B0aW9ucxIZCgRwb3J0GAEgASgDQgv6xzEHMS02",
+            "NTUzNRIMCgRwYXRoGAIgASgJQhwKFGhlYWx0aF9jaGVja19vcHRpb25zEgTA",
+            "wTEBIqgFCg9NYW5hZ2VkSW5zdGFuY2USCgoCaWQYASABKAkSTQoGc3RhdHVz",
+            "GAIgASgOMj0ueWFuZGV4LmNsb3VkLmNvbXB1dGUudjEuaW5zdGFuY2Vncm91",
+            "cC5NYW5hZ2VkSW5zdGFuY2UuU3RhdHVzEhMKC2luc3RhbmNlX2lkGAMgASgJ",
+            "EgwKBGZxZG4YBCABKAkSDAoEbmFtZRgFIAEoCRIWCg5zdGF0dXNfbWVzc2Fn",
+            "ZRgGIAEoCRIPCgd6b25lX2lkGAcgASgJElMKEm5ldHdvcmtfaW50ZXJmYWNl",
+            "cxgIIAMoCzI3LnlhbmRleC5jbG91ZC5jb21wdXRlLnYxLmluc3RhbmNlZ3Jv",
+            "dXAuTmV0d29ya0ludGVyZmFjZRI1ChFzdGF0dXNfY2hhbmdlZF9hdBgJIAEo",
+            "CzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXAi0wIKBlN0YXR1cxIWChJT",
+            "VEFUVVNfVU5TUEVDSUZJRUQQABIVChFDUkVBVElOR19JTlNUQU5DRRALEhUK",
+            "EVVQREFUSU5HX0lOU1RBTkNFEAwSFQoRREVMRVRJTkdfSU5TVEFOQ0UQDRIV",
+            "ChFTVEFSVElOR19JTlNUQU5DRRAOEhUKEVNUT1BQSU5HX0lOU1RBTkNFEA8S",
+            "HQoZQVdBSVRJTkdfU1RBUlRVUF9EVVJBVElPThAQEhMKD0NIRUNLSU5HX0hF",
+            "QUxUSBAREhMKD09QRU5JTkdfVFJBRkZJQxASEhwKGEFXQUlUSU5HX1dBUk1V",
+            "UF9EVVJBVElPThATEhMKD0NMT1NJTkdfVFJBRkZJQxAUEhIKDlJVTk5JTkdf",
+            "QUNUVUFMEBUSFAoQUlVOTklOR19PVVREQVRFRBAWEgsKB1NUT1BQRUQQFxIL",
+            "CgdERUxFVEVEEBgi7wEKEE5ldHdvcmtJbnRlcmZhY2USDQoFaW5kZXgYASAB",
+            "KAkSEwoLbWFjX2FkZHJlc3MYAiABKAkSEQoJc3VibmV0X2lkGAMgASgJElEK",
+            "EnByaW1hcnlfdjRfYWRkcmVzcxgEIAEoCzI1LnlhbmRleC5jbG91ZC5jb21w",
+            "dXRlLnYxLmluc3RhbmNlZ3JvdXAuUHJpbWFyeUFkZHJlc3MSUQoScHJpbWFy",
+            "eV92Nl9hZGRyZXNzGAUgASgLMjUueWFuZGV4LmNsb3VkLmNvbXB1dGUudjEu",
+            "aW5zdGFuY2Vncm91cC5QcmltYXJ5QWRkcmVzcyJtCg5QcmltYXJ5QWRkcmVz",
+            "cxIPCgdhZGRyZXNzGAEgASgJEkoKDm9uZV90b19vbmVfbmF0GAIgASgLMjIu",
+            "eWFuZGV4LmNsb3VkLmNvbXB1dGUudjEuaW5zdGFuY2Vncm91cC5PbmVUb09u",
+            "ZU5hdCJkCgtPbmVUb09uZU5hdBIPCgdhZGRyZXNzGAEgASgJEkQKCmlwX3Zl",
+            "cnNpb24YAiABKA4yMC55YW5kZXguY2xvdWQuY29tcHV0ZS52MS5pbnN0YW5j",
+            "ZWdyb3VwLklwVmVyc2lvbiJLCglMb2dSZWNvcmQSLQoJdGltZXN0YW1wGAEg",
+            "ASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcBIPCgdtZXNzYWdlGAIg",
+            "ASgJKjsKCUlwVmVyc2lvbhIaChZJUF9WRVJTSU9OX1VOU1BFQ0lGSUVEEAAS",
+            "CAoESVBWNBABEggKBElQVjYQAkKEAQopeWFuZGV4LmNsb3VkLmFwaS5jb21w",
+            "dXRlLnYxLmluc3RhbmNlZ3JvdXBaV2dpdGh1Yi5jb20veWFuZGV4LWNsb3Vk",
+            "L2dvLWdlbnByb3RvL3lhbmRleC9jbG91ZC9jb21wdXRlL3YxL2luc3RhbmNl",
+            "Z3JvdXA7aW5zdGFuY2Vncm91cGIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Yandex.Cloud.ValidationReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.DurationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.IpVersion), }, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroup), global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroup.Parser, new[]{ "Id", "FolderId", "CreatedAt", "Name", "Description", "Labels", "InstanceTemplate", "ScalePolicy", "DeployPolicy", "AllocationPolicy", "LoadBalancerState", "ManagedInstancesState", "LoadBalancerSpec", "HealthChecksSpec", "ServiceAccountId", "Status" }, null, new[]{ typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroup.Types.Status) }, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroup), global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroup.Parser, new[]{ "Id", "FolderId", "CreatedAt", "Name", "Description", "Labels", "InstanceTemplate", "ScalePolicy", "DeployPolicy", "AllocationPolicy", "LoadBalancerState", "ManagedInstancesState", "LoadBalancerSpec", "HealthChecksSpec", "ServiceAccountId", "Status", "Variables" }, null, new[]{ typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroup.Types.Status) }, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.Variable), global::Yandex.Cloud.Compute.V1.Instancegroup.Variable.Parser, new[]{ "Key", "Value" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.LoadBalancerState), global::Yandex.Cloud.Compute.V1.Instancegroup.LoadBalancerState.Parser, new[]{ "TargetGroupId", "StatusMessage" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.ManagedInstancesState), global::Yandex.Cloud.Compute.V1.Instancegroup.ManagedInstancesState.Parser, new[]{ "TargetSize", "RunningActualCount", "RunningOutdatedCount", "ProcessingCount" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.ManagedInstancesState.Types.Statuses), global::Yandex.Cloud.Compute.V1.Instancegroup.ManagedInstancesState.Types.Statuses.Parser, new[]{ "Creating", "Starting", "Opening", "Warming", "Running", "Closing", "Stopping", "Updating", "Deleting", "Failed" }, null, null, null)}),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.ScalePolicy), global::Yandex.Cloud.Compute.V1.Instancegroup.ScalePolicy.Parser, new[]{ "FixedScale", "AutoScale" }, new[]{ "ScaleType" }, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.ScalePolicy.Types.AutoScale), global::Yandex.Cloud.Compute.V1.Instancegroup.ScalePolicy.Types.AutoScale.Parser, new[]{ "MinZoneSize", "MaxSize", "MeasurementDuration", "WarmupDuration", "StabilizationDuration", "InitialSize", "CpuUtilizationRule", "CustomRules" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.ScalePolicy), global::Yandex.Cloud.Compute.V1.Instancegroup.ScalePolicy.Parser, new[]{ "FixedScale", "AutoScale", "TestAutoScale" }, new[]{ "ScaleType" }, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.ScalePolicy.Types.AutoScale), global::Yandex.Cloud.Compute.V1.Instancegroup.ScalePolicy.Types.AutoScale.Parser, new[]{ "MinZoneSize", "MaxSize", "MeasurementDuration", "WarmupDuration", "StabilizationDuration", "InitialSize", "CpuUtilizationRule", "CustomRules" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.ScalePolicy.Types.CpuUtilizationRule), global::Yandex.Cloud.Compute.V1.Instancegroup.ScalePolicy.Types.CpuUtilizationRule.Parser, new[]{ "UtilizationTarget" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.ScalePolicy.Types.CustomRule), global::Yandex.Cloud.Compute.V1.Instancegroup.ScalePolicy.Types.CustomRule.Parser, new[]{ "RuleType", "MetricType", "MetricName", "Target" }, null, new[]{ typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.ScalePolicy.Types.CustomRule.Types.RuleType), typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.ScalePolicy.Types.CustomRule.Types.MetricType) }, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.ScalePolicy.Types.CustomRule), global::Yandex.Cloud.Compute.V1.Instancegroup.ScalePolicy.Types.CustomRule.Parser, new[]{ "RuleType", "MetricType", "MetricName", "Labels", "Target" }, null, new[]{ typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.ScalePolicy.Types.CustomRule.Types.RuleType), typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.ScalePolicy.Types.CustomRule.Types.MetricType) }, new pbr::GeneratedClrTypeInfo[] { null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.ScalePolicy.Types.FixedScale), global::Yandex.Cloud.Compute.V1.Instancegroup.ScalePolicy.Types.FixedScale.Parser, new[]{ "Size" }, null, null, null)}),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.DeployPolicy), global::Yandex.Cloud.Compute.V1.Instancegroup.DeployPolicy.Parser, new[]{ "MaxUnavailable", "MaxDeleting", "MaxCreating", "MaxExpansion", "StartupDuration" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.AllocationPolicy), global::Yandex.Cloud.Compute.V1.Instancegroup.AllocationPolicy.Parser, new[]{ "Zones" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.AllocationPolicy.Types.Zone), global::Yandex.Cloud.Compute.V1.Instancegroup.AllocationPolicy.Types.Zone.Parser, new[]{ "ZoneId" }, null, null, null)}),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceTemplate), global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceTemplate.Parser, new[]{ "Description", "Labels", "PlatformId", "ResourcesSpec", "Metadata", "BootDiskSpec", "SecondaryDiskSpecs", "NetworkInterfaceSpecs", "SchedulingPolicy", "ServiceAccountId" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceTemplate), global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceTemplate.Parser, new[]{ "Description", "Labels", "PlatformId", "ResourcesSpec", "Metadata", "BootDiskSpec", "SecondaryDiskSpecs", "NetworkInterfaceSpecs", "SchedulingPolicy", "ServiceAccountId", "NetworkSettings", "Name", "Hostname" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.ResourcesSpec), global::Yandex.Cloud.Compute.V1.Instancegroup.ResourcesSpec.Parser, new[]{ "Memory", "Cores", "CoreFraction", "Gpus" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.AttachedDiskSpec), global::Yandex.Cloud.Compute.V1.Instancegroup.AttachedDiskSpec.Parser, new[]{ "Mode", "DeviceName", "DiskSpec" }, null, new[]{ typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.AttachedDiskSpec.Types.Mode) }, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.AttachedDiskSpec.Types.DiskSpec), global::Yandex.Cloud.Compute.V1.Instancegroup.AttachedDiskSpec.Types.DiskSpec.Parser, new[]{ "Description", "TypeId", "Size", "ImageId", "SnapshotId" }, new[]{ "SourceOneof" }, null, null)}),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.NetworkInterfaceSpec), global::Yandex.Cloud.Compute.V1.Instancegroup.NetworkInterfaceSpec.Parser, new[]{ "NetworkId", "SubnetIds", "PrimaryV4AddressSpec", "PrimaryV6AddressSpec" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.NetworkInterfaceSpec), global::Yandex.Cloud.Compute.V1.Instancegroup.NetworkInterfaceSpec.Parser, new[]{ "NetworkId", "SubnetIds", "PrimaryV4AddressSpec", "PrimaryV6AddressSpec", "SecurityGroupIds" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.PrimaryAddressSpec), global::Yandex.Cloud.Compute.V1.Instancegroup.PrimaryAddressSpec.Parser, new[]{ "OneToOneNatSpec" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.OneToOneNatSpec), global::Yandex.Cloud.Compute.V1.Instancegroup.OneToOneNatSpec.Parser, new[]{ "IpVersion" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.SchedulingPolicy), global::Yandex.Cloud.Compute.V1.Instancegroup.SchedulingPolicy.Parser, new[]{ "Preemptible" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.NetworkSettings), global::Yandex.Cloud.Compute.V1.Instancegroup.NetworkSettings.Parser, new[]{ "Type" }, null, new[]{ typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.NetworkSettings.Types.Type) }, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.LoadBalancerSpec), global::Yandex.Cloud.Compute.V1.Instancegroup.LoadBalancerSpec.Parser, new[]{ "TargetGroupSpec" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.TargetGroupSpec), global::Yandex.Cloud.Compute.V1.Instancegroup.TargetGroupSpec.Parser, new[]{ "Name", "Description", "Labels" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.HealthChecksSpec), global::Yandex.Cloud.Compute.V1.Instancegroup.HealthChecksSpec.Parser, new[]{ "HealthCheckSpecs" }, null, null, null),
@@ -293,6 +313,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
       healthChecksSpec_ = other.healthChecksSpec_ != null ? other.healthChecksSpec_.Clone() : null;
       serviceAccountId_ = other.serviceAccountId_;
       status_ = other.status_;
+      variables_ = other.variables_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -528,6 +549,16 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
       }
     }
 
+    /// <summary>Field number for the "variables" field.</summary>
+    public const int VariablesFieldNumber = 18;
+    private static readonly pb::FieldCodec<global::Yandex.Cloud.Compute.V1.Instancegroup.Variable> _repeated_variables_codec
+        = pb::FieldCodec.ForMessage(146, global::Yandex.Cloud.Compute.V1.Instancegroup.Variable.Parser);
+    private readonly pbc::RepeatedField<global::Yandex.Cloud.Compute.V1.Instancegroup.Variable> variables_ = new pbc::RepeatedField<global::Yandex.Cloud.Compute.V1.Instancegroup.Variable>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<global::Yandex.Cloud.Compute.V1.Instancegroup.Variable> Variables {
+      get { return variables_; }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as InstanceGroup);
@@ -557,6 +588,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
       if (!object.Equals(HealthChecksSpec, other.HealthChecksSpec)) return false;
       if (ServiceAccountId != other.ServiceAccountId) return false;
       if (Status != other.Status) return false;
+      if(!variables_.Equals(other.variables_)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -579,6 +611,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
       if (healthChecksSpec_ != null) hash ^= HealthChecksSpec.GetHashCode();
       if (ServiceAccountId.Length != 0) hash ^= ServiceAccountId.GetHashCode();
       if (Status != 0) hash ^= Status.GetHashCode();
+      hash ^= variables_.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -653,6 +686,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
         output.WriteRawTag(136, 1);
         output.WriteEnum((int) Status);
       }
+      variables_.WriteTo(output, _repeated_variables_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -707,6 +741,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
       if (Status != 0) {
         size += 2 + pb::CodedOutputStream.ComputeEnumSize((int) Status);
       }
+      size += variables_.CalculateSize(_repeated_variables_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -791,6 +826,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
       if (other.Status != 0) {
         Status = other.Status;
       }
+      variables_.Add(other.variables_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -893,6 +929,10 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
             Status = (global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroup.Types.Status) input.ReadEnum();
             break;
           }
+          case 146: {
+            variables_.AddEntriesFrom(input, _repeated_variables_codec);
+            break;
+          }
         }
       }
     }
@@ -936,6 +976,163 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
 
   }
 
+  internal sealed partial class Variable : pb::IMessage<Variable> {
+    private static readonly pb::MessageParser<Variable> _parser = new pb::MessageParser<Variable>(() => new Variable());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<Variable> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroupReflection.Descriptor.MessageTypes[1]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public Variable() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public Variable(Variable other) : this() {
+      key_ = other.key_;
+      value_ = other.value_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public Variable Clone() {
+      return new Variable(this);
+    }
+
+    /// <summary>Field number for the "key" field.</summary>
+    public const int KeyFieldNumber = 1;
+    private string key_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Key {
+      get { return key_; }
+      set {
+        key_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "value" field.</summary>
+    public const int ValueFieldNumber = 2;
+    private string value_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Value {
+      get { return value_; }
+      set {
+        value_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as Variable);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(Variable other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Key != other.Key) return false;
+      if (Value != other.Value) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Key.Length != 0) hash ^= Key.GetHashCode();
+      if (Value.Length != 0) hash ^= Value.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (Key.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Key);
+      }
+      if (Value.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Value);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Key.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Key);
+      }
+      if (Value.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Value);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(Variable other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Key.Length != 0) {
+        Key = other.Key;
+      }
+      if (other.Value.Length != 0) {
+        Value = other.Value;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Key = input.ReadString();
+            break;
+          }
+          case 18: {
+            Value = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
   internal sealed partial class LoadBalancerState : pb::IMessage<LoadBalancerState> {
     private static readonly pb::MessageParser<LoadBalancerState> _parser = new pb::MessageParser<LoadBalancerState>(() => new LoadBalancerState());
     private pb::UnknownFieldSet _unknownFields;
@@ -944,7 +1141,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroupReflection.Descriptor.MessageTypes[1]; }
+      get { return global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroupReflection.Descriptor.MessageTypes[2]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1107,7 +1304,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroupReflection.Descriptor.MessageTypes[2]; }
+      get { return global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroupReflection.Descriptor.MessageTypes[3]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1750,7 +1947,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroupReflection.Descriptor.MessageTypes[3]; }
+      get { return global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroupReflection.Descriptor.MessageTypes[4]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1767,6 +1964,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public ScalePolicy(ScalePolicy other) : this() {
+      testAutoScale_ = other.testAutoScale_ != null ? other.testAutoScale_.Clone() : null;
       switch (other.ScaleTypeCase) {
         case ScaleTypeOneofCase.FixedScale:
           FixedScale = other.FixedScale.Clone();
@@ -1812,6 +2010,20 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
       }
     }
 
+    /// <summary>Field number for the "test_auto_scale" field.</summary>
+    public const int TestAutoScaleFieldNumber = 3;
+    private global::Yandex.Cloud.Compute.V1.Instancegroup.ScalePolicy.Types.AutoScale testAutoScale_;
+    /// <summary>
+    /// Test spec for [automatic scaling policy](/docs/compute/concepts/instance-groups/scale#auto-scale) of the instance group.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Compute.V1.Instancegroup.ScalePolicy.Types.AutoScale TestAutoScale {
+      get { return testAutoScale_; }
+      set {
+        testAutoScale_ = value;
+      }
+    }
+
     private object scaleType_;
     /// <summary>Enum of possible cases for the "scale_type" oneof.</summary>
     public enum ScaleTypeOneofCase {
@@ -1846,6 +2058,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
       }
       if (!object.Equals(FixedScale, other.FixedScale)) return false;
       if (!object.Equals(AutoScale, other.AutoScale)) return false;
+      if (!object.Equals(TestAutoScale, other.TestAutoScale)) return false;
       if (ScaleTypeCase != other.ScaleTypeCase) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -1855,6 +2068,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
       int hash = 1;
       if (scaleTypeCase_ == ScaleTypeOneofCase.FixedScale) hash ^= FixedScale.GetHashCode();
       if (scaleTypeCase_ == ScaleTypeOneofCase.AutoScale) hash ^= AutoScale.GetHashCode();
+      if (testAutoScale_ != null) hash ^= TestAutoScale.GetHashCode();
       hash ^= (int) scaleTypeCase_;
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -1877,6 +2091,10 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
         output.WriteRawTag(18);
         output.WriteMessage(AutoScale);
       }
+      if (testAutoScale_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(TestAutoScale);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1891,6 +2109,9 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
       if (scaleTypeCase_ == ScaleTypeOneofCase.AutoScale) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(AutoScale);
       }
+      if (testAutoScale_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TestAutoScale);
+      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -1901,6 +2122,12 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
     public void MergeFrom(ScalePolicy other) {
       if (other == null) {
         return;
+      }
+      if (other.testAutoScale_ != null) {
+        if (testAutoScale_ == null) {
+          TestAutoScale = new global::Yandex.Cloud.Compute.V1.Instancegroup.ScalePolicy.Types.AutoScale();
+        }
+        TestAutoScale.MergeFrom(other.TestAutoScale);
       }
       switch (other.ScaleTypeCase) {
         case ScaleTypeOneofCase.FixedScale:
@@ -1944,6 +2171,13 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
             }
             input.ReadMessage(subBuilder);
             AutoScale = subBuilder;
+            break;
+          }
+          case 26: {
+            if (testAutoScale_ == null) {
+              TestAutoScale = new global::Yandex.Cloud.Compute.V1.Instancegroup.ScalePolicy.Types.AutoScale();
+            }
+            input.ReadMessage(TestAutoScale);
             break;
           }
         }
@@ -2484,6 +2718,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
           ruleType_ = other.ruleType_;
           metricType_ = other.metricType_;
           metricName_ = other.metricName_;
+          labels_ = other.labels_.Clone();
           target_ = other.target_;
           _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
         }
@@ -2536,6 +2771,19 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
           }
         }
 
+        /// <summary>Field number for the "labels" field.</summary>
+        public const int LabelsFieldNumber = 5;
+        private static readonly pbc::MapField<string, string>.Codec _map_labels_codec
+            = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 42);
+        private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
+        /// <summary>
+        /// Labels of custom metric in Yandex Monitoring that should be used for scaling.
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public pbc::MapField<string, string> Labels {
+          get { return labels_; }
+        }
+
         /// <summary>Field number for the "target" field.</summary>
         public const int TargetFieldNumber = 4;
         private double target_;
@@ -2566,6 +2814,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
           if (RuleType != other.RuleType) return false;
           if (MetricType != other.MetricType) return false;
           if (MetricName != other.MetricName) return false;
+          if (!Labels.Equals(other.Labels)) return false;
           if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Target, other.Target)) return false;
           return Equals(_unknownFields, other._unknownFields);
         }
@@ -2576,6 +2825,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
           if (RuleType != 0) hash ^= RuleType.GetHashCode();
           if (MetricType != 0) hash ^= MetricType.GetHashCode();
           if (MetricName.Length != 0) hash ^= MetricName.GetHashCode();
+          hash ^= Labels.GetHashCode();
           if (Target != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Target);
           if (_unknownFields != null) {
             hash ^= _unknownFields.GetHashCode();
@@ -2606,6 +2856,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
             output.WriteRawTag(33);
             output.WriteDouble(Target);
           }
+          labels_.WriteTo(output, _map_labels_codec);
           if (_unknownFields != null) {
             _unknownFields.WriteTo(output);
           }
@@ -2623,6 +2874,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
           if (MetricName.Length != 0) {
             size += 1 + pb::CodedOutputStream.ComputeStringSize(MetricName);
           }
+          size += labels_.CalculateSize(_map_labels_codec);
           if (Target != 0D) {
             size += 1 + 8;
           }
@@ -2646,6 +2898,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
           if (other.MetricName.Length != 0) {
             MetricName = other.MetricName;
           }
+          labels_.Add(other.labels_);
           if (other.Target != 0D) {
             Target = other.Target;
           }
@@ -2674,6 +2927,10 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
               }
               case 33: {
                 Target = input.ReadDouble();
+                break;
+              }
+              case 42: {
+                labels_.AddEntriesFrom(input, _map_labels_codec);
                 break;
               }
             }
@@ -2870,7 +3127,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroupReflection.Descriptor.MessageTypes[4]; }
+      get { return global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroupReflection.Descriptor.MessageTypes[5]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3139,7 +3396,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroupReflection.Descriptor.MessageTypes[5]; }
+      get { return global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroupReflection.Descriptor.MessageTypes[6]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3402,7 +3659,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroupReflection.Descriptor.MessageTypes[6]; }
+      get { return global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroupReflection.Descriptor.MessageTypes[7]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3429,6 +3686,9 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
       networkInterfaceSpecs_ = other.networkInterfaceSpecs_.Clone();
       schedulingPolicy_ = other.schedulingPolicy_ != null ? other.schedulingPolicy_.Clone() : null;
       serviceAccountId_ = other.serviceAccountId_;
+      networkSettings_ = other.networkSettings_ != null ? other.networkSettings_.Clone() : null;
+      name_ = other.name_;
+      hostname_ = other.hostname_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -3502,6 +3762,19 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
     private readonly pbc::MapField<string, string> metadata_ = new pbc::MapField<string, string>();
     /// <summary>
     /// The metadata `key:value` pairs assigned to this instance template. This includes custom metadata and predefined keys.
+    ///
+    /// Metadata values may contain one of the supported placeholders:
+    ///   {instance_group.id}
+    ///   {instance.short_id}
+    ///   {instance.index}
+    ///   {instance.index_in_zone}
+    ///   {instance.zone_id}
+    /// InstanceGroup and Instance labels may be copied to metadata following way:
+    ///   {instance_group.labels.some_label_key}
+    ///   {instance.labels.another_label_key}
+    /// These placeholders will be substituted for each created instance anywhere in the value text.
+    /// In the rare case the value requires to contain this placeholder explicitly,
+    /// it must be escaped with double brackets, in example {instance.index}.
     ///
     /// For example, you may use the metadata in order to provide your public SSH key to the instance.
     /// For more information, see [Metadata](/docs/compute/concepts/vm-metadata).
@@ -3579,6 +3852,67 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
       }
     }
 
+    /// <summary>Field number for the "network_settings" field.</summary>
+    public const int NetworkSettingsFieldNumber = 11;
+    private global::Yandex.Cloud.Compute.V1.Instancegroup.NetworkSettings networkSettings_;
+    /// <summary>
+    /// Network settings for the instance.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Compute.V1.Instancegroup.NetworkSettings NetworkSettings {
+      get { return networkSettings_; }
+      set {
+        networkSettings_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 12;
+    private string name_ = "";
+    /// <summary>
+    /// Name of the instance.
+    /// In order to be unique it must contain at least on of instance unique placeholders:
+    ///   {instance.short_id}
+    ///   {instance.index}
+    ///   combination of {instance.zone_id} and {instance.index_in_zone}
+    /// Example: my-instance-{instance.index}
+    /// If not set, default is used: {instance_group.id}-{instance.short_id}
+    /// It may also contain another placeholders, see metadata doc for full list.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Name {
+      get { return name_; }
+      set {
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "hostname" field.</summary>
+    public const int HostnameFieldNumber = 13;
+    private string hostname_ = "";
+    /// <summary>
+    /// Host name for the instance.
+    /// This field is used to generate the [yandex.cloud.compute.v1.Instance.fqdn] value.
+    /// The host name must be unique within the network and region.
+    /// If not specified, the host name will be equal to [yandex.cloud.compute.v1.Instance.id] of the instance
+    /// and FQDN will be `&lt;id>.auto.internal`. Otherwise FQDN will be `&lt;hostname>.&lt;region_id>.internal`.
+    ///
+    /// In order to be unique it must contain at least on of instance unique placeholders:
+    ///   {instance.short_id}
+    ///   {instance.index}
+    ///   combination of {instance.zone_id} and {instance.index_in_zone}
+    /// Example: my-instance-{instance.index}
+    /// If not set, `name` value will be used
+    /// It may also contain another placeholders, see metadata doc for full list.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Hostname {
+      get { return hostname_; }
+      set {
+        hostname_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as InstanceTemplate);
@@ -3602,6 +3936,9 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
       if(!networkInterfaceSpecs_.Equals(other.networkInterfaceSpecs_)) return false;
       if (!object.Equals(SchedulingPolicy, other.SchedulingPolicy)) return false;
       if (ServiceAccountId != other.ServiceAccountId) return false;
+      if (!object.Equals(NetworkSettings, other.NetworkSettings)) return false;
+      if (Name != other.Name) return false;
+      if (Hostname != other.Hostname) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -3618,6 +3955,9 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
       hash ^= networkInterfaceSpecs_.GetHashCode();
       if (schedulingPolicy_ != null) hash ^= SchedulingPolicy.GetHashCode();
       if (ServiceAccountId.Length != 0) hash ^= ServiceAccountId.GetHashCode();
+      if (networkSettings_ != null) hash ^= NetworkSettings.GetHashCode();
+      if (Name.Length != 0) hash ^= Name.GetHashCode();
+      if (Hostname.Length != 0) hash ^= Hostname.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -3659,6 +3999,18 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
         output.WriteRawTag(82);
         output.WriteString(ServiceAccountId);
       }
+      if (networkSettings_ != null) {
+        output.WriteRawTag(90);
+        output.WriteMessage(NetworkSettings);
+      }
+      if (Name.Length != 0) {
+        output.WriteRawTag(98);
+        output.WriteString(Name);
+      }
+      if (Hostname.Length != 0) {
+        output.WriteRawTag(106);
+        output.WriteString(Hostname);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -3688,6 +4040,15 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
       }
       if (ServiceAccountId.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(ServiceAccountId);
+      }
+      if (networkSettings_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(NetworkSettings);
+      }
+      if (Name.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+      }
+      if (Hostname.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Hostname);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -3730,6 +4091,18 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
       }
       if (other.ServiceAccountId.Length != 0) {
         ServiceAccountId = other.ServiceAccountId;
+      }
+      if (other.networkSettings_ != null) {
+        if (networkSettings_ == null) {
+          NetworkSettings = new global::Yandex.Cloud.Compute.V1.Instancegroup.NetworkSettings();
+        }
+        NetworkSettings.MergeFrom(other.NetworkSettings);
+      }
+      if (other.Name.Length != 0) {
+        Name = other.Name;
+      }
+      if (other.Hostname.Length != 0) {
+        Hostname = other.Hostname;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -3791,6 +4164,21 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
             ServiceAccountId = input.ReadString();
             break;
           }
+          case 90: {
+            if (networkSettings_ == null) {
+              NetworkSettings = new global::Yandex.Cloud.Compute.V1.Instancegroup.NetworkSettings();
+            }
+            input.ReadMessage(NetworkSettings);
+            break;
+          }
+          case 98: {
+            Name = input.ReadString();
+            break;
+          }
+          case 106: {
+            Hostname = input.ReadString();
+            break;
+          }
         }
       }
     }
@@ -3805,7 +4193,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroupReflection.Descriptor.MessageTypes[7]; }
+      get { return global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroupReflection.Descriptor.MessageTypes[8]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4031,7 +4419,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroupReflection.Descriptor.MessageTypes[8]; }
+      get { return global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroupReflection.Descriptor.MessageTypes[9]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4540,7 +4928,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroupReflection.Descriptor.MessageTypes[9]; }
+      get { return global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroupReflection.Descriptor.MessageTypes[10]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4561,6 +4949,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
       subnetIds_ = other.subnetIds_.Clone();
       primaryV4AddressSpec_ = other.primaryV4AddressSpec_ != null ? other.primaryV4AddressSpec_.Clone() : null;
       primaryV6AddressSpec_ = other.primaryV6AddressSpec_ != null ? other.primaryV6AddressSpec_.Clone() : null;
+      securityGroupIds_ = other.securityGroupIds_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -4624,6 +5013,19 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
       }
     }
 
+    /// <summary>Field number for the "security_group_ids" field.</summary>
+    public const int SecurityGroupIdsFieldNumber = 5;
+    private static readonly pb::FieldCodec<string> _repeated_securityGroupIds_codec
+        = pb::FieldCodec.ForString(42);
+    private readonly pbc::RepeatedField<string> securityGroupIds_ = new pbc::RepeatedField<string>();
+    /// <summary>
+    /// IDs of security groups.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<string> SecurityGroupIds {
+      get { return securityGroupIds_; }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as NetworkInterfaceSpec);
@@ -4641,6 +5043,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
       if(!subnetIds_.Equals(other.subnetIds_)) return false;
       if (!object.Equals(PrimaryV4AddressSpec, other.PrimaryV4AddressSpec)) return false;
       if (!object.Equals(PrimaryV6AddressSpec, other.PrimaryV6AddressSpec)) return false;
+      if(!securityGroupIds_.Equals(other.securityGroupIds_)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -4651,6 +5054,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
       hash ^= subnetIds_.GetHashCode();
       if (primaryV4AddressSpec_ != null) hash ^= PrimaryV4AddressSpec.GetHashCode();
       if (primaryV6AddressSpec_ != null) hash ^= PrimaryV6AddressSpec.GetHashCode();
+      hash ^= securityGroupIds_.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -4677,6 +5081,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
         output.WriteRawTag(34);
         output.WriteMessage(PrimaryV6AddressSpec);
       }
+      securityGroupIds_.WriteTo(output, _repeated_securityGroupIds_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -4695,6 +5100,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
       if (primaryV6AddressSpec_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(PrimaryV6AddressSpec);
       }
+      size += securityGroupIds_.CalculateSize(_repeated_securityGroupIds_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -4722,6 +5128,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
         }
         PrimaryV6AddressSpec.MergeFrom(other.PrimaryV6AddressSpec);
       }
+      securityGroupIds_.Add(other.securityGroupIds_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -4755,6 +5162,10 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
             input.ReadMessage(PrimaryV6AddressSpec);
             break;
           }
+          case 42: {
+            securityGroupIds_.AddEntriesFrom(input, _repeated_securityGroupIds_codec);
+            break;
+          }
         }
       }
     }
@@ -4769,7 +5180,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroupReflection.Descriptor.MessageTypes[10]; }
+      get { return global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroupReflection.Descriptor.MessageTypes[11]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4908,7 +5319,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroupReflection.Descriptor.MessageTypes[11]; }
+      get { return global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroupReflection.Descriptor.MessageTypes[12]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5040,7 +5451,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroupReflection.Descriptor.MessageTypes[12]; }
+      get { return global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroupReflection.Descriptor.MessageTypes[13]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5166,6 +5577,152 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
 
   }
 
+  internal sealed partial class NetworkSettings : pb::IMessage<NetworkSettings> {
+    private static readonly pb::MessageParser<NetworkSettings> _parser = new pb::MessageParser<NetworkSettings>(() => new NetworkSettings());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<NetworkSettings> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroupReflection.Descriptor.MessageTypes[14]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public NetworkSettings() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public NetworkSettings(NetworkSettings other) : this() {
+      type_ = other.type_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public NetworkSettings Clone() {
+      return new NetworkSettings(this);
+    }
+
+    /// <summary>Field number for the "type" field.</summary>
+    public const int TypeFieldNumber = 1;
+    private global::Yandex.Cloud.Compute.V1.Instancegroup.NetworkSettings.Types.Type type_ = 0;
+    /// <summary>
+    /// Type of instance network.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Compute.V1.Instancegroup.NetworkSettings.Types.Type Type {
+      get { return type_; }
+      set {
+        type_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as NetworkSettings);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(NetworkSettings other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Type != other.Type) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Type != 0) hash ^= Type.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (Type != 0) {
+        output.WriteRawTag(8);
+        output.WriteEnum((int) Type);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Type != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Type);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(NetworkSettings other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Type != 0) {
+        Type = other.Type;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            Type = (global::Yandex.Cloud.Compute.V1.Instancegroup.NetworkSettings.Types.Type) input.ReadEnum();
+            break;
+          }
+        }
+      }
+    }
+
+    #region Nested types
+    /// <summary>Container for nested types declared in the NetworkSettings message type.</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static partial class Types {
+      internal enum Type {
+        [pbr::OriginalName("TYPE_UNSPECIFIED")] Unspecified = 0,
+        [pbr::OriginalName("STANDARD")] Standard = 1,
+        [pbr::OriginalName("SOFTWARE_ACCELERATED")] SoftwareAccelerated = 2,
+        [pbr::OriginalName("HARDWARE_ACCELERATED")] HardwareAccelerated = 3,
+      }
+
+    }
+    #endregion
+
+  }
+
   internal sealed partial class LoadBalancerSpec : pb::IMessage<LoadBalancerSpec> {
     private static readonly pb::MessageParser<LoadBalancerSpec> _parser = new pb::MessageParser<LoadBalancerSpec>(() => new LoadBalancerSpec());
     private pb::UnknownFieldSet _unknownFields;
@@ -5174,7 +5731,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroupReflection.Descriptor.MessageTypes[13]; }
+      get { return global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroupReflection.Descriptor.MessageTypes[15]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5312,7 +5869,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroupReflection.Descriptor.MessageTypes[14]; }
+      get { return global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroupReflection.Descriptor.MessageTypes[16]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5498,7 +6055,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroupReflection.Descriptor.MessageTypes[15]; }
+      get { return global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroupReflection.Descriptor.MessageTypes[17]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5622,7 +6179,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroupReflection.Descriptor.MessageTypes[16]; }
+      get { return global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroupReflection.Descriptor.MessageTypes[18]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6273,7 +6830,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroupReflection.Descriptor.MessageTypes[17]; }
+      get { return global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroupReflection.Descriptor.MessageTypes[19]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6719,7 +7276,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroupReflection.Descriptor.MessageTypes[18]; }
+      get { return global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroupReflection.Descriptor.MessageTypes[20]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6988,7 +7545,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroupReflection.Descriptor.MessageTypes[19]; }
+      get { return global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroupReflection.Descriptor.MessageTypes[21]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7158,7 +7715,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroupReflection.Descriptor.MessageTypes[20]; }
+      get { return global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroupReflection.Descriptor.MessageTypes[22]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7321,7 +7878,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroupReflection.Descriptor.MessageTypes[21]; }
+      get { return global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroupReflection.Descriptor.MessageTypes[23]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

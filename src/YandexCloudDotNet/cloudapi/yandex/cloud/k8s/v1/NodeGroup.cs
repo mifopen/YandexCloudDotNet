@@ -26,94 +26,66 @@ namespace Yandex.Cloud.K8S.V1 {
           string.Concat(
             "CiR5YW5kZXgvY2xvdWQvazhzL3YxL25vZGVfZ3JvdXAucHJvdG8SE3lhbmRl",
             "eC5jbG91ZC5rOHMudjEaH2dvb2dsZS9wcm90b2J1Zi90aW1lc3RhbXAucHJv",
-            "dG8aJXlhbmRleC9jbG91ZC9rOHMvdjEvbWFpbnRlbmFuY2UucHJvdG8aIXlh",
-            "bmRleC9jbG91ZC9rOHMvdjEvdmVyc2lvbi5wcm90bxodeWFuZGV4L2Nsb3Vk",
-            "L3ZhbGlkYXRpb24ucHJvdG8inQYKCU5vZGVHcm91cBIKCgJpZBgBIAEoCRIS",
-            "CgpjbHVzdGVyX2lkGAIgASgJEi4KCmNyZWF0ZWRfYXQYAyABKAsyGi5nb29n",
-            "bGUucHJvdG9idWYuVGltZXN0YW1wEgwKBG5hbWUYBCABKAkSEwoLZGVzY3Jp",
-            "cHRpb24YBSABKAkSOgoGbGFiZWxzGAYgAygLMioueWFuZGV4LmNsb3VkLms4",
-            "cy52MS5Ob2RlR3JvdXAuTGFiZWxzRW50cnkSNQoGc3RhdHVzGAcgASgOMiUu",
-            "eWFuZGV4LmNsb3VkLms4cy52MS5Ob2RlR3JvdXAuU3RhdHVzEjgKDW5vZGVf",
-            "dGVtcGxhdGUYCCABKAsyIS55YW5kZXguY2xvdWQuazhzLnYxLk5vZGVUZW1w",
-            "bGF0ZRI2CgxzY2FsZV9wb2xpY3kYCSABKAsyIC55YW5kZXguY2xvdWQuazhz",
-            "LnYxLlNjYWxlUG9saWN5EkkKEWFsbG9jYXRpb25fcG9saWN5GAogASgLMi4u",
-            "eWFuZGV4LmNsb3VkLms4cy52MS5Ob2RlR3JvdXBBbGxvY2F0aW9uUG9saWN5",
+            "dG8aJXlhbmRleC9jbG91ZC9rOHMvdjEvbWFpbnRlbmFuY2UucHJvdG8aHnlh",
+            "bmRleC9jbG91ZC9rOHMvdjEvbm9kZS5wcm90bxoheWFuZGV4L2Nsb3VkL2s4",
+            "cy92MS92ZXJzaW9uLnByb3RvGh15YW5kZXgvY2xvdWQvdmFsaWRhdGlvbi5w",
+            "cm90byKgCAoJTm9kZUdyb3VwEgoKAmlkGAEgASgJEhIKCmNsdXN0ZXJfaWQY",
+            "AiABKAkSLgoKY3JlYXRlZF9hdBgDIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5U",
+            "aW1lc3RhbXASDAoEbmFtZRgEIAEoCRITCgtkZXNjcmlwdGlvbhgFIAEoCRI6",
+            "CgZsYWJlbHMYBiADKAsyKi55YW5kZXguY2xvdWQuazhzLnYxLk5vZGVHcm91",
+            "cC5MYWJlbHNFbnRyeRI1CgZzdGF0dXMYByABKA4yJS55YW5kZXguY2xvdWQu",
+            "azhzLnYxLk5vZGVHcm91cC5TdGF0dXMSOAoNbm9kZV90ZW1wbGF0ZRgIIAEo",
+            "CzIhLnlhbmRleC5jbG91ZC5rOHMudjEuTm9kZVRlbXBsYXRlEjYKDHNjYWxl",
+            "X3BvbGljeRgJIAEoCzIgLnlhbmRleC5jbG91ZC5rOHMudjEuU2NhbGVQb2xp",
+            "Y3kSSQoRYWxsb2NhdGlvbl9wb2xpY3kYCiABKAsyLi55YW5kZXguY2xvdWQu",
+            "azhzLnYxLk5vZGVHcm91cEFsbG9jYXRpb25Qb2xpY3kSOAoNZGVwbG95X3Bv",
+            "bGljeRgSIAEoCzIhLnlhbmRleC5jbG91ZC5rOHMudjEuRGVwbG95UG9saWN5",
             "EhkKEWluc3RhbmNlX2dyb3VwX2lkGAsgASgJEhQKDG5vZGVfdmVyc2lvbhgM",
             "IAEoCRI2Cgx2ZXJzaW9uX2luZm8YDSABKAsyIC55YW5kZXguY2xvdWQuazhz",
             "LnYxLlZlcnNpb25JbmZvEksKEm1haW50ZW5hbmNlX3BvbGljeRgOIAEoCzIv",
             "LnlhbmRleC5jbG91ZC5rOHMudjEuTm9kZUdyb3VwTWFpbnRlbmFuY2VQb2xp",
-            "Y3kaLQoLTGFiZWxzRW50cnkSCwoDa2V5GAEgASgJEg0KBXZhbHVlGAIgASgJ",
-            "OgI4ASKHAQoGU3RhdHVzEhYKElNUQVRVU19VTlNQRUNJRklFRBAAEhAKDFBS",
-            "T1ZJU0lPTklORxABEgsKB1JVTk5JTkcQAhIPCgtSRUNPTkNJTElORxADEgwK",
-            "CFNUT1BQSU5HEAQSCwoHU1RPUFBFRBAFEgwKCERFTEVUSU5HEAYSDAoIU1RB",
-            "UlRJTkcQByLBAwoMTm9kZVRlbXBsYXRlEhMKC3BsYXRmb3JtX2lkGAEgASgJ",
-            "EjoKDnJlc291cmNlc19zcGVjGAIgASgLMiIueWFuZGV4LmNsb3VkLms4cy52",
-            "MS5SZXNvdXJjZXNTcGVjEjUKDmJvb3RfZGlza19zcGVjGAMgASgLMh0ueWFu",
-            "ZGV4LmNsb3VkLms4cy52MS5EaXNrU3BlYxJ3CghtZXRhZGF0YRgEIAMoCzIv",
-            "LnlhbmRleC5jbG91ZC5rOHMudjEuTm9kZVRlbXBsYXRlLk1ldGFkYXRhRW50",
-            "cnlCNILIMQQ8PTY0isgxCDw9MTMxMDcyssgxBhoEMS02M7LIMRISEFthLXpd",
-            "Wy1fMC05YS16XSoSPQoPdjRfYWRkcmVzc19zcGVjGAUgASgLMiQueWFuZGV4",
-            "LmNsb3VkLms4cy52MS5Ob2RlQWRkcmVzc1NwZWMSQAoRc2NoZWR1bGluZ19w",
-            "b2xpY3kYBiABKAsyJS55YW5kZXguY2xvdWQuazhzLnYxLlNjaGVkdWxpbmdQ",
-            "b2xpY3kaLwoNTWV0YWRhdGFFbnRyeRILCgNrZXkYASABKAkSDQoFdmFsdWUY",
-            "AiABKAk6AjgBIlQKD05vZGVBZGRyZXNzU3BlYxJBChNvbmVfdG9fb25lX25h",
-            "dF9zcGVjGAEgASgLMiQueWFuZGV4LmNsb3VkLms4cy52MS5PbmVUb09uZU5h",
-            "dFNwZWMiRQoPT25lVG9PbmVOYXRTcGVjEjIKCmlwX3ZlcnNpb24YASABKA4y",
-            "Hi55YW5kZXguY2xvdWQuazhzLnYxLklwVmVyc2lvbiKhAQoNUmVzb3VyY2Vz",
-            "U3BlYxIiCgZtZW1vcnkYASABKANCEvrHMQ4wLTI3NDg3NzkwNjk0NBJCCgVj",
-            "b3JlcxgCIAEoA0Iz+scxLzAsMSwyLDQsNiw4LDEwLDEyLDE0LDE2LDE4LDIw",
-            "LDIyLDI0LDI2LDI4LDMwLDMyEigKDWNvcmVfZnJhY3Rpb24YAyABKANCEfrH",
-            "MQ0wLDUsMjAsNTAsMTAwImYKCERpc2tTcGVjEjIKDGRpc2tfdHlwZV9pZBgB",
-            "IAEoCUIc8scxGHxuZXR3b3JrLXNzZHxuZXR3b3JrLWhkZBImCglkaXNrX3Np",
-            "emUYAiABKANCE/rHMQ8wLTQzOTgwNDY1MTExMDQijAEKC1NjYWxlUG9saWN5",
-            "EkIKC2ZpeGVkX3NjYWxlGAEgASgLMisueWFuZGV4LmNsb3VkLms4cy52MS5T",
-            "Y2FsZVBvbGljeS5GaXhlZFNjYWxlSAAaJQoKRml4ZWRTY2FsZRIXCgRzaXpl",
-            "GAEgASgDQgn6xzEFMC0xMDBCEgoKc2NhbGVfdHlwZRIEwMExASJWChlOb2Rl",
-            "R3JvdXBBbGxvY2F0aW9uUG9saWN5EjkKCWxvY2F0aW9ucxgBIAMoCzImLnlh",
-            "bmRleC5jbG91ZC5rOHMudjEuTm9kZUdyb3VwTG9jYXRpb24iPQoRTm9kZUdy",
-            "b3VwTG9jYXRpb24SFQoHem9uZV9pZBgBIAEoCUIE6McxARIRCglzdWJuZXRf",
-            "aWQYAiABKAkiJwoQU2NoZWR1bGluZ1BvbGljeRITCgtwcmVlbXB0aWJsZRgB",
-            "IAEoCCKLAQoaTm9kZUdyb3VwTWFpbnRlbmFuY2VQb2xpY3kSFAoMYXV0b191",
-            "cGdyYWRlGAEgASgIEhMKC2F1dG9fcmVwYWlyGAIgASgIEkIKEm1haW50ZW5h",
-            "bmNlX3dpbmRvdxgDIAEoCzImLnlhbmRleC5jbG91ZC5rOHMudjEuTWFpbnRl",
-            "bmFuY2VXaW5kb3cqOwoJSXBWZXJzaW9uEhoKFklQX1ZFUlNJT05fVU5TUEVD",
-            "SUZJRUQQABIICgRJUFY0EAESCAoESVBWNhACQlYKF3lhbmRleC5jbG91ZC5h",
-            "cGkuazhzLnYxWjtnaXRodWIuY29tL3lhbmRleC1jbG91ZC9nby1nZW5wcm90",
-            "by95YW5kZXgvY2xvdWQvazhzL3YxO2s4c2IGcHJvdG8z"));
+            "Y3kSHgoWYWxsb3dlZF91bnNhZmVfc3lzY3RscxgPIAMoCRIvCgtub2RlX3Rh",
+            "aW50cxgQIAMoCzIaLnlhbmRleC5jbG91ZC5rOHMudjEuVGFpbnQSQwoLbm9k",
+            "ZV9sYWJlbHMYESADKAsyLi55YW5kZXguY2xvdWQuazhzLnYxLk5vZGVHcm91",
+            "cC5Ob2RlTGFiZWxzRW50cnkaLQoLTGFiZWxzRW50cnkSCwoDa2V5GAEgASgJ",
+            "Eg0KBXZhbHVlGAIgASgJOgI4ARoxCg9Ob2RlTGFiZWxzRW50cnkSCwoDa2V5",
+            "GAEgASgJEg0KBXZhbHVlGAIgASgJOgI4ASKHAQoGU3RhdHVzEhYKElNUQVRV",
+            "U19VTlNQRUNJRklFRBAAEhAKDFBST1ZJU0lPTklORxABEgsKB1JVTk5JTkcQ",
+            "AhIPCgtSRUNPTkNJTElORxADEgwKCFNUT1BQSU5HEAQSCwoHU1RPUFBFRBAF",
+            "EgwKCERFTEVUSU5HEAYSDAoIU1RBUlRJTkcQByK2AgoLU2NhbGVQb2xpY3kS",
+            "QgoLZml4ZWRfc2NhbGUYASABKAsyKy55YW5kZXguY2xvdWQuazhzLnYxLlNj",
+            "YWxlUG9saWN5LkZpeGVkU2NhbGVIABJACgphdXRvX3NjYWxlGAIgASgLMiou",
+            "eWFuZGV4LmNsb3VkLms4cy52MS5TY2FsZVBvbGljeS5BdXRvU2NhbGVIABol",
+            "CgpGaXhlZFNjYWxlEhcKBHNpemUYASABKANCCfrHMQUwLTEwMBpmCglBdXRv",
+            "U2NhbGUSGwoIbWluX3NpemUYASABKANCCfrHMQUwLTEwMBIbCghtYXhfc2l6",
+            "ZRgCIAEoA0IJ+scxBTAtMTAwEh8KDGluaXRpYWxfc2l6ZRgDIAEoA0IJ+scx",
+            "BTAtMTAwQhIKCnNjYWxlX3R5cGUSBMDBMQEiVgoZTm9kZUdyb3VwQWxsb2Nh",
+            "dGlvblBvbGljeRI5Cglsb2NhdGlvbnMYASADKAsyJi55YW5kZXguY2xvdWQu",
+            "azhzLnYxLk5vZGVHcm91cExvY2F0aW9uIj0KEU5vZGVHcm91cExvY2F0aW9u",
+            "EhUKB3pvbmVfaWQYASABKAlCBOjHMQESEQoJc3VibmV0X2lkGAIgASgJIosB",
+            "ChpOb2RlR3JvdXBNYWludGVuYW5jZVBvbGljeRIUCgxhdXRvX3VwZ3JhZGUY",
+            "ASABKAgSEwoLYXV0b19yZXBhaXIYAiABKAgSQgoSbWFpbnRlbmFuY2Vfd2lu",
+            "ZG93GAMgASgLMiYueWFuZGV4LmNsb3VkLms4cy52MS5NYWludGVuYW5jZVdp",
+            "bmRvdyJUCgxEZXBsb3lQb2xpY3kSIgoPbWF4X3VuYXZhaWxhYmxlGAEgASgD",
+            "Qgn6xzEFMC0xMDASIAoNbWF4X2V4cGFuc2lvbhgCIAEoA0IJ+scxBTAtMTAw",
+            "QlYKF3lhbmRleC5jbG91ZC5hcGkuazhzLnYxWjtnaXRodWIuY29tL3lhbmRl",
+            "eC1jbG91ZC9nby1nZW5wcm90by95YW5kZXgvY2xvdWQvazhzL3YxO2s4c2IG",
+            "cHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Yandex.Cloud.K8S.V1.MaintenanceReflection.Descriptor, global::Yandex.Cloud.K8S.V1.VersionReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Yandex.Cloud.K8S.V1.IpVersion), }, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.NodeGroup), global::Yandex.Cloud.K8S.V1.NodeGroup.Parser, new[]{ "Id", "ClusterId", "CreatedAt", "Name", "Description", "Labels", "Status", "NodeTemplate", "ScalePolicy", "AllocationPolicy", "InstanceGroupId", "NodeVersion", "VersionInfo", "MaintenancePolicy" }, null, new[]{ typeof(global::Yandex.Cloud.K8S.V1.NodeGroup.Types.Status) }, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.NodeTemplate), global::Yandex.Cloud.K8S.V1.NodeTemplate.Parser, new[]{ "PlatformId", "ResourcesSpec", "BootDiskSpec", "Metadata", "V4AddressSpec", "SchedulingPolicy" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.NodeAddressSpec), global::Yandex.Cloud.K8S.V1.NodeAddressSpec.Parser, new[]{ "OneToOneNatSpec" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.OneToOneNatSpec), global::Yandex.Cloud.K8S.V1.OneToOneNatSpec.Parser, new[]{ "IpVersion" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.ResourcesSpec), global::Yandex.Cloud.K8S.V1.ResourcesSpec.Parser, new[]{ "Memory", "Cores", "CoreFraction" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.DiskSpec), global::Yandex.Cloud.K8S.V1.DiskSpec.Parser, new[]{ "DiskTypeId", "DiskSize" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.ScalePolicy), global::Yandex.Cloud.K8S.V1.ScalePolicy.Parser, new[]{ "FixedScale" }, new[]{ "ScaleType" }, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.ScalePolicy.Types.FixedScale), global::Yandex.Cloud.K8S.V1.ScalePolicy.Types.FixedScale.Parser, new[]{ "Size" }, null, null, null)}),
+          new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Yandex.Cloud.K8S.V1.MaintenanceReflection.Descriptor, global::Yandex.Cloud.K8S.V1.NodeReflection.Descriptor, global::Yandex.Cloud.K8S.V1.VersionReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
+          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.NodeGroup), global::Yandex.Cloud.K8S.V1.NodeGroup.Parser, new[]{ "Id", "ClusterId", "CreatedAt", "Name", "Description", "Labels", "Status", "NodeTemplate", "ScalePolicy", "AllocationPolicy", "DeployPolicy", "InstanceGroupId", "NodeVersion", "VersionInfo", "MaintenancePolicy", "AllowedUnsafeSysctls", "NodeTaints", "NodeLabels" }, null, new[]{ typeof(global::Yandex.Cloud.K8S.V1.NodeGroup.Types.Status) }, new pbr::GeneratedClrTypeInfo[] { null, null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.ScalePolicy), global::Yandex.Cloud.K8S.V1.ScalePolicy.Parser, new[]{ "FixedScale", "AutoScale" }, new[]{ "ScaleType" }, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.ScalePolicy.Types.FixedScale), global::Yandex.Cloud.K8S.V1.ScalePolicy.Types.FixedScale.Parser, new[]{ "Size" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.ScalePolicy.Types.AutoScale), global::Yandex.Cloud.K8S.V1.ScalePolicy.Types.AutoScale.Parser, new[]{ "MinSize", "MaxSize", "InitialSize" }, null, null, null)}),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.NodeGroupAllocationPolicy), global::Yandex.Cloud.K8S.V1.NodeGroupAllocationPolicy.Parser, new[]{ "Locations" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.NodeGroupLocation), global::Yandex.Cloud.K8S.V1.NodeGroupLocation.Parser, new[]{ "ZoneId", "SubnetId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.SchedulingPolicy), global::Yandex.Cloud.K8S.V1.SchedulingPolicy.Parser, new[]{ "Preemptible" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.NodeGroupMaintenancePolicy), global::Yandex.Cloud.K8S.V1.NodeGroupMaintenancePolicy.Parser, new[]{ "AutoUpgrade", "AutoRepair", "MaintenanceWindow" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.NodeGroupMaintenancePolicy), global::Yandex.Cloud.K8S.V1.NodeGroupMaintenancePolicy.Parser, new[]{ "AutoUpgrade", "AutoRepair", "MaintenanceWindow" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.DeployPolicy), global::Yandex.Cloud.K8S.V1.DeployPolicy.Parser, new[]{ "MaxUnavailable", "MaxExpansion" }, null, null, null)
           }));
     }
     #endregion
 
   }
-  #region Enums
-  internal enum IpVersion {
-    [pbr::OriginalName("IP_VERSION_UNSPECIFIED")] Unspecified = 0,
-    /// <summary>
-    /// IPv4 address, for example 192.168.0.0.
-    /// </summary>
-    [pbr::OriginalName("IPV4")] Ipv4 = 1,
-    /// <summary>
-    /// IPv6 address, not available yet.
-    /// </summary>
-    [pbr::OriginalName("IPV6")] Ipv6 = 2,
-  }
-
-  #endregion
-
   #region Messages
   internal sealed partial class NodeGroup : pb::IMessage<NodeGroup> {
     private static readonly pb::MessageParser<NodeGroup> _parser = new pb::MessageParser<NodeGroup>(() => new NodeGroup());
@@ -150,10 +122,14 @@ namespace Yandex.Cloud.K8S.V1 {
       nodeTemplate_ = other.nodeTemplate_ != null ? other.nodeTemplate_.Clone() : null;
       scalePolicy_ = other.scalePolicy_ != null ? other.scalePolicy_.Clone() : null;
       allocationPolicy_ = other.allocationPolicy_ != null ? other.allocationPolicy_.Clone() : null;
+      deployPolicy_ = other.deployPolicy_ != null ? other.deployPolicy_.Clone() : null;
       instanceGroupId_ = other.instanceGroupId_;
       nodeVersion_ = other.nodeVersion_;
       versionInfo_ = other.versionInfo_ != null ? other.versionInfo_.Clone() : null;
       maintenancePolicy_ = other.maintenancePolicy_ != null ? other.maintenancePolicy_.Clone() : null;
+      allowedUnsafeSysctls_ = other.allowedUnsafeSysctls_.Clone();
+      nodeTaints_ = other.nodeTaints_.Clone();
+      nodeLabels_ = other.nodeLabels_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -302,6 +278,20 @@ namespace Yandex.Cloud.K8S.V1 {
       }
     }
 
+    /// <summary>Field number for the "deploy_policy" field.</summary>
+    public const int DeployPolicyFieldNumber = 18;
+    private global::Yandex.Cloud.K8S.V1.DeployPolicy deployPolicy_;
+    /// <summary>
+    /// Deploy policy according to which the updates are rolled out.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.K8S.V1.DeployPolicy DeployPolicy {
+      get { return deployPolicy_; }
+      set {
+        deployPolicy_ = value;
+      }
+    }
+
     /// <summary>Field number for the "instance_group_id" field.</summary>
     public const int InstanceGroupIdFieldNumber = 11;
     private string instanceGroupId_ = "";
@@ -334,6 +324,9 @@ namespace Yandex.Cloud.K8S.V1 {
     /// <summary>Field number for the "version_info" field.</summary>
     public const int VersionInfoFieldNumber = 13;
     private global::Yandex.Cloud.K8S.V1.VersionInfo versionInfo_;
+    /// <summary>
+    /// Detailed information about the Kubernetes version that is running on the node.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.K8S.V1.VersionInfo VersionInfo {
       get { return versionInfo_; }
@@ -345,12 +338,54 @@ namespace Yandex.Cloud.K8S.V1 {
     /// <summary>Field number for the "maintenance_policy" field.</summary>
     public const int MaintenancePolicyFieldNumber = 14;
     private global::Yandex.Cloud.K8S.V1.NodeGroupMaintenancePolicy maintenancePolicy_;
+    /// <summary>
+    /// Maintenance policy of the node group.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.K8S.V1.NodeGroupMaintenancePolicy MaintenancePolicy {
       get { return maintenancePolicy_; }
       set {
         maintenancePolicy_ = value;
       }
+    }
+
+    /// <summary>Field number for the "allowed_unsafe_sysctls" field.</summary>
+    public const int AllowedUnsafeSysctlsFieldNumber = 15;
+    private static readonly pb::FieldCodec<string> _repeated_allowedUnsafeSysctls_codec
+        = pb::FieldCodec.ForString(122);
+    private readonly pbc::RepeatedField<string> allowedUnsafeSysctls_ = new pbc::RepeatedField<string>();
+    /// <summary>
+    /// Support for unsafe sysctl parameters. For more details see [documentation](https://kubernetes.io/docs/tasks/administer-cluster/sysctl-cluster/).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<string> AllowedUnsafeSysctls {
+      get { return allowedUnsafeSysctls_; }
+    }
+
+    /// <summary>Field number for the "node_taints" field.</summary>
+    public const int NodeTaintsFieldNumber = 16;
+    private static readonly pb::FieldCodec<global::Yandex.Cloud.K8S.V1.Taint> _repeated_nodeTaints_codec
+        = pb::FieldCodec.ForMessage(130, global::Yandex.Cloud.K8S.V1.Taint.Parser);
+    private readonly pbc::RepeatedField<global::Yandex.Cloud.K8S.V1.Taint> nodeTaints_ = new pbc::RepeatedField<global::Yandex.Cloud.K8S.V1.Taint>();
+    /// <summary>
+    /// Taints that are applied to the nodes of the node group at creation time.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<global::Yandex.Cloud.K8S.V1.Taint> NodeTaints {
+      get { return nodeTaints_; }
+    }
+
+    /// <summary>Field number for the "node_labels" field.</summary>
+    public const int NodeLabelsFieldNumber = 17;
+    private static readonly pbc::MapField<string, string>.Codec _map_nodeLabels_codec
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 138);
+    private readonly pbc::MapField<string, string> nodeLabels_ = new pbc::MapField<string, string>();
+    /// <summary>
+    /// Labels that are assigned to the nodes of the node group at creation time.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::MapField<string, string> NodeLabels {
+      get { return nodeLabels_; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -376,10 +411,14 @@ namespace Yandex.Cloud.K8S.V1 {
       if (!object.Equals(NodeTemplate, other.NodeTemplate)) return false;
       if (!object.Equals(ScalePolicy, other.ScalePolicy)) return false;
       if (!object.Equals(AllocationPolicy, other.AllocationPolicy)) return false;
+      if (!object.Equals(DeployPolicy, other.DeployPolicy)) return false;
       if (InstanceGroupId != other.InstanceGroupId) return false;
       if (NodeVersion != other.NodeVersion) return false;
       if (!object.Equals(VersionInfo, other.VersionInfo)) return false;
       if (!object.Equals(MaintenancePolicy, other.MaintenancePolicy)) return false;
+      if(!allowedUnsafeSysctls_.Equals(other.allowedUnsafeSysctls_)) return false;
+      if(!nodeTaints_.Equals(other.nodeTaints_)) return false;
+      if (!NodeLabels.Equals(other.NodeLabels)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -396,10 +435,14 @@ namespace Yandex.Cloud.K8S.V1 {
       if (nodeTemplate_ != null) hash ^= NodeTemplate.GetHashCode();
       if (scalePolicy_ != null) hash ^= ScalePolicy.GetHashCode();
       if (allocationPolicy_ != null) hash ^= AllocationPolicy.GetHashCode();
+      if (deployPolicy_ != null) hash ^= DeployPolicy.GetHashCode();
       if (InstanceGroupId.Length != 0) hash ^= InstanceGroupId.GetHashCode();
       if (NodeVersion.Length != 0) hash ^= NodeVersion.GetHashCode();
       if (versionInfo_ != null) hash ^= VersionInfo.GetHashCode();
       if (maintenancePolicy_ != null) hash ^= MaintenancePolicy.GetHashCode();
+      hash ^= allowedUnsafeSysctls_.GetHashCode();
+      hash ^= nodeTaints_.GetHashCode();
+      hash ^= NodeLabels.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -466,6 +509,13 @@ namespace Yandex.Cloud.K8S.V1 {
         output.WriteRawTag(114);
         output.WriteMessage(MaintenancePolicy);
       }
+      allowedUnsafeSysctls_.WriteTo(output, _repeated_allowedUnsafeSysctls_codec);
+      nodeTaints_.WriteTo(output, _repeated_nodeTaints_codec);
+      nodeLabels_.WriteTo(output, _map_nodeLabels_codec);
+      if (deployPolicy_ != null) {
+        output.WriteRawTag(146, 1);
+        output.WriteMessage(DeployPolicy);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -502,6 +552,9 @@ namespace Yandex.Cloud.K8S.V1 {
       if (allocationPolicy_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(AllocationPolicy);
       }
+      if (deployPolicy_ != null) {
+        size += 2 + pb::CodedOutputStream.ComputeMessageSize(DeployPolicy);
+      }
       if (InstanceGroupId.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(InstanceGroupId);
       }
@@ -514,6 +567,9 @@ namespace Yandex.Cloud.K8S.V1 {
       if (maintenancePolicy_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(MaintenancePolicy);
       }
+      size += allowedUnsafeSysctls_.CalculateSize(_repeated_allowedUnsafeSysctls_codec);
+      size += nodeTaints_.CalculateSize(_repeated_nodeTaints_codec);
+      size += nodeLabels_.CalculateSize(_map_nodeLabels_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -565,6 +621,12 @@ namespace Yandex.Cloud.K8S.V1 {
         }
         AllocationPolicy.MergeFrom(other.AllocationPolicy);
       }
+      if (other.deployPolicy_ != null) {
+        if (deployPolicy_ == null) {
+          DeployPolicy = new global::Yandex.Cloud.K8S.V1.DeployPolicy();
+        }
+        DeployPolicy.MergeFrom(other.DeployPolicy);
+      }
       if (other.InstanceGroupId.Length != 0) {
         InstanceGroupId = other.InstanceGroupId;
       }
@@ -583,6 +645,9 @@ namespace Yandex.Cloud.K8S.V1 {
         }
         MaintenancePolicy.MergeFrom(other.MaintenancePolicy);
       }
+      allowedUnsafeSysctls_.Add(other.allowedUnsafeSysctls_);
+      nodeTaints_.Add(other.nodeTaints_);
+      nodeLabels_.Add(other.nodeLabels_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -668,6 +733,25 @@ namespace Yandex.Cloud.K8S.V1 {
             input.ReadMessage(MaintenancePolicy);
             break;
           }
+          case 122: {
+            allowedUnsafeSysctls_.AddEntriesFrom(input, _repeated_allowedUnsafeSysctls_codec);
+            break;
+          }
+          case 130: {
+            nodeTaints_.AddEntriesFrom(input, _repeated_nodeTaints_codec);
+            break;
+          }
+          case 138: {
+            nodeLabels_.AddEntriesFrom(input, _map_nodeLabels_codec);
+            break;
+          }
+          case 146: {
+            if (deployPolicy_ == null) {
+              DeployPolicy = new global::Yandex.Cloud.K8S.V1.DeployPolicy();
+            }
+            input.ReadMessage(DeployPolicy);
+            break;
+          }
         }
       }
     }
@@ -713,937 +797,6 @@ namespace Yandex.Cloud.K8S.V1 {
 
   }
 
-  internal sealed partial class NodeTemplate : pb::IMessage<NodeTemplate> {
-    private static readonly pb::MessageParser<NodeTemplate> _parser = new pb::MessageParser<NodeTemplate>(() => new NodeTemplate());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<NodeTemplate> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.K8S.V1.NodeGroupReflection.Descriptor.MessageTypes[1]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public NodeTemplate() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public NodeTemplate(NodeTemplate other) : this() {
-      platformId_ = other.platformId_;
-      resourcesSpec_ = other.resourcesSpec_ != null ? other.resourcesSpec_.Clone() : null;
-      bootDiskSpec_ = other.bootDiskSpec_ != null ? other.bootDiskSpec_.Clone() : null;
-      metadata_ = other.metadata_.Clone();
-      v4AddressSpec_ = other.v4AddressSpec_ != null ? other.v4AddressSpec_.Clone() : null;
-      schedulingPolicy_ = other.schedulingPolicy_ != null ? other.schedulingPolicy_.Clone() : null;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public NodeTemplate Clone() {
-      return new NodeTemplate(this);
-    }
-
-    /// <summary>Field number for the "platform_id" field.</summary>
-    public const int PlatformIdFieldNumber = 1;
-    private string platformId_ = "";
-    /// <summary>
-    /// ID of the hardware platform configuration for the node.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string PlatformId {
-      get { return platformId_; }
-      set {
-        platformId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    /// <summary>Field number for the "resources_spec" field.</summary>
-    public const int ResourcesSpecFieldNumber = 2;
-    private global::Yandex.Cloud.K8S.V1.ResourcesSpec resourcesSpec_;
-    /// <summary>
-    /// Computing resources of the node such as the amount of memory and number of cores.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Yandex.Cloud.K8S.V1.ResourcesSpec ResourcesSpec {
-      get { return resourcesSpec_; }
-      set {
-        resourcesSpec_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "boot_disk_spec" field.</summary>
-    public const int BootDiskSpecFieldNumber = 3;
-    private global::Yandex.Cloud.K8S.V1.DiskSpec bootDiskSpec_;
-    /// <summary>
-    /// The metadata as `key:value` pairs assigned to this instance template. This includes custom metadata and predefined keys.
-    ///
-    /// For example, you may use the metadata in order to provide your public SSH key to the node.
-    /// For more information, see [Metadata](/docs/compute/concepts/vm-metadata).
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Yandex.Cloud.K8S.V1.DiskSpec BootDiskSpec {
-      get { return bootDiskSpec_; }
-      set {
-        bootDiskSpec_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "metadata" field.</summary>
-    public const int MetadataFieldNumber = 4;
-    private static readonly pbc::MapField<string, string>.Codec _map_metadata_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 34);
-    private readonly pbc::MapField<string, string> metadata_ = new pbc::MapField<string, string>();
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::MapField<string, string> Metadata {
-      get { return metadata_; }
-    }
-
-    /// <summary>Field number for the "v4_address_spec" field.</summary>
-    public const int V4AddressSpecFieldNumber = 5;
-    private global::Yandex.Cloud.K8S.V1.NodeAddressSpec v4AddressSpec_;
-    /// <summary>
-    /// Specification for the create network interfaces for the node group compute instances.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Yandex.Cloud.K8S.V1.NodeAddressSpec V4AddressSpec {
-      get { return v4AddressSpec_; }
-      set {
-        v4AddressSpec_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "scheduling_policy" field.</summary>
-    public const int SchedulingPolicyFieldNumber = 6;
-    private global::Yandex.Cloud.K8S.V1.SchedulingPolicy schedulingPolicy_;
-    /// <summary>
-    /// Scheduling policy configuration.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Yandex.Cloud.K8S.V1.SchedulingPolicy SchedulingPolicy {
-      get { return schedulingPolicy_; }
-      set {
-        schedulingPolicy_ = value;
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as NodeTemplate);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(NodeTemplate other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (PlatformId != other.PlatformId) return false;
-      if (!object.Equals(ResourcesSpec, other.ResourcesSpec)) return false;
-      if (!object.Equals(BootDiskSpec, other.BootDiskSpec)) return false;
-      if (!Metadata.Equals(other.Metadata)) return false;
-      if (!object.Equals(V4AddressSpec, other.V4AddressSpec)) return false;
-      if (!object.Equals(SchedulingPolicy, other.SchedulingPolicy)) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (PlatformId.Length != 0) hash ^= PlatformId.GetHashCode();
-      if (resourcesSpec_ != null) hash ^= ResourcesSpec.GetHashCode();
-      if (bootDiskSpec_ != null) hash ^= BootDiskSpec.GetHashCode();
-      hash ^= Metadata.GetHashCode();
-      if (v4AddressSpec_ != null) hash ^= V4AddressSpec.GetHashCode();
-      if (schedulingPolicy_ != null) hash ^= SchedulingPolicy.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-      if (PlatformId.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(PlatformId);
-      }
-      if (resourcesSpec_ != null) {
-        output.WriteRawTag(18);
-        output.WriteMessage(ResourcesSpec);
-      }
-      if (bootDiskSpec_ != null) {
-        output.WriteRawTag(26);
-        output.WriteMessage(BootDiskSpec);
-      }
-      metadata_.WriteTo(output, _map_metadata_codec);
-      if (v4AddressSpec_ != null) {
-        output.WriteRawTag(42);
-        output.WriteMessage(V4AddressSpec);
-      }
-      if (schedulingPolicy_ != null) {
-        output.WriteRawTag(50);
-        output.WriteMessage(SchedulingPolicy);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (PlatformId.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(PlatformId);
-      }
-      if (resourcesSpec_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(ResourcesSpec);
-      }
-      if (bootDiskSpec_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(BootDiskSpec);
-      }
-      size += metadata_.CalculateSize(_map_metadata_codec);
-      if (v4AddressSpec_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(V4AddressSpec);
-      }
-      if (schedulingPolicy_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(SchedulingPolicy);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(NodeTemplate other) {
-      if (other == null) {
-        return;
-      }
-      if (other.PlatformId.Length != 0) {
-        PlatformId = other.PlatformId;
-      }
-      if (other.resourcesSpec_ != null) {
-        if (resourcesSpec_ == null) {
-          ResourcesSpec = new global::Yandex.Cloud.K8S.V1.ResourcesSpec();
-        }
-        ResourcesSpec.MergeFrom(other.ResourcesSpec);
-      }
-      if (other.bootDiskSpec_ != null) {
-        if (bootDiskSpec_ == null) {
-          BootDiskSpec = new global::Yandex.Cloud.K8S.V1.DiskSpec();
-        }
-        BootDiskSpec.MergeFrom(other.BootDiskSpec);
-      }
-      metadata_.Add(other.metadata_);
-      if (other.v4AddressSpec_ != null) {
-        if (v4AddressSpec_ == null) {
-          V4AddressSpec = new global::Yandex.Cloud.K8S.V1.NodeAddressSpec();
-        }
-        V4AddressSpec.MergeFrom(other.V4AddressSpec);
-      }
-      if (other.schedulingPolicy_ != null) {
-        if (schedulingPolicy_ == null) {
-          SchedulingPolicy = new global::Yandex.Cloud.K8S.V1.SchedulingPolicy();
-        }
-        SchedulingPolicy.MergeFrom(other.SchedulingPolicy);
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            PlatformId = input.ReadString();
-            break;
-          }
-          case 18: {
-            if (resourcesSpec_ == null) {
-              ResourcesSpec = new global::Yandex.Cloud.K8S.V1.ResourcesSpec();
-            }
-            input.ReadMessage(ResourcesSpec);
-            break;
-          }
-          case 26: {
-            if (bootDiskSpec_ == null) {
-              BootDiskSpec = new global::Yandex.Cloud.K8S.V1.DiskSpec();
-            }
-            input.ReadMessage(BootDiskSpec);
-            break;
-          }
-          case 34: {
-            metadata_.AddEntriesFrom(input, _map_metadata_codec);
-            break;
-          }
-          case 42: {
-            if (v4AddressSpec_ == null) {
-              V4AddressSpec = new global::Yandex.Cloud.K8S.V1.NodeAddressSpec();
-            }
-            input.ReadMessage(V4AddressSpec);
-            break;
-          }
-          case 50: {
-            if (schedulingPolicy_ == null) {
-              SchedulingPolicy = new global::Yandex.Cloud.K8S.V1.SchedulingPolicy();
-            }
-            input.ReadMessage(SchedulingPolicy);
-            break;
-          }
-        }
-      }
-    }
-
-  }
-
-  internal sealed partial class NodeAddressSpec : pb::IMessage<NodeAddressSpec> {
-    private static readonly pb::MessageParser<NodeAddressSpec> _parser = new pb::MessageParser<NodeAddressSpec>(() => new NodeAddressSpec());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<NodeAddressSpec> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.K8S.V1.NodeGroupReflection.Descriptor.MessageTypes[2]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public NodeAddressSpec() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public NodeAddressSpec(NodeAddressSpec other) : this() {
-      oneToOneNatSpec_ = other.oneToOneNatSpec_ != null ? other.oneToOneNatSpec_.Clone() : null;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public NodeAddressSpec Clone() {
-      return new NodeAddressSpec(this);
-    }
-
-    /// <summary>Field number for the "one_to_one_nat_spec" field.</summary>
-    public const int OneToOneNatSpecFieldNumber = 1;
-    private global::Yandex.Cloud.K8S.V1.OneToOneNatSpec oneToOneNatSpec_;
-    /// <summary>
-    /// One-to-one NAT configuration. Setting up one-to-one NAT ensures that public IP addresses are assigned to nodes, and therefore internet is accessible for all nodes of the node group. If the field is not set, NAT will not be set up.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Yandex.Cloud.K8S.V1.OneToOneNatSpec OneToOneNatSpec {
-      get { return oneToOneNatSpec_; }
-      set {
-        oneToOneNatSpec_ = value;
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as NodeAddressSpec);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(NodeAddressSpec other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (!object.Equals(OneToOneNatSpec, other.OneToOneNatSpec)) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (oneToOneNatSpec_ != null) hash ^= OneToOneNatSpec.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-      if (oneToOneNatSpec_ != null) {
-        output.WriteRawTag(10);
-        output.WriteMessage(OneToOneNatSpec);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (oneToOneNatSpec_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(OneToOneNatSpec);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(NodeAddressSpec other) {
-      if (other == null) {
-        return;
-      }
-      if (other.oneToOneNatSpec_ != null) {
-        if (oneToOneNatSpec_ == null) {
-          OneToOneNatSpec = new global::Yandex.Cloud.K8S.V1.OneToOneNatSpec();
-        }
-        OneToOneNatSpec.MergeFrom(other.OneToOneNatSpec);
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            if (oneToOneNatSpec_ == null) {
-              OneToOneNatSpec = new global::Yandex.Cloud.K8S.V1.OneToOneNatSpec();
-            }
-            input.ReadMessage(OneToOneNatSpec);
-            break;
-          }
-        }
-      }
-    }
-
-  }
-
-  internal sealed partial class OneToOneNatSpec : pb::IMessage<OneToOneNatSpec> {
-    private static readonly pb::MessageParser<OneToOneNatSpec> _parser = new pb::MessageParser<OneToOneNatSpec>(() => new OneToOneNatSpec());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<OneToOneNatSpec> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.K8S.V1.NodeGroupReflection.Descriptor.MessageTypes[3]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public OneToOneNatSpec() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public OneToOneNatSpec(OneToOneNatSpec other) : this() {
-      ipVersion_ = other.ipVersion_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public OneToOneNatSpec Clone() {
-      return new OneToOneNatSpec(this);
-    }
-
-    /// <summary>Field number for the "ip_version" field.</summary>
-    public const int IpVersionFieldNumber = 1;
-    private global::Yandex.Cloud.K8S.V1.IpVersion ipVersion_ = 0;
-    /// <summary>
-    /// IP version for the public IP address.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Yandex.Cloud.K8S.V1.IpVersion IpVersion {
-      get { return ipVersion_; }
-      set {
-        ipVersion_ = value;
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as OneToOneNatSpec);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(OneToOneNatSpec other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (IpVersion != other.IpVersion) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (IpVersion != 0) hash ^= IpVersion.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-      if (IpVersion != 0) {
-        output.WriteRawTag(8);
-        output.WriteEnum((int) IpVersion);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (IpVersion != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) IpVersion);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(OneToOneNatSpec other) {
-      if (other == null) {
-        return;
-      }
-      if (other.IpVersion != 0) {
-        IpVersion = other.IpVersion;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 8: {
-            IpVersion = (global::Yandex.Cloud.K8S.V1.IpVersion) input.ReadEnum();
-            break;
-          }
-        }
-      }
-    }
-
-  }
-
-  internal sealed partial class ResourcesSpec : pb::IMessage<ResourcesSpec> {
-    private static readonly pb::MessageParser<ResourcesSpec> _parser = new pb::MessageParser<ResourcesSpec>(() => new ResourcesSpec());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<ResourcesSpec> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.K8S.V1.NodeGroupReflection.Descriptor.MessageTypes[4]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ResourcesSpec() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ResourcesSpec(ResourcesSpec other) : this() {
-      memory_ = other.memory_;
-      cores_ = other.cores_;
-      coreFraction_ = other.coreFraction_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ResourcesSpec Clone() {
-      return new ResourcesSpec(this);
-    }
-
-    /// <summary>Field number for the "memory" field.</summary>
-    public const int MemoryFieldNumber = 1;
-    private long memory_;
-    /// <summary>
-    /// Amount of memory available to the node, specified in bytes.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public long Memory {
-      get { return memory_; }
-      set {
-        memory_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "cores" field.</summary>
-    public const int CoresFieldNumber = 2;
-    private long cores_;
-    /// <summary>
-    /// Number of cores available to the node.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public long Cores {
-      get { return cores_; }
-      set {
-        cores_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "core_fraction" field.</summary>
-    public const int CoreFractionFieldNumber = 3;
-    private long coreFraction_;
-    /// <summary>
-    /// Baseline level of CPU performance with the possibility to burst performance above that baseline level.
-    /// This field sets baseline performance for each core.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public long CoreFraction {
-      get { return coreFraction_; }
-      set {
-        coreFraction_ = value;
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as ResourcesSpec);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(ResourcesSpec other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (Memory != other.Memory) return false;
-      if (Cores != other.Cores) return false;
-      if (CoreFraction != other.CoreFraction) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (Memory != 0L) hash ^= Memory.GetHashCode();
-      if (Cores != 0L) hash ^= Cores.GetHashCode();
-      if (CoreFraction != 0L) hash ^= CoreFraction.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-      if (Memory != 0L) {
-        output.WriteRawTag(8);
-        output.WriteInt64(Memory);
-      }
-      if (Cores != 0L) {
-        output.WriteRawTag(16);
-        output.WriteInt64(Cores);
-      }
-      if (CoreFraction != 0L) {
-        output.WriteRawTag(24);
-        output.WriteInt64(CoreFraction);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (Memory != 0L) {
-        size += 1 + pb::CodedOutputStream.ComputeInt64Size(Memory);
-      }
-      if (Cores != 0L) {
-        size += 1 + pb::CodedOutputStream.ComputeInt64Size(Cores);
-      }
-      if (CoreFraction != 0L) {
-        size += 1 + pb::CodedOutputStream.ComputeInt64Size(CoreFraction);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(ResourcesSpec other) {
-      if (other == null) {
-        return;
-      }
-      if (other.Memory != 0L) {
-        Memory = other.Memory;
-      }
-      if (other.Cores != 0L) {
-        Cores = other.Cores;
-      }
-      if (other.CoreFraction != 0L) {
-        CoreFraction = other.CoreFraction;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 8: {
-            Memory = input.ReadInt64();
-            break;
-          }
-          case 16: {
-            Cores = input.ReadInt64();
-            break;
-          }
-          case 24: {
-            CoreFraction = input.ReadInt64();
-            break;
-          }
-        }
-      }
-    }
-
-  }
-
-  internal sealed partial class DiskSpec : pb::IMessage<DiskSpec> {
-    private static readonly pb::MessageParser<DiskSpec> _parser = new pb::MessageParser<DiskSpec>(() => new DiskSpec());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<DiskSpec> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.K8S.V1.NodeGroupReflection.Descriptor.MessageTypes[5]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public DiskSpec() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public DiskSpec(DiskSpec other) : this() {
-      diskTypeId_ = other.diskTypeId_;
-      diskSize_ = other.diskSize_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public DiskSpec Clone() {
-      return new DiskSpec(this);
-    }
-
-    /// <summary>Field number for the "disk_type_id" field.</summary>
-    public const int DiskTypeIdFieldNumber = 1;
-    private string diskTypeId_ = "";
-    /// <summary>
-    /// ID of the disk type.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string DiskTypeId {
-      get { return diskTypeId_; }
-      set {
-        diskTypeId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    /// <summary>Field number for the "disk_size" field.</summary>
-    public const int DiskSizeFieldNumber = 2;
-    private long diskSize_;
-    /// <summary>
-    /// Size of the disk, specified in bytes.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public long DiskSize {
-      get { return diskSize_; }
-      set {
-        diskSize_ = value;
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as DiskSpec);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(DiskSpec other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (DiskTypeId != other.DiskTypeId) return false;
-      if (DiskSize != other.DiskSize) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (DiskTypeId.Length != 0) hash ^= DiskTypeId.GetHashCode();
-      if (DiskSize != 0L) hash ^= DiskSize.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-      if (DiskTypeId.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(DiskTypeId);
-      }
-      if (DiskSize != 0L) {
-        output.WriteRawTag(16);
-        output.WriteInt64(DiskSize);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (DiskTypeId.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(DiskTypeId);
-      }
-      if (DiskSize != 0L) {
-        size += 1 + pb::CodedOutputStream.ComputeInt64Size(DiskSize);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(DiskSpec other) {
-      if (other == null) {
-        return;
-      }
-      if (other.DiskTypeId.Length != 0) {
-        DiskTypeId = other.DiskTypeId;
-      }
-      if (other.DiskSize != 0L) {
-        DiskSize = other.DiskSize;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            DiskTypeId = input.ReadString();
-            break;
-          }
-          case 16: {
-            DiskSize = input.ReadInt64();
-            break;
-          }
-        }
-      }
-    }
-
-  }
-
   internal sealed partial class ScalePolicy : pb::IMessage<ScalePolicy> {
     private static readonly pb::MessageParser<ScalePolicy> _parser = new pb::MessageParser<ScalePolicy>(() => new ScalePolicy());
     private pb::UnknownFieldSet _unknownFields;
@@ -1652,7 +805,7 @@ namespace Yandex.Cloud.K8S.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.K8S.V1.NodeGroupReflection.Descriptor.MessageTypes[6]; }
+      get { return global::Yandex.Cloud.K8S.V1.NodeGroupReflection.Descriptor.MessageTypes[1]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1672,6 +825,9 @@ namespace Yandex.Cloud.K8S.V1 {
       switch (other.ScaleTypeCase) {
         case ScaleTypeOneofCase.FixedScale:
           FixedScale = other.FixedScale.Clone();
+          break;
+        case ScaleTypeOneofCase.AutoScale:
+          AutoScale = other.AutoScale.Clone();
           break;
       }
 
@@ -1697,11 +853,26 @@ namespace Yandex.Cloud.K8S.V1 {
       }
     }
 
+    /// <summary>Field number for the "auto_scale" field.</summary>
+    public const int AutoScaleFieldNumber = 2;
+    /// <summary>
+    /// Auto scale policy of the node group.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.K8S.V1.ScalePolicy.Types.AutoScale AutoScale {
+      get { return scaleTypeCase_ == ScaleTypeOneofCase.AutoScale ? (global::Yandex.Cloud.K8S.V1.ScalePolicy.Types.AutoScale) scaleType_ : null; }
+      set {
+        scaleType_ = value;
+        scaleTypeCase_ = value == null ? ScaleTypeOneofCase.None : ScaleTypeOneofCase.AutoScale;
+      }
+    }
+
     private object scaleType_;
     /// <summary>Enum of possible cases for the "scale_type" oneof.</summary>
     public enum ScaleTypeOneofCase {
       None = 0,
       FixedScale = 1,
+      AutoScale = 2,
     }
     private ScaleTypeOneofCase scaleTypeCase_ = ScaleTypeOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1729,6 +900,7 @@ namespace Yandex.Cloud.K8S.V1 {
         return true;
       }
       if (!object.Equals(FixedScale, other.FixedScale)) return false;
+      if (!object.Equals(AutoScale, other.AutoScale)) return false;
       if (ScaleTypeCase != other.ScaleTypeCase) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -1737,6 +909,7 @@ namespace Yandex.Cloud.K8S.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (scaleTypeCase_ == ScaleTypeOneofCase.FixedScale) hash ^= FixedScale.GetHashCode();
+      if (scaleTypeCase_ == ScaleTypeOneofCase.AutoScale) hash ^= AutoScale.GetHashCode();
       hash ^= (int) scaleTypeCase_;
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -1755,6 +928,10 @@ namespace Yandex.Cloud.K8S.V1 {
         output.WriteRawTag(10);
         output.WriteMessage(FixedScale);
       }
+      if (scaleTypeCase_ == ScaleTypeOneofCase.AutoScale) {
+        output.WriteRawTag(18);
+        output.WriteMessage(AutoScale);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1765,6 +942,9 @@ namespace Yandex.Cloud.K8S.V1 {
       int size = 0;
       if (scaleTypeCase_ == ScaleTypeOneofCase.FixedScale) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(FixedScale);
+      }
+      if (scaleTypeCase_ == ScaleTypeOneofCase.AutoScale) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(AutoScale);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1783,6 +963,12 @@ namespace Yandex.Cloud.K8S.V1 {
             FixedScale = new global::Yandex.Cloud.K8S.V1.ScalePolicy.Types.FixedScale();
           }
           FixedScale.MergeFrom(other.FixedScale);
+          break;
+        case ScaleTypeOneofCase.AutoScale:
+          if (AutoScale == null) {
+            AutoScale = new global::Yandex.Cloud.K8S.V1.ScalePolicy.Types.AutoScale();
+          }
+          AutoScale.MergeFrom(other.AutoScale);
           break;
       }
 
@@ -1804,6 +990,15 @@ namespace Yandex.Cloud.K8S.V1 {
             }
             input.ReadMessage(subBuilder);
             FixedScale = subBuilder;
+            break;
+          }
+          case 18: {
+            global::Yandex.Cloud.K8S.V1.ScalePolicy.Types.AutoScale subBuilder = new global::Yandex.Cloud.K8S.V1.ScalePolicy.Types.AutoScale();
+            if (scaleTypeCase_ == ScaleTypeOneofCase.AutoScale) {
+              subBuilder.MergeFrom(AutoScale);
+            }
+            input.ReadMessage(subBuilder);
+            AutoScale = subBuilder;
             break;
           }
         }
@@ -1946,6 +1141,200 @@ namespace Yandex.Cloud.K8S.V1 {
 
       }
 
+      internal sealed partial class AutoScale : pb::IMessage<AutoScale> {
+        private static readonly pb::MessageParser<AutoScale> _parser = new pb::MessageParser<AutoScale>(() => new AutoScale());
+        private pb::UnknownFieldSet _unknownFields;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public static pb::MessageParser<AutoScale> Parser { get { return _parser; } }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public static pbr::MessageDescriptor Descriptor {
+          get { return global::Yandex.Cloud.K8S.V1.ScalePolicy.Descriptor.NestedTypes[1]; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        pbr::MessageDescriptor pb::IMessage.Descriptor {
+          get { return Descriptor; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public AutoScale() {
+          OnConstruction();
+        }
+
+        partial void OnConstruction();
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public AutoScale(AutoScale other) : this() {
+          minSize_ = other.minSize_;
+          maxSize_ = other.maxSize_;
+          initialSize_ = other.initialSize_;
+          _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public AutoScale Clone() {
+          return new AutoScale(this);
+        }
+
+        /// <summary>Field number for the "min_size" field.</summary>
+        public const int MinSizeFieldNumber = 1;
+        private long minSize_;
+        /// <summary>
+        /// Minimum number of nodes in the node group.
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public long MinSize {
+          get { return minSize_; }
+          set {
+            minSize_ = value;
+          }
+        }
+
+        /// <summary>Field number for the "max_size" field.</summary>
+        public const int MaxSizeFieldNumber = 2;
+        private long maxSize_;
+        /// <summary>
+        /// Maximum number of nodes in the node group.
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public long MaxSize {
+          get { return maxSize_; }
+          set {
+            maxSize_ = value;
+          }
+        }
+
+        /// <summary>Field number for the "initial_size" field.</summary>
+        public const int InitialSizeFieldNumber = 3;
+        private long initialSize_;
+        /// <summary>
+        /// Initial number of nodes in the node group.
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public long InitialSize {
+          get { return initialSize_; }
+          set {
+            initialSize_ = value;
+          }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override bool Equals(object other) {
+          return Equals(other as AutoScale);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public bool Equals(AutoScale other) {
+          if (ReferenceEquals(other, null)) {
+            return false;
+          }
+          if (ReferenceEquals(other, this)) {
+            return true;
+          }
+          if (MinSize != other.MinSize) return false;
+          if (MaxSize != other.MaxSize) return false;
+          if (InitialSize != other.InitialSize) return false;
+          return Equals(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override int GetHashCode() {
+          int hash = 1;
+          if (MinSize != 0L) hash ^= MinSize.GetHashCode();
+          if (MaxSize != 0L) hash ^= MaxSize.GetHashCode();
+          if (InitialSize != 0L) hash ^= InitialSize.GetHashCode();
+          if (_unknownFields != null) {
+            hash ^= _unknownFields.GetHashCode();
+          }
+          return hash;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override string ToString() {
+          return pb::JsonFormatter.ToDiagnosticString(this);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void WriteTo(pb::CodedOutputStream output) {
+          if (MinSize != 0L) {
+            output.WriteRawTag(8);
+            output.WriteInt64(MinSize);
+          }
+          if (MaxSize != 0L) {
+            output.WriteRawTag(16);
+            output.WriteInt64(MaxSize);
+          }
+          if (InitialSize != 0L) {
+            output.WriteRawTag(24);
+            output.WriteInt64(InitialSize);
+          }
+          if (_unknownFields != null) {
+            _unknownFields.WriteTo(output);
+          }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public int CalculateSize() {
+          int size = 0;
+          if (MinSize != 0L) {
+            size += 1 + pb::CodedOutputStream.ComputeInt64Size(MinSize);
+          }
+          if (MaxSize != 0L) {
+            size += 1 + pb::CodedOutputStream.ComputeInt64Size(MaxSize);
+          }
+          if (InitialSize != 0L) {
+            size += 1 + pb::CodedOutputStream.ComputeInt64Size(InitialSize);
+          }
+          if (_unknownFields != null) {
+            size += _unknownFields.CalculateSize();
+          }
+          return size;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void MergeFrom(AutoScale other) {
+          if (other == null) {
+            return;
+          }
+          if (other.MinSize != 0L) {
+            MinSize = other.MinSize;
+          }
+          if (other.MaxSize != 0L) {
+            MaxSize = other.MaxSize;
+          }
+          if (other.InitialSize != 0L) {
+            InitialSize = other.InitialSize;
+          }
+          _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void MergeFrom(pb::CodedInputStream input) {
+          uint tag;
+          while ((tag = input.ReadTag()) != 0) {
+            switch(tag) {
+              default:
+                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+                break;
+              case 8: {
+                MinSize = input.ReadInt64();
+                break;
+              }
+              case 16: {
+                MaxSize = input.ReadInt64();
+                break;
+              }
+              case 24: {
+                InitialSize = input.ReadInt64();
+                break;
+              }
+            }
+          }
+        }
+
+      }
+
     }
     #endregion
 
@@ -1959,7 +1348,7 @@ namespace Yandex.Cloud.K8S.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.K8S.V1.NodeGroupReflection.Descriptor.MessageTypes[7]; }
+      get { return global::Yandex.Cloud.K8S.V1.NodeGroupReflection.Descriptor.MessageTypes[2]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2083,7 +1472,7 @@ namespace Yandex.Cloud.K8S.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.K8S.V1.NodeGroupReflection.Descriptor.MessageTypes[8]; }
+      get { return global::Yandex.Cloud.K8S.V1.NodeGroupReflection.Descriptor.MessageTypes[3]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2238,140 +1627,6 @@ namespace Yandex.Cloud.K8S.V1 {
 
   }
 
-  internal sealed partial class SchedulingPolicy : pb::IMessage<SchedulingPolicy> {
-    private static readonly pb::MessageParser<SchedulingPolicy> _parser = new pb::MessageParser<SchedulingPolicy>(() => new SchedulingPolicy());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<SchedulingPolicy> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.K8S.V1.NodeGroupReflection.Descriptor.MessageTypes[9]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public SchedulingPolicy() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public SchedulingPolicy(SchedulingPolicy other) : this() {
-      preemptible_ = other.preemptible_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public SchedulingPolicy Clone() {
-      return new SchedulingPolicy(this);
-    }
-
-    /// <summary>Field number for the "preemptible" field.</summary>
-    public const int PreemptibleFieldNumber = 1;
-    private bool preemptible_;
-    /// <summary>
-    /// True for preemptible compute instances. Default value is false. Preemptible compute instances are stopped at least once every 24 hours, and can be stopped at any time
-    /// if their resources are needed by Compute.
-    /// For more information, see [Preemptible Virtual Machines](/docs/compute/concepts/preemptible-vm).
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Preemptible {
-      get { return preemptible_; }
-      set {
-        preemptible_ = value;
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as SchedulingPolicy);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(SchedulingPolicy other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (Preemptible != other.Preemptible) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (Preemptible != false) hash ^= Preemptible.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-      if (Preemptible != false) {
-        output.WriteRawTag(8);
-        output.WriteBool(Preemptible);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (Preemptible != false) {
-        size += 1 + 1;
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(SchedulingPolicy other) {
-      if (other == null) {
-        return;
-      }
-      if (other.Preemptible != false) {
-        Preemptible = other.Preemptible;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 8: {
-            Preemptible = input.ReadBool();
-            break;
-          }
-        }
-      }
-    }
-
-  }
-
   internal sealed partial class NodeGroupMaintenancePolicy : pb::IMessage<NodeGroupMaintenancePolicy> {
     private static readonly pb::MessageParser<NodeGroupMaintenancePolicy> _parser = new pb::MessageParser<NodeGroupMaintenancePolicy>(() => new NodeGroupMaintenancePolicy());
     private pb::UnknownFieldSet _unknownFields;
@@ -2380,7 +1635,7 @@ namespace Yandex.Cloud.K8S.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.K8S.V1.NodeGroupReflection.Descriptor.MessageTypes[10]; }
+      get { return global::Yandex.Cloud.K8S.V1.NodeGroupReflection.Descriptor.MessageTypes[4]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2411,6 +1666,10 @@ namespace Yandex.Cloud.K8S.V1 {
     /// <summary>Field number for the "auto_upgrade" field.</summary>
     public const int AutoUpgradeFieldNumber = 1;
     private bool autoUpgrade_;
+    /// <summary>
+    /// If set to true, automatic updates are installed in the specified period of time with no interaction from the user.
+    /// If set to false, automatic upgrades are disabled.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public bool AutoUpgrade {
       get { return autoUpgrade_; }
@@ -2422,6 +1681,9 @@ namespace Yandex.Cloud.K8S.V1 {
     /// <summary>Field number for the "auto_repair" field.</summary>
     public const int AutoRepairFieldNumber = 2;
     private bool autoRepair_;
+    /// <summary>
+    /// If set to true, automatic repairs are enabled. Default value is false.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public bool AutoRepair {
       get { return autoRepair_; }
@@ -2433,6 +1695,10 @@ namespace Yandex.Cloud.K8S.V1 {
     /// <summary>Field number for the "maintenance_window" field.</summary>
     public const int MaintenanceWindowFieldNumber = 3;
     private global::Yandex.Cloud.K8S.V1.MaintenanceWindow maintenanceWindow_;
+    /// <summary>
+    /// Maintenance window settings. Update will start at the specified time and last no more than the specified duration.
+    /// The time is set in UTC.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.K8S.V1.MaintenanceWindow MaintenanceWindow {
       get { return maintenanceWindow_; }
@@ -2555,6 +1821,175 @@ namespace Yandex.Cloud.K8S.V1 {
               MaintenanceWindow = new global::Yandex.Cloud.K8S.V1.MaintenanceWindow();
             }
             input.ReadMessage(MaintenanceWindow);
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  internal sealed partial class DeployPolicy : pb::IMessage<DeployPolicy> {
+    private static readonly pb::MessageParser<DeployPolicy> _parser = new pb::MessageParser<DeployPolicy>(() => new DeployPolicy());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<DeployPolicy> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.K8S.V1.NodeGroupReflection.Descriptor.MessageTypes[5]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DeployPolicy() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DeployPolicy(DeployPolicy other) : this() {
+      maxUnavailable_ = other.maxUnavailable_;
+      maxExpansion_ = other.maxExpansion_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DeployPolicy Clone() {
+      return new DeployPolicy(this);
+    }
+
+    /// <summary>Field number for the "max_unavailable" field.</summary>
+    public const int MaxUnavailableFieldNumber = 1;
+    private long maxUnavailable_;
+    /// <summary>
+    /// The maximum number of running instances that can be taken offline (i.e.,
+    /// stopped or deleted) at the same time during the update process.
+    /// If [max_expansion] is not specified or set to zero, [max_unavailable] must
+    /// be set to a non-zero value.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long MaxUnavailable {
+      get { return maxUnavailable_; }
+      set {
+        maxUnavailable_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "max_expansion" field.</summary>
+    public const int MaxExpansionFieldNumber = 2;
+    private long maxExpansion_;
+    /// <summary>
+    /// The maximum number of instances that can be temporarily allocated above
+    /// the group's target size during the update process.
+    /// If [max_unavailable] is not specified or set to zero, [max_expansion] must
+    /// be set to a non-zero value.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long MaxExpansion {
+      get { return maxExpansion_; }
+      set {
+        maxExpansion_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as DeployPolicy);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(DeployPolicy other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (MaxUnavailable != other.MaxUnavailable) return false;
+      if (MaxExpansion != other.MaxExpansion) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (MaxUnavailable != 0L) hash ^= MaxUnavailable.GetHashCode();
+      if (MaxExpansion != 0L) hash ^= MaxExpansion.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (MaxUnavailable != 0L) {
+        output.WriteRawTag(8);
+        output.WriteInt64(MaxUnavailable);
+      }
+      if (MaxExpansion != 0L) {
+        output.WriteRawTag(16);
+        output.WriteInt64(MaxExpansion);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (MaxUnavailable != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(MaxUnavailable);
+      }
+      if (MaxExpansion != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(MaxExpansion);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(DeployPolicy other) {
+      if (other == null) {
+        return;
+      }
+      if (other.MaxUnavailable != 0L) {
+        MaxUnavailable = other.MaxUnavailable;
+      }
+      if (other.MaxExpansion != 0L) {
+        MaxExpansion = other.MaxExpansion;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            MaxUnavailable = input.ReadInt64();
+            break;
+          }
+          case 16: {
+            MaxExpansion = input.ReadInt64();
             break;
           }
         }

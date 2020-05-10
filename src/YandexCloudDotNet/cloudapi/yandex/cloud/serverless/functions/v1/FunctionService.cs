@@ -77,120 +77,121 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
             "CUIJisgxBTw9MTAwEhoKBmZpbHRlchgEIAEoCUIKisgxBjw9MTAwMCJwCh5M",
             "aXN0RnVuY3Rpb25PcGVyYXRpb25zUmVzcG9uc2USNQoKb3BlcmF0aW9ucxgB",
             "IAMoCzIhLnlhbmRleC5jbG91ZC5vcGVyYXRpb24uT3BlcmF0aW9uEhcKD25l",
-            "eHRfcGFnZV90b2tlbhgCIAEoCSLqBAocQ3JlYXRlRnVuY3Rpb25WZXJzaW9u",
+            "eHRfcGFnZV90b2tlbhgCIAEoCSKYBQocQ3JlYXRlRnVuY3Rpb25WZXJzaW9u",
             "UmVxdWVzdBIZCgtmdW5jdGlvbl9pZBgBIAEoCUIE6McxARIVCgdydW50aW1l",
-            "GAIgASgJQgToxzEBEhMKC2Rlc2NyaXB0aW9uGAMgASgJEhgKCmVudHJ5cG9p",
-            "bnQYBCABKAlCBOjHMQESSAoJcmVzb3VyY2VzGAUgASgLMi8ueWFuZGV4LmNs",
-            "b3VkLnNlcnZlcmxlc3MuZnVuY3Rpb25zLnYxLlJlc291cmNlc0IE6McxARI6",
-            "ChFleGVjdXRpb25fdGltZW91dBgGIAEoCzIZLmdvb2dsZS5wcm90b2J1Zi5E",
-            "dXJhdGlvbkIE6McxARIaChJzZXJ2aWNlX2FjY291bnRfaWQYByABKAkSQAoH",
-            "cGFja2FnZRgJIAEoCzItLnlhbmRleC5jbG91ZC5zZXJ2ZXJsZXNzLmZ1bmN0",
-            "aW9ucy52MS5QYWNrYWdlSAASIQoHY29udGVudBgKIAEoDEIOisgxCjw9NTI0",
-            "Mjg4MDBIABKPAQoLZW52aXJvbm1lbnQYDCADKAsyUy55YW5kZXguY2xvdWQu",
-            "c2VydmVybGVzcy5mdW5jdGlvbnMudjEuQ3JlYXRlRnVuY3Rpb25WZXJzaW9u",
-            "UmVxdWVzdC5FbnZpcm9ubWVudEVudHJ5QiWKyDEGPD00MDk2ssgxFxIVW2Et",
-            "ekEtWl1bYS16QS1aMC05X10qGjIKEEVudmlyb25tZW50RW50cnkSCwoDa2V5",
-            "GAEgASgJEg0KBXZhbHVlGAIgASgJOgI4AUIWCg5wYWNrYWdlX3NvdXJjZRIE",
-            "wMExAUoECAgQCSI8Ch1DcmVhdGVGdW5jdGlvblZlcnNpb25NZXRhZGF0YRIb",
-            "ChNmdW5jdGlvbl92ZXJzaW9uX2lkGAEgASgJIl0KFVNldEZ1bmN0aW9uVGFn",
-            "UmVxdWVzdBIhChNmdW5jdGlvbl92ZXJzaW9uX2lkGAEgASgJQgToxzEBEiEK",
-            "A3RhZxgCIAEoCUIU8scxEFthLXpdWy1fMC05YS16XSoiYAoYUmVtb3ZlRnVu",
-            "Y3Rpb25UYWdSZXF1ZXN0EiEKE2Z1bmN0aW9uX3ZlcnNpb25faWQYASABKAlC",
-            "BOjHMQESIQoDdGFnGAIgASgJQhTyxzEQW2Etel1bLV8wLTlhLXpdKiI1ChZT",
-            "ZXRGdW5jdGlvblRhZ01ldGFkYXRhEhsKE2Z1bmN0aW9uX3ZlcnNpb25faWQY",
-            "ASABKAkiOAoZUmVtb3ZlRnVuY3Rpb25UYWdNZXRhZGF0YRIbChNmdW5jdGlv",
-            "bl92ZXJzaW9uX2lkGAEgASgJIsEBCh1MaXN0RnVuY3Rpb25UYWdIaXN0b3J5",
-            "UmVxdWVzdBIZCgtmdW5jdGlvbl9pZBgBIAEoCUIE6McxARIrCgN0YWcYAiAB",
-            "KAlCHvLHMRpbYS16XVstXzAtOWEtel0qfFskXWxhdGVzdBIdCglwYWdlX3Np",
-            "emUYAyABKANCCvrHMQYwLTEwMDASHQoKcGFnZV90b2tlbhgEIAEoCUIJisgx",
-            "BTw9MTAwEhoKBmZpbHRlchgFIAEoCUIKisgxBjw9MTAwMCKAAwoeTGlzdEZ1",
-            "bmN0aW9uVGFnSGlzdG9yeVJlc3BvbnNlEoIBChtmdW5jdGlvbl90YWdfaGlz",
-            "dG9yeV9yZWNvcmQYASADKAsyXS55YW5kZXguY2xvdWQuc2VydmVybGVzcy5m",
-            "dW5jdGlvbnMudjEuTGlzdEZ1bmN0aW9uVGFnSGlzdG9yeVJlc3BvbnNlLkZ1",
-            "bmN0aW9uVGFnSGlzdG9yeVJlY29yZBIXCg9uZXh0X3BhZ2VfdG9rZW4YAiAB",
-            "KAkavwEKGEZ1bmN0aW9uVGFnSGlzdG9yeVJlY29yZBITCgtmdW5jdGlvbl9p",
-            "ZBgBIAEoCRIbChNmdW5jdGlvbl92ZXJzaW9uX2lkGAMgASgJEgsKA3RhZxgC",
-            "IAEoCRIyCg5lZmZlY3RpdmVfZnJvbRgEIAEoCzIaLmdvb2dsZS5wcm90b2J1",
-            "Zi5UaW1lc3RhbXASMAoMZWZmZWN0aXZlX3RvGAUgASgLMhouZ29vZ2xlLnBy",
-            "b3RvYnVmLlRpbWVzdGFtcDKdGgoPRnVuY3Rpb25TZXJ2aWNlEp4BCgNHZXQS",
-            "OC55YW5kZXguY2xvdWQuc2VydmVybGVzcy5mdW5jdGlvbnMudjEuR2V0RnVu",
-            "Y3Rpb25SZXF1ZXN0Gi4ueWFuZGV4LmNsb3VkLnNlcnZlcmxlc3MuZnVuY3Rp",
-            "b25zLnYxLkZ1bmN0aW9uIi2C0+STAicSJS9mdW5jdGlvbnMvdjEvZnVuY3Rp",
-            "b25zL3tmdW5jdGlvbl9pZH0SoAEKBExpc3QSOi55YW5kZXguY2xvdWQuc2Vy",
-            "dmVybGVzcy5mdW5jdGlvbnMudjEuTGlzdEZ1bmN0aW9uc1JlcXVlc3QaOy55",
+            "GAIgASgJQgToxzEBEh4KC2Rlc2NyaXB0aW9uGAMgASgJQgmKyDEFMC0yNTYS",
+            "GAoKZW50cnlwb2ludBgEIAEoCUIE6McxARJICglyZXNvdXJjZXMYBSABKAsy",
+            "Ly55YW5kZXguY2xvdWQuc2VydmVybGVzcy5mdW5jdGlvbnMudjEuUmVzb3Vy",
+            "Y2VzQgToxzEBEjoKEWV4ZWN1dGlvbl90aW1lb3V0GAYgASgLMhkuZ29vZ2xl",
+            "LnByb3RvYnVmLkR1cmF0aW9uQgToxzEBEhoKEnNlcnZpY2VfYWNjb3VudF9p",
+            "ZBgHIAEoCRJACgdwYWNrYWdlGAkgASgLMi0ueWFuZGV4LmNsb3VkLnNlcnZl",
+            "cmxlc3MuZnVuY3Rpb25zLnYxLlBhY2thZ2VIABIhCgdjb250ZW50GAogASgM",
+            "Qg6KyDEKPD01MjQyODgwMEgAEo8BCgtlbnZpcm9ubWVudBgMIAMoCzJTLnlh",
+            "bmRleC5jbG91ZC5zZXJ2ZXJsZXNzLmZ1bmN0aW9ucy52MS5DcmVhdGVGdW5j",
+            "dGlvblZlcnNpb25SZXF1ZXN0LkVudmlyb25tZW50RW50cnlCJYrIMQY8PTQw",
+            "OTayyDEXEhVbYS16QS1aXVthLXpBLVowLTlfXSoSIQoDdGFnGA0gAygJQhTy",
+            "xzEQW2Etel1bLV8wLTlhLXpdKhoyChBFbnZpcm9ubWVudEVudHJ5EgsKA2tl",
+            "eRgBIAEoCRINCgV2YWx1ZRgCIAEoCToCOAFCFgoOcGFja2FnZV9zb3VyY2US",
+            "BMDBMQFKBAgIEAkiPAodQ3JlYXRlRnVuY3Rpb25WZXJzaW9uTWV0YWRhdGES",
+            "GwoTZnVuY3Rpb25fdmVyc2lvbl9pZBgBIAEoCSJdChVTZXRGdW5jdGlvblRh",
+            "Z1JlcXVlc3QSIQoTZnVuY3Rpb25fdmVyc2lvbl9pZBgBIAEoCUIE6McxARIh",
+            "CgN0YWcYAiABKAlCFPLHMRBbYS16XVstXzAtOWEtel0qImAKGFJlbW92ZUZ1",
+            "bmN0aW9uVGFnUmVxdWVzdBIhChNmdW5jdGlvbl92ZXJzaW9uX2lkGAEgASgJ",
+            "QgToxzEBEiEKA3RhZxgCIAEoCUIU8scxEFthLXpdWy1fMC05YS16XSoiNQoW",
+            "U2V0RnVuY3Rpb25UYWdNZXRhZGF0YRIbChNmdW5jdGlvbl92ZXJzaW9uX2lk",
+            "GAEgASgJIjgKGVJlbW92ZUZ1bmN0aW9uVGFnTWV0YWRhdGESGwoTZnVuY3Rp",
+            "b25fdmVyc2lvbl9pZBgBIAEoCSLBAQodTGlzdEZ1bmN0aW9uVGFnSGlzdG9y",
+            "eVJlcXVlc3QSGQoLZnVuY3Rpb25faWQYASABKAlCBOjHMQESKwoDdGFnGAIg",
+            "ASgJQh7yxzEaW2Etel1bLV8wLTlhLXpdKnxbJF1sYXRlc3QSHQoJcGFnZV9z",
+            "aXplGAMgASgDQgr6xzEGMC0xMDAwEh0KCnBhZ2VfdG9rZW4YBCABKAlCCYrI",
+            "MQU8PTEwMBIaCgZmaWx0ZXIYBSABKAlCCorIMQY8PTEwMDAigAMKHkxpc3RG",
+            "dW5jdGlvblRhZ0hpc3RvcnlSZXNwb25zZRKCAQobZnVuY3Rpb25fdGFnX2hp",
+            "c3RvcnlfcmVjb3JkGAEgAygLMl0ueWFuZGV4LmNsb3VkLnNlcnZlcmxlc3Mu",
+            "ZnVuY3Rpb25zLnYxLkxpc3RGdW5jdGlvblRhZ0hpc3RvcnlSZXNwb25zZS5G",
+            "dW5jdGlvblRhZ0hpc3RvcnlSZWNvcmQSFwoPbmV4dF9wYWdlX3Rva2VuGAIg",
+            "ASgJGr8BChhGdW5jdGlvblRhZ0hpc3RvcnlSZWNvcmQSEwoLZnVuY3Rpb25f",
+            "aWQYASABKAkSGwoTZnVuY3Rpb25fdmVyc2lvbl9pZBgDIAEoCRILCgN0YWcY",
+            "AiABKAkSMgoOZWZmZWN0aXZlX2Zyb20YBCABKAsyGi5nb29nbGUucHJvdG9i",
+            "dWYuVGltZXN0YW1wEjAKDGVmZmVjdGl2ZV90bxgFIAEoCzIaLmdvb2dsZS5w",
+            "cm90b2J1Zi5UaW1lc3RhbXAynRoKD0Z1bmN0aW9uU2VydmljZRKeAQoDR2V0",
+            "EjgueWFuZGV4LmNsb3VkLnNlcnZlcmxlc3MuZnVuY3Rpb25zLnYxLkdldEZ1",
+            "bmN0aW9uUmVxdWVzdBouLnlhbmRleC5jbG91ZC5zZXJ2ZXJsZXNzLmZ1bmN0",
+            "aW9ucy52MS5GdW5jdGlvbiItgtPkkwInEiUvZnVuY3Rpb25zL3YxL2Z1bmN0",
+            "aW9ucy97ZnVuY3Rpb25faWR9EqABCgRMaXN0EjoueWFuZGV4LmNsb3VkLnNl",
+            "cnZlcmxlc3MuZnVuY3Rpb25zLnYxLkxpc3RGdW5jdGlvbnNSZXF1ZXN0Gjsu",
+            "eWFuZGV4LmNsb3VkLnNlcnZlcmxlc3MuZnVuY3Rpb25zLnYxLkxpc3RGdW5j",
+            "dGlvbnNSZXNwb25zZSIfgtPkkwIZEhcvZnVuY3Rpb25zL3YxL2Z1bmN0aW9u",
+            "cxKyAQoGQ3JlYXRlEjsueWFuZGV4LmNsb3VkLnNlcnZlcmxlc3MuZnVuY3Rp",
+            "b25zLnYxLkNyZWF0ZUZ1bmN0aW9uUmVxdWVzdBohLnlhbmRleC5jbG91ZC5v",
+            "cGVyYXRpb24uT3BlcmF0aW9uIkiC0+STAhwiFy9mdW5jdGlvbnMvdjEvZnVu",
+            "Y3Rpb25zOgEqstIqIgoWQ3JlYXRlRnVuY3Rpb25NZXRhZGF0YRIIRnVuY3Rp",
+            "b24SwAEKBlVwZGF0ZRI7LnlhbmRleC5jbG91ZC5zZXJ2ZXJsZXNzLmZ1bmN0",
+            "aW9ucy52MS5VcGRhdGVGdW5jdGlvblJlcXVlc3QaIS55YW5kZXguY2xvdWQu",
+            "b3BlcmF0aW9uLk9wZXJhdGlvbiJWgtPkkwIqMiUvZnVuY3Rpb25zL3YxL2Z1",
+            "bmN0aW9ucy97ZnVuY3Rpb25faWR9OgEqstIqIgoWVXBkYXRlRnVuY3Rpb25N",
+            "ZXRhZGF0YRIIRnVuY3Rpb24SygEKBkRlbGV0ZRI7LnlhbmRleC5jbG91ZC5z",
+            "ZXJ2ZXJsZXNzLmZ1bmN0aW9ucy52MS5EZWxldGVGdW5jdGlvblJlcXVlc3Qa",
+            "IS55YW5kZXguY2xvdWQub3BlcmF0aW9uLk9wZXJhdGlvbiJggtPkkwInKiUv",
+            "ZnVuY3Rpb25zL3YxL2Z1bmN0aW9ucy97ZnVuY3Rpb25faWR9stIqLwoWRGVs",
+            "ZXRlRnVuY3Rpb25NZXRhZGF0YRIVZ29vZ2xlLnByb3RvYnVmLkVtcHR5ErIB",
+            "CgpHZXRWZXJzaW9uEj8ueWFuZGV4LmNsb3VkLnNlcnZlcmxlc3MuZnVuY3Rp",
+            "b25zLnYxLkdldEZ1bmN0aW9uVmVyc2lvblJlcXVlc3QaLS55YW5kZXguY2xv",
+            "dWQuc2VydmVybGVzcy5mdW5jdGlvbnMudjEuVmVyc2lvbiI0gtPkkwIuEiwv",
+            "ZnVuY3Rpb25zL3YxL3ZlcnNpb25zL3tmdW5jdGlvbl92ZXJzaW9uX2lkfRKs",
+            "AQoPR2V0VmVyc2lvbkJ5VGFnEkQueWFuZGV4LmNsb3VkLnNlcnZlcmxlc3Mu",
+            "ZnVuY3Rpb25zLnYxLkdldEZ1bmN0aW9uVmVyc2lvbkJ5VGFnUmVxdWVzdBot",
+            "LnlhbmRleC5jbG91ZC5zZXJ2ZXJsZXNzLmZ1bmN0aW9ucy52MS5WZXJzaW9u",
+            "IiSC0+STAh4SHC9mdW5jdGlvbnMvdjEvdmVyc2lvbnM6YnlUYWcStwEKDExp",
+            "c3RWZXJzaW9ucxJCLnlhbmRleC5jbG91ZC5zZXJ2ZXJsZXNzLmZ1bmN0aW9u",
+            "cy52MS5MaXN0RnVuY3Rpb25zVmVyc2lvbnNSZXF1ZXN0GkMueWFuZGV4LmNs",
+            "b3VkLnNlcnZlcmxlc3MuZnVuY3Rpb25zLnYxLkxpc3RGdW5jdGlvbnNWZXJz",
+            "aW9uc1Jlc3BvbnNlIh6C0+STAhgSFi9mdW5jdGlvbnMvdjEvdmVyc2lvbnMS",
+            "zQEKBlNldFRhZxI7LnlhbmRleC5jbG91ZC5zZXJ2ZXJsZXNzLmZ1bmN0aW9u",
+            "cy52MS5TZXRGdW5jdGlvblRhZ1JlcXVlc3QaIS55YW5kZXguY2xvdWQub3Bl",
+            "cmF0aW9uLk9wZXJhdGlvbiJjgtPkkwI4IjMvZnVuY3Rpb25zL3YxL3ZlcnNp",
+            "b25zL3tmdW5jdGlvbl92ZXJzaW9uX2lkfTpzZXRUYWc6ASqy0iohChZTZXRG",
+            "dW5jdGlvblRhZ01ldGFkYXRhEgdWZXJzaW9uEtkBCglSZW1vdmVUYWcSPi55",
+            "YW5kZXguY2xvdWQuc2VydmVybGVzcy5mdW5jdGlvbnMudjEuUmVtb3ZlRnVu",
+            "Y3Rpb25UYWdSZXF1ZXN0GiEueWFuZGV4LmNsb3VkLm9wZXJhdGlvbi5PcGVy",
+            "YXRpb24iaYLT5JMCOyI2L2Z1bmN0aW9ucy92MS92ZXJzaW9ucy97ZnVuY3Rp",
+            "b25fdmVyc2lvbl9pZH06cmVtb3ZlVGFnOgEqstIqJAoZUmVtb3ZlRnVuY3Rp",
+            "b25UYWdNZXRhZGF0YRIHVmVyc2lvbhLVAQoOTGlzdFRhZ0hpc3RvcnkSQy55",
             "YW5kZXguY2xvdWQuc2VydmVybGVzcy5mdW5jdGlvbnMudjEuTGlzdEZ1bmN0",
-            "aW9uc1Jlc3BvbnNlIh+C0+STAhkSFy9mdW5jdGlvbnMvdjEvZnVuY3Rpb25z",
-            "ErIBCgZDcmVhdGUSOy55YW5kZXguY2xvdWQuc2VydmVybGVzcy5mdW5jdGlv",
-            "bnMudjEuQ3JlYXRlRnVuY3Rpb25SZXF1ZXN0GiEueWFuZGV4LmNsb3VkLm9w",
-            "ZXJhdGlvbi5PcGVyYXRpb24iSILT5JMCHCIXL2Z1bmN0aW9ucy92MS9mdW5j",
-            "dGlvbnM6ASqy0ioiChZDcmVhdGVGdW5jdGlvbk1ldGFkYXRhEghGdW5jdGlv",
-            "bhLAAQoGVXBkYXRlEjsueWFuZGV4LmNsb3VkLnNlcnZlcmxlc3MuZnVuY3Rp",
-            "b25zLnYxLlVwZGF0ZUZ1bmN0aW9uUmVxdWVzdBohLnlhbmRleC5jbG91ZC5v",
-            "cGVyYXRpb24uT3BlcmF0aW9uIlaC0+STAioyJS9mdW5jdGlvbnMvdjEvZnVu",
-            "Y3Rpb25zL3tmdW5jdGlvbl9pZH06ASqy0ioiChZVcGRhdGVGdW5jdGlvbk1l",
-            "dGFkYXRhEghGdW5jdGlvbhLKAQoGRGVsZXRlEjsueWFuZGV4LmNsb3VkLnNl",
-            "cnZlcmxlc3MuZnVuY3Rpb25zLnYxLkRlbGV0ZUZ1bmN0aW9uUmVxdWVzdBoh",
-            "LnlhbmRleC5jbG91ZC5vcGVyYXRpb24uT3BlcmF0aW9uImCC0+STAicqJS9m",
-            "dW5jdGlvbnMvdjEvZnVuY3Rpb25zL3tmdW5jdGlvbl9pZH2y0iovChZEZWxl",
-            "dGVGdW5jdGlvbk1ldGFkYXRhEhVnb29nbGUucHJvdG9idWYuRW1wdHkSsgEK",
-            "CkdldFZlcnNpb24SPy55YW5kZXguY2xvdWQuc2VydmVybGVzcy5mdW5jdGlv",
-            "bnMudjEuR2V0RnVuY3Rpb25WZXJzaW9uUmVxdWVzdBotLnlhbmRleC5jbG91",
-            "ZC5zZXJ2ZXJsZXNzLmZ1bmN0aW9ucy52MS5WZXJzaW9uIjSC0+STAi4SLC9m",
-            "dW5jdGlvbnMvdjEvdmVyc2lvbnMve2Z1bmN0aW9uX3ZlcnNpb25faWR9EqwB",
-            "Cg9HZXRWZXJzaW9uQnlUYWcSRC55YW5kZXguY2xvdWQuc2VydmVybGVzcy5m",
-            "dW5jdGlvbnMudjEuR2V0RnVuY3Rpb25WZXJzaW9uQnlUYWdSZXF1ZXN0Gi0u",
-            "eWFuZGV4LmNsb3VkLnNlcnZlcmxlc3MuZnVuY3Rpb25zLnYxLlZlcnNpb24i",
-            "JILT5JMCHhIcL2Z1bmN0aW9ucy92MS92ZXJzaW9uczpieVRhZxK3AQoMTGlz",
-            "dFZlcnNpb25zEkIueWFuZGV4LmNsb3VkLnNlcnZlcmxlc3MuZnVuY3Rpb25z",
-            "LnYxLkxpc3RGdW5jdGlvbnNWZXJzaW9uc1JlcXVlc3QaQy55YW5kZXguY2xv",
-            "dWQuc2VydmVybGVzcy5mdW5jdGlvbnMudjEuTGlzdEZ1bmN0aW9uc1ZlcnNp",
-            "b25zUmVzcG9uc2UiHoLT5JMCGBIWL2Z1bmN0aW9ucy92MS92ZXJzaW9ucxLN",
-            "AQoGU2V0VGFnEjsueWFuZGV4LmNsb3VkLnNlcnZlcmxlc3MuZnVuY3Rpb25z",
-            "LnYxLlNldEZ1bmN0aW9uVGFnUmVxdWVzdBohLnlhbmRleC5jbG91ZC5vcGVy",
-            "YXRpb24uT3BlcmF0aW9uImOC0+STAjgiMy9mdW5jdGlvbnMvdjEvdmVyc2lv",
-            "bnMve2Z1bmN0aW9uX3ZlcnNpb25faWR9OnNldFRhZzoBKrLSKiEKFlNldEZ1",
-            "bmN0aW9uVGFnTWV0YWRhdGESB1ZlcnNpb24S2QEKCVJlbW92ZVRhZxI+Lnlh",
-            "bmRleC5jbG91ZC5zZXJ2ZXJsZXNzLmZ1bmN0aW9ucy52MS5SZW1vdmVGdW5j",
-            "dGlvblRhZ1JlcXVlc3QaIS55YW5kZXguY2xvdWQub3BlcmF0aW9uLk9wZXJh",
-            "dGlvbiJpgtPkkwI7IjYvZnVuY3Rpb25zL3YxL3ZlcnNpb25zL3tmdW5jdGlv",
-            "bl92ZXJzaW9uX2lkfTpyZW1vdmVUYWc6ASqy0iokChlSZW1vdmVGdW5jdGlv",
-            "blRhZ01ldGFkYXRhEgdWZXJzaW9uEtUBCg5MaXN0VGFnSGlzdG9yeRJDLnlh",
+            "aW9uVGFnSGlzdG9yeVJlcXVlc3QaRC55YW5kZXguY2xvdWQuc2VydmVybGVz",
+            "cy5mdW5jdGlvbnMudjEuTGlzdEZ1bmN0aW9uVGFnSGlzdG9yeVJlc3BvbnNl",
+            "IjiC0+STAjISMC9mdW5jdGlvbnMvdjEvZnVuY3Rpb25zL3tmdW5jdGlvbl9p",
+            "ZH06dGFnSGlzdG9yeRLFAQoNQ3JlYXRlVmVyc2lvbhJCLnlhbmRleC5jbG91",
+            "ZC5zZXJ2ZXJsZXNzLmZ1bmN0aW9ucy52MS5DcmVhdGVGdW5jdGlvblZlcnNp",
+            "b25SZXF1ZXN0GiEueWFuZGV4LmNsb3VkLm9wZXJhdGlvbi5PcGVyYXRpb24i",
+            "TYLT5JMCGyIWL2Z1bmN0aW9ucy92MS92ZXJzaW9uczoBKrLSKigKHUNyZWF0",
+            "ZUZ1bmN0aW9uVmVyc2lvbk1ldGFkYXRhEgdWZXJzaW9uEqUBCgxMaXN0UnVu",
+            "dGltZXMSOS55YW5kZXguY2xvdWQuc2VydmVybGVzcy5mdW5jdGlvbnMudjEu",
+            "TGlzdFJ1bnRpbWVzUmVxdWVzdBo6LnlhbmRleC5jbG91ZC5zZXJ2ZXJsZXNz",
+            "LmZ1bmN0aW9ucy52MS5MaXN0UnVudGltZXNSZXNwb25zZSIegtPkkwIYEhYv",
+            "ZnVuY3Rpb25zL3YxL3J1bnRpbWVzEtUBCg5MaXN0T3BlcmF0aW9ucxJDLnlh",
             "bmRleC5jbG91ZC5zZXJ2ZXJsZXNzLmZ1bmN0aW9ucy52MS5MaXN0RnVuY3Rp",
-            "b25UYWdIaXN0b3J5UmVxdWVzdBpELnlhbmRleC5jbG91ZC5zZXJ2ZXJsZXNz",
-            "LmZ1bmN0aW9ucy52MS5MaXN0RnVuY3Rpb25UYWdIaXN0b3J5UmVzcG9uc2Ui",
+            "b25PcGVyYXRpb25zUmVxdWVzdBpELnlhbmRleC5jbG91ZC5zZXJ2ZXJsZXNz",
+            "LmZ1bmN0aW9ucy52MS5MaXN0RnVuY3Rpb25PcGVyYXRpb25zUmVzcG9uc2Ui",
             "OILT5JMCMhIwL2Z1bmN0aW9ucy92MS9mdW5jdGlvbnMve2Z1bmN0aW9uX2lk",
-            "fTp0YWdIaXN0b3J5EsUBCg1DcmVhdGVWZXJzaW9uEkIueWFuZGV4LmNsb3Vk",
-            "LnNlcnZlcmxlc3MuZnVuY3Rpb25zLnYxLkNyZWF0ZUZ1bmN0aW9uVmVyc2lv",
-            "blJlcXVlc3QaIS55YW5kZXguY2xvdWQub3BlcmF0aW9uLk9wZXJhdGlvbiJN",
-            "gtPkkwIbIhYvZnVuY3Rpb25zL3YxL3ZlcnNpb25zOgEqstIqKAodQ3JlYXRl",
-            "RnVuY3Rpb25WZXJzaW9uTWV0YWRhdGESB1ZlcnNpb24SpQEKDExpc3RSdW50",
-            "aW1lcxI5LnlhbmRleC5jbG91ZC5zZXJ2ZXJsZXNzLmZ1bmN0aW9ucy52MS5M",
-            "aXN0UnVudGltZXNSZXF1ZXN0GjoueWFuZGV4LmNsb3VkLnNlcnZlcmxlc3Mu",
-            "ZnVuY3Rpb25zLnYxLkxpc3RSdW50aW1lc1Jlc3BvbnNlIh6C0+STAhgSFi9m",
-            "dW5jdGlvbnMvdjEvcnVudGltZXMS1QEKDkxpc3RPcGVyYXRpb25zEkMueWFu",
-            "ZGV4LmNsb3VkLnNlcnZlcmxlc3MuZnVuY3Rpb25zLnYxLkxpc3RGdW5jdGlv",
-            "bk9wZXJhdGlvbnNSZXF1ZXN0GkQueWFuZGV4LmNsb3VkLnNlcnZlcmxlc3Mu",
-            "ZnVuY3Rpb25zLnYxLkxpc3RGdW5jdGlvbk9wZXJhdGlvbnNSZXNwb25zZSI4",
-            "gtPkkwIyEjAvZnVuY3Rpb25zL3YxL2Z1bmN0aW9ucy97ZnVuY3Rpb25faWR9",
-            "L29wZXJhdGlvbnMStwEKEkxpc3RBY2Nlc3NCaW5kaW5ncxIuLnlhbmRleC5j",
-            "bG91ZC5hY2Nlc3MuTGlzdEFjY2Vzc0JpbmRpbmdzUmVxdWVzdBovLnlhbmRl",
-            "eC5jbG91ZC5hY2Nlc3MuTGlzdEFjY2Vzc0JpbmRpbmdzUmVzcG9uc2UiQILT",
-            "5JMCOhI4L2Z1bmN0aW9ucy92MS9mdW5jdGlvbnMve3Jlc291cmNlX2lkfTps",
-            "aXN0QWNjZXNzQmluZGluZ3MS5gEKEVNldEFjY2Vzc0JpbmRpbmdzEi0ueWFu",
-            "ZGV4LmNsb3VkLmFjY2Vzcy5TZXRBY2Nlc3NCaW5kaW5nc1JlcXVlc3QaIS55",
-            "YW5kZXguY2xvdWQub3BlcmF0aW9uLk9wZXJhdGlvbiJ/gtPkkwI8IjcvZnVu",
-            "Y3Rpb25zL3YxL2Z1bmN0aW9ucy97cmVzb3VyY2VfaWR9OnNldEFjY2Vzc0Jp",
-            "bmRpbmdzOgEqstIqOQogYWNjZXNzLlNldEFjY2Vzc0JpbmRpbmdzTWV0YWRh",
-            "dGESFWdvb2dsZS5wcm90b2J1Zi5FbXB0eRLzAQoUVXBkYXRlQWNjZXNzQmlu",
-            "ZGluZ3MSMC55YW5kZXguY2xvdWQuYWNjZXNzLlVwZGF0ZUFjY2Vzc0JpbmRp",
-            "bmdzUmVxdWVzdBohLnlhbmRleC5jbG91ZC5vcGVyYXRpb24uT3BlcmF0aW9u",
-            "IoUBgtPkkwI/IjovZnVuY3Rpb25zL3YxL2Z1bmN0aW9ucy97cmVzb3VyY2Vf",
-            "aWR9OnVwZGF0ZUFjY2Vzc0JpbmRpbmdzOgEqstIqPAojYWNjZXNzLlVwZGF0",
-            "ZUFjY2Vzc0JpbmRpbmdzTWV0YWRhdGESFWdvb2dsZS5wcm90b2J1Zi5FbXB0",
-            "eUJ+Cih5YW5kZXguY2xvdWQuYXBpLnNlcnZlcmxlc3MuZnVuY3Rpb25zLnYx",
-            "WlJnaXRodWIuY29tL3lhbmRleC1jbG91ZC9nby1nZW5wcm90by95YW5kZXgv",
-            "Y2xvdWQvc2VydmVybGVzcy9mdW5jdGlvbnMvdjE7ZnVuY3Rpb25zYgZwcm90",
-            "bzM="));
+            "fS9vcGVyYXRpb25zErcBChJMaXN0QWNjZXNzQmluZGluZ3MSLi55YW5kZXgu",
+            "Y2xvdWQuYWNjZXNzLkxpc3RBY2Nlc3NCaW5kaW5nc1JlcXVlc3QaLy55YW5k",
+            "ZXguY2xvdWQuYWNjZXNzLkxpc3RBY2Nlc3NCaW5kaW5nc1Jlc3BvbnNlIkCC",
+            "0+STAjoSOC9mdW5jdGlvbnMvdjEvZnVuY3Rpb25zL3tyZXNvdXJjZV9pZH06",
+            "bGlzdEFjY2Vzc0JpbmRpbmdzEuYBChFTZXRBY2Nlc3NCaW5kaW5ncxItLnlh",
+            "bmRleC5jbG91ZC5hY2Nlc3MuU2V0QWNjZXNzQmluZGluZ3NSZXF1ZXN0GiEu",
+            "eWFuZGV4LmNsb3VkLm9wZXJhdGlvbi5PcGVyYXRpb24if4LT5JMCPCI3L2Z1",
+            "bmN0aW9ucy92MS9mdW5jdGlvbnMve3Jlc291cmNlX2lkfTpzZXRBY2Nlc3NC",
+            "aW5kaW5nczoBKrLSKjkKIGFjY2Vzcy5TZXRBY2Nlc3NCaW5kaW5nc01ldGFk",
+            "YXRhEhVnb29nbGUucHJvdG9idWYuRW1wdHkS8wEKFFVwZGF0ZUFjY2Vzc0Jp",
+            "bmRpbmdzEjAueWFuZGV4LmNsb3VkLmFjY2Vzcy5VcGRhdGVBY2Nlc3NCaW5k",
+            "aW5nc1JlcXVlc3QaIS55YW5kZXguY2xvdWQub3BlcmF0aW9uLk9wZXJhdGlv",
+            "biKFAYLT5JMCPyI6L2Z1bmN0aW9ucy92MS9mdW5jdGlvbnMve3Jlc291cmNl",
+            "X2lkfTp1cGRhdGVBY2Nlc3NCaW5kaW5nczoBKrLSKjwKI2FjY2Vzcy5VcGRh",
+            "dGVBY2Nlc3NCaW5kaW5nc01ldGFkYXRhEhVnb29nbGUucHJvdG9idWYuRW1w",
+            "dHlCfgooeWFuZGV4LmNsb3VkLmFwaS5zZXJ2ZXJsZXNzLmZ1bmN0aW9ucy52",
+            "MVpSZ2l0aHViLmNvbS95YW5kZXgtY2xvdWQvZ28tZ2VucHJvdG8veWFuZGV4",
+            "L2Nsb3VkL3NlcnZlcmxlc3MvZnVuY3Rpb25zL3YxO2Z1bmN0aW9uc2IGcHJv",
+            "dG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.DurationReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Yandex.Cloud.Api.OperationReflection.Descriptor, global::Yandex.Cloud.Access.AccessReflection.Descriptor, global::Yandex.Cloud.Serverless.Functions.V1.FunctionReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
@@ -211,7 +212,7 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Functions.V1.ListFunctionsVersionsResponse), global::Yandex.Cloud.Serverless.Functions.V1.ListFunctionsVersionsResponse.Parser, new[]{ "Versions", "NextPageToken" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Functions.V1.ListFunctionOperationsRequest), global::Yandex.Cloud.Serverless.Functions.V1.ListFunctionOperationsRequest.Parser, new[]{ "FunctionId", "PageSize", "PageToken", "Filter" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Functions.V1.ListFunctionOperationsResponse), global::Yandex.Cloud.Serverless.Functions.V1.ListFunctionOperationsResponse.Parser, new[]{ "Operations", "NextPageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Functions.V1.CreateFunctionVersionRequest), global::Yandex.Cloud.Serverless.Functions.V1.CreateFunctionVersionRequest.Parser, new[]{ "FunctionId", "Runtime", "Description", "Entrypoint", "Resources", "ExecutionTimeout", "ServiceAccountId", "Package", "Content", "Environment" }, new[]{ "PackageSource" }, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Functions.V1.CreateFunctionVersionRequest), global::Yandex.Cloud.Serverless.Functions.V1.CreateFunctionVersionRequest.Parser, new[]{ "FunctionId", "Runtime", "Description", "Entrypoint", "Resources", "ExecutionTimeout", "ServiceAccountId", "Package", "Content", "Environment", "Tag" }, new[]{ "PackageSource" }, null, new pbr::GeneratedClrTypeInfo[] { null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Functions.V1.CreateFunctionVersionMetadata), global::Yandex.Cloud.Serverless.Functions.V1.CreateFunctionVersionMetadata.Parser, new[]{ "FunctionVersionId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Functions.V1.SetFunctionTagRequest), global::Yandex.Cloud.Serverless.Functions.V1.SetFunctionTagRequest.Parser, new[]{ "FunctionVersionId", "Tag" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Functions.V1.RemoveFunctionTagRequest), global::Yandex.Cloud.Serverless.Functions.V1.RemoveFunctionTagRequest.Parser, new[]{ "FunctionVersionId", "Tag" }, null, null, null),
@@ -262,6 +263,11 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "function_id" field.</summary>
     public const int FunctionIdFieldNumber = 1;
     private string functionId_ = "";
+    /// <summary>
+    /// ID of the function to return.
+    ///
+    /// To get a function ID make a [FunctionService.List] request.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string FunctionId {
       get { return functionId_; }
@@ -391,6 +397,11 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "function_version_id" field.</summary>
     public const int FunctionVersionIdFieldNumber = 1;
     private string functionVersionId_ = "";
+    /// <summary>
+    /// ID of the version to return.
+    ///
+    /// To get a version ID make a [FunctionService.ListVersions] request.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string FunctionVersionId {
       get { return functionVersionId_; }
@@ -521,6 +532,11 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "function_id" field.</summary>
     public const int FunctionIdFieldNumber = 1;
     private string functionId_ = "";
+    /// <summary>
+    /// ID of the function whose versions should be listed.
+    ///
+    /// To get a function ID use a [FunctionService.List] request.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string FunctionId {
       get { return functionId_; }
@@ -532,6 +548,11 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "tag" field.</summary>
     public const int TagFieldNumber = 2;
     private string tag_ = "";
+    /// <summary>
+    /// Version tag.
+    ///
+    /// To get the history of version tags make a [FunctionService.ListTagHistory] request.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Tag {
       get { return tag_; }
@@ -680,6 +701,11 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "folder_id" field.</summary>
     public const int FolderIdFieldNumber = 1;
     private string folderId_ = "";
+    /// <summary>
+    /// ID of the folder to list functions in.
+    ///
+    /// To get a folder ID make a [yandex.cloud.resourcemanager.v1.FolderService.List] request.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string FolderId {
       get { return folderId_; }
@@ -691,6 +717,13 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "page_size" field.</summary>
     public const int PageSizeFieldNumber = 2;
     private long pageSize_;
+    /// <summary>
+    /// The maximum number of results per page to return. If the number of available
+    /// results is larger than `pageSize`, the service returns a [ListFunctionsResponse.next_page_token]
+    /// that can be used to get the next page of results in subsequent list requests.
+    ///
+    /// Default value: 100.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long PageSize {
       get { return pageSize_; }
@@ -702,6 +735,10 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "page_token" field.</summary>
     public const int PageTokenFieldNumber = 3;
     private string pageToken_ = "";
+    /// <summary>
+    /// Page token. To get the next page of results, set `pageToken` to the
+    /// [ListFunctionsResponse.next_page_token] returned by a previous list request.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string PageToken {
       get { return pageToken_; }
@@ -713,6 +750,16 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "filter" field.</summary>
     public const int FilterFieldNumber = 4;
     private string filter_ = "";
+    /// <summary>
+    /// A filter expression that filters functions listed in the response.
+    ///
+    /// The expression must specify:
+    /// 1. The field name. Currently filtering can only be applied to the [Function.name] field.
+    /// 2. A conditional operator. Can be either `=` or `!=` for single values, `IN` or `NOT IN`
+    /// for lists of values.
+    /// 3. The value. Must be 3-63 characters long and match the regular expression `^[a-z][-a-z0-9]{1,61}[a-z0-9]$`.
+    /// Example of a filter: `name=my-function`.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Filter {
       get { return filter_; }
@@ -893,6 +940,9 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     private static readonly pb::FieldCodec<global::Yandex.Cloud.Serverless.Functions.V1.Function> _repeated_functions_codec
         = pb::FieldCodec.ForMessage(10, global::Yandex.Cloud.Serverless.Functions.V1.Function.Parser);
     private readonly pbc::RepeatedField<global::Yandex.Cloud.Serverless.Functions.V1.Function> functions_ = new pbc::RepeatedField<global::Yandex.Cloud.Serverless.Functions.V1.Function>();
+    /// <summary>
+    /// List of functions in the specified folder.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::RepeatedField<global::Yandex.Cloud.Serverless.Functions.V1.Function> Functions {
       get { return functions_; }
@@ -901,6 +951,13 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "next_page_token" field.</summary>
     public const int NextPageTokenFieldNumber = 2;
     private string nextPageToken_ = "";
+    /// <summary>
+    /// Token for getting the next page of the list. If the number of results is greater than
+    /// the specified [ListFunctionsRequest.page_size], use `nextPageToken` as the value
+    /// for the [ListFunctionsRequest.page_token] parameter in the next list request.
+    ///
+    /// Each subsequent page will have its own `nextPageToken` to continue paging through the results.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string NextPageToken {
       get { return nextPageToken_; }
@@ -1042,6 +1099,11 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "folder_id" field.</summary>
     public const int FolderIdFieldNumber = 1;
     private string folderId_ = "";
+    /// <summary>
+    /// ID of the folder to create a function in.
+    ///
+    /// To get a folder ID make a [yandex.cloud.resourcemanager.v1.FolderService.List] request.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string FolderId {
       get { return folderId_; }
@@ -1053,6 +1115,10 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "name" field.</summary>
     public const int NameFieldNumber = 2;
     private string name_ = "";
+    /// <summary>
+    /// Name of the function.
+    /// The name must be unique within the folder.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Name {
       get { return name_; }
@@ -1064,6 +1130,9 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "description" field.</summary>
     public const int DescriptionFieldNumber = 3;
     private string description_ = "";
+    /// <summary>
+    /// Description of the function.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Description {
       get { return description_; }
@@ -1077,6 +1146,9 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     private static readonly pbc::MapField<string, string>.Codec _map_labels_codec
         = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 34);
     private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
+    /// <summary>
+    /// Resource labels as `key:value` pairs.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::MapField<string, string> Labels {
       get { return labels_; }
@@ -1244,6 +1316,9 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "function_id" field.</summary>
     public const int FunctionIdFieldNumber = 1;
     private string functionId_ = "";
+    /// <summary>
+    /// ID of the function that is being created.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string FunctionId {
       get { return functionId_; }
@@ -1377,6 +1452,11 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "function_id" field.</summary>
     public const int FunctionIdFieldNumber = 1;
     private string functionId_ = "";
+    /// <summary>
+    /// ID of the function to update.
+    ///
+    /// To get a function ID make a [FunctionService.List] request.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string FunctionId {
       get { return functionId_; }
@@ -1388,6 +1468,9 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "update_mask" field.</summary>
     public const int UpdateMaskFieldNumber = 2;
     private global::Google.Protobuf.WellKnownTypes.FieldMask updateMask_;
+    /// <summary>
+    /// Field mask that specifies which attributes of the function should be updated.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Google.Protobuf.WellKnownTypes.FieldMask UpdateMask {
       get { return updateMask_; }
@@ -1399,6 +1482,10 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "name" field.</summary>
     public const int NameFieldNumber = 3;
     private string name_ = "";
+    /// <summary>
+    /// New name for the function.
+    /// The name must be unique within the folder.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Name {
       get { return name_; }
@@ -1410,6 +1497,9 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "description" field.</summary>
     public const int DescriptionFieldNumber = 4;
     private string description_ = "";
+    /// <summary>
+    /// New description for the function.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Description {
       get { return description_; }
@@ -1423,6 +1513,12 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     private static readonly pbc::MapField<string, string>.Codec _map_labels_codec
         = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 42);
     private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
+    /// <summary>
+    /// Function labels as `key:value` pairs.
+    ///
+    /// Existing set of labels is completely replaced by the provided set, so if you just want
+    /// to add or remove a label, request the current set of labels with a [FunctionService.Get] request.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::MapField<string, string> Labels {
       get { return labels_; }
@@ -1612,6 +1708,9 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "function_id" field.</summary>
     public const int FunctionIdFieldNumber = 1;
     private string functionId_ = "";
+    /// <summary>
+    /// ID of the function that is being updated.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string FunctionId {
       get { return functionId_; }
@@ -1741,6 +1840,10 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "function_id" field.</summary>
     public const int FunctionIdFieldNumber = 1;
     private string functionId_ = "";
+    /// <summary>
+    /// ID of the function to delete.
+    /// To get a function ID make a [FunctionService.List] request.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string FunctionId {
       get { return functionId_; }
@@ -1870,6 +1973,9 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "function_id" field.</summary>
     public const int FunctionIdFieldNumber = 1;
     private string functionId_ = "";
+    /// <summary>
+    /// ID of the function that is being deleted.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string FunctionId {
       get { return functionId_; }
@@ -2102,6 +2208,9 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     private static readonly pb::FieldCodec<string> _repeated_runtimes_codec
         = pb::FieldCodec.ForString(10);
     private readonly pbc::RepeatedField<string> runtimes_ = new pbc::RepeatedField<string>();
+    /// <summary>
+    /// Runtime environments available for the specified function.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::RepeatedField<string> Runtimes {
       get { return runtimes_; }
@@ -2231,6 +2340,10 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
 
     /// <summary>Field number for the "folder_id" field.</summary>
     public const int FolderIdFieldNumber = 1;
+    /// <summary>
+    /// ID of the folder to list function versions for.
+    /// To get a folder ID make a [yandex.cloud.resourcemanager.v1.FolderService.List] request.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string FolderId {
       get { return idCase_ == IdOneofCase.FolderId ? (string) id_ : ""; }
@@ -2242,6 +2355,10 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
 
     /// <summary>Field number for the "function_id" field.</summary>
     public const int FunctionIdFieldNumber = 2;
+    /// <summary>
+    /// ID of the function to list versions for.
+    /// To get a function ID use a [FunctionService.List] request.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string FunctionId {
       get { return idCase_ == IdOneofCase.FunctionId ? (string) id_ : ""; }
@@ -2254,6 +2371,13 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "page_size" field.</summary>
     public const int PageSizeFieldNumber = 3;
     private long pageSize_;
+    /// <summary>
+    /// The maximum number of results per page to return. If the number of available results
+    /// is larger than `pageSize`, the service returns a [ListFunctionsVersionsResponse.next_page_token]
+    /// that can be used to get the next page of results in subsequent list requests.
+    ///
+    /// Default value: 100.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long PageSize {
       get { return pageSize_; }
@@ -2265,6 +2389,10 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "page_token" field.</summary>
     public const int PageTokenFieldNumber = 4;
     private string pageToken_ = "";
+    /// <summary>
+    /// Page token. To get the next page of results, set `pageToken` to the
+    /// [ListFunctionsVersionsResponse.next_page_token] returned by a previous list request.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string PageToken {
       get { return pageToken_; }
@@ -2276,6 +2404,16 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "filter" field.</summary>
     public const int FilterFieldNumber = 5;
     private string filter_ = "";
+    /// <summary>
+    /// A filter expression that filters resources listed in the response.
+    ///
+    /// The expression must specify:
+    /// 1. The field name. Currently filtering can only be applied to the [Function.name] field.
+    /// 2. A conditional operator. Can be either `=` or `!=` for single values, `IN` or `NOT IN`
+    /// for lists of values.
+    /// 3. The value. Must be 3-63 characters long and match the regular expression `^[a-z][-a-z0-9]{1,61}[a-z0-9]$`.
+    /// Example of a filter: `name=my-function`.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Filter {
       get { return filter_; }
@@ -2496,6 +2634,9 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     private static readonly pb::FieldCodec<global::Yandex.Cloud.Serverless.Functions.V1.Version> _repeated_versions_codec
         = pb::FieldCodec.ForMessage(10, global::Yandex.Cloud.Serverless.Functions.V1.Version.Parser);
     private readonly pbc::RepeatedField<global::Yandex.Cloud.Serverless.Functions.V1.Version> versions_ = new pbc::RepeatedField<global::Yandex.Cloud.Serverless.Functions.V1.Version>();
+    /// <summary>
+    /// List of versions for the specified folder or function.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::RepeatedField<global::Yandex.Cloud.Serverless.Functions.V1.Version> Versions {
       get { return versions_; }
@@ -2504,6 +2645,13 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "next_page_token" field.</summary>
     public const int NextPageTokenFieldNumber = 2;
     private string nextPageToken_ = "";
+    /// <summary>
+    /// Token for getting the next page of the list. If the number of results is greater than
+    /// the specified [ListFunctionsVersionsRequest.page_size], use `nextPageToken` as the value
+    /// for the [ListFunctionsVersionsRequest.page_token] parameter in the next list request.
+    ///
+    /// Each subsequent page will have its own `nextPageToken` to continue paging through the results.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string NextPageToken {
       get { return nextPageToken_; }
@@ -2645,6 +2793,9 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "function_id" field.</summary>
     public const int FunctionIdFieldNumber = 1;
     private string functionId_ = "";
+    /// <summary>
+    /// ID of the function to list operations for.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string FunctionId {
       get { return functionId_; }
@@ -2656,6 +2807,13 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "page_size" field.</summary>
     public const int PageSizeFieldNumber = 2;
     private long pageSize_;
+    /// <summary>
+    /// The maximum number of results per page that should be returned. If the number of available
+    /// results is larger than `pageSize`, the service returns a [ListFunctionOperationsResponse.next_page_token]
+    /// that can be used to get the next page of results in subsequent list requests.
+    ///
+    /// Default value: 100.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long PageSize {
       get { return pageSize_; }
@@ -2667,6 +2825,10 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "page_token" field.</summary>
     public const int PageTokenFieldNumber = 3;
     private string pageToken_ = "";
+    /// <summary>
+    /// Page token. To get the next page of results, set `pageToken` to the
+    /// [ListFunctionOperationsResponse.next_page_token] returned by a previous list request.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string PageToken {
       get { return pageToken_; }
@@ -2678,6 +2840,16 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "filter" field.</summary>
     public const int FilterFieldNumber = 4;
     private string filter_ = "";
+    /// <summary>
+    /// A filter expression that filters resources listed in the response.
+    ///
+    /// The expression must specify:
+    /// 1. The field name. Currently filtering can be applied to the [operation.Operation.done], [operation.Operation.created_by] field.
+    /// 2. A conditional operator. Can be either `=` or `!=` for single values, `IN` or `NOT IN`
+    /// for lists of values.
+    /// 3. The value. Must be 3-63 characters long and match the regular expression `^[a-z][-a-z0-9]{1,61}[a-z0-9]$`.
+    /// Examples of a filter: `done=false`, `created_by='John.Doe'`.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Filter {
       get { return filter_; }
@@ -2858,6 +3030,9 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     private static readonly pb::FieldCodec<global::Yandex.Cloud.Operation.Operation> _repeated_operations_codec
         = pb::FieldCodec.ForMessage(10, global::Yandex.Cloud.Operation.Operation.Parser);
     private readonly pbc::RepeatedField<global::Yandex.Cloud.Operation.Operation> operations_ = new pbc::RepeatedField<global::Yandex.Cloud.Operation.Operation>();
+    /// <summary>
+    /// List of operations for the specified function.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::RepeatedField<global::Yandex.Cloud.Operation.Operation> Operations {
       get { return operations_; }
@@ -2866,6 +3041,13 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "next_page_token" field.</summary>
     public const int NextPageTokenFieldNumber = 2;
     private string nextPageToken_ = "";
+    /// <summary>
+    /// Token for getting the next page of the list. If the number of results is greater than
+    /// the specified [ListFunctionOperationsRequest.page_size], use `nextPageToken` as the value
+    /// for the [ListFunctionOperationsRequest.page_token] parameter in the next list request.
+    ///
+    /// Each subsequent page will have its own `nextPageToken` to continue paging through the results.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string NextPageToken {
       get { return nextPageToken_; }
@@ -3000,6 +3182,7 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
       executionTimeout_ = other.executionTimeout_ != null ? other.executionTimeout_.Clone() : null;
       serviceAccountId_ = other.serviceAccountId_;
       environment_ = other.environment_.Clone();
+      tag_ = other.tag_.Clone();
       switch (other.PackageSourceCase) {
         case PackageSourceOneofCase.Package:
           Package = other.Package.Clone();
@@ -3020,6 +3203,11 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "function_id" field.</summary>
     public const int FunctionIdFieldNumber = 1;
     private string functionId_ = "";
+    /// <summary>
+    /// ID of the function to create a version for.
+    ///
+    /// To get a function ID, make a [FunctionService.List] request.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string FunctionId {
       get { return functionId_; }
@@ -3031,6 +3219,9 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "runtime" field.</summary>
     public const int RuntimeFieldNumber = 2;
     private string runtime_ = "";
+    /// <summary>
+    /// Runtime environment for the version.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Runtime {
       get { return runtime_; }
@@ -3042,6 +3233,9 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "description" field.</summary>
     public const int DescriptionFieldNumber = 3;
     private string description_ = "";
+    /// <summary>
+    /// Description of the version
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Description {
       get { return description_; }
@@ -3053,6 +3247,9 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "entrypoint" field.</summary>
     public const int EntrypointFieldNumber = 4;
     private string entrypoint_ = "";
+    /// <summary>
+    /// Entrypoint of the version.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Entrypoint {
       get { return entrypoint_; }
@@ -3064,6 +3261,9 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "resources" field.</summary>
     public const int ResourcesFieldNumber = 5;
     private global::Yandex.Cloud.Serverless.Functions.V1.Resources resources_;
+    /// <summary>
+    /// Resources allocated to the version.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Serverless.Functions.V1.Resources Resources {
       get { return resources_; }
@@ -3075,6 +3275,11 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "execution_timeout" field.</summary>
     public const int ExecutionTimeoutFieldNumber = 6;
     private global::Google.Protobuf.WellKnownTypes.Duration executionTimeout_;
+    /// <summary>
+    /// Timeout for the execution of the version.
+    ///
+    /// If the timeout is exceeded, Cloud Functions responds with a 504 HTTP code.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Google.Protobuf.WellKnownTypes.Duration ExecutionTimeout {
       get { return executionTimeout_; }
@@ -3086,6 +3291,9 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "service_account_id" field.</summary>
     public const int ServiceAccountIdFieldNumber = 7;
     private string serviceAccountId_ = "";
+    /// <summary>
+    /// ID of the service account to associate with the version.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ServiceAccountId {
       get { return serviceAccountId_; }
@@ -3096,6 +3304,9 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
 
     /// <summary>Field number for the "package" field.</summary>
     public const int PackageFieldNumber = 9;
+    /// <summary>
+    /// Functions deployment package.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Serverless.Functions.V1.Package Package {
       get { return packageSourceCase_ == PackageSourceOneofCase.Package ? (global::Yandex.Cloud.Serverless.Functions.V1.Package) packageSource_ : null; }
@@ -3107,6 +3318,9 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
 
     /// <summary>Field number for the "content" field.</summary>
     public const int ContentFieldNumber = 10;
+    /// <summary>
+    /// Content of the deployment package.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pb::ByteString Content {
       get { return packageSourceCase_ == PackageSourceOneofCase.Content ? (pb::ByteString) packageSource_ : pb::ByteString.Empty; }
@@ -3121,9 +3335,25 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     private static readonly pbc::MapField<string, string>.Codec _map_environment_codec
         = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 98);
     private readonly pbc::MapField<string, string> environment_ = new pbc::MapField<string, string>();
+    /// <summary>
+    /// Environment settings for the version.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::MapField<string, string> Environment {
       get { return environment_; }
+    }
+
+    /// <summary>Field number for the "tag" field.</summary>
+    public const int TagFieldNumber = 13;
+    private static readonly pb::FieldCodec<string> _repeated_tag_codec
+        = pb::FieldCodec.ForString(106);
+    private readonly pbc::RepeatedField<string> tag_ = new pbc::RepeatedField<string>();
+    /// <summary>
+    /// Function version tags. For details, see [Version tag](/docs/functions/concepts/function#tag).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<string> Tag {
+      get { return tag_; }
     }
 
     private object packageSource_;
@@ -3168,6 +3398,7 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
       if (!object.Equals(Package, other.Package)) return false;
       if (Content != other.Content) return false;
       if (!Environment.Equals(other.Environment)) return false;
+      if(!tag_.Equals(other.tag_)) return false;
       if (PackageSourceCase != other.PackageSourceCase) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -3185,6 +3416,7 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
       if (packageSourceCase_ == PackageSourceOneofCase.Package) hash ^= Package.GetHashCode();
       if (packageSourceCase_ == PackageSourceOneofCase.Content) hash ^= Content.GetHashCode();
       hash ^= Environment.GetHashCode();
+      hash ^= tag_.GetHashCode();
       hash ^= (int) packageSourceCase_;
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -3236,6 +3468,7 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
         output.WriteBytes(Content);
       }
       environment_.WriteTo(output, _map_environment_codec);
+      tag_.WriteTo(output, _repeated_tag_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -3272,6 +3505,7 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
         size += 1 + pb::CodedOutputStream.ComputeBytesSize(Content);
       }
       size += environment_.CalculateSize(_map_environment_codec);
+      size += tag_.CalculateSize(_repeated_tag_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -3311,6 +3545,7 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
         ServiceAccountId = other.ServiceAccountId;
       }
       environment_.Add(other.environment_);
+      tag_.Add(other.tag_);
       switch (other.PackageSourceCase) {
         case PackageSourceOneofCase.Package:
           if (Package == null) {
@@ -3385,6 +3620,10 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
             environment_.AddEntriesFrom(input, _map_environment_codec);
             break;
           }
+          case 106: {
+            tag_.AddEntriesFrom(input, _repeated_tag_codec);
+            break;
+          }
         }
       }
     }
@@ -3428,6 +3667,9 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "function_version_id" field.</summary>
     public const int FunctionVersionIdFieldNumber = 1;
     private string functionVersionId_ = "";
+    /// <summary>
+    /// ID of the version that is being created.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string FunctionVersionId {
       get { return functionVersionId_; }
@@ -3558,6 +3800,11 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "function_version_id" field.</summary>
     public const int FunctionVersionIdFieldNumber = 1;
     private string functionVersionId_ = "";
+    /// <summary>
+    /// ID of the version to set the tag for.
+    ///
+    /// To get a version ID make a [FunctionService.ListVersions] request.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string FunctionVersionId {
       get { return functionVersionId_; }
@@ -3569,6 +3816,9 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "tag" field.</summary>
     public const int TagFieldNumber = 2;
     private string tag_ = "";
+    /// <summary>
+    /// Tag to set for the version.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Tag {
       get { return tag_; }
@@ -3715,6 +3965,11 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "function_version_id" field.</summary>
     public const int FunctionVersionIdFieldNumber = 1;
     private string functionVersionId_ = "";
+    /// <summary>
+    /// ID of the version to remove a tag from.
+    ///
+    /// To get the a version ID make a [FunctionService.ListVersions] request.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string FunctionVersionId {
       get { return functionVersionId_; }
@@ -3726,6 +3981,9 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "tag" field.</summary>
     public const int TagFieldNumber = 2;
     private string tag_ = "";
+    /// <summary>
+    /// Tag to remove from the specified version.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Tag {
       get { return tag_; }
@@ -3871,6 +4129,9 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "function_version_id" field.</summary>
     public const int FunctionVersionIdFieldNumber = 1;
     private string functionVersionId_ = "";
+    /// <summary>
+    /// ID of the function versions that is being tagged.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string FunctionVersionId {
       get { return functionVersionId_; }
@@ -4000,6 +4261,9 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "function_version_id" field.</summary>
     public const int FunctionVersionIdFieldNumber = 1;
     private string functionVersionId_ = "";
+    /// <summary>
+    /// ID of the function versions that is being untagged.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string FunctionVersionId {
       get { return functionVersionId_; }
@@ -4133,6 +4397,11 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "function_id" field.</summary>
     public const int FunctionIdFieldNumber = 1;
     private string functionId_ = "";
+    /// <summary>
+    /// ID of the function to retrieve tag history for.
+    ///
+    /// To get a function ID, make a [FunctionService.List] request.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string FunctionId {
       get { return functionId_; }
@@ -4144,6 +4413,9 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "tag" field.</summary>
     public const int TagFieldNumber = 2;
     private string tag_ = "";
+    /// <summary>
+    /// Specific tag that history should be limited to.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Tag {
       get { return tag_; }
@@ -4155,6 +4427,12 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "page_size" field.</summary>
     public const int PageSizeFieldNumber = 3;
     private long pageSize_;
+    /// <summary>
+    /// The maximum number of results per page that should be returned. If the number of available
+    /// results is larger than `pageSize`, the service returns a [ListFunctionOperationsResponse.next_page_token]
+    /// that can be used to get the next page of results in subsequent list requests.
+    /// Default value: 100.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long PageSize {
       get { return pageSize_; }
@@ -4166,6 +4444,10 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "page_token" field.</summary>
     public const int PageTokenFieldNumber = 4;
     private string pageToken_ = "";
+    /// <summary>
+    /// Page token. To get the next page of results, set `pageToken` to the
+    /// [ListFunctionOperationsResponse.next_page_token] returned by a previous list request.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string PageToken {
       get { return pageToken_; }
@@ -4177,6 +4459,16 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "filter" field.</summary>
     public const int FilterFieldNumber = 5;
     private string filter_ = "";
+    /// <summary>
+    /// A filter expression that filters resources listed in the response.
+    ///
+    /// The expression must specify:
+    /// 1. The field name. Currently filtering can only be applied to the [Function.name] field.
+    /// 2. A conditional operator. Can be either `=` or `!=` for single values, `IN` or `NOT IN`
+    /// for lists of values.
+    /// 3. The value. Must be 3-63 characters long and match the regular expression `^[a-z][-a-z0-9]{1,61}[a-z0-9]$`.
+    /// For example, `name=my-function`.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Filter {
       get { return filter_; }
@@ -4373,6 +4665,9 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     private static readonly pb::FieldCodec<global::Yandex.Cloud.Serverless.Functions.V1.ListFunctionTagHistoryResponse.Types.FunctionTagHistoryRecord> _repeated_functionTagHistoryRecord_codec
         = pb::FieldCodec.ForMessage(10, global::Yandex.Cloud.Serverless.Functions.V1.ListFunctionTagHistoryResponse.Types.FunctionTagHistoryRecord.Parser);
     private readonly pbc::RepeatedField<global::Yandex.Cloud.Serverless.Functions.V1.ListFunctionTagHistoryResponse.Types.FunctionTagHistoryRecord> functionTagHistoryRecord_ = new pbc::RepeatedField<global::Yandex.Cloud.Serverless.Functions.V1.ListFunctionTagHistoryResponse.Types.FunctionTagHistoryRecord>();
+    /// <summary>
+    /// Set of relevant tag history records.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::RepeatedField<global::Yandex.Cloud.Serverless.Functions.V1.ListFunctionTagHistoryResponse.Types.FunctionTagHistoryRecord> FunctionTagHistoryRecord {
       get { return functionTagHistoryRecord_; }
@@ -4381,6 +4676,13 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "next_page_token" field.</summary>
     public const int NextPageTokenFieldNumber = 2;
     private string nextPageToken_ = "";
+    /// <summary>
+    /// Token for getting the next page of the list. If the number of results is greater than
+    /// the specified [ListFunctionTagHistoryRequest.page_size], use `nextPageToken` as the value
+    /// for the [ListFunctionTagHistoryRequest.page_token] parameter in the next list request.
+    ///
+    /// Each subsequent page will have its own `nextPageToken` to continue paging through the results.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string NextPageToken {
       get { return nextPageToken_; }
@@ -4484,6 +4786,9 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Container for nested types declared in the ListFunctionTagHistoryResponse message type.</summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static partial class Types {
+      /// <summary>
+      /// A record in the tag history.
+      /// </summary>
       internal sealed partial class FunctionTagHistoryRecord : pb::IMessage<FunctionTagHistoryRecord> {
         private static readonly pb::MessageParser<FunctionTagHistoryRecord> _parser = new pb::MessageParser<FunctionTagHistoryRecord>(() => new FunctionTagHistoryRecord());
         private pb::UnknownFieldSet _unknownFields;
@@ -4525,6 +4830,9 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
         /// <summary>Field number for the "function_id" field.</summary>
         public const int FunctionIdFieldNumber = 1;
         private string functionId_ = "";
+        /// <summary>
+        /// ID of the function that the record is about.
+        /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public string FunctionId {
           get { return functionId_; }
@@ -4536,6 +4844,9 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
         /// <summary>Field number for the "function_version_id" field.</summary>
         public const int FunctionVersionIdFieldNumber = 3;
         private string functionVersionId_ = "";
+        /// <summary>
+        /// ID of the function version that the record is about.
+        /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public string FunctionVersionId {
           get { return functionVersionId_; }
@@ -4547,6 +4858,9 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
         /// <summary>Field number for the "tag" field.</summary>
         public const int TagFieldNumber = 2;
         private string tag_ = "";
+        /// <summary>
+        /// Tag that was set for the version at some point.
+        /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public string Tag {
           get { return tag_; }
@@ -4558,6 +4872,9 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
         /// <summary>Field number for the "effective_from" field.</summary>
         public const int EffectiveFromFieldNumber = 4;
         private global::Google.Protobuf.WellKnownTypes.Timestamp effectiveFrom_;
+        /// <summary>
+        /// Timestamp when the tag started being active for the function.
+        /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public global::Google.Protobuf.WellKnownTypes.Timestamp EffectiveFrom {
           get { return effectiveFrom_; }
@@ -4569,6 +4886,9 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
         /// <summary>Field number for the "effective_to" field.</summary>
         public const int EffectiveToFieldNumber = 5;
         private global::Google.Protobuf.WellKnownTypes.Timestamp effectiveTo_;
+        /// <summary>
+        /// Timestamp when the tag stopped being active for the function.
+        /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public global::Google.Protobuf.WellKnownTypes.Timestamp EffectiveTo {
           get { return effectiveTo_; }

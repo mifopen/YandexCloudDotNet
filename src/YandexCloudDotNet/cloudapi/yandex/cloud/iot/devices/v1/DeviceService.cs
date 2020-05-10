@@ -211,6 +211,11 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     /// <summary>Field number for the "device_id" field.</summary>
     public const int DeviceIdFieldNumber = 1;
     private string deviceId_ = "";
+    /// <summary>
+    /// ID of the device to return.
+    ///
+    /// To get a device ID make a [DeviceService.List] request.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string DeviceId {
       get { return deviceId_; }
@@ -349,6 +354,11 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
 
     /// <summary>Field number for the "registry_id" field.</summary>
     public const int RegistryIdFieldNumber = 1;
+    /// <summary>
+    /// ID of the registry to list devices in.
+    ///
+    /// To get a registry ID make a [yandex.cloud.iot.devices.v1.RegistryService.List] request.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string RegistryId {
       get { return idCase_ == IdOneofCase.RegistryId ? (string) id_ : ""; }
@@ -360,6 +370,11 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
 
     /// <summary>Field number for the "folder_id" field.</summary>
     public const int FolderIdFieldNumber = 2;
+    /// <summary>
+    /// ID of the folder to list devices in.
+    ///
+    /// To get a folder ID make a [yandex.cloud.resourcemanager.v1.FolderService.List] request.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string FolderId {
       get { return idCase_ == IdOneofCase.FolderId ? (string) id_ : ""; }
@@ -372,6 +387,12 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     /// <summary>Field number for the "page_size" field.</summary>
     public const int PageSizeFieldNumber = 3;
     private long pageSize_;
+    /// <summary>
+    /// The maximum number of results per page to return. If the number of available
+    /// results is larger than `page_size`, the service returns a [ListDevicesResponse.next_page_token]
+    /// that can be used to get the next page of results in subsequent list requests.
+    /// Default value: 100.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long PageSize {
       get { return pageSize_; }
@@ -383,6 +404,10 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     /// <summary>Field number for the "page_token" field.</summary>
     public const int PageTokenFieldNumber = 4;
     private string pageToken_ = "";
+    /// <summary>
+    /// Page token. To get the next page of results, set `page_token` to the
+    /// [ListDevicesResponse.next_page_token] returned by a previous list request.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string PageToken {
       get { return pageToken_; }
@@ -587,6 +612,9 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     private static readonly pb::FieldCodec<global::Yandex.Cloud.Iot.Devices.V1.Device> _repeated_devices_codec
         = pb::FieldCodec.ForMessage(10, global::Yandex.Cloud.Iot.Devices.V1.Device.Parser);
     private readonly pbc::RepeatedField<global::Yandex.Cloud.Iot.Devices.V1.Device> devices_ = new pbc::RepeatedField<global::Yandex.Cloud.Iot.Devices.V1.Device>();
+    /// <summary>
+    /// List of devices.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::RepeatedField<global::Yandex.Cloud.Iot.Devices.V1.Device> Devices {
       get { return devices_; }
@@ -595,6 +623,13 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     /// <summary>Field number for the "next_page_token" field.</summary>
     public const int NextPageTokenFieldNumber = 2;
     private string nextPageToken_ = "";
+    /// <summary>
+    /// Token for getting the next page of the list. If the number of results is greater than
+    /// the specified [ListDevicesRequest.page_size], use `next_page_token` as the value
+    /// for the [ListDevicesRequest.page_token] parameter in the next list request.
+    ///
+    /// Each subsequent page will have its own `next_page_token` to continue paging through the results.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string NextPageToken {
       get { return nextPageToken_; }
@@ -738,6 +773,11 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     /// <summary>Field number for the "registry_id" field.</summary>
     public const int RegistryIdFieldNumber = 1;
     private string registryId_ = "";
+    /// <summary>
+    /// ID of the registry to create a device in.
+    ///
+    /// To get a registry ID, make a [yandex.cloud.iot.devices.v1.RegistryService.List] request.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string RegistryId {
       get { return registryId_; }
@@ -749,6 +789,9 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     /// <summary>Field number for the "name" field.</summary>
     public const int NameFieldNumber = 2;
     private string name_ = "";
+    /// <summary>
+    /// Name of the device. The name must be unique within the registry.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Name {
       get { return name_; }
@@ -760,6 +803,9 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     /// <summary>Field number for the "description" field.</summary>
     public const int DescriptionFieldNumber = 3;
     private string description_ = "";
+    /// <summary>
+    /// Description of the device.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Description {
       get { return description_; }
@@ -773,6 +819,9 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     private static readonly pb::FieldCodec<global::Yandex.Cloud.Iot.Devices.V1.CreateDeviceRequest.Types.Certificate> _repeated_certificates_codec
         = pb::FieldCodec.ForMessage(34, global::Yandex.Cloud.Iot.Devices.V1.CreateDeviceRequest.Types.Certificate.Parser);
     private readonly pbc::RepeatedField<global::Yandex.Cloud.Iot.Devices.V1.CreateDeviceRequest.Types.Certificate> certificates_ = new pbc::RepeatedField<global::Yandex.Cloud.Iot.Devices.V1.CreateDeviceRequest.Types.Certificate>();
+    /// <summary>
+    /// Device certificate.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::RepeatedField<global::Yandex.Cloud.Iot.Devices.V1.CreateDeviceRequest.Types.Certificate> Certificates {
       get { return certificates_; }
@@ -784,7 +833,9 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
         = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 42);
     private readonly pbc::MapField<string, string> topicAliases_ = new pbc::MapField<string, string>();
     /// <summary>
-    /// map from alias to canonical topic name prefix, e.g. my/custom/alias -> $device/{id}/events
+    /// Alias of a device topic.
+    ///
+    /// Alias is an alternate name of a device topic assigned by the user. Map alias to canonical topic name prefix, e.g. `my/custom/alias` match to `$device/{id}/events`.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::MapField<string, string> TopicAliases {
@@ -795,7 +846,9 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     public const int PasswordFieldNumber = 6;
     private string password_ = "";
     /// <summary>
-    /// if specified, must contain at least 3 of 4 ASCII character groups: upper case latin, lower case latin, numbers and special symbols
+    /// Device password.
+    ///
+    /// The password must contain at least three character categories among the following: upper case latin, lower case latin, numbers and special symbols.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Password {
@@ -957,6 +1010,9 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     /// <summary>Container for nested types declared in the CreateDeviceRequest message type.</summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static partial class Types {
+      /// <summary>
+      /// Specification of a device certificate.
+      /// </summary>
       internal sealed partial class Certificate : pb::IMessage<Certificate> {
         private static readonly pb::MessageParser<Certificate> _parser = new pb::MessageParser<Certificate>(() => new Certificate());
         private pb::UnknownFieldSet _unknownFields;
@@ -994,6 +1050,9 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
         /// <summary>Field number for the "certificate_data" field.</summary>
         public const int CertificateDataFieldNumber = 1;
         private string certificateData_ = "";
+        /// <summary>
+        /// Public part of the device certificate.
+        /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public string CertificateData {
           get { return certificateData_; }
@@ -1128,6 +1187,9 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     /// <summary>Field number for the "device_id" field.</summary>
     public const int DeviceIdFieldNumber = 1;
     private string deviceId_ = "";
+    /// <summary>
+    /// ID of the device that is being created.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string DeviceId {
       get { return deviceId_; }
@@ -1261,6 +1323,11 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     /// <summary>Field number for the "device_id" field.</summary>
     public const int DeviceIdFieldNumber = 1;
     private string deviceId_ = "";
+    /// <summary>
+    /// ID of the device to update.
+    ///
+    /// To get a device ID make a [DeviceService.List] request.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string DeviceId {
       get { return deviceId_; }
@@ -1272,6 +1339,9 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     /// <summary>Field number for the "update_mask" field.</summary>
     public const int UpdateMaskFieldNumber = 2;
     private global::Google.Protobuf.WellKnownTypes.FieldMask updateMask_;
+    /// <summary>
+    /// Field mask that specifies which fields of the device are going to be updated.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Google.Protobuf.WellKnownTypes.FieldMask UpdateMask {
       get { return updateMask_; }
@@ -1283,6 +1353,9 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     /// <summary>Field number for the "name" field.</summary>
     public const int NameFieldNumber = 3;
     private string name_ = "";
+    /// <summary>
+    /// Name of the device. The name must be unique within the registry.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Name {
       get { return name_; }
@@ -1294,6 +1367,9 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     /// <summary>Field number for the "description" field.</summary>
     public const int DescriptionFieldNumber = 4;
     private string description_ = "";
+    /// <summary>
+    /// Description of the device.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Description {
       get { return description_; }
@@ -1308,7 +1384,9 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
         = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 42);
     private readonly pbc::MapField<string, string> topicAliases_ = new pbc::MapField<string, string>();
     /// <summary>
-    /// map from alias to canonical topic name prefix, e.g. my/custom/alias -> $device/abcdef/events
+    /// Alias of a device topic.
+    ///
+    /// Alias is an alternate name of a device topic assigned by the user. Map alias to canonical topic name prefix, e.g. `my/custom/alias` match to `$device/{id}/events`.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::MapField<string, string> TopicAliases {
@@ -1499,6 +1577,9 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     /// <summary>Field number for the "device_id" field.</summary>
     public const int DeviceIdFieldNumber = 1;
     private string deviceId_ = "";
+    /// <summary>
+    /// ID of the device that is being updated.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string DeviceId {
       get { return deviceId_; }
@@ -1628,6 +1709,11 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     /// <summary>Field number for the "device_id" field.</summary>
     public const int DeviceIdFieldNumber = 1;
     private string deviceId_ = "";
+    /// <summary>
+    /// ID of the device to delete.
+    ///
+    /// To get a device ID make a [DeviceService.List] request.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string DeviceId {
       get { return deviceId_; }
@@ -1757,6 +1843,9 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     /// <summary>Field number for the "device_id" field.</summary>
     public const int DeviceIdFieldNumber = 1;
     private string deviceId_ = "";
+    /// <summary>
+    /// ID of the device that is being deleted.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string DeviceId {
       get { return deviceId_; }
@@ -1886,6 +1975,9 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     /// <summary>Field number for the "device_id" field.</summary>
     public const int DeviceIdFieldNumber = 1;
     private string deviceId_ = "";
+    /// <summary>
+    /// ID of the device to list certificates for.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string DeviceId {
       get { return deviceId_; }
@@ -2017,6 +2109,9 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     private static readonly pb::FieldCodec<global::Yandex.Cloud.Iot.Devices.V1.DeviceCertificate> _repeated_certificates_codec
         = pb::FieldCodec.ForMessage(10, global::Yandex.Cloud.Iot.Devices.V1.DeviceCertificate.Parser);
     private readonly pbc::RepeatedField<global::Yandex.Cloud.Iot.Devices.V1.DeviceCertificate> certificates_ = new pbc::RepeatedField<global::Yandex.Cloud.Iot.Devices.V1.DeviceCertificate>();
+    /// <summary>
+    /// List of certificates for the specified device.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::RepeatedField<global::Yandex.Cloud.Iot.Devices.V1.DeviceCertificate> Certificates {
       get { return certificates_; }
@@ -2137,6 +2232,11 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     /// <summary>Field number for the "device_id" field.</summary>
     public const int DeviceIdFieldNumber = 1;
     private string deviceId_ = "";
+    /// <summary>
+    /// ID of the device for which the certificate is being added.
+    ///
+    /// To get a device ID make a [DeviceService.List] request.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string DeviceId {
       get { return deviceId_; }
@@ -2148,6 +2248,9 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     /// <summary>Field number for the "certificate_data" field.</summary>
     public const int CertificateDataFieldNumber = 3;
     private string certificateData_ = "";
+    /// <summary>
+    /// Public part of the certificate.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string CertificateData {
       get { return certificateData_; }
@@ -2294,6 +2397,9 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     /// <summary>Field number for the "device_id" field.</summary>
     public const int DeviceIdFieldNumber = 1;
     private string deviceId_ = "";
+    /// <summary>
+    /// ID of the device certificate that is being added.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string DeviceId {
       get { return deviceId_; }
@@ -2305,6 +2411,9 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     /// <summary>Field number for the "fingerprint" field.</summary>
     public const int FingerprintFieldNumber = 2;
     private string fingerprint_ = "";
+    /// <summary>
+    /// Fingerprint of the certificate that is being added.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Fingerprint {
       get { return fingerprint_; }
@@ -2451,6 +2560,11 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     /// <summary>Field number for the "device_id" field.</summary>
     public const int DeviceIdFieldNumber = 1;
     private string deviceId_ = "";
+    /// <summary>
+    /// ID of the device to delete a certificate for.
+    ///
+    /// To get a device ID make a [DeviceService.List] request.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string DeviceId {
       get { return deviceId_; }
@@ -2462,6 +2576,9 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     /// <summary>Field number for the "fingerprint" field.</summary>
     public const int FingerprintFieldNumber = 2;
     private string fingerprint_ = "";
+    /// <summary>
+    /// Fingerprint of the certificate to delete.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Fingerprint {
       get { return fingerprint_; }
@@ -2608,6 +2725,9 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     /// <summary>Field number for the "device_id" field.</summary>
     public const int DeviceIdFieldNumber = 1;
     private string deviceId_ = "";
+    /// <summary>
+    /// ID of the device certificate that is being deleted.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string DeviceId {
       get { return deviceId_; }
@@ -2619,6 +2739,9 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     /// <summary>Field number for the "fingerprint" field.</summary>
     public const int FingerprintFieldNumber = 2;
     private string fingerprint_ = "";
+    /// <summary>
+    /// Fingerprint of the certificate that is being deleted.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Fingerprint {
       get { return fingerprint_; }
@@ -2764,6 +2887,11 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     /// <summary>Field number for the "device_id" field.</summary>
     public const int DeviceIdFieldNumber = 1;
     private string deviceId_ = "";
+    /// <summary>
+    /// ID of the registry to list passwords in.
+    ///
+    /// To get a registry ID make a [RegistryService.List] request.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string DeviceId {
       get { return deviceId_; }
@@ -2895,6 +3023,9 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     private static readonly pb::FieldCodec<global::Yandex.Cloud.Iot.Devices.V1.DevicePassword> _repeated_passwords_codec
         = pb::FieldCodec.ForMessage(10, global::Yandex.Cloud.Iot.Devices.V1.DevicePassword.Parser);
     private readonly pbc::RepeatedField<global::Yandex.Cloud.Iot.Devices.V1.DevicePassword> passwords_ = new pbc::RepeatedField<global::Yandex.Cloud.Iot.Devices.V1.DevicePassword>();
+    /// <summary>
+    /// List of passwords for the specified device.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::RepeatedField<global::Yandex.Cloud.Iot.Devices.V1.DevicePassword> Passwords {
       get { return passwords_; }
@@ -3015,6 +3146,11 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     /// <summary>Field number for the "device_id" field.</summary>
     public const int DeviceIdFieldNumber = 1;
     private string deviceId_ = "";
+    /// <summary>
+    /// ID of the device to add a password for.
+    ///
+    /// To get a device ID make a [DeviceService.List] request.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string DeviceId {
       get { return deviceId_; }
@@ -3027,7 +3163,9 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     public const int PasswordFieldNumber = 2;
     private string password_ = "";
     /// <summary>
-    /// must contain at least 3 of 4 ASCII character groups: upper case latin, lower case latin, numbers and special symbols
+    /// Passwords for the device.
+    ///
+    /// The password must contain at least three character categories among the following: upper case latin, lower case latin, numbers and special symbols.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Password {
@@ -3175,6 +3313,9 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     /// <summary>Field number for the "device_id" field.</summary>
     public const int DeviceIdFieldNumber = 1;
     private string deviceId_ = "";
+    /// <summary>
+    /// ID of the device for which the password is being added.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string DeviceId {
       get { return deviceId_; }
@@ -3186,6 +3327,9 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     /// <summary>Field number for the "password_id" field.</summary>
     public const int PasswordIdFieldNumber = 2;
     private string passwordId_ = "";
+    /// <summary>
+    /// ID of the password that is being added.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string PasswordId {
       get { return passwordId_; }
@@ -3332,6 +3476,11 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     /// <summary>Field number for the "device_id" field.</summary>
     public const int DeviceIdFieldNumber = 1;
     private string deviceId_ = "";
+    /// <summary>
+    /// ID of the device to delete a password for.
+    ///
+    /// To get a device ID make a [DeviceService.List] request.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string DeviceId {
       get { return deviceId_; }
@@ -3343,6 +3492,11 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     /// <summary>Field number for the "password_id" field.</summary>
     public const int PasswordIdFieldNumber = 2;
     private string passwordId_ = "";
+    /// <summary>
+    /// ID of the password to delete.
+    ///
+    /// To get a password ID make a [DeviceService.ListPasswords] request.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string PasswordId {
       get { return passwordId_; }
@@ -3489,6 +3643,9 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     /// <summary>Field number for the "device_id" field.</summary>
     public const int DeviceIdFieldNumber = 1;
     private string deviceId_ = "";
+    /// <summary>
+    /// ID of the device for which the password is being deleted.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string DeviceId {
       get { return deviceId_; }
@@ -3500,6 +3657,9 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     /// <summary>Field number for the "password_id" field.</summary>
     public const int PasswordIdFieldNumber = 2;
     private string passwordId_ = "";
+    /// <summary>
+    /// ID of the password that is being deleted.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string PasswordId {
       get { return passwordId_; }
@@ -3648,6 +3808,11 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     /// <summary>Field number for the "device_id" field.</summary>
     public const int DeviceIdFieldNumber = 1;
     private string deviceId_ = "";
+    /// <summary>
+    /// ID of the device to list operations for.
+    ///
+    /// To get a device ID make a [DeviceService.List] request.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string DeviceId {
       get { return deviceId_; }
@@ -3659,6 +3824,12 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     /// <summary>Field number for the "page_size" field.</summary>
     public const int PageSizeFieldNumber = 2;
     private long pageSize_;
+    /// <summary>
+    /// The maximum number of results per page that should be returned. If the number of available
+    /// results is larger than `page_size`, the service returns a [ListDeviceOperationsResponse.next_page_token]
+    /// that can be used to get the next page of results in subsequent list requests.
+    /// Default value: 100.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long PageSize {
       get { return pageSize_; }
@@ -3670,6 +3841,10 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     /// <summary>Field number for the "page_token" field.</summary>
     public const int PageTokenFieldNumber = 3;
     private string pageToken_ = "";
+    /// <summary>
+    /// Page token. To get the next page of results, set `page_token` to the
+    /// [ListDeviceOperationsResponse.next_page_token] returned by a previous list request.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string PageToken {
       get { return pageToken_; }
@@ -3681,6 +3856,10 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     /// <summary>Field number for the "filter" field.</summary>
     public const int FilterFieldNumber = 4;
     private string filter_ = "";
+    /// <summary>
+    /// A filter expression that filters resources listed in the response.
+    /// Currently you can use filtering only on [Device.name] field.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Filter {
       get { return filter_; }
@@ -3861,6 +4040,9 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     private static readonly pb::FieldCodec<global::Yandex.Cloud.Operation.Operation> _repeated_operations_codec
         = pb::FieldCodec.ForMessage(10, global::Yandex.Cloud.Operation.Operation.Parser);
     private readonly pbc::RepeatedField<global::Yandex.Cloud.Operation.Operation> operations_ = new pbc::RepeatedField<global::Yandex.Cloud.Operation.Operation>();
+    /// <summary>
+    /// List of operations for the specified device certificate.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::RepeatedField<global::Yandex.Cloud.Operation.Operation> Operations {
       get { return operations_; }
@@ -3869,6 +4051,13 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     /// <summary>Field number for the "next_page_token" field.</summary>
     public const int NextPageTokenFieldNumber = 2;
     private string nextPageToken_ = "";
+    /// <summary>
+    /// Token for getting the next page of the list. If the number of results is greater than
+    /// the specified [ListDeviceOperationsRequest.page_size], use `next_page_token` as the value
+    /// for the [ListDeviceOperationsRequest.page_token] parameter in the next list request.
+    ///
+    /// Each subsequent page will have its own `next_page_token` to continue paging through the results.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string NextPageToken {
       get { return nextPageToken_; }

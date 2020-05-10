@@ -25,19 +25,21 @@ namespace Yandex.Cloud.K8S.V1 {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "Cil5YW5kZXgvY2xvdWQvazhzL3YxL3ZlcnNpb25fc2VydmljZS5wcm90bxIT",
-            "eWFuZGV4LmNsb3VkLms4cy52MRoheWFuZGV4L2Nsb3VkL2s4cy92MS9jbHVz",
-            "dGVyLnByb3RvIhUKE0xpc3RWZXJzaW9uc1JlcXVlc3QiWgoUTGlzdFZlcnNp",
-            "b25zUmVzcG9uc2USQgoSYXZhaWxhYmxlX3ZlcnNpb25zGAEgAygLMiYueWFu",
-            "ZGV4LmNsb3VkLms4cy52MS5BdmFpbGFibGVWZXJzaW9ucyJjChFBdmFpbGFi",
-            "bGVWZXJzaW9ucxI8Cg9yZWxlYXNlX2NoYW5uZWwYASABKA4yIy55YW5kZXgu",
-            "Y2xvdWQuazhzLnYxLlJlbGVhc2VDaGFubmVsEhAKCHZlcnNpb25zGAIgAygJ",
-            "Mm0KDlZlcnNpb25TZXJ2aWNlElsKBExpc3QSKC55YW5kZXguY2xvdWQuazhz",
-            "LnYxLkxpc3RWZXJzaW9uc1JlcXVlc3QaKS55YW5kZXguY2xvdWQuazhzLnYx",
-            "Lkxpc3RWZXJzaW9uc1Jlc3BvbnNlQlYKF3lhbmRleC5jbG91ZC5hcGkuazhz",
-            "LnYxWjtnaXRodWIuY29tL3lhbmRleC1jbG91ZC9nby1nZW5wcm90by95YW5k",
-            "ZXgvY2xvdWQvazhzL3YxO2s4c2IGcHJvdG8z"));
+            "eWFuZGV4LmNsb3VkLms4cy52MRocZ29vZ2xlL2FwaS9hbm5vdGF0aW9ucy5w",
+            "cm90bxoheWFuZGV4L2Nsb3VkL2s4cy92MS9jbHVzdGVyLnByb3RvIhUKE0xp",
+            "c3RWZXJzaW9uc1JlcXVlc3QiWgoUTGlzdFZlcnNpb25zUmVzcG9uc2USQgoS",
+            "YXZhaWxhYmxlX3ZlcnNpb25zGAEgAygLMiYueWFuZGV4LmNsb3VkLms4cy52",
+            "MS5BdmFpbGFibGVWZXJzaW9ucyJjChFBdmFpbGFibGVWZXJzaW9ucxI8Cg9y",
+            "ZWxlYXNlX2NoYW5uZWwYASABKA4yIy55YW5kZXguY2xvdWQuazhzLnYxLlJl",
+            "bGVhc2VDaGFubmVsEhAKCHZlcnNpb25zGAIgAygJMpcBCg5WZXJzaW9uU2Vy",
+            "dmljZRKEAQoETGlzdBIoLnlhbmRleC5jbG91ZC5rOHMudjEuTGlzdFZlcnNp",
+            "b25zUmVxdWVzdBopLnlhbmRleC5jbG91ZC5rOHMudjEuTGlzdFZlcnNpb25z",
+            "UmVzcG9uc2UiJ4LT5JMCIRIfL21hbmFnZWQta3ViZXJuZXRlcy92MS92ZXJz",
+            "aW9uc0JWChd5YW5kZXguY2xvdWQuYXBpLms4cy52MVo7Z2l0aHViLmNvbS95",
+            "YW5kZXgtY2xvdWQvZ28tZ2VucHJvdG8veWFuZGV4L2Nsb3VkL2s4cy92MTtr",
+            "OHNiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Yandex.Cloud.K8S.V1.ClusterReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Yandex.Cloud.K8S.V1.ClusterReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.ListVersionsRequest), global::Yandex.Cloud.K8S.V1.ListVersionsRequest.Parser, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.ListVersionsResponse), global::Yandex.Cloud.K8S.V1.ListVersionsResponse.Parser, new[]{ "AvailableVersions" }, null, null, null),
@@ -188,6 +190,9 @@ namespace Yandex.Cloud.K8S.V1 {
     private static readonly pb::FieldCodec<global::Yandex.Cloud.K8S.V1.AvailableVersions> _repeated_availableVersions_codec
         = pb::FieldCodec.ForMessage(10, global::Yandex.Cloud.K8S.V1.AvailableVersions.Parser);
     private readonly pbc::RepeatedField<global::Yandex.Cloud.K8S.V1.AvailableVersions> availableVersions_ = new pbc::RepeatedField<global::Yandex.Cloud.K8S.V1.AvailableVersions>();
+    /// <summary>
+    /// Versions available in the specified release channel.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::RepeatedField<global::Yandex.Cloud.K8S.V1.AvailableVersions> AvailableVersions {
       get { return availableVersions_; }
@@ -308,6 +313,9 @@ namespace Yandex.Cloud.K8S.V1 {
     /// <summary>Field number for the "release_channel" field.</summary>
     public const int ReleaseChannelFieldNumber = 1;
     private global::Yandex.Cloud.K8S.V1.ReleaseChannel releaseChannel_ = 0;
+    /// <summary>
+    /// Release channel: `RAPID`, `REGULAR` or `STABLE`. For more details see [documentation](https://cloud.yandex.ru/docs/managed-kubernetes/concepts/release-channels-and-updates).
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.K8S.V1.ReleaseChannel ReleaseChannel {
       get { return releaseChannel_; }
@@ -321,6 +329,9 @@ namespace Yandex.Cloud.K8S.V1 {
     private static readonly pb::FieldCodec<string> _repeated_versions_codec
         = pb::FieldCodec.ForString(18);
     private readonly pbc::RepeatedField<string> versions_ = new pbc::RepeatedField<string>();
+    /// <summary>
+    /// Version of Kubernetes components.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::RepeatedField<string> Versions {
       get { return versions_; }

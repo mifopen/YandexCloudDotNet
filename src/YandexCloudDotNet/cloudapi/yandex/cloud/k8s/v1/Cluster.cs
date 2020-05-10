@@ -28,7 +28,7 @@ namespace Yandex.Cloud.K8S.V1 {
             "bG91ZC5rOHMudjEaH2dvb2dsZS9wcm90b2J1Zi90aW1lc3RhbXAucHJvdG8a",
             "JXlhbmRleC9jbG91ZC9rOHMvdjEvbWFpbnRlbmFuY2UucHJvdG8aIXlhbmRl",
             "eC9jbG91ZC9rOHMvdjEvdmVyc2lvbi5wcm90bxodeWFuZGV4L2Nsb3VkL3Zh",
-            "bGlkYXRpb24ucHJvdG8i1wYKB0NsdXN0ZXISCgoCaWQYASABKAkSEQoJZm9s",
+            "bGlkYXRpb24ucHJvdG8iywcKB0NsdXN0ZXISCgoCaWQYASABKAkSEQoJZm9s",
             "ZGVyX2lkGAIgASgJEi4KCmNyZWF0ZWRfYXQYAyABKAsyGi5nb29nbGUucHJv",
             "dG9idWYuVGltZXN0YW1wEgwKBG5hbWUYBCABKAkSEwoLZGVzY3JpcHRpb24Y",
             "BSABKAkSOAoGbGFiZWxzGAYgAygLMigueWFuZGV4LmNsb3VkLms4cy52MS5D",
@@ -41,48 +41,58 @@ namespace Yandex.Cloud.K8S.V1 {
             "eV9pcHY0X2FkZHJlc3MYDCABKAlCCIrIMQQ8PTE1SAASGgoSc2VydmljZV9h",
             "Y2NvdW50X2lkGA0gASgJEh8KF25vZGVfc2VydmljZV9hY2NvdW50X2lkGA4g",
             "ASgJEjwKD3JlbGVhc2VfY2hhbm5lbBgPIAEoDjIjLnlhbmRleC5jbG91ZC5r",
-            "OHMudjEuUmVsZWFzZUNoYW5uZWwaLQoLTGFiZWxzRW50cnkSCwoDa2V5GAEg",
-            "ASgJEg0KBXZhbHVlGAIgASgJOgI4ASKHAQoGU3RhdHVzEhYKElNUQVRVU19V",
-            "TlNQRUNJRklFRBAAEhAKDFBST1ZJU0lPTklORxABEgsKB1JVTk5JTkcQAhIP",
-            "CgtSRUNPTkNJTElORxADEgwKCFNUT1BQSU5HEAQSCwoHU1RPUFBFRBAFEgwK",
-            "CERFTEVUSU5HEAYSDAoIU1RBUlRJTkcQByI8CgZIZWFsdGgSFgoSSEVBTFRI",
-            "X1VOU1BFQ0lGSUVEEAASCwoHSEVBTFRIWRABEg0KCVVOSEVBTFRIWRACQhIK",
-            "EGludGVybmV0X2dhdGV3YXkikwMKBk1hc3RlchI4Cgx6b25hbF9tYXN0ZXIY",
-            "ASABKAsyIC55YW5kZXguY2xvdWQuazhzLnYxLlpvbmFsTWFzdGVySAASPgoP",
-            "cmVnaW9uYWxfbWFzdGVyGAcgASgLMiMueWFuZGV4LmNsb3VkLms4cy52MS5S",
-            "ZWdpb25hbE1hc3RlckgAEg8KB3ZlcnNpb24YAiABKAkSNwoJZW5kcG9pbnRz",
-            "GAMgASgLMiQueWFuZGV4LmNsb3VkLms4cy52MS5NYXN0ZXJFbmRwb2ludHMS",
-            "NAoLbWFzdGVyX2F1dGgYBCABKAsyHy55YW5kZXguY2xvdWQuazhzLnYxLk1h",
-            "c3RlckF1dGgSNgoMdmVyc2lvbl9pbmZvGAUgASgLMiAueWFuZGV4LmNsb3Vk",
-            "Lms4cy52MS5WZXJzaW9uSW5mbxJIChJtYWludGVuYW5jZV9wb2xpY3kYBiAB",
-            "KAsyLC55YW5kZXguY2xvdWQuazhzLnYxLk1hc3Rlck1haW50ZW5hbmNlUG9s",
-            "aWN5Qg0KC21hc3Rlcl90eXBlIiwKCk1hc3RlckF1dGgSHgoWY2x1c3Rlcl9j",
-            "YV9jZXJ0aWZpY2F0ZRgBIAEoCSJYCgtab25hbE1hc3RlchIPCgd6b25lX2lk",
-            "GAEgASgJEhsKE2ludGVybmFsX3Y0X2FkZHJlc3MYAiABKAkSGwoTZXh0ZXJu",
-            "YWxfdjRfYWRkcmVzcxgDIAEoCSJdCg5SZWdpb25hbE1hc3RlchIRCglyZWdp",
-            "b25faWQYASABKAkSGwoTaW50ZXJuYWxfdjRfYWRkcmVzcxgCIAEoCRIbChNl",
-            "eHRlcm5hbF92NF9hZGRyZXNzGAMgASgJIk0KD01hc3RlckVuZHBvaW50cxIc",
-            "ChRpbnRlcm5hbF92NF9lbmRwb2ludBgBIAEoCRIcChRleHRlcm5hbF92NF9l",
-            "bmRwb2ludBgCIAEoCSJWChJJUEFsbG9jYXRpb25Qb2xpY3kSHwoXY2x1c3Rl",
-            "cl9pcHY0X2NpZHJfYmxvY2sYASABKAkSHwoXc2VydmljZV9pcHY0X2NpZHJf",
-            "YmxvY2sYAiABKAkicwoXTWFzdGVyTWFpbnRlbmFuY2VQb2xpY3kSFAoMYXV0",
-            "b191cGdyYWRlGAEgASgIEkIKEm1haW50ZW5hbmNlX3dpbmRvdxgCIAEoCzIm",
-            "LnlhbmRleC5jbG91ZC5rOHMudjEuTWFpbnRlbmFuY2VXaW5kb3cqVQoOUmVs",
-            "ZWFzZUNoYW5uZWwSHwobUkVMRUFTRV9DSEFOTkVMX1VOU1BFQ0lGSUVEEAAS",
-            "CQoFUkFQSUQQARILCgdSRUdVTEFSEAISCgoGU1RBQkxFEANCVgoXeWFuZGV4",
-            "LmNsb3VkLmFwaS5rOHMudjFaO2dpdGh1Yi5jb20veWFuZGV4LWNsb3VkL2dv",
-            "LWdlbnByb3RvL3lhbmRleC9jbG91ZC9rOHMvdjE7azhzYgZwcm90bzM="));
+            "OHMudjEuUmVsZWFzZUNoYW5uZWwSOgoObmV0d29ya19wb2xpY3kYECABKAsy",
+            "Ii55YW5kZXguY2xvdWQuazhzLnYxLk5ldHdvcmtQb2xpY3kSNgoMa21zX3By",
+            "b3ZpZGVyGBEgASgLMiAueWFuZGV4LmNsb3VkLms4cy52MS5LTVNQcm92aWRl",
+            "chotCgtMYWJlbHNFbnRyeRILCgNrZXkYASABKAkSDQoFdmFsdWUYAiABKAk6",
+            "AjgBIocBCgZTdGF0dXMSFgoSU1RBVFVTX1VOU1BFQ0lGSUVEEAASEAoMUFJP",
+            "VklTSU9OSU5HEAESCwoHUlVOTklORxACEg8KC1JFQ09OQ0lMSU5HEAMSDAoI",
+            "U1RPUFBJTkcQBBILCgdTVE9QUEVEEAUSDAoIREVMRVRJTkcQBhIMCghTVEFS",
+            "VElORxAHIjwKBkhlYWx0aBIWChJIRUFMVEhfVU5TUEVDSUZJRUQQABILCgdI",
+            "RUFMVEhZEAESDQoJVU5IRUFMVEhZEAJCEgoQaW50ZXJuZXRfZ2F0ZXdheSKT",
+            "AwoGTWFzdGVyEjgKDHpvbmFsX21hc3RlchgBIAEoCzIgLnlhbmRleC5jbG91",
+            "ZC5rOHMudjEuWm9uYWxNYXN0ZXJIABI+Cg9yZWdpb25hbF9tYXN0ZXIYByAB",
+            "KAsyIy55YW5kZXguY2xvdWQuazhzLnYxLlJlZ2lvbmFsTWFzdGVySAASDwoH",
+            "dmVyc2lvbhgCIAEoCRI3CgllbmRwb2ludHMYAyABKAsyJC55YW5kZXguY2xv",
+            "dWQuazhzLnYxLk1hc3RlckVuZHBvaW50cxI0CgttYXN0ZXJfYXV0aBgEIAEo",
+            "CzIfLnlhbmRleC5jbG91ZC5rOHMudjEuTWFzdGVyQXV0aBI2Cgx2ZXJzaW9u",
+            "X2luZm8YBSABKAsyIC55YW5kZXguY2xvdWQuazhzLnYxLlZlcnNpb25JbmZv",
+            "EkgKEm1haW50ZW5hbmNlX3BvbGljeRgGIAEoCzIsLnlhbmRleC5jbG91ZC5r",
+            "OHMudjEuTWFzdGVyTWFpbnRlbmFuY2VQb2xpY3lCDQoLbWFzdGVyX3R5cGUi",
+            "LAoKTWFzdGVyQXV0aBIeChZjbHVzdGVyX2NhX2NlcnRpZmljYXRlGAEgASgJ",
+            "IlgKC1pvbmFsTWFzdGVyEg8KB3pvbmVfaWQYASABKAkSGwoTaW50ZXJuYWxf",
+            "djRfYWRkcmVzcxgCIAEoCRIbChNleHRlcm5hbF92NF9hZGRyZXNzGAMgASgJ",
+            "Il0KDlJlZ2lvbmFsTWFzdGVyEhEKCXJlZ2lvbl9pZBgBIAEoCRIbChNpbnRl",
+            "cm5hbF92NF9hZGRyZXNzGAIgASgJEhsKE2V4dGVybmFsX3Y0X2FkZHJlc3MY",
+            "AyABKAkiTQoPTWFzdGVyRW5kcG9pbnRzEhwKFGludGVybmFsX3Y0X2VuZHBv",
+            "aW50GAEgASgJEhwKFGV4dGVybmFsX3Y0X2VuZHBvaW50GAIgASgJIo4BChJJ",
+            "UEFsbG9jYXRpb25Qb2xpY3kSHwoXY2x1c3Rlcl9pcHY0X2NpZHJfYmxvY2sY",
+            "ASABKAkSNgoYbm9kZV9pcHY0X2NpZHJfbWFza19zaXplGAUgASgDQhT6xzEQ",
+            "MCwyNCwyNSwyNiwyNywyOBIfChdzZXJ2aWNlX2lwdjRfY2lkcl9ibG9jaxgC",
+            "IAEoCSJzChdNYXN0ZXJNYWludGVuYW5jZVBvbGljeRIUCgxhdXRvX3VwZ3Jh",
+            "ZGUYASABKAgSQgoSbWFpbnRlbmFuY2Vfd2luZG93GAIgASgLMiYueWFuZGV4",
+            "LmNsb3VkLms4cy52MS5NYWludGVuYW5jZVdpbmRvdyKAAQoNTmV0d29ya1Bv",
+            "bGljeRI9Cghwcm92aWRlchgBIAEoDjIrLnlhbmRleC5jbG91ZC5rOHMudjEu",
+            "TmV0d29ya1BvbGljeS5Qcm92aWRlciIwCghQcm92aWRlchIYChRQUk9WSURF",
+            "Ul9VTlNQRUNJRklFRBAAEgoKBkNBTElDTxABIh0KC0tNU1Byb3ZpZGVyEg4K",
+            "BmtleV9pZBgBIAEoCSpVCg5SZWxlYXNlQ2hhbm5lbBIfChtSRUxFQVNFX0NI",
+            "QU5ORUxfVU5TUEVDSUZJRUQQABIJCgVSQVBJRBABEgsKB1JFR1VMQVIQAhIK",
+            "CgZTVEFCTEUQA0JWChd5YW5kZXguY2xvdWQuYXBpLms4cy52MVo7Z2l0aHVi",
+            "LmNvbS95YW5kZXgtY2xvdWQvZ28tZ2VucHJvdG8veWFuZGV4L2Nsb3VkL2s4",
+            "cy92MTtrOHNiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Yandex.Cloud.K8S.V1.MaintenanceReflection.Descriptor, global::Yandex.Cloud.K8S.V1.VersionReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Yandex.Cloud.K8S.V1.ReleaseChannel), }, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.Cluster), global::Yandex.Cloud.K8S.V1.Cluster.Parser, new[]{ "Id", "FolderId", "CreatedAt", "Name", "Description", "Labels", "Status", "Health", "NetworkId", "Master", "IpAllocationPolicy", "GatewayIpv4Address", "ServiceAccountId", "NodeServiceAccountId", "ReleaseChannel" }, new[]{ "InternetGateway" }, new[]{ typeof(global::Yandex.Cloud.K8S.V1.Cluster.Types.Status), typeof(global::Yandex.Cloud.K8S.V1.Cluster.Types.Health) }, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.Cluster), global::Yandex.Cloud.K8S.V1.Cluster.Parser, new[]{ "Id", "FolderId", "CreatedAt", "Name", "Description", "Labels", "Status", "Health", "NetworkId", "Master", "IpAllocationPolicy", "GatewayIpv4Address", "ServiceAccountId", "NodeServiceAccountId", "ReleaseChannel", "NetworkPolicy", "KmsProvider" }, new[]{ "InternetGateway" }, new[]{ typeof(global::Yandex.Cloud.K8S.V1.Cluster.Types.Status), typeof(global::Yandex.Cloud.K8S.V1.Cluster.Types.Health) }, new pbr::GeneratedClrTypeInfo[] { null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.Master), global::Yandex.Cloud.K8S.V1.Master.Parser, new[]{ "ZonalMaster", "RegionalMaster", "Version", "Endpoints", "MasterAuth", "VersionInfo", "MaintenancePolicy" }, new[]{ "MasterType" }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.MasterAuth), global::Yandex.Cloud.K8S.V1.MasterAuth.Parser, new[]{ "ClusterCaCertificate" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.ZonalMaster), global::Yandex.Cloud.K8S.V1.ZonalMaster.Parser, new[]{ "ZoneId", "InternalV4Address", "ExternalV4Address" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.RegionalMaster), global::Yandex.Cloud.K8S.V1.RegionalMaster.Parser, new[]{ "RegionId", "InternalV4Address", "ExternalV4Address" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.MasterEndpoints), global::Yandex.Cloud.K8S.V1.MasterEndpoints.Parser, new[]{ "InternalV4Endpoint", "ExternalV4Endpoint" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.IPAllocationPolicy), global::Yandex.Cloud.K8S.V1.IPAllocationPolicy.Parser, new[]{ "ClusterIpv4CidrBlock", "ServiceIpv4CidrBlock" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.MasterMaintenancePolicy), global::Yandex.Cloud.K8S.V1.MasterMaintenancePolicy.Parser, new[]{ "AutoUpgrade", "MaintenanceWindow" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.IPAllocationPolicy), global::Yandex.Cloud.K8S.V1.IPAllocationPolicy.Parser, new[]{ "ClusterIpv4CidrBlock", "NodeIpv4CidrMaskSize", "ServiceIpv4CidrBlock" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.MasterMaintenancePolicy), global::Yandex.Cloud.K8S.V1.MasterMaintenancePolicy.Parser, new[]{ "AutoUpgrade", "MaintenanceWindow" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.NetworkPolicy), global::Yandex.Cloud.K8S.V1.NetworkPolicy.Parser, new[]{ "Provider" }, null, new[]{ typeof(global::Yandex.Cloud.K8S.V1.NetworkPolicy.Types.Provider) }, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.KMSProvider), global::Yandex.Cloud.K8S.V1.KMSProvider.Parser, new[]{ "KeyId" }, null, null, null)
           }));
     }
     #endregion
@@ -91,8 +101,18 @@ namespace Yandex.Cloud.K8S.V1 {
   #region Enums
   internal enum ReleaseChannel {
     [pbr::OriginalName("RELEASE_CHANNEL_UNSPECIFIED")] Unspecified = 0,
+    /// <summary>
+    /// Minor updates with new functions and improvements are often added.
+    /// You can't disable automatic updates in this channel, but you can specify a time period for automatic updates.
+    /// </summary>
     [pbr::OriginalName("RAPID")] Rapid = 1,
+    /// <summary>
+    /// New functions and improvements are added in chunks shortly after they appear on `RAPID`.
+    /// </summary>
     [pbr::OriginalName("REGULAR")] Regular = 2,
+    /// <summary>
+    /// Only updates related to bug fixes or security improvements are added.
+    /// </summary>
     [pbr::OriginalName("STABLE")] Stable = 3,
   }
 
@@ -141,6 +161,8 @@ namespace Yandex.Cloud.K8S.V1 {
       serviceAccountId_ = other.serviceAccountId_;
       nodeServiceAccountId_ = other.nodeServiceAccountId_;
       releaseChannel_ = other.releaseChannel_;
+      networkPolicy_ = other.networkPolicy_ != null ? other.networkPolicy_.Clone() : null;
+      kmsProvider_ = other.kmsProvider_ != null ? other.kmsProvider_.Clone() : null;
       switch (other.InternetGatewayCase) {
         case InternetGatewayOneofCase.GatewayIpv4Address:
           GatewayIpv4Address = other.GatewayIpv4Address;
@@ -353,11 +375,42 @@ namespace Yandex.Cloud.K8S.V1 {
     /// <summary>Field number for the "release_channel" field.</summary>
     public const int ReleaseChannelFieldNumber = 15;
     private global::Yandex.Cloud.K8S.V1.ReleaseChannel releaseChannel_ = 0;
+    /// <summary>
+    /// When creating a Kubernetes cluster, you should specify one of three release channels. The release channel contains several Kubernetes versions.
+    /// Channels differ in the set of available versions, the management of auto-updates, and the updates received.
+    /// You can't change the channel once the Kubernetes cluster is created, you can only recreate the Kubernetes cluster and specify a new release channel.
+    /// For more details see [documentation](https://cloud.yandex.com/docs/managed-kubernetes/concepts/release-channels-and-updates).
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.K8S.V1.ReleaseChannel ReleaseChannel {
       get { return releaseChannel_; }
       set {
         releaseChannel_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "network_policy" field.</summary>
+    public const int NetworkPolicyFieldNumber = 16;
+    private global::Yandex.Cloud.K8S.V1.NetworkPolicy networkPolicy_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.K8S.V1.NetworkPolicy NetworkPolicy {
+      get { return networkPolicy_; }
+      set {
+        networkPolicy_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "kms_provider" field.</summary>
+    public const int KmsProviderFieldNumber = 17;
+    private global::Yandex.Cloud.K8S.V1.KMSProvider kmsProvider_;
+    /// <summary>
+    /// KMS provider configuration.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.K8S.V1.KMSProvider KmsProvider {
+      get { return kmsProvider_; }
+      set {
+        kmsProvider_ = value;
       }
     }
 
@@ -407,6 +460,8 @@ namespace Yandex.Cloud.K8S.V1 {
       if (ServiceAccountId != other.ServiceAccountId) return false;
       if (NodeServiceAccountId != other.NodeServiceAccountId) return false;
       if (ReleaseChannel != other.ReleaseChannel) return false;
+      if (!object.Equals(NetworkPolicy, other.NetworkPolicy)) return false;
+      if (!object.Equals(KmsProvider, other.KmsProvider)) return false;
       if (InternetGatewayCase != other.InternetGatewayCase) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -429,6 +484,8 @@ namespace Yandex.Cloud.K8S.V1 {
       if (ServiceAccountId.Length != 0) hash ^= ServiceAccountId.GetHashCode();
       if (NodeServiceAccountId.Length != 0) hash ^= NodeServiceAccountId.GetHashCode();
       if (ReleaseChannel != 0) hash ^= ReleaseChannel.GetHashCode();
+      if (networkPolicy_ != null) hash ^= NetworkPolicy.GetHashCode();
+      if (kmsProvider_ != null) hash ^= KmsProvider.GetHashCode();
       hash ^= (int) internetGatewayCase_;
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -500,6 +557,14 @@ namespace Yandex.Cloud.K8S.V1 {
         output.WriteRawTag(120);
         output.WriteEnum((int) ReleaseChannel);
       }
+      if (networkPolicy_ != null) {
+        output.WriteRawTag(130, 1);
+        output.WriteMessage(NetworkPolicy);
+      }
+      if (kmsProvider_ != null) {
+        output.WriteRawTag(138, 1);
+        output.WriteMessage(KmsProvider);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -550,6 +615,12 @@ namespace Yandex.Cloud.K8S.V1 {
       }
       if (ReleaseChannel != 0) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) ReleaseChannel);
+      }
+      if (networkPolicy_ != null) {
+        size += 2 + pb::CodedOutputStream.ComputeMessageSize(NetworkPolicy);
+      }
+      if (kmsProvider_ != null) {
+        size += 2 + pb::CodedOutputStream.ComputeMessageSize(KmsProvider);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -610,6 +681,18 @@ namespace Yandex.Cloud.K8S.V1 {
       }
       if (other.ReleaseChannel != 0) {
         ReleaseChannel = other.ReleaseChannel;
+      }
+      if (other.networkPolicy_ != null) {
+        if (networkPolicy_ == null) {
+          NetworkPolicy = new global::Yandex.Cloud.K8S.V1.NetworkPolicy();
+        }
+        NetworkPolicy.MergeFrom(other.NetworkPolicy);
+      }
+      if (other.kmsProvider_ != null) {
+        if (kmsProvider_ == null) {
+          KmsProvider = new global::Yandex.Cloud.K8S.V1.KMSProvider();
+        }
+        KmsProvider.MergeFrom(other.KmsProvider);
       }
       switch (other.InternetGatewayCase) {
         case InternetGatewayOneofCase.GatewayIpv4Address:
@@ -695,6 +778,20 @@ namespace Yandex.Cloud.K8S.V1 {
           }
           case 120: {
             ReleaseChannel = (global::Yandex.Cloud.K8S.V1.ReleaseChannel) input.ReadEnum();
+            break;
+          }
+          case 130: {
+            if (networkPolicy_ == null) {
+              NetworkPolicy = new global::Yandex.Cloud.K8S.V1.NetworkPolicy();
+            }
+            input.ReadMessage(NetworkPolicy);
+            break;
+          }
+          case 138: {
+            if (kmsProvider_ == null) {
+              KmsProvider = new global::Yandex.Cloud.K8S.V1.KMSProvider();
+            }
+            input.ReadMessage(KmsProvider);
             break;
           }
         }
@@ -875,6 +972,9 @@ namespace Yandex.Cloud.K8S.V1 {
     /// <summary>Field number for the "version_info" field.</summary>
     public const int VersionInfoFieldNumber = 5;
     private global::Yandex.Cloud.K8S.V1.VersionInfo versionInfo_;
+    /// <summary>
+    /// Detailed information about the Kubernetes version that is running on the master.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.K8S.V1.VersionInfo VersionInfo {
       get { return versionInfo_; }
@@ -886,6 +986,9 @@ namespace Yandex.Cloud.K8S.V1 {
     /// <summary>Field number for the "maintenance_policy" field.</summary>
     public const int MaintenancePolicyFieldNumber = 6;
     private global::Yandex.Cloud.K8S.V1.MasterMaintenancePolicy maintenancePolicy_;
+    /// <summary>
+    /// Maintenance policy of the master.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.K8S.V1.MasterMaintenancePolicy MaintenancePolicy {
       get { return maintenancePolicy_; }
@@ -1324,7 +1427,7 @@ namespace Yandex.Cloud.K8S.V1 {
     public const int InternalV4AddressFieldNumber = 2;
     private string internalV4Address_ = "";
     /// <summary>
-    /// An IPv4 internal network address that is assigned to the master.
+    /// IPv4 internal network address that is assigned to the master.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string InternalV4Address {
@@ -1338,7 +1441,7 @@ namespace Yandex.Cloud.K8S.V1 {
     public const int ExternalV4AddressFieldNumber = 3;
     private string externalV4Address_ = "";
     /// <summary>
-    /// An IPv4 external network address that is assigned to the master.
+    /// IPv4 external network address that is assigned to the master.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ExternalV4Address {
@@ -1518,7 +1621,7 @@ namespace Yandex.Cloud.K8S.V1 {
     public const int InternalV4AddressFieldNumber = 2;
     private string internalV4Address_ = "";
     /// <summary>
-    /// An IPv4 internal network address that is assigned to the master.
+    /// IPv4 internal network address that is assigned to the master.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string InternalV4Address {
@@ -1532,7 +1635,7 @@ namespace Yandex.Cloud.K8S.V1 {
     public const int ExternalV4AddressFieldNumber = 3;
     private string externalV4Address_ = "";
     /// <summary>
-    /// An IPv4 external network address that is assigned to the master.
+    /// IPv4 external network address that is assigned to the master.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ExternalV4Address {
@@ -1847,6 +1950,7 @@ namespace Yandex.Cloud.K8S.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public IPAllocationPolicy(IPAllocationPolicy other) : this() {
       clusterIpv4CidrBlock_ = other.clusterIpv4CidrBlock_;
+      nodeIpv4CidrMaskSize_ = other.nodeIpv4CidrMaskSize_;
       serviceIpv4CidrBlock_ = other.serviceIpv4CidrBlock_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -1870,6 +1974,22 @@ namespace Yandex.Cloud.K8S.V1 {
       get { return clusterIpv4CidrBlock_; }
       set {
         clusterIpv4CidrBlock_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "node_ipv4_cidr_mask_size" field.</summary>
+    public const int NodeIpv4CidrMaskSizeFieldNumber = 5;
+    private long nodeIpv4CidrMaskSize_;
+    /// <summary>
+    /// Size of the masks that are assigned for each node in the cluster.
+    ///
+    /// If not specified, 24 is used.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long NodeIpv4CidrMaskSize {
+      get { return nodeIpv4CidrMaskSize_; }
+      set {
+        nodeIpv4CidrMaskSize_ = value;
       }
     }
 
@@ -1903,6 +2023,7 @@ namespace Yandex.Cloud.K8S.V1 {
         return true;
       }
       if (ClusterIpv4CidrBlock != other.ClusterIpv4CidrBlock) return false;
+      if (NodeIpv4CidrMaskSize != other.NodeIpv4CidrMaskSize) return false;
       if (ServiceIpv4CidrBlock != other.ServiceIpv4CidrBlock) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -1911,6 +2032,7 @@ namespace Yandex.Cloud.K8S.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (ClusterIpv4CidrBlock.Length != 0) hash ^= ClusterIpv4CidrBlock.GetHashCode();
+      if (NodeIpv4CidrMaskSize != 0L) hash ^= NodeIpv4CidrMaskSize.GetHashCode();
       if (ServiceIpv4CidrBlock.Length != 0) hash ^= ServiceIpv4CidrBlock.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -1933,6 +2055,10 @@ namespace Yandex.Cloud.K8S.V1 {
         output.WriteRawTag(18);
         output.WriteString(ServiceIpv4CidrBlock);
       }
+      if (NodeIpv4CidrMaskSize != 0L) {
+        output.WriteRawTag(40);
+        output.WriteInt64(NodeIpv4CidrMaskSize);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1943,6 +2069,9 @@ namespace Yandex.Cloud.K8S.V1 {
       int size = 0;
       if (ClusterIpv4CidrBlock.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(ClusterIpv4CidrBlock);
+      }
+      if (NodeIpv4CidrMaskSize != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(NodeIpv4CidrMaskSize);
       }
       if (ServiceIpv4CidrBlock.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(ServiceIpv4CidrBlock);
@@ -1960,6 +2089,9 @@ namespace Yandex.Cloud.K8S.V1 {
       }
       if (other.ClusterIpv4CidrBlock.Length != 0) {
         ClusterIpv4CidrBlock = other.ClusterIpv4CidrBlock;
+      }
+      if (other.NodeIpv4CidrMaskSize != 0L) {
+        NodeIpv4CidrMaskSize = other.NodeIpv4CidrMaskSize;
       }
       if (other.ServiceIpv4CidrBlock.Length != 0) {
         ServiceIpv4CidrBlock = other.ServiceIpv4CidrBlock;
@@ -1981,6 +2113,10 @@ namespace Yandex.Cloud.K8S.V1 {
           }
           case 18: {
             ServiceIpv4CidrBlock = input.ReadString();
+            break;
+          }
+          case 40: {
+            NodeIpv4CidrMaskSize = input.ReadInt64();
             break;
           }
         }
@@ -2027,6 +2163,10 @@ namespace Yandex.Cloud.K8S.V1 {
     /// <summary>Field number for the "auto_upgrade" field.</summary>
     public const int AutoUpgradeFieldNumber = 1;
     private bool autoUpgrade_;
+    /// <summary>
+    /// If set to true, automatic updates are installed in the specified period of time with no interaction from the user.
+    /// If set to false, automatic upgrades are disabled.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public bool AutoUpgrade {
       get { return autoUpgrade_; }
@@ -2038,6 +2178,10 @@ namespace Yandex.Cloud.K8S.V1 {
     /// <summary>Field number for the "maintenance_window" field.</summary>
     public const int MaintenanceWindowFieldNumber = 2;
     private global::Yandex.Cloud.K8S.V1.MaintenanceWindow maintenanceWindow_;
+    /// <summary>
+    /// Maintenance window settings. Update will start at the specified time and last no more than the specified duration.
+    /// The time is set in UTC.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.K8S.V1.MaintenanceWindow MaintenanceWindow {
       get { return maintenanceWindow_; }
@@ -2144,6 +2288,280 @@ namespace Yandex.Cloud.K8S.V1 {
               MaintenanceWindow = new global::Yandex.Cloud.K8S.V1.MaintenanceWindow();
             }
             input.ReadMessage(MaintenanceWindow);
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  internal sealed partial class NetworkPolicy : pb::IMessage<NetworkPolicy> {
+    private static readonly pb::MessageParser<NetworkPolicy> _parser = new pb::MessageParser<NetworkPolicy>(() => new NetworkPolicy());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<NetworkPolicy> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.K8S.V1.ClusterReflection.Descriptor.MessageTypes[8]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public NetworkPolicy() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public NetworkPolicy(NetworkPolicy other) : this() {
+      provider_ = other.provider_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public NetworkPolicy Clone() {
+      return new NetworkPolicy(this);
+    }
+
+    /// <summary>Field number for the "provider" field.</summary>
+    public const int ProviderFieldNumber = 1;
+    private global::Yandex.Cloud.K8S.V1.NetworkPolicy.Types.Provider provider_ = 0;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.K8S.V1.NetworkPolicy.Types.Provider Provider {
+      get { return provider_; }
+      set {
+        provider_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as NetworkPolicy);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(NetworkPolicy other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Provider != other.Provider) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Provider != 0) hash ^= Provider.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (Provider != 0) {
+        output.WriteRawTag(8);
+        output.WriteEnum((int) Provider);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Provider != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Provider);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(NetworkPolicy other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Provider != 0) {
+        Provider = other.Provider;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            Provider = (global::Yandex.Cloud.K8S.V1.NetworkPolicy.Types.Provider) input.ReadEnum();
+            break;
+          }
+        }
+      }
+    }
+
+    #region Nested types
+    /// <summary>Container for nested types declared in the NetworkPolicy message type.</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static partial class Types {
+      internal enum Provider {
+        [pbr::OriginalName("PROVIDER_UNSPECIFIED")] Unspecified = 0,
+        [pbr::OriginalName("CALICO")] Calico = 1,
+      }
+
+    }
+    #endregion
+
+  }
+
+  internal sealed partial class KMSProvider : pb::IMessage<KMSProvider> {
+    private static readonly pb::MessageParser<KMSProvider> _parser = new pb::MessageParser<KMSProvider>(() => new KMSProvider());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<KMSProvider> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.K8S.V1.ClusterReflection.Descriptor.MessageTypes[9]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public KMSProvider() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public KMSProvider(KMSProvider other) : this() {
+      keyId_ = other.keyId_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public KMSProvider Clone() {
+      return new KMSProvider(this);
+    }
+
+    /// <summary>Field number for the "key_id" field.</summary>
+    public const int KeyIdFieldNumber = 1;
+    private string keyId_ = "";
+    /// <summary>
+    /// KMS key ID for secrets encryption.
+    /// To obtain a KMS key ID use a [yandex.cloud.kms.v1.SymmetricKeyService.List] request.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string KeyId {
+      get { return keyId_; }
+      set {
+        keyId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as KMSProvider);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(KMSProvider other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (KeyId != other.KeyId) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (KeyId.Length != 0) hash ^= KeyId.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (KeyId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(KeyId);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (KeyId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(KeyId);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(KMSProvider other) {
+      if (other == null) {
+        return;
+      }
+      if (other.KeyId.Length != 0) {
+        KeyId = other.KeyId;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            KeyId = input.ReadString();
             break;
           }
         }

@@ -42,9 +42,10 @@ namespace Yandex.Cloud.Dataproc.Manager.V1 {
             "Lm1hbmFnZXIudjEuTGlzdEpvYnNSZXNwb25zZSIAEoUBCgxVcGRhdGVTdGF0",
             "dXMSOC55YW5kZXguY2xvdWQuZGF0YXByb2MubWFuYWdlci52MS5VcGRhdGVK",
             "b2JTdGF0dXNSZXF1ZXN0GjkueWFuZGV4LmNsb3VkLmRhdGFwcm9jLm1hbmFn",
-            "ZXIudjEuVXBkYXRlSm9iU3RhdHVzUmVzcG9uc2UiAEJdQgRQSEpTWlVnaXRo",
-            "dWIuY29tL3lhbmRleC1jbG91ZC9nby1nZW5wcm90by95YW5kZXgvY2xvdWQv",
-            "ZGF0YXByb2MvbWFuYWdlci92MTtkYXRhcHJvY19tYW5hZ2VyYgZwcm90bzM="));
+            "ZXIudjEuVXBkYXRlSm9iU3RhdHVzUmVzcG9uc2UiAEJ9CiR5YW5kZXguY2xv",
+            "dWQuYXBpLmRhdGFwcm9jLm1hbmFnZXIudjFaVWdpdGh1Yi5jb20veWFuZGV4",
+            "LWNsb3VkL2dvLWdlbnByb3RvL3lhbmRleC9jbG91ZC9kYXRhcHJvYy9tYW5h",
+            "Z2VyL3YxO2RhdGFwcm9jX21hbmFnZXJiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Yandex.Cloud.ValidationReflection.Descriptor, global::Yandex.Cloud.Dataproc.Manager.V1.JobReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
@@ -99,7 +100,7 @@ namespace Yandex.Cloud.Dataproc.Manager.V1 {
     public const int ClusterIdFieldNumber = 1;
     private string clusterId_ = "";
     /// <summary>
-    /// Required. ID of the cluster to list Dataproc jobs of.
+    /// Required. ID of the cluster to list Data Proc jobs of.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ClusterId {
@@ -328,7 +329,7 @@ namespace Yandex.Cloud.Dataproc.Manager.V1 {
         = pb::FieldCodec.ForMessage(10, global::Yandex.Cloud.Dataproc.Manager.V1.Job.Parser);
     private readonly pbc::RepeatedField<global::Yandex.Cloud.Dataproc.Manager.V1.Job> jobs_ = new pbc::RepeatedField<global::Yandex.Cloud.Dataproc.Manager.V1.Job>();
     /// <summary>
-    /// Requested list of Dataproc jobs.
+    /// Requested list of Data Proc jobs.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::RepeatedField<global::Yandex.Cloud.Dataproc.Manager.V1.Job> Jobs {
@@ -486,7 +487,7 @@ namespace Yandex.Cloud.Dataproc.Manager.V1 {
     public const int ClusterIdFieldNumber = 1;
     private string clusterId_ = "";
     /// <summary>
-    /// Required. ID of the Dataproc cluster.
+    /// Required. ID of the Data Proc cluster.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ClusterId {
@@ -500,7 +501,7 @@ namespace Yandex.Cloud.Dataproc.Manager.V1 {
     public const int JobIdFieldNumber = 2;
     private string jobId_ = "";
     /// <summary>
-    /// Required. ID of the Dataproc job to update.
+    /// Required. ID of the Data Proc job to update.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string JobId {

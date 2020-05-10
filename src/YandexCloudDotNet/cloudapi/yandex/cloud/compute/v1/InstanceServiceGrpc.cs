@@ -31,6 +31,9 @@ namespace Yandex.Cloud.Compute.V1 {
     static readonly grpc::Marshaller<global::Yandex.Cloud.Compute.V1.RestartInstanceRequest> __Marshaller_yandex_cloud_compute_v1_RestartInstanceRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Compute.V1.RestartInstanceRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Compute.V1.AttachInstanceDiskRequest> __Marshaller_yandex_cloud_compute_v1_AttachInstanceDiskRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Compute.V1.AttachInstanceDiskRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Compute.V1.DetachInstanceDiskRequest> __Marshaller_yandex_cloud_compute_v1_DetachInstanceDiskRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Compute.V1.DetachInstanceDiskRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Yandex.Cloud.Compute.V1.AddInstanceOneToOneNatRequest> __Marshaller_yandex_cloud_compute_v1_AddInstanceOneToOneNatRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Compute.V1.AddInstanceOneToOneNatRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Yandex.Cloud.Compute.V1.RemoveInstanceOneToOneNatRequest> __Marshaller_yandex_cloud_compute_v1_RemoveInstanceOneToOneNatRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Compute.V1.RemoveInstanceOneToOneNatRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Yandex.Cloud.Compute.V1.UpdateNetworkInterfaceRequest> __Marshaller_yandex_cloud_compute_v1_UpdateNetworkInterfaceRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Compute.V1.UpdateNetworkInterfaceRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Compute.V1.ListInstanceOperationsRequest> __Marshaller_yandex_cloud_compute_v1_ListInstanceOperationsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Compute.V1.ListInstanceOperationsRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Compute.V1.ListInstanceOperationsResponse> __Marshaller_yandex_cloud_compute_v1_ListInstanceOperationsResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Compute.V1.ListInstanceOperationsResponse.Parser.ParseFrom);
 
@@ -116,6 +119,27 @@ namespace Yandex.Cloud.Compute.V1 {
         __ServiceName,
         "DetachDisk",
         __Marshaller_yandex_cloud_compute_v1_DetachInstanceDiskRequest,
+        __Marshaller_yandex_cloud_operation_Operation);
+
+    static readonly grpc::Method<global::Yandex.Cloud.Compute.V1.AddInstanceOneToOneNatRequest, global::Yandex.Cloud.Operation.Operation> __Method_AddOneToOneNat = new grpc::Method<global::Yandex.Cloud.Compute.V1.AddInstanceOneToOneNatRequest, global::Yandex.Cloud.Operation.Operation>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "AddOneToOneNat",
+        __Marshaller_yandex_cloud_compute_v1_AddInstanceOneToOneNatRequest,
+        __Marshaller_yandex_cloud_operation_Operation);
+
+    static readonly grpc::Method<global::Yandex.Cloud.Compute.V1.RemoveInstanceOneToOneNatRequest, global::Yandex.Cloud.Operation.Operation> __Method_RemoveOneToOneNat = new grpc::Method<global::Yandex.Cloud.Compute.V1.RemoveInstanceOneToOneNatRequest, global::Yandex.Cloud.Operation.Operation>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "RemoveOneToOneNat",
+        __Marshaller_yandex_cloud_compute_v1_RemoveInstanceOneToOneNatRequest,
+        __Marshaller_yandex_cloud_operation_Operation);
+
+    static readonly grpc::Method<global::Yandex.Cloud.Compute.V1.UpdateNetworkInterfaceRequest, global::Yandex.Cloud.Operation.Operation> __Method_UpdateNetworkInterface = new grpc::Method<global::Yandex.Cloud.Compute.V1.UpdateNetworkInterfaceRequest, global::Yandex.Cloud.Operation.Operation>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "UpdateNetworkInterface",
+        __Marshaller_yandex_cloud_compute_v1_UpdateNetworkInterfaceRequest,
         __Marshaller_yandex_cloud_operation_Operation);
 
     static readonly grpc::Method<global::Yandex.Cloud.Compute.V1.ListInstanceOperationsRequest, global::Yandex.Cloud.Compute.V1.ListInstanceOperationsResponse> __Method_ListOperations = new grpc::Method<global::Yandex.Cloud.Compute.V1.ListInstanceOperationsRequest, global::Yandex.Cloud.Compute.V1.ListInstanceOperationsResponse>(
@@ -701,6 +725,54 @@ namespace Yandex.Cloud.Compute.V1 {
       public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Operation.Operation> DetachDiskAsync(global::Yandex.Cloud.Compute.V1.DetachInstanceDiskRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_DetachDisk, null, options, request);
+      }
+      public virtual global::Yandex.Cloud.Operation.Operation AddOneToOneNat(global::Yandex.Cloud.Compute.V1.AddInstanceOneToOneNatRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return AddOneToOneNat(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      public virtual global::Yandex.Cloud.Operation.Operation AddOneToOneNat(global::Yandex.Cloud.Compute.V1.AddInstanceOneToOneNatRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_AddOneToOneNat, null, options, request);
+      }
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Operation.Operation> AddOneToOneNatAsync(global::Yandex.Cloud.Compute.V1.AddInstanceOneToOneNatRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return AddOneToOneNatAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Operation.Operation> AddOneToOneNatAsync(global::Yandex.Cloud.Compute.V1.AddInstanceOneToOneNatRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_AddOneToOneNat, null, options, request);
+      }
+      public virtual global::Yandex.Cloud.Operation.Operation RemoveOneToOneNat(global::Yandex.Cloud.Compute.V1.RemoveInstanceOneToOneNatRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return RemoveOneToOneNat(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      public virtual global::Yandex.Cloud.Operation.Operation RemoveOneToOneNat(global::Yandex.Cloud.Compute.V1.RemoveInstanceOneToOneNatRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_RemoveOneToOneNat, null, options, request);
+      }
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Operation.Operation> RemoveOneToOneNatAsync(global::Yandex.Cloud.Compute.V1.RemoveInstanceOneToOneNatRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return RemoveOneToOneNatAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Operation.Operation> RemoveOneToOneNatAsync(global::Yandex.Cloud.Compute.V1.RemoveInstanceOneToOneNatRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_RemoveOneToOneNat, null, options, request);
+      }
+      public virtual global::Yandex.Cloud.Operation.Operation UpdateNetworkInterface(global::Yandex.Cloud.Compute.V1.UpdateNetworkInterfaceRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return UpdateNetworkInterface(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      public virtual global::Yandex.Cloud.Operation.Operation UpdateNetworkInterface(global::Yandex.Cloud.Compute.V1.UpdateNetworkInterfaceRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_UpdateNetworkInterface, null, options, request);
+      }
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Operation.Operation> UpdateNetworkInterfaceAsync(global::Yandex.Cloud.Compute.V1.UpdateNetworkInterfaceRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return UpdateNetworkInterfaceAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Operation.Operation> UpdateNetworkInterfaceAsync(global::Yandex.Cloud.Compute.V1.UpdateNetworkInterfaceRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_UpdateNetworkInterface, null, options, request);
       }
       /// <summary>
       /// Lists operations for the specified instance.

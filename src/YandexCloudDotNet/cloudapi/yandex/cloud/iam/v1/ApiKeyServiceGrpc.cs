@@ -21,8 +21,11 @@ namespace Yandex.Cloud.Iam.V1 {
     static readonly grpc::Marshaller<global::Yandex.Cloud.Iam.V1.ApiKey> __Marshaller_yandex_cloud_iam_v1_ApiKey = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Iam.V1.ApiKey.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Iam.V1.CreateApiKeyRequest> __Marshaller_yandex_cloud_iam_v1_CreateApiKeyRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Iam.V1.CreateApiKeyRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Iam.V1.CreateApiKeyResponse> __Marshaller_yandex_cloud_iam_v1_CreateApiKeyResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Iam.V1.CreateApiKeyResponse.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Yandex.Cloud.Iam.V1.UpdateApiKeyRequest> __Marshaller_yandex_cloud_iam_v1_UpdateApiKeyRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Iam.V1.UpdateApiKeyRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Yandex.Cloud.Operation.Operation> __Marshaller_yandex_cloud_operation_Operation = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Operation.Operation.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Iam.V1.DeleteApiKeyRequest> __Marshaller_yandex_cloud_iam_v1_DeleteApiKeyRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Iam.V1.DeleteApiKeyRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Google.Protobuf.WellKnownTypes.Empty> __Marshaller_google_protobuf_Empty = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Google.Protobuf.WellKnownTypes.Empty.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Yandex.Cloud.Iam.V1.ListApiKeyOperationsRequest> __Marshaller_yandex_cloud_iam_v1_ListApiKeyOperationsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Iam.V1.ListApiKeyOperationsRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Yandex.Cloud.Iam.V1.ListApiKeyOperationsResponse> __Marshaller_yandex_cloud_iam_v1_ListApiKeyOperationsResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Iam.V1.ListApiKeyOperationsResponse.Parser.ParseFrom);
 
     static readonly grpc::Method<global::Yandex.Cloud.Iam.V1.ListApiKeysRequest, global::Yandex.Cloud.Iam.V1.ListApiKeysResponse> __Method_List = new grpc::Method<global::Yandex.Cloud.Iam.V1.ListApiKeysRequest, global::Yandex.Cloud.Iam.V1.ListApiKeysResponse>(
         grpc::MethodType.Unary,
@@ -45,12 +48,26 @@ namespace Yandex.Cloud.Iam.V1 {
         __Marshaller_yandex_cloud_iam_v1_CreateApiKeyRequest,
         __Marshaller_yandex_cloud_iam_v1_CreateApiKeyResponse);
 
-    static readonly grpc::Method<global::Yandex.Cloud.Iam.V1.DeleteApiKeyRequest, global::Google.Protobuf.WellKnownTypes.Empty> __Method_Delete = new grpc::Method<global::Yandex.Cloud.Iam.V1.DeleteApiKeyRequest, global::Google.Protobuf.WellKnownTypes.Empty>(
+    static readonly grpc::Method<global::Yandex.Cloud.Iam.V1.UpdateApiKeyRequest, global::Yandex.Cloud.Operation.Operation> __Method_Update = new grpc::Method<global::Yandex.Cloud.Iam.V1.UpdateApiKeyRequest, global::Yandex.Cloud.Operation.Operation>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "Update",
+        __Marshaller_yandex_cloud_iam_v1_UpdateApiKeyRequest,
+        __Marshaller_yandex_cloud_operation_Operation);
+
+    static readonly grpc::Method<global::Yandex.Cloud.Iam.V1.DeleteApiKeyRequest, global::Yandex.Cloud.Operation.Operation> __Method_Delete = new grpc::Method<global::Yandex.Cloud.Iam.V1.DeleteApiKeyRequest, global::Yandex.Cloud.Operation.Operation>(
         grpc::MethodType.Unary,
         __ServiceName,
         "Delete",
         __Marshaller_yandex_cloud_iam_v1_DeleteApiKeyRequest,
-        __Marshaller_google_protobuf_Empty);
+        __Marshaller_yandex_cloud_operation_Operation);
+
+    static readonly grpc::Method<global::Yandex.Cloud.Iam.V1.ListApiKeyOperationsRequest, global::Yandex.Cloud.Iam.V1.ListApiKeyOperationsResponse> __Method_ListOperations = new grpc::Method<global::Yandex.Cloud.Iam.V1.ListApiKeyOperationsRequest, global::Yandex.Cloud.Iam.V1.ListApiKeyOperationsResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "ListOperations",
+        __Marshaller_yandex_cloud_iam_v1_ListApiKeyOperationsRequest,
+        __Marshaller_yandex_cloud_iam_v1_ListApiKeyOperationsResponse);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -222,6 +239,50 @@ namespace Yandex.Cloud.Iam.V1 {
         return CallInvoker.AsyncUnaryCall(__Method_Create, null, options, request);
       }
       /// <summary>
+      /// Updates the specified API key.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.Operation.Operation Update(global::Yandex.Cloud.Iam.V1.UpdateApiKeyRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return Update(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Updates the specified API key.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.Operation.Operation Update(global::Yandex.Cloud.Iam.V1.UpdateApiKeyRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_Update, null, options, request);
+      }
+      /// <summary>
+      /// Updates the specified API key.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Operation.Operation> UpdateAsync(global::Yandex.Cloud.Iam.V1.UpdateApiKeyRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return UpdateAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Updates the specified API key.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Operation.Operation> UpdateAsync(global::Yandex.Cloud.Iam.V1.UpdateApiKeyRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_Update, null, options, request);
+      }
+      /// <summary>
       /// Deletes the specified API key.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
@@ -229,7 +290,7 @@ namespace Yandex.Cloud.Iam.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
-      public virtual global::Google.Protobuf.WellKnownTypes.Empty Delete(global::Yandex.Cloud.Iam.V1.DeleteApiKeyRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual global::Yandex.Cloud.Operation.Operation Delete(global::Yandex.Cloud.Iam.V1.DeleteApiKeyRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return Delete(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
@@ -239,7 +300,7 @@ namespace Yandex.Cloud.Iam.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
-      public virtual global::Google.Protobuf.WellKnownTypes.Empty Delete(global::Yandex.Cloud.Iam.V1.DeleteApiKeyRequest request, grpc::CallOptions options)
+      public virtual global::Yandex.Cloud.Operation.Operation Delete(global::Yandex.Cloud.Iam.V1.DeleteApiKeyRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_Delete, null, options, request);
       }
@@ -251,7 +312,7 @@ namespace Yandex.Cloud.Iam.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
-      public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> DeleteAsync(global::Yandex.Cloud.Iam.V1.DeleteApiKeyRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Operation.Operation> DeleteAsync(global::Yandex.Cloud.Iam.V1.DeleteApiKeyRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return DeleteAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
@@ -261,9 +322,53 @@ namespace Yandex.Cloud.Iam.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
-      public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> DeleteAsync(global::Yandex.Cloud.Iam.V1.DeleteApiKeyRequest request, grpc::CallOptions options)
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Operation.Operation> DeleteAsync(global::Yandex.Cloud.Iam.V1.DeleteApiKeyRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_Delete, null, options, request);
+      }
+      /// <summary>
+      /// Retrieves the list of operations for the specified API key.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.Iam.V1.ListApiKeyOperationsResponse ListOperations(global::Yandex.Cloud.Iam.V1.ListApiKeyOperationsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return ListOperations(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Retrieves the list of operations for the specified API key.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.Iam.V1.ListApiKeyOperationsResponse ListOperations(global::Yandex.Cloud.Iam.V1.ListApiKeyOperationsRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_ListOperations, null, options, request);
+      }
+      /// <summary>
+      /// Retrieves the list of operations for the specified API key.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Iam.V1.ListApiKeyOperationsResponse> ListOperationsAsync(global::Yandex.Cloud.Iam.V1.ListApiKeyOperationsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return ListOperationsAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Retrieves the list of operations for the specified API key.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Iam.V1.ListApiKeyOperationsResponse> ListOperationsAsync(global::Yandex.Cloud.Iam.V1.ListApiKeyOperationsRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_ListOperations, null, options, request);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       protected override ApiKeyServiceClient NewInstance(ClientBaseConfiguration configuration)

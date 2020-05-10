@@ -26,25 +26,25 @@ namespace Yandex.Cloud.Compute.V1 {
           string.Concat(
             "CiJ5YW5kZXgvY2xvdWQvY29tcHV0ZS92MS9kaXNrLnByb3RvEhd5YW5kZXgu",
             "Y2xvdWQuY29tcHV0ZS52MRofZ29vZ2xlL3Byb3RvYnVmL3RpbWVzdGFtcC5w",
-            "cm90byKKBAoERGlzaxIKCgJpZBgBIAEoCRIRCglmb2xkZXJfaWQYAiABKAkS",
+            "cm90byKeBAoERGlzaxIKCgJpZBgBIAEoCRIRCglmb2xkZXJfaWQYAiABKAkS",
             "LgoKY3JlYXRlZF9hdBgDIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3Rh",
             "bXASDAoEbmFtZRgEIAEoCRITCgtkZXNjcmlwdGlvbhgFIAEoCRI5CgZsYWJl",
             "bHMYBiADKAsyKS55YW5kZXguY2xvdWQuY29tcHV0ZS52MS5EaXNrLkxhYmVs",
             "c0VudHJ5Eg8KB3R5cGVfaWQYByABKAkSDwoHem9uZV9pZBgIIAEoCRIMCgRz",
-            "aXplGAkgASgDEhMKC3Byb2R1Y3RfaWRzGAogAygJEjQKBnN0YXR1cxgLIAEo",
-            "DjIkLnlhbmRleC5jbG91ZC5jb21wdXRlLnYxLkRpc2suU3RhdHVzEhkKD3Nv",
-            "dXJjZV9pbWFnZV9pZBgMIAEoCUgAEhwKEnNvdXJjZV9zbmFwc2hvdF9pZBgN",
-            "IAEoCUgAEhQKDGluc3RhbmNlX2lkcxgOIAMoCRotCgtMYWJlbHNFbnRyeRIL",
-            "CgNrZXkYASABKAkSDQoFdmFsdWUYAiABKAk6AjgBIlIKBlN0YXR1cxIWChJT",
-            "VEFUVVNfVU5TUEVDSUZJRUQQABIMCghDUkVBVElORxABEgkKBVJFQURZEAIS",
-            "CQoFRVJST1IQAxIMCghERUxFVElORxAEQggKBnNvdXJjZUJiCht5YW5kZXgu",
-            "Y2xvdWQuYXBpLmNvbXB1dGUudjFaQ2dpdGh1Yi5jb20veWFuZGV4LWNsb3Vk",
-            "L2dvLWdlbnByb3RvL3lhbmRleC9jbG91ZC9jb21wdXRlL3YxO2NvbXB1dGVi",
-            "BnByb3RvMw=="));
+            "aXplGAkgASgDEhIKCmJsb2NrX3NpemUYDyABKAMSEwoLcHJvZHVjdF9pZHMY",
+            "CiADKAkSNAoGc3RhdHVzGAsgASgOMiQueWFuZGV4LmNsb3VkLmNvbXB1dGUu",
+            "djEuRGlzay5TdGF0dXMSGQoPc291cmNlX2ltYWdlX2lkGAwgASgJSAASHAoS",
+            "c291cmNlX3NuYXBzaG90X2lkGA0gASgJSAASFAoMaW5zdGFuY2VfaWRzGA4g",
+            "AygJGi0KC0xhYmVsc0VudHJ5EgsKA2tleRgBIAEoCRINCgV2YWx1ZRgCIAEo",
+            "CToCOAEiUgoGU3RhdHVzEhYKElNUQVRVU19VTlNQRUNJRklFRBAAEgwKCENS",
+            "RUFUSU5HEAESCQoFUkVBRFkQAhIJCgVFUlJPUhADEgwKCERFTEVUSU5HEARC",
+            "CAoGc291cmNlQmIKG3lhbmRleC5jbG91ZC5hcGkuY29tcHV0ZS52MVpDZ2l0",
+            "aHViLmNvbS95YW5kZXgtY2xvdWQvZ28tZ2VucHJvdG8veWFuZGV4L2Nsb3Vk",
+            "L2NvbXB1dGUvdjE7Y29tcHV0ZWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Disk), global::Yandex.Cloud.Compute.V1.Disk.Parser, new[]{ "Id", "FolderId", "CreatedAt", "Name", "Description", "Labels", "TypeId", "ZoneId", "Size", "ProductIds", "Status", "SourceImageId", "SourceSnapshotId", "InstanceIds" }, new[]{ "Source" }, new[]{ typeof(global::Yandex.Cloud.Compute.V1.Disk.Types.Status) }, new pbr::GeneratedClrTypeInfo[] { null, })
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Disk), global::Yandex.Cloud.Compute.V1.Disk.Parser, new[]{ "Id", "FolderId", "CreatedAt", "Name", "Description", "Labels", "TypeId", "ZoneId", "Size", "BlockSize", "ProductIds", "Status", "SourceImageId", "SourceSnapshotId", "InstanceIds" }, new[]{ "Source" }, new[]{ typeof(global::Yandex.Cloud.Compute.V1.Disk.Types.Status) }, new pbr::GeneratedClrTypeInfo[] { null, })
           }));
     }
     #endregion
@@ -88,6 +88,7 @@ namespace Yandex.Cloud.Compute.V1 {
       typeId_ = other.typeId_;
       zoneId_ = other.zoneId_;
       size_ = other.size_;
+      blockSize_ = other.blockSize_;
       productIds_ = other.productIds_.Clone();
       status_ = other.status_;
       instanceIds_ = other.instanceIds_.Clone();
@@ -230,6 +231,20 @@ namespace Yandex.Cloud.Compute.V1 {
       }
     }
 
+    /// <summary>Field number for the "block_size" field.</summary>
+    public const int BlockSizeFieldNumber = 15;
+    private long blockSize_;
+    /// <summary>
+    /// Block size of the disk, specifiedin bytes.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long BlockSize {
+      get { return blockSize_; }
+      set {
+        blockSize_ = value;
+      }
+    }
+
     /// <summary>Field number for the "product_ids" field.</summary>
     public const int ProductIdsFieldNumber = 10;
     private static readonly pb::FieldCodec<string> _repeated_productIds_codec
@@ -346,6 +361,7 @@ namespace Yandex.Cloud.Compute.V1 {
       if (TypeId != other.TypeId) return false;
       if (ZoneId != other.ZoneId) return false;
       if (Size != other.Size) return false;
+      if (BlockSize != other.BlockSize) return false;
       if(!productIds_.Equals(other.productIds_)) return false;
       if (Status != other.Status) return false;
       if (SourceImageId != other.SourceImageId) return false;
@@ -367,6 +383,7 @@ namespace Yandex.Cloud.Compute.V1 {
       if (TypeId.Length != 0) hash ^= TypeId.GetHashCode();
       if (ZoneId.Length != 0) hash ^= ZoneId.GetHashCode();
       if (Size != 0L) hash ^= Size.GetHashCode();
+      if (BlockSize != 0L) hash ^= BlockSize.GetHashCode();
       hash ^= productIds_.GetHashCode();
       if (Status != 0) hash ^= Status.GetHashCode();
       if (sourceCase_ == SourceOneofCase.SourceImageId) hash ^= SourceImageId.GetHashCode();
@@ -433,6 +450,10 @@ namespace Yandex.Cloud.Compute.V1 {
         output.WriteString(SourceSnapshotId);
       }
       instanceIds_.WriteTo(output, _repeated_instanceIds_codec);
+      if (BlockSize != 0L) {
+        output.WriteRawTag(120);
+        output.WriteInt64(BlockSize);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -465,6 +486,9 @@ namespace Yandex.Cloud.Compute.V1 {
       }
       if (Size != 0L) {
         size += 1 + pb::CodedOutputStream.ComputeInt64Size(Size);
+      }
+      if (BlockSize != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(BlockSize);
       }
       size += productIds_.CalculateSize(_repeated_productIds_codec);
       if (Status != 0) {
@@ -515,6 +539,9 @@ namespace Yandex.Cloud.Compute.V1 {
       }
       if (other.Size != 0L) {
         Size = other.Size;
+      }
+      if (other.BlockSize != 0L) {
+        BlockSize = other.BlockSize;
       }
       productIds_.Add(other.productIds_);
       if (other.Status != 0) {
@@ -598,6 +625,10 @@ namespace Yandex.Cloud.Compute.V1 {
           }
           case 114: {
             instanceIds_.AddEntriesFrom(input, _repeated_instanceIds_codec);
+            break;
+          }
+          case 120: {
+            BlockSize = input.ReadInt64();
             break;
           }
         }

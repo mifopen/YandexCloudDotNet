@@ -28,54 +28,58 @@ namespace Yandex.Cloud.Ai.Vision.V1 {
             "b3RvEhl5YW5kZXguY2xvdWQuYWkudmlzaW9uLnYxGi55YW5kZXgvY2xvdWQv",
             "YWkvdmlzaW9uL3YxL3RleHRfZGV0ZWN0aW9uLnByb3RvGi55YW5kZXgvY2xv",
             "dWQvYWkvdmlzaW9uL3YxL2NsYXNzaWZpY2F0aW9uLnByb3RvGi55YW5kZXgv",
-            "Y2xvdWQvYWkvdmlzaW9uL3YxL2ZhY2VfZGV0ZWN0aW9uLnByb3RvGh15YW5k",
-            "ZXgvY2xvdWQvdmFsaWRhdGlvbi5wcm90bxocZ29vZ2xlL2FwaS9hbm5vdGF0",
-            "aW9ucy5wcm90bxoXZ29vZ2xlL3JwYy9zdGF0dXMucHJvdG8iegoTQmF0Y2hB",
-            "bmFseXplUmVxdWVzdBJGCg1hbmFseXplX3NwZWNzGAEgAygLMiYueWFuZGV4",
-            "LmNsb3VkLmFpLnZpc2lvbi52MS5BbmFseXplU3BlY0IHgsgxAzEtOBIbCglm",
-            "b2xkZXJfaWQYAiABKAlCCIrIMQQ8PTUwIp0BCgtBbmFseXplU3BlYxIhCgdj",
-            "b250ZW50GAEgASgMQg6KyDEKPD0xMDQ4NTc2MEgAEj0KCGZlYXR1cmVzGAMg",
-            "AygLMiIueWFuZGV4LmNsb3VkLmFpLnZpc2lvbi52MS5GZWF0dXJlQgeCyDED",
-            "MS04EhwKCW1pbWVfdHlwZRgEIAEoCUIJisgxBTw9MjU1Qg4KBnNvdXJjZRIE",
-            "wMExASLVAgoHRmVhdHVyZRI1CgR0eXBlGAEgASgOMicueWFuZGV4LmNsb3Vk",
-            "LmFpLnZpc2lvbi52MS5GZWF0dXJlLlR5cGUSVwoVY2xhc3NpZmljYXRpb25f",
-            "Y29uZmlnGAIgASgLMjYueWFuZGV4LmNsb3VkLmFpLnZpc2lvbi52MS5GZWF0",
-            "dXJlQ2xhc3NpZmljYXRpb25Db25maWdIABJWChV0ZXh0X2RldGVjdGlvbl9j",
-            "b25maWcYAyABKAsyNS55YW5kZXguY2xvdWQuYWkudmlzaW9uLnYxLkZlYXR1",
-            "cmVUZXh0RGV0ZWN0aW9uQ29uZmlnSAAiWAoEVHlwZRIUChBUWVBFX1VOU1BF",
-            "Q0lGSUVEEAASEgoOVEVYVF9ERVRFQ1RJT04QARISCg5DTEFTU0lGSUNBVElP",
-            "ThACEhIKDkZBQ0VfREVURUNUSU9OEANCCAoGY29uZmlnIjcKG0ZlYXR1cmVD",
-            "bGFzc2lmaWNhdGlvbkNvbmZpZxIYCgVtb2RlbBgBIAEoCUIJisgxBTw9MjU2",
-            "Il0KGkZlYXR1cmVUZXh0RGV0ZWN0aW9uQ29uZmlnEiYKDmxhbmd1YWdlX2Nv",
-            "ZGVzGAEgAygJQg6CyDEDMS04isgxAzw9MxIXCgVtb2RlbBgCIAEoCUIIisgx",
-            "BDw9NTAiUQoUQmF0Y2hBbmFseXplUmVzcG9uc2USOQoHcmVzdWx0cxgBIAMo",
-            "CzIoLnlhbmRleC5jbG91ZC5haS52aXNpb24udjEuQW5hbHl6ZVJlc3VsdCJt",
-            "Cg1BbmFseXplUmVzdWx0EjkKB3Jlc3VsdHMYAiADKAsyKC55YW5kZXguY2xv",
-            "dWQuYWkudmlzaW9uLnYxLkZlYXR1cmVSZXN1bHQSIQoFZXJyb3IYASABKAsy",
-            "Ei5nb29nbGUucnBjLlN0YXR1cyKNAgoNRmVhdHVyZVJlc3VsdBJDCg50ZXh0",
-            "X2RldGVjdGlvbhgCIAEoCzIpLnlhbmRleC5jbG91ZC5haS52aXNpb24udjEu",
-            "VGV4dEFubm90YXRpb25IABJECg5jbGFzc2lmaWNhdGlvbhgDIAEoCzIqLnlh",
-            "bmRleC5jbG91ZC5haS52aXNpb24udjEuQ2xhc3NBbm5vdGF0aW9uSAASQwoO",
-            "ZmFjZV9kZXRlY3Rpb24YBCABKAsyKS55YW5kZXguY2xvdWQuYWkudmlzaW9u",
-            "LnYxLkZhY2VBbm5vdGF0aW9uSAASIQoFZXJyb3IYASABKAsyEi5nb29nbGUu",
-            "cnBjLlN0YXR1c0IJCgdmZWF0dXJlMqUBCg1WaXNpb25TZXJ2aWNlEpMBCgxC",
-            "YXRjaEFuYWx5emUSLi55YW5kZXguY2xvdWQuYWkudmlzaW9uLnYxLkJhdGNo",
-            "QW5hbHl6ZVJlcXVlc3QaLy55YW5kZXguY2xvdWQuYWkudmlzaW9uLnYxLkJh",
-            "dGNoQW5hbHl6ZVJlc3BvbnNlIiKC0+STAhwiFy92aXNpb24vdjEvYmF0Y2hB",
-            "bmFseXplOgEqQmUKHXlhbmRleC5jbG91ZC5hcGkuYWkudmlzaW9uLnYxWkRn",
-            "aXRodWIuY29tL3lhbmRleC1jbG91ZC9nby1nZW5wcm90by95YW5kZXgvY2xv",
-            "dWQvYWkvdmlzaW9uL3YxO3Zpc2lvbmIGcHJvdG8z"));
+            "Y2xvdWQvYWkvdmlzaW9uL3YxL2ZhY2VfZGV0ZWN0aW9uLnByb3RvGjF5YW5k",
+            "ZXgvY2xvdWQvYWkvdmlzaW9uL3YxL2ltYWdlX2NvcHlfc2VhcmNoLnByb3Rv",
+            "Gh15YW5kZXgvY2xvdWQvdmFsaWRhdGlvbi5wcm90bxocZ29vZ2xlL2FwaS9h",
+            "bm5vdGF0aW9ucy5wcm90bxoXZ29vZ2xlL3JwYy9zdGF0dXMucHJvdG8iegoT",
+            "QmF0Y2hBbmFseXplUmVxdWVzdBJGCg1hbmFseXplX3NwZWNzGAEgAygLMiYu",
+            "eWFuZGV4LmNsb3VkLmFpLnZpc2lvbi52MS5BbmFseXplU3BlY0IHgsgxAzEt",
+            "OBIbCglmb2xkZXJfaWQYAiABKAlCCIrIMQQ8PTUwIr8BCgtBbmFseXplU3Bl",
+            "YxIhCgdjb250ZW50GAEgASgMQg6KyDEKPD0xMDQ4NTc2MEgAEiAKCXNpZ25h",
+            "dHVyZRgFIAEoCUILisgxBzw9MTYzODRIABI9CghmZWF0dXJlcxgDIAMoCzIi",
+            "LnlhbmRleC5jbG91ZC5haS52aXNpb24udjEuRmVhdHVyZUIHgsgxAzEtOBIc",
+            "CgltaW1lX3R5cGUYBCABKAlCCYrIMQU8PTI1NUIOCgZzb3VyY2USBMDBMQEi",
+            "7AIKB0ZlYXR1cmUSNQoEdHlwZRgBIAEoDjInLnlhbmRleC5jbG91ZC5haS52",
+            "aXNpb24udjEuRmVhdHVyZS5UeXBlElcKFWNsYXNzaWZpY2F0aW9uX2NvbmZp",
+            "ZxgCIAEoCzI2LnlhbmRleC5jbG91ZC5haS52aXNpb24udjEuRmVhdHVyZUNs",
+            "YXNzaWZpY2F0aW9uQ29uZmlnSAASVgoVdGV4dF9kZXRlY3Rpb25fY29uZmln",
+            "GAMgASgLMjUueWFuZGV4LmNsb3VkLmFpLnZpc2lvbi52MS5GZWF0dXJlVGV4",
+            "dERldGVjdGlvbkNvbmZpZ0gAIm8KBFR5cGUSFAoQVFlQRV9VTlNQRUNJRklF",
+            "RBAAEhIKDlRFWFRfREVURUNUSU9OEAESEgoOQ0xBU1NJRklDQVRJT04QAhIS",
+            "Cg5GQUNFX0RFVEVDVElPThADEhUKEUlNQUdFX0NPUFlfU0VBUkNIEARCCAoG",
+            "Y29uZmlnIjcKG0ZlYXR1cmVDbGFzc2lmaWNhdGlvbkNvbmZpZxIYCgVtb2Rl",
+            "bBgBIAEoCUIJisgxBTw9MjU2Il0KGkZlYXR1cmVUZXh0RGV0ZWN0aW9uQ29u",
+            "ZmlnEiYKDmxhbmd1YWdlX2NvZGVzGAEgAygJQg6CyDEDMS04isgxAzw9MxIX",
+            "CgVtb2RlbBgCIAEoCUIIisgxBDw9NTAiUQoUQmF0Y2hBbmFseXplUmVzcG9u",
+            "c2USOQoHcmVzdWx0cxgBIAMoCzIoLnlhbmRleC5jbG91ZC5haS52aXNpb24u",
+            "djEuQW5hbHl6ZVJlc3VsdCJtCg1BbmFseXplUmVzdWx0EjkKB3Jlc3VsdHMY",
+            "AiADKAsyKC55YW5kZXguY2xvdWQuYWkudmlzaW9uLnYxLkZlYXR1cmVSZXN1",
+            "bHQSIQoFZXJyb3IYASABKAsyEi5nb29nbGUucnBjLlN0YXR1cyLgAgoNRmVh",
+            "dHVyZVJlc3VsdBJDCg50ZXh0X2RldGVjdGlvbhgCIAEoCzIpLnlhbmRleC5j",
+            "bG91ZC5haS52aXNpb24udjEuVGV4dEFubm90YXRpb25IABJECg5jbGFzc2lm",
+            "aWNhdGlvbhgDIAEoCzIqLnlhbmRleC5jbG91ZC5haS52aXNpb24udjEuQ2xh",
+            "c3NBbm5vdGF0aW9uSAASQwoOZmFjZV9kZXRlY3Rpb24YBCABKAsyKS55YW5k",
+            "ZXguY2xvdWQuYWkudmlzaW9uLnYxLkZhY2VBbm5vdGF0aW9uSAASUQoRaW1h",
+            "Z2VfY29weV9zZWFyY2gYBSABKAsyNC55YW5kZXguY2xvdWQuYWkudmlzaW9u",
+            "LnYxLkltYWdlQ29weVNlYXJjaEFubm90YXRpb25IABIhCgVlcnJvchgBIAEo",
+            "CzISLmdvb2dsZS5ycGMuU3RhdHVzQgkKB2ZlYXR1cmUypQEKDVZpc2lvblNl",
+            "cnZpY2USkwEKDEJhdGNoQW5hbHl6ZRIuLnlhbmRleC5jbG91ZC5haS52aXNp",
+            "b24udjEuQmF0Y2hBbmFseXplUmVxdWVzdBovLnlhbmRleC5jbG91ZC5haS52",
+            "aXNpb24udjEuQmF0Y2hBbmFseXplUmVzcG9uc2UiIoLT5JMCHCIXL3Zpc2lv",
+            "bi92MS9iYXRjaEFuYWx5emU6ASpCZQodeWFuZGV4LmNsb3VkLmFwaS5haS52",
+            "aXNpb24udjFaRGdpdGh1Yi5jb20veWFuZGV4LWNsb3VkL2dvLWdlbnByb3Rv",
+            "L3lhbmRleC9jbG91ZC9haS92aXNpb24vdjE7dmlzaW9uYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Yandex.Cloud.Ai.Vision.V1.TextDetectionReflection.Descriptor, global::Yandex.Cloud.Ai.Vision.V1.ClassificationReflection.Descriptor, global::Yandex.Cloud.Ai.Vision.V1.FaceDetectionReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Rpc.StatusReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Yandex.Cloud.Ai.Vision.V1.TextDetectionReflection.Descriptor, global::Yandex.Cloud.Ai.Vision.V1.ClassificationReflection.Descriptor, global::Yandex.Cloud.Ai.Vision.V1.FaceDetectionReflection.Descriptor, global::Yandex.Cloud.Ai.Vision.V1.ImageCopySearchReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Rpc.StatusReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Vision.V1.BatchAnalyzeRequest), global::Yandex.Cloud.Ai.Vision.V1.BatchAnalyzeRequest.Parser, new[]{ "AnalyzeSpecs", "FolderId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Vision.V1.AnalyzeSpec), global::Yandex.Cloud.Ai.Vision.V1.AnalyzeSpec.Parser, new[]{ "Content", "Features", "MimeType" }, new[]{ "Source" }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Vision.V1.AnalyzeSpec), global::Yandex.Cloud.Ai.Vision.V1.AnalyzeSpec.Parser, new[]{ "Content", "Signature", "Features", "MimeType" }, new[]{ "Source" }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Vision.V1.Feature), global::Yandex.Cloud.Ai.Vision.V1.Feature.Parser, new[]{ "Type", "ClassificationConfig", "TextDetectionConfig" }, new[]{ "Config" }, new[]{ typeof(global::Yandex.Cloud.Ai.Vision.V1.Feature.Types.Type) }, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Vision.V1.FeatureClassificationConfig), global::Yandex.Cloud.Ai.Vision.V1.FeatureClassificationConfig.Parser, new[]{ "Model" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Vision.V1.FeatureTextDetectionConfig), global::Yandex.Cloud.Ai.Vision.V1.FeatureTextDetectionConfig.Parser, new[]{ "LanguageCodes", "Model" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Vision.V1.BatchAnalyzeResponse), global::Yandex.Cloud.Ai.Vision.V1.BatchAnalyzeResponse.Parser, new[]{ "Results" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Vision.V1.AnalyzeResult), global::Yandex.Cloud.Ai.Vision.V1.AnalyzeResult.Parser, new[]{ "Results", "Error" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Vision.V1.FeatureResult), global::Yandex.Cloud.Ai.Vision.V1.FeatureResult.Parser, new[]{ "TextDetection", "Classification", "FaceDetection", "Error" }, new[]{ "Feature" }, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Vision.V1.FeatureResult), global::Yandex.Cloud.Ai.Vision.V1.FeatureResult.Parser, new[]{ "TextDetection", "Classification", "FaceDetection", "ImageCopySearch", "Error" }, new[]{ "Feature" }, null, null)
           }));
     }
     #endregion
@@ -275,6 +279,9 @@ namespace Yandex.Cloud.Ai.Vision.V1 {
         case SourceOneofCase.Content:
           Content = other.Content;
           break;
+        case SourceOneofCase.Signature:
+          Signature = other.Signature;
+          break;
       }
 
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
@@ -297,6 +304,17 @@ namespace Yandex.Cloud.Ai.Vision.V1 {
       set {
         source_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
         sourceCase_ = SourceOneofCase.Content;
+      }
+    }
+
+    /// <summary>Field number for the "signature" field.</summary>
+    public const int SignatureFieldNumber = 5;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Signature {
+      get { return sourceCase_ == SourceOneofCase.Signature ? (string) source_ : ""; }
+      set {
+        source_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+        sourceCase_ = SourceOneofCase.Signature;
       }
     }
 
@@ -334,6 +352,7 @@ namespace Yandex.Cloud.Ai.Vision.V1 {
     public enum SourceOneofCase {
       None = 0,
       Content = 1,
+      Signature = 5,
     }
     private SourceOneofCase sourceCase_ = SourceOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -361,6 +380,7 @@ namespace Yandex.Cloud.Ai.Vision.V1 {
         return true;
       }
       if (Content != other.Content) return false;
+      if (Signature != other.Signature) return false;
       if(!features_.Equals(other.features_)) return false;
       if (MimeType != other.MimeType) return false;
       if (SourceCase != other.SourceCase) return false;
@@ -371,6 +391,7 @@ namespace Yandex.Cloud.Ai.Vision.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (sourceCase_ == SourceOneofCase.Content) hash ^= Content.GetHashCode();
+      if (sourceCase_ == SourceOneofCase.Signature) hash ^= Signature.GetHashCode();
       hash ^= features_.GetHashCode();
       if (MimeType.Length != 0) hash ^= MimeType.GetHashCode();
       hash ^= (int) sourceCase_;
@@ -396,6 +417,10 @@ namespace Yandex.Cloud.Ai.Vision.V1 {
         output.WriteRawTag(34);
         output.WriteString(MimeType);
       }
+      if (sourceCase_ == SourceOneofCase.Signature) {
+        output.WriteRawTag(42);
+        output.WriteString(Signature);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -406,6 +431,9 @@ namespace Yandex.Cloud.Ai.Vision.V1 {
       int size = 0;
       if (sourceCase_ == SourceOneofCase.Content) {
         size += 1 + pb::CodedOutputStream.ComputeBytesSize(Content);
+      }
+      if (sourceCase_ == SourceOneofCase.Signature) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Signature);
       }
       size += features_.CalculateSize(_repeated_features_codec);
       if (MimeType.Length != 0) {
@@ -430,6 +458,9 @@ namespace Yandex.Cloud.Ai.Vision.V1 {
         case SourceOneofCase.Content:
           Content = other.Content;
           break;
+        case SourceOneofCase.Signature:
+          Signature = other.Signature;
+          break;
       }
 
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
@@ -453,6 +484,10 @@ namespace Yandex.Cloud.Ai.Vision.V1 {
           }
           case 34: {
             MimeType = input.ReadString();
+            break;
+          }
+          case 42: {
+            Signature = input.ReadString();
             break;
           }
         }
@@ -718,6 +753,10 @@ namespace Yandex.Cloud.Ai.Vision.V1 {
         /// Face detection feature.
         /// </summary>
         [pbr::OriginalName("FACE_DETECTION")] FaceDetection = 3,
+        /// <summary>
+        /// Image copy search.
+        /// </summary>
+        [pbr::OriginalName("IMAGE_COPY_SEARCH")] ImageCopySearch = 4,
       }
 
     }
@@ -763,7 +802,7 @@ namespace Yandex.Cloud.Ai.Vision.V1 {
     public const int ModelFieldNumber = 1;
     private string model_ = "";
     /// <summary>
-    /// The model to use for the image analysis.
+    /// Model to use for image classification.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Model {
@@ -910,7 +949,10 @@ namespace Yandex.Cloud.Ai.Vision.V1 {
     public const int ModelFieldNumber = 2;
     private string model_ = "";
     /// <summary>
-    /// Do not specify this field, custom models are not supported yet.
+    /// Model to use for text detection.
+    /// Possible values:
+    /// * page (default) — this model is suitable for detecting multiple text entries in an image.
+    /// * line — this model is suitable for cropped images with one line of text.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Model {
@@ -1336,6 +1378,9 @@ namespace Yandex.Cloud.Ai.Vision.V1 {
         case FeatureOneofCase.FaceDetection:
           FaceDetection = other.FaceDetection.Clone();
           break;
+        case FeatureOneofCase.ImageCopySearch:
+          ImageCopySearch = other.ImageCopySearch.Clone();
+          break;
       }
 
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
@@ -1388,6 +1433,20 @@ namespace Yandex.Cloud.Ai.Vision.V1 {
       }
     }
 
+    /// <summary>Field number for the "image_copy_search" field.</summary>
+    public const int ImageCopySearchFieldNumber = 5;
+    /// <summary>
+    /// Image Copy Search result.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Ai.Vision.V1.ImageCopySearchAnnotation ImageCopySearch {
+      get { return featureCase_ == FeatureOneofCase.ImageCopySearch ? (global::Yandex.Cloud.Ai.Vision.V1.ImageCopySearchAnnotation) feature_ : null; }
+      set {
+        feature_ = value;
+        featureCase_ = value == null ? FeatureOneofCase.None : FeatureOneofCase.ImageCopySearch;
+      }
+    }
+
     /// <summary>Field number for the "error" field.</summary>
     public const int ErrorFieldNumber = 1;
     private global::Google.Rpc.Status error_;
@@ -1409,6 +1468,7 @@ namespace Yandex.Cloud.Ai.Vision.V1 {
       TextDetection = 2,
       Classification = 3,
       FaceDetection = 4,
+      ImageCopySearch = 5,
     }
     private FeatureOneofCase featureCase_ = FeatureOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1438,6 +1498,7 @@ namespace Yandex.Cloud.Ai.Vision.V1 {
       if (!object.Equals(TextDetection, other.TextDetection)) return false;
       if (!object.Equals(Classification, other.Classification)) return false;
       if (!object.Equals(FaceDetection, other.FaceDetection)) return false;
+      if (!object.Equals(ImageCopySearch, other.ImageCopySearch)) return false;
       if (!object.Equals(Error, other.Error)) return false;
       if (FeatureCase != other.FeatureCase) return false;
       return Equals(_unknownFields, other._unknownFields);
@@ -1449,6 +1510,7 @@ namespace Yandex.Cloud.Ai.Vision.V1 {
       if (featureCase_ == FeatureOneofCase.TextDetection) hash ^= TextDetection.GetHashCode();
       if (featureCase_ == FeatureOneofCase.Classification) hash ^= Classification.GetHashCode();
       if (featureCase_ == FeatureOneofCase.FaceDetection) hash ^= FaceDetection.GetHashCode();
+      if (featureCase_ == FeatureOneofCase.ImageCopySearch) hash ^= ImageCopySearch.GetHashCode();
       if (error_ != null) hash ^= Error.GetHashCode();
       hash ^= (int) featureCase_;
       if (_unknownFields != null) {
@@ -1480,6 +1542,10 @@ namespace Yandex.Cloud.Ai.Vision.V1 {
         output.WriteRawTag(34);
         output.WriteMessage(FaceDetection);
       }
+      if (featureCase_ == FeatureOneofCase.ImageCopySearch) {
+        output.WriteRawTag(42);
+        output.WriteMessage(ImageCopySearch);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1496,6 +1562,9 @@ namespace Yandex.Cloud.Ai.Vision.V1 {
       }
       if (featureCase_ == FeatureOneofCase.FaceDetection) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(FaceDetection);
+      }
+      if (featureCase_ == FeatureOneofCase.ImageCopySearch) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(ImageCopySearch);
       }
       if (error_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(Error);
@@ -1535,6 +1604,12 @@ namespace Yandex.Cloud.Ai.Vision.V1 {
             FaceDetection = new global::Yandex.Cloud.Ai.Vision.V1.FaceAnnotation();
           }
           FaceDetection.MergeFrom(other.FaceDetection);
+          break;
+        case FeatureOneofCase.ImageCopySearch:
+          if (ImageCopySearch == null) {
+            ImageCopySearch = new global::Yandex.Cloud.Ai.Vision.V1.ImageCopySearchAnnotation();
+          }
+          ImageCopySearch.MergeFrom(other.ImageCopySearch);
           break;
       }
 
@@ -1581,6 +1656,15 @@ namespace Yandex.Cloud.Ai.Vision.V1 {
             }
             input.ReadMessage(subBuilder);
             FaceDetection = subBuilder;
+            break;
+          }
+          case 42: {
+            global::Yandex.Cloud.Ai.Vision.V1.ImageCopySearchAnnotation subBuilder = new global::Yandex.Cloud.Ai.Vision.V1.ImageCopySearchAnnotation();
+            if (featureCase_ == FeatureOneofCase.ImageCopySearch) {
+              subBuilder.MergeFrom(ImageCopySearch);
+            }
+            input.ReadMessage(subBuilder);
+            ImageCopySearch = subBuilder;
             break;
           }
         }

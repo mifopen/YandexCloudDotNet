@@ -59,6 +59,9 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
 
   }
   #region Messages
+  /// <summary>
+  /// A registry. For more information, see [Registry](/docs/iot-core/concepts/index#registry).
+  /// </summary>
   internal sealed partial class Registry : pb::IMessage<Registry> {
     private static readonly pb::MessageParser<Registry> _parser = new pb::MessageParser<Registry>(() => new Registry());
     private pb::UnknownFieldSet _unknownFields;
@@ -103,6 +106,9 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     /// <summary>Field number for the "id" field.</summary>
     public const int IdFieldNumber = 1;
     private string id_ = "";
+    /// <summary>
+    /// ID of the registry.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Id {
       get { return id_; }
@@ -114,6 +120,9 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     /// <summary>Field number for the "folder_id" field.</summary>
     public const int FolderIdFieldNumber = 2;
     private string folderId_ = "";
+    /// <summary>
+    /// ID of the folder that the registry belongs to.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string FolderId {
       get { return folderId_; }
@@ -125,6 +134,9 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     /// <summary>Field number for the "created_at" field.</summary>
     public const int CreatedAtFieldNumber = 3;
     private global::Google.Protobuf.WellKnownTypes.Timestamp createdAt_;
+    /// <summary>
+    /// Creation timestamp.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Google.Protobuf.WellKnownTypes.Timestamp CreatedAt {
       get { return createdAt_; }
@@ -136,6 +148,9 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     /// <summary>Field number for the "name" field.</summary>
     public const int NameFieldNumber = 4;
     private string name_ = "";
+    /// <summary>
+    /// Name of the registry. The name is unique within the folder.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Name {
       get { return name_; }
@@ -147,6 +162,9 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     /// <summary>Field number for the "description" field.</summary>
     public const int DescriptionFieldNumber = 5;
     private string description_ = "";
+    /// <summary>
+    /// Description of the registry. 0-256 characters long.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Description {
       get { return description_; }
@@ -160,6 +178,9 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     private static readonly pbc::MapField<string, string>.Codec _map_labels_codec
         = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 50);
     private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
+    /// <summary>
+    /// Resource labels as `key:value` pairs. Мaximum of 64 per resource.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::MapField<string, string> Labels {
       get { return labels_; }
@@ -168,6 +189,9 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     /// <summary>Field number for the "status" field.</summary>
     public const int StatusFieldNumber = 7;
     private global::Yandex.Cloud.Iot.Devices.V1.Registry.Types.Status status_ = 0;
+    /// <summary>
+    /// Status of the registry.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Iot.Devices.V1.Registry.Types.Status Status {
       get { return status_; }
@@ -179,6 +203,9 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     /// <summary>Field number for the "log_group_id" field.</summary>
     public const int LogGroupIdFieldNumber = 8;
     private string logGroupId_ = "";
+    /// <summary>
+    /// ID of the logs group for the specified registry.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string LogGroupId {
       get { return logGroupId_; }
@@ -386,8 +413,17 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     public static partial class Types {
       internal enum Status {
         [pbr::OriginalName("STATUS_UNSPECIFIED")] Unspecified = 0,
+        /// <summary>
+        /// Registry is being created.
+        /// </summary>
         [pbr::OriginalName("CREATING")] Creating = 1,
+        /// <summary>
+        /// Registry is ready to use.
+        /// </summary>
         [pbr::OriginalName("ACTIVE")] Active = 2,
+        /// <summary>
+        /// Registry is being deleted.
+        /// </summary>
         [pbr::OriginalName("DELETING")] Deleting = 3,
       }
 
@@ -396,6 +432,9 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
 
   }
 
+  /// <summary>
+  /// A registry certificate. For more information, see [Managing registry certificates](/docs/iot-core/operations/certificates/registry-certificates).
+  /// </summary>
   internal sealed partial class RegistryCertificate : pb::IMessage<RegistryCertificate> {
     private static readonly pb::MessageParser<RegistryCertificate> _parser = new pb::MessageParser<RegistryCertificate>(() => new RegistryCertificate());
     private pb::UnknownFieldSet _unknownFields;
@@ -436,6 +475,9 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     /// <summary>Field number for the "registry_id" field.</summary>
     public const int RegistryIdFieldNumber = 1;
     private string registryId_ = "";
+    /// <summary>
+    /// ID of the registry that the certificate belongs to.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string RegistryId {
       get { return registryId_; }
@@ -447,6 +489,9 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     /// <summary>Field number for the "fingerprint" field.</summary>
     public const int FingerprintFieldNumber = 2;
     private string fingerprint_ = "";
+    /// <summary>
+    /// SHA256 hash of the certificates.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Fingerprint {
       get { return fingerprint_; }
@@ -458,6 +503,9 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     /// <summary>Field number for the "certificate_data" field.</summary>
     public const int CertificateDataFieldNumber = 3;
     private string certificateData_ = "";
+    /// <summary>
+    /// Public part of the certificate.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string CertificateData {
       get { return certificateData_; }
@@ -469,6 +517,9 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     /// <summary>Field number for the "created_at" field.</summary>
     public const int CreatedAtFieldNumber = 4;
     private global::Google.Protobuf.WellKnownTypes.Timestamp createdAt_;
+    /// <summary>
+    /// Creation timestamp.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Google.Protobuf.WellKnownTypes.Timestamp CreatedAt {
       get { return createdAt_; }
@@ -615,6 +666,11 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
 
   }
 
+  /// <summary>
+  /// A device topic alias.
+  ///
+  /// Alias is an alternate name of a device topic assigned by the user. Map alias to canonical topic name prefix, e.g. `my/custom/alias` match to `$device/abcdef/events`. For more information, see [Using topic aliases](/docs/iot-core/concepts/topic#aliases).
+  /// </summary>
   internal sealed partial class DeviceAlias : pb::IMessage<DeviceAlias> {
     private static readonly pb::MessageParser<DeviceAlias> _parser = new pb::MessageParser<DeviceAlias>(() => new DeviceAlias());
     private pb::UnknownFieldSet _unknownFields;
@@ -654,6 +710,9 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     /// <summary>Field number for the "device_id" field.</summary>
     public const int DeviceIdFieldNumber = 1;
     private string deviceId_ = "";
+    /// <summary>
+    /// ID of the device that the alias belongs to.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string DeviceId {
       get { return deviceId_; }
@@ -666,7 +725,7 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     public const int TopicPrefixFieldNumber = 2;
     private string topicPrefix_ = "";
     /// <summary>
-    /// prefix of canonical topic name to be aliased, e.g. $devices/abcdef
+    /// Prefix of a canonical topic name to be aliased, e.g. `$devices/abcdef`.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string TopicPrefix {
@@ -679,6 +738,9 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     /// <summary>Field number for the "alias" field.</summary>
     public const int AliasFieldNumber = 3;
     private string alias_ = "";
+    /// <summary>
+    /// Alias of a device topic.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Alias {
       get { return alias_; }
@@ -803,6 +865,9 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
 
   }
 
+  /// <summary>
+  /// A registry password.
+  /// </summary>
   internal sealed partial class RegistryPassword : pb::IMessage<RegistryPassword> {
     private static readonly pb::MessageParser<RegistryPassword> _parser = new pb::MessageParser<RegistryPassword>(() => new RegistryPassword());
     private pb::UnknownFieldSet _unknownFields;
@@ -842,6 +907,9 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     /// <summary>Field number for the "registry_id" field.</summary>
     public const int RegistryIdFieldNumber = 1;
     private string registryId_ = "";
+    /// <summary>
+    /// ID of the registry that the password belongs to.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string RegistryId {
       get { return registryId_; }
@@ -853,6 +921,9 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     /// <summary>Field number for the "id" field.</summary>
     public const int IdFieldNumber = 2;
     private string id_ = "";
+    /// <summary>
+    /// ID of the password.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Id {
       get { return id_; }
@@ -864,6 +935,9 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     /// <summary>Field number for the "created_at" field.</summary>
     public const int CreatedAtFieldNumber = 3;
     private global::Google.Protobuf.WellKnownTypes.Timestamp createdAt_;
+    /// <summary>
+    /// Creation timestamp.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Google.Protobuf.WellKnownTypes.Timestamp CreatedAt {
       get { return createdAt_; }

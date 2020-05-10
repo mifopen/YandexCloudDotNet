@@ -27,124 +27,137 @@ namespace Yandex.Cloud.K8S.V1 {
             "Cil5YW5kZXgvY2xvdWQvazhzL3YxL2NsdXN0ZXJfc2VydmljZS5wcm90bxIT",
             "eWFuZGV4LmNsb3VkLms4cy52MRocZ29vZ2xlL2FwaS9hbm5vdGF0aW9ucy5w",
             "cm90bxogZ29vZ2xlL3Byb3RvYnVmL2ZpZWxkX21hc2sucHJvdG8aIHlhbmRl",
-            "eC9jbG91ZC9hcGkvb3BlcmF0aW9uLnByb3RvGiZ5YW5kZXgvY2xvdWQvb3Bl",
-            "cmF0aW9uL29wZXJhdGlvbi5wcm90bxodeWFuZGV4L2Nsb3VkL3ZhbGlkYXRp",
-            "b24ucHJvdG8aIXlhbmRleC9jbG91ZC9rOHMvdjEvY2x1c3Rlci5wcm90bxok",
-            "eWFuZGV4L2Nsb3VkL2s4cy92MS9ub2RlX2dyb3VwLnByb3RvGiF5YW5kZXgv",
-            "Y2xvdWQvazhzL3YxL3ZlcnNpb24ucHJvdG8iLQoRR2V0Q2x1c3RlclJlcXVl",
-            "c3QSGAoKY2x1c3Rlcl9pZBgBIAEoCUIE6McxASKIAQoTTGlzdENsdXN0ZXJz",
-            "UmVxdWVzdBIXCglmb2xkZXJfaWQYASABKAlCBOjHMQESHQoJcGFnZV9zaXpl",
-            "GAIgASgDQgr6xzEGMC0xMDAwEh0KCnBhZ2VfdG9rZW4YAyABKAlCCYrIMQU8",
-            "PTEwMBIaCgZmaWx0ZXIYBCABKAlCCorIMQY8PTEwMDAiXwoUTGlzdENsdXN0",
-            "ZXJzUmVzcG9uc2USLgoIY2x1c3RlcnMYASADKAsyHC55YW5kZXguY2xvdWQu",
-            "azhzLnYxLkNsdXN0ZXISFwoPbmV4dF9wYWdlX3Rva2VuGAIgASgJIjAKFERl",
-            "bGV0ZUNsdXN0ZXJSZXF1ZXN0EhgKCmNsdXN0ZXJfaWQYASABKAlCBOjHMQEi",
-            "KwoVRGVsZXRlQ2x1c3Rlck1ldGFkYXRhEhIKCmNsdXN0ZXJfaWQYASABKAki",
-            "SgoSU3RvcENsdXN0ZXJSZXF1ZXN0EhgKCmNsdXN0ZXJfaWQYASABKAlCBOjH",
-            "MQESGgoSc2VydmljZV9hY2NvdW50X2lkGAIgASgJIikKE1N0b3BDbHVzdGVy",
-            "TWV0YWRhdGESEgoKY2x1c3Rlcl9pZBgBIAEoCSIvChNTdGFydENsdXN0ZXJS",
-            "ZXF1ZXN0EhgKCmNsdXN0ZXJfaWQYASABKAlCBOjHMQEiKgoUU3RhcnRDbHVz",
-            "dGVyTWV0YWRhdGESEgoKY2x1c3Rlcl9pZBgBIAEoCSKhBAoUVXBkYXRlQ2x1",
-            "c3RlclJlcXVlc3QSGAoKY2x1c3Rlcl9pZBgBIAEoCUIE6McxARIvCgt1cGRh",
-            "dGVfbWFzaxgCIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5GaWVsZE1hc2sSLwoE",
-            "bmFtZRgDIAEoCUIh8scxHXxbYS16XVstYS16MC05XXsxLDYxfVthLXowLTld",
-            "Eh4KC2Rlc2NyaXB0aW9uGAQgASgJQgmKyDEFPD0yNTYShgEKBmxhYmVscxgF",
-            "IAMoCzI1LnlhbmRleC5jbG91ZC5rOHMudjEuVXBkYXRlQ2x1c3RlclJlcXVl",
-            "c3QuTGFiZWxzRW50cnlCP4LIMQQ8PTY0isgxBDw9NjPyxzELWy1fMC05YS16",
-            "XSqyyDEGGgQxLTYzssgxEhIQW2Etel1bLV8wLTlhLXpdKhIoChRnYXRld2F5",
-            "X2lwdjRfYWRkcmVzcxgGIAEoCUIIisgxBDw9MTVIABI6CgttYXN0ZXJfc3Bl",
-            "YxgHIAEoCzIlLnlhbmRleC5jbG91ZC5rOHMudjEuTWFzdGVyVXBkYXRlU3Bl",
-            "YxIaChJzZXJ2aWNlX2FjY291bnRfaWQYCSABKAkSHwoXbm9kZV9zZXJ2aWNl",
-            "X2FjY291bnRfaWQYCCABKAkaLQoLTGFiZWxzRW50cnkSCwoDa2V5GAEgASgJ",
-            "Eg0KBXZhbHVlGAIgASgJOgI4AUISChBpbnRlcm5ldF9nYXRld2F5IpUBChBN",
-            "YXN0ZXJVcGRhdGVTcGVjEjcKB3ZlcnNpb24YASABKAsyJi55YW5kZXguY2xv",
-            "dWQuazhzLnYxLlVwZGF0ZVZlcnNpb25TcGVjEkgKEm1haW50ZW5hbmNlX3Bv",
-            "bGljeRgCIAEoCzIsLnlhbmRleC5jbG91ZC5rOHMudjEuTWFzdGVyTWFpbnRl",
-            "bmFuY2VQb2xpY3kiKwoVVXBkYXRlQ2x1c3Rlck1ldGFkYXRhEhIKCmNsdXN0",
-            "ZXJfaWQYASABKAkikAUKFENyZWF0ZUNsdXN0ZXJSZXF1ZXN0EhcKCWZvbGRl",
-            "cl9pZBgBIAEoCUIE6McxARIvCgRuYW1lGAIgASgJQiHyxzEdfFthLXpdWy1h",
-            "LXowLTldezEsNjF9W2EtejAtOV0SHgoLZGVzY3JpcHRpb24YAyABKAlCCYrI",
-            "MQU8PTI1NhKGAQoGbGFiZWxzGAQgAygLMjUueWFuZGV4LmNsb3VkLms4cy52",
-            "MS5DcmVhdGVDbHVzdGVyUmVxdWVzdC5MYWJlbHNFbnRyeUI/gsgxBDw9NjSK",
-            "yDEEPD02M/LHMQtbLV8wLTlhLXpdKrLIMQYaBDEtNjOyyDESEhBbYS16XVst",
-            "XzAtOWEtel0qEhgKCm5ldHdvcmtfaWQYBSABKAlCBOjHMQESOgoLbWFzdGVy",
-            "X3NwZWMYBiABKAsyHy55YW5kZXguY2xvdWQuazhzLnYxLk1hc3RlclNwZWNC",
-            "BOjHMQESRQoUaXBfYWxsb2NhdGlvbl9wb2xpY3kYByABKAsyJy55YW5kZXgu",
-            "Y2xvdWQuazhzLnYxLklQQWxsb2NhdGlvblBvbGljeRIeChRnYXRld2F5X2lw",
-            "djRfYWRkcmVzcxgIIAEoCUgAEiAKEnNlcnZpY2VfYWNjb3VudF9pZBgJIAEo",
-            "CUIE6McxARIlChdub2RlX3NlcnZpY2VfYWNjb3VudF9pZBgKIAEoCUIE6Mcx",
-            "ARI8Cg9yZWxlYXNlX2NoYW5uZWwYCyABKA4yIy55YW5kZXguY2xvdWQuazhz",
-            "LnYxLlJlbGVhc2VDaGFubmVsGi0KC0xhYmVsc0VudHJ5EgsKA2tleRgBIAEo",
-            "CRINCgV2YWx1ZRgCIAEoCToCOAFCEgoQaW50ZXJuZXRfZ2F0ZXdheSIrChVD",
-            "cmVhdGVDbHVzdGVyTWV0YWRhdGESEgoKY2x1c3Rlcl9pZBgBIAEoCSIvChlB",
-            "dXRvVXBncmFkZU1hc3Rlck1ldGFkYXRhEhIKCmNsdXN0ZXJfaWQYASABKAki",
-            "kgEKHExpc3RDbHVzdGVyT3BlcmF0aW9uc1JlcXVlc3QSGAoKY2x1c3Rlcl9p",
-            "ZBgBIAEoCUIE6McxARIdCglwYWdlX3NpemUYAiABKANCCvrHMQYwLTEwMDAS",
-            "HQoKcGFnZV90b2tlbhgDIAEoCUIJisgxBTw9MTAwEhoKBmZpbHRlchgEIAEo",
-            "CUIKisgxBjw9MTAwMCJvCh1MaXN0Q2x1c3Rlck9wZXJhdGlvbnNSZXNwb25z",
-            "ZRI1CgpvcGVyYXRpb25zGAEgAygLMiEueWFuZGV4LmNsb3VkLm9wZXJhdGlv",
-            "bi5PcGVyYXRpb24SFwoPbmV4dF9wYWdlX3Rva2VuGAIgASgJIpIBChxMaXN0",
-            "Q2x1c3Rlck5vZGVHcm91cHNSZXF1ZXN0EhgKCmNsdXN0ZXJfaWQYASABKAlC",
-            "BOjHMQESHQoJcGFnZV9zaXplGAIgASgDQgr6xzEGMC0xMDAwEh0KCnBhZ2Vf",
-            "dG9rZW4YAyABKAlCCYrIMQU8PTEwMBIaCgZmaWx0ZXIYBCABKAlCCorIMQY8",
-            "PTEwMDAibQodTGlzdENsdXN0ZXJOb2RlR3JvdXBzUmVzcG9uc2USMwoLbm9k",
-            "ZV9ncm91cHMYASADKAsyHi55YW5kZXguY2xvdWQuazhzLnYxLk5vZGVHcm91",
-            "cBIXCg9uZXh0X3BhZ2VfdG9rZW4YAiABKAkiiAIKCk1hc3RlclNwZWMSQQoR",
-            "em9uYWxfbWFzdGVyX3NwZWMYASABKAsyJC55YW5kZXguY2xvdWQuazhzLnYx",
-            "LlpvbmFsTWFzdGVyU3BlY0gAEkcKFHJlZ2lvbmFsX21hc3Rlcl9zcGVjGAIg",
-            "ASgLMicueWFuZGV4LmNsb3VkLms4cy52MS5SZWdpb25hbE1hc3RlclNwZWNI",
-            "ABIPCgd2ZXJzaW9uGAMgASgJEkgKEm1haW50ZW5hbmNlX3BvbGljeRgEIAEo",
-            "CzIsLnlhbmRleC5jbG91ZC5rOHMudjEuTWFzdGVyTWFpbnRlbmFuY2VQb2xp",
-            "Y3lCEwoLbWFzdGVyX3R5cGUSBMDBMQEiwAEKD1pvbmFsTWFzdGVyU3BlYxIV",
-            "Cgd6b25lX2lkGAEgASgJQgToxzEBEkoKGGludGVybmFsX3Y0X2FkZHJlc3Nf",
-            "c3BlYxgCIAEoCzIoLnlhbmRleC5jbG91ZC5rOHMudjEuSW50ZXJuYWxBZGRy",
-            "ZXNzU3BlYxJKChhleHRlcm5hbF92NF9hZGRyZXNzX3NwZWMYAyABKAsyKC55",
-            "YW5kZXguY2xvdWQuazhzLnYxLkV4dGVybmFsQWRkcmVzc1NwZWMisQEKElJl",
-            "Z2lvbmFsTWFzdGVyU3BlYxIXCglyZWdpb25faWQYASABKAlCBOjHMQESNgoJ",
-            "bG9jYXRpb25zGAIgAygLMiMueWFuZGV4LmNsb3VkLms4cy52MS5NYXN0ZXJM",
-            "b2NhdGlvbhJKChhleHRlcm5hbF92NF9hZGRyZXNzX3NwZWMYAyABKAsyKC55",
-            "YW5kZXguY2xvdWQuazhzLnYxLkV4dGVybmFsQWRkcmVzc1NwZWMiKAoTSW50",
-            "ZXJuYWxBZGRyZXNzU3BlYxIRCglzdWJuZXRfaWQYAiABKAkiFQoTRXh0ZXJu",
-            "YWxBZGRyZXNzU3BlYyJzCg5NYXN0ZXJMb2NhdGlvbhIVCgd6b25lX2lkGAEg",
-            "ASgJQgToxzEBEkoKGGludGVybmFsX3Y0X2FkZHJlc3Nfc3BlYxgCIAEoCzIo",
-            "LnlhbmRleC5jbG91ZC5rOHMudjEuSW50ZXJuYWxBZGRyZXNzU3BlYzKkCwoO",
-            "Q2x1c3RlclNlcnZpY2USgQEKA0dldBImLnlhbmRleC5jbG91ZC5rOHMudjEu",
-            "R2V0Q2x1c3RlclJlcXVlc3QaHC55YW5kZXguY2xvdWQuazhzLnYxLkNsdXN0",
-            "ZXIiNILT5JMCLhIsL21hbmFnZWQta3ViZXJuZXRlcy92MS9jbHVzdGVycy97",
-            "Y2x1c3Rlcl9pZH0ShAEKBExpc3QSKC55YW5kZXguY2xvdWQuazhzLnYxLkxp",
-            "c3RDbHVzdGVyc1JlcXVlc3QaKS55YW5kZXguY2xvdWQuazhzLnYxLkxpc3RD",
-            "bHVzdGVyc1Jlc3BvbnNlIieC0+STAiESHy9tYW5hZ2VkLWt1YmVybmV0ZXMv",
-            "djEvY2x1c3RlcnMSpgEKBkNyZWF0ZRIpLnlhbmRleC5jbG91ZC5rOHMudjEu",
-            "Q3JlYXRlQ2x1c3RlclJlcXVlc3QaIS55YW5kZXguY2xvdWQub3BlcmF0aW9u",
-            "Lk9wZXJhdGlvbiJOgtPkkwIkIh8vbWFuYWdlZC1rdWJlcm5ldGVzL3YxL2Ns",
-            "dXN0ZXJzOgEqstIqIAoVQ3JlYXRlQ2x1c3Rlck1ldGFkYXRhEgdDbHVzdGVy",
-            "ErMBCgZVcGRhdGUSKS55YW5kZXguY2xvdWQuazhzLnYxLlVwZGF0ZUNsdXN0",
-            "ZXJSZXF1ZXN0GiEueWFuZGV4LmNsb3VkLm9wZXJhdGlvbi5PcGVyYXRpb24i",
-            "W4LT5JMCMTIsL21hbmFnZWQta3ViZXJuZXRlcy92MS9jbHVzdGVycy97Y2x1",
-            "c3Rlcl9pZH06ASqy0iogChVVcGRhdGVDbHVzdGVyTWV0YWRhdGESB0NsdXN0",
-            "ZXISvgEKBkRlbGV0ZRIpLnlhbmRleC5jbG91ZC5rOHMudjEuRGVsZXRlQ2x1",
-            "c3RlclJlcXVlc3QaIS55YW5kZXguY2xvdWQub3BlcmF0aW9uLk9wZXJhdGlv",
-            "biJmgtPkkwIuKiwvbWFuYWdlZC1rdWJlcm5ldGVzL3YxL2NsdXN0ZXJzL3tj",
-            "bHVzdGVyX2lkfbLSKi4KFURlbGV0ZUNsdXN0ZXJNZXRhZGF0YRIVZ29vZ2xl",
-            "LnByb3RvYnVmLkVtcHR5EnYKBFN0b3ASJy55YW5kZXguY2xvdWQuazhzLnYx",
-            "LlN0b3BDbHVzdGVyUmVxdWVzdBohLnlhbmRleC5jbG91ZC5vcGVyYXRpb24u",
-            "T3BlcmF0aW9uIiKy0ioeChNTdG9wQ2x1c3Rlck1ldGFkYXRhEgdDbHVzdGVy",
-            "EnkKBVN0YXJ0EigueWFuZGV4LmNsb3VkLms4cy52MS5TdGFydENsdXN0ZXJS",
-            "ZXF1ZXN0GiEueWFuZGV4LmNsb3VkLm9wZXJhdGlvbi5PcGVyYXRpb24iI7LS",
-            "Kh8KFFN0YXJ0Q2x1c3Rlck1ldGFkYXRhEgdDbHVzdGVyErgBCg5MaXN0Tm9k",
-            "ZUdyb3VwcxIxLnlhbmRleC5jbG91ZC5rOHMudjEuTGlzdENsdXN0ZXJOb2Rl",
-            "R3JvdXBzUmVxdWVzdBoyLnlhbmRleC5jbG91ZC5rOHMudjEuTGlzdENsdXN0",
-            "ZXJOb2RlR3JvdXBzUmVzcG9uc2UiP4LT5JMCORI3L21hbmFnZWQta3ViZXJu",
-            "ZXRlcy92MS9jbHVzdGVycy97Y2x1c3Rlcl9pZH0vbm9kZUdyb3VwcxK4AQoO",
-            "TGlzdE9wZXJhdGlvbnMSMS55YW5kZXguY2xvdWQuazhzLnYxLkxpc3RDbHVz",
-            "dGVyT3BlcmF0aW9uc1JlcXVlc3QaMi55YW5kZXguY2xvdWQuazhzLnYxLkxp",
-            "c3RDbHVzdGVyT3BlcmF0aW9uc1Jlc3BvbnNlIj+C0+STAjkSNy9tYW5hZ2Vk",
-            "LWt1YmVybmV0ZXMvdjEvY2x1c3RlcnMve2NsdXN0ZXJfaWR9L29wZXJhdGlv",
-            "bnNCVgoXeWFuZGV4LmNsb3VkLmFwaS5rOHMudjFaO2dpdGh1Yi5jb20veWFu",
+            "eC9jbG91ZC9hcGkvb3BlcmF0aW9uLnByb3RvGiF5YW5kZXgvY2xvdWQvazhz",
+            "L3YxL2NsdXN0ZXIucHJvdG8aJHlhbmRleC9jbG91ZC9rOHMvdjEvbm9kZV9n",
+            "cm91cC5wcm90bxoeeWFuZGV4L2Nsb3VkL2s4cy92MS9ub2RlLnByb3RvGiF5",
+            "YW5kZXgvY2xvdWQvazhzL3YxL3ZlcnNpb24ucHJvdG8aJnlhbmRleC9jbG91",
+            "ZC9vcGVyYXRpb24vb3BlcmF0aW9uLnByb3RvGh15YW5kZXgvY2xvdWQvdmFs",
+            "aWRhdGlvbi5wcm90byItChFHZXRDbHVzdGVyUmVxdWVzdBIYCgpjbHVzdGVy",
+            "X2lkGAEgASgJQgToxzEBIogBChNMaXN0Q2x1c3RlcnNSZXF1ZXN0EhcKCWZv",
+            "bGRlcl9pZBgBIAEoCUIE6McxARIdCglwYWdlX3NpemUYAiABKANCCvrHMQYw",
+            "LTEwMDASHQoKcGFnZV90b2tlbhgDIAEoCUIJisgxBTw9MTAwEhoKBmZpbHRl",
+            "chgEIAEoCUIKisgxBjw9MTAwMCJfChRMaXN0Q2x1c3RlcnNSZXNwb25zZRIu",
+            "CghjbHVzdGVycxgBIAMoCzIcLnlhbmRleC5jbG91ZC5rOHMudjEuQ2x1c3Rl",
+            "chIXCg9uZXh0X3BhZ2VfdG9rZW4YAiABKAkiMAoURGVsZXRlQ2x1c3RlclJl",
+            "cXVlc3QSGAoKY2x1c3Rlcl9pZBgBIAEoCUIE6McxASIrChVEZWxldGVDbHVz",
+            "dGVyTWV0YWRhdGESEgoKY2x1c3Rlcl9pZBgBIAEoCSJKChJTdG9wQ2x1c3Rl",
+            "clJlcXVlc3QSGAoKY2x1c3Rlcl9pZBgBIAEoCUIE6McxARIaChJzZXJ2aWNl",
+            "X2FjY291bnRfaWQYAiABKAkiKQoTU3RvcENsdXN0ZXJNZXRhZGF0YRISCgpj",
+            "bHVzdGVyX2lkGAEgASgJIi8KE1N0YXJ0Q2x1c3RlclJlcXVlc3QSGAoKY2x1",
+            "c3Rlcl9pZBgBIAEoCUIE6McxASIqChRTdGFydENsdXN0ZXJNZXRhZGF0YRIS",
+            "CgpjbHVzdGVyX2lkGAEgASgJIt0EChRVcGRhdGVDbHVzdGVyUmVxdWVzdBIY",
+            "CgpjbHVzdGVyX2lkGAEgASgJQgToxzEBEi8KC3VwZGF0ZV9tYXNrGAIgASgL",
+            "MhouZ29vZ2xlLnByb3RvYnVmLkZpZWxkTWFzaxIvCgRuYW1lGAMgASgJQiHy",
+            "xzEdfFthLXpdWy1hLXowLTldezEsNjF9W2EtejAtOV0SHgoLZGVzY3JpcHRp",
+            "b24YBCABKAlCCYrIMQU8PTI1NhKGAQoGbGFiZWxzGAUgAygLMjUueWFuZGV4",
+            "LmNsb3VkLms4cy52MS5VcGRhdGVDbHVzdGVyUmVxdWVzdC5MYWJlbHNFbnRy",
+            "eUI/gsgxBDw9NjSKyDEEPD02M/LHMQtbLV8wLTlhLXpdKrLIMQYaBDEtNjOy",
+            "yDESEhBbYS16XVstXzAtOWEtel0qEigKFGdhdGV3YXlfaXB2NF9hZGRyZXNz",
+            "GAYgASgJQgiKyDEEPD0xNUgAEjoKC21hc3Rlcl9zcGVjGAcgASgLMiUueWFu",
+            "ZGV4LmNsb3VkLms4cy52MS5NYXN0ZXJVcGRhdGVTcGVjEhoKEnNlcnZpY2Vf",
+            "YWNjb3VudF9pZBgJIAEoCRIfChdub2RlX3NlcnZpY2VfYWNjb3VudF9pZBgI",
+            "IAEoCRI6Cg5uZXR3b3JrX3BvbGljeRgKIAEoCzIiLnlhbmRleC5jbG91ZC5r",
+            "OHMudjEuTmV0d29ya1BvbGljeRotCgtMYWJlbHNFbnRyeRILCgNrZXkYASAB",
+            "KAkSDQoFdmFsdWUYAiABKAk6AjgBQhIKEGludGVybmV0X2dhdGV3YXkilQEK",
+            "EE1hc3RlclVwZGF0ZVNwZWMSNwoHdmVyc2lvbhgBIAEoCzImLnlhbmRleC5j",
+            "bG91ZC5rOHMudjEuVXBkYXRlVmVyc2lvblNwZWMSSAoSbWFpbnRlbmFuY2Vf",
+            "cG9saWN5GAIgASgLMiwueWFuZGV4LmNsb3VkLms4cy52MS5NYXN0ZXJNYWlu",
+            "dGVuYW5jZVBvbGljeSIrChVVcGRhdGVDbHVzdGVyTWV0YWRhdGESEgoKY2x1",
+            "c3Rlcl9pZBgBIAEoCSKEBgoUQ3JlYXRlQ2x1c3RlclJlcXVlc3QSFwoJZm9s",
+            "ZGVyX2lkGAEgASgJQgToxzEBEi8KBG5hbWUYAiABKAlCIfLHMR18W2Etel1b",
+            "LWEtejAtOV17MSw2MX1bYS16MC05XRIeCgtkZXNjcmlwdGlvbhgDIAEoCUIJ",
+            "isgxBTw9MjU2EoYBCgZsYWJlbHMYBCADKAsyNS55YW5kZXguY2xvdWQuazhz",
+            "LnYxLkNyZWF0ZUNsdXN0ZXJSZXF1ZXN0LkxhYmVsc0VudHJ5Qj+CyDEEPD02",
+            "NIrIMQQ8PTYz8scxC1stXzAtOWEtel0qssgxBhoEMS02M7LIMRISEFthLXpd",
+            "Wy1fMC05YS16XSoSGAoKbmV0d29ya19pZBgFIAEoCUIE6McxARI6CgttYXN0",
+            "ZXJfc3BlYxgGIAEoCzIfLnlhbmRleC5jbG91ZC5rOHMudjEuTWFzdGVyU3Bl",
+            "Y0IE6McxARJFChRpcF9hbGxvY2F0aW9uX3BvbGljeRgHIAEoCzInLnlhbmRl",
+            "eC5jbG91ZC5rOHMudjEuSVBBbGxvY2F0aW9uUG9saWN5Eh4KFGdhdGV3YXlf",
+            "aXB2NF9hZGRyZXNzGAggASgJSAASIAoSc2VydmljZV9hY2NvdW50X2lkGAkg",
+            "ASgJQgToxzEBEiUKF25vZGVfc2VydmljZV9hY2NvdW50X2lkGAogASgJQgTo",
+            "xzEBEjwKD3JlbGVhc2VfY2hhbm5lbBgLIAEoDjIjLnlhbmRleC5jbG91ZC5r",
+            "OHMudjEuUmVsZWFzZUNoYW5uZWwSOgoObmV0d29ya19wb2xpY3kYDCABKAsy",
+            "Ii55YW5kZXguY2xvdWQuazhzLnYxLk5ldHdvcmtQb2xpY3kSNgoMa21zX3By",
+            "b3ZpZGVyGA0gASgLMiAueWFuZGV4LmNsb3VkLms4cy52MS5LTVNQcm92aWRl",
+            "chotCgtMYWJlbHNFbnRyeRILCgNrZXkYASABKAkSDQoFdmFsdWUYAiABKAk6",
+            "AjgBQhIKEGludGVybmV0X2dhdGV3YXkiKwoVQ3JlYXRlQ2x1c3Rlck1ldGFk",
+            "YXRhEhIKCmNsdXN0ZXJfaWQYASABKAkiLwoZQXV0b1VwZ3JhZGVNYXN0ZXJN",
+            "ZXRhZGF0YRISCgpjbHVzdGVyX2lkGAEgASgJIpIBChxMaXN0Q2x1c3Rlck9w",
+            "ZXJhdGlvbnNSZXF1ZXN0EhgKCmNsdXN0ZXJfaWQYASABKAlCBOjHMQESHQoJ",
+            "cGFnZV9zaXplGAIgASgDQgr6xzEGMC0xMDAwEh0KCnBhZ2VfdG9rZW4YAyAB",
+            "KAlCCYrIMQU8PTEwMBIaCgZmaWx0ZXIYBCABKAlCCorIMQY8PTEwMDAibwod",
+            "TGlzdENsdXN0ZXJPcGVyYXRpb25zUmVzcG9uc2USNQoKb3BlcmF0aW9ucxgB",
+            "IAMoCzIhLnlhbmRleC5jbG91ZC5vcGVyYXRpb24uT3BlcmF0aW9uEhcKD25l",
+            "eHRfcGFnZV90b2tlbhgCIAEoCSKSAQocTGlzdENsdXN0ZXJOb2RlR3JvdXBz",
+            "UmVxdWVzdBIYCgpjbHVzdGVyX2lkGAEgASgJQgToxzEBEh0KCXBhZ2Vfc2l6",
+            "ZRgCIAEoA0IK+scxBjAtMTAwMBIdCgpwYWdlX3Rva2VuGAMgASgJQgmKyDEF",
+            "PD0xMDASGgoGZmlsdGVyGAQgASgJQgqKyDEGPD0xMDAwIm0KHUxpc3RDbHVz",
+            "dGVyTm9kZUdyb3Vwc1Jlc3BvbnNlEjMKC25vZGVfZ3JvdXBzGAEgAygLMh4u",
+            "eWFuZGV4LmNsb3VkLms4cy52MS5Ob2RlR3JvdXASFwoPbmV4dF9wYWdlX3Rv",
+            "a2VuGAIgASgJInEKF0xpc3RDbHVzdGVyTm9kZXNSZXF1ZXN0EhgKCmNsdXN0",
+            "ZXJfaWQYASABKAlCBOjHMQESHQoJcGFnZV9zaXplGAIgASgDQgr6xzEGMC0x",
+            "MDAwEh0KCnBhZ2VfdG9rZW4YAyABKAlCCYrIMQU8PTEwMCJdChhMaXN0Q2x1",
+            "c3Rlck5vZGVzUmVzcG9uc2USKAoFbm9kZXMYASADKAsyGS55YW5kZXguY2xv",
+            "dWQuazhzLnYxLk5vZGUSFwoPbmV4dF9wYWdlX3Rva2VuGAIgASgJIogCCgpN",
+            "YXN0ZXJTcGVjEkEKEXpvbmFsX21hc3Rlcl9zcGVjGAEgASgLMiQueWFuZGV4",
+            "LmNsb3VkLms4cy52MS5ab25hbE1hc3RlclNwZWNIABJHChRyZWdpb25hbF9t",
+            "YXN0ZXJfc3BlYxgCIAEoCzInLnlhbmRleC5jbG91ZC5rOHMudjEuUmVnaW9u",
+            "YWxNYXN0ZXJTcGVjSAASDwoHdmVyc2lvbhgDIAEoCRJIChJtYWludGVuYW5j",
+            "ZV9wb2xpY3kYBCABKAsyLC55YW5kZXguY2xvdWQuazhzLnYxLk1hc3Rlck1h",
+            "aW50ZW5hbmNlUG9saWN5QhMKC21hc3Rlcl90eXBlEgTAwTEBIsABCg9ab25h",
+            "bE1hc3RlclNwZWMSFQoHem9uZV9pZBgBIAEoCUIE6McxARJKChhpbnRlcm5h",
+            "bF92NF9hZGRyZXNzX3NwZWMYAiABKAsyKC55YW5kZXguY2xvdWQuazhzLnYx",
+            "LkludGVybmFsQWRkcmVzc1NwZWMSSgoYZXh0ZXJuYWxfdjRfYWRkcmVzc19z",
+            "cGVjGAMgASgLMigueWFuZGV4LmNsb3VkLms4cy52MS5FeHRlcm5hbEFkZHJl",
+            "c3NTcGVjIrEBChJSZWdpb25hbE1hc3RlclNwZWMSFwoJcmVnaW9uX2lkGAEg",
+            "ASgJQgToxzEBEjYKCWxvY2F0aW9ucxgCIAMoCzIjLnlhbmRleC5jbG91ZC5r",
+            "OHMudjEuTWFzdGVyTG9jYXRpb24SSgoYZXh0ZXJuYWxfdjRfYWRkcmVzc19z",
+            "cGVjGAMgASgLMigueWFuZGV4LmNsb3VkLms4cy52MS5FeHRlcm5hbEFkZHJl",
+            "c3NTcGVjIigKE0ludGVybmFsQWRkcmVzc1NwZWMSEQoJc3VibmV0X2lkGAIg",
+            "ASgJIhUKE0V4dGVybmFsQWRkcmVzc1NwZWMicwoOTWFzdGVyTG9jYXRpb24S",
+            "FQoHem9uZV9pZBgBIAEoCUIE6McxARJKChhpbnRlcm5hbF92NF9hZGRyZXNz",
+            "X3NwZWMYAiABKAsyKC55YW5kZXguY2xvdWQuazhzLnYxLkludGVybmFsQWRk",
+            "cmVzc1NwZWMyywwKDkNsdXN0ZXJTZXJ2aWNlEoEBCgNHZXQSJi55YW5kZXgu",
+            "Y2xvdWQuazhzLnYxLkdldENsdXN0ZXJSZXF1ZXN0GhwueWFuZGV4LmNsb3Vk",
+            "Lms4cy52MS5DbHVzdGVyIjSC0+STAi4SLC9tYW5hZ2VkLWt1YmVybmV0ZXMv",
+            "djEvY2x1c3RlcnMve2NsdXN0ZXJfaWR9EoQBCgRMaXN0EigueWFuZGV4LmNs",
+            "b3VkLms4cy52MS5MaXN0Q2x1c3RlcnNSZXF1ZXN0GikueWFuZGV4LmNsb3Vk",
+            "Lms4cy52MS5MaXN0Q2x1c3RlcnNSZXNwb25zZSIngtPkkwIhEh8vbWFuYWdl",
+            "ZC1rdWJlcm5ldGVzL3YxL2NsdXN0ZXJzEqYBCgZDcmVhdGUSKS55YW5kZXgu",
+            "Y2xvdWQuazhzLnYxLkNyZWF0ZUNsdXN0ZXJSZXF1ZXN0GiEueWFuZGV4LmNs",
+            "b3VkLm9wZXJhdGlvbi5PcGVyYXRpb24iToLT5JMCJCIfL21hbmFnZWQta3Vi",
+            "ZXJuZXRlcy92MS9jbHVzdGVyczoBKrLSKiAKFUNyZWF0ZUNsdXN0ZXJNZXRh",
+            "ZGF0YRIHQ2x1c3RlchKzAQoGVXBkYXRlEikueWFuZGV4LmNsb3VkLms4cy52",
+            "MS5VcGRhdGVDbHVzdGVyUmVxdWVzdBohLnlhbmRleC5jbG91ZC5vcGVyYXRp",
+            "b24uT3BlcmF0aW9uIluC0+STAjEyLC9tYW5hZ2VkLWt1YmVybmV0ZXMvdjEv",
+            "Y2x1c3RlcnMve2NsdXN0ZXJfaWR9OgEqstIqIAoVVXBkYXRlQ2x1c3Rlck1l",
+            "dGFkYXRhEgdDbHVzdGVyEr4BCgZEZWxldGUSKS55YW5kZXguY2xvdWQuazhz",
+            "LnYxLkRlbGV0ZUNsdXN0ZXJSZXF1ZXN0GiEueWFuZGV4LmNsb3VkLm9wZXJh",
+            "dGlvbi5PcGVyYXRpb24iZoLT5JMCLiosL21hbmFnZWQta3ViZXJuZXRlcy92",
+            "MS9jbHVzdGVycy97Y2x1c3Rlcl9pZH2y0iouChVEZWxldGVDbHVzdGVyTWV0",
+            "YWRhdGESFWdvb2dsZS5wcm90b2J1Zi5FbXB0eRJ2CgRTdG9wEicueWFuZGV4",
+            "LmNsb3VkLms4cy52MS5TdG9wQ2x1c3RlclJlcXVlc3QaIS55YW5kZXguY2xv",
+            "dWQub3BlcmF0aW9uLk9wZXJhdGlvbiIistIqHgoTU3RvcENsdXN0ZXJNZXRh",
+            "ZGF0YRIHQ2x1c3RlchJ5CgVTdGFydBIoLnlhbmRleC5jbG91ZC5rOHMudjEu",
+            "U3RhcnRDbHVzdGVyUmVxdWVzdBohLnlhbmRleC5jbG91ZC5vcGVyYXRpb24u",
+            "T3BlcmF0aW9uIiOy0iofChRTdGFydENsdXN0ZXJNZXRhZGF0YRIHQ2x1c3Rl",
+            "chK4AQoOTGlzdE5vZGVHcm91cHMSMS55YW5kZXguY2xvdWQuazhzLnYxLkxp",
+            "c3RDbHVzdGVyTm9kZUdyb3Vwc1JlcXVlc3QaMi55YW5kZXguY2xvdWQuazhz",
+            "LnYxLkxpc3RDbHVzdGVyTm9kZUdyb3Vwc1Jlc3BvbnNlIj+C0+STAjkSNy9t",
+            "YW5hZ2VkLWt1YmVybmV0ZXMvdjEvY2x1c3RlcnMve2NsdXN0ZXJfaWR9L25v",
+            "ZGVHcm91cHMSuAEKDkxpc3RPcGVyYXRpb25zEjEueWFuZGV4LmNsb3VkLms4",
+            "cy52MS5MaXN0Q2x1c3Rlck9wZXJhdGlvbnNSZXF1ZXN0GjIueWFuZGV4LmNs",
+            "b3VkLms4cy52MS5MaXN0Q2x1c3Rlck9wZXJhdGlvbnNSZXNwb25zZSI/gtPk",
+            "kwI5EjcvbWFuYWdlZC1rdWJlcm5ldGVzL3YxL2NsdXN0ZXJzL3tjbHVzdGVy",
+            "X2lkfS9vcGVyYXRpb25zEqQBCglMaXN0Tm9kZXMSLC55YW5kZXguY2xvdWQu",
+            "azhzLnYxLkxpc3RDbHVzdGVyTm9kZXNSZXF1ZXN0Gi0ueWFuZGV4LmNsb3Vk",
+            "Lms4cy52MS5MaXN0Q2x1c3Rlck5vZGVzUmVzcG9uc2UiOoLT5JMCNBIyL21h",
+            "bmFnZWQta3ViZXJuZXRlcy92MS9jbHVzdGVycy97Y2x1c3Rlcl9pZH0vbm9k",
+            "ZXNCVgoXeWFuZGV4LmNsb3VkLmFwaS5rOHMudjFaO2dpdGh1Yi5jb20veWFu",
             "ZGV4LWNsb3VkL2dvLWdlbnByb3RvL3lhbmRleC9jbG91ZC9rOHMvdjE7azhz",
             "YgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Yandex.Cloud.Api.OperationReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, global::Yandex.Cloud.K8S.V1.ClusterReflection.Descriptor, global::Yandex.Cloud.K8S.V1.NodeGroupReflection.Descriptor, global::Yandex.Cloud.K8S.V1.VersionReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Yandex.Cloud.Api.OperationReflection.Descriptor, global::Yandex.Cloud.K8S.V1.ClusterReflection.Descriptor, global::Yandex.Cloud.K8S.V1.NodeGroupReflection.Descriptor, global::Yandex.Cloud.K8S.V1.NodeReflection.Descriptor, global::Yandex.Cloud.K8S.V1.VersionReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.GetClusterRequest), global::Yandex.Cloud.K8S.V1.GetClusterRequest.Parser, new[]{ "ClusterId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.ListClustersRequest), global::Yandex.Cloud.K8S.V1.ListClustersRequest.Parser, new[]{ "FolderId", "PageSize", "PageToken", "Filter" }, null, null, null),
@@ -155,16 +168,18 @@ namespace Yandex.Cloud.K8S.V1 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.StopClusterMetadata), global::Yandex.Cloud.K8S.V1.StopClusterMetadata.Parser, new[]{ "ClusterId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.StartClusterRequest), global::Yandex.Cloud.K8S.V1.StartClusterRequest.Parser, new[]{ "ClusterId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.StartClusterMetadata), global::Yandex.Cloud.K8S.V1.StartClusterMetadata.Parser, new[]{ "ClusterId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.UpdateClusterRequest), global::Yandex.Cloud.K8S.V1.UpdateClusterRequest.Parser, new[]{ "ClusterId", "UpdateMask", "Name", "Description", "Labels", "GatewayIpv4Address", "MasterSpec", "ServiceAccountId", "NodeServiceAccountId" }, new[]{ "InternetGateway" }, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.UpdateClusterRequest), global::Yandex.Cloud.K8S.V1.UpdateClusterRequest.Parser, new[]{ "ClusterId", "UpdateMask", "Name", "Description", "Labels", "GatewayIpv4Address", "MasterSpec", "ServiceAccountId", "NodeServiceAccountId", "NetworkPolicy" }, new[]{ "InternetGateway" }, null, new pbr::GeneratedClrTypeInfo[] { null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.MasterUpdateSpec), global::Yandex.Cloud.K8S.V1.MasterUpdateSpec.Parser, new[]{ "Version", "MaintenancePolicy" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.UpdateClusterMetadata), global::Yandex.Cloud.K8S.V1.UpdateClusterMetadata.Parser, new[]{ "ClusterId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.CreateClusterRequest), global::Yandex.Cloud.K8S.V1.CreateClusterRequest.Parser, new[]{ "FolderId", "Name", "Description", "Labels", "NetworkId", "MasterSpec", "IpAllocationPolicy", "GatewayIpv4Address", "ServiceAccountId", "NodeServiceAccountId", "ReleaseChannel" }, new[]{ "InternetGateway" }, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.CreateClusterRequest), global::Yandex.Cloud.K8S.V1.CreateClusterRequest.Parser, new[]{ "FolderId", "Name", "Description", "Labels", "NetworkId", "MasterSpec", "IpAllocationPolicy", "GatewayIpv4Address", "ServiceAccountId", "NodeServiceAccountId", "ReleaseChannel", "NetworkPolicy", "KmsProvider" }, new[]{ "InternetGateway" }, null, new pbr::GeneratedClrTypeInfo[] { null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.CreateClusterMetadata), global::Yandex.Cloud.K8S.V1.CreateClusterMetadata.Parser, new[]{ "ClusterId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.AutoUpgradeMasterMetadata), global::Yandex.Cloud.K8S.V1.AutoUpgradeMasterMetadata.Parser, new[]{ "ClusterId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.ListClusterOperationsRequest), global::Yandex.Cloud.K8S.V1.ListClusterOperationsRequest.Parser, new[]{ "ClusterId", "PageSize", "PageToken", "Filter" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.ListClusterOperationsResponse), global::Yandex.Cloud.K8S.V1.ListClusterOperationsResponse.Parser, new[]{ "Operations", "NextPageToken" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.ListClusterNodeGroupsRequest), global::Yandex.Cloud.K8S.V1.ListClusterNodeGroupsRequest.Parser, new[]{ "ClusterId", "PageSize", "PageToken", "Filter" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.ListClusterNodeGroupsResponse), global::Yandex.Cloud.K8S.V1.ListClusterNodeGroupsResponse.Parser, new[]{ "NodeGroups", "NextPageToken" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.ListClusterNodesRequest), global::Yandex.Cloud.K8S.V1.ListClusterNodesRequest.Parser, new[]{ "ClusterId", "PageSize", "PageToken" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.ListClusterNodesResponse), global::Yandex.Cloud.K8S.V1.ListClusterNodesResponse.Parser, new[]{ "Nodes", "NextPageToken" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.MasterSpec), global::Yandex.Cloud.K8S.V1.MasterSpec.Parser, new[]{ "ZonalMasterSpec", "RegionalMasterSpec", "Version", "MaintenancePolicy" }, new[]{ "MasterType" }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.ZonalMasterSpec), global::Yandex.Cloud.K8S.V1.ZonalMasterSpec.Parser, new[]{ "ZoneId", "InternalV4AddressSpec", "ExternalV4AddressSpec" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.RegionalMasterSpec), global::Yandex.Cloud.K8S.V1.RegionalMasterSpec.Parser, new[]{ "RegionId", "Locations", "ExternalV4AddressSpec" }, null, null, null),
@@ -383,7 +398,7 @@ namespace Yandex.Cloud.K8S.V1 {
     public const int PageTokenFieldNumber = 3;
     private string pageToken_ = "";
     /// <summary>
-    /// Page token. To get the next page of results, set [page_token] to the
+    /// Page token. To get the next page of results, set `page_token` to the
     /// [ListClustersResponse.next_page_token] returned by a previous list request.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -598,10 +613,10 @@ namespace Yandex.Cloud.K8S.V1 {
     /// <summary>
     /// This token allows you to get the next page of results for list requests. If the number of results
     /// is larger than [ListClustersRequest.page_size], use
-    /// the [next_page_token] as the value
+    /// the `next_page_token` as the value
     /// for the [ListClustersRequest.page_token] query parameter
     /// in the next list request. Each subsequent list request will have its own
-    /// [next_page_token] to continue paging through the results.
+    /// `next_page_token` to continue paging through the results.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string NextPageToken {
@@ -1007,6 +1022,10 @@ namespace Yandex.Cloud.K8S.V1 {
     /// <summary>Field number for the "cluster_id" field.</summary>
     public const int ClusterIdFieldNumber = 1;
     private string clusterId_ = "";
+    /// <summary>
+    /// ID of the Kubernetes cluster to stop.
+    /// To get Kubernetes cluster ID use a [ClusterService.List] request.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ClusterId {
       get { return clusterId_; }
@@ -1018,6 +1037,9 @@ namespace Yandex.Cloud.K8S.V1 {
     /// <summary>Field number for the "service_account_id" field.</summary>
     public const int ServiceAccountIdFieldNumber = 2;
     private string serviceAccountId_ = "";
+    /// <summary>
+    /// ID of the service account which has permission to stop the Kubernetes cluster.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ServiceAccountId {
       get { return serviceAccountId_; }
@@ -1163,6 +1185,9 @@ namespace Yandex.Cloud.K8S.V1 {
     /// <summary>Field number for the "cluster_id" field.</summary>
     public const int ClusterIdFieldNumber = 1;
     private string clusterId_ = "";
+    /// <summary>
+    /// ID of the Kubernetes cluster that is being stopped.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ClusterId {
       get { return clusterId_; }
@@ -1292,6 +1317,10 @@ namespace Yandex.Cloud.K8S.V1 {
     /// <summary>Field number for the "cluster_id" field.</summary>
     public const int ClusterIdFieldNumber = 1;
     private string clusterId_ = "";
+    /// <summary>
+    /// ID of the Kubernetes cluster to start.
+    /// To get Kubernetes cluster ID use a [ClusterService.List] request.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ClusterId {
       get { return clusterId_; }
@@ -1421,6 +1450,9 @@ namespace Yandex.Cloud.K8S.V1 {
     /// <summary>Field number for the "cluster_id" field.</summary>
     public const int ClusterIdFieldNumber = 1;
     private string clusterId_ = "";
+    /// <summary>
+    /// ID of the Kubernetes cluster that is being started.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ClusterId {
       get { return clusterId_; }
@@ -1546,6 +1578,7 @@ namespace Yandex.Cloud.K8S.V1 {
       masterSpec_ = other.masterSpec_ != null ? other.masterSpec_.Clone() : null;
       serviceAccountId_ = other.serviceAccountId_;
       nodeServiceAccountId_ = other.nodeServiceAccountId_;
+      networkPolicy_ = other.networkPolicy_ != null ? other.networkPolicy_.Clone() : null;
       switch (other.InternetGatewayCase) {
         case InternetGatewayOneofCase.GatewayIpv4Address:
           GatewayIpv4Address = other.GatewayIpv4Address;
@@ -1632,6 +1665,9 @@ namespace Yandex.Cloud.K8S.V1 {
 
     /// <summary>Field number for the "gateway_ipv4_address" field.</summary>
     public const int GatewayIpv4AddressFieldNumber = 6;
+    /// <summary>
+    /// Gateway IPv4 address.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string GatewayIpv4Address {
       get { return internetGatewayCase_ == InternetGatewayOneofCase.GatewayIpv4Address ? (string) internetGateway_ : ""; }
@@ -1644,6 +1680,9 @@ namespace Yandex.Cloud.K8S.V1 {
     /// <summary>Field number for the "master_spec" field.</summary>
     public const int MasterSpecFieldNumber = 7;
     private global::Yandex.Cloud.K8S.V1.MasterUpdateSpec masterSpec_;
+    /// <summary>
+    /// Specification of the master update.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.K8S.V1.MasterUpdateSpec MasterSpec {
       get { return masterSpec_; }
@@ -1680,6 +1719,17 @@ namespace Yandex.Cloud.K8S.V1 {
       get { return nodeServiceAccountId_; }
       set {
         nodeServiceAccountId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "network_policy" field.</summary>
+    public const int NetworkPolicyFieldNumber = 10;
+    private global::Yandex.Cloud.K8S.V1.NetworkPolicy networkPolicy_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.K8S.V1.NetworkPolicy NetworkPolicy {
+      get { return networkPolicy_; }
+      set {
+        networkPolicy_ = value;
       }
     }
 
@@ -1723,6 +1773,7 @@ namespace Yandex.Cloud.K8S.V1 {
       if (!object.Equals(MasterSpec, other.MasterSpec)) return false;
       if (ServiceAccountId != other.ServiceAccountId) return false;
       if (NodeServiceAccountId != other.NodeServiceAccountId) return false;
+      if (!object.Equals(NetworkPolicy, other.NetworkPolicy)) return false;
       if (InternetGatewayCase != other.InternetGatewayCase) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -1739,6 +1790,7 @@ namespace Yandex.Cloud.K8S.V1 {
       if (masterSpec_ != null) hash ^= MasterSpec.GetHashCode();
       if (ServiceAccountId.Length != 0) hash ^= ServiceAccountId.GetHashCode();
       if (NodeServiceAccountId.Length != 0) hash ^= NodeServiceAccountId.GetHashCode();
+      if (networkPolicy_ != null) hash ^= NetworkPolicy.GetHashCode();
       hash ^= (int) internetGatewayCase_;
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -1786,6 +1838,10 @@ namespace Yandex.Cloud.K8S.V1 {
         output.WriteRawTag(74);
         output.WriteString(ServiceAccountId);
       }
+      if (networkPolicy_ != null) {
+        output.WriteRawTag(82);
+        output.WriteMessage(NetworkPolicy);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1818,6 +1874,9 @@ namespace Yandex.Cloud.K8S.V1 {
       }
       if (NodeServiceAccountId.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(NodeServiceAccountId);
+      }
+      if (networkPolicy_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(NetworkPolicy);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1857,6 +1916,12 @@ namespace Yandex.Cloud.K8S.V1 {
       }
       if (other.NodeServiceAccountId.Length != 0) {
         NodeServiceAccountId = other.NodeServiceAccountId;
+      }
+      if (other.networkPolicy_ != null) {
+        if (networkPolicy_ == null) {
+          NetworkPolicy = new global::Yandex.Cloud.K8S.V1.NetworkPolicy();
+        }
+        NetworkPolicy.MergeFrom(other.NetworkPolicy);
       }
       switch (other.InternetGatewayCase) {
         case InternetGatewayOneofCase.GatewayIpv4Address:
@@ -1917,6 +1982,13 @@ namespace Yandex.Cloud.K8S.V1 {
             ServiceAccountId = input.ReadString();
             break;
           }
+          case 82: {
+            if (networkPolicy_ == null) {
+              NetworkPolicy = new global::Yandex.Cloud.K8S.V1.NetworkPolicy();
+            }
+            input.ReadMessage(NetworkPolicy);
+            break;
+          }
         }
       }
     }
@@ -1961,6 +2033,9 @@ namespace Yandex.Cloud.K8S.V1 {
     /// <summary>Field number for the "version" field.</summary>
     public const int VersionFieldNumber = 1;
     private global::Yandex.Cloud.K8S.V1.UpdateVersionSpec version_;
+    /// <summary>
+    /// Specification of the master update.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.K8S.V1.UpdateVersionSpec Version {
       get { return version_; }
@@ -1972,6 +2047,9 @@ namespace Yandex.Cloud.K8S.V1 {
     /// <summary>Field number for the "maintenance_policy" field.</summary>
     public const int MaintenancePolicyFieldNumber = 2;
     private global::Yandex.Cloud.K8S.V1.MasterMaintenancePolicy maintenancePolicy_;
+    /// <summary>
+    /// Maintenance policy of the master.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.K8S.V1.MasterMaintenancePolicy MaintenancePolicy {
       get { return maintenancePolicy_; }
@@ -2259,6 +2337,8 @@ namespace Yandex.Cloud.K8S.V1 {
       serviceAccountId_ = other.serviceAccountId_;
       nodeServiceAccountId_ = other.nodeServiceAccountId_;
       releaseChannel_ = other.releaseChannel_;
+      networkPolicy_ = other.networkPolicy_ != null ? other.networkPolicy_.Clone() : null;
+      kmsProvider_ = other.kmsProvider_ != null ? other.kmsProvider_.Clone() : null;
       switch (other.InternetGatewayCase) {
         case InternetGatewayOneofCase.GatewayIpv4Address:
           GatewayIpv4Address = other.GatewayIpv4Address;
@@ -2419,11 +2499,39 @@ namespace Yandex.Cloud.K8S.V1 {
     /// <summary>Field number for the "release_channel" field.</summary>
     public const int ReleaseChannelFieldNumber = 11;
     private global::Yandex.Cloud.K8S.V1.ReleaseChannel releaseChannel_ = 0;
+    /// <summary>
+    /// Release channel for the master.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.K8S.V1.ReleaseChannel ReleaseChannel {
       get { return releaseChannel_; }
       set {
         releaseChannel_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "network_policy" field.</summary>
+    public const int NetworkPolicyFieldNumber = 12;
+    private global::Yandex.Cloud.K8S.V1.NetworkPolicy networkPolicy_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.K8S.V1.NetworkPolicy NetworkPolicy {
+      get { return networkPolicy_; }
+      set {
+        networkPolicy_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "kms_provider" field.</summary>
+    public const int KmsProviderFieldNumber = 13;
+    private global::Yandex.Cloud.K8S.V1.KMSProvider kmsProvider_;
+    /// <summary>
+    /// KMS provider configuration.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.K8S.V1.KMSProvider KmsProvider {
+      get { return kmsProvider_; }
+      set {
+        kmsProvider_ = value;
       }
     }
 
@@ -2469,6 +2577,8 @@ namespace Yandex.Cloud.K8S.V1 {
       if (ServiceAccountId != other.ServiceAccountId) return false;
       if (NodeServiceAccountId != other.NodeServiceAccountId) return false;
       if (ReleaseChannel != other.ReleaseChannel) return false;
+      if (!object.Equals(NetworkPolicy, other.NetworkPolicy)) return false;
+      if (!object.Equals(KmsProvider, other.KmsProvider)) return false;
       if (InternetGatewayCase != other.InternetGatewayCase) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -2487,6 +2597,8 @@ namespace Yandex.Cloud.K8S.V1 {
       if (ServiceAccountId.Length != 0) hash ^= ServiceAccountId.GetHashCode();
       if (NodeServiceAccountId.Length != 0) hash ^= NodeServiceAccountId.GetHashCode();
       if (ReleaseChannel != 0) hash ^= ReleaseChannel.GetHashCode();
+      if (networkPolicy_ != null) hash ^= NetworkPolicy.GetHashCode();
+      if (kmsProvider_ != null) hash ^= KmsProvider.GetHashCode();
       hash ^= (int) internetGatewayCase_;
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -2542,6 +2654,14 @@ namespace Yandex.Cloud.K8S.V1 {
         output.WriteRawTag(88);
         output.WriteEnum((int) ReleaseChannel);
       }
+      if (networkPolicy_ != null) {
+        output.WriteRawTag(98);
+        output.WriteMessage(NetworkPolicy);
+      }
+      if (kmsProvider_ != null) {
+        output.WriteRawTag(106);
+        output.WriteMessage(KmsProvider);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -2580,6 +2700,12 @@ namespace Yandex.Cloud.K8S.V1 {
       }
       if (ReleaseChannel != 0) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) ReleaseChannel);
+      }
+      if (networkPolicy_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(NetworkPolicy);
+      }
+      if (kmsProvider_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(KmsProvider);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -2625,6 +2751,18 @@ namespace Yandex.Cloud.K8S.V1 {
       }
       if (other.ReleaseChannel != 0) {
         ReleaseChannel = other.ReleaseChannel;
+      }
+      if (other.networkPolicy_ != null) {
+        if (networkPolicy_ == null) {
+          NetworkPolicy = new global::Yandex.Cloud.K8S.V1.NetworkPolicy();
+        }
+        NetworkPolicy.MergeFrom(other.NetworkPolicy);
+      }
+      if (other.kmsProvider_ != null) {
+        if (kmsProvider_ == null) {
+          KmsProvider = new global::Yandex.Cloud.K8S.V1.KMSProvider();
+        }
+        KmsProvider.MergeFrom(other.KmsProvider);
       }
       switch (other.InternetGatewayCase) {
         case InternetGatewayOneofCase.GatewayIpv4Address:
@@ -2691,6 +2829,20 @@ namespace Yandex.Cloud.K8S.V1 {
           }
           case 88: {
             ReleaseChannel = (global::Yandex.Cloud.K8S.V1.ReleaseChannel) input.ReadEnum();
+            break;
+          }
+          case 98: {
+            if (networkPolicy_ == null) {
+              NetworkPolicy = new global::Yandex.Cloud.K8S.V1.NetworkPolicy();
+            }
+            input.ReadMessage(NetworkPolicy);
+            break;
+          }
+          case 106: {
+            if (kmsProvider_ == null) {
+              KmsProvider = new global::Yandex.Cloud.K8S.V1.KMSProvider();
+            }
+            input.ReadMessage(KmsProvider);
             break;
           }
         }
@@ -3035,7 +3187,7 @@ namespace Yandex.Cloud.K8S.V1 {
     public const int PageTokenFieldNumber = 3;
     private string pageToken_ = "";
     /// <summary>
-    /// Page token. To get the next page of results, set [page_token] to the
+    /// Page token. To get the next page of results, set `page_token` to the
     /// [ListClusterOperationsResponse.next_page_token] returned by a previous list request.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3246,9 +3398,9 @@ namespace Yandex.Cloud.K8S.V1 {
     private string nextPageToken_ = "";
     /// <summary>
     /// This token allows you to get the next page of results for list requests. If the number of results
-    /// is larger than [ListClusterOperationsRequest.page_size], use the [next_page_token] as the value
+    /// is larger than [ListClusterOperationsRequest.page_size], use the `next_page_token` as the value
     /// for the [ListClusterOperationsRequest.page_token] query parameter in the next list request.
-    /// Each subsequent list request will have its own [next_page_token] to continue paging through the results.
+    /// Each subsequent list request will have its own `next_page_token` to continue paging through the results.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string NextPageToken {
@@ -3425,7 +3577,7 @@ namespace Yandex.Cloud.K8S.V1 {
     public const int PageTokenFieldNumber = 3;
     private string pageToken_ = "";
     /// <summary>
-    /// Page token. To get the next page of results, set [page_token] to the
+    /// Page token. To get the next page of results, set `page_token` to the
     /// [ListClusterNodeGroupsResponse.next_page_token] returned by a previous list request.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3637,10 +3789,10 @@ namespace Yandex.Cloud.K8S.V1 {
     /// <summary>
     /// This token allows you to get the next page of results for list requests. If the number of results
     /// is larger than [ListClusterNodeGroupsRequest.page_size], use
-    /// the [next_page_token] as the value
+    /// the `next_page_token` as the value
     /// for the [ListClusterNodeGroupsRequest.page_token] query parameter
     /// in the next list request. Each subsequent list request will have its own
-    /// [next_page_token] to continue paging through the results.
+    /// `next_page_token` to continue paging through the results.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string NextPageToken {
@@ -3743,6 +3895,366 @@ namespace Yandex.Cloud.K8S.V1 {
 
   }
 
+  internal sealed partial class ListClusterNodesRequest : pb::IMessage<ListClusterNodesRequest> {
+    private static readonly pb::MessageParser<ListClusterNodesRequest> _parser = new pb::MessageParser<ListClusterNodesRequest>(() => new ListClusterNodesRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<ListClusterNodesRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.K8S.V1.ClusterServiceReflection.Descriptor.MessageTypes[19]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ListClusterNodesRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ListClusterNodesRequest(ListClusterNodesRequest other) : this() {
+      clusterId_ = other.clusterId_;
+      pageSize_ = other.pageSize_;
+      pageToken_ = other.pageToken_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ListClusterNodesRequest Clone() {
+      return new ListClusterNodesRequest(this);
+    }
+
+    /// <summary>Field number for the "cluster_id" field.</summary>
+    public const int ClusterIdFieldNumber = 1;
+    private string clusterId_ = "";
+    /// <summary>
+    /// ID of the Kubernetes cluster to list nodes in.
+    /// To get the Kubernetes cluster ID use a [ClusterService.List] request.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ClusterId {
+      get { return clusterId_; }
+      set {
+        clusterId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "page_size" field.</summary>
+    public const int PageSizeFieldNumber = 2;
+    private long pageSize_;
+    /// <summary>
+    /// The maximum number of results per page to return. If the number of available
+    /// results is larger than [page_size],
+    /// the service returns a [ListClusterNodesResponse.next_page_token]
+    /// that can be used to get the next page of results in subsequent list requests.
+    /// Default value: 100.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long PageSize {
+      get { return pageSize_; }
+      set {
+        pageSize_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "page_token" field.</summary>
+    public const int PageTokenFieldNumber = 3;
+    private string pageToken_ = "";
+    /// <summary>
+    /// Page token. To get the next page of results, set `page_token` to the
+    /// [ListClusterNodeGroupsResponse.next_page_token] returned by a previous list request.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string PageToken {
+      get { return pageToken_; }
+      set {
+        pageToken_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as ListClusterNodesRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(ListClusterNodesRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (ClusterId != other.ClusterId) return false;
+      if (PageSize != other.PageSize) return false;
+      if (PageToken != other.PageToken) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (ClusterId.Length != 0) hash ^= ClusterId.GetHashCode();
+      if (PageSize != 0L) hash ^= PageSize.GetHashCode();
+      if (PageToken.Length != 0) hash ^= PageToken.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (ClusterId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(ClusterId);
+      }
+      if (PageSize != 0L) {
+        output.WriteRawTag(16);
+        output.WriteInt64(PageSize);
+      }
+      if (PageToken.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(PageToken);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (ClusterId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ClusterId);
+      }
+      if (PageSize != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(PageSize);
+      }
+      if (PageToken.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(PageToken);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(ListClusterNodesRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.ClusterId.Length != 0) {
+        ClusterId = other.ClusterId;
+      }
+      if (other.PageSize != 0L) {
+        PageSize = other.PageSize;
+      }
+      if (other.PageToken.Length != 0) {
+        PageToken = other.PageToken;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            ClusterId = input.ReadString();
+            break;
+          }
+          case 16: {
+            PageSize = input.ReadInt64();
+            break;
+          }
+          case 26: {
+            PageToken = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  internal sealed partial class ListClusterNodesResponse : pb::IMessage<ListClusterNodesResponse> {
+    private static readonly pb::MessageParser<ListClusterNodesResponse> _parser = new pb::MessageParser<ListClusterNodesResponse>(() => new ListClusterNodesResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<ListClusterNodesResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.K8S.V1.ClusterServiceReflection.Descriptor.MessageTypes[20]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ListClusterNodesResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ListClusterNodesResponse(ListClusterNodesResponse other) : this() {
+      nodes_ = other.nodes_.Clone();
+      nextPageToken_ = other.nextPageToken_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ListClusterNodesResponse Clone() {
+      return new ListClusterNodesResponse(this);
+    }
+
+    /// <summary>Field number for the "nodes" field.</summary>
+    public const int NodesFieldNumber = 1;
+    private static readonly pb::FieldCodec<global::Yandex.Cloud.K8S.V1.Node> _repeated_nodes_codec
+        = pb::FieldCodec.ForMessage(10, global::Yandex.Cloud.K8S.V1.Node.Parser);
+    private readonly pbc::RepeatedField<global::Yandex.Cloud.K8S.V1.Node> nodes_ = new pbc::RepeatedField<global::Yandex.Cloud.K8S.V1.Node>();
+    /// <summary>
+    /// List of nodes for the specified Kubernetes cluster.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<global::Yandex.Cloud.K8S.V1.Node> Nodes {
+      get { return nodes_; }
+    }
+
+    /// <summary>Field number for the "next_page_token" field.</summary>
+    public const int NextPageTokenFieldNumber = 2;
+    private string nextPageToken_ = "";
+    /// <summary>
+    /// This token allows you to get the next page of results for list requests. If the number of results
+    /// is larger than [ListClusterNodesRequest.page_size], use
+    /// the `next_page_token` as the value
+    /// for the [ListClusterNodesRequest.page_token] query parameter
+    /// in the next list request. Each subsequent list request will have its own
+    /// `next_page_token` to continue paging through the results.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string NextPageToken {
+      get { return nextPageToken_; }
+      set {
+        nextPageToken_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as ListClusterNodesResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(ListClusterNodesResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if(!nodes_.Equals(other.nodes_)) return false;
+      if (NextPageToken != other.NextPageToken) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      hash ^= nodes_.GetHashCode();
+      if (NextPageToken.Length != 0) hash ^= NextPageToken.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      nodes_.WriteTo(output, _repeated_nodes_codec);
+      if (NextPageToken.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(NextPageToken);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      size += nodes_.CalculateSize(_repeated_nodes_codec);
+      if (NextPageToken.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(NextPageToken);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(ListClusterNodesResponse other) {
+      if (other == null) {
+        return;
+      }
+      nodes_.Add(other.nodes_);
+      if (other.NextPageToken.Length != 0) {
+        NextPageToken = other.NextPageToken;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            nodes_.AddEntriesFrom(input, _repeated_nodes_codec);
+            break;
+          }
+          case 18: {
+            NextPageToken = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
   internal sealed partial class MasterSpec : pb::IMessage<MasterSpec> {
     private static readonly pb::MessageParser<MasterSpec> _parser = new pb::MessageParser<MasterSpec>(() => new MasterSpec());
     private pb::UnknownFieldSet _unknownFields;
@@ -3751,7 +4263,7 @@ namespace Yandex.Cloud.K8S.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.K8S.V1.ClusterServiceReflection.Descriptor.MessageTypes[19]; }
+      get { return global::Yandex.Cloud.K8S.V1.ClusterServiceReflection.Descriptor.MessageTypes[21]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3790,7 +4302,7 @@ namespace Yandex.Cloud.K8S.V1 {
     /// <summary>Field number for the "zonal_master_spec" field.</summary>
     public const int ZonalMasterSpecFieldNumber = 1;
     /// <summary>
-    /// Specification of the master availability zone.
+    /// Specification of the zonal master.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.K8S.V1.ZonalMasterSpec ZonalMasterSpec {
@@ -3803,6 +4315,9 @@ namespace Yandex.Cloud.K8S.V1 {
 
     /// <summary>Field number for the "regional_master_spec" field.</summary>
     public const int RegionalMasterSpecFieldNumber = 2;
+    /// <summary>
+    /// Specification of the regional master.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.K8S.V1.RegionalMasterSpec RegionalMasterSpec {
       get { return masterTypeCase_ == MasterTypeOneofCase.RegionalMasterSpec ? (global::Yandex.Cloud.K8S.V1.RegionalMasterSpec) masterType_ : null; }
@@ -3815,6 +4330,9 @@ namespace Yandex.Cloud.K8S.V1 {
     /// <summary>Field number for the "version" field.</summary>
     public const int VersionFieldNumber = 3;
     private string version_ = "";
+    /// <summary>
+    /// Version of Kubernetes components that runs on the master.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Version {
       get { return version_; }
@@ -3826,6 +4344,9 @@ namespace Yandex.Cloud.K8S.V1 {
     /// <summary>Field number for the "maintenance_policy" field.</summary>
     public const int MaintenancePolicyFieldNumber = 4;
     private global::Yandex.Cloud.K8S.V1.MasterMaintenancePolicy maintenancePolicy_;
+    /// <summary>
+    /// Maintenance policy of the master.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.K8S.V1.MasterMaintenancePolicy MaintenancePolicy {
       get { return maintenancePolicy_; }
@@ -4020,7 +4541,7 @@ namespace Yandex.Cloud.K8S.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.K8S.V1.ClusterServiceReflection.Descriptor.MessageTypes[20]; }
+      get { return global::Yandex.Cloud.K8S.V1.ClusterServiceReflection.Descriptor.MessageTypes[22]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4226,7 +4747,7 @@ namespace Yandex.Cloud.K8S.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.K8S.V1.ClusterServiceReflection.Descriptor.MessageTypes[21]; }
+      get { return global::Yandex.Cloud.K8S.V1.ClusterServiceReflection.Descriptor.MessageTypes[23]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4257,6 +4778,9 @@ namespace Yandex.Cloud.K8S.V1 {
     /// <summary>Field number for the "region_id" field.</summary>
     public const int RegionIdFieldNumber = 1;
     private string regionId_ = "";
+    /// <summary>
+    /// ID of the availability zone where the master resides.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string RegionId {
       get { return regionId_; }
@@ -4270,6 +4794,9 @@ namespace Yandex.Cloud.K8S.V1 {
     private static readonly pb::FieldCodec<global::Yandex.Cloud.K8S.V1.MasterLocation> _repeated_locations_codec
         = pb::FieldCodec.ForMessage(18, global::Yandex.Cloud.K8S.V1.MasterLocation.Parser);
     private readonly pbc::RepeatedField<global::Yandex.Cloud.K8S.V1.MasterLocation> locations_ = new pbc::RepeatedField<global::Yandex.Cloud.K8S.V1.MasterLocation>();
+    /// <summary>
+    /// List of locations where the master will be allocated.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::RepeatedField<global::Yandex.Cloud.K8S.V1.MasterLocation> Locations {
       get { return locations_; }
@@ -4279,7 +4806,7 @@ namespace Yandex.Cloud.K8S.V1 {
     public const int ExternalV4AddressSpecFieldNumber = 3;
     private global::Yandex.Cloud.K8S.V1.ExternalAddressSpec externalV4AddressSpec_;
     /// <summary>
-    /// Specify to allocate a static public IP for the master
+    /// Specify to allocate a static public IP for the master.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.K8S.V1.ExternalAddressSpec ExternalV4AddressSpec {
@@ -4412,7 +4939,7 @@ namespace Yandex.Cloud.K8S.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.K8S.V1.ClusterServiceReflection.Descriptor.MessageTypes[22]; }
+      get { return global::Yandex.Cloud.K8S.V1.ClusterServiceReflection.Descriptor.MessageTypes[24]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4544,7 +5071,7 @@ namespace Yandex.Cloud.K8S.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.K8S.V1.ClusterServiceReflection.Descriptor.MessageTypes[23]; }
+      get { return global::Yandex.Cloud.K8S.V1.ClusterServiceReflection.Descriptor.MessageTypes[25]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4645,7 +5172,7 @@ namespace Yandex.Cloud.K8S.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.K8S.V1.ClusterServiceReflection.Descriptor.MessageTypes[24]; }
+      get { return global::Yandex.Cloud.K8S.V1.ClusterServiceReflection.Descriptor.MessageTypes[26]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4675,6 +5202,9 @@ namespace Yandex.Cloud.K8S.V1 {
     /// <summary>Field number for the "zone_id" field.</summary>
     public const int ZoneIdFieldNumber = 1;
     private string zoneId_ = "";
+    /// <summary>
+    /// ID of the availability zone.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ZoneId {
       get { return zoneId_; }

@@ -28,30 +28,33 @@ namespace Yandex.Cloud.Ai.Vision.V1 {
             "b3RvEhl5YW5kZXguY2xvdWQuYWkudmlzaW9uLnYxGip5YW5kZXgvY2xvdWQv",
             "YWkvdmlzaW9uL3YxL3ByaW1pdGl2ZXMucHJvdG8iQAoOVGV4dEFubm90YXRp",
             "b24SLgoFcGFnZXMYASADKAsyHy55YW5kZXguY2xvdWQuYWkudmlzaW9uLnYx",
-            "LlBhZ2UiVwoEUGFnZRINCgV3aWR0aBgBIAEoAxIOCgZoZWlnaHQYAiABKAMS",
-            "MAoGYmxvY2tzGAMgAygLMiAueWFuZGV4LmNsb3VkLmFpLnZpc2lvbi52MS5C",
-            "bG9jayJxCgVCbG9jaxI4Cgxib3VuZGluZ19ib3gYASABKAsyIi55YW5kZXgu",
-            "Y2xvdWQuYWkudmlzaW9uLnYxLlBvbHlnb24SLgoFbGluZXMYAiADKAsyHy55",
-            "YW5kZXguY2xvdWQuYWkudmlzaW9uLnYxLkxpbmUihAEKBExpbmUSOAoMYm91",
-            "bmRpbmdfYm94GAEgASgLMiIueWFuZGV4LmNsb3VkLmFpLnZpc2lvbi52MS5Q",
-            "b2x5Z29uEi4KBXdvcmRzGAIgAygLMh8ueWFuZGV4LmNsb3VkLmFpLnZpc2lv",
-            "bi52MS5Xb3JkEhIKCmNvbmZpZGVuY2UYAyABKAEi5gEKBFdvcmQSOAoMYm91",
-            "bmRpbmdfYm94GAEgASgLMiIueWFuZGV4LmNsb3VkLmFpLnZpc2lvbi52MS5Q",
-            "b2x5Z29uEgwKBHRleHQYAiABKAkSEgoKY29uZmlkZW5jZRgDIAEoARJDCgls",
-            "YW5ndWFnZXMYBCADKAsyMC55YW5kZXguY2xvdWQuYWkudmlzaW9uLnYxLldv",
-            "cmQuRGV0ZWN0ZWRMYW5ndWFnZRo9ChBEZXRlY3RlZExhbmd1YWdlEhUKDWxh",
-            "bmd1YWdlX2NvZGUYASABKAkSEgoKY29uZmlkZW5jZRgCIAEoAUJlCh15YW5k",
-            "ZXguY2xvdWQuYXBpLmFpLnZpc2lvbi52MVpEZ2l0aHViLmNvbS95YW5kZXgt",
-            "Y2xvdWQvZ28tZ2VucHJvdG8veWFuZGV4L2Nsb3VkL2FpL3Zpc2lvbi92MTt2",
-            "aXNpb25iBnByb3RvMw=="));
+            "LlBhZ2UijAEKBFBhZ2USDQoFd2lkdGgYASABKAMSDgoGaGVpZ2h0GAIgASgD",
+            "EjAKBmJsb2NrcxgDIAMoCzIgLnlhbmRleC5jbG91ZC5haS52aXNpb24udjEu",
+            "QmxvY2sSMwoIZW50aXRpZXMYBCADKAsyIS55YW5kZXguY2xvdWQuYWkudmlz",
+            "aW9uLnYxLkVudGl0eSIkCgZFbnRpdHkSDAoEbmFtZRgBIAEoCRIMCgR0ZXh0",
+            "GAIgASgJInEKBUJsb2NrEjgKDGJvdW5kaW5nX2JveBgBIAEoCzIiLnlhbmRl",
+            "eC5jbG91ZC5haS52aXNpb24udjEuUG9seWdvbhIuCgVsaW5lcxgCIAMoCzIf",
+            "LnlhbmRleC5jbG91ZC5haS52aXNpb24udjEuTGluZSKEAQoETGluZRI4Cgxi",
+            "b3VuZGluZ19ib3gYASABKAsyIi55YW5kZXguY2xvdWQuYWkudmlzaW9uLnYx",
+            "LlBvbHlnb24SLgoFd29yZHMYAiADKAsyHy55YW5kZXguY2xvdWQuYWkudmlz",
+            "aW9uLnYxLldvcmQSEgoKY29uZmlkZW5jZRgDIAEoASL8AQoEV29yZBI4Cgxi",
+            "b3VuZGluZ19ib3gYASABKAsyIi55YW5kZXguY2xvdWQuYWkudmlzaW9uLnYx",
+            "LlBvbHlnb24SDAoEdGV4dBgCIAEoCRISCgpjb25maWRlbmNlGAMgASgBEkMK",
+            "CWxhbmd1YWdlcxgEIAMoCzIwLnlhbmRleC5jbG91ZC5haS52aXNpb24udjEu",
+            "V29yZC5EZXRlY3RlZExhbmd1YWdlEhQKDGVudGl0eV9pbmRleBgFIAEoAxo9",
+            "ChBEZXRlY3RlZExhbmd1YWdlEhUKDWxhbmd1YWdlX2NvZGUYASABKAkSEgoK",
+            "Y29uZmlkZW5jZRgCIAEoAUJlCh15YW5kZXguY2xvdWQuYXBpLmFpLnZpc2lv",
+            "bi52MVpEZ2l0aHViLmNvbS95YW5kZXgtY2xvdWQvZ28tZ2VucHJvdG8veWFu",
+            "ZGV4L2Nsb3VkL2FpL3Zpc2lvbi92MTt2aXNpb25iBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Yandex.Cloud.Ai.Vision.V1.PrimitivesReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Vision.V1.TextAnnotation), global::Yandex.Cloud.Ai.Vision.V1.TextAnnotation.Parser, new[]{ "Pages" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Vision.V1.Page), global::Yandex.Cloud.Ai.Vision.V1.Page.Parser, new[]{ "Width", "Height", "Blocks" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Vision.V1.Page), global::Yandex.Cloud.Ai.Vision.V1.Page.Parser, new[]{ "Width", "Height", "Blocks", "Entities" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Vision.V1.Entity), global::Yandex.Cloud.Ai.Vision.V1.Entity.Parser, new[]{ "Name", "Text" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Vision.V1.Block), global::Yandex.Cloud.Ai.Vision.V1.Block.Parser, new[]{ "BoundingBox", "Lines" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Vision.V1.Line), global::Yandex.Cloud.Ai.Vision.V1.Line.Parser, new[]{ "BoundingBox", "Words", "Confidence" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Vision.V1.Word), global::Yandex.Cloud.Ai.Vision.V1.Word.Parser, new[]{ "BoundingBox", "Text", "Confidence", "Languages" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Vision.V1.Word.Types.DetectedLanguage), global::Yandex.Cloud.Ai.Vision.V1.Word.Types.DetectedLanguage.Parser, new[]{ "LanguageCode", "Confidence" }, null, null, null)})
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Vision.V1.Word), global::Yandex.Cloud.Ai.Vision.V1.Word.Parser, new[]{ "BoundingBox", "Text", "Confidence", "Languages", "EntityIndex" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Ai.Vision.V1.Word.Types.DetectedLanguage), global::Yandex.Cloud.Ai.Vision.V1.Word.Types.DetectedLanguage.Parser, new[]{ "LanguageCode", "Confidence" }, null, null, null)})
           }));
     }
     #endregion
@@ -212,6 +215,7 @@ namespace Yandex.Cloud.Ai.Vision.V1 {
       width_ = other.width_;
       height_ = other.height_;
       blocks_ = other.blocks_.Clone();
+      entities_ = other.entities_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -261,6 +265,19 @@ namespace Yandex.Cloud.Ai.Vision.V1 {
       get { return blocks_; }
     }
 
+    /// <summary>Field number for the "entities" field.</summary>
+    public const int EntitiesFieldNumber = 4;
+    private static readonly pb::FieldCodec<global::Yandex.Cloud.Ai.Vision.V1.Entity> _repeated_entities_codec
+        = pb::FieldCodec.ForMessage(34, global::Yandex.Cloud.Ai.Vision.V1.Entity.Parser);
+    private readonly pbc::RepeatedField<global::Yandex.Cloud.Ai.Vision.V1.Entity> entities_ = new pbc::RepeatedField<global::Yandex.Cloud.Ai.Vision.V1.Entity>();
+    /// <summary>
+    /// Recognized entities
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<global::Yandex.Cloud.Ai.Vision.V1.Entity> Entities {
+      get { return entities_; }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as Page);
@@ -277,6 +294,7 @@ namespace Yandex.Cloud.Ai.Vision.V1 {
       if (Width != other.Width) return false;
       if (Height != other.Height) return false;
       if(!blocks_.Equals(other.blocks_)) return false;
+      if(!entities_.Equals(other.entities_)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -286,6 +304,7 @@ namespace Yandex.Cloud.Ai.Vision.V1 {
       if (Width != 0L) hash ^= Width.GetHashCode();
       if (Height != 0L) hash ^= Height.GetHashCode();
       hash ^= blocks_.GetHashCode();
+      hash ^= entities_.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -308,6 +327,7 @@ namespace Yandex.Cloud.Ai.Vision.V1 {
         output.WriteInt64(Height);
       }
       blocks_.WriteTo(output, _repeated_blocks_codec);
+      entities_.WriteTo(output, _repeated_entities_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -323,6 +343,7 @@ namespace Yandex.Cloud.Ai.Vision.V1 {
         size += 1 + pb::CodedOutputStream.ComputeInt64Size(Height);
       }
       size += blocks_.CalculateSize(_repeated_blocks_codec);
+      size += entities_.CalculateSize(_repeated_entities_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -341,6 +362,7 @@ namespace Yandex.Cloud.Ai.Vision.V1 {
         Height = other.Height;
       }
       blocks_.Add(other.blocks_);
+      entities_.Add(other.entities_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -364,6 +386,173 @@ namespace Yandex.Cloud.Ai.Vision.V1 {
             blocks_.AddEntriesFrom(input, _repeated_blocks_codec);
             break;
           }
+          case 34: {
+            entities_.AddEntriesFrom(input, _repeated_entities_codec);
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  internal sealed partial class Entity : pb::IMessage<Entity> {
+    private static readonly pb::MessageParser<Entity> _parser = new pb::MessageParser<Entity>(() => new Entity());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<Entity> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Ai.Vision.V1.TextDetectionReflection.Descriptor.MessageTypes[2]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public Entity() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public Entity(Entity other) : this() {
+      name_ = other.name_;
+      text_ = other.text_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public Entity Clone() {
+      return new Entity(this);
+    }
+
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 1;
+    private string name_ = "";
+    /// <summary>
+    /// Entity name
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Name {
+      get { return name_; }
+      set {
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "text" field.</summary>
+    public const int TextFieldNumber = 2;
+    private string text_ = "";
+    /// <summary>
+    /// Recognized entity text
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Text {
+      get { return text_; }
+      set {
+        text_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as Entity);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(Entity other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Name != other.Name) return false;
+      if (Text != other.Text) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Name.Length != 0) hash ^= Name.GetHashCode();
+      if (Text.Length != 0) hash ^= Text.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (Name.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      if (Text.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Text);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Name.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+      }
+      if (Text.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Text);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(Entity other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Name.Length != 0) {
+        Name = other.Name;
+      }
+      if (other.Text.Length != 0) {
+        Text = other.Text;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Name = input.ReadString();
+            break;
+          }
+          case 18: {
+            Text = input.ReadString();
+            break;
+          }
         }
       }
     }
@@ -378,7 +567,7 @@ namespace Yandex.Cloud.Ai.Vision.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Ai.Vision.V1.TextDetectionReflection.Descriptor.MessageTypes[2]; }
+      get { return global::Yandex.Cloud.Ai.Vision.V1.TextDetectionReflection.Descriptor.MessageTypes[3]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -539,7 +728,7 @@ namespace Yandex.Cloud.Ai.Vision.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Ai.Vision.V1.TextDetectionReflection.Descriptor.MessageTypes[3]; }
+      get { return global::Yandex.Cloud.Ai.Vision.V1.TextDetectionReflection.Descriptor.MessageTypes[4]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -731,7 +920,7 @@ namespace Yandex.Cloud.Ai.Vision.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Ai.Vision.V1.TextDetectionReflection.Descriptor.MessageTypes[4]; }
+      get { return global::Yandex.Cloud.Ai.Vision.V1.TextDetectionReflection.Descriptor.MessageTypes[5]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -752,6 +941,7 @@ namespace Yandex.Cloud.Ai.Vision.V1 {
       text_ = other.text_;
       confidence_ = other.confidence_;
       languages_ = other.languages_.Clone();
+      entityIndex_ = other.entityIndex_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -815,6 +1005,20 @@ namespace Yandex.Cloud.Ai.Vision.V1 {
       get { return languages_; }
     }
 
+    /// <summary>Field number for the "entity_index" field.</summary>
+    public const int EntityIndexFieldNumber = 5;
+    private long entityIndex_;
+    /// <summary>
+    /// Id of recognized word in entities array
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long EntityIndex {
+      get { return entityIndex_; }
+      set {
+        entityIndex_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as Word);
@@ -832,6 +1036,7 @@ namespace Yandex.Cloud.Ai.Vision.V1 {
       if (Text != other.Text) return false;
       if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Confidence, other.Confidence)) return false;
       if(!languages_.Equals(other.languages_)) return false;
+      if (EntityIndex != other.EntityIndex) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -842,6 +1047,7 @@ namespace Yandex.Cloud.Ai.Vision.V1 {
       if (Text.Length != 0) hash ^= Text.GetHashCode();
       if (Confidence != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Confidence);
       hash ^= languages_.GetHashCode();
+      if (EntityIndex != 0L) hash ^= EntityIndex.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -868,6 +1074,10 @@ namespace Yandex.Cloud.Ai.Vision.V1 {
         output.WriteDouble(Confidence);
       }
       languages_.WriteTo(output, _repeated_languages_codec);
+      if (EntityIndex != 0L) {
+        output.WriteRawTag(40);
+        output.WriteInt64(EntityIndex);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -886,6 +1096,9 @@ namespace Yandex.Cloud.Ai.Vision.V1 {
         size += 1 + 8;
       }
       size += languages_.CalculateSize(_repeated_languages_codec);
+      if (EntityIndex != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(EntityIndex);
+      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -910,6 +1123,9 @@ namespace Yandex.Cloud.Ai.Vision.V1 {
         Confidence = other.Confidence;
       }
       languages_.Add(other.languages_);
+      if (other.EntityIndex != 0L) {
+        EntityIndex = other.EntityIndex;
+      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -938,6 +1154,10 @@ namespace Yandex.Cloud.Ai.Vision.V1 {
           }
           case 34: {
             languages_.AddEntriesFrom(input, _repeated_languages_codec);
+            break;
+          }
+          case 40: {
+            EntityIndex = input.ReadInt64();
             break;
           }
         }

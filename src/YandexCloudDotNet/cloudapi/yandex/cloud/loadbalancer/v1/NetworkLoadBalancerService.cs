@@ -52,7 +52,7 @@ namespace Yandex.Cloud.Loadbalancer.V1 {
             "Dmxpc3RlbmVyX3NwZWNzGAcgAygLMioueWFuZGV4LmNsb3VkLmxvYWRiYWxh",
             "bmNlci52MS5MaXN0ZW5lclNwZWNCCILIMQQ8PTEwEloKFmF0dGFjaGVkX3Rh",
             "cmdldF9ncm91cHMYCCADKAsyMS55YW5kZXguY2xvdWQubG9hZGJhbGFuY2Vy",
-            "LnYxLkF0dGFjaGVkVGFyZ2V0R3JvdXBCB4LIMQM8PTEaLQoLTGFiZWxzRW50",
+            "LnYxLkF0dGFjaGVkVGFyZ2V0R3JvdXBCB4LIMQM8PTUaLQoLTGFiZWxzRW50",
             "cnkSCwoDa2V5GAEgASgJEg0KBXZhbHVlGAIgASgJOgI4ASJFCiFDcmVhdGVO",
             "ZXR3b3JrTG9hZEJhbGFuY2VyTWV0YWRhdGESIAoYbmV0d29ya19sb2FkX2Jh",
             "bGFuY2VyX2lkGAEgASgJIssECiBVcGRhdGVOZXR3b3JrTG9hZEJhbGFuY2Vy",
@@ -67,7 +67,7 @@ namespace Yandex.Cloud.Loadbalancer.V1 {
             "cxgGIAMoCzIqLnlhbmRleC5jbG91ZC5sb2FkYmFsYW5jZXIudjEuTGlzdGVu",
             "ZXJTcGVjQgiCyDEEPD0xMBJaChZhdHRhY2hlZF90YXJnZXRfZ3JvdXBzGAcg",
             "AygLMjEueWFuZGV4LmNsb3VkLmxvYWRiYWxhbmNlci52MS5BdHRhY2hlZFRh",
-            "cmdldEdyb3VwQgeCyDEDPD0xGi0KC0xhYmVsc0VudHJ5EgsKA2tleRgBIAEo",
+            "cmdldEdyb3VwQgeCyDEDPD01Gi0KC0xhYmVsc0VudHJ5EgsKA2tleRgBIAEo",
             "CRINCgV2YWx1ZRgCIAEoCToCOAEiRQohVXBkYXRlTmV0d29ya0xvYWRCYWxh",
             "bmNlck1ldGFkYXRhEiAKGG5ldHdvcmtfbG9hZF9iYWxhbmNlcl9pZBgBIAEo",
             "CSJSCiBEZWxldGVOZXR3b3JrTG9hZEJhbGFuY2VyUmVxdWVzdBIuChhuZXR3",
@@ -115,88 +115,93 @@ namespace Yandex.Cloud.Loadbalancer.V1 {
             "dGF0ZXMYASADKAsyKS55YW5kZXguY2xvdWQubG9hZGJhbGFuY2VyLnYxLlRh",
             "cmdldFN0YXRlImMKE0V4dGVybmFsQWRkcmVzc1NwZWMSDwoHYWRkcmVzcxgB",
             "IAEoCRI7CgppcF92ZXJzaW9uGAIgASgOMicueWFuZGV4LmNsb3VkLmxvYWRi",
-            "YWxhbmNlci52MS5JcFZlcnNpb24imwIKDExpc3RlbmVyU3BlYxIzCgRuYW1l",
-            "GAEgASgJQiXoxzEB8scxHXxbYS16XVstYS16MC05XXsxLDYxfVthLXowLTld",
-            "EhkKBHBvcnQYAiABKANCC/rHMQcxLTMyNzY3EkcKCHByb3RvY29sGAMgASgO",
-            "Mi8ueWFuZGV4LmNsb3VkLmxvYWRiYWxhbmNlci52MS5MaXN0ZW5lci5Qcm90",
-            "b2NvbEIE6McxARJSChVleHRlcm5hbF9hZGRyZXNzX3NwZWMYBCABKAsyMS55",
-            "YW5kZXguY2xvdWQubG9hZGJhbGFuY2VyLnYxLkV4dGVybmFsQWRkcmVzc1Nw",
-            "ZWNIABITCgt0YXJnZXRfcG9ydBgFIAEoA0IJCgdhZGRyZXNzMrkZChpOZXR3",
-            "b3JrTG9hZEJhbGFuY2VyU2VydmljZRLAAQoDR2V0EjsueWFuZGV4LmNsb3Vk",
-            "LmxvYWRiYWxhbmNlci52MS5HZXROZXR3b3JrTG9hZEJhbGFuY2VyUmVxdWVz",
-            "dBoxLnlhbmRleC5jbG91ZC5sb2FkYmFsYW5jZXIudjEuTmV0d29ya0xvYWRC",
-            "YWxhbmNlciJJgtPkkwJDEkEvbG9hZC1iYWxhbmNlci92MS9uZXR3b3JrTG9h",
-            "ZEJhbGFuY2Vycy97bmV0d29ya19sb2FkX2JhbGFuY2VyX2lkfRK1AQoETGlz",
-            "dBI9LnlhbmRleC5jbG91ZC5sb2FkYmFsYW5jZXIudjEuTGlzdE5ldHdvcmtM",
-            "b2FkQmFsYW5jZXJzUmVxdWVzdBo+LnlhbmRleC5jbG91ZC5sb2FkYmFsYW5j",
-            "ZXIudjEuTGlzdE5ldHdvcmtMb2FkQmFsYW5jZXJzUmVzcG9uc2UiLoLT5JMC",
-            "KBImL2xvYWQtYmFsYW5jZXIvdjEvbmV0d29ya0xvYWRCYWxhbmNlcnMS2gEK",
-            "BkNyZWF0ZRI+LnlhbmRleC5jbG91ZC5sb2FkYmFsYW5jZXIudjEuQ3JlYXRl",
-            "TmV0d29ya0xvYWRCYWxhbmNlclJlcXVlc3QaIS55YW5kZXguY2xvdWQub3Bl",
-            "cmF0aW9uLk9wZXJhdGlvbiJtgtPkkwIrIiYvbG9hZC1iYWxhbmNlci92MS9u",
-            "ZXR3b3JrTG9hZEJhbGFuY2VyczoBKrLSKjgKIUNyZWF0ZU5ldHdvcmtMb2Fk",
-            "QmFsYW5jZXJNZXRhZGF0YRITTmV0d29ya0xvYWRCYWxhbmNlchL2AQoGVXBk",
-            "YXRlEj4ueWFuZGV4LmNsb3VkLmxvYWRiYWxhbmNlci52MS5VcGRhdGVOZXR3",
-            "b3JrTG9hZEJhbGFuY2VyUmVxdWVzdBohLnlhbmRleC5jbG91ZC5vcGVyYXRp",
-            "b24uT3BlcmF0aW9uIogBgtPkkwJGMkEvbG9hZC1iYWxhbmNlci92MS9uZXR3",
-            "b3JrTG9hZEJhbGFuY2Vycy97bmV0d29ya19sb2FkX2JhbGFuY2VyX2lkfToB",
-            "KrLSKjgKIVVwZGF0ZU5ldHdvcmtMb2FkQmFsYW5jZXJNZXRhZGF0YRITTmV0",
-            "d29ya0xvYWRCYWxhbmNlchL1AQoGRGVsZXRlEj4ueWFuZGV4LmNsb3VkLmxv",
-            "YWRiYWxhbmNlci52MS5EZWxldGVOZXR3b3JrTG9hZEJhbGFuY2VyUmVxdWVz",
-            "dBohLnlhbmRleC5jbG91ZC5vcGVyYXRpb24uT3BlcmF0aW9uIocBgtPkkwJD",
-            "KkEvbG9hZC1iYWxhbmNlci92MS9uZXR3b3JrTG9hZEJhbGFuY2Vycy97bmV0",
-            "d29ya19sb2FkX2JhbGFuY2VyX2lkfbLSKjoKIURlbGV0ZU5ldHdvcmtMb2Fk",
-            "QmFsYW5jZXJNZXRhZGF0YRIVZ29vZ2xlLnByb3RvYnVmLkVtcHR5EvgBCgVT",
-            "dGFydBI9LnlhbmRleC5jbG91ZC5sb2FkYmFsYW5jZXIudjEuU3RhcnROZXR3",
-            "b3JrTG9hZEJhbGFuY2VyUmVxdWVzdBohLnlhbmRleC5jbG91ZC5vcGVyYXRp",
-            "b24uT3BlcmF0aW9uIowBgtPkkwJJIkcvbG9hZC1iYWxhbmNlci92MS9uZXR3",
-            "b3JrTG9hZEJhbGFuY2Vycy97bmV0d29ya19sb2FkX2JhbGFuY2VyX2lkfTpz",
-            "dGFydLLSKjkKIFN0YXJ0TmV0d29ya0xvYWRCYWxhbmNlck1ldGFkYXRhEhVn",
-            "b29nbGUucHJvdG9idWYuRW1wdHkS9AEKBFN0b3ASPC55YW5kZXguY2xvdWQu",
-            "bG9hZGJhbGFuY2VyLnYxLlN0b3BOZXR3b3JrTG9hZEJhbGFuY2VyUmVxdWVz",
-            "dBohLnlhbmRleC5jbG91ZC5vcGVyYXRpb24uT3BlcmF0aW9uIooBgtPkkwJI",
-            "IkYvbG9hZC1iYWxhbmNlci92MS9uZXR3b3JrTG9hZEJhbGFuY2Vycy97bmV0",
-            "d29ya19sb2FkX2JhbGFuY2VyX2lkfTpzdG9wstIqOAofU3RvcE5ldHdvcmtM",
-            "b2FkQmFsYW5jZXJNZXRhZGF0YRIVZ29vZ2xlLnByb3RvYnVmLkVtcHR5EqkC",
-            "ChFBdHRhY2hUYXJnZXRHcm91cBJJLnlhbmRleC5jbG91ZC5sb2FkYmFsYW5j",
-            "ZXIudjEuQXR0YWNoTmV0d29ya0xvYWRCYWxhbmNlclRhcmdldEdyb3VwUmVx",
-            "dWVzdBohLnlhbmRleC5jbG91ZC5vcGVyYXRpb24uT3BlcmF0aW9uIqUBgtPk",
-            "kwJYIlMvbG9hZC1iYWxhbmNlci92MS9uZXR3b3JrTG9hZEJhbGFuY2Vycy97",
-            "bmV0d29ya19sb2FkX2JhbGFuY2VyX2lkfTphdHRhY2hUYXJnZXRHcm91cDoB",
-            "KrLSKkMKLEF0dGFjaE5ldHdvcmtMb2FkQmFsYW5jZXJUYXJnZXRHcm91cE1l",
-            "dGFkYXRhEhNOZXR3b3JrTG9hZEJhbGFuY2VyEqkCChFEZXRhY2hUYXJnZXRH",
-            "cm91cBJJLnlhbmRleC5jbG91ZC5sb2FkYmFsYW5jZXIudjEuRGV0YWNoTmV0",
-            "d29ya0xvYWRCYWxhbmNlclRhcmdldEdyb3VwUmVxdWVzdBohLnlhbmRleC5j",
-            "bG91ZC5vcGVyYXRpb24uT3BlcmF0aW9uIqUBgtPkkwJYIlMvbG9hZC1iYWxh",
-            "bmNlci92MS9uZXR3b3JrTG9hZEJhbGFuY2Vycy97bmV0d29ya19sb2FkX2Jh",
-            "bGFuY2VyX2lkfTpkZXRhY2hUYXJnZXRHcm91cDoBKrLSKkMKLERldGFjaE5l",
-            "dHdvcmtMb2FkQmFsYW5jZXJUYXJnZXRHcm91cE1ldGFkYXRhEhNOZXR3b3Jr",
-            "TG9hZEJhbGFuY2VyEtkBCg9HZXRUYXJnZXRTdGF0ZXMSNC55YW5kZXguY2xv",
-            "dWQubG9hZGJhbGFuY2VyLnYxLkdldFRhcmdldFN0YXRlc1JlcXVlc3QaNS55",
-            "YW5kZXguY2xvdWQubG9hZGJhbGFuY2VyLnYxLkdldFRhcmdldFN0YXRlc1Jl",
-            "c3BvbnNlIlmC0+STAlMSUS9sb2FkLWJhbGFuY2VyL3YxL25ldHdvcmtMb2Fk",
-            "QmFsYW5jZXJzL3tuZXR3b3JrX2xvYWRfYmFsYW5jZXJfaWR9OmdldFRhcmdl",
-            "dFN0YXRlcxKRAgoLQWRkTGlzdGVuZXISQy55YW5kZXguY2xvdWQubG9hZGJh",
-            "bGFuY2VyLnYxLkFkZE5ldHdvcmtMb2FkQmFsYW5jZXJMaXN0ZW5lclJlcXVl",
-            "c3QaIS55YW5kZXguY2xvdWQub3BlcmF0aW9uLk9wZXJhdGlvbiKZAYLT5JMC",
-            "UiJNL2xvYWQtYmFsYW5jZXIvdjEvbmV0d29ya0xvYWRCYWxhbmNlcnMve25l",
-            "dHdvcmtfbG9hZF9iYWxhbmNlcl9pZH06YWRkTGlzdGVuZXI6ASqy0io9CiZB",
-            "ZGROZXR3b3JrTG9hZEJhbGFuY2VyTGlzdGVuZXJNZXRhZGF0YRITTmV0d29y",
-            "a0xvYWRCYWxhbmNlchKdAgoOUmVtb3ZlTGlzdGVuZXISRi55YW5kZXguY2xv",
-            "dWQubG9hZGJhbGFuY2VyLnYxLlJlbW92ZU5ldHdvcmtMb2FkQmFsYW5jZXJM",
-            "aXN0ZW5lclJlcXVlc3QaIS55YW5kZXguY2xvdWQub3BlcmF0aW9uLk9wZXJh",
-            "dGlvbiKfAYLT5JMCVSJQL2xvYWQtYmFsYW5jZXIvdjEvbmV0d29ya0xvYWRC",
-            "YWxhbmNlcnMve25ldHdvcmtfbG9hZF9iYWxhbmNlcl9pZH06cmVtb3ZlTGlz",
-            "dGVuZXI6ASqy0ipACilSZW1vdmVOZXR3b3JrTG9hZEJhbGFuY2VyTGlzdGVu",
-            "ZXJNZXRhZGF0YRITTmV0d29ya0xvYWRCYWxhbmNlchL3AQoOTGlzdE9wZXJh",
-            "dGlvbnMSRi55YW5kZXguY2xvdWQubG9hZGJhbGFuY2VyLnYxLkxpc3ROZXR3",
-            "b3JrTG9hZEJhbGFuY2VyT3BlcmF0aW9uc1JlcXVlc3QaRy55YW5kZXguY2xv",
-            "dWQubG9hZGJhbGFuY2VyLnYxLkxpc3ROZXR3b3JrTG9hZEJhbGFuY2VyT3Bl",
-            "cmF0aW9uc1Jlc3BvbnNlIlSC0+STAk4STC9sb2FkLWJhbGFuY2VyL3YxL25l",
-            "dHdvcmtMb2FkQmFsYW5jZXJzL3tuZXR3b3JrX2xvYWRfYmFsYW5jZXJfaWR9",
-            "L29wZXJhdGlvbnNCcQogeWFuZGV4LmNsb3VkLmFwaS5sb2FkYmFsYW5jZXIu",
-            "djFaTWdpdGh1Yi5jb20veWFuZGV4LWNsb3VkL2dvLWdlbnByb3RvL3lhbmRl",
-            "eC9jbG91ZC9sb2FkYmFsYW5jZXIvdjE7bG9hZGJhbGFuY2VyYgZwcm90bzM="));
+            "YWxhbmNlci52MS5JcFZlcnNpb24idgoTSW50ZXJuYWxBZGRyZXNzU3BlYxIP",
+            "CgdhZGRyZXNzGAEgASgJEhEKCXN1Ym5ldF9pZBgCIAEoCRI7CgppcF92ZXJz",
+            "aW9uGAMgASgOMicueWFuZGV4LmNsb3VkLmxvYWRiYWxhbmNlci52MS5JcFZl",
+            "cnNpb24i7wIKDExpc3RlbmVyU3BlYxIzCgRuYW1lGAEgASgJQiXoxzEB8scx",
+            "HXxbYS16XVstYS16MC05XXsxLDYxfVthLXowLTldEhkKBHBvcnQYAiABKANC",
+            "C/rHMQcxLTY1NTM1EkcKCHByb3RvY29sGAMgASgOMi8ueWFuZGV4LmNsb3Vk",
+            "LmxvYWRiYWxhbmNlci52MS5MaXN0ZW5lci5Qcm90b2NvbEIE6McxARJSChVl",
+            "eHRlcm5hbF9hZGRyZXNzX3NwZWMYBCABKAsyMS55YW5kZXguY2xvdWQubG9h",
+            "ZGJhbGFuY2VyLnYxLkV4dGVybmFsQWRkcmVzc1NwZWNIABJSChVpbnRlcm5h",
+            "bF9hZGRyZXNzX3NwZWMYBiABKAsyMS55YW5kZXguY2xvdWQubG9hZGJhbGFu",
+            "Y2VyLnYxLkludGVybmFsQWRkcmVzc1NwZWNIABITCgt0YXJnZXRfcG9ydBgF",
+            "IAEoA0IJCgdhZGRyZXNzMrkZChpOZXR3b3JrTG9hZEJhbGFuY2VyU2Vydmlj",
+            "ZRLAAQoDR2V0EjsueWFuZGV4LmNsb3VkLmxvYWRiYWxhbmNlci52MS5HZXRO",
+            "ZXR3b3JrTG9hZEJhbGFuY2VyUmVxdWVzdBoxLnlhbmRleC5jbG91ZC5sb2Fk",
+            "YmFsYW5jZXIudjEuTmV0d29ya0xvYWRCYWxhbmNlciJJgtPkkwJDEkEvbG9h",
+            "ZC1iYWxhbmNlci92MS9uZXR3b3JrTG9hZEJhbGFuY2Vycy97bmV0d29ya19s",
+            "b2FkX2JhbGFuY2VyX2lkfRK1AQoETGlzdBI9LnlhbmRleC5jbG91ZC5sb2Fk",
+            "YmFsYW5jZXIudjEuTGlzdE5ldHdvcmtMb2FkQmFsYW5jZXJzUmVxdWVzdBo+",
+            "LnlhbmRleC5jbG91ZC5sb2FkYmFsYW5jZXIudjEuTGlzdE5ldHdvcmtMb2Fk",
+            "QmFsYW5jZXJzUmVzcG9uc2UiLoLT5JMCKBImL2xvYWQtYmFsYW5jZXIvdjEv",
+            "bmV0d29ya0xvYWRCYWxhbmNlcnMS2gEKBkNyZWF0ZRI+LnlhbmRleC5jbG91",
+            "ZC5sb2FkYmFsYW5jZXIudjEuQ3JlYXRlTmV0d29ya0xvYWRCYWxhbmNlclJl",
+            "cXVlc3QaIS55YW5kZXguY2xvdWQub3BlcmF0aW9uLk9wZXJhdGlvbiJtgtPk",
+            "kwIrIiYvbG9hZC1iYWxhbmNlci92MS9uZXR3b3JrTG9hZEJhbGFuY2VyczoB",
+            "KrLSKjgKIUNyZWF0ZU5ldHdvcmtMb2FkQmFsYW5jZXJNZXRhZGF0YRITTmV0",
+            "d29ya0xvYWRCYWxhbmNlchL2AQoGVXBkYXRlEj4ueWFuZGV4LmNsb3VkLmxv",
+            "YWRiYWxhbmNlci52MS5VcGRhdGVOZXR3b3JrTG9hZEJhbGFuY2VyUmVxdWVz",
+            "dBohLnlhbmRleC5jbG91ZC5vcGVyYXRpb24uT3BlcmF0aW9uIogBgtPkkwJG",
+            "MkEvbG9hZC1iYWxhbmNlci92MS9uZXR3b3JrTG9hZEJhbGFuY2Vycy97bmV0",
+            "d29ya19sb2FkX2JhbGFuY2VyX2lkfToBKrLSKjgKIVVwZGF0ZU5ldHdvcmtM",
+            "b2FkQmFsYW5jZXJNZXRhZGF0YRITTmV0d29ya0xvYWRCYWxhbmNlchL1AQoG",
+            "RGVsZXRlEj4ueWFuZGV4LmNsb3VkLmxvYWRiYWxhbmNlci52MS5EZWxldGVO",
+            "ZXR3b3JrTG9hZEJhbGFuY2VyUmVxdWVzdBohLnlhbmRleC5jbG91ZC5vcGVy",
+            "YXRpb24uT3BlcmF0aW9uIocBgtPkkwJDKkEvbG9hZC1iYWxhbmNlci92MS9u",
+            "ZXR3b3JrTG9hZEJhbGFuY2Vycy97bmV0d29ya19sb2FkX2JhbGFuY2VyX2lk",
+            "fbLSKjoKIURlbGV0ZU5ldHdvcmtMb2FkQmFsYW5jZXJNZXRhZGF0YRIVZ29v",
+            "Z2xlLnByb3RvYnVmLkVtcHR5EvgBCgVTdGFydBI9LnlhbmRleC5jbG91ZC5s",
+            "b2FkYmFsYW5jZXIudjEuU3RhcnROZXR3b3JrTG9hZEJhbGFuY2VyUmVxdWVz",
+            "dBohLnlhbmRleC5jbG91ZC5vcGVyYXRpb24uT3BlcmF0aW9uIowBgtPkkwJJ",
+            "IkcvbG9hZC1iYWxhbmNlci92MS9uZXR3b3JrTG9hZEJhbGFuY2Vycy97bmV0",
+            "d29ya19sb2FkX2JhbGFuY2VyX2lkfTpzdGFydLLSKjkKIFN0YXJ0TmV0d29y",
+            "a0xvYWRCYWxhbmNlck1ldGFkYXRhEhVnb29nbGUucHJvdG9idWYuRW1wdHkS",
+            "9AEKBFN0b3ASPC55YW5kZXguY2xvdWQubG9hZGJhbGFuY2VyLnYxLlN0b3BO",
+            "ZXR3b3JrTG9hZEJhbGFuY2VyUmVxdWVzdBohLnlhbmRleC5jbG91ZC5vcGVy",
+            "YXRpb24uT3BlcmF0aW9uIooBgtPkkwJIIkYvbG9hZC1iYWxhbmNlci92MS9u",
+            "ZXR3b3JrTG9hZEJhbGFuY2Vycy97bmV0d29ya19sb2FkX2JhbGFuY2VyX2lk",
+            "fTpzdG9wstIqOAofU3RvcE5ldHdvcmtMb2FkQmFsYW5jZXJNZXRhZGF0YRIV",
+            "Z29vZ2xlLnByb3RvYnVmLkVtcHR5EqkCChFBdHRhY2hUYXJnZXRHcm91cBJJ",
+            "LnlhbmRleC5jbG91ZC5sb2FkYmFsYW5jZXIudjEuQXR0YWNoTmV0d29ya0xv",
+            "YWRCYWxhbmNlclRhcmdldEdyb3VwUmVxdWVzdBohLnlhbmRleC5jbG91ZC5v",
+            "cGVyYXRpb24uT3BlcmF0aW9uIqUBgtPkkwJYIlMvbG9hZC1iYWxhbmNlci92",
+            "MS9uZXR3b3JrTG9hZEJhbGFuY2Vycy97bmV0d29ya19sb2FkX2JhbGFuY2Vy",
+            "X2lkfTphdHRhY2hUYXJnZXRHcm91cDoBKrLSKkMKLEF0dGFjaE5ldHdvcmtM",
+            "b2FkQmFsYW5jZXJUYXJnZXRHcm91cE1ldGFkYXRhEhNOZXR3b3JrTG9hZEJh",
+            "bGFuY2VyEqkCChFEZXRhY2hUYXJnZXRHcm91cBJJLnlhbmRleC5jbG91ZC5s",
+            "b2FkYmFsYW5jZXIudjEuRGV0YWNoTmV0d29ya0xvYWRCYWxhbmNlclRhcmdl",
+            "dEdyb3VwUmVxdWVzdBohLnlhbmRleC5jbG91ZC5vcGVyYXRpb24uT3BlcmF0",
+            "aW9uIqUBgtPkkwJYIlMvbG9hZC1iYWxhbmNlci92MS9uZXR3b3JrTG9hZEJh",
+            "bGFuY2Vycy97bmV0d29ya19sb2FkX2JhbGFuY2VyX2lkfTpkZXRhY2hUYXJn",
+            "ZXRHcm91cDoBKrLSKkMKLERldGFjaE5ldHdvcmtMb2FkQmFsYW5jZXJUYXJn",
+            "ZXRHcm91cE1ldGFkYXRhEhNOZXR3b3JrTG9hZEJhbGFuY2VyEtkBCg9HZXRU",
+            "YXJnZXRTdGF0ZXMSNC55YW5kZXguY2xvdWQubG9hZGJhbGFuY2VyLnYxLkdl",
+            "dFRhcmdldFN0YXRlc1JlcXVlc3QaNS55YW5kZXguY2xvdWQubG9hZGJhbGFu",
+            "Y2VyLnYxLkdldFRhcmdldFN0YXRlc1Jlc3BvbnNlIlmC0+STAlMSUS9sb2Fk",
+            "LWJhbGFuY2VyL3YxL25ldHdvcmtMb2FkQmFsYW5jZXJzL3tuZXR3b3JrX2xv",
+            "YWRfYmFsYW5jZXJfaWR9OmdldFRhcmdldFN0YXRlcxKRAgoLQWRkTGlzdGVu",
+            "ZXISQy55YW5kZXguY2xvdWQubG9hZGJhbGFuY2VyLnYxLkFkZE5ldHdvcmtM",
+            "b2FkQmFsYW5jZXJMaXN0ZW5lclJlcXVlc3QaIS55YW5kZXguY2xvdWQub3Bl",
+            "cmF0aW9uLk9wZXJhdGlvbiKZAYLT5JMCUiJNL2xvYWQtYmFsYW5jZXIvdjEv",
+            "bmV0d29ya0xvYWRCYWxhbmNlcnMve25ldHdvcmtfbG9hZF9iYWxhbmNlcl9p",
+            "ZH06YWRkTGlzdGVuZXI6ASqy0io9CiZBZGROZXR3b3JrTG9hZEJhbGFuY2Vy",
+            "TGlzdGVuZXJNZXRhZGF0YRITTmV0d29ya0xvYWRCYWxhbmNlchKdAgoOUmVt",
+            "b3ZlTGlzdGVuZXISRi55YW5kZXguY2xvdWQubG9hZGJhbGFuY2VyLnYxLlJl",
+            "bW92ZU5ldHdvcmtMb2FkQmFsYW5jZXJMaXN0ZW5lclJlcXVlc3QaIS55YW5k",
+            "ZXguY2xvdWQub3BlcmF0aW9uLk9wZXJhdGlvbiKfAYLT5JMCVSJQL2xvYWQt",
+            "YmFsYW5jZXIvdjEvbmV0d29ya0xvYWRCYWxhbmNlcnMve25ldHdvcmtfbG9h",
+            "ZF9iYWxhbmNlcl9pZH06cmVtb3ZlTGlzdGVuZXI6ASqy0ipACilSZW1vdmVO",
+            "ZXR3b3JrTG9hZEJhbGFuY2VyTGlzdGVuZXJNZXRhZGF0YRITTmV0d29ya0xv",
+            "YWRCYWxhbmNlchL3AQoOTGlzdE9wZXJhdGlvbnMSRi55YW5kZXguY2xvdWQu",
+            "bG9hZGJhbGFuY2VyLnYxLkxpc3ROZXR3b3JrTG9hZEJhbGFuY2VyT3BlcmF0",
+            "aW9uc1JlcXVlc3QaRy55YW5kZXguY2xvdWQubG9hZGJhbGFuY2VyLnYxLkxp",
+            "c3ROZXR3b3JrTG9hZEJhbGFuY2VyT3BlcmF0aW9uc1Jlc3BvbnNlIlSC0+ST",
+            "Ak4STC9sb2FkLWJhbGFuY2VyL3YxL25ldHdvcmtMb2FkQmFsYW5jZXJzL3tu",
+            "ZXR3b3JrX2xvYWRfYmFsYW5jZXJfaWR9L29wZXJhdGlvbnNCcQogeWFuZGV4",
+            "LmNsb3VkLmFwaS5sb2FkYmFsYW5jZXIudjFaTWdpdGh1Yi5jb20veWFuZGV4",
+            "LWNsb3VkL2dvLWdlbnByb3RvL3lhbmRleC9jbG91ZC9sb2FkYmFsYW5jZXIv",
+            "djE7bG9hZGJhbGFuY2VyYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Yandex.Cloud.Api.OperationReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.Loadbalancer.V1.NetworkLoadBalancerReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
@@ -226,7 +231,8 @@ namespace Yandex.Cloud.Loadbalancer.V1 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Loadbalancer.V1.GetTargetStatesRequest), global::Yandex.Cloud.Loadbalancer.V1.GetTargetStatesRequest.Parser, new[]{ "NetworkLoadBalancerId", "TargetGroupId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Loadbalancer.V1.GetTargetStatesResponse), global::Yandex.Cloud.Loadbalancer.V1.GetTargetStatesResponse.Parser, new[]{ "TargetStates" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Loadbalancer.V1.ExternalAddressSpec), global::Yandex.Cloud.Loadbalancer.V1.ExternalAddressSpec.Parser, new[]{ "Address", "IpVersion" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Loadbalancer.V1.ListenerSpec), global::Yandex.Cloud.Loadbalancer.V1.ListenerSpec.Parser, new[]{ "Name", "Port", "Protocol", "ExternalAddressSpec", "TargetPort" }, new[]{ "Address" }, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Loadbalancer.V1.InternalAddressSpec), global::Yandex.Cloud.Loadbalancer.V1.InternalAddressSpec.Parser, new[]{ "Address", "SubnetId", "IpVersion" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Loadbalancer.V1.ListenerSpec), global::Yandex.Cloud.Loadbalancer.V1.ListenerSpec.Parser, new[]{ "Name", "Port", "Protocol", "ExternalAddressSpec", "InternalAddressSpec", "TargetPort" }, new[]{ "Address" }, null, null)
           }));
     }
     #endregion
@@ -906,7 +912,7 @@ namespace Yandex.Cloud.Loadbalancer.V1 {
         = pb::FieldCodec.ForMessage(66, global::Yandex.Cloud.Loadbalancer.V1.AttachedTargetGroup.Parser);
     private readonly pbc::RepeatedField<global::Yandex.Cloud.Loadbalancer.V1.AttachedTargetGroup> attachedTargetGroups_ = new pbc::RepeatedField<global::Yandex.Cloud.Loadbalancer.V1.AttachedTargetGroup>();
     /// <summary>
-    /// List of attached target groups for the network load balancer. For now, we accept only one target_group per NetworkLoadBalancer resource.
+    /// List of attached target groups for the network load balancer.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::RepeatedField<global::Yandex.Cloud.Loadbalancer.V1.AttachedTargetGroup> AttachedTargetGroups {
@@ -1352,7 +1358,7 @@ namespace Yandex.Cloud.Loadbalancer.V1 {
         = pb::FieldCodec.ForMessage(58, global::Yandex.Cloud.Loadbalancer.V1.AttachedTargetGroup.Parser);
     private readonly pbc::RepeatedField<global::Yandex.Cloud.Loadbalancer.V1.AttachedTargetGroup> attachedTargetGroups_ = new pbc::RepeatedField<global::Yandex.Cloud.Loadbalancer.V1.AttachedTargetGroup>();
     /// <summary>
-    /// A list of attached target groups for the network load balancer. For now, we accept only one target_group per NetworkLoadBalancer resource.
+    /// A list of attached target groups for the network load balancer.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::RepeatedField<global::Yandex.Cloud.Loadbalancer.V1.AttachedTargetGroup> AttachedTargetGroups {
@@ -4522,6 +4528,203 @@ namespace Yandex.Cloud.Loadbalancer.V1 {
   }
 
   /// <summary>
+  /// Internal address specification that is used by [ListenerSpec].
+  /// </summary>
+  internal sealed partial class InternalAddressSpec : pb::IMessage<InternalAddressSpec> {
+    private static readonly pb::MessageParser<InternalAddressSpec> _parser = new pb::MessageParser<InternalAddressSpec>(() => new InternalAddressSpec());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<InternalAddressSpec> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Loadbalancer.V1.NetworkLoadBalancerServiceReflection.Descriptor.MessageTypes[26]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public InternalAddressSpec() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public InternalAddressSpec(InternalAddressSpec other) : this() {
+      address_ = other.address_;
+      subnetId_ = other.subnetId_;
+      ipVersion_ = other.ipVersion_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public InternalAddressSpec Clone() {
+      return new InternalAddressSpec(this);
+    }
+
+    /// <summary>Field number for the "address" field.</summary>
+    public const int AddressFieldNumber = 1;
+    private string address_ = "";
+    /// <summary>
+    /// Internal IP address for a listener.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Address {
+      get { return address_; }
+      set {
+        address_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "subnet_id" field.</summary>
+    public const int SubnetIdFieldNumber = 2;
+    private string subnetId_ = "";
+    /// <summary>
+    /// ID of the subnet.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string SubnetId {
+      get { return subnetId_; }
+      set {
+        subnetId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ip_version" field.</summary>
+    public const int IpVersionFieldNumber = 3;
+    private global::Yandex.Cloud.Loadbalancer.V1.IpVersion ipVersion_ = 0;
+    /// <summary>
+    /// IP version.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Loadbalancer.V1.IpVersion IpVersion {
+      get { return ipVersion_; }
+      set {
+        ipVersion_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as InternalAddressSpec);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(InternalAddressSpec other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Address != other.Address) return false;
+      if (SubnetId != other.SubnetId) return false;
+      if (IpVersion != other.IpVersion) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Address.Length != 0) hash ^= Address.GetHashCode();
+      if (SubnetId.Length != 0) hash ^= SubnetId.GetHashCode();
+      if (IpVersion != 0) hash ^= IpVersion.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (Address.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Address);
+      }
+      if (SubnetId.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(SubnetId);
+      }
+      if (IpVersion != 0) {
+        output.WriteRawTag(24);
+        output.WriteEnum((int) IpVersion);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Address.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Address);
+      }
+      if (SubnetId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(SubnetId);
+      }
+      if (IpVersion != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) IpVersion);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(InternalAddressSpec other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Address.Length != 0) {
+        Address = other.Address;
+      }
+      if (other.SubnetId.Length != 0) {
+        SubnetId = other.SubnetId;
+      }
+      if (other.IpVersion != 0) {
+        IpVersion = other.IpVersion;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Address = input.ReadString();
+            break;
+          }
+          case 18: {
+            SubnetId = input.ReadString();
+            break;
+          }
+          case 24: {
+            IpVersion = (global::Yandex.Cloud.Loadbalancer.V1.IpVersion) input.ReadEnum();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  /// <summary>
   /// Listener specification that will be used by a network load balancer.
   /// </summary>
   internal sealed partial class ListenerSpec : pb::IMessage<ListenerSpec> {
@@ -4532,7 +4735,7 @@ namespace Yandex.Cloud.Loadbalancer.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Loadbalancer.V1.NetworkLoadBalancerServiceReflection.Descriptor.MessageTypes[26]; }
+      get { return global::Yandex.Cloud.Loadbalancer.V1.NetworkLoadBalancerServiceReflection.Descriptor.MessageTypes[27]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4556,6 +4759,9 @@ namespace Yandex.Cloud.Loadbalancer.V1 {
       switch (other.AddressCase) {
         case AddressOneofCase.ExternalAddressSpec:
           ExternalAddressSpec = other.ExternalAddressSpec.Clone();
+          break;
+        case AddressOneofCase.InternalAddressSpec:
+          InternalAddressSpec = other.InternalAddressSpec.Clone();
           break;
       }
 
@@ -4623,12 +4829,26 @@ namespace Yandex.Cloud.Loadbalancer.V1 {
       }
     }
 
+    /// <summary>Field number for the "internal_address_spec" field.</summary>
+    public const int InternalAddressSpecFieldNumber = 6;
+    /// <summary>
+    /// Internal IP address specification.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Loadbalancer.V1.InternalAddressSpec InternalAddressSpec {
+      get { return addressCase_ == AddressOneofCase.InternalAddressSpec ? (global::Yandex.Cloud.Loadbalancer.V1.InternalAddressSpec) address_ : null; }
+      set {
+        address_ = value;
+        addressCase_ = value == null ? AddressOneofCase.None : AddressOneofCase.InternalAddressSpec;
+      }
+    }
+
     /// <summary>Field number for the "target_port" field.</summary>
     public const int TargetPortFieldNumber = 5;
     private long targetPort_;
     /// <summary>
     /// Port of a target.
-    /// Acceptable values are 1 to 32767, inclusive.
+    /// Acceptable values are 1 to 65535, inclusive.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long TargetPort {
@@ -4643,6 +4863,7 @@ namespace Yandex.Cloud.Loadbalancer.V1 {
     public enum AddressOneofCase {
       None = 0,
       ExternalAddressSpec = 4,
+      InternalAddressSpec = 6,
     }
     private AddressOneofCase addressCase_ = AddressOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4673,6 +4894,7 @@ namespace Yandex.Cloud.Loadbalancer.V1 {
       if (Port != other.Port) return false;
       if (Protocol != other.Protocol) return false;
       if (!object.Equals(ExternalAddressSpec, other.ExternalAddressSpec)) return false;
+      if (!object.Equals(InternalAddressSpec, other.InternalAddressSpec)) return false;
       if (TargetPort != other.TargetPort) return false;
       if (AddressCase != other.AddressCase) return false;
       return Equals(_unknownFields, other._unknownFields);
@@ -4685,6 +4907,7 @@ namespace Yandex.Cloud.Loadbalancer.V1 {
       if (Port != 0L) hash ^= Port.GetHashCode();
       if (Protocol != 0) hash ^= Protocol.GetHashCode();
       if (addressCase_ == AddressOneofCase.ExternalAddressSpec) hash ^= ExternalAddressSpec.GetHashCode();
+      if (addressCase_ == AddressOneofCase.InternalAddressSpec) hash ^= InternalAddressSpec.GetHashCode();
       if (TargetPort != 0L) hash ^= TargetPort.GetHashCode();
       hash ^= (int) addressCase_;
       if (_unknownFields != null) {
@@ -4720,6 +4943,10 @@ namespace Yandex.Cloud.Loadbalancer.V1 {
         output.WriteRawTag(40);
         output.WriteInt64(TargetPort);
       }
+      if (addressCase_ == AddressOneofCase.InternalAddressSpec) {
+        output.WriteRawTag(50);
+        output.WriteMessage(InternalAddressSpec);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -4739,6 +4966,9 @@ namespace Yandex.Cloud.Loadbalancer.V1 {
       }
       if (addressCase_ == AddressOneofCase.ExternalAddressSpec) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(ExternalAddressSpec);
+      }
+      if (addressCase_ == AddressOneofCase.InternalAddressSpec) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(InternalAddressSpec);
       }
       if (TargetPort != 0L) {
         size += 1 + pb::CodedOutputStream.ComputeInt64Size(TargetPort);
@@ -4772,6 +5002,12 @@ namespace Yandex.Cloud.Loadbalancer.V1 {
             ExternalAddressSpec = new global::Yandex.Cloud.Loadbalancer.V1.ExternalAddressSpec();
           }
           ExternalAddressSpec.MergeFrom(other.ExternalAddressSpec);
+          break;
+        case AddressOneofCase.InternalAddressSpec:
+          if (InternalAddressSpec == null) {
+            InternalAddressSpec = new global::Yandex.Cloud.Loadbalancer.V1.InternalAddressSpec();
+          }
+          InternalAddressSpec.MergeFrom(other.InternalAddressSpec);
           break;
       }
 
@@ -4809,6 +5045,15 @@ namespace Yandex.Cloud.Loadbalancer.V1 {
           }
           case 40: {
             TargetPort = input.ReadInt64();
+            break;
+          }
+          case 50: {
+            global::Yandex.Cloud.Loadbalancer.V1.InternalAddressSpec subBuilder = new global::Yandex.Cloud.Loadbalancer.V1.InternalAddressSpec();
+            if (addressCase_ == AddressOneofCase.InternalAddressSpec) {
+              subBuilder.MergeFrom(InternalAddressSpec);
+            }
+            input.ReadMessage(subBuilder);
+            InternalAddressSpec = subBuilder;
             break;
           }
         }

@@ -32,17 +32,22 @@ namespace Yandex.Cloud.Iam.V1 {
             "b3VudBgDIAEoCzIkLnlhbmRleC5jbG91ZC5pYW0udjEuU2FtbFVzZXJBY2Nv",
             "dW50SABCFAoMdXNlcl9hY2NvdW50EgTAwTEBIkEKGVlhbmRleFBhc3Nwb3J0",
             "VXNlckFjY291bnQSDQoFbG9naW4YASABKAkSFQoNZGVmYXVsdF9lbWFpbBgC",
-            "IAEoCSJWCg9TYW1sVXNlckFjY291bnQSIwoNZmVkZXJhdGlvbl9pZBgBIAEo",
-            "CUIM6McxAYrIMQQ8PTUwEh4KB25hbWVfaWQYAiABKAlCDejHMQGKyDEFMS0y",
-            "NTZCVgoXeWFuZGV4LmNsb3VkLmFwaS5pYW0udjFaO2dpdGh1Yi5jb20veWFu",
-            "ZGV4LWNsb3VkL2dvLWdlbnByb3RvL3lhbmRleC9jbG91ZC9pYW0vdjE7aWFt",
-            "YgZwcm90bzM="));
+            "IAEoCSKfAgoPU2FtbFVzZXJBY2NvdW50EiMKDWZlZGVyYXRpb25faWQYASAB",
+            "KAlCDOjHMQGKyDEEPD01MBIeCgduYW1lX2lkGAIgASgJQg3oxzEBisgxBTEt",
+            "MjU2EkgKCmF0dHJpYnV0ZXMYAyADKAsyNC55YW5kZXguY2xvdWQuaWFtLnYx",
+            "LlNhbWxVc2VyQWNjb3VudC5BdHRyaWJ1dGVzRW50cnkaGgoJQXR0cmlidXRl",
+            "Eg0KBXZhbHVlGAEgAygJGmEKD0F0dHJpYnV0ZXNFbnRyeRILCgNrZXkYASAB",
+            "KAkSPQoFdmFsdWUYAiABKAsyLi55YW5kZXguY2xvdWQuaWFtLnYxLlNhbWxV",
+            "c2VyQWNjb3VudC5BdHRyaWJ1dGU6AjgBQlYKF3lhbmRleC5jbG91ZC5hcGku",
+            "aWFtLnYxWjtnaXRodWIuY29tL3lhbmRleC1jbG91ZC9nby1nZW5wcm90by95",
+            "YW5kZXgvY2xvdWQvaWFtL3YxO2lhbWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Yandex.Cloud.ValidationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.UserAccount), global::Yandex.Cloud.Iam.V1.UserAccount.Parser, new[]{ "Id", "YandexPassportUserAccount", "SamlUserAccount" }, new[]{ "UserAccount" }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.YandexPassportUserAccount), global::Yandex.Cloud.Iam.V1.YandexPassportUserAccount.Parser, new[]{ "Login", "DefaultEmail" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.SamlUserAccount), global::Yandex.Cloud.Iam.V1.SamlUserAccount.Parser, new[]{ "FederationId", "NameId" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.SamlUserAccount), global::Yandex.Cloud.Iam.V1.SamlUserAccount.Parser, new[]{ "FederationId", "NameId", "Attributes" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.SamlUserAccount.Types.Attribute), global::Yandex.Cloud.Iam.V1.SamlUserAccount.Types.Attribute.Parser, new[]{ "Value" }, null, null, null),
+            null, })
           }));
     }
     #endregion
@@ -491,6 +496,7 @@ namespace Yandex.Cloud.Iam.V1 {
     public SamlUserAccount(SamlUserAccount other) : this() {
       federationId_ = other.federationId_;
       nameId_ = other.nameId_;
+      attributes_ = other.attributes_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -528,6 +534,19 @@ namespace Yandex.Cloud.Iam.V1 {
       }
     }
 
+    /// <summary>Field number for the "attributes" field.</summary>
+    public const int AttributesFieldNumber = 3;
+    private static readonly pbc::MapField<string, global::Yandex.Cloud.Iam.V1.SamlUserAccount.Types.Attribute>.Codec _map_attributes_codec
+        = new pbc::MapField<string, global::Yandex.Cloud.Iam.V1.SamlUserAccount.Types.Attribute>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForMessage(18, global::Yandex.Cloud.Iam.V1.SamlUserAccount.Types.Attribute.Parser), 26);
+    private readonly pbc::MapField<string, global::Yandex.Cloud.Iam.V1.SamlUserAccount.Types.Attribute> attributes_ = new pbc::MapField<string, global::Yandex.Cloud.Iam.V1.SamlUserAccount.Types.Attribute>();
+    /// <summary>
+    /// Additional attributes of the SAML federated user.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::MapField<string, global::Yandex.Cloud.Iam.V1.SamlUserAccount.Types.Attribute> Attributes {
+      get { return attributes_; }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as SamlUserAccount);
@@ -543,6 +562,7 @@ namespace Yandex.Cloud.Iam.V1 {
       }
       if (FederationId != other.FederationId) return false;
       if (NameId != other.NameId) return false;
+      if (!Attributes.Equals(other.Attributes)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -551,6 +571,7 @@ namespace Yandex.Cloud.Iam.V1 {
       int hash = 1;
       if (FederationId.Length != 0) hash ^= FederationId.GetHashCode();
       if (NameId.Length != 0) hash ^= NameId.GetHashCode();
+      hash ^= Attributes.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -572,6 +593,7 @@ namespace Yandex.Cloud.Iam.V1 {
         output.WriteRawTag(18);
         output.WriteString(NameId);
       }
+      attributes_.WriteTo(output, _map_attributes_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -586,6 +608,7 @@ namespace Yandex.Cloud.Iam.V1 {
       if (NameId.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(NameId);
       }
+      size += attributes_.CalculateSize(_map_attributes_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -603,6 +626,7 @@ namespace Yandex.Cloud.Iam.V1 {
       if (other.NameId.Length != 0) {
         NameId = other.NameId;
       }
+      attributes_.Add(other.attributes_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -622,9 +646,141 @@ namespace Yandex.Cloud.Iam.V1 {
             NameId = input.ReadString();
             break;
           }
+          case 26: {
+            attributes_.AddEntriesFrom(input, _map_attributes_codec);
+            break;
+          }
         }
       }
     }
+
+    #region Nested types
+    /// <summary>Container for nested types declared in the SamlUserAccount message type.</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static partial class Types {
+      internal sealed partial class Attribute : pb::IMessage<Attribute> {
+        private static readonly pb::MessageParser<Attribute> _parser = new pb::MessageParser<Attribute>(() => new Attribute());
+        private pb::UnknownFieldSet _unknownFields;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public static pb::MessageParser<Attribute> Parser { get { return _parser; } }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public static pbr::MessageDescriptor Descriptor {
+          get { return global::Yandex.Cloud.Iam.V1.SamlUserAccount.Descriptor.NestedTypes[0]; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        pbr::MessageDescriptor pb::IMessage.Descriptor {
+          get { return Descriptor; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public Attribute() {
+          OnConstruction();
+        }
+
+        partial void OnConstruction();
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public Attribute(Attribute other) : this() {
+          value_ = other.value_.Clone();
+          _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public Attribute Clone() {
+          return new Attribute(this);
+        }
+
+        /// <summary>Field number for the "value" field.</summary>
+        public const int ValueFieldNumber = 1;
+        private static readonly pb::FieldCodec<string> _repeated_value_codec
+            = pb::FieldCodec.ForString(10);
+        private readonly pbc::RepeatedField<string> value_ = new pbc::RepeatedField<string>();
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public pbc::RepeatedField<string> Value {
+          get { return value_; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override bool Equals(object other) {
+          return Equals(other as Attribute);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public bool Equals(Attribute other) {
+          if (ReferenceEquals(other, null)) {
+            return false;
+          }
+          if (ReferenceEquals(other, this)) {
+            return true;
+          }
+          if(!value_.Equals(other.value_)) return false;
+          return Equals(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override int GetHashCode() {
+          int hash = 1;
+          hash ^= value_.GetHashCode();
+          if (_unknownFields != null) {
+            hash ^= _unknownFields.GetHashCode();
+          }
+          return hash;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override string ToString() {
+          return pb::JsonFormatter.ToDiagnosticString(this);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void WriteTo(pb::CodedOutputStream output) {
+          value_.WriteTo(output, _repeated_value_codec);
+          if (_unknownFields != null) {
+            _unknownFields.WriteTo(output);
+          }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public int CalculateSize() {
+          int size = 0;
+          size += value_.CalculateSize(_repeated_value_codec);
+          if (_unknownFields != null) {
+            size += _unknownFields.CalculateSize();
+          }
+          return size;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void MergeFrom(Attribute other) {
+          if (other == null) {
+            return;
+          }
+          value_.Add(other.value_);
+          _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void MergeFrom(pb::CodedInputStream input) {
+          uint tag;
+          while ((tag = input.ReadTag()) != 0) {
+            switch(tag) {
+              default:
+                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+                break;
+              case 10: {
+                value_.AddEntriesFrom(input, _repeated_value_codec);
+                break;
+              }
+            }
+          }
+        }
+
+      }
+
+    }
+    #endregion
 
   }
 

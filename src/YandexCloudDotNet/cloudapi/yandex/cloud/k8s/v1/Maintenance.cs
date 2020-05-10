@@ -108,6 +108,9 @@ namespace Yandex.Cloud.K8S.V1 {
 
     /// <summary>Field number for the "anytime" field.</summary>
     public const int AnytimeFieldNumber = 1;
+    /// <summary>
+    /// Updating the master at any time.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.K8S.V1.AnytimeMaintenanceWindow Anytime {
       get { return policyCase_ == PolicyOneofCase.Anytime ? (global::Yandex.Cloud.K8S.V1.AnytimeMaintenanceWindow) policy_ : null; }
@@ -119,6 +122,9 @@ namespace Yandex.Cloud.K8S.V1 {
 
     /// <summary>Field number for the "daily_maintenance_window" field.</summary>
     public const int DailyMaintenanceWindowFieldNumber = 2;
+    /// <summary>
+    /// Updating the master on any day during the specified time window.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.K8S.V1.DailyMaintenanceWindow DailyMaintenanceWindow {
       get { return policyCase_ == PolicyOneofCase.DailyMaintenanceWindow ? (global::Yandex.Cloud.K8S.V1.DailyMaintenanceWindow) policy_ : null; }
@@ -130,6 +136,9 @@ namespace Yandex.Cloud.K8S.V1 {
 
     /// <summary>Field number for the "weekly_maintenance_window" field.</summary>
     public const int WeeklyMaintenanceWindowFieldNumber = 3;
+    /// <summary>
+    /// Updating the master on selected days during the specified time window.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.K8S.V1.WeeklyMaintenanceWindow WeeklyMaintenanceWindow {
       get { return policyCase_ == PolicyOneofCase.WeeklyMaintenanceWindow ? (global::Yandex.Cloud.K8S.V1.WeeklyMaintenanceWindow) policy_ : null; }
@@ -443,6 +452,9 @@ namespace Yandex.Cloud.K8S.V1 {
     /// <summary>Field number for the "start_time" field.</summary>
     public const int StartTimeFieldNumber = 1;
     private global::Google.Type.TimeOfDay startTime_;
+    /// <summary>
+    /// Window start time, in the UTC timezone.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Google.Type.TimeOfDay StartTime {
       get { return startTime_; }
@@ -454,6 +466,9 @@ namespace Yandex.Cloud.K8S.V1 {
     /// <summary>Field number for the "duration" field.</summary>
     public const int DurationFieldNumber = 2;
     private global::Google.Protobuf.WellKnownTypes.Duration duration_;
+    /// <summary>
+    /// Window duration.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Google.Protobuf.WellKnownTypes.Duration Duration {
       get { return duration_; }
@@ -615,6 +630,9 @@ namespace Yandex.Cloud.K8S.V1 {
     private static readonly pb::FieldCodec<global::Google.Type.DayOfWeek> _repeated_days_codec
         = pb::FieldCodec.ForEnum(10, x => (int) x, x => (global::Google.Type.DayOfWeek) x);
     private readonly pbc::RepeatedField<global::Google.Type.DayOfWeek> days_ = new pbc::RepeatedField<global::Google.Type.DayOfWeek>();
+    /// <summary>
+    /// Days of the week when automatic updates are allowed.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::RepeatedField<global::Google.Type.DayOfWeek> Days {
       get { return days_; }
@@ -623,6 +641,9 @@ namespace Yandex.Cloud.K8S.V1 {
     /// <summary>Field number for the "start_time" field.</summary>
     public const int StartTimeFieldNumber = 2;
     private global::Google.Type.TimeOfDay startTime_;
+    /// <summary>
+    /// Window start time, in the UTC timezone.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Google.Type.TimeOfDay StartTime {
       get { return startTime_; }
@@ -634,6 +655,9 @@ namespace Yandex.Cloud.K8S.V1 {
     /// <summary>Field number for the "duration" field.</summary>
     public const int DurationFieldNumber = 3;
     private global::Google.Protobuf.WellKnownTypes.Duration duration_;
+    /// <summary>
+    /// Window duration.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Google.Protobuf.WellKnownTypes.Duration Duration {
       get { return duration_; }
@@ -803,6 +827,9 @@ namespace Yandex.Cloud.K8S.V1 {
     private static readonly pb::FieldCodec<global::Yandex.Cloud.K8S.V1.DaysOfWeekMaintenanceWindow> _repeated_daysOfWeek_codec
         = pb::FieldCodec.ForMessage(10, global::Yandex.Cloud.K8S.V1.DaysOfWeekMaintenanceWindow.Parser);
     private readonly pbc::RepeatedField<global::Yandex.Cloud.K8S.V1.DaysOfWeekMaintenanceWindow> daysOfWeek_ = new pbc::RepeatedField<global::Yandex.Cloud.K8S.V1.DaysOfWeekMaintenanceWindow>();
+    /// <summary>
+    /// Days of the week and the maintenance window for these days when automatic updates are allowed.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::RepeatedField<global::Yandex.Cloud.K8S.V1.DaysOfWeekMaintenanceWindow> DaysOfWeek {
       get { return daysOfWeek_; }

@@ -30,6 +30,8 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
     static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Mongodb.V1.RestoreClusterRequest> __Marshaller_yandex_cloud_mdb_mongodb_v1_RestoreClusterRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Mongodb.V1.RestoreClusterRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Mongodb.V1.ListClusterLogsRequest> __Marshaller_yandex_cloud_mdb_mongodb_v1_ListClusterLogsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Mongodb.V1.ListClusterLogsRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Mongodb.V1.ListClusterLogsResponse> __Marshaller_yandex_cloud_mdb_mongodb_v1_ListClusterLogsResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Mongodb.V1.ListClusterLogsResponse.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Mongodb.V1.StreamClusterLogsRequest> __Marshaller_yandex_cloud_mdb_mongodb_v1_StreamClusterLogsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Mongodb.V1.StreamClusterLogsRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Mongodb.V1.LogRecord> __Marshaller_yandex_cloud_mdb_mongodb_v1_LogRecord = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Mongodb.V1.LogRecord.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Mongodb.V1.ListClusterOperationsRequest> __Marshaller_yandex_cloud_mdb_mongodb_v1_ListClusterOperationsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Mongodb.V1.ListClusterOperationsRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Mongodb.V1.ListClusterOperationsResponse> __Marshaller_yandex_cloud_mdb_mongodb_v1_ListClusterOperationsResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Mongodb.V1.ListClusterOperationsResponse.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Mongodb.V1.ListClusterBackupsRequest> __Marshaller_yandex_cloud_mdb_mongodb_v1_ListClusterBackupsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Mongodb.V1.ListClusterBackupsRequest.Parser.ParseFrom);
@@ -45,6 +47,8 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
     static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Mongodb.V1.ListClusterShardsResponse> __Marshaller_yandex_cloud_mdb_mongodb_v1_ListClusterShardsResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Mongodb.V1.ListClusterShardsResponse.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Mongodb.V1.AddClusterShardRequest> __Marshaller_yandex_cloud_mdb_mongodb_v1_AddClusterShardRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Mongodb.V1.AddClusterShardRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Mongodb.V1.DeleteClusterShardRequest> __Marshaller_yandex_cloud_mdb_mongodb_v1_DeleteClusterShardRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Mongodb.V1.DeleteClusterShardRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Mongodb.V1.ResetupHostsRequest> __Marshaller_yandex_cloud_mdb_mongodb_v1_ResetupHostsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Mongodb.V1.ResetupHostsRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Mongodb.V1.RestartHostsRequest> __Marshaller_yandex_cloud_mdb_mongodb_v1_RestartHostsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Mongodb.V1.RestartHostsRequest.Parser.ParseFrom);
 
     static readonly grpc::Method<global::Yandex.Cloud.Mdb.Mongodb.V1.GetClusterRequest, global::Yandex.Cloud.Mdb.Mongodb.V1.Cluster> __Method_Get = new grpc::Method<global::Yandex.Cloud.Mdb.Mongodb.V1.GetClusterRequest, global::Yandex.Cloud.Mdb.Mongodb.V1.Cluster>(
         grpc::MethodType.Unary,
@@ -123,6 +127,13 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
         __Marshaller_yandex_cloud_mdb_mongodb_v1_ListClusterLogsRequest,
         __Marshaller_yandex_cloud_mdb_mongodb_v1_ListClusterLogsResponse);
 
+    static readonly grpc::Method<global::Yandex.Cloud.Mdb.Mongodb.V1.StreamClusterLogsRequest, global::Yandex.Cloud.Mdb.Mongodb.V1.LogRecord> __Method_StreamLogs = new grpc::Method<global::Yandex.Cloud.Mdb.Mongodb.V1.StreamClusterLogsRequest, global::Yandex.Cloud.Mdb.Mongodb.V1.LogRecord>(
+        grpc::MethodType.ServerStreaming,
+        __ServiceName,
+        "StreamLogs",
+        __Marshaller_yandex_cloud_mdb_mongodb_v1_StreamClusterLogsRequest,
+        __Marshaller_yandex_cloud_mdb_mongodb_v1_LogRecord);
+
     static readonly grpc::Method<global::Yandex.Cloud.Mdb.Mongodb.V1.ListClusterOperationsRequest, global::Yandex.Cloud.Mdb.Mongodb.V1.ListClusterOperationsResponse> __Method_ListOperations = new grpc::Method<global::Yandex.Cloud.Mdb.Mongodb.V1.ListClusterOperationsRequest, global::Yandex.Cloud.Mdb.Mongodb.V1.ListClusterOperationsResponse>(
         grpc::MethodType.Unary,
         __ServiceName,
@@ -191,6 +202,20 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
         __ServiceName,
         "DeleteShard",
         __Marshaller_yandex_cloud_mdb_mongodb_v1_DeleteClusterShardRequest,
+        __Marshaller_yandex_cloud_operation_Operation);
+
+    static readonly grpc::Method<global::Yandex.Cloud.Mdb.Mongodb.V1.ResetupHostsRequest, global::Yandex.Cloud.Operation.Operation> __Method_ResetupHosts = new grpc::Method<global::Yandex.Cloud.Mdb.Mongodb.V1.ResetupHostsRequest, global::Yandex.Cloud.Operation.Operation>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "ResetupHosts",
+        __Marshaller_yandex_cloud_mdb_mongodb_v1_ResetupHostsRequest,
+        __Marshaller_yandex_cloud_operation_Operation);
+
+    static readonly grpc::Method<global::Yandex.Cloud.Mdb.Mongodb.V1.RestartHostsRequest, global::Yandex.Cloud.Operation.Operation> __Method_RestartHosts = new grpc::Method<global::Yandex.Cloud.Mdb.Mongodb.V1.RestartHostsRequest, global::Yandex.Cloud.Operation.Operation>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "RestartHosts",
+        __Marshaller_yandex_cloud_mdb_mongodb_v1_RestartHostsRequest,
         __Marshaller_yandex_cloud_operation_Operation);
 
     /// <summary>Service descriptor</summary>
@@ -719,6 +744,28 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
         return CallInvoker.AsyncUnaryCall(__Method_ListLogs, null, options, request);
       }
       /// <summary>
+      /// Same as ListLogs but using server-side streaming. Also allows for 'tail -f' semantics.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncServerStreamingCall<global::Yandex.Cloud.Mdb.Mongodb.V1.LogRecord> StreamLogs(global::Yandex.Cloud.Mdb.Mongodb.V1.StreamClusterLogsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return StreamLogs(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Same as ListLogs but using server-side streaming. Also allows for 'tail -f' semantics.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncServerStreamingCall<global::Yandex.Cloud.Mdb.Mongodb.V1.LogRecord> StreamLogs(global::Yandex.Cloud.Mdb.Mongodb.V1.StreamClusterLogsRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncServerStreamingCall(__Method_StreamLogs, null, options, request);
+      }
+      /// <summary>
       /// Retrieves the list of Operation resources for the specified cluster.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
@@ -1161,6 +1208,94 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
       public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Operation.Operation> DeleteShardAsync(global::Yandex.Cloud.Mdb.Mongodb.V1.DeleteClusterShardRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_DeleteShard, null, options, request);
+      }
+      /// <summary>
+      /// Resetup hosts.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.Operation.Operation ResetupHosts(global::Yandex.Cloud.Mdb.Mongodb.V1.ResetupHostsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return ResetupHosts(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Resetup hosts.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.Operation.Operation ResetupHosts(global::Yandex.Cloud.Mdb.Mongodb.V1.ResetupHostsRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_ResetupHosts, null, options, request);
+      }
+      /// <summary>
+      /// Resetup hosts.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Operation.Operation> ResetupHostsAsync(global::Yandex.Cloud.Mdb.Mongodb.V1.ResetupHostsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return ResetupHostsAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Resetup hosts.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Operation.Operation> ResetupHostsAsync(global::Yandex.Cloud.Mdb.Mongodb.V1.ResetupHostsRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_ResetupHosts, null, options, request);
+      }
+      /// <summary>
+      /// Restart hosts.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.Operation.Operation RestartHosts(global::Yandex.Cloud.Mdb.Mongodb.V1.RestartHostsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return RestartHosts(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Restart hosts.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.Operation.Operation RestartHosts(global::Yandex.Cloud.Mdb.Mongodb.V1.RestartHostsRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_RestartHosts, null, options, request);
+      }
+      /// <summary>
+      /// Restart hosts.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Operation.Operation> RestartHostsAsync(global::Yandex.Cloud.Mdb.Mongodb.V1.RestartHostsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return RestartHostsAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Restart hosts.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Operation.Operation> RestartHostsAsync(global::Yandex.Cloud.Mdb.Mongodb.V1.RestartHostsRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_RestartHosts, null, options, request);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       protected override ClusterServiceClient NewInstance(ClientBaseConfiguration configuration)

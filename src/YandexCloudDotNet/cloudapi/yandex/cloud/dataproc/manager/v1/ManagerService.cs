@@ -35,49 +35,54 @@ namespace Yandex.Cloud.Dataproc.Manager.V1 {
             "GAYgAygLMi8ueWFuZGV4LmNsb3VkLmRhdGFwcm9jLm1hbmFnZXIudjEuSGJh",
             "c2VOb2RlSW5mbyJyCgxIREZTTm9kZUluZm8SDAoEbmFtZRgBIAEoCRIMCgR1",
             "c2VkGAIgASgDEhEKCXJlbWFpbmluZxgDIAEoAxIQCghjYXBhY2l0eRgEIAEo",
-            "AxISCgpudW1fYmxvY2tzGAUgASgDEg0KBXN0YXRlGAYgASgJIvMCCghIREZT",
+            "AxISCgpudW1fYmxvY2tzGAUgASgDEg0KBXN0YXRlGAYgASgJIuMDCghIREZT",
             "SW5mbxIRCglhdmFpbGFibGUYASABKAgSGQoRcGVyY2VudF9yZW1haW5pbmcY",
             "AiABKAESDAoEdXNlZBgDIAEoAxIMCgRmcmVlGAQgASgDEhQKDHRvdGFsX2Js",
             "b2NrcxgFIAEoAxIWCg5taXNzaW5nX2Jsb2NrcxgGIAEoAxIiChptaXNzaW5n",
             "X2Jsb2Nrc19yZXBsaWNhX29uZRgHIAEoAxJCCgpsaXZlX25vZGVzGAggAygL",
             "Mi4ueWFuZGV4LmNsb3VkLmRhdGFwcm9jLm1hbmFnZXIudjEuSERGU05vZGVJ",
             "bmZvEkIKCmRlYWRfbm9kZXMYCSADKAsyLi55YW5kZXguY2xvdWQuZGF0YXBy",
-            "b2MubWFuYWdlci52MS5IREZTTm9kZUluZm8SQwoLZGVjb21fbm9kZXMYCiAD",
-            "KAsyLi55YW5kZXguY2xvdWQuZGF0YXByb2MubWFuYWdlci52MS5IREZTTm9k",
-            "ZUluZm8imwEKCEhpdmVJbmZvEhEKCWF2YWlsYWJsZRgBIAEoCBIZChFxdWVy",
-            "aWVzX3N1Y2NlZWRlZBgCIAEoAxIWCg5xdWVyaWVzX2ZhaWxlZBgDIAEoAxIZ",
-            "ChFxdWVyaWVzX2V4ZWN1dGluZxgEIAEoAxIVCg1zZXNzaW9uc19vcGVuGAUg",
-            "ASgDEhcKD3Nlc3Npb25zX2FjdGl2ZRgGIAEoAyJ4CgxZYXJuTm9kZUluZm8S",
-            "DAoEbmFtZRgBIAEoCRINCgVzdGF0ZRgCIAEoCRIWCg5udW1fY29udGFpbmVy",
-            "cxgDIAEoAxIWCg51c2VkX21lbW9yeV9tYhgEIAEoAxIbChNhdmFpbGFibGVf",
-            "bWVtb3J5X21iGAUgASgDImEKCFlhcm5JbmZvEhEKCWF2YWlsYWJsZRgBIAEo",
-            "CBJCCgpsaXZlX25vZGVzGAIgAygLMi4ueWFuZGV4LmNsb3VkLmRhdGFwcm9j",
-            "Lm1hbmFnZXIudjEuWWFybk5vZGVJbmZvIh4KDVpvb2tlZXBlckluZm8SDQoF",
-            "YWxpdmUYASABKAgiGgoJT296aWVJbmZvEg0KBWFsaXZlGAEgASgIIvACCgRJ",
-            "bmZvEjgKBGhkZnMYASABKAsyKi55YW5kZXguY2xvdWQuZGF0YXByb2MubWFu",
-            "YWdlci52MS5IREZTSW5mbxI4CgR5YXJuGAIgASgLMioueWFuZGV4LmNsb3Vk",
-            "LmRhdGFwcm9jLm1hbmFnZXIudjEuWWFybkluZm8SOAoEaGl2ZRgDIAEoCzIq",
-            "LnlhbmRleC5jbG91ZC5kYXRhcHJvYy5tYW5hZ2VyLnYxLkhpdmVJbmZvEkIK",
-            "CXpvb2tlZXBlchgEIAEoCzIvLnlhbmRleC5jbG91ZC5kYXRhcHJvYy5tYW5h",
-            "Z2VyLnYxLlpvb2tlZXBlckluZm8SOgoFaGJhc2UYBSABKAsyKy55YW5kZXgu",
-            "Y2xvdWQuZGF0YXByb2MubWFuYWdlci52MS5IYmFzZUluZm8SOgoFb296aWUY",
-            "BiABKAsyKy55YW5kZXguY2xvdWQuZGF0YXByb2MubWFuYWdlci52MS5Pb3pp",
-            "ZUluZm8ibQoNUmVwb3J0UmVxdWVzdBILCgNjaWQYASABKAkSGQoRdG9wb2xv",
-            "Z3lfcmV2aXNpb24YAiABKAMSNAoEaW5mbxgDIAEoCzImLnlhbmRleC5jbG91",
-            "ZC5kYXRhcHJvYy5tYW5hZ2VyLnYxLkluZm8iDQoLUmVwb3J0UmVwbHkyhAEK",
-            "FkRhdGFwcm9jTWFuYWdlclNlcnZpY2USagoGUmVwb3J0Ei8ueWFuZGV4LmNs",
-            "b3VkLmRhdGFwcm9jLm1hbmFnZXIudjEuUmVwb3J0UmVxdWVzdBotLnlhbmRl",
-            "eC5jbG91ZC5kYXRhcHJvYy5tYW5hZ2VyLnYxLlJlcG9ydFJlcGx5IgBCfQok",
-            "eWFuZGV4LmNsb3VkLmFwaS5kYXRhcHJvYy5tYW5hZ2VyLnYxWlVnaXRodWIu",
-            "Y29tL3lhbmRleC1jbG91ZC9nby1nZW5wcm90by95YW5kZXgvY2xvdWQvZGF0",
-            "YXByb2MvbWFuYWdlci92MTtkYXRhcHJvY19tYW5hZ2VyYgZwcm90bzM="));
+            "b2MubWFuYWdlci52MS5IREZTTm9kZUluZm8SEAoIc2FmZW1vZGUYCyABKAkS",
+            "TQoVZGVjb21taXNzaW9uaW5nX25vZGVzGAwgAygLMi4ueWFuZGV4LmNsb3Vk",
+            "LmRhdGFwcm9jLm1hbmFnZXIudjEuSERGU05vZGVJbmZvEkwKFGRlY29tbWlz",
+            "c2lvbmVkX25vZGVzGA0gAygLMi4ueWFuZGV4LmNsb3VkLmRhdGFwcm9jLm1h",
+            "bmFnZXIudjEuSERGU05vZGVJbmZvSgQIChALIpsBCghIaXZlSW5mbxIRCglh",
+            "dmFpbGFibGUYASABKAgSGQoRcXVlcmllc19zdWNjZWVkZWQYAiABKAMSFgoO",
+            "cXVlcmllc19mYWlsZWQYAyABKAMSGQoRcXVlcmllc19leGVjdXRpbmcYBCAB",
+            "KAMSFQoNc2Vzc2lvbnNfb3BlbhgFIAEoAxIXCg9zZXNzaW9uc19hY3RpdmUY",
+            "BiABKAMieAoMWWFybk5vZGVJbmZvEgwKBG5hbWUYASABKAkSDQoFc3RhdGUY",
+            "AiABKAkSFgoObnVtX2NvbnRhaW5lcnMYAyABKAMSFgoOdXNlZF9tZW1vcnlf",
+            "bWIYBCABKAMSGwoTYXZhaWxhYmxlX21lbW9yeV9tYhgFIAEoAyJhCghZYXJu",
+            "SW5mbxIRCglhdmFpbGFibGUYASABKAgSQgoKbGl2ZV9ub2RlcxgCIAMoCzIu",
+            "LnlhbmRleC5jbG91ZC5kYXRhcHJvYy5tYW5hZ2VyLnYxLllhcm5Ob2RlSW5m",
+            "byIeCg1ab29rZWVwZXJJbmZvEg0KBWFsaXZlGAEgASgIIhoKCU9vemllSW5m",
+            "bxINCgVhbGl2ZRgBIAEoCCLwAgoESW5mbxI4CgRoZGZzGAEgASgLMioueWFu",
+            "ZGV4LmNsb3VkLmRhdGFwcm9jLm1hbmFnZXIudjEuSERGU0luZm8SOAoEeWFy",
+            "bhgCIAEoCzIqLnlhbmRleC5jbG91ZC5kYXRhcHJvYy5tYW5hZ2VyLnYxLllh",
+            "cm5JbmZvEjgKBGhpdmUYAyABKAsyKi55YW5kZXguY2xvdWQuZGF0YXByb2Mu",
+            "bWFuYWdlci52MS5IaXZlSW5mbxJCCgl6b29rZWVwZXIYBCABKAsyLy55YW5k",
+            "ZXguY2xvdWQuZGF0YXByb2MubWFuYWdlci52MS5ab29rZWVwZXJJbmZvEjoK",
+            "BWhiYXNlGAUgASgLMisueWFuZGV4LmNsb3VkLmRhdGFwcm9jLm1hbmFnZXIu",
+            "djEuSGJhc2VJbmZvEjoKBW9vemllGAYgASgLMisueWFuZGV4LmNsb3VkLmRh",
+            "dGFwcm9jLm1hbmFnZXIudjEuT296aWVJbmZvIm0KDVJlcG9ydFJlcXVlc3QS",
+            "CwoDY2lkGAEgASgJEhkKEXRvcG9sb2d5X3JldmlzaW9uGAIgASgDEjQKBGlu",
+            "Zm8YAyABKAsyJi55YW5kZXguY2xvdWQuZGF0YXByb2MubWFuYWdlci52MS5J",
+            "bmZvInMKC1JlcG9ydFJlcGx5EhwKFGRlY29tbWlzc2lvbl90aW1lb3V0GAEg",
+            "ASgDEiIKGnlhcm5faG9zdHNfdG9fZGVjb21taXNzaW9uGAIgAygJEiIKGmhk",
+            "ZnNfaG9zdHNfdG9fZGVjb21taXNzaW9uGAMgAygJMoQBChZEYXRhcHJvY01h",
+            "bmFnZXJTZXJ2aWNlEmoKBlJlcG9ydBIvLnlhbmRleC5jbG91ZC5kYXRhcHJv",
+            "Yy5tYW5hZ2VyLnYxLlJlcG9ydFJlcXVlc3QaLS55YW5kZXguY2xvdWQuZGF0",
+            "YXByb2MubWFuYWdlci52MS5SZXBvcnRSZXBseSIAQn0KJHlhbmRleC5jbG91",
+            "ZC5hcGkuZGF0YXByb2MubWFuYWdlci52MVpVZ2l0aHViLmNvbS95YW5kZXgt",
+            "Y2xvdWQvZ28tZ2VucHJvdG8veWFuZGV4L2Nsb3VkL2RhdGFwcm9jL21hbmFn",
+            "ZXIvdjE7ZGF0YXByb2NfbWFuYWdlcmIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.Manager.V1.HbaseNodeInfo), global::Yandex.Cloud.Dataproc.Manager.V1.HbaseNodeInfo.Parser, new[]{ "Name", "Requests", "HeapSizeMb", "MaxHeapSizeMb" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.Manager.V1.HbaseInfo), global::Yandex.Cloud.Dataproc.Manager.V1.HbaseInfo.Parser, new[]{ "Available", "Regions", "Requests", "AverageLoad", "LiveNodes", "DeadNodes" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.Manager.V1.HDFSNodeInfo), global::Yandex.Cloud.Dataproc.Manager.V1.HDFSNodeInfo.Parser, new[]{ "Name", "Used", "Remaining", "Capacity", "NumBlocks", "State" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.Manager.V1.HDFSInfo), global::Yandex.Cloud.Dataproc.Manager.V1.HDFSInfo.Parser, new[]{ "Available", "PercentRemaining", "Used", "Free", "TotalBlocks", "MissingBlocks", "MissingBlocksReplicaOne", "LiveNodes", "DeadNodes", "DecomNodes" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.Manager.V1.HDFSInfo), global::Yandex.Cloud.Dataproc.Manager.V1.HDFSInfo.Parser, new[]{ "Available", "PercentRemaining", "Used", "Free", "TotalBlocks", "MissingBlocks", "MissingBlocksReplicaOne", "LiveNodes", "DeadNodes", "Safemode", "DecommissioningNodes", "DecommissionedNodes" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.Manager.V1.HiveInfo), global::Yandex.Cloud.Dataproc.Manager.V1.HiveInfo.Parser, new[]{ "Available", "QueriesSucceeded", "QueriesFailed", "QueriesExecuting", "SessionsOpen", "SessionsActive" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.Manager.V1.YarnNodeInfo), global::Yandex.Cloud.Dataproc.Manager.V1.YarnNodeInfo.Parser, new[]{ "Name", "State", "NumContainers", "UsedMemoryMb", "AvailableMemoryMb" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.Manager.V1.YarnInfo), global::Yandex.Cloud.Dataproc.Manager.V1.YarnInfo.Parser, new[]{ "Available", "LiveNodes" }, null, null, null),
@@ -85,7 +90,7 @@ namespace Yandex.Cloud.Dataproc.Manager.V1 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.Manager.V1.OozieInfo), global::Yandex.Cloud.Dataproc.Manager.V1.OozieInfo.Parser, new[]{ "Alive" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.Manager.V1.Info), global::Yandex.Cloud.Dataproc.Manager.V1.Info.Parser, new[]{ "Hdfs", "Yarn", "Hive", "Zookeeper", "Hbase", "Oozie" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.Manager.V1.ReportRequest), global::Yandex.Cloud.Dataproc.Manager.V1.ReportRequest.Parser, new[]{ "Cid", "TopologyRevision", "Info" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.Manager.V1.ReportReply), global::Yandex.Cloud.Dataproc.Manager.V1.ReportReply.Parser, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.Manager.V1.ReportReply), global::Yandex.Cloud.Dataproc.Manager.V1.ReportReply.Parser, new[]{ "DecommissionTimeout", "YarnHostsToDecommission", "HdfsHostsToDecommission" }, null, null, null)
           }));
     }
     #endregion
@@ -861,7 +866,9 @@ namespace Yandex.Cloud.Dataproc.Manager.V1 {
       missingBlocksReplicaOne_ = other.missingBlocksReplicaOne_;
       liveNodes_ = other.liveNodes_.Clone();
       deadNodes_ = other.deadNodes_.Clone();
-      decomNodes_ = other.decomNodes_.Clone();
+      safemode_ = other.safemode_;
+      decommissioningNodes_ = other.decommissioningNodes_.Clone();
+      decommissionedNodes_ = other.decommissionedNodes_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -967,14 +974,35 @@ namespace Yandex.Cloud.Dataproc.Manager.V1 {
       get { return deadNodes_; }
     }
 
-    /// <summary>Field number for the "decom_nodes" field.</summary>
-    public const int DecomNodesFieldNumber = 10;
-    private static readonly pb::FieldCodec<global::Yandex.Cloud.Dataproc.Manager.V1.HDFSNodeInfo> _repeated_decomNodes_codec
-        = pb::FieldCodec.ForMessage(82, global::Yandex.Cloud.Dataproc.Manager.V1.HDFSNodeInfo.Parser);
-    private readonly pbc::RepeatedField<global::Yandex.Cloud.Dataproc.Manager.V1.HDFSNodeInfo> decomNodes_ = new pbc::RepeatedField<global::Yandex.Cloud.Dataproc.Manager.V1.HDFSNodeInfo>();
+    /// <summary>Field number for the "safemode" field.</summary>
+    public const int SafemodeFieldNumber = 11;
+    private string safemode_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::Yandex.Cloud.Dataproc.Manager.V1.HDFSNodeInfo> DecomNodes {
-      get { return decomNodes_; }
+    public string Safemode {
+      get { return safemode_; }
+      set {
+        safemode_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "decommissioning_nodes" field.</summary>
+    public const int DecommissioningNodesFieldNumber = 12;
+    private static readonly pb::FieldCodec<global::Yandex.Cloud.Dataproc.Manager.V1.HDFSNodeInfo> _repeated_decommissioningNodes_codec
+        = pb::FieldCodec.ForMessage(98, global::Yandex.Cloud.Dataproc.Manager.V1.HDFSNodeInfo.Parser);
+    private readonly pbc::RepeatedField<global::Yandex.Cloud.Dataproc.Manager.V1.HDFSNodeInfo> decommissioningNodes_ = new pbc::RepeatedField<global::Yandex.Cloud.Dataproc.Manager.V1.HDFSNodeInfo>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<global::Yandex.Cloud.Dataproc.Manager.V1.HDFSNodeInfo> DecommissioningNodes {
+      get { return decommissioningNodes_; }
+    }
+
+    /// <summary>Field number for the "decommissioned_nodes" field.</summary>
+    public const int DecommissionedNodesFieldNumber = 13;
+    private static readonly pb::FieldCodec<global::Yandex.Cloud.Dataproc.Manager.V1.HDFSNodeInfo> _repeated_decommissionedNodes_codec
+        = pb::FieldCodec.ForMessage(106, global::Yandex.Cloud.Dataproc.Manager.V1.HDFSNodeInfo.Parser);
+    private readonly pbc::RepeatedField<global::Yandex.Cloud.Dataproc.Manager.V1.HDFSNodeInfo> decommissionedNodes_ = new pbc::RepeatedField<global::Yandex.Cloud.Dataproc.Manager.V1.HDFSNodeInfo>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<global::Yandex.Cloud.Dataproc.Manager.V1.HDFSNodeInfo> DecommissionedNodes {
+      get { return decommissionedNodes_; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -999,7 +1027,9 @@ namespace Yandex.Cloud.Dataproc.Manager.V1 {
       if (MissingBlocksReplicaOne != other.MissingBlocksReplicaOne) return false;
       if(!liveNodes_.Equals(other.liveNodes_)) return false;
       if(!deadNodes_.Equals(other.deadNodes_)) return false;
-      if(!decomNodes_.Equals(other.decomNodes_)) return false;
+      if (Safemode != other.Safemode) return false;
+      if(!decommissioningNodes_.Equals(other.decommissioningNodes_)) return false;
+      if(!decommissionedNodes_.Equals(other.decommissionedNodes_)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1015,7 +1045,9 @@ namespace Yandex.Cloud.Dataproc.Manager.V1 {
       if (MissingBlocksReplicaOne != 0L) hash ^= MissingBlocksReplicaOne.GetHashCode();
       hash ^= liveNodes_.GetHashCode();
       hash ^= deadNodes_.GetHashCode();
-      hash ^= decomNodes_.GetHashCode();
+      if (Safemode.Length != 0) hash ^= Safemode.GetHashCode();
+      hash ^= decommissioningNodes_.GetHashCode();
+      hash ^= decommissionedNodes_.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1059,7 +1091,12 @@ namespace Yandex.Cloud.Dataproc.Manager.V1 {
       }
       liveNodes_.WriteTo(output, _repeated_liveNodes_codec);
       deadNodes_.WriteTo(output, _repeated_deadNodes_codec);
-      decomNodes_.WriteTo(output, _repeated_decomNodes_codec);
+      if (Safemode.Length != 0) {
+        output.WriteRawTag(90);
+        output.WriteString(Safemode);
+      }
+      decommissioningNodes_.WriteTo(output, _repeated_decommissioningNodes_codec);
+      decommissionedNodes_.WriteTo(output, _repeated_decommissionedNodes_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1091,7 +1128,11 @@ namespace Yandex.Cloud.Dataproc.Manager.V1 {
       }
       size += liveNodes_.CalculateSize(_repeated_liveNodes_codec);
       size += deadNodes_.CalculateSize(_repeated_deadNodes_codec);
-      size += decomNodes_.CalculateSize(_repeated_decomNodes_codec);
+      if (Safemode.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Safemode);
+      }
+      size += decommissioningNodes_.CalculateSize(_repeated_decommissioningNodes_codec);
+      size += decommissionedNodes_.CalculateSize(_repeated_decommissionedNodes_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -1126,7 +1167,11 @@ namespace Yandex.Cloud.Dataproc.Manager.V1 {
       }
       liveNodes_.Add(other.liveNodes_);
       deadNodes_.Add(other.deadNodes_);
-      decomNodes_.Add(other.decomNodes_);
+      if (other.Safemode.Length != 0) {
+        Safemode = other.Safemode;
+      }
+      decommissioningNodes_.Add(other.decommissioningNodes_);
+      decommissionedNodes_.Add(other.decommissionedNodes_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -1174,8 +1219,16 @@ namespace Yandex.Cloud.Dataproc.Manager.V1 {
             deadNodes_.AddEntriesFrom(input, _repeated_deadNodes_codec);
             break;
           }
-          case 82: {
-            decomNodes_.AddEntriesFrom(input, _repeated_decomNodes_codec);
+          case 90: {
+            Safemode = input.ReadString();
+            break;
+          }
+          case 98: {
+            decommissioningNodes_.AddEntriesFrom(input, _repeated_decommissioningNodes_codec);
+            break;
+          }
+          case 106: {
+            decommissionedNodes_.AddEntriesFrom(input, _repeated_decommissionedNodes_codec);
             break;
           }
         }
@@ -2628,12 +2681,46 @@ namespace Yandex.Cloud.Dataproc.Manager.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public ReportReply(ReportReply other) : this() {
+      decommissionTimeout_ = other.decommissionTimeout_;
+      yarnHostsToDecommission_ = other.yarnHostsToDecommission_.Clone();
+      hdfsHostsToDecommission_ = other.hdfsHostsToDecommission_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public ReportReply Clone() {
       return new ReportReply(this);
+    }
+
+    /// <summary>Field number for the "decommission_timeout" field.</summary>
+    public const int DecommissionTimeoutFieldNumber = 1;
+    private long decommissionTimeout_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long DecommissionTimeout {
+      get { return decommissionTimeout_; }
+      set {
+        decommissionTimeout_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "yarn_hosts_to_decommission" field.</summary>
+    public const int YarnHostsToDecommissionFieldNumber = 2;
+    private static readonly pb::FieldCodec<string> _repeated_yarnHostsToDecommission_codec
+        = pb::FieldCodec.ForString(18);
+    private readonly pbc::RepeatedField<string> yarnHostsToDecommission_ = new pbc::RepeatedField<string>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<string> YarnHostsToDecommission {
+      get { return yarnHostsToDecommission_; }
+    }
+
+    /// <summary>Field number for the "hdfs_hosts_to_decommission" field.</summary>
+    public const int HdfsHostsToDecommissionFieldNumber = 3;
+    private static readonly pb::FieldCodec<string> _repeated_hdfsHostsToDecommission_codec
+        = pb::FieldCodec.ForString(26);
+    private readonly pbc::RepeatedField<string> hdfsHostsToDecommission_ = new pbc::RepeatedField<string>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<string> HdfsHostsToDecommission {
+      get { return hdfsHostsToDecommission_; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2649,12 +2736,18 @@ namespace Yandex.Cloud.Dataproc.Manager.V1 {
       if (ReferenceEquals(other, this)) {
         return true;
       }
+      if (DecommissionTimeout != other.DecommissionTimeout) return false;
+      if(!yarnHostsToDecommission_.Equals(other.yarnHostsToDecommission_)) return false;
+      if(!hdfsHostsToDecommission_.Equals(other.hdfsHostsToDecommission_)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override int GetHashCode() {
       int hash = 1;
+      if (DecommissionTimeout != 0L) hash ^= DecommissionTimeout.GetHashCode();
+      hash ^= yarnHostsToDecommission_.GetHashCode();
+      hash ^= hdfsHostsToDecommission_.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -2668,6 +2761,12 @@ namespace Yandex.Cloud.Dataproc.Manager.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public void WriteTo(pb::CodedOutputStream output) {
+      if (DecommissionTimeout != 0L) {
+        output.WriteRawTag(8);
+        output.WriteInt64(DecommissionTimeout);
+      }
+      yarnHostsToDecommission_.WriteTo(output, _repeated_yarnHostsToDecommission_codec);
+      hdfsHostsToDecommission_.WriteTo(output, _repeated_hdfsHostsToDecommission_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -2676,6 +2775,11 @@ namespace Yandex.Cloud.Dataproc.Manager.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CalculateSize() {
       int size = 0;
+      if (DecommissionTimeout != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(DecommissionTimeout);
+      }
+      size += yarnHostsToDecommission_.CalculateSize(_repeated_yarnHostsToDecommission_codec);
+      size += hdfsHostsToDecommission_.CalculateSize(_repeated_hdfsHostsToDecommission_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -2687,6 +2791,11 @@ namespace Yandex.Cloud.Dataproc.Manager.V1 {
       if (other == null) {
         return;
       }
+      if (other.DecommissionTimeout != 0L) {
+        DecommissionTimeout = other.DecommissionTimeout;
+      }
+      yarnHostsToDecommission_.Add(other.yarnHostsToDecommission_);
+      hdfsHostsToDecommission_.Add(other.hdfsHostsToDecommission_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -2698,6 +2807,18 @@ namespace Yandex.Cloud.Dataproc.Manager.V1 {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
+          case 8: {
+            DecommissionTimeout = input.ReadInt64();
+            break;
+          }
+          case 18: {
+            yarnHostsToDecommission_.AddEntriesFrom(input, _repeated_yarnHostsToDecommission_codec);
+            break;
+          }
+          case 26: {
+            hdfsHostsToDecommission_.AddEntriesFrom(input, _repeated_hdfsHostsToDecommission_codec);
+            break;
+          }
         }
       }
     }

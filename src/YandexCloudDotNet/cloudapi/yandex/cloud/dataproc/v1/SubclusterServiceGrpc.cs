@@ -9,7 +9,7 @@ using grpc = global::Grpc.Core;
 
 namespace Yandex.Cloud.Dataproc.V1 {
   /// <summary>
-  /// A set of methods for managing Dataproc subclusters.
+  /// A set of methods for managing Data Proc subclusters.
   /// </summary>
   internal static partial class SubclusterService
   {
@@ -89,9 +89,9 @@ namespace Yandex.Cloud.Dataproc.V1 {
       }
 
       /// <summary>
-      /// Returns the specified Dataproc subcluster resource.
+      /// Returns the specified subcluster.
       ///
-      /// To get the list of available Dataproc subcluster resources, make a [List] request.
+      /// To get the list of all available subclusters, make a [SubclusterService.List] request.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -103,9 +103,9 @@ namespace Yandex.Cloud.Dataproc.V1 {
         return Get(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// Returns the specified Dataproc subcluster resource.
+      /// Returns the specified subcluster.
       ///
-      /// To get the list of available Dataproc subcluster resources, make a [List] request.
+      /// To get the list of all available subclusters, make a [SubclusterService.List] request.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
@@ -115,9 +115,9 @@ namespace Yandex.Cloud.Dataproc.V1 {
         return CallInvoker.BlockingUnaryCall(__Method_Get, null, options, request);
       }
       /// <summary>
-      /// Returns the specified Dataproc subcluster resource.
+      /// Returns the specified subcluster.
       ///
-      /// To get the list of available Dataproc subcluster resources, make a [List] request.
+      /// To get the list of all available subclusters, make a [SubclusterService.List] request.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -129,9 +129,9 @@ namespace Yandex.Cloud.Dataproc.V1 {
         return GetAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// Returns the specified Dataproc subcluster resource.
+      /// Returns the specified subcluster.
       ///
-      /// To get the list of available Dataproc subcluster resources, make a [List] request.
+      /// To get the list of all available subclusters, make a [SubclusterService.List] request.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
@@ -141,7 +141,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
         return CallInvoker.AsyncUnaryCall(__Method_Get, null, options, request);
       }
       /// <summary>
-      /// Retrieves a list of Dataproc subcluster.
+      /// Retrieves a list of subclusters in the specified cluster.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -153,7 +153,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
         return List(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// Retrieves a list of Dataproc subcluster.
+      /// Retrieves a list of subclusters in the specified cluster.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
@@ -163,7 +163,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
         return CallInvoker.BlockingUnaryCall(__Method_List, null, options, request);
       }
       /// <summary>
-      /// Retrieves a list of Dataproc subcluster.
+      /// Retrieves a list of subclusters in the specified cluster.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -175,7 +175,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
         return ListAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// Retrieves a list of Dataproc subcluster.
+      /// Retrieves a list of subclusters in the specified cluster.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
@@ -185,7 +185,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
         return CallInvoker.AsyncUnaryCall(__Method_List, null, options, request);
       }
       /// <summary>
-      /// Creates a Dataproc subcluster in the specified cluster.
+      /// Creates a subcluster in the specified cluster.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -197,7 +197,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
         return Create(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// Creates a Dataproc subcluster in the specified cluster.
+      /// Creates a subcluster in the specified cluster.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
@@ -207,7 +207,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
         return CallInvoker.BlockingUnaryCall(__Method_Create, null, options, request);
       }
       /// <summary>
-      /// Creates a Dataproc subcluster in the specified cluster.
+      /// Creates a subcluster in the specified cluster.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -219,7 +219,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
         return CreateAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// Creates a Dataproc subcluster in the specified cluster.
+      /// Creates a subcluster in the specified cluster.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
@@ -229,7 +229,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
         return CallInvoker.AsyncUnaryCall(__Method_Create, null, options, request);
       }
       /// <summary>
-      /// Updates configuration of the specified Dataproc subcluster.
+      /// Updates the specified subcluster.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -241,7 +241,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
         return Update(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// Updates configuration of the specified Dataproc subcluster.
+      /// Updates the specified subcluster.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
@@ -251,7 +251,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
         return CallInvoker.BlockingUnaryCall(__Method_Update, null, options, request);
       }
       /// <summary>
-      /// Updates configuration of the specified Dataproc subcluster.
+      /// Updates the specified subcluster.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -263,7 +263,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
         return UpdateAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// Updates configuration of the specified Dataproc subcluster.
+      /// Updates the specified subcluster.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
@@ -273,7 +273,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
         return CallInvoker.AsyncUnaryCall(__Method_Update, null, options, request);
       }
       /// <summary>
-      /// Deletes the specified Dataproc subcluster.
+      /// Deletes the specified subcluster.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -285,7 +285,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
         return Delete(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// Deletes the specified Dataproc subcluster.
+      /// Deletes the specified subcluster.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
@@ -295,7 +295,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
         return CallInvoker.BlockingUnaryCall(__Method_Delete, null, options, request);
       }
       /// <summary>
-      /// Deletes the specified Dataproc subcluster.
+      /// Deletes the specified subcluster.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -307,7 +307,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
         return DeleteAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// Deletes the specified Dataproc subcluster.
+      /// Deletes the specified subcluster.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>

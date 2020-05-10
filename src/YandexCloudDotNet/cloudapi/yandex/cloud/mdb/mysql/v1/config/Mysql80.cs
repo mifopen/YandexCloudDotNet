@@ -243,6 +243,9 @@ namespace Yandex.Cloud.Mdb.Mysql.V1.Config {
     /// <summary>Field number for the "default_authentication_plugin" field.</summary>
     public const int DefaultAuthenticationPluginFieldNumber = 8;
     private global::Yandex.Cloud.Mdb.Mysql.V1.Config.MysqlConfig8_0.Types.AuthPlugin defaultAuthenticationPlugin_ = 0;
+    /// <summary>
+    /// Authentication plugin used in the managed MySQL cluster.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Mdb.Mysql.V1.Config.MysqlConfig8_0.Types.AuthPlugin DefaultAuthenticationPlugin {
       get { return defaultAuthenticationPlugin_; }
@@ -493,8 +496,17 @@ namespace Yandex.Cloud.Mdb.Mysql.V1.Config {
 
       internal enum AuthPlugin {
         [pbr::OriginalName("AUTH_PLUGIN_UNSPECIFIED")] Unspecified = 0,
+        /// <summary>
+        /// Using [Native Pluggable Authentication](https://dev.mysql.com/doc/refman/8.0/en/native-pluggable-authentication.html).
+        /// </summary>
         [pbr::OriginalName("MYSQL_NATIVE_PASSWORD")] MysqlNativePassword = 1,
+        /// <summary>
+        /// Using [Caching SHA-2 Pluggable Authentication](https://dev.mysql.com/doc/refman/8.0/en/caching-sha2-pluggable-authentication.html).
+        /// </summary>
         [pbr::OriginalName("CACHING_SHA2_PASSWORD")] CachingSha2Password = 2,
+        /// <summary>
+        /// Using [SHA-256 Pluggable Authentication](https://dev.mysql.com/doc/refman/8.0/en/sha256-pluggable-authentication.html).
+        /// </summary>
         [pbr::OriginalName("SHA256_PASSWORD")] Sha256Password = 3,
       }
 

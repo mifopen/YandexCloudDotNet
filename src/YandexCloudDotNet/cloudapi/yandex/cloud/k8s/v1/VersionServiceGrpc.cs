@@ -8,6 +8,9 @@
 using grpc = global::Grpc.Core;
 
 namespace Yandex.Cloud.K8S.V1 {
+  /// <summary>
+  /// A set of methods for managing Kubernetes versions.
+  /// </summary>
   internal static partial class VersionService
   {
     static readonly string __ServiceName = "yandex.cloud.k8s.v1.VersionService";
@@ -51,18 +54,46 @@ namespace Yandex.Cloud.K8S.V1 {
       {
       }
 
+      /// <summary>
+      /// Retrieves the list of versions in the specified release channel.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
       public virtual global::Yandex.Cloud.K8S.V1.ListVersionsResponse List(global::Yandex.Cloud.K8S.V1.ListVersionsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return List(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
+      /// <summary>
+      /// Retrieves the list of versions in the specified release channel.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
       public virtual global::Yandex.Cloud.K8S.V1.ListVersionsResponse List(global::Yandex.Cloud.K8S.V1.ListVersionsRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_List, null, options, request);
       }
+      /// <summary>
+      /// Retrieves the list of versions in the specified release channel.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
       public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.K8S.V1.ListVersionsResponse> ListAsync(global::Yandex.Cloud.K8S.V1.ListVersionsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return ListAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
+      /// <summary>
+      /// Retrieves the list of versions in the specified release channel.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
       public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.K8S.V1.ListVersionsResponse> ListAsync(global::Yandex.Cloud.K8S.V1.ListVersionsRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_List, null, options, request);

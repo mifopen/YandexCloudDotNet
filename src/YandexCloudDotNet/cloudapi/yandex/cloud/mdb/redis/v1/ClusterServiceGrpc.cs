@@ -31,6 +31,8 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
     static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Redis.V1.StartClusterFailoverRequest> __Marshaller_yandex_cloud_mdb_redis_v1_StartClusterFailoverRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Redis.V1.StartClusterFailoverRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Redis.V1.ListClusterLogsRequest> __Marshaller_yandex_cloud_mdb_redis_v1_ListClusterLogsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Redis.V1.ListClusterLogsRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Redis.V1.ListClusterLogsResponse> __Marshaller_yandex_cloud_mdb_redis_v1_ListClusterLogsResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Redis.V1.ListClusterLogsResponse.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Redis.V1.StreamClusterLogsRequest> __Marshaller_yandex_cloud_mdb_redis_v1_StreamClusterLogsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Redis.V1.StreamClusterLogsRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Redis.V1.LogRecord> __Marshaller_yandex_cloud_mdb_redis_v1_LogRecord = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Redis.V1.LogRecord.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Redis.V1.ListClusterOperationsRequest> __Marshaller_yandex_cloud_mdb_redis_v1_ListClusterOperationsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Redis.V1.ListClusterOperationsRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Redis.V1.ListClusterOperationsResponse> __Marshaller_yandex_cloud_mdb_redis_v1_ListClusterOperationsResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Redis.V1.ListClusterOperationsResponse.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Redis.V1.ListClusterBackupsRequest> __Marshaller_yandex_cloud_mdb_redis_v1_ListClusterBackupsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Redis.V1.ListClusterBackupsRequest.Parser.ParseFrom);
@@ -130,6 +132,13 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
         "ListLogs",
         __Marshaller_yandex_cloud_mdb_redis_v1_ListClusterLogsRequest,
         __Marshaller_yandex_cloud_mdb_redis_v1_ListClusterLogsResponse);
+
+    static readonly grpc::Method<global::Yandex.Cloud.Mdb.Redis.V1.StreamClusterLogsRequest, global::Yandex.Cloud.Mdb.Redis.V1.LogRecord> __Method_StreamLogs = new grpc::Method<global::Yandex.Cloud.Mdb.Redis.V1.StreamClusterLogsRequest, global::Yandex.Cloud.Mdb.Redis.V1.LogRecord>(
+        grpc::MethodType.ServerStreaming,
+        __ServiceName,
+        "StreamLogs",
+        __Marshaller_yandex_cloud_mdb_redis_v1_StreamClusterLogsRequest,
+        __Marshaller_yandex_cloud_mdb_redis_v1_LogRecord);
 
     static readonly grpc::Method<global::Yandex.Cloud.Mdb.Redis.V1.ListClusterOperationsRequest, global::Yandex.Cloud.Mdb.Redis.V1.ListClusterOperationsResponse> __Method_ListOperations = new grpc::Method<global::Yandex.Cloud.Mdb.Redis.V1.ListClusterOperationsRequest, global::Yandex.Cloud.Mdb.Redis.V1.ListClusterOperationsResponse>(
         grpc::MethodType.Unary,
@@ -769,6 +778,28 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
       public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Mdb.Redis.V1.ListClusterLogsResponse> ListLogsAsync(global::Yandex.Cloud.Mdb.Redis.V1.ListClusterLogsRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_ListLogs, null, options, request);
+      }
+      /// <summary>
+      /// Same as ListLogs but using server-side streaming. Also allows for 'tail -f' semantics.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncServerStreamingCall<global::Yandex.Cloud.Mdb.Redis.V1.LogRecord> StreamLogs(global::Yandex.Cloud.Mdb.Redis.V1.StreamClusterLogsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return StreamLogs(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Same as ListLogs but using server-side streaming. Also allows for 'tail -f' semantics.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncServerStreamingCall<global::Yandex.Cloud.Mdb.Redis.V1.LogRecord> StreamLogs(global::Yandex.Cloud.Mdb.Redis.V1.StreamClusterLogsRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncServerStreamingCall(__Method_StreamLogs, null, options, request);
       }
       /// <summary>
       /// Retrieves the list of operations for the specified cluster.

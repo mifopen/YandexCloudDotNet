@@ -25,6 +25,8 @@ namespace Yandex.Cloud.K8S.V1 {
     static readonly grpc::Marshaller<global::Yandex.Cloud.K8S.V1.DeleteNodeGroupRequest> __Marshaller_yandex_cloud_k8s_v1_DeleteNodeGroupRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.K8S.V1.DeleteNodeGroupRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.K8S.V1.ListNodeGroupOperationsRequest> __Marshaller_yandex_cloud_k8s_v1_ListNodeGroupOperationsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.K8S.V1.ListNodeGroupOperationsRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.K8S.V1.ListNodeGroupOperationsResponse> __Marshaller_yandex_cloud_k8s_v1_ListNodeGroupOperationsResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.K8S.V1.ListNodeGroupOperationsResponse.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Yandex.Cloud.K8S.V1.ListNodeGroupNodesRequest> __Marshaller_yandex_cloud_k8s_v1_ListNodeGroupNodesRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.K8S.V1.ListNodeGroupNodesRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Yandex.Cloud.K8S.V1.ListNodeGroupNodesResponse> __Marshaller_yandex_cloud_k8s_v1_ListNodeGroupNodesResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.K8S.V1.ListNodeGroupNodesResponse.Parser.ParseFrom);
 
     static readonly grpc::Method<global::Yandex.Cloud.K8S.V1.GetNodeGroupRequest, global::Yandex.Cloud.K8S.V1.NodeGroup> __Method_Get = new grpc::Method<global::Yandex.Cloud.K8S.V1.GetNodeGroupRequest, global::Yandex.Cloud.K8S.V1.NodeGroup>(
         grpc::MethodType.Unary,
@@ -67,6 +69,13 @@ namespace Yandex.Cloud.K8S.V1 {
         "ListOperations",
         __Marshaller_yandex_cloud_k8s_v1_ListNodeGroupOperationsRequest,
         __Marshaller_yandex_cloud_k8s_v1_ListNodeGroupOperationsResponse);
+
+    static readonly grpc::Method<global::Yandex.Cloud.K8S.V1.ListNodeGroupNodesRequest, global::Yandex.Cloud.K8S.V1.ListNodeGroupNodesResponse> __Method_ListNodes = new grpc::Method<global::Yandex.Cloud.K8S.V1.ListNodeGroupNodesRequest, global::Yandex.Cloud.K8S.V1.ListNodeGroupNodesResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "ListNodes",
+        __Marshaller_yandex_cloud_k8s_v1_ListNodeGroupNodesRequest,
+        __Marshaller_yandex_cloud_k8s_v1_ListNodeGroupNodesResponse);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -368,6 +377,50 @@ namespace Yandex.Cloud.K8S.V1 {
       public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.K8S.V1.ListNodeGroupOperationsResponse> ListOperationsAsync(global::Yandex.Cloud.K8S.V1.ListNodeGroupOperationsRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_ListOperations, null, options, request);
+      }
+      /// <summary>
+      /// Retrieves the list of nodes in the specified Kubernetes cluster.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.K8S.V1.ListNodeGroupNodesResponse ListNodes(global::Yandex.Cloud.K8S.V1.ListNodeGroupNodesRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return ListNodes(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Retrieves the list of nodes in the specified Kubernetes cluster.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.K8S.V1.ListNodeGroupNodesResponse ListNodes(global::Yandex.Cloud.K8S.V1.ListNodeGroupNodesRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_ListNodes, null, options, request);
+      }
+      /// <summary>
+      /// Retrieves the list of nodes in the specified Kubernetes cluster.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.K8S.V1.ListNodeGroupNodesResponse> ListNodesAsync(global::Yandex.Cloud.K8S.V1.ListNodeGroupNodesRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return ListNodesAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Retrieves the list of nodes in the specified Kubernetes cluster.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.K8S.V1.ListNodeGroupNodesResponse> ListNodesAsync(global::Yandex.Cloud.K8S.V1.ListNodeGroupNodesRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_ListNodes, null, options, request);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       protected override NodeGroupServiceClient NewInstance(ClientBaseConfiguration configuration)

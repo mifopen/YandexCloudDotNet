@@ -243,7 +243,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1.Config {
     public const int LogLevelFieldNumber = 1;
     private global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.LogLevel logLevel_ = 0;
     /// <summary>
-    /// Logging level for the ClickHouse cluster.
+    /// Logging level for the ClickHouse cluster. Possible values: TRACE, DEBUG, INFORMATION, WARNING, ERROR.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.LogLevel LogLevel {
@@ -364,7 +364,6 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1.Config {
     private long? uncompressedCacheSize_;
     /// <summary>
     /// Cache size (in bytes) for uncompressed data used by MergeTree tables.
-    /// See in-depth description in [ClickHouse documentation](https://clickhouse.yandex/docs/en/operations/server_settings/settings/#uncompressed_cache_size).
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long? UncompressedCacheSize {
@@ -381,7 +380,6 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1.Config {
     private long? markCacheSize_;
     /// <summary>
     /// Approximate size (in bytes) of the cache of "marks" used by MergeTree tables.
-    /// See details in [ClickHouse documentation](https://clickhouse.yandex/docs/en/operations/server_settings/settings/#mark_cache_size).
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long? MarkCacheSize {
@@ -398,7 +396,6 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1.Config {
     private long? maxTableSizeToDrop_;
     /// <summary>
     /// Maximum size of the table that can be deleted using a DROP query.
-    /// See in-depth description in [ClickHouse documentation](https://clickhouse.yandex/docs/en/operations/server_settings/settings/#max_table_size_to_drop).
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long? MaxTableSizeToDrop {
@@ -415,7 +412,6 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1.Config {
     private long? maxPartitionSizeToDrop_;
     /// <summary>
     /// Maximum size of the partition that can be deleted using a DROP query.
-    /// See in-depth description in [ClickHouse documentation](https://clickhouse.yandex/docs/en/operations/server_settings/settings/#max_partition_size_to_drop).
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long? MaxPartitionSizeToDrop {
@@ -448,7 +444,6 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1.Config {
     private string timezone_ = "";
     /// <summary>
     /// The server's time zone to be used in DateTime fields conversions. Specified as an IANA identifier.
-    /// See in-depth description in [ClickHouse documentation](https://clickhouse.yandex/docs/en/operations/server_settings/settings/#timezone).
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Timezone {
@@ -461,6 +456,9 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1.Config {
     /// <summary>Field number for the "geobase_uri" field.</summary>
     public const int GeobaseUriFieldNumber = 15;
     private string geobaseUri_ = "";
+    /// <summary>
+    /// Address of the archive with the user geobase in Object Storage.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string GeobaseUri {
       get { return geobaseUri_; }
@@ -854,7 +852,6 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1.Config {
         private long? replicatedDeduplicationWindow_;
         /// <summary>
         /// Number of blocks of hashes to keep in ZooKeeper.
-        /// See detailed description in [ClickHouse sources](https://github.com/yandex/ClickHouse/blob/v18.1.0-stable/dbms/src/Storages/MergeTree/MergeTreeSettings.h#L59).
         /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public long? ReplicatedDeduplicationWindow {
@@ -871,7 +868,6 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1.Config {
         private long? replicatedDeduplicationWindowSeconds_;
         /// <summary>
         /// Period of time to keep blocks of hashes for.
-        /// See detailed description in [ClickHouse sources](https://github.com/yandex/ClickHouse/blob/v18.1.0-stable/dbms/src/Storages/MergeTree/MergeTreeSettings.h#L64).
         /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public long? ReplicatedDeduplicationWindowSeconds {
@@ -886,6 +882,9 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1.Config {
         public const int PartsToDelayInsertFieldNumber = 3;
         private static readonly pb::FieldCodec<long?> _single_partsToDelayInsert_codec = pb::FieldCodec.ForStructWrapper<long>(26);
         private long? partsToDelayInsert_;
+        /// <summary>
+        /// If table contains at least that many active parts in single partition, artificially slow down insert into table.
+        /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public long? PartsToDelayInsert {
           get { return partsToDelayInsert_; }
@@ -899,6 +898,9 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1.Config {
         public const int PartsToThrowInsertFieldNumber = 4;
         private static readonly pb::FieldCodec<long?> _single_partsToThrowInsert_codec = pb::FieldCodec.ForStructWrapper<long>(34);
         private long? partsToThrowInsert_;
+        /// <summary>
+        /// If more than this number active parts in single partition, throw 'Too many parts ...' exception.
+        /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public long? PartsToThrowInsert {
           get { return partsToThrowInsert_; }
@@ -912,6 +914,9 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1.Config {
         public const int MaxReplicatedMergesInQueueFieldNumber = 5;
         private static readonly pb::FieldCodec<long?> _single_maxReplicatedMergesInQueue_codec = pb::FieldCodec.ForStructWrapper<long>(42);
         private long? maxReplicatedMergesInQueue_;
+        /// <summary>
+        /// How many tasks of merging and mutating parts are allowed simultaneously in ReplicatedMergeTree queue.
+        /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public long? MaxReplicatedMergesInQueue {
           get { return maxReplicatedMergesInQueue_; }
@@ -925,6 +930,10 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1.Config {
         public const int NumberOfFreeEntriesInPoolToLowerMaxSizeOfMergeFieldNumber = 6;
         private static readonly pb::FieldCodec<long?> _single_numberOfFreeEntriesInPoolToLowerMaxSizeOfMerge_codec = pb::FieldCodec.ForStructWrapper<long>(50);
         private long? numberOfFreeEntriesInPoolToLowerMaxSizeOfMerge_;
+        /// <summary>
+        /// If there is less than specified number of free entries in background pool (or replicated queue), start to lower
+        /// maximum size of merge to process.
+        /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public long? NumberOfFreeEntriesInPoolToLowerMaxSizeOfMerge {
           get { return numberOfFreeEntriesInPoolToLowerMaxSizeOfMerge_; }
@@ -938,6 +947,10 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1.Config {
         public const int MaxBytesToMergeAtMinSpaceInPoolFieldNumber = 7;
         private static readonly pb::FieldCodec<long?> _single_maxBytesToMergeAtMinSpaceInPool_codec = pb::FieldCodec.ForStructWrapper<long>(58);
         private long? maxBytesToMergeAtMinSpaceInPool_;
+        /// <summary>
+        /// Maximum in total size of parts to merge, when there are minimum free threads in background pool (or entries
+        /// in replication queue).
+        /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public long? MaxBytesToMergeAtMinSpaceInPool {
           get { return maxBytesToMergeAtMinSpaceInPool_; }
@@ -3432,8 +3445,8 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1.Config {
             public const int SslModeFieldNumber = 8;
             private global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Types.PostgresqlSource.Types.SslMode sslMode_ = 0;
             /// <summary>
-            /// Mode of SSL TCP/IP connection to the PostgreSQL host. There are six modes: `disable`, `allow`, `prefer` (default), `require`, `verify-ca`, `verify-full`.
-            /// For more details, see [PostgreSQL documentation](https://www.postgresql.org/docs/current/libpq-connect.html#LIBPQ-PARAMKEYWORDS).
+            /// Mode of SSL TCP/IP connection to the PostgreSQL host.
+            /// For more details, see [PostgreSQL documentation](https://www.postgresql.org/docs/current/libpq-ssl.html).
             /// </summary>
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
             public global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Types.PostgresqlSource.Types.SslMode SslMode {
@@ -3636,10 +3649,25 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1.Config {
             public static partial class Types {
               internal enum SslMode {
                 [pbr::OriginalName("SSL_MODE_UNSPECIFIED")] Unspecified = 0,
+                /// <summary>
+                /// Only try a non-SSL connection.
+                /// </summary>
                 [pbr::OriginalName("DISABLE")] Disable = 1,
+                /// <summary>
+                /// First try a non-SSL connection; if that fails, try an SSL connection.
+                /// </summary>
                 [pbr::OriginalName("ALLOW")] Allow = 2,
+                /// <summary>
+                /// First try an SSL connection; if that fails, try a non-SSL connection.
+                /// </summary>
                 [pbr::OriginalName("PREFER")] Prefer = 3,
+                /// <summary>
+                /// Only try an SSL connection, and verify that the server certificate is issued by a trusted certificate authority (CA).
+                /// </summary>
                 [pbr::OriginalName("VERIFY_CA")] VerifyCa = 4,
+                /// <summary>
+                /// Only try an SSL connection, verify that the server certificate is issued by a trusted CA and that the requested server host name matches that in the certificate.
+                /// </summary>
                 [pbr::OriginalName("VERIFY_FULL")] VerifyFull = 5,
               }
 

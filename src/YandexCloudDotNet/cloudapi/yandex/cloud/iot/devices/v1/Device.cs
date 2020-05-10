@@ -53,6 +53,9 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
 
   }
   #region Messages
+  /// <summary>
+  /// A device. For more information, see [Device](/docs/iot-core/concepts/index#device).
+  /// </summary>
   internal sealed partial class Device : pb::IMessage<Device> {
     private static readonly pb::MessageParser<Device> _parser = new pb::MessageParser<Device>(() => new Device());
     private pb::UnknownFieldSet _unknownFields;
@@ -95,6 +98,9 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     /// <summary>Field number for the "id" field.</summary>
     public const int IdFieldNumber = 1;
     private string id_ = "";
+    /// <summary>
+    /// ID of the device.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Id {
       get { return id_; }
@@ -106,6 +112,9 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     /// <summary>Field number for the "registry_id" field.</summary>
     public const int RegistryIdFieldNumber = 2;
     private string registryId_ = "";
+    /// <summary>
+    /// ID of the registry that the device belongs to.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string RegistryId {
       get { return registryId_; }
@@ -117,6 +126,9 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     /// <summary>Field number for the "created_at" field.</summary>
     public const int CreatedAtFieldNumber = 3;
     private global::Google.Protobuf.WellKnownTypes.Timestamp createdAt_;
+    /// <summary>
+    /// Creation timestamp.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Google.Protobuf.WellKnownTypes.Timestamp CreatedAt {
       get { return createdAt_; }
@@ -128,6 +140,9 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     /// <summary>Field number for the "name" field.</summary>
     public const int NameFieldNumber = 4;
     private string name_ = "";
+    /// <summary>
+    /// Name of the device. The name is unique within the registry.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Name {
       get { return name_; }
@@ -139,6 +154,9 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     /// <summary>Field number for the "description" field.</summary>
     public const int DescriptionFieldNumber = 5;
     private string description_ = "";
+    /// <summary>
+    /// Description of the device. 0-256 characters long.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Description {
       get { return description_; }
@@ -153,7 +171,9 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
         = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 50);
     private readonly pbc::MapField<string, string> topicAliases_ = new pbc::MapField<string, string>();
     /// <summary>
-    /// map from alias to canonical topic name prefix, e.g. my/custom/alias -> $device/abcdef/events
+    /// Alias of a device topic.
+    ///
+    /// Alias is an alternate name of a device topic assigned by the user. Map alias to canonical topic name prefix, e.g. `my/custom/alias` match to `$device/abcdef/events`.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::MapField<string, string> TopicAliases {
@@ -323,6 +343,9 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
 
   }
 
+  /// <summary>
+  /// A device certificate. For more information, see [Managing device certificates](/docs/iot-core/operations/certificates/device-certificates).
+  /// </summary>
   internal sealed partial class DeviceCertificate : pb::IMessage<DeviceCertificate> {
     private static readonly pb::MessageParser<DeviceCertificate> _parser = new pb::MessageParser<DeviceCertificate>(() => new DeviceCertificate());
     private pb::UnknownFieldSet _unknownFields;
@@ -363,6 +386,9 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     /// <summary>Field number for the "device_id" field.</summary>
     public const int DeviceIdFieldNumber = 1;
     private string deviceId_ = "";
+    /// <summary>
+    /// ID of the device that the certificate belongs to.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string DeviceId {
       get { return deviceId_; }
@@ -374,6 +400,9 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     /// <summary>Field number for the "fingerprint" field.</summary>
     public const int FingerprintFieldNumber = 2;
     private string fingerprint_ = "";
+    /// <summary>
+    /// SHA256 hash of the certificate.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Fingerprint {
       get { return fingerprint_; }
@@ -385,6 +414,9 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     /// <summary>Field number for the "certificate_data" field.</summary>
     public const int CertificateDataFieldNumber = 3;
     private string certificateData_ = "";
+    /// <summary>
+    /// Public part of the certificate.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string CertificateData {
       get { return certificateData_; }
@@ -396,6 +428,9 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     /// <summary>Field number for the "created_at" field.</summary>
     public const int CreatedAtFieldNumber = 4;
     private global::Google.Protobuf.WellKnownTypes.Timestamp createdAt_;
+    /// <summary>
+    /// Creation timestamp.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Google.Protobuf.WellKnownTypes.Timestamp CreatedAt {
       get { return createdAt_; }
@@ -542,6 +577,9 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
 
   }
 
+  /// <summary>
+  /// A device password.
+  /// </summary>
   internal sealed partial class DevicePassword : pb::IMessage<DevicePassword> {
     private static readonly pb::MessageParser<DevicePassword> _parser = new pb::MessageParser<DevicePassword>(() => new DevicePassword());
     private pb::UnknownFieldSet _unknownFields;
@@ -581,6 +619,9 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     /// <summary>Field number for the "device_id" field.</summary>
     public const int DeviceIdFieldNumber = 1;
     private string deviceId_ = "";
+    /// <summary>
+    /// ID of the device that the password belongs to.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string DeviceId {
       get { return deviceId_; }
@@ -592,6 +633,9 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     /// <summary>Field number for the "id" field.</summary>
     public const int IdFieldNumber = 2;
     private string id_ = "";
+    /// <summary>
+    /// ID of the password.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Id {
       get { return id_; }
@@ -603,6 +647,9 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     /// <summary>Field number for the "created_at" field.</summary>
     public const int CreatedAtFieldNumber = 3;
     private global::Google.Protobuf.WellKnownTypes.Timestamp createdAt_;
+    /// <summary>
+    /// Creation timestamp.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Google.Protobuf.WellKnownTypes.Timestamp CreatedAt {
       get { return createdAt_; }

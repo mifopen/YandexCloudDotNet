@@ -27,22 +27,23 @@ namespace Yandex.Cloud.Dataproc.V1 {
             "Cil5YW5kZXgvY2xvdWQvZGF0YXByb2MvdjEvc3ViY2x1c3Rlci5wcm90bxIY",
             "eWFuZGV4LmNsb3VkLmRhdGFwcm9jLnYxGh9nb29nbGUvcHJvdG9idWYvdGlt",
             "ZXN0YW1wLnByb3RvGiV5YW5kZXgvY2xvdWQvZGF0YXByb2MvdjEvY29tbW9u",
-            "LnByb3RvIvgBCgpTdWJjbHVzdGVyEgoKAmlkGAEgASgJEhIKCmNsdXN0ZXJf",
-            "aWQYAiABKAkSLgoKY3JlYXRlZF9hdBgDIAEoCzIaLmdvb2dsZS5wcm90b2J1",
-            "Zi5UaW1lc3RhbXASDAoEbmFtZRgEIAEoCRIsCgRyb2xlGAUgASgOMh4ueWFu",
-            "ZGV4LmNsb3VkLmRhdGFwcm9jLnYxLlJvbGUSNgoJcmVzb3VyY2VzGAYgASgL",
-            "MiMueWFuZGV4LmNsb3VkLmRhdGFwcm9jLnYxLlJlc291cmNlcxIRCglzdWJu",
-            "ZXRfaWQYByABKAkSEwoLaG9zdHNfY291bnQYCCABKAMiqAEKBEhvc3QSDAoE",
-            "bmFtZRgBIAEoCRIVCg1zdWJjbHVzdGVyX2lkGAIgASgJEjAKBmhlYWx0aBgD",
-            "IAEoDjIgLnlhbmRleC5jbG91ZC5kYXRhcHJvYy52MS5IZWFsdGgSGwoTY29t",
-            "cHV0ZV9pbnN0YW5jZV9pZBgEIAEoCRIsCgRyb2xlGAUgASgOMh4ueWFuZGV4",
-            "LmNsb3VkLmRhdGFwcm9jLnYxLlJvbGUqSwoEUm9sZRIUChBST0xFX1VOU1BF",
-            "Q0lGSUVEEAASDgoKTUFTVEVSTk9ERRABEgwKCERBVEFOT0RFEAISDwoLQ09N",
-            "UFVURU5PREUQA0JlChx5YW5kZXguY2xvdWQuYXBpLmRhdGFwcm9jLnYxWkVn",
-            "aXRodWIuY29tL3lhbmRleC1jbG91ZC9nby1nZW5wcm90by95YW5kZXgvY2xv",
-            "dWQvZGF0YXByb2MvdjE7ZGF0YXByb2NiBnByb3RvMw=="));
+            "LnByb3RvGh15YW5kZXgvY2xvdWQvdmFsaWRhdGlvbi5wcm90byKCAgoKU3Vi",
+            "Y2x1c3RlchIKCgJpZBgBIAEoCRISCgpjbHVzdGVyX2lkGAIgASgJEi4KCmNy",
+            "ZWF0ZWRfYXQYAyABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wEhYK",
+            "BG5hbWUYBCABKAlCCIrIMQQxLTYzEiwKBHJvbGUYBSABKA4yHi55YW5kZXgu",
+            "Y2xvdWQuZGF0YXByb2MudjEuUm9sZRI2CglyZXNvdXJjZXMYBiABKAsyIy55",
+            "YW5kZXguY2xvdWQuZGF0YXByb2MudjEuUmVzb3VyY2VzEhEKCXN1Ym5ldF9p",
+            "ZBgHIAEoCRITCgtob3N0c19jb3VudBgIIAEoAyKoAQoESG9zdBIMCgRuYW1l",
+            "GAEgASgJEhUKDXN1YmNsdXN0ZXJfaWQYAiABKAkSMAoGaGVhbHRoGAMgASgO",
+            "MiAueWFuZGV4LmNsb3VkLmRhdGFwcm9jLnYxLkhlYWx0aBIbChNjb21wdXRl",
+            "X2luc3RhbmNlX2lkGAQgASgJEiwKBHJvbGUYBSABKA4yHi55YW5kZXguY2xv",
+            "dWQuZGF0YXByb2MudjEuUm9sZSpLCgRSb2xlEhQKEFJPTEVfVU5TUEVDSUZJ",
+            "RUQQABIOCgpNQVNURVJOT0RFEAESDAoIREFUQU5PREUQAhIPCgtDT01QVVRF",
+            "Tk9ERRADQmUKHHlhbmRleC5jbG91ZC5hcGkuZGF0YXByb2MudjFaRWdpdGh1",
+            "Yi5jb20veWFuZGV4LWNsb3VkL2dvLWdlbnByb3RvL3lhbmRleC9jbG91ZC9k",
+            "YXRhcHJvYy92MTtkYXRhcHJvY2IGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Yandex.Cloud.Dataproc.V1.CommonReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Yandex.Cloud.Dataproc.V1.CommonReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Yandex.Cloud.Dataproc.V1.Role), }, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.Subcluster), global::Yandex.Cloud.Dataproc.V1.Subcluster.Parser, new[]{ "Id", "ClusterId", "CreatedAt", "Name", "Role", "Resources", "SubnetId", "HostsCount" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.Host), global::Yandex.Cloud.Dataproc.V1.Host.Parser, new[]{ "Name", "SubclusterId", "Health", "ComputeInstanceId", "Role" }, null, null, null)
@@ -53,33 +54,36 @@ namespace Yandex.Cloud.Dataproc.V1 {
   }
   #region Enums
   internal enum Role {
-    /// <summary>
-    /// Host have undefined role
-    /// </summary>
     [pbr::OriginalName("ROLE_UNSPECIFIED")] Unspecified = 0,
     /// <summary>
-    /// Masternode includes these services (depends on given component list)
-    /// * HDFS Namenode, Secondary Namenode,
-    /// * YARN ResorceManager, Timeline Server,
-    /// * Zookeeper,
-    /// * Hive Server, Hive Metastore, HCatalog
-    /// * HBase Master,
-    /// * Spark History Server,
+    /// The subcluster fulfills the master role.
+    ///
+    /// Master can run the following services, depending on the requested components:
+    /// * HDFS: Namenode, Secondary Namenode
+    /// * YARN: ResourceManager, Timeline Server
+    /// * HBase Master
+    /// * Hive: Server, Metastore, HCatalog
+    /// * Spark History Server
     /// * Zeppelin
+    /// * ZooKeeper
     /// </summary>
     [pbr::OriginalName("MASTERNODE")] Masternode = 1,
     /// <summary>
-    /// Datanode includes these services (depends on given component list)
-    /// * HDFS Datanode,
-    /// * YARN NodeManager,
-    /// * HBase RegionServer,
-    /// * Spark libraries.
+    /// The subcluster is a DATANODE in a Data Proc cluster.
+    ///
+    /// DATANODE can run the following services, depending on the requested components:
+    /// * HDFS DataNode
+    /// * YARN NodeManager
+    /// * HBase RegionServer
+    /// * Spark libraries
     /// </summary>
     [pbr::OriginalName("DATANODE")] Datanode = 2,
     /// <summary>
-    /// Computenodes includes these services (depends on given component list)
-    /// * YARN NodeManager.
-    /// * Spark libraries.
+    /// The subcluster is a COMPUTENODE in a Data Proc cluster.
+    ///
+    /// COMPUTENODE can run the following services, depending on the requested components:
+    /// * YARN NodeManager
+    /// * Spark libraries
     /// </summary>
     [pbr::OriginalName("COMPUTENODE")] Computenode = 3,
   }
@@ -88,8 +92,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
 
   #region Messages
   /// <summary>
-  /// A Dataproc Subcluster resource. For more information, see
-  /// the [Concepts](/docs/data-proc/concepts) section of the documentation.
+  /// A Data Proc subcluster. For details about the concept, see [documentation](/docs/data-proc/concepts/).
   /// </summary>
   internal sealed partial class Subcluster : pb::IMessage<Subcluster> {
     private static readonly pb::MessageParser<Subcluster> _parser = new pb::MessageParser<Subcluster>(() => new Subcluster());
@@ -136,8 +139,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
     public const int IdFieldNumber = 1;
     private string id_ = "";
     /// <summary>
-    /// ID of the Dataproc subcluster.
-    /// This ID is assigned by Dataproc in the process of creating Dataproc subcluster.
+    /// ID of the subcluster. Generated at creation time.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Id {
@@ -151,8 +153,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
     public const int ClusterIdFieldNumber = 2;
     private string clusterId_ = "";
     /// <summary>
-    /// ID of the Dataproc cluster.
-    /// This ID is assigned by Dataproc in the process of creating Dataproc cluster.
+    /// ID of the Data Proc cluster that the subcluster belongs to.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ClusterId {
@@ -166,7 +167,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
     public const int CreatedAtFieldNumber = 3;
     private global::Google.Protobuf.WellKnownTypes.Timestamp createdAt_;
     /// <summary>
-    /// Creation timestamp in [RFC3339](https://www.ietf.org/rfc/rfc3339.txt) text format.
+    /// Creation timestamp.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Google.Protobuf.WellKnownTypes.Timestamp CreatedAt {
@@ -180,8 +181,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
     public const int NameFieldNumber = 4;
     private string name_ = "";
     /// <summary>
-    /// Name of the Dataproc subcluster.
-    /// The name is unique within the folder. 1-64 characters long.
+    /// Name of the subcluster. The name is unique within the cluster.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Name {
@@ -195,7 +195,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
     public const int RoleFieldNumber = 5;
     private global::Yandex.Cloud.Dataproc.V1.Role role_ = 0;
     /// <summary>
-    /// Role of all hosts in subcluster.
+    /// Role that is fulfilled by hosts of the subcluster.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Dataproc.V1.Role Role {
@@ -209,7 +209,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
     public const int ResourcesFieldNumber = 6;
     private global::Yandex.Cloud.Dataproc.V1.Resources resources_;
     /// <summary>
-    /// Resource configuration for hosts in subcluster.
+    /// Resources allocated for each host in the subcluster.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Dataproc.V1.Resources Resources {
@@ -223,7 +223,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
     public const int SubnetIdFieldNumber = 7;
     private string subnetId_ = "";
     /// <summary>
-    /// ID of using compute subnet for hosts in subcluster.
+    /// ID of the VPC subnet used for hosts in the subcluster.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string SubnetId {
@@ -237,7 +237,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
     public const int HostsCountFieldNumber = 8;
     private long hostsCount_;
     /// <summary>
-    /// Number of hosts in subcluster.
+    /// Number of hosts in the subcluster.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long HostsCount {
@@ -456,8 +456,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
   }
 
   /// <summary>
-  /// A Dataproc Host resource. For more information, see
-  /// the [Concepts](/docs/data-proc/concepts) section of the documentation.
+  /// A Data Proc host. For details about the concept, see [documentation](/docs/data-proc/concepts/).
   /// </summary>
   internal sealed partial class Host : pb::IMessage<Host> {
     private static readonly pb::MessageParser<Host> _parser = new pb::MessageParser<Host>(() => new Host());
@@ -501,10 +500,9 @@ namespace Yandex.Cloud.Dataproc.V1 {
     public const int NameFieldNumber = 1;
     private string name_ = "";
     /// <summary>
-    /// Name of the Dataproc host. The host name is assigned by Dataproc at creation time, and cannot be changed.
-    /// 1-63 characters long.
-    ///
-    /// The name is unique across all existing Dataproc hosts in Yandex.Cloud, as it defines the FQDN of the host.
+    /// Name of the Data Proc host. The host name is assigned by Data Proc at creation time
+    /// and cannot be changed. The name is generated to be unique across all existing Data Proc
+    /// hosts in Yandex.Cloud, as it defines the FQDN of the host.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Name {
@@ -518,7 +516,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
     public const int SubclusterIdFieldNumber = 2;
     private string subclusterId_ = "";
     /// <summary>
-    /// ID of Dataproc subcluster host. The ID is assigned by Dataproc at creation time.
+    /// ID of the Data Proc subcluster that the host belongs to.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string SubclusterId {
@@ -532,7 +530,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
     public const int HealthFieldNumber = 3;
     private global::Yandex.Cloud.Dataproc.V1.Health health_ = 0;
     /// <summary>
-    /// Status code of the aggregated health of the host.
+    /// Host status code.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Dataproc.V1.Health Health {
@@ -546,7 +544,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
     public const int ComputeInstanceIdFieldNumber = 4;
     private string computeInstanceId_ = "";
     /// <summary>
-    /// ID of compute instance appropriated to the Dataproc host.
+    /// ID of the Compute virtual machine that is used as the Data Proc host.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ComputeInstanceId {
@@ -560,7 +558,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
     public const int RoleFieldNumber = 5;
     private global::Yandex.Cloud.Dataproc.V1.Role role_ = 0;
     /// <summary>
-    /// Role of current host in cluster.
+    /// Role of the host in the cluster.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Dataproc.V1.Role Role {

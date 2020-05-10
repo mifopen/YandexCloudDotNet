@@ -28,37 +28,38 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
             "b24ucHJvdG8SJHlhbmRleC5jbG91ZC5zZXJ2ZXJsZXNzLmZ1bmN0aW9ucy52",
             "MRoeZ29vZ2xlL3Byb3RvYnVmL2R1cmF0aW9uLnByb3RvGh9nb29nbGUvcHJv",
             "dG9idWYvdGltZXN0YW1wLnByb3RvGh15YW5kZXgvY2xvdWQvdmFsaWRhdGlv",
-            "bi5wcm90byLCAwoIRnVuY3Rpb24SCgoCaWQYASABKAkSEQoJZm9sZGVyX2lk",
+            "bi5wcm90byLhAwoIRnVuY3Rpb24SCgoCaWQYASABKAkSEQoJZm9sZGVyX2lk",
             "GAIgASgJEi4KCmNyZWF0ZWRfYXQYAyABKAsyGi5nb29nbGUucHJvdG9idWYu",
-            "VGltZXN0YW1wEgwKBG5hbWUYBCABKAkSEwoLZGVzY3JpcHRpb24YBSABKAkS",
-            "SgoGbGFiZWxzGAYgAygLMjoueWFuZGV4LmNsb3VkLnNlcnZlcmxlc3MuZnVu",
-            "Y3Rpb25zLnYxLkZ1bmN0aW9uLkxhYmVsc0VudHJ5EhQKDGxvZ19ncm91cF9p",
-            "ZBgHIAEoCRIXCg9odHRwX2ludm9rZV91cmwYCCABKAkSRQoGc3RhdHVzGAkg",
-            "ASgOMjUueWFuZGV4LmNsb3VkLnNlcnZlcmxlc3MuZnVuY3Rpb25zLnYxLkZ1",
-            "bmN0aW9uLlN0YXR1cxotCgtMYWJlbHNFbnRyeRILCgNrZXkYASABKAkSDQoF",
-            "dmFsdWUYAiABKAk6AjgBIlMKBlN0YXR1cxIWChJTVEFUVVNfVU5TUEVDSUZJ",
-            "RUQQABIMCghDUkVBVElORxABEgoKBkFDVElWRRACEgwKCERFTEVUSU5HEAMS",
-            "CQoFRVJST1IQBCLzBAoHVmVyc2lvbhIKCgJpZBgBIAEoCRITCgtmdW5jdGlv",
-            "bl9pZBgCIAEoCRITCgtkZXNjcmlwdGlvbhgDIAEoCRIuCgpjcmVhdGVkX2F0",
-            "GAUgASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcBIPCgdydW50aW1l",
-            "GAYgASgJEhIKCmVudHJ5cG9pbnQYByABKAkSQgoJcmVzb3VyY2VzGAggASgL",
-            "Mi8ueWFuZGV4LmNsb3VkLnNlcnZlcmxlc3MuZnVuY3Rpb25zLnYxLlJlc291",
-            "cmNlcxI0ChFleGVjdXRpb25fdGltZW91dBgJIAEoCzIZLmdvb2dsZS5wcm90",
-            "b2J1Zi5EdXJhdGlvbhIaChJzZXJ2aWNlX2FjY291bnRfaWQYCiABKAkSEgoK",
-            "aW1hZ2Vfc2l6ZRgMIAEoAxJECgZzdGF0dXMYDSABKA4yNC55YW5kZXguY2xv",
-            "dWQuc2VydmVybGVzcy5mdW5jdGlvbnMudjEuVmVyc2lvbi5TdGF0dXMSDAoE",
-            "dGFncxgOIAMoCRIUCgxsb2dfZ3JvdXBfaWQYDyABKAkSUwoLZW52aXJvbm1l",
-            "bnQYECADKAsyPi55YW5kZXguY2xvdWQuc2VydmVybGVzcy5mdW5jdGlvbnMu",
-            "djEuVmVyc2lvbi5FbnZpcm9ubWVudEVudHJ5GjIKEEVudmlyb25tZW50RW50",
-            "cnkSCwoDa2V5GAEgASgJEg0KBXZhbHVlGAIgASgJOgI4ASI6CgZTdGF0dXMS",
-            "FgoSU1RBVFVTX1VOU1BFQ0lGSUVEEAASDAoIQ1JFQVRJTkcQARIKCgZBQ1RJ",
-            "VkUQAkoECAsQDCI0CglSZXNvdXJjZXMSJwoGbWVtb3J5GAEgASgDQhf6xzET",
-            "MzM1NTQ0MzItMTA3Mzc0MTgyNCJPCgdQYWNrYWdlEhkKC2J1Y2tldF9uYW1l",
-            "GAEgASgJQgToxzEBEhkKC29iamVjdF9uYW1lGAIgASgJQgToxzEBEg4KBnNo",
-            "YTI1NhgDIAEoCUJ+Cih5YW5kZXguY2xvdWQuYXBpLnNlcnZlcmxlc3MuZnVu",
-            "Y3Rpb25zLnYxWlJnaXRodWIuY29tL3lhbmRleC1jbG91ZC9nby1nZW5wcm90",
-            "by95YW5kZXgvY2xvdWQvc2VydmVybGVzcy9mdW5jdGlvbnMvdjE7ZnVuY3Rp",
-            "b25zYgZwcm90bzM="));
+            "VGltZXN0YW1wEhYKBG5hbWUYBCABKAlCCIrIMQQzLTYzEh4KC2Rlc2NyaXB0",
+            "aW9uGAUgASgJQgmKyDEFMC0yNTYSVAoGbGFiZWxzGAYgAygLMjoueWFuZGV4",
+            "LmNsb3VkLnNlcnZlcmxlc3MuZnVuY3Rpb25zLnYxLkZ1bmN0aW9uLkxhYmVs",
+            "c0VudHJ5QgiCyDEEPD02NBIUCgxsb2dfZ3JvdXBfaWQYByABKAkSFwoPaHR0",
+            "cF9pbnZva2VfdXJsGAggASgJEkUKBnN0YXR1cxgJIAEoDjI1LnlhbmRleC5j",
+            "bG91ZC5zZXJ2ZXJsZXNzLmZ1bmN0aW9ucy52MS5GdW5jdGlvbi5TdGF0dXMa",
+            "LQoLTGFiZWxzRW50cnkSCwoDa2V5GAEgASgJEg0KBXZhbHVlGAIgASgJOgI4",
+            "ASJTCgZTdGF0dXMSFgoSU1RBVFVTX1VOU1BFQ0lGSUVEEAASDAoIQ1JFQVRJ",
+            "TkcQARIKCgZBQ1RJVkUQAhIMCghERUxFVElORxADEgkKBUVSUk9SEAQi/gQK",
+            "B1ZlcnNpb24SCgoCaWQYASABKAkSEwoLZnVuY3Rpb25faWQYAiABKAkSHgoL",
+            "ZGVzY3JpcHRpb24YAyABKAlCCYrIMQUwLTI1NhIuCgpjcmVhdGVkX2F0GAUg",
+            "ASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcBIPCgdydW50aW1lGAYg",
+            "ASgJEhIKCmVudHJ5cG9pbnQYByABKAkSQgoJcmVzb3VyY2VzGAggASgLMi8u",
+            "eWFuZGV4LmNsb3VkLnNlcnZlcmxlc3MuZnVuY3Rpb25zLnYxLlJlc291cmNl",
+            "cxI0ChFleGVjdXRpb25fdGltZW91dBgJIAEoCzIZLmdvb2dsZS5wcm90b2J1",
+            "Zi5EdXJhdGlvbhIaChJzZXJ2aWNlX2FjY291bnRfaWQYCiABKAkSEgoKaW1h",
+            "Z2Vfc2l6ZRgMIAEoAxJECgZzdGF0dXMYDSABKA4yNC55YW5kZXguY2xvdWQu",
+            "c2VydmVybGVzcy5mdW5jdGlvbnMudjEuVmVyc2lvbi5TdGF0dXMSDAoEdGFn",
+            "cxgOIAMoCRIUCgxsb2dfZ3JvdXBfaWQYDyABKAkSUwoLZW52aXJvbm1lbnQY",
+            "ECADKAsyPi55YW5kZXguY2xvdWQuc2VydmVybGVzcy5mdW5jdGlvbnMudjEu",
+            "VmVyc2lvbi5FbnZpcm9ubWVudEVudHJ5GjIKEEVudmlyb25tZW50RW50cnkS",
+            "CwoDa2V5GAEgASgJEg0KBXZhbHVlGAIgASgJOgI4ASI6CgZTdGF0dXMSFgoS",
+            "U1RBVFVTX1VOU1BFQ0lGSUVEEAASDAoIQ1JFQVRJTkcQARIKCgZBQ1RJVkUQ",
+            "AkoECAsQDCI0CglSZXNvdXJjZXMSJwoGbWVtb3J5GAEgASgDQhf6xzETMzM1",
+            "NTQ0MzItMTA3Mzc0MTgyNCJPCgdQYWNrYWdlEhkKC2J1Y2tldF9uYW1lGAEg",
+            "ASgJQgToxzEBEhkKC29iamVjdF9uYW1lGAIgASgJQgToxzEBEg4KBnNoYTI1",
+            "NhgDIAEoCUJ+Cih5YW5kZXguY2xvdWQuYXBpLnNlcnZlcmxlc3MuZnVuY3Rp",
+            "b25zLnYxWlJnaXRodWIuY29tL3lhbmRleC1jbG91ZC9nby1nZW5wcm90by95",
+            "YW5kZXgvY2xvdWQvc2VydmVybGVzcy9mdW5jdGlvbnMvdjE7ZnVuY3Rpb25z",
+            "YgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.DurationReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
@@ -72,6 +73,9 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
 
   }
   #region Messages
+  /// <summary>
+  /// A serverless function. For details about the concept, see [Functions](/docs/functions/concepts/function).
+  /// </summary>
   internal sealed partial class Function : pb::IMessage<Function> {
     private static readonly pb::MessageParser<Function> _parser = new pb::MessageParser<Function>(() => new Function());
     private pb::UnknownFieldSet _unknownFields;
@@ -117,6 +121,9 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "id" field.</summary>
     public const int IdFieldNumber = 1;
     private string id_ = "";
+    /// <summary>
+    /// ID of the function. Generated at creation time.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Id {
       get { return id_; }
@@ -128,6 +135,9 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "folder_id" field.</summary>
     public const int FolderIdFieldNumber = 2;
     private string folderId_ = "";
+    /// <summary>
+    /// ID of the folder that the function belongs to.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string FolderId {
       get { return folderId_; }
@@ -139,6 +149,9 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "created_at" field.</summary>
     public const int CreatedAtFieldNumber = 3;
     private global::Google.Protobuf.WellKnownTypes.Timestamp createdAt_;
+    /// <summary>
+    /// Creation timestamp for the function.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Google.Protobuf.WellKnownTypes.Timestamp CreatedAt {
       get { return createdAt_; }
@@ -150,6 +163,9 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "name" field.</summary>
     public const int NameFieldNumber = 4;
     private string name_ = "";
+    /// <summary>
+    /// Name of the function. The name is unique within the folder.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Name {
       get { return name_; }
@@ -161,6 +177,9 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "description" field.</summary>
     public const int DescriptionFieldNumber = 5;
     private string description_ = "";
+    /// <summary>
+    /// Description of the function.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Description {
       get { return description_; }
@@ -174,6 +193,9 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     private static readonly pbc::MapField<string, string>.Codec _map_labels_codec
         = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 50);
     private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
+    /// <summary>
+    /// Function labels as `key:value` pairs.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::MapField<string, string> Labels {
       get { return labels_; }
@@ -182,6 +204,9 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "log_group_id" field.</summary>
     public const int LogGroupIdFieldNumber = 7;
     private string logGroupId_ = "";
+    /// <summary>
+    /// ID of the log group for the function.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string LogGroupId {
       get { return logGroupId_; }
@@ -193,6 +218,9 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "http_invoke_url" field.</summary>
     public const int HttpInvokeUrlFieldNumber = 8;
     private string httpInvokeUrl_ = "";
+    /// <summary>
+    /// URL that needs to be requested to invoke the function.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string HttpInvokeUrl {
       get { return httpInvokeUrl_; }
@@ -204,6 +232,9 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "status" field.</summary>
     public const int StatusFieldNumber = 9;
     private global::Yandex.Cloud.Serverless.Functions.V1.Function.Types.Status status_ = 0;
+    /// <summary>
+    /// Status of the function.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Serverless.Functions.V1.Function.Types.Status Status {
       get { return status_; }
@@ -427,9 +458,21 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     public static partial class Types {
       internal enum Status {
         [pbr::OriginalName("STATUS_UNSPECIFIED")] Unspecified = 0,
+        /// <summary>
+        /// Function is being created.
+        /// </summary>
         [pbr::OriginalName("CREATING")] Creating = 1,
+        /// <summary>
+        /// Function is ready to be invoked.
+        /// </summary>
         [pbr::OriginalName("ACTIVE")] Active = 2,
+        /// <summary>
+        /// Function is being deleted.
+        /// </summary>
         [pbr::OriginalName("DELETING")] Deleting = 3,
+        /// <summary>
+        /// Function failed.
+        /// </summary>
         [pbr::OriginalName("ERROR")] Error = 4,
       }
 
@@ -438,6 +481,9 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
 
   }
 
+  /// <summary>
+  /// Version of a function. For details about the concept, see [Function versions](/docs/functions/concepts/function#version).
+  /// </summary>
   internal sealed partial class Version : pb::IMessage<Version> {
     private static readonly pb::MessageParser<Version> _parser = new pb::MessageParser<Version>(() => new Version());
     private pb::UnknownFieldSet _unknownFields;
@@ -488,6 +534,9 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "id" field.</summary>
     public const int IdFieldNumber = 1;
     private string id_ = "";
+    /// <summary>
+    /// ID of the version.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Id {
       get { return id_; }
@@ -499,6 +548,9 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "function_id" field.</summary>
     public const int FunctionIdFieldNumber = 2;
     private string functionId_ = "";
+    /// <summary>
+    /// ID of the function that the version belongs to.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string FunctionId {
       get { return functionId_; }
@@ -510,6 +562,9 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "description" field.</summary>
     public const int DescriptionFieldNumber = 3;
     private string description_ = "";
+    /// <summary>
+    /// Description of the version.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Description {
       get { return description_; }
@@ -521,6 +576,9 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "created_at" field.</summary>
     public const int CreatedAtFieldNumber = 5;
     private global::Google.Protobuf.WellKnownTypes.Timestamp createdAt_;
+    /// <summary>
+    /// Creation timestamp for the version.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Google.Protobuf.WellKnownTypes.Timestamp CreatedAt {
       get { return createdAt_; }
@@ -532,6 +590,11 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "runtime" field.</summary>
     public const int RuntimeFieldNumber = 6;
     private string runtime_ = "";
+    /// <summary>
+    /// ID of the runtime environment for the function.
+    ///
+    /// Supported environments and their identifiers are listed in the [Runtime environments](/docs/functions/concepts/runtime).
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Runtime {
       get { return runtime_; }
@@ -543,6 +606,11 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "entrypoint" field.</summary>
     public const int EntrypointFieldNumber = 7;
     private string entrypoint_ = "";
+    /// <summary>
+    /// Entrypoint for the function: the name of the function to be called as the handler.
+    ///
+    /// Specified in the format `&lt;function file name>.&lt;handler name>`, for example, `index.myFunction`.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Entrypoint {
       get { return entrypoint_; }
@@ -554,6 +622,9 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "resources" field.</summary>
     public const int ResourcesFieldNumber = 8;
     private global::Yandex.Cloud.Serverless.Functions.V1.Resources resources_;
+    /// <summary>
+    /// Resources allocated to the version.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Serverless.Functions.V1.Resources Resources {
       get { return resources_; }
@@ -565,6 +636,11 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "execution_timeout" field.</summary>
     public const int ExecutionTimeoutFieldNumber = 9;
     private global::Google.Protobuf.WellKnownTypes.Duration executionTimeout_;
+    /// <summary>
+    /// Timeout for the execution of the version.
+    ///
+    /// If the timeout is exceeded, Cloud Functions responds with a 504 HTTP code.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Google.Protobuf.WellKnownTypes.Duration ExecutionTimeout {
       get { return executionTimeout_; }
@@ -576,6 +652,9 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "service_account_id" field.</summary>
     public const int ServiceAccountIdFieldNumber = 10;
     private string serviceAccountId_ = "";
+    /// <summary>
+    /// ID of the service account associated with the version.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ServiceAccountId {
       get { return serviceAccountId_; }
@@ -587,6 +666,9 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "image_size" field.</summary>
     public const int ImageSizeFieldNumber = 12;
     private long imageSize_;
+    /// <summary>
+    /// Final size of the deployment package after unpacking.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long ImageSize {
       get { return imageSize_; }
@@ -598,6 +680,9 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "status" field.</summary>
     public const int StatusFieldNumber = 13;
     private global::Yandex.Cloud.Serverless.Functions.V1.Version.Types.Status status_ = 0;
+    /// <summary>
+    /// Status of the version.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Serverless.Functions.V1.Version.Types.Status Status {
       get { return status_; }
@@ -611,6 +696,9 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     private static readonly pb::FieldCodec<string> _repeated_tags_codec
         = pb::FieldCodec.ForString(114);
     private readonly pbc::RepeatedField<string> tags_ = new pbc::RepeatedField<string>();
+    /// <summary>
+    /// Version tags. For details, see [Version tag](/docs/functions/concepts/function#tag).
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::RepeatedField<string> Tags {
       get { return tags_; }
@@ -619,6 +707,9 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "log_group_id" field.</summary>
     public const int LogGroupIdFieldNumber = 15;
     private string logGroupId_ = "";
+    /// <summary>
+    /// ID of the log group for the version.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string LogGroupId {
       get { return logGroupId_; }
@@ -632,6 +723,9 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     private static readonly pbc::MapField<string, string>.Codec _map_environment_codec
         = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 130);
     private readonly pbc::MapField<string, string> environment_ = new pbc::MapField<string, string>();
+    /// <summary>
+    /// Environment settings for the version.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::MapField<string, string> Environment {
       get { return environment_; }
@@ -937,7 +1031,13 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     public static partial class Types {
       internal enum Status {
         [pbr::OriginalName("STATUS_UNSPECIFIED")] Unspecified = 0,
+        /// <summary>
+        /// Version is being created.
+        /// </summary>
         [pbr::OriginalName("CREATING")] Creating = 1,
+        /// <summary>
+        /// Version is ready to use.
+        /// </summary>
         [pbr::OriginalName("ACTIVE")] Active = 2,
       }
 
@@ -946,6 +1046,9 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
 
   }
 
+  /// <summary>
+  /// Resources allocated to a version.
+  /// </summary>
   internal sealed partial class Resources : pb::IMessage<Resources> {
     private static readonly pb::MessageParser<Resources> _parser = new pb::MessageParser<Resources>(() => new Resources());
     private pb::UnknownFieldSet _unknownFields;
@@ -983,6 +1086,9 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "memory" field.</summary>
     public const int MemoryFieldNumber = 1;
     private long memory_;
+    /// <summary>
+    /// Amount of memory available to the version, specified in bytes.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long Memory {
       get { return memory_; }
@@ -1075,6 +1181,9 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
 
   }
 
+  /// <summary>
+  /// Version deployment package.
+  /// </summary>
   internal sealed partial class Package : pb::IMessage<Package> {
     private static readonly pb::MessageParser<Package> _parser = new pb::MessageParser<Package>(() => new Package());
     private pb::UnknownFieldSet _unknownFields;
@@ -1114,6 +1223,9 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "bucket_name" field.</summary>
     public const int BucketNameFieldNumber = 1;
     private string bucketName_ = "";
+    /// <summary>
+    /// Name of the bucket that stores the code for the version.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string BucketName {
       get { return bucketName_; }
@@ -1125,6 +1237,9 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "object_name" field.</summary>
     public const int ObjectNameFieldNumber = 2;
     private string objectName_ = "";
+    /// <summary>
+    /// Name of the object in the bucket that stores the code for the version.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ObjectName {
       get { return objectName_; }
@@ -1136,6 +1251,9 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
     /// <summary>Field number for the "sha256" field.</summary>
     public const int Sha256FieldNumber = 3;
     private string sha256_ = "";
+    /// <summary>
+    /// SHA256 hash of the version deployment package.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Sha256 {
       get { return sha256_; }

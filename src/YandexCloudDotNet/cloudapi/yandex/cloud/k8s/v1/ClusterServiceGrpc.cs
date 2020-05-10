@@ -29,6 +29,8 @@ namespace Yandex.Cloud.K8S.V1 {
     static readonly grpc::Marshaller<global::Yandex.Cloud.K8S.V1.ListClusterNodeGroupsResponse> __Marshaller_yandex_cloud_k8s_v1_ListClusterNodeGroupsResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.K8S.V1.ListClusterNodeGroupsResponse.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.K8S.V1.ListClusterOperationsRequest> __Marshaller_yandex_cloud_k8s_v1_ListClusterOperationsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.K8S.V1.ListClusterOperationsRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.K8S.V1.ListClusterOperationsResponse> __Marshaller_yandex_cloud_k8s_v1_ListClusterOperationsResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.K8S.V1.ListClusterOperationsResponse.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Yandex.Cloud.K8S.V1.ListClusterNodesRequest> __Marshaller_yandex_cloud_k8s_v1_ListClusterNodesRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.K8S.V1.ListClusterNodesRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Yandex.Cloud.K8S.V1.ListClusterNodesResponse> __Marshaller_yandex_cloud_k8s_v1_ListClusterNodesResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.K8S.V1.ListClusterNodesResponse.Parser.ParseFrom);
 
     static readonly grpc::Method<global::Yandex.Cloud.K8S.V1.GetClusterRequest, global::Yandex.Cloud.K8S.V1.Cluster> __Method_Get = new grpc::Method<global::Yandex.Cloud.K8S.V1.GetClusterRequest, global::Yandex.Cloud.K8S.V1.Cluster>(
         grpc::MethodType.Unary,
@@ -92,6 +94,13 @@ namespace Yandex.Cloud.K8S.V1 {
         "ListOperations",
         __Marshaller_yandex_cloud_k8s_v1_ListClusterOperationsRequest,
         __Marshaller_yandex_cloud_k8s_v1_ListClusterOperationsResponse);
+
+    static readonly grpc::Method<global::Yandex.Cloud.K8S.V1.ListClusterNodesRequest, global::Yandex.Cloud.K8S.V1.ListClusterNodesResponse> __Method_ListNodes = new grpc::Method<global::Yandex.Cloud.K8S.V1.ListClusterNodesRequest, global::Yandex.Cloud.K8S.V1.ListClusterNodesResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "ListNodes",
+        __Marshaller_yandex_cloud_k8s_v1_ListClusterNodesRequest,
+        __Marshaller_yandex_cloud_k8s_v1_ListClusterNodesResponse);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -350,34 +359,90 @@ namespace Yandex.Cloud.K8S.V1 {
       {
         return CallInvoker.AsyncUnaryCall(__Method_Delete, null, options, request);
       }
+      /// <summary>
+      /// Stops the specified Kubernetes cluster.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
       public virtual global::Yandex.Cloud.Operation.Operation Stop(global::Yandex.Cloud.K8S.V1.StopClusterRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return Stop(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
+      /// <summary>
+      /// Stops the specified Kubernetes cluster.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
       public virtual global::Yandex.Cloud.Operation.Operation Stop(global::Yandex.Cloud.K8S.V1.StopClusterRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_Stop, null, options, request);
       }
+      /// <summary>
+      /// Stops the specified Kubernetes cluster.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
       public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Operation.Operation> StopAsync(global::Yandex.Cloud.K8S.V1.StopClusterRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return StopAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
+      /// <summary>
+      /// Stops the specified Kubernetes cluster.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
       public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Operation.Operation> StopAsync(global::Yandex.Cloud.K8S.V1.StopClusterRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_Stop, null, options, request);
       }
+      /// <summary>
+      /// Starts the specified Kubernetes cluster.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
       public virtual global::Yandex.Cloud.Operation.Operation Start(global::Yandex.Cloud.K8S.V1.StartClusterRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return Start(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
+      /// <summary>
+      /// Starts the specified Kubernetes cluster.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
       public virtual global::Yandex.Cloud.Operation.Operation Start(global::Yandex.Cloud.K8S.V1.StartClusterRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_Start, null, options, request);
       }
+      /// <summary>
+      /// Starts the specified Kubernetes cluster.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
       public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Operation.Operation> StartAsync(global::Yandex.Cloud.K8S.V1.StartClusterRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return StartAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
+      /// <summary>
+      /// Starts the specified Kubernetes cluster.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
       public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Operation.Operation> StartAsync(global::Yandex.Cloud.K8S.V1.StartClusterRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_Start, null, options, request);
@@ -469,6 +534,50 @@ namespace Yandex.Cloud.K8S.V1 {
       public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.K8S.V1.ListClusterOperationsResponse> ListOperationsAsync(global::Yandex.Cloud.K8S.V1.ListClusterOperationsRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_ListOperations, null, options, request);
+      }
+      /// <summary>
+      /// Lists cluster's nodes.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.K8S.V1.ListClusterNodesResponse ListNodes(global::Yandex.Cloud.K8S.V1.ListClusterNodesRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return ListNodes(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Lists cluster's nodes.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.K8S.V1.ListClusterNodesResponse ListNodes(global::Yandex.Cloud.K8S.V1.ListClusterNodesRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_ListNodes, null, options, request);
+      }
+      /// <summary>
+      /// Lists cluster's nodes.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.K8S.V1.ListClusterNodesResponse> ListNodesAsync(global::Yandex.Cloud.K8S.V1.ListClusterNodesRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return ListNodesAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Lists cluster's nodes.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.K8S.V1.ListClusterNodesResponse> ListNodesAsync(global::Yandex.Cloud.K8S.V1.ListClusterNodesRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_ListNodes, null, options, request);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       protected override ClusterServiceClient NewInstance(ClientBaseConfiguration configuration)

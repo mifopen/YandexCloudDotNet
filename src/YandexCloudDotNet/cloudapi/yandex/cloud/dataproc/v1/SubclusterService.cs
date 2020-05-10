@@ -47,44 +47,46 @@ namespace Yandex.Cloud.Dataproc.V1 {
             "cmNlc0IE6McxARIfCglzdWJuZXRfaWQYBSABKAlCDOjHMQGKyDEEPD01MBIg",
             "Cgtob3N0c19jb3VudBgGIAEoA0IL6McxAfrHMQM+PTEiWQoYQ3JlYXRlU3Vi",
             "Y2x1c3Rlck1ldGFkYXRhEhwKCmNsdXN0ZXJfaWQYASABKAlCCIrIMQQ8PTUw",
-            "Eh8KDXN1YmNsdXN0ZXJfaWQYAiABKAlCCIrIMQQ8PTUwIpwCChdVcGRhdGVT",
+            "Eh8KDXN1YmNsdXN0ZXJfaWQYAiABKAlCCIrIMQQ8PTUwIscCChdVcGRhdGVT",
             "dWJjbHVzdGVyUmVxdWVzdBIgCgpjbHVzdGVyX2lkGAEgASgJQgzoxzEBisgx",
             "BDw9NTASIwoNc3ViY2x1c3Rlcl9pZBgCIAEoCUIM6McxAYrIMQQ8PTUwEi8K",
             "C3VwZGF0ZV9tYXNrGAMgASgLMhouZ29vZ2xlLnByb3RvYnVmLkZpZWxkTWFz",
             "axI2CglyZXNvdXJjZXMYBCABKAsyIy55YW5kZXguY2xvdWQuZGF0YXByb2Mu",
             "djEuUmVzb3VyY2VzEi8KBG5hbWUYBSABKAlCIfLHMR18W2Etel1bLWEtejAt",
             "OV17MSw2MX1bYS16MC05XRIgCgtob3N0c19jb3VudBgGIAEoA0IL6McxAfrH",
-            "MQM+PTEiWQoYVXBkYXRlU3ViY2x1c3Rlck1ldGFkYXRhEhwKCmNsdXN0ZXJf",
-            "aWQYASABKAlCCIrIMQQ8PTUwEh8KDXN1YmNsdXN0ZXJfaWQYAiABKAlCCIrI",
-            "MQQ8PTUwImAKF0RlbGV0ZVN1YmNsdXN0ZXJSZXF1ZXN0EiAKCmNsdXN0ZXJf",
-            "aWQYASABKAlCDOjHMQGKyDEEPD01MBIjCg1zdWJjbHVzdGVyX2lkGAIgASgJ",
-            "QgzoxzEBisgxBDw9NTAiWQoYRGVsZXRlU3ViY2x1c3Rlck1ldGFkYXRhEhwK",
-            "CmNsdXN0ZXJfaWQYASABKAlCCIrIMQQ8PTUwEh8KDXN1YmNsdXN0ZXJfaWQY",
-            "AiABKAlCCIrIMQQ8PTUwMtkHChFTdWJjbHVzdGVyU2VydmljZRKjAQoDR2V0",
-            "Ei4ueWFuZGV4LmNsb3VkLmRhdGFwcm9jLnYxLkdldFN1YmNsdXN0ZXJSZXF1",
-            "ZXN0GiQueWFuZGV4LmNsb3VkLmRhdGFwcm9jLnYxLlN1YmNsdXN0ZXIiRoLT",
-            "5JMCQBI+L2RhdGFwcm9jL3YxL2NsdXN0ZXJzL3tjbHVzdGVyX2lkfS9zdWJj",
-            "bHVzdGVycy97c3ViY2x1c3Rlcl9pZH0SowEKBExpc3QSMC55YW5kZXguY2xv",
-            "dWQuZGF0YXByb2MudjEuTGlzdFN1YmNsdXN0ZXJzUmVxdWVzdBoxLnlhbmRl",
-            "eC5jbG91ZC5kYXRhcHJvYy52MS5MaXN0U3ViY2x1c3RlcnNSZXNwb25zZSI2",
-            "gtPkkwIwEi4vZGF0YXByb2MvdjEvY2x1c3RlcnMve2NsdXN0ZXJfaWR9L3N1",
-            "YmNsdXN0ZXJzEsMBCgZDcmVhdGUSMS55YW5kZXguY2xvdWQuZGF0YXByb2Mu",
-            "djEuQ3JlYXRlU3ViY2x1c3RlclJlcXVlc3QaIS55YW5kZXguY2xvdWQub3Bl",
-            "cmF0aW9uLk9wZXJhdGlvbiJjgtPkkwIzIi4vZGF0YXByb2MvdjEvY2x1c3Rl",
-            "cnMve2NsdXN0ZXJfaWR9L3N1YmNsdXN0ZXJzOgEqstIqJgoYQ3JlYXRlU3Vi",
-            "Y2x1c3Rlck1ldGFkYXRhEgpTdWJjbHVzdGVyEtMBCgZVcGRhdGUSMS55YW5k",
-            "ZXguY2xvdWQuZGF0YXByb2MudjEuVXBkYXRlU3ViY2x1c3RlclJlcXVlc3Qa",
-            "IS55YW5kZXguY2xvdWQub3BlcmF0aW9uLk9wZXJhdGlvbiJzgtPkkwJDMj4v",
-            "ZGF0YXByb2MvdjEvY2x1c3RlcnMve2NsdXN0ZXJfaWR9L3N1YmNsdXN0ZXJz",
-            "L3tzdWJjbHVzdGVyX2lkfToBKrLSKiYKGFVwZGF0ZVN1YmNsdXN0ZXJNZXRh",
-            "ZGF0YRIKU3ViY2x1c3RlchLbAQoGRGVsZXRlEjEueWFuZGV4LmNsb3VkLmRh",
-            "dGFwcm9jLnYxLkRlbGV0ZVN1YmNsdXN0ZXJSZXF1ZXN0GiEueWFuZGV4LmNs",
-            "b3VkLm9wZXJhdGlvbi5PcGVyYXRpb24ie4LT5JMCQCo+L2RhdGFwcm9jL3Yx",
-            "L2NsdXN0ZXJzL3tjbHVzdGVyX2lkfS9zdWJjbHVzdGVycy97c3ViY2x1c3Rl",
-            "cl9pZH2y0ioxChhEZWxldGVTdWJjbHVzdGVyTWV0YWRhdGESFWdvb2dsZS5w",
-            "cm90b2J1Zi5FbXB0eUJlChx5YW5kZXguY2xvdWQuYXBpLmRhdGFwcm9jLnYx",
-            "WkVnaXRodWIuY29tL3lhbmRleC1jbG91ZC9nby1nZW5wcm90by95YW5kZXgv",
-            "Y2xvdWQvZGF0YXByb2MvdjE7ZGF0YXByb2NiBnByb3RvMw=="));
+            "MQM+PTESKQoUZGVjb21taXNzaW9uX3RpbWVvdXQYByABKANCC/rHMQcwLTg2",
+            "NDAwIlkKGFVwZGF0ZVN1YmNsdXN0ZXJNZXRhZGF0YRIcCgpjbHVzdGVyX2lk",
+            "GAEgASgJQgiKyDEEPD01MBIfCg1zdWJjbHVzdGVyX2lkGAIgASgJQgiKyDEE",
+            "PD01MCKLAQoXRGVsZXRlU3ViY2x1c3RlclJlcXVlc3QSIAoKY2x1c3Rlcl9p",
+            "ZBgBIAEoCUIM6McxAYrIMQQ8PTUwEiMKDXN1YmNsdXN0ZXJfaWQYAiABKAlC",
+            "DOjHMQGKyDEEPD01MBIpChRkZWNvbW1pc3Npb25fdGltZW91dBgDIAEoA0IL",
+            "+scxBzAtODY0MDAiWQoYRGVsZXRlU3ViY2x1c3Rlck1ldGFkYXRhEhwKCmNs",
+            "dXN0ZXJfaWQYASABKAlCCIrIMQQ8PTUwEh8KDXN1YmNsdXN0ZXJfaWQYAiAB",
+            "KAlCCIrIMQQ8PTUwMtkHChFTdWJjbHVzdGVyU2VydmljZRKjAQoDR2V0Ei4u",
+            "eWFuZGV4LmNsb3VkLmRhdGFwcm9jLnYxLkdldFN1YmNsdXN0ZXJSZXF1ZXN0",
+            "GiQueWFuZGV4LmNsb3VkLmRhdGFwcm9jLnYxLlN1YmNsdXN0ZXIiRoLT5JMC",
+            "QBI+L2RhdGFwcm9jL3YxL2NsdXN0ZXJzL3tjbHVzdGVyX2lkfS9zdWJjbHVz",
+            "dGVycy97c3ViY2x1c3Rlcl9pZH0SowEKBExpc3QSMC55YW5kZXguY2xvdWQu",
+            "ZGF0YXByb2MudjEuTGlzdFN1YmNsdXN0ZXJzUmVxdWVzdBoxLnlhbmRleC5j",
+            "bG91ZC5kYXRhcHJvYy52MS5MaXN0U3ViY2x1c3RlcnNSZXNwb25zZSI2gtPk",
+            "kwIwEi4vZGF0YXByb2MvdjEvY2x1c3RlcnMve2NsdXN0ZXJfaWR9L3N1YmNs",
+            "dXN0ZXJzEsMBCgZDcmVhdGUSMS55YW5kZXguY2xvdWQuZGF0YXByb2MudjEu",
+            "Q3JlYXRlU3ViY2x1c3RlclJlcXVlc3QaIS55YW5kZXguY2xvdWQub3BlcmF0",
+            "aW9uLk9wZXJhdGlvbiJjgtPkkwIzIi4vZGF0YXByb2MvdjEvY2x1c3RlcnMv",
+            "e2NsdXN0ZXJfaWR9L3N1YmNsdXN0ZXJzOgEqstIqJgoYQ3JlYXRlU3ViY2x1",
+            "c3Rlck1ldGFkYXRhEgpTdWJjbHVzdGVyEtMBCgZVcGRhdGUSMS55YW5kZXgu",
+            "Y2xvdWQuZGF0YXByb2MudjEuVXBkYXRlU3ViY2x1c3RlclJlcXVlc3QaIS55",
+            "YW5kZXguY2xvdWQub3BlcmF0aW9uLk9wZXJhdGlvbiJzgtPkkwJDMj4vZGF0",
+            "YXByb2MvdjEvY2x1c3RlcnMve2NsdXN0ZXJfaWR9L3N1YmNsdXN0ZXJzL3tz",
+            "dWJjbHVzdGVyX2lkfToBKrLSKiYKGFVwZGF0ZVN1YmNsdXN0ZXJNZXRhZGF0",
+            "YRIKU3ViY2x1c3RlchLbAQoGRGVsZXRlEjEueWFuZGV4LmNsb3VkLmRhdGFw",
+            "cm9jLnYxLkRlbGV0ZVN1YmNsdXN0ZXJSZXF1ZXN0GiEueWFuZGV4LmNsb3Vk",
+            "Lm9wZXJhdGlvbi5PcGVyYXRpb24ie4LT5JMCQCo+L2RhdGFwcm9jL3YxL2Ns",
+            "dXN0ZXJzL3tjbHVzdGVyX2lkfS9zdWJjbHVzdGVycy97c3ViY2x1c3Rlcl9p",
+            "ZH2y0ioxChhEZWxldGVTdWJjbHVzdGVyTWV0YWRhdGESFWdvb2dsZS5wcm90",
+            "b2J1Zi5FbXB0eUJlChx5YW5kZXguY2xvdWQuYXBpLmRhdGFwcm9jLnYxWkVn",
+            "aXRodWIuY29tL3lhbmRleC1jbG91ZC9nby1nZW5wcm90by95YW5kZXgvY2xv",
+            "dWQvZGF0YXByb2MvdjE7ZGF0YXByb2NiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.Dataproc.V1.CommonReflection.Descriptor, global::Yandex.Cloud.Dataproc.V1.SubclusterReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, global::Yandex.Cloud.Api.OperationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
@@ -93,9 +95,9 @@ namespace Yandex.Cloud.Dataproc.V1 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.ListSubclustersResponse), global::Yandex.Cloud.Dataproc.V1.ListSubclustersResponse.Parser, new[]{ "Subclusters", "NextPageToken" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.CreateSubclusterRequest), global::Yandex.Cloud.Dataproc.V1.CreateSubclusterRequest.Parser, new[]{ "ClusterId", "Name", "Role", "Resources", "SubnetId", "HostsCount" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.CreateSubclusterMetadata), global::Yandex.Cloud.Dataproc.V1.CreateSubclusterMetadata.Parser, new[]{ "ClusterId", "SubclusterId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.UpdateSubclusterRequest), global::Yandex.Cloud.Dataproc.V1.UpdateSubclusterRequest.Parser, new[]{ "ClusterId", "SubclusterId", "UpdateMask", "Resources", "Name", "HostsCount" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.UpdateSubclusterRequest), global::Yandex.Cloud.Dataproc.V1.UpdateSubclusterRequest.Parser, new[]{ "ClusterId", "SubclusterId", "UpdateMask", "Resources", "Name", "HostsCount", "DecommissionTimeout" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.UpdateSubclusterMetadata), global::Yandex.Cloud.Dataproc.V1.UpdateSubclusterMetadata.Parser, new[]{ "ClusterId", "SubclusterId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.DeleteSubclusterRequest), global::Yandex.Cloud.Dataproc.V1.DeleteSubclusterRequest.Parser, new[]{ "ClusterId", "SubclusterId" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.DeleteSubclusterRequest), global::Yandex.Cloud.Dataproc.V1.DeleteSubclusterRequest.Parser, new[]{ "ClusterId", "SubclusterId", "DecommissionTimeout" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.DeleteSubclusterMetadata), global::Yandex.Cloud.Dataproc.V1.DeleteSubclusterMetadata.Parser, new[]{ "ClusterId", "SubclusterId" }, null, null, null)
           }));
     }
@@ -142,7 +144,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
     public const int ClusterIdFieldNumber = 1;
     private string clusterId_ = "";
     /// <summary>
-    /// ID of the Dataproc cluster to get subcluster from.
+    /// ID of the Data Proc cluster that the subcluster belongs to.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ClusterId {
@@ -156,8 +158,9 @@ namespace Yandex.Cloud.Dataproc.V1 {
     public const int SubclusterIdFieldNumber = 2;
     private string subclusterId_ = "";
     /// <summary>
-    /// ID of the Dataproc subcluster resource to return.
-    /// To get the subcluster ID use a [SubclusterService.List] request.
+    /// ID of the subcluster to return.
+    ///
+    /// To get a subcluster ID make a [SubclusterService.List] request.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string SubclusterId {
@@ -308,7 +311,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
     public const int ClusterIdFieldNumber = 1;
     private string clusterId_ = "";
     /// <summary>
-    /// ID of the Dataproc cluster to get subclusters from.
+    /// ID of the Data Proc cluster to list subclusters in.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ClusterId {
@@ -322,10 +325,10 @@ namespace Yandex.Cloud.Dataproc.V1 {
     public const int PageSizeFieldNumber = 2;
     private long pageSize_;
     /// <summary>
-    /// The maximum number of results per page that should be returned. If the number of available
-    /// results is larger than `page_size`, the service returns a `next_page_token` that can be used
-    /// to get the next page of results in subsequent ListSubclusters requests.
-    /// Acceptable values are 0 to 1000, inclusive. Default value: 100.
+    /// The maximum number of results per page to return. If the number of available
+    /// results is larger than [page_size], the service returns a [ListSubclustersResponse.next_page_token]
+    /// that can be used to get the next page of results in subsequent list requests.
+    /// Default value: 100.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long PageSize {
@@ -339,8 +342,8 @@ namespace Yandex.Cloud.Dataproc.V1 {
     public const int PageTokenFieldNumber = 3;
     private string pageToken_ = "";
     /// <summary>
-    /// Page token. Set `page_token` to the `next_page_token` returned by a previous ListSubclusters
-    /// request to get the next page of results.
+    /// Page token. To get the next page of results, set `page_token` to the
+    /// [ListSubclustersResponse.next_page_token] returned by a previous list request.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string PageToken {
@@ -354,11 +357,13 @@ namespace Yandex.Cloud.Dataproc.V1 {
     public const int FilterFieldNumber = 4;
     private string filter_ = "";
     /// <summary>
-    /// A filter expression that filters resources listed in the response.
+    /// A filter expression that filters subclusters listed in the response.
+    ///
     /// The expression must specify:
-    /// 1. The field name. Currently you can only use filtering with the [Cluster.name] field.
+    /// 1. The field name. Currently you can use filtering only on [Subcluster.name] field.
     /// 2. An operator. Can be either `=` or `!=` for single values, `IN` or `NOT IN` for lists of values.
-    /// 3. The value. Мust be 1-63 characters long and match the regular expression `^[a-zA-Z0-9_-]+$`.
+    /// 3. The value. Must be 3-63 characters long and match the regular expression `^[a-z][-a-z0-9]{1,61}[a-z0-9].
+    /// Example of a filter: `name=dataproc123_subcluster456`.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Filter {
@@ -541,7 +546,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
         = pb::FieldCodec.ForMessage(10, global::Yandex.Cloud.Dataproc.V1.Subcluster.Parser);
     private readonly pbc::RepeatedField<global::Yandex.Cloud.Dataproc.V1.Subcluster> subclusters_ = new pbc::RepeatedField<global::Yandex.Cloud.Dataproc.V1.Subcluster>();
     /// <summary>
-    /// List of Dataproc subclusters.
+    /// List of subclusters in the specified cluster.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::RepeatedField<global::Yandex.Cloud.Dataproc.V1.Subcluster> Subclusters {
@@ -552,11 +557,11 @@ namespace Yandex.Cloud.Dataproc.V1 {
     public const int NextPageTokenFieldNumber = 2;
     private string nextPageToken_ = "";
     /// <summary>
-    /// This token allows you to get the next page of results for ListSubclusters requests,
-    /// if the number of results is larger than `page_size` specified in the request.
-    /// To get the next page, specify the value of `next_page_token` as a value for
-    /// the `page_token` parameter in the next ListClusters request. Subsequent ListClusters
-    /// requests will have their own `next_page_token` to continue paging through the results.
+    /// Token for getting the next page of the list. If the number of results is greater than
+    /// the specified [ListSubclustersRequest.page_size], use `next_page_token` as the value
+    /// for the [ListSubclustersRequest.page_token] parameter in the next list request.
+    ///
+    /// Each subsequent page will have its own `next_page_token` to continue paging through the results.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string NextPageToken {
@@ -702,8 +707,9 @@ namespace Yandex.Cloud.Dataproc.V1 {
     public const int ClusterIdFieldNumber = 1;
     private string clusterId_ = "";
     /// <summary>
-    /// ID of the Dataproc cluster to create create subcluster to.
-    /// To get the Dataproc cluster ID, use a [ClusterService.List] request.
+    /// ID of the Data Proc cluster to create a subcluster in.
+    ///
+    /// To get a cluster ID, make a [ClusterService.List] request.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ClusterId {
@@ -717,9 +723,8 @@ namespace Yandex.Cloud.Dataproc.V1 {
     public const int NameFieldNumber = 2;
     private string name_ = "";
     /// <summary>
-    /// Name of the Dataproc subcluster. The name must be unique within the folder.
-    /// The name must be 1-63 characters long and match the regular expression `^[a-z]([-a-z0-9]{,61}[a-z0-9])?$`.
-    /// The name can’t be changed after the Dataproc subcluster is created.
+    /// Name of the subcluster. The name must be unique within the cluster. The name can’t be
+    /// changed when the subcluster is created.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Name {
@@ -733,7 +738,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
     public const int RoleFieldNumber = 3;
     private global::Yandex.Cloud.Dataproc.V1.Role role_ = 0;
     /// <summary>
-    /// Role of hosts in subcluster.
+    /// Role that is fulfilled by hosts of the subcluster.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Dataproc.V1.Role Role {
@@ -747,7 +752,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
     public const int ResourcesFieldNumber = 4;
     private global::Yandex.Cloud.Dataproc.V1.Resources resources_;
     /// <summary>
-    /// Resources allocated to hosts in subcluster.
+    /// Resources allocated for each host in the subcluster.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Dataproc.V1.Resources Resources {
@@ -761,7 +766,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
     public const int SubnetIdFieldNumber = 5;
     private string subnetId_ = "";
     /// <summary>
-    /// ID of using compute subnet for hosts in subcluster.
+    /// ID of the VPC subnet used for hosts in the subcluster.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string SubnetId {
@@ -775,7 +780,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
     public const int HostsCountFieldNumber = 6;
     private long hostsCount_;
     /// <summary>
-    /// Number of hosts in subcluster.
+    /// Number of hosts in the subcluster.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long HostsCount {
@@ -994,7 +999,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
     public const int ClusterIdFieldNumber = 1;
     private string clusterId_ = "";
     /// <summary>
-    /// ID of the Dataproc cluster resource to return.
+    /// ID of the cluster that the subcluster is being added to.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ClusterId {
@@ -1008,7 +1013,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
     public const int SubclusterIdFieldNumber = 2;
     private string subclusterId_ = "";
     /// <summary>
-    /// ID of the Dataproc subcluster resource.
+    /// ID of the subcluster that is being created.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string SubclusterId {
@@ -1149,6 +1154,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
       resources_ = other.resources_ != null ? other.resources_.Clone() : null;
       name_ = other.name_;
       hostsCount_ = other.hostsCount_;
+      decommissionTimeout_ = other.decommissionTimeout_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1161,8 +1167,9 @@ namespace Yandex.Cloud.Dataproc.V1 {
     public const int ClusterIdFieldNumber = 1;
     private string clusterId_ = "";
     /// <summary>
-    /// ID of the Dataproc cluster to update subcluster to.
-    /// To get the Dataproc cluster ID, use a [ClusterService.List] request.
+    /// ID of the cluster to update a subcluster in.
+    ///
+    /// To get a cluster ID, make a [ClusterService.List] request.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ClusterId {
@@ -1176,8 +1183,9 @@ namespace Yandex.Cloud.Dataproc.V1 {
     public const int SubclusterIdFieldNumber = 2;
     private string subclusterId_ = "";
     /// <summary>
-    /// ID of the Dataproc subcluster resource.
-    /// To get the subcluster ID use a [SubclusterService.List] request.
+    /// ID of the subcluster to update.
+    ///
+    /// To get a subcluster ID, make a [SubclusterService.List] request.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string SubclusterId {
@@ -1190,6 +1198,9 @@ namespace Yandex.Cloud.Dataproc.V1 {
     /// <summary>Field number for the "update_mask" field.</summary>
     public const int UpdateMaskFieldNumber = 3;
     private global::Google.Protobuf.WellKnownTypes.FieldMask updateMask_;
+    /// <summary>
+    /// Field mask that specifies which attributes of the subcluster should be updated.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Google.Protobuf.WellKnownTypes.FieldMask UpdateMask {
       get { return updateMask_; }
@@ -1202,7 +1213,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
     public const int ResourcesFieldNumber = 4;
     private global::Yandex.Cloud.Dataproc.V1.Resources resources_;
     /// <summary>
-    /// Resources allocated to hosts in subcluster.
+    /// New configuration of resources that should be allocated for each host in the subcluster.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Dataproc.V1.Resources Resources {
@@ -1216,7 +1227,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
     public const int NameFieldNumber = 5;
     private string name_ = "";
     /// <summary>
-    /// Name of the Dataproc subcluster. The name must be unique within the folder.
+    /// New name for the subcluster. The name must be unique within the cluster.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Name {
@@ -1230,13 +1241,27 @@ namespace Yandex.Cloud.Dataproc.V1 {
     public const int HostsCountFieldNumber = 6;
     private long hostsCount_;
     /// <summary>
-    /// Number of hosts in subcluster.
+    /// New number of hosts in the subcluster.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long HostsCount {
       get { return hostsCount_; }
       set {
         hostsCount_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "decommission_timeout" field.</summary>
+    public const int DecommissionTimeoutFieldNumber = 7;
+    private long decommissionTimeout_;
+    /// <summary>
+    /// Timeout to gracefully decommission nodes. In seconds. Default value: 0
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long DecommissionTimeout {
+      get { return decommissionTimeout_; }
+      set {
+        decommissionTimeout_ = value;
       }
     }
 
@@ -1259,6 +1284,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
       if (!object.Equals(Resources, other.Resources)) return false;
       if (Name != other.Name) return false;
       if (HostsCount != other.HostsCount) return false;
+      if (DecommissionTimeout != other.DecommissionTimeout) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1271,6 +1297,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
       if (resources_ != null) hash ^= Resources.GetHashCode();
       if (Name.Length != 0) hash ^= Name.GetHashCode();
       if (HostsCount != 0L) hash ^= HostsCount.GetHashCode();
+      if (DecommissionTimeout != 0L) hash ^= DecommissionTimeout.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1308,6 +1335,10 @@ namespace Yandex.Cloud.Dataproc.V1 {
         output.WriteRawTag(48);
         output.WriteInt64(HostsCount);
       }
+      if (DecommissionTimeout != 0L) {
+        output.WriteRawTag(56);
+        output.WriteInt64(DecommissionTimeout);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1333,6 +1364,9 @@ namespace Yandex.Cloud.Dataproc.V1 {
       }
       if (HostsCount != 0L) {
         size += 1 + pb::CodedOutputStream.ComputeInt64Size(HostsCount);
+      }
+      if (DecommissionTimeout != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(DecommissionTimeout);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1368,6 +1402,9 @@ namespace Yandex.Cloud.Dataproc.V1 {
       }
       if (other.HostsCount != 0L) {
         HostsCount = other.HostsCount;
+      }
+      if (other.DecommissionTimeout != 0L) {
+        DecommissionTimeout = other.DecommissionTimeout;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -1408,6 +1445,10 @@ namespace Yandex.Cloud.Dataproc.V1 {
           }
           case 48: {
             HostsCount = input.ReadInt64();
+            break;
+          }
+          case 56: {
+            DecommissionTimeout = input.ReadInt64();
             break;
           }
         }
@@ -1455,7 +1496,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
     public const int ClusterIdFieldNumber = 1;
     private string clusterId_ = "";
     /// <summary>
-    /// ID of the Dataproc cluster resource to return.
+    /// ID of the cluster whose subcluster is being updated.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ClusterId {
@@ -1469,7 +1510,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
     public const int SubclusterIdFieldNumber = 2;
     private string subclusterId_ = "";
     /// <summary>
-    /// ID of the Dataproc subcluster resource to update.
+    /// ID of the subcluster that is being updated.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string SubclusterId {
@@ -1606,6 +1647,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
     public DeleteSubclusterRequest(DeleteSubclusterRequest other) : this() {
       clusterId_ = other.clusterId_;
       subclusterId_ = other.subclusterId_;
+      decommissionTimeout_ = other.decommissionTimeout_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1618,8 +1660,9 @@ namespace Yandex.Cloud.Dataproc.V1 {
     public const int ClusterIdFieldNumber = 1;
     private string clusterId_ = "";
     /// <summary>
-    /// ID of the Dataproc cluster to delete subcluster from.
-    /// To get the Dataproc cluster ID, use a [ClusterService.List] request.
+    /// ID of the cluster to remove a subcluster from.
+    ///
+    /// To get a cluster ID, make a [ClusterService.List] request.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ClusterId {
@@ -1633,13 +1676,27 @@ namespace Yandex.Cloud.Dataproc.V1 {
     public const int SubclusterIdFieldNumber = 2;
     private string subclusterId_ = "";
     /// <summary>
-    /// ID of the Dataproc subcluster resource to delete.
+    /// ID of the subcluster to delete.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string SubclusterId {
       get { return subclusterId_; }
       set {
         subclusterId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "decommission_timeout" field.</summary>
+    public const int DecommissionTimeoutFieldNumber = 3;
+    private long decommissionTimeout_;
+    /// <summary>
+    /// Timeout to gracefully decommission nodes. In seconds. Default value: 0
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long DecommissionTimeout {
+      get { return decommissionTimeout_; }
+      set {
+        decommissionTimeout_ = value;
       }
     }
 
@@ -1658,6 +1715,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
       }
       if (ClusterId != other.ClusterId) return false;
       if (SubclusterId != other.SubclusterId) return false;
+      if (DecommissionTimeout != other.DecommissionTimeout) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1666,6 +1724,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
       int hash = 1;
       if (ClusterId.Length != 0) hash ^= ClusterId.GetHashCode();
       if (SubclusterId.Length != 0) hash ^= SubclusterId.GetHashCode();
+      if (DecommissionTimeout != 0L) hash ^= DecommissionTimeout.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1687,6 +1746,10 @@ namespace Yandex.Cloud.Dataproc.V1 {
         output.WriteRawTag(18);
         output.WriteString(SubclusterId);
       }
+      if (DecommissionTimeout != 0L) {
+        output.WriteRawTag(24);
+        output.WriteInt64(DecommissionTimeout);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1700,6 +1763,9 @@ namespace Yandex.Cloud.Dataproc.V1 {
       }
       if (SubclusterId.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(SubclusterId);
+      }
+      if (DecommissionTimeout != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(DecommissionTimeout);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1718,6 +1784,9 @@ namespace Yandex.Cloud.Dataproc.V1 {
       if (other.SubclusterId.Length != 0) {
         SubclusterId = other.SubclusterId;
       }
+      if (other.DecommissionTimeout != 0L) {
+        DecommissionTimeout = other.DecommissionTimeout;
+      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -1735,6 +1804,10 @@ namespace Yandex.Cloud.Dataproc.V1 {
           }
           case 18: {
             SubclusterId = input.ReadString();
+            break;
+          }
+          case 24: {
+            DecommissionTimeout = input.ReadInt64();
             break;
           }
         }
@@ -1782,7 +1855,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
     public const int ClusterIdFieldNumber = 1;
     private string clusterId_ = "";
     /// <summary>
-    /// ID of the Dataproc cluster resource to return.
+    /// ID of the cluster whose subcluster is being deleted.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ClusterId {
@@ -1796,7 +1869,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
     public const int SubclusterIdFieldNumber = 2;
     private string subclusterId_ = "";
     /// <summary>
-    /// ID of the Dataproc subcluster resource to delete.
+    /// ID of the subcluster that is being deleted.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string SubclusterId {

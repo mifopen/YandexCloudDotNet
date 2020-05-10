@@ -28,7 +28,7 @@ namespace Yandex.Cloud.Loadbalancer.V1 {
             "YWxhbmNlci5wcm90bxIceWFuZGV4LmNsb3VkLmxvYWRiYWxhbmNlci52MRof",
             "Z29vZ2xlL3Byb3RvYnVmL3RpbWVzdGFtcC5wcm90bxodeWFuZGV4L2Nsb3Vk",
             "L3ZhbGlkYXRpb24ucHJvdG8aL3lhbmRleC9jbG91ZC9sb2FkYmFsYW5jZXIv",
-            "djEvaGVhbHRoX2NoZWNrLnByb3RvIo8HChNOZXR3b3JrTG9hZEJhbGFuY2Vy",
+            "djEvaGVhbHRoX2NoZWNrLnByb3RvIp0HChNOZXR3b3JrTG9hZEJhbGFuY2Vy",
             "EgoKAmlkGAEgASgJEhEKCWZvbGRlcl9pZBgCIAEoCRIuCgpjcmVhdGVkX2F0",
             "GAMgASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcBIMCgRuYW1lGAQg",
             "ASgJEhMKC2Rlc2NyaXB0aW9uGAUgASgJEk0KBmxhYmVscxgGIAMoCzI9Lnlh",
@@ -46,32 +46,33 @@ namespace Yandex.Cloud.Loadbalancer.V1 {
             "IAEoCToCOAEifwoGU3RhdHVzEhYKElNUQVRVU19VTlNQRUNJRklFRBAAEgwK",
             "CENSRUFUSU5HEAESDAoIU1RBUlRJTkcQAhIKCgZBQ1RJVkUQAxIMCghTVE9Q",
             "UElORxAEEgsKB1NUT1BQRUQQBRIMCghERUxFVElORxAGEgwKCElOQUNUSVZF",
-            "EAciKgoEVHlwZRIUChBUWVBFX1VOU1BFQ0lGSUVEEAASDAoIRVhURVJOQUwQ",
-            "ASJNCg9TZXNzaW9uQWZmaW5pdHkSIAocU0VTU0lPTl9BRkZJTklUWV9VTlNQ",
-            "RUNJRklFRBAAEhgKFENMSUVOVF9JUF9QT1JUX1BST1RPEAEihQEKE0F0dGFj",
-            "aGVkVGFyZ2V0R3JvdXASJQoPdGFyZ2V0X2dyb3VwX2lkGAEgASgJQgzoxzEB",
-            "isgxBDw9NTASRwoNaGVhbHRoX2NoZWNrcxgCIAMoCzIpLnlhbmRleC5jbG91",
-            "ZC5sb2FkYmFsYW5jZXIudjEuSGVhbHRoQ2hlY2tCBYLIMQExIr4BCghMaXN0",
-            "ZW5lchIMCgRuYW1lGAEgASgJEg8KB2FkZHJlc3MYAiABKAkSDAoEcG9ydBgD",
-            "IAEoAxJBCghwcm90b2NvbBgEIAEoDjIvLnlhbmRleC5jbG91ZC5sb2FkYmFs",
-            "YW5jZXIudjEuTGlzdGVuZXIuUHJvdG9jb2wSEwoLdGFyZ2V0X3BvcnQYBSAB",
-            "KAMiLQoIUHJvdG9jb2wSGAoUUFJPVE9DT0xfVU5TUEVDSUZJRUQQABIHCgNU",
-            "Q1AQASLaAQoLVGFyZ2V0U3RhdGUSEQoJc3VibmV0X2lkGAEgASgJEg8KB2Fk",
-            "ZHJlc3MYAiABKAkSQAoGc3RhdHVzGAMgASgOMjAueWFuZGV4LmNsb3VkLmxv",
-            "YWRiYWxhbmNlci52MS5UYXJnZXRTdGF0ZS5TdGF0dXMiZQoGU3RhdHVzEhYK",
-            "ElNUQVRVU19VTlNQRUNJRklFRBAAEgsKB0lOSVRJQUwQARILCgdIRUFMVEhZ",
-            "EAISDQoJVU5IRUFMVEhZEAMSDAoIRFJBSU5JTkcQBBIMCghJTkFDVElWRRAF",
-            "KjsKCUlwVmVyc2lvbhIaChZJUF9WRVJTSU9OX1VOU1BFQ0lGSUVEEAASCAoE",
-            "SVBWNBABEggKBElQVjYQAkJxCiB5YW5kZXguY2xvdWQuYXBpLmxvYWRiYWxh",
-            "bmNlci52MVpNZ2l0aHViLmNvbS95YW5kZXgtY2xvdWQvZ28tZ2VucHJvdG8v",
-            "eWFuZGV4L2Nsb3VkL2xvYWRiYWxhbmNlci92MTtsb2FkYmFsYW5jZXJiBnBy",
-            "b3RvMw=="));
+            "EAciOAoEVHlwZRIUChBUWVBFX1VOU1BFQ0lGSUVEEAASDAoIRVhURVJOQUwQ",
+            "ARIMCghJTlRFUk5BTBACIk0KD1Nlc3Npb25BZmZpbml0eRIgChxTRVNTSU9O",
+            "X0FGRklOSVRZX1VOU1BFQ0lGSUVEEAASGAoUQ0xJRU5UX0lQX1BPUlRfUFJP",
+            "VE8QASKFAQoTQXR0YWNoZWRUYXJnZXRHcm91cBIlCg90YXJnZXRfZ3JvdXBf",
+            "aWQYASABKAlCDOjHMQGKyDEEPD01MBJHCg1oZWFsdGhfY2hlY2tzGAIgAygL",
+            "MikueWFuZGV4LmNsb3VkLmxvYWRiYWxhbmNlci52MS5IZWFsdGhDaGVja0IF",
+            "gsgxATEi2gEKCExpc3RlbmVyEgwKBG5hbWUYASABKAkSDwoHYWRkcmVzcxgC",
+            "IAEoCRIMCgRwb3J0GAMgASgDEkEKCHByb3RvY29sGAQgASgOMi8ueWFuZGV4",
+            "LmNsb3VkLmxvYWRiYWxhbmNlci52MS5MaXN0ZW5lci5Qcm90b2NvbBITCgt0",
+            "YXJnZXRfcG9ydBgFIAEoAxIRCglzdWJuZXRfaWQYBiABKAkiNgoIUHJvdG9j",
+            "b2wSGAoUUFJPVE9DT0xfVU5TUEVDSUZJRUQQABIHCgNUQ1AQARIHCgNVRFAQ",
+            "AiLaAQoLVGFyZ2V0U3RhdGUSEQoJc3VibmV0X2lkGAEgASgJEg8KB2FkZHJl",
+            "c3MYAiABKAkSQAoGc3RhdHVzGAMgASgOMjAueWFuZGV4LmNsb3VkLmxvYWRi",
+            "YWxhbmNlci52MS5UYXJnZXRTdGF0ZS5TdGF0dXMiZQoGU3RhdHVzEhYKElNU",
+            "QVRVU19VTlNQRUNJRklFRBAAEgsKB0lOSVRJQUwQARILCgdIRUFMVEhZEAIS",
+            "DQoJVU5IRUFMVEhZEAMSDAoIRFJBSU5JTkcQBBIMCghJTkFDVElWRRAFKjsK",
+            "CUlwVmVyc2lvbhIaChZJUF9WRVJTSU9OX1VOU1BFQ0lGSUVEEAASCAoESVBW",
+            "NBABEggKBElQVjYQAkJxCiB5YW5kZXguY2xvdWQuYXBpLmxvYWRiYWxhbmNl",
+            "ci52MVpNZ2l0aHViLmNvbS95YW5kZXgtY2xvdWQvZ28tZ2VucHJvdG8veWFu",
+            "ZGV4L2Nsb3VkL2xvYWRiYWxhbmNlci92MTtsb2FkYmFsYW5jZXJiBnByb3Rv",
+            "Mw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, global::Yandex.Cloud.Loadbalancer.V1.HealthCheckReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Yandex.Cloud.Loadbalancer.V1.IpVersion), }, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Loadbalancer.V1.NetworkLoadBalancer), global::Yandex.Cloud.Loadbalancer.V1.NetworkLoadBalancer.Parser, new[]{ "Id", "FolderId", "CreatedAt", "Name", "Description", "Labels", "RegionId", "Status", "Type", "SessionAffinity", "Listeners", "AttachedTargetGroups" }, null, new[]{ typeof(global::Yandex.Cloud.Loadbalancer.V1.NetworkLoadBalancer.Types.Status), typeof(global::Yandex.Cloud.Loadbalancer.V1.NetworkLoadBalancer.Types.Type), typeof(global::Yandex.Cloud.Loadbalancer.V1.NetworkLoadBalancer.Types.SessionAffinity) }, new pbr::GeneratedClrTypeInfo[] { null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Loadbalancer.V1.AttachedTargetGroup), global::Yandex.Cloud.Loadbalancer.V1.AttachedTargetGroup.Parser, new[]{ "TargetGroupId", "HealthChecks" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Loadbalancer.V1.Listener), global::Yandex.Cloud.Loadbalancer.V1.Listener.Parser, new[]{ "Name", "Address", "Port", "Protocol", "TargetPort" }, null, new[]{ typeof(global::Yandex.Cloud.Loadbalancer.V1.Listener.Types.Protocol) }, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Loadbalancer.V1.Listener), global::Yandex.Cloud.Loadbalancer.V1.Listener.Parser, new[]{ "Name", "Address", "Port", "Protocol", "TargetPort", "SubnetId" }, null, new[]{ typeof(global::Yandex.Cloud.Loadbalancer.V1.Listener.Types.Protocol) }, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Loadbalancer.V1.TargetState), global::Yandex.Cloud.Loadbalancer.V1.TargetState.Parser, new[]{ "SubnetId", "Address", "Status" }, null, new[]{ typeof(global::Yandex.Cloud.Loadbalancer.V1.TargetState.Types.Status) }, null)
           }));
     }
@@ -601,6 +602,10 @@ namespace Yandex.Cloud.Loadbalancer.V1 {
         /// External network load balancer.
         /// </summary>
         [pbr::OriginalName("EXTERNAL")] External = 1,
+        /// <summary>
+        /// Internal network load balancer.
+        /// </summary>
+        [pbr::OriginalName("INTERNAL")] Internal = 2,
       }
 
       /// <summary>
@@ -812,6 +817,7 @@ namespace Yandex.Cloud.Loadbalancer.V1 {
       port_ = other.port_;
       protocol_ = other.protocol_;
       targetPort_ = other.targetPort_;
+      subnetId_ = other.subnetId_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -890,6 +896,20 @@ namespace Yandex.Cloud.Loadbalancer.V1 {
       }
     }
 
+    /// <summary>Field number for the "subnet_id" field.</summary>
+    public const int SubnetIdFieldNumber = 6;
+    private string subnetId_ = "";
+    /// <summary>
+    /// ID of the subnet.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string SubnetId {
+      get { return subnetId_; }
+      set {
+        subnetId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as Listener);
@@ -908,6 +928,7 @@ namespace Yandex.Cloud.Loadbalancer.V1 {
       if (Port != other.Port) return false;
       if (Protocol != other.Protocol) return false;
       if (TargetPort != other.TargetPort) return false;
+      if (SubnetId != other.SubnetId) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -919,6 +940,7 @@ namespace Yandex.Cloud.Loadbalancer.V1 {
       if (Port != 0L) hash ^= Port.GetHashCode();
       if (Protocol != 0) hash ^= Protocol.GetHashCode();
       if (TargetPort != 0L) hash ^= TargetPort.GetHashCode();
+      if (SubnetId.Length != 0) hash ^= SubnetId.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -952,6 +974,10 @@ namespace Yandex.Cloud.Loadbalancer.V1 {
         output.WriteRawTag(40);
         output.WriteInt64(TargetPort);
       }
+      if (SubnetId.Length != 0) {
+        output.WriteRawTag(50);
+        output.WriteString(SubnetId);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -974,6 +1000,9 @@ namespace Yandex.Cloud.Loadbalancer.V1 {
       }
       if (TargetPort != 0L) {
         size += 1 + pb::CodedOutputStream.ComputeInt64Size(TargetPort);
+      }
+      if (SubnetId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(SubnetId);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1000,6 +1029,9 @@ namespace Yandex.Cloud.Loadbalancer.V1 {
       }
       if (other.TargetPort != 0L) {
         TargetPort = other.TargetPort;
+      }
+      if (other.SubnetId.Length != 0) {
+        SubnetId = other.SubnetId;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -1032,6 +1064,10 @@ namespace Yandex.Cloud.Loadbalancer.V1 {
             TargetPort = input.ReadInt64();
             break;
           }
+          case 50: {
+            SubnetId = input.ReadString();
+            break;
+          }
         }
       }
     }
@@ -1046,6 +1082,7 @@ namespace Yandex.Cloud.Loadbalancer.V1 {
       internal enum Protocol {
         [pbr::OriginalName("PROTOCOL_UNSPECIFIED")] Unspecified = 0,
         [pbr::OriginalName("TCP")] Tcp = 1,
+        [pbr::OriginalName("UDP")] Udp = 2,
       }
 
     }

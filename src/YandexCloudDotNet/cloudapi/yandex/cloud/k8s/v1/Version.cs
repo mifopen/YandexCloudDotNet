@@ -85,7 +85,7 @@ namespace Yandex.Cloud.K8S.V1 {
     public const int CurrentVersionFieldNumber = 1;
     private string currentVersion_ = "";
     /// <summary>
-    /// Current kubernetes version, major.minor (e.g. 1.15).
+    /// Current Kubernetes version, format: major.minor (e.g. 1.15).
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string CurrentVersion {
@@ -99,8 +99,8 @@ namespace Yandex.Cloud.K8S.V1 {
     public const int NewRevisionAvailableFieldNumber = 2;
     private bool newRevisionAvailable_;
     /// <summary>
-    /// Newer revisions may include kubernetes patches (e.g 1.15.1 -> 1.15.2) as well
-    /// as some internal component updates - new features or bug fixes in yandex-specific
+    /// Newer revisions may include Kubernetes patches (e.g 1.15.1 -> 1.15.2) as well
+    /// as some internal component updates — new features or bug fixes in Yandex specific
     /// components either on the master or nodes.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -115,7 +115,7 @@ namespace Yandex.Cloud.K8S.V1 {
     public const int NewRevisionSummaryFieldNumber = 3;
     private string newRevisionSummary_ = "";
     /// <summary>
-    /// Human readable description of the changes to be applied when updating to the latest
+    /// Description of the changes to be applied when updating to the latest
     /// revision. Empty if new_revision_available is false.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -318,7 +318,7 @@ namespace Yandex.Cloud.K8S.V1 {
     /// <summary>Field number for the "version" field.</summary>
     public const int VersionFieldNumber = 1;
     /// <summary>
-    /// Request update to a newer version of kubernetes (1.x -> 1.y).
+    /// Request update to a newer version of Kubernetes (1.x -> 1.y).
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Version {

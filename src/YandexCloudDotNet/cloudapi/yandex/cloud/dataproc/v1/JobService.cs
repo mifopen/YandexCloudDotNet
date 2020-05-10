@@ -31,34 +31,43 @@ namespace Yandex.Cloud.Dataproc.V1 {
             "bmRleC9jbG91ZC92YWxpZGF0aW9uLnByb3RvGiB5YW5kZXgvY2xvdWQvYXBp",
             "L29wZXJhdGlvbi5wcm90byJPCg1HZXRKb2JSZXF1ZXN0EiAKCmNsdXN0ZXJf",
             "aWQYASABKAlCDOjHMQGKyDEEPD01MBIcCgZqb2JfaWQYAiABKAlCDOjHMQGK",
-            "yDEEPD01MCKJAQoPTGlzdEpvYnNSZXF1ZXN0EhwKCmNsdXN0ZXJfaWQYASAB",
-            "KAlCCIrIMQQ8PTUwEh0KCXBhZ2Vfc2l6ZRgCIAEoA0IK+scxBjw9MTAwMBId",
-            "CgpwYWdlX3Rva2VuGAMgASgJQgmKyDEFPD0xMDASGgoGZmlsdGVyGAQgASgJ",
-            "QgqKyDEGPD0xMDAwIlgKEExpc3RKb2JzUmVzcG9uc2USKwoEam9icxgBIAMo",
-            "CzIdLnlhbmRleC5jbG91ZC5kYXRhcHJvYy52MS5Kb2ISFwoPbmV4dF9wYWdl",
-            "X3Rva2VuGAIgASgJItsCChBDcmVhdGVKb2JSZXF1ZXN0EhwKCmNsdXN0ZXJf",
-            "aWQYASABKAlCCIrIMQQ8PTUwEi8KBG5hbWUYAiABKAlCIfLHMR18W2Etel1b",
-            "LWEtejAtOV17MSw2MX1bYS16MC05XRI/Cg1tYXByZWR1Y2Vfam9iGAMgASgL",
-            "MiYueWFuZGV4LmNsb3VkLmRhdGFwcm9jLnYxLk1hcHJlZHVjZUpvYkgAEjcK",
-            "CXNwYXJrX2pvYhgEIAEoCzIiLnlhbmRleC5jbG91ZC5kYXRhcHJvYy52MS5T",
-            "cGFya0pvYkgAEjsKC3B5c3Bhcmtfam9iGAUgASgLMiQueWFuZGV4LmNsb3Vk",
-            "LmRhdGFwcm9jLnYxLlB5c3BhcmtKb2JIABI1CghoaXZlX2pvYhgGIAEoCzIh",
-            "LnlhbmRleC5jbG91ZC5kYXRhcHJvYy52MS5IaXZlSm9iSABCCgoIam9iX3Nw",
-            "ZWMiTwoRQ3JlYXRlSm9iTWV0YWRhdGESIAoKY2x1c3Rlcl9pZBgBIAEoCUIM",
-            "6McxAYrIMQQ8PTUwEhgKBmpvYl9pZBgCIAEoCUIIisgxBDw9NTAy0QMKCkpv",
-            "YlNlcnZpY2USjgEKBExpc3QSKS55YW5kZXguY2xvdWQuZGF0YXByb2MudjEu",
-            "TGlzdEpvYnNSZXF1ZXN0GioueWFuZGV4LmNsb3VkLmRhdGFwcm9jLnYxLkxp",
-            "c3RKb2JzUmVzcG9uc2UiL4LT5JMCKRInL2RhdGFwcm9jL3YxL2NsdXN0ZXJz",
-            "L3tjbHVzdGVyX2lkfS9qb2JzEqcBCgZDcmVhdGUSKi55YW5kZXguY2xvdWQu",
-            "ZGF0YXByb2MudjEuQ3JlYXRlSm9iUmVxdWVzdBohLnlhbmRleC5jbG91ZC5v",
-            "cGVyYXRpb24uT3BlcmF0aW9uIk6C0+STAiwiJy9kYXRhcHJvYy92MS9jbHVz",
-            "dGVycy97Y2x1c3Rlcl9pZH0vam9iczoBKrLSKhgKEUNyZWF0ZUpvYk1ldGFk",
-            "YXRhEgNKb2IShwEKA0dldBInLnlhbmRleC5jbG91ZC5kYXRhcHJvYy52MS5H",
-            "ZXRKb2JSZXF1ZXN0Gh0ueWFuZGV4LmNsb3VkLmRhdGFwcm9jLnYxLkpvYiI4",
-            "gtPkkwIyEjAvZGF0YXByb2MvdjEvY2x1c3RlcnMve2NsdXN0ZXJfaWR9L2pv",
-            "YnMve2pvYl9pZH1CTUIEUEhKU1pFZ2l0aHViLmNvbS95YW5kZXgtY2xvdWQv",
-            "Z28tZ2VucHJvdG8veWFuZGV4L2Nsb3VkL2RhdGFwcm9jL3YxO2RhdGFwcm9j",
-            "YgZwcm90bzM="));
+            "yDEEPD01MCKNAQoPTGlzdEpvYnNSZXF1ZXN0EiAKCmNsdXN0ZXJfaWQYASAB",
+            "KAlCDOjHMQGKyDEEPD01MBIdCglwYWdlX3NpemUYAiABKANCCvrHMQY8PTEw",
+            "MDASHQoKcGFnZV90b2tlbhgDIAEoCUIJisgxBTw9MTAwEhoKBmZpbHRlchgE",
+            "IAEoCUIKisgxBjw9MTAwMCJYChBMaXN0Sm9ic1Jlc3BvbnNlEisKBGpvYnMY",
+            "ASADKAsyHS55YW5kZXguY2xvdWQuZGF0YXByb2MudjEuSm9iEhcKD25leHRf",
+            "cGFnZV90b2tlbhgCIAEoCSLfAgoQQ3JlYXRlSm9iUmVxdWVzdBIgCgpjbHVz",
+            "dGVyX2lkGAEgASgJQgzoxzEBisgxBDw9NTASLwoEbmFtZRgCIAEoCUIh8scx",
+            "HXxbYS16XVstYS16MC05XXsxLDYxfVthLXowLTldEj8KDW1hcHJlZHVjZV9q",
+            "b2IYAyABKAsyJi55YW5kZXguY2xvdWQuZGF0YXByb2MudjEuTWFwcmVkdWNl",
+            "Sm9iSAASNwoJc3Bhcmtfam9iGAQgASgLMiIueWFuZGV4LmNsb3VkLmRhdGFw",
+            "cm9jLnYxLlNwYXJrSm9iSAASOwoLcHlzcGFya19qb2IYBSABKAsyJC55YW5k",
+            "ZXguY2xvdWQuZGF0YXByb2MudjEuUHlzcGFya0pvYkgAEjUKCGhpdmVfam9i",
+            "GAYgASgLMiEueWFuZGV4LmNsb3VkLmRhdGFwcm9jLnYxLkhpdmVKb2JIAEIK",
+            "Cghqb2Jfc3BlYyJPChFDcmVhdGVKb2JNZXRhZGF0YRIgCgpjbHVzdGVyX2lk",
+            "GAEgASgJQgzoxzEBisgxBDw9NTASGAoGam9iX2lkGAIgASgJQgiKyDEEPD01",
+            "MCKQAQoRTGlzdEpvYkxvZ1JlcXVlc3QSIAoKY2x1c3Rlcl9pZBgBIAEoCUIM",
+            "6McxAYrIMQQ8PTUwEhgKBmpvYl9pZBgCIAEoCUIIisgxBDw9NTASIAoJcGFn",
+            "ZV9zaXplGAMgASgDQg36xzEJPD0xMDQ4NTc2Eh0KCnBhZ2VfdG9rZW4YBCAB",
+            "KAlCCYrIMQU8PTEwMCI+ChJMaXN0Sm9iTG9nUmVzcG9uc2USDwoHY29udGVu",
+            "dBgBIAEoCRIXCg9uZXh0X3BhZ2VfdG9rZW4YAiABKAky9wQKCkpvYlNlcnZp",
+            "Y2USjgEKBExpc3QSKS55YW5kZXguY2xvdWQuZGF0YXByb2MudjEuTGlzdEpv",
+            "YnNSZXF1ZXN0GioueWFuZGV4LmNsb3VkLmRhdGFwcm9jLnYxLkxpc3RKb2Jz",
+            "UmVzcG9uc2UiL4LT5JMCKRInL2RhdGFwcm9jL3YxL2NsdXN0ZXJzL3tjbHVz",
+            "dGVyX2lkfS9qb2JzEqcBCgZDcmVhdGUSKi55YW5kZXguY2xvdWQuZGF0YXBy",
+            "b2MudjEuQ3JlYXRlSm9iUmVxdWVzdBohLnlhbmRleC5jbG91ZC5vcGVyYXRp",
+            "b24uT3BlcmF0aW9uIk6C0+STAiwiJy9kYXRhcHJvYy92MS9jbHVzdGVycy97",
+            "Y2x1c3Rlcl9pZH0vam9iczoBKrLSKhgKEUNyZWF0ZUpvYk1ldGFkYXRhEgNK",
+            "b2IShwEKA0dldBInLnlhbmRleC5jbG91ZC5kYXRhcHJvYy52MS5HZXRKb2JS",
+            "ZXF1ZXN0Gh0ueWFuZGV4LmNsb3VkLmRhdGFwcm9jLnYxLkpvYiI4gtPkkwIy",
+            "EjAvZGF0YXByb2MvdjEvY2x1c3RlcnMve2NsdXN0ZXJfaWR9L2pvYnMve2pv",
+            "Yl9pZH0SowEKB0xpc3RMb2cSKy55YW5kZXguY2xvdWQuZGF0YXByb2MudjEu",
+            "TGlzdEpvYkxvZ1JlcXVlc3QaLC55YW5kZXguY2xvdWQuZGF0YXByb2MudjEu",
+            "TGlzdEpvYkxvZ1Jlc3BvbnNlIj2C0+STAjcSNS9kYXRhcHJvYy92MS9jbHVz",
+            "dGVycy97Y2x1c3Rlcl9pZH0vam9icy97am9iX2lkfTpsb2dzQmsKHHlhbmRl",
+            "eC5jbG91ZC5hcGkuZGF0YXByb2MudjFCBFBISlNaRWdpdGh1Yi5jb20veWFu",
+            "ZGV4LWNsb3VkL2dvLWdlbnByb3RvL3lhbmRleC9jbG91ZC9kYXRhcHJvYy92",
+            "MTtkYXRhcHJvY2IGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Yandex.Cloud.Dataproc.V1.JobReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, global::Yandex.Cloud.Api.OperationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
@@ -66,7 +75,9 @@ namespace Yandex.Cloud.Dataproc.V1 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.ListJobsRequest), global::Yandex.Cloud.Dataproc.V1.ListJobsRequest.Parser, new[]{ "ClusterId", "PageSize", "PageToken", "Filter" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.ListJobsResponse), global::Yandex.Cloud.Dataproc.V1.ListJobsResponse.Parser, new[]{ "Jobs", "NextPageToken" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.CreateJobRequest), global::Yandex.Cloud.Dataproc.V1.CreateJobRequest.Parser, new[]{ "ClusterId", "Name", "MapreduceJob", "SparkJob", "PysparkJob", "HiveJob" }, new[]{ "JobSpec" }, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.CreateJobMetadata), global::Yandex.Cloud.Dataproc.V1.CreateJobMetadata.Parser, new[]{ "ClusterId", "JobId" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.CreateJobMetadata), global::Yandex.Cloud.Dataproc.V1.CreateJobMetadata.Parser, new[]{ "ClusterId", "JobId" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.ListJobLogRequest), global::Yandex.Cloud.Dataproc.V1.ListJobLogRequest.Parser, new[]{ "ClusterId", "JobId", "PageSize", "PageToken" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.ListJobLogResponse), global::Yandex.Cloud.Dataproc.V1.ListJobLogResponse.Parser, new[]{ "Content", "NextPageToken" }, null, null, null)
           }));
     }
     #endregion
@@ -112,7 +123,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
     public const int ClusterIdFieldNumber = 1;
     private string clusterId_ = "";
     /// <summary>
-    /// Required. ID of the Dataproc cluster.
+    /// ID of the cluster to request a job from.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ClusterId {
@@ -126,7 +137,9 @@ namespace Yandex.Cloud.Dataproc.V1 {
     public const int JobIdFieldNumber = 2;
     private string jobId_ = "";
     /// <summary>
-    /// Required. ID of the Dataproc job to return.
+    /// ID of the job to return.
+    ///
+    /// To get a job ID make a [JobService.List] request.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string JobId {
@@ -277,7 +290,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
     public const int ClusterIdFieldNumber = 1;
     private string clusterId_ = "";
     /// <summary>
-    /// Required. ID of the cluster to list Dataproc jobs of.
+    /// ID of the cluster to list jobs for.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ClusterId {
@@ -291,10 +304,10 @@ namespace Yandex.Cloud.Dataproc.V1 {
     public const int PageSizeFieldNumber = 2;
     private long pageSize_;
     /// <summary>
-    /// The maximum number of results per page that should be returned. If the number of available
-    /// results is larger than `page_size`, the service returns a `next_page_token` that can be used
-    /// to get the next page of results in subsequent ListJobs requests.
-    /// Acceptable values are 0 to 1000, inclusive. Default value: 100.
+    /// The maximum number of results per page to return. If the number of available
+    /// results is larger than [page_size], the service returns a [ListJobsResponse.next_page_token]
+    /// that can be used to get the next page of results in subsequent list requests.
+    /// Default value: 100.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long PageSize {
@@ -308,8 +321,8 @@ namespace Yandex.Cloud.Dataproc.V1 {
     public const int PageTokenFieldNumber = 3;
     private string pageToken_ = "";
     /// <summary>
-    /// Page token. Set `page_token` to the `next_page_token` returned by a previous ListJobs
-    /// request to get the next page of results.
+    /// Page token. To get the next page of results, set `page_token` to the
+    /// [ListJobsResponse.next_page_token] returned by a previous list request.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string PageToken {
@@ -323,7 +336,13 @@ namespace Yandex.Cloud.Dataproc.V1 {
     public const int FilterFieldNumber = 4;
     private string filter_ = "";
     /// <summary>
-    /// String that describes a display filter.
+    /// A filter expression that filters jobs listed in the response.
+    ///
+    /// The expression must specify:
+    /// 1. The field name. Currently you can use filtering only on [Job.name] field.
+    /// 2. An operator. Can be either `=` or `!=` for single values, `IN` or `NOT IN` for lists of values.
+    /// 3. The value. Must be 3-63 characters long and match the regular expression `^[a-z][-a-z0-9]{1,61}[a-z0-9].
+    /// Example of a filter: `name=my-job`.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Filter {
@@ -506,7 +525,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
         = pb::FieldCodec.ForMessage(10, global::Yandex.Cloud.Dataproc.V1.Job.Parser);
     private readonly pbc::RepeatedField<global::Yandex.Cloud.Dataproc.V1.Job> jobs_ = new pbc::RepeatedField<global::Yandex.Cloud.Dataproc.V1.Job>();
     /// <summary>
-    /// Requested list of Dataproc jobs.
+    /// List of jobs for the specified cluster.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::RepeatedField<global::Yandex.Cloud.Dataproc.V1.Job> Jobs {
@@ -517,11 +536,11 @@ namespace Yandex.Cloud.Dataproc.V1 {
     public const int NextPageTokenFieldNumber = 2;
     private string nextPageToken_ = "";
     /// <summary>
-    /// This token allows you to get the next page of results for ListJobs requests,
-    /// if the number of results is larger than `page_size` specified in the request.
-    /// To get the next page, specify the value of `next_page_token` as a value for
-    /// the `page_token` parameter in the next ListClusters request. Subsequent ListClusters
-    /// requests will have their own `next_page_token` to continue paging through the results.
+    /// Token for getting the next page of the list. If the number of results is greater than
+    /// the specified [ListJobsRequest.page_size], use `next_page_token` as the value
+    /// for the [ListJobsRequest.page_token] parameter in the next list request.
+    ///
+    /// Each subsequent page will have its own `next_page_token` to continue paging through the results.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string NextPageToken {
@@ -678,7 +697,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
     public const int ClusterIdFieldNumber = 1;
     private string clusterId_ = "";
     /// <summary>
-    /// Required. ID of the cluster to create Dataproc job in.
+    /// ID of the cluster to create a job for.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ClusterId {
@@ -692,7 +711,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
     public const int NameFieldNumber = 2;
     private string name_ = "";
     /// <summary>
-    /// Optional. Name of the job.
+    /// Name of the job.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Name {
@@ -704,6 +723,9 @@ namespace Yandex.Cloud.Dataproc.V1 {
 
     /// <summary>Field number for the "mapreduce_job" field.</summary>
     public const int MapreduceJobFieldNumber = 3;
+    /// <summary>
+    /// Specification for a MapReduce job.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Dataproc.V1.MapreduceJob MapreduceJob {
       get { return jobSpecCase_ == JobSpecOneofCase.MapreduceJob ? (global::Yandex.Cloud.Dataproc.V1.MapreduceJob) jobSpec_ : null; }
@@ -715,6 +737,9 @@ namespace Yandex.Cloud.Dataproc.V1 {
 
     /// <summary>Field number for the "spark_job" field.</summary>
     public const int SparkJobFieldNumber = 4;
+    /// <summary>
+    /// Specification for a Spark job.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Dataproc.V1.SparkJob SparkJob {
       get { return jobSpecCase_ == JobSpecOneofCase.SparkJob ? (global::Yandex.Cloud.Dataproc.V1.SparkJob) jobSpec_ : null; }
@@ -726,6 +751,9 @@ namespace Yandex.Cloud.Dataproc.V1 {
 
     /// <summary>Field number for the "pyspark_job" field.</summary>
     public const int PysparkJobFieldNumber = 5;
+    /// <summary>
+    /// Specification for a PySpark job.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Dataproc.V1.PysparkJob PysparkJob {
       get { return jobSpecCase_ == JobSpecOneofCase.PysparkJob ? (global::Yandex.Cloud.Dataproc.V1.PysparkJob) jobSpec_ : null; }
@@ -737,6 +765,9 @@ namespace Yandex.Cloud.Dataproc.V1 {
 
     /// <summary>Field number for the "hive_job" field.</summary>
     public const int HiveJobFieldNumber = 6;
+    /// <summary>
+    /// Specification for a Hive job.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Dataproc.V1.HiveJob HiveJob {
       get { return jobSpecCase_ == JobSpecOneofCase.HiveJob ? (global::Yandex.Cloud.Dataproc.V1.HiveJob) jobSpec_ : null; }
@@ -1007,7 +1038,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
     public const int ClusterIdFieldNumber = 1;
     private string clusterId_ = "";
     /// <summary>
-    /// ID of the Dataproc cluster.
+    /// ID of the cluster that the job is being created for.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ClusterId {
@@ -1021,7 +1052,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
     public const int JobIdFieldNumber = 2;
     private string jobId_ = "";
     /// <summary>
-    /// ID of the Dataproc job.
+    /// ID of the job being created.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string JobId {
@@ -1123,6 +1154,402 @@ namespace Yandex.Cloud.Dataproc.V1 {
           }
           case 18: {
             JobId = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  internal sealed partial class ListJobLogRequest : pb::IMessage<ListJobLogRequest> {
+    private static readonly pb::MessageParser<ListJobLogRequest> _parser = new pb::MessageParser<ListJobLogRequest>(() => new ListJobLogRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<ListJobLogRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Dataproc.V1.JobServiceReflection.Descriptor.MessageTypes[5]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ListJobLogRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ListJobLogRequest(ListJobLogRequest other) : this() {
+      clusterId_ = other.clusterId_;
+      jobId_ = other.jobId_;
+      pageSize_ = other.pageSize_;
+      pageToken_ = other.pageToken_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ListJobLogRequest Clone() {
+      return new ListJobLogRequest(this);
+    }
+
+    /// <summary>Field number for the "cluster_id" field.</summary>
+    public const int ClusterIdFieldNumber = 1;
+    private string clusterId_ = "";
+    /// <summary>
+    /// ID of the cluster that the job is being created for.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ClusterId {
+      get { return clusterId_; }
+      set {
+        clusterId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "job_id" field.</summary>
+    public const int JobIdFieldNumber = 2;
+    private string jobId_ = "";
+    /// <summary>
+    /// ID of the job being created.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string JobId {
+      get { return jobId_; }
+      set {
+        jobId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "page_size" field.</summary>
+    public const int PageSizeFieldNumber = 3;
+    private long pageSize_;
+    /// <summary>
+    /// The maximum bytes of job log per response to return. If the number of available
+    /// bytes is larger than [page_size], the service returns a [ListJobLogResponse.next_page_token]
+    /// that can be used to get the next page of output in subsequent list requests.
+    /// Default value: 1048576.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long PageSize {
+      get { return pageSize_; }
+      set {
+        pageSize_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "page_token" field.</summary>
+    public const int PageTokenFieldNumber = 4;
+    private string pageToken_ = "";
+    /// <summary>
+    /// Page token. To get the next page of results, set `page_token` to the
+    /// [ListJobLogResponse.next_page_token] returned by a previous list request.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string PageToken {
+      get { return pageToken_; }
+      set {
+        pageToken_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as ListJobLogRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(ListJobLogRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (ClusterId != other.ClusterId) return false;
+      if (JobId != other.JobId) return false;
+      if (PageSize != other.PageSize) return false;
+      if (PageToken != other.PageToken) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (ClusterId.Length != 0) hash ^= ClusterId.GetHashCode();
+      if (JobId.Length != 0) hash ^= JobId.GetHashCode();
+      if (PageSize != 0L) hash ^= PageSize.GetHashCode();
+      if (PageToken.Length != 0) hash ^= PageToken.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (ClusterId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(ClusterId);
+      }
+      if (JobId.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(JobId);
+      }
+      if (PageSize != 0L) {
+        output.WriteRawTag(24);
+        output.WriteInt64(PageSize);
+      }
+      if (PageToken.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(PageToken);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (ClusterId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ClusterId);
+      }
+      if (JobId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(JobId);
+      }
+      if (PageSize != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(PageSize);
+      }
+      if (PageToken.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(PageToken);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(ListJobLogRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.ClusterId.Length != 0) {
+        ClusterId = other.ClusterId;
+      }
+      if (other.JobId.Length != 0) {
+        JobId = other.JobId;
+      }
+      if (other.PageSize != 0L) {
+        PageSize = other.PageSize;
+      }
+      if (other.PageToken.Length != 0) {
+        PageToken = other.PageToken;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            ClusterId = input.ReadString();
+            break;
+          }
+          case 18: {
+            JobId = input.ReadString();
+            break;
+          }
+          case 24: {
+            PageSize = input.ReadInt64();
+            break;
+          }
+          case 34: {
+            PageToken = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  internal sealed partial class ListJobLogResponse : pb::IMessage<ListJobLogResponse> {
+    private static readonly pb::MessageParser<ListJobLogResponse> _parser = new pb::MessageParser<ListJobLogResponse>(() => new ListJobLogResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<ListJobLogResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Dataproc.V1.JobServiceReflection.Descriptor.MessageTypes[6]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ListJobLogResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ListJobLogResponse(ListJobLogResponse other) : this() {
+      content_ = other.content_;
+      nextPageToken_ = other.nextPageToken_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ListJobLogResponse Clone() {
+      return new ListJobLogResponse(this);
+    }
+
+    /// <summary>Field number for the "content" field.</summary>
+    public const int ContentFieldNumber = 1;
+    private string content_ = "";
+    /// <summary>
+    /// Requested part of Data Proc Job log.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Content {
+      get { return content_; }
+      set {
+        content_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "next_page_token" field.</summary>
+    public const int NextPageTokenFieldNumber = 2;
+    private string nextPageToken_ = "";
+    /// <summary>
+    /// This token allows you to get the next page of results for ListLog requests,
+    /// if the number of results is larger than `page_size` specified in the request.
+    /// To get the next page, specify the value of `next_page_token` as a value for
+    /// the `page_token` parameter in the next ListLog request. Subsequent ListLog
+    /// requests will have their own `next_page_token` to continue paging through the results.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string NextPageToken {
+      get { return nextPageToken_; }
+      set {
+        nextPageToken_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as ListJobLogResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(ListJobLogResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Content != other.Content) return false;
+      if (NextPageToken != other.NextPageToken) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Content.Length != 0) hash ^= Content.GetHashCode();
+      if (NextPageToken.Length != 0) hash ^= NextPageToken.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (Content.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Content);
+      }
+      if (NextPageToken.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(NextPageToken);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Content.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Content);
+      }
+      if (NextPageToken.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(NextPageToken);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(ListJobLogResponse other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Content.Length != 0) {
+        Content = other.Content;
+      }
+      if (other.NextPageToken.Length != 0) {
+        NextPageToken = other.NextPageToken;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Content = input.ReadString();
+            break;
+          }
+          case 18: {
+            NextPageToken = input.ReadString();
             break;
           }
         }

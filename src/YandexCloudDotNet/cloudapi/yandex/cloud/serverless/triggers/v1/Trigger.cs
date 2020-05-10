@@ -28,59 +28,97 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
             "LnByb3RvEiN5YW5kZXguY2xvdWQuc2VydmVybGVzcy50cmlnZ2Vycy52MRoe",
             "Z29vZ2xlL3Byb3RvYnVmL2R1cmF0aW9uLnByb3RvGh9nb29nbGUvcHJvdG9i",
             "dWYvdGltZXN0YW1wLnByb3RvGh15YW5kZXgvY2xvdWQvdmFsaWRhdGlvbi5w",
-            "cm90byLkCQoHVHJpZ2dlchIKCgJpZBgBIAEoCRIfCglmb2xkZXJfaWQYAiAB",
+            "cm90byKdFAoHVHJpZ2dlchIKCgJpZBgBIAEoCRIfCglmb2xkZXJfaWQYAiAB",
             "KAlCDOjHMQGKyDEEPD01MBIuCgpjcmVhdGVkX2F0GAMgASgLMhouZ29vZ2xl",
-            "LnByb3RvYnVmLlRpbWVzdGFtcBISCgRuYW1lGAQgASgJQgToxzEBEhMKC2Rl",
-            "c2NyaXB0aW9uGAUgASgJEkgKBmxhYmVscxgGIAMoCzI4LnlhbmRleC5jbG91",
-            "ZC5zZXJ2ZXJsZXNzLnRyaWdnZXJzLnYxLlRyaWdnZXIuTGFiZWxzRW50cnkS",
-            "RQoEcnVsZRgIIAEoCzIxLnlhbmRleC5jbG91ZC5zZXJ2ZXJsZXNzLnRyaWdn",
-            "ZXJzLnYxLlRyaWdnZXIuUnVsZUIE6McxARotCgtMYWJlbHNFbnRyeRILCgNr",
-            "ZXkYASABKAkSDQoFdmFsdWUYAiABKAk6AjgBGv0BCgRSdWxlEkMKBXRpbWVy",
-            "GAIgASgLMjIueWFuZGV4LmNsb3VkLnNlcnZlcmxlc3MudHJpZ2dlcnMudjEu",
-            "VHJpZ2dlci5UaW1lckgAElIKDW1lc3NhZ2VfcXVldWUYAyABKAsyOS55YW5k",
-            "ZXguY2xvdWQuc2VydmVybGVzcy50cmlnZ2Vycy52MS5UcmlnZ2VyLk1lc3Nh",
-            "Z2VRdWV1ZUgAEk4KC2lvdF9tZXNzYWdlGAQgASgLMjcueWFuZGV4LmNsb3Vk",
-            "LnNlcnZlcmxlc3MudHJpZ2dlcnMudjEuVHJpZ2dlci5Jb1RNZXNzYWdlSABC",
-            "DAoEcnVsZRIEwMExARqTAQoFVGltZXISJgoPY3Jvbl9leHByZXNzaW9uGAEg",
-            "ASgJQg3oxzEBisgxBTw9MTAwElIKD2ludm9rZV9mdW5jdGlvbhhlIAEoCzI3",
-            "LnlhbmRleC5jbG91ZC5zZXJ2ZXJsZXNzLnRyaWdnZXJzLnYxLkludm9rZUZ1",
-            "bmN0aW9uT25jZUgAQg4KBmFjdGlvbhIEwMExARrCAgoMTWVzc2FnZVF1ZXVl",
-            "EhAKCHF1ZXVlX2lkGAsgASgJEigKEnNlcnZpY2VfYWNjb3VudF9pZBgDIAEo",
-            "CUIM6McxAYrIMQQ8PTUwElAKDmJhdGNoX3NldHRpbmdzGAQgASgLMjIueWFu",
-            "ZGV4LmNsb3VkLnNlcnZlcmxlc3MudHJpZ2dlcnMudjEuQmF0Y2hTZXR0aW5n",
-            "c0IE6McxARJAChJ2aXNpYmlsaXR5X3RpbWVvdXQYBSABKAsyGS5nb29nbGUu",
-            "cHJvdG9idWYuRHVyYXRpb25CCfrHMQU8PTEyaBJSCg9pbnZva2VfZnVuY3Rp",
-            "b24YZSABKAsyNy55YW5kZXguY2xvdWQuc2VydmVybGVzcy50cmlnZ2Vycy52",
-            "MS5JbnZva2VGdW5jdGlvbk9uY2VIAEIOCgZhY3Rpb24SBMDBMQEatwEKCklv",
-            "VE1lc3NhZ2USGQoLcmVnaXN0cnlfaWQYASABKAlCBOjHMQESEQoJZGV2aWNl",
-            "X2lkGAIgASgJEhIKCm1xdHRfdG9waWMYAyABKAkSVwoPaW52b2tlX2Z1bmN0",
-            "aW9uGGUgASgLMjwueWFuZGV4LmNsb3VkLnNlcnZlcmxlc3MudHJpZ2dlcnMu",
-            "djEuSW52b2tlRnVuY3Rpb25XaXRoUmV0cnlIAEIOCgZhY3Rpb24SBMDBMQEi",
-            "aQoSSW52b2tlRnVuY3Rpb25PbmNlEiEKC2Z1bmN0aW9uX2lkGAEgASgJQgzo",
-            "xzEBisgxBDw9NTASFAoMZnVuY3Rpb25fdGFnGAIgASgJEhoKEnNlcnZpY2Vf",
-            "YWNjb3VudF9pZBgDIAEoCSK6AQoXSW52b2tlRnVuY3Rpb25XaXRoUmV0cnkS",
-            "IQoLZnVuY3Rpb25faWQYASABKAlCDOjHMQGKyDEEPD01MBIUCgxmdW5jdGlv",
-            "bl90YWcYAiABKAkSGgoSc2VydmljZV9hY2NvdW50X2lkGAMgASgJEkoKDnJl",
-            "dHJ5X3NldHRpbmdzGAQgASgLMjIueWFuZGV4LmNsb3VkLnNlcnZlcmxlc3Mu",
-            "dHJpZ2dlcnMudjEuUmV0cnlTZXR0aW5ncyJYCg1CYXRjaFNldHRpbmdzEhYK",
-            "BHNpemUYASABKANCCPrHMQQwLTEwEi8KBmN1dG9mZhgCIAEoCzIZLmdvb2ds",
-            "ZS5wcm90b2J1Zi5EdXJhdGlvbkIE6McxASJjCg1SZXRyeVNldHRpbmdzEh8K",
-            "DnJldHJ5X2F0dGVtcHRzGAEgASgDQgf6xzEDMS01EjEKCGludGVydmFsGAIg",
-            "ASgLMhkuZ29vZ2xlLnByb3RvYnVmLkR1cmF0aW9uQgToxzEBKloKC1RyaWdn",
-            "ZXJUeXBlEhwKGFRSSUdHRVJfVFlQRV9VTlNQRUNJRklFRBAAEgkKBVRJTUVS",
-            "EAISEQoNTUVTU0FHRV9RVUVVRRADEg8KC0lPVF9NRVNTQUdFEARCewoneWFu",
-            "ZGV4LmNsb3VkLmFwaS5zZXJ2ZXJsZXNzLnRyaWdnZXJzLnYxWlBnaXRodWIu",
-            "Y29tL3lhbmRleC1jbG91ZC9nby1nZW5wcm90by95YW5kZXgvY2xvdWQvc2Vy",
-            "dmVybGVzcy90cmlnZ2Vycy92MTt0cmlnZ2Vyc2IGcHJvdG8z"));
+            "LnByb3RvYnVmLlRpbWVzdGFtcBIWCgRuYW1lGAQgASgJQgiKyDEEMy02MxIe",
+            "CgtkZXNjcmlwdGlvbhgFIAEoCUIJisgxBTAtMjU2EkgKBmxhYmVscxgGIAMo",
+            "CzI4LnlhbmRleC5jbG91ZC5zZXJ2ZXJsZXNzLnRyaWdnZXJzLnYxLlRyaWdn",
+            "ZXIuTGFiZWxzRW50cnkSRQoEcnVsZRgIIAEoCzIxLnlhbmRleC5jbG91ZC5z",
+            "ZXJ2ZXJsZXNzLnRyaWdnZXJzLnYxLlRyaWdnZXIuUnVsZUIE6McxARotCgtM",
+            "YWJlbHNFbnRyeRILCgNrZXkYASABKAkSDQoFdmFsdWUYAiABKAk6AjgBGrED",
+            "CgRSdWxlEkMKBXRpbWVyGAIgASgLMjIueWFuZGV4LmNsb3VkLnNlcnZlcmxl",
+            "c3MudHJpZ2dlcnMudjEuVHJpZ2dlci5UaW1lckgAElIKDW1lc3NhZ2VfcXVl",
+            "dWUYAyABKAsyOS55YW5kZXguY2xvdWQuc2VydmVybGVzcy50cmlnZ2Vycy52",
+            "MS5UcmlnZ2VyLk1lc3NhZ2VRdWV1ZUgAEk4KC2lvdF9tZXNzYWdlGAQgASgL",
+            "MjcueWFuZGV4LmNsb3VkLnNlcnZlcmxlc3MudHJpZ2dlcnMudjEuVHJpZ2dl",
+            "ci5Jb1RNZXNzYWdlSAASVAoOb2JqZWN0X3N0b3JhZ2UYBSABKAsyOi55YW5k",
+            "ZXguY2xvdWQuc2VydmVybGVzcy50cmlnZ2Vycy52MS5UcmlnZ2VyLk9iamVj",
+            "dFN0b3JhZ2VIABJcChJjb250YWluZXJfcmVnaXN0cnkYBiABKAsyPi55YW5k",
+            "ZXguY2xvdWQuc2VydmVybGVzcy50cmlnZ2Vycy52MS5UcmlnZ2VyLkNvbnRh",
+            "aW5lclJlZ2lzdHJ5SABCDAoEcnVsZRIEwMExARr3AQoFVGltZXISJgoPY3Jv",
+            "bl9leHByZXNzaW9uGAEgASgJQg3oxzEBisgxBTw9MTAwElIKD2ludm9rZV9m",
+            "dW5jdGlvbhhlIAEoCzI3LnlhbmRleC5jbG91ZC5zZXJ2ZXJsZXNzLnRyaWdn",
+            "ZXJzLnYxLkludm9rZUZ1bmN0aW9uT25jZUgAEmIKGmludm9rZV9mdW5jdGlv",
+            "bl93aXRoX3JldHJ5GGcgASgLMjwueWFuZGV4LmNsb3VkLnNlcnZlcmxlc3Mu",
+            "dHJpZ2dlcnMudjEuSW52b2tlRnVuY3Rpb25XaXRoUmV0cnlIAEIOCgZhY3Rp",
+            "b24SBMDBMQEayAIKDE1lc3NhZ2VRdWV1ZRIWCghxdWV1ZV9pZBgLIAEoCUIE",
+            "6McxARIoChJzZXJ2aWNlX2FjY291bnRfaWQYAyABKAlCDOjHMQGKyDEEPD01",
+            "MBJQCg5iYXRjaF9zZXR0aW5ncxgEIAEoCzIyLnlhbmRleC5jbG91ZC5zZXJ2",
+            "ZXJsZXNzLnRyaWdnZXJzLnYxLkJhdGNoU2V0dGluZ3NCBOjHMQESQAoSdmlz",
+            "aWJpbGl0eV90aW1lb3V0GAUgASgLMhkuZ29vZ2xlLnByb3RvYnVmLkR1cmF0",
+            "aW9uQgn6xzEFPD0xMmgSUgoPaW52b2tlX2Z1bmN0aW9uGGUgASgLMjcueWFu",
+            "ZGV4LmNsb3VkLnNlcnZlcmxlc3MudHJpZ2dlcnMudjEuSW52b2tlRnVuY3Rp",
+            "b25PbmNlSABCDgoGYWN0aW9uEgTAwTEBGrcBCgpJb1RNZXNzYWdlEhkKC3Jl",
+            "Z2lzdHJ5X2lkGAEgASgJQgToxzEBEhEKCWRldmljZV9pZBgCIAEoCRISCgpt",
+            "cXR0X3RvcGljGAMgASgJElcKD2ludm9rZV9mdW5jdGlvbhhlIAEoCzI8Lnlh",
+            "bmRleC5jbG91ZC5zZXJ2ZXJsZXNzLnRyaWdnZXJzLnYxLkludm9rZUZ1bmN0",
+            "aW9uV2l0aFJldHJ5SABCDgoGYWN0aW9uEgTAwTEBGowCCg1PYmplY3RTdG9y",
+            "YWdlEl8KCmV2ZW50X3R5cGUYAyADKA4yQy55YW5kZXguY2xvdWQuc2VydmVy",
+            "bGVzcy50cmlnZ2Vycy52MS5UcmlnZ2VyLk9iamVjdFN0b3JhZ2VFdmVudFR5",
+            "cGVCBoLIMQI+MBIRCglidWNrZXRfaWQYBCABKAkSDgoGcHJlZml4GAYgASgJ",
+            "Eg4KBnN1ZmZpeBgHIAEoCRJXCg9pbnZva2VfZnVuY3Rpb24YZSABKAsyPC55",
+            "YW5kZXguY2xvdWQuc2VydmVybGVzcy50cmlnZ2Vycy52MS5JbnZva2VGdW5j",
+            "dGlvbldpdGhSZXRyeUgAQg4KBmFjdGlvbhIEwMExARqXAgoRQ29udGFpbmVy",
+            "UmVnaXN0cnkSYwoKZXZlbnRfdHlwZRgDIAMoDjJHLnlhbmRleC5jbG91ZC5z",
+            "ZXJ2ZXJsZXNzLnRyaWdnZXJzLnYxLlRyaWdnZXIuQ29udGFpbmVyUmVnaXN0",
+            "cnlFdmVudFR5cGVCBoLIMQI+MBITCgtyZWdpc3RyeV9pZBgEIAEoCRISCgpp",
+            "bWFnZV9uYW1lGAUgASgJEgsKA3RhZxgGIAEoCRJXCg9pbnZva2VfZnVuY3Rp",
+            "b24YZSABKAsyPC55YW5kZXguY2xvdWQuc2VydmVybGVzcy50cmlnZ2Vycy52",
+            "MS5JbnZva2VGdW5jdGlvbldpdGhSZXRyeUgAQg4KBmFjdGlvbhIEwMExASLK",
+            "AQoWT2JqZWN0U3RvcmFnZUV2ZW50VHlwZRIpCiVPQkpFQ1RfU1RPUkFHRV9F",
+            "VkVOVF9UWVBFX1VOU1BFQ0lGSUVEEAASKwonT0JKRUNUX1NUT1JBR0VfRVZF",
+            "TlRfVFlQRV9DUkVBVEVfT0JKRUNUEAESKwonT0JKRUNUX1NUT1JBR0VfRVZF",
+            "TlRfVFlQRV9VUERBVEVfT0JKRUNUEAISKwonT0JKRUNUX1NUT1JBR0VfRVZF",
+            "TlRfVFlQRV9ERUxFVEVfT0JKRUNUEAMikwIKGkNvbnRhaW5lclJlZ2lzdHJ5",
+            "RXZlbnRUeXBlEi0KKUNPTlRBSU5FUl9SRUdJU1RSWV9FVkVOVF9UWVBFX1VO",
+            "U1BFQ0lGSUVEEAASLgoqQ09OVEFJTkVSX1JFR0lTVFJZX0VWRU5UX1RZUEVf",
+            "Q1JFQVRFX0lNQUdFEAESLgoqQ09OVEFJTkVSX1JFR0lTVFJZX0VWRU5UX1RZ",
+            "UEVfREVMRVRFX0lNQUdFEAISMgouQ09OVEFJTkVSX1JFR0lTVFJZX0VWRU5U",
+            "X1RZUEVfQ1JFQVRFX0lNQUdFX1RBRxADEjIKLkNPTlRBSU5FUl9SRUdJU1RS",
+            "WV9FVkVOVF9UWVBFX0RFTEVURV9JTUFHRV9UQUcQBCJpChJJbnZva2VGdW5j",
+            "dGlvbk9uY2USIQoLZnVuY3Rpb25faWQYASABKAlCDOjHMQGKyDEEPD01MBIU",
+            "CgxmdW5jdGlvbl90YWcYAiABKAkSGgoSc2VydmljZV9hY2NvdW50X2lkGAMg",
+            "ASgJIosCChdJbnZva2VGdW5jdGlvbldpdGhSZXRyeRIhCgtmdW5jdGlvbl9p",
+            "ZBgBIAEoCUIM6McxAYrIMQQ8PTUwEhQKDGZ1bmN0aW9uX3RhZxgCIAEoCRIa",
+            "ChJzZXJ2aWNlX2FjY291bnRfaWQYAyABKAkSSgoOcmV0cnlfc2V0dGluZ3MY",
+            "BCABKAsyMi55YW5kZXguY2xvdWQuc2VydmVybGVzcy50cmlnZ2Vycy52MS5S",
+            "ZXRyeVNldHRpbmdzEk8KEWRlYWRfbGV0dGVyX3F1ZXVlGAUgASgLMjQueWFu",
+            "ZGV4LmNsb3VkLnNlcnZlcmxlc3MudHJpZ2dlcnMudjEuUHV0UXVldWVNZXNz",
+            "YWdlIk0KD1B1dFF1ZXVlTWVzc2FnZRIQCghxdWV1ZV9pZBgLIAEoCRIoChJz",
+            "ZXJ2aWNlX2FjY291bnRfaWQYAiABKAlCDOjHMQGKyDEEPD01MCJYCg1CYXRj",
+            "aFNldHRpbmdzEhYKBHNpemUYASABKANCCPrHMQQwLTEwEi8KBmN1dG9mZhgC",
+            "IAEoCzIZLmdvb2dsZS5wcm90b2J1Zi5EdXJhdGlvbkIE6McxASJjCg1SZXRy",
+            "eVNldHRpbmdzEh8KDnJldHJ5X2F0dGVtcHRzGAEgASgDQgf6xzEDMS01EjEK",
+            "CGludGVydmFsGAIgASgLMhkuZ29vZ2xlLnByb3RvYnVmLkR1cmF0aW9uQgTo",
+            "xzEBKoYBCgtUcmlnZ2VyVHlwZRIcChhUUklHR0VSX1RZUEVfVU5TUEVDSUZJ",
+            "RUQQABIJCgVUSU1FUhACEhEKDU1FU1NBR0VfUVVFVUUQAxIPCgtJT1RfTUVT",
+            "U0FHRRAEEhIKDk9CSkVDVF9TVE9SQUdFEAUSFgoSQ09OVEFJTkVSX1JFR0lT",
+            "VFJZEAZCewoneWFuZGV4LmNsb3VkLmFwaS5zZXJ2ZXJsZXNzLnRyaWdnZXJz",
+            "LnYxWlBnaXRodWIuY29tL3lhbmRleC1jbG91ZC9nby1nZW5wcm90by95YW5k",
+            "ZXgvY2xvdWQvc2VydmVybGVzcy90cmlnZ2Vycy92MTt0cmlnZ2Vyc2IGcHJv",
+            "dG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.DurationReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Yandex.Cloud.Serverless.Triggers.V1.TriggerType), }, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Triggers.V1.Trigger), global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Parser, new[]{ "Id", "FolderId", "CreatedAt", "Name", "Description", "Labels", "Rule" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.Rule), global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.Rule.Parser, new[]{ "Timer", "MessageQueue", "IotMessage" }, new[]{ "Rule" }, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.Timer), global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.Timer.Parser, new[]{ "CronExpression", "InvokeFunction" }, new[]{ "Action" }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Triggers.V1.Trigger), global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Parser, new[]{ "Id", "FolderId", "CreatedAt", "Name", "Description", "Labels", "Rule" }, null, new[]{ typeof(global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.ObjectStorageEventType), typeof(global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.ContainerRegistryEventType) }, new pbr::GeneratedClrTypeInfo[] { null, new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.Rule), global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.Rule.Parser, new[]{ "Timer", "MessageQueue", "IotMessage", "ObjectStorage", "ContainerRegistry" }, new[]{ "Rule" }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.Timer), global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.Timer.Parser, new[]{ "CronExpression", "InvokeFunction", "InvokeFunctionWithRetry" }, new[]{ "Action" }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.MessageQueue), global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.MessageQueue.Parser, new[]{ "QueueId", "ServiceAccountId", "BatchSettings", "VisibilityTimeout", "InvokeFunction" }, new[]{ "Action" }, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.IoTMessage), global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.IoTMessage.Parser, new[]{ "RegistryId", "DeviceId", "MqttTopic", "InvokeFunction" }, new[]{ "Action" }, null, null)}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.IoTMessage), global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.IoTMessage.Parser, new[]{ "RegistryId", "DeviceId", "MqttTopic", "InvokeFunction" }, new[]{ "Action" }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.ObjectStorage), global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.ObjectStorage.Parser, new[]{ "EventType", "BucketId", "Prefix", "Suffix", "InvokeFunction" }, new[]{ "Action" }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.ContainerRegistry), global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.ContainerRegistry.Parser, new[]{ "EventType", "RegistryId", "ImageName", "Tag", "InvokeFunction" }, new[]{ "Action" }, null, null)}),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Triggers.V1.InvokeFunctionOnce), global::Yandex.Cloud.Serverless.Triggers.V1.InvokeFunctionOnce.Parser, new[]{ "FunctionId", "FunctionTag", "ServiceAccountId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Triggers.V1.InvokeFunctionWithRetry), global::Yandex.Cloud.Serverless.Triggers.V1.InvokeFunctionWithRetry.Parser, new[]{ "FunctionId", "FunctionTag", "ServiceAccountId", "RetrySettings" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Triggers.V1.InvokeFunctionWithRetry), global::Yandex.Cloud.Serverless.Triggers.V1.InvokeFunctionWithRetry.Parser, new[]{ "FunctionId", "FunctionTag", "ServiceAccountId", "RetrySettings", "DeadLetterQueue" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Triggers.V1.PutQueueMessage), global::Yandex.Cloud.Serverless.Triggers.V1.PutQueueMessage.Parser, new[]{ "QueueId", "ServiceAccountId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Triggers.V1.BatchSettings), global::Yandex.Cloud.Serverless.Triggers.V1.BatchSettings.Parser, new[]{ "Size", "Cutoff" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Triggers.V1.RetrySettings), global::Yandex.Cloud.Serverless.Triggers.V1.RetrySettings.Parser, new[]{ "RetryAttempts", "Interval" }, null, null, null)
           }));
@@ -91,14 +129,30 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
   #region Enums
   internal enum TriggerType {
     [pbr::OriginalName("TRIGGER_TYPE_UNSPECIFIED")] Unspecified = 0,
+    /// <summary>
+    /// The trigger is activated on a timer.
+    /// </summary>
     [pbr::OriginalName("TIMER")] Timer = 2,
+    /// <summary>
+    /// The trigger is activated by messages from a message queue.
+    ///
+    /// Only Yandex Message Queue is currently supported.
+    /// </summary>
     [pbr::OriginalName("MESSAGE_QUEUE")] MessageQueue = 3,
+    /// <summary>
+    /// The trigger is activated by messages from Yandex IoT Core.
+    /// </summary>
     [pbr::OriginalName("IOT_MESSAGE")] IotMessage = 4,
+    [pbr::OriginalName("OBJECT_STORAGE")] ObjectStorage = 5,
+    [pbr::OriginalName("CONTAINER_REGISTRY")] ContainerRegistry = 6,
   }
 
   #endregion
 
   #region Messages
+  /// <summary>
+  /// A trigger to invoke a serverless function. For more information, see [Triggers](/docs/functions/concepts/trigger).
+  /// </summary>
   internal sealed partial class Trigger : pb::IMessage<Trigger> {
     private static readonly pb::MessageParser<Trigger> _parser = new pb::MessageParser<Trigger>(() => new Trigger());
     private pb::UnknownFieldSet _unknownFields;
@@ -143,7 +197,7 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
     public const int IdFieldNumber = 1;
     private string id_ = "";
     /// <summary>
-    /// ID of the trigger.
+    /// ID of the trigger. Generated at creation time.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Id {
@@ -171,7 +225,7 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
     public const int CreatedAtFieldNumber = 3;
     private global::Google.Protobuf.WellKnownTypes.Timestamp createdAt_;
     /// <summary>
-    /// Timestamp when the trigger was created.
+    /// Creation timestamp for the trigger.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Google.Protobuf.WellKnownTypes.Timestamp CreatedAt {
@@ -215,7 +269,7 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
         = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 50);
     private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
     /// <summary>
-    /// Resource labels as `key:value` pairs.
+    /// Trigger labels as `key:value` pairs.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::MapField<string, string> Labels {
@@ -226,7 +280,7 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
     public const int RuleFieldNumber = 8;
     private global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.Rule rule_;
     /// <summary>
-    /// Defines trigger rule (is always consistent with type filed)
+    /// Rule for trigger activation (always consistent with the trigger type).
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.Rule Rule {
@@ -423,6 +477,24 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
     /// <summary>Container for nested types declared in the Trigger message type.</summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static partial class Types {
+      internal enum ObjectStorageEventType {
+        [pbr::OriginalName("OBJECT_STORAGE_EVENT_TYPE_UNSPECIFIED")] Unspecified = 0,
+        [pbr::OriginalName("OBJECT_STORAGE_EVENT_TYPE_CREATE_OBJECT")] CreateObject = 1,
+        [pbr::OriginalName("OBJECT_STORAGE_EVENT_TYPE_UPDATE_OBJECT")] UpdateObject = 2,
+        [pbr::OriginalName("OBJECT_STORAGE_EVENT_TYPE_DELETE_OBJECT")] DeleteObject = 3,
+      }
+
+      internal enum ContainerRegistryEventType {
+        [pbr::OriginalName("CONTAINER_REGISTRY_EVENT_TYPE_UNSPECIFIED")] Unspecified = 0,
+        [pbr::OriginalName("CONTAINER_REGISTRY_EVENT_TYPE_CREATE_IMAGE")] CreateImage = 1,
+        [pbr::OriginalName("CONTAINER_REGISTRY_EVENT_TYPE_DELETE_IMAGE")] DeleteImage = 2,
+        [pbr::OriginalName("CONTAINER_REGISTRY_EVENT_TYPE_CREATE_IMAGE_TAG")] CreateImageTag = 3,
+        [pbr::OriginalName("CONTAINER_REGISTRY_EVENT_TYPE_DELETE_IMAGE_TAG")] DeleteImageTag = 4,
+      }
+
+      /// <summary>
+      /// Description of a rule for trigger activation.
+      /// </summary>
       internal sealed partial class Rule : pb::IMessage<Rule> {
         private static readonly pb::MessageParser<Rule> _parser = new pb::MessageParser<Rule>(() => new Rule());
         private pb::UnknownFieldSet _unknownFields;
@@ -458,6 +530,12 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
             case RuleOneofCase.IotMessage:
               IotMessage = other.IotMessage.Clone();
               break;
+            case RuleOneofCase.ObjectStorage:
+              ObjectStorage = other.ObjectStorage.Clone();
+              break;
+            case RuleOneofCase.ContainerRegistry:
+              ContainerRegistry = other.ContainerRegistry.Clone();
+              break;
           }
 
           _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
@@ -470,6 +548,9 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
 
         /// <summary>Field number for the "timer" field.</summary>
         public const int TimerFieldNumber = 2;
+        /// <summary>
+        /// Rule for a timed trigger.
+        /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.Timer Timer {
           get { return ruleCase_ == RuleOneofCase.Timer ? (global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.Timer) rule_ : null; }
@@ -481,6 +562,9 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
 
         /// <summary>Field number for the "message_queue" field.</summary>
         public const int MessageQueueFieldNumber = 3;
+        /// <summary>
+        /// Rule for a message queue trigger.
+        /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.MessageQueue MessageQueue {
           get { return ruleCase_ == RuleOneofCase.MessageQueue ? (global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.MessageQueue) rule_ : null; }
@@ -492,12 +576,37 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
 
         /// <summary>Field number for the "iot_message" field.</summary>
         public const int IotMessageFieldNumber = 4;
+        /// <summary>
+        /// Rule for a Yandex IoT Core trigger.
+        /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.IoTMessage IotMessage {
           get { return ruleCase_ == RuleOneofCase.IotMessage ? (global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.IoTMessage) rule_ : null; }
           set {
             rule_ = value;
             ruleCase_ = value == null ? RuleOneofCase.None : RuleOneofCase.IotMessage;
+          }
+        }
+
+        /// <summary>Field number for the "object_storage" field.</summary>
+        public const int ObjectStorageFieldNumber = 5;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.ObjectStorage ObjectStorage {
+          get { return ruleCase_ == RuleOneofCase.ObjectStorage ? (global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.ObjectStorage) rule_ : null; }
+          set {
+            rule_ = value;
+            ruleCase_ = value == null ? RuleOneofCase.None : RuleOneofCase.ObjectStorage;
+          }
+        }
+
+        /// <summary>Field number for the "container_registry" field.</summary>
+        public const int ContainerRegistryFieldNumber = 6;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.ContainerRegistry ContainerRegistry {
+          get { return ruleCase_ == RuleOneofCase.ContainerRegistry ? (global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.ContainerRegistry) rule_ : null; }
+          set {
+            rule_ = value;
+            ruleCase_ = value == null ? RuleOneofCase.None : RuleOneofCase.ContainerRegistry;
           }
         }
 
@@ -508,6 +617,8 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
           Timer = 2,
           MessageQueue = 3,
           IotMessage = 4,
+          ObjectStorage = 5,
+          ContainerRegistry = 6,
         }
         private RuleOneofCase ruleCase_ = RuleOneofCase.None;
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -537,6 +648,8 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
           if (!object.Equals(Timer, other.Timer)) return false;
           if (!object.Equals(MessageQueue, other.MessageQueue)) return false;
           if (!object.Equals(IotMessage, other.IotMessage)) return false;
+          if (!object.Equals(ObjectStorage, other.ObjectStorage)) return false;
+          if (!object.Equals(ContainerRegistry, other.ContainerRegistry)) return false;
           if (RuleCase != other.RuleCase) return false;
           return Equals(_unknownFields, other._unknownFields);
         }
@@ -547,6 +660,8 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
           if (ruleCase_ == RuleOneofCase.Timer) hash ^= Timer.GetHashCode();
           if (ruleCase_ == RuleOneofCase.MessageQueue) hash ^= MessageQueue.GetHashCode();
           if (ruleCase_ == RuleOneofCase.IotMessage) hash ^= IotMessage.GetHashCode();
+          if (ruleCase_ == RuleOneofCase.ObjectStorage) hash ^= ObjectStorage.GetHashCode();
+          if (ruleCase_ == RuleOneofCase.ContainerRegistry) hash ^= ContainerRegistry.GetHashCode();
           hash ^= (int) ruleCase_;
           if (_unknownFields != null) {
             hash ^= _unknownFields.GetHashCode();
@@ -573,6 +688,14 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
             output.WriteRawTag(34);
             output.WriteMessage(IotMessage);
           }
+          if (ruleCase_ == RuleOneofCase.ObjectStorage) {
+            output.WriteRawTag(42);
+            output.WriteMessage(ObjectStorage);
+          }
+          if (ruleCase_ == RuleOneofCase.ContainerRegistry) {
+            output.WriteRawTag(50);
+            output.WriteMessage(ContainerRegistry);
+          }
           if (_unknownFields != null) {
             _unknownFields.WriteTo(output);
           }
@@ -589,6 +712,12 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
           }
           if (ruleCase_ == RuleOneofCase.IotMessage) {
             size += 1 + pb::CodedOutputStream.ComputeMessageSize(IotMessage);
+          }
+          if (ruleCase_ == RuleOneofCase.ObjectStorage) {
+            size += 1 + pb::CodedOutputStream.ComputeMessageSize(ObjectStorage);
+          }
+          if (ruleCase_ == RuleOneofCase.ContainerRegistry) {
+            size += 1 + pb::CodedOutputStream.ComputeMessageSize(ContainerRegistry);
           }
           if (_unknownFields != null) {
             size += _unknownFields.CalculateSize();
@@ -619,6 +748,18 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
                 IotMessage = new global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.IoTMessage();
               }
               IotMessage.MergeFrom(other.IotMessage);
+              break;
+            case RuleOneofCase.ObjectStorage:
+              if (ObjectStorage == null) {
+                ObjectStorage = new global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.ObjectStorage();
+              }
+              ObjectStorage.MergeFrom(other.ObjectStorage);
+              break;
+            case RuleOneofCase.ContainerRegistry:
+              if (ContainerRegistry == null) {
+                ContainerRegistry = new global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.ContainerRegistry();
+              }
+              ContainerRegistry.MergeFrom(other.ContainerRegistry);
               break;
           }
 
@@ -660,12 +801,33 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
                 IotMessage = subBuilder;
                 break;
               }
+              case 42: {
+                global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.ObjectStorage subBuilder = new global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.ObjectStorage();
+                if (ruleCase_ == RuleOneofCase.ObjectStorage) {
+                  subBuilder.MergeFrom(ObjectStorage);
+                }
+                input.ReadMessage(subBuilder);
+                ObjectStorage = subBuilder;
+                break;
+              }
+              case 50: {
+                global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.ContainerRegistry subBuilder = new global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.ContainerRegistry();
+                if (ruleCase_ == RuleOneofCase.ContainerRegistry) {
+                  subBuilder.MergeFrom(ContainerRegistry);
+                }
+                input.ReadMessage(subBuilder);
+                ContainerRegistry = subBuilder;
+                break;
+              }
             }
           }
         }
 
       }
 
+      /// <summary>
+      /// Rule for activating a timed trigger.
+      /// </summary>
       internal sealed partial class Timer : pb::IMessage<Timer> {
         private static readonly pb::MessageParser<Timer> _parser = new pb::MessageParser<Timer>(() => new Timer());
         private pb::UnknownFieldSet _unknownFields;
@@ -696,6 +858,9 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
             case ActionOneofCase.InvokeFunction:
               InvokeFunction = other.InvokeFunction.Clone();
               break;
+            case ActionOneofCase.InvokeFunctionWithRetry:
+              InvokeFunctionWithRetry = other.InvokeFunctionWithRetry.Clone();
+              break;
           }
 
           _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
@@ -710,10 +875,7 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
         public const int CronExpressionFieldNumber = 1;
         private string cronExpression_ = "";
         /// <summary>
-        /// Format: Minutes Hours Day-of-Month Month Day-of-week (Year)
-        /// * ("all values") - to select all values within a field.
-        /// ? ("no specific value") - placeholder for "any": you can't specify the Day-of-Month and Day-of-Week fields in the same cron expression, so if you specify a value in one of the fields, you must use a "?" in the other.
-        /// see http://man7.org/linux/man-pages/man5/crontab.5.html
+        /// Description of a schedule as a [cron expression](/docs/functions/concepts/trigger/timer).
         /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public string CronExpression {
@@ -725,6 +887,9 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
 
         /// <summary>Field number for the "invoke_function" field.</summary>
         public const int InvokeFunctionFieldNumber = 101;
+        /// <summary>
+        /// Instructions for invoking a function once.
+        /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public global::Yandex.Cloud.Serverless.Triggers.V1.InvokeFunctionOnce InvokeFunction {
           get { return actionCase_ == ActionOneofCase.InvokeFunction ? (global::Yandex.Cloud.Serverless.Triggers.V1.InvokeFunctionOnce) action_ : null; }
@@ -734,11 +899,23 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
           }
         }
 
+        /// <summary>Field number for the "invoke_function_with_retry" field.</summary>
+        public const int InvokeFunctionWithRetryFieldNumber = 103;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public global::Yandex.Cloud.Serverless.Triggers.V1.InvokeFunctionWithRetry InvokeFunctionWithRetry {
+          get { return actionCase_ == ActionOneofCase.InvokeFunctionWithRetry ? (global::Yandex.Cloud.Serverless.Triggers.V1.InvokeFunctionWithRetry) action_ : null; }
+          set {
+            action_ = value;
+            actionCase_ = value == null ? ActionOneofCase.None : ActionOneofCase.InvokeFunctionWithRetry;
+          }
+        }
+
         private object action_;
         /// <summary>Enum of possible cases for the "action" oneof.</summary>
         public enum ActionOneofCase {
           None = 0,
           InvokeFunction = 101,
+          InvokeFunctionWithRetry = 103,
         }
         private ActionOneofCase actionCase_ = ActionOneofCase.None;
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -767,6 +944,7 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
           }
           if (CronExpression != other.CronExpression) return false;
           if (!object.Equals(InvokeFunction, other.InvokeFunction)) return false;
+          if (!object.Equals(InvokeFunctionWithRetry, other.InvokeFunctionWithRetry)) return false;
           if (ActionCase != other.ActionCase) return false;
           return Equals(_unknownFields, other._unknownFields);
         }
@@ -776,6 +954,7 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
           int hash = 1;
           if (CronExpression.Length != 0) hash ^= CronExpression.GetHashCode();
           if (actionCase_ == ActionOneofCase.InvokeFunction) hash ^= InvokeFunction.GetHashCode();
+          if (actionCase_ == ActionOneofCase.InvokeFunctionWithRetry) hash ^= InvokeFunctionWithRetry.GetHashCode();
           hash ^= (int) actionCase_;
           if (_unknownFields != null) {
             hash ^= _unknownFields.GetHashCode();
@@ -798,6 +977,10 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
             output.WriteRawTag(170, 6);
             output.WriteMessage(InvokeFunction);
           }
+          if (actionCase_ == ActionOneofCase.InvokeFunctionWithRetry) {
+            output.WriteRawTag(186, 6);
+            output.WriteMessage(InvokeFunctionWithRetry);
+          }
           if (_unknownFields != null) {
             _unknownFields.WriteTo(output);
           }
@@ -811,6 +994,9 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
           }
           if (actionCase_ == ActionOneofCase.InvokeFunction) {
             size += 2 + pb::CodedOutputStream.ComputeMessageSize(InvokeFunction);
+          }
+          if (actionCase_ == ActionOneofCase.InvokeFunctionWithRetry) {
+            size += 2 + pb::CodedOutputStream.ComputeMessageSize(InvokeFunctionWithRetry);
           }
           if (_unknownFields != null) {
             size += _unknownFields.CalculateSize();
@@ -832,6 +1018,12 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
                 InvokeFunction = new global::Yandex.Cloud.Serverless.Triggers.V1.InvokeFunctionOnce();
               }
               InvokeFunction.MergeFrom(other.InvokeFunction);
+              break;
+            case ActionOneofCase.InvokeFunctionWithRetry:
+              if (InvokeFunctionWithRetry == null) {
+                InvokeFunctionWithRetry = new global::Yandex.Cloud.Serverless.Triggers.V1.InvokeFunctionWithRetry();
+              }
+              InvokeFunctionWithRetry.MergeFrom(other.InvokeFunctionWithRetry);
               break;
           }
 
@@ -859,12 +1051,24 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
                 InvokeFunction = subBuilder;
                 break;
               }
+              case 826: {
+                global::Yandex.Cloud.Serverless.Triggers.V1.InvokeFunctionWithRetry subBuilder = new global::Yandex.Cloud.Serverless.Triggers.V1.InvokeFunctionWithRetry();
+                if (actionCase_ == ActionOneofCase.InvokeFunctionWithRetry) {
+                  subBuilder.MergeFrom(InvokeFunctionWithRetry);
+                }
+                input.ReadMessage(subBuilder);
+                InvokeFunctionWithRetry = subBuilder;
+                break;
+              }
             }
           }
         }
 
       }
 
+      /// <summary>
+      /// Rule for activating a message queue trigger.
+      /// </summary>
       internal sealed partial class MessageQueue : pb::IMessage<MessageQueue> {
         private static readonly pb::MessageParser<MessageQueue> _parser = new pb::MessageParser<MessageQueue>(() => new MessageQueue());
         private pb::UnknownFieldSet _unknownFields;
@@ -912,7 +1116,7 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
         public const int QueueIdFieldNumber = 11;
         private string queueId_ = "";
         /// <summary>
-        /// ID of the queue.
+        /// ID of the message queue in Yandex Message Queue.
         /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public string QueueId {
@@ -926,7 +1130,7 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
         public const int ServiceAccountIdFieldNumber = 3;
         private string serviceAccountId_ = "";
         /// <summary>
-        /// SA which has read access to the queue.
+        /// ID of the service account which has read access to the message queue.
         /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public string ServiceAccountId {
@@ -940,7 +1144,7 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
         public const int BatchSettingsFieldNumber = 4;
         private global::Yandex.Cloud.Serverless.Triggers.V1.BatchSettings batchSettings_;
         /// <summary>
-        /// Batch settings for YMQ client.
+        /// Batch settings for processing messages in the queue.
         /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public global::Yandex.Cloud.Serverless.Triggers.V1.BatchSettings BatchSettings {
@@ -966,6 +1170,9 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
 
         /// <summary>Field number for the "invoke_function" field.</summary>
         public const int InvokeFunctionFieldNumber = 101;
+        /// <summary>
+        /// Instructions for invoking a function once.
+        /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public global::Yandex.Cloud.Serverless.Triggers.V1.InvokeFunctionOnce InvokeFunction {
           get { return actionCase_ == ActionOneofCase.InvokeFunction ? (global::Yandex.Cloud.Serverless.Triggers.V1.InvokeFunctionOnce) action_ : null; }
@@ -1166,6 +1373,9 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
 
       }
 
+      /// <summary>
+      /// Rule for activating a Yandex IoT Core trigger.
+      /// </summary>
       internal sealed partial class IoTMessage : pb::IMessage<IoTMessage> {
         private static readonly pb::MessageParser<IoTMessage> _parser = new pb::MessageParser<IoTMessage>(() => new IoTMessage());
         private pb::UnknownFieldSet _unknownFields;
@@ -1211,6 +1421,9 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
         /// <summary>Field number for the "registry_id" field.</summary>
         public const int RegistryIdFieldNumber = 1;
         private string registryId_ = "";
+        /// <summary>
+        /// ID of the Yandex IoT Core registry.
+        /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public string RegistryId {
           get { return registryId_; }
@@ -1222,6 +1435,9 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
         /// <summary>Field number for the "device_id" field.</summary>
         public const int DeviceIdFieldNumber = 2;
         private string deviceId_ = "";
+        /// <summary>
+        /// ID of the Yandex IoT Core device in the registry.
+        /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public string DeviceId {
           get { return deviceId_; }
@@ -1233,6 +1449,9 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
         /// <summary>Field number for the "mqtt_topic" field.</summary>
         public const int MqttTopicFieldNumber = 3;
         private string mqttTopic_ = "";
+        /// <summary>
+        /// MQTT topic whose messages activate the trigger.
+        /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public string MqttTopic {
           get { return mqttTopic_; }
@@ -1243,6 +1462,9 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
 
         /// <summary>Field number for the "invoke_function" field.</summary>
         public const int InvokeFunctionFieldNumber = 101;
+        /// <summary>
+        /// Instructions for invoking a function with retries as needed.
+        /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public global::Yandex.Cloud.Serverless.Triggers.V1.InvokeFunctionWithRetry InvokeFunction {
           get { return actionCase_ == ActionOneofCase.InvokeFunction ? (global::Yandex.Cloud.Serverless.Triggers.V1.InvokeFunctionWithRetry) action_ : null; }
@@ -1415,11 +1637,566 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
 
       }
 
+      internal sealed partial class ObjectStorage : pb::IMessage<ObjectStorage> {
+        private static readonly pb::MessageParser<ObjectStorage> _parser = new pb::MessageParser<ObjectStorage>(() => new ObjectStorage());
+        private pb::UnknownFieldSet _unknownFields;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public static pb::MessageParser<ObjectStorage> Parser { get { return _parser; } }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public static pbr::MessageDescriptor Descriptor {
+          get { return global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Descriptor.NestedTypes[5]; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        pbr::MessageDescriptor pb::IMessage.Descriptor {
+          get { return Descriptor; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public ObjectStorage() {
+          OnConstruction();
+        }
+
+        partial void OnConstruction();
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public ObjectStorage(ObjectStorage other) : this() {
+          eventType_ = other.eventType_.Clone();
+          bucketId_ = other.bucketId_;
+          prefix_ = other.prefix_;
+          suffix_ = other.suffix_;
+          switch (other.ActionCase) {
+            case ActionOneofCase.InvokeFunction:
+              InvokeFunction = other.InvokeFunction.Clone();
+              break;
+          }
+
+          _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public ObjectStorage Clone() {
+          return new ObjectStorage(this);
+        }
+
+        /// <summary>Field number for the "event_type" field.</summary>
+        public const int EventTypeFieldNumber = 3;
+        private static readonly pb::FieldCodec<global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.ObjectStorageEventType> _repeated_eventType_codec
+            = pb::FieldCodec.ForEnum(26, x => (int) x, x => (global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.ObjectStorageEventType) x);
+        private readonly pbc::RepeatedField<global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.ObjectStorageEventType> eventType_ = new pbc::RepeatedField<global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.ObjectStorageEventType>();
+        /// <summary>
+        /// Type (name) of events, at least one value is required.
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public pbc::RepeatedField<global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.ObjectStorageEventType> EventType {
+          get { return eventType_; }
+        }
+
+        /// <summary>Field number for the "bucket_id" field.</summary>
+        public const int BucketIdFieldNumber = 4;
+        private string bucketId_ = "";
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public string BucketId {
+          get { return bucketId_; }
+          set {
+            bucketId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+          }
+        }
+
+        /// <summary>Field number for the "prefix" field.</summary>
+        public const int PrefixFieldNumber = 6;
+        private string prefix_ = "";
+        /// <summary>
+        /// Filter, optional.
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public string Prefix {
+          get { return prefix_; }
+          set {
+            prefix_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+          }
+        }
+
+        /// <summary>Field number for the "suffix" field.</summary>
+        public const int SuffixFieldNumber = 7;
+        private string suffix_ = "";
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public string Suffix {
+          get { return suffix_; }
+          set {
+            suffix_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+          }
+        }
+
+        /// <summary>Field number for the "invoke_function" field.</summary>
+        public const int InvokeFunctionFieldNumber = 101;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public global::Yandex.Cloud.Serverless.Triggers.V1.InvokeFunctionWithRetry InvokeFunction {
+          get { return actionCase_ == ActionOneofCase.InvokeFunction ? (global::Yandex.Cloud.Serverless.Triggers.V1.InvokeFunctionWithRetry) action_ : null; }
+          set {
+            action_ = value;
+            actionCase_ = value == null ? ActionOneofCase.None : ActionOneofCase.InvokeFunction;
+          }
+        }
+
+        private object action_;
+        /// <summary>Enum of possible cases for the "action" oneof.</summary>
+        public enum ActionOneofCase {
+          None = 0,
+          InvokeFunction = 101,
+        }
+        private ActionOneofCase actionCase_ = ActionOneofCase.None;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public ActionOneofCase ActionCase {
+          get { return actionCase_; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void ClearAction() {
+          actionCase_ = ActionOneofCase.None;
+          action_ = null;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override bool Equals(object other) {
+          return Equals(other as ObjectStorage);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public bool Equals(ObjectStorage other) {
+          if (ReferenceEquals(other, null)) {
+            return false;
+          }
+          if (ReferenceEquals(other, this)) {
+            return true;
+          }
+          if(!eventType_.Equals(other.eventType_)) return false;
+          if (BucketId != other.BucketId) return false;
+          if (Prefix != other.Prefix) return false;
+          if (Suffix != other.Suffix) return false;
+          if (!object.Equals(InvokeFunction, other.InvokeFunction)) return false;
+          if (ActionCase != other.ActionCase) return false;
+          return Equals(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override int GetHashCode() {
+          int hash = 1;
+          hash ^= eventType_.GetHashCode();
+          if (BucketId.Length != 0) hash ^= BucketId.GetHashCode();
+          if (Prefix.Length != 0) hash ^= Prefix.GetHashCode();
+          if (Suffix.Length != 0) hash ^= Suffix.GetHashCode();
+          if (actionCase_ == ActionOneofCase.InvokeFunction) hash ^= InvokeFunction.GetHashCode();
+          hash ^= (int) actionCase_;
+          if (_unknownFields != null) {
+            hash ^= _unknownFields.GetHashCode();
+          }
+          return hash;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override string ToString() {
+          return pb::JsonFormatter.ToDiagnosticString(this);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void WriteTo(pb::CodedOutputStream output) {
+          eventType_.WriteTo(output, _repeated_eventType_codec);
+          if (BucketId.Length != 0) {
+            output.WriteRawTag(34);
+            output.WriteString(BucketId);
+          }
+          if (Prefix.Length != 0) {
+            output.WriteRawTag(50);
+            output.WriteString(Prefix);
+          }
+          if (Suffix.Length != 0) {
+            output.WriteRawTag(58);
+            output.WriteString(Suffix);
+          }
+          if (actionCase_ == ActionOneofCase.InvokeFunction) {
+            output.WriteRawTag(170, 6);
+            output.WriteMessage(InvokeFunction);
+          }
+          if (_unknownFields != null) {
+            _unknownFields.WriteTo(output);
+          }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public int CalculateSize() {
+          int size = 0;
+          size += eventType_.CalculateSize(_repeated_eventType_codec);
+          if (BucketId.Length != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeStringSize(BucketId);
+          }
+          if (Prefix.Length != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeStringSize(Prefix);
+          }
+          if (Suffix.Length != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeStringSize(Suffix);
+          }
+          if (actionCase_ == ActionOneofCase.InvokeFunction) {
+            size += 2 + pb::CodedOutputStream.ComputeMessageSize(InvokeFunction);
+          }
+          if (_unknownFields != null) {
+            size += _unknownFields.CalculateSize();
+          }
+          return size;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void MergeFrom(ObjectStorage other) {
+          if (other == null) {
+            return;
+          }
+          eventType_.Add(other.eventType_);
+          if (other.BucketId.Length != 0) {
+            BucketId = other.BucketId;
+          }
+          if (other.Prefix.Length != 0) {
+            Prefix = other.Prefix;
+          }
+          if (other.Suffix.Length != 0) {
+            Suffix = other.Suffix;
+          }
+          switch (other.ActionCase) {
+            case ActionOneofCase.InvokeFunction:
+              if (InvokeFunction == null) {
+                InvokeFunction = new global::Yandex.Cloud.Serverless.Triggers.V1.InvokeFunctionWithRetry();
+              }
+              InvokeFunction.MergeFrom(other.InvokeFunction);
+              break;
+          }
+
+          _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void MergeFrom(pb::CodedInputStream input) {
+          uint tag;
+          while ((tag = input.ReadTag()) != 0) {
+            switch(tag) {
+              default:
+                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+                break;
+              case 26:
+              case 24: {
+                eventType_.AddEntriesFrom(input, _repeated_eventType_codec);
+                break;
+              }
+              case 34: {
+                BucketId = input.ReadString();
+                break;
+              }
+              case 50: {
+                Prefix = input.ReadString();
+                break;
+              }
+              case 58: {
+                Suffix = input.ReadString();
+                break;
+              }
+              case 810: {
+                global::Yandex.Cloud.Serverless.Triggers.V1.InvokeFunctionWithRetry subBuilder = new global::Yandex.Cloud.Serverless.Triggers.V1.InvokeFunctionWithRetry();
+                if (actionCase_ == ActionOneofCase.InvokeFunction) {
+                  subBuilder.MergeFrom(InvokeFunction);
+                }
+                input.ReadMessage(subBuilder);
+                InvokeFunction = subBuilder;
+                break;
+              }
+            }
+          }
+        }
+
+      }
+
+      internal sealed partial class ContainerRegistry : pb::IMessage<ContainerRegistry> {
+        private static readonly pb::MessageParser<ContainerRegistry> _parser = new pb::MessageParser<ContainerRegistry>(() => new ContainerRegistry());
+        private pb::UnknownFieldSet _unknownFields;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public static pb::MessageParser<ContainerRegistry> Parser { get { return _parser; } }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public static pbr::MessageDescriptor Descriptor {
+          get { return global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Descriptor.NestedTypes[6]; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        pbr::MessageDescriptor pb::IMessage.Descriptor {
+          get { return Descriptor; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public ContainerRegistry() {
+          OnConstruction();
+        }
+
+        partial void OnConstruction();
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public ContainerRegistry(ContainerRegistry other) : this() {
+          eventType_ = other.eventType_.Clone();
+          registryId_ = other.registryId_;
+          imageName_ = other.imageName_;
+          tag_ = other.tag_;
+          switch (other.ActionCase) {
+            case ActionOneofCase.InvokeFunction:
+              InvokeFunction = other.InvokeFunction.Clone();
+              break;
+          }
+
+          _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public ContainerRegistry Clone() {
+          return new ContainerRegistry(this);
+        }
+
+        /// <summary>Field number for the "event_type" field.</summary>
+        public const int EventTypeFieldNumber = 3;
+        private static readonly pb::FieldCodec<global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.ContainerRegistryEventType> _repeated_eventType_codec
+            = pb::FieldCodec.ForEnum(26, x => (int) x, x => (global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.ContainerRegistryEventType) x);
+        private readonly pbc::RepeatedField<global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.ContainerRegistryEventType> eventType_ = new pbc::RepeatedField<global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.ContainerRegistryEventType>();
+        /// <summary>
+        /// Type (name) of events, at least one value is required.
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public pbc::RepeatedField<global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.ContainerRegistryEventType> EventType {
+          get { return eventType_; }
+        }
+
+        /// <summary>Field number for the "registry_id" field.</summary>
+        public const int RegistryIdFieldNumber = 4;
+        private string registryId_ = "";
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public string RegistryId {
+          get { return registryId_; }
+          set {
+            registryId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+          }
+        }
+
+        /// <summary>Field number for the "image_name" field.</summary>
+        public const int ImageNameFieldNumber = 5;
+        private string imageName_ = "";
+        /// <summary>
+        /// Filter, optional.
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public string ImageName {
+          get { return imageName_; }
+          set {
+            imageName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+          }
+        }
+
+        /// <summary>Field number for the "tag" field.</summary>
+        public const int TagFieldNumber = 6;
+        private string tag_ = "";
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public string Tag {
+          get { return tag_; }
+          set {
+            tag_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+          }
+        }
+
+        /// <summary>Field number for the "invoke_function" field.</summary>
+        public const int InvokeFunctionFieldNumber = 101;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public global::Yandex.Cloud.Serverless.Triggers.V1.InvokeFunctionWithRetry InvokeFunction {
+          get { return actionCase_ == ActionOneofCase.InvokeFunction ? (global::Yandex.Cloud.Serverless.Triggers.V1.InvokeFunctionWithRetry) action_ : null; }
+          set {
+            action_ = value;
+            actionCase_ = value == null ? ActionOneofCase.None : ActionOneofCase.InvokeFunction;
+          }
+        }
+
+        private object action_;
+        /// <summary>Enum of possible cases for the "action" oneof.</summary>
+        public enum ActionOneofCase {
+          None = 0,
+          InvokeFunction = 101,
+        }
+        private ActionOneofCase actionCase_ = ActionOneofCase.None;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public ActionOneofCase ActionCase {
+          get { return actionCase_; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void ClearAction() {
+          actionCase_ = ActionOneofCase.None;
+          action_ = null;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override bool Equals(object other) {
+          return Equals(other as ContainerRegistry);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public bool Equals(ContainerRegistry other) {
+          if (ReferenceEquals(other, null)) {
+            return false;
+          }
+          if (ReferenceEquals(other, this)) {
+            return true;
+          }
+          if(!eventType_.Equals(other.eventType_)) return false;
+          if (RegistryId != other.RegistryId) return false;
+          if (ImageName != other.ImageName) return false;
+          if (Tag != other.Tag) return false;
+          if (!object.Equals(InvokeFunction, other.InvokeFunction)) return false;
+          if (ActionCase != other.ActionCase) return false;
+          return Equals(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override int GetHashCode() {
+          int hash = 1;
+          hash ^= eventType_.GetHashCode();
+          if (RegistryId.Length != 0) hash ^= RegistryId.GetHashCode();
+          if (ImageName.Length != 0) hash ^= ImageName.GetHashCode();
+          if (Tag.Length != 0) hash ^= Tag.GetHashCode();
+          if (actionCase_ == ActionOneofCase.InvokeFunction) hash ^= InvokeFunction.GetHashCode();
+          hash ^= (int) actionCase_;
+          if (_unknownFields != null) {
+            hash ^= _unknownFields.GetHashCode();
+          }
+          return hash;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override string ToString() {
+          return pb::JsonFormatter.ToDiagnosticString(this);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void WriteTo(pb::CodedOutputStream output) {
+          eventType_.WriteTo(output, _repeated_eventType_codec);
+          if (RegistryId.Length != 0) {
+            output.WriteRawTag(34);
+            output.WriteString(RegistryId);
+          }
+          if (ImageName.Length != 0) {
+            output.WriteRawTag(42);
+            output.WriteString(ImageName);
+          }
+          if (Tag.Length != 0) {
+            output.WriteRawTag(50);
+            output.WriteString(Tag);
+          }
+          if (actionCase_ == ActionOneofCase.InvokeFunction) {
+            output.WriteRawTag(170, 6);
+            output.WriteMessage(InvokeFunction);
+          }
+          if (_unknownFields != null) {
+            _unknownFields.WriteTo(output);
+          }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public int CalculateSize() {
+          int size = 0;
+          size += eventType_.CalculateSize(_repeated_eventType_codec);
+          if (RegistryId.Length != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeStringSize(RegistryId);
+          }
+          if (ImageName.Length != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeStringSize(ImageName);
+          }
+          if (Tag.Length != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeStringSize(Tag);
+          }
+          if (actionCase_ == ActionOneofCase.InvokeFunction) {
+            size += 2 + pb::CodedOutputStream.ComputeMessageSize(InvokeFunction);
+          }
+          if (_unknownFields != null) {
+            size += _unknownFields.CalculateSize();
+          }
+          return size;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void MergeFrom(ContainerRegistry other) {
+          if (other == null) {
+            return;
+          }
+          eventType_.Add(other.eventType_);
+          if (other.RegistryId.Length != 0) {
+            RegistryId = other.RegistryId;
+          }
+          if (other.ImageName.Length != 0) {
+            ImageName = other.ImageName;
+          }
+          if (other.Tag.Length != 0) {
+            Tag = other.Tag;
+          }
+          switch (other.ActionCase) {
+            case ActionOneofCase.InvokeFunction:
+              if (InvokeFunction == null) {
+                InvokeFunction = new global::Yandex.Cloud.Serverless.Triggers.V1.InvokeFunctionWithRetry();
+              }
+              InvokeFunction.MergeFrom(other.InvokeFunction);
+              break;
+          }
+
+          _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void MergeFrom(pb::CodedInputStream input) {
+          uint tag;
+          while ((tag = input.ReadTag()) != 0) {
+            switch(tag) {
+              default:
+                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+                break;
+              case 26:
+              case 24: {
+                eventType_.AddEntriesFrom(input, _repeated_eventType_codec);
+                break;
+              }
+              case 34: {
+                RegistryId = input.ReadString();
+                break;
+              }
+              case 42: {
+                ImageName = input.ReadString();
+                break;
+              }
+              case 50: {
+                Tag = input.ReadString();
+                break;
+              }
+              case 810: {
+                global::Yandex.Cloud.Serverless.Triggers.V1.InvokeFunctionWithRetry subBuilder = new global::Yandex.Cloud.Serverless.Triggers.V1.InvokeFunctionWithRetry();
+                if (actionCase_ == ActionOneofCase.InvokeFunction) {
+                  subBuilder.MergeFrom(InvokeFunction);
+                }
+                input.ReadMessage(subBuilder);
+                InvokeFunction = subBuilder;
+                break;
+              }
+            }
+          }
+        }
+
+      }
+
     }
     #endregion
 
   }
 
+  /// <summary>
+  /// A single function invocation.
+  /// </summary>
   internal sealed partial class InvokeFunctionOnce : pb::IMessage<InvokeFunctionOnce> {
     private static readonly pb::MessageParser<InvokeFunctionOnce> _parser = new pb::MessageParser<InvokeFunctionOnce>(() => new InvokeFunctionOnce());
     private pb::UnknownFieldSet _unknownFields;
@@ -1459,6 +2236,9 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
     /// <summary>Field number for the "function_id" field.</summary>
     public const int FunctionIdFieldNumber = 1;
     private string functionId_ = "";
+    /// <summary>
+    /// ID of the function to invoke.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string FunctionId {
       get { return functionId_; }
@@ -1470,6 +2250,9 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
     /// <summary>Field number for the "function_tag" field.</summary>
     public const int FunctionTagFieldNumber = 2;
     private string functionTag_ = "";
+    /// <summary>
+    /// Tag of the function version to execute.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string FunctionTag {
       get { return functionTag_; }
@@ -1482,7 +2265,7 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
     public const int ServiceAccountIdFieldNumber = 3;
     private string serviceAccountId_ = "";
     /// <summary>
-    /// SA which should be used to call a function, optional.
+    /// ID of the service account that should be used to invoke the function.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ServiceAccountId {
@@ -1608,6 +2391,9 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
 
   }
 
+  /// <summary>
+  /// A function invocation with retries.
+  /// </summary>
   internal sealed partial class InvokeFunctionWithRetry : pb::IMessage<InvokeFunctionWithRetry> {
     private static readonly pb::MessageParser<InvokeFunctionWithRetry> _parser = new pb::MessageParser<InvokeFunctionWithRetry>(() => new InvokeFunctionWithRetry());
     private pb::UnknownFieldSet _unknownFields;
@@ -1637,6 +2423,7 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
       functionTag_ = other.functionTag_;
       serviceAccountId_ = other.serviceAccountId_;
       retrySettings_ = other.retrySettings_ != null ? other.retrySettings_.Clone() : null;
+      deadLetterQueue_ = other.deadLetterQueue_ != null ? other.deadLetterQueue_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1648,6 +2435,9 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
     /// <summary>Field number for the "function_id" field.</summary>
     public const int FunctionIdFieldNumber = 1;
     private string functionId_ = "";
+    /// <summary>
+    /// ID of the function to invoke.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string FunctionId {
       get { return functionId_; }
@@ -1659,6 +2449,9 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
     /// <summary>Field number for the "function_tag" field.</summary>
     public const int FunctionTagFieldNumber = 2;
     private string functionTag_ = "";
+    /// <summary>
+    /// Tag of the function version to execute.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string FunctionTag {
       get { return functionTag_; }
@@ -1671,7 +2464,7 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
     public const int ServiceAccountIdFieldNumber = 3;
     private string serviceAccountId_ = "";
     /// <summary>
-    /// SA which has call permission on the function, optional.
+    /// ID of the service account which has permission to invoke the function.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ServiceAccountId {
@@ -1685,13 +2478,27 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
     public const int RetrySettingsFieldNumber = 4;
     private global::Yandex.Cloud.Serverless.Triggers.V1.RetrySettings retrySettings_;
     /// <summary>
-    /// Retry policy, optional (no value means no retry).
+    /// Retry policy. If the field is not specified, or the value is empty, no retries will be attempted.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Serverless.Triggers.V1.RetrySettings RetrySettings {
       get { return retrySettings_; }
       set {
         retrySettings_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "dead_letter_queue" field.</summary>
+    public const int DeadLetterQueueFieldNumber = 5;
+    private global::Yandex.Cloud.Serverless.Triggers.V1.PutQueueMessage deadLetterQueue_;
+    /// <summary>
+    /// DLQ policy (no value means discarding a message)
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Serverless.Triggers.V1.PutQueueMessage DeadLetterQueue {
+      get { return deadLetterQueue_; }
+      set {
+        deadLetterQueue_ = value;
       }
     }
 
@@ -1712,6 +2519,7 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
       if (FunctionTag != other.FunctionTag) return false;
       if (ServiceAccountId != other.ServiceAccountId) return false;
       if (!object.Equals(RetrySettings, other.RetrySettings)) return false;
+      if (!object.Equals(DeadLetterQueue, other.DeadLetterQueue)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1722,6 +2530,7 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
       if (FunctionTag.Length != 0) hash ^= FunctionTag.GetHashCode();
       if (ServiceAccountId.Length != 0) hash ^= ServiceAccountId.GetHashCode();
       if (retrySettings_ != null) hash ^= RetrySettings.GetHashCode();
+      if (deadLetterQueue_ != null) hash ^= DeadLetterQueue.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1751,6 +2560,10 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
         output.WriteRawTag(34);
         output.WriteMessage(RetrySettings);
       }
+      if (deadLetterQueue_ != null) {
+        output.WriteRawTag(42);
+        output.WriteMessage(DeadLetterQueue);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1770,6 +2583,9 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
       }
       if (retrySettings_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(RetrySettings);
+      }
+      if (deadLetterQueue_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(DeadLetterQueue);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1796,6 +2612,12 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
           RetrySettings = new global::Yandex.Cloud.Serverless.Triggers.V1.RetrySettings();
         }
         RetrySettings.MergeFrom(other.RetrySettings);
+      }
+      if (other.deadLetterQueue_ != null) {
+        if (deadLetterQueue_ == null) {
+          DeadLetterQueue = new global::Yandex.Cloud.Serverless.Triggers.V1.PutQueueMessage();
+        }
+        DeadLetterQueue.MergeFrom(other.DeadLetterQueue);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -1827,12 +2649,185 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
             input.ReadMessage(RetrySettings);
             break;
           }
+          case 42: {
+            if (deadLetterQueue_ == null) {
+              DeadLetterQueue = new global::Yandex.Cloud.Serverless.Triggers.V1.PutQueueMessage();
+            }
+            input.ReadMessage(DeadLetterQueue);
+            break;
+          }
         }
       }
     }
 
   }
 
+  internal sealed partial class PutQueueMessage : pb::IMessage<PutQueueMessage> {
+    private static readonly pb::MessageParser<PutQueueMessage> _parser = new pb::MessageParser<PutQueueMessage>(() => new PutQueueMessage());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<PutQueueMessage> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Serverless.Triggers.V1.TriggerReflection.Descriptor.MessageTypes[3]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public PutQueueMessage() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public PutQueueMessage(PutQueueMessage other) : this() {
+      queueId_ = other.queueId_;
+      serviceAccountId_ = other.serviceAccountId_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public PutQueueMessage Clone() {
+      return new PutQueueMessage(this);
+    }
+
+    /// <summary>Field number for the "queue_id" field.</summary>
+    public const int QueueIdFieldNumber = 11;
+    private string queueId_ = "";
+    /// <summary>
+    /// ID of the queue.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string QueueId {
+      get { return queueId_; }
+      set {
+        queueId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "service_account_id" field.</summary>
+    public const int ServiceAccountIdFieldNumber = 2;
+    private string serviceAccountId_ = "";
+    /// <summary>
+    /// SA which has write permission on the queue.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ServiceAccountId {
+      get { return serviceAccountId_; }
+      set {
+        serviceAccountId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as PutQueueMessage);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(PutQueueMessage other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (QueueId != other.QueueId) return false;
+      if (ServiceAccountId != other.ServiceAccountId) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (QueueId.Length != 0) hash ^= QueueId.GetHashCode();
+      if (ServiceAccountId.Length != 0) hash ^= ServiceAccountId.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (ServiceAccountId.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(ServiceAccountId);
+      }
+      if (QueueId.Length != 0) {
+        output.WriteRawTag(90);
+        output.WriteString(QueueId);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (QueueId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(QueueId);
+      }
+      if (ServiceAccountId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ServiceAccountId);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(PutQueueMessage other) {
+      if (other == null) {
+        return;
+      }
+      if (other.QueueId.Length != 0) {
+        QueueId = other.QueueId;
+      }
+      if (other.ServiceAccountId.Length != 0) {
+        ServiceAccountId = other.ServiceAccountId;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 18: {
+            ServiceAccountId = input.ReadString();
+            break;
+          }
+          case 90: {
+            QueueId = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  /// <summary>
+  /// Settings for batch processing of messages in a queue.
+  /// </summary>
   internal sealed partial class BatchSettings : pb::IMessage<BatchSettings> {
     private static readonly pb::MessageParser<BatchSettings> _parser = new pb::MessageParser<BatchSettings>(() => new BatchSettings());
     private pb::UnknownFieldSet _unknownFields;
@@ -1841,7 +2836,7 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Serverless.Triggers.V1.TriggerReflection.Descriptor.MessageTypes[3]; }
+      get { return global::Yandex.Cloud.Serverless.Triggers.V1.TriggerReflection.Descriptor.MessageTypes[4]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1872,7 +2867,8 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
     public const int SizeFieldNumber = 1;
     private long size_;
     /// <summary>
-    /// Maximum batch size: trigger will send a batch if number of events exceeds this value.
+    /// Batch size. Trigger will send the batch of messages to the associated function
+    /// when the number of messages in the queue reaches this value, or the [cutoff] time has passed.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long Size {
@@ -1886,7 +2882,8 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
     public const int CutoffFieldNumber = 2;
     private global::Google.Protobuf.WellKnownTypes.Duration cutoff_;
     /// <summary>
-    /// Maximum batch size: trigger will send a batch if its lifetime exceeds this value.
+    /// Maximum wait time. Trigger will send the batch of messages the time since the last batch
+    /// exceeds the `cutoff` value, regardless of the amount of messages in the queue.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Google.Protobuf.WellKnownTypes.Duration Cutoff {
@@ -2002,6 +2999,9 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
 
   }
 
+  /// <summary>
+  /// Settings for retrying to invoke a function.
+  /// </summary>
   internal sealed partial class RetrySettings : pb::IMessage<RetrySettings> {
     private static readonly pb::MessageParser<RetrySettings> _parser = new pb::MessageParser<RetrySettings>(() => new RetrySettings());
     private pb::UnknownFieldSet _unknownFields;
@@ -2010,7 +3010,7 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Serverless.Triggers.V1.TriggerReflection.Descriptor.MessageTypes[4]; }
+      get { return global::Yandex.Cloud.Serverless.Triggers.V1.TriggerReflection.Descriptor.MessageTypes[5]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2041,7 +3041,7 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
     public const int RetryAttemptsFieldNumber = 1;
     private long retryAttempts_;
     /// <summary>
-    /// Maximum number of retries (extra calls) before an action fails.
+    /// Maximum number of retries (extra invokes) before the action is considered failed.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long RetryAttempts {
@@ -2055,7 +3055,7 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
     public const int IntervalFieldNumber = 2;
     private global::Google.Protobuf.WellKnownTypes.Duration interval_;
     /// <summary>
-    /// Interval between tries.
+    /// Time in seconds to wait between individual retries.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Google.Protobuf.WellKnownTypes.Duration Interval {

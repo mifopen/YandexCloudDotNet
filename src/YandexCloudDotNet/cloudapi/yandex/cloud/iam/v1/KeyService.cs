@@ -26,56 +26,66 @@ namespace Yandex.Cloud.Iam.V1 {
           string.Concat(
             "CiV5YW5kZXgvY2xvdWQvaWFtL3YxL2tleV9zZXJ2aWNlLnByb3RvEhN5YW5k",
             "ZXguY2xvdWQuaWFtLnYxGhxnb29nbGUvYXBpL2Fubm90YXRpb25zLnByb3Rv",
-            "Gh15YW5kZXgvY2xvdWQvaWFtL3YxL2tleS5wcm90bxogeWFuZGV4L2Nsb3Vk",
-            "L2FwaS9vcGVyYXRpb24ucHJvdG8aJnlhbmRleC9jbG91ZC9vcGVyYXRpb24v",
-            "b3BlcmF0aW9uLnByb3RvGh15YW5kZXgvY2xvdWQvdmFsaWRhdGlvbi5wcm90",
-            "byJdCg1HZXRLZXlSZXF1ZXN0EhwKBmtleV9pZBgBIAEoCUIM6McxAYrIMQQ8",
-            "PTUwEi4KBmZvcm1hdBgCIAEoDjIeLnlhbmRleC5jbG91ZC5pYW0udjEuS2V5",
-            "Rm9ybWF0IqUBCg9MaXN0S2V5c1JlcXVlc3QSLgoGZm9ybWF0GAEgASgOMh4u",
-            "eWFuZGV4LmNsb3VkLmlhbS52MS5LZXlGb3JtYXQSJAoSc2VydmljZV9hY2Nv",
-            "dW50X2lkGAIgASgJQgiKyDEEPD01MBIdCglwYWdlX3NpemUYAyABKANCCvrH",
-            "MQY8PTEwMDASHQoKcGFnZV90b2tlbhgEIAEoCUIJisgxBTw9MTAwIlMKEExp",
-            "c3RLZXlzUmVzcG9uc2USJgoEa2V5cxgBIAMoCzIYLnlhbmRleC5jbG91ZC5p",
-            "YW0udjEuS2V5EhcKD25leHRfcGFnZV90b2tlbhgCIAEoCSLDAQoQQ3JlYXRl",
-            "S2V5UmVxdWVzdBIkChJzZXJ2aWNlX2FjY291bnRfaWQYASABKAlCCIrIMQQ8",
-            "PTUwEh4KC2Rlc2NyaXB0aW9uGAIgASgJQgmKyDEFPD0yNTYSLgoGZm9ybWF0",
-            "GAMgASgOMh4ueWFuZGV4LmNsb3VkLmlhbS52MS5LZXlGb3JtYXQSOQoNa2V5",
-            "X2FsZ29yaXRobRgEIAEoDjIiLnlhbmRleC5jbG91ZC5pYW0udjEuS2V5LkFs",
-            "Z29yaXRobSJPChFDcmVhdGVLZXlSZXNwb25zZRIlCgNrZXkYASABKAsyGC55",
-            "YW5kZXguY2xvdWQuaWFtLnYxLktleRITCgtwcml2YXRlX2tleRgCIAEoCSIw",
-            "ChBEZWxldGVLZXlSZXF1ZXN0EhwKBmtleV9pZBgBIAEoCUIM6McxAYrIMQQ8",
-            "PTUwIiMKEURlbGV0ZUtleU1ldGFkYXRhEg4KBmtleV9pZBgBIAEoCSJ2ChhM",
-            "aXN0S2V5T3BlcmF0aW9uc1JlcXVlc3QSHAoGa2V5X2lkGAEgASgJQgzoxzEB",
-            "isgxBDw9NTASHQoJcGFnZV9zaXplGAIgASgDQgr6xzEGMC0xMDAwEh0KCnBh",
-            "Z2VfdG9rZW4YAyABKAlCCYrIMQU8PTEwMCJrChlMaXN0S2V5T3BlcmF0aW9u",
-            "c1Jlc3BvbnNlEjUKCm9wZXJhdGlvbnMYASADKAsyIS55YW5kZXguY2xvdWQu",
-            "b3BlcmF0aW9uLk9wZXJhdGlvbhIXCg9uZXh0X3BhZ2VfdG9rZW4YAiABKAkq",
-            "GQoJS2V5Rm9ybWF0EgwKCFBFTV9GSUxFEAAyiwUKCktleVNlcnZpY2USYgoD",
-            "R2V0EiIueWFuZGV4LmNsb3VkLmlhbS52MS5HZXRLZXlSZXF1ZXN0GhgueWFu",
-            "ZGV4LmNsb3VkLmlhbS52MS5LZXkiHYLT5JMCFxIVL2lhbS92MS9rZXlzL3tr",
-            "ZXlfaWR9EmkKBExpc3QSJC55YW5kZXguY2xvdWQuaWFtLnYxLkxpc3RLZXlz",
-            "UmVxdWVzdBolLnlhbmRleC5jbG91ZC5pYW0udjEuTGlzdEtleXNSZXNwb25z",
-            "ZSIUgtPkkwIOEgwvaWFtL3YxL2tleXMScAoGQ3JlYXRlEiUueWFuZGV4LmNs",
-            "b3VkLmlhbS52MS5DcmVhdGVLZXlSZXF1ZXN0GiYueWFuZGV4LmNsb3VkLmlh",
-            "bS52MS5DcmVhdGVLZXlSZXNwb25zZSIXgtPkkwIRIgwvaWFtL3YxL2tleXM6",
-            "ASoSnwEKBkRlbGV0ZRIlLnlhbmRleC5jbG91ZC5pYW0udjEuRGVsZXRlS2V5",
-            "UmVxdWVzdBohLnlhbmRleC5jbG91ZC5vcGVyYXRpb24uT3BlcmF0aW9uIkuC",
-            "0+STAhcqFS9pYW0vdjEva2V5cy97a2V5X2lkfbLSKioKEURlbGV0ZUtleU1l",
-            "dGFkYXRhEhVnb29nbGUucHJvdG9idWYuRW1wdHkSmQEKDkxpc3RPcGVyYXRp",
-            "b25zEi0ueWFuZGV4LmNsb3VkLmlhbS52MS5MaXN0S2V5T3BlcmF0aW9uc1Jl",
-            "cXVlc3QaLi55YW5kZXguY2xvdWQuaWFtLnYxLkxpc3RLZXlPcGVyYXRpb25z",
-            "UmVzcG9uc2UiKILT5JMCIhIgL2lhbS92MS9rZXlzL3trZXlfaWR9L29wZXJh",
-            "dGlvbnNCVgoXeWFuZGV4LmNsb3VkLmFwaS5pYW0udjFaO2dpdGh1Yi5jb20v",
-            "eWFuZGV4LWNsb3VkL2dvLWdlbnByb3RvL3lhbmRleC9jbG91ZC9pYW0vdjE7",
-            "aWFtYgZwcm90bzM="));
+            "GiBnb29nbGUvcHJvdG9idWYvZmllbGRfbWFzay5wcm90bxodeWFuZGV4L2Ns",
+            "b3VkL2lhbS92MS9rZXkucHJvdG8aIHlhbmRleC9jbG91ZC9hcGkvb3BlcmF0",
+            "aW9uLnByb3RvGiZ5YW5kZXgvY2xvdWQvb3BlcmF0aW9uL29wZXJhdGlvbi5w",
+            "cm90bxodeWFuZGV4L2Nsb3VkL3ZhbGlkYXRpb24ucHJvdG8iXQoNR2V0S2V5",
+            "UmVxdWVzdBIcCgZrZXlfaWQYASABKAlCDOjHMQGKyDEEPD01MBIuCgZmb3Jt",
+            "YXQYAiABKA4yHi55YW5kZXguY2xvdWQuaWFtLnYxLktleUZvcm1hdCKlAQoP",
+            "TGlzdEtleXNSZXF1ZXN0Ei4KBmZvcm1hdBgBIAEoDjIeLnlhbmRleC5jbG91",
+            "ZC5pYW0udjEuS2V5Rm9ybWF0EiQKEnNlcnZpY2VfYWNjb3VudF9pZBgCIAEo",
+            "CUIIisgxBDw9NTASHQoJcGFnZV9zaXplGAMgASgDQgr6xzEGPD0xMDAwEh0K",
+            "CnBhZ2VfdG9rZW4YBCABKAlCCYrIMQU8PTEwMCJTChBMaXN0S2V5c1Jlc3Bv",
+            "bnNlEiYKBGtleXMYASADKAsyGC55YW5kZXguY2xvdWQuaWFtLnYxLktleRIX",
+            "Cg9uZXh0X3BhZ2VfdG9rZW4YAiABKAkiwwEKEENyZWF0ZUtleVJlcXVlc3QS",
+            "JAoSc2VydmljZV9hY2NvdW50X2lkGAEgASgJQgiKyDEEPD01MBIeCgtkZXNj",
+            "cmlwdGlvbhgCIAEoCUIJisgxBTw9MjU2Ei4KBmZvcm1hdBgDIAEoDjIeLnlh",
+            "bmRleC5jbG91ZC5pYW0udjEuS2V5Rm9ybWF0EjkKDWtleV9hbGdvcml0aG0Y",
+            "BCABKA4yIi55YW5kZXguY2xvdWQuaWFtLnYxLktleS5BbGdvcml0aG0iTwoR",
+            "Q3JlYXRlS2V5UmVzcG9uc2USJQoDa2V5GAEgASgLMhgueWFuZGV4LmNsb3Vk",
+            "LmlhbS52MS5LZXkSEwoLcHJpdmF0ZV9rZXkYAiABKAkigQEKEFVwZGF0ZUtl",
+            "eVJlcXVlc3QSHAoGa2V5X2lkGAEgASgJQgzoxzEBisgxBDw9NTASLwoLdXBk",
+            "YXRlX21hc2sYAiABKAsyGi5nb29nbGUucHJvdG9idWYuRmllbGRNYXNrEh4K",
+            "C2Rlc2NyaXB0aW9uGAMgASgJQgmKyDEFPD0yNTYiIwoRVXBkYXRlS2V5TWV0",
+            "YWRhdGESDgoGa2V5X2lkGAEgASgJIjAKEERlbGV0ZUtleVJlcXVlc3QSHAoG",
+            "a2V5X2lkGAEgASgJQgzoxzEBisgxBDw9NTAiIwoRRGVsZXRlS2V5TWV0YWRh",
+            "dGESDgoGa2V5X2lkGAEgASgJInYKGExpc3RLZXlPcGVyYXRpb25zUmVxdWVz",
+            "dBIcCgZrZXlfaWQYASABKAlCDOjHMQGKyDEEPD01MBIdCglwYWdlX3NpemUY",
+            "AiABKANCCvrHMQYwLTEwMDASHQoKcGFnZV90b2tlbhgDIAEoCUIJisgxBTw9",
+            "MTAwImsKGUxpc3RLZXlPcGVyYXRpb25zUmVzcG9uc2USNQoKb3BlcmF0aW9u",
+            "cxgBIAMoCzIhLnlhbmRleC5jbG91ZC5vcGVyYXRpb24uT3BlcmF0aW9uEhcK",
+            "D25leHRfcGFnZV90b2tlbhgCIAEoCSoZCglLZXlGb3JtYXQSDAoIUEVNX0ZJ",
+            "TEUQADKeBgoKS2V5U2VydmljZRJiCgNHZXQSIi55YW5kZXguY2xvdWQuaWFt",
+            "LnYxLkdldEtleVJlcXVlc3QaGC55YW5kZXguY2xvdWQuaWFtLnYxLktleSId",
+            "gtPkkwIXEhUvaWFtL3YxL2tleXMve2tleV9pZH0SaQoETGlzdBIkLnlhbmRl",
+            "eC5jbG91ZC5pYW0udjEuTGlzdEtleXNSZXF1ZXN0GiUueWFuZGV4LmNsb3Vk",
+            "LmlhbS52MS5MaXN0S2V5c1Jlc3BvbnNlIhSC0+STAg4SDC9pYW0vdjEva2V5",
+            "cxJwCgZDcmVhdGUSJS55YW5kZXguY2xvdWQuaWFtLnYxLkNyZWF0ZUtleVJl",
+            "cXVlc3QaJi55YW5kZXguY2xvdWQuaWFtLnYxLkNyZWF0ZUtleVJlc3BvbnNl",
+            "IheC0+STAhEiDC9pYW0vdjEva2V5czoBKhKQAQoGVXBkYXRlEiUueWFuZGV4",
+            "LmNsb3VkLmlhbS52MS5VcGRhdGVLZXlSZXF1ZXN0GiEueWFuZGV4LmNsb3Vk",
+            "Lm9wZXJhdGlvbi5PcGVyYXRpb24iPILT5JMCGjIVL2lhbS92MS9rZXlzL3tr",
+            "ZXlfaWR9OgEqstIqGAoRVXBkYXRlS2V5TWV0YWRhdGESA0tleRKfAQoGRGVs",
+            "ZXRlEiUueWFuZGV4LmNsb3VkLmlhbS52MS5EZWxldGVLZXlSZXF1ZXN0GiEu",
+            "eWFuZGV4LmNsb3VkLm9wZXJhdGlvbi5PcGVyYXRpb24iS4LT5JMCFyoVL2lh",
+            "bS92MS9rZXlzL3trZXlfaWR9stIqKgoRRGVsZXRlS2V5TWV0YWRhdGESFWdv",
+            "b2dsZS5wcm90b2J1Zi5FbXB0eRKZAQoOTGlzdE9wZXJhdGlvbnMSLS55YW5k",
+            "ZXguY2xvdWQuaWFtLnYxLkxpc3RLZXlPcGVyYXRpb25zUmVxdWVzdBouLnlh",
+            "bmRleC5jbG91ZC5pYW0udjEuTGlzdEtleU9wZXJhdGlvbnNSZXNwb25zZSIo",
+            "gtPkkwIiEiAvaWFtL3YxL2tleXMve2tleV9pZH0vb3BlcmF0aW9uc0JWChd5",
+            "YW5kZXguY2xvdWQuYXBpLmlhbS52MVo7Z2l0aHViLmNvbS95YW5kZXgtY2xv",
+            "dWQvZ28tZ2VucHJvdG8veWFuZGV4L2Nsb3VkL2lhbS92MTtpYW1iBnByb3Rv",
+            "Mw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Yandex.Cloud.Iam.V1.KeyReflection.Descriptor, global::Yandex.Cloud.Api.OperationReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Yandex.Cloud.Iam.V1.KeyReflection.Descriptor, global::Yandex.Cloud.Api.OperationReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Yandex.Cloud.Iam.V1.KeyFormat), }, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.GetKeyRequest), global::Yandex.Cloud.Iam.V1.GetKeyRequest.Parser, new[]{ "KeyId", "Format" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.ListKeysRequest), global::Yandex.Cloud.Iam.V1.ListKeysRequest.Parser, new[]{ "Format", "ServiceAccountId", "PageSize", "PageToken" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.ListKeysResponse), global::Yandex.Cloud.Iam.V1.ListKeysResponse.Parser, new[]{ "Keys", "NextPageToken" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.CreateKeyRequest), global::Yandex.Cloud.Iam.V1.CreateKeyRequest.Parser, new[]{ "ServiceAccountId", "Description", "Format", "KeyAlgorithm" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.CreateKeyResponse), global::Yandex.Cloud.Iam.V1.CreateKeyResponse.Parser, new[]{ "Key", "PrivateKey" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.UpdateKeyRequest), global::Yandex.Cloud.Iam.V1.UpdateKeyRequest.Parser, new[]{ "KeyId", "UpdateMask", "Description" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.UpdateKeyMetadata), global::Yandex.Cloud.Iam.V1.UpdateKeyMetadata.Parser, new[]{ "KeyId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.DeleteKeyRequest), global::Yandex.Cloud.Iam.V1.DeleteKeyRequest.Parser, new[]{ "KeyId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.DeleteKeyMetadata), global::Yandex.Cloud.Iam.V1.DeleteKeyMetadata.Parser, new[]{ "KeyId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.ListKeyOperationsRequest), global::Yandex.Cloud.Iam.V1.ListKeyOperationsRequest.Parser, new[]{ "KeyId", "PageSize", "PageToken" }, null, null, null),
@@ -1049,6 +1059,339 @@ namespace Yandex.Cloud.Iam.V1 {
 
   }
 
+  internal sealed partial class UpdateKeyRequest : pb::IMessage<UpdateKeyRequest> {
+    private static readonly pb::MessageParser<UpdateKeyRequest> _parser = new pb::MessageParser<UpdateKeyRequest>(() => new UpdateKeyRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<UpdateKeyRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Iam.V1.KeyServiceReflection.Descriptor.MessageTypes[5]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public UpdateKeyRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public UpdateKeyRequest(UpdateKeyRequest other) : this() {
+      keyId_ = other.keyId_;
+      updateMask_ = other.updateMask_ != null ? other.updateMask_.Clone() : null;
+      description_ = other.description_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public UpdateKeyRequest Clone() {
+      return new UpdateKeyRequest(this);
+    }
+
+    /// <summary>Field number for the "key_id" field.</summary>
+    public const int KeyIdFieldNumber = 1;
+    private string keyId_ = "";
+    /// <summary>
+    /// ID of the Key resource to update.
+    /// To get key pair ID, use a [Service.List] request.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string KeyId {
+      get { return keyId_; }
+      set {
+        keyId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "update_mask" field.</summary>
+    public const int UpdateMaskFieldNumber = 2;
+    private global::Google.Protobuf.WellKnownTypes.FieldMask updateMask_;
+    /// <summary>
+    /// Field mask that specifies which fields of the Key resource are going to be updated.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Google.Protobuf.WellKnownTypes.FieldMask UpdateMask {
+      get { return updateMask_; }
+      set {
+        updateMask_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "description" field.</summary>
+    public const int DescriptionFieldNumber = 3;
+    private string description_ = "";
+    /// <summary>
+    /// Description of the key pair.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Description {
+      get { return description_; }
+      set {
+        description_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as UpdateKeyRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(UpdateKeyRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (KeyId != other.KeyId) return false;
+      if (!object.Equals(UpdateMask, other.UpdateMask)) return false;
+      if (Description != other.Description) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (KeyId.Length != 0) hash ^= KeyId.GetHashCode();
+      if (updateMask_ != null) hash ^= UpdateMask.GetHashCode();
+      if (Description.Length != 0) hash ^= Description.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (KeyId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(KeyId);
+      }
+      if (updateMask_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(UpdateMask);
+      }
+      if (Description.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(Description);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (KeyId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(KeyId);
+      }
+      if (updateMask_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(UpdateMask);
+      }
+      if (Description.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Description);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(UpdateKeyRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.KeyId.Length != 0) {
+        KeyId = other.KeyId;
+      }
+      if (other.updateMask_ != null) {
+        if (updateMask_ == null) {
+          UpdateMask = new global::Google.Protobuf.WellKnownTypes.FieldMask();
+        }
+        UpdateMask.MergeFrom(other.UpdateMask);
+      }
+      if (other.Description.Length != 0) {
+        Description = other.Description;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            KeyId = input.ReadString();
+            break;
+          }
+          case 18: {
+            if (updateMask_ == null) {
+              UpdateMask = new global::Google.Protobuf.WellKnownTypes.FieldMask();
+            }
+            input.ReadMessage(UpdateMask);
+            break;
+          }
+          case 26: {
+            Description = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  internal sealed partial class UpdateKeyMetadata : pb::IMessage<UpdateKeyMetadata> {
+    private static readonly pb::MessageParser<UpdateKeyMetadata> _parser = new pb::MessageParser<UpdateKeyMetadata>(() => new UpdateKeyMetadata());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<UpdateKeyMetadata> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Iam.V1.KeyServiceReflection.Descriptor.MessageTypes[6]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public UpdateKeyMetadata() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public UpdateKeyMetadata(UpdateKeyMetadata other) : this() {
+      keyId_ = other.keyId_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public UpdateKeyMetadata Clone() {
+      return new UpdateKeyMetadata(this);
+    }
+
+    /// <summary>Field number for the "key_id" field.</summary>
+    public const int KeyIdFieldNumber = 1;
+    private string keyId_ = "";
+    /// <summary>
+    /// ID of the Key resource that is being updated.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string KeyId {
+      get { return keyId_; }
+      set {
+        keyId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as UpdateKeyMetadata);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(UpdateKeyMetadata other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (KeyId != other.KeyId) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (KeyId.Length != 0) hash ^= KeyId.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (KeyId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(KeyId);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (KeyId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(KeyId);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(UpdateKeyMetadata other) {
+      if (other == null) {
+        return;
+      }
+      if (other.KeyId.Length != 0) {
+        KeyId = other.KeyId;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            KeyId = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
   internal sealed partial class DeleteKeyRequest : pb::IMessage<DeleteKeyRequest> {
     private static readonly pb::MessageParser<DeleteKeyRequest> _parser = new pb::MessageParser<DeleteKeyRequest>(() => new DeleteKeyRequest());
     private pb::UnknownFieldSet _unknownFields;
@@ -1057,7 +1400,7 @@ namespace Yandex.Cloud.Iam.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Iam.V1.KeyServiceReflection.Descriptor.MessageTypes[5]; }
+      get { return global::Yandex.Cloud.Iam.V1.KeyServiceReflection.Descriptor.MessageTypes[7]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1190,7 +1533,7 @@ namespace Yandex.Cloud.Iam.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Iam.V1.KeyServiceReflection.Descriptor.MessageTypes[6]; }
+      get { return global::Yandex.Cloud.Iam.V1.KeyServiceReflection.Descriptor.MessageTypes[8]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1322,7 +1665,7 @@ namespace Yandex.Cloud.Iam.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Iam.V1.KeyServiceReflection.Descriptor.MessageTypes[7]; }
+      get { return global::Yandex.Cloud.Iam.V1.KeyServiceReflection.Descriptor.MessageTypes[9]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1521,7 +1864,7 @@ namespace Yandex.Cloud.Iam.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Iam.V1.KeyServiceReflection.Descriptor.MessageTypes[8]; }
+      get { return global::Yandex.Cloud.Iam.V1.KeyServiceReflection.Descriptor.MessageTypes[10]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

@@ -27,38 +27,39 @@ namespace Yandex.Cloud.Dataproc.V1 {
             "CiZ5YW5kZXgvY2xvdWQvZGF0YXByb2MvdjEvY2x1c3Rlci5wcm90bxIYeWFu",
             "ZGV4LmNsb3VkLmRhdGFwcm9jLnYxGh9nb29nbGUvcHJvdG9idWYvdGltZXN0",
             "YW1wLnByb3RvGiV5YW5kZXgvY2xvdWQvZGF0YXByb2MvdjEvY29tbW9uLnBy",
-            "b3RvIvIECgdDbHVzdGVyEgoKAmlkGAEgASgJEhEKCWZvbGRlcl9pZBgCIAEo",
-            "CRIuCgpjcmVhdGVkX2F0GAMgASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVz",
-            "dGFtcBIMCgRuYW1lGAQgASgJEhMKC2Rlc2NyaXB0aW9uGAUgASgJEj0KBmxh",
-            "YmVscxgGIAMoCzItLnlhbmRleC5jbG91ZC5kYXRhcHJvYy52MS5DbHVzdGVy",
-            "LkxhYmVsc0VudHJ5EjgKCm1vbml0b3JpbmcYByADKAsyJC55YW5kZXguY2xv",
-            "dWQuZGF0YXByb2MudjEuTW9uaXRvcmluZxI3CgZjb25maWcYCCABKAsyJy55",
-            "YW5kZXguY2xvdWQuZGF0YXByb2MudjEuQ2x1c3RlckNvbmZpZxIwCgZoZWFs",
-            "dGgYCSABKA4yIC55YW5kZXguY2xvdWQuZGF0YXByb2MudjEuSGVhbHRoEjgK",
-            "BnN0YXR1cxgKIAEoDjIoLnlhbmRleC5jbG91ZC5kYXRhcHJvYy52MS5DbHVz",
-            "dGVyLlN0YXR1cxIPCgd6b25lX2lkGAsgASgJEhoKEnNlcnZpY2VfYWNjb3Vu",
-            "dF9pZBgMIAEoCRIOCgZidWNrZXQYDSABKAkaLQoLTGFiZWxzRW50cnkSCwoD",
-            "a2V5GAEgASgJEg0KBXZhbHVlGAIgASgJOgI4ASJrCgZTdGF0dXMSEgoOU1RB",
-            "VFVTX1VOS05PV04QABIMCghDUkVBVElORxABEgsKB1JVTk5JTkcQAhIJCgVF",
-            "UlJPUhADEgwKCFNUT1BQSU5HEAQSCwoHU1RPUFBFRBAFEgwKCFNUQVJUSU5H",
-            "EAYiPQoKTW9uaXRvcmluZxIMCgRuYW1lGAEgASgJEhMKC2Rlc2NyaXB0aW9u",
-            "GAIgASgJEgwKBGxpbmsYAyABKAkilwMKDEhhZG9vcENvbmZpZxJACghzZXJ2",
-            "aWNlcxgBIAMoDjIuLnlhbmRleC5jbG91ZC5kYXRhcHJvYy52MS5IYWRvb3BD",
-            "b25maWcuU2VydmljZRJKCgpwcm9wZXJ0aWVzGAIgAygLMjYueWFuZGV4LmNs",
-            "b3VkLmRhdGFwcm9jLnYxLkhhZG9vcENvbmZpZy5Qcm9wZXJ0aWVzRW50cnkS",
-            "FwoPc3NoX3B1YmxpY19rZXlzGAMgAygJGjEKD1Byb3BlcnRpZXNFbnRyeRIL",
-            "CgNrZXkYASABKAkSDQoFdmFsdWUYAiABKAk6AjgBIqwBCgdTZXJ2aWNlEhcK",
-            "E1NFUlZJQ0VfVU5TUEVDSUZJRUQQABIICgRIREZTEAESCAoEWUFSThACEg0K",
-            "CU1BUFJFRFVDRRADEggKBEhJVkUQBBIHCgNURVoQBRINCglaT09LRUVQRVIQ",
-            "BhIJCgVIQkFTRRAHEgkKBVNRT09QEAgSCQoFRkxVTUUQCRIJCgVTUEFSSxAK",
-            "EgwKCFpFUFBFTElOEAsSCQoFT09aSUUQDCJbCg1DbHVzdGVyQ29uZmlnEhIK",
-            "CnZlcnNpb25faWQYASABKAkSNgoGaGFkb29wGAIgASgLMiYueWFuZGV4LmNs",
-            "b3VkLmRhdGFwcm9jLnYxLkhhZG9vcENvbmZpZ0JlChx5YW5kZXguY2xvdWQu",
-            "YXBpLmRhdGFwcm9jLnYxWkVnaXRodWIuY29tL3lhbmRleC1jbG91ZC9nby1n",
-            "ZW5wcm90by95YW5kZXgvY2xvdWQvZGF0YXByb2MvdjE7ZGF0YXByb2NiBnBy",
-            "b3RvMw=="));
+            "b3RvGh15YW5kZXgvY2xvdWQvdmFsaWRhdGlvbi5wcm90byKRBQoHQ2x1c3Rl",
+            "chIKCgJpZBgBIAEoCRIRCglmb2xkZXJfaWQYAiABKAkSLgoKY3JlYXRlZF9h",
+            "dBgDIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXASFgoEbmFtZRgE",
+            "IAEoCUIIisgxBDEtNjMSHgoLZGVzY3JpcHRpb24YBSABKAlCCYrIMQUwLTI1",
+            "NhJHCgZsYWJlbHMYBiADKAsyLS55YW5kZXguY2xvdWQuZGF0YXByb2MudjEu",
+            "Q2x1c3Rlci5MYWJlbHNFbnRyeUIIgsgxBDw9NjQSOAoKbW9uaXRvcmluZxgH",
+            "IAMoCzIkLnlhbmRleC5jbG91ZC5kYXRhcHJvYy52MS5Nb25pdG9yaW5nEjcK",
+            "BmNvbmZpZxgIIAEoCzInLnlhbmRleC5jbG91ZC5kYXRhcHJvYy52MS5DbHVz",
+            "dGVyQ29uZmlnEjAKBmhlYWx0aBgJIAEoDjIgLnlhbmRleC5jbG91ZC5kYXRh",
+            "cHJvYy52MS5IZWFsdGgSOAoGc3RhdHVzGAogASgOMigueWFuZGV4LmNsb3Vk",
+            "LmRhdGFwcm9jLnYxLkNsdXN0ZXIuU3RhdHVzEg8KB3pvbmVfaWQYCyABKAkS",
+            "GgoSc2VydmljZV9hY2NvdW50X2lkGAwgASgJEg4KBmJ1Y2tldBgNIAEoCRot",
+            "CgtMYWJlbHNFbnRyeRILCgNrZXkYASABKAkSDQoFdmFsdWUYAiABKAk6AjgB",
+            "ImsKBlN0YXR1cxISCg5TVEFUVVNfVU5LTk9XThAAEgwKCENSRUFUSU5HEAES",
+            "CwoHUlVOTklORxACEgkKBUVSUk9SEAMSDAoIU1RPUFBJTkcQBBILCgdTVE9Q",
+            "UEVEEAUSDAoIU1RBUlRJTkcQBiI9CgpNb25pdG9yaW5nEgwKBG5hbWUYASAB",
+            "KAkSEwoLZGVzY3JpcHRpb24YAiABKAkSDAoEbGluaxgDIAEoCSKXAwoMSGFk",
+            "b29wQ29uZmlnEkAKCHNlcnZpY2VzGAEgAygOMi4ueWFuZGV4LmNsb3VkLmRh",
+            "dGFwcm9jLnYxLkhhZG9vcENvbmZpZy5TZXJ2aWNlEkoKCnByb3BlcnRpZXMY",
+            "AiADKAsyNi55YW5kZXguY2xvdWQuZGF0YXByb2MudjEuSGFkb29wQ29uZmln",
+            "LlByb3BlcnRpZXNFbnRyeRIXCg9zc2hfcHVibGljX2tleXMYAyADKAkaMQoP",
+            "UHJvcGVydGllc0VudHJ5EgsKA2tleRgBIAEoCRINCgV2YWx1ZRgCIAEoCToC",
+            "OAEirAEKB1NlcnZpY2USFwoTU0VSVklDRV9VTlNQRUNJRklFRBAAEggKBEhE",
+            "RlMQARIICgRZQVJOEAISDQoJTUFQUkVEVUNFEAMSCAoESElWRRAEEgcKA1RF",
+            "WhAFEg0KCVpPT0tFRVBFUhAGEgkKBUhCQVNFEAcSCQoFU1FPT1AQCBIJCgVG",
+            "TFVNRRAJEgkKBVNQQVJLEAoSDAoIWkVQUEVMSU4QCxIJCgVPT1pJRRAMIlsK",
+            "DUNsdXN0ZXJDb25maWcSEgoKdmVyc2lvbl9pZBgBIAEoCRI2CgZoYWRvb3AY",
+            "AiABKAsyJi55YW5kZXguY2xvdWQuZGF0YXByb2MudjEuSGFkb29wQ29uZmln",
+            "QmUKHHlhbmRleC5jbG91ZC5hcGkuZGF0YXByb2MudjFaRWdpdGh1Yi5jb20v",
+            "eWFuZGV4LWNsb3VkL2dvLWdlbnByb3RvL3lhbmRleC9jbG91ZC9kYXRhcHJv",
+            "Yy92MTtkYXRhcHJvY2IGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Yandex.Cloud.Dataproc.V1.CommonReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Yandex.Cloud.Dataproc.V1.CommonReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.Cluster), global::Yandex.Cloud.Dataproc.V1.Cluster.Parser, new[]{ "Id", "FolderId", "CreatedAt", "Name", "Description", "Labels", "Monitoring", "Config", "Health", "Status", "ZoneId", "ServiceAccountId", "Bucket" }, null, new[]{ typeof(global::Yandex.Cloud.Dataproc.V1.Cluster.Types.Status) }, new pbr::GeneratedClrTypeInfo[] { null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.Monitoring), global::Yandex.Cloud.Dataproc.V1.Monitoring.Parser, new[]{ "Name", "Description", "Link" }, null, null, null),
@@ -71,8 +72,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
   }
   #region Messages
   /// <summary>
-  /// Description of a Dataproc cluster. For more information, see
-  /// the Yandex Dataproc [documentation](/docs/data-proc/concepts/).
+  /// A Data Proc cluster. For details about the concept, see [documentation](/docs/data-proc/concepts/).
   /// </summary>
   internal sealed partial class Cluster : pb::IMessage<Cluster> {
     private static readonly pb::MessageParser<Cluster> _parser = new pb::MessageParser<Cluster>(() => new Cluster());
@@ -124,8 +124,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
     public const int IdFieldNumber = 1;
     private string id_ = "";
     /// <summary>
-    /// ID of the Dataproc cluster.
-    /// This ID is assigned by Dataproc at creation time.
+    /// ID of the cluster. Generated at creation time.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Id {
@@ -139,7 +138,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
     public const int FolderIdFieldNumber = 2;
     private string folderId_ = "";
     /// <summary>
-    /// ID of the folder that the Dataproc cluster belongs to.
+    /// ID of the folder that the cluster belongs to.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string FolderId {
@@ -153,7 +152,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
     public const int CreatedAtFieldNumber = 3;
     private global::Google.Protobuf.WellKnownTypes.Timestamp createdAt_;
     /// <summary>
-    /// Creation timestamp in [RFC3339](https://www.ietf.org/rfc/rfc3339.txt) text format.
+    /// Creation timestamp.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Google.Protobuf.WellKnownTypes.Timestamp CreatedAt {
@@ -167,8 +166,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
     public const int NameFieldNumber = 4;
     private string name_ = "";
     /// <summary>
-    /// Name of the Dataproc cluster.
-    /// The name is unique within the folder. 1-64 characters long.
+    /// Name of the cluster. The name is unique within the folder.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Name {
@@ -182,7 +180,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
     public const int DescriptionFieldNumber = 5;
     private string description_ = "";
     /// <summary>
-    /// Description of the Dataproc cluster. 0-256 characters long.
+    /// Description of the cluster.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Description {
@@ -198,8 +196,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
         = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 50);
     private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
     /// <summary>
-    /// Custom labels for the Dataproc cluster as `` key:value `` pairs.
-    /// Maximum 64 per resource.
+    /// Cluster labels as `key:value` pairs.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::MapField<string, string> Labels {
@@ -212,7 +209,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
         = pb::FieldCodec.ForMessage(58, global::Yandex.Cloud.Dataproc.V1.Monitoring.Parser);
     private readonly pbc::RepeatedField<global::Yandex.Cloud.Dataproc.V1.Monitoring> monitoring_ = new pbc::RepeatedField<global::Yandex.Cloud.Dataproc.V1.Monitoring>();
     /// <summary>
-    /// Monitoring systems relevant to the Dataproc cluster.
+    /// Monitoring systems relevant to the cluster.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::RepeatedField<global::Yandex.Cloud.Dataproc.V1.Monitoring> Monitoring {
@@ -223,7 +220,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
     public const int ConfigFieldNumber = 8;
     private global::Yandex.Cloud.Dataproc.V1.ClusterConfig config_;
     /// <summary>
-    /// Configuration of the Dataproc cluster.
+    /// Configuration of the cluster.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Dataproc.V1.ClusterConfig Config {
@@ -265,7 +262,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
     public const int ZoneIdFieldNumber = 11;
     private string zoneId_ = "";
     /// <summary>
-    /// ID of the availability zone.
+    /// ID of the availability zone where the cluster resides.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ZoneId {
@@ -279,7 +276,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
     public const int ServiceAccountIdFieldNumber = 12;
     private string serviceAccountId_ = "";
     /// <summary>
-    /// ID of service account for Dataproc manager agent.
+    /// ID of service account for the Data Proc manager agent.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ServiceAccountId {
@@ -293,7 +290,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
     public const int BucketFieldNumber = 13;
     private string bucket_ = "";
     /// <summary>
-    /// Object storage bucket name for Dataproc jobs.
+    /// Object Storage bucket to be used for Data Proc jobs that are run in the cluster.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Bucket {
@@ -616,7 +613,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
   }
 
   /// <summary>
-  /// Monitoring system.
+  /// Metadata of a monitoring system for a Data Proc cluster.
   /// </summary>
   internal sealed partial class Monitoring : pb::IMessage<Monitoring> {
     private static readonly pb::MessageParser<Monitoring> _parser = new pb::MessageParser<Monitoring>(() => new Monitoring());
@@ -813,7 +810,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
   }
 
   /// <summary>
-  /// Configuration, that describes application logic of installed services,
+  /// Hadoop configuration that describes services installed in a cluster,
   /// their properties and settings.
   /// </summary>
   internal sealed partial class HadoopConfig : pb::IMessage<HadoopConfig> {
@@ -858,7 +855,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
         = pb::FieldCodec.ForEnum(10, x => (int) x, x => (global::Yandex.Cloud.Dataproc.V1.HadoopConfig.Types.Service) x);
     private readonly pbc::RepeatedField<global::Yandex.Cloud.Dataproc.V1.HadoopConfig.Types.Service> services_ = new pbc::RepeatedField<global::Yandex.Cloud.Dataproc.V1.HadoopConfig.Types.Service>();
     /// <summary>
-    /// List of used services in cluster (for default use empty)
+    /// Set of services used in the cluster (if empty, the default set is used).
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::RepeatedField<global::Yandex.Cloud.Dataproc.V1.HadoopConfig.Types.Service> Services {
@@ -871,9 +868,11 @@ namespace Yandex.Cloud.Dataproc.V1 {
         = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 18);
     private readonly pbc::MapField<string, string> properties_ = new pbc::MapField<string, string>();
     /// <summary>
-    /// Properties passed to all hosts *-site.xml configurations.
-    /// In key you need to use prefix 'hdfs:dfs.replication' for setting
-    /// property 'dfs.replication' in /etc/hadoop/conf/hdfs-site.xml
+    /// Properties set for all hosts in `*-site.xml` configurations. The key should indicate
+    /// the service and the property.
+    ///
+    /// For example, use the key 'hdfs:dfs.replication' to set the `dfs.replication` property
+    /// in the file `/etc/hadoop/conf/hdfs-site.xml`.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::MapField<string, string> Properties {
@@ -886,7 +885,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
         = pb::FieldCodec.ForString(26);
     private readonly pbc::RepeatedField<string> sshPublicKeys_ = new pbc::RepeatedField<string>();
     /// <summary>
-    /// List of ssh public keys to access to cluster hosts.
+    /// List of public SSH keys to access to cluster hosts.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::RepeatedField<string> SshPublicKeys {
@@ -1051,7 +1050,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
     public const int VersionIdFieldNumber = 1;
     private string versionId_ = "";
     /// <summary>
-    /// Version of image for cluster provisioning.
+    /// Image version for cluster provisioning.
     /// All available versions are listed in the [documentation](/docs/managed-hadoop/concepts/image-versions).
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1066,7 +1065,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
     public const int HadoopFieldNumber = 2;
     private global::Yandex.Cloud.Dataproc.V1.HadoopConfig hadoop_;
     /// <summary>
-    /// Dataproc specific options
+    /// Data Proc specific configuration options.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Dataproc.V1.HadoopConfig Hadoop {

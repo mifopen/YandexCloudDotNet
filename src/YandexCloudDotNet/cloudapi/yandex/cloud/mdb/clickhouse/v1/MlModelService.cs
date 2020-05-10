@@ -44,41 +44,42 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
             "IAEoDjIrLnlhbmRleC5jbG91ZC5tZGIuY2xpY2tob3VzZS52MS5NbE1vZGVs",
             "VHlwZUIE6McxARIRCgN1cmkYBCABKAlCBOjHMQEiQgoVQ3JlYXRlTWxNb2Rl",
             "bE1ldGFkYXRhEhIKCmNsdXN0ZXJfaWQYASABKAkSFQoNbWxfbW9kZWxfbmFt",
-            "ZRgCIAEoCSKsAQoUVXBkYXRlTWxNb2RlbFJlcXVlc3QSIAoKY2x1c3Rlcl9p",
-            "ZBgBIAEoCUIM6McxAYrIMQQ8PTUwEjQKDG1sX21vZGVfbmFtZRgCIAEoCUIe",
-            "6McxAYrIMQQ8PTYz8scxDlthLXpBLVowLTlfLV0qEi8KC3VwZGF0ZV9tYXNr",
-            "GAMgASgLMhouZ29vZ2xlLnByb3RvYnVmLkZpZWxkTWFzaxILCgN1cmkYBCAB",
-            "KAkiQgoVVXBkYXRlTWxNb2RlbE1ldGFkYXRhEhIKCmNsdXN0ZXJfaWQYASAB",
-            "KAkSFQoNbWxfbW9kZWxfbmFtZRgCIAEoCSJvChREZWxldGVNbE1vZGVsUmVx",
-            "dWVzdBIgCgpjbHVzdGVyX2lkGAEgASgJQgzoxzEBisgxBDw9NTASNQoNbWxf",
-            "bW9kZWxfbmFtZRgCIAEoCUIe6McxAYrIMQQ8PTYz8scxDlthLXpBLVowLTlf",
-            "LV0qIkIKFURlbGV0ZU1sTW9kZWxNZXRhZGF0YRISCgpjbHVzdGVyX2lkGAEg",
-            "ASgJEhUKDW1sX21vZGVsX25hbWUYAiABKAky7wcKDk1sTW9kZWxTZXJ2aWNl",
-            "ErABCgNHZXQSMS55YW5kZXguY2xvdWQubWRiLmNsaWNraG91c2UudjEuR2V0",
-            "TWxNb2RlbFJlcXVlc3QaJy55YW5kZXguY2xvdWQubWRiLmNsaWNraG91c2Uu",
-            "djEuTWxNb2RlbCJNgtPkkwJHEkUvbWFuYWdlZC1jbGlja2hvdXNlL3YxL2Ns",
-            "dXN0ZXJzL3tjbHVzdGVyX2lkfS9tbE1vZGVscy97bWxfbW9kZWxfbmFtZX0S",
-            "sAEKBExpc3QSMy55YW5kZXguY2xvdWQubWRiLmNsaWNraG91c2UudjEuTGlz",
-            "dE1sTW9kZWxzUmVxdWVzdBo0LnlhbmRleC5jbG91ZC5tZGIuY2xpY2tob3Vz",
-            "ZS52MS5MaXN0TWxNb2RlbHNSZXNwb25zZSI9gtPkkwI3EjUvbWFuYWdlZC1j",
-            "bGlja2hvdXNlL3YxL2NsdXN0ZXJzL3tjbHVzdGVyX2lkfS9tbE1vZGVscxLH",
-            "AQoGQ3JlYXRlEjQueWFuZGV4LmNsb3VkLm1kYi5jbGlja2hvdXNlLnYxLkNy",
-            "ZWF0ZU1sTW9kZWxSZXF1ZXN0GiEueWFuZGV4LmNsb3VkLm9wZXJhdGlvbi5P",
-            "cGVyYXRpb24iZILT5JMCOiI1L21hbmFnZWQtY2xpY2tob3VzZS92MS9jbHVz",
-            "dGVycy97Y2x1c3Rlcl9pZH0vbWxNb2RlbHM6ASqy0iogChVDcmVhdGVNbE1v",
-            "ZGVsTWV0YWRhdGESB01sTW9kZWwSxwEKBlVwZGF0ZRI0LnlhbmRleC5jbG91",
-            "ZC5tZGIuY2xpY2tob3VzZS52MS5VcGRhdGVNbE1vZGVsUmVxdWVzdBohLnlh",
-            "bmRleC5jbG91ZC5vcGVyYXRpb24uT3BlcmF0aW9uImSC0+STAjoyNS9tYW5h",
-            "Z2VkLWNsaWNraG91c2UvdjEvY2x1c3RlcnMve2NsdXN0ZXJfaWR9L21sTW9k",
-            "ZWxzOgEqstIqIAoVVXBkYXRlTWxNb2RlbE1ldGFkYXRhEgdNbE1vZGVsEuIB",
-            "CgZEZWxldGUSNC55YW5kZXguY2xvdWQubWRiLmNsaWNraG91c2UudjEuRGVs",
-            "ZXRlTWxNb2RlbFJlcXVlc3QaIS55YW5kZXguY2xvdWQub3BlcmF0aW9uLk9w",
-            "ZXJhdGlvbiJ/gtPkkwJHKkUvbWFuYWdlZC1jbGlja2hvdXNlL3YxL2NsdXN0",
-            "ZXJzL3tjbHVzdGVyX2lkfS9tbE1vZGVscy97bWxfbW9kZWxfbmFtZX2y0iou",
-            "ChVEZWxldGVNbE1vZGVsTWV0YWRhdGESFWdvb2dsZS5wcm90b2J1Zi5FbXB0",
-            "eUJzCiJ5YW5kZXguY2xvdWQuYXBpLm1kYi5jbGlja2hvdXNlLnYxWk1naXRo",
-            "dWIuY29tL3lhbmRleC1jbG91ZC9nby1nZW5wcm90by95YW5kZXgvY2xvdWQv",
-            "bWRiL2NsaWNraG91c2UvdjE7Y2xpY2tob3VzZWIGcHJvdG8z"));
+            "ZRgCIAEoCSKtAQoUVXBkYXRlTWxNb2RlbFJlcXVlc3QSIAoKY2x1c3Rlcl9p",
+            "ZBgBIAEoCUIM6McxAYrIMQQ8PTUwEjUKDW1sX21vZGVsX25hbWUYAiABKAlC",
+            "HujHMQGKyDEEPD02M/LHMQ5bYS16QS1aMC05Xy1dKhIvCgt1cGRhdGVfbWFz",
+            "axgDIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5GaWVsZE1hc2sSCwoDdXJpGAQg",
+            "ASgJIkIKFVVwZGF0ZU1sTW9kZWxNZXRhZGF0YRISCgpjbHVzdGVyX2lkGAEg",
+            "ASgJEhUKDW1sX21vZGVsX25hbWUYAiABKAkibwoURGVsZXRlTWxNb2RlbFJl",
+            "cXVlc3QSIAoKY2x1c3Rlcl9pZBgBIAEoCUIM6McxAYrIMQQ8PTUwEjUKDW1s",
+            "X21vZGVsX25hbWUYAiABKAlCHujHMQGKyDEEPD02M/LHMQ5bYS16QS1aMC05",
+            "Xy1dKiJCChVEZWxldGVNbE1vZGVsTWV0YWRhdGESEgoKY2x1c3Rlcl9pZBgB",
+            "IAEoCRIVCg1tbF9tb2RlbF9uYW1lGAIgASgJMv8HCg5NbE1vZGVsU2Vydmlj",
+            "ZRKwAQoDR2V0EjEueWFuZGV4LmNsb3VkLm1kYi5jbGlja2hvdXNlLnYxLkdl",
+            "dE1sTW9kZWxSZXF1ZXN0GicueWFuZGV4LmNsb3VkLm1kYi5jbGlja2hvdXNl",
+            "LnYxLk1sTW9kZWwiTYLT5JMCRxJFL21hbmFnZWQtY2xpY2tob3VzZS92MS9j",
+            "bHVzdGVycy97Y2x1c3Rlcl9pZH0vbWxNb2RlbHMve21sX21vZGVsX25hbWV9",
+            "ErABCgRMaXN0EjMueWFuZGV4LmNsb3VkLm1kYi5jbGlja2hvdXNlLnYxLkxp",
+            "c3RNbE1vZGVsc1JlcXVlc3QaNC55YW5kZXguY2xvdWQubWRiLmNsaWNraG91",
+            "c2UudjEuTGlzdE1sTW9kZWxzUmVzcG9uc2UiPYLT5JMCNxI1L21hbmFnZWQt",
+            "Y2xpY2tob3VzZS92MS9jbHVzdGVycy97Y2x1c3Rlcl9pZH0vbWxNb2RlbHMS",
+            "xwEKBkNyZWF0ZRI0LnlhbmRleC5jbG91ZC5tZGIuY2xpY2tob3VzZS52MS5D",
+            "cmVhdGVNbE1vZGVsUmVxdWVzdBohLnlhbmRleC5jbG91ZC5vcGVyYXRpb24u",
+            "T3BlcmF0aW9uImSC0+STAjoiNS9tYW5hZ2VkLWNsaWNraG91c2UvdjEvY2x1",
+            "c3RlcnMve2NsdXN0ZXJfaWR9L21sTW9kZWxzOgEqstIqIAoVQ3JlYXRlTWxN",
+            "b2RlbE1ldGFkYXRhEgdNbE1vZGVsEtcBCgZVcGRhdGUSNC55YW5kZXguY2xv",
+            "dWQubWRiLmNsaWNraG91c2UudjEuVXBkYXRlTWxNb2RlbFJlcXVlc3QaIS55",
+            "YW5kZXguY2xvdWQub3BlcmF0aW9uLk9wZXJhdGlvbiJ0gtPkkwJKMkUvbWFu",
+            "YWdlZC1jbGlja2hvdXNlL3YxL2NsdXN0ZXJzL3tjbHVzdGVyX2lkfS9tbE1v",
+            "ZGVscy97bWxfbW9kZWxfbmFtZX06ASqy0iogChVVcGRhdGVNbE1vZGVsTWV0",
+            "YWRhdGESB01sTW9kZWwS4gEKBkRlbGV0ZRI0LnlhbmRleC5jbG91ZC5tZGIu",
+            "Y2xpY2tob3VzZS52MS5EZWxldGVNbE1vZGVsUmVxdWVzdBohLnlhbmRleC5j",
+            "bG91ZC5vcGVyYXRpb24uT3BlcmF0aW9uIn+C0+STAkcqRS9tYW5hZ2VkLWNs",
+            "aWNraG91c2UvdjEvY2x1c3RlcnMve2NsdXN0ZXJfaWR9L21sTW9kZWxzL3tt",
+            "bF9tb2RlbF9uYW1lfbLSKi4KFURlbGV0ZU1sTW9kZWxNZXRhZGF0YRIVZ29v",
+            "Z2xlLnByb3RvYnVmLkVtcHR5QnMKInlhbmRleC5jbG91ZC5hcGkubWRiLmNs",
+            "aWNraG91c2UudjFaTWdpdGh1Yi5jb20veWFuZGV4LWNsb3VkL2dvLWdlbnBy",
+            "b3RvL3lhbmRleC9jbG91ZC9tZGIvY2xpY2tob3VzZS92MTtjbGlja2hvdXNl",
+            "YgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Yandex.Cloud.Api.OperationReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, global::Yandex.Cloud.Mdb.Clickhouse.V1.MlModelReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
@@ -87,7 +88,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.ListMlModelsResponse), global::Yandex.Cloud.Mdb.Clickhouse.V1.ListMlModelsResponse.Parser, new[]{ "MlModels", "NextPageToken" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.CreateMlModelRequest), global::Yandex.Cloud.Mdb.Clickhouse.V1.CreateMlModelRequest.Parser, new[]{ "ClusterId", "MlModelName", "Type", "Uri" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.CreateMlModelMetadata), global::Yandex.Cloud.Mdb.Clickhouse.V1.CreateMlModelMetadata.Parser, new[]{ "ClusterId", "MlModelName" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.UpdateMlModelRequest), global::Yandex.Cloud.Mdb.Clickhouse.V1.UpdateMlModelRequest.Parser, new[]{ "ClusterId", "MlModeName", "UpdateMask", "Uri" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.UpdateMlModelRequest), global::Yandex.Cloud.Mdb.Clickhouse.V1.UpdateMlModelRequest.Parser, new[]{ "ClusterId", "MlModelName", "UpdateMask", "Uri" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.UpdateMlModelMetadata), global::Yandex.Cloud.Mdb.Clickhouse.V1.UpdateMlModelMetadata.Parser, new[]{ "ClusterId", "MlModelName" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.DeleteMlModelRequest), global::Yandex.Cloud.Mdb.Clickhouse.V1.DeleteMlModelRequest.Parser, new[]{ "ClusterId", "MlModelName" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.DeleteMlModelMetadata), global::Yandex.Cloud.Mdb.Clickhouse.V1.DeleteMlModelMetadata.Parser, new[]{ "ClusterId", "MlModelName" }, null, null, null)
@@ -135,6 +136,9 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     /// <summary>Field number for the "cluster_id" field.</summary>
     public const int ClusterIdFieldNumber = 1;
     private string clusterId_ = "";
+    /// <summary>
+    /// ID of the cluster that the model belongs to.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ClusterId {
       get { return clusterId_; }
@@ -146,6 +150,11 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     /// <summary>Field number for the "ml_model_name" field.</summary>
     public const int MlModelNameFieldNumber = 2;
     private string mlModelName_ = "";
+    /// <summary>
+    /// Name of the model to return.
+    ///
+    /// To get a model name make a [MlModelService.List] request.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string MlModelName {
       get { return mlModelName_; }
@@ -293,6 +302,9 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     /// <summary>Field number for the "cluster_id" field.</summary>
     public const int ClusterIdFieldNumber = 1;
     private string clusterId_ = "";
+    /// <summary>
+    /// ID of the cluster that models belongs to.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ClusterId {
       get { return clusterId_; }
@@ -304,6 +316,12 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     /// <summary>Field number for the "page_size" field.</summary>
     public const int PageSizeFieldNumber = 2;
     private long pageSize_;
+    /// <summary>
+    /// The maximum number of results per page to return. If the number of available
+    /// results is larger than `page_size`, the service returns a [ListMlModelsResponse.next_page_token]
+    /// that can be used to get the next page of results in subsequent list requests.
+    /// Default value: 100.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long PageSize {
       get { return pageSize_; }
@@ -315,6 +333,10 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     /// <summary>Field number for the "page_token" field.</summary>
     public const int PageTokenFieldNumber = 3;
     private string pageToken_ = "";
+    /// <summary>
+    /// Page token. To get the next page of results, set `page_token` to the
+    /// [ListMlModelsResponse.next_page_token] returned by a previous list request.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string PageToken {
       get { return pageToken_; }
@@ -479,6 +501,9 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     private static readonly pb::FieldCodec<global::Yandex.Cloud.Mdb.Clickhouse.V1.MlModel> _repeated_mlModels_codec
         = pb::FieldCodec.ForMessage(10, global::Yandex.Cloud.Mdb.Clickhouse.V1.MlModel.Parser);
     private readonly pbc::RepeatedField<global::Yandex.Cloud.Mdb.Clickhouse.V1.MlModel> mlModels_ = new pbc::RepeatedField<global::Yandex.Cloud.Mdb.Clickhouse.V1.MlModel>();
+    /// <summary>
+    /// List of models in the specified cluster.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::RepeatedField<global::Yandex.Cloud.Mdb.Clickhouse.V1.MlModel> MlModels {
       get { return mlModels_; }
@@ -487,6 +512,13 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     /// <summary>Field number for the "next_page_token" field.</summary>
     public const int NextPageTokenFieldNumber = 2;
     private string nextPageToken_ = "";
+    /// <summary>
+    /// Token for getting the next page of the list. If the number of results is greater than
+    /// the specified [ListMlModelsRequest.page_size], use `next_page_token` as the value
+    /// for the [ListMlModelsRequest.page_token] parameter in the next list request.
+    ///
+    /// Each subsequent page will have its own `next_page_token` to continue paging through the results.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string NextPageToken {
       get { return nextPageToken_; }
@@ -628,6 +660,11 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     /// <summary>Field number for the "cluster_id" field.</summary>
     public const int ClusterIdFieldNumber = 1;
     private string clusterId_ = "";
+    /// <summary>
+    /// ID of the cluster to create a model in.
+    ///
+    /// To get a cluster ID make a [ClusterService.List] request.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ClusterId {
       get { return clusterId_; }
@@ -639,6 +676,9 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     /// <summary>Field number for the "ml_model_name" field.</summary>
     public const int MlModelNameFieldNumber = 2;
     private string mlModelName_ = "";
+    /// <summary>
+    /// Model name. The model name is one of the arguments of the modelEvaluate() function, which is used to call the model in ClickHouse.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string MlModelName {
       get { return mlModelName_; }
@@ -650,6 +690,9 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     /// <summary>Field number for the "type" field.</summary>
     public const int TypeFieldNumber = 3;
     private global::Yandex.Cloud.Mdb.Clickhouse.V1.MlModelType type_ = 0;
+    /// <summary>
+    /// Type of the model.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Mdb.Clickhouse.V1.MlModelType Type {
       get { return type_; }
@@ -661,6 +704,9 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     /// <summary>Field number for the "uri" field.</summary>
     public const int UriFieldNumber = 4;
     private string uri_ = "";
+    /// <summary>
+    /// Model file URL. You can only use models stored in Yandex Object Storage.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Uri {
       get { return uri_; }
@@ -839,6 +885,9 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     /// <summary>Field number for the "cluster_id" field.</summary>
     public const int ClusterIdFieldNumber = 1;
     private string clusterId_ = "";
+    /// <summary>
+    /// ID of the cluster that a model is being added to.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ClusterId {
       get { return clusterId_; }
@@ -850,6 +899,9 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     /// <summary>Field number for the "ml_model_name" field.</summary>
     public const int MlModelNameFieldNumber = 2;
     private string mlModelName_ = "";
+    /// <summary>
+    /// Name of the the model that is being created.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string MlModelName {
       get { return mlModelName_; }
@@ -984,7 +1036,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public UpdateMlModelRequest(UpdateMlModelRequest other) : this() {
       clusterId_ = other.clusterId_;
-      mlModeName_ = other.mlModeName_;
+      mlModelName_ = other.mlModelName_;
       updateMask_ = other.updateMask_ != null ? other.updateMask_.Clone() : null;
       uri_ = other.uri_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
@@ -998,6 +1050,11 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     /// <summary>Field number for the "cluster_id" field.</summary>
     public const int ClusterIdFieldNumber = 1;
     private string clusterId_ = "";
+    /// <summary>
+    /// ID of the cluster to update the model in.
+    ///
+    /// To get a cluster ID make a [ClusterService.List] request.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ClusterId {
       get { return clusterId_; }
@@ -1006,14 +1063,17 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       }
     }
 
-    /// <summary>Field number for the "ml_mode_name" field.</summary>
-    public const int MlModeNameFieldNumber = 2;
-    private string mlModeName_ = "";
+    /// <summary>Field number for the "ml_model_name" field.</summary>
+    public const int MlModelNameFieldNumber = 2;
+    private string mlModelName_ = "";
+    /// <summary>
+    /// Name of the the model to update.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string MlModeName {
-      get { return mlModeName_; }
+    public string MlModelName {
+      get { return mlModelName_; }
       set {
-        mlModeName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+        mlModelName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
@@ -1031,6 +1091,9 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     /// <summary>Field number for the "uri" field.</summary>
     public const int UriFieldNumber = 4;
     private string uri_ = "";
+    /// <summary>
+    /// The new model file URL. You can only use models stored in Yandex Object Storage.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Uri {
       get { return uri_; }
@@ -1053,7 +1116,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
         return true;
       }
       if (ClusterId != other.ClusterId) return false;
-      if (MlModeName != other.MlModeName) return false;
+      if (MlModelName != other.MlModelName) return false;
       if (!object.Equals(UpdateMask, other.UpdateMask)) return false;
       if (Uri != other.Uri) return false;
       return Equals(_unknownFields, other._unknownFields);
@@ -1063,7 +1126,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (ClusterId.Length != 0) hash ^= ClusterId.GetHashCode();
-      if (MlModeName.Length != 0) hash ^= MlModeName.GetHashCode();
+      if (MlModelName.Length != 0) hash ^= MlModelName.GetHashCode();
       if (updateMask_ != null) hash ^= UpdateMask.GetHashCode();
       if (Uri.Length != 0) hash ^= Uri.GetHashCode();
       if (_unknownFields != null) {
@@ -1083,9 +1146,9 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
         output.WriteRawTag(10);
         output.WriteString(ClusterId);
       }
-      if (MlModeName.Length != 0) {
+      if (MlModelName.Length != 0) {
         output.WriteRawTag(18);
-        output.WriteString(MlModeName);
+        output.WriteString(MlModelName);
       }
       if (updateMask_ != null) {
         output.WriteRawTag(26);
@@ -1106,8 +1169,8 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       if (ClusterId.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(ClusterId);
       }
-      if (MlModeName.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(MlModeName);
+      if (MlModelName.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(MlModelName);
       }
       if (updateMask_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(UpdateMask);
@@ -1129,8 +1192,8 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       if (other.ClusterId.Length != 0) {
         ClusterId = other.ClusterId;
       }
-      if (other.MlModeName.Length != 0) {
-        MlModeName = other.MlModeName;
+      if (other.MlModelName.Length != 0) {
+        MlModelName = other.MlModelName;
       }
       if (other.updateMask_ != null) {
         if (updateMask_ == null) {
@@ -1157,7 +1220,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
             break;
           }
           case 18: {
-            MlModeName = input.ReadString();
+            MlModelName = input.ReadString();
             break;
           }
           case 26: {
@@ -1215,6 +1278,9 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     /// <summary>Field number for the "cluster_id" field.</summary>
     public const int ClusterIdFieldNumber = 1;
     private string clusterId_ = "";
+    /// <summary>
+    /// ID of the cluster that contains the model being updated.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ClusterId {
       get { return clusterId_; }
@@ -1226,6 +1292,9 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     /// <summary>Field number for the "ml_model_name" field.</summary>
     public const int MlModelNameFieldNumber = 2;
     private string mlModelName_ = "";
+    /// <summary>
+    /// Name of the the model that is being updated.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string MlModelName {
       get { return mlModelName_; }
@@ -1372,6 +1441,11 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     /// <summary>Field number for the "cluster_id" field.</summary>
     public const int ClusterIdFieldNumber = 1;
     private string clusterId_ = "";
+    /// <summary>
+    /// ID of the cluster to delete the model in.
+    ///
+    /// To get a cluster ID make a [ClusterService.List] request.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ClusterId {
       get { return clusterId_; }
@@ -1383,6 +1457,9 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     /// <summary>Field number for the "ml_model_name" field.</summary>
     public const int MlModelNameFieldNumber = 2;
     private string mlModelName_ = "";
+    /// <summary>
+    /// Name of the the model to delete.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string MlModelName {
       get { return mlModelName_; }
@@ -1529,6 +1606,9 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     /// <summary>Field number for the "cluster_id" field.</summary>
     public const int ClusterIdFieldNumber = 1;
     private string clusterId_ = "";
+    /// <summary>
+    /// ID of the cluster that contains the model being deleted.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ClusterId {
       get { return clusterId_; }
@@ -1540,6 +1620,9 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     /// <summary>Field number for the "ml_model_name" field.</summary>
     public const int MlModelNameFieldNumber = 2;
     private string mlModelName_ = "";
+    /// <summary>
+    /// Name of the the model that is being deleted.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string MlModelName {
       get { return mlModelName_; }

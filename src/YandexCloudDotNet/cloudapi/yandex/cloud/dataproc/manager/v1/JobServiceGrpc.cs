@@ -61,7 +61,7 @@ namespace Yandex.Cloud.Dataproc.Manager.V1 {
       }
 
       /// <summary>
-      /// Retrieves a list of jobs for Dataproc cluster.
+      /// Retrieves a list of jobs for Data Proc cluster.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -73,7 +73,7 @@ namespace Yandex.Cloud.Dataproc.Manager.V1 {
         return ListActive(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// Retrieves a list of jobs for Dataproc cluster.
+      /// Retrieves a list of jobs for Data Proc cluster.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
@@ -83,7 +83,7 @@ namespace Yandex.Cloud.Dataproc.Manager.V1 {
         return CallInvoker.BlockingUnaryCall(__Method_ListActive, null, options, request);
       }
       /// <summary>
-      /// Retrieves a list of jobs for Dataproc cluster.
+      /// Retrieves a list of jobs for Data Proc cluster.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -95,7 +95,7 @@ namespace Yandex.Cloud.Dataproc.Manager.V1 {
         return ListActiveAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// Retrieves a list of jobs for Dataproc cluster.
+      /// Retrieves a list of jobs for Data Proc cluster.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>

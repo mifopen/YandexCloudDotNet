@@ -41,61 +41,66 @@ namespace Yandex.Cloud.Mdb.Mysql.V1 {
             "ASgJQgzoxzEBisgxBDw9NTASPAoJdXNlcl9zcGVjGAIgASgLMiMueWFuZGV4",
             "LmNsb3VkLm1kYi5teXNxbC52MS5Vc2VyU3BlY0IE6McxASI7ChJDcmVhdGVV",
             "c2VyTWV0YWRhdGESEgoKY2x1c3Rlcl9pZBgBIAEoCRIRCgl1c2VyX25hbWUY",
-            "AiABKAki8QEKEVVwZGF0ZVVzZXJSZXF1ZXN0EiAKCmNsdXN0ZXJfaWQYASAB",
+            "AiABKAkiyAMKEVVwZGF0ZVVzZXJSZXF1ZXN0EiAKCmNsdXN0ZXJfaWQYASAB",
             "KAlCDOjHMQGKyDEEPD01MBIwCgl1c2VyX25hbWUYAiABKAlCHejHMQGKyDEE",
             "PD02M/LHMQ1bYS16QS1aMC05X10qEi8KC3VwZGF0ZV9tYXNrGAMgASgLMhou",
             "Z29vZ2xlLnByb3RvYnVmLkZpZWxkTWFzaxIbCghwYXNzd29yZBgEIAEoCUIJ",
             "isgxBTgtMTI4EjoKC3Blcm1pc3Npb25zGAUgAygLMiUueWFuZGV4LmNsb3Vk",
-            "Lm1kYi5teXNxbC52MS5QZXJtaXNzaW9uIjsKElVwZGF0ZVVzZXJNZXRhZGF0",
-            "YRISCgpjbHVzdGVyX2lkGAEgASgJEhEKCXVzZXJfbmFtZRgCIAEoCSJnChFE",
-            "ZWxldGVVc2VyUmVxdWVzdBIgCgpjbHVzdGVyX2lkGAEgASgJQgzoxzEBisgx",
-            "BDw9NTASMAoJdXNlcl9uYW1lGAIgASgJQh3oxzEBisgxBDw9NjPyxzENW2Et",
-            "ekEtWjAtOV9dKiI7ChJEZWxldGVVc2VyTWV0YWRhdGESEgoKY2x1c3Rlcl9p",
-            "ZBgBIAEoCRIRCgl1c2VyX25hbWUYAiABKAkisQEKGkdyYW50VXNlclBlcm1p",
-            "c3Npb25SZXF1ZXN0EiAKCmNsdXN0ZXJfaWQYASABKAlCDOjHMQGKyDEEPD01",
-            "MBIwCgl1c2VyX25hbWUYAiABKAlCHejHMQGKyDEEPD02M/LHMQ1bYS16QS1a",
-            "MC05X10qEj8KCnBlcm1pc3Npb24YAyABKAsyJS55YW5kZXguY2xvdWQubWRi",
-            "Lm15c3FsLnYxLlBlcm1pc3Npb25CBOjHMQEiRAobR3JhbnRVc2VyUGVybWlz",
-            "c2lvbk1ldGFkYXRhEhIKCmNsdXN0ZXJfaWQYASABKAkSEQoJdXNlcl9uYW1l",
-            "GAIgASgJIrIBChtSZXZva2VVc2VyUGVybWlzc2lvblJlcXVlc3QSIAoKY2x1",
-            "c3Rlcl9pZBgBIAEoCUIM6McxAYrIMQQ8PTUwEjAKCXVzZXJfbmFtZRgCIAEo",
-            "CUId6McxAYrIMQQ8PTYz8scxDVthLXpBLVowLTlfXSoSPwoKcGVybWlzc2lv",
-            "bhgDIAEoCzIlLnlhbmRleC5jbG91ZC5tZGIubXlzcWwudjEuUGVybWlzc2lv",
-            "bkIE6McxASJFChxSZXZva2VVc2VyUGVybWlzc2lvbk1ldGFkYXRhEhIKCmNs",
-            "dXN0ZXJfaWQYASABKAkSEQoJdXNlcl9uYW1lGAIgASgJMtsKCgtVc2VyU2Vy",
-            "dmljZRKUAQoDR2V0EikueWFuZGV4LmNsb3VkLm1kYi5teXNxbC52MS5HZXRV",
-            "c2VyUmVxdWVzdBofLnlhbmRleC5jbG91ZC5tZGIubXlzcWwudjEuVXNlciJB",
-            "gtPkkwI7EjkvbWFuYWdlZC1teXNxbC92MS9jbHVzdGVycy97Y2x1c3Rlcl9p",
-            "ZH0vdXNlcnMve3VzZXJfbmFtZX0SmAEKBExpc3QSKy55YW5kZXguY2xvdWQu",
-            "bWRiLm15c3FsLnYxLkxpc3RVc2Vyc1JlcXVlc3QaLC55YW5kZXguY2xvdWQu",
-            "bWRiLm15c3FsLnYxLkxpc3RVc2Vyc1Jlc3BvbnNlIjWC0+STAi8SLS9tYW5h",
-            "Z2VkLW15c3FsL3YxL2NsdXN0ZXJzL3tjbHVzdGVyX2lkfS91c2VycxKxAQoG",
-            "Q3JlYXRlEiwueWFuZGV4LmNsb3VkLm1kYi5teXNxbC52MS5DcmVhdGVVc2Vy",
-            "UmVxdWVzdBohLnlhbmRleC5jbG91ZC5vcGVyYXRpb24uT3BlcmF0aW9uIlaC",
-            "0+STAjIiLS9tYW5hZ2VkLW15c3FsL3YxL2NsdXN0ZXJzL3tjbHVzdGVyX2lk",
-            "fS91c2VyczoBKrLSKhoKEkNyZWF0ZVVzZXJNZXRhZGF0YRIEVXNlchK9AQoG",
-            "VXBkYXRlEiwueWFuZGV4LmNsb3VkLm1kYi5teXNxbC52MS5VcGRhdGVVc2Vy",
-            "UmVxdWVzdBohLnlhbmRleC5jbG91ZC5vcGVyYXRpb24uT3BlcmF0aW9uImKC",
-            "0+STAj4yOS9tYW5hZ2VkLW15c3FsL3YxL2NsdXN0ZXJzL3tjbHVzdGVyX2lk",
-            "fS91c2Vycy97dXNlcl9uYW1lfToBKrLSKhoKElVwZGF0ZVVzZXJNZXRhZGF0",
-            "YRIEVXNlchLLAQoGRGVsZXRlEiwueWFuZGV4LmNsb3VkLm1kYi5teXNxbC52",
-            "MS5EZWxldGVVc2VyUmVxdWVzdBohLnlhbmRleC5jbG91ZC5vcGVyYXRpb24u",
-            "T3BlcmF0aW9uInCC0+STAjsqOS9tYW5hZ2VkLW15c3FsL3YxL2NsdXN0ZXJz",
-            "L3tjbHVzdGVyX2lkfS91c2Vycy97dXNlcl9uYW1lfbLSKisKEkRlbGV0ZVVz",
-            "ZXJNZXRhZGF0YRIVZ29vZ2xlLnByb3RvYnVmLkVtcHR5EugBCg9HcmFudFBl",
-            "cm1pc3Npb24SNS55YW5kZXguY2xvdWQubWRiLm15c3FsLnYxLkdyYW50VXNl",
-            "clBlcm1pc3Npb25SZXF1ZXN0GiEueWFuZGV4LmNsb3VkLm9wZXJhdGlvbi5P",
-            "cGVyYXRpb24ie4LT5JMCTiJJL21hbmFnZWQtbXlzcWwvdjEvY2x1c3RlcnMv",
-            "e2NsdXN0ZXJfaWR9L3VzZXJzL3t1c2VyX25hbWV9OmdyYW50UGVybWlzc2lv",
-            "bjoBKrLSKiMKG0dyYW50VXNlclBlcm1pc3Npb25NZXRhZGF0YRIEVXNlchLs",
-            "AQoQUmV2b2tlUGVybWlzc2lvbhI2LnlhbmRleC5jbG91ZC5tZGIubXlzcWwu",
-            "djEuUmV2b2tlVXNlclBlcm1pc3Npb25SZXF1ZXN0GiEueWFuZGV4LmNsb3Vk",
-            "Lm9wZXJhdGlvbi5PcGVyYXRpb24ifYLT5JMCTyJKL21hbmFnZWQtbXlzcWwv",
-            "djEvY2x1c3RlcnMve2NsdXN0ZXJfaWR9L3VzZXJzL3t1c2VyX25hbWV9OnJl",
-            "dm9rZVBlcm1pc3Npb246ASqy0iokChxSZXZva2VVc2VyUGVybWlzc2lvbk1l",
-            "dGFkYXRhEgRVc2VyQmQKHXlhbmRleC5jbG91ZC5hcGkubWRiLm15c3FsLnYx",
-            "WkNnaXRodWIuY29tL3lhbmRleC1jbG91ZC9nby1nZW5wcm90by95YW5kZXgv",
-            "Y2xvdWQvbWRiL215c3FsL3YxO215c3FsYgZwcm90bzM="));
+            "Lm1kYi5teXNxbC52MS5QZXJtaXNzaW9uEkcKEmdsb2JhbF9wZXJtaXNzaW9u",
+            "cxgGIAMoDjIrLnlhbmRleC5jbG91ZC5tZGIubXlzcWwudjEuR2xvYmFsUGVy",
+            "bWlzc2lvbhJGChFjb25uZWN0aW9uX2xpbWl0cxgHIAEoCzIrLnlhbmRleC5j",
+            "bG91ZC5tZGIubXlzcWwudjEuQ29ubmVjdGlvbkxpbWl0cxJEChVhdXRoZW50",
+            "aWNhdGlvbl9wbHVnaW4YCCABKA4yJS55YW5kZXguY2xvdWQubWRiLm15c3Fs",
+            "LnYxLkF1dGhQbHVnaW4iOwoSVXBkYXRlVXNlck1ldGFkYXRhEhIKCmNsdXN0",
+            "ZXJfaWQYASABKAkSEQoJdXNlcl9uYW1lGAIgASgJImcKEURlbGV0ZVVzZXJS",
+            "ZXF1ZXN0EiAKCmNsdXN0ZXJfaWQYASABKAlCDOjHMQGKyDEEPD01MBIwCgl1",
+            "c2VyX25hbWUYAiABKAlCHejHMQGKyDEEPD02M/LHMQ1bYS16QS1aMC05X10q",
+            "IjsKEkRlbGV0ZVVzZXJNZXRhZGF0YRISCgpjbHVzdGVyX2lkGAEgASgJEhEK",
+            "CXVzZXJfbmFtZRgCIAEoCSKxAQoaR3JhbnRVc2VyUGVybWlzc2lvblJlcXVl",
+            "c3QSIAoKY2x1c3Rlcl9pZBgBIAEoCUIM6McxAYrIMQQ8PTUwEjAKCXVzZXJf",
+            "bmFtZRgCIAEoCUId6McxAYrIMQQ8PTYz8scxDVthLXpBLVowLTlfXSoSPwoK",
+            "cGVybWlzc2lvbhgDIAEoCzIlLnlhbmRleC5jbG91ZC5tZGIubXlzcWwudjEu",
+            "UGVybWlzc2lvbkIE6McxASJEChtHcmFudFVzZXJQZXJtaXNzaW9uTWV0YWRh",
+            "dGESEgoKY2x1c3Rlcl9pZBgBIAEoCRIRCgl1c2VyX25hbWUYAiABKAkisgEK",
+            "G1Jldm9rZVVzZXJQZXJtaXNzaW9uUmVxdWVzdBIgCgpjbHVzdGVyX2lkGAEg",
+            "ASgJQgzoxzEBisgxBDw9NTASMAoJdXNlcl9uYW1lGAIgASgJQh3oxzEBisgx",
+            "BDw9NjPyxzENW2EtekEtWjAtOV9dKhI/CgpwZXJtaXNzaW9uGAMgASgLMiUu",
+            "eWFuZGV4LmNsb3VkLm1kYi5teXNxbC52MS5QZXJtaXNzaW9uQgToxzEBIkUK",
+            "HFJldm9rZVVzZXJQZXJtaXNzaW9uTWV0YWRhdGESEgoKY2x1c3Rlcl9pZBgB",
+            "IAEoCRIRCgl1c2VyX25hbWUYAiABKAky2woKC1VzZXJTZXJ2aWNlEpQBCgNH",
+            "ZXQSKS55YW5kZXguY2xvdWQubWRiLm15c3FsLnYxLkdldFVzZXJSZXF1ZXN0",
+            "Gh8ueWFuZGV4LmNsb3VkLm1kYi5teXNxbC52MS5Vc2VyIkGC0+STAjsSOS9t",
+            "YW5hZ2VkLW15c3FsL3YxL2NsdXN0ZXJzL3tjbHVzdGVyX2lkfS91c2Vycy97",
+            "dXNlcl9uYW1lfRKYAQoETGlzdBIrLnlhbmRleC5jbG91ZC5tZGIubXlzcWwu",
+            "djEuTGlzdFVzZXJzUmVxdWVzdBosLnlhbmRleC5jbG91ZC5tZGIubXlzcWwu",
+            "djEuTGlzdFVzZXJzUmVzcG9uc2UiNYLT5JMCLxItL21hbmFnZWQtbXlzcWwv",
+            "djEvY2x1c3RlcnMve2NsdXN0ZXJfaWR9L3VzZXJzErEBCgZDcmVhdGUSLC55",
+            "YW5kZXguY2xvdWQubWRiLm15c3FsLnYxLkNyZWF0ZVVzZXJSZXF1ZXN0GiEu",
+            "eWFuZGV4LmNsb3VkLm9wZXJhdGlvbi5PcGVyYXRpb24iVoLT5JMCMiItL21h",
+            "bmFnZWQtbXlzcWwvdjEvY2x1c3RlcnMve2NsdXN0ZXJfaWR9L3VzZXJzOgEq",
+            "stIqGgoSQ3JlYXRlVXNlck1ldGFkYXRhEgRVc2VyEr0BCgZVcGRhdGUSLC55",
+            "YW5kZXguY2xvdWQubWRiLm15c3FsLnYxLlVwZGF0ZVVzZXJSZXF1ZXN0GiEu",
+            "eWFuZGV4LmNsb3VkLm9wZXJhdGlvbi5PcGVyYXRpb24iYoLT5JMCPjI5L21h",
+            "bmFnZWQtbXlzcWwvdjEvY2x1c3RlcnMve2NsdXN0ZXJfaWR9L3VzZXJzL3t1",
+            "c2VyX25hbWV9OgEqstIqGgoSVXBkYXRlVXNlck1ldGFkYXRhEgRVc2VyEssB",
+            "CgZEZWxldGUSLC55YW5kZXguY2xvdWQubWRiLm15c3FsLnYxLkRlbGV0ZVVz",
+            "ZXJSZXF1ZXN0GiEueWFuZGV4LmNsb3VkLm9wZXJhdGlvbi5PcGVyYXRpb24i",
+            "cILT5JMCOyo5L21hbmFnZWQtbXlzcWwvdjEvY2x1c3RlcnMve2NsdXN0ZXJf",
+            "aWR9L3VzZXJzL3t1c2VyX25hbWV9stIqKwoSRGVsZXRlVXNlck1ldGFkYXRh",
+            "EhVnb29nbGUucHJvdG9idWYuRW1wdHkS6AEKD0dyYW50UGVybWlzc2lvbhI1",
+            "LnlhbmRleC5jbG91ZC5tZGIubXlzcWwudjEuR3JhbnRVc2VyUGVybWlzc2lv",
+            "blJlcXVlc3QaIS55YW5kZXguY2xvdWQub3BlcmF0aW9uLk9wZXJhdGlvbiJ7",
+            "gtPkkwJOIkkvbWFuYWdlZC1teXNxbC92MS9jbHVzdGVycy97Y2x1c3Rlcl9p",
+            "ZH0vdXNlcnMve3VzZXJfbmFtZX06Z3JhbnRQZXJtaXNzaW9uOgEqstIqIwob",
+            "R3JhbnRVc2VyUGVybWlzc2lvbk1ldGFkYXRhEgRVc2VyEuwBChBSZXZva2VQ",
+            "ZXJtaXNzaW9uEjYueWFuZGV4LmNsb3VkLm1kYi5teXNxbC52MS5SZXZva2VV",
+            "c2VyUGVybWlzc2lvblJlcXVlc3QaIS55YW5kZXguY2xvdWQub3BlcmF0aW9u",
+            "Lk9wZXJhdGlvbiJ9gtPkkwJPIkovbWFuYWdlZC1teXNxbC92MS9jbHVzdGVy",
+            "cy97Y2x1c3Rlcl9pZH0vdXNlcnMve3VzZXJfbmFtZX06cmV2b2tlUGVybWlz",
+            "c2lvbjoBKrLSKiQKHFJldm9rZVVzZXJQZXJtaXNzaW9uTWV0YWRhdGESBFVz",
+            "ZXJCZAodeWFuZGV4LmNsb3VkLmFwaS5tZGIubXlzcWwudjFaQ2dpdGh1Yi5j",
+            "b20veWFuZGV4LWNsb3VkL2dvLWdlbnByb3RvL3lhbmRleC9jbG91ZC9tZGIv",
+            "bXlzcWwvdjE7bXlzcWxiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Yandex.Cloud.Api.OperationReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, global::Yandex.Cloud.Mdb.Mysql.V1.UserReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
@@ -104,7 +109,7 @@ namespace Yandex.Cloud.Mdb.Mysql.V1 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.ListUsersResponse), global::Yandex.Cloud.Mdb.Mysql.V1.ListUsersResponse.Parser, new[]{ "Users", "NextPageToken" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.CreateUserRequest), global::Yandex.Cloud.Mdb.Mysql.V1.CreateUserRequest.Parser, new[]{ "ClusterId", "UserSpec" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.CreateUserMetadata), global::Yandex.Cloud.Mdb.Mysql.V1.CreateUserMetadata.Parser, new[]{ "ClusterId", "UserName" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.UpdateUserRequest), global::Yandex.Cloud.Mdb.Mysql.V1.UpdateUserRequest.Parser, new[]{ "ClusterId", "UserName", "UpdateMask", "Password", "Permissions" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.UpdateUserRequest), global::Yandex.Cloud.Mdb.Mysql.V1.UpdateUserRequest.Parser, new[]{ "ClusterId", "UserName", "UpdateMask", "Password", "Permissions", "GlobalPermissions", "ConnectionLimits", "AuthenticationPlugin" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.UpdateUserMetadata), global::Yandex.Cloud.Mdb.Mysql.V1.UpdateUserMetadata.Parser, new[]{ "ClusterId", "UserName" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.DeleteUserRequest), global::Yandex.Cloud.Mdb.Mysql.V1.DeleteUserRequest.Parser, new[]{ "ClusterId", "UserName" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.DeleteUserMetadata), global::Yandex.Cloud.Mdb.Mysql.V1.DeleteUserMetadata.Parser, new[]{ "ClusterId", "UserName" }, null, null, null),
@@ -1000,6 +1005,9 @@ namespace Yandex.Cloud.Mdb.Mysql.V1 {
       updateMask_ = other.updateMask_ != null ? other.updateMask_.Clone() : null;
       password_ = other.password_;
       permissions_ = other.permissions_.Clone();
+      globalPermissions_ = other.globalPermissions_.Clone();
+      connectionLimits_ = other.connectionLimits_ != null ? other.connectionLimits_.Clone() : null;
+      authenticationPlugin_ = other.authenticationPlugin_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1079,6 +1087,47 @@ namespace Yandex.Cloud.Mdb.Mysql.V1 {
       get { return permissions_; }
     }
 
+    /// <summary>Field number for the "global_permissions" field.</summary>
+    public const int GlobalPermissionsFieldNumber = 6;
+    private static readonly pb::FieldCodec<global::Yandex.Cloud.Mdb.Mysql.V1.GlobalPermission> _repeated_globalPermissions_codec
+        = pb::FieldCodec.ForEnum(50, x => (int) x, x => (global::Yandex.Cloud.Mdb.Mysql.V1.GlobalPermission) x);
+    private readonly pbc::RepeatedField<global::Yandex.Cloud.Mdb.Mysql.V1.GlobalPermission> globalPermissions_ = new pbc::RepeatedField<global::Yandex.Cloud.Mdb.Mysql.V1.GlobalPermission>();
+    /// <summary>
+    /// New set of global permissions to grant to the user.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<global::Yandex.Cloud.Mdb.Mysql.V1.GlobalPermission> GlobalPermissions {
+      get { return globalPermissions_; }
+    }
+
+    /// <summary>Field number for the "connection_limits" field.</summary>
+    public const int ConnectionLimitsFieldNumber = 7;
+    private global::Yandex.Cloud.Mdb.Mysql.V1.ConnectionLimits connectionLimits_;
+    /// <summary>
+    /// Set of changed user connection limits.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Mdb.Mysql.V1.ConnectionLimits ConnectionLimits {
+      get { return connectionLimits_; }
+      set {
+        connectionLimits_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "authentication_plugin" field.</summary>
+    public const int AuthenticationPluginFieldNumber = 8;
+    private global::Yandex.Cloud.Mdb.Mysql.V1.AuthPlugin authenticationPlugin_ = 0;
+    /// <summary>
+    /// New user authentication plugin.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Mdb.Mysql.V1.AuthPlugin AuthenticationPlugin {
+      get { return authenticationPlugin_; }
+      set {
+        authenticationPlugin_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as UpdateUserRequest);
@@ -1097,6 +1146,9 @@ namespace Yandex.Cloud.Mdb.Mysql.V1 {
       if (!object.Equals(UpdateMask, other.UpdateMask)) return false;
       if (Password != other.Password) return false;
       if(!permissions_.Equals(other.permissions_)) return false;
+      if(!globalPermissions_.Equals(other.globalPermissions_)) return false;
+      if (!object.Equals(ConnectionLimits, other.ConnectionLimits)) return false;
+      if (AuthenticationPlugin != other.AuthenticationPlugin) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1108,6 +1160,9 @@ namespace Yandex.Cloud.Mdb.Mysql.V1 {
       if (updateMask_ != null) hash ^= UpdateMask.GetHashCode();
       if (Password.Length != 0) hash ^= Password.GetHashCode();
       hash ^= permissions_.GetHashCode();
+      hash ^= globalPermissions_.GetHashCode();
+      if (connectionLimits_ != null) hash ^= ConnectionLimits.GetHashCode();
+      if (AuthenticationPlugin != 0) hash ^= AuthenticationPlugin.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1138,6 +1193,15 @@ namespace Yandex.Cloud.Mdb.Mysql.V1 {
         output.WriteString(Password);
       }
       permissions_.WriteTo(output, _repeated_permissions_codec);
+      globalPermissions_.WriteTo(output, _repeated_globalPermissions_codec);
+      if (connectionLimits_ != null) {
+        output.WriteRawTag(58);
+        output.WriteMessage(ConnectionLimits);
+      }
+      if (AuthenticationPlugin != 0) {
+        output.WriteRawTag(64);
+        output.WriteEnum((int) AuthenticationPlugin);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1159,6 +1223,13 @@ namespace Yandex.Cloud.Mdb.Mysql.V1 {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Password);
       }
       size += permissions_.CalculateSize(_repeated_permissions_codec);
+      size += globalPermissions_.CalculateSize(_repeated_globalPermissions_codec);
+      if (connectionLimits_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(ConnectionLimits);
+      }
+      if (AuthenticationPlugin != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) AuthenticationPlugin);
+      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -1186,6 +1257,16 @@ namespace Yandex.Cloud.Mdb.Mysql.V1 {
         Password = other.Password;
       }
       permissions_.Add(other.permissions_);
+      globalPermissions_.Add(other.globalPermissions_);
+      if (other.connectionLimits_ != null) {
+        if (connectionLimits_ == null) {
+          ConnectionLimits = new global::Yandex.Cloud.Mdb.Mysql.V1.ConnectionLimits();
+        }
+        ConnectionLimits.MergeFrom(other.ConnectionLimits);
+      }
+      if (other.AuthenticationPlugin != 0) {
+        AuthenticationPlugin = other.AuthenticationPlugin;
+      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -1218,6 +1299,22 @@ namespace Yandex.Cloud.Mdb.Mysql.V1 {
           }
           case 42: {
             permissions_.AddEntriesFrom(input, _repeated_permissions_codec);
+            break;
+          }
+          case 50:
+          case 48: {
+            globalPermissions_.AddEntriesFrom(input, _repeated_globalPermissions_codec);
+            break;
+          }
+          case 58: {
+            if (connectionLimits_ == null) {
+              ConnectionLimits = new global::Yandex.Cloud.Mdb.Mysql.V1.ConnectionLimits();
+            }
+            input.ReadMessage(ConnectionLimits);
+            break;
+          }
+          case 64: {
+            AuthenticationPlugin = (global::Yandex.Cloud.Mdb.Mysql.V1.AuthPlugin) input.ReadEnum();
             break;
           }
         }

@@ -26,57 +26,58 @@ namespace Yandex.Cloud.Dataproc.Manager.V1 {
           string.Concat(
             "Cip5YW5kZXgvY2xvdWQvZGF0YXByb2MvbWFuYWdlci92MS9qb2IucHJvdG8S",
             "IHlhbmRleC5jbG91ZC5kYXRhcHJvYy5tYW5hZ2VyLnYxGh9nb29nbGUvcHJv",
-            "dG9idWYvdGltZXN0YW1wLnByb3RvIv8ECgNKb2ISCgoCaWQYASABKAkSEgoK",
+            "dG9idWYvdGltZXN0YW1wLnByb3RvIpMFCgNKb2ISCgoCaWQYASABKAkSEgoK",
             "Y2x1c3Rlcl9pZBgCIAEoCRIuCgpjcmVhdGVkX2F0GAMgASgLMhouZ29vZ2xl",
             "LnByb3RvYnVmLlRpbWVzdGFtcBIuCgpzdGFydGVkX2F0GAQgASgLMhouZ29v",
             "Z2xlLnByb3RvYnVmLlRpbWVzdGFtcBIvCgtmaW5pc2hlZF9hdBgFIAEoCzIa",
-            "Lmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXASDAoEbmFtZRgGIAEoCRI8CgZz",
-            "dGF0dXMYByABKA4yLC55YW5kZXguY2xvdWQuZGF0YXByb2MubWFuYWdlci52",
-            "MS5Kb2IuU3RhdHVzEkcKDW1hcHJlZHVjZV9qb2IYCCABKAsyLi55YW5kZXgu",
-            "Y2xvdWQuZGF0YXByb2MubWFuYWdlci52MS5NYXByZWR1Y2VKb2JIABI/Cglz",
-            "cGFya19qb2IYCSABKAsyKi55YW5kZXguY2xvdWQuZGF0YXByb2MubWFuYWdl",
-            "ci52MS5TcGFya0pvYkgAEkMKC3B5c3Bhcmtfam9iGAogASgLMiwueWFuZGV4",
-            "LmNsb3VkLmRhdGFwcm9jLm1hbmFnZXIudjEuUHlzcGFya0pvYkgAEj0KCGhp",
-            "dmVfam9iGAsgASgLMikueWFuZGV4LmNsb3VkLmRhdGFwcm9jLm1hbmFnZXIu",
-            "djEuSGl2ZUpvYkgAImEKBlN0YXR1cxIWChJTVEFUVVNfVU5TUEVDSUZJRUQQ",
-            "ABIQCgxQUk9WSVNJT05JTkcQARILCgdQRU5ESU5HEAISCwoHUlVOTklORxAD",
-            "EgkKBUVSUk9SEAQSCAoERE9ORRAFQgoKCGpvYl9zcGVjIqACCgxNYXByZWR1",
-            "Y2VKb2ISDAoEYXJncxgBIAMoCRIVCg1qYXJfZmlsZV91cmlzGAIgAygJEhEK",
-            "CWZpbGVfdXJpcxgDIAMoCRIUCgxhcmNoaXZlX3VyaXMYBCADKAkSUgoKcHJv",
-            "cGVydGllcxgFIAMoCzI+LnlhbmRleC5jbG91ZC5kYXRhcHJvYy5tYW5hZ2Vy",
-            "LnYxLk1hcHJlZHVjZUpvYi5Qcm9wZXJ0aWVzRW50cnkSGwoRbWFpbl9qYXJf",
-            "ZmlsZV91cmkYBiABKAlIABIUCgptYWluX2NsYXNzGAcgASgJSAAaMQoPUHJv",
-            "cGVydGllc0VudHJ5EgsKA2tleRgBIAEoCRINCgV2YWx1ZRgCIAEoCToCOAFC",
-            "CAoGZHJpdmVyIooCCghTcGFya0pvYhIMCgRhcmdzGAEgAygJEhUKDWphcl9m",
-            "aWxlX3VyaXMYAiADKAkSEQoJZmlsZV91cmlzGAMgAygJEhQKDGFyY2hpdmVf",
-            "dXJpcxgEIAMoCRJOCgpwcm9wZXJ0aWVzGAUgAygLMjoueWFuZGV4LmNsb3Vk",
-            "LmRhdGFwcm9jLm1hbmFnZXIudjEuU3BhcmtKb2IuUHJvcGVydGllc0VudHJ5",
-            "EhkKEW1haW5famFyX2ZpbGVfdXJpGAYgASgJEhIKCm1haW5fY2xhc3MYByAB",
-            "KAkaMQoPUHJvcGVydGllc0VudHJ5EgsKA2tleRgBIAEoCRINCgV2YWx1ZRgC",
-            "IAEoCToCOAEilwIKClB5c3BhcmtKb2ISDAoEYXJncxgBIAMoCRIVCg1qYXJf",
-            "ZmlsZV91cmlzGAIgAygJEhEKCWZpbGVfdXJpcxgDIAMoCRIUCgxhcmNoaXZl",
-            "X3VyaXMYBCADKAkSUAoKcHJvcGVydGllcxgFIAMoCzI8LnlhbmRleC5jbG91",
-            "ZC5kYXRhcHJvYy5tYW5hZ2VyLnYxLlB5c3BhcmtKb2IuUHJvcGVydGllc0Vu",
-            "dHJ5EhwKFG1haW5fcHl0aG9uX2ZpbGVfdXJpGAYgASgJEhgKEHB5dGhvbl9m",
-            "aWxlX3VyaXMYByADKAkaMQoPUHJvcGVydGllc0VudHJ5EgsKA2tleRgBIAEo",
-            "CRINCgV2YWx1ZRgCIAEoCToCOAEiHAoJUXVlcnlMaXN0Eg8KB3F1ZXJpZXMY",
-            "ASADKAkivAMKB0hpdmVKb2ISTQoKcHJvcGVydGllcxgBIAMoCzI5LnlhbmRl",
-            "eC5jbG91ZC5kYXRhcHJvYy5tYW5hZ2VyLnYxLkhpdmVKb2IuUHJvcGVydGll",
-            "c0VudHJ5EhsKE2NvbnRpbnVlX29uX2ZhaWx1cmUYAiABKAgSWAoQc2NyaXB0",
-            "X3ZhcmlhYmxlcxgDIAMoCzI+LnlhbmRleC5jbG91ZC5kYXRhcHJvYy5tYW5h",
-            "Z2VyLnYxLkhpdmVKb2IuU2NyaXB0VmFyaWFibGVzRW50cnkSFQoNamFyX2Zp",
-            "bGVfdXJpcxgEIAMoCRIYCg5xdWVyeV9maWxlX3VyaRgFIAEoCUgAEkEKCnF1",
-            "ZXJ5X2xpc3QYBiABKAsyKy55YW5kZXguY2xvdWQuZGF0YXByb2MubWFuYWdl",
-            "ci52MS5RdWVyeUxpc3RIABoxCg9Qcm9wZXJ0aWVzRW50cnkSCwoDa2V5GAEg",
-            "ASgJEg0KBXZhbHVlGAIgASgJOgI4ARo2ChRTY3JpcHRWYXJpYWJsZXNFbnRy",
-            "eRILCgNrZXkYASABKAkSDQoFdmFsdWUYAiABKAk6AjgBQgwKCnF1ZXJ5X3R5",
-            "cGVCXEIDUEhKWlVnaXRodWIuY29tL3lhbmRleC1jbG91ZC9nby1nZW5wcm90",
-            "by95YW5kZXgvY2xvdWQvZGF0YXByb2MvbWFuYWdlci92MTtkYXRhcHJvY19t",
-            "YW5hZ2VyYgZwcm90bzM="));
+            "Lmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXASDAoEbmFtZRgGIAEoCRISCgpj",
+            "cmVhdGVkX2J5GAwgASgJEjwKBnN0YXR1cxgHIAEoDjIsLnlhbmRleC5jbG91",
+            "ZC5kYXRhcHJvYy5tYW5hZ2VyLnYxLkpvYi5TdGF0dXMSRwoNbWFwcmVkdWNl",
+            "X2pvYhgIIAEoCzIuLnlhbmRleC5jbG91ZC5kYXRhcHJvYy5tYW5hZ2VyLnYx",
+            "Lk1hcHJlZHVjZUpvYkgAEj8KCXNwYXJrX2pvYhgJIAEoCzIqLnlhbmRleC5j",
+            "bG91ZC5kYXRhcHJvYy5tYW5hZ2VyLnYxLlNwYXJrSm9iSAASQwoLcHlzcGFy",
+            "a19qb2IYCiABKAsyLC55YW5kZXguY2xvdWQuZGF0YXByb2MubWFuYWdlci52",
+            "MS5QeXNwYXJrSm9iSAASPQoIaGl2ZV9qb2IYCyABKAsyKS55YW5kZXguY2xv",
+            "dWQuZGF0YXByb2MubWFuYWdlci52MS5IaXZlSm9iSAAiYQoGU3RhdHVzEhYK",
+            "ElNUQVRVU19VTlNQRUNJRklFRBAAEhAKDFBST1ZJU0lPTklORxABEgsKB1BF",
+            "TkRJTkcQAhILCgdSVU5OSU5HEAMSCQoFRVJST1IQBBIICgRET05FEAVCCgoI",
+            "am9iX3NwZWMioAIKDE1hcHJlZHVjZUpvYhIMCgRhcmdzGAEgAygJEhUKDWph",
+            "cl9maWxlX3VyaXMYAiADKAkSEQoJZmlsZV91cmlzGAMgAygJEhQKDGFyY2hp",
+            "dmVfdXJpcxgEIAMoCRJSCgpwcm9wZXJ0aWVzGAUgAygLMj4ueWFuZGV4LmNs",
+            "b3VkLmRhdGFwcm9jLm1hbmFnZXIudjEuTWFwcmVkdWNlSm9iLlByb3BlcnRp",
+            "ZXNFbnRyeRIbChFtYWluX2phcl9maWxlX3VyaRgGIAEoCUgAEhQKCm1haW5f",
+            "Y2xhc3MYByABKAlIABoxCg9Qcm9wZXJ0aWVzRW50cnkSCwoDa2V5GAEgASgJ",
+            "Eg0KBXZhbHVlGAIgASgJOgI4AUIICgZkcml2ZXIiigIKCFNwYXJrSm9iEgwK",
+            "BGFyZ3MYASADKAkSFQoNamFyX2ZpbGVfdXJpcxgCIAMoCRIRCglmaWxlX3Vy",
+            "aXMYAyADKAkSFAoMYXJjaGl2ZV91cmlzGAQgAygJEk4KCnByb3BlcnRpZXMY",
+            "BSADKAsyOi55YW5kZXguY2xvdWQuZGF0YXByb2MubWFuYWdlci52MS5TcGFy",
+            "a0pvYi5Qcm9wZXJ0aWVzRW50cnkSGQoRbWFpbl9qYXJfZmlsZV91cmkYBiAB",
+            "KAkSEgoKbWFpbl9jbGFzcxgHIAEoCRoxCg9Qcm9wZXJ0aWVzRW50cnkSCwoD",
+            "a2V5GAEgASgJEg0KBXZhbHVlGAIgASgJOgI4ASKXAgoKUHlzcGFya0pvYhIM",
+            "CgRhcmdzGAEgAygJEhUKDWphcl9maWxlX3VyaXMYAiADKAkSEQoJZmlsZV91",
+            "cmlzGAMgAygJEhQKDGFyY2hpdmVfdXJpcxgEIAMoCRJQCgpwcm9wZXJ0aWVz",
+            "GAUgAygLMjwueWFuZGV4LmNsb3VkLmRhdGFwcm9jLm1hbmFnZXIudjEuUHlz",
+            "cGFya0pvYi5Qcm9wZXJ0aWVzRW50cnkSHAoUbWFpbl9weXRob25fZmlsZV91",
+            "cmkYBiABKAkSGAoQcHl0aG9uX2ZpbGVfdXJpcxgHIAMoCRoxCg9Qcm9wZXJ0",
+            "aWVzRW50cnkSCwoDa2V5GAEgASgJEg0KBXZhbHVlGAIgASgJOgI4ASIcCglR",
+            "dWVyeUxpc3QSDwoHcXVlcmllcxgBIAMoCSK8AwoHSGl2ZUpvYhJNCgpwcm9w",
+            "ZXJ0aWVzGAEgAygLMjkueWFuZGV4LmNsb3VkLmRhdGFwcm9jLm1hbmFnZXIu",
+            "djEuSGl2ZUpvYi5Qcm9wZXJ0aWVzRW50cnkSGwoTY29udGludWVfb25fZmFp",
+            "bHVyZRgCIAEoCBJYChBzY3JpcHRfdmFyaWFibGVzGAMgAygLMj4ueWFuZGV4",
+            "LmNsb3VkLmRhdGFwcm9jLm1hbmFnZXIudjEuSGl2ZUpvYi5TY3JpcHRWYXJp",
+            "YWJsZXNFbnRyeRIVCg1qYXJfZmlsZV91cmlzGAQgAygJEhgKDnF1ZXJ5X2Zp",
+            "bGVfdXJpGAUgASgJSAASQQoKcXVlcnlfbGlzdBgGIAEoCzIrLnlhbmRleC5j",
+            "bG91ZC5kYXRhcHJvYy5tYW5hZ2VyLnYxLlF1ZXJ5TGlzdEgAGjEKD1Byb3Bl",
+            "cnRpZXNFbnRyeRILCgNrZXkYASABKAkSDQoFdmFsdWUYAiABKAk6AjgBGjYK",
+            "FFNjcmlwdFZhcmlhYmxlc0VudHJ5EgsKA2tleRgBIAEoCRINCgV2YWx1ZRgC",
+            "IAEoCToCOAFCDAoKcXVlcnlfdHlwZUJ9CiR5YW5kZXguY2xvdWQuYXBpLmRh",
+            "dGFwcm9jLm1hbmFnZXIudjFaVWdpdGh1Yi5jb20veWFuZGV4LWNsb3VkL2dv",
+            "LWdlbnByb3RvL3lhbmRleC9jbG91ZC9kYXRhcHJvYy9tYW5hZ2VyL3YxO2Rh",
+            "dGFwcm9jX21hbmFnZXJiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.Manager.V1.Job), global::Yandex.Cloud.Dataproc.Manager.V1.Job.Parser, new[]{ "Id", "ClusterId", "CreatedAt", "StartedAt", "FinishedAt", "Name", "Status", "MapreduceJob", "SparkJob", "PysparkJob", "HiveJob" }, new[]{ "JobSpec" }, new[]{ typeof(global::Yandex.Cloud.Dataproc.Manager.V1.Job.Types.Status) }, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.Manager.V1.Job), global::Yandex.Cloud.Dataproc.Manager.V1.Job.Parser, new[]{ "Id", "ClusterId", "CreatedAt", "StartedAt", "FinishedAt", "Name", "CreatedBy", "Status", "MapreduceJob", "SparkJob", "PysparkJob", "HiveJob" }, new[]{ "JobSpec" }, new[]{ typeof(global::Yandex.Cloud.Dataproc.Manager.V1.Job.Types.Status) }, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.Manager.V1.MapreduceJob), global::Yandex.Cloud.Dataproc.Manager.V1.MapreduceJob.Parser, new[]{ "Args", "JarFileUris", "FileUris", "ArchiveUris", "Properties", "MainJarFileUri", "MainClass" }, new[]{ "Driver" }, null, new pbr::GeneratedClrTypeInfo[] { null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.Manager.V1.SparkJob), global::Yandex.Cloud.Dataproc.Manager.V1.SparkJob.Parser, new[]{ "Args", "JarFileUris", "FileUris", "ArchiveUris", "Properties", "MainJarFileUri", "MainClass" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.Manager.V1.PysparkJob), global::Yandex.Cloud.Dataproc.Manager.V1.PysparkJob.Parser, new[]{ "Args", "JarFileUris", "FileUris", "ArchiveUris", "Properties", "MainPythonFileUri", "PythonFileUris" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
@@ -89,7 +90,7 @@ namespace Yandex.Cloud.Dataproc.Manager.V1 {
   }
   #region Messages
   /// <summary>
-  /// Dataproc job.
+  /// Data Proc job.
   /// </summary>
   internal sealed partial class Job : pb::IMessage<Job> {
     private static readonly pb::MessageParser<Job> _parser = new pb::MessageParser<Job>(() => new Job());
@@ -122,6 +123,7 @@ namespace Yandex.Cloud.Dataproc.Manager.V1 {
       startedAt_ = other.startedAt_ != null ? other.startedAt_.Clone() : null;
       finishedAt_ = other.finishedAt_ != null ? other.finishedAt_.Clone() : null;
       name_ = other.name_;
+      createdBy_ = other.createdBy_;
       status_ = other.status_;
       switch (other.JobSpecCase) {
         case JobSpecOneofCase.MapreduceJob:
@@ -150,8 +152,8 @@ namespace Yandex.Cloud.Dataproc.Manager.V1 {
     public const int IdFieldNumber = 1;
     private string id_ = "";
     /// <summary>
-    /// Required. Unique ID of the Dataproc job.
-    /// This ID is assigned by MDB in the process of creating Dataproc job.
+    /// Unique ID of the Data Proc job.
+    /// This ID is assigned by MDB in the process of creating Data Proc job.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Id {
@@ -165,7 +167,7 @@ namespace Yandex.Cloud.Dataproc.Manager.V1 {
     public const int ClusterIdFieldNumber = 2;
     private string clusterId_ = "";
     /// <summary>
-    /// Required. Unique ID of the Dataproc cluster.
+    /// ID of the Data Proc cluster.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ClusterId {
@@ -179,7 +181,7 @@ namespace Yandex.Cloud.Dataproc.Manager.V1 {
     public const int CreatedAtFieldNumber = 3;
     private global::Google.Protobuf.WellKnownTypes.Timestamp createdAt_;
     /// <summary>
-    /// The time when the Dataproc job was created.
+    /// The time when the Data Proc job was created.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Google.Protobuf.WellKnownTypes.Timestamp CreatedAt {
@@ -193,7 +195,7 @@ namespace Yandex.Cloud.Dataproc.Manager.V1 {
     public const int StartedAtFieldNumber = 4;
     private global::Google.Protobuf.WellKnownTypes.Timestamp startedAt_;
     /// <summary>
-    /// The time when the Dataproc job was started.
+    /// The time when the Data Proc job was started.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Google.Protobuf.WellKnownTypes.Timestamp StartedAt {
@@ -207,7 +209,7 @@ namespace Yandex.Cloud.Dataproc.Manager.V1 {
     public const int FinishedAtFieldNumber = 5;
     private global::Google.Protobuf.WellKnownTypes.Timestamp finishedAt_;
     /// <summary>
-    /// The time when the Dataproc job was finished.
+    /// The time when the Data Proc job was finished.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Google.Protobuf.WellKnownTypes.Timestamp FinishedAt {
@@ -221,13 +223,27 @@ namespace Yandex.Cloud.Dataproc.Manager.V1 {
     public const int NameFieldNumber = 6;
     private string name_ = "";
     /// <summary>
-    /// Name of the Dataproc job.
+    /// Name of the Data Proc job.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Name {
       get { return name_; }
       set {
         name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "created_by" field.</summary>
+    public const int CreatedByFieldNumber = 12;
+    private string createdBy_ = "";
+    /// <summary>
+    /// The id of the user who created the job
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CreatedBy {
+      get { return createdBy_; }
+      set {
+        createdBy_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
@@ -329,6 +345,7 @@ namespace Yandex.Cloud.Dataproc.Manager.V1 {
       if (!object.Equals(StartedAt, other.StartedAt)) return false;
       if (!object.Equals(FinishedAt, other.FinishedAt)) return false;
       if (Name != other.Name) return false;
+      if (CreatedBy != other.CreatedBy) return false;
       if (Status != other.Status) return false;
       if (!object.Equals(MapreduceJob, other.MapreduceJob)) return false;
       if (!object.Equals(SparkJob, other.SparkJob)) return false;
@@ -347,6 +364,7 @@ namespace Yandex.Cloud.Dataproc.Manager.V1 {
       if (startedAt_ != null) hash ^= StartedAt.GetHashCode();
       if (finishedAt_ != null) hash ^= FinishedAt.GetHashCode();
       if (Name.Length != 0) hash ^= Name.GetHashCode();
+      if (CreatedBy.Length != 0) hash ^= CreatedBy.GetHashCode();
       if (Status != 0) hash ^= Status.GetHashCode();
       if (jobSpecCase_ == JobSpecOneofCase.MapreduceJob) hash ^= MapreduceJob.GetHashCode();
       if (jobSpecCase_ == JobSpecOneofCase.SparkJob) hash ^= SparkJob.GetHashCode();
@@ -410,6 +428,10 @@ namespace Yandex.Cloud.Dataproc.Manager.V1 {
         output.WriteRawTag(90);
         output.WriteMessage(HiveJob);
       }
+      if (CreatedBy.Length != 0) {
+        output.WriteRawTag(98);
+        output.WriteString(CreatedBy);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -435,6 +457,9 @@ namespace Yandex.Cloud.Dataproc.Manager.V1 {
       }
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+      }
+      if (CreatedBy.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(CreatedBy);
       }
       if (Status != 0) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Status);
@@ -488,6 +513,9 @@ namespace Yandex.Cloud.Dataproc.Manager.V1 {
       }
       if (other.Name.Length != 0) {
         Name = other.Name;
+      }
+      if (other.CreatedBy.Length != 0) {
+        CreatedBy = other.CreatedBy;
       }
       if (other.Status != 0) {
         Status = other.Status;
@@ -601,6 +629,10 @@ namespace Yandex.Cloud.Dataproc.Manager.V1 {
             }
             input.ReadMessage(subBuilder);
             HiveJob = subBuilder;
+            break;
+          }
+          case 98: {
+            CreatedBy = input.ReadString();
             break;
           }
         }
@@ -719,7 +751,7 @@ namespace Yandex.Cloud.Dataproc.Manager.V1 {
         = pb::FieldCodec.ForString(26);
     private readonly pbc::RepeatedField<string> fileUris_ = new pbc::RepeatedField<string>();
     /// <summary>
-    /// URIs of files to be copied to the working directory of Dataproc drivers and distributed tasks.
+    /// URIs of files to be copied to the working directory of Data Proc drivers and distributed tasks.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::RepeatedField<string> FileUris {
@@ -732,7 +764,7 @@ namespace Yandex.Cloud.Dataproc.Manager.V1 {
         = pb::FieldCodec.ForString(34);
     private readonly pbc::RepeatedField<string> archiveUris_ = new pbc::RepeatedField<string>();
     /// <summary>
-    /// URIs of archives to be extracted in the working directory of Dataproc drivers and tasks.
+    /// URIs of archives to be extracted in the working directory of Data Proc drivers and tasks.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::RepeatedField<string> ArchiveUris {
@@ -745,7 +777,7 @@ namespace Yandex.Cloud.Dataproc.Manager.V1 {
         = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 42);
     private readonly pbc::MapField<string, string> properties_ = new pbc::MapField<string, string>();
     /// <summary>
-    /// A mapping of property names to values, used to configure Dataproc.
+    /// A mapping of property names to values, used to configure Data Proc.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::MapField<string, string> Properties {
@@ -1008,7 +1040,7 @@ namespace Yandex.Cloud.Dataproc.Manager.V1 {
         = pb::FieldCodec.ForString(18);
     private readonly pbc::RepeatedField<string> jarFileUris_ = new pbc::RepeatedField<string>();
     /// <summary>
-    /// Jar file URIs to add to the CLASSPATHs of the Dataproc driver and tasks.
+    /// Jar file URIs to add to the CLASSPATHs of the Data Proc driver and tasks.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::RepeatedField<string> JarFileUris {
@@ -1021,7 +1053,7 @@ namespace Yandex.Cloud.Dataproc.Manager.V1 {
         = pb::FieldCodec.ForString(26);
     private readonly pbc::RepeatedField<string> fileUris_ = new pbc::RepeatedField<string>();
     /// <summary>
-    /// URIs of files to be copied to the working directory of Dataproc drivers and distributed tasks.
+    /// URIs of files to be copied to the working directory of Data Proc drivers and distributed tasks.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::RepeatedField<string> FileUris {
@@ -1034,7 +1066,7 @@ namespace Yandex.Cloud.Dataproc.Manager.V1 {
         = pb::FieldCodec.ForString(34);
     private readonly pbc::RepeatedField<string> archiveUris_ = new pbc::RepeatedField<string>();
     /// <summary>
-    /// URIs of archives to be extracted in the working directory of Dataproc drivers and tasks.
+    /// URIs of archives to be extracted in the working directory of Data Proc drivers and tasks.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::RepeatedField<string> ArchiveUris {
@@ -1047,7 +1079,7 @@ namespace Yandex.Cloud.Dataproc.Manager.V1 {
         = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 42);
     private readonly pbc::MapField<string, string> properties_ = new pbc::MapField<string, string>();
     /// <summary>
-    /// A mapping of property names to values, used to configure Dataproc.
+    /// A mapping of property names to values, used to configure Data Proc.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::MapField<string, string> Properties {
@@ -1286,7 +1318,7 @@ namespace Yandex.Cloud.Dataproc.Manager.V1 {
         = pb::FieldCodec.ForString(18);
     private readonly pbc::RepeatedField<string> jarFileUris_ = new pbc::RepeatedField<string>();
     /// <summary>
-    /// Jar file URIs to add to the CLASSPATHs of the Dataproc driver and tasks.
+    /// Jar file URIs to add to the CLASSPATHs of the Data Proc driver and tasks.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::RepeatedField<string> JarFileUris {
@@ -1299,7 +1331,7 @@ namespace Yandex.Cloud.Dataproc.Manager.V1 {
         = pb::FieldCodec.ForString(26);
     private readonly pbc::RepeatedField<string> fileUris_ = new pbc::RepeatedField<string>();
     /// <summary>
-    /// URIs of files to be copied to the working directory of Dataproc drivers and distributed tasks.
+    /// URIs of files to be copied to the working directory of Data Proc drivers and distributed tasks.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::RepeatedField<string> FileUris {
@@ -1312,7 +1344,7 @@ namespace Yandex.Cloud.Dataproc.Manager.V1 {
         = pb::FieldCodec.ForString(34);
     private readonly pbc::RepeatedField<string> archiveUris_ = new pbc::RepeatedField<string>();
     /// <summary>
-    /// URIs of archives to be extracted in the working directory of Dataproc drivers and tasks.
+    /// URIs of archives to be extracted in the working directory of Data Proc drivers and tasks.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::RepeatedField<string> ArchiveUris {
@@ -1325,7 +1357,7 @@ namespace Yandex.Cloud.Dataproc.Manager.V1 {
         = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 42);
     private readonly pbc::MapField<string, string> properties_ = new pbc::MapField<string, string>();
     /// <summary>
-    /// A mapping of property names to values, used to configure Dataproc.
+    /// A mapping of property names to values, used to configure Data Proc.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::MapField<string, string> Properties {

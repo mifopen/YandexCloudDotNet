@@ -38,158 +38,193 @@ namespace Yandex.Cloud.Compute.V1 {
             "GAMgASgJQgmKyDEFPD0xMDASGgoGZmlsdGVyGAQgASgJQgqKyDEGPD0xMDAw",
             "ImYKFUxpc3RJbnN0YW5jZXNSZXNwb25zZRI0CglpbnN0YW5jZXMYASADKAsy",
             "IS55YW5kZXguY2xvdWQuY29tcHV0ZS52MS5JbnN0YW5jZRIXCg9uZXh0X3Bh",
-            "Z2VfdG9rZW4YAiABKAkilAgKFUNyZWF0ZUluc3RhbmNlUmVxdWVzdBIfCglm",
-            "b2xkZXJfaWQYASABKAlCDOjHMQGKyDEEPD01MBIvCgRuYW1lGAIgASgJQiHy",
-            "xzEdfFthLXpdWy1hLXowLTldezEsNjF9W2EtejAtOV0SHgoLZGVzY3JpcHRp",
-            "b24YAyABKAlCCYrIMQU8PTI1NhKLAQoGbGFiZWxzGAQgAygLMjoueWFuZGV4",
-            "LmNsb3VkLmNvbXB1dGUudjEuQ3JlYXRlSW5zdGFuY2VSZXF1ZXN0LkxhYmVs",
-            "c0VudHJ5Qj+CyDEEPD02NIrIMQQ8PTYz8scxC1stXzAtOWEtel0qssgxBhoE",
-            "MS02M7LIMRISEFthLXpdWy1fMC05YS16XSoSHQoHem9uZV9pZBgFIAEoCUIM",
-            "6McxAYrIMQQ8PTUwEhkKC3BsYXRmb3JtX2lkGAYgASgJQgToxzEBEkQKDnJl",
-            "c291cmNlc19zcGVjGAcgASgLMiYueWFuZGV4LmNsb3VkLmNvbXB1dGUudjEu",
-            "UmVzb3VyY2VzU3BlY0IE6McxARJOCghtZXRhZGF0YRgIIAMoCzI8LnlhbmRl",
-            "eC5jbG91ZC5jb21wdXRlLnYxLkNyZWF0ZUluc3RhbmNlUmVxdWVzdC5NZXRh",
-            "ZGF0YUVudHJ5EkcKDmJvb3RfZGlza19zcGVjGAkgASgLMikueWFuZGV4LmNs",
-            "b3VkLmNvbXB1dGUudjEuQXR0YWNoZWREaXNrU3BlY0IE6McxARJQChRzZWNv",
-            "bmRhcnlfZGlza19zcGVjcxgKIAMoCzIpLnlhbmRleC5jbG91ZC5jb21wdXRl",
-            "LnYxLkF0dGFjaGVkRGlza1NwZWNCB4LIMQM8PTMSVQoXbmV0d29ya19pbnRl",
-            "cmZhY2Vfc3BlY3MYCyADKAsyLS55YW5kZXguY2xvdWQuY29tcHV0ZS52MS5O",
-            "ZXR3b3JrSW50ZXJmYWNlU3BlY0IFgsgxATESMwoIaG9zdG5hbWUYDCABKAlC",
-            "IfLHMR18W2Etel1bLWEtejAtOV17MSw2MX1bYS16MC05XRJEChFzY2hlZHVs",
-            "aW5nX3BvbGljeRgNIAEoCzIpLnlhbmRleC5jbG91ZC5jb21wdXRlLnYxLlNj",
-            "aGVkdWxpbmdQb2xpY3kSGgoSc2VydmljZV9hY2NvdW50X2lkGA4gASgJEkIK",
-            "EG5ldHdvcmtfc2V0dGluZ3MYDyABKAsyKC55YW5kZXguY2xvdWQuY29tcHV0",
-            "ZS52MS5OZXR3b3JrU2V0dGluZ3MaLQoLTGFiZWxzRW50cnkSCwoDa2V5GAEg",
-            "ASgJEg0KBXZhbHVlGAIgASgJOgI4ARovCg1NZXRhZGF0YUVudHJ5EgsKA2tl",
-            "eRgBIAEoCRINCgV2YWx1ZRgCIAEoCToCOAEiNwoWQ3JlYXRlSW5zdGFuY2VN",
-            "ZXRhZGF0YRIdCgtpbnN0YW5jZV9pZBgBIAEoCUIIisgxBDw9NTAirwUKFVVw",
-            "ZGF0ZUluc3RhbmNlUmVxdWVzdBIhCgtpbnN0YW5jZV9pZBgBIAEoCUIM6Mcx",
-            "AYrIMQQ8PTUwEi8KC3VwZGF0ZV9tYXNrGAIgASgLMhouZ29vZ2xlLnByb3Rv",
-            "YnVmLkZpZWxkTWFzaxIvCgRuYW1lGAMgASgJQiHyxzEdfFthLXpdWy1hLXow",
-            "LTldezEsNjF9W2EtejAtOV0SHgoLZGVzY3JpcHRpb24YBCABKAlCCYrIMQU8",
-            "PTI1NhKLAQoGbGFiZWxzGAUgAygLMjoueWFuZGV4LmNsb3VkLmNvbXB1dGUu",
-            "djEuVXBkYXRlSW5zdGFuY2VSZXF1ZXN0LkxhYmVsc0VudHJ5Qj+CyDEEPD02",
-            "NIrIMQQ8PTYz8scxC1stXzAtOWEtel0qssgxBhoEMS02M7LIMRISEFthLXpd",
-            "Wy1fMC05YS16XSoSEwoLcGxhdGZvcm1faWQYBiABKAkSPgoOcmVzb3VyY2Vz",
-            "X3NwZWMYByABKAsyJi55YW5kZXguY2xvdWQuY29tcHV0ZS52MS5SZXNvdXJj",
-            "ZXNTcGVjEk4KCG1ldGFkYXRhGAggAygLMjwueWFuZGV4LmNsb3VkLmNvbXB1",
-            "dGUudjEuVXBkYXRlSW5zdGFuY2VSZXF1ZXN0Lk1ldGFkYXRhRW50cnkSGgoS",
-            "c2VydmljZV9hY2NvdW50X2lkGAkgASgJEkIKEG5ldHdvcmtfc2V0dGluZ3MY",
-            "CiABKAsyKC55YW5kZXguY2xvdWQuY29tcHV0ZS52MS5OZXR3b3JrU2V0dGlu",
-            "Z3MaLQoLTGFiZWxzRW50cnkSCwoDa2V5GAEgASgJEg0KBXZhbHVlGAIgASgJ",
-            "OgI4ARovCg1NZXRhZGF0YUVudHJ5EgsKA2tleRgBIAEoCRINCgV2YWx1ZRgC",
-            "IAEoCToCOAEiLQoWVXBkYXRlSW5zdGFuY2VNZXRhZGF0YRITCgtpbnN0YW5j",
-            "ZV9pZBgBIAEoCSI6ChVEZWxldGVJbnN0YW5jZVJlcXVlc3QSIQoLaW5zdGFu",
-            "Y2VfaWQYASABKAlCDOjHMQGKyDEEPD01MCItChZEZWxldGVJbnN0YW5jZU1l",
-            "dGFkYXRhEhMKC2luc3RhbmNlX2lkGAEgASgJIscBCh1VcGRhdGVJbnN0YW5j",
-            "ZU1ldGFkYXRhUmVxdWVzdBITCgtpbnN0YW5jZV9pZBgBIAEoCRIOCgZkZWxl",
-            "dGUYAiADKAkSUgoGdXBzZXJ0GAMgAygLMkIueWFuZGV4LmNsb3VkLmNvbXB1",
-            "dGUudjEuVXBkYXRlSW5zdGFuY2VNZXRhZGF0YVJlcXVlc3QuVXBzZXJ0RW50",
-            "cnkaLQoLVXBzZXJ0RW50cnkSCwoDa2V5GAEgASgJEg0KBXZhbHVlGAIgASgJ",
-            "OgI4ASI1Ch5VcGRhdGVJbnN0YW5jZU1ldGFkYXRhTWV0YWRhdGESEwoLaW5z",
-            "dGFuY2VfaWQYASABKAkiYgoiR2V0SW5zdGFuY2VTZXJpYWxQb3J0T3V0cHV0",
-            "UmVxdWVzdBIhCgtpbnN0YW5jZV9pZBgBIAEoCUIM6McxAYrIMQQ8PTUwEhkK",
-            "BHBvcnQYAiABKANCC/rHMQcxLDIsMyw0IjcKI0dldEluc3RhbmNlU2VyaWFs",
-            "UG9ydE91dHB1dFJlc3BvbnNlEhAKCGNvbnRlbnRzGAEgASgJIjgKE1N0b3BJ",
-            "bnN0YW5jZVJlcXVlc3QSIQoLaW5zdGFuY2VfaWQYASABKAlCDOjHMQGKyDEE",
-            "PD01MCIrChRTdG9wSW5zdGFuY2VNZXRhZGF0YRITCgtpbnN0YW5jZV9pZBgB",
-            "IAEoCSI5ChRTdGFydEluc3RhbmNlUmVxdWVzdBIhCgtpbnN0YW5jZV9pZBgB",
-            "IAEoCUIM6McxAYrIMQQ8PTUwIiwKFVN0YXJ0SW5zdGFuY2VNZXRhZGF0YRIT",
-            "CgtpbnN0YW5jZV9pZBgBIAEoCSI7ChZSZXN0YXJ0SW5zdGFuY2VSZXF1ZXN0",
-            "EiEKC2luc3RhbmNlX2lkGAEgASgJQgzoxzEBisgxBDw9NTAiLgoXUmVzdGFy",
-            "dEluc3RhbmNlTWV0YWRhdGESEwoLaW5zdGFuY2VfaWQYASABKAkiiwEKGUF0",
-            "dGFjaEluc3RhbmNlRGlza1JlcXVlc3QSIQoLaW5zdGFuY2VfaWQYASABKAlC",
-            "DOjHMQGKyDEEPD01MBJLChJhdHRhY2hlZF9kaXNrX3NwZWMYAiABKAsyKS55",
-            "YW5kZXguY2xvdWQuY29tcHV0ZS52MS5BdHRhY2hlZERpc2tTcGVjQgToxzEB",
-            "IkIKGkF0dGFjaEluc3RhbmNlRGlza01ldGFkYXRhEhMKC2luc3RhbmNlX2lk",
-            "GAEgASgJEg8KB2Rpc2tfaWQYAiABKAkimgEKGURldGFjaEluc3RhbmNlRGlz",
-            "a1JlcXVlc3QSIQoLaW5zdGFuY2VfaWQYASABKAlCDOjHMQGKyDEEPD01MBIb",
-            "CgdkaXNrX2lkGAIgASgJQgiKyDEEPD01MEgAEi8KC2RldmljZV9uYW1lGAMg",
-            "ASgJQhjyxzEUW2Etel1bYS16MC05LV9deywxOX1IAEIMCgRkaXNrEgTAwTEB",
-            "IkIKGkRldGFjaEluc3RhbmNlRGlza01ldGFkYXRhEhMKC2luc3RhbmNlX2lk",
-            "GAEgASgJEg8KB2Rpc2tfaWQYAiABKAkigAEKHUxpc3RJbnN0YW5jZU9wZXJh",
-            "dGlvbnNSZXF1ZXN0EiEKC2luc3RhbmNlX2lkGAEgASgJQgzoxzEBisgxBDw9",
-            "NTASHQoJcGFnZV9zaXplGAIgASgDQgr6xzEGPD0xMDAwEh0KCnBhZ2VfdG9r",
-            "ZW4YAyABKAlCCYrIMQU8PTEwMCJwCh5MaXN0SW5zdGFuY2VPcGVyYXRpb25z",
-            "UmVzcG9uc2USNQoKb3BlcmF0aW9ucxgBIAMoCzIhLnlhbmRleC5jbG91ZC5v",
-            "cGVyYXRpb24uT3BlcmF0aW9uEhcKD25leHRfcGFnZV90b2tlbhgCIAEoCSLC",
-            "AQoNUmVzb3VyY2VzU3BlYxImCgZtZW1vcnkYASABKANCFujHMQH6xzEOPD0y",
-            "NzQ4Nzc5MDY5NDQSRAoFY29yZXMYAiABKANCNejHMQH6xzEtMSwyLDQsNiw4",
-            "LDEwLDEyLDE0LDE2LDE4LDIwLDIyLDI0LDI2LDI4LDMwLDMyEigKDWNvcmVf",
-            "ZnJhY3Rpb24YAyABKANCEfrHMQ0wLDUsMjAsNTAsMTAwEhkKBGdwdXMYBCAB",
-            "KANCC/rHMQcwLDEsMiw0IrQEChBBdHRhY2hlZERpc2tTcGVjEjwKBG1vZGUY",
-            "ASABKA4yLi55YW5kZXguY2xvdWQuY29tcHV0ZS52MS5BdHRhY2hlZERpc2tT",
-            "cGVjLk1vZGUSLQoLZGV2aWNlX25hbWUYAiABKAlCGPLHMRRbYS16XVthLXow",
-            "LTktX117LDE5fRITCgthdXRvX2RlbGV0ZRgDIAEoCBJHCglkaXNrX3NwZWMY",
-            "BCABKAsyMi55YW5kZXguY2xvdWQuY29tcHV0ZS52MS5BdHRhY2hlZERpc2tT",
-            "cGVjLkRpc2tTcGVjSAASGwoHZGlza19pZBgFIAEoCUIIisgxBDw9NTBIABrs",
-            "AQoIRGlza1NwZWMSLwoEbmFtZRgBIAEoCUIh8scxHXxbYS16XVstYS16MC05",
-            "XXsxLDYxfVthLXowLTldEh4KC2Rlc2NyaXB0aW9uGAIgASgJQgmKyDEFPD0y",
-            "NTYSGQoHdHlwZV9pZBgDIAEoCUIIisgxBDw9NTASKwoEc2l6ZRgEIAEoA0Id",
-            "6McxAfrHMRU0MTk0MzA0LTQzOTgwNDY1MTExMDQSHAoIaW1hZ2VfaWQYBSAB",
-            "KAlCCIrIMQQ8PTUwSAASHwoLc25hcHNob3RfaWQYBiABKAlCCIrIMQQ8PTUw",
-            "SABCCAoGc291cmNlIjsKBE1vZGUSFAoQTU9ERV9VTlNQRUNJRklFRBAAEg0K",
-            "CVJFQURfT05MWRABEg4KClJFQURfV1JJVEUQAkIMCgRkaXNrEgTAwTEBItMB",
-            "ChROZXR3b3JrSW50ZXJmYWNlU3BlYxIfCglzdWJuZXRfaWQYASABKAlCDOjH",
-            "MQGKyDEEPD01MBJMChdwcmltYXJ5X3Y0X2FkZHJlc3Nfc3BlYxgCIAEoCzIr",
-            "LnlhbmRleC5jbG91ZC5jb21wdXRlLnYxLlByaW1hcnlBZGRyZXNzU3BlYxJM",
-            "ChdwcmltYXJ5X3Y2X2FkZHJlc3Nfc3BlYxgDIAEoCzIrLnlhbmRleC5jbG91",
-            "ZC5jb21wdXRlLnYxLlByaW1hcnlBZGRyZXNzU3BlYyJsChJQcmltYXJ5QWRk",
-            "cmVzc1NwZWMSDwoHYWRkcmVzcxgBIAEoCRJFChNvbmVfdG9fb25lX25hdF9z",
-            "cGVjGAIgASgLMigueWFuZGV4LmNsb3VkLmNvbXB1dGUudjEuT25lVG9PbmVO",
-            "YXRTcGVjIk8KD09uZVRvT25lTmF0U3BlYxI8CgppcF92ZXJzaW9uGAEgASgO",
-            "MiIueWFuZGV4LmNsb3VkLmNvbXB1dGUudjEuSXBWZXJzaW9uQgToxzEBKiMK",
-            "DEluc3RhbmNlVmlldxIJCgVCQVNJQxAAEggKBEZVTEwQATLtEgoPSW5zdGFu",
-            "Y2VTZXJ2aWNlEoIBCgNHZXQSKy55YW5kZXguY2xvdWQuY29tcHV0ZS52MS5H",
-            "ZXRJbnN0YW5jZVJlcXVlc3QaIS55YW5kZXguY2xvdWQuY29tcHV0ZS52MS5J",
-            "bnN0YW5jZSIrgtPkkwIlEiMvY29tcHV0ZS92MS9pbnN0YW5jZXMve2luc3Rh",
-            "bmNlX2lkfRKEAQoETGlzdBItLnlhbmRleC5jbG91ZC5jb21wdXRlLnYxLkxp",
-            "c3RJbnN0YW5jZXNSZXF1ZXN0Gi4ueWFuZGV4LmNsb3VkLmNvbXB1dGUudjEu",
-            "TGlzdEluc3RhbmNlc1Jlc3BvbnNlIh2C0+STAhcSFS9jb21wdXRlL3YxL2lu",
-            "c3RhbmNlcxKjAQoGQ3JlYXRlEi4ueWFuZGV4LmNsb3VkLmNvbXB1dGUudjEu",
-            "Q3JlYXRlSW5zdGFuY2VSZXF1ZXN0GiEueWFuZGV4LmNsb3VkLm9wZXJhdGlv",
-            "bi5PcGVyYXRpb24iRoLT5JMCGiIVL2NvbXB1dGUvdjEvaW5zdGFuY2VzOgEq",
-            "stIqIgoWQ3JlYXRlSW5zdGFuY2VNZXRhZGF0YRIISW5zdGFuY2USsQEKBlVw",
-            "ZGF0ZRIuLnlhbmRleC5jbG91ZC5jb21wdXRlLnYxLlVwZGF0ZUluc3RhbmNl",
-            "UmVxdWVzdBohLnlhbmRleC5jbG91ZC5vcGVyYXRpb24uT3BlcmF0aW9uIlSC",
-            "0+STAigyIy9jb21wdXRlL3YxL2luc3RhbmNlcy97aW5zdGFuY2VfaWR9OgEq",
-            "stIqIgoWVXBkYXRlSW5zdGFuY2VNZXRhZGF0YRIISW5zdGFuY2USuwEKBkRl",
-            "bGV0ZRIuLnlhbmRleC5jbG91ZC5jb21wdXRlLnYxLkRlbGV0ZUluc3RhbmNl",
-            "UmVxdWVzdBohLnlhbmRleC5jbG91ZC5vcGVyYXRpb24uT3BlcmF0aW9uIl6C",
-            "0+STAiUqIy9jb21wdXRlL3YxL2luc3RhbmNlcy97aW5zdGFuY2VfaWR9stIq",
-            "LwoWRGVsZXRlSW5zdGFuY2VNZXRhZGF0YRIVZ29vZ2xlLnByb3RvYnVmLkVt",
-            "cHR5EtgBCg5VcGRhdGVNZXRhZGF0YRI2LnlhbmRleC5jbG91ZC5jb21wdXRl",
-            "LnYxLlVwZGF0ZUluc3RhbmNlTWV0YWRhdGFSZXF1ZXN0GiEueWFuZGV4LmNs",
-            "b3VkLm9wZXJhdGlvbi5PcGVyYXRpb24ia4LT5JMCNyIyL2NvbXB1dGUvdjEv",
-            "aW5zdGFuY2VzL3tpbnN0YW5jZV9pZH0vdXBkYXRlTWV0YWRhdGE6ASqy0ioq",
-            "Ch5VcGRhdGVJbnN0YW5jZU1ldGFkYXRhTWV0YWRhdGESCEluc3RhbmNlEs4B",
-            "ChNHZXRTZXJpYWxQb3J0T3V0cHV0EjsueWFuZGV4LmNsb3VkLmNvbXB1dGUu",
-            "djEuR2V0SW5zdGFuY2VTZXJpYWxQb3J0T3V0cHV0UmVxdWVzdBo8LnlhbmRl",
-            "eC5jbG91ZC5jb21wdXRlLnYxLkdldEluc3RhbmNlU2VyaWFsUG9ydE91dHB1",
-            "dFJlc3BvbnNlIjyC0+STAjYSNC9jb21wdXRlL3YxL2luc3RhbmNlcy97aW5z",
-            "dGFuY2VfaWR9OnNlcmlhbFBvcnRPdXRwdXQSugEKBFN0b3ASLC55YW5kZXgu",
-            "Y2xvdWQuY29tcHV0ZS52MS5TdG9wSW5zdGFuY2VSZXF1ZXN0GiEueWFuZGV4",
-            "LmNsb3VkLm9wZXJhdGlvbi5PcGVyYXRpb24iYYLT5JMCKiIoL2NvbXB1dGUv",
-            "djEvaW5zdGFuY2VzL3tpbnN0YW5jZV9pZH06c3RvcLLSKi0KFFN0b3BJbnN0",
-            "YW5jZU1ldGFkYXRhEhVnb29nbGUucHJvdG9idWYuRW1wdHkSsQEKBVN0YXJ0",
-            "Ei0ueWFuZGV4LmNsb3VkLmNvbXB1dGUudjEuU3RhcnRJbnN0YW5jZVJlcXVl",
-            "c3QaIS55YW5kZXguY2xvdWQub3BlcmF0aW9uLk9wZXJhdGlvbiJWgtPkkwIr",
-            "IikvY29tcHV0ZS92MS9pbnN0YW5jZXMve2luc3RhbmNlX2lkfTpzdGFydLLS",
-            "KiEKFVN0YXJ0SW5zdGFuY2VNZXRhZGF0YRIISW5zdGFuY2USxgEKB1Jlc3Rh",
-            "cnQSLy55YW5kZXguY2xvdWQuY29tcHV0ZS52MS5SZXN0YXJ0SW5zdGFuY2VS",
-            "ZXF1ZXN0GiEueWFuZGV4LmNsb3VkLm9wZXJhdGlvbi5PcGVyYXRpb24iZ4LT",
-            "5JMCLSIrL2NvbXB1dGUvdjEvaW5zdGFuY2VzL3tpbnN0YW5jZV9pZH06cmVz",
-            "dGFydLLSKjAKF1Jlc3RhcnRJbnN0YW5jZU1ldGFkYXRhEhVnb29nbGUucHJv",
-            "dG9idWYuRW1wdHkSyAEKCkF0dGFjaERpc2sSMi55YW5kZXguY2xvdWQuY29t",
-            "cHV0ZS52MS5BdHRhY2hJbnN0YW5jZURpc2tSZXF1ZXN0GiEueWFuZGV4LmNs",
-            "b3VkLm9wZXJhdGlvbi5PcGVyYXRpb24iY4LT5JMCMyIuL2NvbXB1dGUvdjEv",
-            "aW5zdGFuY2VzL3tpbnN0YW5jZV9pZH06YXR0YWNoRGlzazoBKrLSKiYKGkF0",
-            "dGFjaEluc3RhbmNlRGlza01ldGFkYXRhEghJbnN0YW5jZRLIAQoKRGV0YWNo",
-            "RGlzaxIyLnlhbmRleC5jbG91ZC5jb21wdXRlLnYxLkRldGFjaEluc3RhbmNl",
-            "RGlza1JlcXVlc3QaIS55YW5kZXguY2xvdWQub3BlcmF0aW9uLk9wZXJhdGlv",
-            "biJjgtPkkwIzIi4vY29tcHV0ZS92MS9pbnN0YW5jZXMve2luc3RhbmNlX2lk",
-            "fTpkZXRhY2hEaXNrOgEqstIqJgoaRGV0YWNoSW5zdGFuY2VEaXNrTWV0YWRh",
-            "dGESCEluc3RhbmNlErkBCg5MaXN0T3BlcmF0aW9ucxI2LnlhbmRleC5jbG91",
+            "Z2VfdG9rZW4YAiABKAki5ggKFUNyZWF0ZUluc3RhbmNlUmVxdWVzdBIfCglm",
+            "b2xkZXJfaWQYASABKAlCDOjHMQGKyDEEPD01MBIyCgRuYW1lGAIgASgJQiTy",
+            "xzEgfFthLXpdKFstYS16MC05XXswLDYxfVthLXowLTldKT8SHgoLZGVzY3Jp",
+            "cHRpb24YAyABKAlCCYrIMQU8PTI1NhKTAQoGbGFiZWxzGAQgAygLMjoueWFu",
+            "ZGV4LmNsb3VkLmNvbXB1dGUudjEuQ3JlYXRlSW5zdGFuY2VSZXF1ZXN0Lkxh",
+            "YmVsc0VudHJ5QkeCyDEEPD02NIrIMQQ8PTYz8scxD1stXy4vXEAwLTlhLXpd",
+            "KrLIMQYaBDEtNjOyyDEWEhRbYS16XVstXy4vXEAwLTlhLXpdKhIdCgd6b25l",
+            "X2lkGAUgASgJQgzoxzEBisgxBDw9NTASGQoLcGxhdGZvcm1faWQYBiABKAlC",
+            "BOjHMQESRAoOcmVzb3VyY2VzX3NwZWMYByABKAsyJi55YW5kZXguY2xvdWQu",
+            "Y29tcHV0ZS52MS5SZXNvdXJjZXNTcGVjQgToxzEBEk4KCG1ldGFkYXRhGAgg",
+            "AygLMjwueWFuZGV4LmNsb3VkLmNvbXB1dGUudjEuQ3JlYXRlSW5zdGFuY2VS",
+            "ZXF1ZXN0Lk1ldGFkYXRhRW50cnkSRwoOYm9vdF9kaXNrX3NwZWMYCSABKAsy",
+            "KS55YW5kZXguY2xvdWQuY29tcHV0ZS52MS5BdHRhY2hlZERpc2tTcGVjQgTo",
+            "xzEBElAKFHNlY29uZGFyeV9kaXNrX3NwZWNzGAogAygLMikueWFuZGV4LmNs",
+            "b3VkLmNvbXB1dGUudjEuQXR0YWNoZWREaXNrU3BlY0IHgsgxAzw9MxJVChdu",
+            "ZXR3b3JrX2ludGVyZmFjZV9zcGVjcxgLIAMoCzItLnlhbmRleC5jbG91ZC5j",
+            "b21wdXRlLnYxLk5ldHdvcmtJbnRlcmZhY2VTcGVjQgWCyDEBMRI2Cghob3N0",
+            "bmFtZRgMIAEoCUIk8scxIHxbYS16XShbLWEtejAtOV17MCw2MX1bYS16MC05",
+            "XSk/EkQKEXNjaGVkdWxpbmdfcG9saWN5GA0gASgLMikueWFuZGV4LmNsb3Vk",
+            "LmNvbXB1dGUudjEuU2NoZWR1bGluZ1BvbGljeRIaChJzZXJ2aWNlX2FjY291",
+            "bnRfaWQYDiABKAkSQgoQbmV0d29ya19zZXR0aW5ncxgPIAEoCzIoLnlhbmRl",
+            "eC5jbG91ZC5jb21wdXRlLnYxLk5ldHdvcmtTZXR0aW5ncxJCChBwbGFjZW1l",
+            "bnRfcG9saWN5GBAgASgLMigueWFuZGV4LmNsb3VkLmNvbXB1dGUudjEuUGxh",
+            "Y2VtZW50UG9saWN5Gi0KC0xhYmVsc0VudHJ5EgsKA2tleRgBIAEoCRINCgV2",
+            "YWx1ZRgCIAEoCToCOAEaLwoNTWV0YWRhdGFFbnRyeRILCgNrZXkYASABKAkS",
+            "DQoFdmFsdWUYAiABKAk6AjgBIjcKFkNyZWF0ZUluc3RhbmNlTWV0YWRhdGES",
+            "HQoLaW5zdGFuY2VfaWQYASABKAlCCIrIMQQ8PTUwIv4FChVVcGRhdGVJbnN0",
+            "YW5jZVJlcXVlc3QSIQoLaW5zdGFuY2VfaWQYASABKAlCDOjHMQGKyDEEPD01",
+            "MBIvCgt1cGRhdGVfbWFzaxgCIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5GaWVs",
+            "ZE1hc2sSMgoEbmFtZRgDIAEoCUIk8scxIHxbYS16XShbLWEtejAtOV17MCw2",
+            "MX1bYS16MC05XSk/Eh4KC2Rlc2NyaXB0aW9uGAQgASgJQgmKyDEFPD0yNTYS",
+            "kwEKBmxhYmVscxgFIAMoCzI6LnlhbmRleC5jbG91ZC5jb21wdXRlLnYxLlVw",
+            "ZGF0ZUluc3RhbmNlUmVxdWVzdC5MYWJlbHNFbnRyeUJHgsgxBDw9NjSKyDEE",
+            "PD02M/LHMQ9bLV8uL1xAMC05YS16XSqyyDEGGgQxLTYzssgxFhIUW2Etel1b",
+            "LV8uL1xAMC05YS16XSoSEwoLcGxhdGZvcm1faWQYBiABKAkSPgoOcmVzb3Vy",
+            "Y2VzX3NwZWMYByABKAsyJi55YW5kZXguY2xvdWQuY29tcHV0ZS52MS5SZXNv",
+            "dXJjZXNTcGVjEk4KCG1ldGFkYXRhGAggAygLMjwueWFuZGV4LmNsb3VkLmNv",
+            "bXB1dGUudjEuVXBkYXRlSW5zdGFuY2VSZXF1ZXN0Lk1ldGFkYXRhRW50cnkS",
+            "GgoSc2VydmljZV9hY2NvdW50X2lkGAkgASgJEkIKEG5ldHdvcmtfc2V0dGlu",
+            "Z3MYCiABKAsyKC55YW5kZXguY2xvdWQuY29tcHV0ZS52MS5OZXR3b3JrU2V0",
+            "dGluZ3MSQgoQcGxhY2VtZW50X3BvbGljeRgLIAEoCzIoLnlhbmRleC5jbG91",
+            "ZC5jb21wdXRlLnYxLlBsYWNlbWVudFBvbGljeRotCgtMYWJlbHNFbnRyeRIL",
+            "CgNrZXkYASABKAkSDQoFdmFsdWUYAiABKAk6AjgBGi8KDU1ldGFkYXRhRW50",
+            "cnkSCwoDa2V5GAEgASgJEg0KBXZhbHVlGAIgASgJOgI4ASItChZVcGRhdGVJ",
+            "bnN0YW5jZU1ldGFkYXRhEhMKC2luc3RhbmNlX2lkGAEgASgJIjoKFURlbGV0",
+            "ZUluc3RhbmNlUmVxdWVzdBIhCgtpbnN0YW5jZV9pZBgBIAEoCUIM6McxAYrI",
+            "MQQ8PTUwIi0KFkRlbGV0ZUluc3RhbmNlTWV0YWRhdGESEwoLaW5zdGFuY2Vf",
+            "aWQYASABKAkixwEKHVVwZGF0ZUluc3RhbmNlTWV0YWRhdGFSZXF1ZXN0EhMK",
+            "C2luc3RhbmNlX2lkGAEgASgJEg4KBmRlbGV0ZRgCIAMoCRJSCgZ1cHNlcnQY",
+            "AyADKAsyQi55YW5kZXguY2xvdWQuY29tcHV0ZS52MS5VcGRhdGVJbnN0YW5j",
+            "ZU1ldGFkYXRhUmVxdWVzdC5VcHNlcnRFbnRyeRotCgtVcHNlcnRFbnRyeRIL",
+            "CgNrZXkYASABKAkSDQoFdmFsdWUYAiABKAk6AjgBIjUKHlVwZGF0ZUluc3Rh",
+            "bmNlTWV0YWRhdGFNZXRhZGF0YRITCgtpbnN0YW5jZV9pZBgBIAEoCSJiCiJH",
+            "ZXRJbnN0YW5jZVNlcmlhbFBvcnRPdXRwdXRSZXF1ZXN0EiEKC2luc3RhbmNl",
+            "X2lkGAEgASgJQgzoxzEBisgxBDw9NTASGQoEcG9ydBgCIAEoA0IL+scxBzEs",
+            "MiwzLDQiNwojR2V0SW5zdGFuY2VTZXJpYWxQb3J0T3V0cHV0UmVzcG9uc2US",
+            "EAoIY29udGVudHMYASABKAkiOAoTU3RvcEluc3RhbmNlUmVxdWVzdBIhCgtp",
+            "bnN0YW5jZV9pZBgBIAEoCUIM6McxAYrIMQQ8PTUwIisKFFN0b3BJbnN0YW5j",
+            "ZU1ldGFkYXRhEhMKC2luc3RhbmNlX2lkGAEgASgJIjkKFFN0YXJ0SW5zdGFu",
+            "Y2VSZXF1ZXN0EiEKC2luc3RhbmNlX2lkGAEgASgJQgzoxzEBisgxBDw9NTAi",
+            "LAoVU3RhcnRJbnN0YW5jZU1ldGFkYXRhEhMKC2luc3RhbmNlX2lkGAEgASgJ",
+            "IjsKFlJlc3RhcnRJbnN0YW5jZVJlcXVlc3QSIQoLaW5zdGFuY2VfaWQYASAB",
+            "KAlCDOjHMQGKyDEEPD01MCIuChdSZXN0YXJ0SW5zdGFuY2VNZXRhZGF0YRIT",
+            "CgtpbnN0YW5jZV9pZBgBIAEoCSKLAQoZQXR0YWNoSW5zdGFuY2VEaXNrUmVx",
+            "dWVzdBIhCgtpbnN0YW5jZV9pZBgBIAEoCUIM6McxAYrIMQQ8PTUwEksKEmF0",
+            "dGFjaGVkX2Rpc2tfc3BlYxgCIAEoCzIpLnlhbmRleC5jbG91ZC5jb21wdXRl",
+            "LnYxLkF0dGFjaGVkRGlza1NwZWNCBOjHMQEiQgoaQXR0YWNoSW5zdGFuY2VE",
+            "aXNrTWV0YWRhdGESEwoLaW5zdGFuY2VfaWQYASABKAkSDwoHZGlza19pZBgC",
+            "IAEoCSKaAQoZRGV0YWNoSW5zdGFuY2VEaXNrUmVxdWVzdBIhCgtpbnN0YW5j",
+            "ZV9pZBgBIAEoCUIM6McxAYrIMQQ8PTUwEhsKB2Rpc2tfaWQYAiABKAlCCIrI",
+            "MQQ8PTUwSAASLwoLZGV2aWNlX25hbWUYAyABKAlCGPLHMRRbYS16XVthLXow",
+            "LTktX117LDE5fUgAQgwKBGRpc2sSBMDBMQEiQgoaRGV0YWNoSW5zdGFuY2VE",
+            "aXNrTWV0YWRhdGESEwoLaW5zdGFuY2VfaWQYASABKAkSDwoHZGlza19pZBgC",
+            "IAEoCSK2AQodQWRkSW5zdGFuY2VPbmVUb09uZU5hdFJlcXVlc3QSEwoLaW5z",
+            "dGFuY2VfaWQYASABKAkSHwoXbmV0d29ya19pbnRlcmZhY2VfaW5kZXgYAiAB",
+            "KAkSGAoQaW50ZXJuYWxfYWRkcmVzcxgDIAEoCRJFChNvbmVfdG9fb25lX25h",
+            "dF9zcGVjGAQgASgLMigueWFuZGV4LmNsb3VkLmNvbXB1dGUudjEuT25lVG9P",
+            "bmVOYXRTcGVjIjUKHkFkZEluc3RhbmNlT25lVG9PbmVOYXRNZXRhZGF0YRIT",
+            "CgtpbnN0YW5jZV9pZBgBIAEoCSJyCiBSZW1vdmVJbnN0YW5jZU9uZVRvT25l",
+            "TmF0UmVxdWVzdBITCgtpbnN0YW5jZV9pZBgBIAEoCRIfChduZXR3b3JrX2lu",
+            "dGVyZmFjZV9pbmRleBgCIAEoCRIYChBpbnRlcm5hbF9hZGRyZXNzGAMgASgJ",
+            "IjgKIVJlbW92ZUluc3RhbmNlT25lVG9PbmVOYXRNZXRhZGF0YRITCgtpbnN0",
+            "YW5jZV9pZBgBIAEoCSKuAQodVXBkYXRlTmV0d29ya0ludGVyZmFjZVJlcXVl",
+            "c3QSGQoLaW5zdGFuY2VfaWQYASABKAlCBOjHMQESJQoXbmV0d29ya19pbnRl",
+            "cmZhY2VfaW5kZXgYAiABKAlCBOjHMQESLwoLdXBkYXRlX21hc2sYAyABKAsy",
+            "Gi5nb29nbGUucHJvdG9idWYuRmllbGRNYXNrEhoKEnNlY3VyaXR5X2dyb3Vw",
+            "X2lkcxgEIAMoCSJWCh5VcGRhdGVOZXR3b3JrSW50ZXJmYWNlTWV0YWRhdGES",
+            "EwoLaW5zdGFuY2VfaWQYASABKAkSHwoXbmV0d29ya19pbnRlcmZhY2VfaW5k",
+            "ZXgYAiABKAkigAEKHUxpc3RJbnN0YW5jZU9wZXJhdGlvbnNSZXF1ZXN0EiEK",
+            "C2luc3RhbmNlX2lkGAEgASgJQgzoxzEBisgxBDw9NTASHQoJcGFnZV9zaXpl",
+            "GAIgASgDQgr6xzEGPD0xMDAwEh0KCnBhZ2VfdG9rZW4YAyABKAlCCYrIMQU8",
+            "PTEwMCJwCh5MaXN0SW5zdGFuY2VPcGVyYXRpb25zUmVzcG9uc2USNQoKb3Bl",
+            "cmF0aW9ucxgBIAMoCzIhLnlhbmRleC5jbG91ZC5vcGVyYXRpb24uT3BlcmF0",
+            "aW9uEhcKD25leHRfcGFnZV90b2tlbhgCIAEoCSLCAQoNUmVzb3VyY2VzU3Bl",
+            "YxImCgZtZW1vcnkYASABKANCFujHMQH6xzEOPD0yNzQ4Nzc5MDY5NDQSRAoF",
+            "Y29yZXMYAiABKANCNejHMQH6xzEtMSwyLDQsNiw4LDEwLDEyLDE0LDE2LDE4",
+            "LDIwLDIyLDI0LDI2LDI4LDMwLDMyEigKDWNvcmVfZnJhY3Rpb24YAyABKANC",
+            "EfrHMQ0wLDUsMjAsNTAsMTAwEhkKBGdwdXMYBCABKANCC/rHMQcwLDEsMiw0",
+            "IrcEChBBdHRhY2hlZERpc2tTcGVjEjwKBG1vZGUYASABKA4yLi55YW5kZXgu",
+            "Y2xvdWQuY29tcHV0ZS52MS5BdHRhY2hlZERpc2tTcGVjLk1vZGUSLQoLZGV2",
+            "aWNlX25hbWUYAiABKAlCGPLHMRRbYS16XVthLXowLTktX117LDE5fRITCgth",
+            "dXRvX2RlbGV0ZRgDIAEoCBJHCglkaXNrX3NwZWMYBCABKAsyMi55YW5kZXgu",
+            "Y2xvdWQuY29tcHV0ZS52MS5BdHRhY2hlZERpc2tTcGVjLkRpc2tTcGVjSAAS",
+            "GwoHZGlza19pZBgFIAEoCUIIisgxBDw9NTBIABrvAQoIRGlza1NwZWMSMgoE",
+            "bmFtZRgBIAEoCUIk8scxIHxbYS16XShbLWEtejAtOV17MCw2MX1bYS16MC05",
+            "XSk/Eh4KC2Rlc2NyaXB0aW9uGAIgASgJQgmKyDEFPD0yNTYSGQoHdHlwZV9p",
+            "ZBgDIAEoCUIIisgxBDw9NTASKwoEc2l6ZRgEIAEoA0Id6McxAfrHMRU0MTk0",
+            "MzA0LTQzOTgwNDY1MTExMDQSHAoIaW1hZ2VfaWQYBSABKAlCCIrIMQQ8PTUw",
+            "SAASHwoLc25hcHNob3RfaWQYBiABKAlCCIrIMQQ8PTUwSABCCAoGc291cmNl",
+            "IjsKBE1vZGUSFAoQTU9ERV9VTlNQRUNJRklFRBAAEg0KCVJFQURfT05MWRAB",
+            "Eg4KClJFQURfV1JJVEUQAkIMCgRkaXNrEgTAwTEBIu8BChROZXR3b3JrSW50",
+            "ZXJmYWNlU3BlYxIfCglzdWJuZXRfaWQYASABKAlCDOjHMQGKyDEEPD01MBJM",
+            "ChdwcmltYXJ5X3Y0X2FkZHJlc3Nfc3BlYxgCIAEoCzIrLnlhbmRleC5jbG91",
+            "ZC5jb21wdXRlLnYxLlByaW1hcnlBZGRyZXNzU3BlYxJMChdwcmltYXJ5X3Y2",
+            "X2FkZHJlc3Nfc3BlYxgDIAEoCzIrLnlhbmRleC5jbG91ZC5jb21wdXRlLnYx",
+            "LlByaW1hcnlBZGRyZXNzU3BlYxIaChJzZWN1cml0eV9ncm91cF9pZHMYBiAD",
+            "KAkibAoSUHJpbWFyeUFkZHJlc3NTcGVjEg8KB2FkZHJlc3MYASABKAkSRQoT",
+            "b25lX3RvX29uZV9uYXRfc3BlYxgCIAEoCzIoLnlhbmRleC5jbG91ZC5jb21w",
+            "dXRlLnYxLk9uZVRvT25lTmF0U3BlYyJaCg9PbmVUb09uZU5hdFNwZWMSNgoK",
+            "aXBfdmVyc2lvbhgBIAEoDjIiLnlhbmRleC5jbG91ZC5jb21wdXRlLnYxLklw",
+            "VmVyc2lvbhIPCgdhZGRyZXNzGAIgASgJKiMKDEluc3RhbmNlVmlldxIJCgVC",
+            "QVNJQxAAEggKBEZVTEwQATKiGAoPSW5zdGFuY2VTZXJ2aWNlEoIBCgNHZXQS",
+            "Ky55YW5kZXguY2xvdWQuY29tcHV0ZS52MS5HZXRJbnN0YW5jZVJlcXVlc3Qa",
+            "IS55YW5kZXguY2xvdWQuY29tcHV0ZS52MS5JbnN0YW5jZSIrgtPkkwIlEiMv",
+            "Y29tcHV0ZS92MS9pbnN0YW5jZXMve2luc3RhbmNlX2lkfRKEAQoETGlzdBIt",
+            "LnlhbmRleC5jbG91ZC5jb21wdXRlLnYxLkxpc3RJbnN0YW5jZXNSZXF1ZXN0",
+            "Gi4ueWFuZGV4LmNsb3VkLmNvbXB1dGUudjEuTGlzdEluc3RhbmNlc1Jlc3Bv",
+            "bnNlIh2C0+STAhcSFS9jb21wdXRlL3YxL2luc3RhbmNlcxKjAQoGQ3JlYXRl",
+            "Ei4ueWFuZGV4LmNsb3VkLmNvbXB1dGUudjEuQ3JlYXRlSW5zdGFuY2VSZXF1",
+            "ZXN0GiEueWFuZGV4LmNsb3VkLm9wZXJhdGlvbi5PcGVyYXRpb24iRoLT5JMC",
+            "GiIVL2NvbXB1dGUvdjEvaW5zdGFuY2VzOgEqstIqIgoWQ3JlYXRlSW5zdGFu",
+            "Y2VNZXRhZGF0YRIISW5zdGFuY2USsQEKBlVwZGF0ZRIuLnlhbmRleC5jbG91",
+            "ZC5jb21wdXRlLnYxLlVwZGF0ZUluc3RhbmNlUmVxdWVzdBohLnlhbmRleC5j",
+            "bG91ZC5vcGVyYXRpb24uT3BlcmF0aW9uIlSC0+STAigyIy9jb21wdXRlL3Yx",
+            "L2luc3RhbmNlcy97aW5zdGFuY2VfaWR9OgEqstIqIgoWVXBkYXRlSW5zdGFu",
+            "Y2VNZXRhZGF0YRIISW5zdGFuY2USuwEKBkRlbGV0ZRIuLnlhbmRleC5jbG91",
+            "ZC5jb21wdXRlLnYxLkRlbGV0ZUluc3RhbmNlUmVxdWVzdBohLnlhbmRleC5j",
+            "bG91ZC5vcGVyYXRpb24uT3BlcmF0aW9uIl6C0+STAiUqIy9jb21wdXRlL3Yx",
+            "L2luc3RhbmNlcy97aW5zdGFuY2VfaWR9stIqLwoWRGVsZXRlSW5zdGFuY2VN",
+            "ZXRhZGF0YRIVZ29vZ2xlLnByb3RvYnVmLkVtcHR5EtgBCg5VcGRhdGVNZXRh",
+            "ZGF0YRI2LnlhbmRleC5jbG91ZC5jb21wdXRlLnYxLlVwZGF0ZUluc3RhbmNl",
+            "TWV0YWRhdGFSZXF1ZXN0GiEueWFuZGV4LmNsb3VkLm9wZXJhdGlvbi5PcGVy",
+            "YXRpb24ia4LT5JMCNyIyL2NvbXB1dGUvdjEvaW5zdGFuY2VzL3tpbnN0YW5j",
+            "ZV9pZH0vdXBkYXRlTWV0YWRhdGE6ASqy0ioqCh5VcGRhdGVJbnN0YW5jZU1l",
+            "dGFkYXRhTWV0YWRhdGESCEluc3RhbmNlEs4BChNHZXRTZXJpYWxQb3J0T3V0",
+            "cHV0EjsueWFuZGV4LmNsb3VkLmNvbXB1dGUudjEuR2V0SW5zdGFuY2VTZXJp",
+            "YWxQb3J0T3V0cHV0UmVxdWVzdBo8LnlhbmRleC5jbG91ZC5jb21wdXRlLnYx",
+            "LkdldEluc3RhbmNlU2VyaWFsUG9ydE91dHB1dFJlc3BvbnNlIjyC0+STAjYS",
+            "NC9jb21wdXRlL3YxL2luc3RhbmNlcy97aW5zdGFuY2VfaWR9OnNlcmlhbFBv",
+            "cnRPdXRwdXQSugEKBFN0b3ASLC55YW5kZXguY2xvdWQuY29tcHV0ZS52MS5T",
+            "dG9wSW5zdGFuY2VSZXF1ZXN0GiEueWFuZGV4LmNsb3VkLm9wZXJhdGlvbi5P",
+            "cGVyYXRpb24iYYLT5JMCKiIoL2NvbXB1dGUvdjEvaW5zdGFuY2VzL3tpbnN0",
+            "YW5jZV9pZH06c3RvcLLSKi0KFFN0b3BJbnN0YW5jZU1ldGFkYXRhEhVnb29n",
+            "bGUucHJvdG9idWYuRW1wdHkSsQEKBVN0YXJ0Ei0ueWFuZGV4LmNsb3VkLmNv",
+            "bXB1dGUudjEuU3RhcnRJbnN0YW5jZVJlcXVlc3QaIS55YW5kZXguY2xvdWQu",
+            "b3BlcmF0aW9uLk9wZXJhdGlvbiJWgtPkkwIrIikvY29tcHV0ZS92MS9pbnN0",
+            "YW5jZXMve2luc3RhbmNlX2lkfTpzdGFydLLSKiEKFVN0YXJ0SW5zdGFuY2VN",
+            "ZXRhZGF0YRIISW5zdGFuY2USxgEKB1Jlc3RhcnQSLy55YW5kZXguY2xvdWQu",
+            "Y29tcHV0ZS52MS5SZXN0YXJ0SW5zdGFuY2VSZXF1ZXN0GiEueWFuZGV4LmNs",
+            "b3VkLm9wZXJhdGlvbi5PcGVyYXRpb24iZ4LT5JMCLSIrL2NvbXB1dGUvdjEv",
+            "aW5zdGFuY2VzL3tpbnN0YW5jZV9pZH06cmVzdGFydLLSKjAKF1Jlc3RhcnRJ",
+            "bnN0YW5jZU1ldGFkYXRhEhVnb29nbGUucHJvdG9idWYuRW1wdHkSyAEKCkF0",
+            "dGFjaERpc2sSMi55YW5kZXguY2xvdWQuY29tcHV0ZS52MS5BdHRhY2hJbnN0",
+            "YW5jZURpc2tSZXF1ZXN0GiEueWFuZGV4LmNsb3VkLm9wZXJhdGlvbi5PcGVy",
+            "YXRpb24iY4LT5JMCMyIuL2NvbXB1dGUvdjEvaW5zdGFuY2VzL3tpbnN0YW5j",
+            "ZV9pZH06YXR0YWNoRGlzazoBKrLSKiYKGkF0dGFjaEluc3RhbmNlRGlza01l",
+            "dGFkYXRhEghJbnN0YW5jZRLIAQoKRGV0YWNoRGlzaxIyLnlhbmRleC5jbG91",
+            "ZC5jb21wdXRlLnYxLkRldGFjaEluc3RhbmNlRGlza1JlcXVlc3QaIS55YW5k",
+            "ZXguY2xvdWQub3BlcmF0aW9uLk9wZXJhdGlvbiJjgtPkkwIzIi4vY29tcHV0",
+            "ZS92MS9pbnN0YW5jZXMve2luc3RhbmNlX2lkfTpkZXRhY2hEaXNrOgEqstIq",
+            "JgoaRGV0YWNoSW5zdGFuY2VEaXNrTWV0YWRhdGESCEluc3RhbmNlEtgBCg5B",
+            "ZGRPbmVUb09uZU5hdBI2LnlhbmRleC5jbG91ZC5jb21wdXRlLnYxLkFkZElu",
+            "c3RhbmNlT25lVG9PbmVOYXRSZXF1ZXN0GiEueWFuZGV4LmNsb3VkLm9wZXJh",
+            "dGlvbi5PcGVyYXRpb24ia4LT5JMCNyIyL2NvbXB1dGUvdjEvaW5zdGFuY2Vz",
+            "L3tpbnN0YW5jZV9pZH0vYWRkT25lVG9PbmVOYXQ6ASqy0ioqCh5BZGRJbnN0",
+            "YW5jZU9uZVRvT25lTmF0TWV0YWRhdGESCEluc3RhbmNlEuQBChFSZW1vdmVP",
+            "bmVUb09uZU5hdBI5LnlhbmRleC5jbG91ZC5jb21wdXRlLnYxLlJlbW92ZUlu",
+            "c3RhbmNlT25lVG9PbmVOYXRSZXF1ZXN0GiEueWFuZGV4LmNsb3VkLm9wZXJh",
+            "dGlvbi5PcGVyYXRpb24icYLT5JMCOiI1L2NvbXB1dGUvdjEvaW5zdGFuY2Vz",
+            "L3tpbnN0YW5jZV9pZH0vcmVtb3ZlT25lVG9PbmVOYXQ6ASqy0iotCiFSZW1v",
+            "dmVJbnN0YW5jZU9uZVRvT25lTmF0TWV0YWRhdGESCEluc3RhbmNlEvABChZV",
+            "cGRhdGVOZXR3b3JrSW50ZXJmYWNlEjYueWFuZGV4LmNsb3VkLmNvbXB1dGUu",
+            "djEuVXBkYXRlTmV0d29ya0ludGVyZmFjZVJlcXVlc3QaIS55YW5kZXguY2xv",
+            "dWQub3BlcmF0aW9uLk9wZXJhdGlvbiJ7gtPkkwI/MjovY29tcHV0ZS92MS9p",
+            "bnN0YW5jZXMve2luc3RhbmNlX2lkfS91cGRhdGVOZXR3b3JrSW50ZXJmYWNl",
+            "OgEqstIqMgoeVXBkYXRlTmV0d29ya0ludGVyZmFjZU1ldGFkYXRhEhBOZXR3",
+            "b3JrSW50ZXJmYWNlErkBCg5MaXN0T3BlcmF0aW9ucxI2LnlhbmRleC5jbG91",
             "ZC5jb21wdXRlLnYxLkxpc3RJbnN0YW5jZU9wZXJhdGlvbnNSZXF1ZXN0Gjcu",
             "eWFuZGV4LmNsb3VkLmNvbXB1dGUudjEuTGlzdEluc3RhbmNlT3BlcmF0aW9u",
             "c1Jlc3BvbnNlIjaC0+STAjASLi9jb21wdXRlL3YxL2luc3RhbmNlcy97aW5z",
@@ -202,9 +237,9 @@ namespace Yandex.Cloud.Compute.V1 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.GetInstanceRequest), global::Yandex.Cloud.Compute.V1.GetInstanceRequest.Parser, new[]{ "InstanceId", "View" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.ListInstancesRequest), global::Yandex.Cloud.Compute.V1.ListInstancesRequest.Parser, new[]{ "FolderId", "PageSize", "PageToken", "Filter" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.ListInstancesResponse), global::Yandex.Cloud.Compute.V1.ListInstancesResponse.Parser, new[]{ "Instances", "NextPageToken" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.CreateInstanceRequest), global::Yandex.Cloud.Compute.V1.CreateInstanceRequest.Parser, new[]{ "FolderId", "Name", "Description", "Labels", "ZoneId", "PlatformId", "ResourcesSpec", "Metadata", "BootDiskSpec", "SecondaryDiskSpecs", "NetworkInterfaceSpecs", "Hostname", "SchedulingPolicy", "ServiceAccountId", "NetworkSettings" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.CreateInstanceRequest), global::Yandex.Cloud.Compute.V1.CreateInstanceRequest.Parser, new[]{ "FolderId", "Name", "Description", "Labels", "ZoneId", "PlatformId", "ResourcesSpec", "Metadata", "BootDiskSpec", "SecondaryDiskSpecs", "NetworkInterfaceSpecs", "Hostname", "SchedulingPolicy", "ServiceAccountId", "NetworkSettings", "PlacementPolicy" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.CreateInstanceMetadata), global::Yandex.Cloud.Compute.V1.CreateInstanceMetadata.Parser, new[]{ "InstanceId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.UpdateInstanceRequest), global::Yandex.Cloud.Compute.V1.UpdateInstanceRequest.Parser, new[]{ "InstanceId", "UpdateMask", "Name", "Description", "Labels", "PlatformId", "ResourcesSpec", "Metadata", "ServiceAccountId", "NetworkSettings" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.UpdateInstanceRequest), global::Yandex.Cloud.Compute.V1.UpdateInstanceRequest.Parser, new[]{ "InstanceId", "UpdateMask", "Name", "Description", "Labels", "PlatformId", "ResourcesSpec", "Metadata", "ServiceAccountId", "NetworkSettings", "PlacementPolicy" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.UpdateInstanceMetadata), global::Yandex.Cloud.Compute.V1.UpdateInstanceMetadata.Parser, new[]{ "InstanceId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.DeleteInstanceRequest), global::Yandex.Cloud.Compute.V1.DeleteInstanceRequest.Parser, new[]{ "InstanceId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.DeleteInstanceMetadata), global::Yandex.Cloud.Compute.V1.DeleteInstanceMetadata.Parser, new[]{ "InstanceId" }, null, null, null),
@@ -222,13 +257,19 @@ namespace Yandex.Cloud.Compute.V1 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.AttachInstanceDiskMetadata), global::Yandex.Cloud.Compute.V1.AttachInstanceDiskMetadata.Parser, new[]{ "InstanceId", "DiskId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.DetachInstanceDiskRequest), global::Yandex.Cloud.Compute.V1.DetachInstanceDiskRequest.Parser, new[]{ "InstanceId", "DiskId", "DeviceName" }, new[]{ "Disk" }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.DetachInstanceDiskMetadata), global::Yandex.Cloud.Compute.V1.DetachInstanceDiskMetadata.Parser, new[]{ "InstanceId", "DiskId" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.AddInstanceOneToOneNatRequest), global::Yandex.Cloud.Compute.V1.AddInstanceOneToOneNatRequest.Parser, new[]{ "InstanceId", "NetworkInterfaceIndex", "InternalAddress", "OneToOneNatSpec" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.AddInstanceOneToOneNatMetadata), global::Yandex.Cloud.Compute.V1.AddInstanceOneToOneNatMetadata.Parser, new[]{ "InstanceId" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.RemoveInstanceOneToOneNatRequest), global::Yandex.Cloud.Compute.V1.RemoveInstanceOneToOneNatRequest.Parser, new[]{ "InstanceId", "NetworkInterfaceIndex", "InternalAddress" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.RemoveInstanceOneToOneNatMetadata), global::Yandex.Cloud.Compute.V1.RemoveInstanceOneToOneNatMetadata.Parser, new[]{ "InstanceId" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.UpdateNetworkInterfaceRequest), global::Yandex.Cloud.Compute.V1.UpdateNetworkInterfaceRequest.Parser, new[]{ "InstanceId", "NetworkInterfaceIndex", "UpdateMask", "SecurityGroupIds" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.UpdateNetworkInterfaceMetadata), global::Yandex.Cloud.Compute.V1.UpdateNetworkInterfaceMetadata.Parser, new[]{ "InstanceId", "NetworkInterfaceIndex" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.ListInstanceOperationsRequest), global::Yandex.Cloud.Compute.V1.ListInstanceOperationsRequest.Parser, new[]{ "InstanceId", "PageSize", "PageToken" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.ListInstanceOperationsResponse), global::Yandex.Cloud.Compute.V1.ListInstanceOperationsResponse.Parser, new[]{ "Operations", "NextPageToken" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.ResourcesSpec), global::Yandex.Cloud.Compute.V1.ResourcesSpec.Parser, new[]{ "Memory", "Cores", "CoreFraction", "Gpus" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.AttachedDiskSpec), global::Yandex.Cloud.Compute.V1.AttachedDiskSpec.Parser, new[]{ "Mode", "DeviceName", "AutoDelete", "DiskSpec", "DiskId" }, new[]{ "Disk" }, new[]{ typeof(global::Yandex.Cloud.Compute.V1.AttachedDiskSpec.Types.Mode) }, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.AttachedDiskSpec.Types.DiskSpec), global::Yandex.Cloud.Compute.V1.AttachedDiskSpec.Types.DiskSpec.Parser, new[]{ "Name", "Description", "TypeId", "Size", "ImageId", "SnapshotId" }, new[]{ "Source" }, null, null)}),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.NetworkInterfaceSpec), global::Yandex.Cloud.Compute.V1.NetworkInterfaceSpec.Parser, new[]{ "SubnetId", "PrimaryV4AddressSpec", "PrimaryV6AddressSpec" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.NetworkInterfaceSpec), global::Yandex.Cloud.Compute.V1.NetworkInterfaceSpec.Parser, new[]{ "SubnetId", "PrimaryV4AddressSpec", "PrimaryV6AddressSpec", "SecurityGroupIds" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.PrimaryAddressSpec), global::Yandex.Cloud.Compute.V1.PrimaryAddressSpec.Parser, new[]{ "Address", "OneToOneNatSpec" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.OneToOneNatSpec), global::Yandex.Cloud.Compute.V1.OneToOneNatSpec.Parser, new[]{ "IpVersion" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.OneToOneNatSpec), global::Yandex.Cloud.Compute.V1.OneToOneNatSpec.Parser, new[]{ "IpVersion", "Address" }, null, null, null)
           }));
     }
     #endregion
@@ -848,6 +889,7 @@ namespace Yandex.Cloud.Compute.V1 {
       schedulingPolicy_ = other.schedulingPolicy_ != null ? other.schedulingPolicy_.Clone() : null;
       serviceAccountId_ = other.serviceAccountId_;
       networkSettings_ = other.networkSettings_ != null ? other.networkSettings_.Clone() : null;
+      placementPolicy_ = other.placementPolicy_ != null ? other.placementPolicy_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1084,6 +1126,20 @@ namespace Yandex.Cloud.Compute.V1 {
       }
     }
 
+    /// <summary>Field number for the "placement_policy" field.</summary>
+    public const int PlacementPolicyFieldNumber = 16;
+    private global::Yandex.Cloud.Compute.V1.PlacementPolicy placementPolicy_;
+    /// <summary>
+    /// Placement policy configuration.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Compute.V1.PlacementPolicy PlacementPolicy {
+      get { return placementPolicy_; }
+      set {
+        placementPolicy_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as CreateInstanceRequest);
@@ -1112,6 +1168,7 @@ namespace Yandex.Cloud.Compute.V1 {
       if (!object.Equals(SchedulingPolicy, other.SchedulingPolicy)) return false;
       if (ServiceAccountId != other.ServiceAccountId) return false;
       if (!object.Equals(NetworkSettings, other.NetworkSettings)) return false;
+      if (!object.Equals(PlacementPolicy, other.PlacementPolicy)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1133,6 +1190,7 @@ namespace Yandex.Cloud.Compute.V1 {
       if (schedulingPolicy_ != null) hash ^= SchedulingPolicy.GetHashCode();
       if (ServiceAccountId.Length != 0) hash ^= ServiceAccountId.GetHashCode();
       if (networkSettings_ != null) hash ^= NetworkSettings.GetHashCode();
+      if (placementPolicy_ != null) hash ^= PlacementPolicy.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1194,6 +1252,10 @@ namespace Yandex.Cloud.Compute.V1 {
         output.WriteRawTag(122);
         output.WriteMessage(NetworkSettings);
       }
+      if (placementPolicy_ != null) {
+        output.WriteRawTag(130, 1);
+        output.WriteMessage(PlacementPolicy);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1238,6 +1300,9 @@ namespace Yandex.Cloud.Compute.V1 {
       }
       if (networkSettings_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(NetworkSettings);
+      }
+      if (placementPolicy_ != null) {
+        size += 2 + pb::CodedOutputStream.ComputeMessageSize(PlacementPolicy);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1298,6 +1363,12 @@ namespace Yandex.Cloud.Compute.V1 {
           NetworkSettings = new global::Yandex.Cloud.Compute.V1.NetworkSettings();
         }
         NetworkSettings.MergeFrom(other.NetworkSettings);
+      }
+      if (other.placementPolicy_ != null) {
+        if (placementPolicy_ == null) {
+          PlacementPolicy = new global::Yandex.Cloud.Compute.V1.PlacementPolicy();
+        }
+        PlacementPolicy.MergeFrom(other.PlacementPolicy);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -1380,6 +1451,13 @@ namespace Yandex.Cloud.Compute.V1 {
               NetworkSettings = new global::Yandex.Cloud.Compute.V1.NetworkSettings();
             }
             input.ReadMessage(NetworkSettings);
+            break;
+          }
+          case 130: {
+            if (placementPolicy_ == null) {
+              PlacementPolicy = new global::Yandex.Cloud.Compute.V1.PlacementPolicy();
+            }
+            input.ReadMessage(PlacementPolicy);
             break;
           }
         }
@@ -1555,6 +1633,7 @@ namespace Yandex.Cloud.Compute.V1 {
       metadata_ = other.metadata_.Clone();
       serviceAccountId_ = other.serviceAccountId_;
       networkSettings_ = other.networkSettings_ != null ? other.networkSettings_.Clone() : null;
+      placementPolicy_ = other.placementPolicy_ != null ? other.placementPolicy_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1720,6 +1799,20 @@ namespace Yandex.Cloud.Compute.V1 {
       }
     }
 
+    /// <summary>Field number for the "placement_policy" field.</summary>
+    public const int PlacementPolicyFieldNumber = 11;
+    private global::Yandex.Cloud.Compute.V1.PlacementPolicy placementPolicy_;
+    /// <summary>
+    /// Placement policy configuration.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Compute.V1.PlacementPolicy PlacementPolicy {
+      get { return placementPolicy_; }
+      set {
+        placementPolicy_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as UpdateInstanceRequest);
@@ -1743,6 +1836,7 @@ namespace Yandex.Cloud.Compute.V1 {
       if (!Metadata.Equals(other.Metadata)) return false;
       if (ServiceAccountId != other.ServiceAccountId) return false;
       if (!object.Equals(NetworkSettings, other.NetworkSettings)) return false;
+      if (!object.Equals(PlacementPolicy, other.PlacementPolicy)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1759,6 +1853,7 @@ namespace Yandex.Cloud.Compute.V1 {
       hash ^= Metadata.GetHashCode();
       if (ServiceAccountId.Length != 0) hash ^= ServiceAccountId.GetHashCode();
       if (networkSettings_ != null) hash ^= NetworkSettings.GetHashCode();
+      if (placementPolicy_ != null) hash ^= PlacementPolicy.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1806,6 +1901,10 @@ namespace Yandex.Cloud.Compute.V1 {
         output.WriteRawTag(82);
         output.WriteMessage(NetworkSettings);
       }
+      if (placementPolicy_ != null) {
+        output.WriteRawTag(90);
+        output.WriteMessage(PlacementPolicy);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1839,6 +1938,9 @@ namespace Yandex.Cloud.Compute.V1 {
       }
       if (networkSettings_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(NetworkSettings);
+      }
+      if (placementPolicy_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(PlacementPolicy);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1885,6 +1987,12 @@ namespace Yandex.Cloud.Compute.V1 {
           NetworkSettings = new global::Yandex.Cloud.Compute.V1.NetworkSettings();
         }
         NetworkSettings.MergeFrom(other.NetworkSettings);
+      }
+      if (other.placementPolicy_ != null) {
+        if (placementPolicy_ == null) {
+          PlacementPolicy = new global::Yandex.Cloud.Compute.V1.PlacementPolicy();
+        }
+        PlacementPolicy.MergeFrom(other.PlacementPolicy);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -1944,6 +2052,13 @@ namespace Yandex.Cloud.Compute.V1 {
               NetworkSettings = new global::Yandex.Cloud.Compute.V1.NetworkSettings();
             }
             input.ReadMessage(NetworkSettings);
+            break;
+          }
+          case 90: {
+            if (placementPolicy_ == null) {
+              PlacementPolicy = new global::Yandex.Cloud.Compute.V1.PlacementPolicy();
+            }
+            input.ReadMessage(PlacementPolicy);
             break;
           }
         }
@@ -4473,6 +4588,1042 @@ namespace Yandex.Cloud.Compute.V1 {
 
   }
 
+  internal sealed partial class AddInstanceOneToOneNatRequest : pb::IMessage<AddInstanceOneToOneNatRequest> {
+    private static readonly pb::MessageParser<AddInstanceOneToOneNatRequest> _parser = new pb::MessageParser<AddInstanceOneToOneNatRequest>(() => new AddInstanceOneToOneNatRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<AddInstanceOneToOneNatRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Compute.V1.InstanceServiceReflection.Descriptor.MessageTypes[23]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public AddInstanceOneToOneNatRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public AddInstanceOneToOneNatRequest(AddInstanceOneToOneNatRequest other) : this() {
+      instanceId_ = other.instanceId_;
+      networkInterfaceIndex_ = other.networkInterfaceIndex_;
+      internalAddress_ = other.internalAddress_;
+      oneToOneNatSpec_ = other.oneToOneNatSpec_ != null ? other.oneToOneNatSpec_.Clone() : null;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public AddInstanceOneToOneNatRequest Clone() {
+      return new AddInstanceOneToOneNatRequest(this);
+    }
+
+    /// <summary>Field number for the "instance_id" field.</summary>
+    public const int InstanceIdFieldNumber = 1;
+    private string instanceId_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string InstanceId {
+      get { return instanceId_; }
+      set {
+        instanceId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "network_interface_index" field.</summary>
+    public const int NetworkInterfaceIndexFieldNumber = 2;
+    private string networkInterfaceIndex_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string NetworkInterfaceIndex {
+      get { return networkInterfaceIndex_; }
+      set {
+        networkInterfaceIndex_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "internal_address" field.</summary>
+    public const int InternalAddressFieldNumber = 3;
+    private string internalAddress_ = "";
+    /// <summary>
+    /// optional
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string InternalAddress {
+      get { return internalAddress_; }
+      set {
+        internalAddress_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "one_to_one_nat_spec" field.</summary>
+    public const int OneToOneNatSpecFieldNumber = 4;
+    private global::Yandex.Cloud.Compute.V1.OneToOneNatSpec oneToOneNatSpec_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Compute.V1.OneToOneNatSpec OneToOneNatSpec {
+      get { return oneToOneNatSpec_; }
+      set {
+        oneToOneNatSpec_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as AddInstanceOneToOneNatRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(AddInstanceOneToOneNatRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (InstanceId != other.InstanceId) return false;
+      if (NetworkInterfaceIndex != other.NetworkInterfaceIndex) return false;
+      if (InternalAddress != other.InternalAddress) return false;
+      if (!object.Equals(OneToOneNatSpec, other.OneToOneNatSpec)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (InstanceId.Length != 0) hash ^= InstanceId.GetHashCode();
+      if (NetworkInterfaceIndex.Length != 0) hash ^= NetworkInterfaceIndex.GetHashCode();
+      if (InternalAddress.Length != 0) hash ^= InternalAddress.GetHashCode();
+      if (oneToOneNatSpec_ != null) hash ^= OneToOneNatSpec.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (InstanceId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(InstanceId);
+      }
+      if (NetworkInterfaceIndex.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(NetworkInterfaceIndex);
+      }
+      if (InternalAddress.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(InternalAddress);
+      }
+      if (oneToOneNatSpec_ != null) {
+        output.WriteRawTag(34);
+        output.WriteMessage(OneToOneNatSpec);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (InstanceId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(InstanceId);
+      }
+      if (NetworkInterfaceIndex.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(NetworkInterfaceIndex);
+      }
+      if (InternalAddress.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(InternalAddress);
+      }
+      if (oneToOneNatSpec_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(OneToOneNatSpec);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(AddInstanceOneToOneNatRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.InstanceId.Length != 0) {
+        InstanceId = other.InstanceId;
+      }
+      if (other.NetworkInterfaceIndex.Length != 0) {
+        NetworkInterfaceIndex = other.NetworkInterfaceIndex;
+      }
+      if (other.InternalAddress.Length != 0) {
+        InternalAddress = other.InternalAddress;
+      }
+      if (other.oneToOneNatSpec_ != null) {
+        if (oneToOneNatSpec_ == null) {
+          OneToOneNatSpec = new global::Yandex.Cloud.Compute.V1.OneToOneNatSpec();
+        }
+        OneToOneNatSpec.MergeFrom(other.OneToOneNatSpec);
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            InstanceId = input.ReadString();
+            break;
+          }
+          case 18: {
+            NetworkInterfaceIndex = input.ReadString();
+            break;
+          }
+          case 26: {
+            InternalAddress = input.ReadString();
+            break;
+          }
+          case 34: {
+            if (oneToOneNatSpec_ == null) {
+              OneToOneNatSpec = new global::Yandex.Cloud.Compute.V1.OneToOneNatSpec();
+            }
+            input.ReadMessage(OneToOneNatSpec);
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  internal sealed partial class AddInstanceOneToOneNatMetadata : pb::IMessage<AddInstanceOneToOneNatMetadata> {
+    private static readonly pb::MessageParser<AddInstanceOneToOneNatMetadata> _parser = new pb::MessageParser<AddInstanceOneToOneNatMetadata>(() => new AddInstanceOneToOneNatMetadata());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<AddInstanceOneToOneNatMetadata> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Compute.V1.InstanceServiceReflection.Descriptor.MessageTypes[24]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public AddInstanceOneToOneNatMetadata() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public AddInstanceOneToOneNatMetadata(AddInstanceOneToOneNatMetadata other) : this() {
+      instanceId_ = other.instanceId_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public AddInstanceOneToOneNatMetadata Clone() {
+      return new AddInstanceOneToOneNatMetadata(this);
+    }
+
+    /// <summary>Field number for the "instance_id" field.</summary>
+    public const int InstanceIdFieldNumber = 1;
+    private string instanceId_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string InstanceId {
+      get { return instanceId_; }
+      set {
+        instanceId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as AddInstanceOneToOneNatMetadata);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(AddInstanceOneToOneNatMetadata other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (InstanceId != other.InstanceId) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (InstanceId.Length != 0) hash ^= InstanceId.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (InstanceId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(InstanceId);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (InstanceId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(InstanceId);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(AddInstanceOneToOneNatMetadata other) {
+      if (other == null) {
+        return;
+      }
+      if (other.InstanceId.Length != 0) {
+        InstanceId = other.InstanceId;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            InstanceId = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  internal sealed partial class RemoveInstanceOneToOneNatRequest : pb::IMessage<RemoveInstanceOneToOneNatRequest> {
+    private static readonly pb::MessageParser<RemoveInstanceOneToOneNatRequest> _parser = new pb::MessageParser<RemoveInstanceOneToOneNatRequest>(() => new RemoveInstanceOneToOneNatRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<RemoveInstanceOneToOneNatRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Compute.V1.InstanceServiceReflection.Descriptor.MessageTypes[25]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public RemoveInstanceOneToOneNatRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public RemoveInstanceOneToOneNatRequest(RemoveInstanceOneToOneNatRequest other) : this() {
+      instanceId_ = other.instanceId_;
+      networkInterfaceIndex_ = other.networkInterfaceIndex_;
+      internalAddress_ = other.internalAddress_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public RemoveInstanceOneToOneNatRequest Clone() {
+      return new RemoveInstanceOneToOneNatRequest(this);
+    }
+
+    /// <summary>Field number for the "instance_id" field.</summary>
+    public const int InstanceIdFieldNumber = 1;
+    private string instanceId_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string InstanceId {
+      get { return instanceId_; }
+      set {
+        instanceId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "network_interface_index" field.</summary>
+    public const int NetworkInterfaceIndexFieldNumber = 2;
+    private string networkInterfaceIndex_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string NetworkInterfaceIndex {
+      get { return networkInterfaceIndex_; }
+      set {
+        networkInterfaceIndex_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "internal_address" field.</summary>
+    public const int InternalAddressFieldNumber = 3;
+    private string internalAddress_ = "";
+    /// <summary>
+    /// optional
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string InternalAddress {
+      get { return internalAddress_; }
+      set {
+        internalAddress_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as RemoveInstanceOneToOneNatRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(RemoveInstanceOneToOneNatRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (InstanceId != other.InstanceId) return false;
+      if (NetworkInterfaceIndex != other.NetworkInterfaceIndex) return false;
+      if (InternalAddress != other.InternalAddress) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (InstanceId.Length != 0) hash ^= InstanceId.GetHashCode();
+      if (NetworkInterfaceIndex.Length != 0) hash ^= NetworkInterfaceIndex.GetHashCode();
+      if (InternalAddress.Length != 0) hash ^= InternalAddress.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (InstanceId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(InstanceId);
+      }
+      if (NetworkInterfaceIndex.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(NetworkInterfaceIndex);
+      }
+      if (InternalAddress.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(InternalAddress);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (InstanceId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(InstanceId);
+      }
+      if (NetworkInterfaceIndex.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(NetworkInterfaceIndex);
+      }
+      if (InternalAddress.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(InternalAddress);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(RemoveInstanceOneToOneNatRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.InstanceId.Length != 0) {
+        InstanceId = other.InstanceId;
+      }
+      if (other.NetworkInterfaceIndex.Length != 0) {
+        NetworkInterfaceIndex = other.NetworkInterfaceIndex;
+      }
+      if (other.InternalAddress.Length != 0) {
+        InternalAddress = other.InternalAddress;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            InstanceId = input.ReadString();
+            break;
+          }
+          case 18: {
+            NetworkInterfaceIndex = input.ReadString();
+            break;
+          }
+          case 26: {
+            InternalAddress = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  internal sealed partial class RemoveInstanceOneToOneNatMetadata : pb::IMessage<RemoveInstanceOneToOneNatMetadata> {
+    private static readonly pb::MessageParser<RemoveInstanceOneToOneNatMetadata> _parser = new pb::MessageParser<RemoveInstanceOneToOneNatMetadata>(() => new RemoveInstanceOneToOneNatMetadata());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<RemoveInstanceOneToOneNatMetadata> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Compute.V1.InstanceServiceReflection.Descriptor.MessageTypes[26]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public RemoveInstanceOneToOneNatMetadata() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public RemoveInstanceOneToOneNatMetadata(RemoveInstanceOneToOneNatMetadata other) : this() {
+      instanceId_ = other.instanceId_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public RemoveInstanceOneToOneNatMetadata Clone() {
+      return new RemoveInstanceOneToOneNatMetadata(this);
+    }
+
+    /// <summary>Field number for the "instance_id" field.</summary>
+    public const int InstanceIdFieldNumber = 1;
+    private string instanceId_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string InstanceId {
+      get { return instanceId_; }
+      set {
+        instanceId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as RemoveInstanceOneToOneNatMetadata);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(RemoveInstanceOneToOneNatMetadata other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (InstanceId != other.InstanceId) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (InstanceId.Length != 0) hash ^= InstanceId.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (InstanceId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(InstanceId);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (InstanceId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(InstanceId);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(RemoveInstanceOneToOneNatMetadata other) {
+      if (other == null) {
+        return;
+      }
+      if (other.InstanceId.Length != 0) {
+        InstanceId = other.InstanceId;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            InstanceId = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  internal sealed partial class UpdateNetworkInterfaceRequest : pb::IMessage<UpdateNetworkInterfaceRequest> {
+    private static readonly pb::MessageParser<UpdateNetworkInterfaceRequest> _parser = new pb::MessageParser<UpdateNetworkInterfaceRequest>(() => new UpdateNetworkInterfaceRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<UpdateNetworkInterfaceRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Compute.V1.InstanceServiceReflection.Descriptor.MessageTypes[27]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public UpdateNetworkInterfaceRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public UpdateNetworkInterfaceRequest(UpdateNetworkInterfaceRequest other) : this() {
+      instanceId_ = other.instanceId_;
+      networkInterfaceIndex_ = other.networkInterfaceIndex_;
+      updateMask_ = other.updateMask_ != null ? other.updateMask_.Clone() : null;
+      securityGroupIds_ = other.securityGroupIds_.Clone();
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public UpdateNetworkInterfaceRequest Clone() {
+      return new UpdateNetworkInterfaceRequest(this);
+    }
+
+    /// <summary>Field number for the "instance_id" field.</summary>
+    public const int InstanceIdFieldNumber = 1;
+    private string instanceId_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string InstanceId {
+      get { return instanceId_; }
+      set {
+        instanceId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "network_interface_index" field.</summary>
+    public const int NetworkInterfaceIndexFieldNumber = 2;
+    private string networkInterfaceIndex_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string NetworkInterfaceIndex {
+      get { return networkInterfaceIndex_; }
+      set {
+        networkInterfaceIndex_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "update_mask" field.</summary>
+    public const int UpdateMaskFieldNumber = 3;
+    private global::Google.Protobuf.WellKnownTypes.FieldMask updateMask_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Google.Protobuf.WellKnownTypes.FieldMask UpdateMask {
+      get { return updateMask_; }
+      set {
+        updateMask_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "security_group_ids" field.</summary>
+    public const int SecurityGroupIdsFieldNumber = 4;
+    private static readonly pb::FieldCodec<string> _repeated_securityGroupIds_codec
+        = pb::FieldCodec.ForString(34);
+    private readonly pbc::RepeatedField<string> securityGroupIds_ = new pbc::RepeatedField<string>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<string> SecurityGroupIds {
+      get { return securityGroupIds_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as UpdateNetworkInterfaceRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(UpdateNetworkInterfaceRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (InstanceId != other.InstanceId) return false;
+      if (NetworkInterfaceIndex != other.NetworkInterfaceIndex) return false;
+      if (!object.Equals(UpdateMask, other.UpdateMask)) return false;
+      if(!securityGroupIds_.Equals(other.securityGroupIds_)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (InstanceId.Length != 0) hash ^= InstanceId.GetHashCode();
+      if (NetworkInterfaceIndex.Length != 0) hash ^= NetworkInterfaceIndex.GetHashCode();
+      if (updateMask_ != null) hash ^= UpdateMask.GetHashCode();
+      hash ^= securityGroupIds_.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (InstanceId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(InstanceId);
+      }
+      if (NetworkInterfaceIndex.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(NetworkInterfaceIndex);
+      }
+      if (updateMask_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(UpdateMask);
+      }
+      securityGroupIds_.WriteTo(output, _repeated_securityGroupIds_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (InstanceId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(InstanceId);
+      }
+      if (NetworkInterfaceIndex.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(NetworkInterfaceIndex);
+      }
+      if (updateMask_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(UpdateMask);
+      }
+      size += securityGroupIds_.CalculateSize(_repeated_securityGroupIds_codec);
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(UpdateNetworkInterfaceRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.InstanceId.Length != 0) {
+        InstanceId = other.InstanceId;
+      }
+      if (other.NetworkInterfaceIndex.Length != 0) {
+        NetworkInterfaceIndex = other.NetworkInterfaceIndex;
+      }
+      if (other.updateMask_ != null) {
+        if (updateMask_ == null) {
+          UpdateMask = new global::Google.Protobuf.WellKnownTypes.FieldMask();
+        }
+        UpdateMask.MergeFrom(other.UpdateMask);
+      }
+      securityGroupIds_.Add(other.securityGroupIds_);
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            InstanceId = input.ReadString();
+            break;
+          }
+          case 18: {
+            NetworkInterfaceIndex = input.ReadString();
+            break;
+          }
+          case 26: {
+            if (updateMask_ == null) {
+              UpdateMask = new global::Google.Protobuf.WellKnownTypes.FieldMask();
+            }
+            input.ReadMessage(UpdateMask);
+            break;
+          }
+          case 34: {
+            securityGroupIds_.AddEntriesFrom(input, _repeated_securityGroupIds_codec);
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  internal sealed partial class UpdateNetworkInterfaceMetadata : pb::IMessage<UpdateNetworkInterfaceMetadata> {
+    private static readonly pb::MessageParser<UpdateNetworkInterfaceMetadata> _parser = new pb::MessageParser<UpdateNetworkInterfaceMetadata>(() => new UpdateNetworkInterfaceMetadata());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<UpdateNetworkInterfaceMetadata> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Compute.V1.InstanceServiceReflection.Descriptor.MessageTypes[28]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public UpdateNetworkInterfaceMetadata() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public UpdateNetworkInterfaceMetadata(UpdateNetworkInterfaceMetadata other) : this() {
+      instanceId_ = other.instanceId_;
+      networkInterfaceIndex_ = other.networkInterfaceIndex_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public UpdateNetworkInterfaceMetadata Clone() {
+      return new UpdateNetworkInterfaceMetadata(this);
+    }
+
+    /// <summary>Field number for the "instance_id" field.</summary>
+    public const int InstanceIdFieldNumber = 1;
+    private string instanceId_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string InstanceId {
+      get { return instanceId_; }
+      set {
+        instanceId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "network_interface_index" field.</summary>
+    public const int NetworkInterfaceIndexFieldNumber = 2;
+    private string networkInterfaceIndex_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string NetworkInterfaceIndex {
+      get { return networkInterfaceIndex_; }
+      set {
+        networkInterfaceIndex_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as UpdateNetworkInterfaceMetadata);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(UpdateNetworkInterfaceMetadata other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (InstanceId != other.InstanceId) return false;
+      if (NetworkInterfaceIndex != other.NetworkInterfaceIndex) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (InstanceId.Length != 0) hash ^= InstanceId.GetHashCode();
+      if (NetworkInterfaceIndex.Length != 0) hash ^= NetworkInterfaceIndex.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (InstanceId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(InstanceId);
+      }
+      if (NetworkInterfaceIndex.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(NetworkInterfaceIndex);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (InstanceId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(InstanceId);
+      }
+      if (NetworkInterfaceIndex.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(NetworkInterfaceIndex);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(UpdateNetworkInterfaceMetadata other) {
+      if (other == null) {
+        return;
+      }
+      if (other.InstanceId.Length != 0) {
+        InstanceId = other.InstanceId;
+      }
+      if (other.NetworkInterfaceIndex.Length != 0) {
+        NetworkInterfaceIndex = other.NetworkInterfaceIndex;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            InstanceId = input.ReadString();
+            break;
+          }
+          case 18: {
+            NetworkInterfaceIndex = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
   internal sealed partial class ListInstanceOperationsRequest : pb::IMessage<ListInstanceOperationsRequest> {
     private static readonly pb::MessageParser<ListInstanceOperationsRequest> _parser = new pb::MessageParser<ListInstanceOperationsRequest>(() => new ListInstanceOperationsRequest());
     private pb::UnknownFieldSet _unknownFields;
@@ -4481,7 +5632,7 @@ namespace Yandex.Cloud.Compute.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Compute.V1.InstanceServiceReflection.Descriptor.MessageTypes[23]; }
+      get { return global::Yandex.Cloud.Compute.V1.InstanceServiceReflection.Descriptor.MessageTypes[29]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4678,7 +5829,7 @@ namespace Yandex.Cloud.Compute.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Compute.V1.InstanceServiceReflection.Descriptor.MessageTypes[24]; }
+      get { return global::Yandex.Cloud.Compute.V1.InstanceServiceReflection.Descriptor.MessageTypes[30]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4836,7 +5987,7 @@ namespace Yandex.Cloud.Compute.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Compute.V1.InstanceServiceReflection.Descriptor.MessageTypes[25]; }
+      get { return global::Yandex.Cloud.Compute.V1.InstanceServiceReflection.Descriptor.MessageTypes[31]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5065,7 +6216,7 @@ namespace Yandex.Cloud.Compute.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Compute.V1.InstanceServiceReflection.Descriptor.MessageTypes[26]; }
+      get { return global::Yandex.Cloud.Compute.V1.InstanceServiceReflection.Descriptor.MessageTypes[32]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5702,7 +6853,7 @@ namespace Yandex.Cloud.Compute.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Compute.V1.InstanceServiceReflection.Descriptor.MessageTypes[27]; }
+      get { return global::Yandex.Cloud.Compute.V1.InstanceServiceReflection.Descriptor.MessageTypes[33]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5722,6 +6873,7 @@ namespace Yandex.Cloud.Compute.V1 {
       subnetId_ = other.subnetId_;
       primaryV4AddressSpec_ = other.primaryV4AddressSpec_ != null ? other.primaryV4AddressSpec_.Clone() : null;
       primaryV6AddressSpec_ = other.primaryV6AddressSpec_ != null ? other.primaryV6AddressSpec_.Clone() : null;
+      securityGroupIds_ = other.securityGroupIds_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -5772,6 +6924,19 @@ namespace Yandex.Cloud.Compute.V1 {
       }
     }
 
+    /// <summary>Field number for the "security_group_ids" field.</summary>
+    public const int SecurityGroupIdsFieldNumber = 6;
+    private static readonly pb::FieldCodec<string> _repeated_securityGroupIds_codec
+        = pb::FieldCodec.ForString(50);
+    private readonly pbc::RepeatedField<string> securityGroupIds_ = new pbc::RepeatedField<string>();
+    /// <summary>
+    /// ID's of security groups attached to the interface
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<string> SecurityGroupIds {
+      get { return securityGroupIds_; }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as NetworkInterfaceSpec);
@@ -5788,6 +6953,7 @@ namespace Yandex.Cloud.Compute.V1 {
       if (SubnetId != other.SubnetId) return false;
       if (!object.Equals(PrimaryV4AddressSpec, other.PrimaryV4AddressSpec)) return false;
       if (!object.Equals(PrimaryV6AddressSpec, other.PrimaryV6AddressSpec)) return false;
+      if(!securityGroupIds_.Equals(other.securityGroupIds_)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -5797,6 +6963,7 @@ namespace Yandex.Cloud.Compute.V1 {
       if (SubnetId.Length != 0) hash ^= SubnetId.GetHashCode();
       if (primaryV4AddressSpec_ != null) hash ^= PrimaryV4AddressSpec.GetHashCode();
       if (primaryV6AddressSpec_ != null) hash ^= PrimaryV6AddressSpec.GetHashCode();
+      hash ^= securityGroupIds_.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -5822,6 +6989,7 @@ namespace Yandex.Cloud.Compute.V1 {
         output.WriteRawTag(26);
         output.WriteMessage(PrimaryV6AddressSpec);
       }
+      securityGroupIds_.WriteTo(output, _repeated_securityGroupIds_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -5839,6 +7007,7 @@ namespace Yandex.Cloud.Compute.V1 {
       if (primaryV6AddressSpec_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(PrimaryV6AddressSpec);
       }
+      size += securityGroupIds_.CalculateSize(_repeated_securityGroupIds_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -5865,6 +7034,7 @@ namespace Yandex.Cloud.Compute.V1 {
         }
         PrimaryV6AddressSpec.MergeFrom(other.PrimaryV6AddressSpec);
       }
+      securityGroupIds_.Add(other.securityGroupIds_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -5894,6 +7064,10 @@ namespace Yandex.Cloud.Compute.V1 {
             input.ReadMessage(PrimaryV6AddressSpec);
             break;
           }
+          case 50: {
+            securityGroupIds_.AddEntriesFrom(input, _repeated_securityGroupIds_codec);
+            break;
+          }
         }
       }
     }
@@ -5908,7 +7082,7 @@ namespace Yandex.Cloud.Compute.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Compute.V1.InstanceServiceReflection.Descriptor.MessageTypes[28]; }
+      get { return global::Yandex.Cloud.Compute.V1.InstanceServiceReflection.Descriptor.MessageTypes[34]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6079,7 +7253,7 @@ namespace Yandex.Cloud.Compute.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Compute.V1.InstanceServiceReflection.Descriptor.MessageTypes[29]; }
+      get { return global::Yandex.Cloud.Compute.V1.InstanceServiceReflection.Descriptor.MessageTypes[35]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6097,6 +7271,7 @@ namespace Yandex.Cloud.Compute.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public OneToOneNatSpec(OneToOneNatSpec other) : this() {
       ipVersion_ = other.ipVersion_;
+      address_ = other.address_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -6119,6 +7294,20 @@ namespace Yandex.Cloud.Compute.V1 {
       }
     }
 
+    /// <summary>Field number for the "address" field.</summary>
+    public const int AddressFieldNumber = 2;
+    private string address_ = "";
+    /// <summary>
+    ///set static IP by value
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Address {
+      get { return address_; }
+      set {
+        address_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as OneToOneNatSpec);
@@ -6133,6 +7322,7 @@ namespace Yandex.Cloud.Compute.V1 {
         return true;
       }
       if (IpVersion != other.IpVersion) return false;
+      if (Address != other.Address) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -6140,6 +7330,7 @@ namespace Yandex.Cloud.Compute.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (IpVersion != 0) hash ^= IpVersion.GetHashCode();
+      if (Address.Length != 0) hash ^= Address.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -6157,6 +7348,10 @@ namespace Yandex.Cloud.Compute.V1 {
         output.WriteRawTag(8);
         output.WriteEnum((int) IpVersion);
       }
+      if (Address.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Address);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -6167,6 +7362,9 @@ namespace Yandex.Cloud.Compute.V1 {
       int size = 0;
       if (IpVersion != 0) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) IpVersion);
+      }
+      if (Address.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Address);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -6182,6 +7380,9 @@ namespace Yandex.Cloud.Compute.V1 {
       if (other.IpVersion != 0) {
         IpVersion = other.IpVersion;
       }
+      if (other.Address.Length != 0) {
+        Address = other.Address;
+      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -6195,6 +7396,10 @@ namespace Yandex.Cloud.Compute.V1 {
             break;
           case 8: {
             IpVersion = (global::Yandex.Cloud.Compute.V1.IpVersion) input.ReadEnum();
+            break;
+          }
+          case 18: {
+            Address = input.ReadString();
             break;
           }
         }

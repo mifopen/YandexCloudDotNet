@@ -26,51 +26,80 @@ namespace Yandex.Cloud.Iam.V1.Awscompatibility {
           string.Concat(
             "Cj15YW5kZXgvY2xvdWQvaWFtL3YxL2F3c2NvbXBhdGliaWxpdHkvYWNjZXNz",
             "X2tleV9zZXJ2aWNlLnByb3RvEiR5YW5kZXguY2xvdWQuaWFtLnYxLmF3c2Nv",
-            "bXBhdGliaWxpdHkaHGdvb2dsZS9hcGkvYW5ub3RhdGlvbnMucHJvdG8aG2dv",
-            "b2dsZS9wcm90b2J1Zi9lbXB0eS5wcm90bxo1eWFuZGV4L2Nsb3VkL2lhbS92",
-            "MS9hd3Njb21wYXRpYmlsaXR5L2FjY2Vzc19rZXkucHJvdG8aHXlhbmRleC9j",
-            "bG91ZC92YWxpZGF0aW9uLnByb3RvIjoKE0dldEFjY2Vzc0tleVJlcXVlc3QS",
-            "IwoNYWNjZXNzX2tleV9pZBgBIAEoCUIM6McxAYrIMQQ8PTUwInsKFUxpc3RB",
-            "Y2Nlc3NLZXlzUmVxdWVzdBIkChJzZXJ2aWNlX2FjY291bnRfaWQYASABKAlC",
-            "CIrIMQQ8PTUwEh0KCXBhZ2Vfc2l6ZRgCIAEoA0IK+scxBjw9MTAwMBIdCgpw",
-            "YWdlX3Rva2VuGAMgASgJQgmKyDEFPD0xMDAidwoWTGlzdEFjY2Vzc0tleXNS",
-            "ZXNwb25zZRJECgthY2Nlc3Nfa2V5cxgBIAMoCzIvLnlhbmRleC5jbG91ZC5p",
-            "YW0udjEuYXdzY29tcGF0aWJpbGl0eS5BY2Nlc3NLZXkSFwoPbmV4dF9wYWdl",
-            "X3Rva2VuGAIgASgJIl4KFkNyZWF0ZUFjY2Vzc0tleVJlcXVlc3QSJAoSc2Vy",
-            "dmljZV9hY2NvdW50X2lkGAEgASgJQgiKyDEEPD01MBIeCgtkZXNjcmlwdGlv",
-            "bhgCIAEoCUIJisgxBTw9MjU2Im4KF0NyZWF0ZUFjY2Vzc0tleVJlc3BvbnNl",
-            "EkMKCmFjY2Vzc19rZXkYASABKAsyLy55YW5kZXguY2xvdWQuaWFtLnYxLmF3",
-            "c2NvbXBhdGliaWxpdHkuQWNjZXNzS2V5Eg4KBnNlY3JldBgCIAEoCSI9ChZE",
-            "ZWxldGVBY2Nlc3NLZXlSZXF1ZXN0EiMKDWFjY2Vzc19rZXlfaWQYASABKAlC",
-            "DOjHMQGKyDEEPD01MDLOBQoQQWNjZXNzS2V5U2VydmljZRKvAQoETGlzdBI7",
-            "LnlhbmRleC5jbG91ZC5pYW0udjEuYXdzY29tcGF0aWJpbGl0eS5MaXN0QWNj",
-            "ZXNzS2V5c1JlcXVlc3QaPC55YW5kZXguY2xvdWQuaWFtLnYxLmF3c2NvbXBh",
-            "dGliaWxpdHkuTGlzdEFjY2Vzc0tleXNSZXNwb25zZSIsgtPkkwImEiQvaWFt",
-            "L2F3cy1jb21wYXRpYmlsaXR5L3YxL2FjY2Vzc0tleXMSrwEKA0dldBI5Lnlh",
-            "bmRleC5jbG91ZC5pYW0udjEuYXdzY29tcGF0aWJpbGl0eS5HZXRBY2Nlc3NL",
-            "ZXlSZXF1ZXN0Gi8ueWFuZGV4LmNsb3VkLmlhbS52MS5hd3Njb21wYXRpYmls",
-            "aXR5LkFjY2Vzc0tleSI8gtPkkwI2EjQvaWFtL2F3cy1jb21wYXRpYmlsaXR5",
-            "L3YxL2FjY2Vzc0tleXMve2FjY2Vzc19rZXlfaWR9ErYBCgZDcmVhdGUSPC55",
-            "YW5kZXguY2xvdWQuaWFtLnYxLmF3c2NvbXBhdGliaWxpdHkuQ3JlYXRlQWNj",
-            "ZXNzS2V5UmVxdWVzdBo9LnlhbmRleC5jbG91ZC5pYW0udjEuYXdzY29tcGF0",
-            "aWJpbGl0eS5DcmVhdGVBY2Nlc3NLZXlSZXNwb25zZSIvgtPkkwIpIiQvaWFt",
-            "L2F3cy1jb21wYXRpYmlsaXR5L3YxL2FjY2Vzc0tleXM6ASoSnAEKBkRlbGV0",
-            "ZRI8LnlhbmRleC5jbG91ZC5pYW0udjEuYXdzY29tcGF0aWJpbGl0eS5EZWxl",
-            "dGVBY2Nlc3NLZXlSZXF1ZXN0GhYuZ29vZ2xlLnByb3RvYnVmLkVtcHR5IjyC",
-            "0+STAjYqNC9pYW0vYXdzLWNvbXBhdGliaWxpdHkvdjEvYWNjZXNzS2V5cy97",
-            "YWNjZXNzX2tleV9pZH1ChQEKKHlhbmRleC5jbG91ZC5hcGkuaWFtLnYxLmF3",
-            "c2NvbXBhdGliaWxpdHlaWWdpdGh1Yi5jb20veWFuZGV4LWNsb3VkL2dvLWdl",
-            "bnByb3RvL3lhbmRleC9jbG91ZC9pYW0vdjEvYXdzY29tcGF0aWJpbGl0eTth",
-            "d3Njb21wYXRpYmlsaXR5YgZwcm90bzM="));
+            "bXBhdGliaWxpdHkaHGdvb2dsZS9hcGkvYW5ub3RhdGlvbnMucHJvdG8aIGdv",
+            "b2dsZS9wcm90b2J1Zi9maWVsZF9tYXNrLnByb3RvGiB5YW5kZXgvY2xvdWQv",
+            "YXBpL29wZXJhdGlvbi5wcm90bxo1eWFuZGV4L2Nsb3VkL2lhbS92MS9hd3Nj",
+            "b21wYXRpYmlsaXR5L2FjY2Vzc19rZXkucHJvdG8aJnlhbmRleC9jbG91ZC9v",
+            "cGVyYXRpb24vb3BlcmF0aW9uLnByb3RvGh15YW5kZXgvY2xvdWQvdmFsaWRh",
+            "dGlvbi5wcm90byI6ChNHZXRBY2Nlc3NLZXlSZXF1ZXN0EiMKDWFjY2Vzc19r",
+            "ZXlfaWQYASABKAlCDOjHMQGKyDEEPD01MCJ7ChVMaXN0QWNjZXNzS2V5c1Jl",
+            "cXVlc3QSJAoSc2VydmljZV9hY2NvdW50X2lkGAEgASgJQgiKyDEEPD01MBId",
+            "CglwYWdlX3NpemUYAiABKANCCvrHMQY8PTEwMDASHQoKcGFnZV90b2tlbhgD",
+            "IAEoCUIJisgxBTw9MTAwIncKFkxpc3RBY2Nlc3NLZXlzUmVzcG9uc2USRAoL",
+            "YWNjZXNzX2tleXMYASADKAsyLy55YW5kZXguY2xvdWQuaWFtLnYxLmF3c2Nv",
+            "bXBhdGliaWxpdHkuQWNjZXNzS2V5EhcKD25leHRfcGFnZV90b2tlbhgCIAEo",
+            "CSJeChZDcmVhdGVBY2Nlc3NLZXlSZXF1ZXN0EiQKEnNlcnZpY2VfYWNjb3Vu",
+            "dF9pZBgBIAEoCUIIisgxBDw9NTASHgoLZGVzY3JpcHRpb24YAiABKAlCCYrI",
+            "MQU8PTI1NiJuChdDcmVhdGVBY2Nlc3NLZXlSZXNwb25zZRJDCgphY2Nlc3Nf",
+            "a2V5GAEgASgLMi8ueWFuZGV4LmNsb3VkLmlhbS52MS5hd3Njb21wYXRpYmls",
+            "aXR5LkFjY2Vzc0tleRIOCgZzZWNyZXQYAiABKAkijgEKFlVwZGF0ZUFjY2Vz",
+            "c0tleVJlcXVlc3QSIwoNYWNjZXNzX2tleV9pZBgBIAEoCUIM6McxAYrIMQQ8",
+            "PTUwEi8KC3VwZGF0ZV9tYXNrGAIgASgLMhouZ29vZ2xlLnByb3RvYnVmLkZp",
+            "ZWxkTWFzaxIeCgtkZXNjcmlwdGlvbhgDIAEoCUIJisgxBTw9MjU2IjAKF1Vw",
+            "ZGF0ZUFjY2Vzc0tleU1ldGFkYXRhEhUKDWFjY2Vzc19rZXlfaWQYASABKAki",
+            "PQoWRGVsZXRlQWNjZXNzS2V5UmVxdWVzdBIjCg1hY2Nlc3Nfa2V5X2lkGAEg",
+            "ASgJQgzoxzEBisgxBDw9NTAiMAoXRGVsZXRlQWNjZXNzS2V5TWV0YWRhdGES",
+            "FQoNYWNjZXNzX2tleV9pZBgBIAEoCSKDAQoeTGlzdEFjY2Vzc0tleU9wZXJh",
+            "dGlvbnNSZXF1ZXN0EiMKDWFjY2Vzc19rZXlfaWQYASABKAlCDOjHMQGKyDEE",
+            "PD01MBIdCglwYWdlX3NpemUYAiABKANCCvrHMQYwLTEwMDASHQoKcGFnZV90",
+            "b2tlbhgDIAEoCUIJisgxBTw9MTAwInEKH0xpc3RBY2Nlc3NLZXlPcGVyYXRp",
+            "b25zUmVzcG9uc2USNQoKb3BlcmF0aW9ucxgBIAMoCzIhLnlhbmRleC5jbG91",
+            "ZC5vcGVyYXRpb24uT3BlcmF0aW9uEhcKD25leHRfcGFnZV90b2tlbhgCIAEo",
+            "CTLLCQoQQWNjZXNzS2V5U2VydmljZRKvAQoETGlzdBI7LnlhbmRleC5jbG91",
+            "ZC5pYW0udjEuYXdzY29tcGF0aWJpbGl0eS5MaXN0QWNjZXNzS2V5c1JlcXVl",
+            "c3QaPC55YW5kZXguY2xvdWQuaWFtLnYxLmF3c2NvbXBhdGliaWxpdHkuTGlz",
+            "dEFjY2Vzc0tleXNSZXNwb25zZSIsgtPkkwImEiQvaWFtL2F3cy1jb21wYXRp",
+            "YmlsaXR5L3YxL2FjY2Vzc0tleXMSrwEKA0dldBI5LnlhbmRleC5jbG91ZC5p",
+            "YW0udjEuYXdzY29tcGF0aWJpbGl0eS5HZXRBY2Nlc3NLZXlSZXF1ZXN0Gi8u",
+            "eWFuZGV4LmNsb3VkLmlhbS52MS5hd3Njb21wYXRpYmlsaXR5LkFjY2Vzc0tl",
+            "eSI8gtPkkwI2EjQvaWFtL2F3cy1jb21wYXRpYmlsaXR5L3YxL2FjY2Vzc0tl",
+            "eXMve2FjY2Vzc19rZXlfaWR9ErYBCgZDcmVhdGUSPC55YW5kZXguY2xvdWQu",
+            "aWFtLnYxLmF3c2NvbXBhdGliaWxpdHkuQ3JlYXRlQWNjZXNzS2V5UmVxdWVz",
+            "dBo9LnlhbmRleC5jbG91ZC5pYW0udjEuYXdzY29tcGF0aWJpbGl0eS5DcmVh",
+            "dGVBY2Nlc3NLZXlSZXNwb25zZSIvgtPkkwIpIiQvaWFtL2F3cy1jb21wYXRp",
+            "YmlsaXR5L3YxL2FjY2Vzc0tleXM6ASoS0gEKBlVwZGF0ZRI8LnlhbmRleC5j",
+            "bG91ZC5pYW0udjEuYXdzY29tcGF0aWJpbGl0eS5VcGRhdGVBY2Nlc3NLZXlS",
+            "ZXF1ZXN0GiEueWFuZGV4LmNsb3VkLm9wZXJhdGlvbi5PcGVyYXRpb24iZ4LT",
+            "5JMCOTI0L2lhbS9hd3MtY29tcGF0aWJpbGl0eS92MS9hY2Nlc3NLZXlzL3th",
+            "Y2Nlc3Nfa2V5X2lkfToBKrLSKiQKF1VwZGF0ZUFjY2Vzc0tleU1ldGFkYXRh",
+            "EglBY2Nlc3NLZXkS2wEKBkRlbGV0ZRI8LnlhbmRleC5jbG91ZC5pYW0udjEu",
+            "YXdzY29tcGF0aWJpbGl0eS5EZWxldGVBY2Nlc3NLZXlSZXF1ZXN0GiEueWFu",
+            "ZGV4LmNsb3VkLm9wZXJhdGlvbi5PcGVyYXRpb24icILT5JMCNio0L2lhbS9h",
+            "d3MtY29tcGF0aWJpbGl0eS92MS9hY2Nlc3NLZXlzL3thY2Nlc3Nfa2V5X2lk",
+            "fbLSKjAKF0RlbGV0ZUFjY2Vzc0tleU1ldGFkYXRhEhVnb29nbGUucHJvdG9i",
+            "dWYuRW1wdHkS5gEKDkxpc3RPcGVyYXRpb25zEkQueWFuZGV4LmNsb3VkLmlh",
+            "bS52MS5hd3Njb21wYXRpYmlsaXR5Lkxpc3RBY2Nlc3NLZXlPcGVyYXRpb25z",
+            "UmVxdWVzdBpFLnlhbmRleC5jbG91ZC5pYW0udjEuYXdzY29tcGF0aWJpbGl0",
+            "eS5MaXN0QWNjZXNzS2V5T3BlcmF0aW9uc1Jlc3BvbnNlIkeC0+STAkESPy9p",
+            "YW0vYXdzLWNvbXBhdGliaWxpdHkvdjEvYWNjZXNzS2V5cy97YWNjZXNzX2tl",
+            "eV9pZH0vb3BlcmF0aW9uc0KFAQooeWFuZGV4LmNsb3VkLmFwaS5pYW0udjEu",
+            "YXdzY29tcGF0aWJpbGl0eVpZZ2l0aHViLmNvbS95YW5kZXgtY2xvdWQvZ28t",
+            "Z2VucHJvdG8veWFuZGV4L2Nsb3VkL2lhbS92MS9hd3Njb21wYXRpYmlsaXR5",
+            "O2F3c2NvbXBhdGliaWxpdHliBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Yandex.Cloud.Iam.V1.Awscompatibility.AccessKeyReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Yandex.Cloud.Api.OperationReflection.Descriptor, global::Yandex.Cloud.Iam.V1.Awscompatibility.AccessKeyReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.Awscompatibility.GetAccessKeyRequest), global::Yandex.Cloud.Iam.V1.Awscompatibility.GetAccessKeyRequest.Parser, new[]{ "AccessKeyId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.Awscompatibility.ListAccessKeysRequest), global::Yandex.Cloud.Iam.V1.Awscompatibility.ListAccessKeysRequest.Parser, new[]{ "ServiceAccountId", "PageSize", "PageToken" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.Awscompatibility.ListAccessKeysResponse), global::Yandex.Cloud.Iam.V1.Awscompatibility.ListAccessKeysResponse.Parser, new[]{ "AccessKeys", "NextPageToken" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.Awscompatibility.CreateAccessKeyRequest), global::Yandex.Cloud.Iam.V1.Awscompatibility.CreateAccessKeyRequest.Parser, new[]{ "ServiceAccountId", "Description" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.Awscompatibility.CreateAccessKeyResponse), global::Yandex.Cloud.Iam.V1.Awscompatibility.CreateAccessKeyResponse.Parser, new[]{ "AccessKey", "Secret" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.Awscompatibility.DeleteAccessKeyRequest), global::Yandex.Cloud.Iam.V1.Awscompatibility.DeleteAccessKeyRequest.Parser, new[]{ "AccessKeyId" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.Awscompatibility.UpdateAccessKeyRequest), global::Yandex.Cloud.Iam.V1.Awscompatibility.UpdateAccessKeyRequest.Parser, new[]{ "AccessKeyId", "UpdateMask", "Description" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.Awscompatibility.UpdateAccessKeyMetadata), global::Yandex.Cloud.Iam.V1.Awscompatibility.UpdateAccessKeyMetadata.Parser, new[]{ "AccessKeyId" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.Awscompatibility.DeleteAccessKeyRequest), global::Yandex.Cloud.Iam.V1.Awscompatibility.DeleteAccessKeyRequest.Parser, new[]{ "AccessKeyId" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.Awscompatibility.DeleteAccessKeyMetadata), global::Yandex.Cloud.Iam.V1.Awscompatibility.DeleteAccessKeyMetadata.Parser, new[]{ "AccessKeyId" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.Awscompatibility.ListAccessKeyOperationsRequest), global::Yandex.Cloud.Iam.V1.Awscompatibility.ListAccessKeyOperationsRequest.Parser, new[]{ "AccessKeyId", "PageSize", "PageToken" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iam.V1.Awscompatibility.ListAccessKeyOperationsResponse), global::Yandex.Cloud.Iam.V1.Awscompatibility.ListAccessKeyOperationsResponse.Parser, new[]{ "Operations", "NextPageToken" }, null, null, null)
           }));
     }
     #endregion
@@ -907,6 +936,339 @@ namespace Yandex.Cloud.Iam.V1.Awscompatibility {
 
   }
 
+  internal sealed partial class UpdateAccessKeyRequest : pb::IMessage<UpdateAccessKeyRequest> {
+    private static readonly pb::MessageParser<UpdateAccessKeyRequest> _parser = new pb::MessageParser<UpdateAccessKeyRequest>(() => new UpdateAccessKeyRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<UpdateAccessKeyRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Iam.V1.Awscompatibility.AccessKeyServiceReflection.Descriptor.MessageTypes[5]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public UpdateAccessKeyRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public UpdateAccessKeyRequest(UpdateAccessKeyRequest other) : this() {
+      accessKeyId_ = other.accessKeyId_;
+      updateMask_ = other.updateMask_ != null ? other.updateMask_.Clone() : null;
+      description_ = other.description_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public UpdateAccessKeyRequest Clone() {
+      return new UpdateAccessKeyRequest(this);
+    }
+
+    /// <summary>Field number for the "access_key_id" field.</summary>
+    public const int AccessKeyIdFieldNumber = 1;
+    private string accessKeyId_ = "";
+    /// <summary>
+    /// ID of the AccessKey resource to update.
+    /// To get the access key ID, use a [AccessKeyService.List] request.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string AccessKeyId {
+      get { return accessKeyId_; }
+      set {
+        accessKeyId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "update_mask" field.</summary>
+    public const int UpdateMaskFieldNumber = 2;
+    private global::Google.Protobuf.WellKnownTypes.FieldMask updateMask_;
+    /// <summary>
+    /// Field mask that specifies which fields of the Accesskey resource are going to be updated.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Google.Protobuf.WellKnownTypes.FieldMask UpdateMask {
+      get { return updateMask_; }
+      set {
+        updateMask_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "description" field.</summary>
+    public const int DescriptionFieldNumber = 3;
+    private string description_ = "";
+    /// <summary>
+    /// Description of the access key.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Description {
+      get { return description_; }
+      set {
+        description_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as UpdateAccessKeyRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(UpdateAccessKeyRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (AccessKeyId != other.AccessKeyId) return false;
+      if (!object.Equals(UpdateMask, other.UpdateMask)) return false;
+      if (Description != other.Description) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (AccessKeyId.Length != 0) hash ^= AccessKeyId.GetHashCode();
+      if (updateMask_ != null) hash ^= UpdateMask.GetHashCode();
+      if (Description.Length != 0) hash ^= Description.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (AccessKeyId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(AccessKeyId);
+      }
+      if (updateMask_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(UpdateMask);
+      }
+      if (Description.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(Description);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (AccessKeyId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(AccessKeyId);
+      }
+      if (updateMask_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(UpdateMask);
+      }
+      if (Description.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Description);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(UpdateAccessKeyRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.AccessKeyId.Length != 0) {
+        AccessKeyId = other.AccessKeyId;
+      }
+      if (other.updateMask_ != null) {
+        if (updateMask_ == null) {
+          UpdateMask = new global::Google.Protobuf.WellKnownTypes.FieldMask();
+        }
+        UpdateMask.MergeFrom(other.UpdateMask);
+      }
+      if (other.Description.Length != 0) {
+        Description = other.Description;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            AccessKeyId = input.ReadString();
+            break;
+          }
+          case 18: {
+            if (updateMask_ == null) {
+              UpdateMask = new global::Google.Protobuf.WellKnownTypes.FieldMask();
+            }
+            input.ReadMessage(UpdateMask);
+            break;
+          }
+          case 26: {
+            Description = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  internal sealed partial class UpdateAccessKeyMetadata : pb::IMessage<UpdateAccessKeyMetadata> {
+    private static readonly pb::MessageParser<UpdateAccessKeyMetadata> _parser = new pb::MessageParser<UpdateAccessKeyMetadata>(() => new UpdateAccessKeyMetadata());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<UpdateAccessKeyMetadata> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Iam.V1.Awscompatibility.AccessKeyServiceReflection.Descriptor.MessageTypes[6]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public UpdateAccessKeyMetadata() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public UpdateAccessKeyMetadata(UpdateAccessKeyMetadata other) : this() {
+      accessKeyId_ = other.accessKeyId_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public UpdateAccessKeyMetadata Clone() {
+      return new UpdateAccessKeyMetadata(this);
+    }
+
+    /// <summary>Field number for the "access_key_id" field.</summary>
+    public const int AccessKeyIdFieldNumber = 1;
+    private string accessKeyId_ = "";
+    /// <summary>
+    /// ID of the AccessKey resource that is being updated.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string AccessKeyId {
+      get { return accessKeyId_; }
+      set {
+        accessKeyId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as UpdateAccessKeyMetadata);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(UpdateAccessKeyMetadata other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (AccessKeyId != other.AccessKeyId) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (AccessKeyId.Length != 0) hash ^= AccessKeyId.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (AccessKeyId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(AccessKeyId);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (AccessKeyId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(AccessKeyId);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(UpdateAccessKeyMetadata other) {
+      if (other == null) {
+        return;
+      }
+      if (other.AccessKeyId.Length != 0) {
+        AccessKeyId = other.AccessKeyId;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            AccessKeyId = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
   internal sealed partial class DeleteAccessKeyRequest : pb::IMessage<DeleteAccessKeyRequest> {
     private static readonly pb::MessageParser<DeleteAccessKeyRequest> _parser = new pb::MessageParser<DeleteAccessKeyRequest>(() => new DeleteAccessKeyRequest());
     private pb::UnknownFieldSet _unknownFields;
@@ -915,7 +1277,7 @@ namespace Yandex.Cloud.Iam.V1.Awscompatibility {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Iam.V1.Awscompatibility.AccessKeyServiceReflection.Descriptor.MessageTypes[5]; }
+      get { return global::Yandex.Cloud.Iam.V1.Awscompatibility.AccessKeyServiceReflection.Descriptor.MessageTypes[7]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1032,6 +1394,495 @@ namespace Yandex.Cloud.Iam.V1.Awscompatibility {
             break;
           case 10: {
             AccessKeyId = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  internal sealed partial class DeleteAccessKeyMetadata : pb::IMessage<DeleteAccessKeyMetadata> {
+    private static readonly pb::MessageParser<DeleteAccessKeyMetadata> _parser = new pb::MessageParser<DeleteAccessKeyMetadata>(() => new DeleteAccessKeyMetadata());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<DeleteAccessKeyMetadata> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Iam.V1.Awscompatibility.AccessKeyServiceReflection.Descriptor.MessageTypes[8]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DeleteAccessKeyMetadata() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DeleteAccessKeyMetadata(DeleteAccessKeyMetadata other) : this() {
+      accessKeyId_ = other.accessKeyId_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DeleteAccessKeyMetadata Clone() {
+      return new DeleteAccessKeyMetadata(this);
+    }
+
+    /// <summary>Field number for the "access_key_id" field.</summary>
+    public const int AccessKeyIdFieldNumber = 1;
+    private string accessKeyId_ = "";
+    /// <summary>
+    /// ID of the access key that is being deleted.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string AccessKeyId {
+      get { return accessKeyId_; }
+      set {
+        accessKeyId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as DeleteAccessKeyMetadata);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(DeleteAccessKeyMetadata other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (AccessKeyId != other.AccessKeyId) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (AccessKeyId.Length != 0) hash ^= AccessKeyId.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (AccessKeyId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(AccessKeyId);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (AccessKeyId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(AccessKeyId);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(DeleteAccessKeyMetadata other) {
+      if (other == null) {
+        return;
+      }
+      if (other.AccessKeyId.Length != 0) {
+        AccessKeyId = other.AccessKeyId;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            AccessKeyId = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  internal sealed partial class ListAccessKeyOperationsRequest : pb::IMessage<ListAccessKeyOperationsRequest> {
+    private static readonly pb::MessageParser<ListAccessKeyOperationsRequest> _parser = new pb::MessageParser<ListAccessKeyOperationsRequest>(() => new ListAccessKeyOperationsRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<ListAccessKeyOperationsRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Iam.V1.Awscompatibility.AccessKeyServiceReflection.Descriptor.MessageTypes[9]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ListAccessKeyOperationsRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ListAccessKeyOperationsRequest(ListAccessKeyOperationsRequest other) : this() {
+      accessKeyId_ = other.accessKeyId_;
+      pageSize_ = other.pageSize_;
+      pageToken_ = other.pageToken_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ListAccessKeyOperationsRequest Clone() {
+      return new ListAccessKeyOperationsRequest(this);
+    }
+
+    /// <summary>Field number for the "access_key_id" field.</summary>
+    public const int AccessKeyIdFieldNumber = 1;
+    private string accessKeyId_ = "";
+    /// <summary>
+    /// ID of the key to list operations for.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string AccessKeyId {
+      get { return accessKeyId_; }
+      set {
+        accessKeyId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "page_size" field.</summary>
+    public const int PageSizeFieldNumber = 2;
+    private long pageSize_;
+    /// <summary>
+    /// The maximum number of results per page to return. If the number of available
+    /// results is larger than [page_size],
+    /// the service returns a [ListAccessKeyOperationsResponse.next_page_token]
+    /// that can be used to get the next page of results in subsequent list requests.
+    /// Default value: 100.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long PageSize {
+      get { return pageSize_; }
+      set {
+        pageSize_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "page_token" field.</summary>
+    public const int PageTokenFieldNumber = 3;
+    private string pageToken_ = "";
+    /// <summary>
+    /// Page token. To get the next page of results, set [page_token] to the
+    /// [ListAccessKeyOperationsResponse.next_page_token] returned by a previous list request.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string PageToken {
+      get { return pageToken_; }
+      set {
+        pageToken_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as ListAccessKeyOperationsRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(ListAccessKeyOperationsRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (AccessKeyId != other.AccessKeyId) return false;
+      if (PageSize != other.PageSize) return false;
+      if (PageToken != other.PageToken) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (AccessKeyId.Length != 0) hash ^= AccessKeyId.GetHashCode();
+      if (PageSize != 0L) hash ^= PageSize.GetHashCode();
+      if (PageToken.Length != 0) hash ^= PageToken.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (AccessKeyId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(AccessKeyId);
+      }
+      if (PageSize != 0L) {
+        output.WriteRawTag(16);
+        output.WriteInt64(PageSize);
+      }
+      if (PageToken.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(PageToken);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (AccessKeyId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(AccessKeyId);
+      }
+      if (PageSize != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(PageSize);
+      }
+      if (PageToken.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(PageToken);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(ListAccessKeyOperationsRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.AccessKeyId.Length != 0) {
+        AccessKeyId = other.AccessKeyId;
+      }
+      if (other.PageSize != 0L) {
+        PageSize = other.PageSize;
+      }
+      if (other.PageToken.Length != 0) {
+        PageToken = other.PageToken;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            AccessKeyId = input.ReadString();
+            break;
+          }
+          case 16: {
+            PageSize = input.ReadInt64();
+            break;
+          }
+          case 26: {
+            PageToken = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  internal sealed partial class ListAccessKeyOperationsResponse : pb::IMessage<ListAccessKeyOperationsResponse> {
+    private static readonly pb::MessageParser<ListAccessKeyOperationsResponse> _parser = new pb::MessageParser<ListAccessKeyOperationsResponse>(() => new ListAccessKeyOperationsResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<ListAccessKeyOperationsResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Iam.V1.Awscompatibility.AccessKeyServiceReflection.Descriptor.MessageTypes[10]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ListAccessKeyOperationsResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ListAccessKeyOperationsResponse(ListAccessKeyOperationsResponse other) : this() {
+      operations_ = other.operations_.Clone();
+      nextPageToken_ = other.nextPageToken_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ListAccessKeyOperationsResponse Clone() {
+      return new ListAccessKeyOperationsResponse(this);
+    }
+
+    /// <summary>Field number for the "operations" field.</summary>
+    public const int OperationsFieldNumber = 1;
+    private static readonly pb::FieldCodec<global::Yandex.Cloud.Operation.Operation> _repeated_operations_codec
+        = pb::FieldCodec.ForMessage(10, global::Yandex.Cloud.Operation.Operation.Parser);
+    private readonly pbc::RepeatedField<global::Yandex.Cloud.Operation.Operation> operations_ = new pbc::RepeatedField<global::Yandex.Cloud.Operation.Operation>();
+    /// <summary>
+    /// List of operations for the specified access key.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<global::Yandex.Cloud.Operation.Operation> Operations {
+      get { return operations_; }
+    }
+
+    /// <summary>Field number for the "next_page_token" field.</summary>
+    public const int NextPageTokenFieldNumber = 2;
+    private string nextPageToken_ = "";
+    /// <summary>
+    /// This token allows you to get the next page of results for list requests. If the number of results
+    /// is larger than [ListAccessKeyOperationsRequest.page_size], use the [next_page_token] as the value
+    /// for the [ListAccessKeyOperationsRequest.page_token] query parameter in the next list request.
+    /// Each subsequent list request will have its own [next_page_token] to continue paging through the results.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string NextPageToken {
+      get { return nextPageToken_; }
+      set {
+        nextPageToken_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as ListAccessKeyOperationsResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(ListAccessKeyOperationsResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if(!operations_.Equals(other.operations_)) return false;
+      if (NextPageToken != other.NextPageToken) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      hash ^= operations_.GetHashCode();
+      if (NextPageToken.Length != 0) hash ^= NextPageToken.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      operations_.WriteTo(output, _repeated_operations_codec);
+      if (NextPageToken.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(NextPageToken);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      size += operations_.CalculateSize(_repeated_operations_codec);
+      if (NextPageToken.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(NextPageToken);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(ListAccessKeyOperationsResponse other) {
+      if (other == null) {
+        return;
+      }
+      operations_.Add(other.operations_);
+      if (other.NextPageToken.Length != 0) {
+        NextPageToken = other.NextPageToken;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            operations_.AddEntriesFrom(input, _repeated_operations_codec);
+            break;
+          }
+          case 18: {
+            NextPageToken = input.ReadString();
             break;
           }
         }

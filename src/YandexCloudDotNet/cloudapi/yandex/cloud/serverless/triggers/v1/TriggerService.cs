@@ -149,6 +149,11 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
     /// <summary>Field number for the "trigger_id" field.</summary>
     public const int TriggerIdFieldNumber = 1;
     private string triggerId_ = "";
+    /// <summary>
+    /// ID of the trigger to return.
+    ///
+    /// To get a trigger ID make a [TriggerService.List] request.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string TriggerId {
       get { return triggerId_; }
@@ -281,6 +286,11 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
     /// <summary>Field number for the "folder_id" field.</summary>
     public const int FolderIdFieldNumber = 1;
     private string folderId_ = "";
+    /// <summary>
+    /// ID of the folder to list triggers in.
+    ///
+    /// To get a folder ID use a [yandex.cloud.resourcemanager.v1.FolderService.List] request.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string FolderId {
       get { return folderId_; }
@@ -292,6 +302,13 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
     /// <summary>Field number for the "page_size" field.</summary>
     public const int PageSizeFieldNumber = 2;
     private long pageSize_;
+    /// <summary>
+    /// The maximum number of results per page to return. If the number of available
+    /// results is larger than `pageSize`, the service returns a [ListTriggersResponse.next_page_token]
+    /// that can be used to get the next page of results in subsequent list requests.
+    ///
+    /// Default value: 100.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long PageSize {
       get { return pageSize_; }
@@ -303,6 +320,10 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
     /// <summary>Field number for the "page_token" field.</summary>
     public const int PageTokenFieldNumber = 3;
     private string pageToken_ = "";
+    /// <summary>
+    /// Page token. To get the next page of results, set `pageToken` to the
+    /// [ListTriggersResponse.next_page_token] returned by a previous list request.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string PageToken {
       get { return pageToken_; }
@@ -314,6 +335,16 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
     /// <summary>Field number for the "filter" field.</summary>
     public const int FilterFieldNumber = 4;
     private string filter_ = "";
+    /// <summary>
+    /// A filter expression that filters triggers listed in the response.
+    ///
+    /// The expression must specify:
+    /// 1. The field name. Currently filtering can only be applied to the [Trigger.name] field.
+    /// 2. A conditional operator. Can be either `=` or `!=` for single values, `IN` or `NOT IN`
+    /// for lists of values.
+    /// 3. The value. Must be 3-63 characters long and match the regular expression `^[a-z][-a-z0-9]{1,61}[a-z0-9]$`.
+    /// Example of a filter: `name=my-trigger`.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Filter {
       get { return filter_; }
@@ -494,6 +525,9 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
     private static readonly pb::FieldCodec<global::Yandex.Cloud.Serverless.Triggers.V1.Trigger> _repeated_triggers_codec
         = pb::FieldCodec.ForMessage(10, global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Parser);
     private readonly pbc::RepeatedField<global::Yandex.Cloud.Serverless.Triggers.V1.Trigger> triggers_ = new pbc::RepeatedField<global::Yandex.Cloud.Serverless.Triggers.V1.Trigger>();
+    /// <summary>
+    /// List of triggers in the specified folder.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::RepeatedField<global::Yandex.Cloud.Serverless.Triggers.V1.Trigger> Triggers {
       get { return triggers_; }
@@ -502,6 +536,13 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
     /// <summary>Field number for the "next_page_token" field.</summary>
     public const int NextPageTokenFieldNumber = 2;
     private string nextPageToken_ = "";
+    /// <summary>
+    /// Token for getting the next page of the list. If the number of results is greater than
+    /// the specified [ListTriggersRequest.page_size], use `nextPageToken` as the value
+    /// for the [ListTriggersRequest.page_token] parameter in the next list request.
+    ///
+    /// Each subsequent page will have its own `nextPageToken` to continue paging through the results.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string NextPageToken {
       get { return nextPageToken_; }
@@ -644,6 +685,11 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
     /// <summary>Field number for the "folder_id" field.</summary>
     public const int FolderIdFieldNumber = 1;
     private string folderId_ = "";
+    /// <summary>
+    /// ID of the folder to create a trigger in.
+    ///
+    /// To get a folder ID make a [yandex.cloud.resourcemanager.v1.FolderService.List] request.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string FolderId {
       get { return folderId_; }
@@ -655,6 +701,10 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
     /// <summary>Field number for the "name" field.</summary>
     public const int NameFieldNumber = 2;
     private string name_ = "";
+    /// <summary>
+    /// Name of the trigger.
+    /// The name must be unique within the folder.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Name {
       get { return name_; }
@@ -666,6 +716,9 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
     /// <summary>Field number for the "description" field.</summary>
     public const int DescriptionFieldNumber = 3;
     private string description_ = "";
+    /// <summary>
+    /// Description of the trigger.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Description {
       get { return description_; }
@@ -679,6 +732,9 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
     private static readonly pbc::MapField<string, string>.Codec _map_labels_codec
         = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 34);
     private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
+    /// <summary>
+    /// Resource labels as `key:value` pairs.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::MapField<string, string> Labels {
       get { return labels_; }
@@ -687,6 +743,9 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
     /// <summary>Field number for the "rule" field.</summary>
     public const int RuleFieldNumber = 5;
     private global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.Rule rule_;
+    /// <summary>
+    /// Trigger type.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.Rule Rule {
       get { return rule_; }
@@ -879,6 +938,9 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
     /// <summary>Field number for the "trigger_id" field.</summary>
     public const int TriggerIdFieldNumber = 1;
     private string triggerId_ = "";
+    /// <summary>
+    /// ID of the trigger that is being created.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string TriggerId {
       get { return triggerId_; }
@@ -1012,6 +1074,11 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
     /// <summary>Field number for the "trigger_id" field.</summary>
     public const int TriggerIdFieldNumber = 1;
     private string triggerId_ = "";
+    /// <summary>
+    /// ID of the trigger to update.
+    ///
+    /// To get a trigger ID make a [TriggerService.List] request.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string TriggerId {
       get { return triggerId_; }
@@ -1023,6 +1090,9 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
     /// <summary>Field number for the "update_mask" field.</summary>
     public const int UpdateMaskFieldNumber = 2;
     private global::Google.Protobuf.WellKnownTypes.FieldMask updateMask_;
+    /// <summary>
+    /// Field mask that specifies which attributes of the trigger should be updated.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Google.Protobuf.WellKnownTypes.FieldMask UpdateMask {
       get { return updateMask_; }
@@ -1034,6 +1104,10 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
     /// <summary>Field number for the "name" field.</summary>
     public const int NameFieldNumber = 3;
     private string name_ = "";
+    /// <summary>
+    /// New name for the trigger.
+    /// The name must be unique within the folder.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Name {
       get { return name_; }
@@ -1045,6 +1119,9 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
     /// <summary>Field number for the "description" field.</summary>
     public const int DescriptionFieldNumber = 4;
     private string description_ = "";
+    /// <summary>
+    /// New description of the trigger.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Description {
       get { return description_; }
@@ -1058,6 +1135,12 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
     private static readonly pbc::MapField<string, string>.Codec _map_labels_codec
         = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 42);
     private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
+    /// <summary>
+    /// Trigger labels as `key:value` pairs.
+    ///
+    /// Existing set of labels is completely replaced by the provided set, so if you just want
+    /// to add or remove a label, request the current set of labels with a [TriggerService.Get] request.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::MapField<string, string> Labels {
       get { return labels_; }
@@ -1247,6 +1330,9 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
     /// <summary>Field number for the "trigger_id" field.</summary>
     public const int TriggerIdFieldNumber = 1;
     private string triggerId_ = "";
+    /// <summary>
+    /// ID of the trigger that is being updated.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string TriggerId {
       get { return triggerId_; }
@@ -1376,6 +1462,11 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
     /// <summary>Field number for the "trigger_id" field.</summary>
     public const int TriggerIdFieldNumber = 1;
     private string triggerId_ = "";
+    /// <summary>
+    /// ID of the trigger to delete.
+    ///
+    /// To get a trigger ID make a [TriggerService.List] request.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string TriggerId {
       get { return triggerId_; }
@@ -1505,6 +1596,9 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
     /// <summary>Field number for the "trigger_id" field.</summary>
     public const int TriggerIdFieldNumber = 1;
     private string triggerId_ = "";
+    /// <summary>
+    /// ID of the trigger that is being deleted.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string TriggerId {
       get { return triggerId_; }
@@ -1637,6 +1731,9 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
     /// <summary>Field number for the "trigger_id" field.</summary>
     public const int TriggerIdFieldNumber = 1;
     private string triggerId_ = "";
+    /// <summary>
+    /// ID of the trigger to list operations for.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string TriggerId {
       get { return triggerId_; }
@@ -1648,6 +1745,13 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
     /// <summary>Field number for the "page_size" field.</summary>
     public const int PageSizeFieldNumber = 2;
     private long pageSize_;
+    /// <summary>
+    /// The maximum number of results per page that should be returned. If the number of available
+    /// results is larger than `pageSize`, the service returns a [ListTriggerOperationsResponse.next_page_token]
+    /// that can be used to get the next page of results in subsequent list requests.
+    ///
+    /// Default value: 100.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long PageSize {
       get { return pageSize_; }
@@ -1659,6 +1763,10 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
     /// <summary>Field number for the "page_token" field.</summary>
     public const int PageTokenFieldNumber = 3;
     private string pageToken_ = "";
+    /// <summary>
+    /// Page token. To get the next page of results, set `pageToken` to the
+    /// [ListTriggerOperationsResponse.next_page_token] returned by a previous list request.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string PageToken {
       get { return pageToken_; }
@@ -1670,6 +1778,16 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
     /// <summary>Field number for the "filter" field.</summary>
     public const int FilterFieldNumber = 4;
     private string filter_ = "";
+    /// <summary>
+    /// A filter expression that filters resources listed in the response.
+    ///
+    /// The expression must specify:
+    /// 1. The field name. Currently filtering can only be applied to the [Trigger.name] field.
+    /// 2. A conditional operator. Can be either `=` or `!=` for single values, `IN` or `NOT IN`
+    /// for lists of values.
+    /// 3. The value. Must be 3-63 characters long and match the regular expression `^[a-z][-a-z0-9]{1,61}[a-z0-9]$`.
+    /// Example of a filter: `name=my-function`.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Filter {
       get { return filter_; }
@@ -1850,6 +1968,9 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
     private static readonly pb::FieldCodec<global::Yandex.Cloud.Operation.Operation> _repeated_operations_codec
         = pb::FieldCodec.ForMessage(10, global::Yandex.Cloud.Operation.Operation.Parser);
     private readonly pbc::RepeatedField<global::Yandex.Cloud.Operation.Operation> operations_ = new pbc::RepeatedField<global::Yandex.Cloud.Operation.Operation>();
+    /// <summary>
+    /// List of operations for the specified trigger.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::RepeatedField<global::Yandex.Cloud.Operation.Operation> Operations {
       get { return operations_; }
@@ -1858,6 +1979,13 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
     /// <summary>Field number for the "next_page_token" field.</summary>
     public const int NextPageTokenFieldNumber = 2;
     private string nextPageToken_ = "";
+    /// <summary>
+    /// Token for getting the next page of the list. If the number of results is greater than
+    /// the specified [ListTriggerOperationsRequest.page_size], use `nextPageToken` as the value
+    /// for the [ListTriggerOperationsRequest.page_token] parameter in the next list request.
+    ///
+    /// Each subsequent page will have its own `nextPageToken` to continue paging through the results.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string NextPageToken {
       get { return nextPageToken_; }

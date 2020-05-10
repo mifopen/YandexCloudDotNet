@@ -9,7 +9,7 @@ using grpc = global::Grpc.Core;
 
 namespace Yandex.Cloud.Dataproc.V1 {
   /// <summary>
-  /// A set of methods for managing jobs for Dataproc cluster.
+  /// A set of methods for managing Data Proc jobs.
   /// </summary>
   internal static partial class JobService
   {
@@ -21,6 +21,8 @@ namespace Yandex.Cloud.Dataproc.V1 {
     static readonly grpc::Marshaller<global::Yandex.Cloud.Operation.Operation> __Marshaller_yandex_cloud_operation_Operation = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Operation.Operation.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Dataproc.V1.GetJobRequest> __Marshaller_yandex_cloud_dataproc_v1_GetJobRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Dataproc.V1.GetJobRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Dataproc.V1.Job> __Marshaller_yandex_cloud_dataproc_v1_Job = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Dataproc.V1.Job.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Yandex.Cloud.Dataproc.V1.ListJobLogRequest> __Marshaller_yandex_cloud_dataproc_v1_ListJobLogRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Dataproc.V1.ListJobLogRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Yandex.Cloud.Dataproc.V1.ListJobLogResponse> __Marshaller_yandex_cloud_dataproc_v1_ListJobLogResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Dataproc.V1.ListJobLogResponse.Parser.ParseFrom);
 
     static readonly grpc::Method<global::Yandex.Cloud.Dataproc.V1.ListJobsRequest, global::Yandex.Cloud.Dataproc.V1.ListJobsResponse> __Method_List = new grpc::Method<global::Yandex.Cloud.Dataproc.V1.ListJobsRequest, global::Yandex.Cloud.Dataproc.V1.ListJobsResponse>(
         grpc::MethodType.Unary,
@@ -42,6 +44,13 @@ namespace Yandex.Cloud.Dataproc.V1 {
         "Get",
         __Marshaller_yandex_cloud_dataproc_v1_GetJobRequest,
         __Marshaller_yandex_cloud_dataproc_v1_Job);
+
+    static readonly grpc::Method<global::Yandex.Cloud.Dataproc.V1.ListJobLogRequest, global::Yandex.Cloud.Dataproc.V1.ListJobLogResponse> __Method_ListLog = new grpc::Method<global::Yandex.Cloud.Dataproc.V1.ListJobLogRequest, global::Yandex.Cloud.Dataproc.V1.ListJobLogResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "ListLog",
+        __Marshaller_yandex_cloud_dataproc_v1_ListJobLogRequest,
+        __Marshaller_yandex_cloud_dataproc_v1_ListJobLogResponse);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -73,7 +82,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
       }
 
       /// <summary>
-      /// Retrieves a list of jobs for Dataproc cluster.
+      /// Retrieves a list of jobs for a cluster.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -85,7 +94,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
         return List(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// Retrieves a list of jobs for Dataproc cluster.
+      /// Retrieves a list of jobs for a cluster.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
@@ -95,7 +104,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
         return CallInvoker.BlockingUnaryCall(__Method_List, null, options, request);
       }
       /// <summary>
-      /// Retrieves a list of jobs for Dataproc cluster.
+      /// Retrieves a list of jobs for a cluster.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -107,7 +116,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
         return ListAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// Retrieves a list of jobs for Dataproc cluster.
+      /// Retrieves a list of jobs for a cluster.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
@@ -117,7 +126,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
         return CallInvoker.AsyncUnaryCall(__Method_List, null, options, request);
       }
       /// <summary>
-      /// Creates a job for Dataproc cluster.
+      /// Creates a job for a cluster.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -129,7 +138,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
         return Create(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// Creates a job for Dataproc cluster.
+      /// Creates a job for a cluster.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
@@ -139,7 +148,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
         return CallInvoker.BlockingUnaryCall(__Method_Create, null, options, request);
       }
       /// <summary>
-      /// Creates a job for Dataproc cluster.
+      /// Creates a job for a cluster.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -151,7 +160,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
         return CreateAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// Creates a job for Dataproc cluster.
+      /// Creates a job for a cluster.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
@@ -161,7 +170,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
         return CallInvoker.AsyncUnaryCall(__Method_Create, null, options, request);
       }
       /// <summary>
-      /// Returns the specified Dataproc cluster.
+      /// Returns the specified job.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -173,7 +182,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
         return Get(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// Returns the specified Dataproc cluster.
+      /// Returns the specified job.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
@@ -183,7 +192,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
         return CallInvoker.BlockingUnaryCall(__Method_Get, null, options, request);
       }
       /// <summary>
-      /// Returns the specified Dataproc cluster.
+      /// Returns the specified job.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -195,7 +204,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
         return GetAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// Returns the specified Dataproc cluster.
+      /// Returns the specified job.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
@@ -203,6 +212,50 @@ namespace Yandex.Cloud.Dataproc.V1 {
       public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Dataproc.V1.Job> GetAsync(global::Yandex.Cloud.Dataproc.V1.GetJobRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_Get, null, options, request);
+      }
+      /// <summary>
+      /// Returns a log for specified job.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.Dataproc.V1.ListJobLogResponse ListLog(global::Yandex.Cloud.Dataproc.V1.ListJobLogRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return ListLog(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Returns a log for specified job.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.Dataproc.V1.ListJobLogResponse ListLog(global::Yandex.Cloud.Dataproc.V1.ListJobLogRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_ListLog, null, options, request);
+      }
+      /// <summary>
+      /// Returns a log for specified job.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Dataproc.V1.ListJobLogResponse> ListLogAsync(global::Yandex.Cloud.Dataproc.V1.ListJobLogRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return ListLogAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Returns a log for specified job.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Dataproc.V1.ListJobLogResponse> ListLogAsync(global::Yandex.Cloud.Dataproc.V1.ListJobLogRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_ListLog, null, options, request);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       protected override JobServiceClient NewInstance(ClientBaseConfiguration configuration)

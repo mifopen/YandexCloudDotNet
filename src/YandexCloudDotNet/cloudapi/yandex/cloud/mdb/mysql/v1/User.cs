@@ -26,36 +26,90 @@ namespace Yandex.Cloud.Mdb.Mysql.V1 {
           string.Concat(
             "CiR5YW5kZXgvY2xvdWQvbWRiL215c3FsL3YxL3VzZXIucHJvdG8SGXlhbmRl",
             "eC5jbG91ZC5tZGIubXlzcWwudjEaHmdvb2dsZS9wcm90b2J1Zi93cmFwcGVy",
-            "cy5wcm90bxodeWFuZGV4L2Nsb3VkL3ZhbGlkYXRpb24ucHJvdG8iZAoEVXNl",
-            "chIMCgRuYW1lGAEgASgJEhIKCmNsdXN0ZXJfaWQYAiABKAkSOgoLcGVybWlz",
-            "c2lvbnMYAyADKAsyJS55YW5kZXguY2xvdWQubWRiLm15c3FsLnYxLlBlcm1p",
-            "c3Npb24inwMKClBlcm1pc3Npb24SFQoNZGF0YWJhc2VfbmFtZRgBIAEoCRJH",
-            "CgVyb2xlcxgCIAMoDjIvLnlhbmRleC5jbG91ZC5tZGIubXlzcWwudjEuUGVy",
-            "bWlzc2lvbi5Qcml2aWxlZ2VCB4LIMQM+PTEisAIKCVByaXZpbGVnZRIZChVQ",
-            "UklWSUxFR0VfVU5TUEVDSUZJRUQQABISCg5BTExfUFJJVklMRUdFUxABEgkK",
-            "BUFMVEVSEAISEQoNQUxURVJfUk9VVElORRADEgoKBkNSRUFURRAEEhIKDkNS",
-            "RUFURV9ST1VUSU5FEAUSGwoXQ1JFQVRFX1RFTVBPUkFSWV9UQUJMRVMQBhIP",
-            "CgtDUkVBVEVfVklFVxAHEgoKBkRFTEVURRAIEggKBERST1AQCRIJCgVFVkVO",
-            "VBAKEgsKB0VYRUNVVEUQCxIJCgVJTkRFWBAMEgoKBklOU0VSVBANEg8KC0xP",
-            "Q0tfVEFCTEVTEA4SCgoGU0VMRUNUEA8SDQoJU0hPV19WSUVXEBASCwoHVFJJ",
-            "R0dFUhAREgoKBlVQREFURRASIpQBCghVc2VyU3BlYxIrCgRuYW1lGAEgASgJ",
-            "Qh3oxzEBisgxBDw9MzLyxzENW2EtekEtWjAtOV9dKhIfCghwYXNzd29yZBgC",
-            "IAEoCUIN6McxAYrIMQU4LTEyOBI6CgtwZXJtaXNzaW9ucxgDIAMoCzIlLnlh",
-            "bmRleC5jbG91ZC5tZGIubXlzcWwudjEuUGVybWlzc2lvbkJkCh15YW5kZXgu",
-            "Y2xvdWQuYXBpLm1kYi5teXNxbC52MVpDZ2l0aHViLmNvbS95YW5kZXgtY2xv",
-            "dWQvZ28tZ2VucHJvdG8veWFuZGV4L2Nsb3VkL21kYi9teXNxbC92MTtteXNx",
-            "bGIGcHJvdG8z"));
+            "cy5wcm90bxodeWFuZGV4L2Nsb3VkL3ZhbGlkYXRpb24ucHJvdG8iuwIKBFVz",
+            "ZXISDAoEbmFtZRgBIAEoCRISCgpjbHVzdGVyX2lkGAIgASgJEjoKC3Blcm1p",
+            "c3Npb25zGAMgAygLMiUueWFuZGV4LmNsb3VkLm1kYi5teXNxbC52MS5QZXJt",
+            "aXNzaW9uEkcKEmdsb2JhbF9wZXJtaXNzaW9ucxgEIAMoDjIrLnlhbmRleC5j",
+            "bG91ZC5tZGIubXlzcWwudjEuR2xvYmFsUGVybWlzc2lvbhJGChFjb25uZWN0",
+            "aW9uX2xpbWl0cxgFIAEoCzIrLnlhbmRleC5jbG91ZC5tZGIubXlzcWwudjEu",
+            "Q29ubmVjdGlvbkxpbWl0cxJEChVhdXRoZW50aWNhdGlvbl9wbHVnaW4YBiAB",
+            "KA4yJS55YW5kZXguY2xvdWQubWRiLm15c3FsLnYxLkF1dGhQbHVnaW4inwMK",
+            "ClBlcm1pc3Npb24SFQoNZGF0YWJhc2VfbmFtZRgBIAEoCRJHCgVyb2xlcxgC",
+            "IAMoDjIvLnlhbmRleC5jbG91ZC5tZGIubXlzcWwudjEuUGVybWlzc2lvbi5Q",
+            "cml2aWxlZ2VCB4LIMQM+PTEisAIKCVByaXZpbGVnZRIZChVQUklWSUxFR0Vf",
+            "VU5TUEVDSUZJRUQQABISCg5BTExfUFJJVklMRUdFUxABEgkKBUFMVEVSEAIS",
+            "EQoNQUxURVJfUk9VVElORRADEgoKBkNSRUFURRAEEhIKDkNSRUFURV9ST1VU",
+            "SU5FEAUSGwoXQ1JFQVRFX1RFTVBPUkFSWV9UQUJMRVMQBhIPCgtDUkVBVEVf",
+            "VklFVxAHEgoKBkRFTEVURRAIEggKBERST1AQCRIJCgVFVkVOVBAKEgsKB0VY",
+            "RUNVVEUQCxIJCgVJTkRFWBAMEgoKBklOU0VSVBANEg8KC0xPQ0tfVEFCTEVT",
+            "EA4SCgoGU0VMRUNUEA8SDQoJU0hPV19WSUVXEBASCwoHVFJJR0dFUhAREgoK",
+            "BlVQREFURRASIqgCChBDb25uZWN0aW9uTGltaXRzEkQKFm1heF9xdWVzdGlv",
+            "bnNfcGVyX2hvdXIYASABKAsyGy5nb29nbGUucHJvdG9idWYuSW50NjRWYWx1",
+            "ZUIH+scxAz49MBJCChRtYXhfdXBkYXRlc19wZXJfaG91chgCIAEoCzIbLmdv",
+            "b2dsZS5wcm90b2J1Zi5JbnQ2NFZhbHVlQgf6xzEDPj0wEkYKGG1heF9jb25u",
+            "ZWN0aW9uc19wZXJfaG91chgDIAEoCzIbLmdvb2dsZS5wcm90b2J1Zi5JbnQ2",
+            "NFZhbHVlQgf6xzEDPj0wEkIKFG1heF91c2VyX2Nvbm5lY3Rpb25zGAQgASgL",
+            "MhsuZ29vZ2xlLnByb3RvYnVmLkludDY0VmFsdWVCB/rHMQM+PTAi6wIKCFVz",
+            "ZXJTcGVjEisKBG5hbWUYASABKAlCHejHMQGKyDEEPD0zMvLHMQ1bYS16QS1a",
+            "MC05X10qEh8KCHBhc3N3b3JkGAIgASgJQg3oxzEBisgxBTgtMTI4EjoKC3Bl",
+            "cm1pc3Npb25zGAMgAygLMiUueWFuZGV4LmNsb3VkLm1kYi5teXNxbC52MS5Q",
+            "ZXJtaXNzaW9uEkcKEmdsb2JhbF9wZXJtaXNzaW9ucxgEIAMoDjIrLnlhbmRl",
+            "eC5jbG91ZC5tZGIubXlzcWwudjEuR2xvYmFsUGVybWlzc2lvbhJGChFjb25u",
+            "ZWN0aW9uX2xpbWl0cxgFIAEoCzIrLnlhbmRleC5jbG91ZC5tZGIubXlzcWwu",
+            "djEuQ29ubmVjdGlvbkxpbWl0cxJEChVhdXRoZW50aWNhdGlvbl9wbHVnaW4Y",
+            "BiABKA4yJS55YW5kZXguY2xvdWQubWRiLm15c3FsLnYxLkF1dGhQbHVnaW4q",
+            "ZAoQR2xvYmFsUGVybWlzc2lvbhIhCh1HTE9CQUxfUEVSTUlTU0lPTl9VTlNQ",
+            "RUNJRklFRBAAEhYKElJFUExJQ0FUSU9OX0NMSUVOVBABEhUKEVJFUExJQ0FU",
+            "SU9OX1NMQVZFEAIqdAoKQXV0aFBsdWdpbhIbChdBVVRIX1BMVUdJTl9VTlNQ",
+            "RUNJRklFRBAAEhkKFU1ZU1FMX05BVElWRV9QQVNTV09SRBABEhkKFUNBQ0hJ",
+            "TkdfU0hBMl9QQVNTV09SRBACEhMKD1NIQTI1Nl9QQVNTV09SRBADQmQKHXlh",
+            "bmRleC5jbG91ZC5hcGkubWRiLm15c3FsLnYxWkNnaXRodWIuY29tL3lhbmRl",
+            "eC1jbG91ZC9nby1nZW5wcm90by95YW5kZXgvY2xvdWQvbWRiL215c3FsL3Yx",
+            "O215c3FsYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.WrappersReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.User), global::Yandex.Cloud.Mdb.Mysql.V1.User.Parser, new[]{ "Name", "ClusterId", "Permissions" }, null, null, null),
+          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Yandex.Cloud.Mdb.Mysql.V1.GlobalPermission), typeof(global::Yandex.Cloud.Mdb.Mysql.V1.AuthPlugin), }, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.User), global::Yandex.Cloud.Mdb.Mysql.V1.User.Parser, new[]{ "Name", "ClusterId", "Permissions", "GlobalPermissions", "ConnectionLimits", "AuthenticationPlugin" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.Permission), global::Yandex.Cloud.Mdb.Mysql.V1.Permission.Parser, new[]{ "DatabaseName", "Roles" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Mysql.V1.Permission.Types.Privilege) }, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.UserSpec), global::Yandex.Cloud.Mdb.Mysql.V1.UserSpec.Parser, new[]{ "Name", "Password", "Permissions" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.ConnectionLimits), global::Yandex.Cloud.Mdb.Mysql.V1.ConnectionLimits.Parser, new[]{ "MaxQuestionsPerHour", "MaxUpdatesPerHour", "MaxConnectionsPerHour", "MaxUserConnections" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.UserSpec), global::Yandex.Cloud.Mdb.Mysql.V1.UserSpec.Parser, new[]{ "Name", "Password", "Permissions", "GlobalPermissions", "ConnectionLimits", "AuthenticationPlugin" }, null, null, null)
           }));
     }
     #endregion
 
   }
+  #region Enums
+  internal enum GlobalPermission {
+    [pbr::OriginalName("GLOBAL_PERMISSION_UNSPECIFIED")] Unspecified = 0,
+    /// <summary>
+    /// Enables use of the SHOW MASTER STATUS, SHOW SLAVE STATUS, and SHOW BINARY LOGS statements.
+    /// </summary>
+    [pbr::OriginalName("REPLICATION_CLIENT")] ReplicationClient = 1,
+    /// <summary>
+    /// Enables the account to request updates that have been made to databases on the master server,
+    /// using the SHOW SLAVE HOSTS, SHOW RELAYLOG EVENTS, and SHOW BINLOG EVENTS statements.
+    /// </summary>
+    [pbr::OriginalName("REPLICATION_SLAVE")] ReplicationSlave = 2,
+  }
+
+  internal enum AuthPlugin {
+    [pbr::OriginalName("AUTH_PLUGIN_UNSPECIFIED")] Unspecified = 0,
+    /// <summary>
+    /// Use [Native Pluggable Authentication](https://dev.mysql.com/doc/refman/8.0/en/native-pluggable-authentication.html).
+    /// </summary>
+    [pbr::OriginalName("MYSQL_NATIVE_PASSWORD")] MysqlNativePassword = 1,
+    /// <summary>
+    /// Use [Caching SHA-2 Pluggable Authentication](https://dev.mysql.com/doc/refman/8.0/en/caching-sha2-pluggable-authentication.html).
+    /// </summary>
+    [pbr::OriginalName("CACHING_SHA2_PASSWORD")] CachingSha2Password = 2,
+    /// <summary>
+    /// Use [SHA-256 Pluggable Authentication](https://dev.mysql.com/doc/refman/8.0/en/sha256-pluggable-authentication.html).
+    /// </summary>
+    [pbr::OriginalName("SHA256_PASSWORD")] Sha256Password = 3,
+  }
+
+  #endregion
+
   #region Messages
   /// <summary>
   /// A MySQL user. For more information, see
@@ -89,6 +143,9 @@ namespace Yandex.Cloud.Mdb.Mysql.V1 {
       name_ = other.name_;
       clusterId_ = other.clusterId_;
       permissions_ = other.permissions_.Clone();
+      globalPermissions_ = other.globalPermissions_.Clone();
+      connectionLimits_ = other.connectionLimits_ != null ? other.connectionLimits_.Clone() : null;
+      authenticationPlugin_ = other.authenticationPlugin_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -138,6 +195,47 @@ namespace Yandex.Cloud.Mdb.Mysql.V1 {
       get { return permissions_; }
     }
 
+    /// <summary>Field number for the "global_permissions" field.</summary>
+    public const int GlobalPermissionsFieldNumber = 4;
+    private static readonly pb::FieldCodec<global::Yandex.Cloud.Mdb.Mysql.V1.GlobalPermission> _repeated_globalPermissions_codec
+        = pb::FieldCodec.ForEnum(34, x => (int) x, x => (global::Yandex.Cloud.Mdb.Mysql.V1.GlobalPermission) x);
+    private readonly pbc::RepeatedField<global::Yandex.Cloud.Mdb.Mysql.V1.GlobalPermission> globalPermissions_ = new pbc::RepeatedField<global::Yandex.Cloud.Mdb.Mysql.V1.GlobalPermission>();
+    /// <summary>
+    /// Set of global permissions to grant to the user.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<global::Yandex.Cloud.Mdb.Mysql.V1.GlobalPermission> GlobalPermissions {
+      get { return globalPermissions_; }
+    }
+
+    /// <summary>Field number for the "connection_limits" field.</summary>
+    public const int ConnectionLimitsFieldNumber = 5;
+    private global::Yandex.Cloud.Mdb.Mysql.V1.ConnectionLimits connectionLimits_;
+    /// <summary>
+    /// Set of user connection limits.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Mdb.Mysql.V1.ConnectionLimits ConnectionLimits {
+      get { return connectionLimits_; }
+      set {
+        connectionLimits_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "authentication_plugin" field.</summary>
+    public const int AuthenticationPluginFieldNumber = 6;
+    private global::Yandex.Cloud.Mdb.Mysql.V1.AuthPlugin authenticationPlugin_ = 0;
+    /// <summary>
+    /// User authentication plugin.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Mdb.Mysql.V1.AuthPlugin AuthenticationPlugin {
+      get { return authenticationPlugin_; }
+      set {
+        authenticationPlugin_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as User);
@@ -154,6 +252,9 @@ namespace Yandex.Cloud.Mdb.Mysql.V1 {
       if (Name != other.Name) return false;
       if (ClusterId != other.ClusterId) return false;
       if(!permissions_.Equals(other.permissions_)) return false;
+      if(!globalPermissions_.Equals(other.globalPermissions_)) return false;
+      if (!object.Equals(ConnectionLimits, other.ConnectionLimits)) return false;
+      if (AuthenticationPlugin != other.AuthenticationPlugin) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -163,6 +264,9 @@ namespace Yandex.Cloud.Mdb.Mysql.V1 {
       if (Name.Length != 0) hash ^= Name.GetHashCode();
       if (ClusterId.Length != 0) hash ^= ClusterId.GetHashCode();
       hash ^= permissions_.GetHashCode();
+      hash ^= globalPermissions_.GetHashCode();
+      if (connectionLimits_ != null) hash ^= ConnectionLimits.GetHashCode();
+      if (AuthenticationPlugin != 0) hash ^= AuthenticationPlugin.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -185,6 +289,15 @@ namespace Yandex.Cloud.Mdb.Mysql.V1 {
         output.WriteString(ClusterId);
       }
       permissions_.WriteTo(output, _repeated_permissions_codec);
+      globalPermissions_.WriteTo(output, _repeated_globalPermissions_codec);
+      if (connectionLimits_ != null) {
+        output.WriteRawTag(42);
+        output.WriteMessage(ConnectionLimits);
+      }
+      if (AuthenticationPlugin != 0) {
+        output.WriteRawTag(48);
+        output.WriteEnum((int) AuthenticationPlugin);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -200,6 +313,13 @@ namespace Yandex.Cloud.Mdb.Mysql.V1 {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(ClusterId);
       }
       size += permissions_.CalculateSize(_repeated_permissions_codec);
+      size += globalPermissions_.CalculateSize(_repeated_globalPermissions_codec);
+      if (connectionLimits_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(ConnectionLimits);
+      }
+      if (AuthenticationPlugin != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) AuthenticationPlugin);
+      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -218,6 +338,16 @@ namespace Yandex.Cloud.Mdb.Mysql.V1 {
         ClusterId = other.ClusterId;
       }
       permissions_.Add(other.permissions_);
+      globalPermissions_.Add(other.globalPermissions_);
+      if (other.connectionLimits_ != null) {
+        if (connectionLimits_ == null) {
+          ConnectionLimits = new global::Yandex.Cloud.Mdb.Mysql.V1.ConnectionLimits();
+        }
+        ConnectionLimits.MergeFrom(other.ConnectionLimits);
+      }
+      if (other.AuthenticationPlugin != 0) {
+        AuthenticationPlugin = other.AuthenticationPlugin;
+      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -239,6 +369,22 @@ namespace Yandex.Cloud.Mdb.Mysql.V1 {
           }
           case 26: {
             permissions_.AddEntriesFrom(input, _repeated_permissions_codec);
+            break;
+          }
+          case 34:
+          case 32: {
+            globalPermissions_.AddEntriesFrom(input, _repeated_globalPermissions_codec);
+            break;
+          }
+          case 42: {
+            if (connectionLimits_ == null) {
+              ConnectionLimits = new global::Yandex.Cloud.Mdb.Mysql.V1.ConnectionLimits();
+            }
+            input.ReadMessage(ConnectionLimits);
+            break;
+          }
+          case 48: {
+            AuthenticationPlugin = (global::Yandex.Cloud.Mdb.Mysql.V1.AuthPlugin) input.ReadEnum();
             break;
           }
         }
@@ -490,6 +636,255 @@ namespace Yandex.Cloud.Mdb.Mysql.V1 {
 
   }
 
+  internal sealed partial class ConnectionLimits : pb::IMessage<ConnectionLimits> {
+    private static readonly pb::MessageParser<ConnectionLimits> _parser = new pb::MessageParser<ConnectionLimits>(() => new ConnectionLimits());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<ConnectionLimits> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Mdb.Mysql.V1.UserReflection.Descriptor.MessageTypes[2]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ConnectionLimits() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ConnectionLimits(ConnectionLimits other) : this() {
+      MaxQuestionsPerHour = other.MaxQuestionsPerHour;
+      MaxUpdatesPerHour = other.MaxUpdatesPerHour;
+      MaxConnectionsPerHour = other.MaxConnectionsPerHour;
+      MaxUserConnections = other.MaxUserConnections;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ConnectionLimits Clone() {
+      return new ConnectionLimits(this);
+    }
+
+    /// <summary>Field number for the "max_questions_per_hour" field.</summary>
+    public const int MaxQuestionsPerHourFieldNumber = 1;
+    private static readonly pb::FieldCodec<long?> _single_maxQuestionsPerHour_codec = pb::FieldCodec.ForStructWrapper<long>(10);
+    private long? maxQuestionsPerHour_;
+    /// <summary>
+    /// The maximum permitted number of user questions per hour.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? MaxQuestionsPerHour {
+      get { return maxQuestionsPerHour_; }
+      set {
+        maxQuestionsPerHour_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "max_updates_per_hour" field.</summary>
+    public const int MaxUpdatesPerHourFieldNumber = 2;
+    private static readonly pb::FieldCodec<long?> _single_maxUpdatesPerHour_codec = pb::FieldCodec.ForStructWrapper<long>(18);
+    private long? maxUpdatesPerHour_;
+    /// <summary>
+    /// The maximum permitted number of user updates per hour.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? MaxUpdatesPerHour {
+      get { return maxUpdatesPerHour_; }
+      set {
+        maxUpdatesPerHour_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "max_connections_per_hour" field.</summary>
+    public const int MaxConnectionsPerHourFieldNumber = 3;
+    private static readonly pb::FieldCodec<long?> _single_maxConnectionsPerHour_codec = pb::FieldCodec.ForStructWrapper<long>(26);
+    private long? maxConnectionsPerHour_;
+    /// <summary>
+    /// The maximum permitted number of simultaneous client connections per hour.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? MaxConnectionsPerHour {
+      get { return maxConnectionsPerHour_; }
+      set {
+        maxConnectionsPerHour_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "max_user_connections" field.</summary>
+    public const int MaxUserConnectionsFieldNumber = 4;
+    private static readonly pb::FieldCodec<long?> _single_maxUserConnections_codec = pb::FieldCodec.ForStructWrapper<long>(34);
+    private long? maxUserConnections_;
+    /// <summary>
+    /// The maximum number of simultaneous connections permitted to any given MySQL user account.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? MaxUserConnections {
+      get { return maxUserConnections_; }
+      set {
+        maxUserConnections_ = value;
+      }
+    }
+
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as ConnectionLimits);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(ConnectionLimits other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (MaxQuestionsPerHour != other.MaxQuestionsPerHour) return false;
+      if (MaxUpdatesPerHour != other.MaxUpdatesPerHour) return false;
+      if (MaxConnectionsPerHour != other.MaxConnectionsPerHour) return false;
+      if (MaxUserConnections != other.MaxUserConnections) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (maxQuestionsPerHour_ != null) hash ^= MaxQuestionsPerHour.GetHashCode();
+      if (maxUpdatesPerHour_ != null) hash ^= MaxUpdatesPerHour.GetHashCode();
+      if (maxConnectionsPerHour_ != null) hash ^= MaxConnectionsPerHour.GetHashCode();
+      if (maxUserConnections_ != null) hash ^= MaxUserConnections.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (maxQuestionsPerHour_ != null) {
+        _single_maxQuestionsPerHour_codec.WriteTagAndValue(output, MaxQuestionsPerHour);
+      }
+      if (maxUpdatesPerHour_ != null) {
+        _single_maxUpdatesPerHour_codec.WriteTagAndValue(output, MaxUpdatesPerHour);
+      }
+      if (maxConnectionsPerHour_ != null) {
+        _single_maxConnectionsPerHour_codec.WriteTagAndValue(output, MaxConnectionsPerHour);
+      }
+      if (maxUserConnections_ != null) {
+        _single_maxUserConnections_codec.WriteTagAndValue(output, MaxUserConnections);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (maxQuestionsPerHour_ != null) {
+        size += _single_maxQuestionsPerHour_codec.CalculateSizeWithTag(MaxQuestionsPerHour);
+      }
+      if (maxUpdatesPerHour_ != null) {
+        size += _single_maxUpdatesPerHour_codec.CalculateSizeWithTag(MaxUpdatesPerHour);
+      }
+      if (maxConnectionsPerHour_ != null) {
+        size += _single_maxConnectionsPerHour_codec.CalculateSizeWithTag(MaxConnectionsPerHour);
+      }
+      if (maxUserConnections_ != null) {
+        size += _single_maxUserConnections_codec.CalculateSizeWithTag(MaxUserConnections);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(ConnectionLimits other) {
+      if (other == null) {
+        return;
+      }
+      if (other.maxQuestionsPerHour_ != null) {
+        if (maxQuestionsPerHour_ == null || other.MaxQuestionsPerHour != 0L) {
+          MaxQuestionsPerHour = other.MaxQuestionsPerHour;
+        }
+      }
+      if (other.maxUpdatesPerHour_ != null) {
+        if (maxUpdatesPerHour_ == null || other.MaxUpdatesPerHour != 0L) {
+          MaxUpdatesPerHour = other.MaxUpdatesPerHour;
+        }
+      }
+      if (other.maxConnectionsPerHour_ != null) {
+        if (maxConnectionsPerHour_ == null || other.MaxConnectionsPerHour != 0L) {
+          MaxConnectionsPerHour = other.MaxConnectionsPerHour;
+        }
+      }
+      if (other.maxUserConnections_ != null) {
+        if (maxUserConnections_ == null || other.MaxUserConnections != 0L) {
+          MaxUserConnections = other.MaxUserConnections;
+        }
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            long? value = _single_maxQuestionsPerHour_codec.Read(input);
+            if (maxQuestionsPerHour_ == null || value != 0L) {
+              MaxQuestionsPerHour = value;
+            }
+            break;
+          }
+          case 18: {
+            long? value = _single_maxUpdatesPerHour_codec.Read(input);
+            if (maxUpdatesPerHour_ == null || value != 0L) {
+              MaxUpdatesPerHour = value;
+            }
+            break;
+          }
+          case 26: {
+            long? value = _single_maxConnectionsPerHour_codec.Read(input);
+            if (maxConnectionsPerHour_ == null || value != 0L) {
+              MaxConnectionsPerHour = value;
+            }
+            break;
+          }
+          case 34: {
+            long? value = _single_maxUserConnections_codec.Read(input);
+            if (maxUserConnections_ == null || value != 0L) {
+              MaxUserConnections = value;
+            }
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
   internal sealed partial class UserSpec : pb::IMessage<UserSpec> {
     private static readonly pb::MessageParser<UserSpec> _parser = new pb::MessageParser<UserSpec>(() => new UserSpec());
     private pb::UnknownFieldSet _unknownFields;
@@ -498,7 +893,7 @@ namespace Yandex.Cloud.Mdb.Mysql.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Mdb.Mysql.V1.UserReflection.Descriptor.MessageTypes[2]; }
+      get { return global::Yandex.Cloud.Mdb.Mysql.V1.UserReflection.Descriptor.MessageTypes[3]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -518,6 +913,9 @@ namespace Yandex.Cloud.Mdb.Mysql.V1 {
       name_ = other.name_;
       password_ = other.password_;
       permissions_ = other.permissions_.Clone();
+      globalPermissions_ = other.globalPermissions_.Clone();
+      connectionLimits_ = other.connectionLimits_ != null ? other.connectionLimits_.Clone() : null;
+      authenticationPlugin_ = other.authenticationPlugin_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -567,6 +965,47 @@ namespace Yandex.Cloud.Mdb.Mysql.V1 {
       get { return permissions_; }
     }
 
+    /// <summary>Field number for the "global_permissions" field.</summary>
+    public const int GlobalPermissionsFieldNumber = 4;
+    private static readonly pb::FieldCodec<global::Yandex.Cloud.Mdb.Mysql.V1.GlobalPermission> _repeated_globalPermissions_codec
+        = pb::FieldCodec.ForEnum(34, x => (int) x, x => (global::Yandex.Cloud.Mdb.Mysql.V1.GlobalPermission) x);
+    private readonly pbc::RepeatedField<global::Yandex.Cloud.Mdb.Mysql.V1.GlobalPermission> globalPermissions_ = new pbc::RepeatedField<global::Yandex.Cloud.Mdb.Mysql.V1.GlobalPermission>();
+    /// <summary>
+    /// Set of global permissions to grant to the user.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<global::Yandex.Cloud.Mdb.Mysql.V1.GlobalPermission> GlobalPermissions {
+      get { return globalPermissions_; }
+    }
+
+    /// <summary>Field number for the "connection_limits" field.</summary>
+    public const int ConnectionLimitsFieldNumber = 5;
+    private global::Yandex.Cloud.Mdb.Mysql.V1.ConnectionLimits connectionLimits_;
+    /// <summary>
+    /// Set of user connection limits.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Mdb.Mysql.V1.ConnectionLimits ConnectionLimits {
+      get { return connectionLimits_; }
+      set {
+        connectionLimits_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "authentication_plugin" field.</summary>
+    public const int AuthenticationPluginFieldNumber = 6;
+    private global::Yandex.Cloud.Mdb.Mysql.V1.AuthPlugin authenticationPlugin_ = 0;
+    /// <summary>
+    /// User authentication plugin.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Mdb.Mysql.V1.AuthPlugin AuthenticationPlugin {
+      get { return authenticationPlugin_; }
+      set {
+        authenticationPlugin_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as UserSpec);
@@ -583,6 +1022,9 @@ namespace Yandex.Cloud.Mdb.Mysql.V1 {
       if (Name != other.Name) return false;
       if (Password != other.Password) return false;
       if(!permissions_.Equals(other.permissions_)) return false;
+      if(!globalPermissions_.Equals(other.globalPermissions_)) return false;
+      if (!object.Equals(ConnectionLimits, other.ConnectionLimits)) return false;
+      if (AuthenticationPlugin != other.AuthenticationPlugin) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -592,6 +1034,9 @@ namespace Yandex.Cloud.Mdb.Mysql.V1 {
       if (Name.Length != 0) hash ^= Name.GetHashCode();
       if (Password.Length != 0) hash ^= Password.GetHashCode();
       hash ^= permissions_.GetHashCode();
+      hash ^= globalPermissions_.GetHashCode();
+      if (connectionLimits_ != null) hash ^= ConnectionLimits.GetHashCode();
+      if (AuthenticationPlugin != 0) hash ^= AuthenticationPlugin.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -614,6 +1059,15 @@ namespace Yandex.Cloud.Mdb.Mysql.V1 {
         output.WriteString(Password);
       }
       permissions_.WriteTo(output, _repeated_permissions_codec);
+      globalPermissions_.WriteTo(output, _repeated_globalPermissions_codec);
+      if (connectionLimits_ != null) {
+        output.WriteRawTag(42);
+        output.WriteMessage(ConnectionLimits);
+      }
+      if (AuthenticationPlugin != 0) {
+        output.WriteRawTag(48);
+        output.WriteEnum((int) AuthenticationPlugin);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -629,6 +1083,13 @@ namespace Yandex.Cloud.Mdb.Mysql.V1 {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Password);
       }
       size += permissions_.CalculateSize(_repeated_permissions_codec);
+      size += globalPermissions_.CalculateSize(_repeated_globalPermissions_codec);
+      if (connectionLimits_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(ConnectionLimits);
+      }
+      if (AuthenticationPlugin != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) AuthenticationPlugin);
+      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -647,6 +1108,16 @@ namespace Yandex.Cloud.Mdb.Mysql.V1 {
         Password = other.Password;
       }
       permissions_.Add(other.permissions_);
+      globalPermissions_.Add(other.globalPermissions_);
+      if (other.connectionLimits_ != null) {
+        if (connectionLimits_ == null) {
+          ConnectionLimits = new global::Yandex.Cloud.Mdb.Mysql.V1.ConnectionLimits();
+        }
+        ConnectionLimits.MergeFrom(other.ConnectionLimits);
+      }
+      if (other.AuthenticationPlugin != 0) {
+        AuthenticationPlugin = other.AuthenticationPlugin;
+      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -668,6 +1139,22 @@ namespace Yandex.Cloud.Mdb.Mysql.V1 {
           }
           case 26: {
             permissions_.AddEntriesFrom(input, _repeated_permissions_codec);
+            break;
+          }
+          case 34:
+          case 32: {
+            globalPermissions_.AddEntriesFrom(input, _repeated_globalPermissions_codec);
+            break;
+          }
+          case 42: {
+            if (connectionLimits_ == null) {
+              ConnectionLimits = new global::Yandex.Cloud.Mdb.Mysql.V1.ConnectionLimits();
+            }
+            input.ReadMessage(ConnectionLimits);
+            break;
+          }
+          case 48: {
+            AuthenticationPlugin = (global::Yandex.Cloud.Mdb.Mysql.V1.AuthPlugin) input.ReadEnum();
             break;
           }
         }

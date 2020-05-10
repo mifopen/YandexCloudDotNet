@@ -132,157 +132,169 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
             "Q0lGSUVEEAASDgoKUE9TVEdSRVNRTBABEgoKBlBPT0xFUhACImsKF0xpc3RD",
             "bHVzdGVyTG9nc1Jlc3BvbnNlEjcKBGxvZ3MYASADKAsyKS55YW5kZXguY2xv",
             "dWQubWRiLnBvc3RncmVzcWwudjEuTG9nUmVjb3JkEhcKD25leHRfcGFnZV90",
-            "b2tlbhgCIAEoCSJ+ChxMaXN0Q2x1c3Rlck9wZXJhdGlvbnNSZXF1ZXN0EiAK",
-            "CmNsdXN0ZXJfaWQYASABKAlCDOjHMQGKyDEEPD01MBIdCglwYWdlX3NpemUY",
-            "AiABKANCCvrHMQY8PTEwMDASHQoKcGFnZV90b2tlbhgDIAEoCUIJisgxBTw9",
-            "MTAwIm8KHUxpc3RDbHVzdGVyT3BlcmF0aW9uc1Jlc3BvbnNlEjUKCm9wZXJh",
-            "dGlvbnMYASADKAsyIS55YW5kZXguY2xvdWQub3BlcmF0aW9uLk9wZXJhdGlv",
-            "bhIXCg9uZXh0X3BhZ2VfdG9rZW4YAiABKAkiewoZTGlzdENsdXN0ZXJCYWNr",
-            "dXBzUmVxdWVzdBIgCgpjbHVzdGVyX2lkGAEgASgJQgzoxzEBisgxBDw9NTAS",
-            "HQoJcGFnZV9zaXplGAIgASgDQgr6xzEGPD0xMDAwEh0KCnBhZ2VfdG9rZW4Y",
-            "AyABKAlCCYrIMQU8PTEwMCJuChpMaXN0Q2x1c3RlckJhY2t1cHNSZXNwb25z",
-            "ZRI3CgdiYWNrdXBzGAEgAygLMiYueWFuZGV4LmNsb3VkLm1kYi5wb3N0Z3Jl",
-            "c3FsLnYxLkJhY2t1cBIXCg9uZXh0X3BhZ2VfdG9rZW4YAiABKAkieQoXTGlz",
-            "dENsdXN0ZXJIb3N0c1JlcXVlc3QSIAoKY2x1c3Rlcl9pZBgBIAEoCUIM6Mcx",
-            "AYrIMQQ8PTUwEh0KCXBhZ2Vfc2l6ZRgCIAEoA0IK+scxBjw9MTAwMBIdCgpw",
-            "YWdlX3Rva2VuGAMgASgJQgmKyDEFPD0xMDAiaAoYTGlzdENsdXN0ZXJIb3N0",
-            "c1Jlc3BvbnNlEjMKBWhvc3RzGAEgAygLMiQueWFuZGV4LmNsb3VkLm1kYi5w",
-            "b3N0Z3Jlc3FsLnYxLkhvc3QSFwoPbmV4dF9wYWdlX3Rva2VuGAIgASgJIoAB",
-            "ChZBZGRDbHVzdGVySG9zdHNSZXF1ZXN0EiAKCmNsdXN0ZXJfaWQYASABKAlC",
-            "DOjHMQGKyDEEPD01MBJECgpob3N0X3NwZWNzGAIgAygLMigueWFuZGV4LmNs",
-            "b3VkLm1kYi5wb3N0Z3Jlc3FsLnYxLkhvc3RTcGVjQgaCyDECPjAiQQoXQWRk",
-            "Q2x1c3Rlckhvc3RzTWV0YWRhdGESEgoKY2x1c3Rlcl9pZBgBIAEoCRISCgpo",
-            "b3N0X25hbWVzGAIgAygJImIKGURlbGV0ZUNsdXN0ZXJIb3N0c1JlcXVlc3QS",
-            "IAoKY2x1c3Rlcl9pZBgBIAEoCUIM6McxAYrIMQQ8PTUwEiMKCmhvc3RfbmFt",
-            "ZXMYAiADKAlCD4LIMQI+MIrIMQU8PTI1MyJEChpEZWxldGVDbHVzdGVySG9z",
-            "dHNNZXRhZGF0YRISCgpjbHVzdGVyX2lkGAEgASgJEhIKCmhvc3RfbmFtZXMY",
-            "AiADKAkikAEKGVVwZGF0ZUNsdXN0ZXJIb3N0c1JlcXVlc3QSIAoKY2x1c3Rl",
-            "cl9pZBgBIAEoCUIM6McxAYrIMQQ8PTUwElEKEXVwZGF0ZV9ob3N0X3NwZWNz",
-            "GAIgAygLMi4ueWFuZGV4LmNsb3VkLm1kYi5wb3N0Z3Jlc3FsLnYxLlVwZGF0",
-            "ZUhvc3RTcGVjQgaCyDECPjAiRAoaVXBkYXRlQ2x1c3Rlckhvc3RzTWV0YWRh",
-            "dGESEgoKY2x1c3Rlcl9pZBgBIAEoCRISCgpob3N0X25hbWVzGAIgAygJIrkB",
-            "Cg5VcGRhdGVIb3N0U3BlYxIXCglob3N0X25hbWUYASABKAlCBOjHMQESGgoS",
-            "cmVwbGljYXRpb25fc291cmNlGAIgASgJEi0KCHByaW9yaXR5GAMgASgLMhsu",
-            "Z29vZ2xlLnByb3RvYnVmLkludDY0VmFsdWUSQwoLY29uZmlnX3NwZWMYBCAB",
-            "KAsyLi55YW5kZXguY2xvdWQubWRiLnBvc3RncmVzcWwudjEuQ29uZmlnSG9z",
-            "dFNwZWMi7AEKCEhvc3RTcGVjEhkKB3pvbmVfaWQYASABKAlCCIrIMQQ8PTUw",
-            "EhsKCXN1Ym5ldF9pZBgCIAEoCUIIisgxBDw9NTASGAoQYXNzaWduX3B1Ymxp",
-            "Y19pcBgDIAEoCBIaChJyZXBsaWNhdGlvbl9zb3VyY2UYBCABKAkSLQoIcHJp",
-            "b3JpdHkYBSABKAsyGy5nb29nbGUucHJvdG9idWYuSW50NjRWYWx1ZRJDCgtj",
-            "b25maWdfc3BlYxgGIAEoCzIuLnlhbmRleC5jbG91ZC5tZGIucG9zdGdyZXNx",
-            "bC52MS5Db25maWdIb3N0U3BlYyKtBgoKQ29uZmlnU3BlYxIPCgd2ZXJzaW9u",
-            "GAEgASgJElsKFXBvc3RncmVzcWxfY29uZmlnXzlfNhgCIAEoCzI6LnlhbmRl",
-            "eC5jbG91ZC5tZGIucG9zdGdyZXNxbC52MS5jb25maWcuUG9zdGdyZXNxbENv",
-            "bmZpZzlfNkgAEl8KF3Bvc3RncmVzcWxfY29uZmlnXzEwXzFjGAogASgLMjwu",
-            "eWFuZGV4LmNsb3VkLm1kYi5wb3N0Z3Jlc3FsLnYxLmNvbmZpZy5Qb3N0Z3Jl",
-            "c3FsQ29uZmlnMTBfMUNIABJZChRwb3N0Z3Jlc3FsX2NvbmZpZ18xMBgDIAEo",
-            "CzI5LnlhbmRleC5jbG91ZC5tZGIucG9zdGdyZXNxbC52MS5jb25maWcuUG9z",
-            "dGdyZXNxbENvbmZpZzEwSAASWQoUcG9zdGdyZXNxbF9jb25maWdfMTEYByAB",
-            "KAsyOS55YW5kZXguY2xvdWQubWRiLnBvc3RncmVzcWwudjEuY29uZmlnLlBv",
-            "c3RncmVzcWxDb25maWcxMUgAElkKFHBvc3RncmVzcWxfY29uZmlnXzEyGAsg",
-            "ASgLMjkueWFuZGV4LmNsb3VkLm1kYi5wb3N0Z3Jlc3FsLnYxLmNvbmZpZy5Q",
-            "b3N0Z3Jlc3FsQ29uZmlnMTJIABJNCg1wb29sZXJfY29uZmlnGAQgASgLMjYu",
-            "eWFuZGV4LmNsb3VkLm1kYi5wb3N0Z3Jlc3FsLnYxLkNvbm5lY3Rpb25Qb29s",
-            "ZXJDb25maWcSPAoJcmVzb3VyY2VzGAUgASgLMikueWFuZGV4LmNsb3VkLm1k",
-            "Yi5wb3N0Z3Jlc3FsLnYxLlJlc291cmNlcxIwCgxhdXRvZmFpbG92ZXIYBiAB",
-            "KAsyGi5nb29nbGUucHJvdG9idWYuQm9vbFZhbHVlEjMKE2JhY2t1cF93aW5k",
-            "b3dfc3RhcnQYCCABKAsyFi5nb29nbGUudHlwZS5UaW1lT2ZEYXkSNgoGYWNj",
-            "ZXNzGAkgASgLMiYueWFuZGV4LmNsb3VkLm1kYi5wb3N0Z3Jlc3FsLnYxLkFj",
-            "Y2Vzc0ITChFwb3N0Z3Jlc3FsX2NvbmZpZyKIBAoOQ29uZmlnSG9zdFNwZWMS",
-            "XwoVcG9zdGdyZXNxbF9jb25maWdfOV82GAEgASgLMj4ueWFuZGV4LmNsb3Vk",
+            "b2tlbhgCIAEoCSLUAgoYU3RyZWFtQ2x1c3RlckxvZ3NSZXF1ZXN0EiAKCmNs",
+            "dXN0ZXJfaWQYASABKAlCDOjHMQGKyDEEPD01MBIVCg1jb2x1bW5fZmlsdGVy",
+            "GAIgAygJEloKDHNlcnZpY2VfdHlwZRgDIAEoDjJELnlhbmRleC5jbG91ZC5t",
+            "ZGIucG9zdGdyZXNxbC52MS5TdHJlYW1DbHVzdGVyTG9nc1JlcXVlc3QuU2Vy",
+            "dmljZVR5cGUSLQoJZnJvbV90aW1lGAQgASgLMhouZ29vZ2xlLnByb3RvYnVm",
+            "LlRpbWVzdGFtcBIrCgd0b190aW1lGAUgASgLMhouZ29vZ2xlLnByb3RvYnVm",
+            "LlRpbWVzdGFtcCJHCgtTZXJ2aWNlVHlwZRIcChhTRVJWSUNFX1RZUEVfVU5T",
+            "UEVDSUZJRUQQABIOCgpQT1NUR1JFU1FMEAESCgoGUE9PTEVSEAIifgocTGlz",
+            "dENsdXN0ZXJPcGVyYXRpb25zUmVxdWVzdBIgCgpjbHVzdGVyX2lkGAEgASgJ",
+            "QgzoxzEBisgxBDw9NTASHQoJcGFnZV9zaXplGAIgASgDQgr6xzEGPD0xMDAw",
+            "Eh0KCnBhZ2VfdG9rZW4YAyABKAlCCYrIMQU8PTEwMCJvCh1MaXN0Q2x1c3Rl",
+            "ck9wZXJhdGlvbnNSZXNwb25zZRI1CgpvcGVyYXRpb25zGAEgAygLMiEueWFu",
+            "ZGV4LmNsb3VkLm9wZXJhdGlvbi5PcGVyYXRpb24SFwoPbmV4dF9wYWdlX3Rv",
+            "a2VuGAIgASgJInsKGUxpc3RDbHVzdGVyQmFja3Vwc1JlcXVlc3QSIAoKY2x1",
+            "c3Rlcl9pZBgBIAEoCUIM6McxAYrIMQQ8PTUwEh0KCXBhZ2Vfc2l6ZRgCIAEo",
+            "A0IK+scxBjw9MTAwMBIdCgpwYWdlX3Rva2VuGAMgASgJQgmKyDEFPD0xMDAi",
+            "bgoaTGlzdENsdXN0ZXJCYWNrdXBzUmVzcG9uc2USNwoHYmFja3VwcxgBIAMo",
+            "CzImLnlhbmRleC5jbG91ZC5tZGIucG9zdGdyZXNxbC52MS5CYWNrdXASFwoP",
+            "bmV4dF9wYWdlX3Rva2VuGAIgASgJInkKF0xpc3RDbHVzdGVySG9zdHNSZXF1",
+            "ZXN0EiAKCmNsdXN0ZXJfaWQYASABKAlCDOjHMQGKyDEEPD01MBIdCglwYWdl",
+            "X3NpemUYAiABKANCCvrHMQY8PTEwMDASHQoKcGFnZV90b2tlbhgDIAEoCUIJ",
+            "isgxBTw9MTAwImgKGExpc3RDbHVzdGVySG9zdHNSZXNwb25zZRIzCgVob3N0",
+            "cxgBIAMoCzIkLnlhbmRleC5jbG91ZC5tZGIucG9zdGdyZXNxbC52MS5Ib3N0",
+            "EhcKD25leHRfcGFnZV90b2tlbhgCIAEoCSKAAQoWQWRkQ2x1c3Rlckhvc3Rz",
+            "UmVxdWVzdBIgCgpjbHVzdGVyX2lkGAEgASgJQgzoxzEBisgxBDw9NTASRAoK",
+            "aG9zdF9zcGVjcxgCIAMoCzIoLnlhbmRleC5jbG91ZC5tZGIucG9zdGdyZXNx",
+            "bC52MS5Ib3N0U3BlY0IGgsgxAj4wIkEKF0FkZENsdXN0ZXJIb3N0c01ldGFk",
+            "YXRhEhIKCmNsdXN0ZXJfaWQYASABKAkSEgoKaG9zdF9uYW1lcxgCIAMoCSJi",
+            "ChlEZWxldGVDbHVzdGVySG9zdHNSZXF1ZXN0EiAKCmNsdXN0ZXJfaWQYASAB",
+            "KAlCDOjHMQGKyDEEPD01MBIjCgpob3N0X25hbWVzGAIgAygJQg+CyDECPjCK",
+            "yDEFPD0yNTMiRAoaRGVsZXRlQ2x1c3Rlckhvc3RzTWV0YWRhdGESEgoKY2x1",
+            "c3Rlcl9pZBgBIAEoCRISCgpob3N0X25hbWVzGAIgAygJIpABChlVcGRhdGVD",
+            "bHVzdGVySG9zdHNSZXF1ZXN0EiAKCmNsdXN0ZXJfaWQYASABKAlCDOjHMQGK",
+            "yDEEPD01MBJRChF1cGRhdGVfaG9zdF9zcGVjcxgCIAMoCzIuLnlhbmRleC5j",
+            "bG91ZC5tZGIucG9zdGdyZXNxbC52MS5VcGRhdGVIb3N0U3BlY0IGgsgxAj4w",
+            "IkQKGlVwZGF0ZUNsdXN0ZXJIb3N0c01ldGFkYXRhEhIKCmNsdXN0ZXJfaWQY",
+            "ASABKAkSEgoKaG9zdF9uYW1lcxgCIAMoCSK5AQoOVXBkYXRlSG9zdFNwZWMS",
+            "FwoJaG9zdF9uYW1lGAEgASgJQgToxzEBEhoKEnJlcGxpY2F0aW9uX3NvdXJj",
+            "ZRgCIAEoCRItCghwcmlvcml0eRgDIAEoCzIbLmdvb2dsZS5wcm90b2J1Zi5J",
+            "bnQ2NFZhbHVlEkMKC2NvbmZpZ19zcGVjGAQgASgLMi4ueWFuZGV4LmNsb3Vk",
+            "Lm1kYi5wb3N0Z3Jlc3FsLnYxLkNvbmZpZ0hvc3RTcGVjIuwBCghIb3N0U3Bl",
+            "YxIZCgd6b25lX2lkGAEgASgJQgiKyDEEPD01MBIbCglzdWJuZXRfaWQYAiAB",
+            "KAlCCIrIMQQ8PTUwEhgKEGFzc2lnbl9wdWJsaWNfaXAYAyABKAgSGgoScmVw",
+            "bGljYXRpb25fc291cmNlGAQgASgJEi0KCHByaW9yaXR5GAUgASgLMhsuZ29v",
+            "Z2xlLnByb3RvYnVmLkludDY0VmFsdWUSQwoLY29uZmlnX3NwZWMYBiABKAsy",
+            "Li55YW5kZXguY2xvdWQubWRiLnBvc3RncmVzcWwudjEuQ29uZmlnSG9zdFNw",
+            "ZWMirQYKCkNvbmZpZ1NwZWMSDwoHdmVyc2lvbhgBIAEoCRJbChVwb3N0Z3Jl",
+            "c3FsX2NvbmZpZ185XzYYAiABKAsyOi55YW5kZXguY2xvdWQubWRiLnBvc3Rn",
+            "cmVzcWwudjEuY29uZmlnLlBvc3RncmVzcWxDb25maWc5XzZIABJfChdwb3N0",
+            "Z3Jlc3FsX2NvbmZpZ18xMF8xYxgKIAEoCzI8LnlhbmRleC5jbG91ZC5tZGIu",
+            "cG9zdGdyZXNxbC52MS5jb25maWcuUG9zdGdyZXNxbENvbmZpZzEwXzFDSAAS",
+            "WQoUcG9zdGdyZXNxbF9jb25maWdfMTAYAyABKAsyOS55YW5kZXguY2xvdWQu",
+            "bWRiLnBvc3RncmVzcWwudjEuY29uZmlnLlBvc3RncmVzcWxDb25maWcxMEgA",
+            "ElkKFHBvc3RncmVzcWxfY29uZmlnXzExGAcgASgLMjkueWFuZGV4LmNsb3Vk",
+            "Lm1kYi5wb3N0Z3Jlc3FsLnYxLmNvbmZpZy5Qb3N0Z3Jlc3FsQ29uZmlnMTFI",
+            "ABJZChRwb3N0Z3Jlc3FsX2NvbmZpZ18xMhgLIAEoCzI5LnlhbmRleC5jbG91",
+            "ZC5tZGIucG9zdGdyZXNxbC52MS5jb25maWcuUG9zdGdyZXNxbENvbmZpZzEy",
+            "SAASTQoNcG9vbGVyX2NvbmZpZxgEIAEoCzI2LnlhbmRleC5jbG91ZC5tZGIu",
+            "cG9zdGdyZXNxbC52MS5Db25uZWN0aW9uUG9vbGVyQ29uZmlnEjwKCXJlc291",
+            "cmNlcxgFIAEoCzIpLnlhbmRleC5jbG91ZC5tZGIucG9zdGdyZXNxbC52MS5S",
+            "ZXNvdXJjZXMSMAoMYXV0b2ZhaWxvdmVyGAYgASgLMhouZ29vZ2xlLnByb3Rv",
+            "YnVmLkJvb2xWYWx1ZRIzChNiYWNrdXBfd2luZG93X3N0YXJ0GAggASgLMhYu",
+            "Z29vZ2xlLnR5cGUuVGltZU9mRGF5EjYKBmFjY2VzcxgJIAEoCzImLnlhbmRl",
+            "eC5jbG91ZC5tZGIucG9zdGdyZXNxbC52MS5BY2Nlc3NCEwoRcG9zdGdyZXNx",
+            "bF9jb25maWciiAQKDkNvbmZpZ0hvc3RTcGVjEl8KFXBvc3RncmVzcWxfY29u",
+            "ZmlnXzlfNhgBIAEoCzI+LnlhbmRleC5jbG91ZC5tZGIucG9zdGdyZXNxbC52",
+            "MS5jb25maWcuUG9zdGdyZXNxbEhvc3RDb25maWc5XzZIABJjChdwb3N0Z3Jl",
+            "c3FsX2NvbmZpZ18xMF8xYxgEIAEoCzJALnlhbmRleC5jbG91ZC5tZGIucG9z",
+            "dGdyZXNxbC52MS5jb25maWcuUG9zdGdyZXNxbEhvc3RDb25maWcxMF8xQ0gA",
+            "El0KFHBvc3RncmVzcWxfY29uZmlnXzEwGAIgASgLMj0ueWFuZGV4LmNsb3Vk",
             "Lm1kYi5wb3N0Z3Jlc3FsLnYxLmNvbmZpZy5Qb3N0Z3Jlc3FsSG9zdENvbmZp",
-            "ZzlfNkgAEmMKF3Bvc3RncmVzcWxfY29uZmlnXzEwXzFjGAQgASgLMkAueWFu",
-            "ZGV4LmNsb3VkLm1kYi5wb3N0Z3Jlc3FsLnYxLmNvbmZpZy5Qb3N0Z3Jlc3Fs",
-            "SG9zdENvbmZpZzEwXzFDSAASXQoUcG9zdGdyZXNxbF9jb25maWdfMTAYAiAB",
-            "KAsyPS55YW5kZXguY2xvdWQubWRiLnBvc3RncmVzcWwudjEuY29uZmlnLlBv",
-            "c3RncmVzcWxIb3N0Q29uZmlnMTBIABJdChRwb3N0Z3Jlc3FsX2NvbmZpZ18x",
-            "MRgDIAEoCzI9LnlhbmRleC5jbG91ZC5tZGIucG9zdGdyZXNxbC52MS5jb25m",
-            "aWcuUG9zdGdyZXNxbEhvc3RDb25maWcxMUgAEl0KFHBvc3RncmVzcWxfY29u",
-            "ZmlnXzEyGAUgASgLMj0ueWFuZGV4LmNsb3VkLm1kYi5wb3N0Z3Jlc3FsLnYx",
-            "LmNvbmZpZy5Qb3N0Z3Jlc3FsSG9zdENvbmZpZzEySABCEwoRcG9zdGdyZXNx",
-            "bF9jb25maWcygxwKDkNsdXN0ZXJTZXJ2aWNlEpcBCgNHZXQSMS55YW5kZXgu",
-            "Y2xvdWQubWRiLnBvc3RncmVzcWwudjEuR2V0Q2x1c3RlclJlcXVlc3QaJy55",
-            "YW5kZXguY2xvdWQubWRiLnBvc3RncmVzcWwudjEuQ2x1c3RlciI0gtPkkwIu",
-            "EiwvbWFuYWdlZC1wb3N0Z3Jlc3FsL3YxL2NsdXN0ZXJzL3tjbHVzdGVyX2lk",
-            "fRKaAQoETGlzdBIzLnlhbmRleC5jbG91ZC5tZGIucG9zdGdyZXNxbC52MS5M",
-            "aXN0Q2x1c3RlcnNSZXF1ZXN0GjQueWFuZGV4LmNsb3VkLm1kYi5wb3N0Z3Jl",
-            "c3FsLnYxLkxpc3RDbHVzdGVyc1Jlc3BvbnNlIieC0+STAiESHy9tYW5hZ2Vk",
-            "LXBvc3RncmVzcWwvdjEvY2x1c3RlcnMSsQEKBkNyZWF0ZRI0LnlhbmRleC5j",
-            "bG91ZC5tZGIucG9zdGdyZXNxbC52MS5DcmVhdGVDbHVzdGVyUmVxdWVzdBoh",
-            "LnlhbmRleC5jbG91ZC5vcGVyYXRpb24uT3BlcmF0aW9uIk6C0+STAiQiHy9t",
-            "YW5hZ2VkLXBvc3RncmVzcWwvdjEvY2x1c3RlcnM6ASqy0iogChVDcmVhdGVD",
-            "bHVzdGVyTWV0YWRhdGESB0NsdXN0ZXISvgEKBlVwZGF0ZRI0LnlhbmRleC5j",
-            "bG91ZC5tZGIucG9zdGdyZXNxbC52MS5VcGRhdGVDbHVzdGVyUmVxdWVzdBoh",
-            "LnlhbmRleC5jbG91ZC5vcGVyYXRpb24uT3BlcmF0aW9uIluC0+STAjEyLC9t",
-            "YW5hZ2VkLXBvc3RncmVzcWwvdjEvY2x1c3RlcnMve2NsdXN0ZXJfaWR9OgEq",
-            "stIqIAoVVXBkYXRlQ2x1c3Rlck1ldGFkYXRhEgdDbHVzdGVyEskBCgZEZWxl",
-            "dGUSNC55YW5kZXguY2xvdWQubWRiLnBvc3RncmVzcWwudjEuRGVsZXRlQ2x1",
-            "c3RlclJlcXVlc3QaIS55YW5kZXguY2xvdWQub3BlcmF0aW9uLk9wZXJhdGlv",
-            "biJmgtPkkwIuKiwvbWFuYWdlZC1wb3N0Z3Jlc3FsL3YxL2NsdXN0ZXJzL3tj",
-            "bHVzdGVyX2lkfbLSKi4KFURlbGV0ZUNsdXN0ZXJNZXRhZGF0YRIVZ29vZ2xl",
-            "LnByb3RvYnVmLkVtcHR5Er4BCgVTdGFydBIzLnlhbmRleC5jbG91ZC5tZGIu",
-            "cG9zdGdyZXNxbC52MS5TdGFydENsdXN0ZXJSZXF1ZXN0GiEueWFuZGV4LmNs",
-            "b3VkLm9wZXJhdGlvbi5PcGVyYXRpb24iXYLT5JMCNCIyL21hbmFnZWQtcG9z",
-            "dGdyZXNxbC92MS9jbHVzdGVycy97Y2x1c3Rlcl9pZH06c3RhcnSy0iofChRT",
-            "dGFydENsdXN0ZXJNZXRhZGF0YRIHQ2x1c3RlchK6AQoEU3RvcBIyLnlhbmRl",
-            "eC5jbG91ZC5tZGIucG9zdGdyZXNxbC52MS5TdG9wQ2x1c3RlclJlcXVlc3Qa",
-            "IS55YW5kZXguY2xvdWQub3BlcmF0aW9uLk9wZXJhdGlvbiJbgtPkkwIzIjEv",
-            "bWFuYWdlZC1wb3N0Z3Jlc3FsL3YxL2NsdXN0ZXJzL3tjbHVzdGVyX2lkfTpz",
-            "dG9wstIqHgoTU3RvcENsdXN0ZXJNZXRhZGF0YRIHQ2x1c3RlchK9AQoETW92",
-            "ZRIyLnlhbmRleC5jbG91ZC5tZGIucG9zdGdyZXNxbC52MS5Nb3ZlQ2x1c3Rl",
-            "clJlcXVlc3QaIS55YW5kZXguY2xvdWQub3BlcmF0aW9uLk9wZXJhdGlvbiJe",
-            "gtPkkwI2IjEvbWFuYWdlZC1wb3N0Z3Jlc3FsL3YxL2NsdXN0ZXJzL3tjbHVz",
-            "dGVyX2lkfTptb3ZlOgEqstIqHgoTTW92ZUNsdXN0ZXJNZXRhZGF0YRIHQ2x1",
-            "c3RlchLCAQoGQmFja3VwEjQueWFuZGV4LmNsb3VkLm1kYi5wb3N0Z3Jlc3Fs",
-            "LnYxLkJhY2t1cENsdXN0ZXJSZXF1ZXN0GiEueWFuZGV4LmNsb3VkLm9wZXJh",
-            "dGlvbi5PcGVyYXRpb24iX4LT5JMCNSIzL21hbmFnZWQtcG9zdGdyZXNxbC92",
-            "MS9jbHVzdGVycy97Y2x1c3Rlcl9pZH06YmFja3VwstIqIAoVQmFja3VwQ2x1",
-            "c3Rlck1ldGFkYXRhEgdDbHVzdGVyErwBCgdSZXN0b3JlEjUueWFuZGV4LmNs",
-            "b3VkLm1kYi5wb3N0Z3Jlc3FsLnYxLlJlc3RvcmVDbHVzdGVyUmVxdWVzdBoh",
-            "LnlhbmRleC5jbG91ZC5vcGVyYXRpb24uT3BlcmF0aW9uIleC0+STAiwiJy9t",
-            "YW5hZ2VkLXBvc3RncmVzcWwvdjEvY2x1c3RlcnM6cmVzdG9yZToBKrLSKiEK",
-            "FlJlc3RvcmVDbHVzdGVyTWV0YWRhdGESB0NsdXN0ZXIS4QEKDVN0YXJ0RmFp",
-            "bG92ZXISOy55YW5kZXguY2xvdWQubWRiLnBvc3RncmVzcWwudjEuU3RhcnRD",
-            "bHVzdGVyRmFpbG92ZXJSZXF1ZXN0GiEueWFuZGV4LmNsb3VkLm9wZXJhdGlv",
-            "bi5PcGVyYXRpb24icILT5JMCPyI6L21hbmFnZWQtcG9zdGdyZXNxbC92MS9j",
-            "bHVzdGVycy97Y2x1c3Rlcl9pZH06c3RhcnRGYWlsb3ZlcjoBKrLSKicKHFN0",
-            "YXJ0Q2x1c3RlckZhaWxvdmVyTWV0YWRhdGESB0NsdXN0ZXIStgEKCExpc3RM",
-            "b2dzEjYueWFuZGV4LmNsb3VkLm1kYi5wb3N0Z3Jlc3FsLnYxLkxpc3RDbHVz",
-            "dGVyTG9nc1JlcXVlc3QaNy55YW5kZXguY2xvdWQubWRiLnBvc3RncmVzcWwu",
-            "djEuTGlzdENsdXN0ZXJMb2dzUmVzcG9uc2UiOYLT5JMCMxIxL21hbmFnZWQt",
-            "cG9zdGdyZXNxbC92MS9jbHVzdGVycy97Y2x1c3Rlcl9pZH06bG9ncxLOAQoO",
-            "TGlzdE9wZXJhdGlvbnMSPC55YW5kZXguY2xvdWQubWRiLnBvc3RncmVzcWwu",
-            "djEuTGlzdENsdXN0ZXJPcGVyYXRpb25zUmVxdWVzdBo9LnlhbmRleC5jbG91",
-            "ZC5tZGIucG9zdGdyZXNxbC52MS5MaXN0Q2x1c3Rlck9wZXJhdGlvbnNSZXNw",
-            "b25zZSI/gtPkkwI5EjcvbWFuYWdlZC1wb3N0Z3Jlc3FsL3YxL2NsdXN0ZXJz",
-            "L3tjbHVzdGVyX2lkfS9vcGVyYXRpb25zEsIBCgtMaXN0QmFja3VwcxI5Lnlh",
-            "bmRleC5jbG91ZC5tZGIucG9zdGdyZXNxbC52MS5MaXN0Q2x1c3RlckJhY2t1",
-            "cHNSZXF1ZXN0GjoueWFuZGV4LmNsb3VkLm1kYi5wb3N0Z3Jlc3FsLnYxLkxp",
-            "c3RDbHVzdGVyQmFja3Vwc1Jlc3BvbnNlIjyC0+STAjYSNC9tYW5hZ2VkLXBv",
-            "c3RncmVzcWwvdjEvY2x1c3RlcnMve2NsdXN0ZXJfaWR9L2JhY2t1cHMSugEK",
-            "CUxpc3RIb3N0cxI3LnlhbmRleC5jbG91ZC5tZGIucG9zdGdyZXNxbC52MS5M",
-            "aXN0Q2x1c3Rlckhvc3RzUmVxdWVzdBo4LnlhbmRleC5jbG91ZC5tZGIucG9z",
-            "dGdyZXNxbC52MS5MaXN0Q2x1c3Rlckhvc3RzUmVzcG9uc2UiOoLT5JMCNBIy",
+            "ZzEwSAASXQoUcG9zdGdyZXNxbF9jb25maWdfMTEYAyABKAsyPS55YW5kZXgu",
+            "Y2xvdWQubWRiLnBvc3RncmVzcWwudjEuY29uZmlnLlBvc3RncmVzcWxIb3N0",
+            "Q29uZmlnMTFIABJdChRwb3N0Z3Jlc3FsX2NvbmZpZ18xMhgFIAEoCzI9Lnlh",
+            "bmRleC5jbG91ZC5tZGIucG9zdGdyZXNxbC52MS5jb25maWcuUG9zdGdyZXNx",
+            "bEhvc3RDb25maWcxMkgAQhMKEXBvc3RncmVzcWxfY29uZmlnMrsdCg5DbHVz",
+            "dGVyU2VydmljZRKXAQoDR2V0EjEueWFuZGV4LmNsb3VkLm1kYi5wb3N0Z3Jl",
+            "c3FsLnYxLkdldENsdXN0ZXJSZXF1ZXN0GicueWFuZGV4LmNsb3VkLm1kYi5w",
+            "b3N0Z3Jlc3FsLnYxLkNsdXN0ZXIiNILT5JMCLhIsL21hbmFnZWQtcG9zdGdy",
+            "ZXNxbC92MS9jbHVzdGVycy97Y2x1c3Rlcl9pZH0SmgEKBExpc3QSMy55YW5k",
+            "ZXguY2xvdWQubWRiLnBvc3RncmVzcWwudjEuTGlzdENsdXN0ZXJzUmVxdWVz",
+            "dBo0LnlhbmRleC5jbG91ZC5tZGIucG9zdGdyZXNxbC52MS5MaXN0Q2x1c3Rl",
+            "cnNSZXNwb25zZSIngtPkkwIhEh8vbWFuYWdlZC1wb3N0Z3Jlc3FsL3YxL2Ns",
+            "dXN0ZXJzErEBCgZDcmVhdGUSNC55YW5kZXguY2xvdWQubWRiLnBvc3RncmVz",
+            "cWwudjEuQ3JlYXRlQ2x1c3RlclJlcXVlc3QaIS55YW5kZXguY2xvdWQub3Bl",
+            "cmF0aW9uLk9wZXJhdGlvbiJOgtPkkwIkIh8vbWFuYWdlZC1wb3N0Z3Jlc3Fs",
+            "L3YxL2NsdXN0ZXJzOgEqstIqIAoVQ3JlYXRlQ2x1c3Rlck1ldGFkYXRhEgdD",
+            "bHVzdGVyEr4BCgZVcGRhdGUSNC55YW5kZXguY2xvdWQubWRiLnBvc3RncmVz",
+            "cWwudjEuVXBkYXRlQ2x1c3RlclJlcXVlc3QaIS55YW5kZXguY2xvdWQub3Bl",
+            "cmF0aW9uLk9wZXJhdGlvbiJbgtPkkwIxMiwvbWFuYWdlZC1wb3N0Z3Jlc3Fs",
+            "L3YxL2NsdXN0ZXJzL3tjbHVzdGVyX2lkfToBKrLSKiAKFVVwZGF0ZUNsdXN0",
+            "ZXJNZXRhZGF0YRIHQ2x1c3RlchLJAQoGRGVsZXRlEjQueWFuZGV4LmNsb3Vk",
+            "Lm1kYi5wb3N0Z3Jlc3FsLnYxLkRlbGV0ZUNsdXN0ZXJSZXF1ZXN0GiEueWFu",
+            "ZGV4LmNsb3VkLm9wZXJhdGlvbi5PcGVyYXRpb24iZoLT5JMCLiosL21hbmFn",
+            "ZWQtcG9zdGdyZXNxbC92MS9jbHVzdGVycy97Y2x1c3Rlcl9pZH2y0iouChVE",
+            "ZWxldGVDbHVzdGVyTWV0YWRhdGESFWdvb2dsZS5wcm90b2J1Zi5FbXB0eRK+",
+            "AQoFU3RhcnQSMy55YW5kZXguY2xvdWQubWRiLnBvc3RncmVzcWwudjEuU3Rh",
+            "cnRDbHVzdGVyUmVxdWVzdBohLnlhbmRleC5jbG91ZC5vcGVyYXRpb24uT3Bl",
+            "cmF0aW9uIl2C0+STAjQiMi9tYW5hZ2VkLXBvc3RncmVzcWwvdjEvY2x1c3Rl",
+            "cnMve2NsdXN0ZXJfaWR9OnN0YXJ0stIqHwoUU3RhcnRDbHVzdGVyTWV0YWRh",
+            "dGESB0NsdXN0ZXISugEKBFN0b3ASMi55YW5kZXguY2xvdWQubWRiLnBvc3Rn",
+            "cmVzcWwudjEuU3RvcENsdXN0ZXJSZXF1ZXN0GiEueWFuZGV4LmNsb3VkLm9w",
+            "ZXJhdGlvbi5PcGVyYXRpb24iW4LT5JMCMyIxL21hbmFnZWQtcG9zdGdyZXNx",
+            "bC92MS9jbHVzdGVycy97Y2x1c3Rlcl9pZH06c3RvcLLSKh4KE1N0b3BDbHVz",
+            "dGVyTWV0YWRhdGESB0NsdXN0ZXISvQEKBE1vdmUSMi55YW5kZXguY2xvdWQu",
+            "bWRiLnBvc3RncmVzcWwudjEuTW92ZUNsdXN0ZXJSZXF1ZXN0GiEueWFuZGV4",
+            "LmNsb3VkLm9wZXJhdGlvbi5PcGVyYXRpb24iXoLT5JMCNiIxL21hbmFnZWQt",
+            "cG9zdGdyZXNxbC92MS9jbHVzdGVycy97Y2x1c3Rlcl9pZH06bW92ZToBKrLS",
+            "Kh4KE01vdmVDbHVzdGVyTWV0YWRhdGESB0NsdXN0ZXISwgEKBkJhY2t1cBI0",
+            "LnlhbmRleC5jbG91ZC5tZGIucG9zdGdyZXNxbC52MS5CYWNrdXBDbHVzdGVy",
+            "UmVxdWVzdBohLnlhbmRleC5jbG91ZC5vcGVyYXRpb24uT3BlcmF0aW9uIl+C",
+            "0+STAjUiMy9tYW5hZ2VkLXBvc3RncmVzcWwvdjEvY2x1c3RlcnMve2NsdXN0",
+            "ZXJfaWR9OmJhY2t1cLLSKiAKFUJhY2t1cENsdXN0ZXJNZXRhZGF0YRIHQ2x1",
+            "c3RlchK8AQoHUmVzdG9yZRI1LnlhbmRleC5jbG91ZC5tZGIucG9zdGdyZXNx",
+            "bC52MS5SZXN0b3JlQ2x1c3RlclJlcXVlc3QaIS55YW5kZXguY2xvdWQub3Bl",
+            "cmF0aW9uLk9wZXJhdGlvbiJXgtPkkwIsIicvbWFuYWdlZC1wb3N0Z3Jlc3Fs",
+            "L3YxL2NsdXN0ZXJzOnJlc3RvcmU6ASqy0iohChZSZXN0b3JlQ2x1c3Rlck1l",
+            "dGFkYXRhEgdDbHVzdGVyEuEBCg1TdGFydEZhaWxvdmVyEjsueWFuZGV4LmNs",
+            "b3VkLm1kYi5wb3N0Z3Jlc3FsLnYxLlN0YXJ0Q2x1c3RlckZhaWxvdmVyUmVx",
+            "dWVzdBohLnlhbmRleC5jbG91ZC5vcGVyYXRpb24uT3BlcmF0aW9uInCC0+ST",
+            "Aj8iOi9tYW5hZ2VkLXBvc3RncmVzcWwvdjEvY2x1c3RlcnMve2NsdXN0ZXJf",
+            "aWR9OnN0YXJ0RmFpbG92ZXI6ASqy0ionChxTdGFydENsdXN0ZXJGYWlsb3Zl",
+            "ck1ldGFkYXRhEgdDbHVzdGVyErYBCghMaXN0TG9ncxI2LnlhbmRleC5jbG91",
+            "ZC5tZGIucG9zdGdyZXNxbC52MS5MaXN0Q2x1c3RlckxvZ3NSZXF1ZXN0Gjcu",
+            "eWFuZGV4LmNsb3VkLm1kYi5wb3N0Z3Jlc3FsLnYxLkxpc3RDbHVzdGVyTG9n",
+            "c1Jlc3BvbnNlIjmC0+STAjMSMS9tYW5hZ2VkLXBvc3RncmVzcWwvdjEvY2x1",
+            "c3RlcnMve2NsdXN0ZXJfaWR9OmxvZ3MStQEKClN0cmVhbUxvZ3MSOC55YW5k",
+            "ZXguY2xvdWQubWRiLnBvc3RncmVzcWwudjEuU3RyZWFtQ2x1c3RlckxvZ3NS",
+            "ZXF1ZXN0GikueWFuZGV4LmNsb3VkLm1kYi5wb3N0Z3Jlc3FsLnYxLkxvZ1Jl",
+            "Y29yZCJAgtPkkwI6EjgvbWFuYWdlZC1wb3N0Z3Jlc3FsL3YxL2NsdXN0ZXJz",
+            "L3tjbHVzdGVyX2lkfTpzdHJlYW1fbG9nczABEs4BCg5MaXN0T3BlcmF0aW9u",
+            "cxI8LnlhbmRleC5jbG91ZC5tZGIucG9zdGdyZXNxbC52MS5MaXN0Q2x1c3Rl",
+            "ck9wZXJhdGlvbnNSZXF1ZXN0Gj0ueWFuZGV4LmNsb3VkLm1kYi5wb3N0Z3Jl",
+            "c3FsLnYxLkxpc3RDbHVzdGVyT3BlcmF0aW9uc1Jlc3BvbnNlIj+C0+STAjkS",
+            "Ny9tYW5hZ2VkLXBvc3RncmVzcWwvdjEvY2x1c3RlcnMve2NsdXN0ZXJfaWR9",
+            "L29wZXJhdGlvbnMSwgEKC0xpc3RCYWNrdXBzEjkueWFuZGV4LmNsb3VkLm1k",
+            "Yi5wb3N0Z3Jlc3FsLnYxLkxpc3RDbHVzdGVyQmFja3Vwc1JlcXVlc3QaOi55",
+            "YW5kZXguY2xvdWQubWRiLnBvc3RncmVzcWwudjEuTGlzdENsdXN0ZXJCYWNr",
+            "dXBzUmVzcG9uc2UiPILT5JMCNhI0L21hbmFnZWQtcG9zdGdyZXNxbC92MS9j",
+            "bHVzdGVycy97Y2x1c3Rlcl9pZH0vYmFja3VwcxK6AQoJTGlzdEhvc3RzEjcu",
+            "eWFuZGV4LmNsb3VkLm1kYi5wb3N0Z3Jlc3FsLnYxLkxpc3RDbHVzdGVySG9z",
+            "dHNSZXF1ZXN0GjgueWFuZGV4LmNsb3VkLm1kYi5wb3N0Z3Jlc3FsLnYxLkxp",
+            "c3RDbHVzdGVySG9zdHNSZXNwb25zZSI6gtPkkwI0EjIvbWFuYWdlZC1wb3N0",
+            "Z3Jlc3FsL3YxL2NsdXN0ZXJzL3tjbHVzdGVyX2lkfS9ob3N0cxLkAQoIQWRk",
+            "SG9zdHMSNi55YW5kZXguY2xvdWQubWRiLnBvc3RncmVzcWwudjEuQWRkQ2x1",
+            "c3Rlckhvc3RzUmVxdWVzdBohLnlhbmRleC5jbG91ZC5vcGVyYXRpb24uT3Bl",
+            "cmF0aW9uIn2C0+STAkMiPi9tYW5hZ2VkLXBvc3RncmVzcWwvdjEvY2x1c3Rl",
+            "cnMve2NsdXN0ZXJfaWR9L2hvc3RzOmJhdGNoQ3JlYXRlOgEqstIqMAoXQWRk",
+            "Q2x1c3Rlckhvc3RzTWV0YWRhdGESFWdvb2dsZS5wcm90b2J1Zi5FbXB0eRLu",
+            "AQoLRGVsZXRlSG9zdHMSOS55YW5kZXguY2xvdWQubWRiLnBvc3RncmVzcWwu",
+            "djEuRGVsZXRlQ2x1c3Rlckhvc3RzUmVxdWVzdBohLnlhbmRleC5jbG91ZC5v",
+            "cGVyYXRpb24uT3BlcmF0aW9uIoABgtPkkwJDIj4vbWFuYWdlZC1wb3N0Z3Jl",
+            "c3FsL3YxL2NsdXN0ZXJzL3tjbHVzdGVyX2lkfS9ob3N0czpiYXRjaERlbGV0",
+            "ZToBKrLSKjMKGkRlbGV0ZUNsdXN0ZXJIb3N0c01ldGFkYXRhEhVnb29nbGUu",
+            "cHJvdG9idWYuRW1wdHkS7gEKC1VwZGF0ZUhvc3RzEjkueWFuZGV4LmNsb3Vk",
+            "Lm1kYi5wb3N0Z3Jlc3FsLnYxLlVwZGF0ZUNsdXN0ZXJIb3N0c1JlcXVlc3Qa",
+            "IS55YW5kZXguY2xvdWQub3BlcmF0aW9uLk9wZXJhdGlvbiKAAYLT5JMCQyI+",
             "L21hbmFnZWQtcG9zdGdyZXNxbC92MS9jbHVzdGVycy97Y2x1c3Rlcl9pZH0v",
-            "aG9zdHMS5AEKCEFkZEhvc3RzEjYueWFuZGV4LmNsb3VkLm1kYi5wb3N0Z3Jl",
-            "c3FsLnYxLkFkZENsdXN0ZXJIb3N0c1JlcXVlc3QaIS55YW5kZXguY2xvdWQu",
-            "b3BlcmF0aW9uLk9wZXJhdGlvbiJ9gtPkkwJDIj4vbWFuYWdlZC1wb3N0Z3Jl",
-            "c3FsL3YxL2NsdXN0ZXJzL3tjbHVzdGVyX2lkfS9ob3N0czpiYXRjaENyZWF0",
-            "ZToBKrLSKjAKF0FkZENsdXN0ZXJIb3N0c01ldGFkYXRhEhVnb29nbGUucHJv",
-            "dG9idWYuRW1wdHkS7gEKC0RlbGV0ZUhvc3RzEjkueWFuZGV4LmNsb3VkLm1k",
-            "Yi5wb3N0Z3Jlc3FsLnYxLkRlbGV0ZUNsdXN0ZXJIb3N0c1JlcXVlc3QaIS55",
-            "YW5kZXguY2xvdWQub3BlcmF0aW9uLk9wZXJhdGlvbiKAAYLT5JMCQyI+L21h",
-            "bmFnZWQtcG9zdGdyZXNxbC92MS9jbHVzdGVycy97Y2x1c3Rlcl9pZH0vaG9z",
-            "dHM6YmF0Y2hEZWxldGU6ASqy0iozChpEZWxldGVDbHVzdGVySG9zdHNNZXRh",
-            "ZGF0YRIVZ29vZ2xlLnByb3RvYnVmLkVtcHR5Eu4BCgtVcGRhdGVIb3N0cxI5",
-            "LnlhbmRleC5jbG91ZC5tZGIucG9zdGdyZXNxbC52MS5VcGRhdGVDbHVzdGVy",
-            "SG9zdHNSZXF1ZXN0GiEueWFuZGV4LmNsb3VkLm9wZXJhdGlvbi5PcGVyYXRp",
-            "b24igAGC0+STAkMiPi9tYW5hZ2VkLXBvc3RncmVzcWwvdjEvY2x1c3RlcnMv",
-            "e2NsdXN0ZXJfaWR9L2hvc3RzOmJhdGNoVXBkYXRlOgEqstIqMwoaVXBkYXRl",
-            "Q2x1c3Rlckhvc3RzTWV0YWRhdGESFWdvb2dsZS5wcm90b2J1Zi5FbXB0eUJz",
-            "CiJ5YW5kZXguY2xvdWQuYXBpLm1kYi5wb3N0Z3Jlc3FsLnYxWk1naXRodWIu",
-            "Y29tL3lhbmRleC1jbG91ZC9nby1nZW5wcm90by95YW5kZXgvY2xvdWQvbWRi",
-            "L3Bvc3RncmVzcWwvdjE7cG9zdGdyZXNxbGIGcHJvdG8z"));
+            "aG9zdHM6YmF0Y2hVcGRhdGU6ASqy0iozChpVcGRhdGVDbHVzdGVySG9zdHNN",
+            "ZXRhZGF0YRIVZ29vZ2xlLnByb3RvYnVmLkVtcHR5QnMKInlhbmRleC5jbG91",
+            "ZC5hcGkubWRiLnBvc3RncmVzcWwudjFaTWdpdGh1Yi5jb20veWFuZGV4LWNs",
+            "b3VkL2dvLWdlbnByb3RvL3lhbmRleC9jbG91ZC9tZGIvcG9zdGdyZXNxbC92",
+            "MTtwb3N0Z3Jlc3FsYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.WrappersReflection.Descriptor, global::Google.Type.TimeofdayReflection.Descriptor, global::Yandex.Cloud.Api.OperationReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, global::Yandex.Cloud.Mdb.Postgresql.V1.BackupReflection.Descriptor, global::Yandex.Cloud.Mdb.Postgresql.V1.ClusterReflection.Descriptor, global::Yandex.Cloud.Mdb.Postgresql.V1.DatabaseReflection.Descriptor, global::Yandex.Cloud.Mdb.Postgresql.V1.UserReflection.Descriptor, global::Yandex.Cloud.Mdb.Postgresql.V1.Config.Postgresql96Reflection.Descriptor, global::Yandex.Cloud.Mdb.Postgresql.V1.Config.Postgresql10Reflection.Descriptor, global::Yandex.Cloud.Mdb.Postgresql.V1.Config.Postgresql101CReflection.Descriptor, global::Yandex.Cloud.Mdb.Postgresql.V1.Config.Postgresql11Reflection.Descriptor, global::Yandex.Cloud.Mdb.Postgresql.V1.Config.Postgresql12Reflection.Descriptor, global::Yandex.Cloud.Mdb.Postgresql.V1.Config.Host96Reflection.Descriptor, global::Yandex.Cloud.Mdb.Postgresql.V1.Config.Host10Reflection.Descriptor, global::Yandex.Cloud.Mdb.Postgresql.V1.Config.Host101CReflection.Descriptor, global::Yandex.Cloud.Mdb.Postgresql.V1.Config.Host11Reflection.Descriptor, global::Yandex.Cloud.Mdb.Postgresql.V1.Config.Host12Reflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
@@ -310,6 +322,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.LogRecord), global::Yandex.Cloud.Mdb.Postgresql.V1.LogRecord.Parser, new[]{ "Timestamp", "Message" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.ListClusterLogsRequest), global::Yandex.Cloud.Mdb.Postgresql.V1.ListClusterLogsRequest.Parser, new[]{ "ClusterId", "ColumnFilter", "ServiceType", "FromTime", "ToTime", "PageSize", "PageToken", "AlwaysNextPageToken" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.ListClusterLogsRequest.Types.ServiceType) }, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.ListClusterLogsResponse), global::Yandex.Cloud.Mdb.Postgresql.V1.ListClusterLogsResponse.Parser, new[]{ "Logs", "NextPageToken" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.StreamClusterLogsRequest), global::Yandex.Cloud.Mdb.Postgresql.V1.StreamClusterLogsRequest.Parser, new[]{ "ClusterId", "ColumnFilter", "ServiceType", "FromTime", "ToTime" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.StreamClusterLogsRequest.Types.ServiceType) }, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.ListClusterOperationsRequest), global::Yandex.Cloud.Mdb.Postgresql.V1.ListClusterOperationsRequest.Parser, new[]{ "ClusterId", "PageSize", "PageToken" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.ListClusterOperationsResponse), global::Yandex.Cloud.Mdb.Postgresql.V1.ListClusterOperationsResponse.Parser, new[]{ "Operations", "NextPageToken" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.ListClusterBackupsRequest), global::Yandex.Cloud.Mdb.Postgresql.V1.ListClusterBackupsRequest.Parser, new[]{ "ClusterId", "PageSize", "PageToken" }, null, null, null),
@@ -4817,6 +4830,284 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
 
   }
 
+  internal sealed partial class StreamClusterLogsRequest : pb::IMessage<StreamClusterLogsRequest> {
+    private static readonly pb::MessageParser<StreamClusterLogsRequest> _parser = new pb::MessageParser<StreamClusterLogsRequest>(() => new StreamClusterLogsRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<StreamClusterLogsRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Mdb.Postgresql.V1.ClusterServiceReflection.Descriptor.MessageTypes[24]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public StreamClusterLogsRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public StreamClusterLogsRequest(StreamClusterLogsRequest other) : this() {
+      clusterId_ = other.clusterId_;
+      columnFilter_ = other.columnFilter_.Clone();
+      serviceType_ = other.serviceType_;
+      fromTime_ = other.fromTime_ != null ? other.fromTime_.Clone() : null;
+      toTime_ = other.toTime_ != null ? other.toTime_.Clone() : null;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public StreamClusterLogsRequest Clone() {
+      return new StreamClusterLogsRequest(this);
+    }
+
+    /// <summary>Field number for the "cluster_id" field.</summary>
+    public const int ClusterIdFieldNumber = 1;
+    private string clusterId_ = "";
+    /// <summary>
+    /// Required. ID of the PostgreSQL cluster.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ClusterId {
+      get { return clusterId_; }
+      set {
+        clusterId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "column_filter" field.</summary>
+    public const int ColumnFilterFieldNumber = 2;
+    private static readonly pb::FieldCodec<string> _repeated_columnFilter_codec
+        = pb::FieldCodec.ForString(18);
+    private readonly pbc::RepeatedField<string> columnFilter_ = new pbc::RepeatedField<string>();
+    /// <summary>
+    /// Columns from logs table to get in the response.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<string> ColumnFilter {
+      get { return columnFilter_; }
+    }
+
+    /// <summary>Field number for the "service_type" field.</summary>
+    public const int ServiceTypeFieldNumber = 3;
+    private global::Yandex.Cloud.Mdb.Postgresql.V1.StreamClusterLogsRequest.Types.ServiceType serviceType_ = 0;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Mdb.Postgresql.V1.StreamClusterLogsRequest.Types.ServiceType ServiceType {
+      get { return serviceType_; }
+      set {
+        serviceType_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "from_time" field.</summary>
+    public const int FromTimeFieldNumber = 4;
+    private global::Google.Protobuf.WellKnownTypes.Timestamp fromTime_;
+    /// <summary>
+    /// Start timestamp for the logs request.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Google.Protobuf.WellKnownTypes.Timestamp FromTime {
+      get { return fromTime_; }
+      set {
+        fromTime_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "to_time" field.</summary>
+    public const int ToTimeFieldNumber = 5;
+    private global::Google.Protobuf.WellKnownTypes.Timestamp toTime_;
+    /// <summary>
+    /// End timestamp for the logs request.
+    /// If this field is not set, all existing logs will be sent and then the new ones as
+    /// they appear. In essence it has 'tail -f' semantics.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Google.Protobuf.WellKnownTypes.Timestamp ToTime {
+      get { return toTime_; }
+      set {
+        toTime_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as StreamClusterLogsRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(StreamClusterLogsRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (ClusterId != other.ClusterId) return false;
+      if(!columnFilter_.Equals(other.columnFilter_)) return false;
+      if (ServiceType != other.ServiceType) return false;
+      if (!object.Equals(FromTime, other.FromTime)) return false;
+      if (!object.Equals(ToTime, other.ToTime)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (ClusterId.Length != 0) hash ^= ClusterId.GetHashCode();
+      hash ^= columnFilter_.GetHashCode();
+      if (ServiceType != 0) hash ^= ServiceType.GetHashCode();
+      if (fromTime_ != null) hash ^= FromTime.GetHashCode();
+      if (toTime_ != null) hash ^= ToTime.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (ClusterId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(ClusterId);
+      }
+      columnFilter_.WriteTo(output, _repeated_columnFilter_codec);
+      if (ServiceType != 0) {
+        output.WriteRawTag(24);
+        output.WriteEnum((int) ServiceType);
+      }
+      if (fromTime_ != null) {
+        output.WriteRawTag(34);
+        output.WriteMessage(FromTime);
+      }
+      if (toTime_ != null) {
+        output.WriteRawTag(42);
+        output.WriteMessage(ToTime);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (ClusterId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ClusterId);
+      }
+      size += columnFilter_.CalculateSize(_repeated_columnFilter_codec);
+      if (ServiceType != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) ServiceType);
+      }
+      if (fromTime_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(FromTime);
+      }
+      if (toTime_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(ToTime);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(StreamClusterLogsRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.ClusterId.Length != 0) {
+        ClusterId = other.ClusterId;
+      }
+      columnFilter_.Add(other.columnFilter_);
+      if (other.ServiceType != 0) {
+        ServiceType = other.ServiceType;
+      }
+      if (other.fromTime_ != null) {
+        if (fromTime_ == null) {
+          FromTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+        }
+        FromTime.MergeFrom(other.FromTime);
+      }
+      if (other.toTime_ != null) {
+        if (toTime_ == null) {
+          ToTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+        }
+        ToTime.MergeFrom(other.ToTime);
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            ClusterId = input.ReadString();
+            break;
+          }
+          case 18: {
+            columnFilter_.AddEntriesFrom(input, _repeated_columnFilter_codec);
+            break;
+          }
+          case 24: {
+            ServiceType = (global::Yandex.Cloud.Mdb.Postgresql.V1.StreamClusterLogsRequest.Types.ServiceType) input.ReadEnum();
+            break;
+          }
+          case 34: {
+            if (fromTime_ == null) {
+              FromTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(FromTime);
+            break;
+          }
+          case 42: {
+            if (toTime_ == null) {
+              ToTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(ToTime);
+            break;
+          }
+        }
+      }
+    }
+
+    #region Nested types
+    /// <summary>Container for nested types declared in the StreamClusterLogsRequest message type.</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static partial class Types {
+      internal enum ServiceType {
+        [pbr::OriginalName("SERVICE_TYPE_UNSPECIFIED")] Unspecified = 0,
+        /// <summary>
+        /// Logs of PostgreSQL activity.
+        /// </summary>
+        [pbr::OriginalName("POSTGRESQL")] Postgresql = 1,
+        /// <summary>
+        /// Logs of connection pooler activity.
+        /// </summary>
+        [pbr::OriginalName("POOLER")] Pooler = 2,
+      }
+
+    }
+    #endregion
+
+  }
+
   internal sealed partial class ListClusterOperationsRequest : pb::IMessage<ListClusterOperationsRequest> {
     private static readonly pb::MessageParser<ListClusterOperationsRequest> _parser = new pb::MessageParser<ListClusterOperationsRequest>(() => new ListClusterOperationsRequest());
     private pb::UnknownFieldSet _unknownFields;
@@ -4825,7 +5116,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Mdb.Postgresql.V1.ClusterServiceReflection.Descriptor.MessageTypes[24]; }
+      get { return global::Yandex.Cloud.Mdb.Postgresql.V1.ClusterServiceReflection.Descriptor.MessageTypes[25]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5022,7 +5313,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Mdb.Postgresql.V1.ClusterServiceReflection.Descriptor.MessageTypes[25]; }
+      get { return global::Yandex.Cloud.Mdb.Postgresql.V1.ClusterServiceReflection.Descriptor.MessageTypes[26]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5180,7 +5471,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Mdb.Postgresql.V1.ClusterServiceReflection.Descriptor.MessageTypes[26]; }
+      get { return global::Yandex.Cloud.Mdb.Postgresql.V1.ClusterServiceReflection.Descriptor.MessageTypes[27]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5378,7 +5669,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Mdb.Postgresql.V1.ClusterServiceReflection.Descriptor.MessageTypes[27]; }
+      get { return global::Yandex.Cloud.Mdb.Postgresql.V1.ClusterServiceReflection.Descriptor.MessageTypes[28]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5536,7 +5827,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Mdb.Postgresql.V1.ClusterServiceReflection.Descriptor.MessageTypes[28]; }
+      get { return global::Yandex.Cloud.Mdb.Postgresql.V1.ClusterServiceReflection.Descriptor.MessageTypes[29]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5734,7 +6025,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Mdb.Postgresql.V1.ClusterServiceReflection.Descriptor.MessageTypes[29]; }
+      get { return global::Yandex.Cloud.Mdb.Postgresql.V1.ClusterServiceReflection.Descriptor.MessageTypes[30]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5892,7 +6183,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Mdb.Postgresql.V1.ClusterServiceReflection.Descriptor.MessageTypes[30]; }
+      get { return global::Yandex.Cloud.Mdb.Postgresql.V1.ClusterServiceReflection.Descriptor.MessageTypes[31]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6048,7 +6339,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Mdb.Postgresql.V1.ClusterServiceReflection.Descriptor.MessageTypes[31]; }
+      get { return global::Yandex.Cloud.Mdb.Postgresql.V1.ClusterServiceReflection.Descriptor.MessageTypes[32]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6203,7 +6494,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Mdb.Postgresql.V1.ClusterServiceReflection.Descriptor.MessageTypes[32]; }
+      get { return global::Yandex.Cloud.Mdb.Postgresql.V1.ClusterServiceReflection.Descriptor.MessageTypes[33]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6359,7 +6650,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Mdb.Postgresql.V1.ClusterServiceReflection.Descriptor.MessageTypes[33]; }
+      get { return global::Yandex.Cloud.Mdb.Postgresql.V1.ClusterServiceReflection.Descriptor.MessageTypes[34]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6514,7 +6805,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Mdb.Postgresql.V1.ClusterServiceReflection.Descriptor.MessageTypes[34]; }
+      get { return global::Yandex.Cloud.Mdb.Postgresql.V1.ClusterServiceReflection.Descriptor.MessageTypes[35]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6670,7 +6961,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Mdb.Postgresql.V1.ClusterServiceReflection.Descriptor.MessageTypes[35]; }
+      get { return global::Yandex.Cloud.Mdb.Postgresql.V1.ClusterServiceReflection.Descriptor.MessageTypes[36]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6825,7 +7116,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Mdb.Postgresql.V1.ClusterServiceReflection.Descriptor.MessageTypes[36]; }
+      get { return global::Yandex.Cloud.Mdb.Postgresql.V1.ClusterServiceReflection.Descriptor.MessageTypes[37]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7067,7 +7358,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Mdb.Postgresql.V1.ClusterServiceReflection.Descriptor.MessageTypes[37]; }
+      get { return global::Yandex.Cloud.Mdb.Postgresql.V1.ClusterServiceReflection.Descriptor.MessageTypes[38]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7381,7 +7672,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Mdb.Postgresql.V1.ClusterServiceReflection.Descriptor.MessageTypes[38]; }
+      get { return global::Yandex.Cloud.Mdb.Postgresql.V1.ClusterServiceReflection.Descriptor.MessageTypes[39]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7934,7 +8225,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Mdb.Postgresql.V1.ClusterServiceReflection.Descriptor.MessageTypes[39]; }
+      get { return global::Yandex.Cloud.Mdb.Postgresql.V1.ClusterServiceReflection.Descriptor.MessageTypes[40]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
