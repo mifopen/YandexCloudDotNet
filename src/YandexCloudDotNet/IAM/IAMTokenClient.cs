@@ -17,7 +17,7 @@ namespace YandexCloudDotNet.IAM
             var jwt = new JwtCreator().Create(serviceAccountId,
                                               authorizationKeyId,
                                               privateKey,
-                                              TimeSpan.FromMinutes(1));
+                                              TimeSpan.FromMinutes(2));
             var response = await client.CreateAsync(new CreateIamTokenRequest
                                                     {
                                                         Jwt = jwt

@@ -31,7 +31,7 @@ namespace YandexCloudDotNet.Tests.Vision
 
             var client = new VisionClient();
             var folderId = userSecretsProvider.Get("FolderId");
-            var image = File.OpenRead("image.png");
+            var image = File.OpenRead("Vision/image.png");
             var result = await client.RecognizeText(folderId,
                                                     iamToken,
                                                     image,

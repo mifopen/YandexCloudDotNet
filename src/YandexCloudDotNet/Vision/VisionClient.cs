@@ -34,7 +34,7 @@ namespace YandexCloudDotNet.Vision
                               {
                                   new AnalyzeSpec
                                   {
-                                      Content = ByteString.FromStream(image),
+                                      Content = await ByteString.FromStreamAsync(image),
                                       Features =
                                       {
                                           new Feature
