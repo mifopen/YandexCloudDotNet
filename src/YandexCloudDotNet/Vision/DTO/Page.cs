@@ -2,6 +2,8 @@ namespace YandexCloudDotNet.Vision.DTO
 {
     public class Page
     {
+        private Page() { }
+
         public Page(long width, long height, Block[] blocks)
         {
             Width = width;

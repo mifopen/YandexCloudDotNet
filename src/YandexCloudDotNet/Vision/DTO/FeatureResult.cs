@@ -2,6 +2,8 @@ namespace YandexCloudDotNet.Vision.DTO
 {
     public class FeatureResult
     {
+        private FeatureResult() { }
+
         public FeatureResult(Error? error, TextDetectionResult textDetection)
         {
             Error = error;

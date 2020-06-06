@@ -2,6 +2,8 @@ namespace YandexCloudDotNet.Vision.DTO
 {
     public class Word
     {
+        private Word() { }
+
         public Word(Polygon boundingBox, string text, double confidence, Language[] languages)
         {
             BoundingBox = boundingBox;

@@ -2,6 +2,8 @@ namespace YandexCloudDotNet.Vision.DTO
 {
     public class Line
     {
+        private Line() { }
+
         public Line(Polygon boundingBox, Word[] words, double confidence)
         {
             BoundingBox = boundingBox;

@@ -14,7 +14,7 @@
 
   <ItemGroup>
     <PackageReference Include="AWSSDK.S3" Version="3.3.110.67" PrivateAssets="compile" />
-    <PackageReference Include="BouncyCastle.NetCore" Version="1.8.5" />
+    <PackageReference Include="BouncyCastle.NetCore" Version="1.8.5" PrivateAssets="compile" />
     <PackageReference Include="Google.Protobuf" Version="3.11.4" PrivateAssets="compile" />
     <PackageReference Include="Grpc" Version="2.28.1" PrivateAssets="compile" />
     <PackageReference Include="jose-jwt" Version="2.5.0" PrivateAssets="compile" />

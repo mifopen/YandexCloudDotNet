@@ -1,5 +1,7 @@
 using System.IO;
 using System.Linq;
+using System.Text.Encodings.Web;
+using System.Text.Json;
 using Newtonsoft.Json;
 using Shouldly;
 using Xunit;
@@ -31,7 +33,7 @@ namespace YandexCloudDotNet.Tests.Vision
 
             var client = new VisionClient();
             var folderId = userSecretsProvider.Get("FolderId");
-            var image = File.OpenRead("Vision/image.png");
+            var image = File.OpenRead("Vision/recipe2.jpg");
             var result = await client.RecognizeText(folderId,
                                                     iamToken,
                                                     image,
@@ -39,19 +41,27 @@ namespace YandexCloudDotNet.Tests.Vision
                                                     {
                                                         "ru", "en"
                                                     });
-            var words = result.Single()
-                              .Results.Single()
-                              .TextDetection
-                              .Pages.Single()
-                              .Blocks.Single()
-                              .Lines.Single()
-                              .Words;
-            words.Select(x => x.Text)
-                 .ShouldBe(new[]
-                           {
-                               "Какой-то", "текст"
-                           });
-            output.WriteLine(JsonConvert.SerializeObject(result, Formatting.Indented));
+            // var words = result.Single()
+            //                   .Results.Single()
+            //                   .TextDetection
+            //                   .Pages.Single()
+            //                   .Blocks.Single()
+            //                   .Lines.Single()
+            //                   .Words;
+            var serialize = System.Text.Json.JsonSerializer.Serialize(result,
+                                                                      new JsonSerializerOptions
+                                                                      {
+                                                                          WriteIndented = true,
+                                                                          Encoder = JavaScriptEncoder
+                                                                              .UnsafeRelaxedJsonEscaping
+                                                                      });
+            await File.WriteAllTextAsync("output2.json", serialize);
+            // output.WriteLine(JsonConvert.SerializeObject(result, Formatting.Indented));
+            // words.Select(x => x.Text)
+            //      .ShouldBe(new[]
+            //                {
+            //                    "Какой-то", "текст"
+            //                });
         }
     }
 }
