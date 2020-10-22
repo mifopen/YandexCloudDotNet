@@ -27,25 +27,37 @@ namespace Yandex.Cloud.Dataproc.V1 {
             "Cil5YW5kZXgvY2xvdWQvZGF0YXByb2MvdjEvc3ViY2x1c3Rlci5wcm90bxIY",
             "eWFuZGV4LmNsb3VkLmRhdGFwcm9jLnYxGh9nb29nbGUvcHJvdG9idWYvdGlt",
             "ZXN0YW1wLnByb3RvGiV5YW5kZXgvY2xvdWQvZGF0YXByb2MvdjEvY29tbW9u",
-            "LnByb3RvGh15YW5kZXgvY2xvdWQvdmFsaWRhdGlvbi5wcm90byKCAgoKU3Vi",
+            "LnByb3RvGh15YW5kZXgvY2xvdWQvdmFsaWRhdGlvbi5wcm90bxoeZ29vZ2xl",
+            "L3Byb3RvYnVmL2R1cmF0aW9uLnByb3RvIvICChFBdXRvc2NhbGluZ0NvbmZp",
+            "ZxIiCg9tYXhfaG9zdHNfY291bnQYASABKANCCfrHMQUxLTEwMBITCgtwcmVl",
+            "bXB0aWJsZRgCIAEoCBJHChRtZWFzdXJlbWVudF9kdXJhdGlvbhgDIAEoCzIZ",
+            "Lmdvb2dsZS5wcm90b2J1Zi5EdXJhdGlvbkIO6McxAfrHMQYxbS0xMG0SPQoP",
+            "d2FybXVwX2R1cmF0aW9uGAQgASgLMhkuZ29vZ2xlLnByb3RvYnVmLkR1cmF0",
+            "aW9uQgn6xzEFPD0xMG0SRQoWc3RhYmlsaXphdGlvbl9kdXJhdGlvbhgFIAEo",
+            "CzIZLmdvb2dsZS5wcm90b2J1Zi5EdXJhdGlvbkIK+scxBjFtLTMwbRIqChZj",
+            "cHVfdXRpbGl6YXRpb25fdGFyZ2V0GAYgASgBQgr6xzEGMTAtMTAwEikKFGRl",
+            "Y29tbWlzc2lvbl90aW1lb3V0GAcgASgDQgv6xzEHMC04NjQwMCLsAgoKU3Vi",
             "Y2x1c3RlchIKCgJpZBgBIAEoCRISCgpjbHVzdGVyX2lkGAIgASgJEi4KCmNy",
             "ZWF0ZWRfYXQYAyABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wEhYK",
             "BG5hbWUYBCABKAlCCIrIMQQxLTYzEiwKBHJvbGUYBSABKA4yHi55YW5kZXgu",
             "Y2xvdWQuZGF0YXByb2MudjEuUm9sZRI2CglyZXNvdXJjZXMYBiABKAsyIy55",
             "YW5kZXguY2xvdWQuZGF0YXByb2MudjEuUmVzb3VyY2VzEhEKCXN1Ym5ldF9p",
-            "ZBgHIAEoCRITCgtob3N0c19jb3VudBgIIAEoAyKoAQoESG9zdBIMCgRuYW1l",
-            "GAEgASgJEhUKDXN1YmNsdXN0ZXJfaWQYAiABKAkSMAoGaGVhbHRoGAMgASgO",
-            "MiAueWFuZGV4LmNsb3VkLmRhdGFwcm9jLnYxLkhlYWx0aBIbChNjb21wdXRl",
-            "X2luc3RhbmNlX2lkGAQgASgJEiwKBHJvbGUYBSABKA4yHi55YW5kZXguY2xv",
-            "dWQuZGF0YXByb2MudjEuUm9sZSpLCgRSb2xlEhQKEFJPTEVfVU5TUEVDSUZJ",
-            "RUQQABIOCgpNQVNURVJOT0RFEAESDAoIREFUQU5PREUQAhIPCgtDT01QVVRF",
-            "Tk9ERRADQmUKHHlhbmRleC5jbG91ZC5hcGkuZGF0YXByb2MudjFaRWdpdGh1",
-            "Yi5jb20veWFuZGV4LWNsb3VkL2dvLWdlbnByb3RvL3lhbmRleC9jbG91ZC9k",
-            "YXRhcHJvYy92MTtkYXRhcHJvY2IGcHJvdG8z"));
+            "ZBgHIAEoCRITCgtob3N0c19jb3VudBgIIAEoAxJHChJhdXRvc2NhbGluZ19j",
+            "b25maWcYCiABKAsyKy55YW5kZXguY2xvdWQuZGF0YXByb2MudjEuQXV0b3Nj",
+            "YWxpbmdDb25maWcSGQoRaW5zdGFuY2VfZ3JvdXBfaWQYCyABKAlKBAgJEAoi",
+            "qAEKBEhvc3QSDAoEbmFtZRgBIAEoCRIVCg1zdWJjbHVzdGVyX2lkGAIgASgJ",
+            "EjAKBmhlYWx0aBgDIAEoDjIgLnlhbmRleC5jbG91ZC5kYXRhcHJvYy52MS5I",
+            "ZWFsdGgSGwoTY29tcHV0ZV9pbnN0YW5jZV9pZBgEIAEoCRIsCgRyb2xlGAUg",
+            "ASgOMh4ueWFuZGV4LmNsb3VkLmRhdGFwcm9jLnYxLlJvbGUqSwoEUm9sZRIU",
+            "ChBST0xFX1VOU1BFQ0lGSUVEEAASDgoKTUFTVEVSTk9ERRABEgwKCERBVEFO",
+            "T0RFEAISDwoLQ09NUFVURU5PREUQA0JlChx5YW5kZXguY2xvdWQuYXBpLmRh",
+            "dGFwcm9jLnYxWkVnaXRodWIuY29tL3lhbmRleC1jbG91ZC9nby1nZW5wcm90",
+            "by95YW5kZXgvY2xvdWQvZGF0YXByb2MvdjE7ZGF0YXByb2NiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Yandex.Cloud.Dataproc.V1.CommonReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Yandex.Cloud.Dataproc.V1.CommonReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.DurationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Yandex.Cloud.Dataproc.V1.Role), }, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.Subcluster), global::Yandex.Cloud.Dataproc.V1.Subcluster.Parser, new[]{ "Id", "ClusterId", "CreatedAt", "Name", "Role", "Resources", "SubnetId", "HostsCount" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.AutoscalingConfig), global::Yandex.Cloud.Dataproc.V1.AutoscalingConfig.Parser, new[]{ "MaxHostsCount", "Preemptible", "MeasurementDuration", "WarmupDuration", "StabilizationDuration", "CpuUtilizationTarget", "DecommissionTimeout" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.Subcluster), global::Yandex.Cloud.Dataproc.V1.Subcluster.Parser, new[]{ "Id", "ClusterId", "CreatedAt", "Name", "Role", "Resources", "SubnetId", "HostsCount", "AutoscalingConfig", "InstanceGroupId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.Host), global::Yandex.Cloud.Dataproc.V1.Host.Parser, new[]{ "Name", "SubclusterId", "Health", "ComputeInstanceId", "Role" }, null, null, null, null)
           }));
     }
@@ -91,6 +103,348 @@ namespace Yandex.Cloud.Dataproc.V1 {
   #endregion
 
   #region Messages
+  internal sealed partial class AutoscalingConfig : pb::IMessage<AutoscalingConfig> {
+    private static readonly pb::MessageParser<AutoscalingConfig> _parser = new pb::MessageParser<AutoscalingConfig>(() => new AutoscalingConfig());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<AutoscalingConfig> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Dataproc.V1.SubclusterReflection.Descriptor.MessageTypes[0]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public AutoscalingConfig() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public AutoscalingConfig(AutoscalingConfig other) : this() {
+      maxHostsCount_ = other.maxHostsCount_;
+      preemptible_ = other.preemptible_;
+      measurementDuration_ = other.measurementDuration_ != null ? other.measurementDuration_.Clone() : null;
+      warmupDuration_ = other.warmupDuration_ != null ? other.warmupDuration_.Clone() : null;
+      stabilizationDuration_ = other.stabilizationDuration_ != null ? other.stabilizationDuration_.Clone() : null;
+      cpuUtilizationTarget_ = other.cpuUtilizationTarget_;
+      decommissionTimeout_ = other.decommissionTimeout_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public AutoscalingConfig Clone() {
+      return new AutoscalingConfig(this);
+    }
+
+    /// <summary>Field number for the "max_hosts_count" field.</summary>
+    public const int MaxHostsCountFieldNumber = 1;
+    private long maxHostsCount_;
+    /// <summary>
+    /// Upper limit for total instance subcluster count.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long MaxHostsCount {
+      get { return maxHostsCount_; }
+      set {
+        maxHostsCount_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "preemptible" field.</summary>
+    public const int PreemptibleFieldNumber = 2;
+    private bool preemptible_;
+    /// <summary>
+    /// Preemptible instances are stopped at least once every 24 hours, and can be stopped at any time
+    /// if their resources are needed by Compute.
+    /// For more information, see [Preemptible Virtual Machines](/docs/compute/concepts/preemptible-vm).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Preemptible {
+      get { return preemptible_; }
+      set {
+        preemptible_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "measurement_duration" field.</summary>
+    public const int MeasurementDurationFieldNumber = 3;
+    private global::Google.Protobuf.WellKnownTypes.Duration measurementDuration_;
+    /// <summary>
+    /// Time in seconds allotted for averaging metrics.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Google.Protobuf.WellKnownTypes.Duration MeasurementDuration {
+      get { return measurementDuration_; }
+      set {
+        measurementDuration_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "warmup_duration" field.</summary>
+    public const int WarmupDurationFieldNumber = 4;
+    private global::Google.Protobuf.WellKnownTypes.Duration warmupDuration_;
+    /// <summary>
+    /// The warmup time of the instance in seconds. During this time,
+    /// traffic is sent to the instance, but instance metrics are not collected.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Google.Protobuf.WellKnownTypes.Duration WarmupDuration {
+      get { return warmupDuration_; }
+      set {
+        warmupDuration_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "stabilization_duration" field.</summary>
+    public const int StabilizationDurationFieldNumber = 5;
+    private global::Google.Protobuf.WellKnownTypes.Duration stabilizationDuration_;
+    /// <summary>
+    /// Minimum amount of time in seconds allotted for monitoring before
+    /// Instance Groups can reduce the number of instances in the group.
+    /// During this time, the group size doesn't decrease, even if the new metric values
+    /// indicate that it should.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Google.Protobuf.WellKnownTypes.Duration StabilizationDuration {
+      get { return stabilizationDuration_; }
+      set {
+        stabilizationDuration_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "cpu_utilization_target" field.</summary>
+    public const int CpuUtilizationTargetFieldNumber = 6;
+    private double cpuUtilizationTarget_;
+    /// <summary>
+    /// Defines an autoscaling rule based on the average CPU utilization of the instance group.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public double CpuUtilizationTarget {
+      get { return cpuUtilizationTarget_; }
+      set {
+        cpuUtilizationTarget_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "decommission_timeout" field.</summary>
+    public const int DecommissionTimeoutFieldNumber = 7;
+    private long decommissionTimeout_;
+    /// <summary>
+    /// Timeout to gracefully decommission nodes during downscaling. In seconds. Default value: 120
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long DecommissionTimeout {
+      get { return decommissionTimeout_; }
+      set {
+        decommissionTimeout_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as AutoscalingConfig);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(AutoscalingConfig other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (MaxHostsCount != other.MaxHostsCount) return false;
+      if (Preemptible != other.Preemptible) return false;
+      if (!object.Equals(MeasurementDuration, other.MeasurementDuration)) return false;
+      if (!object.Equals(WarmupDuration, other.WarmupDuration)) return false;
+      if (!object.Equals(StabilizationDuration, other.StabilizationDuration)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(CpuUtilizationTarget, other.CpuUtilizationTarget)) return false;
+      if (DecommissionTimeout != other.DecommissionTimeout) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (MaxHostsCount != 0L) hash ^= MaxHostsCount.GetHashCode();
+      if (Preemptible != false) hash ^= Preemptible.GetHashCode();
+      if (measurementDuration_ != null) hash ^= MeasurementDuration.GetHashCode();
+      if (warmupDuration_ != null) hash ^= WarmupDuration.GetHashCode();
+      if (stabilizationDuration_ != null) hash ^= StabilizationDuration.GetHashCode();
+      if (CpuUtilizationTarget != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(CpuUtilizationTarget);
+      if (DecommissionTimeout != 0L) hash ^= DecommissionTimeout.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (MaxHostsCount != 0L) {
+        output.WriteRawTag(8);
+        output.WriteInt64(MaxHostsCount);
+      }
+      if (Preemptible != false) {
+        output.WriteRawTag(16);
+        output.WriteBool(Preemptible);
+      }
+      if (measurementDuration_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(MeasurementDuration);
+      }
+      if (warmupDuration_ != null) {
+        output.WriteRawTag(34);
+        output.WriteMessage(WarmupDuration);
+      }
+      if (stabilizationDuration_ != null) {
+        output.WriteRawTag(42);
+        output.WriteMessage(StabilizationDuration);
+      }
+      if (CpuUtilizationTarget != 0D) {
+        output.WriteRawTag(49);
+        output.WriteDouble(CpuUtilizationTarget);
+      }
+      if (DecommissionTimeout != 0L) {
+        output.WriteRawTag(56);
+        output.WriteInt64(DecommissionTimeout);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (MaxHostsCount != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(MaxHostsCount);
+      }
+      if (Preemptible != false) {
+        size += 1 + 1;
+      }
+      if (measurementDuration_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(MeasurementDuration);
+      }
+      if (warmupDuration_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(WarmupDuration);
+      }
+      if (stabilizationDuration_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(StabilizationDuration);
+      }
+      if (CpuUtilizationTarget != 0D) {
+        size += 1 + 8;
+      }
+      if (DecommissionTimeout != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(DecommissionTimeout);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(AutoscalingConfig other) {
+      if (other == null) {
+        return;
+      }
+      if (other.MaxHostsCount != 0L) {
+        MaxHostsCount = other.MaxHostsCount;
+      }
+      if (other.Preemptible != false) {
+        Preemptible = other.Preemptible;
+      }
+      if (other.measurementDuration_ != null) {
+        if (measurementDuration_ == null) {
+          MeasurementDuration = new global::Google.Protobuf.WellKnownTypes.Duration();
+        }
+        MeasurementDuration.MergeFrom(other.MeasurementDuration);
+      }
+      if (other.warmupDuration_ != null) {
+        if (warmupDuration_ == null) {
+          WarmupDuration = new global::Google.Protobuf.WellKnownTypes.Duration();
+        }
+        WarmupDuration.MergeFrom(other.WarmupDuration);
+      }
+      if (other.stabilizationDuration_ != null) {
+        if (stabilizationDuration_ == null) {
+          StabilizationDuration = new global::Google.Protobuf.WellKnownTypes.Duration();
+        }
+        StabilizationDuration.MergeFrom(other.StabilizationDuration);
+      }
+      if (other.CpuUtilizationTarget != 0D) {
+        CpuUtilizationTarget = other.CpuUtilizationTarget;
+      }
+      if (other.DecommissionTimeout != 0L) {
+        DecommissionTimeout = other.DecommissionTimeout;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            MaxHostsCount = input.ReadInt64();
+            break;
+          }
+          case 16: {
+            Preemptible = input.ReadBool();
+            break;
+          }
+          case 26: {
+            if (measurementDuration_ == null) {
+              MeasurementDuration = new global::Google.Protobuf.WellKnownTypes.Duration();
+            }
+            input.ReadMessage(MeasurementDuration);
+            break;
+          }
+          case 34: {
+            if (warmupDuration_ == null) {
+              WarmupDuration = new global::Google.Protobuf.WellKnownTypes.Duration();
+            }
+            input.ReadMessage(WarmupDuration);
+            break;
+          }
+          case 42: {
+            if (stabilizationDuration_ == null) {
+              StabilizationDuration = new global::Google.Protobuf.WellKnownTypes.Duration();
+            }
+            input.ReadMessage(StabilizationDuration);
+            break;
+          }
+          case 49: {
+            CpuUtilizationTarget = input.ReadDouble();
+            break;
+          }
+          case 56: {
+            DecommissionTimeout = input.ReadInt64();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
   /// <summary>
   /// A Data Proc subcluster. For details about the concept, see [documentation](/docs/data-proc/concepts/).
   /// </summary>
@@ -102,7 +456,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Dataproc.V1.SubclusterReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Yandex.Cloud.Dataproc.V1.SubclusterReflection.Descriptor.MessageTypes[1]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -127,6 +481,8 @@ namespace Yandex.Cloud.Dataproc.V1 {
       resources_ = other.resources_ != null ? other.resources_.Clone() : null;
       subnetId_ = other.subnetId_;
       hostsCount_ = other.hostsCount_;
+      autoscalingConfig_ = other.autoscalingConfig_ != null ? other.autoscalingConfig_.Clone() : null;
+      instanceGroupId_ = other.instanceGroupId_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -247,6 +603,34 @@ namespace Yandex.Cloud.Dataproc.V1 {
       }
     }
 
+    /// <summary>Field number for the "autoscaling_config" field.</summary>
+    public const int AutoscalingConfigFieldNumber = 10;
+    private global::Yandex.Cloud.Dataproc.V1.AutoscalingConfig autoscalingConfig_;
+    /// <summary>
+    /// Configuration for instance group based subclusters
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Dataproc.V1.AutoscalingConfig AutoscalingConfig {
+      get { return autoscalingConfig_; }
+      set {
+        autoscalingConfig_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "instance_group_id" field.</summary>
+    public const int InstanceGroupIdFieldNumber = 11;
+    private string instanceGroupId_ = "";
+    /// <summary>
+    /// ID of Compute Instance Group for autoscaling subclusters
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string InstanceGroupId {
+      get { return instanceGroupId_; }
+      set {
+        instanceGroupId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as Subcluster);
@@ -268,6 +652,8 @@ namespace Yandex.Cloud.Dataproc.V1 {
       if (!object.Equals(Resources, other.Resources)) return false;
       if (SubnetId != other.SubnetId) return false;
       if (HostsCount != other.HostsCount) return false;
+      if (!object.Equals(AutoscalingConfig, other.AutoscalingConfig)) return false;
+      if (InstanceGroupId != other.InstanceGroupId) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -282,6 +668,8 @@ namespace Yandex.Cloud.Dataproc.V1 {
       if (resources_ != null) hash ^= Resources.GetHashCode();
       if (SubnetId.Length != 0) hash ^= SubnetId.GetHashCode();
       if (HostsCount != 0L) hash ^= HostsCount.GetHashCode();
+      if (autoscalingConfig_ != null) hash ^= AutoscalingConfig.GetHashCode();
+      if (InstanceGroupId.Length != 0) hash ^= InstanceGroupId.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -327,6 +715,14 @@ namespace Yandex.Cloud.Dataproc.V1 {
         output.WriteRawTag(64);
         output.WriteInt64(HostsCount);
       }
+      if (autoscalingConfig_ != null) {
+        output.WriteRawTag(82);
+        output.WriteMessage(AutoscalingConfig);
+      }
+      if (InstanceGroupId.Length != 0) {
+        output.WriteRawTag(90);
+        output.WriteString(InstanceGroupId);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -358,6 +754,12 @@ namespace Yandex.Cloud.Dataproc.V1 {
       }
       if (HostsCount != 0L) {
         size += 1 + pb::CodedOutputStream.ComputeInt64Size(HostsCount);
+      }
+      if (autoscalingConfig_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(AutoscalingConfig);
+      }
+      if (InstanceGroupId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(InstanceGroupId);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -399,6 +801,15 @@ namespace Yandex.Cloud.Dataproc.V1 {
       }
       if (other.HostsCount != 0L) {
         HostsCount = other.HostsCount;
+      }
+      if (other.autoscalingConfig_ != null) {
+        if (autoscalingConfig_ == null) {
+          AutoscalingConfig = new global::Yandex.Cloud.Dataproc.V1.AutoscalingConfig();
+        }
+        AutoscalingConfig.MergeFrom(other.AutoscalingConfig);
+      }
+      if (other.InstanceGroupId.Length != 0) {
+        InstanceGroupId = other.InstanceGroupId;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -449,6 +860,17 @@ namespace Yandex.Cloud.Dataproc.V1 {
             HostsCount = input.ReadInt64();
             break;
           }
+          case 82: {
+            if (autoscalingConfig_ == null) {
+              AutoscalingConfig = new global::Yandex.Cloud.Dataproc.V1.AutoscalingConfig();
+            }
+            input.ReadMessage(AutoscalingConfig);
+            break;
+          }
+          case 90: {
+            InstanceGroupId = input.ReadString();
+            break;
+          }
         }
       }
     }
@@ -466,7 +888,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Dataproc.V1.SubclusterReflection.Descriptor.MessageTypes[1]; }
+      get { return global::Yandex.Cloud.Dataproc.V1.SubclusterReflection.Descriptor.MessageTypes[2]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

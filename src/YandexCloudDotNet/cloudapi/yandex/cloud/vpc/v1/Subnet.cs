@@ -25,26 +25,41 @@ namespace Yandex.Cloud.Vpc.V1 {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "CiB5YW5kZXgvY2xvdWQvdnBjL3YxL3N1Ym5ldC5wcm90bxITeWFuZGV4LmNs",
-            "b3VkLnZwYy52MRofZ29vZ2xlL3Byb3RvYnVmL3RpbWVzdGFtcC5wcm90byLP",
-            "AgoGU3VibmV0EgoKAmlkGAEgASgJEhEKCWZvbGRlcl9pZBgCIAEoCRIuCgpj",
+            "b3VkLnZwYy52MRofZ29vZ2xlL3Byb3RvYnVmL3RpbWVzdGFtcC5wcm90byKH",
+            "AwoGU3VibmV0EgoKAmlkGAEgASgJEhEKCWZvbGRlcl9pZBgCIAEoCRIuCgpj",
             "cmVhdGVkX2F0GAMgASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcBIM",
             "CgRuYW1lGAQgASgJEhMKC2Rlc2NyaXB0aW9uGAUgASgJEjcKBmxhYmVscxgG",
             "IAMoCzInLnlhbmRleC5jbG91ZC52cGMudjEuU3VibmV0LkxhYmVsc0VudHJ5",
             "EhIKCm5ldHdvcmtfaWQYByABKAkSDwoHem9uZV9pZBgIIAEoCRIWCg52NF9j",
             "aWRyX2Jsb2NrcxgKIAMoCRIWCg52Nl9jaWRyX2Jsb2NrcxgLIAMoCRIWCg5y",
-            "b3V0ZV90YWJsZV9pZBgMIAEoCRotCgtMYWJlbHNFbnRyeRILCgNrZXkYASAB",
-            "KAkSDQoFdmFsdWUYAiABKAk6AjgBQlYKF3lhbmRleC5jbG91ZC5hcGkudnBj",
-            "LnYxWjtnaXRodWIuY29tL3lhbmRleC1jbG91ZC9nby1nZW5wcm90by95YW5k",
-            "ZXgvY2xvdWQvdnBjL3YxO3ZwY2IGcHJvdG8z"));
+            "b3V0ZV90YWJsZV9pZBgMIAEoCRI2CgxkaGNwX29wdGlvbnMYDSABKAsyIC55",
+            "YW5kZXguY2xvdWQudnBjLnYxLkRoY3BPcHRpb25zGi0KC0xhYmVsc0VudHJ5",
+            "EgsKA2tleRgBIAEoCRINCgV2YWx1ZRgCIAEoCToCOAEiVAoLRGhjcE9wdGlv",
+            "bnMSGwoTZG9tYWluX25hbWVfc2VydmVycxgBIAMoCRITCgtkb21haW5fbmFt",
+            "ZRgCIAEoCRITCgtudHBfc2VydmVycxgDIAMoCSo7CglJcFZlcnNpb24SGgoW",
+            "SVBfVkVSU0lPTl9VTlNQRUNJRklFRBAAEggKBElQVjQQARIICgRJUFY2EAJC",
+            "VgoXeWFuZGV4LmNsb3VkLmFwaS52cGMudjFaO2dpdGh1Yi5jb20veWFuZGV4",
+            "LWNsb3VkL2dvLWdlbnByb3RvL3lhbmRleC9jbG91ZC92cGMvdjE7dnBjYgZw",
+            "cm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.Subnet), global::Yandex.Cloud.Vpc.V1.Subnet.Parser, new[]{ "Id", "FolderId", "CreatedAt", "Name", "Description", "Labels", "NetworkId", "ZoneId", "V4CidrBlocks", "V6CidrBlocks", "RouteTableId" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, })
+          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Yandex.Cloud.Vpc.V1.IpVersion), }, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.Subnet), global::Yandex.Cloud.Vpc.V1.Subnet.Parser, new[]{ "Id", "FolderId", "CreatedAt", "Name", "Description", "Labels", "NetworkId", "ZoneId", "V4CidrBlocks", "V6CidrBlocks", "RouteTableId", "DhcpOptions" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.DhcpOptions), global::Yandex.Cloud.Vpc.V1.DhcpOptions.Parser, new[]{ "DomainNameServers", "DomainName", "NtpServers" }, null, null, null, null)
           }));
     }
     #endregion
 
   }
+  #region Enums
+  internal enum IpVersion {
+    [pbr::OriginalName("IP_VERSION_UNSPECIFIED")] Unspecified = 0,
+    [pbr::OriginalName("IPV4")] Ipv4 = 1,
+    [pbr::OriginalName("IPV6")] Ipv6 = 2,
+  }
+
+  #endregion
+
   #region Messages
   /// <summary>
   /// A Subnet resource. For more information, see [Subnets](/docs/vpc/concepts/subnets).
@@ -85,6 +100,7 @@ namespace Yandex.Cloud.Vpc.V1 {
       v4CidrBlocks_ = other.v4CidrBlocks_.Clone();
       v6CidrBlocks_ = other.v6CidrBlocks_.Clone();
       routeTableId_ = other.routeTableId_;
+      dhcpOptions_ = other.dhcpOptions_ != null ? other.dhcpOptions_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -248,6 +264,17 @@ namespace Yandex.Cloud.Vpc.V1 {
       }
     }
 
+    /// <summary>Field number for the "dhcp_options" field.</summary>
+    public const int DhcpOptionsFieldNumber = 13;
+    private global::Yandex.Cloud.Vpc.V1.DhcpOptions dhcpOptions_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Vpc.V1.DhcpOptions DhcpOptions {
+      get { return dhcpOptions_; }
+      set {
+        dhcpOptions_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as Subnet);
@@ -272,6 +299,7 @@ namespace Yandex.Cloud.Vpc.V1 {
       if(!v4CidrBlocks_.Equals(other.v4CidrBlocks_)) return false;
       if(!v6CidrBlocks_.Equals(other.v6CidrBlocks_)) return false;
       if (RouteTableId != other.RouteTableId) return false;
+      if (!object.Equals(DhcpOptions, other.DhcpOptions)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -289,6 +317,7 @@ namespace Yandex.Cloud.Vpc.V1 {
       hash ^= v4CidrBlocks_.GetHashCode();
       hash ^= v6CidrBlocks_.GetHashCode();
       if (RouteTableId.Length != 0) hash ^= RouteTableId.GetHashCode();
+      if (dhcpOptions_ != null) hash ^= DhcpOptions.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -337,6 +366,10 @@ namespace Yandex.Cloud.Vpc.V1 {
         output.WriteRawTag(98);
         output.WriteString(RouteTableId);
       }
+      if (dhcpOptions_ != null) {
+        output.WriteRawTag(106);
+        output.WriteMessage(DhcpOptions);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -371,6 +404,9 @@ namespace Yandex.Cloud.Vpc.V1 {
       size += v6CidrBlocks_.CalculateSize(_repeated_v6CidrBlocks_codec);
       if (RouteTableId.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(RouteTableId);
+      }
+      if (dhcpOptions_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(DhcpOptions);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -412,6 +448,12 @@ namespace Yandex.Cloud.Vpc.V1 {
       v6CidrBlocks_.Add(other.v6CidrBlocks_);
       if (other.RouteTableId.Length != 0) {
         RouteTableId = other.RouteTableId;
+      }
+      if (other.dhcpOptions_ != null) {
+        if (dhcpOptions_ == null) {
+          DhcpOptions = new global::Yandex.Cloud.Vpc.V1.DhcpOptions();
+        }
+        DhcpOptions.MergeFrom(other.DhcpOptions);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -469,6 +511,182 @@ namespace Yandex.Cloud.Vpc.V1 {
           }
           case 98: {
             RouteTableId = input.ReadString();
+            break;
+          }
+          case 106: {
+            if (dhcpOptions_ == null) {
+              DhcpOptions = new global::Yandex.Cloud.Vpc.V1.DhcpOptions();
+            }
+            input.ReadMessage(DhcpOptions);
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  internal sealed partial class DhcpOptions : pb::IMessage<DhcpOptions> {
+    private static readonly pb::MessageParser<DhcpOptions> _parser = new pb::MessageParser<DhcpOptions>(() => new DhcpOptions());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<DhcpOptions> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Vpc.V1.SubnetReflection.Descriptor.MessageTypes[1]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DhcpOptions() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DhcpOptions(DhcpOptions other) : this() {
+      domainNameServers_ = other.domainNameServers_.Clone();
+      domainName_ = other.domainName_;
+      ntpServers_ = other.ntpServers_.Clone();
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DhcpOptions Clone() {
+      return new DhcpOptions(this);
+    }
+
+    /// <summary>Field number for the "domain_name_servers" field.</summary>
+    public const int DomainNameServersFieldNumber = 1;
+    private static readonly pb::FieldCodec<string> _repeated_domainNameServers_codec
+        = pb::FieldCodec.ForString(10);
+    private readonly pbc::RepeatedField<string> domainNameServers_ = new pbc::RepeatedField<string>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<string> DomainNameServers {
+      get { return domainNameServers_; }
+    }
+
+    /// <summary>Field number for the "domain_name" field.</summary>
+    public const int DomainNameFieldNumber = 2;
+    private string domainName_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string DomainName {
+      get { return domainName_; }
+      set {
+        domainName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ntp_servers" field.</summary>
+    public const int NtpServersFieldNumber = 3;
+    private static readonly pb::FieldCodec<string> _repeated_ntpServers_codec
+        = pb::FieldCodec.ForString(26);
+    private readonly pbc::RepeatedField<string> ntpServers_ = new pbc::RepeatedField<string>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<string> NtpServers {
+      get { return ntpServers_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as DhcpOptions);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(DhcpOptions other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if(!domainNameServers_.Equals(other.domainNameServers_)) return false;
+      if (DomainName != other.DomainName) return false;
+      if(!ntpServers_.Equals(other.ntpServers_)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      hash ^= domainNameServers_.GetHashCode();
+      if (DomainName.Length != 0) hash ^= DomainName.GetHashCode();
+      hash ^= ntpServers_.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      domainNameServers_.WriteTo(output, _repeated_domainNameServers_codec);
+      if (DomainName.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(DomainName);
+      }
+      ntpServers_.WriteTo(output, _repeated_ntpServers_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      size += domainNameServers_.CalculateSize(_repeated_domainNameServers_codec);
+      if (DomainName.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(DomainName);
+      }
+      size += ntpServers_.CalculateSize(_repeated_ntpServers_codec);
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(DhcpOptions other) {
+      if (other == null) {
+        return;
+      }
+      domainNameServers_.Add(other.domainNameServers_);
+      if (other.DomainName.Length != 0) {
+        DomainName = other.DomainName;
+      }
+      ntpServers_.Add(other.ntpServers_);
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            domainNameServers_.AddEntriesFrom(input, _repeated_domainNameServers_codec);
+            break;
+          }
+          case 18: {
+            DomainName = input.ReadString();
+            break;
+          }
+          case 26: {
+            ntpServers_.AddEntriesFrom(input, _repeated_ntpServers_codec);
             break;
           }
         }

@@ -26,7 +26,7 @@ namespace Yandex.Cloud.Kms.V1 {
           string.Concat(
             "Cid5YW5kZXgvY2xvdWQva21zL3YxL3N5bW1ldHJpY19rZXkucHJvdG8SE3lh",
             "bmRleC5jbG91ZC5rbXMudjEaH2dvb2dsZS9wcm90b2J1Zi90aW1lc3RhbXAu",
-            "cHJvdG8aHmdvb2dsZS9wcm90b2J1Zi9kdXJhdGlvbi5wcm90byLdBAoMU3lt",
+            "cHJvdG8aHmdvb2dsZS9wcm90b2J1Zi9kdXJhdGlvbi5wcm90byL6BAoMU3lt",
             "bWV0cmljS2V5EgoKAmlkGAEgASgJEhEKCWZvbGRlcl9pZBgCIAEoCRIuCgpj",
             "cmVhdGVkX2F0GAMgASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcBIM",
             "CgRuYW1lGAQgASgJEhMKC2Rlc2NyaXB0aW9uGAUgASgJEj0KBmxhYmVscxgG",
@@ -37,27 +37,27 @@ namespace Yandex.Cloud.Kms.V1 {
             "ZGVmYXVsdF9hbGdvcml0aG0YCSABKA4yJy55YW5kZXguY2xvdWQua21zLnYx",
             "LlN5bW1ldHJpY0FsZ29yaXRobRIuCgpyb3RhdGVkX2F0GAogASgLMhouZ29v",
             "Z2xlLnByb3RvYnVmLlRpbWVzdGFtcBIyCg9yb3RhdGlvbl9wZXJpb2QYCyAB",
-            "KAsyGS5nb29nbGUucHJvdG9idWYuRHVyYXRpb24aLQoLTGFiZWxzRW50cnkS",
-            "CwoDa2V5GAEgASgJEg0KBXZhbHVlGAIgASgJOgI4ASJICgZTdGF0dXMSFgoS",
-            "U1RBVFVTX1VOU1BFQ0lGSUVEEAASDAoIQ1JFQVRJTkcQARIKCgZBQ1RJVkUQ",
-            "AhIMCghJTkFDVElWRRADIvsCChNTeW1tZXRyaWNLZXlWZXJzaW9uEgoKAmlk",
-            "GAEgASgJEg4KBmtleV9pZBgCIAEoCRI/CgZzdGF0dXMYAyABKA4yLy55YW5k",
-            "ZXguY2xvdWQua21zLnYxLlN5bW1ldHJpY0tleVZlcnNpb24uU3RhdHVzEjoK",
-            "CWFsZ29yaXRobRgEIAEoDjInLnlhbmRleC5jbG91ZC5rbXMudjEuU3ltbWV0",
-            "cmljQWxnb3JpdGhtEi4KCmNyZWF0ZWRfYXQYBSABKAsyGi5nb29nbGUucHJv",
-            "dG9idWYuVGltZXN0YW1wEg8KB3ByaW1hcnkYBiABKAgSLgoKZGVzdHJveV9h",
-            "dBgHIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXAiWgoGU3RhdHVz",
-            "EhYKElNUQVRVU19VTlNQRUNJRklFRBAAEgoKBkFDVElWRRABEh0KGVNDSEVE",
-            "VUxFRF9GT1JfREVTVFJVQ1RJT04QAhINCglERVNUUk9ZRUQQAypgChJTeW1t",
-            "ZXRyaWNBbGdvcml0aG0SIwofU1lNTUVUUklDX0FMR09SSVRITV9VTlNQRUNJ",
-            "RklFRBAAEgsKB0FFU18xMjgQARILCgdBRVNfMTkyEAISCwoHQUVTXzI1NhAD",
-            "QlYKF3lhbmRleC5jbG91ZC5hcGkua21zLnYxWjtnaXRodWIuY29tL3lhbmRl",
-            "eC1jbG91ZC9nby1nZW5wcm90by95YW5kZXgvY2xvdWQva21zL3YxO2ttc2IG",
-            "cHJvdG8z"));
+            "KAsyGS5nb29nbGUucHJvdG9idWYuRHVyYXRpb24SGwoTZGVsZXRpb25fcHJv",
+            "dGVjdGlvbhgMIAEoCBotCgtMYWJlbHNFbnRyeRILCgNrZXkYASABKAkSDQoF",
+            "dmFsdWUYAiABKAk6AjgBIkgKBlN0YXR1cxIWChJTVEFUVVNfVU5TUEVDSUZJ",
+            "RUQQABIMCghDUkVBVElORxABEgoKBkFDVElWRRACEgwKCElOQUNUSVZFEAMi",
+            "+wIKE1N5bW1ldHJpY0tleVZlcnNpb24SCgoCaWQYASABKAkSDgoGa2V5X2lk",
+            "GAIgASgJEj8KBnN0YXR1cxgDIAEoDjIvLnlhbmRleC5jbG91ZC5rbXMudjEu",
+            "U3ltbWV0cmljS2V5VmVyc2lvbi5TdGF0dXMSOgoJYWxnb3JpdGhtGAQgASgO",
+            "MicueWFuZGV4LmNsb3VkLmttcy52MS5TeW1tZXRyaWNBbGdvcml0aG0SLgoK",
+            "Y3JlYXRlZF9hdBgFIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXAS",
+            "DwoHcHJpbWFyeRgGIAEoCBIuCgpkZXN0cm95X2F0GAcgASgLMhouZ29vZ2xl",
+            "LnByb3RvYnVmLlRpbWVzdGFtcCJaCgZTdGF0dXMSFgoSU1RBVFVTX1VOU1BF",
+            "Q0lGSUVEEAASCgoGQUNUSVZFEAESHQoZU0NIRURVTEVEX0ZPUl9ERVNUUlVD",
+            "VElPThACEg0KCURFU1RST1lFRBADKmAKElN5bW1ldHJpY0FsZ29yaXRobRIj",
+            "Ch9TWU1NRVRSSUNfQUxHT1JJVEhNX1VOU1BFQ0lGSUVEEAASCwoHQUVTXzEy",
+            "OBABEgsKB0FFU18xOTIQAhILCgdBRVNfMjU2EANCVgoXeWFuZGV4LmNsb3Vk",
+            "LmFwaS5rbXMudjFaO2dpdGh1Yi5jb20veWFuZGV4LWNsb3VkL2dvLWdlbnBy",
+            "b3RvL3lhbmRleC9jbG91ZC9rbXMvdjE7a21zYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.DurationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Yandex.Cloud.Kms.V1.SymmetricAlgorithm), }, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Kms.V1.SymmetricKey), global::Yandex.Cloud.Kms.V1.SymmetricKey.Parser, new[]{ "Id", "FolderId", "CreatedAt", "Name", "Description", "Labels", "Status", "PrimaryVersion", "DefaultAlgorithm", "RotatedAt", "RotationPeriod" }, null, new[]{ typeof(global::Yandex.Cloud.Kms.V1.SymmetricKey.Types.Status) }, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Kms.V1.SymmetricKey), global::Yandex.Cloud.Kms.V1.SymmetricKey.Parser, new[]{ "Id", "FolderId", "CreatedAt", "Name", "Description", "Labels", "Status", "PrimaryVersion", "DefaultAlgorithm", "RotatedAt", "RotationPeriod", "DeletionProtection" }, null, new[]{ typeof(global::Yandex.Cloud.Kms.V1.SymmetricKey.Types.Status) }, null, new pbr::GeneratedClrTypeInfo[] { null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Kms.V1.SymmetricKeyVersion), global::Yandex.Cloud.Kms.V1.SymmetricKeyVersion.Parser, new[]{ "Id", "KeyId", "Status", "Algorithm", "CreatedAt", "Primary", "DestroyAt" }, null, new[]{ typeof(global::Yandex.Cloud.Kms.V1.SymmetricKeyVersion.Types.Status) }, null, null)
           }));
     }
@@ -126,6 +126,7 @@ namespace Yandex.Cloud.Kms.V1 {
       defaultAlgorithm_ = other.defaultAlgorithm_;
       rotatedAt_ = other.rotatedAt_ != null ? other.rotatedAt_.Clone() : null;
       rotationPeriod_ = other.rotationPeriod_ != null ? other.rotationPeriod_.Clone() : null;
+      deletionProtection_ = other.deletionProtection_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -289,6 +290,20 @@ namespace Yandex.Cloud.Kms.V1 {
       }
     }
 
+    /// <summary>Field number for the "deletion_protection" field.</summary>
+    public const int DeletionProtectionFieldNumber = 12;
+    private bool deletionProtection_;
+    /// <summary>
+    /// Flag that inhibits deletion of the key
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool DeletionProtection {
+      get { return deletionProtection_; }
+      set {
+        deletionProtection_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as SymmetricKey);
@@ -313,6 +328,7 @@ namespace Yandex.Cloud.Kms.V1 {
       if (DefaultAlgorithm != other.DefaultAlgorithm) return false;
       if (!object.Equals(RotatedAt, other.RotatedAt)) return false;
       if (!object.Equals(RotationPeriod, other.RotationPeriod)) return false;
+      if (DeletionProtection != other.DeletionProtection) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -330,6 +346,7 @@ namespace Yandex.Cloud.Kms.V1 {
       if (DefaultAlgorithm != global::Yandex.Cloud.Kms.V1.SymmetricAlgorithm.Unspecified) hash ^= DefaultAlgorithm.GetHashCode();
       if (rotatedAt_ != null) hash ^= RotatedAt.GetHashCode();
       if (rotationPeriod_ != null) hash ^= RotationPeriod.GetHashCode();
+      if (DeletionProtection != false) hash ^= DeletionProtection.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -384,6 +401,10 @@ namespace Yandex.Cloud.Kms.V1 {
         output.WriteRawTag(90);
         output.WriteMessage(RotationPeriod);
       }
+      if (DeletionProtection != false) {
+        output.WriteRawTag(96);
+        output.WriteBool(DeletionProtection);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -422,6 +443,9 @@ namespace Yandex.Cloud.Kms.V1 {
       }
       if (rotationPeriod_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(RotationPeriod);
+      }
+      if (DeletionProtection != false) {
+        size += 1 + 1;
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -476,6 +500,9 @@ namespace Yandex.Cloud.Kms.V1 {
           RotationPeriod = new global::Google.Protobuf.WellKnownTypes.Duration();
         }
         RotationPeriod.MergeFrom(other.RotationPeriod);
+      }
+      if (other.DeletionProtection != false) {
+        DeletionProtection = other.DeletionProtection;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -542,6 +569,10 @@ namespace Yandex.Cloud.Kms.V1 {
               RotationPeriod = new global::Google.Protobuf.WellKnownTypes.Duration();
             }
             input.ReadMessage(RotationPeriod);
+            break;
+          }
+          case 96: {
+            DeletionProtection = input.ReadBool();
             break;
           }
         }

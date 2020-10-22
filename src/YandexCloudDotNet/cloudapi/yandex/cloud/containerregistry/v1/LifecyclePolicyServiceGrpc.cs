@@ -21,6 +21,8 @@ namespace Yandex.Cloud.Containerregistry.V1 {
     static readonly grpc::Marshaller<global::Yandex.Cloud.Containerregistry.V1.UpdateLifecyclePolicyRequest> __Marshaller_yandex_cloud_containerregistry_v1_UpdateLifecyclePolicyRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Containerregistry.V1.UpdateLifecyclePolicyRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Containerregistry.V1.DeleteLifecyclePolicyRequest> __Marshaller_yandex_cloud_containerregistry_v1_DeleteLifecyclePolicyRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Containerregistry.V1.DeleteLifecyclePolicyRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Containerregistry.V1.DryRunLifecyclePolicyRequest> __Marshaller_yandex_cloud_containerregistry_v1_DryRunLifecyclePolicyRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Containerregistry.V1.DryRunLifecyclePolicyRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Yandex.Cloud.Containerregistry.V1.GetDryRunLifecyclePolicyResultRequest> __Marshaller_yandex_cloud_containerregistry_v1_GetDryRunLifecyclePolicyResultRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Containerregistry.V1.GetDryRunLifecyclePolicyResultRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Yandex.Cloud.Containerregistry.V1.DryRunLifecyclePolicyResult> __Marshaller_yandex_cloud_containerregistry_v1_DryRunLifecyclePolicyResult = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Containerregistry.V1.DryRunLifecyclePolicyResult.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Containerregistry.V1.ListDryRunLifecyclePolicyResultsRequest> __Marshaller_yandex_cloud_containerregistry_v1_ListDryRunLifecyclePolicyResultsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Containerregistry.V1.ListDryRunLifecyclePolicyResultsRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Containerregistry.V1.ListDryRunLifecyclePolicyResultsResponse> __Marshaller_yandex_cloud_containerregistry_v1_ListDryRunLifecyclePolicyResultsResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Containerregistry.V1.ListDryRunLifecyclePolicyResultsResponse.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Containerregistry.V1.ListDryRunLifecyclePolicyResultAffectedImagesRequest> __Marshaller_yandex_cloud_containerregistry_v1_ListDryRunLifecyclePolicyResultAffectedImagesRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Containerregistry.V1.ListDryRunLifecyclePolicyResultAffectedImagesRequest.Parser.ParseFrom);
@@ -67,6 +69,13 @@ namespace Yandex.Cloud.Containerregistry.V1 {
         "DryRun",
         __Marshaller_yandex_cloud_containerregistry_v1_DryRunLifecyclePolicyRequest,
         __Marshaller_yandex_cloud_operation_Operation);
+
+    static readonly grpc::Method<global::Yandex.Cloud.Containerregistry.V1.GetDryRunLifecyclePolicyResultRequest, global::Yandex.Cloud.Containerregistry.V1.DryRunLifecyclePolicyResult> __Method_GetDryRunResult = new grpc::Method<global::Yandex.Cloud.Containerregistry.V1.GetDryRunLifecyclePolicyResultRequest, global::Yandex.Cloud.Containerregistry.V1.DryRunLifecyclePolicyResult>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "GetDryRunResult",
+        __Marshaller_yandex_cloud_containerregistry_v1_GetDryRunLifecyclePolicyResultRequest,
+        __Marshaller_yandex_cloud_containerregistry_v1_DryRunLifecyclePolicyResult);
 
     static readonly grpc::Method<global::Yandex.Cloud.Containerregistry.V1.ListDryRunLifecyclePolicyResultsRequest, global::Yandex.Cloud.Containerregistry.V1.ListDryRunLifecyclePolicyResultsResponse> __Method_ListDryRunResults = new grpc::Method<global::Yandex.Cloud.Containerregistry.V1.ListDryRunLifecyclePolicyResultsRequest, global::Yandex.Cloud.Containerregistry.V1.ListDryRunLifecyclePolicyResultsResponse>(
         grpc::MethodType.Unary,
@@ -206,6 +215,22 @@ namespace Yandex.Cloud.Containerregistry.V1 {
       public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Operation.Operation> DryRunAsync(global::Yandex.Cloud.Containerregistry.V1.DryRunLifecyclePolicyRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_DryRun, null, options, request);
+      }
+      public virtual global::Yandex.Cloud.Containerregistry.V1.DryRunLifecyclePolicyResult GetDryRunResult(global::Yandex.Cloud.Containerregistry.V1.GetDryRunLifecyclePolicyResultRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return GetDryRunResult(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      public virtual global::Yandex.Cloud.Containerregistry.V1.DryRunLifecyclePolicyResult GetDryRunResult(global::Yandex.Cloud.Containerregistry.V1.GetDryRunLifecyclePolicyResultRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_GetDryRunResult, null, options, request);
+      }
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Containerregistry.V1.DryRunLifecyclePolicyResult> GetDryRunResultAsync(global::Yandex.Cloud.Containerregistry.V1.GetDryRunLifecyclePolicyResultRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return GetDryRunResultAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Containerregistry.V1.DryRunLifecyclePolicyResult> GetDryRunResultAsync(global::Yandex.Cloud.Containerregistry.V1.GetDryRunLifecyclePolicyResultRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_GetDryRunResult, null, options, request);
       }
       public virtual global::Yandex.Cloud.Containerregistry.V1.ListDryRunLifecyclePolicyResultsResponse ListDryRunResults(global::Yandex.Cloud.Containerregistry.V1.ListDryRunLifecyclePolicyResultsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {

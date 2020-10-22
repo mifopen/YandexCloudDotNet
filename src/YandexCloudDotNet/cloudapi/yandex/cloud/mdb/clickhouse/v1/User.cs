@@ -39,7 +39,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
             "bWRiLmNsaWNraG91c2UudjEuUGVybWlzc2lvbhI+CghzZXR0aW5ncxgEIAEo",
             "CzIsLnlhbmRleC5jbG91ZC5tZGIuY2xpY2tob3VzZS52MS5Vc2VyU2V0dGlu",
             "Z3MSOQoGcXVvdGFzGAUgAygLMikueWFuZGV4LmNsb3VkLm1kYi5jbGlja2hv",
-            "dXNlLnYxLlVzZXJRdW90YSKYLwoMVXNlclNldHRpbmdzEjYKCHJlYWRvbmx5",
+            "dXNlLnYxLlVzZXJRdW90YSL3OAoMVXNlclNldHRpbmdzEjYKCHJlYWRvbmx5",
             "GAEgASgLMhsuZ29vZ2xlLnByb3RvYnVmLkludDY0VmFsdWVCB/rHMQMwLTIS",
             "LQoJYWxsb3dfZGRsGAIgASgLMhouZ29vZ2xlLnByb3RvYnVmLkJvb2xWYWx1",
             "ZRI7Cg1pbnNlcnRfcXVvcnVtGAMgASgLMhsuZ29vZ2xlLnByb3RvYnVmLklu",
@@ -61,137 +61,165 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
             "dGluZ3MuRGlzdHJpYnV0ZWRQcm9kdWN0TW9kZRJMCihkaXN0cmlidXRlZF9h",
             "Z2dyZWdhdGlvbl9tZW1vcnlfZWZmaWNpZW50GEggASgLMhouZ29vZ2xlLnBy",
             "b3RvYnVmLkJvb2xWYWx1ZRJBChxkaXN0cmlidXRlZF9kZGxfdGFza190aW1l",
-            "b3V0GEkgASgLMhsuZ29vZ2xlLnByb3RvYnVmLkludDY0VmFsdWUSKwoHY29t",
-            "cGlsZRgsIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5Cb29sVmFsdWUSQgoUbWlu",
-            "X2NvdW50X3RvX2NvbXBpbGUYLSABKAsyGy5nb29nbGUucHJvdG9idWYuSW50",
-            "NjRWYWx1ZUIH+scxAz49MBI3ChNjb21waWxlX2V4cHJlc3Npb25zGC4gASgL",
-            "MhouZ29vZ2xlLnByb3RvYnVmLkJvb2xWYWx1ZRJNCh9taW5fY291bnRfdG9f",
-            "Y29tcGlsZV9leHByZXNzaW9uGC8gASgLMhsuZ29vZ2xlLnByb3RvYnVmLklu",
-            "dDY0VmFsdWVCB/rHMQM+PTASOwoObWF4X2Jsb2NrX3NpemUYCSABKAsyGy5n",
-            "b29nbGUucHJvdG9idWYuSW50NjRWYWx1ZUIG+scxAj4wEkgKGm1pbl9pbnNl",
-            "cnRfYmxvY2tfc2l6ZV9yb3dzGDAgASgLMhsuZ29vZ2xlLnByb3RvYnVmLklu",
-            "dDY0VmFsdWVCB/rHMQM+PTASSQobbWluX2luc2VydF9ibG9ja19zaXplX2J5",
-            "dGVzGDEgASgLMhsuZ29vZ2xlLnByb3RvYnVmLkludDY0VmFsdWVCB/rHMQM+",
-            "PTASQgoVbWF4X2luc2VydF9ibG9ja19zaXplGAogASgLMhsuZ29vZ2xlLnBy",
-            "b3RvYnVmLkludDY0VmFsdWVCBvrHMQI+MBJIChptaW5fYnl0ZXNfdG9fdXNl",
-            "X2RpcmVjdF9pbxgyIAEoCzIbLmdvb2dsZS5wcm90b2J1Zi5JbnQ2NFZhbHVl",
-            "Qgf6xzEDPj0wEjoKFnVzZV91bmNvbXByZXNzZWRfY2FjaGUYMyABKAsyGi5n",
-            "b29nbGUucHJvdG9idWYuQm9vbFZhbHVlEk0KIG1lcmdlX3RyZWVfbWF4X3Jv",
-            "d3NfdG9fdXNlX2NhY2hlGDQgASgLMhsuZ29vZ2xlLnByb3RvYnVmLkludDY0",
-            "VmFsdWVCBvrHMQI+MBJOCiFtZXJnZV90cmVlX21heF9ieXRlc190b191c2Vf",
-            "Y2FjaGUYNSABKAsyGy5nb29nbGUucHJvdG9idWYuSW50NjRWYWx1ZUIG+scx",
-            "Aj4wElQKJ21lcmdlX3RyZWVfbWluX3Jvd3NfZm9yX2NvbmN1cnJlbnRfcmVh",
-            "ZBg2IAEoCzIbLmdvb2dsZS5wcm90b2J1Zi5JbnQ2NFZhbHVlQgb6xzECPjAS",
-            "VQoobWVyZ2VfdHJlZV9taW5fYnl0ZXNfZm9yX2NvbmN1cnJlbnRfcmVhZBg3",
-            "IAEoCzIbLmdvb2dsZS5wcm90b2J1Zi5JbnQ2NFZhbHVlQgb6xzECPjASRwoi",
-            "bWF4X2J5dGVzX2JlZm9yZV9leHRlcm5hbF9ncm91cF9ieRhKIAEoCzIbLmdv",
-            "b2dsZS5wcm90b2J1Zi5JbnQ2NFZhbHVlEkMKHm1heF9ieXRlc19iZWZvcmVf",
-            "ZXh0ZXJuYWxfc29ydBhLIAEoCzIbLmdvb2dsZS5wcm90b2J1Zi5JbnQ2NFZh",
-            "bHVlEkEKHGdyb3VwX2J5X3R3b19sZXZlbF90aHJlc2hvbGQYTCABKAsyGy5n",
-            "b29nbGUucHJvdG9idWYuSW50NjRWYWx1ZRJHCiJncm91cF9ieV90d29fbGV2",
-            "ZWxfdGhyZXNob2xkX2J5dGVzGE0gASgLMhsuZ29vZ2xlLnByb3RvYnVmLklu",
-            "dDY0VmFsdWUSNgoIcHJpb3JpdHkYOCABKAsyGy5nb29nbGUucHJvdG9idWYu",
-            "SW50NjRWYWx1ZUIH+scxAz49MBI4CgttYXhfdGhyZWFkcxgIIAEoCzIbLmdv",
-            "b2dsZS5wcm90b2J1Zi5JbnQ2NFZhbHVlQgb6xzECPjASPgoQbWF4X21lbW9y",
-            "eV91c2FnZRgLIAEoCzIbLmdvb2dsZS5wcm90b2J1Zi5JbnQ2NFZhbHVlQgf6",
-            "xzEDPj0wEkcKGW1heF9tZW1vcnlfdXNhZ2VfZm9yX3VzZXIYDCABKAsyGy5n",
-            "b29nbGUucHJvdG9idWYuSW50NjRWYWx1ZUIH+scxAz49MBI6ChVtYXhfbmV0",
-            "d29ya19iYW5kd2lkdGgYOSABKAsyGy5nb29nbGUucHJvdG9idWYuSW50NjRW",
-            "YWx1ZRJDCh5tYXhfbmV0d29ya19iYW5kd2lkdGhfZm9yX3VzZXIYOiABKAsy",
-            "Gy5nb29nbGUucHJvdG9idWYuSW50NjRWYWx1ZRI3ChNmb3JjZV9pbmRleF9i",
-            "eV9kYXRlGDsgASgLMhouZ29vZ2xlLnByb3RvYnVmLkJvb2xWYWx1ZRI1ChFm",
-            "b3JjZV9wcmltYXJ5X2tleRg8IAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5Cb29s",
-            "VmFsdWUSPgoQbWF4X3Jvd3NfdG9fcmVhZBgNIAEoCzIbLmdvb2dsZS5wcm90",
-            "b2J1Zi5JbnQ2NFZhbHVlQgf6xzEDPj0wEj8KEW1heF9ieXRlc190b19yZWFk",
-            "GA4gASgLMhsuZ29vZ2xlLnByb3RvYnVmLkludDY0VmFsdWVCB/rHMQM+PTAS",
-            "VQoScmVhZF9vdmVyZmxvd19tb2RlGA8gASgOMjkueWFuZGV4LmNsb3VkLm1k",
-            "Yi5jbGlja2hvdXNlLnYxLlVzZXJTZXR0aW5ncy5PdmVyZmxvd01vZGUSQgoU",
-            "bWF4X3Jvd3NfdG9fZ3JvdXBfYnkYECABKAsyGy5nb29nbGUucHJvdG9idWYu",
-            "SW50NjRWYWx1ZUIH+scxAz49MBJgChZncm91cF9ieV9vdmVyZmxvd19tb2Rl",
-            "GBEgASgOMkAueWFuZGV4LmNsb3VkLm1kYi5jbGlja2hvdXNlLnYxLlVzZXJT",
-            "ZXR0aW5ncy5Hcm91cEJ5T3ZlcmZsb3dNb2RlEj4KEG1heF9yb3dzX3RvX3Nv",
-            "cnQYEiABKAsyGy5nb29nbGUucHJvdG9idWYuSW50NjRWYWx1ZUIH+scxAz49",
-            "MBI/ChFtYXhfYnl0ZXNfdG9fc29ydBgTIAEoCzIbLmdvb2dsZS5wcm90b2J1",
-            "Zi5JbnQ2NFZhbHVlQgf6xzEDPj0wElUKEnNvcnRfb3ZlcmZsb3dfbW9kZRgU",
-            "IAEoDjI5LnlhbmRleC5jbG91ZC5tZGIuY2xpY2tob3VzZS52MS5Vc2VyU2V0",
-            "dGluZ3MuT3ZlcmZsb3dNb2RlEj0KD21heF9yZXN1bHRfcm93cxgVIAEoCzIb",
-            "Lmdvb2dsZS5wcm90b2J1Zi5JbnQ2NFZhbHVlQgf6xzEDPj0wEj4KEG1heF9y",
-            "ZXN1bHRfYnl0ZXMYFiABKAsyGy5nb29nbGUucHJvdG9idWYuSW50NjRWYWx1",
-            "ZUIH+scxAz49MBJXChRyZXN1bHRfb3ZlcmZsb3dfbW9kZRgXIAEoDjI5Lnlh",
-            "bmRleC5jbG91ZC5tZGIuY2xpY2tob3VzZS52MS5Vc2VyU2V0dGluZ3MuT3Zl",
-            "cmZsb3dNb2RlEkIKFG1heF9yb3dzX2luX2Rpc3RpbmN0GBggASgLMhsuZ29v",
-            "Z2xlLnByb3RvYnVmLkludDY0VmFsdWVCB/rHMQM+PTASQwoVbWF4X2J5dGVz",
-            "X2luX2Rpc3RpbmN0GBkgASgLMhsuZ29vZ2xlLnByb3RvYnVmLkludDY0VmFs",
-            "dWVCB/rHMQM+PTASWQoWZGlzdGluY3Rfb3ZlcmZsb3dfbW9kZRgaIAEoDjI5",
+            "b3V0GEkgASgLMhsuZ29vZ2xlLnByb3RvYnVmLkludDY0VmFsdWUSOwoXc2tp",
+            "cF91bmF2YWlsYWJsZV9zaGFyZHMYUSABKAsyGi5nb29nbGUucHJvdG9idWYu",
+            "Qm9vbFZhbHVlEisKB2NvbXBpbGUYLCABKAsyGi5nb29nbGUucHJvdG9idWYu",
+            "Qm9vbFZhbHVlEkIKFG1pbl9jb3VudF90b19jb21waWxlGC0gASgLMhsuZ29v",
+            "Z2xlLnByb3RvYnVmLkludDY0VmFsdWVCB/rHMQM+PTASNwoTY29tcGlsZV9l",
+            "eHByZXNzaW9ucxguIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5Cb29sVmFsdWUS",
+            "TQofbWluX2NvdW50X3RvX2NvbXBpbGVfZXhwcmVzc2lvbhgvIAEoCzIbLmdv",
+            "b2dsZS5wcm90b2J1Zi5JbnQ2NFZhbHVlQgf6xzEDPj0wEjsKDm1heF9ibG9j",
+            "a19zaXplGAkgASgLMhsuZ29vZ2xlLnByb3RvYnVmLkludDY0VmFsdWVCBvrH",
+            "MQI+MBJIChptaW5faW5zZXJ0X2Jsb2NrX3NpemVfcm93cxgwIAEoCzIbLmdv",
+            "b2dsZS5wcm90b2J1Zi5JbnQ2NFZhbHVlQgf6xzEDPj0wEkkKG21pbl9pbnNl",
+            "cnRfYmxvY2tfc2l6ZV9ieXRlcxgxIAEoCzIbLmdvb2dsZS5wcm90b2J1Zi5J",
+            "bnQ2NFZhbHVlQgf6xzEDPj0wEkIKFW1heF9pbnNlcnRfYmxvY2tfc2l6ZRgK",
+            "IAEoCzIbLmdvb2dsZS5wcm90b2J1Zi5JbnQ2NFZhbHVlQgb6xzECPjASSAoa",
+            "bWluX2J5dGVzX3RvX3VzZV9kaXJlY3RfaW8YMiABKAsyGy5nb29nbGUucHJv",
+            "dG9idWYuSW50NjRWYWx1ZUIH+scxAz49MBI6ChZ1c2VfdW5jb21wcmVzc2Vk",
+            "X2NhY2hlGDMgASgLMhouZ29vZ2xlLnByb3RvYnVmLkJvb2xWYWx1ZRJNCiBt",
+            "ZXJnZV90cmVlX21heF9yb3dzX3RvX3VzZV9jYWNoZRg0IAEoCzIbLmdvb2ds",
+            "ZS5wcm90b2J1Zi5JbnQ2NFZhbHVlQgb6xzECPjASTgohbWVyZ2VfdHJlZV9t",
+            "YXhfYnl0ZXNfdG9fdXNlX2NhY2hlGDUgASgLMhsuZ29vZ2xlLnByb3RvYnVm",
+            "LkludDY0VmFsdWVCBvrHMQI+MBJUCidtZXJnZV90cmVlX21pbl9yb3dzX2Zv",
+            "cl9jb25jdXJyZW50X3JlYWQYNiABKAsyGy5nb29nbGUucHJvdG9idWYuSW50",
+            "NjRWYWx1ZUIG+scxAj4wElUKKG1lcmdlX3RyZWVfbWluX2J5dGVzX2Zvcl9j",
+            "b25jdXJyZW50X3JlYWQYNyABKAsyGy5nb29nbGUucHJvdG9idWYuSW50NjRW",
+            "YWx1ZUIG+scxAj4wEkcKIm1heF9ieXRlc19iZWZvcmVfZXh0ZXJuYWxfZ3Jv",
+            "dXBfYnkYSiABKAsyGy5nb29nbGUucHJvdG9idWYuSW50NjRWYWx1ZRJDCh5t",
+            "YXhfYnl0ZXNfYmVmb3JlX2V4dGVybmFsX3NvcnQYSyABKAsyGy5nb29nbGUu",
+            "cHJvdG9idWYuSW50NjRWYWx1ZRJBChxncm91cF9ieV90d29fbGV2ZWxfdGhy",
+            "ZXNob2xkGEwgASgLMhsuZ29vZ2xlLnByb3RvYnVmLkludDY0VmFsdWUSRwoi",
+            "Z3JvdXBfYnlfdHdvX2xldmVsX3RocmVzaG9sZF9ieXRlcxhNIAEoCzIbLmdv",
+            "b2dsZS5wcm90b2J1Zi5JbnQ2NFZhbHVlEjYKCHByaW9yaXR5GDggASgLMhsu",
+            "Z29vZ2xlLnByb3RvYnVmLkludDY0VmFsdWVCB/rHMQM+PTASOAoLbWF4X3Ro",
+            "cmVhZHMYCCABKAsyGy5nb29nbGUucHJvdG9idWYuSW50NjRWYWx1ZUIG+scx",
+            "Aj4wEj4KEG1heF9tZW1vcnlfdXNhZ2UYCyABKAsyGy5nb29nbGUucHJvdG9i",
+            "dWYuSW50NjRWYWx1ZUIH+scxAz49MBJHChltYXhfbWVtb3J5X3VzYWdlX2Zv",
+            "cl91c2VyGAwgASgLMhsuZ29vZ2xlLnByb3RvYnVmLkludDY0VmFsdWVCB/rH",
+            "MQM+PTASOgoVbWF4X25ldHdvcmtfYmFuZHdpZHRoGDkgASgLMhsuZ29vZ2xl",
+            "LnByb3RvYnVmLkludDY0VmFsdWUSQwoebWF4X25ldHdvcmtfYmFuZHdpZHRo",
+            "X2Zvcl91c2VyGDogASgLMhsuZ29vZ2xlLnByb3RvYnVmLkludDY0VmFsdWUS",
+            "NwoTZm9yY2VfaW5kZXhfYnlfZGF0ZRg7IAEoCzIaLmdvb2dsZS5wcm90b2J1",
+            "Zi5Cb29sVmFsdWUSNQoRZm9yY2VfcHJpbWFyeV9rZXkYPCABKAsyGi5nb29n",
+            "bGUucHJvdG9idWYuQm9vbFZhbHVlEj4KEG1heF9yb3dzX3RvX3JlYWQYDSAB",
+            "KAsyGy5nb29nbGUucHJvdG9idWYuSW50NjRWYWx1ZUIH+scxAz49MBI/ChFt",
+            "YXhfYnl0ZXNfdG9fcmVhZBgOIAEoCzIbLmdvb2dsZS5wcm90b2J1Zi5JbnQ2",
+            "NFZhbHVlQgf6xzEDPj0wElUKEnJlYWRfb3ZlcmZsb3dfbW9kZRgPIAEoDjI5",
             "LnlhbmRleC5jbG91ZC5tZGIuY2xpY2tob3VzZS52MS5Vc2VyU2V0dGluZ3Mu",
-            "T3ZlcmZsb3dNb2RlEkIKFG1heF9yb3dzX3RvX3RyYW5zZmVyGBsgASgLMhsu",
-            "Z29vZ2xlLnByb3RvYnVmLkludDY0VmFsdWVCB/rHMQM+PTASQwoVbWF4X2J5",
-            "dGVzX3RvX3RyYW5zZmVyGBwgASgLMhsuZ29vZ2xlLnByb3RvYnVmLkludDY0",
-            "VmFsdWVCB/rHMQM+PTASWQoWdHJhbnNmZXJfb3ZlcmZsb3dfbW9kZRgdIAEo",
-            "DjI5LnlhbmRleC5jbG91ZC5tZGIuY2xpY2tob3VzZS52MS5Vc2VyU2V0dGlu",
-            "Z3MuT3ZlcmZsb3dNb2RlEkAKEm1heF9leGVjdXRpb25fdGltZRgeIAEoCzIb",
-            "Lmdvb2dsZS5wcm90b2J1Zi5JbnQ2NFZhbHVlQgf6xzEDPj0wElgKFXRpbWVv",
-            "dXRfb3ZlcmZsb3dfbW9kZRgfIAEoDjI5LnlhbmRleC5jbG91ZC5tZGIuY2xp",
-            "Y2tob3VzZS52MS5Vc2VyU2V0dGluZ3MuT3ZlcmZsb3dNb2RlEkEKE21heF9j",
-            "b2x1bW5zX3RvX3JlYWQYICABKAsyGy5nb29nbGUucHJvdG9idWYuSW50NjRW",
-            "YWx1ZUIH+scxAz49MBJDChVtYXhfdGVtcG9yYXJ5X2NvbHVtbnMYISABKAsy",
-            "Gy5nb29nbGUucHJvdG9idWYuSW50NjRWYWx1ZUIH+scxAz49MBJNCh9tYXhf",
-            "dGVtcG9yYXJ5X25vbl9jb25zdF9jb2x1bW5zGCIgASgLMhsuZ29vZ2xlLnBy",
-            "b3RvYnVmLkludDY0VmFsdWVCB/rHMQM+PTASOwoObWF4X3F1ZXJ5X3NpemUY",
-            "IyABKAsyGy5nb29nbGUucHJvdG9idWYuSW50NjRWYWx1ZUIG+scxAj4wEjoK",
-            "DW1heF9hc3RfZGVwdGgYJCABKAsyGy5nb29nbGUucHJvdG9idWYuSW50NjRW",
-            "YWx1ZUIG+scxAj4wEj0KEG1heF9hc3RfZWxlbWVudHMYJSABKAsyGy5nb29n",
-            "bGUucHJvdG9idWYuSW50NjRWYWx1ZUIG+scxAj4wEkYKGW1heF9leHBhbmRl",
-            "ZF9hc3RfZWxlbWVudHMYJiABKAsyGy5nb29nbGUucHJvdG9idWYuSW50NjRW",
-            "YWx1ZUIG+scxAj4wEk0KKWlucHV0X2Zvcm1hdF92YWx1ZXNfaW50ZXJwcmV0",
-            "X2V4cHJlc3Npb25zGD0gASgLMhouZ29vZ2xlLnByb3RvYnVmLkJvb2xWYWx1",
-            "ZRJMCihpbnB1dF9mb3JtYXRfZGVmYXVsdHNfZm9yX29taXR0ZWRfZmllbGRz",
-            "GD4gASgLMhouZ29vZ2xlLnByb3RvYnVmLkJvb2xWYWx1ZRJLCidvdXRwdXRf",
-            "Zm9ybWF0X2pzb25fcXVvdGVfNjRiaXRfaW50ZWdlcnMYPyABKAsyGi5nb29n",
-            "bGUucHJvdG9idWYuQm9vbFZhbHVlEkYKIm91dHB1dF9mb3JtYXRfanNvbl9x",
-            "dW90ZV9kZW5vcm1hbHMYQCABKAsyGi5nb29nbGUucHJvdG9idWYuQm9vbFZh",
-            "bHVlEkoKJmxvd19jYXJkaW5hbGl0eV9hbGxvd19pbl9uYXRpdmVfZm9ybWF0",
-            "GE4gASgLMhouZ29vZ2xlLnByb3RvYnVmLkJvb2xWYWx1ZRJNCillbXB0eV9y",
-            "ZXN1bHRfZm9yX2FnZ3JlZ2F0aW9uX2J5X2VtcHR5X3NldBhPIAEoCzIaLmdv",
-            "b2dsZS5wcm90b2J1Zi5Cb29sVmFsdWUSPAoXaHR0cF9jb25uZWN0aW9uX3Rp",
-            "bWVvdXQYQSABKAsyGy5nb29nbGUucHJvdG9idWYuSW50NjRWYWx1ZRI5ChRo",
-            "dHRwX3JlY2VpdmVfdGltZW91dBhCIAEoCzIbLmdvb2dsZS5wcm90b2J1Zi5J",
-            "bnQ2NFZhbHVlEjYKEWh0dHBfc2VuZF90aW1lb3V0GEMgASgLMhsuZ29vZ2xl",
-            "LnByb3RvYnVmLkludDY0VmFsdWUSOwoXZW5hYmxlX2h0dHBfY29tcHJlc3Np",
-            "b24YRCABKAsyGi5nb29nbGUucHJvdG9idWYuQm9vbFZhbHVlEkEKHXNlbmRf",
-            "cHJvZ3Jlc3NfaW5faHR0cF9oZWFkZXJzGEUgASgLMhouZ29vZ2xlLnByb3Rv",
-            "YnVmLkJvb2xWYWx1ZRJDCh5odHRwX2hlYWRlcnNfcHJvZ3Jlc3NfaW50ZXJ2",
-            "YWwYRiABKAsyGy5nb29nbGUucHJvdG9idWYuSW50NjRWYWx1ZRI4ChRhZGRf",
-            "aHR0cF9jb3JzX2hlYWRlchhHIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5Cb29s",
-            "VmFsdWUiXwoMT3ZlcmZsb3dNb2RlEh0KGU9WRVJGTE9XX01PREVfVU5TUEVD",
-            "SUZJRUQQABIXChNPVkVSRkxPV19NT0RFX1RIUk9XEAESFwoTT1ZFUkZMT1df",
-            "TU9ERV9CUkVBSxACIqEBChNHcm91cEJ5T3ZlcmZsb3dNb2RlEiYKIkdST1VQ",
-            "X0JZX09WRVJGTE9XX01PREVfVU5TUEVDSUZJRUQQABIgChxHUk9VUF9CWV9P",
-            "VkVSRkxPV19NT0RFX1RIUk9XEAESIAocR1JPVVBfQllfT1ZFUkZMT1dfTU9E",
-            "RV9CUkVBSxACEh4KGkdST1VQX0JZX09WRVJGTE9XX01PREVfQU5ZEAMi0gEK",
-            "FkRpc3RyaWJ1dGVkUHJvZHVjdE1vZGUSKAokRElTVFJJQlVURURfUFJPRFVD",
-            "VF9NT0RFX1VOU1BFQ0lGSUVEEAASIQodRElTVFJJQlVURURfUFJPRFVDVF9N",
-            "T0RFX0RFTlkQARIiCh5ESVNUUklCVVRFRF9QUk9EVUNUX01PREVfTE9DQUwQ",
-            "AhIjCh9ESVNUUklCVVRFRF9QUk9EVUNUX01PREVfR0xPQkFMEAMSIgoeRElT",
-            "VFJJQlVURURfUFJPRFVDVF9NT0RFX0FMTE9XEAQi7gIKCVVzZXJRdW90YRJC",
-            "ChFpbnRlcnZhbF9kdXJhdGlvbhgBIAEoCzIbLmdvb2dsZS5wcm90b2J1Zi5J",
-            "bnQ2NFZhbHVlQgr6xzEGPj0xMDAwEjUKB3F1ZXJpZXMYAiABKAsyGy5nb29n",
-            "bGUucHJvdG9idWYuSW50NjRWYWx1ZUIH+scxAz49MBI0CgZlcnJvcnMYAyAB",
-            "KAsyGy5nb29nbGUucHJvdG9idWYuSW50NjRWYWx1ZUIH+scxAz49MBI5Cgty",
-            "ZXN1bHRfcm93cxgEIAEoCzIbLmdvb2dsZS5wcm90b2J1Zi5JbnQ2NFZhbHVl",
-            "Qgf6xzEDPj0wEjcKCXJlYWRfcm93cxgFIAEoCzIbLmdvb2dsZS5wcm90b2J1",
-            "Zi5JbnQ2NFZhbHVlQgf6xzEDPj0wEjwKDmV4ZWN1dGlvbl90aW1lGAYgASgL",
-            "MhsuZ29vZ2xlLnByb3RvYnVmLkludDY0VmFsdWVCB/rHMQM+PTBCcwoieWFu",
-            "ZGV4LmNsb3VkLmFwaS5tZGIuY2xpY2tob3VzZS52MVpNZ2l0aHViLmNvbS95",
-            "YW5kZXgtY2xvdWQvZ28tZ2VucHJvdG8veWFuZGV4L2Nsb3VkL21kYi9jbGlj",
-            "a2hvdXNlL3YxO2NsaWNraG91c2ViBnByb3RvMw=="));
+            "T3ZlcmZsb3dNb2RlEkIKFG1heF9yb3dzX3RvX2dyb3VwX2J5GBAgASgLMhsu",
+            "Z29vZ2xlLnByb3RvYnVmLkludDY0VmFsdWVCB/rHMQM+PTASYAoWZ3JvdXBf",
+            "Ynlfb3ZlcmZsb3dfbW9kZRgRIAEoDjJALnlhbmRleC5jbG91ZC5tZGIuY2xp",
+            "Y2tob3VzZS52MS5Vc2VyU2V0dGluZ3MuR3JvdXBCeU92ZXJmbG93TW9kZRI+",
+            "ChBtYXhfcm93c190b19zb3J0GBIgASgLMhsuZ29vZ2xlLnByb3RvYnVmLklu",
+            "dDY0VmFsdWVCB/rHMQM+PTASPwoRbWF4X2J5dGVzX3RvX3NvcnQYEyABKAsy",
+            "Gy5nb29nbGUucHJvdG9idWYuSW50NjRWYWx1ZUIH+scxAz49MBJVChJzb3J0",
+            "X292ZXJmbG93X21vZGUYFCABKA4yOS55YW5kZXguY2xvdWQubWRiLmNsaWNr",
+            "aG91c2UudjEuVXNlclNldHRpbmdzLk92ZXJmbG93TW9kZRI9Cg9tYXhfcmVz",
+            "dWx0X3Jvd3MYFSABKAsyGy5nb29nbGUucHJvdG9idWYuSW50NjRWYWx1ZUIH",
+            "+scxAz49MBI+ChBtYXhfcmVzdWx0X2J5dGVzGBYgASgLMhsuZ29vZ2xlLnBy",
+            "b3RvYnVmLkludDY0VmFsdWVCB/rHMQM+PTASVwoUcmVzdWx0X292ZXJmbG93",
+            "X21vZGUYFyABKA4yOS55YW5kZXguY2xvdWQubWRiLmNsaWNraG91c2UudjEu",
+            "VXNlclNldHRpbmdzLk92ZXJmbG93TW9kZRJCChRtYXhfcm93c19pbl9kaXN0",
+            "aW5jdBgYIAEoCzIbLmdvb2dsZS5wcm90b2J1Zi5JbnQ2NFZhbHVlQgf6xzED",
+            "Pj0wEkMKFW1heF9ieXRlc19pbl9kaXN0aW5jdBgZIAEoCzIbLmdvb2dsZS5w",
+            "cm90b2J1Zi5JbnQ2NFZhbHVlQgf6xzEDPj0wElkKFmRpc3RpbmN0X292ZXJm",
+            "bG93X21vZGUYGiABKA4yOS55YW5kZXguY2xvdWQubWRiLmNsaWNraG91c2Uu",
+            "djEuVXNlclNldHRpbmdzLk92ZXJmbG93TW9kZRJCChRtYXhfcm93c190b190",
+            "cmFuc2ZlchgbIAEoCzIbLmdvb2dsZS5wcm90b2J1Zi5JbnQ2NFZhbHVlQgf6",
+            "xzEDPj0wEkMKFW1heF9ieXRlc190b190cmFuc2ZlchgcIAEoCzIbLmdvb2ds",
+            "ZS5wcm90b2J1Zi5JbnQ2NFZhbHVlQgf6xzEDPj0wElkKFnRyYW5zZmVyX292",
+            "ZXJmbG93X21vZGUYHSABKA4yOS55YW5kZXguY2xvdWQubWRiLmNsaWNraG91",
+            "c2UudjEuVXNlclNldHRpbmdzLk92ZXJmbG93TW9kZRJAChJtYXhfZXhlY3V0",
+            "aW9uX3RpbWUYHiABKAsyGy5nb29nbGUucHJvdG9idWYuSW50NjRWYWx1ZUIH",
+            "+scxAz49MBJYChV0aW1lb3V0X292ZXJmbG93X21vZGUYHyABKA4yOS55YW5k",
+            "ZXguY2xvdWQubWRiLmNsaWNraG91c2UudjEuVXNlclNldHRpbmdzLk92ZXJm",
+            "bG93TW9kZRI9Cg9tYXhfcm93c19pbl9zZXQYVyABKAsyGy5nb29nbGUucHJv",
+            "dG9idWYuSW50NjRWYWx1ZUIH+scxAz49MBI+ChBtYXhfYnl0ZXNfaW5fc2V0",
+            "GFggASgLMhsuZ29vZ2xlLnByb3RvYnVmLkludDY0VmFsdWVCB/rHMQM+PTAS",
+            "VAoRc2V0X292ZXJmbG93X21vZGUYWSABKA4yOS55YW5kZXguY2xvdWQubWRi",
+            "LmNsaWNraG91c2UudjEuVXNlclNldHRpbmdzLk92ZXJmbG93TW9kZRI+ChBt",
+            "YXhfcm93c19pbl9qb2luGFogASgLMhsuZ29vZ2xlLnByb3RvYnVmLkludDY0",
+            "VmFsdWVCB/rHMQM+PTASPwoRbWF4X2J5dGVzX2luX2pvaW4YWyABKAsyGy5n",
+            "b29nbGUucHJvdG9idWYuSW50NjRWYWx1ZUIH+scxAz49MBJVChJqb2luX292",
+            "ZXJmbG93X21vZGUYXCABKA4yOS55YW5kZXguY2xvdWQubWRiLmNsaWNraG91",
+            "c2UudjEuVXNlclNldHRpbmdzLk92ZXJmbG93TW9kZRJBChNtYXhfY29sdW1u",
+            "c190b19yZWFkGCAgASgLMhsuZ29vZ2xlLnByb3RvYnVmLkludDY0VmFsdWVC",
+            "B/rHMQM+PTASQwoVbWF4X3RlbXBvcmFyeV9jb2x1bW5zGCEgASgLMhsuZ29v",
+            "Z2xlLnByb3RvYnVmLkludDY0VmFsdWVCB/rHMQM+PTASTQofbWF4X3RlbXBv",
+            "cmFyeV9ub25fY29uc3RfY29sdW1ucxgiIAEoCzIbLmdvb2dsZS5wcm90b2J1",
+            "Zi5JbnQ2NFZhbHVlQgf6xzEDPj0wEjsKDm1heF9xdWVyeV9zaXplGCMgASgL",
+            "MhsuZ29vZ2xlLnByb3RvYnVmLkludDY0VmFsdWVCBvrHMQI+MBI6Cg1tYXhf",
+            "YXN0X2RlcHRoGCQgASgLMhsuZ29vZ2xlLnByb3RvYnVmLkludDY0VmFsdWVC",
+            "BvrHMQI+MBI9ChBtYXhfYXN0X2VsZW1lbnRzGCUgASgLMhsuZ29vZ2xlLnBy",
+            "b3RvYnVmLkludDY0VmFsdWVCBvrHMQI+MBJGChltYXhfZXhwYW5kZWRfYXN0",
+            "X2VsZW1lbnRzGCYgASgLMhsuZ29vZ2xlLnByb3RvYnVmLkludDY0VmFsdWVC",
+            "BvrHMQI+MBJBChNtaW5fZXhlY3V0aW9uX3NwZWVkGFQgASgLMhsuZ29vZ2xl",
+            "LnByb3RvYnVmLkludDY0VmFsdWVCB/rHMQM+PTASRwoZbWluX2V4ZWN1dGlv",
+            "bl9zcGVlZF9ieXRlcxhVIAEoCzIbLmdvb2dsZS5wcm90b2J1Zi5JbnQ2NFZh",
+            "bHVlQgf6xzEDPj0wEm8KHWNvdW50X2Rpc3RpbmN0X2ltcGxlbWVudGF0aW9u",
+            "GFYgASgOMkgueWFuZGV4LmNsb3VkLm1kYi5jbGlja2hvdXNlLnYxLlVzZXJT",
+            "ZXR0aW5ncy5Db3VudERpc3RpbmN0SW1wbGVtZW50YXRpb24STQopaW5wdXRf",
+            "Zm9ybWF0X3ZhbHVlc19pbnRlcnByZXRfZXhwcmVzc2lvbnMYPSABKAsyGi5n",
+            "b29nbGUucHJvdG9idWYuQm9vbFZhbHVlEkwKKGlucHV0X2Zvcm1hdF9kZWZh",
+            "dWx0c19mb3Jfb21pdHRlZF9maWVsZHMYPiABKAsyGi5nb29nbGUucHJvdG9i",
+            "dWYuQm9vbFZhbHVlEksKJ291dHB1dF9mb3JtYXRfanNvbl9xdW90ZV82NGJp",
+            "dF9pbnRlZ2Vycxg/IAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5Cb29sVmFsdWUS",
+            "Rgoib3V0cHV0X2Zvcm1hdF9qc29uX3F1b3RlX2Rlbm9ybWFscxhAIAEoCzIa",
+            "Lmdvb2dsZS5wcm90b2J1Zi5Cb29sVmFsdWUSSgombG93X2NhcmRpbmFsaXR5",
+            "X2FsbG93X2luX25hdGl2ZV9mb3JtYXQYTiABKAsyGi5nb29nbGUucHJvdG9i",
+            "dWYuQm9vbFZhbHVlEk0KKWVtcHR5X3Jlc3VsdF9mb3JfYWdncmVnYXRpb25f",
+            "YnlfZW1wdHlfc2V0GE8gASgLMhouZ29vZ2xlLnByb3RvYnVmLkJvb2xWYWx1",
+            "ZRI8ChdodHRwX2Nvbm5lY3Rpb25fdGltZW91dBhBIAEoCzIbLmdvb2dsZS5w",
+            "cm90b2J1Zi5JbnQ2NFZhbHVlEjkKFGh0dHBfcmVjZWl2ZV90aW1lb3V0GEIg",
+            "ASgLMhsuZ29vZ2xlLnByb3RvYnVmLkludDY0VmFsdWUSNgoRaHR0cF9zZW5k",
+            "X3RpbWVvdXQYQyABKAsyGy5nb29nbGUucHJvdG9idWYuSW50NjRWYWx1ZRI7",
+            "ChdlbmFibGVfaHR0cF9jb21wcmVzc2lvbhhEIAEoCzIaLmdvb2dsZS5wcm90",
+            "b2J1Zi5Cb29sVmFsdWUSQQodc2VuZF9wcm9ncmVzc19pbl9odHRwX2hlYWRl",
+            "cnMYRSABKAsyGi5nb29nbGUucHJvdG9idWYuQm9vbFZhbHVlEkMKHmh0dHBf",
+            "aGVhZGVyc19wcm9ncmVzc19pbnRlcnZhbBhGIAEoCzIbLmdvb2dsZS5wcm90",
+            "b2J1Zi5JbnQ2NFZhbHVlEjgKFGFkZF9odHRwX2NvcnNfaGVhZGVyGEcgASgL",
+            "MhouZ29vZ2xlLnByb3RvYnVmLkJvb2xWYWx1ZRJKCgpxdW90YV9tb2RlGFAg",
+            "ASgOMjYueWFuZGV4LmNsb3VkLm1kYi5jbGlja2hvdXNlLnYxLlVzZXJTZXR0",
+            "aW5ncy5RdW90YU1vZGUiXwoMT3ZlcmZsb3dNb2RlEh0KGU9WRVJGTE9XX01P",
+            "REVfVU5TUEVDSUZJRUQQABIXChNPVkVSRkxPV19NT0RFX1RIUk9XEAESFwoT",
+            "T1ZFUkZMT1dfTU9ERV9CUkVBSxACIqEBChNHcm91cEJ5T3ZlcmZsb3dNb2Rl",
+            "EiYKIkdST1VQX0JZX09WRVJGTE9XX01PREVfVU5TUEVDSUZJRUQQABIgChxH",
+            "Uk9VUF9CWV9PVkVSRkxPV19NT0RFX1RIUk9XEAESIAocR1JPVVBfQllfT1ZF",
+            "UkZMT1dfTU9ERV9CUkVBSxACEh4KGkdST1VQX0JZX09WRVJGTE9XX01PREVf",
+            "QU5ZEAMi0gEKFkRpc3RyaWJ1dGVkUHJvZHVjdE1vZGUSKAokRElTVFJJQlVU",
+            "RURfUFJPRFVDVF9NT0RFX1VOU1BFQ0lGSUVEEAASIQodRElTVFJJQlVURURf",
+            "UFJPRFVDVF9NT0RFX0RFTlkQARIiCh5ESVNUUklCVVRFRF9QUk9EVUNUX01P",
+            "REVfTE9DQUwQAhIjCh9ESVNUUklCVVRFRF9QUk9EVUNUX01PREVfR0xPQkFM",
+            "EAMSIgoeRElTVFJJQlVURURfUFJPRFVDVF9NT0RFX0FMTE9XEAQicQoJUXVv",
+            "dGFNb2RlEhoKFlFVT1RBX01PREVfVU5TUEVDSUZJRUQQABIWChJRVU9UQV9N",
+            "T0RFX0RFRkFVTFQQARIUChBRVU9UQV9NT0RFX0tFWUVEEAISGgoWUVVPVEFf",
+            "TU9ERV9LRVlFRF9CWV9JUBADIrYCChtDb3VudERpc3RpbmN0SW1wbGVtZW50",
+            "YXRpb24SLQopQ09VTlRfRElTVElOQ1RfSU1QTEVNRU5UQVRJT05fVU5TUEVD",
+            "SUZJRUQQABImCiJDT1VOVF9ESVNUSU5DVF9JTVBMRU1FTlRBVElPTl9VTklR",
+            "EAESLworQ09VTlRfRElTVElOQ1RfSU1QTEVNRU5UQVRJT05fVU5JUV9DT01C",
+            "SU5FRBACEjIKLkNPVU5UX0RJU1RJTkNUX0lNUExFTUVOVEFUSU9OX1VOSVFf",
+            "Q09NQklORURfNjQQAxItCilDT1VOVF9ESVNUSU5DVF9JTVBMRU1FTlRBVElP",
+            "Tl9VTklRX0hMTF8xMhAEEiwKKENPVU5UX0RJU1RJTkNUX0lNUExFTUVOVEFU",
+            "SU9OX1VOSVFfRVhBQ1QQBSLuAgoJVXNlclF1b3RhEkIKEWludGVydmFsX2R1",
+            "cmF0aW9uGAEgASgLMhsuZ29vZ2xlLnByb3RvYnVmLkludDY0VmFsdWVCCvrH",
+            "MQY+PTEwMDASNQoHcXVlcmllcxgCIAEoCzIbLmdvb2dsZS5wcm90b2J1Zi5J",
+            "bnQ2NFZhbHVlQgf6xzEDPj0wEjQKBmVycm9ycxgDIAEoCzIbLmdvb2dsZS5w",
+            "cm90b2J1Zi5JbnQ2NFZhbHVlQgf6xzEDPj0wEjkKC3Jlc3VsdF9yb3dzGAQg",
+            "ASgLMhsuZ29vZ2xlLnByb3RvYnVmLkludDY0VmFsdWVCB/rHMQM+PTASNwoJ",
+            "cmVhZF9yb3dzGAUgASgLMhsuZ29vZ2xlLnByb3RvYnVmLkludDY0VmFsdWVC",
+            "B/rHMQM+PTASPAoOZXhlY3V0aW9uX3RpbWUYBiABKAsyGy5nb29nbGUucHJv",
+            "dG9idWYuSW50NjRWYWx1ZUIH+scxAz49MEJzCiJ5YW5kZXguY2xvdWQuYXBp",
+            "Lm1kYi5jbGlja2hvdXNlLnYxWk1naXRodWIuY29tL3lhbmRleC1jbG91ZC9n",
+            "by1nZW5wcm90by95YW5kZXgvY2xvdWQvbWRiL2NsaWNraG91c2UvdjE7Y2xp",
+            "Y2tob3VzZWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.WrappersReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.User), global::Yandex.Cloud.Mdb.Clickhouse.V1.User.Parser, new[]{ "Name", "ClusterId", "Permissions", "Settings", "Quotas" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Permission), global::Yandex.Cloud.Mdb.Clickhouse.V1.Permission.Parser, new[]{ "DatabaseName" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSpec), global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSpec.Parser, new[]{ "Name", "Password", "Permissions", "Settings", "Quotas" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings), global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Parser, new[]{ "Readonly", "AllowDdl", "InsertQuorum", "ConnectTimeout", "ReceiveTimeout", "SendTimeout", "InsertQuorumTimeout", "SelectSequentialConsistency", "MaxReplicaDelayForDistributedQueries", "FallbackToStaleReplicasForDistributedQueries", "ReplicationAlterPartitionsSync", "DistributedProductMode", "DistributedAggregationMemoryEfficient", "DistributedDdlTaskTimeout", "Compile", "MinCountToCompile", "CompileExpressions", "MinCountToCompileExpression", "MaxBlockSize", "MinInsertBlockSizeRows", "MinInsertBlockSizeBytes", "MaxInsertBlockSize", "MinBytesToUseDirectIo", "UseUncompressedCache", "MergeTreeMaxRowsToUseCache", "MergeTreeMaxBytesToUseCache", "MergeTreeMinRowsForConcurrentRead", "MergeTreeMinBytesForConcurrentRead", "MaxBytesBeforeExternalGroupBy", "MaxBytesBeforeExternalSort", "GroupByTwoLevelThreshold", "GroupByTwoLevelThresholdBytes", "Priority", "MaxThreads", "MaxMemoryUsage", "MaxMemoryUsageForUser", "MaxNetworkBandwidth", "MaxNetworkBandwidthForUser", "ForceIndexByDate", "ForcePrimaryKey", "MaxRowsToRead", "MaxBytesToRead", "ReadOverflowMode", "MaxRowsToGroupBy", "GroupByOverflowMode", "MaxRowsToSort", "MaxBytesToSort", "SortOverflowMode", "MaxResultRows", "MaxResultBytes", "ResultOverflowMode", "MaxRowsInDistinct", "MaxBytesInDistinct", "DistinctOverflowMode", "MaxRowsToTransfer", "MaxBytesToTransfer", "TransferOverflowMode", "MaxExecutionTime", "TimeoutOverflowMode", "MaxColumnsToRead", "MaxTemporaryColumns", "MaxTemporaryNonConstColumns", "MaxQuerySize", "MaxAstDepth", "MaxAstElements", "MaxExpandedAstElements", "InputFormatValuesInterpretExpressions", "InputFormatDefaultsForOmittedFields", "OutputFormatJsonQuote64BitIntegers", "OutputFormatJsonQuoteDenormals", "LowCardinalityAllowInNativeFormat", "EmptyResultForAggregationByEmptySet", "HttpConnectionTimeout", "HttpReceiveTimeout", "HttpSendTimeout", "EnableHttpCompression", "SendProgressInHttpHeaders", "HttpHeadersProgressInterval", "AddHttpCorsHeader" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode), typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.GroupByOverflowMode), typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.DistributedProductMode) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings), global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Parser, new[]{ "Readonly", "AllowDdl", "InsertQuorum", "ConnectTimeout", "ReceiveTimeout", "SendTimeout", "InsertQuorumTimeout", "SelectSequentialConsistency", "MaxReplicaDelayForDistributedQueries", "FallbackToStaleReplicasForDistributedQueries", "ReplicationAlterPartitionsSync", "DistributedProductMode", "DistributedAggregationMemoryEfficient", "DistributedDdlTaskTimeout", "SkipUnavailableShards", "Compile", "MinCountToCompile", "CompileExpressions", "MinCountToCompileExpression", "MaxBlockSize", "MinInsertBlockSizeRows", "MinInsertBlockSizeBytes", "MaxInsertBlockSize", "MinBytesToUseDirectIo", "UseUncompressedCache", "MergeTreeMaxRowsToUseCache", "MergeTreeMaxBytesToUseCache", "MergeTreeMinRowsForConcurrentRead", "MergeTreeMinBytesForConcurrentRead", "MaxBytesBeforeExternalGroupBy", "MaxBytesBeforeExternalSort", "GroupByTwoLevelThreshold", "GroupByTwoLevelThresholdBytes", "Priority", "MaxThreads", "MaxMemoryUsage", "MaxMemoryUsageForUser", "MaxNetworkBandwidth", "MaxNetworkBandwidthForUser", "ForceIndexByDate", "ForcePrimaryKey", "MaxRowsToRead", "MaxBytesToRead", "ReadOverflowMode", "MaxRowsToGroupBy", "GroupByOverflowMode", "MaxRowsToSort", "MaxBytesToSort", "SortOverflowMode", "MaxResultRows", "MaxResultBytes", "ResultOverflowMode", "MaxRowsInDistinct", "MaxBytesInDistinct", "DistinctOverflowMode", "MaxRowsToTransfer", "MaxBytesToTransfer", "TransferOverflowMode", "MaxExecutionTime", "TimeoutOverflowMode", "MaxRowsInSet", "MaxBytesInSet", "SetOverflowMode", "MaxRowsInJoin", "MaxBytesInJoin", "JoinOverflowMode", "MaxColumnsToRead", "MaxTemporaryColumns", "MaxTemporaryNonConstColumns", "MaxQuerySize", "MaxAstDepth", "MaxAstElements", "MaxExpandedAstElements", "MinExecutionSpeed", "MinExecutionSpeedBytes", "CountDistinctImplementation", "InputFormatValuesInterpretExpressions", "InputFormatDefaultsForOmittedFields", "OutputFormatJsonQuote64BitIntegers", "OutputFormatJsonQuoteDenormals", "LowCardinalityAllowInNativeFormat", "EmptyResultForAggregationByEmptySet", "HttpConnectionTimeout", "HttpReceiveTimeout", "HttpSendTimeout", "EnableHttpCompression", "SendProgressInHttpHeaders", "HttpHeadersProgressInterval", "AddHttpCorsHeader", "QuotaMode" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode), typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.GroupByOverflowMode), typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.DistributedProductMode), typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.QuotaMode), typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.CountDistinctImplementation) }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.UserQuota), global::Yandex.Cloud.Mdb.Clickhouse.V1.UserQuota.Parser, new[]{ "IntervalDuration", "Queries", "Errors", "ResultRows", "ReadRows", "ExecutionTime" }, null, null, null, null)
           }));
     }
@@ -864,6 +892,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       distributedProductMode_ = other.distributedProductMode_;
       DistributedAggregationMemoryEfficient = other.DistributedAggregationMemoryEfficient;
       DistributedDdlTaskTimeout = other.DistributedDdlTaskTimeout;
+      SkipUnavailableShards = other.SkipUnavailableShards;
       Compile = other.Compile;
       MinCountToCompile = other.MinCountToCompile;
       CompileExpressions = other.CompileExpressions;
@@ -909,6 +938,12 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       transferOverflowMode_ = other.transferOverflowMode_;
       MaxExecutionTime = other.MaxExecutionTime;
       timeoutOverflowMode_ = other.timeoutOverflowMode_;
+      MaxRowsInSet = other.MaxRowsInSet;
+      MaxBytesInSet = other.MaxBytesInSet;
+      setOverflowMode_ = other.setOverflowMode_;
+      MaxRowsInJoin = other.MaxRowsInJoin;
+      MaxBytesInJoin = other.MaxBytesInJoin;
+      joinOverflowMode_ = other.joinOverflowMode_;
       MaxColumnsToRead = other.MaxColumnsToRead;
       MaxTemporaryColumns = other.MaxTemporaryColumns;
       MaxTemporaryNonConstColumns = other.MaxTemporaryNonConstColumns;
@@ -916,6 +951,9 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       MaxAstDepth = other.MaxAstDepth;
       MaxAstElements = other.MaxAstElements;
       MaxExpandedAstElements = other.MaxExpandedAstElements;
+      MinExecutionSpeed = other.MinExecutionSpeed;
+      MinExecutionSpeedBytes = other.MinExecutionSpeedBytes;
+      countDistinctImplementation_ = other.countDistinctImplementation_;
       InputFormatValuesInterpretExpressions = other.InputFormatValuesInterpretExpressions;
       InputFormatDefaultsForOmittedFields = other.InputFormatDefaultsForOmittedFields;
       OutputFormatJsonQuote64BitIntegers = other.OutputFormatJsonQuote64BitIntegers;
@@ -929,6 +967,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       SendProgressInHttpHeaders = other.SendProgressInHttpHeaders;
       HttpHeadersProgressInterval = other.HttpHeadersProgressInterval;
       AddHttpCorsHeader = other.AddHttpCorsHeader;
+      quotaMode_ = other.quotaMode_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -942,8 +981,12 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     private static readonly pb::FieldCodec<long?> _single_readonly_codec = pb::FieldCodec.ForStructWrapper<long>(10);
     private long? readonly_;
     /// <summary>
-    /// Restricts permissions for non-DDL queries. Possible values: 0 (default) — no restrictions,
-    /// 1 — only read data queries are allowed, 2 — read data and change settings queries are allowed.
+    /// Restricts permissions for non-DDL queries. To restrict permissions for DDL queries, use [allow_ddl] instead.
+    /// * **0** (default)—no restrictions.
+    /// * **1**—only read data queries are allowed.
+    /// * **2**—read data and change settings queries are allowed.
+    ///
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.tech/docs/en/operations/settings/permissions-for-queries/#settings_readonly).
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long? Readonly {
@@ -959,7 +1002,11 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     private static readonly pb::FieldCodec<bool?> _single_allowDdl_codec = pb::FieldCodec.ForStructWrapper<bool>(18);
     private bool? allowDdl_;
     /// <summary>
-    /// Whether DDL queries are allowed. Default value: false.
+    /// Determines whether DDL queries are allowed (e.g., **CREATE**, **ALTER**, **RENAME**, etc).
+    ///
+    /// Default value: **true**.
+    ///
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.tech/docs/en/operations/settings/permissions-for-queries/#settings_allow_ddl).
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public bool? AllowDdl {
@@ -975,8 +1022,16 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     private static readonly pb::FieldCodec<long?> _single_insertQuorum_codec = pb::FieldCodec.ForStructWrapper<long>(26);
     private long? insertQuorum_;
     /// <summary>
-    /// For INSERT queries in the replicated table, wait writing for the specified number of replicas and linearize
-    /// the addition of the data.
+    /// Enables or disables write quorum for ClickHouse cluster.
+    /// If the value is less than **2**, then write quorum is disabled, otherwise it is enabled.
+    ///
+    /// When used, write quorum guarantees that ClickHouse has written data to the quorum of **insert_quorum** replicas with no errors until the [insert_quorum_timeout] expires.
+    /// All replicas in the quorum are in the consistent state, meaning that they contain linearized data from the previous **INSERT** queries.
+    /// Employ write quorum, if you need the guarantees that the written data would not be lost in case of one or more replicas failure.
+    ///
+    /// You can use [select_sequential_consistency] setting to read the data written with write quorum.
+    ///
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.tech/docs/en/operations/settings/settings/#settings-insert_quorum).
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long? InsertQuorum {
@@ -993,6 +1048,8 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     private long? connectTimeout_;
     /// <summary>
     /// Connection timeout in milliseconds.
+    ///
+    /// Value must be greater than **0** (default: **10000**, 10 seconds).
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long? ConnectTimeout {
@@ -1009,6 +1066,8 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     private long? receiveTimeout_;
     /// <summary>
     /// Receive timeout in milliseconds.
+    ///
+    /// Value must be greater than **0** (default: **300000**, 300 seconds or 5 minutes).
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long? ReceiveTimeout {
@@ -1025,6 +1084,8 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     private long? sendTimeout_;
     /// <summary>
     /// Send timeout in milliseconds.
+    ///
+    /// Value must be greater than **0** (default: **300000**, 300 seconds or 5 minutes).
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long? SendTimeout {
@@ -1040,7 +1101,12 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     private static readonly pb::FieldCodec<long?> _single_insertQuorumTimeout_codec = pb::FieldCodec.ForStructWrapper<long>(34);
     private long? insertQuorumTimeout_;
     /// <summary>
-    /// Quorum write timeout in milliseconds. Default value: 60000.
+    /// Quorum write timeout in milliseconds.
+    ///
+    /// If the write quorum is enabled in the cluster, this timeout expires and some data is not written to the [insert_quorum] replicas, then ClickHouse will abort the execution of **INSERT** query and return an error.
+    /// In this case, the client must send the query again to write the data block into the same or another replica.
+    ///
+    /// Minimum value: **1000**, 1 second (default: **60000**, 1 minute).
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long? InsertQuorumTimeout {
@@ -1056,8 +1122,9 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     private static readonly pb::FieldCodec<bool?> _single_selectSequentialConsistency_codec = pb::FieldCodec.ForStructWrapper<bool>(42);
     private bool? selectSequentialConsistency_;
     /// <summary>
-    /// For SELECT queries from the replicated table, throw an exception if the replica does not have a chunk written
-    /// with the quorum; do not read the parts that have not yet been written with the quorum.
+    /// Determines the behavior of **SELECT** queries from the replicated table: if enabled, ClickHouse will terminate a query with error message in case the replica does not have a chunk written with the quorum and will not read the parts that have not yet been written with the quorum.
+    ///
+    /// Default value: **false** (sequential consistency is disabled).
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public bool? SelectSequentialConsistency {
@@ -1073,8 +1140,11 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     private static readonly pb::FieldCodec<long?> _single_maxReplicaDelayForDistributedQueries_codec = pb::FieldCodec.ForStructWrapper<long>(50);
     private long? maxReplicaDelayForDistributedQueries_;
     /// <summary>
-    /// Max replica delay in milliseconds. If a replica lags more than the set value, this replica is not used.
-    /// Default value: 300000.
+    /// Max replica delay in milliseconds. If a replica lags more than the set value, this replica is not used and becomes a stale one.
+    ///
+    /// Minimum value: **1000**, 1 second (default: **300000**, 300 seconds or 5 minutes).
+    ///
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.tech/docs/en/operations/settings/settings/#settings-max_replica_delay_for_distributed_queries).
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long? MaxReplicaDelayForDistributedQueries {
@@ -1090,8 +1160,13 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     private static readonly pb::FieldCodec<bool?> _single_fallbackToStaleReplicasForDistributedQueries_codec = pb::FieldCodec.ForStructWrapper<bool>(58);
     private bool? fallbackToStaleReplicasForDistributedQueries_;
     /// <summary>
-    /// Determine the behavior when all replicas for the queried table are stale. If enabled, the query will be
-    /// performed anyway. Otherwise, the error will be thrown.
+    /// Enables or disables query forcing to a stale replica in case the actual data is unavailable.
+    /// If enabled, ClickHouse will choose the most up-to-date replica and force the query to use the data in this replica.
+    /// This setting can be used when doing **SELECT** query from a distributed table that points to replicated tables.
+    ///
+    /// Default value: **true** (query forcing is enabled).
+    ///
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.tech/docs/en/operations/settings/settings/#settings-fallback_to_stale_replicas_for_distributed_queries).
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public bool? FallbackToStaleReplicasForDistributedQueries {
@@ -1107,8 +1182,13 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     private static readonly pb::FieldCodec<long?> _single_replicationAlterPartitionsSync_codec = pb::FieldCodec.ForStructWrapper<long>(338);
     private long? replicationAlterPartitionsSync_;
     /// <summary>
-    /// Wait mode for ALTER queries on replicated tables.
-    /// Possible values: 0 - do not wait, 1 - wait for execution only of itself, 2 - wait for everyone.
+    /// Wait mode for asynchronous actions in **ALTER** queries on replicated tables:
+    ///
+    /// * **0**—do not wait for replicas.
+    /// * **1**—only wait for own execution (default).
+    /// * **2**—wait for all replicas.
+    ///
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.tech/docs/en/sql-reference/statements/alter/#synchronicity-of-alter-queries).
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long? ReplicationAlterPartitionsSync {
@@ -1123,8 +1203,9 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     public const int DistributedProductModeFieldNumber = 43;
     private global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.DistributedProductMode distributedProductMode_ = global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.DistributedProductMode.Unspecified;
     /// <summary>
-    /// Determine the behavior of distributed subqueries. Possible values: DISTRIBUTED_PRODUCT_MODE_DENY,
-    /// DISTRIBUTED_PRODUCT_MODE_LOCAL, DISTRIBUTED_PRODUCT_MODE_GLOBAL, DISTRIBUTED_PRODUCT_MODE_ALLOW.
+    /// Determine the behavior of distributed subqueries.
+    ///
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.tech/docs/en/operations/settings/settings/#distributed-product-mode).
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.DistributedProductMode DistributedProductMode {
@@ -1139,7 +1220,14 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     private static readonly pb::FieldCodec<bool?> _single_distributedAggregationMemoryEfficient_codec = pb::FieldCodec.ForStructWrapper<bool>(578);
     private bool? distributedAggregationMemoryEfficient_;
     /// <summary>
-    /// Whether the memory-saving mode of distributed aggregation is enabled.
+    /// Enables of disables memory saving mode when doing distributed aggregation.
+    ///
+    /// When ClickHouse works with a distributed query, external aggregation is done on remote servers.
+    /// Enable this setting to achieve a smaller memory footprint on the server that sourced such a distributed query.
+    ///
+    /// Default value: **false** (memory saving mode is disabled).
+    ///
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.tech/docs/en/sql-reference/statements/select/group-by/#select-group-by-in-external-memory).
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public bool? DistributedAggregationMemoryEfficient {
@@ -1166,12 +1254,42 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     }
 
 
+    /// <summary>Field number for the "skip_unavailable_shards" field.</summary>
+    public const int SkipUnavailableShardsFieldNumber = 81;
+    private static readonly pb::FieldCodec<bool?> _single_skipUnavailableShards_codec = pb::FieldCodec.ForStructWrapper<bool>(650);
+    private bool? skipUnavailableShards_;
+    /// <summary>
+    /// Enables or disables silent skipping of unavailable shards.
+    ///
+    /// A shard is considered unavailable if all its replicas are also unavailable.
+    ///
+    /// Default value: **false** (silent skipping is disabled).
+    ///
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.tech/docs/en/operations/settings/settings/#settings-skip_unavailable_shards).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool? SkipUnavailableShards {
+      get { return skipUnavailableShards_; }
+      set {
+        skipUnavailableShards_ = value;
+      }
+    }
+
+
     /// <summary>Field number for the "compile" field.</summary>
     public const int CompileFieldNumber = 44;
     private static readonly pb::FieldCodec<bool?> _single_compile_codec = pb::FieldCodec.ForStructWrapper<bool>(354);
     private bool? compile_;
     /// <summary>
-    /// Whether query compilation is enabled.
+    /// Enables or disables query compilation.
+    /// If you execute a lot of structurally identical queries, then enable this setting.
+    /// As a result, such queries may be executed faster due to use of queries' compiled parts.
+    ///
+    /// Use this setting in combination with [min_count_to_compile] setting.
+    ///
+    /// Default value: **false** (compilation is disabled).
+    ///
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.tech/docs/en/operations/settings/settings/#compile).
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public bool? Compile {
@@ -1187,7 +1305,17 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     private static readonly pb::FieldCodec<long?> _single_minCountToCompile_codec = pb::FieldCodec.ForStructWrapper<long>(362);
     private long? minCountToCompile_;
     /// <summary>
-    /// The number of structurally identical queries before they are compiled.
+    /// How many structurally identical queries ClickHouse has to encounter before they are compiled.
+    ///
+    /// Minimum value: **0** (default: **3**).
+    ///
+    /// For the **0** value compilation is synchronous: a query waits for compilation process to complete prior to continuing execution.
+    /// It is recommended to set this value only for testing purposes.
+    ///
+    /// For all other values, compilation is asynchronous: the compilation process executes in a separate thread.
+    /// When a compiled part of query is ready, it will be used by ClickHouse for eligible queries, including the ones that are currently running.
+    ///
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.tech/docs/en/operations/settings/settings/#min-count-to-compile).
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long? MinCountToCompile {
@@ -1203,7 +1331,13 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     private static readonly pb::FieldCodec<bool?> _single_compileExpressions_codec = pb::FieldCodec.ForStructWrapper<bool>(370);
     private bool? compileExpressions_;
     /// <summary>
-    /// Whether expression compilation is enabled.
+    /// Enables or disables expression compilation.
+    /// If you execute a lot of queries that contain identical expressions, then enable this setting.
+    /// As a result, such queries may be executed faster due to use of compiled expressions.
+    ///
+    /// Use this setting in combination with [min_count_to_compile_expression] setting.
+    ///
+    /// Default value: **false** (expression compilation is disabled).
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public bool? CompileExpressions {
@@ -1219,7 +1353,15 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     private static readonly pb::FieldCodec<long?> _single_minCountToCompileExpression_codec = pb::FieldCodec.ForStructWrapper<long>(378);
     private long? minCountToCompileExpression_;
     /// <summary>
-    /// The number of identical expressions before they are compiled.
+    /// How many identical expressions ClickHouse has to encounter before they are compiled.
+    ///
+    /// Minimum value: **0** (default: **3**).
+    ///
+    /// For the **0** value compilation is synchronous: a query waits for expression compilation process to complete prior to continuing execution.
+    /// It is recommended to set this value only for testing purposes.
+    ///
+    /// For all other values, compilation is asynchronous: the compilation process executes in a separate thread.
+    /// When a compiled expression is ready, it will be used by ClickHouse for eligible queries, including the ones that are currently running.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long? MinCountToCompileExpression {
@@ -1236,6 +1378,15 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     private long? maxBlockSize_;
     /// <summary>
     /// The maximum block size for reading.
+    ///
+    /// Data in ClickHouse is organized and processed by blocks (block is a set of columns' parts).
+    /// The internal processing cycles for a single block are efficient enough, but there are noticeable expenditures on each block.
+    ///
+    /// This setting is a recommendation for size of block (in a count of rows) that should be loaded from tables.
+    ///
+    /// Value must be greater than **0** (default: **65536**).
+    ///
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.tech/docs/en/operations/settings/settings/#setting-max_block_size).
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long? MaxBlockSize {
@@ -1251,8 +1402,10 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     private static readonly pb::FieldCodec<long?> _single_minInsertBlockSizeRows_codec = pb::FieldCodec.ForStructWrapper<long>(386);
     private long? minInsertBlockSizeRows_;
     /// <summary>
-    /// Squash blocks passed to INSERT query to specified size in rows, if blocks are not big enough. If set to 0,
-    /// blocks will never be squashed.
+    /// Limits the minimum number of rows in a block to be inserted in a table by **INSERT** query.
+    /// Blocks that are smaller than the specified value, will be squashed together into the bigger blocks.
+    ///
+    /// Minimal value: **0**, block squashing is disabled (default: **1048576**).
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long? MinInsertBlockSizeRows {
@@ -1268,8 +1421,10 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     private static readonly pb::FieldCodec<long?> _single_minInsertBlockSizeBytes_codec = pb::FieldCodec.ForStructWrapper<long>(394);
     private long? minInsertBlockSizeBytes_;
     /// <summary>
-    /// Squash blocks passed to INSERT query to specified size in bytes, if blocks are not big enough. If set to 0,
-    /// blocks will never be squashed.
+    /// Limits the minimum number of bytes in a block to be inserted in a table by **INSERT** query.
+    /// Blocks that are smaller than the specified value, will be squashed together into the bigger blocks.
+    ///
+    /// Minimal value: **0**, block squashing is disabled (default: **‭268435456‬‬**, 256 MB).
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long? MinInsertBlockSizeBytes {
@@ -1285,7 +1440,12 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     private static readonly pb::FieldCodec<long?> _single_maxInsertBlockSize_codec = pb::FieldCodec.ForStructWrapper<long>(82);
     private long? maxInsertBlockSize_;
     /// <summary>
-    /// The maximum block size for insertion.
+    /// Allows to form blocks of the specified size (in bytes) when inserting data in a table.
+    /// This setting has effect only if server is creating such blocks by itself.
+    ///
+    /// Value must be greater than **0** (default: **1048576**).
+    ///
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.tech/docs/en/operations/settings/settings/#settings-max_insert_block_size).
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long? MaxInsertBlockSize {
@@ -1301,7 +1461,15 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     private static readonly pb::FieldCodec<long?> _single_minBytesToUseDirectIo_codec = pb::FieldCodec.ForStructWrapper<long>(402);
     private long? minBytesToUseDirectIo_;
     /// <summary>
-    /// The minimum number of bytes for reading the data with O_DIRECT option during SELECT queries execution.
+    /// Limits the minimum number of bytes to enable unbuffered direct reads from disk (Direct I/O).
+    ///
+    /// By default, ClickHouse does not read data directly from disk, but relies on the filesystem and its cache instead.
+    /// Such reading strategy is effective when the data volume is small.
+    /// If the amount of the data to read is huge, it is more effective to read directly from the disk, bypassing the filesystem cache.
+    ///
+    /// If the total amount of the data to read is greater than the value of this setting, then ClickHouse will fetch this data directly from the disk.
+    ///
+    /// Minimal value and default value: **0**, Direct I/O is disabled.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long? MinBytesToUseDirectIo {
@@ -1317,7 +1485,15 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     private static readonly pb::FieldCodec<bool?> _single_useUncompressedCache_codec = pb::FieldCodec.ForStructWrapper<bool>(410);
     private bool? useUncompressedCache_;
     /// <summary>
-    /// Whether to use the cache of uncompressed blocks.
+    /// Determines whether to use the cache of uncompressed blocks, or not.
+    /// Using this cache can significantly reduce latency and increase the throughput when a huge amount of small queries is to be processed.
+    /// Enable this setting for the users who instantiates small queries frequently.
+    ///
+    /// This setting has effect only for tables of the MergeTree family.
+    ///
+    /// Default value: **false** (uncompressed cache is disabled).
+    ///
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.tech/docs/en/operations/settings/settings/#setting-use_uncompressed_cache).
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public bool? UseUncompressedCache {
@@ -1333,8 +1509,12 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     private static readonly pb::FieldCodec<long?> _single_mergeTreeMaxRowsToUseCache_codec = pb::FieldCodec.ForStructWrapper<long>(418);
     private long? mergeTreeMaxRowsToUseCache_;
     /// <summary>
-    /// The maximum request size in rows to use the cache of uncompressed data. The cache is not used for requests larger
+    /// Limits the maximum size in rows of the request that can use the cache of uncompressed data. The cache is not used for requests larger
     /// than the specified value.
+    ///
+    /// Use this setting in combination with [use_uncompressed_cache] setting.
+    ///
+    /// Value must be greater than **0** (default: **128x8192**).
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long? MergeTreeMaxRowsToUseCache {
@@ -1350,8 +1530,12 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     private static readonly pb::FieldCodec<long?> _single_mergeTreeMaxBytesToUseCache_codec = pb::FieldCodec.ForStructWrapper<long>(426);
     private long? mergeTreeMaxBytesToUseCache_;
     /// <summary>
-    /// The maximum request size in bytes to use the cache of uncompressed data. The cache is not used for requests larger
+    /// Limits the maximum size in bytes of the request that can use the cache of uncompressed data. The cache is not used for requests larger
     /// than the specified value.
+    ///
+    /// Use this setting in combination with [use_uncompressed_cache] setting.
+    ///
+    /// Value must be greater than **0** (default: **192x10x1024x1024**).
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long? MergeTreeMaxBytesToUseCache {
@@ -1367,7 +1551,12 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     private static readonly pb::FieldCodec<long?> _single_mergeTreeMinRowsForConcurrentRead_codec = pb::FieldCodec.ForStructWrapper<long>(434);
     private long? mergeTreeMinRowsForConcurrentRead_;
     /// <summary>
-    /// The minimum number of rows to be read from a file to enable concurrent read.
+    /// Limits the minimum number of rows to be read from a file to enable concurrent read.
+    /// If the number of rows to be read exceeds this value, then ClickHouse will try to use a few threads to read from a file concurrently.
+    ///
+    /// This setting has effect only for tables of the MergeTree family.
+    ///
+    /// Value must be greater than **0** (default: **20x8192**).
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long? MergeTreeMinRowsForConcurrentRead {
@@ -1383,7 +1572,12 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     private static readonly pb::FieldCodec<long?> _single_mergeTreeMinBytesForConcurrentRead_codec = pb::FieldCodec.ForStructWrapper<long>(442);
     private long? mergeTreeMinBytesForConcurrentRead_;
     /// <summary>
-    /// The minimum number of bytes to be read from a file to enable concurrent read.
+    /// Limits the number of bytes to be read from a file to enable concurrent read.
+    /// If the number of bytes to be read exceeds this value, then ClickHouse will try to use a few threads to read from a file concurrently.
+    ///
+    /// This setting has effect only for tables of the MergeTree family.
+    ///
+    /// Value must be greater than **0** (default: **24x10x1024x1024**).
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long? MergeTreeMinBytesForConcurrentRead {
@@ -1398,6 +1592,21 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     public const int MaxBytesBeforeExternalGroupByFieldNumber = 74;
     private static readonly pb::FieldCodec<long?> _single_maxBytesBeforeExternalGroupBy_codec = pb::FieldCodec.ForStructWrapper<long>(594);
     private long? maxBytesBeforeExternalGroupBy_;
+    /// <summary>
+    /// Sets the threshold of RAM consumption (in bytes) after that the temporary data, collected during the **GROUP BY** operation, should be flushed to disk to limit the RAM comsumption.
+    ///
+    /// By default, aggregation is done by employing hash table that resides in RAM.
+    /// A query can result in aggregation of huge data volumes that can lead to memory exhaustion and abortion of the query (see the [max_memory_usage] setting).
+    /// For such queries, you can use this setting to force ClickHouse to do flushing and complete aggregation successfully.
+    ///
+    /// Minimal value and default value: **0**, **GROUP BY** in the external memory is disabled.
+    ///
+    /// When using aggregation in external memory, it is recommended to set the value of this setting twice as low as the [max_memory_usage] setting value (by default, the maximum memory usage is limited to ten gigabytes).
+    ///
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.tech/docs/en/sql-reference/statements/select/group-by/#select-group-by-in-external-memory).
+    ///
+    /// See also: the [distributed_aggregation_memory_efficient] setting.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long? MaxBytesBeforeExternalGroupBy {
       get { return maxBytesBeforeExternalGroupBy_; }
@@ -1411,6 +1620,9 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     public const int MaxBytesBeforeExternalSortFieldNumber = 75;
     private static readonly pb::FieldCodec<long?> _single_maxBytesBeforeExternalSort_codec = pb::FieldCodec.ForStructWrapper<long>(602);
     private long? maxBytesBeforeExternalSort_;
+    /// <summary>
+    /// This setting is equivalent of the [max_bytes_before_external_group_by] setting, except for it is for sort operation (**ORDER BY**), not aggregation.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long? MaxBytesBeforeExternalSort {
       get { return maxBytesBeforeExternalSort_; }
@@ -1424,6 +1636,11 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     public const int GroupByTwoLevelThresholdFieldNumber = 76;
     private static readonly pb::FieldCodec<long?> _single_groupByTwoLevelThreshold_codec = pb::FieldCodec.ForStructWrapper<long>(610);
     private long? groupByTwoLevelThreshold_;
+    /// <summary>
+    /// Sets the threshold of the number of keys, after that the two-level aggregation should be used.
+    ///
+    /// Minimal value: **0**, threshold is not set (default: **10000‬‬**).
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long? GroupByTwoLevelThreshold {
       get { return groupByTwoLevelThreshold_; }
@@ -1437,6 +1654,11 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     public const int GroupByTwoLevelThresholdBytesFieldNumber = 77;
     private static readonly pb::FieldCodec<long?> _single_groupByTwoLevelThresholdBytes_codec = pb::FieldCodec.ForStructWrapper<long>(618);
     private long? groupByTwoLevelThresholdBytes_;
+    /// <summary>
+    /// Sets the threshold of the number of bytes, after that the two-level aggregation should be used.
+    ///
+    /// Minimal value: **0**, threshold is not set (default: **100000000‬‬**).
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long? GroupByTwoLevelThresholdBytes {
       get { return groupByTwoLevelThresholdBytes_; }
@@ -1451,7 +1673,17 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     private static readonly pb::FieldCodec<long?> _single_priority_codec = pb::FieldCodec.ForStructWrapper<long>(450);
     private long? priority_;
     /// <summary>
-    /// Priority of the query.
+    /// Sets the priority of a query.
+    ///
+    /// * **0**—priority is not used.
+    /// * **1**—the highest priority.
+    /// * and so on. The higher the number, the lower a query's priority.
+    ///
+    /// This setting should be set up for each query individually.
+    ///
+    /// If ClickHouse is working with the high-priority queries, and a low-priority query enters, then the low-priority query is paused until higher-priority queries are completed.
+    ///
+    /// Minimal value and default value: **0**, priority is not used.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long? Priority {
@@ -1467,7 +1699,13 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     private static readonly pb::FieldCodec<long?> _single_maxThreads_codec = pb::FieldCodec.ForStructWrapper<long>(66);
     private long? maxThreads_;
     /// <summary>
-    /// The maximum number of threads to execute the request.
+    /// Limits the maximum number of threads to process the request (setting does not take threads that read data from remote servers into account).
+    ///
+    /// This setting applies to threads that perform the same stages of the query processing pipeline in parallel.
+    ///
+    /// Minimal value and default value: **0** (the thread number is calculated automatically based on the number of physical CPU cores, no HyperThreading cores are taken into account).
+    ///
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.tech/docs/en/operations/settings/settings/#settings-max_threads).
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long? MaxThreads {
@@ -1483,7 +1721,17 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     private static readonly pb::FieldCodec<long?> _single_maxMemoryUsage_codec = pb::FieldCodec.ForStructWrapper<long>(90);
     private long? maxMemoryUsage_;
     /// <summary>
-    /// The maximum memory usage for processing of a single query.
+    /// Limits the maximum memory usage (in bytes) for processing of a single user's query on a single server.
+    /// This setting does not take server's free RAM amount or total RAM amount into account.
+    ///
+    /// This limitation is enforced for any user's single query on a single server.
+    ///
+    /// Minimal value: **0**, no limitation is set.
+    /// Value that is set in the ClickHouse default config file: **10737418240** (10 GB).
+    ///
+    /// If you use [max_bytes_before_external_group_by] or [max_bytes_before_external_sort] setting, then it is recommended to set their values twice as low as [max_memory_usage] setting value.
+    ///
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.tech/docs/en/operations/settings/query-complexity/#settings_max_memory_usage).
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long? MaxMemoryUsage {
@@ -1499,7 +1747,12 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     private static readonly pb::FieldCodec<long?> _single_maxMemoryUsageForUser_codec = pb::FieldCodec.ForStructWrapper<long>(98);
     private long? maxMemoryUsageForUser_;
     /// <summary>
-    /// The maximum memory usage for processing all concurrently running queries for the user.
+    /// Limits the maximum memory usage (in bytes) for processing of user's queries on a single server.
+    /// This setting does not take server's free RAM amount or total RAM amount into account.
+    ///
+    /// This limitation is enforced for all queries that belong to one user and run simultaneously on a single server.
+    ///
+    /// Minimal value and default value: **0**, no limitation is set.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long? MaxMemoryUsageForUser {
@@ -1516,6 +1769,8 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     private long? maxNetworkBandwidth_;
     /// <summary>
     /// The maximum speed of data exchange over the network in bytes per second for a query.
+    ///
+    /// Minimal value and default value: **0**, no limitation is set.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long? MaxNetworkBandwidth {
@@ -1532,6 +1787,8 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     private long? maxNetworkBandwidthForUser_;
     /// <summary>
     /// The maximum speed of data exchange over the network in bytes per second for all concurrently running user queries.
+    ///
+    /// Minimal value and default value: **0**, no limitation is set.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long? MaxNetworkBandwidthForUser {
@@ -1547,7 +1804,12 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     private static readonly pb::FieldCodec<bool?> _single_forceIndexByDate_codec = pb::FieldCodec.ForStructWrapper<bool>(474);
     private bool? forceIndexByDate_;
     /// <summary>
-    /// Disables query execution if the index can’t be used by date.
+    /// If enabled, query is not executed if the ClickHouse can’t use index by date.
+    /// This setting has effect only for tables of the MergeTree family.
+    ///
+    /// Default value: **false** (setting is disabled, query executes even if ClickHouse can't use index by date).
+    ///
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.tech/docs/en/operations/settings/settings/#settings-force_index_by_date).
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public bool? ForceIndexByDate {
@@ -1563,7 +1825,12 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     private static readonly pb::FieldCodec<bool?> _single_forcePrimaryKey_codec = pb::FieldCodec.ForStructWrapper<bool>(482);
     private bool? forcePrimaryKey_;
     /// <summary>
-    /// Disables query execution if indexing by the primary key is not possible.
+    /// If enabled, query is not executed if the ClickHouse can’t use index by primary key.
+    /// This setting has effect only for tables of the MergeTree family.
+    ///
+    /// Default value: **false** (setting is disabled, query executes even if ClickHouse can't use index by primary key).
+    ///
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.tech/docs/en/operations/settings/settings/#force-primary-key).
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public bool? ForcePrimaryKey {
@@ -1579,7 +1846,11 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     private static readonly pb::FieldCodec<long?> _single_maxRowsToRead_codec = pb::FieldCodec.ForStructWrapper<long>(106);
     private long? maxRowsToRead_;
     /// <summary>
-    /// The maximum number of rows that can be read from a table when running a query.
+    /// Limits the maximum number of rows that can be read from a table when running a query.
+    ///
+    /// Minimal value and default value: **0**, no limitation is set.
+    ///
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.tech/docs/en/operations/settings/query-complexity/#max-rows-to-read).
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long? MaxRowsToRead {
@@ -1595,7 +1866,9 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     private static readonly pb::FieldCodec<long?> _single_maxBytesToRead_codec = pb::FieldCodec.ForStructWrapper<long>(114);
     private long? maxBytesToRead_;
     /// <summary>
-    /// The maximum number of bytes (uncompressed data) that can be read from a table when running a query.
+    /// Limits the maximum number of bytes (uncompressed data) that can be read from a table when running a query.
+    ///
+    /// Minimal value and default value: **0**, no limitation is set.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long? MaxBytesToRead {
@@ -1610,8 +1883,10 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     public const int ReadOverflowModeFieldNumber = 15;
     private global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode readOverflowMode_ = global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode.Unspecified;
     /// <summary>
-    /// Determine the behavior on exceeding max_rows_to_read or max_bytes_to_read limit.
-    /// Possible values: OVERFLOW_MODE_THROW, OVERFLOW_MODE_BREAK.
+    /// Determines the behavior on exceeding [limits](https://clickhouse.tech/docs/en/operations/settings/query-complexity/#restrictions-on-query-complexity) while reading the data.
+    ///
+    /// * **throw**—abort query execution, return an error.
+    /// * **break**—stop query execution, return partial result.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode ReadOverflowMode {
@@ -1626,7 +1901,10 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     private static readonly pb::FieldCodec<long?> _single_maxRowsToGroupBy_codec = pb::FieldCodec.ForStructWrapper<long>(130);
     private long? maxRowsToGroupBy_;
     /// <summary>
-    /// The maximum number of unique keys received from aggregation.
+    /// Limits the maximum number of unique keys received from aggregation function.
+    /// This setting helps to reduce RAM consumption while doing aggregation.
+    ///
+    /// Minimal value and default value: **0**, no limitation is set.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long? MaxRowsToGroupBy {
@@ -1641,8 +1919,11 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     public const int GroupByOverflowModeFieldNumber = 17;
     private global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.GroupByOverflowMode groupByOverflowMode_ = global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.GroupByOverflowMode.Unspecified;
     /// <summary>
-    /// Determine the behavior on exceeding max_rows_to_group_by limit. Possible values: GROUP_BY_OVERFLOW_MODE_THROW,
-    /// GROUP_BY_OVERFLOW_MODE_BREAK, GROUP_BY_OVERFLOW_MODE_ANY.
+    /// Determines the behavior on exceeding [limits](https://clickhouse.tech/docs/en/operations/settings/query-complexity/#restrictions-on-query-complexity) while doing aggregation.
+    ///
+    /// * **throw**—abort query execution, return an error.
+    /// * **break**—stop query execution, return partial result.
+    /// * **any**—perform approximate **GROUP BY** operation by continuing aggregation for the keys that got into the set, but don’t add new keys to the set.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.GroupByOverflowMode GroupByOverflowMode {
@@ -1657,7 +1938,10 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     private static readonly pb::FieldCodec<long?> _single_maxRowsToSort_codec = pb::FieldCodec.ForStructWrapper<long>(146);
     private long? maxRowsToSort_;
     /// <summary>
-    /// The maximum number of rows before sorting.
+    /// Limits the maximum number of rows that can be read from a table for sorting.
+    /// This setting helps to reduce RAM consumption.
+    ///
+    /// Minimal value and default value: **0**, no limitation is set.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long? MaxRowsToSort {
@@ -1673,7 +1957,10 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     private static readonly pb::FieldCodec<long?> _single_maxBytesToSort_codec = pb::FieldCodec.ForStructWrapper<long>(154);
     private long? maxBytesToSort_;
     /// <summary>
-    /// The maximum number of bytes before sorting.
+    /// Limits the maximum number of bytes (uncompressed data) that can be read from a table for sorting.
+    /// This setting helps to reduce RAM consumption.
+    ///
+    /// Minimal value and default value: **0**, no limitation is set.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long? MaxBytesToSort {
@@ -1688,8 +1975,10 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     public const int SortOverflowModeFieldNumber = 20;
     private global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode sortOverflowMode_ = global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode.Unspecified;
     /// <summary>
-    /// Determine the behavior on exceeding max_rows_to_sort or max_bytes_to_sort limit.
-    /// Possible values: OVERFLOW_MODE_THROW, OVERFLOW_MODE_BREAK.
+    /// Determines the behavior on exceeding [limits](https://clickhouse.tech/docs/en/operations/settings/query-complexity/#restrictions-on-query-complexity) while sorting.
+    ///
+    /// * **throw**—abort query execution, return an error.
+    /// * **break**—stop query execution, return partial result.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode SortOverflowMode {
@@ -1704,7 +1993,10 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     private static readonly pb::FieldCodec<long?> _single_maxResultRows_codec = pb::FieldCodec.ForStructWrapper<long>(170);
     private long? maxResultRows_;
     /// <summary>
-    /// Limit on the number of rows in the result.
+    /// Limits the number of rows in the result.
+    /// This limitation is also checked for subqueries and parts of distributed queries that run on remote servers.
+    ///
+    /// Minimal value and default value: **0**, no limitation is set.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long? MaxResultRows {
@@ -1720,7 +2012,10 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     private static readonly pb::FieldCodec<long?> _single_maxResultBytes_codec = pb::FieldCodec.ForStructWrapper<long>(178);
     private long? maxResultBytes_;
     /// <summary>
-    /// Limit on the number of bytes in the result.
+    /// Limits the number of bytes in the result.
+    /// This limitation is also checked for subqueries and parts of distributed queries that run on remote servers.
+    ///
+    /// Minimal value and default value: **0**, no limitation is set.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long? MaxResultBytes {
@@ -1735,8 +2030,10 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     public const int ResultOverflowModeFieldNumber = 23;
     private global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode resultOverflowMode_ = global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode.Unspecified;
     /// <summary>
-    /// Determine the behavior on exceeding max_result_rows or max_result_bytes limit.
-    /// Possible values: OVERFLOW_MODE_THROW, OVERFLOW_MODE_BREAK.
+    /// Determines the behavior on exceeding [limits](https://clickhouse.tech/docs/en/operations/settings/query-complexity/#restrictions-on-query-complexity) while forming result.
+    ///
+    /// * **throw**—abort query execution, return an error.
+    /// * **break**—stop query execution, return partial result.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode ResultOverflowMode {
@@ -1751,7 +2048,9 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     private static readonly pb::FieldCodec<long?> _single_maxRowsInDistinct_codec = pb::FieldCodec.ForStructWrapper<long>(194);
     private long? maxRowsInDistinct_;
     /// <summary>
-    /// The maximum number of different rows when using DISTINCT.
+    /// Limits the maximum number of different rows when using **DISTINCT**.
+    ///
+    /// Minimal value and default value: **0**, no limitation is set.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long? MaxRowsInDistinct {
@@ -1767,7 +2066,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     private static readonly pb::FieldCodec<long?> _single_maxBytesInDistinct_codec = pb::FieldCodec.ForStructWrapper<long>(202);
     private long? maxBytesInDistinct_;
     /// <summary>
-    /// The maximum number of bytes used by a hash table when using DISTINCT.
+    /// Limits the maximum size of a hash table in bytes (uncompressed data) when using **DISTINCT**.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long? MaxBytesInDistinct {
@@ -1782,8 +2081,10 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     public const int DistinctOverflowModeFieldNumber = 26;
     private global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode distinctOverflowMode_ = global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode.Unspecified;
     /// <summary>
-    /// Determine the behavior on exceeding max_rows_in_distinct or max_bytes_in_distinct limit.
-    /// Possible values: OVERFLOW_MODE_THROW, OVERFLOW_MODE_BREAK.
+    /// Determines the behavior on exceeding [limits](https://clickhouse.tech/docs/en/operations/settings/query-complexity/#restrictions-on-query-complexity) while doing **DISCTINCT**.
+    ///
+    /// * **throw**—abort query execution, return an error.
+    /// * **break**—stop query execution, return partial result.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode DistinctOverflowMode {
@@ -1798,7 +2099,9 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     private static readonly pb::FieldCodec<long?> _single_maxRowsToTransfer_codec = pb::FieldCodec.ForStructWrapper<long>(218);
     private long? maxRowsToTransfer_;
     /// <summary>
-    /// The maximum number of rows that can be passed to a remote server or saved in a temporary table when using GLOBAL IN.
+    /// Limits the maximum number of rows that can be passed to a remote server or saved in a temporary table when using **GLOBAL IN**.
+    ///
+    /// Minimal value and default value: **0**, no limitation is set.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long? MaxRowsToTransfer {
@@ -1814,8 +2117,10 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     private static readonly pb::FieldCodec<long?> _single_maxBytesToTransfer_codec = pb::FieldCodec.ForStructWrapper<long>(226);
     private long? maxBytesToTransfer_;
     /// <summary>
-    /// The maximum number of bytes (uncompressed data) that can be passed to a remote server or saved in a temporary
-    /// table when using GLOBAL IN.
+    /// Limits the maximum number of bytes (uncompressed data) that can be passed to a remote server or saved in a temporary
+    /// table when using **GLOBAL IN**.
+    ///
+    /// Minimal value and default value: **0**, no limitation is set.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long? MaxBytesToTransfer {
@@ -1830,8 +2135,10 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     public const int TransferOverflowModeFieldNumber = 29;
     private global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode transferOverflowMode_ = global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode.Unspecified;
     /// <summary>
-    /// Determine the behavior on exceeding max_rows_to_transfer or max_bytes_to_transfer limit.
-    /// Possible values: OVERFLOW_MODE_THROW, OVERFLOW_MODE_BREAK.
+    /// Determines the behavior on exceeding [limits](https://clickhouse.tech/docs/en/operations/settings/query-complexity/#restrictions-on-query-complexity) while doing transfers.
+    ///
+    /// * **throw**—abort query execution, return an error.
+    /// * **break**—stop query execution, return partial result.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode TransferOverflowMode {
@@ -1846,7 +2153,10 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     private static readonly pb::FieldCodec<long?> _single_maxExecutionTime_codec = pb::FieldCodec.ForStructWrapper<long>(242);
     private long? maxExecutionTime_;
     /// <summary>
-    /// The maximum query execution time in milliseconds.
+    /// Limits the maximum query execution time in milliseconds.
+    /// At this moment, this limitation is not checked when passing one of the sorting stages, as well as merging and finalizing aggregation funictions.
+    ///
+    /// Minimal value and default value: **0**, no limitation is set.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long? MaxExecutionTime {
@@ -1861,8 +2171,10 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     public const int TimeoutOverflowModeFieldNumber = 31;
     private global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode timeoutOverflowMode_ = global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode.Unspecified;
     /// <summary>
-    /// Determine the behavior on exceeding max_execution_time limit.
-    /// Possible values: OVERFLOW_MODE_THROW, OVERFLOW_MODE_BREAK.
+    /// Determines the behavior on exceeding [limits](https://clickhouse.tech/docs/en/operations/settings/query-complexity/#restrictions-on-query-complexity) of execution time.
+    ///
+    /// * **throw**—abort query execution, return an error.
+    /// * **break**—stop query execution, return partial result.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode TimeoutOverflowMode {
@@ -1872,12 +2184,109 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       }
     }
 
+    /// <summary>Field number for the "max_rows_in_set" field.</summary>
+    public const int MaxRowsInSetFieldNumber = 87;
+    private static readonly pb::FieldCodec<long?> _single_maxRowsInSet_codec = pb::FieldCodec.ForStructWrapper<long>(698);
+    private long? maxRowsInSet_;
+    /// <summary>
+    /// Limit on the number of rows in the set resulting from the execution of the IN section.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? MaxRowsInSet {
+      get { return maxRowsInSet_; }
+      set {
+        maxRowsInSet_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "max_bytes_in_set" field.</summary>
+    public const int MaxBytesInSetFieldNumber = 88;
+    private static readonly pb::FieldCodec<long?> _single_maxBytesInSet_codec = pb::FieldCodec.ForStructWrapper<long>(706);
+    private long? maxBytesInSet_;
+    /// <summary>
+    /// Limit on the number of bytes in the set resulting from the execution of the IN section.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? MaxBytesInSet {
+      get { return maxBytesInSet_; }
+      set {
+        maxBytesInSet_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "set_overflow_mode" field.</summary>
+    public const int SetOverflowModeFieldNumber = 89;
+    private global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode setOverflowMode_ = global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode.Unspecified;
+    /// <summary>
+    /// Determine the behavior on exceeding max_rows_in_set or max_bytes_in_set limit.
+    /// Possible values: OVERFLOW_MODE_THROW, OVERFLOW_MODE_BREAK.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode SetOverflowMode {
+      get { return setOverflowMode_; }
+      set {
+        setOverflowMode_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "max_rows_in_join" field.</summary>
+    public const int MaxRowsInJoinFieldNumber = 90;
+    private static readonly pb::FieldCodec<long?> _single_maxRowsInJoin_codec = pb::FieldCodec.ForStructWrapper<long>(722);
+    private long? maxRowsInJoin_;
+    /// <summary>
+    /// Limit on maximum size of the hash table for JOIN, in rows.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? MaxRowsInJoin {
+      get { return maxRowsInJoin_; }
+      set {
+        maxRowsInJoin_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "max_bytes_in_join" field.</summary>
+    public const int MaxBytesInJoinFieldNumber = 91;
+    private static readonly pb::FieldCodec<long?> _single_maxBytesInJoin_codec = pb::FieldCodec.ForStructWrapper<long>(730);
+    private long? maxBytesInJoin_;
+    /// <summary>
+    /// Limit on maximum size of the hash table for JOIN, in bytes.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? MaxBytesInJoin {
+      get { return maxBytesInJoin_; }
+      set {
+        maxBytesInJoin_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "join_overflow_mode" field.</summary>
+    public const int JoinOverflowModeFieldNumber = 92;
+    private global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode joinOverflowMode_ = global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode.Unspecified;
+    /// <summary>
+    /// Determine the behavior on exceeding max_rows_in_join or max_bytes_in_join limit.
+    /// Possible values: OVERFLOW_MODE_THROW, OVERFLOW_MODE_BREAK.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode JoinOverflowMode {
+      get { return joinOverflowMode_; }
+      set {
+        joinOverflowMode_ = value;
+      }
+    }
+
     /// <summary>Field number for the "max_columns_to_read" field.</summary>
     public const int MaxColumnsToReadFieldNumber = 32;
     private static readonly pb::FieldCodec<long?> _single_maxColumnsToRead_codec = pb::FieldCodec.ForStructWrapper<long>(258);
     private long? maxColumnsToRead_;
     /// <summary>
-    /// The maximum number of columns that can be read from a table in a single query.
+    /// Limits the maximum number of columns that can be read from a table in a single query.
+    /// If the query requires to read more columns to complete, then it will be aborted.
+    ///
+    /// Minimal value and default value: **0**, no limitation is set.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long? MaxColumnsToRead {
@@ -1893,7 +2302,9 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     private static readonly pb::FieldCodec<long?> _single_maxTemporaryColumns_codec = pb::FieldCodec.ForStructWrapper<long>(266);
     private long? maxTemporaryColumns_;
     /// <summary>
-    /// The maximum number of temporary columns that must be kept in RAM at the same time when running a query, including constant columns.
+    /// Limits the maximum number of temporary columns that must be kept in RAM at the same time when running a query, including constant columns.
+    ///
+    /// Minimal value and default value: **0**, no limitation is set.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long? MaxTemporaryColumns {
@@ -1909,7 +2320,9 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     private static readonly pb::FieldCodec<long?> _single_maxTemporaryNonConstColumns_codec = pb::FieldCodec.ForStructWrapper<long>(274);
     private long? maxTemporaryNonConstColumns_;
     /// <summary>
-    /// The maximum number of temporary columns that must be kept in RAM at the same time when running a query, excluding constant columns.
+    /// Limits the maximum number of temporary columns that must be kept in RAM at the same time when running a query, excluding constant columns.
+    ///
+    /// Minimal value and default value: **0**, no limitation is set.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long? MaxTemporaryNonConstColumns {
@@ -1925,7 +2338,11 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     private static readonly pb::FieldCodec<long?> _single_maxQuerySize_codec = pb::FieldCodec.ForStructWrapper<long>(282);
     private long? maxQuerySize_;
     /// <summary>
-    /// The maximum part of a query that can be taken to RAM for parsing with the SQL parser, in bytes. Default value: 262144.
+    /// Limits the size of the part of a query that can be transferred to RAM for parsing with the SQL parser, in bytes.
+    ///
+    /// Value must be greater than **0** (default: **262144**).
+    ///
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.tech/docs/en/operations/settings/settings/#settings-max_query_size).
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long? MaxQuerySize {
@@ -1941,7 +2358,18 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     private static readonly pb::FieldCodec<long?> _single_maxAstDepth_codec = pb::FieldCodec.ForStructWrapper<long>(290);
     private long? maxAstDepth_;
     /// <summary>
-    /// The maximum depth of query syntax tree. Default value: 1000.
+    /// Limits the maximum depth of query syntax tree.
+    ///
+    /// Executing a big and complex query may result in building a syntax tree of enormous depth.
+    /// By using this setting, you can prohibit execution of over-sized or non-optimized queries for huge tables.
+    ///
+    /// For example, the **SELECT *** query may result in more complex and deeper syntax tree, compared to the **SELECT ... WHERE ...** query, containing constraints and conditions, in the most cases.
+    /// A user can be forced to construct more optimized queries, if this setting is used.
+    ///
+    /// Value must be greater than **0** (default: **1000**).
+    /// If a too small value is set, it may render ClickHouse unable to execute even simple queries.
+    ///
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.tech/docs/en/operations/settings/query-complexity/#max-ast-depth).
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long? MaxAstDepth {
@@ -1957,7 +2385,15 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     private static readonly pb::FieldCodec<long?> _single_maxAstElements_codec = pb::FieldCodec.ForStructWrapper<long>(298);
     private long? maxAstElements_;
     /// <summary>
-    /// The maximum size of query syntax tree in number of nodes. Default value: 50000.
+    /// Limits the maximum size of query syntax tree in number of nodes.
+    ///
+    /// Executing a big and complex query may result in building a syntax tree of enormous size.
+    /// By using this setting, you can prohibit execution of over-sized or non-optimized queries for huge tables.
+    ///
+    /// Value must be greater than **0** (default: **50000**).
+    /// If a too small value is set, it may render ClickHouse unable to execute even simple queries.
+    ///
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.tech/docs/en/operations/settings/query-complexity/#max-ast-elements).
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long? MaxAstElements {
@@ -1973,7 +2409,13 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     private static readonly pb::FieldCodec<long?> _single_maxExpandedAstElements_codec = pb::FieldCodec.ForStructWrapper<long>(306);
     private long? maxExpandedAstElements_;
     /// <summary>
-    /// The maximum size of query syntax tree in number of nodes after expansion of aliases and the asterisk. Default value: 500000.
+    /// Limits the maximum size of query syntax tree in number of nodes after expansion of aliases and the asterisk values.
+    ///
+    /// Executing a big and complex query may result in building a syntax tree of enormous size.
+    /// By using this setting, you can prohibit execution of over-sized or non-optimized queries for huge tables.
+    ///
+    /// Value must be greater than **0** (default: **500000**).
+    /// If a too small value is set, it may render ClickHouse unable to execute even simple queries.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long? MaxExpandedAstElements {
@@ -1984,12 +2426,69 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     }
 
 
+    /// <summary>Field number for the "min_execution_speed" field.</summary>
+    public const int MinExecutionSpeedFieldNumber = 84;
+    private static readonly pb::FieldCodec<long?> _single_minExecutionSpeed_codec = pb::FieldCodec.ForStructWrapper<long>(674);
+    private long? minExecutionSpeed_;
+    /// <summary>
+    /// Minimal execution speed in rows per second.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? MinExecutionSpeed {
+      get { return minExecutionSpeed_; }
+      set {
+        minExecutionSpeed_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "min_execution_speed_bytes" field.</summary>
+    public const int MinExecutionSpeedBytesFieldNumber = 85;
+    private static readonly pb::FieldCodec<long?> _single_minExecutionSpeedBytes_codec = pb::FieldCodec.ForStructWrapper<long>(682);
+    private long? minExecutionSpeedBytes_;
+    /// <summary>
+    /// Minimal execution speed in bytes per second.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? MinExecutionSpeedBytes {
+      get { return minExecutionSpeedBytes_; }
+      set {
+        minExecutionSpeedBytes_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "count_distinct_implementation" field.</summary>
+    public const int CountDistinctImplementationFieldNumber = 86;
+    private global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.CountDistinctImplementation countDistinctImplementation_ = global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.CountDistinctImplementation.Unspecified;
+    /// <summary>
+    /// Aggregate function to use for implementation of count(DISTINCT ...).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.CountDistinctImplementation CountDistinctImplementation {
+      get { return countDistinctImplementation_; }
+      set {
+        countDistinctImplementation_ = value;
+      }
+    }
+
     /// <summary>Field number for the "input_format_values_interpret_expressions" field.</summary>
     public const int InputFormatValuesInterpretExpressionsFieldNumber = 61;
     private static readonly pb::FieldCodec<bool?> _single_inputFormatValuesInterpretExpressions_codec = pb::FieldCodec.ForStructWrapper<bool>(490);
     private bool? inputFormatValuesInterpretExpressions_;
     /// <summary>
-    /// Enables or disables the full SQL parser if the fast stream parser cannot parse the data.
+    /// Enables or disables SQL parser if the fast stream parser cannot parse the data.
+    ///
+    /// Enable this setting, if the data that you want to insert into a table contains SQL expressions.
+    ///
+    /// For example, the stream parser is unable to parse a value that contains **now()** expression; therefore an **INSERT** query for this value will fail and no data will be inserted into a table.
+    /// With enabled SQL parser, this expression is parsed correctly: the **now()** expression will be parsed as SQL function, interpreted, and the current date and time will be inserted into the table as a result.
+    ///
+    /// This setting has effect only if you use [Values](https://clickhouse.tech/docs/en/interfaces/formats/#data-format-values) format when inserting data.
+    ///
+    /// Default value: **true** (SQL parser is enabled).
+    ///
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.tech/docs/en/operations/settings/settings/#settings-input_format_values_interpret_expressions).
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public bool? InputFormatValuesInterpretExpressions {
@@ -2005,7 +2504,9 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     private static readonly pb::FieldCodec<bool?> _single_inputFormatDefaultsForOmittedFields_codec = pb::FieldCodec.ForStructWrapper<bool>(498);
     private bool? inputFormatDefaultsForOmittedFields_;
     /// <summary>
-    /// When performing INSERT queries, replace omitted input column values with default values of the respective columns.
+    /// Enables or disables replacing omitted input values with default values of the respective columns when performing **INSERT** queries.
+    ///
+    /// Default value: **true** (replacing is enabled).
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public bool? InputFormatDefaultsForOmittedFields {
@@ -2021,7 +2522,12 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     private static readonly pb::FieldCodec<bool?> _single_outputFormatJsonQuote64BitIntegers_codec = pb::FieldCodec.ForStructWrapper<bool>(506);
     private bool? outputFormatJsonQuote64BitIntegers_;
     /// <summary>
-    /// Whether quoting of 64-bit integers is enabled in JSON output format.
+    /// Enables quoting of 64-bit integers in JSON output format.
+    ///
+    /// If this setting is enabled, then 64-bit integers (**UInt64** and **Int64**) will be quoted when written to JSON output in order to maintain compatibility with the most of the JavaScript engines.
+    /// Otherwise, such integers will not be quoted.
+    ///
+    /// Default value: **false** (quoting 64-bit integers is disabled).
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public bool? OutputFormatJsonQuote64BitIntegers {
@@ -2037,7 +2543,9 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     private static readonly pb::FieldCodec<bool?> _single_outputFormatJsonQuoteDenormals_codec = pb::FieldCodec.ForStructWrapper<bool>(514);
     private bool? outputFormatJsonQuoteDenormals_;
     /// <summary>
-    /// Whether output of special floating-point values (+nan, -nan, +inf and -inf) is enabled in JSON output format.
+    /// Enables special floating-point values (**+nan**, **-nan**, **+inf** and **-inf**) in JSON output format.
+    ///
+    /// Default value: **false** (special values do not present in output).
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public bool? OutputFormatJsonQuoteDenormals {
@@ -2053,7 +2561,20 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     private static readonly pb::FieldCodec<bool?> _single_lowCardinalityAllowInNativeFormat_codec = pb::FieldCodec.ForStructWrapper<bool>(626);
     private bool? lowCardinalityAllowInNativeFormat_;
     /// <summary>
-    /// Whether LowCardinality type is enabled in Native format.
+    /// Determines whether to use LowCardinality type in Native format.
+    ///
+    /// * **true** (default)—yes, use.
+    /// * **false**—convert LowCardinality columns to regular columns when doing **SELECT**, and convert regular columns to LowCardinality when doing **INSERT**.
+    ///
+    /// LowCardinality columns (aka sparse columns) store data in more effective way, compared to regular columns, by using hash tables.
+    /// If data to insert suits this storage format, ClickHouse will place them into LowCardinality column.
+    ///
+    /// If you use a third-party ClickHouse client that can't work with LowCardinality columns, then this client will not be able to correctly interpret the result of the query that asks for data stored in LowCardinality column.
+    /// Disable this setting to convert LowCardinality column to regular column when creating the result, so such clients will be able to process the result.
+    ///
+    /// Official ClickHouse client works with LowCardinality columns out-of-the-box.
+    ///
+    /// Default value: **true** (LowCardinality columns are used in Native format).
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public bool? LowCardinalityAllowInNativeFormat {
@@ -2069,7 +2590,10 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     private static readonly pb::FieldCodec<bool?> _single_emptyResultForAggregationByEmptySet_codec = pb::FieldCodec.ForStructWrapper<bool>(634);
     private bool? emptyResultForAggregationByEmptySet_;
     /// <summary>
-    /// Return empty result when aggregating without keys on empty set.
+    /// Enables returning of empty result when aggregating without keys (with **GROUP BY** operation absent) on empty set (e.g., **SELECT count(*) FROM table WHERE 0**).
+    ///
+    /// * **true**—ClickHouse will return an empty result for such queries.
+    /// * **false** (default)—ClickHouse will return a single-line result consisting of **NULL** values for aggregation functions, in accordance with SQL standard.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public bool? EmptyResultForAggregationByEmptySet {
@@ -2086,6 +2610,8 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     private long? httpConnectionTimeout_;
     /// <summary>
     /// HTTP connection timeout, in milliseconds.
+    ///
+    /// Value must be greater than **0** (default: **1000**, 1 second).
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long? HttpConnectionTimeout {
@@ -2102,6 +2628,8 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     private long? httpReceiveTimeout_;
     /// <summary>
     /// HTTP receive timeout, in milliseconds.
+    ///
+    /// Value must be greater than **0** (default: **1800000**, 1800 seconds, 30 minutes).
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long? HttpReceiveTimeout {
@@ -2118,6 +2646,8 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     private long? httpSendTimeout_;
     /// <summary>
     /// HTTP send timeout, in milliseconds.
+    ///
+    /// Value must be greater than **0** (default: **1800000**, 1800 seconds, 30 minutes).
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long? HttpSendTimeout {
@@ -2133,7 +2663,18 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     private static readonly pb::FieldCodec<bool?> _single_enableHttpCompression_codec = pb::FieldCodec.ForStructWrapper<bool>(546);
     private bool? enableHttpCompression_;
     /// <summary>
-    /// Whether data compression is enabled in HTTP responses.
+    /// Enables or disables data compression in HTTP responses.
+    ///
+    /// By default, ClickHouse stores data compressed. When executing a query, its result is uncompressed.
+    /// Use this setting to command ClickHouse to compress the result when sending it via HTTP.
+    ///
+    /// Enable this setting and add the **Accept-Encoding: &lt;compression method>** HTTP header in a HTTP request to force compression of HTTP response from ClickHouse.
+    ///
+    /// ClickHouse support the following compression methods: **gzip**, **br** and **deflate**.
+    ///
+    /// Default value: **false** (compression is disabled).
+    ///
+    /// See in-depth description in [ClickHouse documentation](https://clickhouse.tech/docs/en/interfaces/http/).
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public bool? EnableHttpCompression {
@@ -2149,7 +2690,9 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     private static readonly pb::FieldCodec<bool?> _single_sendProgressInHttpHeaders_codec = pb::FieldCodec.ForStructWrapper<bool>(554);
     private bool? sendProgressInHttpHeaders_;
     /// <summary>
-    /// Whether progress notifications using X-ClickHouse-Progress headers are enabled. Default value: false.
+    /// Enables progress notifications using **X-ClickHouse-Progress** HTTP header.
+    ///
+    /// Default value: **false** (notifications disabled).
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public bool? SendProgressInHttpHeaders {
@@ -2165,7 +2708,9 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     private static readonly pb::FieldCodec<long?> _single_httpHeadersProgressInterval_codec = pb::FieldCodec.ForStructWrapper<long>(562);
     private long? httpHeadersProgressInterval_;
     /// <summary>
-    /// Minimum interval between progress notifications, in milliseconds. Default value: 100.
+    /// Minimum interval between progress notifications with **X-ClickHouse-Progress** HTTP header, in milliseconds.
+    ///
+    /// Value must be greater than **0** (default: **100**).
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long? HttpHeadersProgressInterval {
@@ -2181,7 +2726,9 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     private static readonly pb::FieldCodec<bool?> _single_addHttpCorsHeader_codec = pb::FieldCodec.ForStructWrapper<bool>(570);
     private bool? addHttpCorsHeader_;
     /// <summary>
-    /// Whether CORS header in HTTP responses is enabled. Default value: false.
+    /// Adds CORS header in HTTP responses.
+    ///
+    /// Default value: **false** (header is not added).
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public bool? AddHttpCorsHeader {
@@ -2191,6 +2738,20 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       }
     }
 
+
+    /// <summary>Field number for the "quota_mode" field.</summary>
+    public const int QuotaModeFieldNumber = 80;
+    private global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.QuotaMode quotaMode_ = global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.QuotaMode.Unspecified;
+    /// <summary>
+    /// Quota accounting mode. Possible values: QUOTA_MODE_DEFAULT, QUOTA_MODE_KEYED and QUOTA_MODE_KEYED_BY_IP.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.QuotaMode QuotaMode {
+      get { return quotaMode_; }
+      set {
+        quotaMode_ = value;
+      }
+    }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
@@ -2219,6 +2780,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       if (DistributedProductMode != other.DistributedProductMode) return false;
       if (DistributedAggregationMemoryEfficient != other.DistributedAggregationMemoryEfficient) return false;
       if (DistributedDdlTaskTimeout != other.DistributedDdlTaskTimeout) return false;
+      if (SkipUnavailableShards != other.SkipUnavailableShards) return false;
       if (Compile != other.Compile) return false;
       if (MinCountToCompile != other.MinCountToCompile) return false;
       if (CompileExpressions != other.CompileExpressions) return false;
@@ -2264,6 +2826,12 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       if (TransferOverflowMode != other.TransferOverflowMode) return false;
       if (MaxExecutionTime != other.MaxExecutionTime) return false;
       if (TimeoutOverflowMode != other.TimeoutOverflowMode) return false;
+      if (MaxRowsInSet != other.MaxRowsInSet) return false;
+      if (MaxBytesInSet != other.MaxBytesInSet) return false;
+      if (SetOverflowMode != other.SetOverflowMode) return false;
+      if (MaxRowsInJoin != other.MaxRowsInJoin) return false;
+      if (MaxBytesInJoin != other.MaxBytesInJoin) return false;
+      if (JoinOverflowMode != other.JoinOverflowMode) return false;
       if (MaxColumnsToRead != other.MaxColumnsToRead) return false;
       if (MaxTemporaryColumns != other.MaxTemporaryColumns) return false;
       if (MaxTemporaryNonConstColumns != other.MaxTemporaryNonConstColumns) return false;
@@ -2271,6 +2839,9 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       if (MaxAstDepth != other.MaxAstDepth) return false;
       if (MaxAstElements != other.MaxAstElements) return false;
       if (MaxExpandedAstElements != other.MaxExpandedAstElements) return false;
+      if (MinExecutionSpeed != other.MinExecutionSpeed) return false;
+      if (MinExecutionSpeedBytes != other.MinExecutionSpeedBytes) return false;
+      if (CountDistinctImplementation != other.CountDistinctImplementation) return false;
       if (InputFormatValuesInterpretExpressions != other.InputFormatValuesInterpretExpressions) return false;
       if (InputFormatDefaultsForOmittedFields != other.InputFormatDefaultsForOmittedFields) return false;
       if (OutputFormatJsonQuote64BitIntegers != other.OutputFormatJsonQuote64BitIntegers) return false;
@@ -2284,6 +2855,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       if (SendProgressInHttpHeaders != other.SendProgressInHttpHeaders) return false;
       if (HttpHeadersProgressInterval != other.HttpHeadersProgressInterval) return false;
       if (AddHttpCorsHeader != other.AddHttpCorsHeader) return false;
+      if (QuotaMode != other.QuotaMode) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -2304,6 +2876,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       if (DistributedProductMode != global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.DistributedProductMode.Unspecified) hash ^= DistributedProductMode.GetHashCode();
       if (distributedAggregationMemoryEfficient_ != null) hash ^= DistributedAggregationMemoryEfficient.GetHashCode();
       if (distributedDdlTaskTimeout_ != null) hash ^= DistributedDdlTaskTimeout.GetHashCode();
+      if (skipUnavailableShards_ != null) hash ^= SkipUnavailableShards.GetHashCode();
       if (compile_ != null) hash ^= Compile.GetHashCode();
       if (minCountToCompile_ != null) hash ^= MinCountToCompile.GetHashCode();
       if (compileExpressions_ != null) hash ^= CompileExpressions.GetHashCode();
@@ -2349,6 +2922,12 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       if (TransferOverflowMode != global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode.Unspecified) hash ^= TransferOverflowMode.GetHashCode();
       if (maxExecutionTime_ != null) hash ^= MaxExecutionTime.GetHashCode();
       if (TimeoutOverflowMode != global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode.Unspecified) hash ^= TimeoutOverflowMode.GetHashCode();
+      if (maxRowsInSet_ != null) hash ^= MaxRowsInSet.GetHashCode();
+      if (maxBytesInSet_ != null) hash ^= MaxBytesInSet.GetHashCode();
+      if (SetOverflowMode != global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode.Unspecified) hash ^= SetOverflowMode.GetHashCode();
+      if (maxRowsInJoin_ != null) hash ^= MaxRowsInJoin.GetHashCode();
+      if (maxBytesInJoin_ != null) hash ^= MaxBytesInJoin.GetHashCode();
+      if (JoinOverflowMode != global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode.Unspecified) hash ^= JoinOverflowMode.GetHashCode();
       if (maxColumnsToRead_ != null) hash ^= MaxColumnsToRead.GetHashCode();
       if (maxTemporaryColumns_ != null) hash ^= MaxTemporaryColumns.GetHashCode();
       if (maxTemporaryNonConstColumns_ != null) hash ^= MaxTemporaryNonConstColumns.GetHashCode();
@@ -2356,6 +2935,9 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       if (maxAstDepth_ != null) hash ^= MaxAstDepth.GetHashCode();
       if (maxAstElements_ != null) hash ^= MaxAstElements.GetHashCode();
       if (maxExpandedAstElements_ != null) hash ^= MaxExpandedAstElements.GetHashCode();
+      if (minExecutionSpeed_ != null) hash ^= MinExecutionSpeed.GetHashCode();
+      if (minExecutionSpeedBytes_ != null) hash ^= MinExecutionSpeedBytes.GetHashCode();
+      if (CountDistinctImplementation != global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.CountDistinctImplementation.Unspecified) hash ^= CountDistinctImplementation.GetHashCode();
       if (inputFormatValuesInterpretExpressions_ != null) hash ^= InputFormatValuesInterpretExpressions.GetHashCode();
       if (inputFormatDefaultsForOmittedFields_ != null) hash ^= InputFormatDefaultsForOmittedFields.GetHashCode();
       if (outputFormatJsonQuote64BitIntegers_ != null) hash ^= OutputFormatJsonQuote64BitIntegers.GetHashCode();
@@ -2369,6 +2951,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       if (sendProgressInHttpHeaders_ != null) hash ^= SendProgressInHttpHeaders.GetHashCode();
       if (httpHeadersProgressInterval_ != null) hash ^= HttpHeadersProgressInterval.GetHashCode();
       if (addHttpCorsHeader_ != null) hash ^= AddHttpCorsHeader.GetHashCode();
+      if (QuotaMode != global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.QuotaMode.Unspecified) hash ^= QuotaMode.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -2627,6 +3210,43 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       if (emptyResultForAggregationByEmptySet_ != null) {
         _single_emptyResultForAggregationByEmptySet_codec.WriteTagAndValue(output, EmptyResultForAggregationByEmptySet);
       }
+      if (QuotaMode != global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.QuotaMode.Unspecified) {
+        output.WriteRawTag(128, 5);
+        output.WriteEnum((int) QuotaMode);
+      }
+      if (skipUnavailableShards_ != null) {
+        _single_skipUnavailableShards_codec.WriteTagAndValue(output, SkipUnavailableShards);
+      }
+      if (minExecutionSpeed_ != null) {
+        _single_minExecutionSpeed_codec.WriteTagAndValue(output, MinExecutionSpeed);
+      }
+      if (minExecutionSpeedBytes_ != null) {
+        _single_minExecutionSpeedBytes_codec.WriteTagAndValue(output, MinExecutionSpeedBytes);
+      }
+      if (CountDistinctImplementation != global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.CountDistinctImplementation.Unspecified) {
+        output.WriteRawTag(176, 5);
+        output.WriteEnum((int) CountDistinctImplementation);
+      }
+      if (maxRowsInSet_ != null) {
+        _single_maxRowsInSet_codec.WriteTagAndValue(output, MaxRowsInSet);
+      }
+      if (maxBytesInSet_ != null) {
+        _single_maxBytesInSet_codec.WriteTagAndValue(output, MaxBytesInSet);
+      }
+      if (SetOverflowMode != global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode.Unspecified) {
+        output.WriteRawTag(200, 5);
+        output.WriteEnum((int) SetOverflowMode);
+      }
+      if (maxRowsInJoin_ != null) {
+        _single_maxRowsInJoin_codec.WriteTagAndValue(output, MaxRowsInJoin);
+      }
+      if (maxBytesInJoin_ != null) {
+        _single_maxBytesInJoin_codec.WriteTagAndValue(output, MaxBytesInJoin);
+      }
+      if (JoinOverflowMode != global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode.Unspecified) {
+        output.WriteRawTag(224, 5);
+        output.WriteEnum((int) JoinOverflowMode);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -2676,6 +3296,9 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       }
       if (distributedDdlTaskTimeout_ != null) {
         size += _single_distributedDdlTaskTimeout_codec.CalculateSizeWithTag(DistributedDdlTaskTimeout);
+      }
+      if (skipUnavailableShards_ != null) {
+        size += _single_skipUnavailableShards_codec.CalculateSizeWithTag(SkipUnavailableShards);
       }
       if (compile_ != null) {
         size += _single_compile_codec.CalculateSizeWithTag(Compile);
@@ -2812,6 +3435,24 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       if (TimeoutOverflowMode != global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode.Unspecified) {
         size += 2 + pb::CodedOutputStream.ComputeEnumSize((int) TimeoutOverflowMode);
       }
+      if (maxRowsInSet_ != null) {
+        size += _single_maxRowsInSet_codec.CalculateSizeWithTag(MaxRowsInSet);
+      }
+      if (maxBytesInSet_ != null) {
+        size += _single_maxBytesInSet_codec.CalculateSizeWithTag(MaxBytesInSet);
+      }
+      if (SetOverflowMode != global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode.Unspecified) {
+        size += 2 + pb::CodedOutputStream.ComputeEnumSize((int) SetOverflowMode);
+      }
+      if (maxRowsInJoin_ != null) {
+        size += _single_maxRowsInJoin_codec.CalculateSizeWithTag(MaxRowsInJoin);
+      }
+      if (maxBytesInJoin_ != null) {
+        size += _single_maxBytesInJoin_codec.CalculateSizeWithTag(MaxBytesInJoin);
+      }
+      if (JoinOverflowMode != global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode.Unspecified) {
+        size += 2 + pb::CodedOutputStream.ComputeEnumSize((int) JoinOverflowMode);
+      }
       if (maxColumnsToRead_ != null) {
         size += _single_maxColumnsToRead_codec.CalculateSizeWithTag(MaxColumnsToRead);
       }
@@ -2832,6 +3473,15 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       }
       if (maxExpandedAstElements_ != null) {
         size += _single_maxExpandedAstElements_codec.CalculateSizeWithTag(MaxExpandedAstElements);
+      }
+      if (minExecutionSpeed_ != null) {
+        size += _single_minExecutionSpeed_codec.CalculateSizeWithTag(MinExecutionSpeed);
+      }
+      if (minExecutionSpeedBytes_ != null) {
+        size += _single_minExecutionSpeedBytes_codec.CalculateSizeWithTag(MinExecutionSpeedBytes);
+      }
+      if (CountDistinctImplementation != global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.CountDistinctImplementation.Unspecified) {
+        size += 2 + pb::CodedOutputStream.ComputeEnumSize((int) CountDistinctImplementation);
       }
       if (inputFormatValuesInterpretExpressions_ != null) {
         size += _single_inputFormatValuesInterpretExpressions_codec.CalculateSizeWithTag(InputFormatValuesInterpretExpressions);
@@ -2871,6 +3521,9 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       }
       if (addHttpCorsHeader_ != null) {
         size += _single_addHttpCorsHeader_codec.CalculateSizeWithTag(AddHttpCorsHeader);
+      }
+      if (QuotaMode != global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.QuotaMode.Unspecified) {
+        size += 2 + pb::CodedOutputStream.ComputeEnumSize((int) QuotaMode);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -2949,6 +3602,11 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       if (other.distributedDdlTaskTimeout_ != null) {
         if (distributedDdlTaskTimeout_ == null || other.DistributedDdlTaskTimeout != 0L) {
           DistributedDdlTaskTimeout = other.DistributedDdlTaskTimeout;
+        }
+      }
+      if (other.skipUnavailableShards_ != null) {
+        if (skipUnavailableShards_ == null || other.SkipUnavailableShards != false) {
+          SkipUnavailableShards = other.SkipUnavailableShards;
         }
       }
       if (other.compile_ != null) {
@@ -3162,6 +3820,32 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       if (other.TimeoutOverflowMode != global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode.Unspecified) {
         TimeoutOverflowMode = other.TimeoutOverflowMode;
       }
+      if (other.maxRowsInSet_ != null) {
+        if (maxRowsInSet_ == null || other.MaxRowsInSet != 0L) {
+          MaxRowsInSet = other.MaxRowsInSet;
+        }
+      }
+      if (other.maxBytesInSet_ != null) {
+        if (maxBytesInSet_ == null || other.MaxBytesInSet != 0L) {
+          MaxBytesInSet = other.MaxBytesInSet;
+        }
+      }
+      if (other.SetOverflowMode != global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode.Unspecified) {
+        SetOverflowMode = other.SetOverflowMode;
+      }
+      if (other.maxRowsInJoin_ != null) {
+        if (maxRowsInJoin_ == null || other.MaxRowsInJoin != 0L) {
+          MaxRowsInJoin = other.MaxRowsInJoin;
+        }
+      }
+      if (other.maxBytesInJoin_ != null) {
+        if (maxBytesInJoin_ == null || other.MaxBytesInJoin != 0L) {
+          MaxBytesInJoin = other.MaxBytesInJoin;
+        }
+      }
+      if (other.JoinOverflowMode != global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode.Unspecified) {
+        JoinOverflowMode = other.JoinOverflowMode;
+      }
       if (other.maxColumnsToRead_ != null) {
         if (maxColumnsToRead_ == null || other.MaxColumnsToRead != 0L) {
           MaxColumnsToRead = other.MaxColumnsToRead;
@@ -3196,6 +3880,19 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
         if (maxExpandedAstElements_ == null || other.MaxExpandedAstElements != 0L) {
           MaxExpandedAstElements = other.MaxExpandedAstElements;
         }
+      }
+      if (other.minExecutionSpeed_ != null) {
+        if (minExecutionSpeed_ == null || other.MinExecutionSpeed != 0L) {
+          MinExecutionSpeed = other.MinExecutionSpeed;
+        }
+      }
+      if (other.minExecutionSpeedBytes_ != null) {
+        if (minExecutionSpeedBytes_ == null || other.MinExecutionSpeedBytes != 0L) {
+          MinExecutionSpeedBytes = other.MinExecutionSpeedBytes;
+        }
+      }
+      if (other.CountDistinctImplementation != global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.CountDistinctImplementation.Unspecified) {
+        CountDistinctImplementation = other.CountDistinctImplementation;
       }
       if (other.inputFormatValuesInterpretExpressions_ != null) {
         if (inputFormatValuesInterpretExpressions_ == null || other.InputFormatValuesInterpretExpressions != false) {
@@ -3261,6 +3958,9 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
         if (addHttpCorsHeader_ == null || other.AddHttpCorsHeader != false) {
           AddHttpCorsHeader = other.AddHttpCorsHeader;
         }
+      }
+      if (other.QuotaMode != global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.QuotaMode.Unspecified) {
+        QuotaMode = other.QuotaMode;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -3802,6 +4502,71 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
             }
             break;
           }
+          case 640: {
+            QuotaMode = (global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.QuotaMode) input.ReadEnum();
+            break;
+          }
+          case 650: {
+            bool? value = _single_skipUnavailableShards_codec.Read(input);
+            if (skipUnavailableShards_ == null || value != false) {
+              SkipUnavailableShards = value;
+            }
+            break;
+          }
+          case 674: {
+            long? value = _single_minExecutionSpeed_codec.Read(input);
+            if (minExecutionSpeed_ == null || value != 0L) {
+              MinExecutionSpeed = value;
+            }
+            break;
+          }
+          case 682: {
+            long? value = _single_minExecutionSpeedBytes_codec.Read(input);
+            if (minExecutionSpeedBytes_ == null || value != 0L) {
+              MinExecutionSpeedBytes = value;
+            }
+            break;
+          }
+          case 688: {
+            CountDistinctImplementation = (global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.CountDistinctImplementation) input.ReadEnum();
+            break;
+          }
+          case 698: {
+            long? value = _single_maxRowsInSet_codec.Read(input);
+            if (maxRowsInSet_ == null || value != 0L) {
+              MaxRowsInSet = value;
+            }
+            break;
+          }
+          case 706: {
+            long? value = _single_maxBytesInSet_codec.Read(input);
+            if (maxBytesInSet_ == null || value != 0L) {
+              MaxBytesInSet = value;
+            }
+            break;
+          }
+          case 712: {
+            SetOverflowMode = (global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode) input.ReadEnum();
+            break;
+          }
+          case 722: {
+            long? value = _single_maxRowsInJoin_codec.Read(input);
+            if (maxRowsInJoin_ == null || value != 0L) {
+              MaxRowsInJoin = value;
+            }
+            break;
+          }
+          case 730: {
+            long? value = _single_maxBytesInJoin_codec.Read(input);
+            if (maxBytesInJoin_ == null || value != 0L) {
+              MaxBytesInJoin = value;
+            }
+            break;
+          }
+          case 736: {
+            JoinOverflowMode = (global::Yandex.Cloud.Mdb.Clickhouse.V1.UserSettings.Types.OverflowMode) input.ReadEnum();
+            break;
+          }
         }
       }
     }
@@ -3830,17 +4595,33 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
         /// </summary>
         [pbr::OriginalName("DISTRIBUTED_PRODUCT_MODE_DENY")] Deny = 1,
         /// <summary>
-        ///Replaces the database and table in the subquery with local ones for the destination server (shard), leaving the normal IN/JOIN.
+        /// Replaces the database and table in the subquery with local ones for the destination server (shard), leaving the normal IN/JOIN.
         /// </summary>
         [pbr::OriginalName("DISTRIBUTED_PRODUCT_MODE_LOCAL")] Local = 2,
         /// <summary>
-        ///Replaces the IN/JOIN query with GLOBAL IN/GLOBAL JOIN.
+        /// Replaces the IN/JOIN query with GLOBAL IN/GLOBAL JOIN.
         /// </summary>
         [pbr::OriginalName("DISTRIBUTED_PRODUCT_MODE_GLOBAL")] Global = 3,
         /// <summary>
-        ///Allows the use of these types of subqueries.
+        /// Allows the use of these types of subqueries.
         /// </summary>
         [pbr::OriginalName("DISTRIBUTED_PRODUCT_MODE_ALLOW")] Allow = 4,
+      }
+
+      internal enum QuotaMode {
+        [pbr::OriginalName("QUOTA_MODE_UNSPECIFIED")] Unspecified = 0,
+        [pbr::OriginalName("QUOTA_MODE_DEFAULT")] Default = 1,
+        [pbr::OriginalName("QUOTA_MODE_KEYED")] Keyed = 2,
+        [pbr::OriginalName("QUOTA_MODE_KEYED_BY_IP")] KeyedByIp = 3,
+      }
+
+      internal enum CountDistinctImplementation {
+        [pbr::OriginalName("COUNT_DISTINCT_IMPLEMENTATION_UNSPECIFIED")] Unspecified = 0,
+        [pbr::OriginalName("COUNT_DISTINCT_IMPLEMENTATION_UNIQ")] Uniq = 1,
+        [pbr::OriginalName("COUNT_DISTINCT_IMPLEMENTATION_UNIQ_COMBINED")] UniqCombined = 2,
+        [pbr::OriginalName("COUNT_DISTINCT_IMPLEMENTATION_UNIQ_COMBINED_64")] UniqCombined64 = 3,
+        [pbr::OriginalName("COUNT_DISTINCT_IMPLEMENTATION_UNIQ_HLL_12")] UniqHll12 = 4,
+        [pbr::OriginalName("COUNT_DISTINCT_IMPLEMENTATION_UNIQ_EXACT")] UniqExact = 5,
       }
 
     }

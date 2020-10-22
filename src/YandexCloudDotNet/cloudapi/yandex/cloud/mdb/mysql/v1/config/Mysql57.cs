@@ -27,7 +27,7 @@ namespace Yandex.Cloud.Mdb.Mysql.V1.Config {
             "Ci95YW5kZXgvY2xvdWQvbWRiL215c3FsL3YxL2NvbmZpZy9teXNxbDVfNy5w",
             "cm90bxIgeWFuZGV4LmNsb3VkLm1kYi5teXNxbC52MS5jb25maWcaHmdvb2ds",
             "ZS9wcm90b2J1Zi93cmFwcGVycy5wcm90bxodeWFuZGV4L2Nsb3VkL3ZhbGlk",
-            "YXRpb24ucHJvdG8inAoKDk15c3FsQ29uZmlnNV83EksKF2lubm9kYl9idWZm",
+            "YXRpb24ucHJvdG8i/SMKDk15c3FsQ29uZmlnNV83EksKF2lubm9kYl9idWZm",
             "ZXJfcG9vbF9zaXplGAEgASgLMhsuZ29vZ2xlLnByb3RvYnVmLkludDY0VmFs",
             "dWVCDfrHMQk+PTUyNDI4ODASQgoPbWF4X2Nvbm5lY3Rpb25zGAIgASgLMhsu",
             "Z29vZ2xlLnByb3RvYnVmLkludDY0VmFsdWVCDPrHMQgxMC0xMDAwMBI1Cg9s",
@@ -39,36 +39,109 @@ namespace Yandex.Cloud.Mdb.Mysql.V1.Config {
             "Em1heF9hbGxvd2VkX3BhY2tldBgHIAEoCzIbLmdvb2dsZS5wcm90b2J1Zi5J",
             "bnQ2NFZhbHVlQhL6xzEOMTAyNC0xMzQyMTc3MjgSYgodZGVmYXVsdF9hdXRo",
             "ZW50aWNhdGlvbl9wbHVnaW4YCCABKA4yOy55YW5kZXguY2xvdWQubWRiLm15",
-            "c3FsLnYxLmNvbmZpZy5NeXNxbENvbmZpZzVfNy5BdXRoUGx1Z2luIuoECgdT",
-            "UUxNb2RlEhcKE1NRTE1PREVfVU5TUEVDSUZJRUQQABIXChNBTExPV19JTlZB",
-            "TElEX0RBVEVTEAESDwoLQU5TSV9RVU9URVMQAhIeChpFUlJPUl9GT1JfRElW",
-            "SVNJT05fQllfWkVSTxADEhcKE0hJR0hfTk9UX1BSRUNFREVOQ0UQBBIQCgxJ",
-            "R05PUkVfU1BBQ0UQBRIZChVOT19BVVRPX1ZBTFVFX09OX1pFUk8QBhIYChRO",
-            "T19CQUNLU0xBU0hfRVNDQVBFUxAHEhoKFk5PX0VOR0lORV9TVUJTVElUVVRJ",
-            "T04QCBIbChdOT19VTlNJR05FRF9TVUJUUkFDVElPThAJEhAKDE5PX1pFUk9f",
-            "REFURRAKEhMKD05PX1pFUk9fSU5fREFURRALEhQKEE5PX0ZJRUxEX09QVElP",
-            "TlMQDBISCg5OT19LRVlfT1BUSU9OUxANEhQKEE5PX1RBQkxFX09QVElPTlMQ",
-            "DhIWChJPTkxZX0ZVTExfR1JPVVBfQlkQDxIbChdQQURfQ0hBUl9UT19GVUxM",
-            "X0xFTkdUSBAQEhMKD1BJUEVTX0FTX0NPTkNBVBAREhEKDVJFQUxfQVNfRkxP",
-            "QVQQEhIVChFTVFJJQ1RfQUxMX1RBQkxFUxATEhcKE1NUUklDVF9UUkFOU19U",
-            "QUJMRVMQFBIICgRBTlNJEBUSDwoLVFJBRElUSU9OQUwQFhIHCgNEQjIQFxIJ",
-            "CgVNQVhEQhAYEgkKBU1TU1FMEBkSDAoITVlTUUwzMjMQGhILCgdNWVNRTDQw",
-            "EBsSCgoGT1JBQ0xFEBwSDgoKUE9TVEdSRVNRTBAdIngKCkF1dGhQbHVnaW4S",
-            "GwoXQVVUSF9QTFVHSU5fVU5TUEVDSUZJRUQQABIZChVNWVNRTF9OQVRJVkVf",
-            "UEFTU1dPUkQQARIdChVDQUNISU5HX1NIQTJfUEFTU1dPUkQQAhoCCAESEwoP",
-            "U0hBMjU2X1BBU1NXT1JEEAMi8AEKEU15c3FsQ29uZmlnU2V0NV83EkoKEGVm",
-            "ZmVjdGl2ZV9jb25maWcYASABKAsyMC55YW5kZXguY2xvdWQubWRiLm15c3Fs",
-            "LnYxLmNvbmZpZy5NeXNxbENvbmZpZzVfNxJFCgt1c2VyX2NvbmZpZxgCIAEo",
-            "CzIwLnlhbmRleC5jbG91ZC5tZGIubXlzcWwudjEuY29uZmlnLk15c3FsQ29u",
-            "ZmlnNV83EkgKDmRlZmF1bHRfY29uZmlnGAMgASgLMjAueWFuZGV4LmNsb3Vk",
-            "Lm1kYi5teXNxbC52MS5jb25maWcuTXlzcWxDb25maWc1XzdCcgokeWFuZGV4",
-            "LmNsb3VkLmFwaS5tZGIubXlzcWwudjEuY29uZmlnWkpnaXRodWIuY29tL3lh",
-            "bmRleC1jbG91ZC9nby1nZW5wcm90by95YW5kZXgvY2xvdWQvbWRiL215c3Fs",
-            "L3YxL2NvbmZpZztteXNxbGIGcHJvdG8z"));
+            "c3FsLnYxLmNvbmZpZy5NeXNxbENvbmZpZzVfNy5BdXRoUGx1Z2luEkwKHmlu",
+            "bm9kYl9mbHVzaF9sb2dfYXRfdHJ4X2NvbW1pdBgJIAEoCzIbLmdvb2dsZS5w",
+            "cm90b2J1Zi5JbnQ2NFZhbHVlQgf6xzEDMS0yEkoKGGlubm9kYl9sb2NrX3dh",
+            "aXRfdGltZW91dBgKIAEoCzIbLmdvb2dsZS5wcm90b2J1Zi5JbnQ2NFZhbHVl",
+            "Qgv6xzEHMS0yODgwMBJkChV0cmFuc2FjdGlvbl9pc29sYXRpb24YCyABKA4y",
+            "RS55YW5kZXguY2xvdWQubWRiLm15c3FsLnYxLmNvbmZpZy5NeXNxbENvbmZp",
+            "ZzVfNy5UcmFuc2FjdGlvbklzb2xhdGlvbhI+Chppbm5vZGJfcHJpbnRfYWxs",
+            "X2RlYWRsb2NrcxgMIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5Cb29sVmFsdWUS",
+            "QQoQbmV0X3JlYWRfdGltZW91dBgNIAEoCzIbLmdvb2dsZS5wcm90b2J1Zi5J",
+            "bnQ2NFZhbHVlQgr6xzEGMS0xMjAwEkIKEW5ldF93cml0ZV90aW1lb3V0GA4g",
+            "ASgLMhsuZ29vZ2xlLnByb3RvYnVmLkludDY0VmFsdWVCCvrHMQYxLTEyMDAS",
+            "SQoUZ3JvdXBfY29uY2F0X21heF9sZW4YDyABKAsyGy5nb29nbGUucHJvdG9i",
+            "dWYuSW50NjRWYWx1ZUIO+scxCjQtMzM1NTQ0MzISRwoOdG1wX3RhYmxlX3Np",
+            "emUYECABKAsyGy5nb29nbGUucHJvdG9idWYuSW50NjRWYWx1ZUIS+scxDjEw",
+            "MjQtMTM0MjE3NzI4EkwKE21heF9oZWFwX3RhYmxlX3NpemUYESABKAsyGy5n",
+            "b29nbGUucHJvdG9idWYuSW50NjRWYWx1ZUIS+scxDjEwMjQtMTM0MjE3NzI4",
+            "EhkKEWRlZmF1bHRfdGltZV96b25lGBIgASgJEhwKFGNoYXJhY3Rlcl9zZXRf",
+            "c2VydmVyGBMgASgJEhgKEGNvbGxhdGlvbl9zZXJ2ZXIYFCABKAkSPgoaaW5u",
+            "b2RiX2FkYXB0aXZlX2hhc2hfaW5kZXgYFSABKAsyGi5nb29nbGUucHJvdG9i",
+            "dWYuQm9vbFZhbHVlEjoKFmlubm9kYl9udW1hX2ludGVybGVhdmUYFiABKAsy",
+            "Gi5nb29nbGUucHJvdG9idWYuQm9vbFZhbHVlElIKFmlubm9kYl9sb2dfYnVm",
+            "ZmVyX3NpemUYFyABKAsyGy5nb29nbGUucHJvdG9idWYuSW50NjRWYWx1ZUIV",
+            "+scxETEwNDg1NzYtMjY4NDM1NDU2ElMKFGlubm9kYl9sb2dfZmlsZV9zaXpl",
+            "GBggASgLMhsuZ29vZ2xlLnByb3RvYnVmLkludDY0VmFsdWVCGPrHMRQyNjg0",
+            "MzU0NTYtNDI5NDk2NzI5NhJHChJpbm5vZGJfaW9fY2FwYWNpdHkYGSABKAsy",
+            "Gy5nb29nbGUucHJvdG9idWYuSW50NjRWYWx1ZUIO+scxCjEwMC0xMDAwMDAS",
+            "SwoWaW5ub2RiX2lvX2NhcGFjaXR5X21heBgaIAEoCzIbLmdvb2dsZS5wcm90",
+            "b2J1Zi5JbnQ2NFZhbHVlQg76xzEKMTAwLTEwMDAwMBJFChZpbm5vZGJfcmVh",
+            "ZF9pb190aHJlYWRzGBsgASgLMhsuZ29vZ2xlLnByb3RvYnVmLkludDY0VmFs",
+            "dWVCCPrHMQQxLTE2EkYKF2lubm9kYl93cml0ZV9pb190aHJlYWRzGBwgASgL",
+            "MhsuZ29vZ2xlLnByb3RvYnVmLkludDY0VmFsdWVCCPrHMQQxLTE2EkMKFGlu",
+            "bm9kYl9wdXJnZV90aHJlYWRzGB0gASgLMhsuZ29vZ2xlLnByb3RvYnVmLklu",
+            "dDY0VmFsdWVCCPrHMQQxLTE2EkoKGWlubm9kYl90aHJlYWRfY29uY3VycmVu",
+            "Y3kYHiABKAsyGy5nb29nbGUucHJvdG9idWYuSW50NjRWYWx1ZUIK+scxBjAt",
+            "MTAwMBJXCh5pbm5vZGJfdGVtcF9kYXRhX2ZpbGVfbWF4X3NpemUYHyABKAsy",
+            "Gy5nb29nbGUucHJvdG9idWYuSW50NjRWYWx1ZUIS+scxDjAtMTA3Mzc0MTgy",
+            "NDAwEkQKEXRocmVhZF9jYWNoZV9zaXplGCAgASgLMhsuZ29vZ2xlLnByb3Rv",
+            "YnVmLkludDY0VmFsdWVCDPrHMQgxMC0xMDAwMBJGCgx0aHJlYWRfc3RhY2sY",
+            "ISABKAsyGy5nb29nbGUucHJvdG9idWYuSW50NjRWYWx1ZUIT+scxDzEzMTA3",
+            "Mi0xNjc3NzIxNhJIChBqb2luX2J1ZmZlcl9zaXplGCIgASgLMhsuZ29vZ2xl",
+            "LnByb3RvYnVmLkludDY0VmFsdWVCEfrHMQ0xMDI0LTE2Nzc3MjE2EkgKEHNv",
+            "cnRfYnVmZmVyX3NpemUYIyABKAsyGy5nb29nbGUucHJvdG9idWYuSW50NjRW",
+            "YWx1ZUIR+scxDTEwMjQtMTY3NzcyMTYSSwoWdGFibGVfZGVmaW5pdGlvbl9j",
+            "YWNoZRgkIAEoCzIbLmdvb2dsZS5wcm90b2J1Zi5JbnQ2NFZhbHVlQg76xzEK",
+            "NDAwLTUyNDI4OBJFChB0YWJsZV9vcGVuX2NhY2hlGCUgASgLMhsuZ29vZ2xl",
+            "LnByb3RvYnVmLkludDY0VmFsdWVCDvrHMQo0MDAtNTI0Mjg4EkkKGnRhYmxl",
+            "X29wZW5fY2FjaGVfaW5zdGFuY2VzGCYgASgLMhsuZ29vZ2xlLnByb3RvYnVm",
+            "LkludDY0VmFsdWVCCPrHMQQxLTMyEkMKH2V4cGxpY2l0X2RlZmF1bHRzX2Zv",
+            "cl90aW1lc3RhbXAYJyABKAsyGi5nb29nbGUucHJvdG9idWYuQm9vbFZhbHVl",
+            "EkoKGGF1dG9faW5jcmVtZW50X2luY3JlbWVudBgoIAEoCzIbLmdvb2dsZS5w",
+            "cm90b2J1Zi5JbnQ2NFZhbHVlQgv6xzEHMS02NTUzNRJHChVhdXRvX2luY3Jl",
+            "bWVudF9vZmZzZXQYKSABKAsyGy5nb29nbGUucHJvdG9idWYuSW50NjRWYWx1",
+            "ZUIL+scxBzEtNjU1MzUSPAoLc3luY19iaW5sb2cYKiABKAsyGy5nb29nbGUu",
+            "cHJvdG9idWYuSW50NjRWYWx1ZUIK+scxBjAtNDA5NhJJChFiaW5sb2dfY2Fj",
+            "aGVfc2l6ZRgrIAEoCzIbLmdvb2dsZS5wcm90b2J1Zi5JbnQ2NFZhbHVlQhH6",
+            "xzENNDA5Ni02NzEwODg2NBJSCh5iaW5sb2dfZ3JvdXBfY29tbWl0X3N5bmNf",
+            "ZGVsYXkYLCABKAsyGy5nb29nbGUucHJvdG9idWYuSW50NjRWYWx1ZUIN+scx",
+            "CTAtMTAwMDAwMBJZChBiaW5sb2dfcm93X2ltYWdlGC0gASgOMj8ueWFuZGV4",
+            "LmNsb3VkLm1kYi5teXNxbC52MS5jb25maWcuTXlzcWxDb25maWc1XzcuQmlu",
+            "bG9nUm93SW1hZ2USQAocYmlubG9nX3Jvd3NfcXVlcnlfbG9nX2V2ZW50cxgu",
+            "IAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5Cb29sVmFsdWUSVwopcnBsX3NlbWlf",
+            "c3luY19tYXN0ZXJfd2FpdF9mb3Jfc2xhdmVfY291bnQYLyABKAsyGy5nb29n",
+            "bGUucHJvdG9idWYuSW50NjRWYWx1ZUIH+scxAzEtMhJfChNzbGF2ZV9wYXJh",
+            "bGxlbF90eXBlGDAgASgOMkIueWFuZGV4LmNsb3VkLm1kYi5teXNxbC52MS5j",
+            "b25maWcuTXlzcWxDb25maWc1XzcuU2xhdmVQYXJhbGxlbFR5cGUSRQoWc2xh",
+            "dmVfcGFyYWxsZWxfd29ya2VycxgxIAEoCzIbLmdvb2dsZS5wcm90b2J1Zi5J",
+            "bnQ2NFZhbHVlQgj6xzEEMC02NCKZBQoHU1FMTW9kZRIXChNTUUxNT0RFX1VO",
+            "U1BFQ0lGSUVEEAASFwoTQUxMT1dfSU5WQUxJRF9EQVRFUxABEg8KC0FOU0lf",
+            "UVVPVEVTEAISHgoaRVJST1JfRk9SX0RJVklTSU9OX0JZX1pFUk8QAxIXChNI",
+            "SUdIX05PVF9QUkVDRURFTkNFEAQSEAoMSUdOT1JFX1NQQUNFEAUSGQoVTk9f",
+            "QVVUT19WQUxVRV9PTl9aRVJPEAYSGAoUTk9fQkFDS1NMQVNIX0VTQ0FQRVMQ",
+            "BxIaChZOT19FTkdJTkVfU1VCU1RJVFVUSU9OEAgSGwoXTk9fVU5TSUdORURf",
+            "U1VCVFJBQ1RJT04QCRIQCgxOT19aRVJPX0RBVEUQChITCg9OT19aRVJPX0lO",
+            "X0RBVEUQCxIUChBOT19GSUVMRF9PUFRJT05TEAwSEgoOTk9fS0VZX09QVElP",
+            "TlMQDRIUChBOT19UQUJMRV9PUFRJT05TEA4SFgoST05MWV9GVUxMX0dST1VQ",
+            "X0JZEA8SGwoXUEFEX0NIQVJfVE9fRlVMTF9MRU5HVEgQEBITCg9QSVBFU19B",
+            "U19DT05DQVQQERIRCg1SRUFMX0FTX0ZMT0FUEBISFQoRU1RSSUNUX0FMTF9U",
+            "QUJMRVMQExIXChNTVFJJQ1RfVFJBTlNfVEFCTEVTEBQSCAoEQU5TSRAVEg8K",
+            "C1RSQURJVElPTkFMEBYSBwoDREIyEBcSCQoFTUFYREIQGBIJCgVNU1NRTBAZ",
+            "EgwKCE1ZU1FMMzIzEBoSCwoHTVlTUUw0MBAbEgoKBk9SQUNMRRAcEg4KClBP",
+            "U1RHUkVTUUwQHRIXChNOT19BVVRPX0NSRUFURV9VU0VSEB4SFAoQTk9fRElS",
+            "X0lOX0NSRUFURRAfIngKCkF1dGhQbHVnaW4SGwoXQVVUSF9QTFVHSU5fVU5T",
+            "UEVDSUZJRUQQABIZChVNWVNRTF9OQVRJVkVfUEFTU1dPUkQQARIdChVDQUNI",
+            "SU5HX1NIQTJfUEFTU1dPUkQQAhoCCAESEwoPU0hBMjU2X1BBU1NXT1JEEAMi",
+            "eAoUVHJhbnNhY3Rpb25Jc29sYXRpb24SJQohVFJBTlNBQ1RJT05fSVNPTEFU",
+            "SU9OX1VOU1BFQ0lGSUVEEAASEgoOUkVBRF9DT01NSVRURUQQARITCg9SRVBF",
+            "QVRBQkxFX1JFQUQQAhIQCgxTRVJJQUxJWkFCTEUQAyJVCg5CaW5sb2dSb3dJ",
+            "bWFnZRIgChxCSU5MT0dfUk9XX0lNQUdFX1VOU1BFQ0lGSUVEEAASCAoERlVM",
+            "TBABEgsKB01JTklNQUwQAhIKCgZOT0JMT0IQAyJZChFTbGF2ZVBhcmFsbGVs",
+            "VHlwZRIjCh9TTEFWRV9QQVJBTExFTF9UWVBFX1VOU1BFQ0lGSUVEEAASDAoI",
+            "REFUQUJBU0UQARIRCg1MT0dJQ0FMX0NMT0NLEAIi8AEKEU15c3FsQ29uZmln",
+            "U2V0NV83EkoKEGVmZmVjdGl2ZV9jb25maWcYASABKAsyMC55YW5kZXguY2xv",
+            "dWQubWRiLm15c3FsLnYxLmNvbmZpZy5NeXNxbENvbmZpZzVfNxJFCgt1c2Vy",
+            "X2NvbmZpZxgCIAEoCzIwLnlhbmRleC5jbG91ZC5tZGIubXlzcWwudjEuY29u",
+            "ZmlnLk15c3FsQ29uZmlnNV83EkgKDmRlZmF1bHRfY29uZmlnGAMgASgLMjAu",
+            "eWFuZGV4LmNsb3VkLm1kYi5teXNxbC52MS5jb25maWcuTXlzcWxDb25maWc1",
+            "XzdCcgokeWFuZGV4LmNsb3VkLmFwaS5tZGIubXlzcWwudjEuY29uZmlnWkpn",
+            "aXRodWIuY29tL3lhbmRleC1jbG91ZC9nby1nZW5wcm90by95YW5kZXgvY2xv",
+            "dWQvbWRiL215c3FsL3YxL2NvbmZpZztteXNxbGIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.WrappersReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.Config.MysqlConfig5_7), global::Yandex.Cloud.Mdb.Mysql.V1.Config.MysqlConfig5_7.Parser, new[]{ "InnodbBufferPoolSize", "MaxConnections", "LongQueryTime", "GeneralLog", "AuditLog", "SqlMode", "MaxAllowedPacket", "DefaultAuthenticationPlugin" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Mysql.V1.Config.MysqlConfig5_7.Types.SQLMode), typeof(global::Yandex.Cloud.Mdb.Mysql.V1.Config.MysqlConfig5_7.Types.AuthPlugin) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.Config.MysqlConfig5_7), global::Yandex.Cloud.Mdb.Mysql.V1.Config.MysqlConfig5_7.Parser, new[]{ "InnodbBufferPoolSize", "MaxConnections", "LongQueryTime", "GeneralLog", "AuditLog", "SqlMode", "MaxAllowedPacket", "DefaultAuthenticationPlugin", "InnodbFlushLogAtTrxCommit", "InnodbLockWaitTimeout", "TransactionIsolation", "InnodbPrintAllDeadlocks", "NetReadTimeout", "NetWriteTimeout", "GroupConcatMaxLen", "TmpTableSize", "MaxHeapTableSize", "DefaultTimeZone", "CharacterSetServer", "CollationServer", "InnodbAdaptiveHashIndex", "InnodbNumaInterleave", "InnodbLogBufferSize", "InnodbLogFileSize", "InnodbIoCapacity", "InnodbIoCapacityMax", "InnodbReadIoThreads", "InnodbWriteIoThreads", "InnodbPurgeThreads", "InnodbThreadConcurrency", "InnodbTempDataFileMaxSize", "ThreadCacheSize", "ThreadStack", "JoinBufferSize", "SortBufferSize", "TableDefinitionCache", "TableOpenCache", "TableOpenCacheInstances", "ExplicitDefaultsForTimestamp", "AutoIncrementIncrement", "AutoIncrementOffset", "SyncBinlog", "BinlogCacheSize", "BinlogGroupCommitSyncDelay", "BinlogRowImage", "BinlogRowsQueryLogEvents", "RplSemiSyncMasterWaitForSlaveCount", "SlaveParallelType", "SlaveParallelWorkers" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Mysql.V1.Config.MysqlConfig5_7.Types.SQLMode), typeof(global::Yandex.Cloud.Mdb.Mysql.V1.Config.MysqlConfig5_7.Types.AuthPlugin), typeof(global::Yandex.Cloud.Mdb.Mysql.V1.Config.MysqlConfig5_7.Types.TransactionIsolation), typeof(global::Yandex.Cloud.Mdb.Mysql.V1.Config.MysqlConfig5_7.Types.BinlogRowImage), typeof(global::Yandex.Cloud.Mdb.Mysql.V1.Config.MysqlConfig5_7.Types.SlaveParallelType) }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.Config.MysqlConfigSet5_7), global::Yandex.Cloud.Mdb.Mysql.V1.Config.MysqlConfigSet5_7.Parser, new[]{ "EffectiveConfig", "UserConfig", "DefaultConfig" }, null, null, null, null)
           }));
     }
@@ -112,6 +185,47 @@ namespace Yandex.Cloud.Mdb.Mysql.V1.Config {
       sqlMode_ = other.sqlMode_.Clone();
       MaxAllowedPacket = other.MaxAllowedPacket;
       defaultAuthenticationPlugin_ = other.defaultAuthenticationPlugin_;
+      InnodbFlushLogAtTrxCommit = other.InnodbFlushLogAtTrxCommit;
+      InnodbLockWaitTimeout = other.InnodbLockWaitTimeout;
+      transactionIsolation_ = other.transactionIsolation_;
+      InnodbPrintAllDeadlocks = other.InnodbPrintAllDeadlocks;
+      NetReadTimeout = other.NetReadTimeout;
+      NetWriteTimeout = other.NetWriteTimeout;
+      GroupConcatMaxLen = other.GroupConcatMaxLen;
+      TmpTableSize = other.TmpTableSize;
+      MaxHeapTableSize = other.MaxHeapTableSize;
+      defaultTimeZone_ = other.defaultTimeZone_;
+      characterSetServer_ = other.characterSetServer_;
+      collationServer_ = other.collationServer_;
+      InnodbAdaptiveHashIndex = other.InnodbAdaptiveHashIndex;
+      InnodbNumaInterleave = other.InnodbNumaInterleave;
+      InnodbLogBufferSize = other.InnodbLogBufferSize;
+      InnodbLogFileSize = other.InnodbLogFileSize;
+      InnodbIoCapacity = other.InnodbIoCapacity;
+      InnodbIoCapacityMax = other.InnodbIoCapacityMax;
+      InnodbReadIoThreads = other.InnodbReadIoThreads;
+      InnodbWriteIoThreads = other.InnodbWriteIoThreads;
+      InnodbPurgeThreads = other.InnodbPurgeThreads;
+      InnodbThreadConcurrency = other.InnodbThreadConcurrency;
+      InnodbTempDataFileMaxSize = other.InnodbTempDataFileMaxSize;
+      ThreadCacheSize = other.ThreadCacheSize;
+      ThreadStack = other.ThreadStack;
+      JoinBufferSize = other.JoinBufferSize;
+      SortBufferSize = other.SortBufferSize;
+      TableDefinitionCache = other.TableDefinitionCache;
+      TableOpenCache = other.TableOpenCache;
+      TableOpenCacheInstances = other.TableOpenCacheInstances;
+      ExplicitDefaultsForTimestamp = other.ExplicitDefaultsForTimestamp;
+      AutoIncrementIncrement = other.AutoIncrementIncrement;
+      AutoIncrementOffset = other.AutoIncrementOffset;
+      SyncBinlog = other.SyncBinlog;
+      BinlogCacheSize = other.BinlogCacheSize;
+      BinlogGroupCommitSyncDelay = other.BinlogGroupCommitSyncDelay;
+      binlogRowImage_ = other.binlogRowImage_;
+      BinlogRowsQueryLogEvents = other.BinlogRowsQueryLogEvents;
+      RplSemiSyncMasterWaitForSlaveCount = other.RplSemiSyncMasterWaitForSlaveCount;
+      slaveParallelType_ = other.slaveParallelType_;
+      SlaveParallelWorkers = other.SlaveParallelWorkers;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -248,6 +362,8 @@ namespace Yandex.Cloud.Mdb.Mysql.V1.Config {
     private global::Yandex.Cloud.Mdb.Mysql.V1.Config.MysqlConfig5_7.Types.AuthPlugin defaultAuthenticationPlugin_ = global::Yandex.Cloud.Mdb.Mysql.V1.Config.MysqlConfig5_7.Types.AuthPlugin.Unspecified;
     /// <summary>
     /// Authentication plugin used in the managed MySQL cluster.
+    ///
+    /// For details, see [MySQL documentation for the variable](https://dev.mysql.com/doc/refman/5.7/en/server-system-variables.html#sysvar_default_authentication_plugin)
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Mdb.Mysql.V1.Config.MysqlConfig5_7.Types.AuthPlugin DefaultAuthenticationPlugin {
@@ -256,6 +372,732 @@ namespace Yandex.Cloud.Mdb.Mysql.V1.Config {
         defaultAuthenticationPlugin_ = value;
       }
     }
+
+    /// <summary>Field number for the "innodb_flush_log_at_trx_commit" field.</summary>
+    public const int InnodbFlushLogAtTrxCommitFieldNumber = 9;
+    private static readonly pb::FieldCodec<long?> _single_innodbFlushLogAtTrxCommit_codec = pb::FieldCodec.ForStructWrapper<long>(74);
+    private long? innodbFlushLogAtTrxCommit_;
+    /// <summary>
+    /// Transaction log flush behaviour.
+    ///
+    /// For details, see [MySQL documentation for the variable](https://dev.mysql.com/doc/refman/5.7/en/innodb-parameters.html#sysvar_innodb_flush_log_at_trx_commit)
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? InnodbFlushLogAtTrxCommit {
+      get { return innodbFlushLogAtTrxCommit_; }
+      set {
+        innodbFlushLogAtTrxCommit_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "innodb_lock_wait_timeout" field.</summary>
+    public const int InnodbLockWaitTimeoutFieldNumber = 10;
+    private static readonly pb::FieldCodec<long?> _single_innodbLockWaitTimeout_codec = pb::FieldCodec.ForStructWrapper<long>(82);
+    private long? innodbLockWaitTimeout_;
+    /// <summary>
+    /// Max time in seconds for a transaction to wait for a row lock
+    ///
+    /// For details, see [MySQL documentation for the variable](https://dev.mysql.com/doc/refman/5.7/en/innodb-parameters.html#sysvar_innodb_lock_wait_timeout)
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? InnodbLockWaitTimeout {
+      get { return innodbLockWaitTimeout_; }
+      set {
+        innodbLockWaitTimeout_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "transaction_isolation" field.</summary>
+    public const int TransactionIsolationFieldNumber = 11;
+    private global::Yandex.Cloud.Mdb.Mysql.V1.Config.MysqlConfig5_7.Types.TransactionIsolation transactionIsolation_ = global::Yandex.Cloud.Mdb.Mysql.V1.Config.MysqlConfig5_7.Types.TransactionIsolation.Unspecified;
+    /// <summary>
+    /// Default transaction isolation level.
+    ///
+    /// For details, see [MySQL documentation for the variable](https://dev.mysql.com/doc/refman/5.7/en/server-system-variables.html#sysvar_transaction_isolation)
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Mdb.Mysql.V1.Config.MysqlConfig5_7.Types.TransactionIsolation TransactionIsolation {
+      get { return transactionIsolation_; }
+      set {
+        transactionIsolation_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "innodb_print_all_deadlocks" field.</summary>
+    public const int InnodbPrintAllDeadlocksFieldNumber = 12;
+    private static readonly pb::FieldCodec<bool?> _single_innodbPrintAllDeadlocks_codec = pb::FieldCodec.ForStructWrapper<bool>(98);
+    private bool? innodbPrintAllDeadlocks_;
+    /// <summary>
+    /// Print information about deadlocks in error log
+    ///
+    /// For details, see [MySQL documentation for the variable](https://dev.mysql.com/doc/refman/5.7/en/innodb-parameters.html#sysvar_innodb_print_all_deadlocks)
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool? InnodbPrintAllDeadlocks {
+      get { return innodbPrintAllDeadlocks_; }
+      set {
+        innodbPrintAllDeadlocks_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "net_read_timeout" field.</summary>
+    public const int NetReadTimeoutFieldNumber = 13;
+    private static readonly pb::FieldCodec<long?> _single_netReadTimeout_codec = pb::FieldCodec.ForStructWrapper<long>(106);
+    private long? netReadTimeout_;
+    /// <summary>
+    /// The number of seconds to wait for more data from a connection before aborting the read.
+    ///
+    /// For details, see [MySQL documentation for the variable](https://dev.mysql.com/doc/refman/5.7/en/server-system-variables.html#sysvar_net_read_timeout)
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? NetReadTimeout {
+      get { return netReadTimeout_; }
+      set {
+        netReadTimeout_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "net_write_timeout" field.</summary>
+    public const int NetWriteTimeoutFieldNumber = 14;
+    private static readonly pb::FieldCodec<long?> _single_netWriteTimeout_codec = pb::FieldCodec.ForStructWrapper<long>(114);
+    private long? netWriteTimeout_;
+    /// <summary>
+    /// The number of seconds to wait for a block to be written to a connection before aborting the write.
+    ///
+    /// For details, see [MySQL documentation for the variable](https://dev.mysql.com/doc/refman/5.7/en/server-system-variables.html#sysvar_net_write_timeout)
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? NetWriteTimeout {
+      get { return netWriteTimeout_; }
+      set {
+        netWriteTimeout_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "group_concat_max_len" field.</summary>
+    public const int GroupConcatMaxLenFieldNumber = 15;
+    private static readonly pb::FieldCodec<long?> _single_groupConcatMaxLen_codec = pb::FieldCodec.ForStructWrapper<long>(122);
+    private long? groupConcatMaxLen_;
+    /// <summary>
+    /// The maximum permitted result length in bytes for the GROUP_CONCAT() function.
+    ///
+    /// For details, see [MySQL documentation for the variable](https://dev.mysql.com/doc/refman/5.7/en/server-system-variables.html#sysvar_group_concat_max_len)
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? GroupConcatMaxLen {
+      get { return groupConcatMaxLen_; }
+      set {
+        groupConcatMaxLen_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "tmp_table_size" field.</summary>
+    public const int TmpTableSizeFieldNumber = 16;
+    private static readonly pb::FieldCodec<long?> _single_tmpTableSize_codec = pb::FieldCodec.ForStructWrapper<long>(130);
+    private long? tmpTableSize_;
+    /// <summary>
+    /// The maximum size of internal in-memory temporary tables.
+    ///
+    /// For details, see [MySQL documentation for the variable](https://dev.mysql.com/doc/refman/5.7/en/server-system-variables.html#sysvar_tmp_table_size)
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? TmpTableSize {
+      get { return tmpTableSize_; }
+      set {
+        tmpTableSize_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "max_heap_table_size" field.</summary>
+    public const int MaxHeapTableSizeFieldNumber = 17;
+    private static readonly pb::FieldCodec<long?> _single_maxHeapTableSize_codec = pb::FieldCodec.ForStructWrapper<long>(138);
+    private long? maxHeapTableSize_;
+    /// <summary>
+    /// This variable sets the maximum size to which user-created MEMORY tables are permitted to grow.
+    ///
+    /// For details, see [MySQL documentation for the variable](https://dev.mysql.com/doc/refman/5.7/en/server-system-variables.html#sysvar_max_heap_table_size)
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? MaxHeapTableSize {
+      get { return maxHeapTableSize_; }
+      set {
+        maxHeapTableSize_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "default_time_zone" field.</summary>
+    public const int DefaultTimeZoneFieldNumber = 18;
+    private string defaultTimeZone_ = "";
+    /// <summary>
+    /// The servers default time zone.
+    ///
+    /// For details, see [MySQL documentation for the variable](https://dev.mysql.com/doc/refman/5.7/en/server-options.html#option_mysqld_default-time-zone)
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string DefaultTimeZone {
+      get { return defaultTimeZone_; }
+      set {
+        defaultTimeZone_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "character_set_server" field.</summary>
+    public const int CharacterSetServerFieldNumber = 19;
+    private string characterSetServer_ = "";
+    /// <summary>
+    /// The servers default character set.
+    ///
+    /// For details, see [MySQL documentation for the variable](https://dev.mysql.com/doc/refman/5.7/en/server-system-variables.html#sysvar_character_set_server)
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CharacterSetServer {
+      get { return characterSetServer_; }
+      set {
+        characterSetServer_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "collation_server" field.</summary>
+    public const int CollationServerFieldNumber = 20;
+    private string collationServer_ = "";
+    /// <summary>
+    /// The server default collation.
+    ///
+    /// For details, see [MySQL documentation for the variable](https://dev.mysql.com/doc/refman/5.7/en/server-system-variables.html#sysvar_collation_server)
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string CollationServer {
+      get { return collationServer_; }
+      set {
+        collationServer_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "innodb_adaptive_hash_index" field.</summary>
+    public const int InnodbAdaptiveHashIndexFieldNumber = 21;
+    private static readonly pb::FieldCodec<bool?> _single_innodbAdaptiveHashIndex_codec = pb::FieldCodec.ForStructWrapper<bool>(170);
+    private bool? innodbAdaptiveHashIndex_;
+    /// <summary>
+    /// Enables Innodb adaptive hash index
+    ///
+    /// For details, see [MySQL documentation for the variable](https://dev.mysql.com/doc/refman/5.7/en/innodb-parameters.html#sysvar_innodb_adaptive_hash_index)
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool? InnodbAdaptiveHashIndex {
+      get { return innodbAdaptiveHashIndex_; }
+      set {
+        innodbAdaptiveHashIndex_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "innodb_numa_interleave" field.</summary>
+    public const int InnodbNumaInterleaveFieldNumber = 22;
+    private static readonly pb::FieldCodec<bool?> _single_innodbNumaInterleave_codec = pb::FieldCodec.ForStructWrapper<bool>(178);
+    private bool? innodbNumaInterleave_;
+    /// <summary>
+    /// Enables the NUMA interleave memory policy for allocation of the InnoDB buffer pool.
+    ///
+    /// For details, see [MySQL documentation for the variable](https://dev.mysql.com/doc/refman/5.7/en/innodb-parameters.html#sysvar_innodb_numa_interleave)
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool? InnodbNumaInterleave {
+      get { return innodbNumaInterleave_; }
+      set {
+        innodbNumaInterleave_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "innodb_log_buffer_size" field.</summary>
+    public const int InnodbLogBufferSizeFieldNumber = 23;
+    private static readonly pb::FieldCodec<long?> _single_innodbLogBufferSize_codec = pb::FieldCodec.ForStructWrapper<long>(186);
+    private long? innodbLogBufferSize_;
+    /// <summary>
+    /// The size in bytes of the buffer that InnoDB uses to write to the log files on disk.
+    ///
+    /// For details, see [MySQL documentation for the variable](https://dev.mysql.com/doc/refman/5.7/en/innodb-parameters.html#sysvar_innodb_log_buffer_size)
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? InnodbLogBufferSize {
+      get { return innodbLogBufferSize_; }
+      set {
+        innodbLogBufferSize_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "innodb_log_file_size" field.</summary>
+    public const int InnodbLogFileSizeFieldNumber = 24;
+    private static readonly pb::FieldCodec<long?> _single_innodbLogFileSize_codec = pb::FieldCodec.ForStructWrapper<long>(194);
+    private long? innodbLogFileSize_;
+    /// <summary>
+    /// The size in bytes of the single Innodb Redo log file.
+    ///
+    /// For details, see [MySQL documentation for the variable](https://dev.mysql.com/doc/refman/5.7/en/innodb-parameters.html#sysvar_innodb_log_file_size)
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? InnodbLogFileSize {
+      get { return innodbLogFileSize_; }
+      set {
+        innodbLogFileSize_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "innodb_io_capacity" field.</summary>
+    public const int InnodbIoCapacityFieldNumber = 25;
+    private static readonly pb::FieldCodec<long?> _single_innodbIoCapacity_codec = pb::FieldCodec.ForStructWrapper<long>(202);
+    private long? innodbIoCapacity_;
+    /// <summary>
+    /// Limits IO available for InnoDB background tasks
+    ///
+    /// For details, see [MySQL documentation for the variable](https://dev.mysql.com/doc/refman/5.7/en/innodb-parameters.html#sysvar_innodb_io_capacity)
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? InnodbIoCapacity {
+      get { return innodbIoCapacity_; }
+      set {
+        innodbIoCapacity_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "innodb_io_capacity_max" field.</summary>
+    public const int InnodbIoCapacityMaxFieldNumber = 26;
+    private static readonly pb::FieldCodec<long?> _single_innodbIoCapacityMax_codec = pb::FieldCodec.ForStructWrapper<long>(210);
+    private long? innodbIoCapacityMax_;
+    /// <summary>
+    /// Limits IO available for InnoDB background tasks
+    ///
+    /// For details, see [MySQL documentation for the variable](https://dev.mysql.com/doc/refman/5.7/en/innodb-parameters.html#sysvar_innodb_io_capacity_max)
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? InnodbIoCapacityMax {
+      get { return innodbIoCapacityMax_; }
+      set {
+        innodbIoCapacityMax_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "innodb_read_io_threads" field.</summary>
+    public const int InnodbReadIoThreadsFieldNumber = 27;
+    private static readonly pb::FieldCodec<long?> _single_innodbReadIoThreads_codec = pb::FieldCodec.ForStructWrapper<long>(218);
+    private long? innodbReadIoThreads_;
+    /// <summary>
+    /// The number of I/O threads for read operations in InnoDB.
+    ///
+    /// For details, see [MySQL documentation for the variable](https://dev.mysql.com/doc/refman/5.7/en/innodb-parameters.html#sysvar_innodb_read_io_threads)
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? InnodbReadIoThreads {
+      get { return innodbReadIoThreads_; }
+      set {
+        innodbReadIoThreads_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "innodb_write_io_threads" field.</summary>
+    public const int InnodbWriteIoThreadsFieldNumber = 28;
+    private static readonly pb::FieldCodec<long?> _single_innodbWriteIoThreads_codec = pb::FieldCodec.ForStructWrapper<long>(226);
+    private long? innodbWriteIoThreads_;
+    /// <summary>
+    /// The number of I/O threads for write operations in InnoDB.
+    ///
+    /// For details, see [MySQL documentation for the variable](https://dev.mysql.com/doc/refman/5.7/en/innodb-parameters.html#sysvar_innodb_write_io_threads)
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? InnodbWriteIoThreads {
+      get { return innodbWriteIoThreads_; }
+      set {
+        innodbWriteIoThreads_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "innodb_purge_threads" field.</summary>
+    public const int InnodbPurgeThreadsFieldNumber = 29;
+    private static readonly pb::FieldCodec<long?> _single_innodbPurgeThreads_codec = pb::FieldCodec.ForStructWrapper<long>(234);
+    private long? innodbPurgeThreads_;
+    /// <summary>
+    /// The number of background threads devoted to the InnoDB purge operation.
+    ///
+    /// For details, see [MySQL documentation for the variable](https://dev.mysql.com/doc/refman/5.7/en/innodb-parameters.html#sysvar_innodb_purge_threads)
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? InnodbPurgeThreads {
+      get { return innodbPurgeThreads_; }
+      set {
+        innodbPurgeThreads_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "innodb_thread_concurrency" field.</summary>
+    public const int InnodbThreadConcurrencyFieldNumber = 30;
+    private static readonly pb::FieldCodec<long?> _single_innodbThreadConcurrency_codec = pb::FieldCodec.ForStructWrapper<long>(242);
+    private long? innodbThreadConcurrency_;
+    /// <summary>
+    /// Defines the maximum number of threads permitted inside of InnoDB.
+    ///
+    /// For details, see [MySQL documentation for the variable](https://dev.mysql.com/doc/refman/5.7/en/innodb-parameters.html#sysvar_innodb_thread_concurrency)
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? InnodbThreadConcurrency {
+      get { return innodbThreadConcurrency_; }
+      set {
+        innodbThreadConcurrency_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "innodb_temp_data_file_max_size" field.</summary>
+    public const int InnodbTempDataFileMaxSizeFieldNumber = 31;
+    private static readonly pb::FieldCodec<long?> _single_innodbTempDataFileMaxSize_codec = pb::FieldCodec.ForStructWrapper<long>(250);
+    private long? innodbTempDataFileMaxSize_;
+    /// <summary>
+    /// Limits the max size of InnoDB temp tablespace
+    ///
+    /// For details, see [MySQL documentation for the variable](https://dev.mysql.com/doc/refman/5.7/en/innodb-parameters.html#sysvar_innodb_temp_data_file_path)
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? InnodbTempDataFileMaxSize {
+      get { return innodbTempDataFileMaxSize_; }
+      set {
+        innodbTempDataFileMaxSize_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "thread_cache_size" field.</summary>
+    public const int ThreadCacheSizeFieldNumber = 32;
+    private static readonly pb::FieldCodec<long?> _single_threadCacheSize_codec = pb::FieldCodec.ForStructWrapper<long>(258);
+    private long? threadCacheSize_;
+    /// <summary>
+    /// How many threads the server should cache for reuse.
+    ///
+    /// For details, see [MySQL documentation for the variable](https://dev.mysql.com/doc/refman/5.7/en/server-system-variables.html#sysvar_thread_cache_size).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? ThreadCacheSize {
+      get { return threadCacheSize_; }
+      set {
+        threadCacheSize_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "thread_stack" field.</summary>
+    public const int ThreadStackFieldNumber = 33;
+    private static readonly pb::FieldCodec<long?> _single_threadStack_codec = pb::FieldCodec.ForStructWrapper<long>(266);
+    private long? threadStack_;
+    /// <summary>
+    /// The stack size for each thread. The default is large enough for normal operation.
+    ///
+    /// For details, see [MySQL documentation for the variable](https://dev.mysql.com/doc/refman/5.7/en/server-system-variables.html#sysvar_thread_stack).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? ThreadStack {
+      get { return threadStack_; }
+      set {
+        threadStack_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "join_buffer_size" field.</summary>
+    public const int JoinBufferSizeFieldNumber = 34;
+    private static readonly pb::FieldCodec<long?> _single_joinBufferSize_codec = pb::FieldCodec.ForStructWrapper<long>(274);
+    private long? joinBufferSize_;
+    /// <summary>
+    /// The minimum size of the buffer that is used for plain index scans, range index scans, and joins that do not use indexes and thus perform full table scans.
+    ///
+    /// For details, see [MySQL documentation for the variable](https://dev.mysql.com/doc/refman/5.7/en/server-system-variables.html#sysvar_join_buffer_size).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? JoinBufferSize {
+      get { return joinBufferSize_; }
+      set {
+        joinBufferSize_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "sort_buffer_size" field.</summary>
+    public const int SortBufferSizeFieldNumber = 35;
+    private static readonly pb::FieldCodec<long?> _single_sortBufferSize_codec = pb::FieldCodec.ForStructWrapper<long>(282);
+    private long? sortBufferSize_;
+    /// <summary>
+    /// Each session that must perform a sort allocates a buffer of this size.
+    ///
+    /// For details, see [MySQL documentation for the variable](https://dev.mysql.com/doc/refman/5.7/en/server-system-variables.html#sysvar_sort_buffer_size).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? SortBufferSize {
+      get { return sortBufferSize_; }
+      set {
+        sortBufferSize_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "table_definition_cache" field.</summary>
+    public const int TableDefinitionCacheFieldNumber = 36;
+    private static readonly pb::FieldCodec<long?> _single_tableDefinitionCache_codec = pb::FieldCodec.ForStructWrapper<long>(290);
+    private long? tableDefinitionCache_;
+    /// <summary>
+    /// The number of table definitions that can be stored in the definition cache.
+    ///
+    /// For details, see [MySQL documentation for the variable](https://dev.mysql.com/doc/refman/5.7/en/server-system-variables.html#sysvar_table_definition_cache).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? TableDefinitionCache {
+      get { return tableDefinitionCache_; }
+      set {
+        tableDefinitionCache_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "table_open_cache" field.</summary>
+    public const int TableOpenCacheFieldNumber = 37;
+    private static readonly pb::FieldCodec<long?> _single_tableOpenCache_codec = pb::FieldCodec.ForStructWrapper<long>(298);
+    private long? tableOpenCache_;
+    /// <summary>
+    /// The number of open tables for all threads.
+    ///
+    /// For details, see [MySQL documentation for the variable](https://dev.mysql.com/doc/refman/5.7/en/server-system-variables.html#sysvar_table_open_cache).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? TableOpenCache {
+      get { return tableOpenCache_; }
+      set {
+        tableOpenCache_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "table_open_cache_instances" field.</summary>
+    public const int TableOpenCacheInstancesFieldNumber = 38;
+    private static readonly pb::FieldCodec<long?> _single_tableOpenCacheInstances_codec = pb::FieldCodec.ForStructWrapper<long>(306);
+    private long? tableOpenCacheInstances_;
+    /// <summary>
+    /// The number of open tables cache instances.
+    ///
+    /// For details, see [MySQL documentation for the variable](https://dev.mysql.com/doc/refman/5.7/en/server-system-variables.html#sysvar_table_open_cache_instances).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? TableOpenCacheInstances {
+      get { return tableOpenCacheInstances_; }
+      set {
+        tableOpenCacheInstances_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "explicit_defaults_for_timestamp" field.</summary>
+    public const int ExplicitDefaultsForTimestampFieldNumber = 39;
+    private static readonly pb::FieldCodec<bool?> _single_explicitDefaultsForTimestamp_codec = pb::FieldCodec.ForStructWrapper<bool>(314);
+    private bool? explicitDefaultsForTimestamp_;
+    /// <summary>
+    /// This system variable determines whether the server enables certain nonstandard behaviors for default values and NULL-value handling in TIMESTAMP columns.
+    ///
+    /// For details, see [MySQL documentation for the variable](https://dev.mysql.com/doc/refman/5.7/en/server-system-variables.html#sysvar_explicit_defaults_for_timestamp).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool? ExplicitDefaultsForTimestamp {
+      get { return explicitDefaultsForTimestamp_; }
+      set {
+        explicitDefaultsForTimestamp_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "auto_increment_increment" field.</summary>
+    public const int AutoIncrementIncrementFieldNumber = 40;
+    private static readonly pb::FieldCodec<long?> _single_autoIncrementIncrement_codec = pb::FieldCodec.ForStructWrapper<long>(322);
+    private long? autoIncrementIncrement_;
+    /// <summary>
+    /// Can be used to control the operation of AUTO_INCREMENT columns.
+    ///
+    /// For details, see [MySQL documentation for the variable](https://dev.mysql.com/doc/refman/5.7/en/replication-options-master.html#sysvar_auto_increment_increment).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? AutoIncrementIncrement {
+      get { return autoIncrementIncrement_; }
+      set {
+        autoIncrementIncrement_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "auto_increment_offset" field.</summary>
+    public const int AutoIncrementOffsetFieldNumber = 41;
+    private static readonly pb::FieldCodec<long?> _single_autoIncrementOffset_codec = pb::FieldCodec.ForStructWrapper<long>(330);
+    private long? autoIncrementOffset_;
+    /// <summary>
+    /// Can be used to control the operation of AUTO_INCREMENT columns.
+    ///
+    /// For details, see [MySQL documentation for the variable](https://dev.mysql.com/doc/refman/5.7/en/replication-options-master.html#sysvar_auto_increment_offset).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? AutoIncrementOffset {
+      get { return autoIncrementOffset_; }
+      set {
+        autoIncrementOffset_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "sync_binlog" field.</summary>
+    public const int SyncBinlogFieldNumber = 42;
+    private static readonly pb::FieldCodec<long?> _single_syncBinlog_codec = pb::FieldCodec.ForStructWrapper<long>(338);
+    private long? syncBinlog_;
+    /// <summary>
+    /// Controls how often the MySQL server synchronizes the binary log to disk.
+    ///
+    /// For details, see [MySQL documentation for the variable](https://dev.mysql.com/doc/refman/5.7/en/replication-options-binary-log.html#sysvar_sync_binlog).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? SyncBinlog {
+      get { return syncBinlog_; }
+      set {
+        syncBinlog_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "binlog_cache_size" field.</summary>
+    public const int BinlogCacheSizeFieldNumber = 43;
+    private static readonly pb::FieldCodec<long?> _single_binlogCacheSize_codec = pb::FieldCodec.ForStructWrapper<long>(346);
+    private long? binlogCacheSize_;
+    /// <summary>
+    /// The size of the cache to hold changes to the binary log during a transaction.
+    ///
+    /// For details, see [MySQL documentation for the variable](https://dev.mysql.com/doc/refman/5.7/en/replication-options-binary-log.html#sysvar_binlog_cache_size).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? BinlogCacheSize {
+      get { return binlogCacheSize_; }
+      set {
+        binlogCacheSize_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "binlog_group_commit_sync_delay" field.</summary>
+    public const int BinlogGroupCommitSyncDelayFieldNumber = 44;
+    private static readonly pb::FieldCodec<long?> _single_binlogGroupCommitSyncDelay_codec = pb::FieldCodec.ForStructWrapper<long>(354);
+    private long? binlogGroupCommitSyncDelay_;
+    /// <summary>
+    /// Controls how many microseconds the binary log commit waits before synchronizing the binary log file to disk.
+    ///
+    /// For details, see [MySQL documentation for the variable](https://dev.mysql.com/doc/refman/5.7/en/replication-options-binary-log.html#sysvar_binlog_group_commit_sync_delay).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? BinlogGroupCommitSyncDelay {
+      get { return binlogGroupCommitSyncDelay_; }
+      set {
+        binlogGroupCommitSyncDelay_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "binlog_row_image" field.</summary>
+    public const int BinlogRowImageFieldNumber = 45;
+    private global::Yandex.Cloud.Mdb.Mysql.V1.Config.MysqlConfig5_7.Types.BinlogRowImage binlogRowImage_ = global::Yandex.Cloud.Mdb.Mysql.V1.Config.MysqlConfig5_7.Types.BinlogRowImage.Unspecified;
+    /// <summary>
+    /// For MySQL row-based replication, this variable determines how row images are written to the binary log.
+    ///
+    /// For details, see [MySQL documentation for the variable](https://dev.mysql.com/doc/refman/5.7/en/replication-options-binary-log.html#sysvar_binlog_row_image).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Mdb.Mysql.V1.Config.MysqlConfig5_7.Types.BinlogRowImage BinlogRowImage {
+      get { return binlogRowImage_; }
+      set {
+        binlogRowImage_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "binlog_rows_query_log_events" field.</summary>
+    public const int BinlogRowsQueryLogEventsFieldNumber = 46;
+    private static readonly pb::FieldCodec<bool?> _single_binlogRowsQueryLogEvents_codec = pb::FieldCodec.ForStructWrapper<bool>(370);
+    private bool? binlogRowsQueryLogEvents_;
+    /// <summary>
+    /// When enabled, it causes the server to write informational log events such as row query log events into its binary log.
+    ///
+    /// For details, see [MySQL documentation for the variable](https://dev.mysql.com/doc/refman/5.7/en/replication-options-binary-log.html#sysvar_binlog_rows_query_log_events).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool? BinlogRowsQueryLogEvents {
+      get { return binlogRowsQueryLogEvents_; }
+      set {
+        binlogRowsQueryLogEvents_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "rpl_semi_sync_master_wait_for_slave_count" field.</summary>
+    public const int RplSemiSyncMasterWaitForSlaveCountFieldNumber = 47;
+    private static readonly pb::FieldCodec<long?> _single_rplSemiSyncMasterWaitForSlaveCount_codec = pb::FieldCodec.ForStructWrapper<long>(378);
+    private long? rplSemiSyncMasterWaitForSlaveCount_;
+    /// <summary>
+    /// The number of replica acknowledgments the source must receive per transaction before proceeding.
+    ///
+    /// For details, see [MySQL documentation for the variable](https://dev.mysql.com/doc/refman/5.7/en/replication-options-master.html#sysvar_rpl_semi_sync_master_wait_for_slave_count).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? RplSemiSyncMasterWaitForSlaveCount {
+      get { return rplSemiSyncMasterWaitForSlaveCount_; }
+      set {
+        rplSemiSyncMasterWaitForSlaveCount_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "slave_parallel_type" field.</summary>
+    public const int SlaveParallelTypeFieldNumber = 48;
+    private global::Yandex.Cloud.Mdb.Mysql.V1.Config.MysqlConfig5_7.Types.SlaveParallelType slaveParallelType_ = global::Yandex.Cloud.Mdb.Mysql.V1.Config.MysqlConfig5_7.Types.SlaveParallelType.Unspecified;
+    /// <summary>
+    /// When using a multithreaded replica, this variable specifies the policy used to decide which transactions are allowed to execute in parallel on the replica.
+    ///
+    /// For details, see [MySQL documentation for the variable](https://dev.mysql.com/doc/refman/5.7/en/replication-options-replica.html#sysvar_slave_parallel_type).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Mdb.Mysql.V1.Config.MysqlConfig5_7.Types.SlaveParallelType SlaveParallelType {
+      get { return slaveParallelType_; }
+      set {
+        slaveParallelType_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "slave_parallel_workers" field.</summary>
+    public const int SlaveParallelWorkersFieldNumber = 49;
+    private static readonly pb::FieldCodec<long?> _single_slaveParallelWorkers_codec = pb::FieldCodec.ForStructWrapper<long>(394);
+    private long? slaveParallelWorkers_;
+    /// <summary>
+    /// Sets the number of applier threads for executing replication transactions in parallel.
+    ///
+    /// For details, see [MySQL documentation for the variable](https://dev.mysql.com/doc/refman/5.7/en/replication-options-replica.html#sysvar_slave_parallel_workers).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? SlaveParallelWorkers {
+      get { return slaveParallelWorkers_; }
+      set {
+        slaveParallelWorkers_ = value;
+      }
+    }
+
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
@@ -278,6 +1120,47 @@ namespace Yandex.Cloud.Mdb.Mysql.V1.Config {
       if(!sqlMode_.Equals(other.sqlMode_)) return false;
       if (MaxAllowedPacket != other.MaxAllowedPacket) return false;
       if (DefaultAuthenticationPlugin != other.DefaultAuthenticationPlugin) return false;
+      if (InnodbFlushLogAtTrxCommit != other.InnodbFlushLogAtTrxCommit) return false;
+      if (InnodbLockWaitTimeout != other.InnodbLockWaitTimeout) return false;
+      if (TransactionIsolation != other.TransactionIsolation) return false;
+      if (InnodbPrintAllDeadlocks != other.InnodbPrintAllDeadlocks) return false;
+      if (NetReadTimeout != other.NetReadTimeout) return false;
+      if (NetWriteTimeout != other.NetWriteTimeout) return false;
+      if (GroupConcatMaxLen != other.GroupConcatMaxLen) return false;
+      if (TmpTableSize != other.TmpTableSize) return false;
+      if (MaxHeapTableSize != other.MaxHeapTableSize) return false;
+      if (DefaultTimeZone != other.DefaultTimeZone) return false;
+      if (CharacterSetServer != other.CharacterSetServer) return false;
+      if (CollationServer != other.CollationServer) return false;
+      if (InnodbAdaptiveHashIndex != other.InnodbAdaptiveHashIndex) return false;
+      if (InnodbNumaInterleave != other.InnodbNumaInterleave) return false;
+      if (InnodbLogBufferSize != other.InnodbLogBufferSize) return false;
+      if (InnodbLogFileSize != other.InnodbLogFileSize) return false;
+      if (InnodbIoCapacity != other.InnodbIoCapacity) return false;
+      if (InnodbIoCapacityMax != other.InnodbIoCapacityMax) return false;
+      if (InnodbReadIoThreads != other.InnodbReadIoThreads) return false;
+      if (InnodbWriteIoThreads != other.InnodbWriteIoThreads) return false;
+      if (InnodbPurgeThreads != other.InnodbPurgeThreads) return false;
+      if (InnodbThreadConcurrency != other.InnodbThreadConcurrency) return false;
+      if (InnodbTempDataFileMaxSize != other.InnodbTempDataFileMaxSize) return false;
+      if (ThreadCacheSize != other.ThreadCacheSize) return false;
+      if (ThreadStack != other.ThreadStack) return false;
+      if (JoinBufferSize != other.JoinBufferSize) return false;
+      if (SortBufferSize != other.SortBufferSize) return false;
+      if (TableDefinitionCache != other.TableDefinitionCache) return false;
+      if (TableOpenCache != other.TableOpenCache) return false;
+      if (TableOpenCacheInstances != other.TableOpenCacheInstances) return false;
+      if (ExplicitDefaultsForTimestamp != other.ExplicitDefaultsForTimestamp) return false;
+      if (AutoIncrementIncrement != other.AutoIncrementIncrement) return false;
+      if (AutoIncrementOffset != other.AutoIncrementOffset) return false;
+      if (SyncBinlog != other.SyncBinlog) return false;
+      if (BinlogCacheSize != other.BinlogCacheSize) return false;
+      if (BinlogGroupCommitSyncDelay != other.BinlogGroupCommitSyncDelay) return false;
+      if (BinlogRowImage != other.BinlogRowImage) return false;
+      if (BinlogRowsQueryLogEvents != other.BinlogRowsQueryLogEvents) return false;
+      if (RplSemiSyncMasterWaitForSlaveCount != other.RplSemiSyncMasterWaitForSlaveCount) return false;
+      if (SlaveParallelType != other.SlaveParallelType) return false;
+      if (SlaveParallelWorkers != other.SlaveParallelWorkers) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -292,6 +1175,47 @@ namespace Yandex.Cloud.Mdb.Mysql.V1.Config {
       hash ^= sqlMode_.GetHashCode();
       if (maxAllowedPacket_ != null) hash ^= MaxAllowedPacket.GetHashCode();
       if (DefaultAuthenticationPlugin != global::Yandex.Cloud.Mdb.Mysql.V1.Config.MysqlConfig5_7.Types.AuthPlugin.Unspecified) hash ^= DefaultAuthenticationPlugin.GetHashCode();
+      if (innodbFlushLogAtTrxCommit_ != null) hash ^= InnodbFlushLogAtTrxCommit.GetHashCode();
+      if (innodbLockWaitTimeout_ != null) hash ^= InnodbLockWaitTimeout.GetHashCode();
+      if (TransactionIsolation != global::Yandex.Cloud.Mdb.Mysql.V1.Config.MysqlConfig5_7.Types.TransactionIsolation.Unspecified) hash ^= TransactionIsolation.GetHashCode();
+      if (innodbPrintAllDeadlocks_ != null) hash ^= InnodbPrintAllDeadlocks.GetHashCode();
+      if (netReadTimeout_ != null) hash ^= NetReadTimeout.GetHashCode();
+      if (netWriteTimeout_ != null) hash ^= NetWriteTimeout.GetHashCode();
+      if (groupConcatMaxLen_ != null) hash ^= GroupConcatMaxLen.GetHashCode();
+      if (tmpTableSize_ != null) hash ^= TmpTableSize.GetHashCode();
+      if (maxHeapTableSize_ != null) hash ^= MaxHeapTableSize.GetHashCode();
+      if (DefaultTimeZone.Length != 0) hash ^= DefaultTimeZone.GetHashCode();
+      if (CharacterSetServer.Length != 0) hash ^= CharacterSetServer.GetHashCode();
+      if (CollationServer.Length != 0) hash ^= CollationServer.GetHashCode();
+      if (innodbAdaptiveHashIndex_ != null) hash ^= InnodbAdaptiveHashIndex.GetHashCode();
+      if (innodbNumaInterleave_ != null) hash ^= InnodbNumaInterleave.GetHashCode();
+      if (innodbLogBufferSize_ != null) hash ^= InnodbLogBufferSize.GetHashCode();
+      if (innodbLogFileSize_ != null) hash ^= InnodbLogFileSize.GetHashCode();
+      if (innodbIoCapacity_ != null) hash ^= InnodbIoCapacity.GetHashCode();
+      if (innodbIoCapacityMax_ != null) hash ^= InnodbIoCapacityMax.GetHashCode();
+      if (innodbReadIoThreads_ != null) hash ^= InnodbReadIoThreads.GetHashCode();
+      if (innodbWriteIoThreads_ != null) hash ^= InnodbWriteIoThreads.GetHashCode();
+      if (innodbPurgeThreads_ != null) hash ^= InnodbPurgeThreads.GetHashCode();
+      if (innodbThreadConcurrency_ != null) hash ^= InnodbThreadConcurrency.GetHashCode();
+      if (innodbTempDataFileMaxSize_ != null) hash ^= InnodbTempDataFileMaxSize.GetHashCode();
+      if (threadCacheSize_ != null) hash ^= ThreadCacheSize.GetHashCode();
+      if (threadStack_ != null) hash ^= ThreadStack.GetHashCode();
+      if (joinBufferSize_ != null) hash ^= JoinBufferSize.GetHashCode();
+      if (sortBufferSize_ != null) hash ^= SortBufferSize.GetHashCode();
+      if (tableDefinitionCache_ != null) hash ^= TableDefinitionCache.GetHashCode();
+      if (tableOpenCache_ != null) hash ^= TableOpenCache.GetHashCode();
+      if (tableOpenCacheInstances_ != null) hash ^= TableOpenCacheInstances.GetHashCode();
+      if (explicitDefaultsForTimestamp_ != null) hash ^= ExplicitDefaultsForTimestamp.GetHashCode();
+      if (autoIncrementIncrement_ != null) hash ^= AutoIncrementIncrement.GetHashCode();
+      if (autoIncrementOffset_ != null) hash ^= AutoIncrementOffset.GetHashCode();
+      if (syncBinlog_ != null) hash ^= SyncBinlog.GetHashCode();
+      if (binlogCacheSize_ != null) hash ^= BinlogCacheSize.GetHashCode();
+      if (binlogGroupCommitSyncDelay_ != null) hash ^= BinlogGroupCommitSyncDelay.GetHashCode();
+      if (BinlogRowImage != global::Yandex.Cloud.Mdb.Mysql.V1.Config.MysqlConfig5_7.Types.BinlogRowImage.Unspecified) hash ^= BinlogRowImage.GetHashCode();
+      if (binlogRowsQueryLogEvents_ != null) hash ^= BinlogRowsQueryLogEvents.GetHashCode();
+      if (rplSemiSyncMasterWaitForSlaveCount_ != null) hash ^= RplSemiSyncMasterWaitForSlaveCount.GetHashCode();
+      if (SlaveParallelType != global::Yandex.Cloud.Mdb.Mysql.V1.Config.MysqlConfig5_7.Types.SlaveParallelType.Unspecified) hash ^= SlaveParallelType.GetHashCode();
+      if (slaveParallelWorkers_ != null) hash ^= SlaveParallelWorkers.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -328,6 +1252,135 @@ namespace Yandex.Cloud.Mdb.Mysql.V1.Config {
         output.WriteRawTag(64);
         output.WriteEnum((int) DefaultAuthenticationPlugin);
       }
+      if (innodbFlushLogAtTrxCommit_ != null) {
+        _single_innodbFlushLogAtTrxCommit_codec.WriteTagAndValue(output, InnodbFlushLogAtTrxCommit);
+      }
+      if (innodbLockWaitTimeout_ != null) {
+        _single_innodbLockWaitTimeout_codec.WriteTagAndValue(output, InnodbLockWaitTimeout);
+      }
+      if (TransactionIsolation != global::Yandex.Cloud.Mdb.Mysql.V1.Config.MysqlConfig5_7.Types.TransactionIsolation.Unspecified) {
+        output.WriteRawTag(88);
+        output.WriteEnum((int) TransactionIsolation);
+      }
+      if (innodbPrintAllDeadlocks_ != null) {
+        _single_innodbPrintAllDeadlocks_codec.WriteTagAndValue(output, InnodbPrintAllDeadlocks);
+      }
+      if (netReadTimeout_ != null) {
+        _single_netReadTimeout_codec.WriteTagAndValue(output, NetReadTimeout);
+      }
+      if (netWriteTimeout_ != null) {
+        _single_netWriteTimeout_codec.WriteTagAndValue(output, NetWriteTimeout);
+      }
+      if (groupConcatMaxLen_ != null) {
+        _single_groupConcatMaxLen_codec.WriteTagAndValue(output, GroupConcatMaxLen);
+      }
+      if (tmpTableSize_ != null) {
+        _single_tmpTableSize_codec.WriteTagAndValue(output, TmpTableSize);
+      }
+      if (maxHeapTableSize_ != null) {
+        _single_maxHeapTableSize_codec.WriteTagAndValue(output, MaxHeapTableSize);
+      }
+      if (DefaultTimeZone.Length != 0) {
+        output.WriteRawTag(146, 1);
+        output.WriteString(DefaultTimeZone);
+      }
+      if (CharacterSetServer.Length != 0) {
+        output.WriteRawTag(154, 1);
+        output.WriteString(CharacterSetServer);
+      }
+      if (CollationServer.Length != 0) {
+        output.WriteRawTag(162, 1);
+        output.WriteString(CollationServer);
+      }
+      if (innodbAdaptiveHashIndex_ != null) {
+        _single_innodbAdaptiveHashIndex_codec.WriteTagAndValue(output, InnodbAdaptiveHashIndex);
+      }
+      if (innodbNumaInterleave_ != null) {
+        _single_innodbNumaInterleave_codec.WriteTagAndValue(output, InnodbNumaInterleave);
+      }
+      if (innodbLogBufferSize_ != null) {
+        _single_innodbLogBufferSize_codec.WriteTagAndValue(output, InnodbLogBufferSize);
+      }
+      if (innodbLogFileSize_ != null) {
+        _single_innodbLogFileSize_codec.WriteTagAndValue(output, InnodbLogFileSize);
+      }
+      if (innodbIoCapacity_ != null) {
+        _single_innodbIoCapacity_codec.WriteTagAndValue(output, InnodbIoCapacity);
+      }
+      if (innodbIoCapacityMax_ != null) {
+        _single_innodbIoCapacityMax_codec.WriteTagAndValue(output, InnodbIoCapacityMax);
+      }
+      if (innodbReadIoThreads_ != null) {
+        _single_innodbReadIoThreads_codec.WriteTagAndValue(output, InnodbReadIoThreads);
+      }
+      if (innodbWriteIoThreads_ != null) {
+        _single_innodbWriteIoThreads_codec.WriteTagAndValue(output, InnodbWriteIoThreads);
+      }
+      if (innodbPurgeThreads_ != null) {
+        _single_innodbPurgeThreads_codec.WriteTagAndValue(output, InnodbPurgeThreads);
+      }
+      if (innodbThreadConcurrency_ != null) {
+        _single_innodbThreadConcurrency_codec.WriteTagAndValue(output, InnodbThreadConcurrency);
+      }
+      if (innodbTempDataFileMaxSize_ != null) {
+        _single_innodbTempDataFileMaxSize_codec.WriteTagAndValue(output, InnodbTempDataFileMaxSize);
+      }
+      if (threadCacheSize_ != null) {
+        _single_threadCacheSize_codec.WriteTagAndValue(output, ThreadCacheSize);
+      }
+      if (threadStack_ != null) {
+        _single_threadStack_codec.WriteTagAndValue(output, ThreadStack);
+      }
+      if (joinBufferSize_ != null) {
+        _single_joinBufferSize_codec.WriteTagAndValue(output, JoinBufferSize);
+      }
+      if (sortBufferSize_ != null) {
+        _single_sortBufferSize_codec.WriteTagAndValue(output, SortBufferSize);
+      }
+      if (tableDefinitionCache_ != null) {
+        _single_tableDefinitionCache_codec.WriteTagAndValue(output, TableDefinitionCache);
+      }
+      if (tableOpenCache_ != null) {
+        _single_tableOpenCache_codec.WriteTagAndValue(output, TableOpenCache);
+      }
+      if (tableOpenCacheInstances_ != null) {
+        _single_tableOpenCacheInstances_codec.WriteTagAndValue(output, TableOpenCacheInstances);
+      }
+      if (explicitDefaultsForTimestamp_ != null) {
+        _single_explicitDefaultsForTimestamp_codec.WriteTagAndValue(output, ExplicitDefaultsForTimestamp);
+      }
+      if (autoIncrementIncrement_ != null) {
+        _single_autoIncrementIncrement_codec.WriteTagAndValue(output, AutoIncrementIncrement);
+      }
+      if (autoIncrementOffset_ != null) {
+        _single_autoIncrementOffset_codec.WriteTagAndValue(output, AutoIncrementOffset);
+      }
+      if (syncBinlog_ != null) {
+        _single_syncBinlog_codec.WriteTagAndValue(output, SyncBinlog);
+      }
+      if (binlogCacheSize_ != null) {
+        _single_binlogCacheSize_codec.WriteTagAndValue(output, BinlogCacheSize);
+      }
+      if (binlogGroupCommitSyncDelay_ != null) {
+        _single_binlogGroupCommitSyncDelay_codec.WriteTagAndValue(output, BinlogGroupCommitSyncDelay);
+      }
+      if (BinlogRowImage != global::Yandex.Cloud.Mdb.Mysql.V1.Config.MysqlConfig5_7.Types.BinlogRowImage.Unspecified) {
+        output.WriteRawTag(232, 2);
+        output.WriteEnum((int) BinlogRowImage);
+      }
+      if (binlogRowsQueryLogEvents_ != null) {
+        _single_binlogRowsQueryLogEvents_codec.WriteTagAndValue(output, BinlogRowsQueryLogEvents);
+      }
+      if (rplSemiSyncMasterWaitForSlaveCount_ != null) {
+        _single_rplSemiSyncMasterWaitForSlaveCount_codec.WriteTagAndValue(output, RplSemiSyncMasterWaitForSlaveCount);
+      }
+      if (SlaveParallelType != global::Yandex.Cloud.Mdb.Mysql.V1.Config.MysqlConfig5_7.Types.SlaveParallelType.Unspecified) {
+        output.WriteRawTag(128, 3);
+        output.WriteEnum((int) SlaveParallelType);
+      }
+      if (slaveParallelWorkers_ != null) {
+        _single_slaveParallelWorkers_codec.WriteTagAndValue(output, SlaveParallelWorkers);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -357,6 +1410,129 @@ namespace Yandex.Cloud.Mdb.Mysql.V1.Config {
       }
       if (DefaultAuthenticationPlugin != global::Yandex.Cloud.Mdb.Mysql.V1.Config.MysqlConfig5_7.Types.AuthPlugin.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) DefaultAuthenticationPlugin);
+      }
+      if (innodbFlushLogAtTrxCommit_ != null) {
+        size += _single_innodbFlushLogAtTrxCommit_codec.CalculateSizeWithTag(InnodbFlushLogAtTrxCommit);
+      }
+      if (innodbLockWaitTimeout_ != null) {
+        size += _single_innodbLockWaitTimeout_codec.CalculateSizeWithTag(InnodbLockWaitTimeout);
+      }
+      if (TransactionIsolation != global::Yandex.Cloud.Mdb.Mysql.V1.Config.MysqlConfig5_7.Types.TransactionIsolation.Unspecified) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) TransactionIsolation);
+      }
+      if (innodbPrintAllDeadlocks_ != null) {
+        size += _single_innodbPrintAllDeadlocks_codec.CalculateSizeWithTag(InnodbPrintAllDeadlocks);
+      }
+      if (netReadTimeout_ != null) {
+        size += _single_netReadTimeout_codec.CalculateSizeWithTag(NetReadTimeout);
+      }
+      if (netWriteTimeout_ != null) {
+        size += _single_netWriteTimeout_codec.CalculateSizeWithTag(NetWriteTimeout);
+      }
+      if (groupConcatMaxLen_ != null) {
+        size += _single_groupConcatMaxLen_codec.CalculateSizeWithTag(GroupConcatMaxLen);
+      }
+      if (tmpTableSize_ != null) {
+        size += _single_tmpTableSize_codec.CalculateSizeWithTag(TmpTableSize);
+      }
+      if (maxHeapTableSize_ != null) {
+        size += _single_maxHeapTableSize_codec.CalculateSizeWithTag(MaxHeapTableSize);
+      }
+      if (DefaultTimeZone.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(DefaultTimeZone);
+      }
+      if (CharacterSetServer.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(CharacterSetServer);
+      }
+      if (CollationServer.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(CollationServer);
+      }
+      if (innodbAdaptiveHashIndex_ != null) {
+        size += _single_innodbAdaptiveHashIndex_codec.CalculateSizeWithTag(InnodbAdaptiveHashIndex);
+      }
+      if (innodbNumaInterleave_ != null) {
+        size += _single_innodbNumaInterleave_codec.CalculateSizeWithTag(InnodbNumaInterleave);
+      }
+      if (innodbLogBufferSize_ != null) {
+        size += _single_innodbLogBufferSize_codec.CalculateSizeWithTag(InnodbLogBufferSize);
+      }
+      if (innodbLogFileSize_ != null) {
+        size += _single_innodbLogFileSize_codec.CalculateSizeWithTag(InnodbLogFileSize);
+      }
+      if (innodbIoCapacity_ != null) {
+        size += _single_innodbIoCapacity_codec.CalculateSizeWithTag(InnodbIoCapacity);
+      }
+      if (innodbIoCapacityMax_ != null) {
+        size += _single_innodbIoCapacityMax_codec.CalculateSizeWithTag(InnodbIoCapacityMax);
+      }
+      if (innodbReadIoThreads_ != null) {
+        size += _single_innodbReadIoThreads_codec.CalculateSizeWithTag(InnodbReadIoThreads);
+      }
+      if (innodbWriteIoThreads_ != null) {
+        size += _single_innodbWriteIoThreads_codec.CalculateSizeWithTag(InnodbWriteIoThreads);
+      }
+      if (innodbPurgeThreads_ != null) {
+        size += _single_innodbPurgeThreads_codec.CalculateSizeWithTag(InnodbPurgeThreads);
+      }
+      if (innodbThreadConcurrency_ != null) {
+        size += _single_innodbThreadConcurrency_codec.CalculateSizeWithTag(InnodbThreadConcurrency);
+      }
+      if (innodbTempDataFileMaxSize_ != null) {
+        size += _single_innodbTempDataFileMaxSize_codec.CalculateSizeWithTag(InnodbTempDataFileMaxSize);
+      }
+      if (threadCacheSize_ != null) {
+        size += _single_threadCacheSize_codec.CalculateSizeWithTag(ThreadCacheSize);
+      }
+      if (threadStack_ != null) {
+        size += _single_threadStack_codec.CalculateSizeWithTag(ThreadStack);
+      }
+      if (joinBufferSize_ != null) {
+        size += _single_joinBufferSize_codec.CalculateSizeWithTag(JoinBufferSize);
+      }
+      if (sortBufferSize_ != null) {
+        size += _single_sortBufferSize_codec.CalculateSizeWithTag(SortBufferSize);
+      }
+      if (tableDefinitionCache_ != null) {
+        size += _single_tableDefinitionCache_codec.CalculateSizeWithTag(TableDefinitionCache);
+      }
+      if (tableOpenCache_ != null) {
+        size += _single_tableOpenCache_codec.CalculateSizeWithTag(TableOpenCache);
+      }
+      if (tableOpenCacheInstances_ != null) {
+        size += _single_tableOpenCacheInstances_codec.CalculateSizeWithTag(TableOpenCacheInstances);
+      }
+      if (explicitDefaultsForTimestamp_ != null) {
+        size += _single_explicitDefaultsForTimestamp_codec.CalculateSizeWithTag(ExplicitDefaultsForTimestamp);
+      }
+      if (autoIncrementIncrement_ != null) {
+        size += _single_autoIncrementIncrement_codec.CalculateSizeWithTag(AutoIncrementIncrement);
+      }
+      if (autoIncrementOffset_ != null) {
+        size += _single_autoIncrementOffset_codec.CalculateSizeWithTag(AutoIncrementOffset);
+      }
+      if (syncBinlog_ != null) {
+        size += _single_syncBinlog_codec.CalculateSizeWithTag(SyncBinlog);
+      }
+      if (binlogCacheSize_ != null) {
+        size += _single_binlogCacheSize_codec.CalculateSizeWithTag(BinlogCacheSize);
+      }
+      if (binlogGroupCommitSyncDelay_ != null) {
+        size += _single_binlogGroupCommitSyncDelay_codec.CalculateSizeWithTag(BinlogGroupCommitSyncDelay);
+      }
+      if (BinlogRowImage != global::Yandex.Cloud.Mdb.Mysql.V1.Config.MysqlConfig5_7.Types.BinlogRowImage.Unspecified) {
+        size += 2 + pb::CodedOutputStream.ComputeEnumSize((int) BinlogRowImage);
+      }
+      if (binlogRowsQueryLogEvents_ != null) {
+        size += _single_binlogRowsQueryLogEvents_codec.CalculateSizeWithTag(BinlogRowsQueryLogEvents);
+      }
+      if (rplSemiSyncMasterWaitForSlaveCount_ != null) {
+        size += _single_rplSemiSyncMasterWaitForSlaveCount_codec.CalculateSizeWithTag(RplSemiSyncMasterWaitForSlaveCount);
+      }
+      if (SlaveParallelType != global::Yandex.Cloud.Mdb.Mysql.V1.Config.MysqlConfig5_7.Types.SlaveParallelType.Unspecified) {
+        size += 2 + pb::CodedOutputStream.ComputeEnumSize((int) SlaveParallelType);
+      }
+      if (slaveParallelWorkers_ != null) {
+        size += _single_slaveParallelWorkers_codec.CalculateSizeWithTag(SlaveParallelWorkers);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -402,6 +1578,199 @@ namespace Yandex.Cloud.Mdb.Mysql.V1.Config {
       }
       if (other.DefaultAuthenticationPlugin != global::Yandex.Cloud.Mdb.Mysql.V1.Config.MysqlConfig5_7.Types.AuthPlugin.Unspecified) {
         DefaultAuthenticationPlugin = other.DefaultAuthenticationPlugin;
+      }
+      if (other.innodbFlushLogAtTrxCommit_ != null) {
+        if (innodbFlushLogAtTrxCommit_ == null || other.InnodbFlushLogAtTrxCommit != 0L) {
+          InnodbFlushLogAtTrxCommit = other.InnodbFlushLogAtTrxCommit;
+        }
+      }
+      if (other.innodbLockWaitTimeout_ != null) {
+        if (innodbLockWaitTimeout_ == null || other.InnodbLockWaitTimeout != 0L) {
+          InnodbLockWaitTimeout = other.InnodbLockWaitTimeout;
+        }
+      }
+      if (other.TransactionIsolation != global::Yandex.Cloud.Mdb.Mysql.V1.Config.MysqlConfig5_7.Types.TransactionIsolation.Unspecified) {
+        TransactionIsolation = other.TransactionIsolation;
+      }
+      if (other.innodbPrintAllDeadlocks_ != null) {
+        if (innodbPrintAllDeadlocks_ == null || other.InnodbPrintAllDeadlocks != false) {
+          InnodbPrintAllDeadlocks = other.InnodbPrintAllDeadlocks;
+        }
+      }
+      if (other.netReadTimeout_ != null) {
+        if (netReadTimeout_ == null || other.NetReadTimeout != 0L) {
+          NetReadTimeout = other.NetReadTimeout;
+        }
+      }
+      if (other.netWriteTimeout_ != null) {
+        if (netWriteTimeout_ == null || other.NetWriteTimeout != 0L) {
+          NetWriteTimeout = other.NetWriteTimeout;
+        }
+      }
+      if (other.groupConcatMaxLen_ != null) {
+        if (groupConcatMaxLen_ == null || other.GroupConcatMaxLen != 0L) {
+          GroupConcatMaxLen = other.GroupConcatMaxLen;
+        }
+      }
+      if (other.tmpTableSize_ != null) {
+        if (tmpTableSize_ == null || other.TmpTableSize != 0L) {
+          TmpTableSize = other.TmpTableSize;
+        }
+      }
+      if (other.maxHeapTableSize_ != null) {
+        if (maxHeapTableSize_ == null || other.MaxHeapTableSize != 0L) {
+          MaxHeapTableSize = other.MaxHeapTableSize;
+        }
+      }
+      if (other.DefaultTimeZone.Length != 0) {
+        DefaultTimeZone = other.DefaultTimeZone;
+      }
+      if (other.CharacterSetServer.Length != 0) {
+        CharacterSetServer = other.CharacterSetServer;
+      }
+      if (other.CollationServer.Length != 0) {
+        CollationServer = other.CollationServer;
+      }
+      if (other.innodbAdaptiveHashIndex_ != null) {
+        if (innodbAdaptiveHashIndex_ == null || other.InnodbAdaptiveHashIndex != false) {
+          InnodbAdaptiveHashIndex = other.InnodbAdaptiveHashIndex;
+        }
+      }
+      if (other.innodbNumaInterleave_ != null) {
+        if (innodbNumaInterleave_ == null || other.InnodbNumaInterleave != false) {
+          InnodbNumaInterleave = other.InnodbNumaInterleave;
+        }
+      }
+      if (other.innodbLogBufferSize_ != null) {
+        if (innodbLogBufferSize_ == null || other.InnodbLogBufferSize != 0L) {
+          InnodbLogBufferSize = other.InnodbLogBufferSize;
+        }
+      }
+      if (other.innodbLogFileSize_ != null) {
+        if (innodbLogFileSize_ == null || other.InnodbLogFileSize != 0L) {
+          InnodbLogFileSize = other.InnodbLogFileSize;
+        }
+      }
+      if (other.innodbIoCapacity_ != null) {
+        if (innodbIoCapacity_ == null || other.InnodbIoCapacity != 0L) {
+          InnodbIoCapacity = other.InnodbIoCapacity;
+        }
+      }
+      if (other.innodbIoCapacityMax_ != null) {
+        if (innodbIoCapacityMax_ == null || other.InnodbIoCapacityMax != 0L) {
+          InnodbIoCapacityMax = other.InnodbIoCapacityMax;
+        }
+      }
+      if (other.innodbReadIoThreads_ != null) {
+        if (innodbReadIoThreads_ == null || other.InnodbReadIoThreads != 0L) {
+          InnodbReadIoThreads = other.InnodbReadIoThreads;
+        }
+      }
+      if (other.innodbWriteIoThreads_ != null) {
+        if (innodbWriteIoThreads_ == null || other.InnodbWriteIoThreads != 0L) {
+          InnodbWriteIoThreads = other.InnodbWriteIoThreads;
+        }
+      }
+      if (other.innodbPurgeThreads_ != null) {
+        if (innodbPurgeThreads_ == null || other.InnodbPurgeThreads != 0L) {
+          InnodbPurgeThreads = other.InnodbPurgeThreads;
+        }
+      }
+      if (other.innodbThreadConcurrency_ != null) {
+        if (innodbThreadConcurrency_ == null || other.InnodbThreadConcurrency != 0L) {
+          InnodbThreadConcurrency = other.InnodbThreadConcurrency;
+        }
+      }
+      if (other.innodbTempDataFileMaxSize_ != null) {
+        if (innodbTempDataFileMaxSize_ == null || other.InnodbTempDataFileMaxSize != 0L) {
+          InnodbTempDataFileMaxSize = other.InnodbTempDataFileMaxSize;
+        }
+      }
+      if (other.threadCacheSize_ != null) {
+        if (threadCacheSize_ == null || other.ThreadCacheSize != 0L) {
+          ThreadCacheSize = other.ThreadCacheSize;
+        }
+      }
+      if (other.threadStack_ != null) {
+        if (threadStack_ == null || other.ThreadStack != 0L) {
+          ThreadStack = other.ThreadStack;
+        }
+      }
+      if (other.joinBufferSize_ != null) {
+        if (joinBufferSize_ == null || other.JoinBufferSize != 0L) {
+          JoinBufferSize = other.JoinBufferSize;
+        }
+      }
+      if (other.sortBufferSize_ != null) {
+        if (sortBufferSize_ == null || other.SortBufferSize != 0L) {
+          SortBufferSize = other.SortBufferSize;
+        }
+      }
+      if (other.tableDefinitionCache_ != null) {
+        if (tableDefinitionCache_ == null || other.TableDefinitionCache != 0L) {
+          TableDefinitionCache = other.TableDefinitionCache;
+        }
+      }
+      if (other.tableOpenCache_ != null) {
+        if (tableOpenCache_ == null || other.TableOpenCache != 0L) {
+          TableOpenCache = other.TableOpenCache;
+        }
+      }
+      if (other.tableOpenCacheInstances_ != null) {
+        if (tableOpenCacheInstances_ == null || other.TableOpenCacheInstances != 0L) {
+          TableOpenCacheInstances = other.TableOpenCacheInstances;
+        }
+      }
+      if (other.explicitDefaultsForTimestamp_ != null) {
+        if (explicitDefaultsForTimestamp_ == null || other.ExplicitDefaultsForTimestamp != false) {
+          ExplicitDefaultsForTimestamp = other.ExplicitDefaultsForTimestamp;
+        }
+      }
+      if (other.autoIncrementIncrement_ != null) {
+        if (autoIncrementIncrement_ == null || other.AutoIncrementIncrement != 0L) {
+          AutoIncrementIncrement = other.AutoIncrementIncrement;
+        }
+      }
+      if (other.autoIncrementOffset_ != null) {
+        if (autoIncrementOffset_ == null || other.AutoIncrementOffset != 0L) {
+          AutoIncrementOffset = other.AutoIncrementOffset;
+        }
+      }
+      if (other.syncBinlog_ != null) {
+        if (syncBinlog_ == null || other.SyncBinlog != 0L) {
+          SyncBinlog = other.SyncBinlog;
+        }
+      }
+      if (other.binlogCacheSize_ != null) {
+        if (binlogCacheSize_ == null || other.BinlogCacheSize != 0L) {
+          BinlogCacheSize = other.BinlogCacheSize;
+        }
+      }
+      if (other.binlogGroupCommitSyncDelay_ != null) {
+        if (binlogGroupCommitSyncDelay_ == null || other.BinlogGroupCommitSyncDelay != 0L) {
+          BinlogGroupCommitSyncDelay = other.BinlogGroupCommitSyncDelay;
+        }
+      }
+      if (other.BinlogRowImage != global::Yandex.Cloud.Mdb.Mysql.V1.Config.MysqlConfig5_7.Types.BinlogRowImage.Unspecified) {
+        BinlogRowImage = other.BinlogRowImage;
+      }
+      if (other.binlogRowsQueryLogEvents_ != null) {
+        if (binlogRowsQueryLogEvents_ == null || other.BinlogRowsQueryLogEvents != false) {
+          BinlogRowsQueryLogEvents = other.BinlogRowsQueryLogEvents;
+        }
+      }
+      if (other.rplSemiSyncMasterWaitForSlaveCount_ != null) {
+        if (rplSemiSyncMasterWaitForSlaveCount_ == null || other.RplSemiSyncMasterWaitForSlaveCount != 0L) {
+          RplSemiSyncMasterWaitForSlaveCount = other.RplSemiSyncMasterWaitForSlaveCount;
+        }
+      }
+      if (other.SlaveParallelType != global::Yandex.Cloud.Mdb.Mysql.V1.Config.MysqlConfig5_7.Types.SlaveParallelType.Unspecified) {
+        SlaveParallelType = other.SlaveParallelType;
+      }
+      if (other.slaveParallelWorkers_ != null) {
+        if (slaveParallelWorkers_ == null || other.SlaveParallelWorkers != 0L) {
+          SlaveParallelWorkers = other.SlaveParallelWorkers;
+        }
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -465,6 +1834,275 @@ namespace Yandex.Cloud.Mdb.Mysql.V1.Config {
             DefaultAuthenticationPlugin = (global::Yandex.Cloud.Mdb.Mysql.V1.Config.MysqlConfig5_7.Types.AuthPlugin) input.ReadEnum();
             break;
           }
+          case 74: {
+            long? value = _single_innodbFlushLogAtTrxCommit_codec.Read(input);
+            if (innodbFlushLogAtTrxCommit_ == null || value != 0L) {
+              InnodbFlushLogAtTrxCommit = value;
+            }
+            break;
+          }
+          case 82: {
+            long? value = _single_innodbLockWaitTimeout_codec.Read(input);
+            if (innodbLockWaitTimeout_ == null || value != 0L) {
+              InnodbLockWaitTimeout = value;
+            }
+            break;
+          }
+          case 88: {
+            TransactionIsolation = (global::Yandex.Cloud.Mdb.Mysql.V1.Config.MysqlConfig5_7.Types.TransactionIsolation) input.ReadEnum();
+            break;
+          }
+          case 98: {
+            bool? value = _single_innodbPrintAllDeadlocks_codec.Read(input);
+            if (innodbPrintAllDeadlocks_ == null || value != false) {
+              InnodbPrintAllDeadlocks = value;
+            }
+            break;
+          }
+          case 106: {
+            long? value = _single_netReadTimeout_codec.Read(input);
+            if (netReadTimeout_ == null || value != 0L) {
+              NetReadTimeout = value;
+            }
+            break;
+          }
+          case 114: {
+            long? value = _single_netWriteTimeout_codec.Read(input);
+            if (netWriteTimeout_ == null || value != 0L) {
+              NetWriteTimeout = value;
+            }
+            break;
+          }
+          case 122: {
+            long? value = _single_groupConcatMaxLen_codec.Read(input);
+            if (groupConcatMaxLen_ == null || value != 0L) {
+              GroupConcatMaxLen = value;
+            }
+            break;
+          }
+          case 130: {
+            long? value = _single_tmpTableSize_codec.Read(input);
+            if (tmpTableSize_ == null || value != 0L) {
+              TmpTableSize = value;
+            }
+            break;
+          }
+          case 138: {
+            long? value = _single_maxHeapTableSize_codec.Read(input);
+            if (maxHeapTableSize_ == null || value != 0L) {
+              MaxHeapTableSize = value;
+            }
+            break;
+          }
+          case 146: {
+            DefaultTimeZone = input.ReadString();
+            break;
+          }
+          case 154: {
+            CharacterSetServer = input.ReadString();
+            break;
+          }
+          case 162: {
+            CollationServer = input.ReadString();
+            break;
+          }
+          case 170: {
+            bool? value = _single_innodbAdaptiveHashIndex_codec.Read(input);
+            if (innodbAdaptiveHashIndex_ == null || value != false) {
+              InnodbAdaptiveHashIndex = value;
+            }
+            break;
+          }
+          case 178: {
+            bool? value = _single_innodbNumaInterleave_codec.Read(input);
+            if (innodbNumaInterleave_ == null || value != false) {
+              InnodbNumaInterleave = value;
+            }
+            break;
+          }
+          case 186: {
+            long? value = _single_innodbLogBufferSize_codec.Read(input);
+            if (innodbLogBufferSize_ == null || value != 0L) {
+              InnodbLogBufferSize = value;
+            }
+            break;
+          }
+          case 194: {
+            long? value = _single_innodbLogFileSize_codec.Read(input);
+            if (innodbLogFileSize_ == null || value != 0L) {
+              InnodbLogFileSize = value;
+            }
+            break;
+          }
+          case 202: {
+            long? value = _single_innodbIoCapacity_codec.Read(input);
+            if (innodbIoCapacity_ == null || value != 0L) {
+              InnodbIoCapacity = value;
+            }
+            break;
+          }
+          case 210: {
+            long? value = _single_innodbIoCapacityMax_codec.Read(input);
+            if (innodbIoCapacityMax_ == null || value != 0L) {
+              InnodbIoCapacityMax = value;
+            }
+            break;
+          }
+          case 218: {
+            long? value = _single_innodbReadIoThreads_codec.Read(input);
+            if (innodbReadIoThreads_ == null || value != 0L) {
+              InnodbReadIoThreads = value;
+            }
+            break;
+          }
+          case 226: {
+            long? value = _single_innodbWriteIoThreads_codec.Read(input);
+            if (innodbWriteIoThreads_ == null || value != 0L) {
+              InnodbWriteIoThreads = value;
+            }
+            break;
+          }
+          case 234: {
+            long? value = _single_innodbPurgeThreads_codec.Read(input);
+            if (innodbPurgeThreads_ == null || value != 0L) {
+              InnodbPurgeThreads = value;
+            }
+            break;
+          }
+          case 242: {
+            long? value = _single_innodbThreadConcurrency_codec.Read(input);
+            if (innodbThreadConcurrency_ == null || value != 0L) {
+              InnodbThreadConcurrency = value;
+            }
+            break;
+          }
+          case 250: {
+            long? value = _single_innodbTempDataFileMaxSize_codec.Read(input);
+            if (innodbTempDataFileMaxSize_ == null || value != 0L) {
+              InnodbTempDataFileMaxSize = value;
+            }
+            break;
+          }
+          case 258: {
+            long? value = _single_threadCacheSize_codec.Read(input);
+            if (threadCacheSize_ == null || value != 0L) {
+              ThreadCacheSize = value;
+            }
+            break;
+          }
+          case 266: {
+            long? value = _single_threadStack_codec.Read(input);
+            if (threadStack_ == null || value != 0L) {
+              ThreadStack = value;
+            }
+            break;
+          }
+          case 274: {
+            long? value = _single_joinBufferSize_codec.Read(input);
+            if (joinBufferSize_ == null || value != 0L) {
+              JoinBufferSize = value;
+            }
+            break;
+          }
+          case 282: {
+            long? value = _single_sortBufferSize_codec.Read(input);
+            if (sortBufferSize_ == null || value != 0L) {
+              SortBufferSize = value;
+            }
+            break;
+          }
+          case 290: {
+            long? value = _single_tableDefinitionCache_codec.Read(input);
+            if (tableDefinitionCache_ == null || value != 0L) {
+              TableDefinitionCache = value;
+            }
+            break;
+          }
+          case 298: {
+            long? value = _single_tableOpenCache_codec.Read(input);
+            if (tableOpenCache_ == null || value != 0L) {
+              TableOpenCache = value;
+            }
+            break;
+          }
+          case 306: {
+            long? value = _single_tableOpenCacheInstances_codec.Read(input);
+            if (tableOpenCacheInstances_ == null || value != 0L) {
+              TableOpenCacheInstances = value;
+            }
+            break;
+          }
+          case 314: {
+            bool? value = _single_explicitDefaultsForTimestamp_codec.Read(input);
+            if (explicitDefaultsForTimestamp_ == null || value != false) {
+              ExplicitDefaultsForTimestamp = value;
+            }
+            break;
+          }
+          case 322: {
+            long? value = _single_autoIncrementIncrement_codec.Read(input);
+            if (autoIncrementIncrement_ == null || value != 0L) {
+              AutoIncrementIncrement = value;
+            }
+            break;
+          }
+          case 330: {
+            long? value = _single_autoIncrementOffset_codec.Read(input);
+            if (autoIncrementOffset_ == null || value != 0L) {
+              AutoIncrementOffset = value;
+            }
+            break;
+          }
+          case 338: {
+            long? value = _single_syncBinlog_codec.Read(input);
+            if (syncBinlog_ == null || value != 0L) {
+              SyncBinlog = value;
+            }
+            break;
+          }
+          case 346: {
+            long? value = _single_binlogCacheSize_codec.Read(input);
+            if (binlogCacheSize_ == null || value != 0L) {
+              BinlogCacheSize = value;
+            }
+            break;
+          }
+          case 354: {
+            long? value = _single_binlogGroupCommitSyncDelay_codec.Read(input);
+            if (binlogGroupCommitSyncDelay_ == null || value != 0L) {
+              BinlogGroupCommitSyncDelay = value;
+            }
+            break;
+          }
+          case 360: {
+            BinlogRowImage = (global::Yandex.Cloud.Mdb.Mysql.V1.Config.MysqlConfig5_7.Types.BinlogRowImage) input.ReadEnum();
+            break;
+          }
+          case 370: {
+            bool? value = _single_binlogRowsQueryLogEvents_codec.Read(input);
+            if (binlogRowsQueryLogEvents_ == null || value != false) {
+              BinlogRowsQueryLogEvents = value;
+            }
+            break;
+          }
+          case 378: {
+            long? value = _single_rplSemiSyncMasterWaitForSlaveCount_codec.Read(input);
+            if (rplSemiSyncMasterWaitForSlaveCount_ == null || value != 0L) {
+              RplSemiSyncMasterWaitForSlaveCount = value;
+            }
+            break;
+          }
+          case 384: {
+            SlaveParallelType = (global::Yandex.Cloud.Mdb.Mysql.V1.Config.MysqlConfig5_7.Types.SlaveParallelType) input.ReadEnum();
+            break;
+          }
+          case 394: {
+            long? value = _single_slaveParallelWorkers_codec.Read(input);
+            if (slaveParallelWorkers_ == null || value != 0L) {
+              SlaveParallelWorkers = value;
+            }
+            break;
+          }
         }
       }
     }
@@ -504,6 +2142,8 @@ namespace Yandex.Cloud.Mdb.Mysql.V1.Config {
         [pbr::OriginalName("MYSQL40")] Mysql40 = 27,
         [pbr::OriginalName("ORACLE")] Oracle = 28,
         [pbr::OriginalName("POSTGRESQL")] Postgresql = 29,
+        [pbr::OriginalName("NO_AUTO_CREATE_USER")] NoAutoCreateUser = 30,
+        [pbr::OriginalName("NO_DIR_IN_CREATE")] NoDirInCreate = 31,
       }
 
       internal enum AuthPlugin {
@@ -517,6 +2157,26 @@ namespace Yandex.Cloud.Mdb.Mysql.V1.Config {
         /// Using [SHA-256 Pluggable Authentication](https://dev.mysql.com/doc/refman/5.7/en/sha256-pluggable-authentication.html).
         /// </summary>
         [pbr::OriginalName("SHA256_PASSWORD")] Sha256Password = 3,
+      }
+
+      internal enum TransactionIsolation {
+        [pbr::OriginalName("TRANSACTION_ISOLATION_UNSPECIFIED")] Unspecified = 0,
+        [pbr::OriginalName("READ_COMMITTED")] ReadCommitted = 1,
+        [pbr::OriginalName("REPEATABLE_READ")] RepeatableRead = 2,
+        [pbr::OriginalName("SERIALIZABLE")] Serializable = 3,
+      }
+
+      internal enum BinlogRowImage {
+        [pbr::OriginalName("BINLOG_ROW_IMAGE_UNSPECIFIED")] Unspecified = 0,
+        [pbr::OriginalName("FULL")] Full = 1,
+        [pbr::OriginalName("MINIMAL")] Minimal = 2,
+        [pbr::OriginalName("NOBLOB")] Noblob = 3,
+      }
+
+      internal enum SlaveParallelType {
+        [pbr::OriginalName("SLAVE_PARALLEL_TYPE_UNSPECIFIED")] Unspecified = 0,
+        [pbr::OriginalName("DATABASE")] Database = 1,
+        [pbr::OriginalName("LOGICAL_CLOCK")] LogicalClock = 2,
       }
 
     }

@@ -39,63 +39,66 @@ namespace Yandex.Cloud.Dataproc.V1 {
             "BTw9MTAwEhoKBmZpbHRlchgEIAEoCUIKisgxBjw9MTAwMCJtChdMaXN0U3Vi",
             "Y2x1c3RlcnNSZXNwb25zZRI5CgtzdWJjbHVzdGVycxgBIAMoCzIkLnlhbmRl",
             "eC5jbG91ZC5kYXRhcHJvYy52MS5TdWJjbHVzdGVyEhcKD25leHRfcGFnZV90",
-            "b2tlbhgCIAEoCSKhAgoXQ3JlYXRlU3ViY2x1c3RlclJlcXVlc3QSIAoKY2x1",
+            "b2tlbhgCIAEoCSLqAgoXQ3JlYXRlU3ViY2x1c3RlclJlcXVlc3QSIAoKY2x1",
             "c3Rlcl9pZBgBIAEoCUIM6McxAYrIMQQ8PTUwEi8KBG5hbWUYAiABKAlCIfLH",
             "MR18W2Etel1bLWEtejAtOV17MSw2MX1bYS16MC05XRIyCgRyb2xlGAMgASgO",
             "Mh4ueWFuZGV4LmNsb3VkLmRhdGFwcm9jLnYxLlJvbGVCBOjHMQESPAoJcmVz",
             "b3VyY2VzGAQgASgLMiMueWFuZGV4LmNsb3VkLmRhdGFwcm9jLnYxLlJlc291",
             "cmNlc0IE6McxARIfCglzdWJuZXRfaWQYBSABKAlCDOjHMQGKyDEEPD01MBIg",
-            "Cgtob3N0c19jb3VudBgGIAEoA0IL6McxAfrHMQM+PTEiWQoYQ3JlYXRlU3Vi",
-            "Y2x1c3Rlck1ldGFkYXRhEhwKCmNsdXN0ZXJfaWQYASABKAlCCIrIMQQ8PTUw",
-            "Eh8KDXN1YmNsdXN0ZXJfaWQYAiABKAlCCIrIMQQ8PTUwIscCChdVcGRhdGVT",
-            "dWJjbHVzdGVyUmVxdWVzdBIgCgpjbHVzdGVyX2lkGAEgASgJQgzoxzEBisgx",
-            "BDw9NTASIwoNc3ViY2x1c3Rlcl9pZBgCIAEoCUIM6McxAYrIMQQ8PTUwEi8K",
-            "C3VwZGF0ZV9tYXNrGAMgASgLMhouZ29vZ2xlLnByb3RvYnVmLkZpZWxkTWFz",
-            "axI2CglyZXNvdXJjZXMYBCABKAsyIy55YW5kZXguY2xvdWQuZGF0YXByb2Mu",
-            "djEuUmVzb3VyY2VzEi8KBG5hbWUYBSABKAlCIfLHMR18W2Etel1bLWEtejAt",
-            "OV17MSw2MX1bYS16MC05XRIgCgtob3N0c19jb3VudBgGIAEoA0IL6McxAfrH",
-            "MQM+PTESKQoUZGVjb21taXNzaW9uX3RpbWVvdXQYByABKANCC/rHMQcwLTg2",
-            "NDAwIlkKGFVwZGF0ZVN1YmNsdXN0ZXJNZXRhZGF0YRIcCgpjbHVzdGVyX2lk",
-            "GAEgASgJQgiKyDEEPD01MBIfCg1zdWJjbHVzdGVyX2lkGAIgASgJQgiKyDEE",
-            "PD01MCKLAQoXRGVsZXRlU3ViY2x1c3RlclJlcXVlc3QSIAoKY2x1c3Rlcl9p",
-            "ZBgBIAEoCUIM6McxAYrIMQQ8PTUwEiMKDXN1YmNsdXN0ZXJfaWQYAiABKAlC",
-            "DOjHMQGKyDEEPD01MBIpChRkZWNvbW1pc3Npb25fdGltZW91dBgDIAEoA0IL",
-            "+scxBzAtODY0MDAiWQoYRGVsZXRlU3ViY2x1c3Rlck1ldGFkYXRhEhwKCmNs",
-            "dXN0ZXJfaWQYASABKAlCCIrIMQQ8PTUwEh8KDXN1YmNsdXN0ZXJfaWQYAiAB",
-            "KAlCCIrIMQQ8PTUwMtkHChFTdWJjbHVzdGVyU2VydmljZRKjAQoDR2V0Ei4u",
-            "eWFuZGV4LmNsb3VkLmRhdGFwcm9jLnYxLkdldFN1YmNsdXN0ZXJSZXF1ZXN0",
-            "GiQueWFuZGV4LmNsb3VkLmRhdGFwcm9jLnYxLlN1YmNsdXN0ZXIiRoLT5JMC",
-            "QBI+L2RhdGFwcm9jL3YxL2NsdXN0ZXJzL3tjbHVzdGVyX2lkfS9zdWJjbHVz",
-            "dGVycy97c3ViY2x1c3Rlcl9pZH0SowEKBExpc3QSMC55YW5kZXguY2xvdWQu",
-            "ZGF0YXByb2MudjEuTGlzdFN1YmNsdXN0ZXJzUmVxdWVzdBoxLnlhbmRleC5j",
-            "bG91ZC5kYXRhcHJvYy52MS5MaXN0U3ViY2x1c3RlcnNSZXNwb25zZSI2gtPk",
-            "kwIwEi4vZGF0YXByb2MvdjEvY2x1c3RlcnMve2NsdXN0ZXJfaWR9L3N1YmNs",
-            "dXN0ZXJzEsMBCgZDcmVhdGUSMS55YW5kZXguY2xvdWQuZGF0YXByb2MudjEu",
-            "Q3JlYXRlU3ViY2x1c3RlclJlcXVlc3QaIS55YW5kZXguY2xvdWQub3BlcmF0",
-            "aW9uLk9wZXJhdGlvbiJjgtPkkwIzIi4vZGF0YXByb2MvdjEvY2x1c3RlcnMv",
-            "e2NsdXN0ZXJfaWR9L3N1YmNsdXN0ZXJzOgEqstIqJgoYQ3JlYXRlU3ViY2x1",
-            "c3Rlck1ldGFkYXRhEgpTdWJjbHVzdGVyEtMBCgZVcGRhdGUSMS55YW5kZXgu",
-            "Y2xvdWQuZGF0YXByb2MudjEuVXBkYXRlU3ViY2x1c3RlclJlcXVlc3QaIS55",
-            "YW5kZXguY2xvdWQub3BlcmF0aW9uLk9wZXJhdGlvbiJzgtPkkwJDMj4vZGF0",
+            "Cgtob3N0c19jb3VudBgGIAEoA0IL6McxAfrHMQM+PTESRwoSYXV0b3NjYWxp",
+            "bmdfY29uZmlnGAcgASgLMisueWFuZGV4LmNsb3VkLmRhdGFwcm9jLnYxLkF1",
+            "dG9zY2FsaW5nQ29uZmlnIlkKGENyZWF0ZVN1YmNsdXN0ZXJNZXRhZGF0YRIc",
+            "CgpjbHVzdGVyX2lkGAEgASgJQgiKyDEEPD01MBIfCg1zdWJjbHVzdGVyX2lk",
+            "GAIgASgJQgiKyDEEPD01MCKQAwoXVXBkYXRlU3ViY2x1c3RlclJlcXVlc3QS",
+            "IAoKY2x1c3Rlcl9pZBgBIAEoCUIM6McxAYrIMQQ8PTUwEiMKDXN1YmNsdXN0",
+            "ZXJfaWQYAiABKAlCDOjHMQGKyDEEPD01MBIvCgt1cGRhdGVfbWFzaxgDIAEo",
+            "CzIaLmdvb2dsZS5wcm90b2J1Zi5GaWVsZE1hc2sSNgoJcmVzb3VyY2VzGAQg",
+            "ASgLMiMueWFuZGV4LmNsb3VkLmRhdGFwcm9jLnYxLlJlc291cmNlcxIvCgRu",
+            "YW1lGAUgASgJQiHyxzEdfFthLXpdWy1hLXowLTldezEsNjF9W2EtejAtOV0S",
+            "IAoLaG9zdHNfY291bnQYBiABKANCC+jHMQH6xzEDPj0xEikKFGRlY29tbWlz",
+            "c2lvbl90aW1lb3V0GAcgASgDQgv6xzEHMC04NjQwMBJHChJhdXRvc2NhbGlu",
+            "Z19jb25maWcYCCABKAsyKy55YW5kZXguY2xvdWQuZGF0YXByb2MudjEuQXV0",
+            "b3NjYWxpbmdDb25maWciWQoYVXBkYXRlU3ViY2x1c3Rlck1ldGFkYXRhEhwK",
+            "CmNsdXN0ZXJfaWQYASABKAlCCIrIMQQ8PTUwEh8KDXN1YmNsdXN0ZXJfaWQY",
+            "AiABKAlCCIrIMQQ8PTUwIosBChdEZWxldGVTdWJjbHVzdGVyUmVxdWVzdBIg",
+            "CgpjbHVzdGVyX2lkGAEgASgJQgzoxzEBisgxBDw9NTASIwoNc3ViY2x1c3Rl",
+            "cl9pZBgCIAEoCUIM6McxAYrIMQQ8PTUwEikKFGRlY29tbWlzc2lvbl90aW1l",
+            "b3V0GAMgASgDQgv6xzEHMC04NjQwMCJZChhEZWxldGVTdWJjbHVzdGVyTWV0",
+            "YWRhdGESHAoKY2x1c3Rlcl9pZBgBIAEoCUIIisgxBDw9NTASHwoNc3ViY2x1",
+            "c3Rlcl9pZBgCIAEoCUIIisgxBDw9NTAy2QcKEVN1YmNsdXN0ZXJTZXJ2aWNl",
+            "EqMBCgNHZXQSLi55YW5kZXguY2xvdWQuZGF0YXByb2MudjEuR2V0U3ViY2x1",
+            "c3RlclJlcXVlc3QaJC55YW5kZXguY2xvdWQuZGF0YXByb2MudjEuU3ViY2x1",
+            "c3RlciJGgtPkkwJAEj4vZGF0YXByb2MvdjEvY2x1c3RlcnMve2NsdXN0ZXJf",
+            "aWR9L3N1YmNsdXN0ZXJzL3tzdWJjbHVzdGVyX2lkfRKjAQoETGlzdBIwLnlh",
+            "bmRleC5jbG91ZC5kYXRhcHJvYy52MS5MaXN0U3ViY2x1c3RlcnNSZXF1ZXN0",
+            "GjEueWFuZGV4LmNsb3VkLmRhdGFwcm9jLnYxLkxpc3RTdWJjbHVzdGVyc1Jl",
+            "c3BvbnNlIjaC0+STAjASLi9kYXRhcHJvYy92MS9jbHVzdGVycy97Y2x1c3Rl",
+            "cl9pZH0vc3ViY2x1c3RlcnMSwwEKBkNyZWF0ZRIxLnlhbmRleC5jbG91ZC5k",
+            "YXRhcHJvYy52MS5DcmVhdGVTdWJjbHVzdGVyUmVxdWVzdBohLnlhbmRleC5j",
+            "bG91ZC5vcGVyYXRpb24uT3BlcmF0aW9uImOC0+STAjMiLi9kYXRhcHJvYy92",
+            "MS9jbHVzdGVycy97Y2x1c3Rlcl9pZH0vc3ViY2x1c3RlcnM6ASqy0iomChhD",
+            "cmVhdGVTdWJjbHVzdGVyTWV0YWRhdGESClN1YmNsdXN0ZXIS0wEKBlVwZGF0",
+            "ZRIxLnlhbmRleC5jbG91ZC5kYXRhcHJvYy52MS5VcGRhdGVTdWJjbHVzdGVy",
+            "UmVxdWVzdBohLnlhbmRleC5jbG91ZC5vcGVyYXRpb24uT3BlcmF0aW9uInOC",
+            "0+STAkMyPi9kYXRhcHJvYy92MS9jbHVzdGVycy97Y2x1c3Rlcl9pZH0vc3Vi",
+            "Y2x1c3RlcnMve3N1YmNsdXN0ZXJfaWR9OgEqstIqJgoYVXBkYXRlU3ViY2x1",
+            "c3Rlck1ldGFkYXRhEgpTdWJjbHVzdGVyEtsBCgZEZWxldGUSMS55YW5kZXgu",
+            "Y2xvdWQuZGF0YXByb2MudjEuRGVsZXRlU3ViY2x1c3RlclJlcXVlc3QaIS55",
+            "YW5kZXguY2xvdWQub3BlcmF0aW9uLk9wZXJhdGlvbiJ7gtPkkwJAKj4vZGF0",
             "YXByb2MvdjEvY2x1c3RlcnMve2NsdXN0ZXJfaWR9L3N1YmNsdXN0ZXJzL3tz",
-            "dWJjbHVzdGVyX2lkfToBKrLSKiYKGFVwZGF0ZVN1YmNsdXN0ZXJNZXRhZGF0",
-            "YRIKU3ViY2x1c3RlchLbAQoGRGVsZXRlEjEueWFuZGV4LmNsb3VkLmRhdGFw",
-            "cm9jLnYxLkRlbGV0ZVN1YmNsdXN0ZXJSZXF1ZXN0GiEueWFuZGV4LmNsb3Vk",
-            "Lm9wZXJhdGlvbi5PcGVyYXRpb24ie4LT5JMCQCo+L2RhdGFwcm9jL3YxL2Ns",
-            "dXN0ZXJzL3tjbHVzdGVyX2lkfS9zdWJjbHVzdGVycy97c3ViY2x1c3Rlcl9p",
-            "ZH2y0ioxChhEZWxldGVTdWJjbHVzdGVyTWV0YWRhdGESFWdvb2dsZS5wcm90",
-            "b2J1Zi5FbXB0eUJlChx5YW5kZXguY2xvdWQuYXBpLmRhdGFwcm9jLnYxWkVn",
-            "aXRodWIuY29tL3lhbmRleC1jbG91ZC9nby1nZW5wcm90by95YW5kZXgvY2xv",
-            "dWQvZGF0YXByb2MvdjE7ZGF0YXByb2NiBnByb3RvMw=="));
+            "dWJjbHVzdGVyX2lkfbLSKjEKGERlbGV0ZVN1YmNsdXN0ZXJNZXRhZGF0YRIV",
+            "Z29vZ2xlLnByb3RvYnVmLkVtcHR5QmUKHHlhbmRleC5jbG91ZC5hcGkuZGF0",
+            "YXByb2MudjFaRWdpdGh1Yi5jb20veWFuZGV4LWNsb3VkL2dvLWdlbnByb3Rv",
+            "L3lhbmRleC9jbG91ZC9kYXRhcHJvYy92MTtkYXRhcHJvY2IGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.Dataproc.V1.CommonReflection.Descriptor, global::Yandex.Cloud.Dataproc.V1.SubclusterReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, global::Yandex.Cloud.Api.OperationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.GetSubclusterRequest), global::Yandex.Cloud.Dataproc.V1.GetSubclusterRequest.Parser, new[]{ "ClusterId", "SubclusterId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.ListSubclustersRequest), global::Yandex.Cloud.Dataproc.V1.ListSubclustersRequest.Parser, new[]{ "ClusterId", "PageSize", "PageToken", "Filter" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.ListSubclustersResponse), global::Yandex.Cloud.Dataproc.V1.ListSubclustersResponse.Parser, new[]{ "Subclusters", "NextPageToken" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.CreateSubclusterRequest), global::Yandex.Cloud.Dataproc.V1.CreateSubclusterRequest.Parser, new[]{ "ClusterId", "Name", "Role", "Resources", "SubnetId", "HostsCount" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.CreateSubclusterRequest), global::Yandex.Cloud.Dataproc.V1.CreateSubclusterRequest.Parser, new[]{ "ClusterId", "Name", "Role", "Resources", "SubnetId", "HostsCount", "AutoscalingConfig" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.CreateSubclusterMetadata), global::Yandex.Cloud.Dataproc.V1.CreateSubclusterMetadata.Parser, new[]{ "ClusterId", "SubclusterId" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.UpdateSubclusterRequest), global::Yandex.Cloud.Dataproc.V1.UpdateSubclusterRequest.Parser, new[]{ "ClusterId", "SubclusterId", "UpdateMask", "Resources", "Name", "HostsCount", "DecommissionTimeout" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.UpdateSubclusterRequest), global::Yandex.Cloud.Dataproc.V1.UpdateSubclusterRequest.Parser, new[]{ "ClusterId", "SubclusterId", "UpdateMask", "Resources", "Name", "HostsCount", "DecommissionTimeout", "AutoscalingConfig" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.UpdateSubclusterMetadata), global::Yandex.Cloud.Dataproc.V1.UpdateSubclusterMetadata.Parser, new[]{ "ClusterId", "SubclusterId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.DeleteSubclusterRequest), global::Yandex.Cloud.Dataproc.V1.DeleteSubclusterRequest.Parser, new[]{ "ClusterId", "SubclusterId", "DecommissionTimeout" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.DeleteSubclusterMetadata), global::Yandex.Cloud.Dataproc.V1.DeleteSubclusterMetadata.Parser, new[]{ "ClusterId", "SubclusterId" }, null, null, null, null)
@@ -695,6 +698,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
       resources_ = other.resources_ != null ? other.resources_.Clone() : null;
       subnetId_ = other.subnetId_;
       hostsCount_ = other.hostsCount_;
+      autoscalingConfig_ = other.autoscalingConfig_ != null ? other.autoscalingConfig_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -790,6 +794,20 @@ namespace Yandex.Cloud.Dataproc.V1 {
       }
     }
 
+    /// <summary>Field number for the "autoscaling_config" field.</summary>
+    public const int AutoscalingConfigFieldNumber = 7;
+    private global::Yandex.Cloud.Dataproc.V1.AutoscalingConfig autoscalingConfig_;
+    /// <summary>
+    /// Configuration for instance group based subclusters
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Dataproc.V1.AutoscalingConfig AutoscalingConfig {
+      get { return autoscalingConfig_; }
+      set {
+        autoscalingConfig_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as CreateSubclusterRequest);
@@ -809,6 +827,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
       if (!object.Equals(Resources, other.Resources)) return false;
       if (SubnetId != other.SubnetId) return false;
       if (HostsCount != other.HostsCount) return false;
+      if (!object.Equals(AutoscalingConfig, other.AutoscalingConfig)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -821,6 +840,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
       if (resources_ != null) hash ^= Resources.GetHashCode();
       if (SubnetId.Length != 0) hash ^= SubnetId.GetHashCode();
       if (HostsCount != 0L) hash ^= HostsCount.GetHashCode();
+      if (autoscalingConfig_ != null) hash ^= AutoscalingConfig.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -858,6 +878,10 @@ namespace Yandex.Cloud.Dataproc.V1 {
         output.WriteRawTag(48);
         output.WriteInt64(HostsCount);
       }
+      if (autoscalingConfig_ != null) {
+        output.WriteRawTag(58);
+        output.WriteMessage(AutoscalingConfig);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -883,6 +907,9 @@ namespace Yandex.Cloud.Dataproc.V1 {
       }
       if (HostsCount != 0L) {
         size += 1 + pb::CodedOutputStream.ComputeInt64Size(HostsCount);
+      }
+      if (autoscalingConfig_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(AutoscalingConfig);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -915,6 +942,12 @@ namespace Yandex.Cloud.Dataproc.V1 {
       }
       if (other.HostsCount != 0L) {
         HostsCount = other.HostsCount;
+      }
+      if (other.autoscalingConfig_ != null) {
+        if (autoscalingConfig_ == null) {
+          AutoscalingConfig = new global::Yandex.Cloud.Dataproc.V1.AutoscalingConfig();
+        }
+        AutoscalingConfig.MergeFrom(other.AutoscalingConfig);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -952,6 +985,13 @@ namespace Yandex.Cloud.Dataproc.V1 {
           }
           case 48: {
             HostsCount = input.ReadInt64();
+            break;
+          }
+          case 58: {
+            if (autoscalingConfig_ == null) {
+              AutoscalingConfig = new global::Yandex.Cloud.Dataproc.V1.AutoscalingConfig();
+            }
+            input.ReadMessage(AutoscalingConfig);
             break;
           }
         }
@@ -1155,6 +1195,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
       name_ = other.name_;
       hostsCount_ = other.hostsCount_;
       decommissionTimeout_ = other.decommissionTimeout_;
+      autoscalingConfig_ = other.autoscalingConfig_ != null ? other.autoscalingConfig_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1265,6 +1306,20 @@ namespace Yandex.Cloud.Dataproc.V1 {
       }
     }
 
+    /// <summary>Field number for the "autoscaling_config" field.</summary>
+    public const int AutoscalingConfigFieldNumber = 8;
+    private global::Yandex.Cloud.Dataproc.V1.AutoscalingConfig autoscalingConfig_;
+    /// <summary>
+    /// Configuration for instance group based subclusters
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Dataproc.V1.AutoscalingConfig AutoscalingConfig {
+      get { return autoscalingConfig_; }
+      set {
+        autoscalingConfig_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as UpdateSubclusterRequest);
@@ -1285,6 +1340,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
       if (Name != other.Name) return false;
       if (HostsCount != other.HostsCount) return false;
       if (DecommissionTimeout != other.DecommissionTimeout) return false;
+      if (!object.Equals(AutoscalingConfig, other.AutoscalingConfig)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1298,6 +1354,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
       if (Name.Length != 0) hash ^= Name.GetHashCode();
       if (HostsCount != 0L) hash ^= HostsCount.GetHashCode();
       if (DecommissionTimeout != 0L) hash ^= DecommissionTimeout.GetHashCode();
+      if (autoscalingConfig_ != null) hash ^= AutoscalingConfig.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1339,6 +1396,10 @@ namespace Yandex.Cloud.Dataproc.V1 {
         output.WriteRawTag(56);
         output.WriteInt64(DecommissionTimeout);
       }
+      if (autoscalingConfig_ != null) {
+        output.WriteRawTag(66);
+        output.WriteMessage(AutoscalingConfig);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1367,6 +1428,9 @@ namespace Yandex.Cloud.Dataproc.V1 {
       }
       if (DecommissionTimeout != 0L) {
         size += 1 + pb::CodedOutputStream.ComputeInt64Size(DecommissionTimeout);
+      }
+      if (autoscalingConfig_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(AutoscalingConfig);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1405,6 +1469,12 @@ namespace Yandex.Cloud.Dataproc.V1 {
       }
       if (other.DecommissionTimeout != 0L) {
         DecommissionTimeout = other.DecommissionTimeout;
+      }
+      if (other.autoscalingConfig_ != null) {
+        if (autoscalingConfig_ == null) {
+          AutoscalingConfig = new global::Yandex.Cloud.Dataproc.V1.AutoscalingConfig();
+        }
+        AutoscalingConfig.MergeFrom(other.AutoscalingConfig);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -1449,6 +1519,13 @@ namespace Yandex.Cloud.Dataproc.V1 {
           }
           case 56: {
             DecommissionTimeout = input.ReadInt64();
+            break;
+          }
+          case 66: {
+            if (autoscalingConfig_ == null) {
+              AutoscalingConfig = new global::Yandex.Cloud.Dataproc.V1.AutoscalingConfig();
+            }
+            input.ReadMessage(AutoscalingConfig);
             break;
           }
         }

@@ -33,39 +33,39 @@ namespace Yandex.Cloud.Mdb.Mysql.V1 {
             "bG91ZC5tZGIubXlzcWwudjEuR2xvYmFsUGVybWlzc2lvbhJGChFjb25uZWN0",
             "aW9uX2xpbWl0cxgFIAEoCzIrLnlhbmRleC5jbG91ZC5tZGIubXlzcWwudjEu",
             "Q29ubmVjdGlvbkxpbWl0cxJEChVhdXRoZW50aWNhdGlvbl9wbHVnaW4YBiAB",
-            "KA4yJS55YW5kZXguY2xvdWQubWRiLm15c3FsLnYxLkF1dGhQbHVnaW4inwMK",
+            "KA4yJS55YW5kZXguY2xvdWQubWRiLm15c3FsLnYxLkF1dGhQbHVnaW4irwMK",
             "ClBlcm1pc3Npb24SFQoNZGF0YWJhc2VfbmFtZRgBIAEoCRJHCgVyb2xlcxgC",
             "IAMoDjIvLnlhbmRleC5jbG91ZC5tZGIubXlzcWwudjEuUGVybWlzc2lvbi5Q",
-            "cml2aWxlZ2VCB4LIMQM+PTEisAIKCVByaXZpbGVnZRIZChVQUklWSUxFR0Vf",
+            "cml2aWxlZ2VCB4LIMQM+PTEiwAIKCVByaXZpbGVnZRIZChVQUklWSUxFR0Vf",
             "VU5TUEVDSUZJRUQQABISCg5BTExfUFJJVklMRUdFUxABEgkKBUFMVEVSEAIS",
             "EQoNQUxURVJfUk9VVElORRADEgoKBkNSRUFURRAEEhIKDkNSRUFURV9ST1VU",
             "SU5FEAUSGwoXQ1JFQVRFX1RFTVBPUkFSWV9UQUJMRVMQBhIPCgtDUkVBVEVf",
             "VklFVxAHEgoKBkRFTEVURRAIEggKBERST1AQCRIJCgVFVkVOVBAKEgsKB0VY",
             "RUNVVEUQCxIJCgVJTkRFWBAMEgoKBklOU0VSVBANEg8KC0xPQ0tfVEFCTEVT",
             "EA4SCgoGU0VMRUNUEA8SDQoJU0hPV19WSUVXEBASCwoHVFJJR0dFUhAREgoK",
-            "BlVQREFURRASIqgCChBDb25uZWN0aW9uTGltaXRzEkQKFm1heF9xdWVzdGlv",
-            "bnNfcGVyX2hvdXIYASABKAsyGy5nb29nbGUucHJvdG9idWYuSW50NjRWYWx1",
-            "ZUIH+scxAz49MBJCChRtYXhfdXBkYXRlc19wZXJfaG91chgCIAEoCzIbLmdv",
-            "b2dsZS5wcm90b2J1Zi5JbnQ2NFZhbHVlQgf6xzEDPj0wEkYKGG1heF9jb25u",
-            "ZWN0aW9uc19wZXJfaG91chgDIAEoCzIbLmdvb2dsZS5wcm90b2J1Zi5JbnQ2",
-            "NFZhbHVlQgf6xzEDPj0wEkIKFG1heF91c2VyX2Nvbm5lY3Rpb25zGAQgASgL",
-            "MhsuZ29vZ2xlLnByb3RvYnVmLkludDY0VmFsdWVCB/rHMQM+PTAi6wIKCFVz",
-            "ZXJTcGVjEisKBG5hbWUYASABKAlCHejHMQGKyDEEPD0zMvLHMQ1bYS16QS1a",
-            "MC05X10qEh8KCHBhc3N3b3JkGAIgASgJQg3oxzEBisgxBTgtMTI4EjoKC3Bl",
-            "cm1pc3Npb25zGAMgAygLMiUueWFuZGV4LmNsb3VkLm1kYi5teXNxbC52MS5Q",
-            "ZXJtaXNzaW9uEkcKEmdsb2JhbF9wZXJtaXNzaW9ucxgEIAMoDjIrLnlhbmRl",
-            "eC5jbG91ZC5tZGIubXlzcWwudjEuR2xvYmFsUGVybWlzc2lvbhJGChFjb25u",
-            "ZWN0aW9uX2xpbWl0cxgFIAEoCzIrLnlhbmRleC5jbG91ZC5tZGIubXlzcWwu",
-            "djEuQ29ubmVjdGlvbkxpbWl0cxJEChVhdXRoZW50aWNhdGlvbl9wbHVnaW4Y",
-            "BiABKA4yJS55YW5kZXguY2xvdWQubWRiLm15c3FsLnYxLkF1dGhQbHVnaW4q",
-            "ZAoQR2xvYmFsUGVybWlzc2lvbhIhCh1HTE9CQUxfUEVSTUlTU0lPTl9VTlNQ",
-            "RUNJRklFRBAAEhYKElJFUExJQ0FUSU9OX0NMSUVOVBABEhUKEVJFUExJQ0FU",
-            "SU9OX1NMQVZFEAIqdAoKQXV0aFBsdWdpbhIbChdBVVRIX1BMVUdJTl9VTlNQ",
-            "RUNJRklFRBAAEhkKFU1ZU1FMX05BVElWRV9QQVNTV09SRBABEhkKFUNBQ0hJ",
-            "TkdfU0hBMl9QQVNTV09SRBACEhMKD1NIQTI1Nl9QQVNTV09SRBADQmQKHXlh",
-            "bmRleC5jbG91ZC5hcGkubWRiLm15c3FsLnYxWkNnaXRodWIuY29tL3lhbmRl",
-            "eC1jbG91ZC9nby1nZW5wcm90by95YW5kZXgvY2xvdWQvbWRiL215c3FsL3Yx",
-            "O215c3FsYgZwcm90bzM="));
+            "BlVQREFURRASEg4KClJFRkVSRU5DRVMQEyKoAgoQQ29ubmVjdGlvbkxpbWl0",
+            "cxJEChZtYXhfcXVlc3Rpb25zX3Blcl9ob3VyGAEgASgLMhsuZ29vZ2xlLnBy",
+            "b3RvYnVmLkludDY0VmFsdWVCB/rHMQM+PTASQgoUbWF4X3VwZGF0ZXNfcGVy",
+            "X2hvdXIYAiABKAsyGy5nb29nbGUucHJvdG9idWYuSW50NjRWYWx1ZUIH+scx",
+            "Az49MBJGChhtYXhfY29ubmVjdGlvbnNfcGVyX2hvdXIYAyABKAsyGy5nb29n",
+            "bGUucHJvdG9idWYuSW50NjRWYWx1ZUIH+scxAz49MBJCChRtYXhfdXNlcl9j",
+            "b25uZWN0aW9ucxgEIAEoCzIbLmdvb2dsZS5wcm90b2J1Zi5JbnQ2NFZhbHVl",
+            "Qgf6xzEDPj0wIusCCghVc2VyU3BlYxIrCgRuYW1lGAEgASgJQh3oxzEBisgx",
+            "BDw9MzLyxzENW2EtekEtWjAtOV9dKhIfCghwYXNzd29yZBgCIAEoCUIN6Mcx",
+            "AYrIMQU4LTEyOBI6CgtwZXJtaXNzaW9ucxgDIAMoCzIlLnlhbmRleC5jbG91",
+            "ZC5tZGIubXlzcWwudjEuUGVybWlzc2lvbhJHChJnbG9iYWxfcGVybWlzc2lv",
+            "bnMYBCADKA4yKy55YW5kZXguY2xvdWQubWRiLm15c3FsLnYxLkdsb2JhbFBl",
+            "cm1pc3Npb24SRgoRY29ubmVjdGlvbl9saW1pdHMYBSABKAsyKy55YW5kZXgu",
+            "Y2xvdWQubWRiLm15c3FsLnYxLkNvbm5lY3Rpb25MaW1pdHMSRAoVYXV0aGVu",
+            "dGljYXRpb25fcGx1Z2luGAYgASgOMiUueWFuZGV4LmNsb3VkLm1kYi5teXNx",
+            "bC52MS5BdXRoUGx1Z2luKnEKEEdsb2JhbFBlcm1pc3Npb24SIQodR0xPQkFM",
+            "X1BFUk1JU1NJT05fVU5TUEVDSUZJRUQQABIWChJSRVBMSUNBVElPTl9DTElF",
+            "TlQQARIVChFSRVBMSUNBVElPTl9TTEFWRRACEgsKB1BST0NFU1MQAyp0CgpB",
+            "dXRoUGx1Z2luEhsKF0FVVEhfUExVR0lOX1VOU1BFQ0lGSUVEEAASGQoVTVlT",
+            "UUxfTkFUSVZFX1BBU1NXT1JEEAESGQoVQ0FDSElOR19TSEEyX1BBU1NXT1JE",
+            "EAISEwoPU0hBMjU2X1BBU1NXT1JEEANCZAodeWFuZGV4LmNsb3VkLmFwaS5t",
+            "ZGIubXlzcWwudjFaQ2dpdGh1Yi5jb20veWFuZGV4LWNsb3VkL2dvLWdlbnBy",
+            "b3RvL3lhbmRleC9jbG91ZC9tZGIvbXlzcWwvdjE7bXlzcWxiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.WrappersReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Yandex.Cloud.Mdb.Mysql.V1.GlobalPermission), typeof(global::Yandex.Cloud.Mdb.Mysql.V1.AuthPlugin), }, null, new pbr::GeneratedClrTypeInfo[] {
@@ -90,6 +90,13 @@ namespace Yandex.Cloud.Mdb.Mysql.V1 {
     /// using the SHOW SLAVE HOSTS, SHOW RELAYLOG EVENTS, and SHOW BINLOG EVENTS statements.
     /// </summary>
     [pbr::OriginalName("REPLICATION_SLAVE")] ReplicationSlave = 2,
+    /// <summary>
+    /// Enables display of information about the threads executing within the server
+    /// (that is, information about the statements being executed by sessions).
+    /// The privilege enables use of SHOW PROCESSLIST or mysqladmin processlist to see threads belonging
+    /// to other accounts; you can always see your own threads. The PROCESS privilege also enables use of SHOW ENGINE.
+    /// </summary>
+    [pbr::OriginalName("PROCESS")] Process = 3,
   }
 
   internal enum AuthPlugin {
@@ -629,6 +636,10 @@ namespace Yandex.Cloud.Mdb.Mysql.V1 {
         /// Updating rows in the database.
         /// </summary>
         [pbr::OriginalName("UPDATE")] Update = 18,
+        /// <summary>
+        /// Creation of a foreign key constraint for the parent table.
+        /// </summary>
+        [pbr::OriginalName("REFERENCES")] References = 19,
       }
 
     }

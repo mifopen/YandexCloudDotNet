@@ -65,18 +65,16 @@ namespace Yandex.Cloud.K8S.V1 {
             "ZGRyZXNzU3BlYxJBChNvbmVfdG9fb25lX25hdF9zcGVjGAEgASgLMiQueWFu",
             "ZGV4LmNsb3VkLms4cy52MS5PbmVUb09uZU5hdFNwZWMiRQoPT25lVG9PbmVO",
             "YXRTcGVjEjIKCmlwX3ZlcnNpb24YASABKA4yHi55YW5kZXguY2xvdWQuazhz",
-            "LnYxLklwVmVyc2lvbiK8AQoNUmVzb3VyY2VzU3BlYxIiCgZtZW1vcnkYASAB",
-            "KANCEvrHMQ48PTgyNDYzMzcyMDgzMhJdCgVjb3JlcxgCIAEoA0JO+scxSjAs",
-            "MSwyLDQsNiw4LDEwLDEyLDE0LDE2LDE4LDIwLDIyLDI0LDI2LDI4LDMwLDMy",
-            "LDM0LDM2LDQwLDQ0LDQ4LDUyLDU2LDYwLDY0EigKDWNvcmVfZnJhY3Rpb24Y",
-            "AyABKANCEfrHMQ0wLDUsMjAsNTAsMTAwImYKCERpc2tTcGVjEjIKDGRpc2tf",
-            "dHlwZV9pZBgBIAEoCUIc8scxGHxuZXR3b3JrLXNzZHxuZXR3b3JrLWhkZBIm",
-            "CglkaXNrX3NpemUYAiABKANCE/rHMQ8wLTQzOTgwNDY1MTExMDQiJwoQU2No",
-            "ZWR1bGluZ1BvbGljeRITCgtwcmVlbXB0aWJsZRgBIAEoCCo7CglJcFZlcnNp",
-            "b24SGgoWSVBfVkVSU0lPTl9VTlNQRUNJRklFRBAAEggKBElQVjQQARIICgRJ",
-            "UFY2EAJCVgoXeWFuZGV4LmNsb3VkLmFwaS5rOHMudjFaO2dpdGh1Yi5jb20v",
-            "eWFuZGV4LWNsb3VkL2dvLWdlbnByb3RvL3lhbmRleC9jbG91ZC9rOHMvdjE7",
-            "azhzYgZwcm90bzM="));
+            "LnYxLklwVmVyc2lvbiJ5Cg1SZXNvdXJjZXNTcGVjEhcKBm1lbW9yeRgBIAEo",
+            "A0IH+scxAz49MBIWCgVjb3JlcxgCIAEoA0IH+scxAz49MBIgCg1jb3JlX2Zy",
+            "YWN0aW9uGAMgASgDQgn6xzEFMC0xMDASFQoEZ3B1cxgEIAEoA0IH+scxAz49",
+            "MCJmCghEaXNrU3BlYxIyCgxkaXNrX3R5cGVfaWQYASABKAlCHPLHMRh8bmV0",
+            "d29yay1zc2R8bmV0d29yay1oZGQSJgoJZGlza19zaXplGAIgASgDQhP6xzEP",
+            "MC00Mzk4MDQ2NTExMTA0IicKEFNjaGVkdWxpbmdQb2xpY3kSEwoLcHJlZW1w",
+            "dGlibGUYASABKAgqOwoJSXBWZXJzaW9uEhoKFklQX1ZFUlNJT05fVU5TUEVD",
+            "SUZJRUQQABIICgRJUFY0EAESCAoESVBWNhACQlYKF3lhbmRleC5jbG91ZC5h",
+            "cGkuazhzLnYxWjtnaXRodWIuY29tL3lhbmRleC1jbG91ZC9nby1nZW5wcm90",
+            "by95YW5kZXgvY2xvdWQvazhzL3YxO2s4c2IGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Yandex.Cloud.K8S.V1.IpVersion), }, null, new pbr::GeneratedClrTypeInfo[] {
@@ -89,7 +87,7 @@ namespace Yandex.Cloud.K8S.V1 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.NodeTemplate), global::Yandex.Cloud.K8S.V1.NodeTemplate.Parser, new[]{ "PlatformId", "ResourcesSpec", "BootDiskSpec", "Metadata", "V4AddressSpec", "SchedulingPolicy" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.NodeAddressSpec), global::Yandex.Cloud.K8S.V1.NodeAddressSpec.Parser, new[]{ "OneToOneNatSpec" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.OneToOneNatSpec), global::Yandex.Cloud.K8S.V1.OneToOneNatSpec.Parser, new[]{ "IpVersion" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.ResourcesSpec), global::Yandex.Cloud.K8S.V1.ResourcesSpec.Parser, new[]{ "Memory", "Cores", "CoreFraction" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.ResourcesSpec), global::Yandex.Cloud.K8S.V1.ResourcesSpec.Parser, new[]{ "Memory", "Cores", "CoreFraction", "Gpus" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.DiskSpec), global::Yandex.Cloud.K8S.V1.DiskSpec.Parser, new[]{ "DiskTypeId", "DiskSize" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.K8S.V1.SchedulingPolicy), global::Yandex.Cloud.K8S.V1.SchedulingPolicy.Parser, new[]{ "Preemptible" }, null, null, null, null)
           }));
@@ -2234,6 +2232,7 @@ namespace Yandex.Cloud.K8S.V1 {
       memory_ = other.memory_;
       cores_ = other.cores_;
       coreFraction_ = other.coreFraction_;
+      gpus_ = other.gpus_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -2285,6 +2284,20 @@ namespace Yandex.Cloud.K8S.V1 {
       }
     }
 
+    /// <summary>Field number for the "gpus" field.</summary>
+    public const int GpusFieldNumber = 4;
+    private long gpus_;
+    /// <summary>
+    /// Number of GPUs available to the node.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long Gpus {
+      get { return gpus_; }
+      set {
+        gpus_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as ResourcesSpec);
@@ -2301,6 +2314,7 @@ namespace Yandex.Cloud.K8S.V1 {
       if (Memory != other.Memory) return false;
       if (Cores != other.Cores) return false;
       if (CoreFraction != other.CoreFraction) return false;
+      if (Gpus != other.Gpus) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -2310,6 +2324,7 @@ namespace Yandex.Cloud.K8S.V1 {
       if (Memory != 0L) hash ^= Memory.GetHashCode();
       if (Cores != 0L) hash ^= Cores.GetHashCode();
       if (CoreFraction != 0L) hash ^= CoreFraction.GetHashCode();
+      if (Gpus != 0L) hash ^= Gpus.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -2335,6 +2350,10 @@ namespace Yandex.Cloud.K8S.V1 {
         output.WriteRawTag(24);
         output.WriteInt64(CoreFraction);
       }
+      if (Gpus != 0L) {
+        output.WriteRawTag(32);
+        output.WriteInt64(Gpus);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -2351,6 +2370,9 @@ namespace Yandex.Cloud.K8S.V1 {
       }
       if (CoreFraction != 0L) {
         size += 1 + pb::CodedOutputStream.ComputeInt64Size(CoreFraction);
+      }
+      if (Gpus != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(Gpus);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -2371,6 +2393,9 @@ namespace Yandex.Cloud.K8S.V1 {
       }
       if (other.CoreFraction != 0L) {
         CoreFraction = other.CoreFraction;
+      }
+      if (other.Gpus != 0L) {
+        Gpus = other.Gpus;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -2393,6 +2418,10 @@ namespace Yandex.Cloud.K8S.V1 {
           }
           case 24: {
             CoreFraction = input.ReadInt64();
+            break;
+          }
+          case 32: {
+            Gpus = input.ReadInt64();
             break;
           }
         }

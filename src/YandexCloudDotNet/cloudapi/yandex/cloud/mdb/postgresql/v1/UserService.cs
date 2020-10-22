@@ -347,7 +347,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
     private long pageSize_;
     /// <summary>
     /// The maximum number of results per page to return. If the number of available
-    /// results is larger than [page_size], the service returns a [ListUsersResponse.next_page_token]
+    /// results is larger than `page_size`, the service returns a [ListUsersResponse.next_page_token]
     /// that can be used to get the next page of results in subsequent list requests.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -362,7 +362,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
     public const int PageTokenFieldNumber = 3;
     private string pageToken_ = "";
     /// <summary>
-    /// Page token. To get the next page of results, set [page_token] to the [ListUsersResponse.next_page_token]
+    /// Page token. To get the next page of results, set `page_token` to the [ListUsersResponse.next_page_token]
     /// returned by a previous list request.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -542,9 +542,9 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
     private string nextPageToken_ = "";
     /// <summary>
     /// This token allows you to get the next page of results for list requests. If the number of results
-    /// is larger than [ListUsersRequest.page_size], use the [next_page_token] as the value
+    /// is larger than [ListUsersRequest.page_size], use the `next_page_token` as the value
     /// for the [ListUsersRequest.page_token] parameter in the next list request. Each subsequent
-    /// list request will have its own [next_page_token] to continue paging through the results.
+    /// list request will have its own `next_page_token` to continue paging through the results.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string NextPageToken {
@@ -1086,7 +1086,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
         = pb::FieldCodec.ForMessage(42, global::Yandex.Cloud.Mdb.Postgresql.V1.Permission.Parser);
     private readonly pbc::RepeatedField<global::Yandex.Cloud.Mdb.Postgresql.V1.Permission> permissions_ = new pbc::RepeatedField<global::Yandex.Cloud.Mdb.Postgresql.V1.Permission>();
     /// <summary>
-    /// New set of permissions for the user.
+    /// Set of permissions granted to the user to access specific databases.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::RepeatedField<global::Yandex.Cloud.Mdb.Postgresql.V1.Permission> Permissions {
@@ -1097,7 +1097,13 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
     public const int ConnLimitFieldNumber = 6;
     private long connLimit_;
     /// <summary>
-    /// Number of connections that should be available to the user.
+    /// Maximum number of database connections available to the user.
+    ///
+    /// When used in session pooling, this setting limits the number of connections to every single host in PostgreSQL cluster. In this case, the setting's value must be greater than the total number of connections that backend services can open to access the PostgreSQL cluster. The setting's value should not exceed the value of the [Cluster.config.postgresql_config.max_connections] setting.
+    ///
+    /// When used in transaction pooling, this setting limits the number of user's active transactions; therefore, in this mode user can open thousands of connections, but only `N` concurrent connections will be opened, where `N` is the value of the setting.
+    ///
+    /// Minimum value: `10` (default: `50`), when used in session pooling.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long ConnLimit {
@@ -1110,9 +1116,6 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
     /// <summary>Field number for the "settings" field.</summary>
     public const int SettingsFieldNumber = 7;
     private global::Yandex.Cloud.Mdb.Postgresql.V1.UserSettings settings_;
-    /// <summary>
-    /// Postgresql settings for this user
-    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Mdb.Postgresql.V1.UserSettings Settings {
       get { return settings_; }
@@ -1126,7 +1129,9 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
     private static readonly pb::FieldCodec<bool?> _single_login_codec = pb::FieldCodec.ForStructWrapper<bool>(66);
     private bool? login_;
     /// <summary>
-    /// User can login (default True)
+    /// This flag defines whether the user can login to a PostgreSQL database.
+    ///
+    /// Default value: `true` (login is allowed).
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public bool? Login {
@@ -1143,7 +1148,9 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
         = pb::FieldCodec.ForString(74);
     private readonly pbc::RepeatedField<string> grants_ = new pbc::RepeatedField<string>();
     /// <summary>
-    /// User grants (GRANT &lt;role> TO &lt;user>), role must be other user
+    /// Roles and privileges that are granted to the user (`GRANT &lt;role> TO &lt;user>`).
+    ///
+    /// For more information, see [the documentation](/docs/managed-postgresql/operations/grant).
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::RepeatedField<string> Grants {

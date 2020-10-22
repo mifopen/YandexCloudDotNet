@@ -26,7 +26,7 @@ namespace Yandex.Cloud.Vpc.V1 {
           string.Concat(
             "Cih5YW5kZXgvY2xvdWQvdnBjL3YxL3NlY3VyaXR5X2dyb3VwLnByb3RvEhN5",
             "YW5kZXguY2xvdWQudnBjLnYxGh9nb29nbGUvcHJvdG9idWYvdGltZXN0YW1w",
-            "LnByb3RvGh15YW5kZXgvY2xvdWQvdmFsaWRhdGlvbi5wcm90byLOAwoNU2Vj",
+            "LnByb3RvGh15YW5kZXgvY2xvdWQvdmFsaWRhdGlvbi5wcm90byLrAwoNU2Vj",
             "dXJpdHlHcm91cBIKCgJpZBgBIAEoCRIRCglmb2xkZXJfaWQYAiABKAkSLgoK",
             "Y3JlYXRlZF9hdBgDIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXAS",
             "DAoEbmFtZRgEIAEoCRITCgtkZXNjcmlwdGlvbhgFIAEoCRI+CgZsYWJlbHMY",
@@ -34,30 +34,32 @@ namespace Yandex.Cloud.Vpc.V1 {
             "ZWxzRW50cnkSEgoKbmV0d29ya19pZBgHIAEoCRI5CgZzdGF0dXMYCCABKA4y",
             "KS55YW5kZXguY2xvdWQudnBjLnYxLlNlY3VyaXR5R3JvdXAuU3RhdHVzEjUK",
             "BXJ1bGVzGAkgAygLMiYueWFuZGV4LmNsb3VkLnZwYy52MS5TZWN1cml0eUdy",
-            "b3VwUnVsZRotCgtMYWJlbHNFbnRyeRILCgNrZXkYASABKAkSDQoFdmFsdWUY",
-            "AiABKAk6AjgBIlYKBlN0YXR1cxIWChJTVEFUVVNfVU5TUEVDSUZJRUQQABIM",
-            "CghDUkVBVElORxABEgoKBkFDVElWRRACEgwKCFVQREFUSU5HEAMSDAoIREVM",
-            "RVRJTkcQBCLaAwoRU2VjdXJpdHlHcm91cFJ1bGUSCgoCaWQYASABKAkSEwoL",
-            "ZGVzY3JpcHRpb24YAiABKAkSQgoGbGFiZWxzGAMgAygLMjIueWFuZGV4LmNs",
-            "b3VkLnZwYy52MS5TZWN1cml0eUdyb3VwUnVsZS5MYWJlbHNFbnRyeRJJCglk",
-            "aXJlY3Rpb24YBCABKA4yMC55YW5kZXguY2xvdWQudnBjLnYxLlNlY3VyaXR5",
-            "R3JvdXBSdWxlLkRpcmVjdGlvbkIE6McxARItCgVwb3J0cxgFIAEoCzIeLnlh",
-            "bmRleC5jbG91ZC52cGMudjEuUG9ydFJhbmdlEhUKDXByb3RvY29sX25hbWUY",
-            "BiABKAkSFwoPcHJvdG9jb2xfbnVtYmVyGAcgASgDEjYKC2NpZHJfYmxvY2tz",
-            "GAggASgLMh8ueWFuZGV4LmNsb3VkLnZwYy52MS5DaWRyQmxvY2tzSAAaLQoL",
-            "TGFiZWxzRW50cnkSCwoDa2V5GAEgASgJEg0KBXZhbHVlGAIgASgJOgI4ASI/",
-            "CglEaXJlY3Rpb24SGQoVRElSRUNUSU9OX1VOU1BFQ0lGSUVEEAASCwoHSU5H",
-            "UkVTUxABEgoKBkVHUkVTUxACQg4KBnRhcmdldBIEwMExASJJCglQb3J0UmFu",
-            "Z2USHgoJZnJvbV9wb3J0GAEgASgDQgv6xzEHMC02NTUzNRIcCgd0b19wb3J0",
-            "GAIgASgDQgv6xzEHMC02NTUzNSI8CgpDaWRyQmxvY2tzEhYKDnY0X2NpZHJf",
-            "YmxvY2tzGAEgAygJEhYKDnY2X2NpZHJfYmxvY2tzGAIgAygJQlYKF3lhbmRl",
-            "eC5jbG91ZC5hcGkudnBjLnYxWjtnaXRodWIuY29tL3lhbmRleC1jbG91ZC9n",
-            "by1nZW5wcm90by95YW5kZXgvY2xvdWQvdnBjL3YxO3ZwY2IGcHJvdG8z"));
+            "b3VwUnVsZRIbChNkZWZhdWx0X2Zvcl9uZXR3b3JrGAogASgIGi0KC0xhYmVs",
+            "c0VudHJ5EgsKA2tleRgBIAEoCRINCgV2YWx1ZRgCIAEoCToCOAEiVgoGU3Rh",
+            "dHVzEhYKElNUQVRVU19VTlNQRUNJRklFRBAAEgwKCENSRUFUSU5HEAESCgoG",
+            "QUNUSVZFEAISDAoIVVBEQVRJTkcQAxIMCghERUxFVElORxAEIpQEChFTZWN1",
+            "cml0eUdyb3VwUnVsZRIKCgJpZBgBIAEoCRITCgtkZXNjcmlwdGlvbhgCIAEo",
+            "CRJCCgZsYWJlbHMYAyADKAsyMi55YW5kZXguY2xvdWQudnBjLnYxLlNlY3Vy",
+            "aXR5R3JvdXBSdWxlLkxhYmVsc0VudHJ5EkkKCWRpcmVjdGlvbhgEIAEoDjIw",
+            "LnlhbmRleC5jbG91ZC52cGMudjEuU2VjdXJpdHlHcm91cFJ1bGUuRGlyZWN0",
+            "aW9uQgToxzEBEi0KBXBvcnRzGAUgASgLMh4ueWFuZGV4LmNsb3VkLnZwYy52",
+            "MS5Qb3J0UmFuZ2USFQoNcHJvdG9jb2xfbmFtZRgGIAEoCRIXCg9wcm90b2Nv",
+            "bF9udW1iZXIYByABKAMSNgoLY2lkcl9ibG9ja3MYCCABKAsyHy55YW5kZXgu",
+            "Y2xvdWQudnBjLnYxLkNpZHJCbG9ja3NIABIbChFzZWN1cml0eV9ncm91cF9p",
+            "ZBgJIAEoCUgAEhsKEXByZWRlZmluZWRfdGFyZ2V0GAogASgJSAAaLQoLTGFi",
+            "ZWxzRW50cnkSCwoDa2V5GAEgASgJEg0KBXZhbHVlGAIgASgJOgI4ASI/CglE",
+            "aXJlY3Rpb24SGQoVRElSRUNUSU9OX1VOU1BFQ0lGSUVEEAASCwoHSU5HUkVT",
+            "UxABEgoKBkVHUkVTUxACQg4KBnRhcmdldBIEwMExASJJCglQb3J0UmFuZ2US",
+            "HgoJZnJvbV9wb3J0GAEgASgDQgv6xzEHMC02NTUzNRIcCgd0b19wb3J0GAIg",
+            "ASgDQgv6xzEHMC02NTUzNSI8CgpDaWRyQmxvY2tzEhYKDnY0X2NpZHJfYmxv",
+            "Y2tzGAEgAygJEhYKDnY2X2NpZHJfYmxvY2tzGAIgAygJQlYKF3lhbmRleC5j",
+            "bG91ZC5hcGkudnBjLnYxWjtnaXRodWIuY29tL3lhbmRleC1jbG91ZC9nby1n",
+            "ZW5wcm90by95YW5kZXgvY2xvdWQvdnBjL3YxO3ZwY2IGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.SecurityGroup), global::Yandex.Cloud.Vpc.V1.SecurityGroup.Parser, new[]{ "Id", "FolderId", "CreatedAt", "Name", "Description", "Labels", "NetworkId", "Status", "Rules" }, null, new[]{ typeof(global::Yandex.Cloud.Vpc.V1.SecurityGroup.Types.Status) }, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.SecurityGroupRule), global::Yandex.Cloud.Vpc.V1.SecurityGroupRule.Parser, new[]{ "Id", "Description", "Labels", "Direction", "Ports", "ProtocolName", "ProtocolNumber", "CidrBlocks" }, new[]{ "Target" }, new[]{ typeof(global::Yandex.Cloud.Vpc.V1.SecurityGroupRule.Types.Direction) }, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.SecurityGroup), global::Yandex.Cloud.Vpc.V1.SecurityGroup.Parser, new[]{ "Id", "FolderId", "CreatedAt", "Name", "Description", "Labels", "NetworkId", "Status", "Rules", "DefaultForNetwork" }, null, new[]{ typeof(global::Yandex.Cloud.Vpc.V1.SecurityGroup.Types.Status) }, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.SecurityGroupRule), global::Yandex.Cloud.Vpc.V1.SecurityGroupRule.Parser, new[]{ "Id", "Description", "Labels", "Direction", "Ports", "ProtocolName", "ProtocolNumber", "CidrBlocks", "SecurityGroupId", "PredefinedTarget" }, new[]{ "Target" }, new[]{ typeof(global::Yandex.Cloud.Vpc.V1.SecurityGroupRule.Types.Direction) }, null, new pbr::GeneratedClrTypeInfo[] { null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.PortRange), global::Yandex.Cloud.Vpc.V1.PortRange.Parser, new[]{ "FromPort", "ToPort" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.CidrBlocks), global::Yandex.Cloud.Vpc.V1.CidrBlocks.Parser, new[]{ "V4CidrBlocks", "V6CidrBlocks" }, null, null, null, null)
           }));
@@ -100,6 +102,7 @@ namespace Yandex.Cloud.Vpc.V1 {
       networkId_ = other.networkId_;
       status_ = other.status_;
       rules_ = other.rules_.Clone();
+      defaultForNetwork_ = other.defaultForNetwork_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -205,6 +208,17 @@ namespace Yandex.Cloud.Vpc.V1 {
       get { return rules_; }
     }
 
+    /// <summary>Field number for the "default_for_network" field.</summary>
+    public const int DefaultForNetworkFieldNumber = 10;
+    private bool defaultForNetwork_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool DefaultForNetwork {
+      get { return defaultForNetwork_; }
+      set {
+        defaultForNetwork_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as SecurityGroup);
@@ -227,6 +241,7 @@ namespace Yandex.Cloud.Vpc.V1 {
       if (NetworkId != other.NetworkId) return false;
       if (Status != other.Status) return false;
       if(!rules_.Equals(other.rules_)) return false;
+      if (DefaultForNetwork != other.DefaultForNetwork) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -242,6 +257,7 @@ namespace Yandex.Cloud.Vpc.V1 {
       if (NetworkId.Length != 0) hash ^= NetworkId.GetHashCode();
       if (Status != global::Yandex.Cloud.Vpc.V1.SecurityGroup.Types.Status.Unspecified) hash ^= Status.GetHashCode();
       hash ^= rules_.GetHashCode();
+      if (DefaultForNetwork != false) hash ^= DefaultForNetwork.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -285,6 +301,10 @@ namespace Yandex.Cloud.Vpc.V1 {
         output.WriteEnum((int) Status);
       }
       rules_.WriteTo(output, _repeated_rules_codec);
+      if (DefaultForNetwork != false) {
+        output.WriteRawTag(80);
+        output.WriteBool(DefaultForNetwork);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -316,6 +336,9 @@ namespace Yandex.Cloud.Vpc.V1 {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Status);
       }
       size += rules_.CalculateSize(_repeated_rules_codec);
+      if (DefaultForNetwork != false) {
+        size += 1 + 1;
+      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -353,6 +376,9 @@ namespace Yandex.Cloud.Vpc.V1 {
         Status = other.Status;
       }
       rules_.Add(other.rules_);
+      if (other.DefaultForNetwork != false) {
+        DefaultForNetwork = other.DefaultForNetwork;
+      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -401,6 +427,10 @@ namespace Yandex.Cloud.Vpc.V1 {
           }
           case 74: {
             rules_.AddEntriesFrom(input, _repeated_rules_codec);
+            break;
+          }
+          case 80: {
+            DefaultForNetwork = input.ReadBool();
             break;
           }
         }
@@ -462,6 +492,12 @@ namespace Yandex.Cloud.Vpc.V1 {
       switch (other.TargetCase) {
         case TargetOneofCase.CidrBlocks:
           CidrBlocks = other.CidrBlocks.Clone();
+          break;
+        case TargetOneofCase.SecurityGroupId:
+          SecurityGroupId = other.SecurityGroupId;
+          break;
+        case TargetOneofCase.PredefinedTarget:
+          PredefinedTarget = other.PredefinedTarget;
           break;
       }
 
@@ -570,11 +606,35 @@ namespace Yandex.Cloud.Vpc.V1 {
       }
     }
 
+    /// <summary>Field number for the "security_group_id" field.</summary>
+    public const int SecurityGroupIdFieldNumber = 9;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string SecurityGroupId {
+      get { return targetCase_ == TargetOneofCase.SecurityGroupId ? (string) target_ : ""; }
+      set {
+        target_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+        targetCase_ = TargetOneofCase.SecurityGroupId;
+      }
+    }
+
+    /// <summary>Field number for the "predefined_target" field.</summary>
+    public const int PredefinedTargetFieldNumber = 10;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string PredefinedTarget {
+      get { return targetCase_ == TargetOneofCase.PredefinedTarget ? (string) target_ : ""; }
+      set {
+        target_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+        targetCase_ = TargetOneofCase.PredefinedTarget;
+      }
+    }
+
     private object target_;
     /// <summary>Enum of possible cases for the "target" oneof.</summary>
     public enum TargetOneofCase {
       None = 0,
       CidrBlocks = 8,
+      SecurityGroupId = 9,
+      PredefinedTarget = 10,
     }
     private TargetOneofCase targetCase_ = TargetOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -609,6 +669,8 @@ namespace Yandex.Cloud.Vpc.V1 {
       if (ProtocolName != other.ProtocolName) return false;
       if (ProtocolNumber != other.ProtocolNumber) return false;
       if (!object.Equals(CidrBlocks, other.CidrBlocks)) return false;
+      if (SecurityGroupId != other.SecurityGroupId) return false;
+      if (PredefinedTarget != other.PredefinedTarget) return false;
       if (TargetCase != other.TargetCase) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -624,6 +686,8 @@ namespace Yandex.Cloud.Vpc.V1 {
       if (ProtocolName.Length != 0) hash ^= ProtocolName.GetHashCode();
       if (ProtocolNumber != 0L) hash ^= ProtocolNumber.GetHashCode();
       if (targetCase_ == TargetOneofCase.CidrBlocks) hash ^= CidrBlocks.GetHashCode();
+      if (targetCase_ == TargetOneofCase.SecurityGroupId) hash ^= SecurityGroupId.GetHashCode();
+      if (targetCase_ == TargetOneofCase.PredefinedTarget) hash ^= PredefinedTarget.GetHashCode();
       hash ^= (int) targetCase_;
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -667,6 +731,14 @@ namespace Yandex.Cloud.Vpc.V1 {
         output.WriteRawTag(66);
         output.WriteMessage(CidrBlocks);
       }
+      if (targetCase_ == TargetOneofCase.SecurityGroupId) {
+        output.WriteRawTag(74);
+        output.WriteString(SecurityGroupId);
+      }
+      if (targetCase_ == TargetOneofCase.PredefinedTarget) {
+        output.WriteRawTag(82);
+        output.WriteString(PredefinedTarget);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -696,6 +768,12 @@ namespace Yandex.Cloud.Vpc.V1 {
       }
       if (targetCase_ == TargetOneofCase.CidrBlocks) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(CidrBlocks);
+      }
+      if (targetCase_ == TargetOneofCase.SecurityGroupId) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(SecurityGroupId);
+      }
+      if (targetCase_ == TargetOneofCase.PredefinedTarget) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(PredefinedTarget);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -736,6 +814,12 @@ namespace Yandex.Cloud.Vpc.V1 {
             CidrBlocks = new global::Yandex.Cloud.Vpc.V1.CidrBlocks();
           }
           CidrBlocks.MergeFrom(other.CidrBlocks);
+          break;
+        case TargetOneofCase.SecurityGroupId:
+          SecurityGroupId = other.SecurityGroupId;
+          break;
+        case TargetOneofCase.PredefinedTarget:
+          PredefinedTarget = other.PredefinedTarget;
           break;
       }
 
@@ -788,6 +872,14 @@ namespace Yandex.Cloud.Vpc.V1 {
             }
             input.ReadMessage(subBuilder);
             CidrBlocks = subBuilder;
+            break;
+          }
+          case 74: {
+            SecurityGroupId = input.ReadString();
+            break;
+          }
+          case 82: {
+            PredefinedTarget = input.ReadString();
             break;
           }
         }

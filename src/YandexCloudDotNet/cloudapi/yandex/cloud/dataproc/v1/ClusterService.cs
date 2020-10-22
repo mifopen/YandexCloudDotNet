@@ -38,117 +38,128 @@ namespace Yandex.Cloud.Dataproc.V1 {
             "A0IK+scxBjw9MTAwMBIdCgpwYWdlX3Rva2VuGAMgASgJQgmKyDEFPD0xMDAS",
             "GgoGZmlsdGVyGAQgASgJQgqKyDEGPD0xMDAwImQKFExpc3RDbHVzdGVyc1Jl",
             "c3BvbnNlEjMKCGNsdXN0ZXJzGAEgAygLMiEueWFuZGV4LmNsb3VkLmRhdGFw",
-            "cm9jLnYxLkNsdXN0ZXISFwoPbmV4dF9wYWdlX3Rva2VuGAIgASgJIoICChpD",
+            "cm9jLnYxLkNsdXN0ZXISFwoPbmV4dF9wYWdlX3Rva2VuGAIgASgJItECChpD",
             "cmVhdGVTdWJjbHVzdGVyQ29uZmlnU3BlYxIvCgRuYW1lGAEgASgJQiHyxzEd",
             "fFthLXpdWy1hLXowLTldezEsNjF9W2EtejAtOV0SMgoEcm9sZRgCIAEoDjIe",
             "LnlhbmRleC5jbG91ZC5kYXRhcHJvYy52MS5Sb2xlQgToxzEBEjwKCXJlc291",
             "cmNlcxgDIAEoCzIjLnlhbmRleC5jbG91ZC5kYXRhcHJvYy52MS5SZXNvdXJj",
             "ZXNCBOjHMQESHwoJc3VibmV0X2lkGAQgASgJQgzoxzEBisgxBDw9NTASIAoL",
-            "aG9zdHNfY291bnQYBSABKANCC+jHMQH6xzEDPj0xIq8BChpVcGRhdGVTdWJj",
-            "bHVzdGVyQ29uZmlnU3BlYxIKCgJpZBgBIAEoCRIvCgRuYW1lGAIgASgJQiHy",
-            "xzEdfFthLXpdWy1hLXowLTldezEsNjF9W2EtejAtOV0SNgoJcmVzb3VyY2Vz",
-            "GAMgASgLMiMueWFuZGV4LmNsb3VkLmRhdGFwcm9jLnYxLlJlc291cmNlcxIc",
-            "Cgtob3N0c19jb3VudBgEIAEoA0IH+scxAz49MSK1AQoXQ3JlYXRlQ2x1c3Rl",
-            "ckNvbmZpZ1NwZWMSEgoKdmVyc2lvbl9pZBgBIAEoCRI2CgZoYWRvb3AYAiAB",
-            "KAsyJi55YW5kZXguY2xvdWQuZGF0YXByb2MudjEuSGFkb29wQ29uZmlnEk4K",
-            "EHN1YmNsdXN0ZXJzX3NwZWMYAyADKAsyNC55YW5kZXguY2xvdWQuZGF0YXBy",
-            "b2MudjEuQ3JlYXRlU3ViY2x1c3RlckNvbmZpZ1NwZWMiaQoXVXBkYXRlQ2x1",
-            "c3RlckNvbmZpZ1NwZWMSTgoQc3ViY2x1c3RlcnNfc3BlYxgBIAMoCzI0Lnlh",
-            "bmRleC5jbG91ZC5kYXRhcHJvYy52MS5VcGRhdGVTdWJjbHVzdGVyQ29uZmln",
-            "U3BlYyLkAwoUQ3JlYXRlQ2x1c3RlclJlcXVlc3QSHwoJZm9sZGVyX2lkGAEg",
-            "ASgJQgzoxzEBisgxBDw9NTASLwoEbmFtZRgCIAEoCUIh8scxHXxbYS16XVst",
-            "YS16MC05XXsxLDYxfVthLXowLTldEh4KC2Rlc2NyaXB0aW9uGAMgASgJQgmK",
-            "yDEFPD0yNTYSiwEKBmxhYmVscxgEIAMoCzI6LnlhbmRleC5jbG91ZC5kYXRh",
-            "cHJvYy52MS5DcmVhdGVDbHVzdGVyUmVxdWVzdC5MYWJlbHNFbnRyeUI/gsgx",
-            "BDw9NjSKyDEEPD02M/LHMQtbLV8wLTlhLXpdKrLIMQYaBDEtNjOyyDESEhBb",
-            "YS16XVstXzAtOWEtel0qEkwKC2NvbmZpZ19zcGVjGAYgASgLMjEueWFuZGV4",
-            "LmNsb3VkLmRhdGFwcm9jLnYxLkNyZWF0ZUNsdXN0ZXJDb25maWdTcGVjQgTo",
-            "xzEBEh0KB3pvbmVfaWQYByABKAlCDOjHMQGKyDEEPD01MBIgChJzZXJ2aWNl",
-            "X2FjY291bnRfaWQYCCABKAlCBOjHMQESDgoGYnVja2V0GAkgASgJGi0KC0xh",
-            "YmVsc0VudHJ5EgsKA2tleRgBIAEoCRINCgV2YWx1ZRgCIAEoCToCOAEiKwoV",
-            "Q3JlYXRlQ2x1c3Rlck1ldGFkYXRhEhIKCmNsdXN0ZXJfaWQYASABKAkikgQK",
-            "FFVwZGF0ZUNsdXN0ZXJSZXF1ZXN0EhwKCmNsdXN0ZXJfaWQYASABKAlCCIrI",
-            "MQQ8PTUwEi8KC3VwZGF0ZV9tYXNrGAIgASgLMhouZ29vZ2xlLnByb3RvYnVm",
-            "LkZpZWxkTWFzaxIeCgtkZXNjcmlwdGlvbhgDIAEoCUIJisgxBTw9MjU2EosB",
-            "CgZsYWJlbHMYBCADKAsyOi55YW5kZXguY2xvdWQuZGF0YXByb2MudjEuVXBk",
-            "YXRlQ2x1c3RlclJlcXVlc3QuTGFiZWxzRW50cnlCP4LIMQQ8PTY0isgxBDw9",
-            "NjPyxzELWy1fMC05YS16XSqyyDEGGgQxLTYzssgxEhIQW2Etel1bLV8wLTlh",
-            "LXpdKhJGCgtjb25maWdfc3BlYxgFIAEoCzIxLnlhbmRleC5jbG91ZC5kYXRh",
-            "cHJvYy52MS5VcGRhdGVDbHVzdGVyQ29uZmlnU3BlYxIvCgRuYW1lGAYgASgJ",
-            "QiHyxzEdfFthLXpdWy1hLXowLTldezEsNjF9W2EtejAtOV0SGgoSc2Vydmlj",
-            "ZV9hY2NvdW50X2lkGAcgASgJEg4KBmJ1Y2tldBgIIAEoCRIpChRkZWNvbW1p",
-            "c3Npb25fdGltZW91dBgJIAEoA0IL+scxBzAtODY0MDAaLQoLTGFiZWxzRW50",
-            "cnkSCwoDa2V5GAEgASgJEg0KBXZhbHVlGAIgASgJOgI4ASIrChVVcGRhdGVD",
-            "bHVzdGVyTWV0YWRhdGESEgoKY2x1c3Rlcl9pZBgBIAEoCSJjChREZWxldGVD",
-            "bHVzdGVyUmVxdWVzdBIgCgpjbHVzdGVyX2lkGAEgASgJQgzoxzEBisgxBDw9",
-            "NTASKQoUZGVjb21taXNzaW9uX3RpbWVvdXQYAiABKANCC/rHMQcwLTg2NDAw",
-            "IisKFURlbGV0ZUNsdXN0ZXJNZXRhZGF0YRISCgpjbHVzdGVyX2lkGAEgASgJ",
-            "IjcKE1N0YXJ0Q2x1c3RlclJlcXVlc3QSIAoKY2x1c3Rlcl9pZBgBIAEoCUIM",
-            "6McxAYrIMQQ8PTUwIioKFFN0YXJ0Q2x1c3Rlck1ldGFkYXRhEhIKCmNsdXN0",
-            "ZXJfaWQYASABKAkiYQoSU3RvcENsdXN0ZXJSZXF1ZXN0EiAKCmNsdXN0ZXJf",
-            "aWQYASABKAlCDOjHMQGKyDEEPD01MBIpChRkZWNvbW1pc3Npb25fdGltZW91",
-            "dBgCIAEoA0IL+scxBzAtODY0MDAiKQoTU3RvcENsdXN0ZXJNZXRhZGF0YRIS",
-            "CgpjbHVzdGVyX2lkGAEgASgJIn4KHExpc3RDbHVzdGVyT3BlcmF0aW9uc1Jl",
-            "cXVlc3QSIAoKY2x1c3Rlcl9pZBgBIAEoCUIM6McxAYrIMQQ8PTUwEh0KCXBh",
-            "Z2Vfc2l6ZRgCIAEoA0IK+scxBjw9MTAwMBIdCgpwYWdlX3Rva2VuGAMgASgJ",
-            "QgmKyDEFPD0xMDAibwodTGlzdENsdXN0ZXJPcGVyYXRpb25zUmVzcG9uc2US",
-            "NQoKb3BlcmF0aW9ucxgBIAMoCzIhLnlhbmRleC5jbG91ZC5vcGVyYXRpb24u",
-            "T3BlcmF0aW9uEhcKD25leHRfcGFnZV90b2tlbhgCIAEoCSKRAQoXTGlzdENs",
-            "dXN0ZXJIb3N0c1JlcXVlc3QSHAoKY2x1c3Rlcl9pZBgBIAEoCUIIisgxBDw9",
+            "aG9zdHNfY291bnQYBSABKANCC+jHMQH6xzEDPj0xEkcKEmF1dG9zY2FsaW5n",
+            "X2NvbmZpZxgHIAEoCzIrLnlhbmRleC5jbG91ZC5kYXRhcHJvYy52MS5BdXRv",
+            "c2NhbGluZ0NvbmZpZ0oECAYQByL4AQoaVXBkYXRlU3ViY2x1c3RlckNvbmZp",
+            "Z1NwZWMSCgoCaWQYASABKAkSLwoEbmFtZRgCIAEoCUIh8scxHXxbYS16XVst",
+            "YS16MC05XXsxLDYxfVthLXowLTldEjYKCXJlc291cmNlcxgDIAEoCzIjLnlh",
+            "bmRleC5jbG91ZC5kYXRhcHJvYy52MS5SZXNvdXJjZXMSHAoLaG9zdHNfY291",
+            "bnQYBCABKANCB/rHMQM+PTESRwoSYXV0b3NjYWxpbmdfY29uZmlnGAUgASgL",
+            "MisueWFuZGV4LmNsb3VkLmRhdGFwcm9jLnYxLkF1dG9zY2FsaW5nQ29uZmln",
+            "IrUBChdDcmVhdGVDbHVzdGVyQ29uZmlnU3BlYxISCgp2ZXJzaW9uX2lkGAEg",
+            "ASgJEjYKBmhhZG9vcBgCIAEoCzImLnlhbmRleC5jbG91ZC5kYXRhcHJvYy52",
+            "MS5IYWRvb3BDb25maWcSTgoQc3ViY2x1c3RlcnNfc3BlYxgDIAMoCzI0Lnlh",
+            "bmRleC5jbG91ZC5kYXRhcHJvYy52MS5DcmVhdGVTdWJjbHVzdGVyQ29uZmln",
+            "U3BlYyJpChdVcGRhdGVDbHVzdGVyQ29uZmlnU3BlYxJOChBzdWJjbHVzdGVy",
+            "c19zcGVjGAEgAygLMjQueWFuZGV4LmNsb3VkLmRhdGFwcm9jLnYxLlVwZGF0",
+            "ZVN1YmNsdXN0ZXJDb25maWdTcGVjIvYDChRDcmVhdGVDbHVzdGVyUmVxdWVz",
+            "dBIfCglmb2xkZXJfaWQYASABKAlCDOjHMQGKyDEEPD01MBIvCgRuYW1lGAIg",
+            "ASgJQiHyxzEdfFthLXpdWy1hLXowLTldezEsNjF9W2EtejAtOV0SHgoLZGVz",
+            "Y3JpcHRpb24YAyABKAlCCYrIMQU8PTI1NhKLAQoGbGFiZWxzGAQgAygLMjou",
+            "eWFuZGV4LmNsb3VkLmRhdGFwcm9jLnYxLkNyZWF0ZUNsdXN0ZXJSZXF1ZXN0",
+            "LkxhYmVsc0VudHJ5Qj+CyDEEPD02NIrIMQQ8PTYz8scxC1stXzAtOWEtel0q",
+            "ssgxBhoEMS02M7LIMRISEFthLXpdWy1fMC05YS16XSoSTAoLY29uZmlnX3Nw",
+            "ZWMYBiABKAsyMS55YW5kZXguY2xvdWQuZGF0YXByb2MudjEuQ3JlYXRlQ2x1",
+            "c3RlckNvbmZpZ1NwZWNCBOjHMQESHQoHem9uZV9pZBgHIAEoCUIM6McxAYrI",
+            "MQQ8PTUwEiAKEnNlcnZpY2VfYWNjb3VudF9pZBgIIAEoCUIE6McxARIOCgZi",
+            "dWNrZXQYCSABKAkSEAoIdWlfcHJveHkYCiABKAgaLQoLTGFiZWxzRW50cnkS",
+            "CwoDa2V5GAEgASgJEg0KBXZhbHVlGAIgASgJOgI4ASIrChVDcmVhdGVDbHVz",
+            "dGVyTWV0YWRhdGESEgoKY2x1c3Rlcl9pZBgBIAEoCSKkBAoUVXBkYXRlQ2x1",
+            "c3RlclJlcXVlc3QSHAoKY2x1c3Rlcl9pZBgBIAEoCUIIisgxBDw9NTASLwoL",
+            "dXBkYXRlX21hc2sYAiABKAsyGi5nb29nbGUucHJvdG9idWYuRmllbGRNYXNr",
+            "Eh4KC2Rlc2NyaXB0aW9uGAMgASgJQgmKyDEFPD0yNTYSiwEKBmxhYmVscxgE",
+            "IAMoCzI6LnlhbmRleC5jbG91ZC5kYXRhcHJvYy52MS5VcGRhdGVDbHVzdGVy",
+            "UmVxdWVzdC5MYWJlbHNFbnRyeUI/gsgxBDw9NjSKyDEEPD02M/LHMQtbLV8w",
+            "LTlhLXpdKrLIMQYaBDEtNjOyyDESEhBbYS16XVstXzAtOWEtel0qEkYKC2Nv",
+            "bmZpZ19zcGVjGAUgASgLMjEueWFuZGV4LmNsb3VkLmRhdGFwcm9jLnYxLlVw",
+            "ZGF0ZUNsdXN0ZXJDb25maWdTcGVjEi8KBG5hbWUYBiABKAlCIfLHMR18W2Et",
+            "el1bLWEtejAtOV17MSw2MX1bYS16MC05XRIaChJzZXJ2aWNlX2FjY291bnRf",
+            "aWQYByABKAkSDgoGYnVja2V0GAggASgJEikKFGRlY29tbWlzc2lvbl90aW1l",
+            "b3V0GAkgASgDQgv6xzEHMC04NjQwMBIQCgh1aV9wcm94eRgKIAEoCBotCgtM",
+            "YWJlbHNFbnRyeRILCgNrZXkYASABKAkSDQoFdmFsdWUYAiABKAk6AjgBIisK",
+            "FVVwZGF0ZUNsdXN0ZXJNZXRhZGF0YRISCgpjbHVzdGVyX2lkGAEgASgJImMK",
+            "FERlbGV0ZUNsdXN0ZXJSZXF1ZXN0EiAKCmNsdXN0ZXJfaWQYASABKAlCDOjH",
+            "MQGKyDEEPD01MBIpChRkZWNvbW1pc3Npb25fdGltZW91dBgCIAEoA0IL+scx",
+            "BzAtODY0MDAiKwoVRGVsZXRlQ2x1c3Rlck1ldGFkYXRhEhIKCmNsdXN0ZXJf",
+            "aWQYASABKAkiNwoTU3RhcnRDbHVzdGVyUmVxdWVzdBIgCgpjbHVzdGVyX2lk",
+            "GAEgASgJQgzoxzEBisgxBDw9NTAiKgoUU3RhcnRDbHVzdGVyTWV0YWRhdGES",
+            "EgoKY2x1c3Rlcl9pZBgBIAEoCSJhChJTdG9wQ2x1c3RlclJlcXVlc3QSIAoK",
+            "Y2x1c3Rlcl9pZBgBIAEoCUIM6McxAYrIMQQ8PTUwEikKFGRlY29tbWlzc2lv",
+            "bl90aW1lb3V0GAIgASgDQgv6xzEHMC04NjQwMCIpChNTdG9wQ2x1c3Rlck1l",
+            "dGFkYXRhEhIKCmNsdXN0ZXJfaWQYASABKAkifgocTGlzdENsdXN0ZXJPcGVy",
+            "YXRpb25zUmVxdWVzdBIgCgpjbHVzdGVyX2lkGAEgASgJQgzoxzEBisgxBDw9",
             "NTASHQoJcGFnZV9zaXplGAIgASgDQgr6xzEGPD0xMDAwEh0KCnBhZ2VfdG9r",
-            "ZW4YAyABKAlCCYrIMQU8PTEwMBIaCgZmaWx0ZXIYBCABKAlCCorIMQY8PTEw",
-            "MDAiYgoYTGlzdENsdXN0ZXJIb3N0c1Jlc3BvbnNlEi0KBWhvc3RzGAEgAygL",
-            "Mh4ueWFuZGV4LmNsb3VkLmRhdGFwcm9jLnYxLkhvc3QSFwoPbmV4dF9wYWdl",
-            "X3Rva2VuGAIgASgJMu8LCg5DbHVzdGVyU2VydmljZRKBAQoDR2V0EisueWFu",
-            "ZGV4LmNsb3VkLmRhdGFwcm9jLnYxLkdldENsdXN0ZXJSZXF1ZXN0GiEueWFu",
-            "ZGV4LmNsb3VkLmRhdGFwcm9jLnYxLkNsdXN0ZXIiKoLT5JMCJBIiL2RhdGFw",
-            "cm9jL3YxL2NsdXN0ZXJzL3tjbHVzdGVyX2lkfRKEAQoETGlzdBItLnlhbmRl",
-            "eC5jbG91ZC5kYXRhcHJvYy52MS5MaXN0Q2x1c3RlcnNSZXF1ZXN0Gi4ueWFu",
-            "ZGV4LmNsb3VkLmRhdGFwcm9jLnYxLkxpc3RDbHVzdGVyc1Jlc3BvbnNlIh2C",
-            "0+STAhcSFS9kYXRhcHJvYy92MS9jbHVzdGVycxKhAQoGQ3JlYXRlEi4ueWFu",
-            "ZGV4LmNsb3VkLmRhdGFwcm9jLnYxLkNyZWF0ZUNsdXN0ZXJSZXF1ZXN0GiEu",
-            "eWFuZGV4LmNsb3VkLm9wZXJhdGlvbi5PcGVyYXRpb24iRILT5JMCGiIVL2Rh",
-            "dGFwcm9jL3YxL2NsdXN0ZXJzOgEqstIqIAoVQ3JlYXRlQ2x1c3Rlck1ldGFk",
-            "YXRhEgdDbHVzdGVyEq4BCgZVcGRhdGUSLi55YW5kZXguY2xvdWQuZGF0YXBy",
-            "b2MudjEuVXBkYXRlQ2x1c3RlclJlcXVlc3QaIS55YW5kZXguY2xvdWQub3Bl",
-            "cmF0aW9uLk9wZXJhdGlvbiJRgtPkkwInMiIvZGF0YXByb2MvdjEvY2x1c3Rl",
-            "cnMve2NsdXN0ZXJfaWR9OgEqstIqIAoVVXBkYXRlQ2x1c3Rlck1ldGFkYXRh",
-            "EgdDbHVzdGVyErkBCgZEZWxldGUSLi55YW5kZXguY2xvdWQuZGF0YXByb2Mu",
-            "djEuRGVsZXRlQ2x1c3RlclJlcXVlc3QaIS55YW5kZXguY2xvdWQub3BlcmF0",
-            "aW9uLk9wZXJhdGlvbiJcgtPkkwIkKiIvZGF0YXByb2MvdjEvY2x1c3RlcnMv",
-            "e2NsdXN0ZXJfaWR9stIqLgoVRGVsZXRlQ2x1c3Rlck1ldGFkYXRhEhVnb29n",
-            "bGUucHJvdG9idWYuRW1wdHkSrgEKBVN0YXJ0Ei0ueWFuZGV4LmNsb3VkLmRh",
-            "dGFwcm9jLnYxLlN0YXJ0Q2x1c3RlclJlcXVlc3QaIS55YW5kZXguY2xvdWQu",
-            "b3BlcmF0aW9uLk9wZXJhdGlvbiJTgtPkkwIqIigvZGF0YXByb2MvdjEvY2x1",
-            "c3RlcnMve2NsdXN0ZXJfaWR9OnN0YXJ0stIqHwoUU3RhcnRDbHVzdGVyTWV0",
-            "YWRhdGESB0NsdXN0ZXISrQEKBFN0b3ASLC55YW5kZXguY2xvdWQuZGF0YXBy",
-            "b2MudjEuU3RvcENsdXN0ZXJSZXF1ZXN0GiEueWFuZGV4LmNsb3VkLm9wZXJh",
-            "dGlvbi5PcGVyYXRpb24iVILT5JMCLCInL2RhdGFwcm9jL3YxL2NsdXN0ZXJz",
-            "L3tjbHVzdGVyX2lkfTpzdG9wOgEqstIqHgoTU3RvcENsdXN0ZXJNZXRhZGF0",
-            "YRIHQ2x1c3RlchK4AQoOTGlzdE9wZXJhdGlvbnMSNi55YW5kZXguY2xvdWQu",
-            "ZGF0YXByb2MudjEuTGlzdENsdXN0ZXJPcGVyYXRpb25zUmVxdWVzdBo3Lnlh",
-            "bmRleC5jbG91ZC5kYXRhcHJvYy52MS5MaXN0Q2x1c3Rlck9wZXJhdGlvbnNS",
-            "ZXNwb25zZSI1gtPkkwIvEi0vZGF0YXByb2MvdjEvY2x1c3RlcnMve2NsdXN0",
-            "ZXJfaWR9L29wZXJhdGlvbnMSpAEKCUxpc3RIb3N0cxIxLnlhbmRleC5jbG91",
-            "ZC5kYXRhcHJvYy52MS5MaXN0Q2x1c3Rlckhvc3RzUmVxdWVzdBoyLnlhbmRl",
-            "eC5jbG91ZC5kYXRhcHJvYy52MS5MaXN0Q2x1c3Rlckhvc3RzUmVzcG9uc2Ui",
-            "MILT5JMCKhIoL2RhdGFwcm9jL3YxL2NsdXN0ZXJzL3tjbHVzdGVyX2lkfS9o",
-            "b3N0c0JlChx5YW5kZXguY2xvdWQuYXBpLmRhdGFwcm9jLnYxWkVnaXRodWIu",
-            "Y29tL3lhbmRleC1jbG91ZC9nby1nZW5wcm90by95YW5kZXgvY2xvdWQvZGF0",
-            "YXByb2MvdjE7ZGF0YXByb2NiBnByb3RvMw=="));
+            "ZW4YAyABKAlCCYrIMQU8PTEwMCJvCh1MaXN0Q2x1c3Rlck9wZXJhdGlvbnNS",
+            "ZXNwb25zZRI1CgpvcGVyYXRpb25zGAEgAygLMiEueWFuZGV4LmNsb3VkLm9w",
+            "ZXJhdGlvbi5PcGVyYXRpb24SFwoPbmV4dF9wYWdlX3Rva2VuGAIgASgJIpEB",
+            "ChdMaXN0Q2x1c3Rlckhvc3RzUmVxdWVzdBIcCgpjbHVzdGVyX2lkGAEgASgJ",
+            "QgiKyDEEPD01MBIdCglwYWdlX3NpemUYAiABKANCCvrHMQY8PTEwMDASHQoK",
+            "cGFnZV90b2tlbhgDIAEoCUIJisgxBTw9MTAwEhoKBmZpbHRlchgEIAEoCUIK",
+            "isgxBjw9MTAwMCJiChhMaXN0Q2x1c3Rlckhvc3RzUmVzcG9uc2USLQoFaG9z",
+            "dHMYASADKAsyHi55YW5kZXguY2xvdWQuZGF0YXByb2MudjEuSG9zdBIXCg9u",
+            "ZXh0X3BhZ2VfdG9rZW4YAiABKAkiMgoSTGlzdFVJTGlua3NSZXF1ZXN0EhwK",
+            "CmNsdXN0ZXJfaWQYASABKAlCCIrIMQQ8PTUwIiMKBlVJTGluaxIMCgRuYW1l",
+            "GAEgASgJEgsKA3VybBgCIAEoCSJGChNMaXN0VUlMaW5rc1Jlc3BvbnNlEi8K",
+            "BWxpbmtzGAEgAygLMiAueWFuZGV4LmNsb3VkLmRhdGFwcm9jLnYxLlVJTGlu",
+            "azKRDQoOQ2x1c3RlclNlcnZpY2USgQEKA0dldBIrLnlhbmRleC5jbG91ZC5k",
+            "YXRhcHJvYy52MS5HZXRDbHVzdGVyUmVxdWVzdBohLnlhbmRleC5jbG91ZC5k",
+            "YXRhcHJvYy52MS5DbHVzdGVyIiqC0+STAiQSIi9kYXRhcHJvYy92MS9jbHVz",
+            "dGVycy97Y2x1c3Rlcl9pZH0ShAEKBExpc3QSLS55YW5kZXguY2xvdWQuZGF0",
+            "YXByb2MudjEuTGlzdENsdXN0ZXJzUmVxdWVzdBouLnlhbmRleC5jbG91ZC5k",
+            "YXRhcHJvYy52MS5MaXN0Q2x1c3RlcnNSZXNwb25zZSIdgtPkkwIXEhUvZGF0",
+            "YXByb2MvdjEvY2x1c3RlcnMSoQEKBkNyZWF0ZRIuLnlhbmRleC5jbG91ZC5k",
+            "YXRhcHJvYy52MS5DcmVhdGVDbHVzdGVyUmVxdWVzdBohLnlhbmRleC5jbG91",
+            "ZC5vcGVyYXRpb24uT3BlcmF0aW9uIkSC0+STAhoiFS9kYXRhcHJvYy92MS9j",
+            "bHVzdGVyczoBKrLSKiAKFUNyZWF0ZUNsdXN0ZXJNZXRhZGF0YRIHQ2x1c3Rl",
+            "chKuAQoGVXBkYXRlEi4ueWFuZGV4LmNsb3VkLmRhdGFwcm9jLnYxLlVwZGF0",
+            "ZUNsdXN0ZXJSZXF1ZXN0GiEueWFuZGV4LmNsb3VkLm9wZXJhdGlvbi5PcGVy",
+            "YXRpb24iUYLT5JMCJzIiL2RhdGFwcm9jL3YxL2NsdXN0ZXJzL3tjbHVzdGVy",
+            "X2lkfToBKrLSKiAKFVVwZGF0ZUNsdXN0ZXJNZXRhZGF0YRIHQ2x1c3RlchK5",
+            "AQoGRGVsZXRlEi4ueWFuZGV4LmNsb3VkLmRhdGFwcm9jLnYxLkRlbGV0ZUNs",
+            "dXN0ZXJSZXF1ZXN0GiEueWFuZGV4LmNsb3VkLm9wZXJhdGlvbi5PcGVyYXRp",
+            "b24iXILT5JMCJCoiL2RhdGFwcm9jL3YxL2NsdXN0ZXJzL3tjbHVzdGVyX2lk",
+            "fbLSKi4KFURlbGV0ZUNsdXN0ZXJNZXRhZGF0YRIVZ29vZ2xlLnByb3RvYnVm",
+            "LkVtcHR5Eq4BCgVTdGFydBItLnlhbmRleC5jbG91ZC5kYXRhcHJvYy52MS5T",
+            "dGFydENsdXN0ZXJSZXF1ZXN0GiEueWFuZGV4LmNsb3VkLm9wZXJhdGlvbi5P",
+            "cGVyYXRpb24iU4LT5JMCKiIoL2RhdGFwcm9jL3YxL2NsdXN0ZXJzL3tjbHVz",
+            "dGVyX2lkfTpzdGFydLLSKh8KFFN0YXJ0Q2x1c3Rlck1ldGFkYXRhEgdDbHVz",
+            "dGVyEq0BCgRTdG9wEiwueWFuZGV4LmNsb3VkLmRhdGFwcm9jLnYxLlN0b3BD",
+            "bHVzdGVyUmVxdWVzdBohLnlhbmRleC5jbG91ZC5vcGVyYXRpb24uT3BlcmF0",
+            "aW9uIlSC0+STAiwiJy9kYXRhcHJvYy92MS9jbHVzdGVycy97Y2x1c3Rlcl9p",
+            "ZH06c3RvcDoBKrLSKh4KE1N0b3BDbHVzdGVyTWV0YWRhdGESB0NsdXN0ZXIS",
+            "uAEKDkxpc3RPcGVyYXRpb25zEjYueWFuZGV4LmNsb3VkLmRhdGFwcm9jLnYx",
+            "Lkxpc3RDbHVzdGVyT3BlcmF0aW9uc1JlcXVlc3QaNy55YW5kZXguY2xvdWQu",
+            "ZGF0YXByb2MudjEuTGlzdENsdXN0ZXJPcGVyYXRpb25zUmVzcG9uc2UiNYLT",
+            "5JMCLxItL2RhdGFwcm9jL3YxL2NsdXN0ZXJzL3tjbHVzdGVyX2lkfS9vcGVy",
+            "YXRpb25zEqQBCglMaXN0SG9zdHMSMS55YW5kZXguY2xvdWQuZGF0YXByb2Mu",
+            "djEuTGlzdENsdXN0ZXJIb3N0c1JlcXVlc3QaMi55YW5kZXguY2xvdWQuZGF0",
+            "YXByb2MudjEuTGlzdENsdXN0ZXJIb3N0c1Jlc3BvbnNlIjCC0+STAioSKC9k",
+            "YXRhcHJvYy92MS9jbHVzdGVycy97Y2x1c3Rlcl9pZH0vaG9zdHMSnwEKC0xp",
+            "c3RVSUxpbmtzEiwueWFuZGV4LmNsb3VkLmRhdGFwcm9jLnYxLkxpc3RVSUxp",
+            "bmtzUmVxdWVzdBotLnlhbmRleC5jbG91ZC5kYXRhcHJvYy52MS5MaXN0VUlM",
+            "aW5rc1Jlc3BvbnNlIjOC0+STAi0SKy9kYXRhcHJvYy92MS9jbHVzdGVycy97",
+            "Y2x1c3Rlcl9pZH0vdWlfbGlua3NCZQoceWFuZGV4LmNsb3VkLmFwaS5kYXRh",
+            "cHJvYy52MVpFZ2l0aHViLmNvbS95YW5kZXgtY2xvdWQvZ28tZ2VucHJvdG8v",
+            "eWFuZGV4L2Nsb3VkL2RhdGFwcm9jL3YxO2RhdGFwcm9jYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Yandex.Cloud.Dataproc.V1.CommonReflection.Descriptor, global::Yandex.Cloud.Dataproc.V1.ClusterReflection.Descriptor, global::Yandex.Cloud.Dataproc.V1.SubclusterReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, global::Yandex.Cloud.Api.OperationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.GetClusterRequest), global::Yandex.Cloud.Dataproc.V1.GetClusterRequest.Parser, new[]{ "ClusterId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.ListClustersRequest), global::Yandex.Cloud.Dataproc.V1.ListClustersRequest.Parser, new[]{ "FolderId", "PageSize", "PageToken", "Filter" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.ListClustersResponse), global::Yandex.Cloud.Dataproc.V1.ListClustersResponse.Parser, new[]{ "Clusters", "NextPageToken" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.CreateSubclusterConfigSpec), global::Yandex.Cloud.Dataproc.V1.CreateSubclusterConfigSpec.Parser, new[]{ "Name", "Role", "Resources", "SubnetId", "HostsCount" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.UpdateSubclusterConfigSpec), global::Yandex.Cloud.Dataproc.V1.UpdateSubclusterConfigSpec.Parser, new[]{ "Id", "Name", "Resources", "HostsCount" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.CreateSubclusterConfigSpec), global::Yandex.Cloud.Dataproc.V1.CreateSubclusterConfigSpec.Parser, new[]{ "Name", "Role", "Resources", "SubnetId", "HostsCount", "AutoscalingConfig" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.UpdateSubclusterConfigSpec), global::Yandex.Cloud.Dataproc.V1.UpdateSubclusterConfigSpec.Parser, new[]{ "Id", "Name", "Resources", "HostsCount", "AutoscalingConfig" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.CreateClusterConfigSpec), global::Yandex.Cloud.Dataproc.V1.CreateClusterConfigSpec.Parser, new[]{ "VersionId", "Hadoop", "SubclustersSpec" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.UpdateClusterConfigSpec), global::Yandex.Cloud.Dataproc.V1.UpdateClusterConfigSpec.Parser, new[]{ "SubclustersSpec" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.CreateClusterRequest), global::Yandex.Cloud.Dataproc.V1.CreateClusterRequest.Parser, new[]{ "FolderId", "Name", "Description", "Labels", "ConfigSpec", "ZoneId", "ServiceAccountId", "Bucket" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.CreateClusterRequest), global::Yandex.Cloud.Dataproc.V1.CreateClusterRequest.Parser, new[]{ "FolderId", "Name", "Description", "Labels", "ConfigSpec", "ZoneId", "ServiceAccountId", "Bucket", "UiProxy" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.CreateClusterMetadata), global::Yandex.Cloud.Dataproc.V1.CreateClusterMetadata.Parser, new[]{ "ClusterId" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.UpdateClusterRequest), global::Yandex.Cloud.Dataproc.V1.UpdateClusterRequest.Parser, new[]{ "ClusterId", "UpdateMask", "Description", "Labels", "ConfigSpec", "Name", "ServiceAccountId", "Bucket", "DecommissionTimeout" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.UpdateClusterRequest), global::Yandex.Cloud.Dataproc.V1.UpdateClusterRequest.Parser, new[]{ "ClusterId", "UpdateMask", "Description", "Labels", "ConfigSpec", "Name", "ServiceAccountId", "Bucket", "DecommissionTimeout", "UiProxy" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.UpdateClusterMetadata), global::Yandex.Cloud.Dataproc.V1.UpdateClusterMetadata.Parser, new[]{ "ClusterId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.DeleteClusterRequest), global::Yandex.Cloud.Dataproc.V1.DeleteClusterRequest.Parser, new[]{ "ClusterId", "DecommissionTimeout" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.DeleteClusterMetadata), global::Yandex.Cloud.Dataproc.V1.DeleteClusterMetadata.Parser, new[]{ "ClusterId" }, null, null, null, null),
@@ -159,7 +170,10 @@ namespace Yandex.Cloud.Dataproc.V1 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.ListClusterOperationsRequest), global::Yandex.Cloud.Dataproc.V1.ListClusterOperationsRequest.Parser, new[]{ "ClusterId", "PageSize", "PageToken" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.ListClusterOperationsResponse), global::Yandex.Cloud.Dataproc.V1.ListClusterOperationsResponse.Parser, new[]{ "Operations", "NextPageToken" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.ListClusterHostsRequest), global::Yandex.Cloud.Dataproc.V1.ListClusterHostsRequest.Parser, new[]{ "ClusterId", "PageSize", "PageToken", "Filter" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.ListClusterHostsResponse), global::Yandex.Cloud.Dataproc.V1.ListClusterHostsResponse.Parser, new[]{ "Hosts", "NextPageToken" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.ListClusterHostsResponse), global::Yandex.Cloud.Dataproc.V1.ListClusterHostsResponse.Parser, new[]{ "Hosts", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.ListUILinksRequest), global::Yandex.Cloud.Dataproc.V1.ListUILinksRequest.Parser, new[]{ "ClusterId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.UILink), global::Yandex.Cloud.Dataproc.V1.UILink.Parser, new[]{ "Name", "Url" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.ListUILinksResponse), global::Yandex.Cloud.Dataproc.V1.ListUILinksResponse.Parser, new[]{ "Links" }, null, null, null, null)
           }));
     }
     #endregion
@@ -726,6 +740,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
       resources_ = other.resources_ != null ? other.resources_.Clone() : null;
       subnetId_ = other.subnetId_;
       hostsCount_ = other.hostsCount_;
+      autoscalingConfig_ = other.autoscalingConfig_ != null ? other.autoscalingConfig_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -804,6 +819,20 @@ namespace Yandex.Cloud.Dataproc.V1 {
       }
     }
 
+    /// <summary>Field number for the "autoscaling_config" field.</summary>
+    public const int AutoscalingConfigFieldNumber = 7;
+    private global::Yandex.Cloud.Dataproc.V1.AutoscalingConfig autoscalingConfig_;
+    /// <summary>
+    /// Configuration for instance group based subclusters
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Dataproc.V1.AutoscalingConfig AutoscalingConfig {
+      get { return autoscalingConfig_; }
+      set {
+        autoscalingConfig_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as CreateSubclusterConfigSpec);
@@ -822,6 +851,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
       if (!object.Equals(Resources, other.Resources)) return false;
       if (SubnetId != other.SubnetId) return false;
       if (HostsCount != other.HostsCount) return false;
+      if (!object.Equals(AutoscalingConfig, other.AutoscalingConfig)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -833,6 +863,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
       if (resources_ != null) hash ^= Resources.GetHashCode();
       if (SubnetId.Length != 0) hash ^= SubnetId.GetHashCode();
       if (HostsCount != 0L) hash ^= HostsCount.GetHashCode();
+      if (autoscalingConfig_ != null) hash ^= AutoscalingConfig.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -866,6 +897,10 @@ namespace Yandex.Cloud.Dataproc.V1 {
         output.WriteRawTag(40);
         output.WriteInt64(HostsCount);
       }
+      if (autoscalingConfig_ != null) {
+        output.WriteRawTag(58);
+        output.WriteMessage(AutoscalingConfig);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -888,6 +923,9 @@ namespace Yandex.Cloud.Dataproc.V1 {
       }
       if (HostsCount != 0L) {
         size += 1 + pb::CodedOutputStream.ComputeInt64Size(HostsCount);
+      }
+      if (autoscalingConfig_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(AutoscalingConfig);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -917,6 +955,12 @@ namespace Yandex.Cloud.Dataproc.V1 {
       }
       if (other.HostsCount != 0L) {
         HostsCount = other.HostsCount;
+      }
+      if (other.autoscalingConfig_ != null) {
+        if (autoscalingConfig_ == null) {
+          AutoscalingConfig = new global::Yandex.Cloud.Dataproc.V1.AutoscalingConfig();
+        }
+        AutoscalingConfig.MergeFrom(other.AutoscalingConfig);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -950,6 +994,13 @@ namespace Yandex.Cloud.Dataproc.V1 {
           }
           case 40: {
             HostsCount = input.ReadInt64();
+            break;
+          }
+          case 58: {
+            if (autoscalingConfig_ == null) {
+              AutoscalingConfig = new global::Yandex.Cloud.Dataproc.V1.AutoscalingConfig();
+            }
+            input.ReadMessage(AutoscalingConfig);
             break;
           }
         }
@@ -987,6 +1038,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
       name_ = other.name_;
       resources_ = other.resources_ != null ? other.resources_.Clone() : null;
       hostsCount_ = other.hostsCount_;
+      autoscalingConfig_ = other.autoscalingConfig_ != null ? other.autoscalingConfig_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1053,6 +1105,20 @@ namespace Yandex.Cloud.Dataproc.V1 {
       }
     }
 
+    /// <summary>Field number for the "autoscaling_config" field.</summary>
+    public const int AutoscalingConfigFieldNumber = 5;
+    private global::Yandex.Cloud.Dataproc.V1.AutoscalingConfig autoscalingConfig_;
+    /// <summary>
+    /// Configuration for instance group based subclusters
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Dataproc.V1.AutoscalingConfig AutoscalingConfig {
+      get { return autoscalingConfig_; }
+      set {
+        autoscalingConfig_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as UpdateSubclusterConfigSpec);
@@ -1070,6 +1136,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
       if (Name != other.Name) return false;
       if (!object.Equals(Resources, other.Resources)) return false;
       if (HostsCount != other.HostsCount) return false;
+      if (!object.Equals(AutoscalingConfig, other.AutoscalingConfig)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1080,6 +1147,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
       if (Name.Length != 0) hash ^= Name.GetHashCode();
       if (resources_ != null) hash ^= Resources.GetHashCode();
       if (HostsCount != 0L) hash ^= HostsCount.GetHashCode();
+      if (autoscalingConfig_ != null) hash ^= AutoscalingConfig.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1109,6 +1177,10 @@ namespace Yandex.Cloud.Dataproc.V1 {
         output.WriteRawTag(32);
         output.WriteInt64(HostsCount);
       }
+      if (autoscalingConfig_ != null) {
+        output.WriteRawTag(42);
+        output.WriteMessage(AutoscalingConfig);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1128,6 +1200,9 @@ namespace Yandex.Cloud.Dataproc.V1 {
       }
       if (HostsCount != 0L) {
         size += 1 + pb::CodedOutputStream.ComputeInt64Size(HostsCount);
+      }
+      if (autoscalingConfig_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(AutoscalingConfig);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1154,6 +1229,12 @@ namespace Yandex.Cloud.Dataproc.V1 {
       }
       if (other.HostsCount != 0L) {
         HostsCount = other.HostsCount;
+      }
+      if (other.autoscalingConfig_ != null) {
+        if (autoscalingConfig_ == null) {
+          AutoscalingConfig = new global::Yandex.Cloud.Dataproc.V1.AutoscalingConfig();
+        }
+        AutoscalingConfig.MergeFrom(other.AutoscalingConfig);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -1183,6 +1264,13 @@ namespace Yandex.Cloud.Dataproc.V1 {
           }
           case 32: {
             HostsCount = input.ReadInt64();
+            break;
+          }
+          case 42: {
+            if (autoscalingConfig_ == null) {
+              AutoscalingConfig = new global::Yandex.Cloud.Dataproc.V1.AutoscalingConfig();
+            }
+            input.ReadMessage(AutoscalingConfig);
             break;
           }
         }
@@ -1542,6 +1630,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
       zoneId_ = other.zoneId_;
       serviceAccountId_ = other.serviceAccountId_;
       bucket_ = other.bucket_;
+      uiProxy_ = other.uiProxy_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1666,6 +1755,20 @@ namespace Yandex.Cloud.Dataproc.V1 {
       }
     }
 
+    /// <summary>Field number for the "ui_proxy" field.</summary>
+    public const int UiProxyFieldNumber = 10;
+    private bool uiProxy_;
+    /// <summary>
+    /// Enable UI Proxy feature.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool UiProxy {
+      get { return uiProxy_; }
+      set {
+        uiProxy_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as CreateClusterRequest);
@@ -1687,6 +1790,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
       if (ZoneId != other.ZoneId) return false;
       if (ServiceAccountId != other.ServiceAccountId) return false;
       if (Bucket != other.Bucket) return false;
+      if (UiProxy != other.UiProxy) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1701,6 +1805,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
       if (ZoneId.Length != 0) hash ^= ZoneId.GetHashCode();
       if (ServiceAccountId.Length != 0) hash ^= ServiceAccountId.GetHashCode();
       if (Bucket.Length != 0) hash ^= Bucket.GetHashCode();
+      if (UiProxy != false) hash ^= UiProxy.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1743,6 +1848,10 @@ namespace Yandex.Cloud.Dataproc.V1 {
         output.WriteRawTag(74);
         output.WriteString(Bucket);
       }
+      if (UiProxy != false) {
+        output.WriteRawTag(80);
+        output.WriteBool(UiProxy);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1772,6 +1881,9 @@ namespace Yandex.Cloud.Dataproc.V1 {
       }
       if (Bucket.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Bucket);
+      }
+      if (UiProxy != false) {
+        size += 1 + 1;
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1808,6 +1920,9 @@ namespace Yandex.Cloud.Dataproc.V1 {
       }
       if (other.Bucket.Length != 0) {
         Bucket = other.Bucket;
+      }
+      if (other.UiProxy != false) {
+        UiProxy = other.UiProxy;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -1853,6 +1968,10 @@ namespace Yandex.Cloud.Dataproc.V1 {
           }
           case 74: {
             Bucket = input.ReadString();
+            break;
+          }
+          case 80: {
+            UiProxy = input.ReadBool();
             break;
           }
         }
@@ -2027,6 +2146,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
       serviceAccountId_ = other.serviceAccountId_;
       bucket_ = other.bucket_;
       decommissionTimeout_ = other.decommissionTimeout_;
+      uiProxy_ = other.uiProxy_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -2162,6 +2282,20 @@ namespace Yandex.Cloud.Dataproc.V1 {
       }
     }
 
+    /// <summary>Field number for the "ui_proxy" field.</summary>
+    public const int UiProxyFieldNumber = 10;
+    private bool uiProxy_;
+    /// <summary>
+    /// Enable UI Proxy feature.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool UiProxy {
+      get { return uiProxy_; }
+      set {
+        uiProxy_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as UpdateClusterRequest);
@@ -2184,6 +2318,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
       if (ServiceAccountId != other.ServiceAccountId) return false;
       if (Bucket != other.Bucket) return false;
       if (DecommissionTimeout != other.DecommissionTimeout) return false;
+      if (UiProxy != other.UiProxy) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -2199,6 +2334,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
       if (ServiceAccountId.Length != 0) hash ^= ServiceAccountId.GetHashCode();
       if (Bucket.Length != 0) hash ^= Bucket.GetHashCode();
       if (DecommissionTimeout != 0L) hash ^= DecommissionTimeout.GetHashCode();
+      if (UiProxy != false) hash ^= UiProxy.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -2245,6 +2381,10 @@ namespace Yandex.Cloud.Dataproc.V1 {
         output.WriteRawTag(72);
         output.WriteInt64(DecommissionTimeout);
       }
+      if (UiProxy != false) {
+        output.WriteRawTag(80);
+        output.WriteBool(UiProxy);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -2277,6 +2417,9 @@ namespace Yandex.Cloud.Dataproc.V1 {
       }
       if (DecommissionTimeout != 0L) {
         size += 1 + pb::CodedOutputStream.ComputeInt64Size(DecommissionTimeout);
+      }
+      if (UiProxy != false) {
+        size += 1 + 1;
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -2319,6 +2462,9 @@ namespace Yandex.Cloud.Dataproc.V1 {
       }
       if (other.DecommissionTimeout != 0L) {
         DecommissionTimeout = other.DecommissionTimeout;
+      }
+      if (other.UiProxy != false) {
+        UiProxy = other.UiProxy;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -2371,6 +2517,10 @@ namespace Yandex.Cloud.Dataproc.V1 {
           }
           case 72: {
             DecommissionTimeout = input.ReadInt64();
+            break;
+          }
+          case 80: {
+            UiProxy = input.ReadBool();
             break;
           }
         }
@@ -4116,6 +4266,419 @@ namespace Yandex.Cloud.Dataproc.V1 {
           }
           case 18: {
             NextPageToken = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  internal sealed partial class ListUILinksRequest : pb::IMessage<ListUILinksRequest> {
+    private static readonly pb::MessageParser<ListUILinksRequest> _parser = new pb::MessageParser<ListUILinksRequest>(() => new ListUILinksRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<ListUILinksRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Dataproc.V1.ClusterServiceReflection.Descriptor.MessageTypes[21]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ListUILinksRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ListUILinksRequest(ListUILinksRequest other) : this() {
+      clusterId_ = other.clusterId_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ListUILinksRequest Clone() {
+      return new ListUILinksRequest(this);
+    }
+
+    /// <summary>Field number for the "cluster_id" field.</summary>
+    public const int ClusterIdFieldNumber = 1;
+    private string clusterId_ = "";
+    /// <summary>
+    /// Required. ID of the Hadoop cluster.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ClusterId {
+      get { return clusterId_; }
+      set {
+        clusterId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as ListUILinksRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(ListUILinksRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (ClusterId != other.ClusterId) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (ClusterId.Length != 0) hash ^= ClusterId.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (ClusterId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(ClusterId);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (ClusterId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ClusterId);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(ListUILinksRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.ClusterId.Length != 0) {
+        ClusterId = other.ClusterId;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            ClusterId = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  internal sealed partial class UILink : pb::IMessage<UILink> {
+    private static readonly pb::MessageParser<UILink> _parser = new pb::MessageParser<UILink>(() => new UILink());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<UILink> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Dataproc.V1.ClusterServiceReflection.Descriptor.MessageTypes[22]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public UILink() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public UILink(UILink other) : this() {
+      name_ = other.name_;
+      url_ = other.url_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public UILink Clone() {
+      return new UILink(this);
+    }
+
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 1;
+    private string name_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Name {
+      get { return name_; }
+      set {
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "url" field.</summary>
+    public const int UrlFieldNumber = 2;
+    private string url_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Url {
+      get { return url_; }
+      set {
+        url_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as UILink);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(UILink other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Name != other.Name) return false;
+      if (Url != other.Url) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Name.Length != 0) hash ^= Name.GetHashCode();
+      if (Url.Length != 0) hash ^= Url.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (Name.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      if (Url.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Url);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Name.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+      }
+      if (Url.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Url);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(UILink other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Name.Length != 0) {
+        Name = other.Name;
+      }
+      if (other.Url.Length != 0) {
+        Url = other.Url;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Name = input.ReadString();
+            break;
+          }
+          case 18: {
+            Url = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  internal sealed partial class ListUILinksResponse : pb::IMessage<ListUILinksResponse> {
+    private static readonly pb::MessageParser<ListUILinksResponse> _parser = new pb::MessageParser<ListUILinksResponse>(() => new ListUILinksResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<ListUILinksResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Dataproc.V1.ClusterServiceReflection.Descriptor.MessageTypes[23]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ListUILinksResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ListUILinksResponse(ListUILinksResponse other) : this() {
+      links_ = other.links_.Clone();
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ListUILinksResponse Clone() {
+      return new ListUILinksResponse(this);
+    }
+
+    /// <summary>Field number for the "links" field.</summary>
+    public const int LinksFieldNumber = 1;
+    private static readonly pb::FieldCodec<global::Yandex.Cloud.Dataproc.V1.UILink> _repeated_links_codec
+        = pb::FieldCodec.ForMessage(10, global::Yandex.Cloud.Dataproc.V1.UILink.Parser);
+    private readonly pbc::RepeatedField<global::Yandex.Cloud.Dataproc.V1.UILink> links_ = new pbc::RepeatedField<global::Yandex.Cloud.Dataproc.V1.UILink>();
+    /// <summary>
+    /// Requested list of ui links.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<global::Yandex.Cloud.Dataproc.V1.UILink> Links {
+      get { return links_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as ListUILinksResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(ListUILinksResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if(!links_.Equals(other.links_)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      hash ^= links_.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      links_.WriteTo(output, _repeated_links_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      size += links_.CalculateSize(_repeated_links_codec);
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(ListUILinksResponse other) {
+      if (other == null) {
+        return;
+      }
+      links_.Add(other.links_);
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            links_.AddEntriesFrom(input, _repeated_links_codec);
             break;
           }
         }

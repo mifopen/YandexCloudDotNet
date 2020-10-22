@@ -27,31 +27,58 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
             "Cih5YW5kZXgvY2xvdWQvaW90L2RldmljZXMvdjEvZGV2aWNlLnByb3RvEht5",
             "YW5kZXguY2xvdWQuaW90LmRldmljZXMudjEaH2dvb2dsZS9wcm90b2J1Zi90",
             "aW1lc3RhbXAucHJvdG8aHXlhbmRleC9jbG91ZC92YWxpZGF0aW9uLnByb3Rv",
-            "Iv8BCgZEZXZpY2USCgoCaWQYASABKAkSEwoLcmVnaXN0cnlfaWQYAiABKAkS",
+            "ItEDCgZEZXZpY2USCgoCaWQYASABKAkSEwoLcmVnaXN0cnlfaWQYAiABKAkS",
             "LgoKY3JlYXRlZF9hdBgDIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3Rh",
             "bXASDAoEbmFtZRgEIAEoCRITCgtkZXNjcmlwdGlvbhgFIAEoCRJMCg10b3Bp",
             "Y19hbGlhc2VzGAYgAygLMjUueWFuZGV4LmNsb3VkLmlvdC5kZXZpY2VzLnYx",
-            "LkRldmljZS5Ub3BpY0FsaWFzZXNFbnRyeRozChFUb3BpY0FsaWFzZXNFbnRy",
-            "eRILCgNrZXkYASABKAkSDQoFdmFsdWUYAiABKAk6AjgBIoUBChFEZXZpY2VD",
-            "ZXJ0aWZpY2F0ZRIRCglkZXZpY2VfaWQYASABKAkSEwoLZmluZ2VycHJpbnQY",
-            "AiABKAkSGAoQY2VydGlmaWNhdGVfZGF0YRgDIAEoCRIuCgpjcmVhdGVkX2F0",
-            "GAQgASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcCJfCg5EZXZpY2VQ",
-            "YXNzd29yZBIRCglkZXZpY2VfaWQYASABKAkSCgoCaWQYAiABKAkSLgoKY3Jl",
-            "YXRlZF9hdBgDIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXBCagof",
-            "eWFuZGV4LmNsb3VkLmFwaS5pb3QuZGV2aWNlcy52MVpHZ2l0aHViLmNvbS95",
-            "YW5kZXgtY2xvdWQvZ28tZ2VucHJvdG8veWFuZGV4L2Nsb3VkL2lvdC9kZXZp",
-            "Y2VzL3YxO2RldmljZXNiBnByb3RvMw=="));
+            "LkRldmljZS5Ub3BpY0FsaWFzZXNFbnRyeRI6CgZzdGF0dXMYByABKA4yKi55",
+            "YW5kZXguY2xvdWQuaW90LmRldmljZXMudjEuRGV2aWNlLlN0YXR1cxJKCg9t",
+            "b25pdG9yaW5nX2RhdGEYCCABKAsyMS55YW5kZXguY2xvdWQuaW90LmRldmlj",
+            "ZXMudjEuRGV2aWNlTW9uaXRvcmluZ0RhdGEaMwoRVG9waWNBbGlhc2VzRW50",
+            "cnkSCwoDa2V5GAEgASgJEg0KBXZhbHVlGAIgASgJOgI4ASJICgZTdGF0dXMS",
+            "FgoSU1RBVFVTX1VOU1BFQ0lGSUVEEAASDAoIQ1JFQVRJTkcQARIKCgZBQ1RJ",
+            "VkUQAhIMCghERUxFVElORxADIoUBChFEZXZpY2VDZXJ0aWZpY2F0ZRIRCglk",
+            "ZXZpY2VfaWQYASABKAkSEwoLZmluZ2VycHJpbnQYAiABKAkSGAoQY2VydGlm",
+            "aWNhdGVfZGF0YRgDIAEoCRIuCgpjcmVhdGVkX2F0GAQgASgLMhouZ29vZ2xl",
+            "LnByb3RvYnVmLlRpbWVzdGFtcCJfCg5EZXZpY2VQYXNzd29yZBIRCglkZXZp",
+            "Y2VfaWQYASABKAkSCgoCaWQYAiABKAkSLgoKY3JlYXRlZF9hdBgDIAEoCzIa",
+            "Lmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXAijgIKFERldmljZU1vbml0b3Jp",
+            "bmdEYXRhEhQKDGxhc3RfYXV0aF9pcBgBIAEoCRIyCg5sYXN0X2F1dGhfdGlt",
+            "ZRgCIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXASOgoWbGFzdF9w",
+            "dWJfYWN0aXZpdHlfdGltZRgDIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1l",
+            "c3RhbXASOgoWbGFzdF9zdWJfYWN0aXZpdHlfdGltZRgEIAEoCzIaLmdvb2ds",
+            "ZS5wcm90b2J1Zi5UaW1lc3RhbXASNAoQbGFzdF9vbmxpbmVfdGltZRgFIAEo",
+            "CzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXAqIQoKRGV2aWNlVmlldxIJ",
+            "CgVCQVNJQxAAEggKBEZVTEwQAUJqCh95YW5kZXguY2xvdWQuYXBpLmlvdC5k",
+            "ZXZpY2VzLnYxWkdnaXRodWIuY29tL3lhbmRleC1jbG91ZC9nby1nZW5wcm90",
+            "by95YW5kZXgvY2xvdWQvaW90L2RldmljZXMvdjE7ZGV2aWNlc2IGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.Device), global::Yandex.Cloud.Iot.Devices.V1.Device.Parser, new[]{ "Id", "RegistryId", "CreatedAt", "Name", "Description", "TopicAliases" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Yandex.Cloud.Iot.Devices.V1.DeviceView), }, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.Device), global::Yandex.Cloud.Iot.Devices.V1.Device.Parser, new[]{ "Id", "RegistryId", "CreatedAt", "Name", "Description", "TopicAliases", "Status", "MonitoringData" }, null, new[]{ typeof(global::Yandex.Cloud.Iot.Devices.V1.Device.Types.Status) }, null, new pbr::GeneratedClrTypeInfo[] { null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.DeviceCertificate), global::Yandex.Cloud.Iot.Devices.V1.DeviceCertificate.Parser, new[]{ "DeviceId", "Fingerprint", "CertificateData", "CreatedAt" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.DevicePassword), global::Yandex.Cloud.Iot.Devices.V1.DevicePassword.Parser, new[]{ "DeviceId", "Id", "CreatedAt" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.DevicePassword), global::Yandex.Cloud.Iot.Devices.V1.DevicePassword.Parser, new[]{ "DeviceId", "Id", "CreatedAt" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.DeviceMonitoringData), global::Yandex.Cloud.Iot.Devices.V1.DeviceMonitoringData.Parser, new[]{ "LastAuthIp", "LastAuthTime", "LastPubActivityTime", "LastSubActivityTime", "LastOnlineTime" }, null, null, null, null)
           }));
     }
     #endregion
 
   }
+  #region Enums
+  internal enum DeviceView {
+    /// <summary>
+    /// Server responses without monitoring data.
+    /// The default value.
+    /// </summary>
+    [pbr::OriginalName("BASIC")] Basic = 0,
+    /// <summary>
+    /// Server responses with monitoring data.
+    /// </summary>
+    [pbr::OriginalName("FULL")] Full = 1,
+  }
+
+  #endregion
+
   #region Messages
   /// <summary>
   /// A device. For more information, see [Device](/docs/iot-core/concepts/index#device).
@@ -87,6 +114,8 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
       name_ = other.name_;
       description_ = other.description_;
       topicAliases_ = other.topicAliases_.Clone();
+      status_ = other.status_;
+      monitoringData_ = other.monitoringData_ != null ? other.monitoringData_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -180,6 +209,34 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
       get { return topicAliases_; }
     }
 
+    /// <summary>Field number for the "status" field.</summary>
+    public const int StatusFieldNumber = 7;
+    private global::Yandex.Cloud.Iot.Devices.V1.Device.Types.Status status_ = global::Yandex.Cloud.Iot.Devices.V1.Device.Types.Status.Unspecified;
+    /// <summary>
+    /// Status of the device.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Iot.Devices.V1.Device.Types.Status Status {
+      get { return status_; }
+      set {
+        status_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "monitoring_data" field.</summary>
+    public const int MonitoringDataFieldNumber = 8;
+    private global::Yandex.Cloud.Iot.Devices.V1.DeviceMonitoringData monitoringData_;
+    /// <summary>
+    /// Device monitoring data, returns if FULL view specified.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Iot.Devices.V1.DeviceMonitoringData MonitoringData {
+      get { return monitoringData_; }
+      set {
+        monitoringData_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as Device);
@@ -199,6 +256,8 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
       if (Name != other.Name) return false;
       if (Description != other.Description) return false;
       if (!TopicAliases.Equals(other.TopicAliases)) return false;
+      if (Status != other.Status) return false;
+      if (!object.Equals(MonitoringData, other.MonitoringData)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -211,6 +270,8 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
       if (Name.Length != 0) hash ^= Name.GetHashCode();
       if (Description.Length != 0) hash ^= Description.GetHashCode();
       hash ^= TopicAliases.GetHashCode();
+      if (Status != global::Yandex.Cloud.Iot.Devices.V1.Device.Types.Status.Unspecified) hash ^= Status.GetHashCode();
+      if (monitoringData_ != null) hash ^= MonitoringData.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -245,6 +306,14 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
         output.WriteString(Description);
       }
       topicAliases_.WriteTo(output, _map_topicAliases_codec);
+      if (Status != global::Yandex.Cloud.Iot.Devices.V1.Device.Types.Status.Unspecified) {
+        output.WriteRawTag(56);
+        output.WriteEnum((int) Status);
+      }
+      if (monitoringData_ != null) {
+        output.WriteRawTag(66);
+        output.WriteMessage(MonitoringData);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -269,6 +338,12 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Description);
       }
       size += topicAliases_.CalculateSize(_map_topicAliases_codec);
+      if (Status != global::Yandex.Cloud.Iot.Devices.V1.Device.Types.Status.Unspecified) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Status);
+      }
+      if (monitoringData_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(MonitoringData);
+      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -299,6 +374,15 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
         Description = other.Description;
       }
       topicAliases_.Add(other.topicAliases_);
+      if (other.Status != global::Yandex.Cloud.Iot.Devices.V1.Device.Types.Status.Unspecified) {
+        Status = other.Status;
+      }
+      if (other.monitoringData_ != null) {
+        if (monitoringData_ == null) {
+          MonitoringData = new global::Yandex.Cloud.Iot.Devices.V1.DeviceMonitoringData();
+        }
+        MonitoringData.MergeFrom(other.MonitoringData);
+      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -337,9 +421,43 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
             topicAliases_.AddEntriesFrom(input, _map_topicAliases_codec);
             break;
           }
+          case 56: {
+            Status = (global::Yandex.Cloud.Iot.Devices.V1.Device.Types.Status) input.ReadEnum();
+            break;
+          }
+          case 66: {
+            if (monitoringData_ == null) {
+              MonitoringData = new global::Yandex.Cloud.Iot.Devices.V1.DeviceMonitoringData();
+            }
+            input.ReadMessage(MonitoringData);
+            break;
+          }
         }
       }
     }
+
+    #region Nested types
+    /// <summary>Container for nested types declared in the Device message type.</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static partial class Types {
+      internal enum Status {
+        [pbr::OriginalName("STATUS_UNSPECIFIED")] Unspecified = 0,
+        /// <summary>
+        /// Device is being created.
+        /// </summary>
+        [pbr::OriginalName("CREATING")] Creating = 1,
+        /// <summary>
+        /// Device is ready to use.
+        /// </summary>
+        [pbr::OriginalName("ACTIVE")] Active = 2,
+        /// <summary>
+        /// Device is being deleted.
+        /// </summary>
+        [pbr::OriginalName("DELETING")] Deleting = 3,
+      }
+
+    }
+    #endregion
 
   }
 
@@ -772,6 +890,271 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
               CreatedAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
             }
             input.ReadMessage(CreatedAt);
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  internal sealed partial class DeviceMonitoringData : pb::IMessage<DeviceMonitoringData> {
+    private static readonly pb::MessageParser<DeviceMonitoringData> _parser = new pb::MessageParser<DeviceMonitoringData>(() => new DeviceMonitoringData());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<DeviceMonitoringData> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Iot.Devices.V1.DeviceReflection.Descriptor.MessageTypes[3]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DeviceMonitoringData() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DeviceMonitoringData(DeviceMonitoringData other) : this() {
+      lastAuthIp_ = other.lastAuthIp_;
+      lastAuthTime_ = other.lastAuthTime_ != null ? other.lastAuthTime_.Clone() : null;
+      lastPubActivityTime_ = other.lastPubActivityTime_ != null ? other.lastPubActivityTime_.Clone() : null;
+      lastSubActivityTime_ = other.lastSubActivityTime_ != null ? other.lastSubActivityTime_.Clone() : null;
+      lastOnlineTime_ = other.lastOnlineTime_ != null ? other.lastOnlineTime_.Clone() : null;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DeviceMonitoringData Clone() {
+      return new DeviceMonitoringData(this);
+    }
+
+    /// <summary>Field number for the "last_auth_ip" field.</summary>
+    public const int LastAuthIpFieldNumber = 1;
+    private string lastAuthIp_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string LastAuthIp {
+      get { return lastAuthIp_; }
+      set {
+        lastAuthIp_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "last_auth_time" field.</summary>
+    public const int LastAuthTimeFieldNumber = 2;
+    private global::Google.Protobuf.WellKnownTypes.Timestamp lastAuthTime_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Google.Protobuf.WellKnownTypes.Timestamp LastAuthTime {
+      get { return lastAuthTime_; }
+      set {
+        lastAuthTime_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "last_pub_activity_time" field.</summary>
+    public const int LastPubActivityTimeFieldNumber = 3;
+    private global::Google.Protobuf.WellKnownTypes.Timestamp lastPubActivityTime_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Google.Protobuf.WellKnownTypes.Timestamp LastPubActivityTime {
+      get { return lastPubActivityTime_; }
+      set {
+        lastPubActivityTime_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "last_sub_activity_time" field.</summary>
+    public const int LastSubActivityTimeFieldNumber = 4;
+    private global::Google.Protobuf.WellKnownTypes.Timestamp lastSubActivityTime_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Google.Protobuf.WellKnownTypes.Timestamp LastSubActivityTime {
+      get { return lastSubActivityTime_; }
+      set {
+        lastSubActivityTime_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "last_online_time" field.</summary>
+    public const int LastOnlineTimeFieldNumber = 5;
+    private global::Google.Protobuf.WellKnownTypes.Timestamp lastOnlineTime_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Google.Protobuf.WellKnownTypes.Timestamp LastOnlineTime {
+      get { return lastOnlineTime_; }
+      set {
+        lastOnlineTime_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as DeviceMonitoringData);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(DeviceMonitoringData other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (LastAuthIp != other.LastAuthIp) return false;
+      if (!object.Equals(LastAuthTime, other.LastAuthTime)) return false;
+      if (!object.Equals(LastPubActivityTime, other.LastPubActivityTime)) return false;
+      if (!object.Equals(LastSubActivityTime, other.LastSubActivityTime)) return false;
+      if (!object.Equals(LastOnlineTime, other.LastOnlineTime)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (LastAuthIp.Length != 0) hash ^= LastAuthIp.GetHashCode();
+      if (lastAuthTime_ != null) hash ^= LastAuthTime.GetHashCode();
+      if (lastPubActivityTime_ != null) hash ^= LastPubActivityTime.GetHashCode();
+      if (lastSubActivityTime_ != null) hash ^= LastSubActivityTime.GetHashCode();
+      if (lastOnlineTime_ != null) hash ^= LastOnlineTime.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (LastAuthIp.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(LastAuthIp);
+      }
+      if (lastAuthTime_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(LastAuthTime);
+      }
+      if (lastPubActivityTime_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(LastPubActivityTime);
+      }
+      if (lastSubActivityTime_ != null) {
+        output.WriteRawTag(34);
+        output.WriteMessage(LastSubActivityTime);
+      }
+      if (lastOnlineTime_ != null) {
+        output.WriteRawTag(42);
+        output.WriteMessage(LastOnlineTime);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (LastAuthIp.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(LastAuthIp);
+      }
+      if (lastAuthTime_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(LastAuthTime);
+      }
+      if (lastPubActivityTime_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(LastPubActivityTime);
+      }
+      if (lastSubActivityTime_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(LastSubActivityTime);
+      }
+      if (lastOnlineTime_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(LastOnlineTime);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(DeviceMonitoringData other) {
+      if (other == null) {
+        return;
+      }
+      if (other.LastAuthIp.Length != 0) {
+        LastAuthIp = other.LastAuthIp;
+      }
+      if (other.lastAuthTime_ != null) {
+        if (lastAuthTime_ == null) {
+          LastAuthTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+        }
+        LastAuthTime.MergeFrom(other.LastAuthTime);
+      }
+      if (other.lastPubActivityTime_ != null) {
+        if (lastPubActivityTime_ == null) {
+          LastPubActivityTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+        }
+        LastPubActivityTime.MergeFrom(other.LastPubActivityTime);
+      }
+      if (other.lastSubActivityTime_ != null) {
+        if (lastSubActivityTime_ == null) {
+          LastSubActivityTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+        }
+        LastSubActivityTime.MergeFrom(other.LastSubActivityTime);
+      }
+      if (other.lastOnlineTime_ != null) {
+        if (lastOnlineTime_ == null) {
+          LastOnlineTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+        }
+        LastOnlineTime.MergeFrom(other.LastOnlineTime);
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            LastAuthIp = input.ReadString();
+            break;
+          }
+          case 18: {
+            if (lastAuthTime_ == null) {
+              LastAuthTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(LastAuthTime);
+            break;
+          }
+          case 26: {
+            if (lastPubActivityTime_ == null) {
+              LastPubActivityTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(LastPubActivityTime);
+            break;
+          }
+          case 34: {
+            if (lastSubActivityTime_ == null) {
+              LastSubActivityTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(LastSubActivityTime);
+            break;
+          }
+          case 42: {
+            if (lastOnlineTime_ == null) {
+              LastOnlineTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(LastOnlineTime);
             break;
           }
         }

@@ -30,123 +30,126 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
             "c2sucHJvdG8aHXlhbmRleC9jbG91ZC92YWxpZGF0aW9uLnByb3RvGiB5YW5k",
             "ZXgvY2xvdWQvYXBpL29wZXJhdGlvbi5wcm90bxomeWFuZGV4L2Nsb3VkL29w",
             "ZXJhdGlvbi9vcGVyYXRpb24ucHJvdG8aKHlhbmRleC9jbG91ZC9pb3QvZGV2",
-            "aWNlcy92MS9kZXZpY2UucHJvdG8iMwoQR2V0RGV2aWNlUmVxdWVzdBIfCglk",
-            "ZXZpY2VfaWQYASABKAlCDOjHMQGKyDEEPD01MCKeAQoSTGlzdERldmljZXNS",
-            "ZXF1ZXN0Eh8KC3JlZ2lzdHJ5X2lkGAEgASgJQgiKyDEEPD01MEgAEh0KCWZv",
-            "bGRlcl9pZBgCIAEoCUIIisgxBDw9NTBIABIdCglwYWdlX3NpemUYAyABKANC",
-            "CvrHMQYwLTEwMDASHQoKcGFnZV90b2tlbhgEIAEoCUIJisgxBTw9MTAwQgoK",
-            "AmlkEgTAwTEBImQKE0xpc3REZXZpY2VzUmVzcG9uc2USNAoHZGV2aWNlcxgB",
-            "IAMoCzIjLnlhbmRleC5jbG91ZC5pb3QuZGV2aWNlcy52MS5EZXZpY2USFwoP",
-            "bmV4dF9wYWdlX3Rva2VuGAIgASgJIqUDChNDcmVhdGVEZXZpY2VSZXF1ZXN0",
-            "EiEKC3JlZ2lzdHJ5X2lkGAEgASgJQgzoxzEBisgxBDw9NTASLAoEbmFtZRgC",
-            "IAEoCUIe6McxAYrIMQQ8PTUw8scxDlthLXpBLVowLTlfLV0qEh4KC2Rlc2Ny",
-            "aXB0aW9uGAMgASgJQgmKyDEFPD0yNTYSUgoMY2VydGlmaWNhdGVzGAQgAygL",
-            "MjwueWFuZGV4LmNsb3VkLmlvdC5kZXZpY2VzLnYxLkNyZWF0ZURldmljZVJl",
-            "cXVlc3QuQ2VydGlmaWNhdGUSWQoNdG9waWNfYWxpYXNlcxgFIAMoCzJCLnlh",
-            "bmRleC5jbG91ZC5pb3QuZGV2aWNlcy52MS5DcmVhdGVEZXZpY2VSZXF1ZXN0",
-            "LlRvcGljQWxpYXNlc0VudHJ5EhAKCHBhc3N3b3JkGAYgASgJGjMKEVRvcGlj",
-            "QWxpYXNlc0VudHJ5EgsKA2tleRgBIAEoCRINCgV2YWx1ZRgCIAEoCToCOAEa",
-            "JwoLQ2VydGlmaWNhdGUSGAoQY2VydGlmaWNhdGVfZGF0YRgBIAEoCSIpChRD",
-            "cmVhdGVEZXZpY2VNZXRhZGF0YRIRCglkZXZpY2VfaWQYASABKAkiwQIKE1Vw",
-            "ZGF0ZURldmljZVJlcXVlc3QSHwoJZGV2aWNlX2lkGAEgASgJQgzoxzEBisgx",
-            "BDw9NTASLwoLdXBkYXRlX21hc2sYAiABKAsyGi5nb29nbGUucHJvdG9idWYu",
-            "RmllbGRNYXNrEigKBG5hbWUYAyABKAlCGorIMQQ8PTUw8scxDlthLXpBLVow",
-            "LTlfLV0qEh4KC2Rlc2NyaXB0aW9uGAQgASgJQgmKyDEFPD0yNTYSWQoNdG9w",
-            "aWNfYWxpYXNlcxgFIAMoCzJCLnlhbmRleC5jbG91ZC5pb3QuZGV2aWNlcy52",
-            "MS5VcGRhdGVEZXZpY2VSZXF1ZXN0LlRvcGljQWxpYXNlc0VudHJ5GjMKEVRv",
-            "cGljQWxpYXNlc0VudHJ5EgsKA2tleRgBIAEoCRINCgV2YWx1ZRgCIAEoCToC",
-            "OAEiKQoUVXBkYXRlRGV2aWNlTWV0YWRhdGESEQoJZGV2aWNlX2lkGAEgASgJ",
-            "IjYKE0RlbGV0ZURldmljZVJlcXVlc3QSHwoJZGV2aWNlX2lkGAEgASgJQgzo",
-            "xzEBisgxBDw9NTAiKQoURGVsZXRlRGV2aWNlTWV0YWRhdGESEQoJZGV2aWNl",
-            "X2lkGAEgASgJIkAKHUxpc3REZXZpY2VDZXJ0aWZpY2F0ZXNSZXF1ZXN0Eh8K",
-            "CWRldmljZV9pZBgBIAEoCUIM6McxAYrIMQQ8PTUwImYKHkxpc3REZXZpY2VD",
-            "ZXJ0aWZpY2F0ZXNSZXNwb25zZRJECgxjZXJ0aWZpY2F0ZXMYASADKAsyLi55",
-            "YW5kZXguY2xvdWQuaW90LmRldmljZXMudjEuRGV2aWNlQ2VydGlmaWNhdGUi",
-            "WAobQWRkRGV2aWNlQ2VydGlmaWNhdGVSZXF1ZXN0Eh8KCWRldmljZV9pZBgB",
-            "IAEoCUIM6McxAYrIMQQ8PTUwEhgKEGNlcnRpZmljYXRlX2RhdGEYAyABKAki",
-            "RgocQWRkRGV2aWNlQ2VydGlmaWNhdGVNZXRhZGF0YRIRCglkZXZpY2VfaWQY",
-            "ASABKAkSEwoLZmluZ2VycHJpbnQYAiABKAkiZAoeRGVsZXRlRGV2aWNlQ2Vy",
-            "dGlmaWNhdGVSZXF1ZXN0Eh8KCWRldmljZV9pZBgBIAEoCUIM6McxAYrIMQQ8",
-            "PTUwEiEKC2ZpbmdlcnByaW50GAIgASgJQgzoxzEBisgxBDw9NTAiZQofRGVs",
-            "ZXRlRGV2aWNlQ2VydGlmaWNhdGVNZXRhZGF0YRIfCglkZXZpY2VfaWQYASAB",
-            "KAlCDOjHMQGKyDEEPD01MBIhCgtmaW5nZXJwcmludBgCIAEoCUIM6McxAYrI",
-            "MQQ8PTUwIj0KGkxpc3REZXZpY2VQYXNzd29yZHNSZXF1ZXN0Eh8KCWRldmlj",
-            "ZV9pZBgBIAEoCUIM6McxAYrIMQQ8PTUwIl0KG0xpc3REZXZpY2VQYXNzd29y",
-            "ZHNSZXNwb25zZRI+CglwYXNzd29yZHMYASADKAsyKy55YW5kZXguY2xvdWQu",
-            "aW90LmRldmljZXMudjEuRGV2aWNlUGFzc3dvcmQiVwoYQWRkRGV2aWNlUGFz",
-            "c3dvcmRSZXF1ZXN0Eh8KCWRldmljZV9pZBgBIAEoCUIM6McxAYrIMQQ8PTUw",
-            "EhoKCHBhc3N3b3JkGAIgASgJQgiKyDEEPj0xNCJDChlBZGREZXZpY2VQYXNz",
-            "d29yZE1ldGFkYXRhEhEKCWRldmljZV9pZBgBIAEoCRITCgtwYXNzd29yZF9p",
-            "ZBgCIAEoCSJhChtEZWxldGVEZXZpY2VQYXNzd29yZFJlcXVlc3QSHwoJZGV2",
-            "aWNlX2lkGAEgASgJQgzoxzEBisgxBDw9NTASIQoLcGFzc3dvcmRfaWQYAiAB",
-            "KAlCDOjHMQGKyDEEPD01MCJiChxEZWxldGVEZXZpY2VQYXNzd29yZE1ldGFk",
-            "YXRhEh8KCWRldmljZV9pZBgBIAEoCUIM6McxAYrIMQQ8PTUwEiEKC3Bhc3N3",
-            "b3JkX2lkGAIgASgJQgzoxzEBisgxBDw9NTAikAEKG0xpc3REZXZpY2VPcGVy",
-            "YXRpb25zUmVxdWVzdBIXCglkZXZpY2VfaWQYASABKAlCBOjHMQESHQoJcGFn",
-            "ZV9zaXplGAIgASgDQgr6xzEGMC0xMDAwEh0KCnBhZ2VfdG9rZW4YAyABKAlC",
-            "CYrIMQU8PTEwMBIaCgZmaWx0ZXIYBCABKAlCCorIMQY8PTEwMDAibgocTGlz",
-            "dERldmljZU9wZXJhdGlvbnNSZXNwb25zZRI1CgpvcGVyYXRpb25zGAEgAygL",
-            "MiEueWFuZGV4LmNsb3VkLm9wZXJhdGlvbi5PcGVyYXRpb24SFwoPbmV4dF9w",
-            "YWdlX3Rva2VuGAIgASgJMp0SCg1EZXZpY2VTZXJ2aWNlEoYBCgNHZXQSLS55",
-            "YW5kZXguY2xvdWQuaW90LmRldmljZXMudjEuR2V0RGV2aWNlUmVxdWVzdBoj",
-            "LnlhbmRleC5jbG91ZC5pb3QuZGV2aWNlcy52MS5EZXZpY2UiK4LT5JMCJRIj",
-            "L2lvdC1kZXZpY2VzL3YxL2RldmljZXMve2RldmljZV9pZH0SigEKBExpc3QS",
-            "Ly55YW5kZXguY2xvdWQuaW90LmRldmljZXMudjEuTGlzdERldmljZXNSZXF1",
-            "ZXN0GjAueWFuZGV4LmNsb3VkLmlvdC5kZXZpY2VzLnYxLkxpc3REZXZpY2Vz",
-            "UmVzcG9uc2UiH4LT5JMCGRIXL2lvdC1kZXZpY2VzL3YxL2RldmljZXMSowEK",
-            "BkNyZWF0ZRIwLnlhbmRleC5jbG91ZC5pb3QuZGV2aWNlcy52MS5DcmVhdGVE",
-            "ZXZpY2VSZXF1ZXN0GiEueWFuZGV4LmNsb3VkLm9wZXJhdGlvbi5PcGVyYXRp",
-            "b24iRILT5JMCHCIXL2lvdC1kZXZpY2VzL3YxL2RldmljZXM6ASqy0ioeChRD",
-            "cmVhdGVEZXZpY2VNZXRhZGF0YRIGRGV2aWNlEq8BCgZVcGRhdGUSMC55YW5k",
-            "ZXguY2xvdWQuaW90LmRldmljZXMudjEuVXBkYXRlRGV2aWNlUmVxdWVzdBoh",
-            "LnlhbmRleC5jbG91ZC5vcGVyYXRpb24uT3BlcmF0aW9uIlCC0+STAigyIy9p",
-            "b3QtZGV2aWNlcy92MS9kZXZpY2VzL3tkZXZpY2VfaWR9OgEqstIqHgoUVXBk",
-            "YXRlRGV2aWNlTWV0YWRhdGESBkRldmljZRK7AQoGRGVsZXRlEjAueWFuZGV4",
-            "LmNsb3VkLmlvdC5kZXZpY2VzLnYxLkRlbGV0ZURldmljZVJlcXVlc3QaIS55",
-            "YW5kZXguY2xvdWQub3BlcmF0aW9uLk9wZXJhdGlvbiJcgtPkkwIlKiMvaW90",
-            "LWRldmljZXMvdjEvZGV2aWNlcy97ZGV2aWNlX2lkfbLSKi0KFERlbGV0ZURl",
-            "dmljZU1ldGFkYXRhEhVnb29nbGUucHJvdG9idWYuRW1wdHkSxQEKEExpc3RD",
-            "ZXJ0aWZpY2F0ZXMSOi55YW5kZXguY2xvdWQuaW90LmRldmljZXMudjEuTGlz",
-            "dERldmljZUNlcnRpZmljYXRlc1JlcXVlc3QaOy55YW5kZXguY2xvdWQuaW90",
-            "LmRldmljZXMudjEuTGlzdERldmljZUNlcnRpZmljYXRlc1Jlc3BvbnNlIjiC",
-            "0+STAjISMC9pb3QtZGV2aWNlcy92MS9kZXZpY2VzL3tkZXZpY2VfaWR9L2Nl",
-            "cnRpZmljYXRlcxLfAQoOQWRkQ2VydGlmaWNhdGUSOC55YW5kZXguY2xvdWQu",
-            "aW90LmRldmljZXMudjEuQWRkRGV2aWNlQ2VydGlmaWNhdGVSZXF1ZXN0GiEu",
-            "eWFuZGV4LmNsb3VkLm9wZXJhdGlvbi5PcGVyYXRpb24icILT5JMCNSIwL2lv",
-            "dC1kZXZpY2VzL3YxL2RldmljZXMve2RldmljZV9pZH0vY2VydGlmaWNhdGVz",
-            "OgEqstIqMQocQWRkRGV2aWNlQ2VydGlmaWNhdGVNZXRhZGF0YRIRRGV2aWNl",
-            "Q2VydGlmaWNhdGUS+AEKEURlbGV0ZUNlcnRpZmljYXRlEjsueWFuZGV4LmNs",
-            "b3VkLmlvdC5kZXZpY2VzLnYxLkRlbGV0ZURldmljZUNlcnRpZmljYXRlUmVx",
-            "dWVzdBohLnlhbmRleC5jbG91ZC5vcGVyYXRpb24uT3BlcmF0aW9uIoIBgtPk",
-            "kwJAKj4vaW90LWRldmljZXMvdjEvZGV2aWNlcy97ZGV2aWNlX2lkfS9jZXJ0",
-            "aWZpY2F0ZXMve2ZpbmdlcnByaW50fbLSKjgKH0RlbGV0ZURldmljZUNlcnRp",
-            "ZmljYXRlTWV0YWRhdGESFWdvb2dsZS5wcm90b2J1Zi5FbXB0eRK5AQoNTGlz",
-            "dFBhc3N3b3JkcxI3LnlhbmRleC5jbG91ZC5pb3QuZGV2aWNlcy52MS5MaXN0",
-            "RGV2aWNlUGFzc3dvcmRzUmVxdWVzdBo4LnlhbmRleC5jbG91ZC5pb3QuZGV2",
-            "aWNlcy52MS5MaXN0RGV2aWNlUGFzc3dvcmRzUmVzcG9uc2UiNYLT5JMCLxIt",
-            "L2lvdC1kZXZpY2VzL3YxL2RldmljZXMve2RldmljZV9pZH0vcGFzc3dvcmRz",
-            "EtABCgtBZGRQYXNzd29yZBI1LnlhbmRleC5jbG91ZC5pb3QuZGV2aWNlcy52",
-            "MS5BZGREZXZpY2VQYXNzd29yZFJlcXVlc3QaIS55YW5kZXguY2xvdWQub3Bl",
-            "cmF0aW9uLk9wZXJhdGlvbiJngtPkkwIyIi0vaW90LWRldmljZXMvdjEvZGV2",
-            "aWNlcy97ZGV2aWNlX2lkfS9wYXNzd29yZHM6ASqy0iorChlBZGREZXZpY2VQ",
-            "YXNzd29yZE1ldGFkYXRhEg5EZXZpY2VQYXNzd29yZBLrAQoORGVsZXRlUGFz",
-            "c3dvcmQSOC55YW5kZXguY2xvdWQuaW90LmRldmljZXMudjEuRGVsZXRlRGV2",
-            "aWNlUGFzc3dvcmRSZXF1ZXN0GiEueWFuZGV4LmNsb3VkLm9wZXJhdGlvbi5P",
-            "cGVyYXRpb24ifILT5JMCPSo7L2lvdC1kZXZpY2VzL3YxL2RldmljZXMve2Rl",
-            "dmljZV9pZH0vcGFzc3dvcmRzL3twYXNzd29yZF9pZH2y0io1ChxEZWxldGVE",
-            "ZXZpY2VQYXNzd29yZE1ldGFkYXRhEhVnb29nbGUucHJvdG9idWYuRW1wdHkS",
-            "vQEKDkxpc3RPcGVyYXRpb25zEjgueWFuZGV4LmNsb3VkLmlvdC5kZXZpY2Vz",
-            "LnYxLkxpc3REZXZpY2VPcGVyYXRpb25zUmVxdWVzdBo5LnlhbmRleC5jbG91",
-            "ZC5pb3QuZGV2aWNlcy52MS5MaXN0RGV2aWNlT3BlcmF0aW9uc1Jlc3BvbnNl",
-            "IjaC0+STAjASLi9pb3QtZGV2aWNlcy92MS9kZXZpY2VzL3tkZXZpY2VfaWR9",
-            "L29wZXJhdGlvbnNCagofeWFuZGV4LmNsb3VkLmFwaS5pb3QuZGV2aWNlcy52",
-            "MVpHZ2l0aHViLmNvbS95YW5kZXgtY2xvdWQvZ28tZ2VucHJvdG8veWFuZGV4",
-            "L2Nsb3VkL2lvdC9kZXZpY2VzL3YxO2RldmljZXNiBnByb3RvMw=="));
+            "aWNlcy92MS9kZXZpY2UucHJvdG8icQoQR2V0RGV2aWNlUmVxdWVzdBIfCglk",
+            "ZXZpY2VfaWQYASABKAlCDOjHMQGKyDEEPD01MBI8CgtkZXZpY2VfdmlldxgC",
+            "IAEoDjInLnlhbmRleC5jbG91ZC5pb3QuZGV2aWNlcy52MS5EZXZpY2VWaWV3",
+            "ItwBChJMaXN0RGV2aWNlc1JlcXVlc3QSHwoLcmVnaXN0cnlfaWQYASABKAlC",
+            "CIrIMQQ8PTUwSAASHQoJZm9sZGVyX2lkGAIgASgJQgiKyDEEPD01MEgAEh0K",
+            "CXBhZ2Vfc2l6ZRgDIAEoA0IK+scxBjAtMTAwMBIdCgpwYWdlX3Rva2VuGAQg",
+            "ASgJQgmKyDEFPD0xMDASPAoLZGV2aWNlX3ZpZXcYBSABKA4yJy55YW5kZXgu",
+            "Y2xvdWQuaW90LmRldmljZXMudjEuRGV2aWNlVmlld0IKCgJpZBIEwMExASJk",
+            "ChNMaXN0RGV2aWNlc1Jlc3BvbnNlEjQKB2RldmljZXMYASADKAsyIy55YW5k",
+            "ZXguY2xvdWQuaW90LmRldmljZXMudjEuRGV2aWNlEhcKD25leHRfcGFnZV90",
+            "b2tlbhgCIAEoCSKlAwoTQ3JlYXRlRGV2aWNlUmVxdWVzdBIhCgtyZWdpc3Ry",
+            "eV9pZBgBIAEoCUIM6McxAYrIMQQ8PTUwEiwKBG5hbWUYAiABKAlCHujHMQGK",
+            "yDEEPD01MPLHMQ5bYS16QS1aMC05Xy1dKhIeCgtkZXNjcmlwdGlvbhgDIAEo",
+            "CUIJisgxBTw9MjU2ElIKDGNlcnRpZmljYXRlcxgEIAMoCzI8LnlhbmRleC5j",
+            "bG91ZC5pb3QuZGV2aWNlcy52MS5DcmVhdGVEZXZpY2VSZXF1ZXN0LkNlcnRp",
+            "ZmljYXRlElkKDXRvcGljX2FsaWFzZXMYBSADKAsyQi55YW5kZXguY2xvdWQu",
+            "aW90LmRldmljZXMudjEuQ3JlYXRlRGV2aWNlUmVxdWVzdC5Ub3BpY0FsaWFz",
+            "ZXNFbnRyeRIQCghwYXNzd29yZBgGIAEoCRozChFUb3BpY0FsaWFzZXNFbnRy",
+            "eRILCgNrZXkYASABKAkSDQoFdmFsdWUYAiABKAk6AjgBGicKC0NlcnRpZmlj",
+            "YXRlEhgKEGNlcnRpZmljYXRlX2RhdGEYASABKAkiKQoUQ3JlYXRlRGV2aWNl",
+            "TWV0YWRhdGESEQoJZGV2aWNlX2lkGAEgASgJIsECChNVcGRhdGVEZXZpY2VS",
+            "ZXF1ZXN0Eh8KCWRldmljZV9pZBgBIAEoCUIM6McxAYrIMQQ8PTUwEi8KC3Vw",
+            "ZGF0ZV9tYXNrGAIgASgLMhouZ29vZ2xlLnByb3RvYnVmLkZpZWxkTWFzaxIo",
+            "CgRuYW1lGAMgASgJQhqKyDEEPD01MPLHMQ5bYS16QS1aMC05Xy1dKhIeCgtk",
+            "ZXNjcmlwdGlvbhgEIAEoCUIJisgxBTw9MjU2ElkKDXRvcGljX2FsaWFzZXMY",
+            "BSADKAsyQi55YW5kZXguY2xvdWQuaW90LmRldmljZXMudjEuVXBkYXRlRGV2",
+            "aWNlUmVxdWVzdC5Ub3BpY0FsaWFzZXNFbnRyeRozChFUb3BpY0FsaWFzZXNF",
+            "bnRyeRILCgNrZXkYASABKAkSDQoFdmFsdWUYAiABKAk6AjgBIikKFFVwZGF0",
+            "ZURldmljZU1ldGFkYXRhEhEKCWRldmljZV9pZBgBIAEoCSI2ChNEZWxldGVE",
+            "ZXZpY2VSZXF1ZXN0Eh8KCWRldmljZV9pZBgBIAEoCUIM6McxAYrIMQQ8PTUw",
+            "IikKFERlbGV0ZURldmljZU1ldGFkYXRhEhEKCWRldmljZV9pZBgBIAEoCSJA",
+            "Ch1MaXN0RGV2aWNlQ2VydGlmaWNhdGVzUmVxdWVzdBIfCglkZXZpY2VfaWQY",
+            "ASABKAlCDOjHMQGKyDEEPD01MCJmCh5MaXN0RGV2aWNlQ2VydGlmaWNhdGVz",
+            "UmVzcG9uc2USRAoMY2VydGlmaWNhdGVzGAEgAygLMi4ueWFuZGV4LmNsb3Vk",
+            "LmlvdC5kZXZpY2VzLnYxLkRldmljZUNlcnRpZmljYXRlIlgKG0FkZERldmlj",
+            "ZUNlcnRpZmljYXRlUmVxdWVzdBIfCglkZXZpY2VfaWQYASABKAlCDOjHMQGK",
+            "yDEEPD01MBIYChBjZXJ0aWZpY2F0ZV9kYXRhGAMgASgJIkYKHEFkZERldmlj",
+            "ZUNlcnRpZmljYXRlTWV0YWRhdGESEQoJZGV2aWNlX2lkGAEgASgJEhMKC2Zp",
+            "bmdlcnByaW50GAIgASgJImQKHkRlbGV0ZURldmljZUNlcnRpZmljYXRlUmVx",
+            "dWVzdBIfCglkZXZpY2VfaWQYASABKAlCDOjHMQGKyDEEPD01MBIhCgtmaW5n",
+            "ZXJwcmludBgCIAEoCUIM6McxAYrIMQQ8PTUwImUKH0RlbGV0ZURldmljZUNl",
+            "cnRpZmljYXRlTWV0YWRhdGESHwoJZGV2aWNlX2lkGAEgASgJQgzoxzEBisgx",
+            "BDw9NTASIQoLZmluZ2VycHJpbnQYAiABKAlCDOjHMQGKyDEEPD01MCI9ChpM",
+            "aXN0RGV2aWNlUGFzc3dvcmRzUmVxdWVzdBIfCglkZXZpY2VfaWQYASABKAlC",
+            "DOjHMQGKyDEEPD01MCJdChtMaXN0RGV2aWNlUGFzc3dvcmRzUmVzcG9uc2US",
+            "PgoJcGFzc3dvcmRzGAEgAygLMisueWFuZGV4LmNsb3VkLmlvdC5kZXZpY2Vz",
+            "LnYxLkRldmljZVBhc3N3b3JkIlcKGEFkZERldmljZVBhc3N3b3JkUmVxdWVz",
+            "dBIfCglkZXZpY2VfaWQYASABKAlCDOjHMQGKyDEEPD01MBIaCghwYXNzd29y",
+            "ZBgCIAEoCUIIisgxBD49MTQiQwoZQWRkRGV2aWNlUGFzc3dvcmRNZXRhZGF0",
+            "YRIRCglkZXZpY2VfaWQYASABKAkSEwoLcGFzc3dvcmRfaWQYAiABKAkiYQob",
+            "RGVsZXRlRGV2aWNlUGFzc3dvcmRSZXF1ZXN0Eh8KCWRldmljZV9pZBgBIAEo",
+            "CUIM6McxAYrIMQQ8PTUwEiEKC3Bhc3N3b3JkX2lkGAIgASgJQgzoxzEBisgx",
+            "BDw9NTAiYgocRGVsZXRlRGV2aWNlUGFzc3dvcmRNZXRhZGF0YRIfCglkZXZp",
+            "Y2VfaWQYASABKAlCDOjHMQGKyDEEPD01MBIhCgtwYXNzd29yZF9pZBgCIAEo",
+            "CUIM6McxAYrIMQQ8PTUwIpABChtMaXN0RGV2aWNlT3BlcmF0aW9uc1JlcXVl",
+            "c3QSFwoJZGV2aWNlX2lkGAEgASgJQgToxzEBEh0KCXBhZ2Vfc2l6ZRgCIAEo",
+            "A0IK+scxBjAtMTAwMBIdCgpwYWdlX3Rva2VuGAMgASgJQgmKyDEFPD0xMDAS",
+            "GgoGZmlsdGVyGAQgASgJQgqKyDEGPD0xMDAwIm4KHExpc3REZXZpY2VPcGVy",
+            "YXRpb25zUmVzcG9uc2USNQoKb3BlcmF0aW9ucxgBIAMoCzIhLnlhbmRleC5j",
+            "bG91ZC5vcGVyYXRpb24uT3BlcmF0aW9uEhcKD25leHRfcGFnZV90b2tlbhgC",
+            "IAEoCTKdEgoNRGV2aWNlU2VydmljZRKGAQoDR2V0Ei0ueWFuZGV4LmNsb3Vk",
+            "LmlvdC5kZXZpY2VzLnYxLkdldERldmljZVJlcXVlc3QaIy55YW5kZXguY2xv",
+            "dWQuaW90LmRldmljZXMudjEuRGV2aWNlIiuC0+STAiUSIy9pb3QtZGV2aWNl",
+            "cy92MS9kZXZpY2VzL3tkZXZpY2VfaWR9EooBCgRMaXN0Ei8ueWFuZGV4LmNs",
+            "b3VkLmlvdC5kZXZpY2VzLnYxLkxpc3REZXZpY2VzUmVxdWVzdBowLnlhbmRl",
+            "eC5jbG91ZC5pb3QuZGV2aWNlcy52MS5MaXN0RGV2aWNlc1Jlc3BvbnNlIh+C",
+            "0+STAhkSFy9pb3QtZGV2aWNlcy92MS9kZXZpY2VzEqMBCgZDcmVhdGUSMC55",
+            "YW5kZXguY2xvdWQuaW90LmRldmljZXMudjEuQ3JlYXRlRGV2aWNlUmVxdWVz",
+            "dBohLnlhbmRleC5jbG91ZC5vcGVyYXRpb24uT3BlcmF0aW9uIkSC0+STAhwi",
+            "Fy9pb3QtZGV2aWNlcy92MS9kZXZpY2VzOgEqstIqHgoUQ3JlYXRlRGV2aWNl",
+            "TWV0YWRhdGESBkRldmljZRKvAQoGVXBkYXRlEjAueWFuZGV4LmNsb3VkLmlv",
+            "dC5kZXZpY2VzLnYxLlVwZGF0ZURldmljZVJlcXVlc3QaIS55YW5kZXguY2xv",
+            "dWQub3BlcmF0aW9uLk9wZXJhdGlvbiJQgtPkkwIoMiMvaW90LWRldmljZXMv",
+            "djEvZGV2aWNlcy97ZGV2aWNlX2lkfToBKrLSKh4KFFVwZGF0ZURldmljZU1l",
+            "dGFkYXRhEgZEZXZpY2USuwEKBkRlbGV0ZRIwLnlhbmRleC5jbG91ZC5pb3Qu",
+            "ZGV2aWNlcy52MS5EZWxldGVEZXZpY2VSZXF1ZXN0GiEueWFuZGV4LmNsb3Vk",
+            "Lm9wZXJhdGlvbi5PcGVyYXRpb24iXILT5JMCJSojL2lvdC1kZXZpY2VzL3Yx",
+            "L2RldmljZXMve2RldmljZV9pZH2y0iotChREZWxldGVEZXZpY2VNZXRhZGF0",
+            "YRIVZ29vZ2xlLnByb3RvYnVmLkVtcHR5EsUBChBMaXN0Q2VydGlmaWNhdGVz",
+            "EjoueWFuZGV4LmNsb3VkLmlvdC5kZXZpY2VzLnYxLkxpc3REZXZpY2VDZXJ0",
+            "aWZpY2F0ZXNSZXF1ZXN0GjsueWFuZGV4LmNsb3VkLmlvdC5kZXZpY2VzLnYx",
+            "Lkxpc3REZXZpY2VDZXJ0aWZpY2F0ZXNSZXNwb25zZSI4gtPkkwIyEjAvaW90",
+            "LWRldmljZXMvdjEvZGV2aWNlcy97ZGV2aWNlX2lkfS9jZXJ0aWZpY2F0ZXMS",
+            "3wEKDkFkZENlcnRpZmljYXRlEjgueWFuZGV4LmNsb3VkLmlvdC5kZXZpY2Vz",
+            "LnYxLkFkZERldmljZUNlcnRpZmljYXRlUmVxdWVzdBohLnlhbmRleC5jbG91",
+            "ZC5vcGVyYXRpb24uT3BlcmF0aW9uInCC0+STAjUiMC9pb3QtZGV2aWNlcy92",
+            "MS9kZXZpY2VzL3tkZXZpY2VfaWR9L2NlcnRpZmljYXRlczoBKrLSKjEKHEFk",
+            "ZERldmljZUNlcnRpZmljYXRlTWV0YWRhdGESEURldmljZUNlcnRpZmljYXRl",
+            "EvgBChFEZWxldGVDZXJ0aWZpY2F0ZRI7LnlhbmRleC5jbG91ZC5pb3QuZGV2",
+            "aWNlcy52MS5EZWxldGVEZXZpY2VDZXJ0aWZpY2F0ZVJlcXVlc3QaIS55YW5k",
+            "ZXguY2xvdWQub3BlcmF0aW9uLk9wZXJhdGlvbiKCAYLT5JMCQCo+L2lvdC1k",
+            "ZXZpY2VzL3YxL2RldmljZXMve2RldmljZV9pZH0vY2VydGlmaWNhdGVzL3tm",
+            "aW5nZXJwcmludH2y0io4Ch9EZWxldGVEZXZpY2VDZXJ0aWZpY2F0ZU1ldGFk",
+            "YXRhEhVnb29nbGUucHJvdG9idWYuRW1wdHkSuQEKDUxpc3RQYXNzd29yZHMS",
+            "Ny55YW5kZXguY2xvdWQuaW90LmRldmljZXMudjEuTGlzdERldmljZVBhc3N3",
+            "b3Jkc1JlcXVlc3QaOC55YW5kZXguY2xvdWQuaW90LmRldmljZXMudjEuTGlz",
+            "dERldmljZVBhc3N3b3Jkc1Jlc3BvbnNlIjWC0+STAi8SLS9pb3QtZGV2aWNl",
+            "cy92MS9kZXZpY2VzL3tkZXZpY2VfaWR9L3Bhc3N3b3JkcxLQAQoLQWRkUGFz",
+            "c3dvcmQSNS55YW5kZXguY2xvdWQuaW90LmRldmljZXMudjEuQWRkRGV2aWNl",
+            "UGFzc3dvcmRSZXF1ZXN0GiEueWFuZGV4LmNsb3VkLm9wZXJhdGlvbi5PcGVy",
+            "YXRpb24iZ4LT5JMCMiItL2lvdC1kZXZpY2VzL3YxL2RldmljZXMve2Rldmlj",
+            "ZV9pZH0vcGFzc3dvcmRzOgEqstIqKwoZQWRkRGV2aWNlUGFzc3dvcmRNZXRh",
+            "ZGF0YRIORGV2aWNlUGFzc3dvcmQS6wEKDkRlbGV0ZVBhc3N3b3JkEjgueWFu",
+            "ZGV4LmNsb3VkLmlvdC5kZXZpY2VzLnYxLkRlbGV0ZURldmljZVBhc3N3b3Jk",
+            "UmVxdWVzdBohLnlhbmRleC5jbG91ZC5vcGVyYXRpb24uT3BlcmF0aW9uInyC",
+            "0+STAj0qOy9pb3QtZGV2aWNlcy92MS9kZXZpY2VzL3tkZXZpY2VfaWR9L3Bh",
+            "c3N3b3Jkcy97cGFzc3dvcmRfaWR9stIqNQocRGVsZXRlRGV2aWNlUGFzc3dv",
+            "cmRNZXRhZGF0YRIVZ29vZ2xlLnByb3RvYnVmLkVtcHR5Er0BCg5MaXN0T3Bl",
+            "cmF0aW9ucxI4LnlhbmRleC5jbG91ZC5pb3QuZGV2aWNlcy52MS5MaXN0RGV2",
+            "aWNlT3BlcmF0aW9uc1JlcXVlc3QaOS55YW5kZXguY2xvdWQuaW90LmRldmlj",
+            "ZXMudjEuTGlzdERldmljZU9wZXJhdGlvbnNSZXNwb25zZSI2gtPkkwIwEi4v",
+            "aW90LWRldmljZXMvdjEvZGV2aWNlcy97ZGV2aWNlX2lkfS9vcGVyYXRpb25z",
+            "QmoKH3lhbmRleC5jbG91ZC5hcGkuaW90LmRldmljZXMudjFaR2dpdGh1Yi5j",
+            "b20veWFuZGV4LWNsb3VkL2dvLWdlbnByb3RvL3lhbmRleC9jbG91ZC9pb3Qv",
+            "ZGV2aWNlcy92MTtkZXZpY2VzYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, global::Yandex.Cloud.Api.OperationReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.Iot.Devices.V1.DeviceReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.GetDeviceRequest), global::Yandex.Cloud.Iot.Devices.V1.GetDeviceRequest.Parser, new[]{ "DeviceId" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.ListDevicesRequest), global::Yandex.Cloud.Iot.Devices.V1.ListDevicesRequest.Parser, new[]{ "RegistryId", "FolderId", "PageSize", "PageToken" }, new[]{ "Id" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.GetDeviceRequest), global::Yandex.Cloud.Iot.Devices.V1.GetDeviceRequest.Parser, new[]{ "DeviceId", "DeviceView" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.ListDevicesRequest), global::Yandex.Cloud.Iot.Devices.V1.ListDevicesRequest.Parser, new[]{ "RegistryId", "FolderId", "PageSize", "PageToken", "DeviceView" }, new[]{ "Id" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.ListDevicesResponse), global::Yandex.Cloud.Iot.Devices.V1.ListDevicesResponse.Parser, new[]{ "Devices", "NextPageToken" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.CreateDeviceRequest), global::Yandex.Cloud.Iot.Devices.V1.CreateDeviceRequest.Parser, new[]{ "RegistryId", "Name", "Description", "Certificates", "TopicAliases", "Password" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.CreateDeviceRequest.Types.Certificate), global::Yandex.Cloud.Iot.Devices.V1.CreateDeviceRequest.Types.Certificate.Parser, new[]{ "CertificateData" }, null, null, null, null)}),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Iot.Devices.V1.CreateDeviceMetadata), global::Yandex.Cloud.Iot.Devices.V1.CreateDeviceMetadata.Parser, new[]{ "DeviceId" }, null, null, null, null),
@@ -200,6 +203,7 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public GetDeviceRequest(GetDeviceRequest other) : this() {
       deviceId_ = other.deviceId_;
+      deviceView_ = other.deviceView_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -224,6 +228,21 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
       }
     }
 
+    /// <summary>Field number for the "device_view" field.</summary>
+    public const int DeviceViewFieldNumber = 2;
+    private global::Yandex.Cloud.Iot.Devices.V1.DeviceView deviceView_ = global::Yandex.Cloud.Iot.Devices.V1.DeviceView.Basic;
+    /// <summary>
+    /// Specifies which parts of the device resource should be returned
+    /// in the response.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Iot.Devices.V1.DeviceView DeviceView {
+      get { return deviceView_; }
+      set {
+        deviceView_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as GetDeviceRequest);
@@ -238,6 +257,7 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
         return true;
       }
       if (DeviceId != other.DeviceId) return false;
+      if (DeviceView != other.DeviceView) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -245,6 +265,7 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (DeviceId.Length != 0) hash ^= DeviceId.GetHashCode();
+      if (DeviceView != global::Yandex.Cloud.Iot.Devices.V1.DeviceView.Basic) hash ^= DeviceView.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -262,6 +283,10 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
         output.WriteRawTag(10);
         output.WriteString(DeviceId);
       }
+      if (DeviceView != global::Yandex.Cloud.Iot.Devices.V1.DeviceView.Basic) {
+        output.WriteRawTag(16);
+        output.WriteEnum((int) DeviceView);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -272,6 +297,9 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
       int size = 0;
       if (DeviceId.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(DeviceId);
+      }
+      if (DeviceView != global::Yandex.Cloud.Iot.Devices.V1.DeviceView.Basic) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) DeviceView);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -287,6 +315,9 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
       if (other.DeviceId.Length != 0) {
         DeviceId = other.DeviceId;
       }
+      if (other.DeviceView != global::Yandex.Cloud.Iot.Devices.V1.DeviceView.Basic) {
+        DeviceView = other.DeviceView;
+      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -300,6 +331,10 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
             break;
           case 10: {
             DeviceId = input.ReadString();
+            break;
+          }
+          case 16: {
+            DeviceView = (global::Yandex.Cloud.Iot.Devices.V1.DeviceView) input.ReadEnum();
             break;
           }
         }
@@ -335,6 +370,7 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
     public ListDevicesRequest(ListDevicesRequest other) : this() {
       pageSize_ = other.pageSize_;
       pageToken_ = other.pageToken_;
+      deviceView_ = other.deviceView_;
       switch (other.IdCase) {
         case IdOneofCase.RegistryId:
           RegistryId = other.RegistryId;
@@ -416,6 +452,21 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
       }
     }
 
+    /// <summary>Field number for the "device_view" field.</summary>
+    public const int DeviceViewFieldNumber = 5;
+    private global::Yandex.Cloud.Iot.Devices.V1.DeviceView deviceView_ = global::Yandex.Cloud.Iot.Devices.V1.DeviceView.Basic;
+    /// <summary>
+    /// Specifies which parts of the device resource should be returned
+    /// in the response.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Iot.Devices.V1.DeviceView DeviceView {
+      get { return deviceView_; }
+      set {
+        deviceView_ = value;
+      }
+    }
+
     private object id_;
     /// <summary>Enum of possible cases for the "id" oneof.</summary>
     public enum IdOneofCase {
@@ -452,6 +503,7 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
       if (FolderId != other.FolderId) return false;
       if (PageSize != other.PageSize) return false;
       if (PageToken != other.PageToken) return false;
+      if (DeviceView != other.DeviceView) return false;
       if (IdCase != other.IdCase) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -463,6 +515,7 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
       if (idCase_ == IdOneofCase.FolderId) hash ^= FolderId.GetHashCode();
       if (PageSize != 0L) hash ^= PageSize.GetHashCode();
       if (PageToken.Length != 0) hash ^= PageToken.GetHashCode();
+      if (DeviceView != global::Yandex.Cloud.Iot.Devices.V1.DeviceView.Basic) hash ^= DeviceView.GetHashCode();
       hash ^= (int) idCase_;
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -493,6 +546,10 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
         output.WriteRawTag(34);
         output.WriteString(PageToken);
       }
+      if (DeviceView != global::Yandex.Cloud.Iot.Devices.V1.DeviceView.Basic) {
+        output.WriteRawTag(40);
+        output.WriteEnum((int) DeviceView);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -513,6 +570,9 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
       if (PageToken.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(PageToken);
       }
+      if (DeviceView != global::Yandex.Cloud.Iot.Devices.V1.DeviceView.Basic) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) DeviceView);
+      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -529,6 +589,9 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
       }
       if (other.PageToken.Length != 0) {
         PageToken = other.PageToken;
+      }
+      if (other.DeviceView != global::Yandex.Cloud.Iot.Devices.V1.DeviceView.Basic) {
+        DeviceView = other.DeviceView;
       }
       switch (other.IdCase) {
         case IdOneofCase.RegistryId:
@@ -564,6 +627,10 @@ namespace Yandex.Cloud.Iot.Devices.V1 {
           }
           case 34: {
             PageToken = input.ReadString();
+            break;
+          }
+          case 40: {
+            DeviceView = (global::Yandex.Cloud.Iot.Devices.V1.DeviceView) input.ReadEnum();
             break;
           }
         }

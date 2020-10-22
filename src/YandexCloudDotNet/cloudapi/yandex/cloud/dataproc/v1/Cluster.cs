@@ -27,7 +27,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
             "CiZ5YW5kZXgvY2xvdWQvZGF0YXByb2MvdjEvY2x1c3Rlci5wcm90bxIYeWFu",
             "ZGV4LmNsb3VkLmRhdGFwcm9jLnYxGh9nb29nbGUvcHJvdG9idWYvdGltZXN0",
             "YW1wLnByb3RvGiV5YW5kZXgvY2xvdWQvZGF0YXByb2MvdjEvY29tbW9uLnBy",
-            "b3RvGh15YW5kZXgvY2xvdWQvdmFsaWRhdGlvbi5wcm90byKRBQoHQ2x1c3Rl",
+            "b3RvGh15YW5kZXgvY2xvdWQvdmFsaWRhdGlvbi5wcm90byKjBQoHQ2x1c3Rl",
             "chIKCgJpZBgBIAEoCRIRCglmb2xkZXJfaWQYAiABKAkSLgoKY3JlYXRlZF9h",
             "dBgDIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXASFgoEbmFtZRgE",
             "IAEoCUIIisgxBDEtNjMSHgoLZGVzY3JpcHRpb24YBSABKAlCCYrIMQUwLTI1",
@@ -38,30 +38,31 @@ namespace Yandex.Cloud.Dataproc.V1 {
             "dGVyQ29uZmlnEjAKBmhlYWx0aBgJIAEoDjIgLnlhbmRleC5jbG91ZC5kYXRh",
             "cHJvYy52MS5IZWFsdGgSOAoGc3RhdHVzGAogASgOMigueWFuZGV4LmNsb3Vk",
             "LmRhdGFwcm9jLnYxLkNsdXN0ZXIuU3RhdHVzEg8KB3pvbmVfaWQYCyABKAkS",
-            "GgoSc2VydmljZV9hY2NvdW50X2lkGAwgASgJEg4KBmJ1Y2tldBgNIAEoCRot",
-            "CgtMYWJlbHNFbnRyeRILCgNrZXkYASABKAkSDQoFdmFsdWUYAiABKAk6AjgB",
-            "ImsKBlN0YXR1cxISCg5TVEFUVVNfVU5LTk9XThAAEgwKCENSRUFUSU5HEAES",
-            "CwoHUlVOTklORxACEgkKBUVSUk9SEAMSDAoIU1RPUFBJTkcQBBILCgdTVE9Q",
-            "UEVEEAUSDAoIU1RBUlRJTkcQBiI9CgpNb25pdG9yaW5nEgwKBG5hbWUYASAB",
-            "KAkSEwoLZGVzY3JpcHRpb24YAiABKAkSDAoEbGluaxgDIAEoCSKXAwoMSGFk",
-            "b29wQ29uZmlnEkAKCHNlcnZpY2VzGAEgAygOMi4ueWFuZGV4LmNsb3VkLmRh",
-            "dGFwcm9jLnYxLkhhZG9vcENvbmZpZy5TZXJ2aWNlEkoKCnByb3BlcnRpZXMY",
-            "AiADKAsyNi55YW5kZXguY2xvdWQuZGF0YXByb2MudjEuSGFkb29wQ29uZmln",
-            "LlByb3BlcnRpZXNFbnRyeRIXCg9zc2hfcHVibGljX2tleXMYAyADKAkaMQoP",
-            "UHJvcGVydGllc0VudHJ5EgsKA2tleRgBIAEoCRINCgV2YWx1ZRgCIAEoCToC",
-            "OAEirAEKB1NlcnZpY2USFwoTU0VSVklDRV9VTlNQRUNJRklFRBAAEggKBEhE",
-            "RlMQARIICgRZQVJOEAISDQoJTUFQUkVEVUNFEAMSCAoESElWRRAEEgcKA1RF",
-            "WhAFEg0KCVpPT0tFRVBFUhAGEgkKBUhCQVNFEAcSCQoFU1FPT1AQCBIJCgVG",
-            "TFVNRRAJEgkKBVNQQVJLEAoSDAoIWkVQUEVMSU4QCxIJCgVPT1pJRRAMIlsK",
-            "DUNsdXN0ZXJDb25maWcSEgoKdmVyc2lvbl9pZBgBIAEoCRI2CgZoYWRvb3AY",
-            "AiABKAsyJi55YW5kZXguY2xvdWQuZGF0YXByb2MudjEuSGFkb29wQ29uZmln",
-            "QmUKHHlhbmRleC5jbG91ZC5hcGkuZGF0YXByb2MudjFaRWdpdGh1Yi5jb20v",
-            "eWFuZGV4LWNsb3VkL2dvLWdlbnByb3RvL3lhbmRleC9jbG91ZC9kYXRhcHJv",
-            "Yy92MTtkYXRhcHJvY2IGcHJvdG8z"));
+            "GgoSc2VydmljZV9hY2NvdW50X2lkGAwgASgJEg4KBmJ1Y2tldBgNIAEoCRIQ",
+            "Cgh1aV9wcm94eRgOIAEoCBotCgtMYWJlbHNFbnRyeRILCgNrZXkYASABKAkS",
+            "DQoFdmFsdWUYAiABKAk6AjgBImsKBlN0YXR1cxISCg5TVEFUVVNfVU5LTk9X",
+            "ThAAEgwKCENSRUFUSU5HEAESCwoHUlVOTklORxACEgkKBUVSUk9SEAMSDAoI",
+            "U1RPUFBJTkcQBBILCgdTVE9QUEVEEAUSDAoIU1RBUlRJTkcQBiI9CgpNb25p",
+            "dG9yaW5nEgwKBG5hbWUYASABKAkSEwoLZGVzY3JpcHRpb24YAiABKAkSDAoE",
+            "bGluaxgDIAEoCSKhAwoMSGFkb29wQ29uZmlnEkAKCHNlcnZpY2VzGAEgAygO",
+            "Mi4ueWFuZGV4LmNsb3VkLmRhdGFwcm9jLnYxLkhhZG9vcENvbmZpZy5TZXJ2",
+            "aWNlEkoKCnByb3BlcnRpZXMYAiADKAsyNi55YW5kZXguY2xvdWQuZGF0YXBy",
+            "b2MudjEuSGFkb29wQ29uZmlnLlByb3BlcnRpZXNFbnRyeRIXCg9zc2hfcHVi",
+            "bGljX2tleXMYAyADKAkaMQoPUHJvcGVydGllc0VudHJ5EgsKA2tleRgBIAEo",
+            "CRINCgV2YWx1ZRgCIAEoCToCOAEitgEKB1NlcnZpY2USFwoTU0VSVklDRV9V",
+            "TlNQRUNJRklFRBAAEggKBEhERlMQARIICgRZQVJOEAISDQoJTUFQUkVEVUNF",
+            "EAMSCAoESElWRRAEEgcKA1RFWhAFEg0KCVpPT0tFRVBFUhAGEgkKBUhCQVNF",
+            "EAcSCQoFU1FPT1AQCBIJCgVGTFVNRRAJEgkKBVNQQVJLEAoSDAoIWkVQUEVM",
+            "SU4QCxIJCgVPT1pJRRAMEggKBExJVlkQDSJbCg1DbHVzdGVyQ29uZmlnEhIK",
+            "CnZlcnNpb25faWQYASABKAkSNgoGaGFkb29wGAIgASgLMiYueWFuZGV4LmNs",
+            "b3VkLmRhdGFwcm9jLnYxLkhhZG9vcENvbmZpZ0JlChx5YW5kZXguY2xvdWQu",
+            "YXBpLmRhdGFwcm9jLnYxWkVnaXRodWIuY29tL3lhbmRleC1jbG91ZC9nby1n",
+            "ZW5wcm90by95YW5kZXgvY2xvdWQvZGF0YXByb2MvdjE7ZGF0YXByb2NiBnBy",
+            "b3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Yandex.Cloud.Dataproc.V1.CommonReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.Cluster), global::Yandex.Cloud.Dataproc.V1.Cluster.Parser, new[]{ "Id", "FolderId", "CreatedAt", "Name", "Description", "Labels", "Monitoring", "Config", "Health", "Status", "ZoneId", "ServiceAccountId", "Bucket" }, null, new[]{ typeof(global::Yandex.Cloud.Dataproc.V1.Cluster.Types.Status) }, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.Cluster), global::Yandex.Cloud.Dataproc.V1.Cluster.Parser, new[]{ "Id", "FolderId", "CreatedAt", "Name", "Description", "Labels", "Monitoring", "Config", "Health", "Status", "ZoneId", "ServiceAccountId", "Bucket", "UiProxy" }, null, new[]{ typeof(global::Yandex.Cloud.Dataproc.V1.Cluster.Types.Status) }, null, new pbr::GeneratedClrTypeInfo[] { null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.Monitoring), global::Yandex.Cloud.Dataproc.V1.Monitoring.Parser, new[]{ "Name", "Description", "Link" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.HadoopConfig), global::Yandex.Cloud.Dataproc.V1.HadoopConfig.Parser, new[]{ "Services", "Properties", "SshPublicKeys" }, null, new[]{ typeof(global::Yandex.Cloud.Dataproc.V1.HadoopConfig.Types.Service) }, null, new pbr::GeneratedClrTypeInfo[] { null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Dataproc.V1.ClusterConfig), global::Yandex.Cloud.Dataproc.V1.ClusterConfig.Parser, new[]{ "VersionId", "Hadoop" }, null, null, null, null)
@@ -112,6 +113,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
       zoneId_ = other.zoneId_;
       serviceAccountId_ = other.serviceAccountId_;
       bucket_ = other.bucket_;
+      uiProxy_ = other.uiProxy_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -300,6 +302,20 @@ namespace Yandex.Cloud.Dataproc.V1 {
       }
     }
 
+    /// <summary>Field number for the "ui_proxy" field.</summary>
+    public const int UiProxyFieldNumber = 14;
+    private bool uiProxy_;
+    /// <summary>
+    /// Whether UI Proxy feature is enabled.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool UiProxy {
+      get { return uiProxy_; }
+      set {
+        uiProxy_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as Cluster);
@@ -326,6 +342,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
       if (ZoneId != other.ZoneId) return false;
       if (ServiceAccountId != other.ServiceAccountId) return false;
       if (Bucket != other.Bucket) return false;
+      if (UiProxy != other.UiProxy) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -345,6 +362,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
       if (ZoneId.Length != 0) hash ^= ZoneId.GetHashCode();
       if (ServiceAccountId.Length != 0) hash ^= ServiceAccountId.GetHashCode();
       if (Bucket.Length != 0) hash ^= Bucket.GetHashCode();
+      if (UiProxy != false) hash ^= UiProxy.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -404,6 +422,10 @@ namespace Yandex.Cloud.Dataproc.V1 {
         output.WriteRawTag(106);
         output.WriteString(Bucket);
       }
+      if (UiProxy != false) {
+        output.WriteRawTag(112);
+        output.WriteBool(UiProxy);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -446,6 +468,9 @@ namespace Yandex.Cloud.Dataproc.V1 {
       }
       if (Bucket.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Bucket);
+      }
+      if (UiProxy != false) {
+        size += 1 + 1;
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -498,6 +523,9 @@ namespace Yandex.Cloud.Dataproc.V1 {
       }
       if (other.Bucket.Length != 0) {
         Bucket = other.Bucket;
+      }
+      if (other.UiProxy != false) {
+        UiProxy = other.UiProxy;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -566,6 +594,10 @@ namespace Yandex.Cloud.Dataproc.V1 {
           }
           case 106: {
             Bucket = input.ReadString();
+            break;
+          }
+          case 112: {
+            UiProxy = input.ReadBool();
             break;
           }
         }
@@ -1004,6 +1036,7 @@ namespace Yandex.Cloud.Dataproc.V1 {
         [pbr::OriginalName("SPARK")] Spark = 10,
         [pbr::OriginalName("ZEPPELIN")] Zeppelin = 11,
         [pbr::OriginalName("OOZIE")] Oozie = 12,
+        [pbr::OriginalName("LIVY")] Livy = 13,
       }
 
     }

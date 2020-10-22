@@ -29,6 +29,8 @@ namespace Yandex.Cloud.Dataproc.V1 {
     static readonly grpc::Marshaller<global::Yandex.Cloud.Dataproc.V1.ListClusterOperationsResponse> __Marshaller_yandex_cloud_dataproc_v1_ListClusterOperationsResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Dataproc.V1.ListClusterOperationsResponse.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Dataproc.V1.ListClusterHostsRequest> __Marshaller_yandex_cloud_dataproc_v1_ListClusterHostsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Dataproc.V1.ListClusterHostsRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Dataproc.V1.ListClusterHostsResponse> __Marshaller_yandex_cloud_dataproc_v1_ListClusterHostsResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Dataproc.V1.ListClusterHostsResponse.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Yandex.Cloud.Dataproc.V1.ListUILinksRequest> __Marshaller_yandex_cloud_dataproc_v1_ListUILinksRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Dataproc.V1.ListUILinksRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Yandex.Cloud.Dataproc.V1.ListUILinksResponse> __Marshaller_yandex_cloud_dataproc_v1_ListUILinksResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Dataproc.V1.ListUILinksResponse.Parser.ParseFrom);
 
     static readonly grpc::Method<global::Yandex.Cloud.Dataproc.V1.GetClusterRequest, global::Yandex.Cloud.Dataproc.V1.Cluster> __Method_Get = new grpc::Method<global::Yandex.Cloud.Dataproc.V1.GetClusterRequest, global::Yandex.Cloud.Dataproc.V1.Cluster>(
         grpc::MethodType.Unary,
@@ -92,6 +94,13 @@ namespace Yandex.Cloud.Dataproc.V1 {
         "ListHosts",
         __Marshaller_yandex_cloud_dataproc_v1_ListClusterHostsRequest,
         __Marshaller_yandex_cloud_dataproc_v1_ListClusterHostsResponse);
+
+    static readonly grpc::Method<global::Yandex.Cloud.Dataproc.V1.ListUILinksRequest, global::Yandex.Cloud.Dataproc.V1.ListUILinksResponse> __Method_ListUILinks = new grpc::Method<global::Yandex.Cloud.Dataproc.V1.ListUILinksRequest, global::Yandex.Cloud.Dataproc.V1.ListUILinksResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "ListUILinks",
+        __Marshaller_yandex_cloud_dataproc_v1_ListUILinksRequest,
+        __Marshaller_yandex_cloud_dataproc_v1_ListUILinksResponse);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -525,6 +534,50 @@ namespace Yandex.Cloud.Dataproc.V1 {
       public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Dataproc.V1.ListClusterHostsResponse> ListHostsAsync(global::Yandex.Cloud.Dataproc.V1.ListClusterHostsRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_ListHosts, null, options, request);
+      }
+      /// <summary>
+      /// Retrieves a list of links to web interfaces being proxied by Data Proc UI Proxy.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.Dataproc.V1.ListUILinksResponse ListUILinks(global::Yandex.Cloud.Dataproc.V1.ListUILinksRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return ListUILinks(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Retrieves a list of links to web interfaces being proxied by Data Proc UI Proxy.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.Dataproc.V1.ListUILinksResponse ListUILinks(global::Yandex.Cloud.Dataproc.V1.ListUILinksRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_ListUILinks, null, options, request);
+      }
+      /// <summary>
+      /// Retrieves a list of links to web interfaces being proxied by Data Proc UI Proxy.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Dataproc.V1.ListUILinksResponse> ListUILinksAsync(global::Yandex.Cloud.Dataproc.V1.ListUILinksRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return ListUILinksAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Retrieves a list of links to web interfaces being proxied by Data Proc UI Proxy.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Dataproc.V1.ListUILinksResponse> ListUILinksAsync(global::Yandex.Cloud.Dataproc.V1.ListUILinksRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_ListUILinks, null, options, request);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       protected override ClusterServiceClient NewInstance(ClientBaseConfiguration configuration)

@@ -26,122 +26,180 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
           string.Concat(
             "Cil5YW5kZXgvY2xvdWQvbWRiL21vbmdvZGIvdjEvY2x1c3Rlci5wcm90bxIb",
             "eWFuZGV4LmNsb3VkLm1kYi5tb25nb2RiLnYxGh9nb29nbGUvcHJvdG9idWYv",
-            "dGltZXN0YW1wLnByb3RvGhtnb29nbGUvdHlwZS90aW1lb2ZkYXkucHJvdG8a",
-            "M3lhbmRleC9jbG91ZC9tZGIvbW9uZ29kYi92MS9jb25maWcvbW9uZ29kYjNf",
-            "Ni5wcm90bxozeWFuZGV4L2Nsb3VkL21kYi9tb25nb2RiL3YxL2NvbmZpZy9t",
-            "b25nb2RiNF8wLnByb3RvGjN5YW5kZXgvY2xvdWQvbWRiL21vbmdvZGIvdjEv",
-            "Y29uZmlnL21vbmdvZGI0XzIucHJvdG8i0gYKB0NsdXN0ZXISCgoCaWQYASAB",
-            "KAkSEQoJZm9sZGVyX2lkGAIgASgJEi4KCmNyZWF0ZWRfYXQYAyABKAsyGi5n",
-            "b29nbGUucHJvdG9idWYuVGltZXN0YW1wEgwKBG5hbWUYBCABKAkSEwoLZGVz",
-            "Y3JpcHRpb24YBSABKAkSQAoGbGFiZWxzGAYgAygLMjAueWFuZGV4LmNsb3Vk",
-            "Lm1kYi5tb25nb2RiLnYxLkNsdXN0ZXIuTGFiZWxzRW50cnkSRQoLZW52aXJv",
-            "bm1lbnQYByABKA4yMC55YW5kZXguY2xvdWQubWRiLm1vbmdvZGIudjEuQ2x1",
-            "c3Rlci5FbnZpcm9ubWVudBI7Cgptb25pdG9yaW5nGAggAygLMicueWFuZGV4",
-            "LmNsb3VkLm1kYi5tb25nb2RiLnYxLk1vbml0b3JpbmcSOgoGY29uZmlnGAkg",
-            "ASgLMioueWFuZGV4LmNsb3VkLm1kYi5tb25nb2RiLnYxLkNsdXN0ZXJDb25m",
-            "aWcSEgoKbmV0d29ya19pZBgKIAEoCRI7CgZoZWFsdGgYCyABKA4yKy55YW5k",
-            "ZXguY2xvdWQubWRiLm1vbmdvZGIudjEuQ2x1c3Rlci5IZWFsdGgSOwoGc3Rh",
-            "dHVzGAwgASgOMisueWFuZGV4LmNsb3VkLm1kYi5tb25nb2RiLnYxLkNsdXN0",
-            "ZXIuU3RhdHVzEg8KB3NoYXJkZWQYDSABKAgaLQoLTGFiZWxzRW50cnkSCwoD",
-            "a2V5GAEgASgJEg0KBXZhbHVlGAIgASgJOgI4ASJJCgtFbnZpcm9ubWVudBIb",
-            "ChdFTlZJUk9OTUVOVF9VTlNQRUNJRklFRBAAEg4KClBST0RVQ1RJT04QARIN",
-            "CglQUkVTVEFCTEUQAiI/CgZIZWFsdGgSEgoOSEVBTFRIX1VOS05PV04QABIJ",
-            "CgVBTElWRRABEggKBERFQUQQAhIMCghERUdSQURFRBADInkKBlN0YXR1cxIS",
-            "Cg5TVEFUVVNfVU5LTk9XThAAEgwKCENSRUFUSU5HEAESCwoHUlVOTklORxAC",
-            "EgkKBUVSUk9SEAMSDAoIVVBEQVRJTkcQBBIMCghTVE9QUElORxAFEgsKB1NU",
-            "T1BQRUQQBhIMCghTVEFSVElORxAHIj0KCk1vbml0b3JpbmcSDAoEbmFtZRgB",
-            "IAEoCRITCgtkZXNjcmlwdGlvbhgCIAEoCRIMCgRsaW5rGAMgASgJIvwCCg1D",
-            "bHVzdGVyQ29uZmlnEg8KB3ZlcnNpb24YASABKAkSJQodZmVhdHVyZV9jb21w",
-            "YXRpYmlsaXR5X3ZlcnNpb24YBSABKAkSPgoLbW9uZ29kYl8zXzYYAiABKAsy",
-            "Jy55YW5kZXguY2xvdWQubWRiLm1vbmdvZGIudjEuTW9uZ29kYjNfNkgAEj4K",
-            "C21vbmdvZGJfNF8wGAQgASgLMicueWFuZGV4LmNsb3VkLm1kYi5tb25nb2Ri",
-            "LnYxLk1vbmdvZGI0XzBIABI+Cgttb25nb2RiXzRfMhgHIAEoCzInLnlhbmRl",
-            "eC5jbG91ZC5tZGIubW9uZ29kYi52MS5Nb25nb2RiNF8ySAASMwoTYmFja3Vw",
-            "X3dpbmRvd19zdGFydBgDIAEoCzIWLmdvb2dsZS50eXBlLlRpbWVPZkRheRIz",
-            "CgZhY2Nlc3MYBiABKAsyIy55YW5kZXguY2xvdWQubWRiLm1vbmdvZGIudjEu",
-            "QWNjZXNzQgkKB21vbmdvZGIi/gQKCk1vbmdvZGIzXzYSPgoGbW9uZ29kGAEg",
-            "ASgLMi4ueWFuZGV4LmNsb3VkLm1kYi5tb25nb2RiLnYxLk1vbmdvZGIzXzYu",
-            "TW9uZ29kEkIKCG1vbmdvY2ZnGAIgASgLMjAueWFuZGV4LmNsb3VkLm1kYi5t",
-            "b25nb2RiLnYxLk1vbmdvZGIzXzYuTW9uZ29DZmcSPgoGbW9uZ29zGAMgASgL",
-            "Mi4ueWFuZGV4LmNsb3VkLm1kYi5tb25nb2RiLnYxLk1vbmdvZGIzXzYuTW9u",
-            "Z29zGosBCgZNb25nb2QSRgoGY29uZmlnGAEgASgLMjYueWFuZGV4LmNsb3Vk",
-            "Lm1kYi5tb25nb2RiLnYxLmNvbmZpZy5Nb25nb2RDb25maWdTZXQzXzYSOQoJ",
-            "cmVzb3VyY2VzGAIgASgLMiYueWFuZGV4LmNsb3VkLm1kYi5tb25nb2RiLnYx",
-            "LlJlc291cmNlcxqPAQoITW9uZ29DZmcSSAoGY29uZmlnGAEgASgLMjgueWFu",
-            "ZGV4LmNsb3VkLm1kYi5tb25nb2RiLnYxLmNvbmZpZy5Nb25nb0NmZ0NvbmZp",
-            "Z1NldDNfNhI5CglyZXNvdXJjZXMYAiABKAsyJi55YW5kZXguY2xvdWQubWRi",
-            "Lm1vbmdvZGIudjEuUmVzb3VyY2VzGosBCgZNb25nb3MSRgoGY29uZmlnGAEg",
-            "ASgLMjYueWFuZGV4LmNsb3VkLm1kYi5tb25nb2RiLnYxLmNvbmZpZy5Nb25n",
-            "b3NDb25maWdTZXQzXzYSOQoJcmVzb3VyY2VzGAIgASgLMiYueWFuZGV4LmNs",
-            "b3VkLm1kYi5tb25nb2RiLnYxLlJlc291cmNlcyL+BAoKTW9uZ29kYjRfMBI+",
-            "CgZtb25nb2QYASABKAsyLi55YW5kZXguY2xvdWQubWRiLm1vbmdvZGIudjEu",
-            "TW9uZ29kYjRfMC5Nb25nb2QSQgoIbW9uZ29jZmcYAiABKAsyMC55YW5kZXgu",
-            "Y2xvdWQubWRiLm1vbmdvZGIudjEuTW9uZ29kYjRfMC5Nb25nb0NmZxI+CgZt",
-            "b25nb3MYAyABKAsyLi55YW5kZXguY2xvdWQubWRiLm1vbmdvZGIudjEuTW9u",
-            "Z29kYjRfMC5Nb25nb3MaiwEKBk1vbmdvZBJGCgZjb25maWcYASABKAsyNi55",
-            "YW5kZXguY2xvdWQubWRiLm1vbmdvZGIudjEuY29uZmlnLk1vbmdvZENvbmZp",
-            "Z1NldDRfMBI5CglyZXNvdXJjZXMYAiABKAsyJi55YW5kZXguY2xvdWQubWRi",
-            "Lm1vbmdvZGIudjEuUmVzb3VyY2VzGo8BCghNb25nb0NmZxJICgZjb25maWcY",
-            "ASABKAsyOC55YW5kZXguY2xvdWQubWRiLm1vbmdvZGIudjEuY29uZmlnLk1v",
-            "bmdvQ2ZnQ29uZmlnU2V0NF8wEjkKCXJlc291cmNlcxgCIAEoCzImLnlhbmRl",
-            "eC5jbG91ZC5tZGIubW9uZ29kYi52MS5SZXNvdXJjZXMaiwEKBk1vbmdvcxJG",
-            "CgZjb25maWcYASABKAsyNi55YW5kZXguY2xvdWQubWRiLm1vbmdvZGIudjEu",
-            "Y29uZmlnLk1vbmdvc0NvbmZpZ1NldDRfMBI5CglyZXNvdXJjZXMYAiABKAsy",
-            "Ji55YW5kZXguY2xvdWQubWRiLm1vbmdvZGIudjEuUmVzb3VyY2VzIv4ECgpN",
-            "b25nb2RiNF8yEj4KBm1vbmdvZBgBIAEoCzIuLnlhbmRleC5jbG91ZC5tZGIu",
-            "bW9uZ29kYi52MS5Nb25nb2RiNF8yLk1vbmdvZBJCCghtb25nb2NmZxgCIAEo",
-            "CzIwLnlhbmRleC5jbG91ZC5tZGIubW9uZ29kYi52MS5Nb25nb2RiNF8yLk1v",
-            "bmdvQ2ZnEj4KBm1vbmdvcxgDIAEoCzIuLnlhbmRleC5jbG91ZC5tZGIubW9u",
-            "Z29kYi52MS5Nb25nb2RiNF8yLk1vbmdvcxqLAQoGTW9uZ29kEkYKBmNvbmZp",
-            "ZxgBIAEoCzI2LnlhbmRleC5jbG91ZC5tZGIubW9uZ29kYi52MS5jb25maWcu",
-            "TW9uZ29kQ29uZmlnU2V0NF8yEjkKCXJlc291cmNlcxgCIAEoCzImLnlhbmRl",
-            "eC5jbG91ZC5tZGIubW9uZ29kYi52MS5SZXNvdXJjZXMajwEKCE1vbmdvQ2Zn",
-            "EkgKBmNvbmZpZxgBIAEoCzI4LnlhbmRleC5jbG91ZC5tZGIubW9uZ29kYi52",
-            "MS5jb25maWcuTW9uZ29DZmdDb25maWdTZXQ0XzISOQoJcmVzb3VyY2VzGAIg",
-            "ASgLMiYueWFuZGV4LmNsb3VkLm1kYi5tb25nb2RiLnYxLlJlc291cmNlcxqL",
-            "AQoGTW9uZ29zEkYKBmNvbmZpZxgBIAEoCzI2LnlhbmRleC5jbG91ZC5tZGIu",
-            "bW9uZ29kYi52MS5jb25maWcuTW9uZ29zQ29uZmlnU2V0NF8yEjkKCXJlc291",
+            "dGltZXN0YW1wLnByb3RvGh5nb29nbGUvcHJvdG9idWYvd3JhcHBlcnMucHJv",
+            "dG8aG2dvb2dsZS90eXBlL3RpbWVvZmRheS5wcm90bxozeWFuZGV4L2Nsb3Vk",
+            "L21kYi9tb25nb2RiL3YxL2NvbmZpZy9tb25nb2RiM182LnByb3RvGjN5YW5k",
+            "ZXgvY2xvdWQvbWRiL21vbmdvZGIvdjEvY29uZmlnL21vbmdvZGI0XzAucHJv",
+            "dG8aM3lhbmRleC9jbG91ZC9tZGIvbW9uZ29kYi92MS9jb25maWcvbW9uZ29k",
+            "YjRfMi5wcm90bxozeWFuZGV4L2Nsb3VkL21kYi9tb25nb2RiL3YxL2NvbmZp",
+            "Zy9tb25nb2RiNF80LnByb3RvGi15YW5kZXgvY2xvdWQvbWRiL21vbmdvZGIv",
+            "djEvbWFpbnRlbmFuY2UucHJvdG8i7AcKB0NsdXN0ZXISCgoCaWQYASABKAkS",
+            "EQoJZm9sZGVyX2lkGAIgASgJEi4KCmNyZWF0ZWRfYXQYAyABKAsyGi5nb29n",
+            "bGUucHJvdG9idWYuVGltZXN0YW1wEgwKBG5hbWUYBCABKAkSEwoLZGVzY3Jp",
+            "cHRpb24YBSABKAkSQAoGbGFiZWxzGAYgAygLMjAueWFuZGV4LmNsb3VkLm1k",
+            "Yi5tb25nb2RiLnYxLkNsdXN0ZXIuTGFiZWxzRW50cnkSRQoLZW52aXJvbm1l",
+            "bnQYByABKA4yMC55YW5kZXguY2xvdWQubWRiLm1vbmdvZGIudjEuQ2x1c3Rl",
+            "ci5FbnZpcm9ubWVudBI7Cgptb25pdG9yaW5nGAggAygLMicueWFuZGV4LmNs",
+            "b3VkLm1kYi5tb25nb2RiLnYxLk1vbml0b3JpbmcSOgoGY29uZmlnGAkgASgL",
+            "MioueWFuZGV4LmNsb3VkLm1kYi5tb25nb2RiLnYxLkNsdXN0ZXJDb25maWcS",
+            "EgoKbmV0d29ya19pZBgKIAEoCRI7CgZoZWFsdGgYCyABKA4yKy55YW5kZXgu",
+            "Y2xvdWQubWRiLm1vbmdvZGIudjEuQ2x1c3Rlci5IZWFsdGgSOwoGc3RhdHVz",
+            "GAwgASgOMisueWFuZGV4LmNsb3VkLm1kYi5tb25nb2RiLnYxLkNsdXN0ZXIu",
+            "U3RhdHVzEg8KB3NoYXJkZWQYDSABKAgSSgoSbWFpbnRlbmFuY2Vfd2luZG93",
+            "GA4gASgLMi4ueWFuZGV4LmNsb3VkLm1kYi5tb25nb2RiLnYxLk1haW50ZW5h",
+            "bmNlV2luZG93EkwKEXBsYW5uZWRfb3BlcmF0aW9uGA8gASgLMjEueWFuZGV4",
+            "LmNsb3VkLm1kYi5tb25nb2RiLnYxLk1haW50ZW5hbmNlT3BlcmF0aW9uGi0K",
+            "C0xhYmVsc0VudHJ5EgsKA2tleRgBIAEoCRINCgV2YWx1ZRgCIAEoCToCOAEi",
+            "SQoLRW52aXJvbm1lbnQSGwoXRU5WSVJPTk1FTlRfVU5TUEVDSUZJRUQQABIO",
+            "CgpQUk9EVUNUSU9OEAESDQoJUFJFU1RBQkxFEAIiPwoGSGVhbHRoEhIKDkhF",
+            "QUxUSF9VTktOT1dOEAASCQoFQUxJVkUQARIICgRERUFEEAISDAoIREVHUkFE",
+            "RUQQAyJ5CgZTdGF0dXMSEgoOU1RBVFVTX1VOS05PV04QABIMCghDUkVBVElO",
+            "RxABEgsKB1JVTk5JTkcQAhIJCgVFUlJPUhADEgwKCFVQREFUSU5HEAQSDAoI",
+            "U1RPUFBJTkcQBRILCgdTVE9QUEVEEAYSDAoIU1RBUlRJTkcQByI9CgpNb25p",
+            "dG9yaW5nEgwKBG5hbWUYASABKAkSEwoLZGVzY3JpcHRpb24YAiABKAkSDAoE",
+            "bGluaxgDIAEoCSL8AwoNQ2x1c3RlckNvbmZpZxIPCgd2ZXJzaW9uGAEgASgJ",
+            "EiUKHWZlYXR1cmVfY29tcGF0aWJpbGl0eV92ZXJzaW9uGAUgASgJEj4KC21v",
+            "bmdvZGJfM182GAIgASgLMicueWFuZGV4LmNsb3VkLm1kYi5tb25nb2RiLnYx",
+            "Lk1vbmdvZGIzXzZIABI+Cgttb25nb2RiXzRfMBgEIAEoCzInLnlhbmRleC5j",
+            "bG91ZC5tZGIubW9uZ29kYi52MS5Nb25nb2RiNF8wSAASPgoLbW9uZ29kYl80",
+            "XzIYByABKAsyJy55YW5kZXguY2xvdWQubWRiLm1vbmdvZGIudjEuTW9uZ29k",
+            "YjRfMkgAEj4KC21vbmdvZGJfNF80GAggASgLMicueWFuZGV4LmNsb3VkLm1k",
+            "Yi5tb25nb2RiLnYxLk1vbmdvZGI0XzRIABIzChNiYWNrdXBfd2luZG93X3N0",
+            "YXJ0GAMgASgLMhYuZ29vZ2xlLnR5cGUuVGltZU9mRGF5Ej4KGWJhY2t1cF9y",
+            "ZXRhaW5fcGVyaW9kX2RheXMYCSABKAsyGy5nb29nbGUucHJvdG9idWYuSW50",
+            "NjRWYWx1ZRIzCgZhY2Nlc3MYBiABKAsyIy55YW5kZXguY2xvdWQubWRiLm1v",
+            "bmdvZGIudjEuQWNjZXNzQgkKB21vbmdvZGIisgcKCk1vbmdvZGIzXzYSPgoG",
+            "bW9uZ29kGAEgASgLMi4ueWFuZGV4LmNsb3VkLm1kYi5tb25nb2RiLnYxLk1v",
+            "bmdvZGIzXzYuTW9uZ29kEkIKCG1vbmdvY2ZnGAIgASgLMjAueWFuZGV4LmNs",
+            "b3VkLm1kYi5tb25nb2RiLnYxLk1vbmdvZGIzXzYuTW9uZ29DZmcSPgoGbW9u",
+            "Z29zGAMgASgLMi4ueWFuZGV4LmNsb3VkLm1kYi5tb25nb2RiLnYxLk1vbmdv",
+            "ZGIzXzYuTW9uZ29zEkYKCm1vbmdvaW5mcmEYBCABKAsyMi55YW5kZXguY2xv",
+            "dWQubWRiLm1vbmdvZGIudjEuTW9uZ29kYjNfNi5Nb25nb0luZnJhGosBCgZN",
+            "b25nb2QSRgoGY29uZmlnGAEgASgLMjYueWFuZGV4LmNsb3VkLm1kYi5tb25n",
+            "b2RiLnYxLmNvbmZpZy5Nb25nb2RDb25maWdTZXQzXzYSOQoJcmVzb3VyY2Vz",
+            "GAIgASgLMiYueWFuZGV4LmNsb3VkLm1kYi5tb25nb2RiLnYxLlJlc291cmNl",
+            "cxqPAQoITW9uZ29DZmcSSAoGY29uZmlnGAEgASgLMjgueWFuZGV4LmNsb3Vk",
+            "Lm1kYi5tb25nb2RiLnYxLmNvbmZpZy5Nb25nb0NmZ0NvbmZpZ1NldDNfNhI5",
+            "CglyZXNvdXJjZXMYAiABKAsyJi55YW5kZXguY2xvdWQubWRiLm1vbmdvZGIu",
+            "djEuUmVzb3VyY2VzGosBCgZNb25nb3MSRgoGY29uZmlnGAEgASgLMjYueWFu",
+            "ZGV4LmNsb3VkLm1kYi5tb25nb2RiLnYxLmNvbmZpZy5Nb25nb3NDb25maWdT",
+            "ZXQzXzYSOQoJcmVzb3VyY2VzGAIgASgLMiYueWFuZGV4LmNsb3VkLm1kYi5t",
+            "b25nb2RiLnYxLlJlc291cmNlcxrpAQoKTW9uZ29JbmZyYRJNCg1jb25maWdf",
+            "bW9uZ29zGAEgASgLMjYueWFuZGV4LmNsb3VkLm1kYi5tb25nb2RiLnYxLmNv",
+            "bmZpZy5Nb25nb3NDb25maWdTZXQzXzYSUQoPY29uZmlnX21vbmdvY2ZnGAIg",
+            "ASgLMjgueWFuZGV4LmNsb3VkLm1kYi5tb25nb2RiLnYxLmNvbmZpZy5Nb25n",
+            "b0NmZ0NvbmZpZ1NldDNfNhI5CglyZXNvdXJjZXMYAyABKAsyJi55YW5kZXgu",
+            "Y2xvdWQubWRiLm1vbmdvZGIudjEuUmVzb3VyY2VzIrIHCgpNb25nb2RiNF8w",
+            "Ej4KBm1vbmdvZBgBIAEoCzIuLnlhbmRleC5jbG91ZC5tZGIubW9uZ29kYi52",
+            "MS5Nb25nb2RiNF8wLk1vbmdvZBJCCghtb25nb2NmZxgCIAEoCzIwLnlhbmRl",
+            "eC5jbG91ZC5tZGIubW9uZ29kYi52MS5Nb25nb2RiNF8wLk1vbmdvQ2ZnEj4K",
+            "Bm1vbmdvcxgDIAEoCzIuLnlhbmRleC5jbG91ZC5tZGIubW9uZ29kYi52MS5N",
+            "b25nb2RiNF8wLk1vbmdvcxJGCgptb25nb2luZnJhGAQgASgLMjIueWFuZGV4",
+            "LmNsb3VkLm1kYi5tb25nb2RiLnYxLk1vbmdvZGI0XzAuTW9uZ29JbmZyYRqL",
+            "AQoGTW9uZ29kEkYKBmNvbmZpZxgBIAEoCzI2LnlhbmRleC5jbG91ZC5tZGIu",
+            "bW9uZ29kYi52MS5jb25maWcuTW9uZ29kQ29uZmlnU2V0NF8wEjkKCXJlc291",
             "cmNlcxgCIAEoCzImLnlhbmRleC5jbG91ZC5tZGIubW9uZ29kYi52MS5SZXNv",
-            "dXJjZXMiKQoFU2hhcmQSDAoEbmFtZRgBIAEoCRISCgpjbHVzdGVyX2lkGAIg",
-            "ASgJIs4ECgRIb3N0EgwKBG5hbWUYASABKAkSEgoKY2x1c3Rlcl9pZBgCIAEo",
-            "CRIPCgd6b25lX2lkGAMgASgJEjkKCXJlc291cmNlcxgEIAEoCzImLnlhbmRl",
-            "eC5jbG91ZC5tZGIubW9uZ29kYi52MS5SZXNvdXJjZXMSNAoEcm9sZRgFIAEo",
-            "DjImLnlhbmRleC5jbG91ZC5tZGIubW9uZ29kYi52MS5Ib3N0LlJvbGUSOAoG",
-            "aGVhbHRoGAYgASgOMigueWFuZGV4LmNsb3VkLm1kYi5tb25nb2RiLnYxLkhv",
-            "c3QuSGVhbHRoEjYKCHNlcnZpY2VzGAcgAygLMiQueWFuZGV4LmNsb3VkLm1k",
-            "Yi5tb25nb2RiLnYxLlNlcnZpY2USEQoJc3VibmV0X2lkGAggASgJEhgKEGFz",
-            "c2lnbl9wdWJsaWNfaXAYCSABKAgSEgoKc2hhcmRfbmFtZRgKIAEoCRI0CgR0",
-            "eXBlGAsgASgOMiYueWFuZGV4LmNsb3VkLm1kYi5tb25nb2RiLnYxLkhvc3Qu",
-            "VHlwZSJCCgRUeXBlEhQKEFRZUEVfVU5TUEVDSUZJRUQQABIKCgZNT05HT0QQ",
-            "ARIKCgZNT05HT1MQAhIMCghNT05HT0NGRxADIjQKBFJvbGUSEAoMUk9MRV9V",
-            "TktOT1dOEAASCwoHUFJJTUFSWRABEg0KCVNFQ09OREFSWRACIj8KBkhlYWx0",
-            "aBISCg5IRUFMVEhfVU5LTk9XThAAEgkKBUFMSVZFEAESCAoEREVBRBACEgwK",
-            "CERFR1JBREVEEAMi9gEKB1NlcnZpY2USNwoEdHlwZRgBIAEoDjIpLnlhbmRl",
-            "eC5jbG91ZC5tZGIubW9uZ29kYi52MS5TZXJ2aWNlLlR5cGUSOwoGaGVhbHRo",
-            "GAIgASgOMisueWFuZGV4LmNsb3VkLm1kYi5tb25nb2RiLnYxLlNlcnZpY2Uu",
-            "SGVhbHRoIkIKBFR5cGUSFAoQVFlQRV9VTlNQRUNJRklFRBAAEgoKBk1PTkdP",
-            "RBABEgoKBk1PTkdPUxACEgwKCE1PTkdPQ0ZHEAMiMQoGSGVhbHRoEhIKDkhF",
-            "QUxUSF9VTktOT1dOEAASCQoFQUxJVkUQARIICgRERUFEEAIiUAoJUmVzb3Vy",
-            "Y2VzEhoKEnJlc291cmNlX3ByZXNldF9pZBgBIAEoCRIRCglkaXNrX3NpemUY",
-            "AiABKAMSFAoMZGlza190eXBlX2lkGAMgASgJIhsKBkFjY2VzcxIRCglkYXRh",
-            "X2xlbnMYASABKAhCagofeWFuZGV4LmNsb3VkLmFwaS5tZGIubW9uZ29kYi52",
-            "MVpHZ2l0aHViLmNvbS95YW5kZXgtY2xvdWQvZ28tZ2VucHJvdG8veWFuZGV4",
-            "L2Nsb3VkL21kYi9tb25nb2RiL3YxO21vbmdvZGJiBnByb3RvMw=="));
+            "dXJjZXMajwEKCE1vbmdvQ2ZnEkgKBmNvbmZpZxgBIAEoCzI4LnlhbmRleC5j",
+            "bG91ZC5tZGIubW9uZ29kYi52MS5jb25maWcuTW9uZ29DZmdDb25maWdTZXQ0",
+            "XzASOQoJcmVzb3VyY2VzGAIgASgLMiYueWFuZGV4LmNsb3VkLm1kYi5tb25n",
+            "b2RiLnYxLlJlc291cmNlcxqLAQoGTW9uZ29zEkYKBmNvbmZpZxgBIAEoCzI2",
+            "LnlhbmRleC5jbG91ZC5tZGIubW9uZ29kYi52MS5jb25maWcuTW9uZ29zQ29u",
+            "ZmlnU2V0NF8wEjkKCXJlc291cmNlcxgCIAEoCzImLnlhbmRleC5jbG91ZC5t",
+            "ZGIubW9uZ29kYi52MS5SZXNvdXJjZXMa6QEKCk1vbmdvSW5mcmESTQoNY29u",
+            "ZmlnX21vbmdvcxgBIAEoCzI2LnlhbmRleC5jbG91ZC5tZGIubW9uZ29kYi52",
+            "MS5jb25maWcuTW9uZ29zQ29uZmlnU2V0NF8wElEKD2NvbmZpZ19tb25nb2Nm",
+            "ZxgCIAEoCzI4LnlhbmRleC5jbG91ZC5tZGIubW9uZ29kYi52MS5jb25maWcu",
+            "TW9uZ29DZmdDb25maWdTZXQ0XzASOQoJcmVzb3VyY2VzGAMgASgLMiYueWFu",
+            "ZGV4LmNsb3VkLm1kYi5tb25nb2RiLnYxLlJlc291cmNlcyKyBwoKTW9uZ29k",
+            "YjRfMhI+CgZtb25nb2QYASABKAsyLi55YW5kZXguY2xvdWQubWRiLm1vbmdv",
+            "ZGIudjEuTW9uZ29kYjRfMi5Nb25nb2QSQgoIbW9uZ29jZmcYAiABKAsyMC55",
+            "YW5kZXguY2xvdWQubWRiLm1vbmdvZGIudjEuTW9uZ29kYjRfMi5Nb25nb0Nm",
+            "ZxI+CgZtb25nb3MYAyABKAsyLi55YW5kZXguY2xvdWQubWRiLm1vbmdvZGIu",
+            "djEuTW9uZ29kYjRfMi5Nb25nb3MSRgoKbW9uZ29pbmZyYRgEIAEoCzIyLnlh",
+            "bmRleC5jbG91ZC5tZGIubW9uZ29kYi52MS5Nb25nb2RiNF8yLk1vbmdvSW5m",
+            "cmEaiwEKBk1vbmdvZBJGCgZjb25maWcYASABKAsyNi55YW5kZXguY2xvdWQu",
+            "bWRiLm1vbmdvZGIudjEuY29uZmlnLk1vbmdvZENvbmZpZ1NldDRfMhI5Cgly",
+            "ZXNvdXJjZXMYAiABKAsyJi55YW5kZXguY2xvdWQubWRiLm1vbmdvZGIudjEu",
+            "UmVzb3VyY2VzGo8BCghNb25nb0NmZxJICgZjb25maWcYASABKAsyOC55YW5k",
+            "ZXguY2xvdWQubWRiLm1vbmdvZGIudjEuY29uZmlnLk1vbmdvQ2ZnQ29uZmln",
+            "U2V0NF8yEjkKCXJlc291cmNlcxgCIAEoCzImLnlhbmRleC5jbG91ZC5tZGIu",
+            "bW9uZ29kYi52MS5SZXNvdXJjZXMaiwEKBk1vbmdvcxJGCgZjb25maWcYASAB",
+            "KAsyNi55YW5kZXguY2xvdWQubWRiLm1vbmdvZGIudjEuY29uZmlnLk1vbmdv",
+            "c0NvbmZpZ1NldDRfMhI5CglyZXNvdXJjZXMYAiABKAsyJi55YW5kZXguY2xv",
+            "dWQubWRiLm1vbmdvZGIudjEuUmVzb3VyY2VzGukBCgpNb25nb0luZnJhEk0K",
+            "DWNvbmZpZ19tb25nb3MYASABKAsyNi55YW5kZXguY2xvdWQubWRiLm1vbmdv",
+            "ZGIudjEuY29uZmlnLk1vbmdvc0NvbmZpZ1NldDRfMhJRCg9jb25maWdfbW9u",
+            "Z29jZmcYAiABKAsyOC55YW5kZXguY2xvdWQubWRiLm1vbmdvZGIudjEuY29u",
+            "ZmlnLk1vbmdvQ2ZnQ29uZmlnU2V0NF8yEjkKCXJlc291cmNlcxgDIAEoCzIm",
+            "LnlhbmRleC5jbG91ZC5tZGIubW9uZ29kYi52MS5SZXNvdXJjZXMisgcKCk1v",
+            "bmdvZGI0XzQSPgoGbW9uZ29kGAEgASgLMi4ueWFuZGV4LmNsb3VkLm1kYi5t",
+            "b25nb2RiLnYxLk1vbmdvZGI0XzQuTW9uZ29kEkIKCG1vbmdvY2ZnGAIgASgL",
+            "MjAueWFuZGV4LmNsb3VkLm1kYi5tb25nb2RiLnYxLk1vbmdvZGI0XzQuTW9u",
+            "Z29DZmcSPgoGbW9uZ29zGAMgASgLMi4ueWFuZGV4LmNsb3VkLm1kYi5tb25n",
+            "b2RiLnYxLk1vbmdvZGI0XzQuTW9uZ29zEkYKCm1vbmdvaW5mcmEYBCABKAsy",
+            "Mi55YW5kZXguY2xvdWQubWRiLm1vbmdvZGIudjEuTW9uZ29kYjRfNC5Nb25n",
+            "b0luZnJhGosBCgZNb25nb2QSRgoGY29uZmlnGAEgASgLMjYueWFuZGV4LmNs",
+            "b3VkLm1kYi5tb25nb2RiLnYxLmNvbmZpZy5Nb25nb2RDb25maWdTZXQ0XzQS",
+            "OQoJcmVzb3VyY2VzGAIgASgLMiYueWFuZGV4LmNsb3VkLm1kYi5tb25nb2Ri",
+            "LnYxLlJlc291cmNlcxqPAQoITW9uZ29DZmcSSAoGY29uZmlnGAEgASgLMjgu",
+            "eWFuZGV4LmNsb3VkLm1kYi5tb25nb2RiLnYxLmNvbmZpZy5Nb25nb0NmZ0Nv",
+            "bmZpZ1NldDRfNBI5CglyZXNvdXJjZXMYAiABKAsyJi55YW5kZXguY2xvdWQu",
+            "bWRiLm1vbmdvZGIudjEuUmVzb3VyY2VzGosBCgZNb25nb3MSRgoGY29uZmln",
+            "GAEgASgLMjYueWFuZGV4LmNsb3VkLm1kYi5tb25nb2RiLnYxLmNvbmZpZy5N",
+            "b25nb3NDb25maWdTZXQ0XzQSOQoJcmVzb3VyY2VzGAIgASgLMiYueWFuZGV4",
+            "LmNsb3VkLm1kYi5tb25nb2RiLnYxLlJlc291cmNlcxrpAQoKTW9uZ29JbmZy",
+            "YRJNCg1jb25maWdfbW9uZ29zGAEgASgLMjYueWFuZGV4LmNsb3VkLm1kYi5t",
+            "b25nb2RiLnYxLmNvbmZpZy5Nb25nb3NDb25maWdTZXQ0XzQSUQoPY29uZmln",
+            "X21vbmdvY2ZnGAIgASgLMjgueWFuZGV4LmNsb3VkLm1kYi5tb25nb2RiLnYx",
+            "LmNvbmZpZy5Nb25nb0NmZ0NvbmZpZ1NldDRfNBI5CglyZXNvdXJjZXMYAyAB",
+            "KAsyJi55YW5kZXguY2xvdWQubWRiLm1vbmdvZGIudjEuUmVzb3VyY2VzIikK",
+            "BVNoYXJkEgwKBG5hbWUYASABKAkSEgoKY2x1c3Rlcl9pZBgCIAEoCSLeBAoE",
+            "SG9zdBIMCgRuYW1lGAEgASgJEhIKCmNsdXN0ZXJfaWQYAiABKAkSDwoHem9u",
+            "ZV9pZBgDIAEoCRI5CglyZXNvdXJjZXMYBCABKAsyJi55YW5kZXguY2xvdWQu",
+            "bWRiLm1vbmdvZGIudjEuUmVzb3VyY2VzEjQKBHJvbGUYBSABKA4yJi55YW5k",
+            "ZXguY2xvdWQubWRiLm1vbmdvZGIudjEuSG9zdC5Sb2xlEjgKBmhlYWx0aBgG",
+            "IAEoDjIoLnlhbmRleC5jbG91ZC5tZGIubW9uZ29kYi52MS5Ib3N0LkhlYWx0",
+            "aBI2CghzZXJ2aWNlcxgHIAMoCzIkLnlhbmRleC5jbG91ZC5tZGIubW9uZ29k",
+            "Yi52MS5TZXJ2aWNlEhEKCXN1Ym5ldF9pZBgIIAEoCRIYChBhc3NpZ25fcHVi",
+            "bGljX2lwGAkgASgIEhIKCnNoYXJkX25hbWUYCiABKAkSNAoEdHlwZRgLIAEo",
+            "DjImLnlhbmRleC5jbG91ZC5tZGIubW9uZ29kYi52MS5Ib3N0LlR5cGUiUgoE",
+            "VHlwZRIUChBUWVBFX1VOU1BFQ0lGSUVEEAASCgoGTU9OR09EEAESCgoGTU9O",
+            "R09TEAISDAoITU9OR09DRkcQAxIOCgpNT05HT0lORlJBEAQiNAoEUm9sZRIQ",
+            "CgxST0xFX1VOS05PV04QABILCgdQUklNQVJZEAESDQoJU0VDT05EQVJZEAIi",
+            "PwoGSGVhbHRoEhIKDkhFQUxUSF9VTktOT1dOEAASCQoFQUxJVkUQARIICgRE",
+            "RUFEEAISDAoIREVHUkFERUQQAyL2AQoHU2VydmljZRI3CgR0eXBlGAEgASgO",
+            "MikueWFuZGV4LmNsb3VkLm1kYi5tb25nb2RiLnYxLlNlcnZpY2UuVHlwZRI7",
+            "CgZoZWFsdGgYAiABKA4yKy55YW5kZXguY2xvdWQubWRiLm1vbmdvZGIudjEu",
+            "U2VydmljZS5IZWFsdGgiQgoEVHlwZRIUChBUWVBFX1VOU1BFQ0lGSUVEEAAS",
+            "CgoGTU9OR09EEAESCgoGTU9OR09TEAISDAoITU9OR09DRkcQAyIxCgZIZWFs",
+            "dGgSEgoOSEVBTFRIX1VOS05PV04QABIJCgVBTElWRRABEggKBERFQUQQAiJQ",
+            "CglSZXNvdXJjZXMSGgoScmVzb3VyY2VfcHJlc2V0X2lkGAEgASgJEhEKCWRp",
+            "c2tfc2l6ZRgCIAEoAxIUCgxkaXNrX3R5cGVfaWQYAyABKAkiGwoGQWNjZXNz",
+            "EhEKCWRhdGFfbGVucxgBIAEoCEJqCh95YW5kZXguY2xvdWQuYXBpLm1kYi5t",
+            "b25nb2RiLnYxWkdnaXRodWIuY29tL3lhbmRleC1jbG91ZC9nby1nZW5wcm90",
+            "by95YW5kZXgvY2xvdWQvbWRiL21vbmdvZGIvdjE7bW9uZ29kYmIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Google.Type.TimeofdayReflection.Descriptor, global::Yandex.Cloud.Mdb.Mongodb.V1.Config.Mongodb36Reflection.Descriptor, global::Yandex.Cloud.Mdb.Mongodb.V1.Config.Mongodb40Reflection.Descriptor, global::Yandex.Cloud.Mdb.Mongodb.V1.Config.Mongodb42Reflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.WrappersReflection.Descriptor, global::Google.Type.TimeofdayReflection.Descriptor, global::Yandex.Cloud.Mdb.Mongodb.V1.Config.Mongodb36Reflection.Descriptor, global::Yandex.Cloud.Mdb.Mongodb.V1.Config.Mongodb40Reflection.Descriptor, global::Yandex.Cloud.Mdb.Mongodb.V1.Config.Mongodb42Reflection.Descriptor, global::Yandex.Cloud.Mdb.Mongodb.V1.Config.Mongodb44Reflection.Descriptor, global::Yandex.Cloud.Mdb.Mongodb.V1.MaintenanceReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Cluster), global::Yandex.Cloud.Mdb.Mongodb.V1.Cluster.Parser, new[]{ "Id", "FolderId", "CreatedAt", "Name", "Description", "Labels", "Environment", "Monitoring", "Config", "NetworkId", "Health", "Status", "Sharded" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Cluster.Types.Environment), typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Cluster.Types.Health), typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Cluster.Types.Status) }, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Cluster), global::Yandex.Cloud.Mdb.Mongodb.V1.Cluster.Parser, new[]{ "Id", "FolderId", "CreatedAt", "Name", "Description", "Labels", "Environment", "Monitoring", "Config", "NetworkId", "Health", "Status", "Sharded", "MaintenanceWindow", "PlannedOperation" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Cluster.Types.Environment), typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Cluster.Types.Health), typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Cluster.Types.Status) }, null, new pbr::GeneratedClrTypeInfo[] { null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Monitoring), global::Yandex.Cloud.Mdb.Mongodb.V1.Monitoring.Parser, new[]{ "Name", "Description", "Link" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.ClusterConfig), global::Yandex.Cloud.Mdb.Mongodb.V1.ClusterConfig.Parser, new[]{ "Version", "FeatureCompatibilityVersion", "Mongodb36", "Mongodb40", "Mongodb42", "BackupWindowStart", "Access" }, new[]{ "Mongodb" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb3_6), global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb3_6.Parser, new[]{ "Mongod", "Mongocfg", "Mongos" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb3_6.Types.Mongod), global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb3_6.Types.Mongod.Parser, new[]{ "Config", "Resources" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.ClusterConfig), global::Yandex.Cloud.Mdb.Mongodb.V1.ClusterConfig.Parser, new[]{ "Version", "FeatureCompatibilityVersion", "Mongodb36", "Mongodb40", "Mongodb42", "Mongodb44", "BackupWindowStart", "BackupRetainPeriodDays", "Access" }, new[]{ "Mongodb" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb3_6), global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb3_6.Parser, new[]{ "Mongod", "Mongocfg", "Mongos", "Mongoinfra" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb3_6.Types.Mongod), global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb3_6.Types.Mongod.Parser, new[]{ "Config", "Resources" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb3_6.Types.MongoCfg), global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb3_6.Types.MongoCfg.Parser, new[]{ "Config", "Resources" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb3_6.Types.Mongos), global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb3_6.Types.Mongos.Parser, new[]{ "Config", "Resources" }, null, null, null, null)}),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_0), global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_0.Parser, new[]{ "Mongod", "Mongocfg", "Mongos" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_0.Types.Mongod), global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_0.Types.Mongod.Parser, new[]{ "Config", "Resources" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb3_6.Types.Mongos), global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb3_6.Types.Mongos.Parser, new[]{ "Config", "Resources" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb3_6.Types.MongoInfra), global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb3_6.Types.MongoInfra.Parser, new[]{ "ConfigMongos", "ConfigMongocfg", "Resources" }, null, null, null, null)}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_0), global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_0.Parser, new[]{ "Mongod", "Mongocfg", "Mongos", "Mongoinfra" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_0.Types.Mongod), global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_0.Types.Mongod.Parser, new[]{ "Config", "Resources" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_0.Types.MongoCfg), global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_0.Types.MongoCfg.Parser, new[]{ "Config", "Resources" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_0.Types.Mongos), global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_0.Types.Mongos.Parser, new[]{ "Config", "Resources" }, null, null, null, null)}),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_2), global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_2.Parser, new[]{ "Mongod", "Mongocfg", "Mongos" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_2.Types.Mongod), global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_2.Types.Mongod.Parser, new[]{ "Config", "Resources" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_0.Types.Mongos), global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_0.Types.Mongos.Parser, new[]{ "Config", "Resources" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_0.Types.MongoInfra), global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_0.Types.MongoInfra.Parser, new[]{ "ConfigMongos", "ConfigMongocfg", "Resources" }, null, null, null, null)}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_2), global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_2.Parser, new[]{ "Mongod", "Mongocfg", "Mongos", "Mongoinfra" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_2.Types.Mongod), global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_2.Types.Mongod.Parser, new[]{ "Config", "Resources" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_2.Types.MongoCfg), global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_2.Types.MongoCfg.Parser, new[]{ "Config", "Resources" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_2.Types.Mongos), global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_2.Types.Mongos.Parser, new[]{ "Config", "Resources" }, null, null, null, null)}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_2.Types.Mongos), global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_2.Types.Mongos.Parser, new[]{ "Config", "Resources" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_2.Types.MongoInfra), global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_2.Types.MongoInfra.Parser, new[]{ "ConfigMongos", "ConfigMongocfg", "Resources" }, null, null, null, null)}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_4), global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_4.Parser, new[]{ "Mongod", "Mongocfg", "Mongos", "Mongoinfra" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_4.Types.Mongod), global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_4.Types.Mongod.Parser, new[]{ "Config", "Resources" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_4.Types.MongoCfg), global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_4.Types.MongoCfg.Parser, new[]{ "Config", "Resources" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_4.Types.Mongos), global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_4.Types.Mongos.Parser, new[]{ "Config", "Resources" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_4.Types.MongoInfra), global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_4.Types.MongoInfra.Parser, new[]{ "ConfigMongos", "ConfigMongocfg", "Resources" }, null, null, null, null)}),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Shard), global::Yandex.Cloud.Mdb.Mongodb.V1.Shard.Parser, new[]{ "Name", "ClusterId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Host), global::Yandex.Cloud.Mdb.Mongodb.V1.Host.Parser, new[]{ "Name", "ClusterId", "ZoneId", "Resources", "Role", "Health", "Services", "SubnetId", "AssignPublicIp", "ShardName", "Type" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Host.Types.Type), typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Host.Types.Role), typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Host.Types.Health) }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Service), global::Yandex.Cloud.Mdb.Mongodb.V1.Service.Parser, new[]{ "Type", "Health" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Service.Types.Type), typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Service.Types.Health) }, null, null),
@@ -194,6 +252,8 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
       health_ = other.health_;
       status_ = other.status_;
       sharded_ = other.sharded_;
+      maintenanceWindow_ = other.maintenanceWindow_ != null ? other.maintenanceWindow_.Clone() : null;
+      plannedOperation_ = other.plannedOperation_ != null ? other.plannedOperation_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -384,6 +444,34 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
       }
     }
 
+    /// <summary>Field number for the "maintenance_window" field.</summary>
+    public const int MaintenanceWindowFieldNumber = 14;
+    private global::Yandex.Cloud.Mdb.Mongodb.V1.MaintenanceWindow maintenanceWindow_;
+    /// <summary>
+    /// Window of maintenance operations.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Mdb.Mongodb.V1.MaintenanceWindow MaintenanceWindow {
+      get { return maintenanceWindow_; }
+      set {
+        maintenanceWindow_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "planned_operation" field.</summary>
+    public const int PlannedOperationFieldNumber = 15;
+    private global::Yandex.Cloud.Mdb.Mongodb.V1.MaintenanceOperation plannedOperation_;
+    /// <summary>
+    /// Maintenance operation planned at nearest maintenance_window.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Mdb.Mongodb.V1.MaintenanceOperation PlannedOperation {
+      get { return plannedOperation_; }
+      set {
+        plannedOperation_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as Cluster);
@@ -410,6 +498,8 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
       if (Health != other.Health) return false;
       if (Status != other.Status) return false;
       if (Sharded != other.Sharded) return false;
+      if (!object.Equals(MaintenanceWindow, other.MaintenanceWindow)) return false;
+      if (!object.Equals(PlannedOperation, other.PlannedOperation)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -429,6 +519,8 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
       if (Health != global::Yandex.Cloud.Mdb.Mongodb.V1.Cluster.Types.Health.Unknown) hash ^= Health.GetHashCode();
       if (Status != global::Yandex.Cloud.Mdb.Mongodb.V1.Cluster.Types.Status.Unknown) hash ^= Status.GetHashCode();
       if (Sharded != false) hash ^= Sharded.GetHashCode();
+      if (maintenanceWindow_ != null) hash ^= MaintenanceWindow.GetHashCode();
+      if (plannedOperation_ != null) hash ^= PlannedOperation.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -488,6 +580,14 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
         output.WriteRawTag(104);
         output.WriteBool(Sharded);
       }
+      if (maintenanceWindow_ != null) {
+        output.WriteRawTag(114);
+        output.WriteMessage(MaintenanceWindow);
+      }
+      if (plannedOperation_ != null) {
+        output.WriteRawTag(122);
+        output.WriteMessage(PlannedOperation);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -530,6 +630,12 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
       }
       if (Sharded != false) {
         size += 1 + 1;
+      }
+      if (maintenanceWindow_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(MaintenanceWindow);
+      }
+      if (plannedOperation_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(PlannedOperation);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -582,6 +688,18 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
       }
       if (other.Sharded != false) {
         Sharded = other.Sharded;
+      }
+      if (other.maintenanceWindow_ != null) {
+        if (maintenanceWindow_ == null) {
+          MaintenanceWindow = new global::Yandex.Cloud.Mdb.Mongodb.V1.MaintenanceWindow();
+        }
+        MaintenanceWindow.MergeFrom(other.MaintenanceWindow);
+      }
+      if (other.plannedOperation_ != null) {
+        if (plannedOperation_ == null) {
+          PlannedOperation = new global::Yandex.Cloud.Mdb.Mongodb.V1.MaintenanceOperation();
+        }
+        PlannedOperation.MergeFrom(other.PlannedOperation);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -650,6 +768,20 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
           }
           case 104: {
             Sharded = input.ReadBool();
+            break;
+          }
+          case 114: {
+            if (maintenanceWindow_ == null) {
+              MaintenanceWindow = new global::Yandex.Cloud.Mdb.Mongodb.V1.MaintenanceWindow();
+            }
+            input.ReadMessage(MaintenanceWindow);
+            break;
+          }
+          case 122: {
+            if (plannedOperation_ == null) {
+              PlannedOperation = new global::Yandex.Cloud.Mdb.Mongodb.V1.MaintenanceOperation();
+            }
+            input.ReadMessage(PlannedOperation);
             break;
           }
         }
@@ -961,6 +1093,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
       version_ = other.version_;
       featureCompatibilityVersion_ = other.featureCompatibilityVersion_;
       backupWindowStart_ = other.backupWindowStart_ != null ? other.backupWindowStart_.Clone() : null;
+      BackupRetainPeriodDays = other.BackupRetainPeriodDays;
       access_ = other.access_ != null ? other.access_.Clone() : null;
       switch (other.MongodbCase) {
         case MongodbOneofCase.Mongodb36:
@@ -971,6 +1104,9 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
           break;
         case MongodbOneofCase.Mongodb42:
           Mongodb42 = other.Mongodb42.Clone();
+          break;
+        case MongodbOneofCase.Mongodb44:
+          Mongodb44 = other.Mongodb44.Clone();
           break;
       }
 
@@ -986,7 +1122,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
     public const int VersionFieldNumber = 1;
     private string version_ = "";
     /// <summary>
-    /// Version of MongoDB server software. Possible values: `3.6`, `4.0`, `4.2`.
+    /// Version of MongoDB server software. Possible values: `3.6`, `4.0`, `4.2`, `4.4`.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Version {
@@ -1006,6 +1142,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
     /// * `3.6` — persist data compatibility for version 3.6. After setting this option the data will not be compatible with 3.4 or lower.
     /// * `4.0` — persist data compatibility for version 4.0. After setting this option the data will not be compatible with 3.6 or lower.
     /// * `4.2` — persist data compatibility for version 4.2. After setting this option the data will not be compatible with 4.0 or lower.
+    /// * `4.4` — persist data compatibility for version 4.4. After setting this option the data will not be compatible with 4.2 or lower.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string FeatureCompatibilityVersion {
@@ -1057,6 +1194,20 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
       }
     }
 
+    /// <summary>Field number for the "mongodb_4_4" field.</summary>
+    public const int Mongodb44FieldNumber = 8;
+    /// <summary>
+    /// Configuration and resource allocation for a MongoDB 4.4 cluster.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_4 Mongodb44 {
+      get { return mongodbCase_ == MongodbOneofCase.Mongodb44 ? (global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_4) mongodb_ : null; }
+      set {
+        mongodb_ = value;
+        mongodbCase_ = value == null ? MongodbOneofCase.None : MongodbOneofCase.Mongodb44;
+      }
+    }
+
     /// <summary>Field number for the "backup_window_start" field.</summary>
     public const int BackupWindowStartFieldNumber = 3;
     private global::Google.Type.TimeOfDay backupWindowStart_;
@@ -1070,6 +1221,22 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
         backupWindowStart_ = value;
       }
     }
+
+    /// <summary>Field number for the "backup_retain_period_days" field.</summary>
+    public const int BackupRetainPeriodDaysFieldNumber = 9;
+    private static readonly pb::FieldCodec<long?> _single_backupRetainPeriodDays_codec = pb::FieldCodec.ForStructWrapper<long>(74);
+    private long? backupRetainPeriodDays_;
+    /// <summary>
+    /// Retain period of automatically created backup in days
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? BackupRetainPeriodDays {
+      get { return backupRetainPeriodDays_; }
+      set {
+        backupRetainPeriodDays_ = value;
+      }
+    }
+
 
     /// <summary>Field number for the "access" field.</summary>
     public const int AccessFieldNumber = 6;
@@ -1092,6 +1259,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
       Mongodb36 = 2,
       Mongodb40 = 4,
       Mongodb42 = 7,
+      Mongodb44 = 8,
     }
     private MongodbOneofCase mongodbCase_ = MongodbOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1123,7 +1291,9 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
       if (!object.Equals(Mongodb36, other.Mongodb36)) return false;
       if (!object.Equals(Mongodb40, other.Mongodb40)) return false;
       if (!object.Equals(Mongodb42, other.Mongodb42)) return false;
+      if (!object.Equals(Mongodb44, other.Mongodb44)) return false;
       if (!object.Equals(BackupWindowStart, other.BackupWindowStart)) return false;
+      if (BackupRetainPeriodDays != other.BackupRetainPeriodDays) return false;
       if (!object.Equals(Access, other.Access)) return false;
       if (MongodbCase != other.MongodbCase) return false;
       return Equals(_unknownFields, other._unknownFields);
@@ -1137,7 +1307,9 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
       if (mongodbCase_ == MongodbOneofCase.Mongodb36) hash ^= Mongodb36.GetHashCode();
       if (mongodbCase_ == MongodbOneofCase.Mongodb40) hash ^= Mongodb40.GetHashCode();
       if (mongodbCase_ == MongodbOneofCase.Mongodb42) hash ^= Mongodb42.GetHashCode();
+      if (mongodbCase_ == MongodbOneofCase.Mongodb44) hash ^= Mongodb44.GetHashCode();
       if (backupWindowStart_ != null) hash ^= BackupWindowStart.GetHashCode();
+      if (backupRetainPeriodDays_ != null) hash ^= BackupRetainPeriodDays.GetHashCode();
       if (access_ != null) hash ^= Access.GetHashCode();
       hash ^= (int) mongodbCase_;
       if (_unknownFields != null) {
@@ -1181,6 +1353,13 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
         output.WriteRawTag(58);
         output.WriteMessage(Mongodb42);
       }
+      if (mongodbCase_ == MongodbOneofCase.Mongodb44) {
+        output.WriteRawTag(66);
+        output.WriteMessage(Mongodb44);
+      }
+      if (backupRetainPeriodDays_ != null) {
+        _single_backupRetainPeriodDays_codec.WriteTagAndValue(output, BackupRetainPeriodDays);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1204,8 +1383,14 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
       if (mongodbCase_ == MongodbOneofCase.Mongodb42) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(Mongodb42);
       }
+      if (mongodbCase_ == MongodbOneofCase.Mongodb44) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Mongodb44);
+      }
       if (backupWindowStart_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(BackupWindowStart);
+      }
+      if (backupRetainPeriodDays_ != null) {
+        size += _single_backupRetainPeriodDays_codec.CalculateSizeWithTag(BackupRetainPeriodDays);
       }
       if (access_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(Access);
@@ -1233,6 +1418,11 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
         }
         BackupWindowStart.MergeFrom(other.BackupWindowStart);
       }
+      if (other.backupRetainPeriodDays_ != null) {
+        if (backupRetainPeriodDays_ == null || other.BackupRetainPeriodDays != 0L) {
+          BackupRetainPeriodDays = other.BackupRetainPeriodDays;
+        }
+      }
       if (other.access_ != null) {
         if (access_ == null) {
           Access = new global::Yandex.Cloud.Mdb.Mongodb.V1.Access();
@@ -1257,6 +1447,12 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
             Mongodb42 = new global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_2();
           }
           Mongodb42.MergeFrom(other.Mongodb42);
+          break;
+        case MongodbOneofCase.Mongodb44:
+          if (Mongodb44 == null) {
+            Mongodb44 = new global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_4();
+          }
+          Mongodb44.MergeFrom(other.Mongodb44);
           break;
       }
 
@@ -1320,6 +1516,22 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
             Mongodb42 = subBuilder;
             break;
           }
+          case 66: {
+            global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_4 subBuilder = new global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_4();
+            if (mongodbCase_ == MongodbOneofCase.Mongodb44) {
+              subBuilder.MergeFrom(Mongodb44);
+            }
+            input.ReadMessage(subBuilder);
+            Mongodb44 = subBuilder;
+            break;
+          }
+          case 74: {
+            long? value = _single_backupRetainPeriodDays_codec.Read(input);
+            if (backupRetainPeriodDays_ == null || value != 0L) {
+              BackupRetainPeriodDays = value;
+            }
+            break;
+          }
         }
       }
     }
@@ -1354,6 +1566,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
       mongod_ = other.mongod_ != null ? other.mongod_.Clone() : null;
       mongocfg_ = other.mongocfg_ != null ? other.mongocfg_.Clone() : null;
       mongos_ = other.mongos_ != null ? other.mongos_.Clone() : null;
+      mongoinfra_ = other.mongoinfra_ != null ? other.mongoinfra_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1404,6 +1617,20 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
       }
     }
 
+    /// <summary>Field number for the "mongoinfra" field.</summary>
+    public const int MongoinfraFieldNumber = 4;
+    private global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb3_6.Types.MongoInfra mongoinfra_;
+    /// <summary>
+    /// Configuration and resource allocation for mongoinfra (mongos+mongocfg) in a MongoDB 3.6 cluster.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb3_6.Types.MongoInfra Mongoinfra {
+      get { return mongoinfra_; }
+      set {
+        mongoinfra_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as Mongodb3_6);
@@ -1420,6 +1647,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
       if (!object.Equals(Mongod, other.Mongod)) return false;
       if (!object.Equals(Mongocfg, other.Mongocfg)) return false;
       if (!object.Equals(Mongos, other.Mongos)) return false;
+      if (!object.Equals(Mongoinfra, other.Mongoinfra)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1429,6 +1657,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
       if (mongod_ != null) hash ^= Mongod.GetHashCode();
       if (mongocfg_ != null) hash ^= Mongocfg.GetHashCode();
       if (mongos_ != null) hash ^= Mongos.GetHashCode();
+      if (mongoinfra_ != null) hash ^= Mongoinfra.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1454,6 +1683,10 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
         output.WriteRawTag(26);
         output.WriteMessage(Mongos);
       }
+      if (mongoinfra_ != null) {
+        output.WriteRawTag(34);
+        output.WriteMessage(Mongoinfra);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1470,6 +1703,9 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
       }
       if (mongos_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(Mongos);
+      }
+      if (mongoinfra_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Mongoinfra);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1499,6 +1735,12 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
           Mongos = new global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb3_6.Types.Mongos();
         }
         Mongos.MergeFrom(other.Mongos);
+      }
+      if (other.mongoinfra_ != null) {
+        if (mongoinfra_ == null) {
+          Mongoinfra = new global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb3_6.Types.MongoInfra();
+        }
+        Mongoinfra.MergeFrom(other.Mongoinfra);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -1530,6 +1772,13 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
               Mongos = new global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb3_6.Types.Mongos();
             }
             input.ReadMessage(Mongos);
+            break;
+          }
+          case 34: {
+            if (mongoinfra_ == null) {
+              Mongoinfra = new global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb3_6.Types.MongoInfra();
+            }
+            input.ReadMessage(Mongoinfra);
             break;
           }
         }
@@ -2059,6 +2308,212 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
 
       }
 
+      internal sealed partial class MongoInfra : pb::IMessage<MongoInfra> {
+        private static readonly pb::MessageParser<MongoInfra> _parser = new pb::MessageParser<MongoInfra>(() => new MongoInfra());
+        private pb::UnknownFieldSet _unknownFields;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public static pb::MessageParser<MongoInfra> Parser { get { return _parser; } }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public static pbr::MessageDescriptor Descriptor {
+          get { return global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb3_6.Descriptor.NestedTypes[3]; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        pbr::MessageDescriptor pb::IMessage.Descriptor {
+          get { return Descriptor; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public MongoInfra() {
+          OnConstruction();
+        }
+
+        partial void OnConstruction();
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public MongoInfra(MongoInfra other) : this() {
+          configMongos_ = other.configMongos_ != null ? other.configMongos_.Clone() : null;
+          configMongocfg_ = other.configMongocfg_ != null ? other.configMongocfg_.Clone() : null;
+          resources_ = other.resources_ != null ? other.resources_.Clone() : null;
+          _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public MongoInfra Clone() {
+          return new MongoInfra(this);
+        }
+
+        /// <summary>Field number for the "config_mongos" field.</summary>
+        public const int ConfigMongosFieldNumber = 1;
+        private global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongosConfigSet3_6 configMongos_;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongosConfigSet3_6 ConfigMongos {
+          get { return configMongos_; }
+          set {
+            configMongos_ = value;
+          }
+        }
+
+        /// <summary>Field number for the "config_mongocfg" field.</summary>
+        public const int ConfigMongocfgFieldNumber = 2;
+        private global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongoCfgConfigSet3_6 configMongocfg_;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongoCfgConfigSet3_6 ConfigMongocfg {
+          get { return configMongocfg_; }
+          set {
+            configMongocfg_ = value;
+          }
+        }
+
+        /// <summary>Field number for the "resources" field.</summary>
+        public const int ResourcesFieldNumber = 3;
+        private global::Yandex.Cloud.Mdb.Mongodb.V1.Resources resources_;
+        /// <summary>
+        /// Resources allocated to mongoinfra (mongos+mongocfg) hosts.
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public global::Yandex.Cloud.Mdb.Mongodb.V1.Resources Resources {
+          get { return resources_; }
+          set {
+            resources_ = value;
+          }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override bool Equals(object other) {
+          return Equals(other as MongoInfra);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public bool Equals(MongoInfra other) {
+          if (ReferenceEquals(other, null)) {
+            return false;
+          }
+          if (ReferenceEquals(other, this)) {
+            return true;
+          }
+          if (!object.Equals(ConfigMongos, other.ConfigMongos)) return false;
+          if (!object.Equals(ConfigMongocfg, other.ConfigMongocfg)) return false;
+          if (!object.Equals(Resources, other.Resources)) return false;
+          return Equals(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override int GetHashCode() {
+          int hash = 1;
+          if (configMongos_ != null) hash ^= ConfigMongos.GetHashCode();
+          if (configMongocfg_ != null) hash ^= ConfigMongocfg.GetHashCode();
+          if (resources_ != null) hash ^= Resources.GetHashCode();
+          if (_unknownFields != null) {
+            hash ^= _unknownFields.GetHashCode();
+          }
+          return hash;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override string ToString() {
+          return pb::JsonFormatter.ToDiagnosticString(this);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void WriteTo(pb::CodedOutputStream output) {
+          if (configMongos_ != null) {
+            output.WriteRawTag(10);
+            output.WriteMessage(ConfigMongos);
+          }
+          if (configMongocfg_ != null) {
+            output.WriteRawTag(18);
+            output.WriteMessage(ConfigMongocfg);
+          }
+          if (resources_ != null) {
+            output.WriteRawTag(26);
+            output.WriteMessage(Resources);
+          }
+          if (_unknownFields != null) {
+            _unknownFields.WriteTo(output);
+          }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public int CalculateSize() {
+          int size = 0;
+          if (configMongos_ != null) {
+            size += 1 + pb::CodedOutputStream.ComputeMessageSize(ConfigMongos);
+          }
+          if (configMongocfg_ != null) {
+            size += 1 + pb::CodedOutputStream.ComputeMessageSize(ConfigMongocfg);
+          }
+          if (resources_ != null) {
+            size += 1 + pb::CodedOutputStream.ComputeMessageSize(Resources);
+          }
+          if (_unknownFields != null) {
+            size += _unknownFields.CalculateSize();
+          }
+          return size;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void MergeFrom(MongoInfra other) {
+          if (other == null) {
+            return;
+          }
+          if (other.configMongos_ != null) {
+            if (configMongos_ == null) {
+              ConfigMongos = new global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongosConfigSet3_6();
+            }
+            ConfigMongos.MergeFrom(other.ConfigMongos);
+          }
+          if (other.configMongocfg_ != null) {
+            if (configMongocfg_ == null) {
+              ConfigMongocfg = new global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongoCfgConfigSet3_6();
+            }
+            ConfigMongocfg.MergeFrom(other.ConfigMongocfg);
+          }
+          if (other.resources_ != null) {
+            if (resources_ == null) {
+              Resources = new global::Yandex.Cloud.Mdb.Mongodb.V1.Resources();
+            }
+            Resources.MergeFrom(other.Resources);
+          }
+          _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void MergeFrom(pb::CodedInputStream input) {
+          uint tag;
+          while ((tag = input.ReadTag()) != 0) {
+            switch(tag) {
+              default:
+                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+                break;
+              case 10: {
+                if (configMongos_ == null) {
+                  ConfigMongos = new global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongosConfigSet3_6();
+                }
+                input.ReadMessage(ConfigMongos);
+                break;
+              }
+              case 18: {
+                if (configMongocfg_ == null) {
+                  ConfigMongocfg = new global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongoCfgConfigSet3_6();
+                }
+                input.ReadMessage(ConfigMongocfg);
+                break;
+              }
+              case 26: {
+                if (resources_ == null) {
+                  Resources = new global::Yandex.Cloud.Mdb.Mongodb.V1.Resources();
+                }
+                input.ReadMessage(Resources);
+                break;
+              }
+            }
+          }
+        }
+
+      }
+
     }
     #endregion
 
@@ -2092,6 +2547,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
       mongod_ = other.mongod_ != null ? other.mongod_.Clone() : null;
       mongocfg_ = other.mongocfg_ != null ? other.mongocfg_.Clone() : null;
       mongos_ = other.mongos_ != null ? other.mongos_.Clone() : null;
+      mongoinfra_ = other.mongoinfra_ != null ? other.mongoinfra_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -2142,6 +2598,20 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
       }
     }
 
+    /// <summary>Field number for the "mongoinfra" field.</summary>
+    public const int MongoinfraFieldNumber = 4;
+    private global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_0.Types.MongoInfra mongoinfra_;
+    /// <summary>
+    /// Configuration and resource allocation for mongoinfra (mongos+mongocfg) in a MongoDB 4.0 cluster.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_0.Types.MongoInfra Mongoinfra {
+      get { return mongoinfra_; }
+      set {
+        mongoinfra_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as Mongodb4_0);
@@ -2158,6 +2628,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
       if (!object.Equals(Mongod, other.Mongod)) return false;
       if (!object.Equals(Mongocfg, other.Mongocfg)) return false;
       if (!object.Equals(Mongos, other.Mongos)) return false;
+      if (!object.Equals(Mongoinfra, other.Mongoinfra)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -2167,6 +2638,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
       if (mongod_ != null) hash ^= Mongod.GetHashCode();
       if (mongocfg_ != null) hash ^= Mongocfg.GetHashCode();
       if (mongos_ != null) hash ^= Mongos.GetHashCode();
+      if (mongoinfra_ != null) hash ^= Mongoinfra.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -2192,6 +2664,10 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
         output.WriteRawTag(26);
         output.WriteMessage(Mongos);
       }
+      if (mongoinfra_ != null) {
+        output.WriteRawTag(34);
+        output.WriteMessage(Mongoinfra);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -2208,6 +2684,9 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
       }
       if (mongos_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(Mongos);
+      }
+      if (mongoinfra_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Mongoinfra);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -2237,6 +2716,12 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
           Mongos = new global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_0.Types.Mongos();
         }
         Mongos.MergeFrom(other.Mongos);
+      }
+      if (other.mongoinfra_ != null) {
+        if (mongoinfra_ == null) {
+          Mongoinfra = new global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_0.Types.MongoInfra();
+        }
+        Mongoinfra.MergeFrom(other.Mongoinfra);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -2268,6 +2753,13 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
               Mongos = new global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_0.Types.Mongos();
             }
             input.ReadMessage(Mongos);
+            break;
+          }
+          case 34: {
+            if (mongoinfra_ == null) {
+              Mongoinfra = new global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_0.Types.MongoInfra();
+            }
+            input.ReadMessage(Mongoinfra);
             break;
           }
         }
@@ -2803,6 +3295,212 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
 
       }
 
+      internal sealed partial class MongoInfra : pb::IMessage<MongoInfra> {
+        private static readonly pb::MessageParser<MongoInfra> _parser = new pb::MessageParser<MongoInfra>(() => new MongoInfra());
+        private pb::UnknownFieldSet _unknownFields;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public static pb::MessageParser<MongoInfra> Parser { get { return _parser; } }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public static pbr::MessageDescriptor Descriptor {
+          get { return global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_0.Descriptor.NestedTypes[3]; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        pbr::MessageDescriptor pb::IMessage.Descriptor {
+          get { return Descriptor; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public MongoInfra() {
+          OnConstruction();
+        }
+
+        partial void OnConstruction();
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public MongoInfra(MongoInfra other) : this() {
+          configMongos_ = other.configMongos_ != null ? other.configMongos_.Clone() : null;
+          configMongocfg_ = other.configMongocfg_ != null ? other.configMongocfg_.Clone() : null;
+          resources_ = other.resources_ != null ? other.resources_.Clone() : null;
+          _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public MongoInfra Clone() {
+          return new MongoInfra(this);
+        }
+
+        /// <summary>Field number for the "config_mongos" field.</summary>
+        public const int ConfigMongosFieldNumber = 1;
+        private global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongosConfigSet4_0 configMongos_;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongosConfigSet4_0 ConfigMongos {
+          get { return configMongos_; }
+          set {
+            configMongos_ = value;
+          }
+        }
+
+        /// <summary>Field number for the "config_mongocfg" field.</summary>
+        public const int ConfigMongocfgFieldNumber = 2;
+        private global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongoCfgConfigSet4_0 configMongocfg_;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongoCfgConfigSet4_0 ConfigMongocfg {
+          get { return configMongocfg_; }
+          set {
+            configMongocfg_ = value;
+          }
+        }
+
+        /// <summary>Field number for the "resources" field.</summary>
+        public const int ResourcesFieldNumber = 3;
+        private global::Yandex.Cloud.Mdb.Mongodb.V1.Resources resources_;
+        /// <summary>
+        /// Resources allocated to mongoinfra (mongos+mongocfg) hosts.
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public global::Yandex.Cloud.Mdb.Mongodb.V1.Resources Resources {
+          get { return resources_; }
+          set {
+            resources_ = value;
+          }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override bool Equals(object other) {
+          return Equals(other as MongoInfra);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public bool Equals(MongoInfra other) {
+          if (ReferenceEquals(other, null)) {
+            return false;
+          }
+          if (ReferenceEquals(other, this)) {
+            return true;
+          }
+          if (!object.Equals(ConfigMongos, other.ConfigMongos)) return false;
+          if (!object.Equals(ConfigMongocfg, other.ConfigMongocfg)) return false;
+          if (!object.Equals(Resources, other.Resources)) return false;
+          return Equals(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override int GetHashCode() {
+          int hash = 1;
+          if (configMongos_ != null) hash ^= ConfigMongos.GetHashCode();
+          if (configMongocfg_ != null) hash ^= ConfigMongocfg.GetHashCode();
+          if (resources_ != null) hash ^= Resources.GetHashCode();
+          if (_unknownFields != null) {
+            hash ^= _unknownFields.GetHashCode();
+          }
+          return hash;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override string ToString() {
+          return pb::JsonFormatter.ToDiagnosticString(this);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void WriteTo(pb::CodedOutputStream output) {
+          if (configMongos_ != null) {
+            output.WriteRawTag(10);
+            output.WriteMessage(ConfigMongos);
+          }
+          if (configMongocfg_ != null) {
+            output.WriteRawTag(18);
+            output.WriteMessage(ConfigMongocfg);
+          }
+          if (resources_ != null) {
+            output.WriteRawTag(26);
+            output.WriteMessage(Resources);
+          }
+          if (_unknownFields != null) {
+            _unknownFields.WriteTo(output);
+          }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public int CalculateSize() {
+          int size = 0;
+          if (configMongos_ != null) {
+            size += 1 + pb::CodedOutputStream.ComputeMessageSize(ConfigMongos);
+          }
+          if (configMongocfg_ != null) {
+            size += 1 + pb::CodedOutputStream.ComputeMessageSize(ConfigMongocfg);
+          }
+          if (resources_ != null) {
+            size += 1 + pb::CodedOutputStream.ComputeMessageSize(Resources);
+          }
+          if (_unknownFields != null) {
+            size += _unknownFields.CalculateSize();
+          }
+          return size;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void MergeFrom(MongoInfra other) {
+          if (other == null) {
+            return;
+          }
+          if (other.configMongos_ != null) {
+            if (configMongos_ == null) {
+              ConfigMongos = new global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongosConfigSet4_0();
+            }
+            ConfigMongos.MergeFrom(other.ConfigMongos);
+          }
+          if (other.configMongocfg_ != null) {
+            if (configMongocfg_ == null) {
+              ConfigMongocfg = new global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongoCfgConfigSet4_0();
+            }
+            ConfigMongocfg.MergeFrom(other.ConfigMongocfg);
+          }
+          if (other.resources_ != null) {
+            if (resources_ == null) {
+              Resources = new global::Yandex.Cloud.Mdb.Mongodb.V1.Resources();
+            }
+            Resources.MergeFrom(other.Resources);
+          }
+          _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void MergeFrom(pb::CodedInputStream input) {
+          uint tag;
+          while ((tag = input.ReadTag()) != 0) {
+            switch(tag) {
+              default:
+                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+                break;
+              case 10: {
+                if (configMongos_ == null) {
+                  ConfigMongos = new global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongosConfigSet4_0();
+                }
+                input.ReadMessage(ConfigMongos);
+                break;
+              }
+              case 18: {
+                if (configMongocfg_ == null) {
+                  ConfigMongocfg = new global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongoCfgConfigSet4_0();
+                }
+                input.ReadMessage(ConfigMongocfg);
+                break;
+              }
+              case 26: {
+                if (resources_ == null) {
+                  Resources = new global::Yandex.Cloud.Mdb.Mongodb.V1.Resources();
+                }
+                input.ReadMessage(Resources);
+                break;
+              }
+            }
+          }
+        }
+
+      }
+
     }
     #endregion
 
@@ -2836,6 +3534,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
       mongod_ = other.mongod_ != null ? other.mongod_.Clone() : null;
       mongocfg_ = other.mongocfg_ != null ? other.mongocfg_.Clone() : null;
       mongos_ = other.mongos_ != null ? other.mongos_.Clone() : null;
+      mongoinfra_ = other.mongoinfra_ != null ? other.mongoinfra_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -2886,6 +3585,20 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
       }
     }
 
+    /// <summary>Field number for the "mongoinfra" field.</summary>
+    public const int MongoinfraFieldNumber = 4;
+    private global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_2.Types.MongoInfra mongoinfra_;
+    /// <summary>
+    /// Configuration and resource allocation for mongoinfra (mongos+mongocfg) in a MongoDB 4.2 cluster.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_2.Types.MongoInfra Mongoinfra {
+      get { return mongoinfra_; }
+      set {
+        mongoinfra_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as Mongodb4_2);
@@ -2902,6 +3615,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
       if (!object.Equals(Mongod, other.Mongod)) return false;
       if (!object.Equals(Mongocfg, other.Mongocfg)) return false;
       if (!object.Equals(Mongos, other.Mongos)) return false;
+      if (!object.Equals(Mongoinfra, other.Mongoinfra)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -2911,6 +3625,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
       if (mongod_ != null) hash ^= Mongod.GetHashCode();
       if (mongocfg_ != null) hash ^= Mongocfg.GetHashCode();
       if (mongos_ != null) hash ^= Mongos.GetHashCode();
+      if (mongoinfra_ != null) hash ^= Mongoinfra.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -2936,6 +3651,10 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
         output.WriteRawTag(26);
         output.WriteMessage(Mongos);
       }
+      if (mongoinfra_ != null) {
+        output.WriteRawTag(34);
+        output.WriteMessage(Mongoinfra);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -2952,6 +3671,9 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
       }
       if (mongos_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(Mongos);
+      }
+      if (mongoinfra_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Mongoinfra);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -2981,6 +3703,12 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
           Mongos = new global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_2.Types.Mongos();
         }
         Mongos.MergeFrom(other.Mongos);
+      }
+      if (other.mongoinfra_ != null) {
+        if (mongoinfra_ == null) {
+          Mongoinfra = new global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_2.Types.MongoInfra();
+        }
+        Mongoinfra.MergeFrom(other.Mongoinfra);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -3012,6 +3740,13 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
               Mongos = new global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_2.Types.Mongos();
             }
             input.ReadMessage(Mongos);
+            break;
+          }
+          case 34: {
+            if (mongoinfra_ == null) {
+              Mongoinfra = new global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_2.Types.MongoInfra();
+            }
+            input.ReadMessage(Mongoinfra);
             break;
           }
         }
@@ -3547,6 +4282,1199 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
 
       }
 
+      internal sealed partial class MongoInfra : pb::IMessage<MongoInfra> {
+        private static readonly pb::MessageParser<MongoInfra> _parser = new pb::MessageParser<MongoInfra>(() => new MongoInfra());
+        private pb::UnknownFieldSet _unknownFields;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public static pb::MessageParser<MongoInfra> Parser { get { return _parser; } }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public static pbr::MessageDescriptor Descriptor {
+          get { return global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_2.Descriptor.NestedTypes[3]; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        pbr::MessageDescriptor pb::IMessage.Descriptor {
+          get { return Descriptor; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public MongoInfra() {
+          OnConstruction();
+        }
+
+        partial void OnConstruction();
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public MongoInfra(MongoInfra other) : this() {
+          configMongos_ = other.configMongos_ != null ? other.configMongos_.Clone() : null;
+          configMongocfg_ = other.configMongocfg_ != null ? other.configMongocfg_.Clone() : null;
+          resources_ = other.resources_ != null ? other.resources_.Clone() : null;
+          _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public MongoInfra Clone() {
+          return new MongoInfra(this);
+        }
+
+        /// <summary>Field number for the "config_mongos" field.</summary>
+        public const int ConfigMongosFieldNumber = 1;
+        private global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongosConfigSet4_2 configMongos_;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongosConfigSet4_2 ConfigMongos {
+          get { return configMongos_; }
+          set {
+            configMongos_ = value;
+          }
+        }
+
+        /// <summary>Field number for the "config_mongocfg" field.</summary>
+        public const int ConfigMongocfgFieldNumber = 2;
+        private global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongoCfgConfigSet4_2 configMongocfg_;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongoCfgConfigSet4_2 ConfigMongocfg {
+          get { return configMongocfg_; }
+          set {
+            configMongocfg_ = value;
+          }
+        }
+
+        /// <summary>Field number for the "resources" field.</summary>
+        public const int ResourcesFieldNumber = 3;
+        private global::Yandex.Cloud.Mdb.Mongodb.V1.Resources resources_;
+        /// <summary>
+        /// Resources allocated to mongoinfra (mongos+mongocfg) hosts.
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public global::Yandex.Cloud.Mdb.Mongodb.V1.Resources Resources {
+          get { return resources_; }
+          set {
+            resources_ = value;
+          }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override bool Equals(object other) {
+          return Equals(other as MongoInfra);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public bool Equals(MongoInfra other) {
+          if (ReferenceEquals(other, null)) {
+            return false;
+          }
+          if (ReferenceEquals(other, this)) {
+            return true;
+          }
+          if (!object.Equals(ConfigMongos, other.ConfigMongos)) return false;
+          if (!object.Equals(ConfigMongocfg, other.ConfigMongocfg)) return false;
+          if (!object.Equals(Resources, other.Resources)) return false;
+          return Equals(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override int GetHashCode() {
+          int hash = 1;
+          if (configMongos_ != null) hash ^= ConfigMongos.GetHashCode();
+          if (configMongocfg_ != null) hash ^= ConfigMongocfg.GetHashCode();
+          if (resources_ != null) hash ^= Resources.GetHashCode();
+          if (_unknownFields != null) {
+            hash ^= _unknownFields.GetHashCode();
+          }
+          return hash;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override string ToString() {
+          return pb::JsonFormatter.ToDiagnosticString(this);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void WriteTo(pb::CodedOutputStream output) {
+          if (configMongos_ != null) {
+            output.WriteRawTag(10);
+            output.WriteMessage(ConfigMongos);
+          }
+          if (configMongocfg_ != null) {
+            output.WriteRawTag(18);
+            output.WriteMessage(ConfigMongocfg);
+          }
+          if (resources_ != null) {
+            output.WriteRawTag(26);
+            output.WriteMessage(Resources);
+          }
+          if (_unknownFields != null) {
+            _unknownFields.WriteTo(output);
+          }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public int CalculateSize() {
+          int size = 0;
+          if (configMongos_ != null) {
+            size += 1 + pb::CodedOutputStream.ComputeMessageSize(ConfigMongos);
+          }
+          if (configMongocfg_ != null) {
+            size += 1 + pb::CodedOutputStream.ComputeMessageSize(ConfigMongocfg);
+          }
+          if (resources_ != null) {
+            size += 1 + pb::CodedOutputStream.ComputeMessageSize(Resources);
+          }
+          if (_unknownFields != null) {
+            size += _unknownFields.CalculateSize();
+          }
+          return size;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void MergeFrom(MongoInfra other) {
+          if (other == null) {
+            return;
+          }
+          if (other.configMongos_ != null) {
+            if (configMongos_ == null) {
+              ConfigMongos = new global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongosConfigSet4_2();
+            }
+            ConfigMongos.MergeFrom(other.ConfigMongos);
+          }
+          if (other.configMongocfg_ != null) {
+            if (configMongocfg_ == null) {
+              ConfigMongocfg = new global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongoCfgConfigSet4_2();
+            }
+            ConfigMongocfg.MergeFrom(other.ConfigMongocfg);
+          }
+          if (other.resources_ != null) {
+            if (resources_ == null) {
+              Resources = new global::Yandex.Cloud.Mdb.Mongodb.V1.Resources();
+            }
+            Resources.MergeFrom(other.Resources);
+          }
+          _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void MergeFrom(pb::CodedInputStream input) {
+          uint tag;
+          while ((tag = input.ReadTag()) != 0) {
+            switch(tag) {
+              default:
+                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+                break;
+              case 10: {
+                if (configMongos_ == null) {
+                  ConfigMongos = new global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongosConfigSet4_2();
+                }
+                input.ReadMessage(ConfigMongos);
+                break;
+              }
+              case 18: {
+                if (configMongocfg_ == null) {
+                  ConfigMongocfg = new global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongoCfgConfigSet4_2();
+                }
+                input.ReadMessage(ConfigMongocfg);
+                break;
+              }
+              case 26: {
+                if (resources_ == null) {
+                  Resources = new global::Yandex.Cloud.Mdb.Mongodb.V1.Resources();
+                }
+                input.ReadMessage(Resources);
+                break;
+              }
+            }
+          }
+        }
+
+      }
+
+    }
+    #endregion
+
+  }
+
+  internal sealed partial class Mongodb4_4 : pb::IMessage<Mongodb4_4> {
+    private static readonly pb::MessageParser<Mongodb4_4> _parser = new pb::MessageParser<Mongodb4_4>(() => new Mongodb4_4());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<Mongodb4_4> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Mdb.Mongodb.V1.ClusterReflection.Descriptor.MessageTypes[6]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public Mongodb4_4() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public Mongodb4_4(Mongodb4_4 other) : this() {
+      mongod_ = other.mongod_ != null ? other.mongod_.Clone() : null;
+      mongocfg_ = other.mongocfg_ != null ? other.mongocfg_.Clone() : null;
+      mongos_ = other.mongos_ != null ? other.mongos_.Clone() : null;
+      mongoinfra_ = other.mongoinfra_ != null ? other.mongoinfra_.Clone() : null;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public Mongodb4_4 Clone() {
+      return new Mongodb4_4(this);
+    }
+
+    /// <summary>Field number for the "mongod" field.</summary>
+    public const int MongodFieldNumber = 1;
+    private global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_4.Types.Mongod mongod_;
+    /// <summary>
+    /// Configuration and resource allocation for mongod in a MongoDB 4.4 cluster.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_4.Types.Mongod Mongod {
+      get { return mongod_; }
+      set {
+        mongod_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "mongocfg" field.</summary>
+    public const int MongocfgFieldNumber = 2;
+    private global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_4.Types.MongoCfg mongocfg_;
+    /// <summary>
+    /// Configuration and resource allocation for mongocfg in a MongoDB 4.4 cluster.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_4.Types.MongoCfg Mongocfg {
+      get { return mongocfg_; }
+      set {
+        mongocfg_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "mongos" field.</summary>
+    public const int MongosFieldNumber = 3;
+    private global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_4.Types.Mongos mongos_;
+    /// <summary>
+    /// Configuration and resource allocation for mongos in a MongoDB 4.4 cluster.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_4.Types.Mongos Mongos {
+      get { return mongos_; }
+      set {
+        mongos_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "mongoinfra" field.</summary>
+    public const int MongoinfraFieldNumber = 4;
+    private global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_4.Types.MongoInfra mongoinfra_;
+    /// <summary>
+    /// Configuration and resource allocation for mongoinfra (mongos+mongocfg) in a MongoDB 4.4 cluster.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_4.Types.MongoInfra Mongoinfra {
+      get { return mongoinfra_; }
+      set {
+        mongoinfra_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as Mongodb4_4);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(Mongodb4_4 other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (!object.Equals(Mongod, other.Mongod)) return false;
+      if (!object.Equals(Mongocfg, other.Mongocfg)) return false;
+      if (!object.Equals(Mongos, other.Mongos)) return false;
+      if (!object.Equals(Mongoinfra, other.Mongoinfra)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (mongod_ != null) hash ^= Mongod.GetHashCode();
+      if (mongocfg_ != null) hash ^= Mongocfg.GetHashCode();
+      if (mongos_ != null) hash ^= Mongos.GetHashCode();
+      if (mongoinfra_ != null) hash ^= Mongoinfra.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (mongod_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(Mongod);
+      }
+      if (mongocfg_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(Mongocfg);
+      }
+      if (mongos_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(Mongos);
+      }
+      if (mongoinfra_ != null) {
+        output.WriteRawTag(34);
+        output.WriteMessage(Mongoinfra);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (mongod_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Mongod);
+      }
+      if (mongocfg_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Mongocfg);
+      }
+      if (mongos_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Mongos);
+      }
+      if (mongoinfra_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Mongoinfra);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(Mongodb4_4 other) {
+      if (other == null) {
+        return;
+      }
+      if (other.mongod_ != null) {
+        if (mongod_ == null) {
+          Mongod = new global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_4.Types.Mongod();
+        }
+        Mongod.MergeFrom(other.Mongod);
+      }
+      if (other.mongocfg_ != null) {
+        if (mongocfg_ == null) {
+          Mongocfg = new global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_4.Types.MongoCfg();
+        }
+        Mongocfg.MergeFrom(other.Mongocfg);
+      }
+      if (other.mongos_ != null) {
+        if (mongos_ == null) {
+          Mongos = new global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_4.Types.Mongos();
+        }
+        Mongos.MergeFrom(other.Mongos);
+      }
+      if (other.mongoinfra_ != null) {
+        if (mongoinfra_ == null) {
+          Mongoinfra = new global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_4.Types.MongoInfra();
+        }
+        Mongoinfra.MergeFrom(other.Mongoinfra);
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            if (mongod_ == null) {
+              Mongod = new global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_4.Types.Mongod();
+            }
+            input.ReadMessage(Mongod);
+            break;
+          }
+          case 18: {
+            if (mongocfg_ == null) {
+              Mongocfg = new global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_4.Types.MongoCfg();
+            }
+            input.ReadMessage(Mongocfg);
+            break;
+          }
+          case 26: {
+            if (mongos_ == null) {
+              Mongos = new global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_4.Types.Mongos();
+            }
+            input.ReadMessage(Mongos);
+            break;
+          }
+          case 34: {
+            if (mongoinfra_ == null) {
+              Mongoinfra = new global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_4.Types.MongoInfra();
+            }
+            input.ReadMessage(Mongoinfra);
+            break;
+          }
+        }
+      }
+    }
+
+    #region Nested types
+    /// <summary>Container for nested types declared in the Mongodb4_4 message type.</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static partial class Types {
+      internal sealed partial class Mongod : pb::IMessage<Mongod> {
+        private static readonly pb::MessageParser<Mongod> _parser = new pb::MessageParser<Mongod>(() => new Mongod());
+        private pb::UnknownFieldSet _unknownFields;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public static pb::MessageParser<Mongod> Parser { get { return _parser; } }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public static pbr::MessageDescriptor Descriptor {
+          get { return global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_4.Descriptor.NestedTypes[0]; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        pbr::MessageDescriptor pb::IMessage.Descriptor {
+          get { return Descriptor; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public Mongod() {
+          OnConstruction();
+        }
+
+        partial void OnConstruction();
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public Mongod(Mongod other) : this() {
+          config_ = other.config_ != null ? other.config_.Clone() : null;
+          resources_ = other.resources_ != null ? other.resources_.Clone() : null;
+          _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public Mongod Clone() {
+          return new Mongod(this);
+        }
+
+        /// <summary>Field number for the "config" field.</summary>
+        public const int ConfigFieldNumber = 1;
+        private global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongodConfigSet4_4 config_;
+        /// <summary>
+        /// Configuration for mongod 4.4 hosts.
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongodConfigSet4_4 Config {
+          get { return config_; }
+          set {
+            config_ = value;
+          }
+        }
+
+        /// <summary>Field number for the "resources" field.</summary>
+        public const int ResourcesFieldNumber = 2;
+        private global::Yandex.Cloud.Mdb.Mongodb.V1.Resources resources_;
+        /// <summary>
+        /// Resources allocated to mongod hosts.
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public global::Yandex.Cloud.Mdb.Mongodb.V1.Resources Resources {
+          get { return resources_; }
+          set {
+            resources_ = value;
+          }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override bool Equals(object other) {
+          return Equals(other as Mongod);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public bool Equals(Mongod other) {
+          if (ReferenceEquals(other, null)) {
+            return false;
+          }
+          if (ReferenceEquals(other, this)) {
+            return true;
+          }
+          if (!object.Equals(Config, other.Config)) return false;
+          if (!object.Equals(Resources, other.Resources)) return false;
+          return Equals(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override int GetHashCode() {
+          int hash = 1;
+          if (config_ != null) hash ^= Config.GetHashCode();
+          if (resources_ != null) hash ^= Resources.GetHashCode();
+          if (_unknownFields != null) {
+            hash ^= _unknownFields.GetHashCode();
+          }
+          return hash;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override string ToString() {
+          return pb::JsonFormatter.ToDiagnosticString(this);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void WriteTo(pb::CodedOutputStream output) {
+          if (config_ != null) {
+            output.WriteRawTag(10);
+            output.WriteMessage(Config);
+          }
+          if (resources_ != null) {
+            output.WriteRawTag(18);
+            output.WriteMessage(Resources);
+          }
+          if (_unknownFields != null) {
+            _unknownFields.WriteTo(output);
+          }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public int CalculateSize() {
+          int size = 0;
+          if (config_ != null) {
+            size += 1 + pb::CodedOutputStream.ComputeMessageSize(Config);
+          }
+          if (resources_ != null) {
+            size += 1 + pb::CodedOutputStream.ComputeMessageSize(Resources);
+          }
+          if (_unknownFields != null) {
+            size += _unknownFields.CalculateSize();
+          }
+          return size;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void MergeFrom(Mongod other) {
+          if (other == null) {
+            return;
+          }
+          if (other.config_ != null) {
+            if (config_ == null) {
+              Config = new global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongodConfigSet4_4();
+            }
+            Config.MergeFrom(other.Config);
+          }
+          if (other.resources_ != null) {
+            if (resources_ == null) {
+              Resources = new global::Yandex.Cloud.Mdb.Mongodb.V1.Resources();
+            }
+            Resources.MergeFrom(other.Resources);
+          }
+          _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void MergeFrom(pb::CodedInputStream input) {
+          uint tag;
+          while ((tag = input.ReadTag()) != 0) {
+            switch(tag) {
+              default:
+                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+                break;
+              case 10: {
+                if (config_ == null) {
+                  Config = new global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongodConfigSet4_4();
+                }
+                input.ReadMessage(Config);
+                break;
+              }
+              case 18: {
+                if (resources_ == null) {
+                  Resources = new global::Yandex.Cloud.Mdb.Mongodb.V1.Resources();
+                }
+                input.ReadMessage(Resources);
+                break;
+              }
+            }
+          }
+        }
+
+      }
+
+      internal sealed partial class MongoCfg : pb::IMessage<MongoCfg> {
+        private static readonly pb::MessageParser<MongoCfg> _parser = new pb::MessageParser<MongoCfg>(() => new MongoCfg());
+        private pb::UnknownFieldSet _unknownFields;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public static pb::MessageParser<MongoCfg> Parser { get { return _parser; } }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public static pbr::MessageDescriptor Descriptor {
+          get { return global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_4.Descriptor.NestedTypes[1]; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        pbr::MessageDescriptor pb::IMessage.Descriptor {
+          get { return Descriptor; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public MongoCfg() {
+          OnConstruction();
+        }
+
+        partial void OnConstruction();
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public MongoCfg(MongoCfg other) : this() {
+          config_ = other.config_ != null ? other.config_.Clone() : null;
+          resources_ = other.resources_ != null ? other.resources_.Clone() : null;
+          _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public MongoCfg Clone() {
+          return new MongoCfg(this);
+        }
+
+        /// <summary>Field number for the "config" field.</summary>
+        public const int ConfigFieldNumber = 1;
+        private global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongoCfgConfigSet4_4 config_;
+        /// <summary>
+        /// Configuration for mongocfg 4.4 hosts.
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongoCfgConfigSet4_4 Config {
+          get { return config_; }
+          set {
+            config_ = value;
+          }
+        }
+
+        /// <summary>Field number for the "resources" field.</summary>
+        public const int ResourcesFieldNumber = 2;
+        private global::Yandex.Cloud.Mdb.Mongodb.V1.Resources resources_;
+        /// <summary>
+        /// Resources allocated to mongocfg hosts.
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public global::Yandex.Cloud.Mdb.Mongodb.V1.Resources Resources {
+          get { return resources_; }
+          set {
+            resources_ = value;
+          }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override bool Equals(object other) {
+          return Equals(other as MongoCfg);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public bool Equals(MongoCfg other) {
+          if (ReferenceEquals(other, null)) {
+            return false;
+          }
+          if (ReferenceEquals(other, this)) {
+            return true;
+          }
+          if (!object.Equals(Config, other.Config)) return false;
+          if (!object.Equals(Resources, other.Resources)) return false;
+          return Equals(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override int GetHashCode() {
+          int hash = 1;
+          if (config_ != null) hash ^= Config.GetHashCode();
+          if (resources_ != null) hash ^= Resources.GetHashCode();
+          if (_unknownFields != null) {
+            hash ^= _unknownFields.GetHashCode();
+          }
+          return hash;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override string ToString() {
+          return pb::JsonFormatter.ToDiagnosticString(this);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void WriteTo(pb::CodedOutputStream output) {
+          if (config_ != null) {
+            output.WriteRawTag(10);
+            output.WriteMessage(Config);
+          }
+          if (resources_ != null) {
+            output.WriteRawTag(18);
+            output.WriteMessage(Resources);
+          }
+          if (_unknownFields != null) {
+            _unknownFields.WriteTo(output);
+          }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public int CalculateSize() {
+          int size = 0;
+          if (config_ != null) {
+            size += 1 + pb::CodedOutputStream.ComputeMessageSize(Config);
+          }
+          if (resources_ != null) {
+            size += 1 + pb::CodedOutputStream.ComputeMessageSize(Resources);
+          }
+          if (_unknownFields != null) {
+            size += _unknownFields.CalculateSize();
+          }
+          return size;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void MergeFrom(MongoCfg other) {
+          if (other == null) {
+            return;
+          }
+          if (other.config_ != null) {
+            if (config_ == null) {
+              Config = new global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongoCfgConfigSet4_4();
+            }
+            Config.MergeFrom(other.Config);
+          }
+          if (other.resources_ != null) {
+            if (resources_ == null) {
+              Resources = new global::Yandex.Cloud.Mdb.Mongodb.V1.Resources();
+            }
+            Resources.MergeFrom(other.Resources);
+          }
+          _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void MergeFrom(pb::CodedInputStream input) {
+          uint tag;
+          while ((tag = input.ReadTag()) != 0) {
+            switch(tag) {
+              default:
+                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+                break;
+              case 10: {
+                if (config_ == null) {
+                  Config = new global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongoCfgConfigSet4_4();
+                }
+                input.ReadMessage(Config);
+                break;
+              }
+              case 18: {
+                if (resources_ == null) {
+                  Resources = new global::Yandex.Cloud.Mdb.Mongodb.V1.Resources();
+                }
+                input.ReadMessage(Resources);
+                break;
+              }
+            }
+          }
+        }
+
+      }
+
+      internal sealed partial class Mongos : pb::IMessage<Mongos> {
+        private static readonly pb::MessageParser<Mongos> _parser = new pb::MessageParser<Mongos>(() => new Mongos());
+        private pb::UnknownFieldSet _unknownFields;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public static pb::MessageParser<Mongos> Parser { get { return _parser; } }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public static pbr::MessageDescriptor Descriptor {
+          get { return global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_4.Descriptor.NestedTypes[2]; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        pbr::MessageDescriptor pb::IMessage.Descriptor {
+          get { return Descriptor; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public Mongos() {
+          OnConstruction();
+        }
+
+        partial void OnConstruction();
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public Mongos(Mongos other) : this() {
+          config_ = other.config_ != null ? other.config_.Clone() : null;
+          resources_ = other.resources_ != null ? other.resources_.Clone() : null;
+          _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public Mongos Clone() {
+          return new Mongos(this);
+        }
+
+        /// <summary>Field number for the "config" field.</summary>
+        public const int ConfigFieldNumber = 1;
+        private global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongosConfigSet4_4 config_;
+        /// <summary>
+        /// Configuration for mongos 4.4 hosts.
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongosConfigSet4_4 Config {
+          get { return config_; }
+          set {
+            config_ = value;
+          }
+        }
+
+        /// <summary>Field number for the "resources" field.</summary>
+        public const int ResourcesFieldNumber = 2;
+        private global::Yandex.Cloud.Mdb.Mongodb.V1.Resources resources_;
+        /// <summary>
+        /// Resources allocated to mongos hosts.
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public global::Yandex.Cloud.Mdb.Mongodb.V1.Resources Resources {
+          get { return resources_; }
+          set {
+            resources_ = value;
+          }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override bool Equals(object other) {
+          return Equals(other as Mongos);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public bool Equals(Mongos other) {
+          if (ReferenceEquals(other, null)) {
+            return false;
+          }
+          if (ReferenceEquals(other, this)) {
+            return true;
+          }
+          if (!object.Equals(Config, other.Config)) return false;
+          if (!object.Equals(Resources, other.Resources)) return false;
+          return Equals(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override int GetHashCode() {
+          int hash = 1;
+          if (config_ != null) hash ^= Config.GetHashCode();
+          if (resources_ != null) hash ^= Resources.GetHashCode();
+          if (_unknownFields != null) {
+            hash ^= _unknownFields.GetHashCode();
+          }
+          return hash;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override string ToString() {
+          return pb::JsonFormatter.ToDiagnosticString(this);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void WriteTo(pb::CodedOutputStream output) {
+          if (config_ != null) {
+            output.WriteRawTag(10);
+            output.WriteMessage(Config);
+          }
+          if (resources_ != null) {
+            output.WriteRawTag(18);
+            output.WriteMessage(Resources);
+          }
+          if (_unknownFields != null) {
+            _unknownFields.WriteTo(output);
+          }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public int CalculateSize() {
+          int size = 0;
+          if (config_ != null) {
+            size += 1 + pb::CodedOutputStream.ComputeMessageSize(Config);
+          }
+          if (resources_ != null) {
+            size += 1 + pb::CodedOutputStream.ComputeMessageSize(Resources);
+          }
+          if (_unknownFields != null) {
+            size += _unknownFields.CalculateSize();
+          }
+          return size;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void MergeFrom(Mongos other) {
+          if (other == null) {
+            return;
+          }
+          if (other.config_ != null) {
+            if (config_ == null) {
+              Config = new global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongosConfigSet4_4();
+            }
+            Config.MergeFrom(other.Config);
+          }
+          if (other.resources_ != null) {
+            if (resources_ == null) {
+              Resources = new global::Yandex.Cloud.Mdb.Mongodb.V1.Resources();
+            }
+            Resources.MergeFrom(other.Resources);
+          }
+          _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void MergeFrom(pb::CodedInputStream input) {
+          uint tag;
+          while ((tag = input.ReadTag()) != 0) {
+            switch(tag) {
+              default:
+                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+                break;
+              case 10: {
+                if (config_ == null) {
+                  Config = new global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongosConfigSet4_4();
+                }
+                input.ReadMessage(Config);
+                break;
+              }
+              case 18: {
+                if (resources_ == null) {
+                  Resources = new global::Yandex.Cloud.Mdb.Mongodb.V1.Resources();
+                }
+                input.ReadMessage(Resources);
+                break;
+              }
+            }
+          }
+        }
+
+      }
+
+      internal sealed partial class MongoInfra : pb::IMessage<MongoInfra> {
+        private static readonly pb::MessageParser<MongoInfra> _parser = new pb::MessageParser<MongoInfra>(() => new MongoInfra());
+        private pb::UnknownFieldSet _unknownFields;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public static pb::MessageParser<MongoInfra> Parser { get { return _parser; } }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public static pbr::MessageDescriptor Descriptor {
+          get { return global::Yandex.Cloud.Mdb.Mongodb.V1.Mongodb4_4.Descriptor.NestedTypes[3]; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        pbr::MessageDescriptor pb::IMessage.Descriptor {
+          get { return Descriptor; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public MongoInfra() {
+          OnConstruction();
+        }
+
+        partial void OnConstruction();
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public MongoInfra(MongoInfra other) : this() {
+          configMongos_ = other.configMongos_ != null ? other.configMongos_.Clone() : null;
+          configMongocfg_ = other.configMongocfg_ != null ? other.configMongocfg_.Clone() : null;
+          resources_ = other.resources_ != null ? other.resources_.Clone() : null;
+          _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public MongoInfra Clone() {
+          return new MongoInfra(this);
+        }
+
+        /// <summary>Field number for the "config_mongos" field.</summary>
+        public const int ConfigMongosFieldNumber = 1;
+        private global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongosConfigSet4_4 configMongos_;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongosConfigSet4_4 ConfigMongos {
+          get { return configMongos_; }
+          set {
+            configMongos_ = value;
+          }
+        }
+
+        /// <summary>Field number for the "config_mongocfg" field.</summary>
+        public const int ConfigMongocfgFieldNumber = 2;
+        private global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongoCfgConfigSet4_4 configMongocfg_;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongoCfgConfigSet4_4 ConfigMongocfg {
+          get { return configMongocfg_; }
+          set {
+            configMongocfg_ = value;
+          }
+        }
+
+        /// <summary>Field number for the "resources" field.</summary>
+        public const int ResourcesFieldNumber = 3;
+        private global::Yandex.Cloud.Mdb.Mongodb.V1.Resources resources_;
+        /// <summary>
+        /// Resources allocated to mongoinfra (mongos+mongocfg) hosts.
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public global::Yandex.Cloud.Mdb.Mongodb.V1.Resources Resources {
+          get { return resources_; }
+          set {
+            resources_ = value;
+          }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override bool Equals(object other) {
+          return Equals(other as MongoInfra);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public bool Equals(MongoInfra other) {
+          if (ReferenceEquals(other, null)) {
+            return false;
+          }
+          if (ReferenceEquals(other, this)) {
+            return true;
+          }
+          if (!object.Equals(ConfigMongos, other.ConfigMongos)) return false;
+          if (!object.Equals(ConfigMongocfg, other.ConfigMongocfg)) return false;
+          if (!object.Equals(Resources, other.Resources)) return false;
+          return Equals(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override int GetHashCode() {
+          int hash = 1;
+          if (configMongos_ != null) hash ^= ConfigMongos.GetHashCode();
+          if (configMongocfg_ != null) hash ^= ConfigMongocfg.GetHashCode();
+          if (resources_ != null) hash ^= Resources.GetHashCode();
+          if (_unknownFields != null) {
+            hash ^= _unknownFields.GetHashCode();
+          }
+          return hash;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override string ToString() {
+          return pb::JsonFormatter.ToDiagnosticString(this);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void WriteTo(pb::CodedOutputStream output) {
+          if (configMongos_ != null) {
+            output.WriteRawTag(10);
+            output.WriteMessage(ConfigMongos);
+          }
+          if (configMongocfg_ != null) {
+            output.WriteRawTag(18);
+            output.WriteMessage(ConfigMongocfg);
+          }
+          if (resources_ != null) {
+            output.WriteRawTag(26);
+            output.WriteMessage(Resources);
+          }
+          if (_unknownFields != null) {
+            _unknownFields.WriteTo(output);
+          }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public int CalculateSize() {
+          int size = 0;
+          if (configMongos_ != null) {
+            size += 1 + pb::CodedOutputStream.ComputeMessageSize(ConfigMongos);
+          }
+          if (configMongocfg_ != null) {
+            size += 1 + pb::CodedOutputStream.ComputeMessageSize(ConfigMongocfg);
+          }
+          if (resources_ != null) {
+            size += 1 + pb::CodedOutputStream.ComputeMessageSize(Resources);
+          }
+          if (_unknownFields != null) {
+            size += _unknownFields.CalculateSize();
+          }
+          return size;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void MergeFrom(MongoInfra other) {
+          if (other == null) {
+            return;
+          }
+          if (other.configMongos_ != null) {
+            if (configMongos_ == null) {
+              ConfigMongos = new global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongosConfigSet4_4();
+            }
+            ConfigMongos.MergeFrom(other.ConfigMongos);
+          }
+          if (other.configMongocfg_ != null) {
+            if (configMongocfg_ == null) {
+              ConfigMongocfg = new global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongoCfgConfigSet4_4();
+            }
+            ConfigMongocfg.MergeFrom(other.ConfigMongocfg);
+          }
+          if (other.resources_ != null) {
+            if (resources_ == null) {
+              Resources = new global::Yandex.Cloud.Mdb.Mongodb.V1.Resources();
+            }
+            Resources.MergeFrom(other.Resources);
+          }
+          _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void MergeFrom(pb::CodedInputStream input) {
+          uint tag;
+          while ((tag = input.ReadTag()) != 0) {
+            switch(tag) {
+              default:
+                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+                break;
+              case 10: {
+                if (configMongos_ == null) {
+                  ConfigMongos = new global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongosConfigSet4_4();
+                }
+                input.ReadMessage(ConfigMongos);
+                break;
+              }
+              case 18: {
+                if (configMongocfg_ == null) {
+                  ConfigMongocfg = new global::Yandex.Cloud.Mdb.Mongodb.V1.Config.MongoCfgConfigSet4_4();
+                }
+                input.ReadMessage(ConfigMongocfg);
+                break;
+              }
+              case 26: {
+                if (resources_ == null) {
+                  Resources = new global::Yandex.Cloud.Mdb.Mongodb.V1.Resources();
+                }
+                input.ReadMessage(Resources);
+                break;
+              }
+            }
+          }
+        }
+
+      }
+
     }
     #endregion
 
@@ -3560,7 +5488,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Mdb.Mongodb.V1.ClusterReflection.Descriptor.MessageTypes[6]; }
+      get { return global::Yandex.Cloud.Mdb.Mongodb.V1.ClusterReflection.Descriptor.MessageTypes[7]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3723,7 +5651,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Mdb.Mongodb.V1.ClusterReflection.Descriptor.MessageTypes[7]; }
+      get { return global::Yandex.Cloud.Mdb.Mongodb.V1.ClusterReflection.Descriptor.MessageTypes[8]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4174,6 +6102,10 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
         /// A mongocfg host.
         /// </summary>
         [pbr::OriginalName("MONGOCFG")] Mongocfg = 3,
+        /// <summary>
+        /// A mongoinfra (mongos+mongocfg) host.
+        /// </summary>
+        [pbr::OriginalName("MONGOINFRA")] Mongoinfra = 4,
       }
 
       internal enum Role {
@@ -4223,7 +6155,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Mdb.Mongodb.V1.ClusterReflection.Descriptor.MessageTypes[8]; }
+      get { return global::Yandex.Cloud.Mdb.Mongodb.V1.ClusterReflection.Descriptor.MessageTypes[9]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4424,7 +6356,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Mdb.Mongodb.V1.ClusterReflection.Descriptor.MessageTypes[9]; }
+      get { return global::Yandex.Cloud.Mdb.Mongodb.V1.ClusterReflection.Descriptor.MessageTypes[10]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4623,7 +6555,7 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Mdb.Mongodb.V1.ClusterReflection.Descriptor.MessageTypes[10]; }
+      get { return global::Yandex.Cloud.Mdb.Mongodb.V1.ClusterReflection.Descriptor.MessageTypes[11]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

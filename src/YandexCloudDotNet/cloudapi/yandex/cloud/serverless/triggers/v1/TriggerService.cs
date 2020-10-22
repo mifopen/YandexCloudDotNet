@@ -58,40 +58,53 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
             "dWUYAiABKAk6AjgBIjEKFVVwZGF0ZVRyaWdnZXJNZXRhZGF0YRIYCgp0cmln",
             "Z2VyX2lkGAEgASgJQgToxzEBIjAKFERlbGV0ZVRyaWdnZXJSZXF1ZXN0EhgK",
             "CnRyaWdnZXJfaWQYASABKAlCBOjHMQEiMQoVRGVsZXRlVHJpZ2dlck1ldGFk",
-            "YXRhEhgKCnRyaWdnZXJfaWQYASABKAlCBOjHMQEikgEKHExpc3RUcmlnZ2Vy",
-            "T3BlcmF0aW9uc1JlcXVlc3QSGAoKdHJpZ2dlcl9pZBgBIAEoCUIE6McxARId",
-            "CglwYWdlX3NpemUYAiABKANCCvrHMQYwLTEwMDASHQoKcGFnZV90b2tlbhgD",
-            "IAEoCUIJisgxBTw9MTAwEhoKBmZpbHRlchgEIAEoCUIKisgxBjw9MTAwMCJv",
-            "Ch1MaXN0VHJpZ2dlck9wZXJhdGlvbnNSZXNwb25zZRI1CgpvcGVyYXRpb25z",
-            "GAEgAygLMiEueWFuZGV4LmNsb3VkLm9wZXJhdGlvbi5PcGVyYXRpb24SFwoP",
-            "bmV4dF9wYWdlX3Rva2VuGAIgASgJMsoICg5UcmlnZ2VyU2VydmljZRKXAQoD",
-            "R2V0EjYueWFuZGV4LmNsb3VkLnNlcnZlcmxlc3MudHJpZ2dlcnMudjEuR2V0",
-            "VHJpZ2dlclJlcXVlc3QaLC55YW5kZXguY2xvdWQuc2VydmVybGVzcy50cmln",
-            "Z2Vycy52MS5UcmlnZ2VyIiqC0+STAiQSIi90cmlnZ2Vycy92MS90cmlnZ2Vy",
-            "cy97dHJpZ2dlcl9pZH0SmgEKBExpc3QSOC55YW5kZXguY2xvdWQuc2VydmVy",
-            "bGVzcy50cmlnZ2Vycy52MS5MaXN0VHJpZ2dlcnNSZXF1ZXN0GjkueWFuZGV4",
-            "LmNsb3VkLnNlcnZlcmxlc3MudHJpZ2dlcnMudjEuTGlzdFRyaWdnZXJzUmVz",
-            "cG9uc2UiHYLT5JMCFxIVL3RyaWdnZXJzL3YxL3RyaWdnZXJzEqwBCgZDcmVh",
-            "dGUSOS55YW5kZXguY2xvdWQuc2VydmVybGVzcy50cmlnZ2Vycy52MS5DcmVh",
-            "dGVUcmlnZ2VyUmVxdWVzdBohLnlhbmRleC5jbG91ZC5vcGVyYXRpb24uT3Bl",
-            "cmF0aW9uIkSC0+STAhoiFS90cmlnZ2Vycy92MS90cmlnZ2VyczoBKrLSKiAK",
-            "FUNyZWF0ZVRyaWdnZXJNZXRhZGF0YRIHVHJpZ2dlchK5AQoGVXBkYXRlEjku",
-            "eWFuZGV4LmNsb3VkLnNlcnZlcmxlc3MudHJpZ2dlcnMudjEuVXBkYXRlVHJp",
+            "YXRhEhgKCnRyaWdnZXJfaWQYASABKAlCBOjHMQEiLwoTUGF1c2VUcmlnZ2Vy",
+            "UmVxdWVzdBIYCgp0cmlnZ2VyX2lkGAEgASgJQgToxzEBIjAKFFBhdXNlVHJp",
+            "Z2dlck1ldGFkYXRhEhgKCnRyaWdnZXJfaWQYASABKAlCBOjHMQEiMAoUUmVz",
+            "dW1lVHJpZ2dlclJlcXVlc3QSGAoKdHJpZ2dlcl9pZBgBIAEoCUIE6McxASIx",
+            "ChVSZXN1bWVUcmlnZ2VyTWV0YWRhdGESGAoKdHJpZ2dlcl9pZBgBIAEoCUIE",
+            "6McxASKSAQocTGlzdFRyaWdnZXJPcGVyYXRpb25zUmVxdWVzdBIYCgp0cmln",
+            "Z2VyX2lkGAEgASgJQgToxzEBEh0KCXBhZ2Vfc2l6ZRgCIAEoA0IK+scxBjAt",
+            "MTAwMBIdCgpwYWdlX3Rva2VuGAMgASgJQgmKyDEFPD0xMDASGgoGZmlsdGVy",
+            "GAQgASgJQgqKyDEGPD0xMDAwIm8KHUxpc3RUcmlnZ2VyT3BlcmF0aW9uc1Jl",
+            "c3BvbnNlEjUKCm9wZXJhdGlvbnMYASADKAsyIS55YW5kZXguY2xvdWQub3Bl",
+            "cmF0aW9uLk9wZXJhdGlvbhIXCg9uZXh0X3BhZ2VfdG9rZW4YAiABKAkyzAsK",
+            "DlRyaWdnZXJTZXJ2aWNlEpcBCgNHZXQSNi55YW5kZXguY2xvdWQuc2VydmVy",
+            "bGVzcy50cmlnZ2Vycy52MS5HZXRUcmlnZ2VyUmVxdWVzdBosLnlhbmRleC5j",
+            "bG91ZC5zZXJ2ZXJsZXNzLnRyaWdnZXJzLnYxLlRyaWdnZXIiKoLT5JMCJBIi",
+            "L3RyaWdnZXJzL3YxL3RyaWdnZXJzL3t0cmlnZ2VyX2lkfRKaAQoETGlzdBI4",
+            "LnlhbmRleC5jbG91ZC5zZXJ2ZXJsZXNzLnRyaWdnZXJzLnYxLkxpc3RUcmln",
+            "Z2Vyc1JlcXVlc3QaOS55YW5kZXguY2xvdWQuc2VydmVybGVzcy50cmlnZ2Vy",
+            "cy52MS5MaXN0VHJpZ2dlcnNSZXNwb25zZSIdgtPkkwIXEhUvdHJpZ2dlcnMv",
+            "djEvdHJpZ2dlcnMSrAEKBkNyZWF0ZRI5LnlhbmRleC5jbG91ZC5zZXJ2ZXJs",
+            "ZXNzLnRyaWdnZXJzLnYxLkNyZWF0ZVRyaWdnZXJSZXF1ZXN0GiEueWFuZGV4",
+            "LmNsb3VkLm9wZXJhdGlvbi5PcGVyYXRpb24iRILT5JMCGiIVL3RyaWdnZXJz",
+            "L3YxL3RyaWdnZXJzOgEqstIqIAoVQ3JlYXRlVHJpZ2dlck1ldGFkYXRhEgdU",
+            "cmlnZ2VyErkBCgZVcGRhdGUSOS55YW5kZXguY2xvdWQuc2VydmVybGVzcy50",
+            "cmlnZ2Vycy52MS5VcGRhdGVUcmlnZ2VyUmVxdWVzdBohLnlhbmRleC5jbG91",
+            "ZC5vcGVyYXRpb24uT3BlcmF0aW9uIlGC0+STAicyIi90cmlnZ2Vycy92MS90",
+            "cmlnZ2Vycy97dHJpZ2dlcl9pZH06ASqy0iogChVVcGRhdGVUcmlnZ2VyTWV0",
+            "YWRhdGESB1RyaWdnZXISxAEKBkRlbGV0ZRI5LnlhbmRleC5jbG91ZC5zZXJ2",
+            "ZXJsZXNzLnRyaWdnZXJzLnYxLkRlbGV0ZVRyaWdnZXJSZXF1ZXN0GiEueWFu",
+            "ZGV4LmNsb3VkLm9wZXJhdGlvbi5PcGVyYXRpb24iXILT5JMCJCoiL3RyaWdn",
+            "ZXJzL3YxL3RyaWdnZXJzL3t0cmlnZ2VyX2lkfbLSKi4KFURlbGV0ZVRyaWdn",
+            "ZXJNZXRhZGF0YRIVZ29vZ2xlLnByb3RvYnVmLkVtcHR5ErwBCgVQYXVzZRI4",
+            "LnlhbmRleC5jbG91ZC5zZXJ2ZXJsZXNzLnRyaWdnZXJzLnYxLlBhdXNlVHJp",
             "Z2dlclJlcXVlc3QaIS55YW5kZXguY2xvdWQub3BlcmF0aW9uLk9wZXJhdGlv",
-            "biJRgtPkkwInMiIvdHJpZ2dlcnMvdjEvdHJpZ2dlcnMve3RyaWdnZXJfaWR9",
-            "OgEqstIqIAoVVXBkYXRlVHJpZ2dlck1ldGFkYXRhEgdUcmlnZ2VyEsQBCgZE",
-            "ZWxldGUSOS55YW5kZXguY2xvdWQuc2VydmVybGVzcy50cmlnZ2Vycy52MS5E",
-            "ZWxldGVUcmlnZ2VyUmVxdWVzdBohLnlhbmRleC5jbG91ZC5vcGVyYXRpb24u",
-            "T3BlcmF0aW9uIlyC0+STAiQqIi90cmlnZ2Vycy92MS90cmlnZ2Vycy97dHJp",
-            "Z2dlcl9pZH2y0iouChVEZWxldGVUcmlnZ2VyTWV0YWRhdGESFWdvb2dsZS5w",
-            "cm90b2J1Zi5FbXB0eRLOAQoOTGlzdE9wZXJhdGlvbnMSQS55YW5kZXguY2xv",
-            "dWQuc2VydmVybGVzcy50cmlnZ2Vycy52MS5MaXN0VHJpZ2dlck9wZXJhdGlv",
-            "bnNSZXF1ZXN0GkIueWFuZGV4LmNsb3VkLnNlcnZlcmxlc3MudHJpZ2dlcnMu",
-            "djEuTGlzdFRyaWdnZXJPcGVyYXRpb25zUmVzcG9uc2UiNYLT5JMCLxItL3Ry",
-            "aWdnZXJzL3YxL3RyaWdnZXJzL3t0cmlnZ2VyX2lkfS9vcGVyYXRpb25zQnsK",
-            "J3lhbmRleC5jbG91ZC5hcGkuc2VydmVybGVzcy50cmlnZ2Vycy52MVpQZ2l0",
-            "aHViLmNvbS95YW5kZXgtY2xvdWQvZ28tZ2VucHJvdG8veWFuZGV4L2Nsb3Vk",
-            "L3NlcnZlcmxlc3MvdHJpZ2dlcnMvdjE7dHJpZ2dlcnNiBnByb3RvMw=="));
+            "biJWgtPkkwItIigvdHJpZ2dlcnMvdjEvdHJpZ2dlcnMve3RyaWdnZXJfaWR9",
+            "OnBhdXNlOgEqstIqHwoUUGF1c2VUcmlnZ2VyTWV0YWRhdGESB1RyaWdnZXIS",
+            "wAEKBlJlc3VtZRI5LnlhbmRleC5jbG91ZC5zZXJ2ZXJsZXNzLnRyaWdnZXJz",
+            "LnYxLlJlc3VtZVRyaWdnZXJSZXF1ZXN0GiEueWFuZGV4LmNsb3VkLm9wZXJh",
+            "dGlvbi5PcGVyYXRpb24iWILT5JMCLiIpL3RyaWdnZXJzL3YxL3RyaWdnZXJz",
+            "L3t0cmlnZ2VyX2lkfTpyZXN1bWU6ASqy0iogChVSZXN1bWVUcmlnZ2VyTWV0",
+            "YWRhdGESB1RyaWdnZXISzgEKDkxpc3RPcGVyYXRpb25zEkEueWFuZGV4LmNs",
+            "b3VkLnNlcnZlcmxlc3MudHJpZ2dlcnMudjEuTGlzdFRyaWdnZXJPcGVyYXRp",
+            "b25zUmVxdWVzdBpCLnlhbmRleC5jbG91ZC5zZXJ2ZXJsZXNzLnRyaWdnZXJz",
+            "LnYxLkxpc3RUcmlnZ2VyT3BlcmF0aW9uc1Jlc3BvbnNlIjWC0+STAi8SLS90",
+            "cmlnZ2Vycy92MS90cmlnZ2Vycy97dHJpZ2dlcl9pZH0vb3BlcmF0aW9uc0J7",
+            "Cid5YW5kZXguY2xvdWQuYXBpLnNlcnZlcmxlc3MudHJpZ2dlcnMudjFaUGdp",
+            "dGh1Yi5jb20veWFuZGV4LWNsb3VkL2dvLWdlbnByb3RvL3lhbmRleC9jbG91",
+            "ZC9zZXJ2ZXJsZXNzL3RyaWdnZXJzL3YxO3RyaWdnZXJzYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Google.Api.AnnotationsReflection.Descriptor, global::Yandex.Cloud.Api.OperationReflection.Descriptor, global::Yandex.Cloud.Serverless.Triggers.V1.TriggerReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
@@ -104,6 +117,10 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Triggers.V1.UpdateTriggerMetadata), global::Yandex.Cloud.Serverless.Triggers.V1.UpdateTriggerMetadata.Parser, new[]{ "TriggerId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Triggers.V1.DeleteTriggerRequest), global::Yandex.Cloud.Serverless.Triggers.V1.DeleteTriggerRequest.Parser, new[]{ "TriggerId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Triggers.V1.DeleteTriggerMetadata), global::Yandex.Cloud.Serverless.Triggers.V1.DeleteTriggerMetadata.Parser, new[]{ "TriggerId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Triggers.V1.PauseTriggerRequest), global::Yandex.Cloud.Serverless.Triggers.V1.PauseTriggerRequest.Parser, new[]{ "TriggerId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Triggers.V1.PauseTriggerMetadata), global::Yandex.Cloud.Serverless.Triggers.V1.PauseTriggerMetadata.Parser, new[]{ "TriggerId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Triggers.V1.ResumeTriggerRequest), global::Yandex.Cloud.Serverless.Triggers.V1.ResumeTriggerRequest.Parser, new[]{ "TriggerId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Triggers.V1.ResumeTriggerMetadata), global::Yandex.Cloud.Serverless.Triggers.V1.ResumeTriggerMetadata.Parser, new[]{ "TriggerId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Triggers.V1.ListTriggerOperationsRequest), global::Yandex.Cloud.Serverless.Triggers.V1.ListTriggerOperationsRequest.Parser, new[]{ "TriggerId", "PageSize", "PageToken", "Filter" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Triggers.V1.ListTriggerOperationsResponse), global::Yandex.Cloud.Serverless.Triggers.V1.ListTriggerOperationsResponse.Parser, new[]{ "Operations", "NextPageToken" }, null, null, null, null)
           }));
@@ -1691,6 +1708,538 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
 
   }
 
+  internal sealed partial class PauseTriggerRequest : pb::IMessage<PauseTriggerRequest> {
+    private static readonly pb::MessageParser<PauseTriggerRequest> _parser = new pb::MessageParser<PauseTriggerRequest>(() => new PauseTriggerRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<PauseTriggerRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Serverless.Triggers.V1.TriggerServiceReflection.Descriptor.MessageTypes[9]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public PauseTriggerRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public PauseTriggerRequest(PauseTriggerRequest other) : this() {
+      triggerId_ = other.triggerId_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public PauseTriggerRequest Clone() {
+      return new PauseTriggerRequest(this);
+    }
+
+    /// <summary>Field number for the "trigger_id" field.</summary>
+    public const int TriggerIdFieldNumber = 1;
+    private string triggerId_ = "";
+    /// <summary>
+    /// ID of the trigger to pause
+    ///
+    /// To get a trigger ID make a [TriggerService.List] request.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string TriggerId {
+      get { return triggerId_; }
+      set {
+        triggerId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as PauseTriggerRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(PauseTriggerRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (TriggerId != other.TriggerId) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (TriggerId.Length != 0) hash ^= TriggerId.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (TriggerId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(TriggerId);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (TriggerId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(TriggerId);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(PauseTriggerRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.TriggerId.Length != 0) {
+        TriggerId = other.TriggerId;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            TriggerId = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  internal sealed partial class PauseTriggerMetadata : pb::IMessage<PauseTriggerMetadata> {
+    private static readonly pb::MessageParser<PauseTriggerMetadata> _parser = new pb::MessageParser<PauseTriggerMetadata>(() => new PauseTriggerMetadata());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<PauseTriggerMetadata> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Serverless.Triggers.V1.TriggerServiceReflection.Descriptor.MessageTypes[10]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public PauseTriggerMetadata() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public PauseTriggerMetadata(PauseTriggerMetadata other) : this() {
+      triggerId_ = other.triggerId_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public PauseTriggerMetadata Clone() {
+      return new PauseTriggerMetadata(this);
+    }
+
+    /// <summary>Field number for the "trigger_id" field.</summary>
+    public const int TriggerIdFieldNumber = 1;
+    private string triggerId_ = "";
+    /// <summary>
+    /// ID of the trigger that is being paused.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string TriggerId {
+      get { return triggerId_; }
+      set {
+        triggerId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as PauseTriggerMetadata);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(PauseTriggerMetadata other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (TriggerId != other.TriggerId) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (TriggerId.Length != 0) hash ^= TriggerId.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (TriggerId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(TriggerId);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (TriggerId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(TriggerId);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(PauseTriggerMetadata other) {
+      if (other == null) {
+        return;
+      }
+      if (other.TriggerId.Length != 0) {
+        TriggerId = other.TriggerId;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            TriggerId = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  internal sealed partial class ResumeTriggerRequest : pb::IMessage<ResumeTriggerRequest> {
+    private static readonly pb::MessageParser<ResumeTriggerRequest> _parser = new pb::MessageParser<ResumeTriggerRequest>(() => new ResumeTriggerRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<ResumeTriggerRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Serverless.Triggers.V1.TriggerServiceReflection.Descriptor.MessageTypes[11]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ResumeTriggerRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ResumeTriggerRequest(ResumeTriggerRequest other) : this() {
+      triggerId_ = other.triggerId_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ResumeTriggerRequest Clone() {
+      return new ResumeTriggerRequest(this);
+    }
+
+    /// <summary>Field number for the "trigger_id" field.</summary>
+    public const int TriggerIdFieldNumber = 1;
+    private string triggerId_ = "";
+    /// <summary>
+    /// ID of the trigger to pause
+    ///
+    /// To get a trigger ID make a [TriggerService.List] request.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string TriggerId {
+      get { return triggerId_; }
+      set {
+        triggerId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as ResumeTriggerRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(ResumeTriggerRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (TriggerId != other.TriggerId) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (TriggerId.Length != 0) hash ^= TriggerId.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (TriggerId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(TriggerId);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (TriggerId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(TriggerId);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(ResumeTriggerRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.TriggerId.Length != 0) {
+        TriggerId = other.TriggerId;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            TriggerId = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  internal sealed partial class ResumeTriggerMetadata : pb::IMessage<ResumeTriggerMetadata> {
+    private static readonly pb::MessageParser<ResumeTriggerMetadata> _parser = new pb::MessageParser<ResumeTriggerMetadata>(() => new ResumeTriggerMetadata());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<ResumeTriggerMetadata> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Serverless.Triggers.V1.TriggerServiceReflection.Descriptor.MessageTypes[12]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ResumeTriggerMetadata() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ResumeTriggerMetadata(ResumeTriggerMetadata other) : this() {
+      triggerId_ = other.triggerId_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ResumeTriggerMetadata Clone() {
+      return new ResumeTriggerMetadata(this);
+    }
+
+    /// <summary>Field number for the "trigger_id" field.</summary>
+    public const int TriggerIdFieldNumber = 1;
+    private string triggerId_ = "";
+    /// <summary>
+    /// ID of the trigger that is being paused.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string TriggerId {
+      get { return triggerId_; }
+      set {
+        triggerId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as ResumeTriggerMetadata);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(ResumeTriggerMetadata other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (TriggerId != other.TriggerId) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (TriggerId.Length != 0) hash ^= TriggerId.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (TriggerId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(TriggerId);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (TriggerId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(TriggerId);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(ResumeTriggerMetadata other) {
+      if (other == null) {
+        return;
+      }
+      if (other.TriggerId.Length != 0) {
+        TriggerId = other.TriggerId;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            TriggerId = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
   internal sealed partial class ListTriggerOperationsRequest : pb::IMessage<ListTriggerOperationsRequest> {
     private static readonly pb::MessageParser<ListTriggerOperationsRequest> _parser = new pb::MessageParser<ListTriggerOperationsRequest>(() => new ListTriggerOperationsRequest());
     private pb::UnknownFieldSet _unknownFields;
@@ -1699,7 +2248,7 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Serverless.Triggers.V1.TriggerServiceReflection.Descriptor.MessageTypes[9]; }
+      get { return global::Yandex.Cloud.Serverless.Triggers.V1.TriggerServiceReflection.Descriptor.MessageTypes[13]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1936,7 +2485,7 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Serverless.Triggers.V1.TriggerServiceReflection.Descriptor.MessageTypes[10]; }
+      get { return global::Yandex.Cloud.Serverless.Triggers.V1.TriggerServiceReflection.Descriptor.MessageTypes[14]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

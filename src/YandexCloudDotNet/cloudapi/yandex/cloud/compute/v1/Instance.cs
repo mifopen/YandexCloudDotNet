@@ -71,12 +71,18 @@ namespace Yandex.Cloud.Compute.V1 {
             "Z3MSOwoEdHlwZRgBIAEoDjItLnlhbmRleC5jbG91ZC5jb21wdXRlLnYxLk5l",
             "dHdvcmtTZXR0aW5ncy5UeXBlIl4KBFR5cGUSFAoQVFlQRV9VTlNQRUNJRklF",
             "RBAAEgwKCFNUQU5EQVJEEAESGAoUU09GVFdBUkVfQUNDRUxFUkFURUQQAhIY",
-            "ChRIQVJEV0FSRV9BQ0NFTEVSQVRFRBADIi0KD1BsYWNlbWVudFBvbGljeRIa",
-            "ChJwbGFjZW1lbnRfZ3JvdXBfaWQYASABKAkqOwoJSXBWZXJzaW9uEhoKFklQ",
-            "X1ZFUlNJT05fVU5TUEVDSUZJRUQQABIICgRJUFY0EAESCAoESVBWNhACQmIK",
-            "G3lhbmRleC5jbG91ZC5hcGkuY29tcHV0ZS52MVpDZ2l0aHViLmNvbS95YW5k",
-            "ZXgtY2xvdWQvZ28tZ2VucHJvdG8veWFuZGV4L2Nsb3VkL2NvbXB1dGUvdjE7",
-            "Y29tcHV0ZWIGcHJvdG8z"));
+            "ChRIQVJEV0FSRV9BQ0NFTEVSQVRFRBADIsECCg9QbGFjZW1lbnRQb2xpY3kS",
+            "GgoScGxhY2VtZW50X2dyb3VwX2lkGAEgASgJElYKE2hvc3RfYWZmaW5pdHlf",
+            "cnVsZXMYAiADKAsyOS55YW5kZXguY2xvdWQuY29tcHV0ZS52MS5QbGFjZW1l",
+            "bnRQb2xpY3kuSG9zdEFmZmluaXR5UnVsZRq5AQoQSG9zdEFmZmluaXR5UnVs",
+            "ZRILCgNrZXkYASABKAkSTgoCb3AYAiABKA4yQi55YW5kZXguY2xvdWQuY29t",
+            "cHV0ZS52MS5QbGFjZW1lbnRQb2xpY3kuSG9zdEFmZmluaXR5UnVsZS5PcGVy",
+            "YXRvchIOCgZ2YWx1ZXMYAyADKAkiOAoIT3BlcmF0b3ISGAoUT1BFUkFUT1Jf",
+            "VU5TUEVDSUZJRUQQABIGCgJJThABEgoKBk5PVF9JThACKjsKCUlwVmVyc2lv",
+            "bhIaChZJUF9WRVJTSU9OX1VOU1BFQ0lGSUVEEAASCAoESVBWNBABEggKBElQ",
+            "VjYQAkJiCht5YW5kZXguY2xvdWQuYXBpLmNvbXB1dGUudjFaQ2dpdGh1Yi5j",
+            "b20veWFuZGV4LWNsb3VkL2dvLWdlbnByb3RvL3lhbmRleC9jbG91ZC9jb21w",
+            "dXRlL3YxO2NvbXB1dGViBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Yandex.Cloud.Compute.V1.IpVersion), }, null, new pbr::GeneratedClrTypeInfo[] {
@@ -88,7 +94,7 @@ namespace Yandex.Cloud.Compute.V1 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.OneToOneNat), global::Yandex.Cloud.Compute.V1.OneToOneNat.Parser, new[]{ "Address", "IpVersion" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.SchedulingPolicy), global::Yandex.Cloud.Compute.V1.SchedulingPolicy.Parser, new[]{ "Preemptible" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.NetworkSettings), global::Yandex.Cloud.Compute.V1.NetworkSettings.Parser, new[]{ "Type" }, null, new[]{ typeof(global::Yandex.Cloud.Compute.V1.NetworkSettings.Types.Type) }, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.PlacementPolicy), global::Yandex.Cloud.Compute.V1.PlacementPolicy.Parser, new[]{ "PlacementGroupId" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.PlacementPolicy), global::Yandex.Cloud.Compute.V1.PlacementPolicy.Parser, new[]{ "PlacementGroupId", "HostAffinityRules" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.PlacementPolicy.Types.HostAffinityRule), global::Yandex.Cloud.Compute.V1.PlacementPolicy.Types.HostAffinityRule.Parser, new[]{ "Key", "Op", "Values" }, null, new[]{ typeof(global::Yandex.Cloud.Compute.V1.PlacementPolicy.Types.HostAffinityRule.Types.Operator) }, null, null)})
           }));
     }
     #endregion
@@ -2271,6 +2277,7 @@ namespace Yandex.Cloud.Compute.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public PlacementPolicy(PlacementPolicy other) : this() {
       placementGroupId_ = other.placementGroupId_;
+      hostAffinityRules_ = other.hostAffinityRules_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -2293,6 +2300,19 @@ namespace Yandex.Cloud.Compute.V1 {
       }
     }
 
+    /// <summary>Field number for the "host_affinity_rules" field.</summary>
+    public const int HostAffinityRulesFieldNumber = 2;
+    private static readonly pb::FieldCodec<global::Yandex.Cloud.Compute.V1.PlacementPolicy.Types.HostAffinityRule> _repeated_hostAffinityRules_codec
+        = pb::FieldCodec.ForMessage(18, global::Yandex.Cloud.Compute.V1.PlacementPolicy.Types.HostAffinityRule.Parser);
+    private readonly pbc::RepeatedField<global::Yandex.Cloud.Compute.V1.PlacementPolicy.Types.HostAffinityRule> hostAffinityRules_ = new pbc::RepeatedField<global::Yandex.Cloud.Compute.V1.PlacementPolicy.Types.HostAffinityRule>();
+    /// <summary>
+    /// List of affinity rules. Scheduler will attempt to allocate instances according to order of rules.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<global::Yandex.Cloud.Compute.V1.PlacementPolicy.Types.HostAffinityRule> HostAffinityRules {
+      get { return hostAffinityRules_; }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as PlacementPolicy);
@@ -2307,6 +2327,7 @@ namespace Yandex.Cloud.Compute.V1 {
         return true;
       }
       if (PlacementGroupId != other.PlacementGroupId) return false;
+      if(!hostAffinityRules_.Equals(other.hostAffinityRules_)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -2314,6 +2335,7 @@ namespace Yandex.Cloud.Compute.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (PlacementGroupId.Length != 0) hash ^= PlacementGroupId.GetHashCode();
+      hash ^= hostAffinityRules_.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -2331,6 +2353,7 @@ namespace Yandex.Cloud.Compute.V1 {
         output.WriteRawTag(10);
         output.WriteString(PlacementGroupId);
       }
+      hostAffinityRules_.WriteTo(output, _repeated_hostAffinityRules_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -2342,6 +2365,7 @@ namespace Yandex.Cloud.Compute.V1 {
       if (PlacementGroupId.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(PlacementGroupId);
       }
+      size += hostAffinityRules_.CalculateSize(_repeated_hostAffinityRules_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -2356,6 +2380,7 @@ namespace Yandex.Cloud.Compute.V1 {
       if (other.PlacementGroupId.Length != 0) {
         PlacementGroupId = other.PlacementGroupId;
       }
+      hostAffinityRules_.Add(other.hostAffinityRules_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -2371,9 +2396,222 @@ namespace Yandex.Cloud.Compute.V1 {
             PlacementGroupId = input.ReadString();
             break;
           }
+          case 18: {
+            hostAffinityRules_.AddEntriesFrom(input, _repeated_hostAffinityRules_codec);
+            break;
+          }
         }
       }
     }
+
+    #region Nested types
+    /// <summary>Container for nested types declared in the PlacementPolicy message type.</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static partial class Types {
+      /// <summary>
+      /// Affinitity definition
+      /// </summary>
+      internal sealed partial class HostAffinityRule : pb::IMessage<HostAffinityRule> {
+        private static readonly pb::MessageParser<HostAffinityRule> _parser = new pb::MessageParser<HostAffinityRule>(() => new HostAffinityRule());
+        private pb::UnknownFieldSet _unknownFields;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public static pb::MessageParser<HostAffinityRule> Parser { get { return _parser; } }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public static pbr::MessageDescriptor Descriptor {
+          get { return global::Yandex.Cloud.Compute.V1.PlacementPolicy.Descriptor.NestedTypes[0]; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        pbr::MessageDescriptor pb::IMessage.Descriptor {
+          get { return Descriptor; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public HostAffinityRule() {
+          OnConstruction();
+        }
+
+        partial void OnConstruction();
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public HostAffinityRule(HostAffinityRule other) : this() {
+          key_ = other.key_;
+          op_ = other.op_;
+          values_ = other.values_.Clone();
+          _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public HostAffinityRule Clone() {
+          return new HostAffinityRule(this);
+        }
+
+        /// <summary>Field number for the "key" field.</summary>
+        public const int KeyFieldNumber = 1;
+        private string key_ = "";
+        /// <summary>
+        /// Affinity label or one of reserved values - 'yc.hostId', 'yc.hostGroupId'
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public string Key {
+          get { return key_; }
+          set {
+            key_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+          }
+        }
+
+        /// <summary>Field number for the "op" field.</summary>
+        public const int OpFieldNumber = 2;
+        private global::Yandex.Cloud.Compute.V1.PlacementPolicy.Types.HostAffinityRule.Types.Operator op_ = global::Yandex.Cloud.Compute.V1.PlacementPolicy.Types.HostAffinityRule.Types.Operator.Unspecified;
+        /// <summary>
+        /// Include or exclude action
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public global::Yandex.Cloud.Compute.V1.PlacementPolicy.Types.HostAffinityRule.Types.Operator Op {
+          get { return op_; }
+          set {
+            op_ = value;
+          }
+        }
+
+        /// <summary>Field number for the "values" field.</summary>
+        public const int ValuesFieldNumber = 3;
+        private static readonly pb::FieldCodec<string> _repeated_values_codec
+            = pb::FieldCodec.ForString(26);
+        private readonly pbc::RepeatedField<string> values_ = new pbc::RepeatedField<string>();
+        /// <summary>
+        /// Affinity value or host ID or host group ID
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public pbc::RepeatedField<string> Values {
+          get { return values_; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override bool Equals(object other) {
+          return Equals(other as HostAffinityRule);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public bool Equals(HostAffinityRule other) {
+          if (ReferenceEquals(other, null)) {
+            return false;
+          }
+          if (ReferenceEquals(other, this)) {
+            return true;
+          }
+          if (Key != other.Key) return false;
+          if (Op != other.Op) return false;
+          if(!values_.Equals(other.values_)) return false;
+          return Equals(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override int GetHashCode() {
+          int hash = 1;
+          if (Key.Length != 0) hash ^= Key.GetHashCode();
+          if (Op != global::Yandex.Cloud.Compute.V1.PlacementPolicy.Types.HostAffinityRule.Types.Operator.Unspecified) hash ^= Op.GetHashCode();
+          hash ^= values_.GetHashCode();
+          if (_unknownFields != null) {
+            hash ^= _unknownFields.GetHashCode();
+          }
+          return hash;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override string ToString() {
+          return pb::JsonFormatter.ToDiagnosticString(this);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void WriteTo(pb::CodedOutputStream output) {
+          if (Key.Length != 0) {
+            output.WriteRawTag(10);
+            output.WriteString(Key);
+          }
+          if (Op != global::Yandex.Cloud.Compute.V1.PlacementPolicy.Types.HostAffinityRule.Types.Operator.Unspecified) {
+            output.WriteRawTag(16);
+            output.WriteEnum((int) Op);
+          }
+          values_.WriteTo(output, _repeated_values_codec);
+          if (_unknownFields != null) {
+            _unknownFields.WriteTo(output);
+          }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public int CalculateSize() {
+          int size = 0;
+          if (Key.Length != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeStringSize(Key);
+          }
+          if (Op != global::Yandex.Cloud.Compute.V1.PlacementPolicy.Types.HostAffinityRule.Types.Operator.Unspecified) {
+            size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Op);
+          }
+          size += values_.CalculateSize(_repeated_values_codec);
+          if (_unknownFields != null) {
+            size += _unknownFields.CalculateSize();
+          }
+          return size;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void MergeFrom(HostAffinityRule other) {
+          if (other == null) {
+            return;
+          }
+          if (other.Key.Length != 0) {
+            Key = other.Key;
+          }
+          if (other.Op != global::Yandex.Cloud.Compute.V1.PlacementPolicy.Types.HostAffinityRule.Types.Operator.Unspecified) {
+            Op = other.Op;
+          }
+          values_.Add(other.values_);
+          _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void MergeFrom(pb::CodedInputStream input) {
+          uint tag;
+          while ((tag = input.ReadTag()) != 0) {
+            switch(tag) {
+              default:
+                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+                break;
+              case 10: {
+                Key = input.ReadString();
+                break;
+              }
+              case 16: {
+                Op = (global::Yandex.Cloud.Compute.V1.PlacementPolicy.Types.HostAffinityRule.Types.Operator) input.ReadEnum();
+                break;
+              }
+              case 26: {
+                values_.AddEntriesFrom(input, _repeated_values_codec);
+                break;
+              }
+            }
+          }
+        }
+
+        #region Nested types
+        /// <summary>Container for nested types declared in the HostAffinityRule message type.</summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public static partial class Types {
+          internal enum Operator {
+            [pbr::OriginalName("OPERATOR_UNSPECIFIED")] Unspecified = 0,
+            [pbr::OriginalName("IN")] In = 1,
+            [pbr::OriginalName("NOT_IN")] NotIn = 2,
+          }
+
+        }
+        #endregion
+
+      }
+
+    }
+    #endregion
 
   }
 

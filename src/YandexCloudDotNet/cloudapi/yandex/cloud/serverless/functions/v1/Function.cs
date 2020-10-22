@@ -38,7 +38,7 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
             "bG91ZC5zZXJ2ZXJsZXNzLmZ1bmN0aW9ucy52MS5GdW5jdGlvbi5TdGF0dXMa",
             "LQoLTGFiZWxzRW50cnkSCwoDa2V5GAEgASgJEg0KBXZhbHVlGAIgASgJOgI4",
             "ASJTCgZTdGF0dXMSFgoSU1RBVFVTX1VOU1BFQ0lGSUVEEAASDAoIQ1JFQVRJ",
-            "TkcQARIKCgZBQ1RJVkUQAhIMCghERUxFVElORxADEgkKBUVSUk9SEAQi/gQK",
+            "TkcQARIKCgZBQ1RJVkUQAhIMCghERUxFVElORxADEgkKBUVSUk9SEAQiwgUK",
             "B1ZlcnNpb24SCgoCaWQYASABKAkSEwoLZnVuY3Rpb25faWQYAiABKAkSHgoL",
             "ZGVzY3JpcHRpb24YAyABKAlCCYrIMQUwLTI1NhIuCgpjcmVhdGVkX2F0GAUg",
             "ASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcBIPCgdydW50aW1lGAYg",
@@ -50,23 +50,26 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
             "c2VydmVybGVzcy5mdW5jdGlvbnMudjEuVmVyc2lvbi5TdGF0dXMSDAoEdGFn",
             "cxgOIAMoCRIUCgxsb2dfZ3JvdXBfaWQYDyABKAkSUwoLZW52aXJvbm1lbnQY",
             "ECADKAsyPi55YW5kZXguY2xvdWQuc2VydmVybGVzcy5mdW5jdGlvbnMudjEu",
-            "VmVyc2lvbi5FbnZpcm9ubWVudEVudHJ5GjIKEEVudmlyb25tZW50RW50cnkS",
-            "CwoDa2V5GAEgASgJEg0KBXZhbHVlGAIgASgJOgI4ASI6CgZTdGF0dXMSFgoS",
-            "U1RBVFVTX1VOU1BFQ0lGSUVEEAASDAoIQ1JFQVRJTkcQARIKCgZBQ1RJVkUQ",
-            "AkoECAsQDCI0CglSZXNvdXJjZXMSJwoGbWVtb3J5GAEgASgDQhf6xzETMzM1",
-            "NTQ0MzItMTA3Mzc0MTgyNCJPCgdQYWNrYWdlEhkKC2J1Y2tldF9uYW1lGAEg",
-            "ASgJQgToxzEBEhkKC29iamVjdF9uYW1lGAIgASgJQgToxzEBEg4KBnNoYTI1",
-            "NhgDIAEoCUJ+Cih5YW5kZXguY2xvdWQuYXBpLnNlcnZlcmxlc3MuZnVuY3Rp",
-            "b25zLnYxWlJnaXRodWIuY29tL3lhbmRleC1jbG91ZC9nby1nZW5wcm90by95",
-            "YW5kZXgvY2xvdWQvc2VydmVybGVzcy9mdW5jdGlvbnMvdjE7ZnVuY3Rpb25z",
-            "YgZwcm90bzM="));
+            "VmVyc2lvbi5FbnZpcm9ubWVudEVudHJ5EkgKDGNvbm5lY3Rpdml0eRgRIAEo",
+            "CzIyLnlhbmRleC5jbG91ZC5zZXJ2ZXJsZXNzLmZ1bmN0aW9ucy52MS5Db25u",
+            "ZWN0aXZpdHkaMgoQRW52aXJvbm1lbnRFbnRyeRILCgNrZXkYASABKAkSDQoF",
+            "dmFsdWUYAiABKAk6AjgBIjoKBlN0YXR1cxIWChJTVEFUVVNfVU5TUEVDSUZJ",
+            "RUQQABIMCghDUkVBVElORxABEgoKBkFDVElWRRACIjUKCVJlc291cmNlcxIo",
+            "CgZtZW1vcnkYASABKANCGPrHMRQxMzQyMTc3MjgtMjE0NzQ4MzY0OCJPCgdQ",
+            "YWNrYWdlEhkKC2J1Y2tldF9uYW1lGAEgASgJQgToxzEBEhkKC29iamVjdF9u",
+            "YW1lGAIgASgJQgToxzEBEg4KBnNoYTI1NhgDIAEoCSI1CgxDb25uZWN0aXZp",
+            "dHkSEgoKbmV0d29ya19pZBgBIAEoCRIRCglzdWJuZXRfaWQYAiADKAlCfgoo",
+            "eWFuZGV4LmNsb3VkLmFwaS5zZXJ2ZXJsZXNzLmZ1bmN0aW9ucy52MVpSZ2l0",
+            "aHViLmNvbS95YW5kZXgtY2xvdWQvZ28tZ2VucHJvdG8veWFuZGV4L2Nsb3Vk",
+            "L3NlcnZlcmxlc3MvZnVuY3Rpb25zL3YxO2Z1bmN0aW9uc2IGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.DurationReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Functions.V1.Function), global::Yandex.Cloud.Serverless.Functions.V1.Function.Parser, new[]{ "Id", "FolderId", "CreatedAt", "Name", "Description", "Labels", "LogGroupId", "HttpInvokeUrl", "Status" }, null, new[]{ typeof(global::Yandex.Cloud.Serverless.Functions.V1.Function.Types.Status) }, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Functions.V1.Version), global::Yandex.Cloud.Serverless.Functions.V1.Version.Parser, new[]{ "Id", "FunctionId", "Description", "CreatedAt", "Runtime", "Entrypoint", "Resources", "ExecutionTimeout", "ServiceAccountId", "ImageSize", "Status", "Tags", "LogGroupId", "Environment" }, null, new[]{ typeof(global::Yandex.Cloud.Serverless.Functions.V1.Version.Types.Status) }, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Functions.V1.Version), global::Yandex.Cloud.Serverless.Functions.V1.Version.Parser, new[]{ "Id", "FunctionId", "Description", "CreatedAt", "Runtime", "Entrypoint", "Resources", "ExecutionTimeout", "ServiceAccountId", "ImageSize", "Status", "Tags", "LogGroupId", "Environment", "Connectivity" }, null, new[]{ typeof(global::Yandex.Cloud.Serverless.Functions.V1.Version.Types.Status) }, null, new pbr::GeneratedClrTypeInfo[] { null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Functions.V1.Resources), global::Yandex.Cloud.Serverless.Functions.V1.Resources.Parser, new[]{ "Memory" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Functions.V1.Package), global::Yandex.Cloud.Serverless.Functions.V1.Package.Parser, new[]{ "BucketName", "ObjectName", "Sha256" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Functions.V1.Package), global::Yandex.Cloud.Serverless.Functions.V1.Package.Parser, new[]{ "BucketName", "ObjectName", "Sha256" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Functions.V1.Connectivity), global::Yandex.Cloud.Serverless.Functions.V1.Connectivity.Parser, new[]{ "NetworkId", "SubnetId" }, null, null, null, null)
           }));
     }
     #endregion
@@ -523,6 +526,7 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
       tags_ = other.tags_.Clone();
       logGroupId_ = other.logGroupId_;
       environment_ = other.environment_.Clone();
+      connectivity_ = other.connectivity_ != null ? other.connectivity_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -731,6 +735,20 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
       get { return environment_; }
     }
 
+    /// <summary>Field number for the "connectivity" field.</summary>
+    public const int ConnectivityFieldNumber = 17;
+    private global::Yandex.Cloud.Serverless.Functions.V1.Connectivity connectivity_;
+    /// <summary>
+    /// Network access. If specified the version will be attached to specified network/subnet(s).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Serverless.Functions.V1.Connectivity Connectivity {
+      get { return connectivity_; }
+      set {
+        connectivity_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as Version);
@@ -758,6 +776,7 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
       if(!tags_.Equals(other.tags_)) return false;
       if (LogGroupId != other.LogGroupId) return false;
       if (!Environment.Equals(other.Environment)) return false;
+      if (!object.Equals(Connectivity, other.Connectivity)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -778,6 +797,7 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
       hash ^= tags_.GetHashCode();
       if (LogGroupId.Length != 0) hash ^= LogGroupId.GetHashCode();
       hash ^= Environment.GetHashCode();
+      if (connectivity_ != null) hash ^= Connectivity.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -841,6 +861,10 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
         output.WriteString(LogGroupId);
       }
       environment_.WriteTo(output, _map_environment_codec);
+      if (connectivity_ != null) {
+        output.WriteRawTag(138, 1);
+        output.WriteMessage(Connectivity);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -887,6 +911,9 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(LogGroupId);
       }
       size += environment_.CalculateSize(_map_environment_codec);
+      if (connectivity_ != null) {
+        size += 2 + pb::CodedOutputStream.ComputeMessageSize(Connectivity);
+      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -945,6 +972,12 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
         LogGroupId = other.LogGroupId;
       }
       environment_.Add(other.environment_);
+      if (other.connectivity_ != null) {
+        if (connectivity_ == null) {
+          Connectivity = new global::Yandex.Cloud.Serverless.Functions.V1.Connectivity();
+        }
+        Connectivity.MergeFrom(other.Connectivity);
+      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -1019,6 +1052,13 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
           }
           case 130: {
             environment_.AddEntriesFrom(input, _map_environment_codec);
+            break;
+          }
+          case 138: {
+            if (connectivity_ == null) {
+              Connectivity = new global::Yandex.Cloud.Serverless.Functions.V1.Connectivity();
+            }
+            input.ReadMessage(Connectivity);
             break;
           }
         }
@@ -1370,6 +1410,166 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
           }
           case 26: {
             Sha256 = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  /// <summary>
+  /// Version connectivity specification.
+  /// </summary>
+  internal sealed partial class Connectivity : pb::IMessage<Connectivity> {
+    private static readonly pb::MessageParser<Connectivity> _parser = new pb::MessageParser<Connectivity>(() => new Connectivity());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<Connectivity> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Serverless.Functions.V1.FunctionReflection.Descriptor.MessageTypes[4]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public Connectivity() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public Connectivity(Connectivity other) : this() {
+      networkId_ = other.networkId_;
+      subnetId_ = other.subnetId_.Clone();
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public Connectivity Clone() {
+      return new Connectivity(this);
+    }
+
+    /// <summary>Field number for the "network_id" field.</summary>
+    public const int NetworkIdFieldNumber = 1;
+    private string networkId_ = "";
+    /// <summary>
+    /// Network the version will have access to.
+    /// It's essential to specify network with subnets in all availability zones.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string NetworkId {
+      get { return networkId_; }
+      set {
+        networkId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "subnet_id" field.</summary>
+    public const int SubnetIdFieldNumber = 2;
+    private static readonly pb::FieldCodec<string> _repeated_subnetId_codec
+        = pb::FieldCodec.ForString(18);
+    private readonly pbc::RepeatedField<string> subnetId_ = new pbc::RepeatedField<string>();
+    /// <summary>
+    /// Complete list of subnets (from the same network) the version can be attached to.
+    /// It's essential to specify at least one subnet for each availability zones.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<string> SubnetId {
+      get { return subnetId_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as Connectivity);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(Connectivity other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (NetworkId != other.NetworkId) return false;
+      if(!subnetId_.Equals(other.subnetId_)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (NetworkId.Length != 0) hash ^= NetworkId.GetHashCode();
+      hash ^= subnetId_.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (NetworkId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(NetworkId);
+      }
+      subnetId_.WriteTo(output, _repeated_subnetId_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (NetworkId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(NetworkId);
+      }
+      size += subnetId_.CalculateSize(_repeated_subnetId_codec);
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(Connectivity other) {
+      if (other == null) {
+        return;
+      }
+      if (other.NetworkId.Length != 0) {
+        NetworkId = other.NetworkId;
+      }
+      subnetId_.Add(other.subnetId_);
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            NetworkId = input.ReadString();
+            break;
+          }
+          case 18: {
+            subnetId_.AddEntriesFrom(input, _repeated_subnetId_codec);
             break;
           }
         }

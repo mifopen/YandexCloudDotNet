@@ -37,308 +37,386 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
             "bG91ZC9tZGIvY2xpY2tob3VzZS92MS9kYXRhYmFzZS5wcm90bxopeWFuZGV4",
             "L2Nsb3VkL21kYi9jbGlja2hvdXNlL3YxL3VzZXIucHJvdG8aNnlhbmRleC9j",
             "bG91ZC9tZGIvY2xpY2tob3VzZS92MS9jb25maWcvY2xpY2tob3VzZS5wcm90",
-            "byI1ChFHZXRDbHVzdGVyUmVxdWVzdBIgCgpjbHVzdGVyX2lkGAEgASgJQgzo",
-            "xzEBisgxBDw9NTAikAEKE0xpc3RDbHVzdGVyc1JlcXVlc3QSHwoJZm9sZGVy",
-            "X2lkGAEgASgJQgzoxzEBisgxBDw9NTASHQoJcGFnZV9zaXplGAIgASgDQgr6",
-            "xzEGPD0xMDAwEh0KCnBhZ2VfdG9rZW4YAyABKAlCCYrIMQU8PTEwMBIaCgZm",
-            "aWx0ZXIYBCABKAlCCorIMQY8PTEwMDAiagoUTGlzdENsdXN0ZXJzUmVzcG9u",
-            "c2USOQoIY2x1c3RlcnMYASADKAsyJy55YW5kZXguY2xvdWQubWRiLmNsaWNr",
-            "aG91c2UudjEuQ2x1c3RlchIXCg9uZXh0X3BhZ2VfdG9rZW4YAiABKAkipwYK",
-            "FENyZWF0ZUNsdXN0ZXJSZXF1ZXN0Eh8KCWZvbGRlcl9pZBgBIAEoCUIM6Mcx",
-            "AYrIMQQ8PTUwEiwKBG5hbWUYAiABKAlCHujHMQGKyDEEPD02M/LHMQ5bYS16",
-            "QS1aMC05Xy1dKhIeCgtkZXNjcmlwdGlvbhgDIAEoCUIJisgxBTw9MjU2EpEB",
-            "CgZsYWJlbHMYBCADKAsyQC55YW5kZXguY2xvdWQubWRiLmNsaWNraG91c2Uu",
-            "djEuQ3JlYXRlQ2x1c3RlclJlcXVlc3QuTGFiZWxzRW50cnlCP4LIMQQ8PTY0",
+            "bxoweWFuZGV4L2Nsb3VkL21kYi9jbGlja2hvdXNlL3YxL21haW50ZW5hbmNl",
+            "LnByb3RvIjUKEUdldENsdXN0ZXJSZXF1ZXN0EiAKCmNsdXN0ZXJfaWQYASAB",
+            "KAlCDOjHMQGKyDEEPD01MCKQAQoTTGlzdENsdXN0ZXJzUmVxdWVzdBIfCglm",
+            "b2xkZXJfaWQYASABKAlCDOjHMQGKyDEEPD01MBIdCglwYWdlX3NpemUYAiAB",
+            "KANCCvrHMQY8PTEwMDASHQoKcGFnZV90b2tlbhgDIAEoCUIJisgxBTw9MTAw",
+            "EhoKBmZpbHRlchgEIAEoCUIKisgxBjw9MTAwMCJqChRMaXN0Q2x1c3RlcnNS",
+            "ZXNwb25zZRI5CghjbHVzdGVycxgBIAMoCzInLnlhbmRleC5jbG91ZC5tZGIu",
+            "Y2xpY2tob3VzZS52MS5DbHVzdGVyEhcKD25leHRfcGFnZV90b2tlbhgCIAEo",
+            "CSKnBgoUQ3JlYXRlQ2x1c3RlclJlcXVlc3QSHwoJZm9sZGVyX2lkGAEgASgJ",
+            "QgzoxzEBisgxBDw9NTASLAoEbmFtZRgCIAEoCUIe6McxAYrIMQQ8PTYz8scx",
+            "DlthLXpBLVowLTlfLV0qEh4KC2Rlc2NyaXB0aW9uGAMgASgJQgmKyDEFPD0y",
+            "NTYSkQEKBmxhYmVscxgEIAMoCzJALnlhbmRleC5jbG91ZC5tZGIuY2xpY2to",
+            "b3VzZS52MS5DcmVhdGVDbHVzdGVyUmVxdWVzdC5MYWJlbHNFbnRyeUI/gsgx",
+            "BDw9NjSKyDEEPD02M/LHMQtbLV8wLTlhLXpdKrLIMQYaBDw9NjOyyDESEhBb",
+            "YS16XVstXzAtOWEtel0qEk4KC2Vudmlyb25tZW50GAUgASgOMjMueWFuZGV4",
+            "LmNsb3VkLm1kYi5jbGlja2hvdXNlLnYxLkNsdXN0ZXIuRW52aXJvbm1lbnRC",
+            "BOjHMQESRQoLY29uZmlnX3NwZWMYBiABKAsyKi55YW5kZXguY2xvdWQubWRi",
+            "LmNsaWNraG91c2UudjEuQ29uZmlnU3BlY0IE6McxARJMCg5kYXRhYmFzZV9z",
+            "cGVjcxgHIAMoCzIsLnlhbmRleC5jbG91ZC5tZGIuY2xpY2tob3VzZS52MS5E",
+            "YXRhYmFzZVNwZWNCBoLIMQI+MBJECgp1c2VyX3NwZWNzGAggAygLMigueWFu",
+            "ZGV4LmNsb3VkLm1kYi5jbGlja2hvdXNlLnYxLlVzZXJTcGVjQgaCyDECPjAS",
+            "RAoKaG9zdF9zcGVjcxgJIAMoCzIoLnlhbmRleC5jbG91ZC5tZGIuY2xpY2to",
+            "b3VzZS52MS5Ib3N0U3BlY0IGgsgxAj4wEiAKCm5ldHdvcmtfaWQYCiABKAlC",
+            "DOjHMQGKyDEEPD01MBIuCgpzaGFyZF9uYW1lGAsgASgJQhqKyDEEPD02M/LH",
+            "MQ5bYS16QS1aMC05Xy1dKhIaChJzZXJ2aWNlX2FjY291bnRfaWQYDCABKAka",
+            "LQoLTGFiZWxzRW50cnkSCwoDa2V5GAEgASgJEg0KBXZhbHVlGAIgASgJOgI4",
+            "ASIrChVDcmVhdGVDbHVzdGVyTWV0YWRhdGESEgoKY2x1c3Rlcl9pZBgBIAEo",
+            "CSKiBAoUVXBkYXRlQ2x1c3RlclJlcXVlc3QSIAoKY2x1c3Rlcl9pZBgBIAEo",
+            "CUIM6McxAYrIMQQ8PTUwEi8KC3VwZGF0ZV9tYXNrGAIgASgLMhouZ29vZ2xl",
+            "LnByb3RvYnVmLkZpZWxkTWFzaxIeCgtkZXNjcmlwdGlvbhgDIAEoCUIJisgx",
+            "BTw9MjU2EpEBCgZsYWJlbHMYBCADKAsyQC55YW5kZXguY2xvdWQubWRiLmNs",
+            "aWNraG91c2UudjEuVXBkYXRlQ2x1c3RlclJlcXVlc3QuTGFiZWxzRW50cnlC",
+            "P4LIMQQ8PTY0isgxBDw9NjPyxzELWy1fMC05YS16XSqyyDEGGgQ8PTYzssgx",
+            "EhIQW2Etel1bLV8wLTlhLXpdKhI/Cgtjb25maWdfc3BlYxgFIAEoCzIqLnlh",
+            "bmRleC5jbG91ZC5tZGIuY2xpY2tob3VzZS52MS5Db25maWdTcGVjEigKBG5h",
+            "bWUYBiABKAlCGorIMQQ8PTYz8scxDlthLXpBLVowLTlfLV0qEhoKEnNlcnZp",
+            "Y2VfYWNjb3VudF9pZBgHIAEoCRJNChJtYWludGVuYW5jZV93aW5kb3cYCCAB",
+            "KAsyMS55YW5kZXguY2xvdWQubWRiLmNsaWNraG91c2UudjEuTWFpbnRlbmFu",
+            "Y2VXaW5kb3caLQoLTGFiZWxzRW50cnkSCwoDa2V5GAEgASgJEg0KBXZhbHVl",
+            "GAIgASgJOgI4ASIrChVVcGRhdGVDbHVzdGVyTWV0YWRhdGESEgoKY2x1c3Rl",
+            "cl9pZBgBIAEoCSI4ChREZWxldGVDbHVzdGVyUmVxdWVzdBIgCgpjbHVzdGVy",
+            "X2lkGAEgASgJQgzoxzEBisgxBDw9NTAiKwoVRGVsZXRlQ2x1c3Rlck1ldGFk",
+            "YXRhEhIKCmNsdXN0ZXJfaWQYASABKAkiNwoTU3RhcnRDbHVzdGVyUmVxdWVz",
+            "dBIgCgpjbHVzdGVyX2lkGAEgASgJQgzoxzEBisgxBDw9NTAiKgoUU3RhcnRD",
+            "bHVzdGVyTWV0YWRhdGESEgoKY2x1c3Rlcl9pZBgBIAEoCSI2ChJTdG9wQ2x1",
+            "c3RlclJlcXVlc3QSIAoKY2x1c3Rlcl9pZBgBIAEoCUIM6McxAYrIMQQ8PTUw",
+            "IikKE1N0b3BDbHVzdGVyTWV0YWRhdGESEgoKY2x1c3Rlcl9pZBgBIAEoCSJj",
+            "ChJNb3ZlQ2x1c3RlclJlcXVlc3QSIAoKY2x1c3Rlcl9pZBgBIAEoCUIM6Mcx",
+            "AYrIMQQ8PTUwEisKFWRlc3RpbmF0aW9uX2ZvbGRlcl9pZBgCIAEoCUIM6Mcx",
+            "AYrIMQQ8PTUwImIKE01vdmVDbHVzdGVyTWV0YWRhdGESEgoKY2x1c3Rlcl9p",
+            "ZBgBIAEoCRIYChBzb3VyY2VfZm9sZGVyX2lkGAIgASgJEh0KFWRlc3RpbmF0",
+            "aW9uX2ZvbGRlcl9pZBgDIAEoCSK6AQoaQWRkQ2x1c3Rlclpvb2tlZXBlclJl",
+            "cXVlc3QSIAoKY2x1c3Rlcl9pZBgBIAEoCUIM6McxAYrIMQQ8PTUwEjwKCXJl",
+            "c291cmNlcxgCIAEoCzIpLnlhbmRleC5jbG91ZC5tZGIuY2xpY2tob3VzZS52",
+            "MS5SZXNvdXJjZXMSPAoKaG9zdF9zcGVjcxgDIAMoCzIoLnlhbmRleC5jbG91",
+            "ZC5tZGIuY2xpY2tob3VzZS52MS5Ib3N0U3BlYyIxChtBZGRDbHVzdGVyWm9v",
+            "a2VlcGVyTWV0YWRhdGESEgoKY2x1c3Rlcl9pZBgBIAEoCSI4ChRCYWNrdXBD",
+            "bHVzdGVyUmVxdWVzdBIgCgpjbHVzdGVyX2lkGAEgASgJQgzoxzEBisgxBDw9",
+            "NTAiKwoVQmFja3VwQ2x1c3Rlck1ldGFkYXRhEhIKCmNsdXN0ZXJfaWQYASAB",
+            "KAki+gQKFVJlc3RvcmVDbHVzdGVyUmVxdWVzdBIXCgliYWNrdXBfaWQYASAB",
+            "KAlCBOjHMQESLAoEbmFtZRgCIAEoCUIe6McxAYrIMQQ8PTYz8scxDlthLXpB",
+            "LVowLTlfLV0qEh4KC2Rlc2NyaXB0aW9uGAMgASgJQgmKyDEFPD0yNTYSkgEK",
+            "BmxhYmVscxgEIAMoCzJBLnlhbmRleC5jbG91ZC5tZGIuY2xpY2tob3VzZS52",
+            "MS5SZXN0b3JlQ2x1c3RlclJlcXVlc3QuTGFiZWxzRW50cnlCP4LIMQQ8PTY0",
             "isgxBDw9NjPyxzELWy1fMC05YS16XSqyyDEGGgQ8PTYzssgxEhIQW2Etel1b",
             "LV8wLTlhLXpdKhJOCgtlbnZpcm9ubWVudBgFIAEoDjIzLnlhbmRleC5jbG91",
             "ZC5tZGIuY2xpY2tob3VzZS52MS5DbHVzdGVyLkVudmlyb25tZW50QgToxzEB",
             "EkUKC2NvbmZpZ19zcGVjGAYgASgLMioueWFuZGV4LmNsb3VkLm1kYi5jbGlj",
-            "a2hvdXNlLnYxLkNvbmZpZ1NwZWNCBOjHMQESTAoOZGF0YWJhc2Vfc3BlY3MY",
-            "ByADKAsyLC55YW5kZXguY2xvdWQubWRiLmNsaWNraG91c2UudjEuRGF0YWJh",
-            "c2VTcGVjQgaCyDECPjASRAoKdXNlcl9zcGVjcxgIIAMoCzIoLnlhbmRleC5j",
-            "bG91ZC5tZGIuY2xpY2tob3VzZS52MS5Vc2VyU3BlY0IGgsgxAj4wEkQKCmhv",
-            "c3Rfc3BlY3MYCSADKAsyKC55YW5kZXguY2xvdWQubWRiLmNsaWNraG91c2Uu",
-            "djEuSG9zdFNwZWNCBoLIMQI+MBIgCgpuZXR3b3JrX2lkGAogASgJQgzoxzEB",
-            "isgxBDw9NTASLgoKc2hhcmRfbmFtZRgLIAEoCUIaisgxBDw9NjPyxzEOW2Et",
-            "ekEtWjAtOV8tXSoSGgoSc2VydmljZV9hY2NvdW50X2lkGAwgASgJGi0KC0xh",
-            "YmVsc0VudHJ5EgsKA2tleRgBIAEoCRINCgV2YWx1ZRgCIAEoCToCOAEiKwoV",
-            "Q3JlYXRlQ2x1c3Rlck1ldGFkYXRhEhIKCmNsdXN0ZXJfaWQYASABKAki0wMK",
-            "FFVwZGF0ZUNsdXN0ZXJSZXF1ZXN0EiAKCmNsdXN0ZXJfaWQYASABKAlCDOjH",
-            "MQGKyDEEPD01MBIvCgt1cGRhdGVfbWFzaxgCIAEoCzIaLmdvb2dsZS5wcm90",
-            "b2J1Zi5GaWVsZE1hc2sSHgoLZGVzY3JpcHRpb24YAyABKAlCCYrIMQU8PTI1",
-            "NhKRAQoGbGFiZWxzGAQgAygLMkAueWFuZGV4LmNsb3VkLm1kYi5jbGlja2hv",
-            "dXNlLnYxLlVwZGF0ZUNsdXN0ZXJSZXF1ZXN0LkxhYmVsc0VudHJ5Qj+CyDEE",
-            "PD02NIrIMQQ8PTYz8scxC1stXzAtOWEtel0qssgxBhoEPD02M7LIMRISEFth",
-            "LXpdWy1fMC05YS16XSoSPwoLY29uZmlnX3NwZWMYBSABKAsyKi55YW5kZXgu",
-            "Y2xvdWQubWRiLmNsaWNraG91c2UudjEuQ29uZmlnU3BlYxIoCgRuYW1lGAYg",
-            "ASgJQhqKyDEEPD02M/LHMQ5bYS16QS1aMC05Xy1dKhIaChJzZXJ2aWNlX2Fj",
-            "Y291bnRfaWQYByABKAkaLQoLTGFiZWxzRW50cnkSCwoDa2V5GAEgASgJEg0K",
-            "BXZhbHVlGAIgASgJOgI4ASIrChVVcGRhdGVDbHVzdGVyTWV0YWRhdGESEgoK",
-            "Y2x1c3Rlcl9pZBgBIAEoCSI4ChREZWxldGVDbHVzdGVyUmVxdWVzdBIgCgpj",
-            "bHVzdGVyX2lkGAEgASgJQgzoxzEBisgxBDw9NTAiKwoVRGVsZXRlQ2x1c3Rl",
-            "ck1ldGFkYXRhEhIKCmNsdXN0ZXJfaWQYASABKAkiNwoTU3RhcnRDbHVzdGVy",
-            "UmVxdWVzdBIgCgpjbHVzdGVyX2lkGAEgASgJQgzoxzEBisgxBDw9NTAiKgoU",
-            "U3RhcnRDbHVzdGVyTWV0YWRhdGESEgoKY2x1c3Rlcl9pZBgBIAEoCSI2ChJT",
-            "dG9wQ2x1c3RlclJlcXVlc3QSIAoKY2x1c3Rlcl9pZBgBIAEoCUIM6McxAYrI",
-            "MQQ8PTUwIikKE1N0b3BDbHVzdGVyTWV0YWRhdGESEgoKY2x1c3Rlcl9pZBgB",
-            "IAEoCSJjChJNb3ZlQ2x1c3RlclJlcXVlc3QSIAoKY2x1c3Rlcl9pZBgBIAEo",
-            "CUIM6McxAYrIMQQ8PTUwEisKFWRlc3RpbmF0aW9uX2ZvbGRlcl9pZBgCIAEo",
-            "CUIM6McxAYrIMQQ8PTUwImIKE01vdmVDbHVzdGVyTWV0YWRhdGESEgoKY2x1",
-            "c3Rlcl9pZBgBIAEoCRIYChBzb3VyY2VfZm9sZGVyX2lkGAIgASgJEh0KFWRl",
-            "c3RpbmF0aW9uX2ZvbGRlcl9pZBgDIAEoCSK6AQoaQWRkQ2x1c3Rlclpvb2tl",
-            "ZXBlclJlcXVlc3QSIAoKY2x1c3Rlcl9pZBgBIAEoCUIM6McxAYrIMQQ8PTUw",
-            "EjwKCXJlc291cmNlcxgCIAEoCzIpLnlhbmRleC5jbG91ZC5tZGIuY2xpY2to",
-            "b3VzZS52MS5SZXNvdXJjZXMSPAoKaG9zdF9zcGVjcxgDIAMoCzIoLnlhbmRl",
-            "eC5jbG91ZC5tZGIuY2xpY2tob3VzZS52MS5Ib3N0U3BlYyIxChtBZGRDbHVz",
-            "dGVyWm9va2VlcGVyTWV0YWRhdGESEgoKY2x1c3Rlcl9pZBgBIAEoCSI4ChRC",
-            "YWNrdXBDbHVzdGVyUmVxdWVzdBIgCgpjbHVzdGVyX2lkGAEgASgJQgzoxzEB",
-            "isgxBDw9NTAiKwoVQmFja3VwQ2x1c3Rlck1ldGFkYXRhEhIKCmNsdXN0ZXJf",
-            "aWQYASABKAki+gQKFVJlc3RvcmVDbHVzdGVyUmVxdWVzdBIXCgliYWNrdXBf",
-            "aWQYASABKAlCBOjHMQESLAoEbmFtZRgCIAEoCUIe6McxAYrIMQQ8PTYz8scx",
-            "DlthLXpBLVowLTlfLV0qEh4KC2Rlc2NyaXB0aW9uGAMgASgJQgmKyDEFPD0y",
-            "NTYSkgEKBmxhYmVscxgEIAMoCzJBLnlhbmRleC5jbG91ZC5tZGIuY2xpY2to",
-            "b3VzZS52MS5SZXN0b3JlQ2x1c3RlclJlcXVlc3QuTGFiZWxzRW50cnlCP4LI",
-            "MQQ8PTY0isgxBDw9NjPyxzELWy1fMC05YS16XSqyyDEGGgQ8PTYzssgxEhIQ",
-            "W2Etel1bLV8wLTlhLXpdKhJOCgtlbnZpcm9ubWVudBgFIAEoDjIzLnlhbmRl",
-            "eC5jbG91ZC5tZGIuY2xpY2tob3VzZS52MS5DbHVzdGVyLkVudmlyb25tZW50",
-            "QgToxzEBEkUKC2NvbmZpZ19zcGVjGAYgASgLMioueWFuZGV4LmNsb3VkLm1k",
-            "Yi5jbGlja2hvdXNlLnYxLkNvbmZpZ1NwZWNCBOjHMQESRAoKaG9zdF9zcGVj",
-            "cxgHIAMoCzIoLnlhbmRleC5jbG91ZC5tZGIuY2xpY2tob3VzZS52MS5Ib3N0",
-            "U3BlY0IGgsgxAj4wEiAKCm5ldHdvcmtfaWQYCCABKAlCDOjHMQGKyDEEPD01",
-            "MBIbCglmb2xkZXJfaWQYCSABKAlCCIrIMQQ8PTUwEhoKEnNlcnZpY2VfYWNj",
-            "b3VudF9pZBgKIAEoCRotCgtMYWJlbHNFbnRyeRILCgNrZXkYASABKAkSDQoF",
-            "dmFsdWUYAiABKAk6AjgBIj8KFlJlc3RvcmVDbHVzdGVyTWV0YWRhdGESEgoK",
-            "Y2x1c3Rlcl9pZBgBIAEoCRIRCgliYWNrdXBfaWQYAiABKAkiswEKCUxvZ1Jl",
-            "Y29yZBItCgl0aW1lc3RhbXAYASABKAsyGi5nb29nbGUucHJvdG9idWYuVGlt",
-            "ZXN0YW1wEkcKB21lc3NhZ2UYAiADKAsyNi55YW5kZXguY2xvdWQubWRiLmNs",
-            "aWNraG91c2UudjEuTG9nUmVjb3JkLk1lc3NhZ2VFbnRyeRouCgxNZXNzYWdl",
-            "RW50cnkSCwoDa2V5GAEgASgJEg0KBXZhbHVlGAIgASgJOgI4ASKCAwoWTGlz",
-            "dENsdXN0ZXJMb2dzUmVxdWVzdBIgCgpjbHVzdGVyX2lkGAEgASgJQgzoxzEB",
-            "isgxBDw9NTASFQoNY29sdW1uX2ZpbHRlchgCIAMoCRJYCgxzZXJ2aWNlX3R5",
-            "cGUYAyABKA4yQi55YW5kZXguY2xvdWQubWRiLmNsaWNraG91c2UudjEuTGlz",
-            "dENsdXN0ZXJMb2dzUmVxdWVzdC5TZXJ2aWNlVHlwZRItCglmcm9tX3RpbWUY",
-            "BCABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wEisKB3RvX3RpbWUY",
-            "BSABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wEh0KCXBhZ2Vfc2l6",
-            "ZRgGIAEoA0IK+scxBjw9MTAwMBIdCgpwYWdlX3Rva2VuGAcgASgJQgmKyDEF",
-            "PD0xMDAiOwoLU2VydmljZVR5cGUSHAoYU0VSVklDRV9UWVBFX1VOU1BFQ0lG",
-            "SUVEEAASDgoKQ0xJQ0tIT1VTRRABImsKF0xpc3RDbHVzdGVyTG9nc1Jlc3Bv",
-            "bnNlEjcKBGxvZ3MYASADKAsyKS55YW5kZXguY2xvdWQubWRiLmNsaWNraG91",
-            "c2UudjEuTG9nUmVjb3JkEhcKD25leHRfcGFnZV90b2tlbhgCIAEoCSJ+ChxM",
-            "aXN0Q2x1c3Rlck9wZXJhdGlvbnNSZXF1ZXN0EiAKCmNsdXN0ZXJfaWQYASAB",
-            "KAlCDOjHMQGKyDEEPD01MBIdCglwYWdlX3NpemUYAiABKANCCvrHMQY8PTEw",
-            "MDASHQoKcGFnZV90b2tlbhgDIAEoCUIJisgxBTw9MTAwIsgCChhTdHJlYW1D",
-            "bHVzdGVyTG9nc1JlcXVlc3QSIAoKY2x1c3Rlcl9pZBgBIAEoCUIM6McxAYrI",
-            "MQQ8PTUwEhUKDWNvbHVtbl9maWx0ZXIYAiADKAkSWgoMc2VydmljZV90eXBl",
-            "GAMgASgOMkQueWFuZGV4LmNsb3VkLm1kYi5jbGlja2hvdXNlLnYxLlN0cmVh",
-            "bUNsdXN0ZXJMb2dzUmVxdWVzdC5TZXJ2aWNlVHlwZRItCglmcm9tX3RpbWUY",
-            "BCABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wEisKB3RvX3RpbWUY",
-            "BSABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wIjsKC1NlcnZpY2VU",
-            "eXBlEhwKGFNFUlZJQ0VfVFlQRV9VTlNQRUNJRklFRBAAEg4KCkNMSUNLSE9V",
-            "U0UQASJvCh1MaXN0Q2x1c3Rlck9wZXJhdGlvbnNSZXNwb25zZRI1CgpvcGVy",
-            "YXRpb25zGAEgAygLMiEueWFuZGV4LmNsb3VkLm9wZXJhdGlvbi5PcGVyYXRp",
-            "b24SFwoPbmV4dF9wYWdlX3Rva2VuGAIgASgJInsKGUxpc3RDbHVzdGVyQmFj",
-            "a3Vwc1JlcXVlc3QSIAoKY2x1c3Rlcl9pZBgBIAEoCUIM6McxAYrIMQQ8PTUw",
-            "Eh0KCXBhZ2Vfc2l6ZRgCIAEoA0IK+scxBjw9MTAwMBIdCgpwYWdlX3Rva2Vu",
-            "GAMgASgJQgmKyDEFPD0xMDAibgoaTGlzdENsdXN0ZXJCYWNrdXBzUmVzcG9u",
-            "c2USNwoHYmFja3VwcxgBIAMoCzImLnlhbmRleC5jbG91ZC5tZGIuY2xpY2to",
-            "b3VzZS52MS5CYWNrdXASFwoPbmV4dF9wYWdlX3Rva2VuGAIgASgJInkKF0xp",
-            "c3RDbHVzdGVySG9zdHNSZXF1ZXN0EiAKCmNsdXN0ZXJfaWQYASABKAlCDOjH",
-            "MQGKyDEEPD01MBIdCglwYWdlX3NpemUYAiABKANCCvrHMQY8PTEwMDASHQoK",
-            "cGFnZV90b2tlbhgDIAEoCUIJisgxBTw9MTAwImgKGExpc3RDbHVzdGVySG9z",
-            "dHNSZXNwb25zZRIzCgVob3N0cxgBIAMoCzIkLnlhbmRleC5jbG91ZC5tZGIu",
-            "Y2xpY2tob3VzZS52MS5Ib3N0EhcKD25leHRfcGFnZV90b2tlbhgCIAEoCSKA",
-            "AQoWQWRkQ2x1c3Rlckhvc3RzUmVxdWVzdBIgCgpjbHVzdGVyX2lkGAEgASgJ",
-            "QgzoxzEBisgxBDw9NTASRAoKaG9zdF9zcGVjcxgCIAMoCzIoLnlhbmRleC5j",
-            "bG91ZC5tZGIuY2xpY2tob3VzZS52MS5Ib3N0U3BlY0IGgsgxAj4wIkEKF0Fk",
-            "ZENsdXN0ZXJIb3N0c01ldGFkYXRhEhIKCmNsdXN0ZXJfaWQYASABKAkSEgoK",
-            "aG9zdF9uYW1lcxgCIAMoCSJiChlEZWxldGVDbHVzdGVySG9zdHNSZXF1ZXN0",
-            "EiAKCmNsdXN0ZXJfaWQYASABKAlCDOjHMQGKyDEEPD01MBIjCgpob3N0X25h",
-            "bWVzGAIgAygJQg+CyDECPjCKyDEFPD0yNTMiRAoaRGVsZXRlQ2x1c3Rlckhv",
-            "c3RzTWV0YWRhdGESEgoKY2x1c3Rlcl9pZBgBIAEoCRISCgpob3N0X25hbWVz",
-            "GAIgAygJIm4KFkdldENsdXN0ZXJTaGFyZFJlcXVlc3QSIAoKY2x1c3Rlcl9p",
+            "a2hvdXNlLnYxLkNvbmZpZ1NwZWNCBOjHMQESRAoKaG9zdF9zcGVjcxgHIAMo",
+            "CzIoLnlhbmRleC5jbG91ZC5tZGIuY2xpY2tob3VzZS52MS5Ib3N0U3BlY0IG",
+            "gsgxAj4wEiAKCm5ldHdvcmtfaWQYCCABKAlCDOjHMQGKyDEEPD01MBIbCglm",
+            "b2xkZXJfaWQYCSABKAlCCIrIMQQ8PTUwEhoKEnNlcnZpY2VfYWNjb3VudF9p",
+            "ZBgKIAEoCRotCgtMYWJlbHNFbnRyeRILCgNrZXkYASABKAkSDQoFdmFsdWUY",
+            "AiABKAk6AjgBIj8KFlJlc3RvcmVDbHVzdGVyTWV0YWRhdGESEgoKY2x1c3Rl",
+            "cl9pZBgBIAEoCRIRCgliYWNrdXBfaWQYAiABKAkizwIKHFJlc2NoZWR1bGVN",
+            "YWludGVuYW5jZVJlcXVlc3QSIAoKY2x1c3Rlcl9pZBgBIAEoCUIM6McxAYrI",
+            "MQQ8PTUwEmoKD3Jlc2NoZWR1bGVfdHlwZRgCIAEoDjJLLnlhbmRleC5jbG91",
+            "ZC5tZGIuY2xpY2tob3VzZS52MS5SZXNjaGVkdWxlTWFpbnRlbmFuY2VSZXF1",
+            "ZXN0LlJlc2NoZWR1bGVUeXBlQgToxzEBEjEKDWRlbGF5ZWRfdW50aWwYAyAB",
+            "KAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wIm4KDlJlc2NoZWR1bGVU",
+            "eXBlEh8KG1JFU0NIRURVTEVfVFlQRV9VTlNQRUNJRklFRBAAEg0KCUlNTUVE",
+            "SUFURRABEhkKFU5FWFRfQVZBSUxBQkxFX1dJTkRPVxACEhEKDVNQRUNJRklD",
+            "X1RJTUUQAyJmCh1SZXNjaGVkdWxlTWFpbnRlbmFuY2VNZXRhZGF0YRISCgpj",
+            "bHVzdGVyX2lkGAEgASgJEjEKDWRlbGF5ZWRfdW50aWwYBCABKAsyGi5nb29n",
+            "bGUucHJvdG9idWYuVGltZXN0YW1wIrMBCglMb2dSZWNvcmQSLQoJdGltZXN0",
+            "YW1wGAEgASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcBJHCgdtZXNz",
+            "YWdlGAIgAygLMjYueWFuZGV4LmNsb3VkLm1kYi5jbGlja2hvdXNlLnYxLkxv",
+            "Z1JlY29yZC5NZXNzYWdlRW50cnkaLgoMTWVzc2FnZUVudHJ5EgsKA2tleRgB",
+            "IAEoCRINCgV2YWx1ZRgCIAEoCToCOAEiggMKFkxpc3RDbHVzdGVyTG9nc1Jl",
+            "cXVlc3QSIAoKY2x1c3Rlcl9pZBgBIAEoCUIM6McxAYrIMQQ8PTUwEhUKDWNv",
+            "bHVtbl9maWx0ZXIYAiADKAkSWAoMc2VydmljZV90eXBlGAMgASgOMkIueWFu",
+            "ZGV4LmNsb3VkLm1kYi5jbGlja2hvdXNlLnYxLkxpc3RDbHVzdGVyTG9nc1Jl",
+            "cXVlc3QuU2VydmljZVR5cGUSLQoJZnJvbV90aW1lGAQgASgLMhouZ29vZ2xl",
+            "LnByb3RvYnVmLlRpbWVzdGFtcBIrCgd0b190aW1lGAUgASgLMhouZ29vZ2xl",
+            "LnByb3RvYnVmLlRpbWVzdGFtcBIdCglwYWdlX3NpemUYBiABKANCCvrHMQY8",
+            "PTEwMDASHQoKcGFnZV90b2tlbhgHIAEoCUIJisgxBTw9MTAwIjsKC1NlcnZp",
+            "Y2VUeXBlEhwKGFNFUlZJQ0VfVFlQRV9VTlNQRUNJRklFRBAAEg4KCkNMSUNL",
+            "SE9VU0UQASJrChdMaXN0Q2x1c3RlckxvZ3NSZXNwb25zZRI3CgRsb2dzGAEg",
+            "AygLMikueWFuZGV4LmNsb3VkLm1kYi5jbGlja2hvdXNlLnYxLkxvZ1JlY29y",
+            "ZBIXCg9uZXh0X3BhZ2VfdG9rZW4YAiABKAkiZwoPU3RyZWFtTG9nUmVjb3Jk",
+            "EjkKBnJlY29yZBgBIAEoCzIpLnlhbmRleC5jbG91ZC5tZGIuY2xpY2tob3Vz",
+            "ZS52MS5Mb2dSZWNvcmQSGQoRbmV4dF9yZWNvcmRfdG9rZW4YAiABKAkihQMK",
+            "GFN0cmVhbUNsdXN0ZXJMb2dzUmVxdWVzdBIgCgpjbHVzdGVyX2lkGAEgASgJ",
+            "QgzoxzEBisgxBDw9NTASFQoNY29sdW1uX2ZpbHRlchgCIAMoCRJaCgxzZXJ2",
+            "aWNlX3R5cGUYAyABKA4yRC55YW5kZXguY2xvdWQubWRiLmNsaWNraG91c2Uu",
+            "djEuU3RyZWFtQ2x1c3RlckxvZ3NSZXF1ZXN0LlNlcnZpY2VUeXBlEi0KCWZy",
+            "b21fdGltZRgEIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXASKwoH",
+            "dG9fdGltZRgFIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXASHwoM",
+            "cmVjb3JkX3Rva2VuGAYgASgJQgmKyDEFPD0xMDASGgoGZmlsdGVyGAcgASgJ",
+            "QgqKyDEGPD0xMDAwIjsKC1NlcnZpY2VUeXBlEhwKGFNFUlZJQ0VfVFlQRV9V",
+            "TlNQRUNJRklFRBAAEg4KCkNMSUNLSE9VU0UQASJ+ChxMaXN0Q2x1c3Rlck9w",
+            "ZXJhdGlvbnNSZXF1ZXN0EiAKCmNsdXN0ZXJfaWQYASABKAlCDOjHMQGKyDEE",
+            "PD01MBIdCglwYWdlX3NpemUYAiABKANCCvrHMQY8PTEwMDASHQoKcGFnZV90",
+            "b2tlbhgDIAEoCUIJisgxBTw9MTAwIm8KHUxpc3RDbHVzdGVyT3BlcmF0aW9u",
+            "c1Jlc3BvbnNlEjUKCm9wZXJhdGlvbnMYASADKAsyIS55YW5kZXguY2xvdWQu",
+            "b3BlcmF0aW9uLk9wZXJhdGlvbhIXCg9uZXh0X3BhZ2VfdG9rZW4YAiABKAki",
+            "ewoZTGlzdENsdXN0ZXJCYWNrdXBzUmVxdWVzdBIgCgpjbHVzdGVyX2lkGAEg",
+            "ASgJQgzoxzEBisgxBDw9NTASHQoJcGFnZV9zaXplGAIgASgDQgr6xzEGPD0x",
+            "MDAwEh0KCnBhZ2VfdG9rZW4YAyABKAlCCYrIMQU8PTEwMCJuChpMaXN0Q2x1",
+            "c3RlckJhY2t1cHNSZXNwb25zZRI3CgdiYWNrdXBzGAEgAygLMiYueWFuZGV4",
+            "LmNsb3VkLm1kYi5jbGlja2hvdXNlLnYxLkJhY2t1cBIXCg9uZXh0X3BhZ2Vf",
+            "dG9rZW4YAiABKAkieQoXTGlzdENsdXN0ZXJIb3N0c1JlcXVlc3QSIAoKY2x1",
+            "c3Rlcl9pZBgBIAEoCUIM6McxAYrIMQQ8PTUwEh0KCXBhZ2Vfc2l6ZRgCIAEo",
+            "A0IK+scxBjw9MTAwMBIdCgpwYWdlX3Rva2VuGAMgASgJQgmKyDEFPD0xMDAi",
+            "aAoYTGlzdENsdXN0ZXJIb3N0c1Jlc3BvbnNlEjMKBWhvc3RzGAEgAygLMiQu",
+            "eWFuZGV4LmNsb3VkLm1kYi5jbGlja2hvdXNlLnYxLkhvc3QSFwoPbmV4dF9w",
+            "YWdlX3Rva2VuGAIgASgJIoABChZBZGRDbHVzdGVySG9zdHNSZXF1ZXN0EiAK",
+            "CmNsdXN0ZXJfaWQYASABKAlCDOjHMQGKyDEEPD01MBJECgpob3N0X3NwZWNz",
+            "GAIgAygLMigueWFuZGV4LmNsb3VkLm1kYi5jbGlja2hvdXNlLnYxLkhvc3RT",
+            "cGVjQgaCyDECPjAiQQoXQWRkQ2x1c3Rlckhvc3RzTWV0YWRhdGESEgoKY2x1",
+            "c3Rlcl9pZBgBIAEoCRISCgpob3N0X25hbWVzGAIgAygJImIKGURlbGV0ZUNs",
+            "dXN0ZXJIb3N0c1JlcXVlc3QSIAoKY2x1c3Rlcl9pZBgBIAEoCUIM6McxAYrI",
+            "MQQ8PTUwEiMKCmhvc3RfbmFtZXMYAiADKAlCD4LIMQI+MIrIMQU8PTI1MyJE",
+            "ChpEZWxldGVDbHVzdGVySG9zdHNNZXRhZGF0YRISCgpjbHVzdGVyX2lkGAEg",
+            "ASgJEhIKCmhvc3RfbmFtZXMYAiADKAkibgoWR2V0Q2x1c3RlclNoYXJkUmVx",
+            "dWVzdBIgCgpjbHVzdGVyX2lkGAEgASgJQgzoxzEBisgxBDw9NTASMgoKc2hh",
+            "cmRfbmFtZRgCIAEoCUIe6McxAYrIMQQ8PTYz8scxDlthLXpBLVowLTlfLV0q",
+            "InoKGExpc3RDbHVzdGVyU2hhcmRzUmVxdWVzdBIgCgpjbHVzdGVyX2lkGAEg",
+            "ASgJQgzoxzEBisgxBDw9NTASHQoJcGFnZV9zaXplGAIgASgDQgr6xzEGMC0x",
+            "MDAwEh0KCnBhZ2VfdG9rZW4YAyABKAlCCYrIMQU8PTEwMCJrChlMaXN0Q2x1",
+            "c3RlclNoYXJkc1Jlc3BvbnNlEjUKBnNoYXJkcxgBIAMoCzIlLnlhbmRleC5j",
+            "bG91ZC5tZGIuY2xpY2tob3VzZS52MS5TaGFyZBIXCg9uZXh0X3BhZ2VfdG9r",
+            "ZW4YAiABKAki+gEKFkFkZENsdXN0ZXJTaGFyZFJlcXVlc3QSIAoKY2x1c3Rl",
+            "cl9pZBgBIAEoCUIM6McxAYrIMQQ8PTUwEjIKCnNoYXJkX25hbWUYAiABKAlC",
+            "HujHMQGKyDEEPD02M/LHMQ5bYS16QS1aMC05Xy1dKhJECgtjb25maWdfc3Bl",
+            "YxgDIAEoCzIvLnlhbmRleC5jbG91ZC5tZGIuY2xpY2tob3VzZS52MS5TaGFy",
+            "ZENvbmZpZ1NwZWMSRAoKaG9zdF9zcGVjcxgEIAMoCzIoLnlhbmRleC5jbG91",
+            "ZC5tZGIuY2xpY2tob3VzZS52MS5Ib3N0U3BlY0IGgsgxAj4wIkEKF0FkZENs",
+            "dXN0ZXJTaGFyZE1ldGFkYXRhEhIKCmNsdXN0ZXJfaWQYASABKAkSEgoKc2hh",
+            "cmRfbmFtZRgCIAEoCSLoAQoZVXBkYXRlQ2x1c3RlclNoYXJkUmVxdWVzdBIg",
+            "CgpjbHVzdGVyX2lkGAEgASgJQgzoxzEBisgxBDw9NTASMgoKc2hhcmRfbmFt",
+            "ZRgCIAEoCUIe6McxAYrIMQQ8PTYz8scxDlthLXpBLVowLTlfLV0qEi8KC3Vw",
+            "ZGF0ZV9tYXNrGAMgASgLMhouZ29vZ2xlLnByb3RvYnVmLkZpZWxkTWFzaxJE",
+            "Cgtjb25maWdfc3BlYxgEIAEoCzIvLnlhbmRleC5jbG91ZC5tZGIuY2xpY2to",
+            "b3VzZS52MS5TaGFyZENvbmZpZ1NwZWMiRAoaVXBkYXRlQ2x1c3RlclNoYXJk",
+            "TWV0YWRhdGESEgoKY2x1c3Rlcl9pZBgBIAEoCRISCgpzaGFyZF9uYW1lGAIg",
+            "ASgJInEKGURlbGV0ZUNsdXN0ZXJTaGFyZFJlcXVlc3QSIAoKY2x1c3Rlcl9p",
             "ZBgBIAEoCUIM6McxAYrIMQQ8PTUwEjIKCnNoYXJkX25hbWUYAiABKAlCHujH",
-            "MQGKyDEEPD02M/LHMQ5bYS16QS1aMC05Xy1dKiJ6ChhMaXN0Q2x1c3RlclNo",
-            "YXJkc1JlcXVlc3QSIAoKY2x1c3Rlcl9pZBgBIAEoCUIM6McxAYrIMQQ8PTUw",
-            "Eh0KCXBhZ2Vfc2l6ZRgCIAEoA0IK+scxBjAtMTAwMBIdCgpwYWdlX3Rva2Vu",
-            "GAMgASgJQgmKyDEFPD0xMDAiawoZTGlzdENsdXN0ZXJTaGFyZHNSZXNwb25z",
-            "ZRI1CgZzaGFyZHMYASADKAsyJS55YW5kZXguY2xvdWQubWRiLmNsaWNraG91",
-            "c2UudjEuU2hhcmQSFwoPbmV4dF9wYWdlX3Rva2VuGAIgASgJIvoBChZBZGRD",
-            "bHVzdGVyU2hhcmRSZXF1ZXN0EiAKCmNsdXN0ZXJfaWQYASABKAlCDOjHMQGK",
-            "yDEEPD01MBIyCgpzaGFyZF9uYW1lGAIgASgJQh7oxzEBisgxBDw9NjPyxzEO",
-            "W2EtekEtWjAtOV8tXSoSRAoLY29uZmlnX3NwZWMYAyABKAsyLy55YW5kZXgu",
-            "Y2xvdWQubWRiLmNsaWNraG91c2UudjEuU2hhcmRDb25maWdTcGVjEkQKCmhv",
-            "c3Rfc3BlY3MYBCADKAsyKC55YW5kZXguY2xvdWQubWRiLmNsaWNraG91c2Uu",
-            "djEuSG9zdFNwZWNCBoLIMQI+MCJBChdBZGRDbHVzdGVyU2hhcmRNZXRhZGF0",
-            "YRISCgpjbHVzdGVyX2lkGAEgASgJEhIKCnNoYXJkX25hbWUYAiABKAki6AEK",
-            "GVVwZGF0ZUNsdXN0ZXJTaGFyZFJlcXVlc3QSIAoKY2x1c3Rlcl9pZBgBIAEo",
-            "CUIM6McxAYrIMQQ8PTUwEjIKCnNoYXJkX25hbWUYAiABKAlCHujHMQGKyDEE",
-            "PD02M/LHMQ5bYS16QS1aMC05Xy1dKhIvCgt1cGRhdGVfbWFzaxgDIAEoCzIa",
-            "Lmdvb2dsZS5wcm90b2J1Zi5GaWVsZE1hc2sSRAoLY29uZmlnX3NwZWMYBCAB",
-            "KAsyLy55YW5kZXguY2xvdWQubWRiLmNsaWNraG91c2UudjEuU2hhcmRDb25m",
-            "aWdTcGVjIkQKGlVwZGF0ZUNsdXN0ZXJTaGFyZE1ldGFkYXRhEhIKCmNsdXN0",
-            "ZXJfaWQYASABKAkSEgoKc2hhcmRfbmFtZRgCIAEoCSJxChlEZWxldGVDbHVz",
-            "dGVyU2hhcmRSZXF1ZXN0EiAKCmNsdXN0ZXJfaWQYASABKAlCDOjHMQGKyDEE",
-            "PD01MBIyCgpzaGFyZF9uYW1lGAIgASgJQh7oxzEBisgxBDw9NjPyxzEOW2Et",
-            "ekEtWjAtOV8tXSoiRAoaRGVsZXRlQ2x1c3RlclNoYXJkTWV0YWRhdGESEgoK",
-            "Y2x1c3Rlcl9pZBgBIAEoCRISCgpzaGFyZF9uYW1lGAIgASgJIrMBCiZDcmVh",
-            "dGVDbHVzdGVyRXh0ZXJuYWxEaWN0aW9uYXJ5UmVxdWVzdBIgCgpjbHVzdGVy",
-            "X2lkGAEgASgJQgzoxzEBisgxBDw9NTASZwoTZXh0ZXJuYWxfZGljdGlvbmFy",
-            "eRgCIAEoCzJKLnlhbmRleC5jbG91ZC5tZGIuY2xpY2tob3VzZS52MS5jb25m",
-            "aWcuQ2xpY2tob3VzZUNvbmZpZy5FeHRlcm5hbERpY3Rpb25hcnkiPQonQ3Jl",
-            "YXRlQ2x1c3RlckV4dGVybmFsRGljdGlvbmFyeU1ldGFkYXRhEhIKCmNsdXN0",
-            "ZXJfaWQYASABKAkibAomRGVsZXRlQ2x1c3RlckV4dGVybmFsRGljdGlvbmFy",
-            "eVJlcXVlc3QSIAoKY2x1c3Rlcl9pZBgBIAEoCUIM6McxAYrIMQQ8PTUwEiAK",
-            "GGV4dGVybmFsX2RpY3Rpb25hcnlfbmFtZRgCIAEoCSI9CidEZWxldGVDbHVz",
-            "dGVyRXh0ZXJuYWxEaWN0aW9uYXJ5TWV0YWRhdGESEgoKY2x1c3Rlcl9pZBgB",
-            "IAEoCSLLAQoISG9zdFNwZWMSGQoHem9uZV9pZBgBIAEoCUIIisgxBDw9NTAS",
-            "PQoEdHlwZRgCIAEoDjIpLnlhbmRleC5jbG91ZC5tZGIuY2xpY2tob3VzZS52",
-            "MS5Ib3N0LlR5cGVCBOjHMQESGwoJc3VibmV0X2lkGAMgASgJQgiKyDEEPD01",
-            "MBIYChBhc3NpZ25fcHVibGljX2lwGAQgASgIEi4KCnNoYXJkX25hbWUYBSAB",
-            "KAlCGorIMQQ8PTYz8scxDlthLXpBLVowLTlfLV0qIv8DCgpDb25maWdTcGVj",
-            "Eg8KB3ZlcnNpb24YAyABKAkSSQoKY2xpY2tob3VzZRgBIAEoCzI1LnlhbmRl",
-            "eC5jbG91ZC5tZGIuY2xpY2tob3VzZS52MS5Db25maWdTcGVjLkNsaWNraG91",
-            "c2USRwoJem9va2VlcGVyGAIgASgLMjQueWFuZGV4LmNsb3VkLm1kYi5jbGlj",
-            "a2hvdXNlLnYxLkNvbmZpZ1NwZWMuWm9va2VlcGVyEjMKE2JhY2t1cF93aW5k",
-            "b3dfc3RhcnQYBCABKAsyFi5nb29nbGUudHlwZS5UaW1lT2ZEYXkSNgoGYWNj",
-            "ZXNzGAUgASgLMiYueWFuZGV4LmNsb3VkLm1kYi5jbGlja2hvdXNlLnYxLkFj",
-            "Y2VzcxqTAQoKQ2xpY2tob3VzZRJHCgZjb25maWcYASABKAsyNy55YW5kZXgu",
-            "Y2xvdWQubWRiLmNsaWNraG91c2UudjEuY29uZmlnLkNsaWNraG91c2VDb25m",
-            "aWcSPAoJcmVzb3VyY2VzGAIgASgLMikueWFuZGV4LmNsb3VkLm1kYi5jbGlj",
-            "a2hvdXNlLnYxLlJlc291cmNlcxpJCglab29rZWVwZXISPAoJcmVzb3VyY2Vz",
-            "GAEgASgLMikueWFuZGV4LmNsb3VkLm1kYi5jbGlja2hvdXNlLnYxLlJlc291",
-            "cmNlcyKkAgoPU2hhcmRDb25maWdTcGVjEk4KCmNsaWNraG91c2UYASABKAsy",
-            "Oi55YW5kZXguY2xvdWQubWRiLmNsaWNraG91c2UudjEuU2hhcmRDb25maWdT",
-            "cGVjLkNsaWNraG91c2UawAEKCkNsaWNraG91c2USRwoGY29uZmlnGAEgASgL",
-            "MjcueWFuZGV4LmNsb3VkLm1kYi5jbGlja2hvdXNlLnYxLmNvbmZpZy5DbGlj",
-            "a2hvdXNlQ29uZmlnEjwKCXJlc291cmNlcxgCIAEoCzIpLnlhbmRleC5jbG91",
-            "ZC5tZGIuY2xpY2tob3VzZS52MS5SZXNvdXJjZXMSKwoGd2VpZ2h0GAMgASgL",
-            "MhsuZ29vZ2xlLnByb3RvYnVmLkludDY0VmFsdWUy/CcKDkNsdXN0ZXJTZXJ2",
-            "aWNlEpcBCgNHZXQSMS55YW5kZXguY2xvdWQubWRiLmNsaWNraG91c2UudjEu",
-            "R2V0Q2x1c3RlclJlcXVlc3QaJy55YW5kZXguY2xvdWQubWRiLmNsaWNraG91",
-            "c2UudjEuQ2x1c3RlciI0gtPkkwIuEiwvbWFuYWdlZC1jbGlja2hvdXNlL3Yx",
-            "L2NsdXN0ZXJzL3tjbHVzdGVyX2lkfRKaAQoETGlzdBIzLnlhbmRleC5jbG91",
-            "ZC5tZGIuY2xpY2tob3VzZS52MS5MaXN0Q2x1c3RlcnNSZXF1ZXN0GjQueWFu",
-            "ZGV4LmNsb3VkLm1kYi5jbGlja2hvdXNlLnYxLkxpc3RDbHVzdGVyc1Jlc3Bv",
-            "bnNlIieC0+STAiESHy9tYW5hZ2VkLWNsaWNraG91c2UvdjEvY2x1c3RlcnMS",
-            "sQEKBkNyZWF0ZRI0LnlhbmRleC5jbG91ZC5tZGIuY2xpY2tob3VzZS52MS5D",
-            "cmVhdGVDbHVzdGVyUmVxdWVzdBohLnlhbmRleC5jbG91ZC5vcGVyYXRpb24u",
-            "T3BlcmF0aW9uIk6C0+STAiQiHy9tYW5hZ2VkLWNsaWNraG91c2UvdjEvY2x1",
-            "c3RlcnM6ASqy0iogChVDcmVhdGVDbHVzdGVyTWV0YWRhdGESB0NsdXN0ZXIS",
-            "vgEKBlVwZGF0ZRI0LnlhbmRleC5jbG91ZC5tZGIuY2xpY2tob3VzZS52MS5V",
-            "cGRhdGVDbHVzdGVyUmVxdWVzdBohLnlhbmRleC5jbG91ZC5vcGVyYXRpb24u",
-            "T3BlcmF0aW9uIluC0+STAjEyLC9tYW5hZ2VkLWNsaWNraG91c2UvdjEvY2x1",
-            "c3RlcnMve2NsdXN0ZXJfaWR9OgEqstIqIAoVVXBkYXRlQ2x1c3Rlck1ldGFk",
-            "YXRhEgdDbHVzdGVyEskBCgZEZWxldGUSNC55YW5kZXguY2xvdWQubWRiLmNs",
-            "aWNraG91c2UudjEuRGVsZXRlQ2x1c3RlclJlcXVlc3QaIS55YW5kZXguY2xv",
-            "dWQub3BlcmF0aW9uLk9wZXJhdGlvbiJmgtPkkwIuKiwvbWFuYWdlZC1jbGlj",
-            "a2hvdXNlL3YxL2NsdXN0ZXJzL3tjbHVzdGVyX2lkfbLSKi4KFURlbGV0ZUNs",
-            "dXN0ZXJNZXRhZGF0YRIVZ29vZ2xlLnByb3RvYnVmLkVtcHR5Er4BCgVTdGFy",
-            "dBIzLnlhbmRleC5jbG91ZC5tZGIuY2xpY2tob3VzZS52MS5TdGFydENsdXN0",
-            "ZXJSZXF1ZXN0GiEueWFuZGV4LmNsb3VkLm9wZXJhdGlvbi5PcGVyYXRpb24i",
-            "XYLT5JMCNCIyL21hbmFnZWQtY2xpY2tob3VzZS92MS9jbHVzdGVycy97Y2x1",
-            "c3Rlcl9pZH06c3RhcnSy0iofChRTdGFydENsdXN0ZXJNZXRhZGF0YRIHQ2x1",
-            "c3RlchK6AQoEU3RvcBIyLnlhbmRleC5jbG91ZC5tZGIuY2xpY2tob3VzZS52",
-            "MS5TdG9wQ2x1c3RlclJlcXVlc3QaIS55YW5kZXguY2xvdWQub3BlcmF0aW9u",
-            "Lk9wZXJhdGlvbiJbgtPkkwIzIjEvbWFuYWdlZC1jbGlja2hvdXNlL3YxL2Ns",
-            "dXN0ZXJzL3tjbHVzdGVyX2lkfTpzdG9wstIqHgoTU3RvcENsdXN0ZXJNZXRh",
-            "ZGF0YRIHQ2x1c3RlchK9AQoETW92ZRIyLnlhbmRleC5jbG91ZC5tZGIuY2xp",
-            "Y2tob3VzZS52MS5Nb3ZlQ2x1c3RlclJlcXVlc3QaIS55YW5kZXguY2xvdWQu",
-            "b3BlcmF0aW9uLk9wZXJhdGlvbiJegtPkkwI2IjEvbWFuYWdlZC1jbGlja2hv",
-            "dXNlL3YxL2NsdXN0ZXJzL3tjbHVzdGVyX2lkfTptb3ZlOgEqstIqHgoTTW92",
-            "ZUNsdXN0ZXJNZXRhZGF0YRIHQ2x1c3RlchLdAQoMQWRkWm9va2VlcGVyEjou",
-            "eWFuZGV4LmNsb3VkLm1kYi5jbGlja2hvdXNlLnYxLkFkZENsdXN0ZXJab29r",
-            "ZWVwZXJSZXF1ZXN0GiEueWFuZGV4LmNsb3VkLm9wZXJhdGlvbi5PcGVyYXRp",
-            "b24iboLT5JMCPiI5L21hbmFnZWQtY2xpY2tob3VzZS92MS9jbHVzdGVycy97",
-            "Y2x1c3Rlcl9pZH06YWRkWm9va2VlcGVyOgEqstIqJgobQWRkQ2x1c3Rlclpv",
-            "b2tlZXBlck1ldGFkYXRhEgdDbHVzdGVyEsIBCgZCYWNrdXASNC55YW5kZXgu",
-            "Y2xvdWQubWRiLmNsaWNraG91c2UudjEuQmFja3VwQ2x1c3RlclJlcXVlc3Qa",
-            "IS55YW5kZXguY2xvdWQub3BlcmF0aW9uLk9wZXJhdGlvbiJfgtPkkwI1IjMv",
-            "bWFuYWdlZC1jbGlja2hvdXNlL3YxL2NsdXN0ZXJzL3tjbHVzdGVyX2lkfTpi",
-            "YWNrdXCy0iogChVCYWNrdXBDbHVzdGVyTWV0YWRhdGESB0NsdXN0ZXISvAEK",
-            "B1Jlc3RvcmUSNS55YW5kZXguY2xvdWQubWRiLmNsaWNraG91c2UudjEuUmVz",
-            "dG9yZUNsdXN0ZXJSZXF1ZXN0GiEueWFuZGV4LmNsb3VkLm9wZXJhdGlvbi5P",
-            "cGVyYXRpb24iV4LT5JMCLCInL21hbmFnZWQtY2xpY2tob3VzZS92MS9jbHVz",
-            "dGVyczpyZXN0b3JlOgEqstIqIQoWUmVzdG9yZUNsdXN0ZXJNZXRhZGF0YRIH",
-            "Q2x1c3RlchK2AQoITGlzdExvZ3MSNi55YW5kZXguY2xvdWQubWRiLmNsaWNr",
-            "aG91c2UudjEuTGlzdENsdXN0ZXJMb2dzUmVxdWVzdBo3LnlhbmRleC5jbG91",
-            "ZC5tZGIuY2xpY2tob3VzZS52MS5MaXN0Q2x1c3RlckxvZ3NSZXNwb25zZSI5",
-            "gtPkkwIzEjEvbWFuYWdlZC1jbGlja2hvdXNlL3YxL2NsdXN0ZXJzL3tjbHVz",
-            "dGVyX2lkfTpsb2dzErUBCgpTdHJlYW1Mb2dzEjgueWFuZGV4LmNsb3VkLm1k",
-            "Yi5jbGlja2hvdXNlLnYxLlN0cmVhbUNsdXN0ZXJMb2dzUmVxdWVzdBopLnlh",
-            "bmRleC5jbG91ZC5tZGIuY2xpY2tob3VzZS52MS5Mb2dSZWNvcmQiQILT5JMC",
-            "OhI4L21hbmFnZWQtY2xpY2tob3VzZS92MS9jbHVzdGVycy97Y2x1c3Rlcl9p",
-            "ZH06c3RyZWFtX2xvZ3MwARLOAQoOTGlzdE9wZXJhdGlvbnMSPC55YW5kZXgu",
-            "Y2xvdWQubWRiLmNsaWNraG91c2UudjEuTGlzdENsdXN0ZXJPcGVyYXRpb25z",
-            "UmVxdWVzdBo9LnlhbmRleC5jbG91ZC5tZGIuY2xpY2tob3VzZS52MS5MaXN0",
-            "Q2x1c3Rlck9wZXJhdGlvbnNSZXNwb25zZSI/gtPkkwI5EjcvbWFuYWdlZC1j",
-            "bGlja2hvdXNlL3YxL2NsdXN0ZXJzL3tjbHVzdGVyX2lkfS9vcGVyYXRpb25z",
-            "EsIBCgtMaXN0QmFja3VwcxI5LnlhbmRleC5jbG91ZC5tZGIuY2xpY2tob3Vz",
-            "ZS52MS5MaXN0Q2x1c3RlckJhY2t1cHNSZXF1ZXN0GjoueWFuZGV4LmNsb3Vk",
-            "Lm1kYi5jbGlja2hvdXNlLnYxLkxpc3RDbHVzdGVyQmFja3Vwc1Jlc3BvbnNl",
-            "IjyC0+STAjYSNC9tYW5hZ2VkLWNsaWNraG91c2UvdjEvY2x1c3RlcnMve2Ns",
-            "dXN0ZXJfaWR9L2JhY2t1cHMSugEKCUxpc3RIb3N0cxI3LnlhbmRleC5jbG91",
-            "ZC5tZGIuY2xpY2tob3VzZS52MS5MaXN0Q2x1c3Rlckhvc3RzUmVxdWVzdBo4",
-            "LnlhbmRleC5jbG91ZC5tZGIuY2xpY2tob3VzZS52MS5MaXN0Q2x1c3Rlckhv",
-            "c3RzUmVzcG9uc2UiOoLT5JMCNBIyL21hbmFnZWQtY2xpY2tob3VzZS92MS9j",
-            "bHVzdGVycy97Y2x1c3Rlcl9pZH0vaG9zdHMS5AEKCEFkZEhvc3RzEjYueWFu",
-            "ZGV4LmNsb3VkLm1kYi5jbGlja2hvdXNlLnYxLkFkZENsdXN0ZXJIb3N0c1Jl",
-            "cXVlc3QaIS55YW5kZXguY2xvdWQub3BlcmF0aW9uLk9wZXJhdGlvbiJ9gtPk",
-            "kwJDIj4vbWFuYWdlZC1jbGlja2hvdXNlL3YxL2NsdXN0ZXJzL3tjbHVzdGVy",
-            "X2lkfS9ob3N0czpiYXRjaENyZWF0ZToBKrLSKjAKF0FkZENsdXN0ZXJIb3N0",
-            "c01ldGFkYXRhEhVnb29nbGUucHJvdG9idWYuRW1wdHkS7gEKC0RlbGV0ZUhv",
-            "c3RzEjkueWFuZGV4LmNsb3VkLm1kYi5jbGlja2hvdXNlLnYxLkRlbGV0ZUNs",
-            "dXN0ZXJIb3N0c1JlcXVlc3QaIS55YW5kZXguY2xvdWQub3BlcmF0aW9uLk9w",
-            "ZXJhdGlvbiKAAYLT5JMCQyI+L21hbmFnZWQtY2xpY2tob3VzZS92MS9jbHVz",
-            "dGVycy97Y2x1c3Rlcl9pZH0vaG9zdHM6YmF0Y2hEZWxldGU6ASqy0iozChpE",
-            "ZWxldGVDbHVzdGVySG9zdHNNZXRhZGF0YRIVZ29vZ2xlLnByb3RvYnVmLkVt",
-            "cHR5ErMBCghHZXRTaGFyZBI2LnlhbmRleC5jbG91ZC5tZGIuY2xpY2tob3Vz",
-            "ZS52MS5HZXRDbHVzdGVyU2hhcmRSZXF1ZXN0GiUueWFuZGV4LmNsb3VkLm1k",
-            "Yi5jbGlja2hvdXNlLnYxLlNoYXJkIkiC0+STAkISQC9tYW5hZ2VkLWNsaWNr",
-            "aG91c2UvdjEvY2x1c3RlcnMve2NsdXN0ZXJfaWR9L3NoYXJkcy97c2hhcmRf",
-            "bmFtZX0SvgEKCkxpc3RTaGFyZHMSOC55YW5kZXguY2xvdWQubWRiLmNsaWNr",
-            "aG91c2UudjEuTGlzdENsdXN0ZXJTaGFyZHNSZXF1ZXN0GjkueWFuZGV4LmNs",
-            "b3VkLm1kYi5jbGlja2hvdXNlLnYxLkxpc3RDbHVzdGVyU2hhcmRzUmVzcG9u",
-            "c2UiO4LT5JMCNRIzL21hbmFnZWQtY2xpY2tob3VzZS92MS9jbHVzdGVycy97",
-            "Y2x1c3Rlcl9pZH0vc2hhcmRzEskBCghBZGRTaGFyZBI2LnlhbmRleC5jbG91",
-            "ZC5tZGIuY2xpY2tob3VzZS52MS5BZGRDbHVzdGVyU2hhcmRSZXF1ZXN0GiEu",
-            "eWFuZGV4LmNsb3VkLm9wZXJhdGlvbi5PcGVyYXRpb24iYoLT5JMCOCIzL21h",
-            "bmFnZWQtY2xpY2tob3VzZS92MS9jbHVzdGVycy97Y2x1c3Rlcl9pZH0vc2hh",
-            "cmRzOgEqstIqIAoXQWRkQ2x1c3RlclNoYXJkTWV0YWRhdGESBVNoYXJkEt8B",
-            "CgtVcGRhdGVTaGFyZBI5LnlhbmRleC5jbG91ZC5tZGIuY2xpY2tob3VzZS52",
-            "MS5VcGRhdGVDbHVzdGVyU2hhcmRSZXF1ZXN0GiEueWFuZGV4LmNsb3VkLm9w",
-            "ZXJhdGlvbi5PcGVyYXRpb24icoLT5JMCRTJAL21hbmFnZWQtY2xpY2tob3Vz",
-            "ZS92MS9jbHVzdGVycy97Y2x1c3Rlcl9pZH0vc2hhcmRzL3tzaGFyZF9uYW1l",
-            "fToBKrLSKiMKGlVwZGF0ZUNsdXN0ZXJTaGFyZE1ldGFkYXRhEgVTaGFyZBLs",
-            "AQoLRGVsZXRlU2hhcmQSOS55YW5kZXguY2xvdWQubWRiLmNsaWNraG91c2Uu",
-            "djEuRGVsZXRlQ2x1c3RlclNoYXJkUmVxdWVzdBohLnlhbmRleC5jbG91ZC5v",
-            "cGVyYXRpb24uT3BlcmF0aW9uIn+C0+STAkIqQC9tYW5hZ2VkLWNsaWNraG91",
-            "c2UvdjEvY2x1c3RlcnMve2NsdXN0ZXJfaWR9L3NoYXJkcy97c2hhcmRfbmFt",
-            "ZX2y0iozChpEZWxldGVDbHVzdGVyU2hhcmRNZXRhZGF0YRIVZ29vZ2xlLnBy",
-            "b3RvYnVmLkVtcHR5Eo4CChhDcmVhdGVFeHRlcm5hbERpY3Rpb25hcnkSRi55",
-            "YW5kZXguY2xvdWQubWRiLmNsaWNraG91c2UudjEuQ3JlYXRlQ2x1c3RlckV4",
-            "dGVybmFsRGljdGlvbmFyeVJlcXVlc3QaIS55YW5kZXguY2xvdWQub3BlcmF0",
-            "aW9uLk9wZXJhdGlvbiKGAYLT5JMCSiJFL21hbmFnZWQtY2xpY2tob3VzZS92",
-            "MS9jbHVzdGVycy97Y2x1c3Rlcl9pZH06Y3JlYXRlRXh0ZXJuYWxEaWN0aW9u",
-            "YXJ5OgEqstIqMgonQ3JlYXRlQ2x1c3RlckV4dGVybmFsRGljdGlvbmFyeU1l",
-            "dGFkYXRhEgdDbHVzdGVyEo4CChhEZWxldGVFeHRlcm5hbERpY3Rpb25hcnkS",
-            "Ri55YW5kZXguY2xvdWQubWRiLmNsaWNraG91c2UudjEuRGVsZXRlQ2x1c3Rl",
-            "ckV4dGVybmFsRGljdGlvbmFyeVJlcXVlc3QaIS55YW5kZXguY2xvdWQub3Bl",
-            "cmF0aW9uLk9wZXJhdGlvbiKGAYLT5JMCSiJFL21hbmFnZWQtY2xpY2tob3Vz",
-            "ZS92MS9jbHVzdGVycy97Y2x1c3Rlcl9pZH06ZGVsZXRlRXh0ZXJuYWxEaWN0",
-            "aW9uYXJ5OgEqstIqMgonRGVsZXRlQ2x1c3RlckV4dGVybmFsRGljdGlvbmFy",
-            "eU1ldGFkYXRhEgdDbHVzdGVyQnMKInlhbmRleC5jbG91ZC5hcGkubWRiLmNs",
-            "aWNraG91c2UudjFaTWdpdGh1Yi5jb20veWFuZGV4LWNsb3VkL2dvLWdlbnBy",
-            "b3RvL3lhbmRleC9jbG91ZC9tZGIvY2xpY2tob3VzZS92MTtjbGlja2hvdXNl",
-            "YgZwcm90bzM="));
+            "MQGKyDEEPD02M/LHMQ5bYS16QS1aMC05Xy1dKiJEChpEZWxldGVDbHVzdGVy",
+            "U2hhcmRNZXRhZGF0YRISCgpjbHVzdGVyX2lkGAEgASgJEhIKCnNoYXJkX25h",
+            "bWUYAiABKAkieQobR2V0Q2x1c3RlclNoYXJkR3JvdXBSZXF1ZXN0EiAKCmNs",
+            "dXN0ZXJfaWQYASABKAlCDOjHMQGKyDEEPD01MBI4ChBzaGFyZF9ncm91cF9u",
+            "YW1lGAIgASgJQh7oxzEBisgxBDw9NjPyxzEOW2EtekEtWjAtOV8tXSoifwod",
+            "TGlzdENsdXN0ZXJTaGFyZEdyb3Vwc1JlcXVlc3QSIAoKY2x1c3Rlcl9pZBgB",
+            "IAEoCUIM6McxAYrIMQQ8PTUwEh0KCXBhZ2Vfc2l6ZRgCIAEoA0IK+scxBjAt",
+            "MTAwMBIdCgpwYWdlX3Rva2VuGAMgASgJQgmKyDEFPD0xMDAiewoeTGlzdENs",
+            "dXN0ZXJTaGFyZEdyb3Vwc1Jlc3BvbnNlEkAKDHNoYXJkX2dyb3VwcxgBIAMo",
+            "CzIqLnlhbmRleC5jbG91ZC5tZGIuY2xpY2tob3VzZS52MS5TaGFyZEdyb3Vw",
+            "EhcKD25leHRfcGFnZV90b2tlbhgCIAEoCSKmAQoeQ3JlYXRlQ2x1c3RlclNo",
+            "YXJkR3JvdXBSZXF1ZXN0EiAKCmNsdXN0ZXJfaWQYASABKAlCDOjHMQGKyDEE",
+            "PD01MBI4ChBzaGFyZF9ncm91cF9uYW1lGAIgASgJQh7oxzEBisgxBDw9NjPy",
+            "xzEOW2EtekEtWjAtOV8tXSoSEwoLZGVzY3JpcHRpb24YAyABKAkSEwoLc2hh",
+            "cmRfbmFtZXMYBCADKAkiTwofQ3JlYXRlQ2x1c3RlclNoYXJkR3JvdXBNZXRh",
+            "ZGF0YRISCgpjbHVzdGVyX2lkGAEgASgJEhgKEHNoYXJkX2dyb3VwX25hbWUY",
+            "AiABKAki1wEKHlVwZGF0ZUNsdXN0ZXJTaGFyZEdyb3VwUmVxdWVzdBIgCgpj",
+            "bHVzdGVyX2lkGAEgASgJQgzoxzEBisgxBDw9NTASOAoQc2hhcmRfZ3JvdXBf",
+            "bmFtZRgCIAEoCUIe6McxAYrIMQQ8PTYz8scxDlthLXpBLVowLTlfLV0qEi8K",
+            "C3VwZGF0ZV9tYXNrGAMgASgLMhouZ29vZ2xlLnByb3RvYnVmLkZpZWxkTWFz",
+            "axITCgtkZXNjcmlwdGlvbhgEIAEoCRITCgtzaGFyZF9uYW1lcxgFIAMoCSJP",
+            "Ch9VcGRhdGVDbHVzdGVyU2hhcmRHcm91cE1ldGFkYXRhEhIKCmNsdXN0ZXJf",
+            "aWQYASABKAkSGAoQc2hhcmRfZ3JvdXBfbmFtZRgCIAEoCSJ8Ch5EZWxldGVD",
+            "bHVzdGVyU2hhcmRHcm91cFJlcXVlc3QSIAoKY2x1c3Rlcl9pZBgBIAEoCUIM",
+            "6McxAYrIMQQ8PTUwEjgKEHNoYXJkX2dyb3VwX25hbWUYAiABKAlCHujHMQGK",
+            "yDEEPD02M/LHMQ5bYS16QS1aMC05Xy1dKiJPCh9EZWxldGVDbHVzdGVyU2hh",
+            "cmRHcm91cE1ldGFkYXRhEhIKCmNsdXN0ZXJfaWQYASABKAkSGAoQc2hhcmRf",
+            "Z3JvdXBfbmFtZRgCIAEoCSKzAQomQ3JlYXRlQ2x1c3RlckV4dGVybmFsRGlj",
+            "dGlvbmFyeVJlcXVlc3QSIAoKY2x1c3Rlcl9pZBgBIAEoCUIM6McxAYrIMQQ8",
+            "PTUwEmcKE2V4dGVybmFsX2RpY3Rpb25hcnkYAiABKAsySi55YW5kZXguY2xv",
+            "dWQubWRiLmNsaWNraG91c2UudjEuY29uZmlnLkNsaWNraG91c2VDb25maWcu",
+            "RXh0ZXJuYWxEaWN0aW9uYXJ5Ij0KJ0NyZWF0ZUNsdXN0ZXJFeHRlcm5hbERp",
+            "Y3Rpb25hcnlNZXRhZGF0YRISCgpjbHVzdGVyX2lkGAEgASgJImwKJkRlbGV0",
+            "ZUNsdXN0ZXJFeHRlcm5hbERpY3Rpb25hcnlSZXF1ZXN0EiAKCmNsdXN0ZXJf",
+            "aWQYASABKAlCDOjHMQGKyDEEPD01MBIgChhleHRlcm5hbF9kaWN0aW9uYXJ5",
+            "X25hbWUYAiABKAkiPQonRGVsZXRlQ2x1c3RlckV4dGVybmFsRGljdGlvbmFy",
+            "eU1ldGFkYXRhEhIKCmNsdXN0ZXJfaWQYASABKAkiywEKCEhvc3RTcGVjEhkK",
+            "B3pvbmVfaWQYASABKAlCCIrIMQQ8PTUwEj0KBHR5cGUYAiABKA4yKS55YW5k",
+            "ZXguY2xvdWQubWRiLmNsaWNraG91c2UudjEuSG9zdC5UeXBlQgToxzEBEhsK",
+            "CXN1Ym5ldF9pZBgDIAEoCUIIisgxBDw9NTASGAoQYXNzaWduX3B1YmxpY19p",
+            "cBgEIAEoCBIuCgpzaGFyZF9uYW1lGAUgASgJQhqKyDEEPD02M/LHMQ5bYS16",
+            "QS1aMC05Xy1dKiLSBQoKQ29uZmlnU3BlYxIPCgd2ZXJzaW9uGAMgASgJEkkK",
+            "CmNsaWNraG91c2UYASABKAsyNS55YW5kZXguY2xvdWQubWRiLmNsaWNraG91",
+            "c2UudjEuQ29uZmlnU3BlYy5DbGlja2hvdXNlEkcKCXpvb2tlZXBlchgCIAEo",
+            "CzI0LnlhbmRleC5jbG91ZC5tZGIuY2xpY2tob3VzZS52MS5Db25maWdTcGVj",
+            "Llpvb2tlZXBlchIzChNiYWNrdXBfd2luZG93X3N0YXJ0GAQgASgLMhYuZ29v",
+            "Z2xlLnR5cGUuVGltZU9mRGF5EjYKBmFjY2VzcxgFIAEoCzImLnlhbmRleC5j",
+            "bG91ZC5tZGIuY2xpY2tob3VzZS52MS5BY2Nlc3MSQwoNY2xvdWRfc3RvcmFn",
+            "ZRgGIAEoCzIsLnlhbmRleC5jbG91ZC5tZGIuY2xpY2tob3VzZS52MS5DbG91",
+            "ZFN0b3JhZ2USOwoXc3FsX2RhdGFiYXNlX21hbmFnZW1lbnQYByABKAsyGi5n",
+            "b29nbGUucHJvdG9idWYuQm9vbFZhbHVlEjcKE3NxbF91c2VyX21hbmFnZW1l",
+            "bnQYCCABKAsyGi5nb29nbGUucHJvdG9idWYuQm9vbFZhbHVlEhYKDmFkbWlu",
+            "X3Bhc3N3b3JkGAkgASgJGpMBCgpDbGlja2hvdXNlEkcKBmNvbmZpZxgBIAEo",
+            "CzI3LnlhbmRleC5jbG91ZC5tZGIuY2xpY2tob3VzZS52MS5jb25maWcuQ2xp",
+            "Y2tob3VzZUNvbmZpZxI8CglyZXNvdXJjZXMYAiABKAsyKS55YW5kZXguY2xv",
+            "dWQubWRiLmNsaWNraG91c2UudjEuUmVzb3VyY2VzGkkKCVpvb2tlZXBlchI8",
+            "CglyZXNvdXJjZXMYASABKAsyKS55YW5kZXguY2xvdWQubWRiLmNsaWNraG91",
+            "c2UudjEuUmVzb3VyY2VzIqQCCg9TaGFyZENvbmZpZ1NwZWMSTgoKY2xpY2to",
+            "b3VzZRgBIAEoCzI6LnlhbmRleC5jbG91ZC5tZGIuY2xpY2tob3VzZS52MS5T",
+            "aGFyZENvbmZpZ1NwZWMuQ2xpY2tob3VzZRrAAQoKQ2xpY2tob3VzZRJHCgZj",
+            "b25maWcYASABKAsyNy55YW5kZXguY2xvdWQubWRiLmNsaWNraG91c2UudjEu",
+            "Y29uZmlnLkNsaWNraG91c2VDb25maWcSPAoJcmVzb3VyY2VzGAIgASgLMiku",
+            "eWFuZGV4LmNsb3VkLm1kYi5jbGlja2hvdXNlLnYxLlJlc291cmNlcxIrCgZ3",
+            "ZWlnaHQYAyABKAsyGy5nb29nbGUucHJvdG9idWYuSW50NjRWYWx1ZTKXMwoO",
+            "Q2x1c3RlclNlcnZpY2USlwEKA0dldBIxLnlhbmRleC5jbG91ZC5tZGIuY2xp",
+            "Y2tob3VzZS52MS5HZXRDbHVzdGVyUmVxdWVzdBonLnlhbmRleC5jbG91ZC5t",
+            "ZGIuY2xpY2tob3VzZS52MS5DbHVzdGVyIjSC0+STAi4SLC9tYW5hZ2VkLWNs",
+            "aWNraG91c2UvdjEvY2x1c3RlcnMve2NsdXN0ZXJfaWR9EpoBCgRMaXN0EjMu",
+            "eWFuZGV4LmNsb3VkLm1kYi5jbGlja2hvdXNlLnYxLkxpc3RDbHVzdGVyc1Jl",
+            "cXVlc3QaNC55YW5kZXguY2xvdWQubWRiLmNsaWNraG91c2UudjEuTGlzdENs",
+            "dXN0ZXJzUmVzcG9uc2UiJ4LT5JMCIRIfL21hbmFnZWQtY2xpY2tob3VzZS92",
+            "MS9jbHVzdGVycxKxAQoGQ3JlYXRlEjQueWFuZGV4LmNsb3VkLm1kYi5jbGlj",
+            "a2hvdXNlLnYxLkNyZWF0ZUNsdXN0ZXJSZXF1ZXN0GiEueWFuZGV4LmNsb3Vk",
+            "Lm9wZXJhdGlvbi5PcGVyYXRpb24iToLT5JMCJCIfL21hbmFnZWQtY2xpY2to",
+            "b3VzZS92MS9jbHVzdGVyczoBKrLSKiAKFUNyZWF0ZUNsdXN0ZXJNZXRhZGF0",
+            "YRIHQ2x1c3RlchK+AQoGVXBkYXRlEjQueWFuZGV4LmNsb3VkLm1kYi5jbGlj",
+            "a2hvdXNlLnYxLlVwZGF0ZUNsdXN0ZXJSZXF1ZXN0GiEueWFuZGV4LmNsb3Vk",
+            "Lm9wZXJhdGlvbi5PcGVyYXRpb24iW4LT5JMCMTIsL21hbmFnZWQtY2xpY2to",
+            "b3VzZS92MS9jbHVzdGVycy97Y2x1c3Rlcl9pZH06ASqy0iogChVVcGRhdGVD",
+            "bHVzdGVyTWV0YWRhdGESB0NsdXN0ZXISyQEKBkRlbGV0ZRI0LnlhbmRleC5j",
+            "bG91ZC5tZGIuY2xpY2tob3VzZS52MS5EZWxldGVDbHVzdGVyUmVxdWVzdBoh",
+            "LnlhbmRleC5jbG91ZC5vcGVyYXRpb24uT3BlcmF0aW9uImaC0+STAi4qLC9t",
+            "YW5hZ2VkLWNsaWNraG91c2UvdjEvY2x1c3RlcnMve2NsdXN0ZXJfaWR9stIq",
+            "LgoVRGVsZXRlQ2x1c3Rlck1ldGFkYXRhEhVnb29nbGUucHJvdG9idWYuRW1w",
+            "dHkSvgEKBVN0YXJ0EjMueWFuZGV4LmNsb3VkLm1kYi5jbGlja2hvdXNlLnYx",
+            "LlN0YXJ0Q2x1c3RlclJlcXVlc3QaIS55YW5kZXguY2xvdWQub3BlcmF0aW9u",
+            "Lk9wZXJhdGlvbiJdgtPkkwI0IjIvbWFuYWdlZC1jbGlja2hvdXNlL3YxL2Ns",
+            "dXN0ZXJzL3tjbHVzdGVyX2lkfTpzdGFydLLSKh8KFFN0YXJ0Q2x1c3Rlck1l",
+            "dGFkYXRhEgdDbHVzdGVyEroBCgRTdG9wEjIueWFuZGV4LmNsb3VkLm1kYi5j",
+            "bGlja2hvdXNlLnYxLlN0b3BDbHVzdGVyUmVxdWVzdBohLnlhbmRleC5jbG91",
+            "ZC5vcGVyYXRpb24uT3BlcmF0aW9uIluC0+STAjMiMS9tYW5hZ2VkLWNsaWNr",
+            "aG91c2UvdjEvY2x1c3RlcnMve2NsdXN0ZXJfaWR9OnN0b3Cy0ioeChNTdG9w",
+            "Q2x1c3Rlck1ldGFkYXRhEgdDbHVzdGVyEr0BCgRNb3ZlEjIueWFuZGV4LmNs",
+            "b3VkLm1kYi5jbGlja2hvdXNlLnYxLk1vdmVDbHVzdGVyUmVxdWVzdBohLnlh",
+            "bmRleC5jbG91ZC5vcGVyYXRpb24uT3BlcmF0aW9uIl6C0+STAjYiMS9tYW5h",
+            "Z2VkLWNsaWNraG91c2UvdjEvY2x1c3RlcnMve2NsdXN0ZXJfaWR9Om1vdmU6",
+            "ASqy0ioeChNNb3ZlQ2x1c3Rlck1ldGFkYXRhEgdDbHVzdGVyEt0BCgxBZGRa",
+            "b29rZWVwZXISOi55YW5kZXguY2xvdWQubWRiLmNsaWNraG91c2UudjEuQWRk",
+            "Q2x1c3Rlclpvb2tlZXBlclJlcXVlc3QaIS55YW5kZXguY2xvdWQub3BlcmF0",
+            "aW9uLk9wZXJhdGlvbiJugtPkkwI+IjkvbWFuYWdlZC1jbGlja2hvdXNlL3Yx",
+            "L2NsdXN0ZXJzL3tjbHVzdGVyX2lkfTphZGRab29rZWVwZXI6ASqy0iomChtB",
+            "ZGRDbHVzdGVyWm9va2VlcGVyTWV0YWRhdGESB0NsdXN0ZXISwgEKBkJhY2t1",
+            "cBI0LnlhbmRleC5jbG91ZC5tZGIuY2xpY2tob3VzZS52MS5CYWNrdXBDbHVz",
+            "dGVyUmVxdWVzdBohLnlhbmRleC5jbG91ZC5vcGVyYXRpb24uT3BlcmF0aW9u",
+            "Il+C0+STAjUiMy9tYW5hZ2VkLWNsaWNraG91c2UvdjEvY2x1c3RlcnMve2Ns",
+            "dXN0ZXJfaWR9OmJhY2t1cLLSKiAKFUJhY2t1cENsdXN0ZXJNZXRhZGF0YRIH",
+            "Q2x1c3RlchK8AQoHUmVzdG9yZRI1LnlhbmRleC5jbG91ZC5tZGIuY2xpY2to",
+            "b3VzZS52MS5SZXN0b3JlQ2x1c3RlclJlcXVlc3QaIS55YW5kZXguY2xvdWQu",
+            "b3BlcmF0aW9uLk9wZXJhdGlvbiJXgtPkkwIsIicvbWFuYWdlZC1jbGlja2hv",
+            "dXNlL3YxL2NsdXN0ZXJzOnJlc3RvcmU6ASqy0iohChZSZXN0b3JlQ2x1c3Rl",
+            "ck1ldGFkYXRhEgdDbHVzdGVyEvMBChVSZXNjaGVkdWxlTWFpbnRlbmFuY2US",
+            "PC55YW5kZXguY2xvdWQubWRiLmNsaWNraG91c2UudjEuUmVzY2hlZHVsZU1h",
+            "aW50ZW5hbmNlUmVxdWVzdBohLnlhbmRleC5jbG91ZC5vcGVyYXRpb24uT3Bl",
+            "cmF0aW9uInmC0+STAkciQi9tYW5hZ2VkLWNsaWNraG91c2UvdjEvY2x1c3Rl",
+            "cnMve2NsdXN0ZXJfaWR9OnJlc2NoZWR1bGVNYWludGVuYW5jZToBKrLSKigK",
+            "HVJlc2NoZWR1bGVNYWludGVuYW5jZU1ldGFkYXRhEgdDbHVzdGVyErYBCghM",
+            "aXN0TG9ncxI2LnlhbmRleC5jbG91ZC5tZGIuY2xpY2tob3VzZS52MS5MaXN0",
+            "Q2x1c3RlckxvZ3NSZXF1ZXN0GjcueWFuZGV4LmNsb3VkLm1kYi5jbGlja2hv",
+            "dXNlLnYxLkxpc3RDbHVzdGVyTG9nc1Jlc3BvbnNlIjmC0+STAjMSMS9tYW5h",
+            "Z2VkLWNsaWNraG91c2UvdjEvY2x1c3RlcnMve2NsdXN0ZXJfaWR9OmxvZ3MS",
+            "uwEKClN0cmVhbUxvZ3MSOC55YW5kZXguY2xvdWQubWRiLmNsaWNraG91c2Uu",
+            "djEuU3RyZWFtQ2x1c3RlckxvZ3NSZXF1ZXN0Gi8ueWFuZGV4LmNsb3VkLm1k",
+            "Yi5jbGlja2hvdXNlLnYxLlN0cmVhbUxvZ1JlY29yZCJAgtPkkwI6EjgvbWFu",
+            "YWdlZC1jbGlja2hvdXNlL3YxL2NsdXN0ZXJzL3tjbHVzdGVyX2lkfTpzdHJl",
+            "YW1fbG9nczABEs4BCg5MaXN0T3BlcmF0aW9ucxI8LnlhbmRleC5jbG91ZC5t",
+            "ZGIuY2xpY2tob3VzZS52MS5MaXN0Q2x1c3Rlck9wZXJhdGlvbnNSZXF1ZXN0",
+            "Gj0ueWFuZGV4LmNsb3VkLm1kYi5jbGlja2hvdXNlLnYxLkxpc3RDbHVzdGVy",
+            "T3BlcmF0aW9uc1Jlc3BvbnNlIj+C0+STAjkSNy9tYW5hZ2VkLWNsaWNraG91",
+            "c2UvdjEvY2x1c3RlcnMve2NsdXN0ZXJfaWR9L29wZXJhdGlvbnMSwgEKC0xp",
+            "c3RCYWNrdXBzEjkueWFuZGV4LmNsb3VkLm1kYi5jbGlja2hvdXNlLnYxLkxp",
+            "c3RDbHVzdGVyQmFja3Vwc1JlcXVlc3QaOi55YW5kZXguY2xvdWQubWRiLmNs",
+            "aWNraG91c2UudjEuTGlzdENsdXN0ZXJCYWNrdXBzUmVzcG9uc2UiPILT5JMC",
+            "NhI0L21hbmFnZWQtY2xpY2tob3VzZS92MS9jbHVzdGVycy97Y2x1c3Rlcl9p",
+            "ZH0vYmFja3VwcxK6AQoJTGlzdEhvc3RzEjcueWFuZGV4LmNsb3VkLm1kYi5j",
+            "bGlja2hvdXNlLnYxLkxpc3RDbHVzdGVySG9zdHNSZXF1ZXN0GjgueWFuZGV4",
+            "LmNsb3VkLm1kYi5jbGlja2hvdXNlLnYxLkxpc3RDbHVzdGVySG9zdHNSZXNw",
+            "b25zZSI6gtPkkwI0EjIvbWFuYWdlZC1jbGlja2hvdXNlL3YxL2NsdXN0ZXJz",
+            "L3tjbHVzdGVyX2lkfS9ob3N0cxLkAQoIQWRkSG9zdHMSNi55YW5kZXguY2xv",
+            "dWQubWRiLmNsaWNraG91c2UudjEuQWRkQ2x1c3Rlckhvc3RzUmVxdWVzdBoh",
+            "LnlhbmRleC5jbG91ZC5vcGVyYXRpb24uT3BlcmF0aW9uIn2C0+STAkMiPi9t",
+            "YW5hZ2VkLWNsaWNraG91c2UvdjEvY2x1c3RlcnMve2NsdXN0ZXJfaWR9L2hv",
+            "c3RzOmJhdGNoQ3JlYXRlOgEqstIqMAoXQWRkQ2x1c3Rlckhvc3RzTWV0YWRh",
+            "dGESFWdvb2dsZS5wcm90b2J1Zi5FbXB0eRLuAQoLRGVsZXRlSG9zdHMSOS55",
+            "YW5kZXguY2xvdWQubWRiLmNsaWNraG91c2UudjEuRGVsZXRlQ2x1c3Rlckhv",
+            "c3RzUmVxdWVzdBohLnlhbmRleC5jbG91ZC5vcGVyYXRpb24uT3BlcmF0aW9u",
+            "IoABgtPkkwJDIj4vbWFuYWdlZC1jbGlja2hvdXNlL3YxL2NsdXN0ZXJzL3tj",
+            "bHVzdGVyX2lkfS9ob3N0czpiYXRjaERlbGV0ZToBKrLSKjMKGkRlbGV0ZUNs",
+            "dXN0ZXJIb3N0c01ldGFkYXRhEhVnb29nbGUucHJvdG9idWYuRW1wdHkSswEK",
+            "CEdldFNoYXJkEjYueWFuZGV4LmNsb3VkLm1kYi5jbGlja2hvdXNlLnYxLkdl",
+            "dENsdXN0ZXJTaGFyZFJlcXVlc3QaJS55YW5kZXguY2xvdWQubWRiLmNsaWNr",
+            "aG91c2UudjEuU2hhcmQiSILT5JMCQhJAL21hbmFnZWQtY2xpY2tob3VzZS92",
+            "MS9jbHVzdGVycy97Y2x1c3Rlcl9pZH0vc2hhcmRzL3tzaGFyZF9uYW1lfRK+",
+            "AQoKTGlzdFNoYXJkcxI4LnlhbmRleC5jbG91ZC5tZGIuY2xpY2tob3VzZS52",
+            "MS5MaXN0Q2x1c3RlclNoYXJkc1JlcXVlc3QaOS55YW5kZXguY2xvdWQubWRi",
+            "LmNsaWNraG91c2UudjEuTGlzdENsdXN0ZXJTaGFyZHNSZXNwb25zZSI7gtPk",
+            "kwI1EjMvbWFuYWdlZC1jbGlja2hvdXNlL3YxL2NsdXN0ZXJzL3tjbHVzdGVy",
+            "X2lkfS9zaGFyZHMSyQEKCEFkZFNoYXJkEjYueWFuZGV4LmNsb3VkLm1kYi5j",
+            "bGlja2hvdXNlLnYxLkFkZENsdXN0ZXJTaGFyZFJlcXVlc3QaIS55YW5kZXgu",
+            "Y2xvdWQub3BlcmF0aW9uLk9wZXJhdGlvbiJigtPkkwI4IjMvbWFuYWdlZC1j",
+            "bGlja2hvdXNlL3YxL2NsdXN0ZXJzL3tjbHVzdGVyX2lkfS9zaGFyZHM6ASqy",
+            "0iogChdBZGRDbHVzdGVyU2hhcmRNZXRhZGF0YRIFU2hhcmQS3wEKC1VwZGF0",
+            "ZVNoYXJkEjkueWFuZGV4LmNsb3VkLm1kYi5jbGlja2hvdXNlLnYxLlVwZGF0",
+            "ZUNsdXN0ZXJTaGFyZFJlcXVlc3QaIS55YW5kZXguY2xvdWQub3BlcmF0aW9u",
+            "Lk9wZXJhdGlvbiJygtPkkwJFMkAvbWFuYWdlZC1jbGlja2hvdXNlL3YxL2Ns",
+            "dXN0ZXJzL3tjbHVzdGVyX2lkfS9zaGFyZHMve3NoYXJkX25hbWV9OgEqstIq",
+            "IwoaVXBkYXRlQ2x1c3RlclNoYXJkTWV0YWRhdGESBVNoYXJkEuwBCgtEZWxl",
+            "dGVTaGFyZBI5LnlhbmRleC5jbG91ZC5tZGIuY2xpY2tob3VzZS52MS5EZWxl",
+            "dGVDbHVzdGVyU2hhcmRSZXF1ZXN0GiEueWFuZGV4LmNsb3VkLm9wZXJhdGlv",
+            "bi5PcGVyYXRpb24if4LT5JMCQipAL21hbmFnZWQtY2xpY2tob3VzZS92MS9j",
+            "bHVzdGVycy97Y2x1c3Rlcl9pZH0vc2hhcmRzL3tzaGFyZF9uYW1lfbLSKjMK",
+            "GkRlbGV0ZUNsdXN0ZXJTaGFyZE1ldGFkYXRhEhVnb29nbGUucHJvdG9idWYu",
+            "RW1wdHkSzQEKDUdldFNoYXJkR3JvdXASOy55YW5kZXguY2xvdWQubWRiLmNs",
+            "aWNraG91c2UudjEuR2V0Q2x1c3RlclNoYXJkR3JvdXBSZXF1ZXN0GioueWFu",
+            "ZGV4LmNsb3VkLm1kYi5jbGlja2hvdXNlLnYxLlNoYXJkR3JvdXAiU4LT5JMC",
+            "TRJLL21hbmFnZWQtY2xpY2tob3VzZS92MS9jbHVzdGVycy97Y2x1c3Rlcl9p",
+            "ZH0vc2hhcmRHcm91cHMve3NoYXJkX2dyb3VwX25hbWV9EtIBCg9MaXN0U2hh",
+            "cmRHcm91cHMSPS55YW5kZXguY2xvdWQubWRiLmNsaWNraG91c2UudjEuTGlz",
+            "dENsdXN0ZXJTaGFyZEdyb3Vwc1JlcXVlc3QaPi55YW5kZXguY2xvdWQubWRi",
+            "LmNsaWNraG91c2UudjEuTGlzdENsdXN0ZXJTaGFyZEdyb3Vwc1Jlc3BvbnNl",
+            "IkCC0+STAjoSOC9tYW5hZ2VkLWNsaWNraG91c2UvdjEvY2x1c3RlcnMve2Ns",
+            "dXN0ZXJfaWR9L3NoYXJkR3JvdXBzEusBChBDcmVhdGVTaGFyZEdyb3VwEj4u",
+            "eWFuZGV4LmNsb3VkLm1kYi5jbGlja2hvdXNlLnYxLkNyZWF0ZUNsdXN0ZXJT",
+            "aGFyZEdyb3VwUmVxdWVzdBohLnlhbmRleC5jbG91ZC5vcGVyYXRpb24uT3Bl",
+            "cmF0aW9uInSC0+STAj0iOC9tYW5hZ2VkLWNsaWNraG91c2UvdjEvY2x1c3Rl",
+            "cnMve2NsdXN0ZXJfaWR9L3NoYXJkR3JvdXBzOgEqstIqLQofQ3JlYXRlQ2x1",
+            "c3RlclNoYXJkR3JvdXBNZXRhZGF0YRIKU2hhcmRHcm91cBL/AQoQVXBkYXRl",
+            "U2hhcmRHcm91cBI+LnlhbmRleC5jbG91ZC5tZGIuY2xpY2tob3VzZS52MS5V",
+            "cGRhdGVDbHVzdGVyU2hhcmRHcm91cFJlcXVlc3QaIS55YW5kZXguY2xvdWQu",
+            "b3BlcmF0aW9uLk9wZXJhdGlvbiKHAYLT5JMCUDJLL21hbmFnZWQtY2xpY2to",
+            "b3VzZS92MS9jbHVzdGVycy97Y2x1c3Rlcl9pZH0vc2hhcmRHcm91cHMve3No",
+            "YXJkX2dyb3VwX25hbWV9OgEqstIqLQofVXBkYXRlQ2x1c3RlclNoYXJkR3Jv",
+            "dXBNZXRhZGF0YRIKU2hhcmRHcm91cBKHAgoQRGVsZXRlU2hhcmRHcm91cBI+",
+            "LnlhbmRleC5jbG91ZC5tZGIuY2xpY2tob3VzZS52MS5EZWxldGVDbHVzdGVy",
+            "U2hhcmRHcm91cFJlcXVlc3QaIS55YW5kZXguY2xvdWQub3BlcmF0aW9uLk9w",
+            "ZXJhdGlvbiKPAYLT5JMCTSpLL21hbmFnZWQtY2xpY2tob3VzZS92MS9jbHVz",
+            "dGVycy97Y2x1c3Rlcl9pZH0vc2hhcmRHcm91cHMve3NoYXJkX2dyb3VwX25h",
+            "bWV9stIqOAofRGVsZXRlQ2x1c3RlclNoYXJkR3JvdXBNZXRhZGF0YRIVZ29v",
+            "Z2xlLnByb3RvYnVmLkVtcHR5Eo4CChhDcmVhdGVFeHRlcm5hbERpY3Rpb25h",
+            "cnkSRi55YW5kZXguY2xvdWQubWRiLmNsaWNraG91c2UudjEuQ3JlYXRlQ2x1",
+            "c3RlckV4dGVybmFsRGljdGlvbmFyeVJlcXVlc3QaIS55YW5kZXguY2xvdWQu",
+            "b3BlcmF0aW9uLk9wZXJhdGlvbiKGAYLT5JMCSiJFL21hbmFnZWQtY2xpY2to",
+            "b3VzZS92MS9jbHVzdGVycy97Y2x1c3Rlcl9pZH06Y3JlYXRlRXh0ZXJuYWxE",
+            "aWN0aW9uYXJ5OgEqstIqMgonQ3JlYXRlQ2x1c3RlckV4dGVybmFsRGljdGlv",
+            "bmFyeU1ldGFkYXRhEgdDbHVzdGVyEo4CChhEZWxldGVFeHRlcm5hbERpY3Rp",
+            "b25hcnkSRi55YW5kZXguY2xvdWQubWRiLmNsaWNraG91c2UudjEuRGVsZXRl",
+            "Q2x1c3RlckV4dGVybmFsRGljdGlvbmFyeVJlcXVlc3QaIS55YW5kZXguY2xv",
+            "dWQub3BlcmF0aW9uLk9wZXJhdGlvbiKGAYLT5JMCSiJFL21hbmFnZWQtY2xp",
+            "Y2tob3VzZS92MS9jbHVzdGVycy97Y2x1c3Rlcl9pZH06ZGVsZXRlRXh0ZXJu",
+            "YWxEaWN0aW9uYXJ5OgEqstIqMgonRGVsZXRlQ2x1c3RlckV4dGVybmFsRGlj",
+            "dGlvbmFyeU1ldGFkYXRhEgdDbHVzdGVyQnMKInlhbmRleC5jbG91ZC5hcGku",
+            "bWRiLmNsaWNraG91c2UudjFaTWdpdGh1Yi5jb20veWFuZGV4LWNsb3VkL2dv",
+            "LWdlbnByb3RvL3lhbmRleC9jbG91ZC9tZGIvY2xpY2tob3VzZS92MTtjbGlj",
+            "a2hvdXNlYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.WrappersReflection.Descriptor, global::Google.Type.TimeofdayReflection.Descriptor, global::Yandex.Cloud.Api.OperationReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, global::Yandex.Cloud.Mdb.Clickhouse.V1.BackupReflection.Descriptor, global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterReflection.Descriptor, global::Yandex.Cloud.Mdb.Clickhouse.V1.DatabaseReflection.Descriptor, global::Yandex.Cloud.Mdb.Clickhouse.V1.UserReflection.Descriptor, global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.WrappersReflection.Descriptor, global::Google.Type.TimeofdayReflection.Descriptor, global::Yandex.Cloud.Api.OperationReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, global::Yandex.Cloud.Mdb.Clickhouse.V1.BackupReflection.Descriptor, global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterReflection.Descriptor, global::Yandex.Cloud.Mdb.Clickhouse.V1.DatabaseReflection.Descriptor, global::Yandex.Cloud.Mdb.Clickhouse.V1.UserReflection.Descriptor, global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseReflection.Descriptor, global::Yandex.Cloud.Mdb.Clickhouse.V1.MaintenanceReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.GetClusterRequest), global::Yandex.Cloud.Mdb.Clickhouse.V1.GetClusterRequest.Parser, new[]{ "ClusterId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.ListClustersRequest), global::Yandex.Cloud.Mdb.Clickhouse.V1.ListClustersRequest.Parser, new[]{ "FolderId", "PageSize", "PageToken", "Filter" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.ListClustersResponse), global::Yandex.Cloud.Mdb.Clickhouse.V1.ListClustersResponse.Parser, new[]{ "Clusters", "NextPageToken" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.CreateClusterRequest), global::Yandex.Cloud.Mdb.Clickhouse.V1.CreateClusterRequest.Parser, new[]{ "FolderId", "Name", "Description", "Labels", "Environment", "ConfigSpec", "DatabaseSpecs", "UserSpecs", "HostSpecs", "NetworkId", "ShardName", "ServiceAccountId" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.CreateClusterMetadata), global::Yandex.Cloud.Mdb.Clickhouse.V1.CreateClusterMetadata.Parser, new[]{ "ClusterId" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.UpdateClusterRequest), global::Yandex.Cloud.Mdb.Clickhouse.V1.UpdateClusterRequest.Parser, new[]{ "ClusterId", "UpdateMask", "Description", "Labels", "ConfigSpec", "Name", "ServiceAccountId" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.UpdateClusterRequest), global::Yandex.Cloud.Mdb.Clickhouse.V1.UpdateClusterRequest.Parser, new[]{ "ClusterId", "UpdateMask", "Description", "Labels", "ConfigSpec", "Name", "ServiceAccountId", "MaintenanceWindow" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.UpdateClusterMetadata), global::Yandex.Cloud.Mdb.Clickhouse.V1.UpdateClusterMetadata.Parser, new[]{ "ClusterId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.DeleteClusterRequest), global::Yandex.Cloud.Mdb.Clickhouse.V1.DeleteClusterRequest.Parser, new[]{ "ClusterId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.DeleteClusterMetadata), global::Yandex.Cloud.Mdb.Clickhouse.V1.DeleteClusterMetadata.Parser, new[]{ "ClusterId" }, null, null, null, null),
@@ -354,11 +432,14 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.BackupClusterMetadata), global::Yandex.Cloud.Mdb.Clickhouse.V1.BackupClusterMetadata.Parser, new[]{ "ClusterId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.RestoreClusterRequest), global::Yandex.Cloud.Mdb.Clickhouse.V1.RestoreClusterRequest.Parser, new[]{ "BackupId", "Name", "Description", "Labels", "Environment", "ConfigSpec", "HostSpecs", "NetworkId", "FolderId", "ServiceAccountId" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.RestoreClusterMetadata), global::Yandex.Cloud.Mdb.Clickhouse.V1.RestoreClusterMetadata.Parser, new[]{ "ClusterId", "BackupId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.RescheduleMaintenanceRequest), global::Yandex.Cloud.Mdb.Clickhouse.V1.RescheduleMaintenanceRequest.Parser, new[]{ "ClusterId", "RescheduleType", "DelayedUntil" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.RescheduleMaintenanceRequest.Types.RescheduleType) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.RescheduleMaintenanceMetadata), global::Yandex.Cloud.Mdb.Clickhouse.V1.RescheduleMaintenanceMetadata.Parser, new[]{ "ClusterId", "DelayedUntil" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.LogRecord), global::Yandex.Cloud.Mdb.Clickhouse.V1.LogRecord.Parser, new[]{ "Timestamp", "Message" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.ListClusterLogsRequest), global::Yandex.Cloud.Mdb.Clickhouse.V1.ListClusterLogsRequest.Parser, new[]{ "ClusterId", "ColumnFilter", "ServiceType", "FromTime", "ToTime", "PageSize", "PageToken" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.ListClusterLogsRequest.Types.ServiceType) }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.ListClusterLogsResponse), global::Yandex.Cloud.Mdb.Clickhouse.V1.ListClusterLogsResponse.Parser, new[]{ "Logs", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.StreamLogRecord), global::Yandex.Cloud.Mdb.Clickhouse.V1.StreamLogRecord.Parser, new[]{ "Record", "NextRecordToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.StreamClusterLogsRequest), global::Yandex.Cloud.Mdb.Clickhouse.V1.StreamClusterLogsRequest.Parser, new[]{ "ClusterId", "ColumnFilter", "ServiceType", "FromTime", "ToTime", "RecordToken", "Filter" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.StreamClusterLogsRequest.Types.ServiceType) }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.ListClusterOperationsRequest), global::Yandex.Cloud.Mdb.Clickhouse.V1.ListClusterOperationsRequest.Parser, new[]{ "ClusterId", "PageSize", "PageToken" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.StreamClusterLogsRequest), global::Yandex.Cloud.Mdb.Clickhouse.V1.StreamClusterLogsRequest.Parser, new[]{ "ClusterId", "ColumnFilter", "ServiceType", "FromTime", "ToTime" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.StreamClusterLogsRequest.Types.ServiceType) }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.ListClusterOperationsResponse), global::Yandex.Cloud.Mdb.Clickhouse.V1.ListClusterOperationsResponse.Parser, new[]{ "Operations", "NextPageToken" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.ListClusterBackupsRequest), global::Yandex.Cloud.Mdb.Clickhouse.V1.ListClusterBackupsRequest.Parser, new[]{ "ClusterId", "PageSize", "PageToken" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.ListClusterBackupsResponse), global::Yandex.Cloud.Mdb.Clickhouse.V1.ListClusterBackupsResponse.Parser, new[]{ "Backups", "NextPageToken" }, null, null, null, null),
@@ -377,12 +458,21 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.UpdateClusterShardMetadata), global::Yandex.Cloud.Mdb.Clickhouse.V1.UpdateClusterShardMetadata.Parser, new[]{ "ClusterId", "ShardName" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.DeleteClusterShardRequest), global::Yandex.Cloud.Mdb.Clickhouse.V1.DeleteClusterShardRequest.Parser, new[]{ "ClusterId", "ShardName" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.DeleteClusterShardMetadata), global::Yandex.Cloud.Mdb.Clickhouse.V1.DeleteClusterShardMetadata.Parser, new[]{ "ClusterId", "ShardName" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.GetClusterShardGroupRequest), global::Yandex.Cloud.Mdb.Clickhouse.V1.GetClusterShardGroupRequest.Parser, new[]{ "ClusterId", "ShardGroupName" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.ListClusterShardGroupsRequest), global::Yandex.Cloud.Mdb.Clickhouse.V1.ListClusterShardGroupsRequest.Parser, new[]{ "ClusterId", "PageSize", "PageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.ListClusterShardGroupsResponse), global::Yandex.Cloud.Mdb.Clickhouse.V1.ListClusterShardGroupsResponse.Parser, new[]{ "ShardGroups", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.CreateClusterShardGroupRequest), global::Yandex.Cloud.Mdb.Clickhouse.V1.CreateClusterShardGroupRequest.Parser, new[]{ "ClusterId", "ShardGroupName", "Description", "ShardNames" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.CreateClusterShardGroupMetadata), global::Yandex.Cloud.Mdb.Clickhouse.V1.CreateClusterShardGroupMetadata.Parser, new[]{ "ClusterId", "ShardGroupName" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.UpdateClusterShardGroupRequest), global::Yandex.Cloud.Mdb.Clickhouse.V1.UpdateClusterShardGroupRequest.Parser, new[]{ "ClusterId", "ShardGroupName", "UpdateMask", "Description", "ShardNames" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.UpdateClusterShardGroupMetadata), global::Yandex.Cloud.Mdb.Clickhouse.V1.UpdateClusterShardGroupMetadata.Parser, new[]{ "ClusterId", "ShardGroupName" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.DeleteClusterShardGroupRequest), global::Yandex.Cloud.Mdb.Clickhouse.V1.DeleteClusterShardGroupRequest.Parser, new[]{ "ClusterId", "ShardGroupName" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.DeleteClusterShardGroupMetadata), global::Yandex.Cloud.Mdb.Clickhouse.V1.DeleteClusterShardGroupMetadata.Parser, new[]{ "ClusterId", "ShardGroupName" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.CreateClusterExternalDictionaryRequest), global::Yandex.Cloud.Mdb.Clickhouse.V1.CreateClusterExternalDictionaryRequest.Parser, new[]{ "ClusterId", "ExternalDictionary" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.CreateClusterExternalDictionaryMetadata), global::Yandex.Cloud.Mdb.Clickhouse.V1.CreateClusterExternalDictionaryMetadata.Parser, new[]{ "ClusterId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.DeleteClusterExternalDictionaryRequest), global::Yandex.Cloud.Mdb.Clickhouse.V1.DeleteClusterExternalDictionaryRequest.Parser, new[]{ "ClusterId", "ExternalDictionaryName" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.DeleteClusterExternalDictionaryMetadata), global::Yandex.Cloud.Mdb.Clickhouse.V1.DeleteClusterExternalDictionaryMetadata.Parser, new[]{ "ClusterId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.HostSpec), global::Yandex.Cloud.Mdb.Clickhouse.V1.HostSpec.Parser, new[]{ "ZoneId", "Type", "SubnetId", "AssignPublicIp", "ShardName" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.ConfigSpec), global::Yandex.Cloud.Mdb.Clickhouse.V1.ConfigSpec.Parser, new[]{ "Version", "Clickhouse", "Zookeeper", "BackupWindowStart", "Access" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.ConfigSpec.Types.Clickhouse), global::Yandex.Cloud.Mdb.Clickhouse.V1.ConfigSpec.Types.Clickhouse.Parser, new[]{ "Config", "Resources" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.ConfigSpec), global::Yandex.Cloud.Mdb.Clickhouse.V1.ConfigSpec.Parser, new[]{ "Version", "Clickhouse", "Zookeeper", "BackupWindowStart", "Access", "CloudStorage", "SqlDatabaseManagement", "SqlUserManagement", "AdminPassword" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.ConfigSpec.Types.Clickhouse), global::Yandex.Cloud.Mdb.Clickhouse.V1.ConfigSpec.Types.Clickhouse.Parser, new[]{ "Config", "Resources" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.ConfigSpec.Types.Zookeeper), global::Yandex.Cloud.Mdb.Clickhouse.V1.ConfigSpec.Types.Zookeeper.Parser, new[]{ "Resources" }, null, null, null, null)}),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.ShardConfigSpec), global::Yandex.Cloud.Mdb.Clickhouse.V1.ShardConfigSpec.Parser, new[]{ "Clickhouse" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.ShardConfigSpec.Types.Clickhouse), global::Yandex.Cloud.Mdb.Clickhouse.V1.ShardConfigSpec.Types.Clickhouse.Parser, new[]{ "Config", "Resources", "Weight" }, null, null, null, null)})
           }));
@@ -1008,7 +1098,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
         = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 34);
     private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
     /// <summary>
-    /// Custom labels for the ClickHouse cluster as `` key:value `` pairs. Maximum 64 per resource.
+    /// Custom labels for the ClickHouse cluster as `key:value` pairs. Maximum 64 per resource.
     /// For example, "project": "mvp" or "source": "dictionary".
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1527,6 +1617,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       configSpec_ = other.configSpec_ != null ? other.configSpec_.Clone() : null;
       name_ = other.name_;
       serviceAccountId_ = other.serviceAccountId_;
+      maintenanceWindow_ = other.maintenanceWindow_ != null ? other.maintenanceWindow_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1584,7 +1675,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
         = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 34);
     private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
     /// <summary>
-    /// Custom labels for the ClickHouse cluster as `` key:value `` pairs. Maximum 64 per resource.
+    /// Custom labels for the ClickHouse cluster as `key:value` pairs. Maximum 64 per resource.
     /// For example, "project": "mvp" or "source": "dictionary".
     ///
     /// The new set of labels will completely replace the old ones. To add a label, request the current
@@ -1637,6 +1728,20 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       }
     }
 
+    /// <summary>Field number for the "maintenance_window" field.</summary>
+    public const int MaintenanceWindowFieldNumber = 8;
+    private global::Yandex.Cloud.Mdb.Clickhouse.V1.MaintenanceWindow maintenanceWindow_;
+    /// <summary>
+    /// Window of maintenance operations.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Mdb.Clickhouse.V1.MaintenanceWindow MaintenanceWindow {
+      get { return maintenanceWindow_; }
+      set {
+        maintenanceWindow_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as UpdateClusterRequest);
@@ -1657,6 +1762,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       if (!object.Equals(ConfigSpec, other.ConfigSpec)) return false;
       if (Name != other.Name) return false;
       if (ServiceAccountId != other.ServiceAccountId) return false;
+      if (!object.Equals(MaintenanceWindow, other.MaintenanceWindow)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1670,6 +1776,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       if (configSpec_ != null) hash ^= ConfigSpec.GetHashCode();
       if (Name.Length != 0) hash ^= Name.GetHashCode();
       if (ServiceAccountId.Length != 0) hash ^= ServiceAccountId.GetHashCode();
+      if (maintenanceWindow_ != null) hash ^= MaintenanceWindow.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1708,6 +1815,10 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
         output.WriteRawTag(58);
         output.WriteString(ServiceAccountId);
       }
+      if (maintenanceWindow_ != null) {
+        output.WriteRawTag(66);
+        output.WriteMessage(MaintenanceWindow);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1734,6 +1845,9 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       }
       if (ServiceAccountId.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(ServiceAccountId);
+      }
+      if (maintenanceWindow_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(MaintenanceWindow);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1770,6 +1884,12 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       }
       if (other.ServiceAccountId.Length != 0) {
         ServiceAccountId = other.ServiceAccountId;
+      }
+      if (other.maintenanceWindow_ != null) {
+        if (maintenanceWindow_ == null) {
+          MaintenanceWindow = new global::Yandex.Cloud.Mdb.Clickhouse.V1.MaintenanceWindow();
+        }
+        MaintenanceWindow.MergeFrom(other.MaintenanceWindow);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -1814,6 +1934,13 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
           }
           case 58: {
             ServiceAccountId = input.ReadString();
+            break;
+          }
+          case 66: {
+            if (maintenanceWindow_ == null) {
+              MaintenanceWindow = new global::Yandex.Cloud.Mdb.Clickhouse.V1.MaintenanceWindow();
+            }
+            input.ReadMessage(MaintenanceWindow);
             break;
           }
         }
@@ -3785,7 +3912,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
         = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 34);
     private readonly pbc::MapField<string, string> labels_ = new pbc::MapField<string, string>();
     /// <summary>
-    /// Custom labels for the ClickHouse cluster as `` key:value `` pairs. Maximum 64 per resource.
+    /// Custom labels for the ClickHouse cluster as `key:value` pairs. Maximum 64 per resource.
     /// For example, "project": "mvp" or "source": "dictionary".
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4260,6 +4387,389 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
 
   }
 
+  internal sealed partial class RescheduleMaintenanceRequest : pb::IMessage<RescheduleMaintenanceRequest> {
+    private static readonly pb::MessageParser<RescheduleMaintenanceRequest> _parser = new pb::MessageParser<RescheduleMaintenanceRequest>(() => new RescheduleMaintenanceRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<RescheduleMaintenanceRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterServiceReflection.Descriptor.MessageTypes[21]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public RescheduleMaintenanceRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public RescheduleMaintenanceRequest(RescheduleMaintenanceRequest other) : this() {
+      clusterId_ = other.clusterId_;
+      rescheduleType_ = other.rescheduleType_;
+      delayedUntil_ = other.delayedUntil_ != null ? other.delayedUntil_.Clone() : null;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public RescheduleMaintenanceRequest Clone() {
+      return new RescheduleMaintenanceRequest(this);
+    }
+
+    /// <summary>Field number for the "cluster_id" field.</summary>
+    public const int ClusterIdFieldNumber = 1;
+    private string clusterId_ = "";
+    /// <summary>
+    /// Required. ID of the ClickHouse cluster to maintenance reschedule.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ClusterId {
+      get { return clusterId_; }
+      set {
+        clusterId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "reschedule_type" field.</summary>
+    public const int RescheduleTypeFieldNumber = 2;
+    private global::Yandex.Cloud.Mdb.Clickhouse.V1.RescheduleMaintenanceRequest.Types.RescheduleType rescheduleType_ = global::Yandex.Cloud.Mdb.Clickhouse.V1.RescheduleMaintenanceRequest.Types.RescheduleType.Unspecified;
+    /// <summary>
+    /// Required. The type of reschedule request.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Mdb.Clickhouse.V1.RescheduleMaintenanceRequest.Types.RescheduleType RescheduleType {
+      get { return rescheduleType_; }
+      set {
+        rescheduleType_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "delayed_until" field.</summary>
+    public const int DelayedUntilFieldNumber = 3;
+    private global::Google.Protobuf.WellKnownTypes.Timestamp delayedUntil_;
+    /// <summary>
+    /// The time for SPECIFIC_TIME reschedule. Limited by two weeks since first time scheduled.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Google.Protobuf.WellKnownTypes.Timestamp DelayedUntil {
+      get { return delayedUntil_; }
+      set {
+        delayedUntil_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as RescheduleMaintenanceRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(RescheduleMaintenanceRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (ClusterId != other.ClusterId) return false;
+      if (RescheduleType != other.RescheduleType) return false;
+      if (!object.Equals(DelayedUntil, other.DelayedUntil)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (ClusterId.Length != 0) hash ^= ClusterId.GetHashCode();
+      if (RescheduleType != global::Yandex.Cloud.Mdb.Clickhouse.V1.RescheduleMaintenanceRequest.Types.RescheduleType.Unspecified) hash ^= RescheduleType.GetHashCode();
+      if (delayedUntil_ != null) hash ^= DelayedUntil.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (ClusterId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(ClusterId);
+      }
+      if (RescheduleType != global::Yandex.Cloud.Mdb.Clickhouse.V1.RescheduleMaintenanceRequest.Types.RescheduleType.Unspecified) {
+        output.WriteRawTag(16);
+        output.WriteEnum((int) RescheduleType);
+      }
+      if (delayedUntil_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(DelayedUntil);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (ClusterId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ClusterId);
+      }
+      if (RescheduleType != global::Yandex.Cloud.Mdb.Clickhouse.V1.RescheduleMaintenanceRequest.Types.RescheduleType.Unspecified) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) RescheduleType);
+      }
+      if (delayedUntil_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(DelayedUntil);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(RescheduleMaintenanceRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.ClusterId.Length != 0) {
+        ClusterId = other.ClusterId;
+      }
+      if (other.RescheduleType != global::Yandex.Cloud.Mdb.Clickhouse.V1.RescheduleMaintenanceRequest.Types.RescheduleType.Unspecified) {
+        RescheduleType = other.RescheduleType;
+      }
+      if (other.delayedUntil_ != null) {
+        if (delayedUntil_ == null) {
+          DelayedUntil = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+        }
+        DelayedUntil.MergeFrom(other.DelayedUntil);
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            ClusterId = input.ReadString();
+            break;
+          }
+          case 16: {
+            RescheduleType = (global::Yandex.Cloud.Mdb.Clickhouse.V1.RescheduleMaintenanceRequest.Types.RescheduleType) input.ReadEnum();
+            break;
+          }
+          case 26: {
+            if (delayedUntil_ == null) {
+              DelayedUntil = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(DelayedUntil);
+            break;
+          }
+        }
+      }
+    }
+
+    #region Nested types
+    /// <summary>Container for nested types declared in the RescheduleMaintenanceRequest message type.</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static partial class Types {
+      internal enum RescheduleType {
+        [pbr::OriginalName("RESCHEDULE_TYPE_UNSPECIFIED")] Unspecified = 0,
+        [pbr::OriginalName("IMMEDIATE")] Immediate = 1,
+        [pbr::OriginalName("NEXT_AVAILABLE_WINDOW")] NextAvailableWindow = 2,
+        [pbr::OriginalName("SPECIFIC_TIME")] SpecificTime = 3,
+      }
+
+    }
+    #endregion
+
+  }
+
+  internal sealed partial class RescheduleMaintenanceMetadata : pb::IMessage<RescheduleMaintenanceMetadata> {
+    private static readonly pb::MessageParser<RescheduleMaintenanceMetadata> _parser = new pb::MessageParser<RescheduleMaintenanceMetadata>(() => new RescheduleMaintenanceMetadata());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<RescheduleMaintenanceMetadata> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterServiceReflection.Descriptor.MessageTypes[22]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public RescheduleMaintenanceMetadata() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public RescheduleMaintenanceMetadata(RescheduleMaintenanceMetadata other) : this() {
+      clusterId_ = other.clusterId_;
+      delayedUntil_ = other.delayedUntil_ != null ? other.delayedUntil_.Clone() : null;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public RescheduleMaintenanceMetadata Clone() {
+      return new RescheduleMaintenanceMetadata(this);
+    }
+
+    /// <summary>Field number for the "cluster_id" field.</summary>
+    public const int ClusterIdFieldNumber = 1;
+    private string clusterId_ = "";
+    /// <summary>
+    /// Required. ID of the ClickHouse cluster.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ClusterId {
+      get { return clusterId_; }
+      set {
+        clusterId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "delayed_until" field.</summary>
+    public const int DelayedUntilFieldNumber = 4;
+    private global::Google.Protobuf.WellKnownTypes.Timestamp delayedUntil_;
+    /// <summary>
+    /// Required. New time of the planned maintenance. Can be in the past for rescheduled to "IMMEDIATE".
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Google.Protobuf.WellKnownTypes.Timestamp DelayedUntil {
+      get { return delayedUntil_; }
+      set {
+        delayedUntil_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as RescheduleMaintenanceMetadata);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(RescheduleMaintenanceMetadata other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (ClusterId != other.ClusterId) return false;
+      if (!object.Equals(DelayedUntil, other.DelayedUntil)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (ClusterId.Length != 0) hash ^= ClusterId.GetHashCode();
+      if (delayedUntil_ != null) hash ^= DelayedUntil.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (ClusterId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(ClusterId);
+      }
+      if (delayedUntil_ != null) {
+        output.WriteRawTag(34);
+        output.WriteMessage(DelayedUntil);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (ClusterId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ClusterId);
+      }
+      if (delayedUntil_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(DelayedUntil);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(RescheduleMaintenanceMetadata other) {
+      if (other == null) {
+        return;
+      }
+      if (other.ClusterId.Length != 0) {
+        ClusterId = other.ClusterId;
+      }
+      if (other.delayedUntil_ != null) {
+        if (delayedUntil_ == null) {
+          DelayedUntil = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+        }
+        DelayedUntil.MergeFrom(other.DelayedUntil);
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            ClusterId = input.ReadString();
+            break;
+          }
+          case 34: {
+            if (delayedUntil_ == null) {
+              DelayedUntil = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(DelayedUntil);
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
   internal sealed partial class LogRecord : pb::IMessage<LogRecord> {
     private static readonly pb::MessageParser<LogRecord> _parser = new pb::MessageParser<LogRecord>(() => new LogRecord());
     private pb::UnknownFieldSet _unknownFields;
@@ -4268,7 +4778,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterServiceReflection.Descriptor.MessageTypes[21]; }
+      get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterServiceReflection.Descriptor.MessageTypes[23]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4429,7 +4939,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterServiceReflection.Descriptor.MessageTypes[22]; }
+      get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterServiceReflection.Descriptor.MessageTypes[24]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4771,7 +5281,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterServiceReflection.Descriptor.MessageTypes[23]; }
+      get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterServiceReflection.Descriptor.MessageTypes[25]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4819,6 +5329,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     /// is larger than [ListClusterLogsRequest.page_size], use the [next_page_token] as the value
     /// for the [ListClusterLogsRequest.page_token] query parameter in the next list request.
     /// Each subsequent list request will have its own [next_page_token] to continue paging through the results.
+    /// This value is interchangeable with the [StreamLogRecord.next_record_token] from StreamLogs method.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string NextPageToken {
@@ -4921,6 +5432,522 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
 
   }
 
+  internal sealed partial class StreamLogRecord : pb::IMessage<StreamLogRecord> {
+    private static readonly pb::MessageParser<StreamLogRecord> _parser = new pb::MessageParser<StreamLogRecord>(() => new StreamLogRecord());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<StreamLogRecord> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterServiceReflection.Descriptor.MessageTypes[26]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public StreamLogRecord() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public StreamLogRecord(StreamLogRecord other) : this() {
+      record_ = other.record_ != null ? other.record_.Clone() : null;
+      nextRecordToken_ = other.nextRecordToken_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public StreamLogRecord Clone() {
+      return new StreamLogRecord(this);
+    }
+
+    /// <summary>Field number for the "record" field.</summary>
+    public const int RecordFieldNumber = 1;
+    private global::Yandex.Cloud.Mdb.Clickhouse.V1.LogRecord record_;
+    /// <summary>
+    /// One of the requested log records.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Mdb.Clickhouse.V1.LogRecord Record {
+      get { return record_; }
+      set {
+        record_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "next_record_token" field.</summary>
+    public const int NextRecordTokenFieldNumber = 2;
+    private string nextRecordToken_ = "";
+    /// <summary>
+    /// This token allows you to continue streaming logs starting from the exact
+    /// same record. To continue streaming, specify value of [next_record_token[
+    /// as value for the [StreamClusterLogsRequest.record_token] parameter in the next StreamLogs request.
+    /// This value is interchangeable with the [ListClusterLogsResponse.next_page_token] from ListLogs method.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string NextRecordToken {
+      get { return nextRecordToken_; }
+      set {
+        nextRecordToken_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as StreamLogRecord);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(StreamLogRecord other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (!object.Equals(Record, other.Record)) return false;
+      if (NextRecordToken != other.NextRecordToken) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (record_ != null) hash ^= Record.GetHashCode();
+      if (NextRecordToken.Length != 0) hash ^= NextRecordToken.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (record_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(Record);
+      }
+      if (NextRecordToken.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(NextRecordToken);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (record_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Record);
+      }
+      if (NextRecordToken.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(NextRecordToken);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(StreamLogRecord other) {
+      if (other == null) {
+        return;
+      }
+      if (other.record_ != null) {
+        if (record_ == null) {
+          Record = new global::Yandex.Cloud.Mdb.Clickhouse.V1.LogRecord();
+        }
+        Record.MergeFrom(other.Record);
+      }
+      if (other.NextRecordToken.Length != 0) {
+        NextRecordToken = other.NextRecordToken;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            if (record_ == null) {
+              Record = new global::Yandex.Cloud.Mdb.Clickhouse.V1.LogRecord();
+            }
+            input.ReadMessage(Record);
+            break;
+          }
+          case 18: {
+            NextRecordToken = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  internal sealed partial class StreamClusterLogsRequest : pb::IMessage<StreamClusterLogsRequest> {
+    private static readonly pb::MessageParser<StreamClusterLogsRequest> _parser = new pb::MessageParser<StreamClusterLogsRequest>(() => new StreamClusterLogsRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<StreamClusterLogsRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterServiceReflection.Descriptor.MessageTypes[27]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public StreamClusterLogsRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public StreamClusterLogsRequest(StreamClusterLogsRequest other) : this() {
+      clusterId_ = other.clusterId_;
+      columnFilter_ = other.columnFilter_.Clone();
+      serviceType_ = other.serviceType_;
+      fromTime_ = other.fromTime_ != null ? other.fromTime_.Clone() : null;
+      toTime_ = other.toTime_ != null ? other.toTime_.Clone() : null;
+      recordToken_ = other.recordToken_;
+      filter_ = other.filter_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public StreamClusterLogsRequest Clone() {
+      return new StreamClusterLogsRequest(this);
+    }
+
+    /// <summary>Field number for the "cluster_id" field.</summary>
+    public const int ClusterIdFieldNumber = 1;
+    private string clusterId_ = "";
+    /// <summary>
+    /// Required. ID of the ClickHouse cluster.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ClusterId {
+      get { return clusterId_; }
+      set {
+        clusterId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "column_filter" field.</summary>
+    public const int ColumnFilterFieldNumber = 2;
+    private static readonly pb::FieldCodec<string> _repeated_columnFilter_codec
+        = pb::FieldCodec.ForString(18);
+    private readonly pbc::RepeatedField<string> columnFilter_ = new pbc::RepeatedField<string>();
+    /// <summary>
+    /// Columns from logs table to get in the response.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<string> ColumnFilter {
+      get { return columnFilter_; }
+    }
+
+    /// <summary>Field number for the "service_type" field.</summary>
+    public const int ServiceTypeFieldNumber = 3;
+    private global::Yandex.Cloud.Mdb.Clickhouse.V1.StreamClusterLogsRequest.Types.ServiceType serviceType_ = global::Yandex.Cloud.Mdb.Clickhouse.V1.StreamClusterLogsRequest.Types.ServiceType.Unspecified;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Mdb.Clickhouse.V1.StreamClusterLogsRequest.Types.ServiceType ServiceType {
+      get { return serviceType_; }
+      set {
+        serviceType_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "from_time" field.</summary>
+    public const int FromTimeFieldNumber = 4;
+    private global::Google.Protobuf.WellKnownTypes.Timestamp fromTime_;
+    /// <summary>
+    /// Start timestamp for the logs request.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Google.Protobuf.WellKnownTypes.Timestamp FromTime {
+      get { return fromTime_; }
+      set {
+        fromTime_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "to_time" field.</summary>
+    public const int ToTimeFieldNumber = 5;
+    private global::Google.Protobuf.WellKnownTypes.Timestamp toTime_;
+    /// <summary>
+    /// End timestamp for the logs request.
+    /// If this field is not set, all existing logs will be sent and then the new ones as
+    /// they appear. In essence it has `tail -f` semantics.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Google.Protobuf.WellKnownTypes.Timestamp ToTime {
+      get { return toTime_; }
+      set {
+        toTime_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "record_token" field.</summary>
+    public const int RecordTokenFieldNumber = 6;
+    private string recordToken_ = "";
+    /// <summary>
+    /// Record token. Set [record_token] to the [StreamLogRecord.next_record_token] returned by a previous StreamLogs
+    /// request to start streaming from next log record.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string RecordToken {
+      get { return recordToken_; }
+      set {
+        recordToken_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "filter" field.</summary>
+    public const int FilterFieldNumber = 7;
+    private string filter_ = "";
+    /// <summary>
+    /// A filter expression that filters resources listed in the response.
+    /// The expression must specify:
+    /// 1. The field name. Currently filtering can be applied to the [LogRecord.logs.message.hostname], [LogRecord.logs.message.severity] fields.
+    /// 2. A conditional operator. Can be either `=` or `!=` for single values, `IN` or `NOT IN` for lists of values.
+    /// 3. The value. Must be 1-63 characters long and match the regular expression `^[a-z0-9.-]{1,61}$`.
+    /// Examples of a filter:
+    /// - `message.hostname='node1.db.cloud.yandex.net'`
+    /// - `message.severity IN ('Error', 'Fatal') AND message.hostname != 'node2.db.cloud.yandex.net'`.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Filter {
+      get { return filter_; }
+      set {
+        filter_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as StreamClusterLogsRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(StreamClusterLogsRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (ClusterId != other.ClusterId) return false;
+      if(!columnFilter_.Equals(other.columnFilter_)) return false;
+      if (ServiceType != other.ServiceType) return false;
+      if (!object.Equals(FromTime, other.FromTime)) return false;
+      if (!object.Equals(ToTime, other.ToTime)) return false;
+      if (RecordToken != other.RecordToken) return false;
+      if (Filter != other.Filter) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (ClusterId.Length != 0) hash ^= ClusterId.GetHashCode();
+      hash ^= columnFilter_.GetHashCode();
+      if (ServiceType != global::Yandex.Cloud.Mdb.Clickhouse.V1.StreamClusterLogsRequest.Types.ServiceType.Unspecified) hash ^= ServiceType.GetHashCode();
+      if (fromTime_ != null) hash ^= FromTime.GetHashCode();
+      if (toTime_ != null) hash ^= ToTime.GetHashCode();
+      if (RecordToken.Length != 0) hash ^= RecordToken.GetHashCode();
+      if (Filter.Length != 0) hash ^= Filter.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (ClusterId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(ClusterId);
+      }
+      columnFilter_.WriteTo(output, _repeated_columnFilter_codec);
+      if (ServiceType != global::Yandex.Cloud.Mdb.Clickhouse.V1.StreamClusterLogsRequest.Types.ServiceType.Unspecified) {
+        output.WriteRawTag(24);
+        output.WriteEnum((int) ServiceType);
+      }
+      if (fromTime_ != null) {
+        output.WriteRawTag(34);
+        output.WriteMessage(FromTime);
+      }
+      if (toTime_ != null) {
+        output.WriteRawTag(42);
+        output.WriteMessage(ToTime);
+      }
+      if (RecordToken.Length != 0) {
+        output.WriteRawTag(50);
+        output.WriteString(RecordToken);
+      }
+      if (Filter.Length != 0) {
+        output.WriteRawTag(58);
+        output.WriteString(Filter);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (ClusterId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ClusterId);
+      }
+      size += columnFilter_.CalculateSize(_repeated_columnFilter_codec);
+      if (ServiceType != global::Yandex.Cloud.Mdb.Clickhouse.V1.StreamClusterLogsRequest.Types.ServiceType.Unspecified) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) ServiceType);
+      }
+      if (fromTime_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(FromTime);
+      }
+      if (toTime_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(ToTime);
+      }
+      if (RecordToken.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(RecordToken);
+      }
+      if (Filter.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Filter);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(StreamClusterLogsRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.ClusterId.Length != 0) {
+        ClusterId = other.ClusterId;
+      }
+      columnFilter_.Add(other.columnFilter_);
+      if (other.ServiceType != global::Yandex.Cloud.Mdb.Clickhouse.V1.StreamClusterLogsRequest.Types.ServiceType.Unspecified) {
+        ServiceType = other.ServiceType;
+      }
+      if (other.fromTime_ != null) {
+        if (fromTime_ == null) {
+          FromTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+        }
+        FromTime.MergeFrom(other.FromTime);
+      }
+      if (other.toTime_ != null) {
+        if (toTime_ == null) {
+          ToTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+        }
+        ToTime.MergeFrom(other.ToTime);
+      }
+      if (other.RecordToken.Length != 0) {
+        RecordToken = other.RecordToken;
+      }
+      if (other.Filter.Length != 0) {
+        Filter = other.Filter;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            ClusterId = input.ReadString();
+            break;
+          }
+          case 18: {
+            columnFilter_.AddEntriesFrom(input, _repeated_columnFilter_codec);
+            break;
+          }
+          case 24: {
+            ServiceType = (global::Yandex.Cloud.Mdb.Clickhouse.V1.StreamClusterLogsRequest.Types.ServiceType) input.ReadEnum();
+            break;
+          }
+          case 34: {
+            if (fromTime_ == null) {
+              FromTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(FromTime);
+            break;
+          }
+          case 42: {
+            if (toTime_ == null) {
+              ToTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(ToTime);
+            break;
+          }
+          case 50: {
+            RecordToken = input.ReadString();
+            break;
+          }
+          case 58: {
+            Filter = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+    #region Nested types
+    /// <summary>Container for nested types declared in the StreamClusterLogsRequest message type.</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static partial class Types {
+      internal enum ServiceType {
+        [pbr::OriginalName("SERVICE_TYPE_UNSPECIFIED")] Unspecified = 0,
+        /// <summary>
+        /// Logs of ClickHouse activity.
+        /// </summary>
+        [pbr::OriginalName("CLICKHOUSE")] Clickhouse = 1,
+      }
+
+    }
+    #endregion
+
+  }
+
   internal sealed partial class ListClusterOperationsRequest : pb::IMessage<ListClusterOperationsRequest> {
     private static readonly pb::MessageParser<ListClusterOperationsRequest> _parser = new pb::MessageParser<ListClusterOperationsRequest>(() => new ListClusterOperationsRequest());
     private pb::UnknownFieldSet _unknownFields;
@@ -4929,7 +5956,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterServiceReflection.Descriptor.MessageTypes[24]; }
+      get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterServiceReflection.Descriptor.MessageTypes[28]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5118,280 +6145,6 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
 
   }
 
-  internal sealed partial class StreamClusterLogsRequest : pb::IMessage<StreamClusterLogsRequest> {
-    private static readonly pb::MessageParser<StreamClusterLogsRequest> _parser = new pb::MessageParser<StreamClusterLogsRequest>(() => new StreamClusterLogsRequest());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<StreamClusterLogsRequest> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterServiceReflection.Descriptor.MessageTypes[25]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public StreamClusterLogsRequest() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public StreamClusterLogsRequest(StreamClusterLogsRequest other) : this() {
-      clusterId_ = other.clusterId_;
-      columnFilter_ = other.columnFilter_.Clone();
-      serviceType_ = other.serviceType_;
-      fromTime_ = other.fromTime_ != null ? other.fromTime_.Clone() : null;
-      toTime_ = other.toTime_ != null ? other.toTime_.Clone() : null;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public StreamClusterLogsRequest Clone() {
-      return new StreamClusterLogsRequest(this);
-    }
-
-    /// <summary>Field number for the "cluster_id" field.</summary>
-    public const int ClusterIdFieldNumber = 1;
-    private string clusterId_ = "";
-    /// <summary>
-    /// Required. ID of the ClickHouse cluster.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string ClusterId {
-      get { return clusterId_; }
-      set {
-        clusterId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    /// <summary>Field number for the "column_filter" field.</summary>
-    public const int ColumnFilterFieldNumber = 2;
-    private static readonly pb::FieldCodec<string> _repeated_columnFilter_codec
-        = pb::FieldCodec.ForString(18);
-    private readonly pbc::RepeatedField<string> columnFilter_ = new pbc::RepeatedField<string>();
-    /// <summary>
-    /// Columns from logs table to get in the response.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<string> ColumnFilter {
-      get { return columnFilter_; }
-    }
-
-    /// <summary>Field number for the "service_type" field.</summary>
-    public const int ServiceTypeFieldNumber = 3;
-    private global::Yandex.Cloud.Mdb.Clickhouse.V1.StreamClusterLogsRequest.Types.ServiceType serviceType_ = global::Yandex.Cloud.Mdb.Clickhouse.V1.StreamClusterLogsRequest.Types.ServiceType.Unspecified;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Yandex.Cloud.Mdb.Clickhouse.V1.StreamClusterLogsRequest.Types.ServiceType ServiceType {
-      get { return serviceType_; }
-      set {
-        serviceType_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "from_time" field.</summary>
-    public const int FromTimeFieldNumber = 4;
-    private global::Google.Protobuf.WellKnownTypes.Timestamp fromTime_;
-    /// <summary>
-    /// Start timestamp for the logs request.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Google.Protobuf.WellKnownTypes.Timestamp FromTime {
-      get { return fromTime_; }
-      set {
-        fromTime_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "to_time" field.</summary>
-    public const int ToTimeFieldNumber = 5;
-    private global::Google.Protobuf.WellKnownTypes.Timestamp toTime_;
-    /// <summary>
-    /// End timestamp for the logs request.
-    /// If this field is not set, all existing logs will be sent and then the new ones as
-    /// they appear. In essence it has 'tail -f' semantics.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Google.Protobuf.WellKnownTypes.Timestamp ToTime {
-      get { return toTime_; }
-      set {
-        toTime_ = value;
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as StreamClusterLogsRequest);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(StreamClusterLogsRequest other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (ClusterId != other.ClusterId) return false;
-      if(!columnFilter_.Equals(other.columnFilter_)) return false;
-      if (ServiceType != other.ServiceType) return false;
-      if (!object.Equals(FromTime, other.FromTime)) return false;
-      if (!object.Equals(ToTime, other.ToTime)) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (ClusterId.Length != 0) hash ^= ClusterId.GetHashCode();
-      hash ^= columnFilter_.GetHashCode();
-      if (ServiceType != global::Yandex.Cloud.Mdb.Clickhouse.V1.StreamClusterLogsRequest.Types.ServiceType.Unspecified) hash ^= ServiceType.GetHashCode();
-      if (fromTime_ != null) hash ^= FromTime.GetHashCode();
-      if (toTime_ != null) hash ^= ToTime.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-      if (ClusterId.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(ClusterId);
-      }
-      columnFilter_.WriteTo(output, _repeated_columnFilter_codec);
-      if (ServiceType != global::Yandex.Cloud.Mdb.Clickhouse.V1.StreamClusterLogsRequest.Types.ServiceType.Unspecified) {
-        output.WriteRawTag(24);
-        output.WriteEnum((int) ServiceType);
-      }
-      if (fromTime_ != null) {
-        output.WriteRawTag(34);
-        output.WriteMessage(FromTime);
-      }
-      if (toTime_ != null) {
-        output.WriteRawTag(42);
-        output.WriteMessage(ToTime);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (ClusterId.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(ClusterId);
-      }
-      size += columnFilter_.CalculateSize(_repeated_columnFilter_codec);
-      if (ServiceType != global::Yandex.Cloud.Mdb.Clickhouse.V1.StreamClusterLogsRequest.Types.ServiceType.Unspecified) {
-        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) ServiceType);
-      }
-      if (fromTime_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(FromTime);
-      }
-      if (toTime_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(ToTime);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(StreamClusterLogsRequest other) {
-      if (other == null) {
-        return;
-      }
-      if (other.ClusterId.Length != 0) {
-        ClusterId = other.ClusterId;
-      }
-      columnFilter_.Add(other.columnFilter_);
-      if (other.ServiceType != global::Yandex.Cloud.Mdb.Clickhouse.V1.StreamClusterLogsRequest.Types.ServiceType.Unspecified) {
-        ServiceType = other.ServiceType;
-      }
-      if (other.fromTime_ != null) {
-        if (fromTime_ == null) {
-          FromTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
-        }
-        FromTime.MergeFrom(other.FromTime);
-      }
-      if (other.toTime_ != null) {
-        if (toTime_ == null) {
-          ToTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
-        }
-        ToTime.MergeFrom(other.ToTime);
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            ClusterId = input.ReadString();
-            break;
-          }
-          case 18: {
-            columnFilter_.AddEntriesFrom(input, _repeated_columnFilter_codec);
-            break;
-          }
-          case 24: {
-            ServiceType = (global::Yandex.Cloud.Mdb.Clickhouse.V1.StreamClusterLogsRequest.Types.ServiceType) input.ReadEnum();
-            break;
-          }
-          case 34: {
-            if (fromTime_ == null) {
-              FromTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
-            }
-            input.ReadMessage(FromTime);
-            break;
-          }
-          case 42: {
-            if (toTime_ == null) {
-              ToTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
-            }
-            input.ReadMessage(ToTime);
-            break;
-          }
-        }
-      }
-    }
-
-    #region Nested types
-    /// <summary>Container for nested types declared in the StreamClusterLogsRequest message type.</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static partial class Types {
-      internal enum ServiceType {
-        [pbr::OriginalName("SERVICE_TYPE_UNSPECIFIED")] Unspecified = 0,
-        /// <summary>
-        /// Logs of ClickHouse activity.
-        /// </summary>
-        [pbr::OriginalName("CLICKHOUSE")] Clickhouse = 1,
-      }
-
-    }
-    #endregion
-
-  }
-
   internal sealed partial class ListClusterOperationsResponse : pb::IMessage<ListClusterOperationsResponse> {
     private static readonly pb::MessageParser<ListClusterOperationsResponse> _parser = new pb::MessageParser<ListClusterOperationsResponse>(() => new ListClusterOperationsResponse());
     private pb::UnknownFieldSet _unknownFields;
@@ -5400,7 +6153,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterServiceReflection.Descriptor.MessageTypes[26]; }
+      get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterServiceReflection.Descriptor.MessageTypes[29]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5558,7 +6311,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterServiceReflection.Descriptor.MessageTypes[27]; }
+      get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterServiceReflection.Descriptor.MessageTypes[30]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5756,7 +6509,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterServiceReflection.Descriptor.MessageTypes[28]; }
+      get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterServiceReflection.Descriptor.MessageTypes[31]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5914,7 +6667,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterServiceReflection.Descriptor.MessageTypes[29]; }
+      get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterServiceReflection.Descriptor.MessageTypes[32]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6112,7 +6865,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterServiceReflection.Descriptor.MessageTypes[30]; }
+      get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterServiceReflection.Descriptor.MessageTypes[33]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6270,7 +7023,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterServiceReflection.Descriptor.MessageTypes[31]; }
+      get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterServiceReflection.Descriptor.MessageTypes[34]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6426,7 +7179,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterServiceReflection.Descriptor.MessageTypes[32]; }
+      get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterServiceReflection.Descriptor.MessageTypes[35]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6581,7 +7334,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterServiceReflection.Descriptor.MessageTypes[33]; }
+      get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterServiceReflection.Descriptor.MessageTypes[36]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6737,7 +7490,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterServiceReflection.Descriptor.MessageTypes[34]; }
+      get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterServiceReflection.Descriptor.MessageTypes[37]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6892,7 +7645,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterServiceReflection.Descriptor.MessageTypes[35]; }
+      get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterServiceReflection.Descriptor.MessageTypes[38]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7058,7 +7811,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterServiceReflection.Descriptor.MessageTypes[36]; }
+      get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterServiceReflection.Descriptor.MessageTypes[39]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7256,7 +8009,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterServiceReflection.Descriptor.MessageTypes[37]; }
+      get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterServiceReflection.Descriptor.MessageTypes[40]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7414,7 +8167,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterServiceReflection.Descriptor.MessageTypes[38]; }
+      get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterServiceReflection.Descriptor.MessageTypes[41]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7638,7 +8391,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterServiceReflection.Descriptor.MessageTypes[39]; }
+      get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterServiceReflection.Descriptor.MessageTypes[42]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7801,7 +8554,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterServiceReflection.Descriptor.MessageTypes[40]; }
+      get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterServiceReflection.Descriptor.MessageTypes[43]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8040,7 +8793,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterServiceReflection.Descriptor.MessageTypes[41]; }
+      get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterServiceReflection.Descriptor.MessageTypes[44]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8203,7 +8956,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterServiceReflection.Descriptor.MessageTypes[42]; }
+      get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterServiceReflection.Descriptor.MessageTypes[45]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8368,7 +9121,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterServiceReflection.Descriptor.MessageTypes[43]; }
+      get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterServiceReflection.Descriptor.MessageTypes[46]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8523,6 +9276,1649 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
 
   }
 
+  internal sealed partial class GetClusterShardGroupRequest : pb::IMessage<GetClusterShardGroupRequest> {
+    private static readonly pb::MessageParser<GetClusterShardGroupRequest> _parser = new pb::MessageParser<GetClusterShardGroupRequest>(() => new GetClusterShardGroupRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<GetClusterShardGroupRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterServiceReflection.Descriptor.MessageTypes[47]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public GetClusterShardGroupRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public GetClusterShardGroupRequest(GetClusterShardGroupRequest other) : this() {
+      clusterId_ = other.clusterId_;
+      shardGroupName_ = other.shardGroupName_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public GetClusterShardGroupRequest Clone() {
+      return new GetClusterShardGroupRequest(this);
+    }
+
+    /// <summary>Field number for the "cluster_id" field.</summary>
+    public const int ClusterIdFieldNumber = 1;
+    private string clusterId_ = "";
+    /// <summary>
+    /// ID of the cluster that the shard group belongs to.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ClusterId {
+      get { return clusterId_; }
+      set {
+        clusterId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "shard_group_name" field.</summary>
+    public const int ShardGroupNameFieldNumber = 2;
+    private string shardGroupName_ = "";
+    /// <summary>
+    /// Name of the shard group to request information about.
+    /// To get the name of a shard group , use a [ClusterService.ListShardGroups] request.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ShardGroupName {
+      get { return shardGroupName_; }
+      set {
+        shardGroupName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as GetClusterShardGroupRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(GetClusterShardGroupRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (ClusterId != other.ClusterId) return false;
+      if (ShardGroupName != other.ShardGroupName) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (ClusterId.Length != 0) hash ^= ClusterId.GetHashCode();
+      if (ShardGroupName.Length != 0) hash ^= ShardGroupName.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (ClusterId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(ClusterId);
+      }
+      if (ShardGroupName.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(ShardGroupName);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (ClusterId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ClusterId);
+      }
+      if (ShardGroupName.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ShardGroupName);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(GetClusterShardGroupRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.ClusterId.Length != 0) {
+        ClusterId = other.ClusterId;
+      }
+      if (other.ShardGroupName.Length != 0) {
+        ShardGroupName = other.ShardGroupName;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            ClusterId = input.ReadString();
+            break;
+          }
+          case 18: {
+            ShardGroupName = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  internal sealed partial class ListClusterShardGroupsRequest : pb::IMessage<ListClusterShardGroupsRequest> {
+    private static readonly pb::MessageParser<ListClusterShardGroupsRequest> _parser = new pb::MessageParser<ListClusterShardGroupsRequest>(() => new ListClusterShardGroupsRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<ListClusterShardGroupsRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterServiceReflection.Descriptor.MessageTypes[48]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ListClusterShardGroupsRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ListClusterShardGroupsRequest(ListClusterShardGroupsRequest other) : this() {
+      clusterId_ = other.clusterId_;
+      pageSize_ = other.pageSize_;
+      pageToken_ = other.pageToken_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ListClusterShardGroupsRequest Clone() {
+      return new ListClusterShardGroupsRequest(this);
+    }
+
+    /// <summary>Field number for the "cluster_id" field.</summary>
+    public const int ClusterIdFieldNumber = 1;
+    private string clusterId_ = "";
+    /// <summary>
+    /// ID of the cluster that the shard group belongs to.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ClusterId {
+      get { return clusterId_; }
+      set {
+        clusterId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "page_size" field.</summary>
+    public const int PageSizeFieldNumber = 2;
+    private long pageSize_;
+    /// <summary>
+    /// The maximum number of results per page to return. If the number of available
+    /// results is larger than [page_size], the service returns a [ListClusterShardGroupsResponse.next_page_token]
+    /// that can be used to get the next page of results in subsequent list requests.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long PageSize {
+      get { return pageSize_; }
+      set {
+        pageSize_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "page_token" field.</summary>
+    public const int PageTokenFieldNumber = 3;
+    private string pageToken_ = "";
+    /// <summary>
+    /// Page token. To get the next page of results, set [page_token] to the [ListClusterShardGroupsResponse.next_page_token]
+    /// returned by a previous list request.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string PageToken {
+      get { return pageToken_; }
+      set {
+        pageToken_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as ListClusterShardGroupsRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(ListClusterShardGroupsRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (ClusterId != other.ClusterId) return false;
+      if (PageSize != other.PageSize) return false;
+      if (PageToken != other.PageToken) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (ClusterId.Length != 0) hash ^= ClusterId.GetHashCode();
+      if (PageSize != 0L) hash ^= PageSize.GetHashCode();
+      if (PageToken.Length != 0) hash ^= PageToken.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (ClusterId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(ClusterId);
+      }
+      if (PageSize != 0L) {
+        output.WriteRawTag(16);
+        output.WriteInt64(PageSize);
+      }
+      if (PageToken.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(PageToken);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (ClusterId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ClusterId);
+      }
+      if (PageSize != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(PageSize);
+      }
+      if (PageToken.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(PageToken);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(ListClusterShardGroupsRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.ClusterId.Length != 0) {
+        ClusterId = other.ClusterId;
+      }
+      if (other.PageSize != 0L) {
+        PageSize = other.PageSize;
+      }
+      if (other.PageToken.Length != 0) {
+        PageToken = other.PageToken;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            ClusterId = input.ReadString();
+            break;
+          }
+          case 16: {
+            PageSize = input.ReadInt64();
+            break;
+          }
+          case 26: {
+            PageToken = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  internal sealed partial class ListClusterShardGroupsResponse : pb::IMessage<ListClusterShardGroupsResponse> {
+    private static readonly pb::MessageParser<ListClusterShardGroupsResponse> _parser = new pb::MessageParser<ListClusterShardGroupsResponse>(() => new ListClusterShardGroupsResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<ListClusterShardGroupsResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterServiceReflection.Descriptor.MessageTypes[49]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ListClusterShardGroupsResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ListClusterShardGroupsResponse(ListClusterShardGroupsResponse other) : this() {
+      shardGroups_ = other.shardGroups_.Clone();
+      nextPageToken_ = other.nextPageToken_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ListClusterShardGroupsResponse Clone() {
+      return new ListClusterShardGroupsResponse(this);
+    }
+
+    /// <summary>Field number for the "shard_groups" field.</summary>
+    public const int ShardGroupsFieldNumber = 1;
+    private static readonly pb::FieldCodec<global::Yandex.Cloud.Mdb.Clickhouse.V1.ShardGroup> _repeated_shardGroups_codec
+        = pb::FieldCodec.ForMessage(10, global::Yandex.Cloud.Mdb.Clickhouse.V1.ShardGroup.Parser);
+    private readonly pbc::RepeatedField<global::Yandex.Cloud.Mdb.Clickhouse.V1.ShardGroup> shardGroups_ = new pbc::RepeatedField<global::Yandex.Cloud.Mdb.Clickhouse.V1.ShardGroup>();
+    /// <summary>
+    /// List of ClickHouse Cluster shard groups.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<global::Yandex.Cloud.Mdb.Clickhouse.V1.ShardGroup> ShardGroups {
+      get { return shardGroups_; }
+    }
+
+    /// <summary>Field number for the "next_page_token" field.</summary>
+    public const int NextPageTokenFieldNumber = 2;
+    private string nextPageToken_ = "";
+    /// <summary>
+    /// This token allows you to get the next page of results for list requests. If the number of results
+    /// is larger than [ListClusterShardGroupsRequest.page_size], use the [next_page_token] as the value
+    /// for the [ListClusterShardGroupsRequest.page_token] parameter in the next list request. Each subsequent
+    /// list request will have its own [next_page_token] to continue paging through the results.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string NextPageToken {
+      get { return nextPageToken_; }
+      set {
+        nextPageToken_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as ListClusterShardGroupsResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(ListClusterShardGroupsResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if(!shardGroups_.Equals(other.shardGroups_)) return false;
+      if (NextPageToken != other.NextPageToken) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      hash ^= shardGroups_.GetHashCode();
+      if (NextPageToken.Length != 0) hash ^= NextPageToken.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      shardGroups_.WriteTo(output, _repeated_shardGroups_codec);
+      if (NextPageToken.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(NextPageToken);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      size += shardGroups_.CalculateSize(_repeated_shardGroups_codec);
+      if (NextPageToken.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(NextPageToken);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(ListClusterShardGroupsResponse other) {
+      if (other == null) {
+        return;
+      }
+      shardGroups_.Add(other.shardGroups_);
+      if (other.NextPageToken.Length != 0) {
+        NextPageToken = other.NextPageToken;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            shardGroups_.AddEntriesFrom(input, _repeated_shardGroups_codec);
+            break;
+          }
+          case 18: {
+            NextPageToken = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  internal sealed partial class CreateClusterShardGroupRequest : pb::IMessage<CreateClusterShardGroupRequest> {
+    private static readonly pb::MessageParser<CreateClusterShardGroupRequest> _parser = new pb::MessageParser<CreateClusterShardGroupRequest>(() => new CreateClusterShardGroupRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<CreateClusterShardGroupRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterServiceReflection.Descriptor.MessageTypes[50]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public CreateClusterShardGroupRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public CreateClusterShardGroupRequest(CreateClusterShardGroupRequest other) : this() {
+      clusterId_ = other.clusterId_;
+      shardGroupName_ = other.shardGroupName_;
+      description_ = other.description_;
+      shardNames_ = other.shardNames_.Clone();
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public CreateClusterShardGroupRequest Clone() {
+      return new CreateClusterShardGroupRequest(this);
+    }
+
+    /// <summary>Field number for the "cluster_id" field.</summary>
+    public const int ClusterIdFieldNumber = 1;
+    private string clusterId_ = "";
+    /// <summary>
+    /// ID of the ClickHouse cluster to add a shard group to.
+    /// To get the ClickHouse cluster ID, use a [ClusterService.List] request.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ClusterId {
+      get { return clusterId_; }
+      set {
+        clusterId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "shard_group_name" field.</summary>
+    public const int ShardGroupNameFieldNumber = 2;
+    private string shardGroupName_ = "";
+    /// <summary>
+    /// Name for the new shard group.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ShardGroupName {
+      get { return shardGroupName_; }
+      set {
+        shardGroupName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "description" field.</summary>
+    public const int DescriptionFieldNumber = 3;
+    private string description_ = "";
+    /// <summary>
+    /// Description of the ClickHouse cluster shard group. 0-256 characters long.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Description {
+      get { return description_; }
+      set {
+        description_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "shard_names" field.</summary>
+    public const int ShardNamesFieldNumber = 4;
+    private static readonly pb::FieldCodec<string> _repeated_shardNames_codec
+        = pb::FieldCodec.ForString(34);
+    private readonly pbc::RepeatedField<string> shardNames_ = new pbc::RepeatedField<string>();
+    /// <summary>
+    /// List of shard names that belongs to the new group.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<string> ShardNames {
+      get { return shardNames_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as CreateClusterShardGroupRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(CreateClusterShardGroupRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (ClusterId != other.ClusterId) return false;
+      if (ShardGroupName != other.ShardGroupName) return false;
+      if (Description != other.Description) return false;
+      if(!shardNames_.Equals(other.shardNames_)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (ClusterId.Length != 0) hash ^= ClusterId.GetHashCode();
+      if (ShardGroupName.Length != 0) hash ^= ShardGroupName.GetHashCode();
+      if (Description.Length != 0) hash ^= Description.GetHashCode();
+      hash ^= shardNames_.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (ClusterId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(ClusterId);
+      }
+      if (ShardGroupName.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(ShardGroupName);
+      }
+      if (Description.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(Description);
+      }
+      shardNames_.WriteTo(output, _repeated_shardNames_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (ClusterId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ClusterId);
+      }
+      if (ShardGroupName.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ShardGroupName);
+      }
+      if (Description.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Description);
+      }
+      size += shardNames_.CalculateSize(_repeated_shardNames_codec);
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(CreateClusterShardGroupRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.ClusterId.Length != 0) {
+        ClusterId = other.ClusterId;
+      }
+      if (other.ShardGroupName.Length != 0) {
+        ShardGroupName = other.ShardGroupName;
+      }
+      if (other.Description.Length != 0) {
+        Description = other.Description;
+      }
+      shardNames_.Add(other.shardNames_);
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            ClusterId = input.ReadString();
+            break;
+          }
+          case 18: {
+            ShardGroupName = input.ReadString();
+            break;
+          }
+          case 26: {
+            Description = input.ReadString();
+            break;
+          }
+          case 34: {
+            shardNames_.AddEntriesFrom(input, _repeated_shardNames_codec);
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  internal sealed partial class CreateClusterShardGroupMetadata : pb::IMessage<CreateClusterShardGroupMetadata> {
+    private static readonly pb::MessageParser<CreateClusterShardGroupMetadata> _parser = new pb::MessageParser<CreateClusterShardGroupMetadata>(() => new CreateClusterShardGroupMetadata());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<CreateClusterShardGroupMetadata> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterServiceReflection.Descriptor.MessageTypes[51]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public CreateClusterShardGroupMetadata() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public CreateClusterShardGroupMetadata(CreateClusterShardGroupMetadata other) : this() {
+      clusterId_ = other.clusterId_;
+      shardGroupName_ = other.shardGroupName_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public CreateClusterShardGroupMetadata Clone() {
+      return new CreateClusterShardGroupMetadata(this);
+    }
+
+    /// <summary>Field number for the "cluster_id" field.</summary>
+    public const int ClusterIdFieldNumber = 1;
+    private string clusterId_ = "";
+    /// <summary>
+    /// ID of the ClickHouse cluster to add a shard group to.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ClusterId {
+      get { return clusterId_; }
+      set {
+        clusterId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "shard_group_name" field.</summary>
+    public const int ShardGroupNameFieldNumber = 2;
+    private string shardGroupName_ = "";
+    /// <summary>
+    /// Name for the new shard group.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ShardGroupName {
+      get { return shardGroupName_; }
+      set {
+        shardGroupName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as CreateClusterShardGroupMetadata);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(CreateClusterShardGroupMetadata other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (ClusterId != other.ClusterId) return false;
+      if (ShardGroupName != other.ShardGroupName) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (ClusterId.Length != 0) hash ^= ClusterId.GetHashCode();
+      if (ShardGroupName.Length != 0) hash ^= ShardGroupName.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (ClusterId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(ClusterId);
+      }
+      if (ShardGroupName.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(ShardGroupName);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (ClusterId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ClusterId);
+      }
+      if (ShardGroupName.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ShardGroupName);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(CreateClusterShardGroupMetadata other) {
+      if (other == null) {
+        return;
+      }
+      if (other.ClusterId.Length != 0) {
+        ClusterId = other.ClusterId;
+      }
+      if (other.ShardGroupName.Length != 0) {
+        ShardGroupName = other.ShardGroupName;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            ClusterId = input.ReadString();
+            break;
+          }
+          case 18: {
+            ShardGroupName = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  internal sealed partial class UpdateClusterShardGroupRequest : pb::IMessage<UpdateClusterShardGroupRequest> {
+    private static readonly pb::MessageParser<UpdateClusterShardGroupRequest> _parser = new pb::MessageParser<UpdateClusterShardGroupRequest>(() => new UpdateClusterShardGroupRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<UpdateClusterShardGroupRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterServiceReflection.Descriptor.MessageTypes[52]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public UpdateClusterShardGroupRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public UpdateClusterShardGroupRequest(UpdateClusterShardGroupRequest other) : this() {
+      clusterId_ = other.clusterId_;
+      shardGroupName_ = other.shardGroupName_;
+      updateMask_ = other.updateMask_ != null ? other.updateMask_.Clone() : null;
+      description_ = other.description_;
+      shardNames_ = other.shardNames_.Clone();
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public UpdateClusterShardGroupRequest Clone() {
+      return new UpdateClusterShardGroupRequest(this);
+    }
+
+    /// <summary>Field number for the "cluster_id" field.</summary>
+    public const int ClusterIdFieldNumber = 1;
+    private string clusterId_ = "";
+    /// <summary>
+    /// ID of the cluster that contains the shard group being updated.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ClusterId {
+      get { return clusterId_; }
+      set {
+        clusterId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "shard_group_name" field.</summary>
+    public const int ShardGroupNameFieldNumber = 2;
+    private string shardGroupName_ = "";
+    /// <summary>
+    /// Name of the shard group that should be updated.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ShardGroupName {
+      get { return shardGroupName_; }
+      set {
+        shardGroupName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "update_mask" field.</summary>
+    public const int UpdateMaskFieldNumber = 3;
+    private global::Google.Protobuf.WellKnownTypes.FieldMask updateMask_;
+    /// <summary>
+    /// Field mask that specifies which attributes of the ClickHouse shard group should be updated.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Google.Protobuf.WellKnownTypes.FieldMask UpdateMask {
+      get { return updateMask_; }
+      set {
+        updateMask_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "description" field.</summary>
+    public const int DescriptionFieldNumber = 4;
+    private string description_ = "";
+    /// <summary>
+    /// Description of the ClickHouse cluster shard group. 0-256 characters long.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Description {
+      get { return description_; }
+      set {
+        description_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "shard_names" field.</summary>
+    public const int ShardNamesFieldNumber = 5;
+    private static readonly pb::FieldCodec<string> _repeated_shardNames_codec
+        = pb::FieldCodec.ForString(42);
+    private readonly pbc::RepeatedField<string> shardNames_ = new pbc::RepeatedField<string>();
+    /// <summary>
+    /// Updated list of shard names that belongs to the new group.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<string> ShardNames {
+      get { return shardNames_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as UpdateClusterShardGroupRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(UpdateClusterShardGroupRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (ClusterId != other.ClusterId) return false;
+      if (ShardGroupName != other.ShardGroupName) return false;
+      if (!object.Equals(UpdateMask, other.UpdateMask)) return false;
+      if (Description != other.Description) return false;
+      if(!shardNames_.Equals(other.shardNames_)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (ClusterId.Length != 0) hash ^= ClusterId.GetHashCode();
+      if (ShardGroupName.Length != 0) hash ^= ShardGroupName.GetHashCode();
+      if (updateMask_ != null) hash ^= UpdateMask.GetHashCode();
+      if (Description.Length != 0) hash ^= Description.GetHashCode();
+      hash ^= shardNames_.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (ClusterId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(ClusterId);
+      }
+      if (ShardGroupName.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(ShardGroupName);
+      }
+      if (updateMask_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(UpdateMask);
+      }
+      if (Description.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(Description);
+      }
+      shardNames_.WriteTo(output, _repeated_shardNames_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (ClusterId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ClusterId);
+      }
+      if (ShardGroupName.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ShardGroupName);
+      }
+      if (updateMask_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(UpdateMask);
+      }
+      if (Description.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Description);
+      }
+      size += shardNames_.CalculateSize(_repeated_shardNames_codec);
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(UpdateClusterShardGroupRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.ClusterId.Length != 0) {
+        ClusterId = other.ClusterId;
+      }
+      if (other.ShardGroupName.Length != 0) {
+        ShardGroupName = other.ShardGroupName;
+      }
+      if (other.updateMask_ != null) {
+        if (updateMask_ == null) {
+          UpdateMask = new global::Google.Protobuf.WellKnownTypes.FieldMask();
+        }
+        UpdateMask.MergeFrom(other.UpdateMask);
+      }
+      if (other.Description.Length != 0) {
+        Description = other.Description;
+      }
+      shardNames_.Add(other.shardNames_);
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            ClusterId = input.ReadString();
+            break;
+          }
+          case 18: {
+            ShardGroupName = input.ReadString();
+            break;
+          }
+          case 26: {
+            if (updateMask_ == null) {
+              UpdateMask = new global::Google.Protobuf.WellKnownTypes.FieldMask();
+            }
+            input.ReadMessage(UpdateMask);
+            break;
+          }
+          case 34: {
+            Description = input.ReadString();
+            break;
+          }
+          case 42: {
+            shardNames_.AddEntriesFrom(input, _repeated_shardNames_codec);
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  internal sealed partial class UpdateClusterShardGroupMetadata : pb::IMessage<UpdateClusterShardGroupMetadata> {
+    private static readonly pb::MessageParser<UpdateClusterShardGroupMetadata> _parser = new pb::MessageParser<UpdateClusterShardGroupMetadata>(() => new UpdateClusterShardGroupMetadata());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<UpdateClusterShardGroupMetadata> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterServiceReflection.Descriptor.MessageTypes[53]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public UpdateClusterShardGroupMetadata() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public UpdateClusterShardGroupMetadata(UpdateClusterShardGroupMetadata other) : this() {
+      clusterId_ = other.clusterId_;
+      shardGroupName_ = other.shardGroupName_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public UpdateClusterShardGroupMetadata Clone() {
+      return new UpdateClusterShardGroupMetadata(this);
+    }
+
+    /// <summary>Field number for the "cluster_id" field.</summary>
+    public const int ClusterIdFieldNumber = 1;
+    private string clusterId_ = "";
+    /// <summary>
+    /// ID of the cluster that contains the shard group being updated.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ClusterId {
+      get { return clusterId_; }
+      set {
+        clusterId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "shard_group_name" field.</summary>
+    public const int ShardGroupNameFieldNumber = 2;
+    private string shardGroupName_ = "";
+    /// <summary>
+    /// Name of the shard group that should be updated.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ShardGroupName {
+      get { return shardGroupName_; }
+      set {
+        shardGroupName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as UpdateClusterShardGroupMetadata);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(UpdateClusterShardGroupMetadata other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (ClusterId != other.ClusterId) return false;
+      if (ShardGroupName != other.ShardGroupName) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (ClusterId.Length != 0) hash ^= ClusterId.GetHashCode();
+      if (ShardGroupName.Length != 0) hash ^= ShardGroupName.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (ClusterId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(ClusterId);
+      }
+      if (ShardGroupName.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(ShardGroupName);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (ClusterId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ClusterId);
+      }
+      if (ShardGroupName.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ShardGroupName);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(UpdateClusterShardGroupMetadata other) {
+      if (other == null) {
+        return;
+      }
+      if (other.ClusterId.Length != 0) {
+        ClusterId = other.ClusterId;
+      }
+      if (other.ShardGroupName.Length != 0) {
+        ShardGroupName = other.ShardGroupName;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            ClusterId = input.ReadString();
+            break;
+          }
+          case 18: {
+            ShardGroupName = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  internal sealed partial class DeleteClusterShardGroupRequest : pb::IMessage<DeleteClusterShardGroupRequest> {
+    private static readonly pb::MessageParser<DeleteClusterShardGroupRequest> _parser = new pb::MessageParser<DeleteClusterShardGroupRequest>(() => new DeleteClusterShardGroupRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<DeleteClusterShardGroupRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterServiceReflection.Descriptor.MessageTypes[54]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DeleteClusterShardGroupRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DeleteClusterShardGroupRequest(DeleteClusterShardGroupRequest other) : this() {
+      clusterId_ = other.clusterId_;
+      shardGroupName_ = other.shardGroupName_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DeleteClusterShardGroupRequest Clone() {
+      return new DeleteClusterShardGroupRequest(this);
+    }
+
+    /// <summary>Field number for the "cluster_id" field.</summary>
+    public const int ClusterIdFieldNumber = 1;
+    private string clusterId_ = "";
+    /// <summary>
+    /// ID of the ClickHouse cluster the shard group belongs to.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ClusterId {
+      get { return clusterId_; }
+      set {
+        clusterId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "shard_group_name" field.</summary>
+    public const int ShardGroupNameFieldNumber = 2;
+    private string shardGroupName_ = "";
+    /// <summary>
+    /// Name of the shard group that should be deleted.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ShardGroupName {
+      get { return shardGroupName_; }
+      set {
+        shardGroupName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as DeleteClusterShardGroupRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(DeleteClusterShardGroupRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (ClusterId != other.ClusterId) return false;
+      if (ShardGroupName != other.ShardGroupName) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (ClusterId.Length != 0) hash ^= ClusterId.GetHashCode();
+      if (ShardGroupName.Length != 0) hash ^= ShardGroupName.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (ClusterId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(ClusterId);
+      }
+      if (ShardGroupName.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(ShardGroupName);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (ClusterId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ClusterId);
+      }
+      if (ShardGroupName.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ShardGroupName);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(DeleteClusterShardGroupRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.ClusterId.Length != 0) {
+        ClusterId = other.ClusterId;
+      }
+      if (other.ShardGroupName.Length != 0) {
+        ShardGroupName = other.ShardGroupName;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            ClusterId = input.ReadString();
+            break;
+          }
+          case 18: {
+            ShardGroupName = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  internal sealed partial class DeleteClusterShardGroupMetadata : pb::IMessage<DeleteClusterShardGroupMetadata> {
+    private static readonly pb::MessageParser<DeleteClusterShardGroupMetadata> _parser = new pb::MessageParser<DeleteClusterShardGroupMetadata>(() => new DeleteClusterShardGroupMetadata());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<DeleteClusterShardGroupMetadata> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterServiceReflection.Descriptor.MessageTypes[55]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DeleteClusterShardGroupMetadata() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DeleteClusterShardGroupMetadata(DeleteClusterShardGroupMetadata other) : this() {
+      clusterId_ = other.clusterId_;
+      shardGroupName_ = other.shardGroupName_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DeleteClusterShardGroupMetadata Clone() {
+      return new DeleteClusterShardGroupMetadata(this);
+    }
+
+    /// <summary>Field number for the "cluster_id" field.</summary>
+    public const int ClusterIdFieldNumber = 1;
+    private string clusterId_ = "";
+    /// <summary>
+    /// ID of the ClickHouse cluster the shard group belongs to.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ClusterId {
+      get { return clusterId_; }
+      set {
+        clusterId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "shard_group_name" field.</summary>
+    public const int ShardGroupNameFieldNumber = 2;
+    private string shardGroupName_ = "";
+    /// <summary>
+    /// Name of the shard group that should be deleted.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ShardGroupName {
+      get { return shardGroupName_; }
+      set {
+        shardGroupName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as DeleteClusterShardGroupMetadata);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(DeleteClusterShardGroupMetadata other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (ClusterId != other.ClusterId) return false;
+      if (ShardGroupName != other.ShardGroupName) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (ClusterId.Length != 0) hash ^= ClusterId.GetHashCode();
+      if (ShardGroupName.Length != 0) hash ^= ShardGroupName.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (ClusterId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(ClusterId);
+      }
+      if (ShardGroupName.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(ShardGroupName);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (ClusterId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ClusterId);
+      }
+      if (ShardGroupName.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ShardGroupName);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(DeleteClusterShardGroupMetadata other) {
+      if (other == null) {
+        return;
+      }
+      if (other.ClusterId.Length != 0) {
+        ClusterId = other.ClusterId;
+      }
+      if (other.ShardGroupName.Length != 0) {
+        ShardGroupName = other.ShardGroupName;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            ClusterId = input.ReadString();
+            break;
+          }
+          case 18: {
+            ShardGroupName = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
   internal sealed partial class CreateClusterExternalDictionaryRequest : pb::IMessage<CreateClusterExternalDictionaryRequest> {
     private static readonly pb::MessageParser<CreateClusterExternalDictionaryRequest> _parser = new pb::MessageParser<CreateClusterExternalDictionaryRequest>(() => new CreateClusterExternalDictionaryRequest());
     private pb::UnknownFieldSet _unknownFields;
@@ -8531,7 +10927,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterServiceReflection.Descriptor.MessageTypes[44]; }
+      get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterServiceReflection.Descriptor.MessageTypes[56]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8701,7 +11097,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterServiceReflection.Descriptor.MessageTypes[45]; }
+      get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterServiceReflection.Descriptor.MessageTypes[57]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8833,7 +11229,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterServiceReflection.Descriptor.MessageTypes[46]; }
+      get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterServiceReflection.Descriptor.MessageTypes[58]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8997,7 +11393,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterServiceReflection.Descriptor.MessageTypes[47]; }
+      get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterServiceReflection.Descriptor.MessageTypes[59]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -9129,7 +11525,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterServiceReflection.Descriptor.MessageTypes[48]; }
+      get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterServiceReflection.Descriptor.MessageTypes[60]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -9395,7 +11791,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterServiceReflection.Descriptor.MessageTypes[49]; }
+      get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterServiceReflection.Descriptor.MessageTypes[61]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -9417,6 +11813,10 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       zookeeper_ = other.zookeeper_ != null ? other.zookeeper_.Clone() : null;
       backupWindowStart_ = other.backupWindowStart_ != null ? other.backupWindowStart_.Clone() : null;
       access_ = other.access_ != null ? other.access_.Clone() : null;
+      cloudStorage_ = other.cloudStorage_ != null ? other.cloudStorage_.Clone() : null;
+      SqlDatabaseManagement = other.SqlDatabaseManagement;
+      SqlUserManagement = other.SqlUserManagement;
+      adminPassword_ = other.adminPassword_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -9485,13 +11885,72 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     public const int AccessFieldNumber = 5;
     private global::Yandex.Cloud.Mdb.Clickhouse.V1.Access access_;
     /// <summary>
-    /// Access policy to DB
+    /// Access policy for external services.
+    ///
+    /// If you want a specific service to access the ClickHouse cluster, then set the necessary values in this policy.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Mdb.Clickhouse.V1.Access Access {
       get { return access_; }
       set {
         access_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "cloud_storage" field.</summary>
+    public const int CloudStorageFieldNumber = 6;
+    private global::Yandex.Cloud.Mdb.Clickhouse.V1.CloudStorage cloudStorage_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Mdb.Clickhouse.V1.CloudStorage CloudStorage {
+      get { return cloudStorage_; }
+      set {
+        cloudStorage_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "sql_database_management" field.</summary>
+    public const int SqlDatabaseManagementFieldNumber = 7;
+    private static readonly pb::FieldCodec<bool?> _single_sqlDatabaseManagement_codec = pb::FieldCodec.ForStructWrapper<bool>(58);
+    private bool? sqlDatabaseManagement_;
+    /// <summary>
+    /// Whether database management through SQL commands is enabled.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool? SqlDatabaseManagement {
+      get { return sqlDatabaseManagement_; }
+      set {
+        sqlDatabaseManagement_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "sql_user_management" field.</summary>
+    public const int SqlUserManagementFieldNumber = 8;
+    private static readonly pb::FieldCodec<bool?> _single_sqlUserManagement_codec = pb::FieldCodec.ForStructWrapper<bool>(66);
+    private bool? sqlUserManagement_;
+    /// <summary>
+    /// Whether user management through SQL commands is enabled.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool? SqlUserManagement {
+      get { return sqlUserManagement_; }
+      set {
+        sqlUserManagement_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "admin_password" field.</summary>
+    public const int AdminPasswordFieldNumber = 9;
+    private string adminPassword_ = "";
+    /// <summary>
+    /// Password for user 'admin' that has SQL user management access.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string AdminPassword {
+      get { return adminPassword_; }
+      set {
+        adminPassword_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
@@ -9513,6 +11972,10 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       if (!object.Equals(Zookeeper, other.Zookeeper)) return false;
       if (!object.Equals(BackupWindowStart, other.BackupWindowStart)) return false;
       if (!object.Equals(Access, other.Access)) return false;
+      if (!object.Equals(CloudStorage, other.CloudStorage)) return false;
+      if (SqlDatabaseManagement != other.SqlDatabaseManagement) return false;
+      if (SqlUserManagement != other.SqlUserManagement) return false;
+      if (AdminPassword != other.AdminPassword) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -9524,6 +11987,10 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       if (zookeeper_ != null) hash ^= Zookeeper.GetHashCode();
       if (backupWindowStart_ != null) hash ^= BackupWindowStart.GetHashCode();
       if (access_ != null) hash ^= Access.GetHashCode();
+      if (cloudStorage_ != null) hash ^= CloudStorage.GetHashCode();
+      if (sqlDatabaseManagement_ != null) hash ^= SqlDatabaseManagement.GetHashCode();
+      if (sqlUserManagement_ != null) hash ^= SqlUserManagement.GetHashCode();
+      if (AdminPassword.Length != 0) hash ^= AdminPassword.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -9557,6 +12024,20 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
         output.WriteRawTag(42);
         output.WriteMessage(Access);
       }
+      if (cloudStorage_ != null) {
+        output.WriteRawTag(50);
+        output.WriteMessage(CloudStorage);
+      }
+      if (sqlDatabaseManagement_ != null) {
+        _single_sqlDatabaseManagement_codec.WriteTagAndValue(output, SqlDatabaseManagement);
+      }
+      if (sqlUserManagement_ != null) {
+        _single_sqlUserManagement_codec.WriteTagAndValue(output, SqlUserManagement);
+      }
+      if (AdminPassword.Length != 0) {
+        output.WriteRawTag(74);
+        output.WriteString(AdminPassword);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -9579,6 +12060,18 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       }
       if (access_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(Access);
+      }
+      if (cloudStorage_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(CloudStorage);
+      }
+      if (sqlDatabaseManagement_ != null) {
+        size += _single_sqlDatabaseManagement_codec.CalculateSizeWithTag(SqlDatabaseManagement);
+      }
+      if (sqlUserManagement_ != null) {
+        size += _single_sqlUserManagement_codec.CalculateSizeWithTag(SqlUserManagement);
+      }
+      if (AdminPassword.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(AdminPassword);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -9617,6 +12110,25 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
           Access = new global::Yandex.Cloud.Mdb.Clickhouse.V1.Access();
         }
         Access.MergeFrom(other.Access);
+      }
+      if (other.cloudStorage_ != null) {
+        if (cloudStorage_ == null) {
+          CloudStorage = new global::Yandex.Cloud.Mdb.Clickhouse.V1.CloudStorage();
+        }
+        CloudStorage.MergeFrom(other.CloudStorage);
+      }
+      if (other.sqlDatabaseManagement_ != null) {
+        if (sqlDatabaseManagement_ == null || other.SqlDatabaseManagement != false) {
+          SqlDatabaseManagement = other.SqlDatabaseManagement;
+        }
+      }
+      if (other.sqlUserManagement_ != null) {
+        if (sqlUserManagement_ == null || other.SqlUserManagement != false) {
+          SqlUserManagement = other.SqlUserManagement;
+        }
+      }
+      if (other.AdminPassword.Length != 0) {
+        AdminPassword = other.AdminPassword;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -9659,6 +12171,31 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
               Access = new global::Yandex.Cloud.Mdb.Clickhouse.V1.Access();
             }
             input.ReadMessage(Access);
+            break;
+          }
+          case 50: {
+            if (cloudStorage_ == null) {
+              CloudStorage = new global::Yandex.Cloud.Mdb.Clickhouse.V1.CloudStorage();
+            }
+            input.ReadMessage(CloudStorage);
+            break;
+          }
+          case 58: {
+            bool? value = _single_sqlDatabaseManagement_codec.Read(input);
+            if (sqlDatabaseManagement_ == null || value != false) {
+              SqlDatabaseManagement = value;
+            }
+            break;
+          }
+          case 66: {
+            bool? value = _single_sqlUserManagement_codec.Read(input);
+            if (sqlUserManagement_ == null || value != false) {
+              SqlUserManagement = value;
+            }
+            break;
+          }
+          case 74: {
+            AdminPassword = input.ReadString();
             break;
           }
         }
@@ -9996,7 +12533,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterServiceReflection.Descriptor.MessageTypes[50]; }
+      get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.ClusterServiceReflection.Descriptor.MessageTypes[62]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

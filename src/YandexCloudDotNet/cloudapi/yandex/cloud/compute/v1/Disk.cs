@@ -26,7 +26,7 @@ namespace Yandex.Cloud.Compute.V1 {
           string.Concat(
             "CiJ5YW5kZXgvY2xvdWQvY29tcHV0ZS92MS9kaXNrLnByb3RvEhd5YW5kZXgu",
             "Y2xvdWQuY29tcHV0ZS52MRofZ29vZ2xlL3Byb3RvYnVmL3RpbWVzdGFtcC5w",
-            "cm90byKeBAoERGlzaxIKCgJpZBgBIAEoCRIRCglmb2xkZXJfaWQYAiABKAkS",
+            "cm90byLrBAoERGlzaxIKCgJpZBgBIAEoCRIRCglmb2xkZXJfaWQYAiABKAkS",
             "LgoKY3JlYXRlZF9hdBgDIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3Rh",
             "bXASDAoEbmFtZRgEIAEoCRITCgtkZXNjcmlwdGlvbhgFIAEoCRI5CgZsYWJl",
             "bHMYBiADKAsyKS55YW5kZXguY2xvdWQuY29tcHV0ZS52MS5EaXNrLkxhYmVs",
@@ -35,16 +35,20 @@ namespace Yandex.Cloud.Compute.V1 {
             "CiADKAkSNAoGc3RhdHVzGAsgASgOMiQueWFuZGV4LmNsb3VkLmNvbXB1dGUu",
             "djEuRGlzay5TdGF0dXMSGQoPc291cmNlX2ltYWdlX2lkGAwgASgJSAASHAoS",
             "c291cmNlX3NuYXBzaG90X2lkGA0gASgJSAASFAoMaW5zdGFuY2VfaWRzGA4g",
-            "AygJGi0KC0xhYmVsc0VudHJ5EgsKA2tleRgBIAEoCRINCgV2YWx1ZRgCIAEo",
-            "CToCOAEiUgoGU3RhdHVzEhYKElNUQVRVU19VTlNQRUNJRklFRBAAEgwKCENS",
-            "RUFUSU5HEAESCQoFUkVBRFkQAhIJCgVFUlJPUhADEgwKCERFTEVUSU5HEARC",
-            "CAoGc291cmNlQmIKG3lhbmRleC5jbG91ZC5hcGkuY29tcHV0ZS52MVpDZ2l0",
-            "aHViLmNvbS95YW5kZXgtY2xvdWQvZ28tZ2VucHJvdG8veWFuZGV4L2Nsb3Vk",
-            "L2NvbXB1dGUvdjE7Y29tcHV0ZWIGcHJvdG8z"));
+            "AygJEksKFWRpc2tfcGxhY2VtZW50X3BvbGljeRgQIAEoCzIsLnlhbmRleC5j",
+            "bG91ZC5jb21wdXRlLnYxLkRpc2tQbGFjZW1lbnRQb2xpY3kaLQoLTGFiZWxz",
+            "RW50cnkSCwoDa2V5GAEgASgJEg0KBXZhbHVlGAIgASgJOgI4ASJSCgZTdGF0",
+            "dXMSFgoSU1RBVFVTX1VOU1BFQ0lGSUVEEAASDAoIQ1JFQVRJTkcQARIJCgVS",
+            "RUFEWRACEgkKBUVSUk9SEAMSDAoIREVMRVRJTkcQBEIICgZzb3VyY2UiMQoT",
+            "RGlza1BsYWNlbWVudFBvbGljeRIaChJwbGFjZW1lbnRfZ3JvdXBfaWQYASAB",
+            "KAlCYgobeWFuZGV4LmNsb3VkLmFwaS5jb21wdXRlLnYxWkNnaXRodWIuY29t",
+            "L3lhbmRleC1jbG91ZC9nby1nZW5wcm90by95YW5kZXgvY2xvdWQvY29tcHV0",
+            "ZS92MTtjb21wdXRlYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Disk), global::Yandex.Cloud.Compute.V1.Disk.Parser, new[]{ "Id", "FolderId", "CreatedAt", "Name", "Description", "Labels", "TypeId", "ZoneId", "Size", "BlockSize", "ProductIds", "Status", "SourceImageId", "SourceSnapshotId", "InstanceIds" }, new[]{ "Source" }, new[]{ typeof(global::Yandex.Cloud.Compute.V1.Disk.Types.Status) }, null, new pbr::GeneratedClrTypeInfo[] { null, })
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Disk), global::Yandex.Cloud.Compute.V1.Disk.Parser, new[]{ "Id", "FolderId", "CreatedAt", "Name", "Description", "Labels", "TypeId", "ZoneId", "Size", "BlockSize", "ProductIds", "Status", "SourceImageId", "SourceSnapshotId", "InstanceIds", "DiskPlacementPolicy" }, new[]{ "Source" }, new[]{ typeof(global::Yandex.Cloud.Compute.V1.Disk.Types.Status) }, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.DiskPlacementPolicy), global::Yandex.Cloud.Compute.V1.DiskPlacementPolicy.Parser, new[]{ "PlacementGroupId" }, null, null, null, null)
           }));
     }
     #endregion
@@ -92,6 +96,7 @@ namespace Yandex.Cloud.Compute.V1 {
       productIds_ = other.productIds_.Clone();
       status_ = other.status_;
       instanceIds_ = other.instanceIds_.Clone();
+      diskPlacementPolicy_ = other.diskPlacementPolicy_ != null ? other.diskPlacementPolicy_.Clone() : null;
       switch (other.SourceCase) {
         case SourceOneofCase.SourceImageId:
           SourceImageId = other.SourceImageId;
@@ -320,6 +325,20 @@ namespace Yandex.Cloud.Compute.V1 {
       get { return instanceIds_; }
     }
 
+    /// <summary>Field number for the "disk_placement_policy" field.</summary>
+    public const int DiskPlacementPolicyFieldNumber = 16;
+    private global::Yandex.Cloud.Compute.V1.DiskPlacementPolicy diskPlacementPolicy_;
+    /// <summary>
+    /// Placement policy configuration.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Compute.V1.DiskPlacementPolicy DiskPlacementPolicy {
+      get { return diskPlacementPolicy_; }
+      set {
+        diskPlacementPolicy_ = value;
+      }
+    }
+
     private object source_;
     /// <summary>Enum of possible cases for the "source" oneof.</summary>
     public enum SourceOneofCase {
@@ -367,6 +386,7 @@ namespace Yandex.Cloud.Compute.V1 {
       if (SourceImageId != other.SourceImageId) return false;
       if (SourceSnapshotId != other.SourceSnapshotId) return false;
       if(!instanceIds_.Equals(other.instanceIds_)) return false;
+      if (!object.Equals(DiskPlacementPolicy, other.DiskPlacementPolicy)) return false;
       if (SourceCase != other.SourceCase) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -389,6 +409,7 @@ namespace Yandex.Cloud.Compute.V1 {
       if (sourceCase_ == SourceOneofCase.SourceImageId) hash ^= SourceImageId.GetHashCode();
       if (sourceCase_ == SourceOneofCase.SourceSnapshotId) hash ^= SourceSnapshotId.GetHashCode();
       hash ^= instanceIds_.GetHashCode();
+      if (diskPlacementPolicy_ != null) hash ^= DiskPlacementPolicy.GetHashCode();
       hash ^= (int) sourceCase_;
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -454,6 +475,10 @@ namespace Yandex.Cloud.Compute.V1 {
         output.WriteRawTag(120);
         output.WriteInt64(BlockSize);
       }
+      if (diskPlacementPolicy_ != null) {
+        output.WriteRawTag(130, 1);
+        output.WriteMessage(DiskPlacementPolicy);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -501,6 +526,9 @@ namespace Yandex.Cloud.Compute.V1 {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(SourceSnapshotId);
       }
       size += instanceIds_.CalculateSize(_repeated_instanceIds_codec);
+      if (diskPlacementPolicy_ != null) {
+        size += 2 + pb::CodedOutputStream.ComputeMessageSize(DiskPlacementPolicy);
+      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -548,6 +576,12 @@ namespace Yandex.Cloud.Compute.V1 {
         Status = other.Status;
       }
       instanceIds_.Add(other.instanceIds_);
+      if (other.diskPlacementPolicy_ != null) {
+        if (diskPlacementPolicy_ == null) {
+          DiskPlacementPolicy = new global::Yandex.Cloud.Compute.V1.DiskPlacementPolicy();
+        }
+        DiskPlacementPolicy.MergeFrom(other.DiskPlacementPolicy);
+      }
       switch (other.SourceCase) {
         case SourceOneofCase.SourceImageId:
           SourceImageId = other.SourceImageId;
@@ -631,6 +665,13 @@ namespace Yandex.Cloud.Compute.V1 {
             BlockSize = input.ReadInt64();
             break;
           }
+          case 130: {
+            if (diskPlacementPolicy_ == null) {
+              DiskPlacementPolicy = new global::Yandex.Cloud.Compute.V1.DiskPlacementPolicy();
+            }
+            input.ReadMessage(DiskPlacementPolicy);
+            break;
+          }
         }
       }
     }
@@ -661,6 +702,138 @@ namespace Yandex.Cloud.Compute.V1 {
 
     }
     #endregion
+
+  }
+
+  internal sealed partial class DiskPlacementPolicy : pb::IMessage<DiskPlacementPolicy> {
+    private static readonly pb::MessageParser<DiskPlacementPolicy> _parser = new pb::MessageParser<DiskPlacementPolicy>(() => new DiskPlacementPolicy());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<DiskPlacementPolicy> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Compute.V1.DiskReflection.Descriptor.MessageTypes[1]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DiskPlacementPolicy() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DiskPlacementPolicy(DiskPlacementPolicy other) : this() {
+      placementGroupId_ = other.placementGroupId_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DiskPlacementPolicy Clone() {
+      return new DiskPlacementPolicy(this);
+    }
+
+    /// <summary>Field number for the "placement_group_id" field.</summary>
+    public const int PlacementGroupIdFieldNumber = 1;
+    private string placementGroupId_ = "";
+    /// <summary>
+    /// Placement group ID.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string PlacementGroupId {
+      get { return placementGroupId_; }
+      set {
+        placementGroupId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as DiskPlacementPolicy);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(DiskPlacementPolicy other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (PlacementGroupId != other.PlacementGroupId) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (PlacementGroupId.Length != 0) hash ^= PlacementGroupId.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (PlacementGroupId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(PlacementGroupId);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (PlacementGroupId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(PlacementGroupId);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(DiskPlacementPolicy other) {
+      if (other == null) {
+        return;
+      }
+      if (other.PlacementGroupId.Length != 0) {
+        PlacementGroupId = other.PlacementGroupId;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            PlacementGroupId = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
 
   }
 

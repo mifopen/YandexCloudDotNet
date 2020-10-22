@@ -29,87 +29,104 @@ namespace Yandex.Cloud.Vpc.V1 {
             "b3RvGiBnb29nbGUvcHJvdG9idWYvZmllbGRfbWFzay5wcm90bxogeWFuZGV4",
             "L2Nsb3VkL2FwaS9vcGVyYXRpb24ucHJvdG8aIHlhbmRleC9jbG91ZC92cGMv",
             "djEvc3VibmV0LnByb3RvGiZ5YW5kZXgvY2xvdWQvb3BlcmF0aW9uL29wZXJh",
-            "dGlvbi5wcm90bxodeWFuZGV4L2Nsb3VkL3ZhbGlkYXRpb24ucHJvdG8iMwoQ",
-            "R2V0U3VibmV0UmVxdWVzdBIfCglzdWJuZXRfaWQYASABKAlCDOjHMQGKyDEE",
-            "PD01MCKPAQoSTGlzdFN1Ym5ldHNSZXF1ZXN0Eh8KCWZvbGRlcl9pZBgBIAEo",
-            "CUIM6McxAYrIMQQ8PTUwEh0KCXBhZ2Vfc2l6ZRgCIAEoA0IK+scxBjw9MTAw",
-            "MBIdCgpwYWdlX3Rva2VuGAMgASgJQgmKyDEFPD0xMDASGgoGZmlsdGVyGAQg",
-            "ASgJQgqKyDEGPD0xMDAwIlwKE0xpc3RTdWJuZXRzUmVzcG9uc2USLAoHc3Vi",
-            "bmV0cxgBIAMoCzIbLnlhbmRleC5jbG91ZC52cGMudjEuU3VibmV0EhcKD25l",
-            "eHRfcGFnZV90b2tlbhgCIAEoCSK1AwoTQ3JlYXRlU3VibmV0UmVxdWVzdBIf",
-            "Cglmb2xkZXJfaWQYASABKAlCDOjHMQGKyDEEPD01MBIvCgRuYW1lGAIgASgJ",
-            "QiHyxzEdfFthLXpdWy1hLXowLTldezEsNjF9W2EtejAtOV0SHgoLZGVzY3Jp",
-            "cHRpb24YAyABKAlCCYrIMQU8PTI1NhKFAQoGbGFiZWxzGAQgAygLMjQueWFu",
-            "ZGV4LmNsb3VkLnZwYy52MS5DcmVhdGVTdWJuZXRSZXF1ZXN0LkxhYmVsc0Vu",
-            "dHJ5Qj+CyDEEPD02NIrIMQQ8PTYz8scxC1stXzAtOWEtel0qssgxBhoEMS02",
-            "M7LIMRISEFthLXpdWy1fMC05YS16XSoSIAoKbmV0d29ya19pZBgFIAEoCUIM",
-            "6McxAYrIMQQ8PTUwEhkKB3pvbmVfaWQYBiABKAlCCIrIMQQ8PTUwEhYKDnY0",
-            "X2NpZHJfYmxvY2tzGAcgAygJEiAKDnJvdXRlX3RhYmxlX2lkGAkgASgJQgiK",
-            "yDEEPD01MBotCgtMYWJlbHNFbnRyeRILCgNrZXkYASABKAkSDQoFdmFsdWUY",
-            "AiABKAk6AjgBIikKFENyZWF0ZVN1Ym5ldE1ldGFkYXRhEhEKCXN1Ym5ldF9p",
-            "ZBgBIAEoCSKRAwoTVXBkYXRlU3VibmV0UmVxdWVzdBIfCglzdWJuZXRfaWQY",
-            "ASABKAlCDOjHMQGKyDEEPD01MBIvCgt1cGRhdGVfbWFzaxgCIAEoCzIaLmdv",
-            "b2dsZS5wcm90b2J1Zi5GaWVsZE1hc2sSLwoEbmFtZRgDIAEoCUIh8scxHXxb",
-            "YS16XVstYS16MC05XXsxLDYxfVthLXowLTldEh4KC2Rlc2NyaXB0aW9uGAQg",
-            "ASgJQgmKyDEFPD0yNTYShQEKBmxhYmVscxgFIAMoCzI0LnlhbmRleC5jbG91",
-            "ZC52cGMudjEuVXBkYXRlU3VibmV0UmVxdWVzdC5MYWJlbHNFbnRyeUI/gsgx",
-            "BDw9NjSKyDEEPD02M/LHMQtbLV8wLTlhLXpdKrLIMQYaBDEtNjOyyDESEhBb",
-            "YS16XVstXzAtOWEtel0qEiAKDnJvdXRlX3RhYmxlX2lkGAYgASgJQgiKyDEE",
-            "PD01MBotCgtMYWJlbHNFbnRyeRILCgNrZXkYASABKAkSDQoFdmFsdWUYAiAB",
-            "KAk6AjgBIikKFFVwZGF0ZVN1Ym5ldE1ldGFkYXRhEhEKCXN1Ym5ldF9pZBgB",
-            "IAEoCSI2ChNEZWxldGVTdWJuZXRSZXF1ZXN0Eh8KCXN1Ym5ldF9pZBgBIAEo",
-            "CUIM6McxAYrIMQQ8PTUwIikKFERlbGV0ZVN1Ym5ldE1ldGFkYXRhEhEKCXN1",
-            "Ym5ldF9pZBgBIAEoCSJ8ChtMaXN0U3VibmV0T3BlcmF0aW9uc1JlcXVlc3QS",
-            "HwoJc3VibmV0X2lkGAEgASgJQgzoxzEBisgxBDw9NTASHQoJcGFnZV9zaXpl",
-            "GAIgASgDQgr6xzEGPD0xMDAwEh0KCnBhZ2VfdG9rZW4YAyABKAlCCYrIMQU8",
-            "PTEwMCJuChxMaXN0U3VibmV0T3BlcmF0aW9uc1Jlc3BvbnNlEjUKCm9wZXJh",
-            "dGlvbnMYASADKAsyIS55YW5kZXguY2xvdWQub3BlcmF0aW9uLk9wZXJhdGlv",
-            "bhIXCg9uZXh0X3BhZ2VfdG9rZW4YAiABKAkiYQoRTW92ZVN1Ym5ldFJlcXVl",
-            "c3QSHwoJc3VibmV0X2lkGAEgASgJQgzoxzEBisgxBDw9NTASKwoVZGVzdGlu",
-            "YXRpb25fZm9sZGVyX2lkGAIgASgJQgzoxzEBisgxBDw9NTAiJwoSTW92ZVN1",
-            "Ym5ldE1ldGFkYXRhEhEKCXN1Ym5ldF9pZBgBIAEoCTKiCAoNU3VibmV0U2Vy",
-            "dmljZRJuCgNHZXQSJS55YW5kZXguY2xvdWQudnBjLnYxLkdldFN1Ym5ldFJl",
-            "cXVlc3QaGy55YW5kZXguY2xvdWQudnBjLnYxLlN1Ym5ldCIjgtPkkwIdEhsv",
-            "dnBjL3YxL3N1Ym5ldHMve3N1Ym5ldF9pZH0ScgoETGlzdBInLnlhbmRleC5j",
-            "bG91ZC52cGMudjEuTGlzdFN1Ym5ldHNSZXF1ZXN0GigueWFuZGV4LmNsb3Vk",
-            "LnZwYy52MS5MaXN0U3VibmV0c1Jlc3BvbnNlIheC0+STAhESDy92cGMvdjEv",
-            "c3VibmV0cxKTAQoGQ3JlYXRlEigueWFuZGV4LmNsb3VkLnZwYy52MS5DcmVh",
-            "dGVTdWJuZXRSZXF1ZXN0GiEueWFuZGV4LmNsb3VkLm9wZXJhdGlvbi5PcGVy",
-            "YXRpb24iPILT5JMCFCIPL3ZwYy92MS9zdWJuZXRzOgEqstIqHgoUQ3JlYXRl",
-            "U3VibmV0TWV0YWRhdGESBlN1Ym5ldBKfAQoGVXBkYXRlEigueWFuZGV4LmNs",
-            "b3VkLnZwYy52MS5VcGRhdGVTdWJuZXRSZXF1ZXN0GiEueWFuZGV4LmNsb3Vk",
-            "Lm9wZXJhdGlvbi5PcGVyYXRpb24iSILT5JMCIDIbL3ZwYy92MS9zdWJuZXRz",
-            "L3tzdWJuZXRfaWR9OgEqstIqHgoUVXBkYXRlU3VibmV0TWV0YWRhdGESBlN1",
-            "Ym5ldBKrAQoGRGVsZXRlEigueWFuZGV4LmNsb3VkLnZwYy52MS5EZWxldGVT",
+            "dGlvbi5wcm90bxodeWFuZGV4L2Nsb3VkL3ZhbGlkYXRpb24ucHJvdG8aJnlh",
+            "bmRleC9jbG91ZC9yZWZlcmVuY2UvcmVmZXJlbmNlLnByb3RvIjMKEEdldFN1",
+            "Ym5ldFJlcXVlc3QSHwoJc3VibmV0X2lkGAEgASgJQgzoxzEBisgxBDw9NTAi",
+            "jwEKEkxpc3RTdWJuZXRzUmVxdWVzdBIfCglmb2xkZXJfaWQYASABKAlCDOjH",
+            "MQGKyDEEPD01MBIdCglwYWdlX3NpemUYAiABKANCCvrHMQY8PTEwMDASHQoK",
+            "cGFnZV90b2tlbhgDIAEoCUIJisgxBTw9MTAwEhoKBmZpbHRlchgEIAEoCUIK",
+            "isgxBjw9MTAwMCJcChNMaXN0U3VibmV0c1Jlc3BvbnNlEiwKB3N1Ym5ldHMY",
+            "ASADKAsyGy55YW5kZXguY2xvdWQudnBjLnYxLlN1Ym5ldBIXCg9uZXh0X3Bh",
+            "Z2VfdG9rZW4YAiABKAki9wMKE0NyZWF0ZVN1Ym5ldFJlcXVlc3QSHwoJZm9s",
+            "ZGVyX2lkGAEgASgJQgzoxzEBisgxBDw9NTASLwoEbmFtZRgCIAEoCUIh8scx",
+            "HXxbYS16XVstYS16MC05XXsxLDYxfVthLXowLTldEh4KC2Rlc2NyaXB0aW9u",
+            "GAMgASgJQgmKyDEFPD0yNTYShQEKBmxhYmVscxgEIAMoCzI0LnlhbmRleC5j",
+            "bG91ZC52cGMudjEuQ3JlYXRlU3VibmV0UmVxdWVzdC5MYWJlbHNFbnRyeUI/",
+            "gsgxBDw9NjSKyDEEPD02M/LHMQtbLV8wLTlhLXpdKrLIMQYaBDEtNjOyyDES",
+            "EhBbYS16XVstXzAtOWEtel0qEiAKCm5ldHdvcmtfaWQYBSABKAlCDOjHMQGK",
+            "yDEEPD01MBIdCgd6b25lX2lkGAYgASgJQgzoxzEBisgxBDw9NTASHAoOdjRf",
+            "Y2lkcl9ibG9ja3MYByADKAlCBOjHMQESIAoOcm91dGVfdGFibGVfaWQYCSAB",
+            "KAlCCIrIMQQ8PTUwEjYKDGRoY3Bfb3B0aW9ucxgKIAEoCzIgLnlhbmRleC5j",
+            "bG91ZC52cGMudjEuRGhjcE9wdGlvbnMaLQoLTGFiZWxzRW50cnkSCwoDa2V5",
+            "GAEgASgJEg0KBXZhbHVlGAIgASgJOgI4ASIpChRDcmVhdGVTdWJuZXRNZXRh",
+            "ZGF0YRIRCglzdWJuZXRfaWQYASABKAkiyQMKE1VwZGF0ZVN1Ym5ldFJlcXVl",
+            "c3QSHwoJc3VibmV0X2lkGAEgASgJQgzoxzEBisgxBDw9NTASLwoLdXBkYXRl",
+            "X21hc2sYAiABKAsyGi5nb29nbGUucHJvdG9idWYuRmllbGRNYXNrEi8KBG5h",
+            "bWUYAyABKAlCIfLHMR18W2Etel1bLWEtejAtOV17MSw2MX1bYS16MC05XRIe",
+            "CgtkZXNjcmlwdGlvbhgEIAEoCUIJisgxBTw9MjU2EoUBCgZsYWJlbHMYBSAD",
+            "KAsyNC55YW5kZXguY2xvdWQudnBjLnYxLlVwZGF0ZVN1Ym5ldFJlcXVlc3Qu",
+            "TGFiZWxzRW50cnlCP4LIMQQ8PTY0isgxBDw9NjPyxzELWy1fMC05YS16XSqy",
+            "yDEGGgQxLTYzssgxEhIQW2Etel1bLV8wLTlhLXpdKhIgCg5yb3V0ZV90YWJs",
+            "ZV9pZBgGIAEoCUIIisgxBDw9NTASNgoMZGhjcF9vcHRpb25zGAcgASgLMiAu",
+            "eWFuZGV4LmNsb3VkLnZwYy52MS5EaGNwT3B0aW9ucxotCgtMYWJlbHNFbnRy",
+            "eRILCgNrZXkYASABKAkSDQoFdmFsdWUYAiABKAk6AjgBIikKFFVwZGF0ZVN1",
+            "Ym5ldE1ldGFkYXRhEhEKCXN1Ym5ldF9pZBgBIAEoCSI2ChNEZWxldGVTdWJu",
+            "ZXRSZXF1ZXN0Eh8KCXN1Ym5ldF9pZBgBIAEoCUIM6McxAYrIMQQ8PTUwIikK",
+            "FERlbGV0ZVN1Ym5ldE1ldGFkYXRhEhEKCXN1Ym5ldF9pZBgBIAEoCSJ8ChtM",
+            "aXN0U3VibmV0T3BlcmF0aW9uc1JlcXVlc3QSHwoJc3VibmV0X2lkGAEgASgJ",
+            "QgzoxzEBisgxBDw9NTASHQoJcGFnZV9zaXplGAIgASgDQgr6xzEGPD0xMDAw",
+            "Eh0KCnBhZ2VfdG9rZW4YAyABKAlCCYrIMQU8PTEwMCJuChxMaXN0U3VibmV0",
+            "T3BlcmF0aW9uc1Jlc3BvbnNlEjUKCm9wZXJhdGlvbnMYASADKAsyIS55YW5k",
+            "ZXguY2xvdWQub3BlcmF0aW9uLk9wZXJhdGlvbhIXCg9uZXh0X3BhZ2VfdG9r",
+            "ZW4YAiABKAkiYQoRTW92ZVN1Ym5ldFJlcXVlc3QSHwoJc3VibmV0X2lkGAEg",
+            "ASgJQgzoxzEBisgxBDw9NTASKwoVZGVzdGluYXRpb25fZm9sZGVyX2lkGAIg",
+            "ASgJQgzoxzEBisgxBDw9NTAiJwoSTW92ZVN1Ym5ldE1ldGFkYXRhEhEKCXN1",
+            "Ym5ldF9pZBgBIAEoCSJqChhMaXN0VXNlZEFkZHJlc3Nlc1JlcXVlc3QSFwoJ",
+            "c3VibmV0X2lkGAEgASgJQgToxzEBEhEKCXBhZ2Vfc2l6ZRgCIAEoAxISCgpw",
+            "YWdlX3Rva2VuGAMgASgJEg4KBmZpbHRlchgEIAEoCSJpChlMaXN0VXNlZEFk",
+            "ZHJlc3Nlc1Jlc3BvbnNlEjMKCWFkZHJlc3NlcxgBIAMoCzIgLnlhbmRleC5j",
+            "bG91ZC52cGMudjEuVXNlZEFkZHJlc3MSFwoPbmV4dF9wYWdlX3Rva2VuGAIg",
+            "ASgJIokBCgtVc2VkQWRkcmVzcxIPCgdhZGRyZXNzGAEgASgJEjIKCmlwX3Zl",
+            "cnNpb24YAiABKA4yHi55YW5kZXguY2xvdWQudnBjLnYxLklwVmVyc2lvbhI1",
+            "CgpyZWZlcmVuY2VzGAMgAygLMiEueWFuZGV4LmNsb3VkLnJlZmVyZW5jZS5S",
+            "ZWZlcmVuY2UylgkKDVN1Ym5ldFNlcnZpY2USbgoDR2V0EiUueWFuZGV4LmNs",
+            "b3VkLnZwYy52MS5HZXRTdWJuZXRSZXF1ZXN0GhsueWFuZGV4LmNsb3VkLnZw",
+            "Yy52MS5TdWJuZXQiI4LT5JMCHRIbL3ZwYy92MS9zdWJuZXRzL3tzdWJuZXRf",
+            "aWR9EnIKBExpc3QSJy55YW5kZXguY2xvdWQudnBjLnYxLkxpc3RTdWJuZXRz",
+            "UmVxdWVzdBooLnlhbmRleC5jbG91ZC52cGMudjEuTGlzdFN1Ym5ldHNSZXNw",
+            "b25zZSIXgtPkkwIREg8vdnBjL3YxL3N1Ym5ldHMSkwEKBkNyZWF0ZRIoLnlh",
+            "bmRleC5jbG91ZC52cGMudjEuQ3JlYXRlU3VibmV0UmVxdWVzdBohLnlhbmRl",
+            "eC5jbG91ZC5vcGVyYXRpb24uT3BlcmF0aW9uIjyC0+STAhQiDy92cGMvdjEv",
+            "c3VibmV0czoBKrLSKh4KFENyZWF0ZVN1Ym5ldE1ldGFkYXRhEgZTdWJuZXQS",
+            "nwEKBlVwZGF0ZRIoLnlhbmRleC5jbG91ZC52cGMudjEuVXBkYXRlU3VibmV0",
+            "UmVxdWVzdBohLnlhbmRleC5jbG91ZC5vcGVyYXRpb24uT3BlcmF0aW9uIkiC",
+            "0+STAiAyGy92cGMvdjEvc3VibmV0cy97c3VibmV0X2lkfToBKrLSKh4KFFVw",
+            "ZGF0ZVN1Ym5ldE1ldGFkYXRhEgZTdWJuZXQSqwEKBkRlbGV0ZRIoLnlhbmRl",
+            "eC5jbG91ZC52cGMudjEuRGVsZXRlU3VibmV0UmVxdWVzdBohLnlhbmRleC5j",
+            "bG91ZC5vcGVyYXRpb24uT3BlcmF0aW9uIlSC0+STAh0qGy92cGMvdjEvc3Vi",
+            "bmV0cy97c3VibmV0X2lkfbLSKi0KFERlbGV0ZVN1Ym5ldE1ldGFkYXRhEhVn",
+            "b29nbGUucHJvdG9idWYuRW1wdHkSpQEKDkxpc3RPcGVyYXRpb25zEjAueWFu",
+            "ZGV4LmNsb3VkLnZwYy52MS5MaXN0U3VibmV0T3BlcmF0aW9uc1JlcXVlc3Qa",
+            "MS55YW5kZXguY2xvdWQudnBjLnYxLkxpc3RTdWJuZXRPcGVyYXRpb25zUmVz",
+            "cG9uc2UiLoLT5JMCKBImL3ZwYy92MS9zdWJuZXRzL3tzdWJuZXRfaWR9L29w",
+            "ZXJhdGlvbnMSngEKBE1vdmUSJi55YW5kZXguY2xvdWQudnBjLnYxLk1vdmVT",
             "dWJuZXRSZXF1ZXN0GiEueWFuZGV4LmNsb3VkLm9wZXJhdGlvbi5PcGVyYXRp",
-            "b24iVILT5JMCHSobL3ZwYy92MS9zdWJuZXRzL3tzdWJuZXRfaWR9stIqLQoU",
-            "RGVsZXRlU3VibmV0TWV0YWRhdGESFWdvb2dsZS5wcm90b2J1Zi5FbXB0eRKl",
-            "AQoOTGlzdE9wZXJhdGlvbnMSMC55YW5kZXguY2xvdWQudnBjLnYxLkxpc3RT",
-            "dWJuZXRPcGVyYXRpb25zUmVxdWVzdBoxLnlhbmRleC5jbG91ZC52cGMudjEu",
-            "TGlzdFN1Ym5ldE9wZXJhdGlvbnNSZXNwb25zZSIugtPkkwIoEiYvdnBjL3Yx",
-            "L3N1Ym5ldHMve3N1Ym5ldF9pZH0vb3BlcmF0aW9ucxKeAQoETW92ZRImLnlh",
-            "bmRleC5jbG91ZC52cGMudjEuTW92ZVN1Ym5ldFJlcXVlc3QaIS55YW5kZXgu",
-            "Y2xvdWQub3BlcmF0aW9uLk9wZXJhdGlvbiJLgtPkkwIlIiAvdnBjL3YxL3N1",
-            "Ym5ldHMve3N1Ym5ldF9pZH06bW92ZToBKrLSKhwKEk1vdmVTdWJuZXRNZXRh",
-            "ZGF0YRIGU3VibmV0QlYKF3lhbmRleC5jbG91ZC5hcGkudnBjLnYxWjtnaXRo",
-            "dWIuY29tL3lhbmRleC1jbG91ZC9nby1nZW5wcm90by95YW5kZXgvY2xvdWQv",
-            "dnBjL3YxO3ZwY2IGcHJvdG8z"));
+            "b24iS4LT5JMCJSIgL3ZwYy92MS9zdWJuZXRzL3tzdWJuZXRfaWR9Om1vdmU6",
+            "ASqy0iocChJNb3ZlU3VibmV0TWV0YWRhdGESBlN1Ym5ldBJyChFMaXN0VXNl",
+            "ZEFkZHJlc3NlcxItLnlhbmRleC5jbG91ZC52cGMudjEuTGlzdFVzZWRBZGRy",
+            "ZXNzZXNSZXF1ZXN0Gi4ueWFuZGV4LmNsb3VkLnZwYy52MS5MaXN0VXNlZEFk",
+            "ZHJlc3Nlc1Jlc3BvbnNlQlYKF3lhbmRleC5jbG91ZC5hcGkudnBjLnYxWjtn",
+            "aXRodWIuY29tL3lhbmRleC1jbG91ZC9nby1nZW5wcm90by95YW5kZXgvY2xv",
+            "dWQvdnBjL3YxO3ZwY2IGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Yandex.Cloud.Api.OperationReflection.Descriptor, global::Yandex.Cloud.Vpc.V1.SubnetReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Yandex.Cloud.Api.OperationReflection.Descriptor, global::Yandex.Cloud.Vpc.V1.SubnetReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, global::Yandex.Cloud.Reference.ReferenceReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.GetSubnetRequest), global::Yandex.Cloud.Vpc.V1.GetSubnetRequest.Parser, new[]{ "SubnetId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.ListSubnetsRequest), global::Yandex.Cloud.Vpc.V1.ListSubnetsRequest.Parser, new[]{ "FolderId", "PageSize", "PageToken", "Filter" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.ListSubnetsResponse), global::Yandex.Cloud.Vpc.V1.ListSubnetsResponse.Parser, new[]{ "Subnets", "NextPageToken" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.CreateSubnetRequest), global::Yandex.Cloud.Vpc.V1.CreateSubnetRequest.Parser, new[]{ "FolderId", "Name", "Description", "Labels", "NetworkId", "ZoneId", "V4CidrBlocks", "RouteTableId" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.CreateSubnetRequest), global::Yandex.Cloud.Vpc.V1.CreateSubnetRequest.Parser, new[]{ "FolderId", "Name", "Description", "Labels", "NetworkId", "ZoneId", "V4CidrBlocks", "RouteTableId", "DhcpOptions" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.CreateSubnetMetadata), global::Yandex.Cloud.Vpc.V1.CreateSubnetMetadata.Parser, new[]{ "SubnetId" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.UpdateSubnetRequest), global::Yandex.Cloud.Vpc.V1.UpdateSubnetRequest.Parser, new[]{ "SubnetId", "UpdateMask", "Name", "Description", "Labels", "RouteTableId" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.UpdateSubnetRequest), global::Yandex.Cloud.Vpc.V1.UpdateSubnetRequest.Parser, new[]{ "SubnetId", "UpdateMask", "Name", "Description", "Labels", "RouteTableId", "DhcpOptions" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.UpdateSubnetMetadata), global::Yandex.Cloud.Vpc.V1.UpdateSubnetMetadata.Parser, new[]{ "SubnetId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.DeleteSubnetRequest), global::Yandex.Cloud.Vpc.V1.DeleteSubnetRequest.Parser, new[]{ "SubnetId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.DeleteSubnetMetadata), global::Yandex.Cloud.Vpc.V1.DeleteSubnetMetadata.Parser, new[]{ "SubnetId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.ListSubnetOperationsRequest), global::Yandex.Cloud.Vpc.V1.ListSubnetOperationsRequest.Parser, new[]{ "SubnetId", "PageSize", "PageToken" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.ListSubnetOperationsResponse), global::Yandex.Cloud.Vpc.V1.ListSubnetOperationsResponse.Parser, new[]{ "Operations", "NextPageToken" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.MoveSubnetRequest), global::Yandex.Cloud.Vpc.V1.MoveSubnetRequest.Parser, new[]{ "SubnetId", "DestinationFolderId" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.MoveSubnetMetadata), global::Yandex.Cloud.Vpc.V1.MoveSubnetMetadata.Parser, new[]{ "SubnetId" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.MoveSubnetMetadata), global::Yandex.Cloud.Vpc.V1.MoveSubnetMetadata.Parser, new[]{ "SubnetId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.ListUsedAddressesRequest), global::Yandex.Cloud.Vpc.V1.ListUsedAddressesRequest.Parser, new[]{ "SubnetId", "PageSize", "PageToken", "Filter" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.ListUsedAddressesResponse), global::Yandex.Cloud.Vpc.V1.ListUsedAddressesResponse.Parser, new[]{ "Addresses", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.UsedAddress), global::Yandex.Cloud.Vpc.V1.UsedAddress.Parser, new[]{ "Address", "IpVersion", "References" }, null, null, null, null)
           }));
     }
     #endregion
@@ -676,6 +693,7 @@ namespace Yandex.Cloud.Vpc.V1 {
       zoneId_ = other.zoneId_;
       v4CidrBlocks_ = other.v4CidrBlocks_.Clone();
       routeTableId_ = other.routeTableId_;
+      dhcpOptions_ = other.dhcpOptions_ != null ? other.dhcpOptions_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -801,6 +819,17 @@ namespace Yandex.Cloud.Vpc.V1 {
       }
     }
 
+    /// <summary>Field number for the "dhcp_options" field.</summary>
+    public const int DhcpOptionsFieldNumber = 10;
+    private global::Yandex.Cloud.Vpc.V1.DhcpOptions dhcpOptions_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Vpc.V1.DhcpOptions DhcpOptions {
+      get { return dhcpOptions_; }
+      set {
+        dhcpOptions_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as CreateSubnetRequest);
@@ -822,6 +851,7 @@ namespace Yandex.Cloud.Vpc.V1 {
       if (ZoneId != other.ZoneId) return false;
       if(!v4CidrBlocks_.Equals(other.v4CidrBlocks_)) return false;
       if (RouteTableId != other.RouteTableId) return false;
+      if (!object.Equals(DhcpOptions, other.DhcpOptions)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -836,6 +866,7 @@ namespace Yandex.Cloud.Vpc.V1 {
       if (ZoneId.Length != 0) hash ^= ZoneId.GetHashCode();
       hash ^= v4CidrBlocks_.GetHashCode();
       if (RouteTableId.Length != 0) hash ^= RouteTableId.GetHashCode();
+      if (dhcpOptions_ != null) hash ^= DhcpOptions.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -875,6 +906,10 @@ namespace Yandex.Cloud.Vpc.V1 {
         output.WriteRawTag(74);
         output.WriteString(RouteTableId);
       }
+      if (dhcpOptions_ != null) {
+        output.WriteRawTag(82);
+        output.WriteMessage(DhcpOptions);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -902,6 +937,9 @@ namespace Yandex.Cloud.Vpc.V1 {
       size += v4CidrBlocks_.CalculateSize(_repeated_v4CidrBlocks_codec);
       if (RouteTableId.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(RouteTableId);
+      }
+      if (dhcpOptions_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(DhcpOptions);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -933,6 +971,12 @@ namespace Yandex.Cloud.Vpc.V1 {
       v4CidrBlocks_.Add(other.v4CidrBlocks_);
       if (other.RouteTableId.Length != 0) {
         RouteTableId = other.RouteTableId;
+      }
+      if (other.dhcpOptions_ != null) {
+        if (dhcpOptions_ == null) {
+          DhcpOptions = new global::Yandex.Cloud.Vpc.V1.DhcpOptions();
+        }
+        DhcpOptions.MergeFrom(other.DhcpOptions);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -975,6 +1019,13 @@ namespace Yandex.Cloud.Vpc.V1 {
           }
           case 74: {
             RouteTableId = input.ReadString();
+            break;
+          }
+          case 82: {
+            if (dhcpOptions_ == null) {
+              DhcpOptions = new global::Yandex.Cloud.Vpc.V1.DhcpOptions();
+            }
+            input.ReadMessage(DhcpOptions);
             break;
           }
         }
@@ -1146,6 +1197,7 @@ namespace Yandex.Cloud.Vpc.V1 {
       description_ = other.description_;
       labels_ = other.labels_.Clone();
       routeTableId_ = other.routeTableId_;
+      dhcpOptions_ = other.dhcpOptions_ != null ? other.dhcpOptions_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1238,6 +1290,17 @@ namespace Yandex.Cloud.Vpc.V1 {
       }
     }
 
+    /// <summary>Field number for the "dhcp_options" field.</summary>
+    public const int DhcpOptionsFieldNumber = 7;
+    private global::Yandex.Cloud.Vpc.V1.DhcpOptions dhcpOptions_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Vpc.V1.DhcpOptions DhcpOptions {
+      get { return dhcpOptions_; }
+      set {
+        dhcpOptions_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as UpdateSubnetRequest);
@@ -1257,6 +1320,7 @@ namespace Yandex.Cloud.Vpc.V1 {
       if (Description != other.Description) return false;
       if (!Labels.Equals(other.Labels)) return false;
       if (RouteTableId != other.RouteTableId) return false;
+      if (!object.Equals(DhcpOptions, other.DhcpOptions)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1269,6 +1333,7 @@ namespace Yandex.Cloud.Vpc.V1 {
       if (Description.Length != 0) hash ^= Description.GetHashCode();
       hash ^= Labels.GetHashCode();
       if (RouteTableId.Length != 0) hash ^= RouteTableId.GetHashCode();
+      if (dhcpOptions_ != null) hash ^= DhcpOptions.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1303,6 +1368,10 @@ namespace Yandex.Cloud.Vpc.V1 {
         output.WriteRawTag(50);
         output.WriteString(RouteTableId);
       }
+      if (dhcpOptions_ != null) {
+        output.WriteRawTag(58);
+        output.WriteMessage(DhcpOptions);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1326,6 +1395,9 @@ namespace Yandex.Cloud.Vpc.V1 {
       size += labels_.CalculateSize(_map_labels_codec);
       if (RouteTableId.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(RouteTableId);
+      }
+      if (dhcpOptions_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(DhcpOptions);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1356,6 +1428,12 @@ namespace Yandex.Cloud.Vpc.V1 {
       labels_.Add(other.labels_);
       if (other.RouteTableId.Length != 0) {
         RouteTableId = other.RouteTableId;
+      }
+      if (other.dhcpOptions_ != null) {
+        if (dhcpOptions_ == null) {
+          DhcpOptions = new global::Yandex.Cloud.Vpc.V1.DhcpOptions();
+        }
+        DhcpOptions.MergeFrom(other.DhcpOptions);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -1393,6 +1471,13 @@ namespace Yandex.Cloud.Vpc.V1 {
           }
           case 50: {
             RouteTableId = input.ReadString();
+            break;
+          }
+          case 58: {
+            if (dhcpOptions_ == null) {
+              DhcpOptions = new global::Yandex.Cloud.Vpc.V1.DhcpOptions();
+            }
+            input.ReadMessage(DhcpOptions);
             break;
           }
         }
@@ -2440,6 +2525,545 @@ namespace Yandex.Cloud.Vpc.V1 {
             break;
           case 10: {
             SubnetId = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  internal sealed partial class ListUsedAddressesRequest : pb::IMessage<ListUsedAddressesRequest> {
+    private static readonly pb::MessageParser<ListUsedAddressesRequest> _parser = new pb::MessageParser<ListUsedAddressesRequest>(() => new ListUsedAddressesRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<ListUsedAddressesRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Vpc.V1.SubnetServiceReflection.Descriptor.MessageTypes[13]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ListUsedAddressesRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ListUsedAddressesRequest(ListUsedAddressesRequest other) : this() {
+      subnetId_ = other.subnetId_;
+      pageSize_ = other.pageSize_;
+      pageToken_ = other.pageToken_;
+      filter_ = other.filter_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ListUsedAddressesRequest Clone() {
+      return new ListUsedAddressesRequest(this);
+    }
+
+    /// <summary>Field number for the "subnet_id" field.</summary>
+    public const int SubnetIdFieldNumber = 1;
+    private string subnetId_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string SubnetId {
+      get { return subnetId_; }
+      set {
+        subnetId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "page_size" field.</summary>
+    public const int PageSizeFieldNumber = 2;
+    private long pageSize_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long PageSize {
+      get { return pageSize_; }
+      set {
+        pageSize_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "page_token" field.</summary>
+    public const int PageTokenFieldNumber = 3;
+    private string pageToken_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string PageToken {
+      get { return pageToken_; }
+      set {
+        pageToken_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "filter" field.</summary>
+    public const int FilterFieldNumber = 4;
+    private string filter_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Filter {
+      get { return filter_; }
+      set {
+        filter_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as ListUsedAddressesRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(ListUsedAddressesRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (SubnetId != other.SubnetId) return false;
+      if (PageSize != other.PageSize) return false;
+      if (PageToken != other.PageToken) return false;
+      if (Filter != other.Filter) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (SubnetId.Length != 0) hash ^= SubnetId.GetHashCode();
+      if (PageSize != 0L) hash ^= PageSize.GetHashCode();
+      if (PageToken.Length != 0) hash ^= PageToken.GetHashCode();
+      if (Filter.Length != 0) hash ^= Filter.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (SubnetId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(SubnetId);
+      }
+      if (PageSize != 0L) {
+        output.WriteRawTag(16);
+        output.WriteInt64(PageSize);
+      }
+      if (PageToken.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(PageToken);
+      }
+      if (Filter.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(Filter);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (SubnetId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(SubnetId);
+      }
+      if (PageSize != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(PageSize);
+      }
+      if (PageToken.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(PageToken);
+      }
+      if (Filter.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Filter);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(ListUsedAddressesRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.SubnetId.Length != 0) {
+        SubnetId = other.SubnetId;
+      }
+      if (other.PageSize != 0L) {
+        PageSize = other.PageSize;
+      }
+      if (other.PageToken.Length != 0) {
+        PageToken = other.PageToken;
+      }
+      if (other.Filter.Length != 0) {
+        Filter = other.Filter;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            SubnetId = input.ReadString();
+            break;
+          }
+          case 16: {
+            PageSize = input.ReadInt64();
+            break;
+          }
+          case 26: {
+            PageToken = input.ReadString();
+            break;
+          }
+          case 34: {
+            Filter = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  internal sealed partial class ListUsedAddressesResponse : pb::IMessage<ListUsedAddressesResponse> {
+    private static readonly pb::MessageParser<ListUsedAddressesResponse> _parser = new pb::MessageParser<ListUsedAddressesResponse>(() => new ListUsedAddressesResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<ListUsedAddressesResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Vpc.V1.SubnetServiceReflection.Descriptor.MessageTypes[14]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ListUsedAddressesResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ListUsedAddressesResponse(ListUsedAddressesResponse other) : this() {
+      addresses_ = other.addresses_.Clone();
+      nextPageToken_ = other.nextPageToken_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ListUsedAddressesResponse Clone() {
+      return new ListUsedAddressesResponse(this);
+    }
+
+    /// <summary>Field number for the "addresses" field.</summary>
+    public const int AddressesFieldNumber = 1;
+    private static readonly pb::FieldCodec<global::Yandex.Cloud.Vpc.V1.UsedAddress> _repeated_addresses_codec
+        = pb::FieldCodec.ForMessage(10, global::Yandex.Cloud.Vpc.V1.UsedAddress.Parser);
+    private readonly pbc::RepeatedField<global::Yandex.Cloud.Vpc.V1.UsedAddress> addresses_ = new pbc::RepeatedField<global::Yandex.Cloud.Vpc.V1.UsedAddress>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<global::Yandex.Cloud.Vpc.V1.UsedAddress> Addresses {
+      get { return addresses_; }
+    }
+
+    /// <summary>Field number for the "next_page_token" field.</summary>
+    public const int NextPageTokenFieldNumber = 2;
+    private string nextPageToken_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string NextPageToken {
+      get { return nextPageToken_; }
+      set {
+        nextPageToken_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as ListUsedAddressesResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(ListUsedAddressesResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if(!addresses_.Equals(other.addresses_)) return false;
+      if (NextPageToken != other.NextPageToken) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      hash ^= addresses_.GetHashCode();
+      if (NextPageToken.Length != 0) hash ^= NextPageToken.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      addresses_.WriteTo(output, _repeated_addresses_codec);
+      if (NextPageToken.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(NextPageToken);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      size += addresses_.CalculateSize(_repeated_addresses_codec);
+      if (NextPageToken.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(NextPageToken);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(ListUsedAddressesResponse other) {
+      if (other == null) {
+        return;
+      }
+      addresses_.Add(other.addresses_);
+      if (other.NextPageToken.Length != 0) {
+        NextPageToken = other.NextPageToken;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            addresses_.AddEntriesFrom(input, _repeated_addresses_codec);
+            break;
+          }
+          case 18: {
+            NextPageToken = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  internal sealed partial class UsedAddress : pb::IMessage<UsedAddress> {
+    private static readonly pb::MessageParser<UsedAddress> _parser = new pb::MessageParser<UsedAddress>(() => new UsedAddress());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<UsedAddress> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Vpc.V1.SubnetServiceReflection.Descriptor.MessageTypes[15]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public UsedAddress() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public UsedAddress(UsedAddress other) : this() {
+      address_ = other.address_;
+      ipVersion_ = other.ipVersion_;
+      references_ = other.references_.Clone();
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public UsedAddress Clone() {
+      return new UsedAddress(this);
+    }
+
+    /// <summary>Field number for the "address" field.</summary>
+    public const int AddressFieldNumber = 1;
+    private string address_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Address {
+      get { return address_; }
+      set {
+        address_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ip_version" field.</summary>
+    public const int IpVersionFieldNumber = 2;
+    private global::Yandex.Cloud.Vpc.V1.IpVersion ipVersion_ = global::Yandex.Cloud.Vpc.V1.IpVersion.Unspecified;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Vpc.V1.IpVersion IpVersion {
+      get { return ipVersion_; }
+      set {
+        ipVersion_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "references" field.</summary>
+    public const int ReferencesFieldNumber = 3;
+    private static readonly pb::FieldCodec<global::Yandex.Cloud.Reference.Reference> _repeated_references_codec
+        = pb::FieldCodec.ForMessage(26, global::Yandex.Cloud.Reference.Reference.Parser);
+    private readonly pbc::RepeatedField<global::Yandex.Cloud.Reference.Reference> references_ = new pbc::RepeatedField<global::Yandex.Cloud.Reference.Reference>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<global::Yandex.Cloud.Reference.Reference> References {
+      get { return references_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as UsedAddress);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(UsedAddress other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Address != other.Address) return false;
+      if (IpVersion != other.IpVersion) return false;
+      if(!references_.Equals(other.references_)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Address.Length != 0) hash ^= Address.GetHashCode();
+      if (IpVersion != global::Yandex.Cloud.Vpc.V1.IpVersion.Unspecified) hash ^= IpVersion.GetHashCode();
+      hash ^= references_.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (Address.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Address);
+      }
+      if (IpVersion != global::Yandex.Cloud.Vpc.V1.IpVersion.Unspecified) {
+        output.WriteRawTag(16);
+        output.WriteEnum((int) IpVersion);
+      }
+      references_.WriteTo(output, _repeated_references_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Address.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Address);
+      }
+      if (IpVersion != global::Yandex.Cloud.Vpc.V1.IpVersion.Unspecified) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) IpVersion);
+      }
+      size += references_.CalculateSize(_repeated_references_codec);
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(UsedAddress other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Address.Length != 0) {
+        Address = other.Address;
+      }
+      if (other.IpVersion != global::Yandex.Cloud.Vpc.V1.IpVersion.Unspecified) {
+        IpVersion = other.IpVersion;
+      }
+      references_.Add(other.references_);
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Address = input.ReadString();
+            break;
+          }
+          case 16: {
+            IpVersion = (global::Yandex.Cloud.Vpc.V1.IpVersion) input.ReadEnum();
+            break;
+          }
+          case 26: {
+            references_.AddEntriesFrom(input, _repeated_references_codec);
             break;
           }
         }

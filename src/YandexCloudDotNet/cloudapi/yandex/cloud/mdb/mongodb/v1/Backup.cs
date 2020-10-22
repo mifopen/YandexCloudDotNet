@@ -26,18 +26,21 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
           string.Concat(
             "Cih5YW5kZXgvY2xvdWQvbWRiL21vbmdvZGIvdjEvYmFja3VwLnByb3RvEht5",
             "YW5kZXguY2xvdWQubWRiLm1vbmdvZGIudjEaH2dvb2dsZS9wcm90b2J1Zi90",
-            "aW1lc3RhbXAucHJvdG8ivgEKBkJhY2t1cBIKCgJpZBgBIAEoCRIRCglmb2xk",
+            "aW1lc3RhbXAucHJvdG8i0AIKBkJhY2t1cBIKCgJpZBgBIAEoCRIRCglmb2xk",
             "ZXJfaWQYAiABKAkSLgoKY3JlYXRlZF9hdBgDIAEoCzIaLmdvb2dsZS5wcm90",
             "b2J1Zi5UaW1lc3RhbXASGQoRc291cmNlX2NsdXN0ZXJfaWQYBCABKAkSLgoK",
             "c3RhcnRlZF9hdBgFIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXAS",
-            "GgoSc291cmNlX3NoYXJkX25hbWVzGAYgAygJQmoKH3lhbmRleC5jbG91ZC5h",
-            "cGkubWRiLm1vbmdvZGIudjFaR2dpdGh1Yi5jb20veWFuZGV4LWNsb3VkL2dv",
-            "LWdlbnByb3RvL3lhbmRleC9jbG91ZC9tZGIvbW9uZ29kYi92MTttb25nb2Ri",
-            "YgZwcm90bzM="));
+            "GgoSc291cmNlX3NoYXJkX25hbWVzGAYgAygJEgwKBHNpemUYByABKAMSPAoE",
+            "dHlwZRgIIAEoDjIuLnlhbmRleC5jbG91ZC5tZGIubW9uZ29kYi52MS5CYWNr",
+            "dXAuQmFja3VwVHlwZSJECgpCYWNrdXBUeXBlEhsKF0JBQ0tVUF9UWVBFX1VO",
+            "U1BFQ0lGSUVEEAASDQoJQVVUT01BVEVEEAESCgoGTUFOVUFMEAJCagofeWFu",
+            "ZGV4LmNsb3VkLmFwaS5tZGIubW9uZ29kYi52MVpHZ2l0aHViLmNvbS95YW5k",
+            "ZXgtY2xvdWQvZ28tZ2VucHJvdG8veWFuZGV4L2Nsb3VkL21kYi9tb25nb2Ri",
+            "L3YxO21vbmdvZGJiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Backup), global::Yandex.Cloud.Mdb.Mongodb.V1.Backup.Parser, new[]{ "Id", "FolderId", "CreatedAt", "SourceClusterId", "StartedAt", "SourceShardNames" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Backup), global::Yandex.Cloud.Mdb.Mongodb.V1.Backup.Parser, new[]{ "Id", "FolderId", "CreatedAt", "SourceClusterId", "StartedAt", "SourceShardNames", "Size", "Type" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Mongodb.V1.Backup.Types.BackupType) }, null, null)
           }));
     }
     #endregion
@@ -79,6 +82,8 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
       sourceClusterId_ = other.sourceClusterId_;
       startedAt_ = other.startedAt_ != null ? other.startedAt_.Clone() : null;
       sourceShardNames_ = other.sourceShardNames_.Clone();
+      size_ = other.size_;
+      type_ = other.type_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -171,6 +176,34 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
       get { return sourceShardNames_; }
     }
 
+    /// <summary>Field number for the "size" field.</summary>
+    public const int SizeFieldNumber = 7;
+    private long size_;
+    /// <summary>
+    /// Size of backup in bytes
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long Size {
+      get { return size_; }
+      set {
+        size_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "type" field.</summary>
+    public const int TypeFieldNumber = 8;
+    private global::Yandex.Cloud.Mdb.Mongodb.V1.Backup.Types.BackupType type_ = global::Yandex.Cloud.Mdb.Mongodb.V1.Backup.Types.BackupType.Unspecified;
+    /// <summary>
+    /// How this backup was created (manual/automatic/etc...)
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Mdb.Mongodb.V1.Backup.Types.BackupType Type {
+      get { return type_; }
+      set {
+        type_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as Backup);
@@ -190,6 +223,8 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
       if (SourceClusterId != other.SourceClusterId) return false;
       if (!object.Equals(StartedAt, other.StartedAt)) return false;
       if(!sourceShardNames_.Equals(other.sourceShardNames_)) return false;
+      if (Size != other.Size) return false;
+      if (Type != other.Type) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -202,6 +237,8 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
       if (SourceClusterId.Length != 0) hash ^= SourceClusterId.GetHashCode();
       if (startedAt_ != null) hash ^= StartedAt.GetHashCode();
       hash ^= sourceShardNames_.GetHashCode();
+      if (Size != 0L) hash ^= Size.GetHashCode();
+      if (Type != global::Yandex.Cloud.Mdb.Mongodb.V1.Backup.Types.BackupType.Unspecified) hash ^= Type.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -236,6 +273,14 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
         output.WriteMessage(StartedAt);
       }
       sourceShardNames_.WriteTo(output, _repeated_sourceShardNames_codec);
+      if (Size != 0L) {
+        output.WriteRawTag(56);
+        output.WriteInt64(Size);
+      }
+      if (Type != global::Yandex.Cloud.Mdb.Mongodb.V1.Backup.Types.BackupType.Unspecified) {
+        output.WriteRawTag(64);
+        output.WriteEnum((int) Type);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -260,6 +305,12 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(StartedAt);
       }
       size += sourceShardNames_.CalculateSize(_repeated_sourceShardNames_codec);
+      if (Size != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(Size);
+      }
+      if (Type != global::Yandex.Cloud.Mdb.Mongodb.V1.Backup.Types.BackupType.Unspecified) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Type);
+      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -293,6 +344,12 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
         StartedAt.MergeFrom(other.StartedAt);
       }
       sourceShardNames_.Add(other.sourceShardNames_);
+      if (other.Size != 0L) {
+        Size = other.Size;
+      }
+      if (other.Type != global::Yandex.Cloud.Mdb.Mongodb.V1.Backup.Types.BackupType.Unspecified) {
+        Type = other.Type;
+      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -334,9 +391,36 @@ namespace Yandex.Cloud.Mdb.Mongodb.V1 {
             sourceShardNames_.AddEntriesFrom(input, _repeated_sourceShardNames_codec);
             break;
           }
+          case 56: {
+            Size = input.ReadInt64();
+            break;
+          }
+          case 64: {
+            Type = (global::Yandex.Cloud.Mdb.Mongodb.V1.Backup.Types.BackupType) input.ReadEnum();
+            break;
+          }
         }
       }
     }
+
+    #region Nested types
+    /// <summary>Container for nested types declared in the Backup message type.</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static partial class Types {
+      internal enum BackupType {
+        [pbr::OriginalName("BACKUP_TYPE_UNSPECIFIED")] Unspecified = 0,
+        /// <summary>
+        /// Backup created by automated daily schedule
+        /// </summary>
+        [pbr::OriginalName("AUTOMATED")] Automated = 1,
+        /// <summary>
+        /// Backup created by user request
+        /// </summary>
+        [pbr::OriginalName("MANUAL")] Manual = 2,
+      }
+
+    }
+    #endregion
 
   }
 

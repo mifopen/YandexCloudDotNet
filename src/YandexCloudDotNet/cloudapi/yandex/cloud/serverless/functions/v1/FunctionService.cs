@@ -77,7 +77,7 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
             "CUIJisgxBTw9MTAwEhoKBmZpbHRlchgEIAEoCUIKisgxBjw9MTAwMCJwCh5M",
             "aXN0RnVuY3Rpb25PcGVyYXRpb25zUmVzcG9uc2USNQoKb3BlcmF0aW9ucxgB",
             "IAMoCzIhLnlhbmRleC5jbG91ZC5vcGVyYXRpb24uT3BlcmF0aW9uEhcKD25l",
-            "eHRfcGFnZV90b2tlbhgCIAEoCSKYBQocQ3JlYXRlRnVuY3Rpb25WZXJzaW9u",
+            "eHRfcGFnZV90b2tlbhgCIAEoCSLyBQocQ3JlYXRlRnVuY3Rpb25WZXJzaW9u",
             "UmVxdWVzdBIZCgtmdW5jdGlvbl9pZBgBIAEoCUIE6McxARIVCgdydW50aW1l",
             "GAIgASgJQgToxzEBEh4KC2Rlc2NyaXB0aW9uGAMgASgJQgmKyDEFMC0yNTYS",
             "GAoKZW50cnlwb2ludBgEIAEoCUIE6McxARJICglyZXNvdXJjZXMYBSABKAsy",
@@ -86,13 +86,15 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
             "LnByb3RvYnVmLkR1cmF0aW9uQgToxzEBEhoKEnNlcnZpY2VfYWNjb3VudF9p",
             "ZBgHIAEoCRJACgdwYWNrYWdlGAkgASgLMi0ueWFuZGV4LmNsb3VkLnNlcnZl",
             "cmxlc3MuZnVuY3Rpb25zLnYxLlBhY2thZ2VIABIhCgdjb250ZW50GAogASgM",
-            "Qg6KyDEKPD01MjQyODgwMEgAEo8BCgtlbnZpcm9ubWVudBgMIAMoCzJTLnlh",
-            "bmRleC5jbG91ZC5zZXJ2ZXJsZXNzLmZ1bmN0aW9ucy52MS5DcmVhdGVGdW5j",
-            "dGlvblZlcnNpb25SZXF1ZXN0LkVudmlyb25tZW50RW50cnlCJYrIMQY8PTQw",
-            "OTayyDEXEhVbYS16QS1aXVthLXpBLVowLTlfXSoSIQoDdGFnGA0gAygJQhTy",
-            "xzEQW2Etel1bLV8wLTlhLXpdKhoyChBFbnZpcm9ubWVudEVudHJ5EgsKA2tl",
-            "eRgBIAEoCRINCgV2YWx1ZRgCIAEoCToCOAFCFgoOcGFja2FnZV9zb3VyY2US",
-            "BMDBMQFKBAgIEAkiPAodQ3JlYXRlRnVuY3Rpb25WZXJzaW9uTWV0YWRhdGES",
+            "Qg6KyDEKPD01MjQyODgwMEgAEhQKCnZlcnNpb25faWQYCyABKAlIABKPAQoL",
+            "ZW52aXJvbm1lbnQYDCADKAsyUy55YW5kZXguY2xvdWQuc2VydmVybGVzcy5m",
+            "dW5jdGlvbnMudjEuQ3JlYXRlRnVuY3Rpb25WZXJzaW9uUmVxdWVzdC5FbnZp",
+            "cm9ubWVudEVudHJ5QiWKyDEGPD00MDk2ssgxFxIVW2EtekEtWl1bYS16QS1a",
+            "MC05X10qEiEKA3RhZxgNIAMoCUIU8scxEFthLXpdWy1fMC05YS16XSoSSAoM",
+            "Y29ubmVjdGl2aXR5GBEgASgLMjIueWFuZGV4LmNsb3VkLnNlcnZlcmxlc3Mu",
+            "ZnVuY3Rpb25zLnYxLkNvbm5lY3Rpdml0eRoyChBFbnZpcm9ubWVudEVudHJ5",
+            "EgsKA2tleRgBIAEoCRINCgV2YWx1ZRgCIAEoCToCOAFCFgoOcGFja2FnZV9z",
+            "b3VyY2USBMDBMQEiPAodQ3JlYXRlRnVuY3Rpb25WZXJzaW9uTWV0YWRhdGES",
             "GwoTZnVuY3Rpb25fdmVyc2lvbl9pZBgBIAEoCSJdChVTZXRGdW5jdGlvblRh",
             "Z1JlcXVlc3QSIQoTZnVuY3Rpb25fdmVyc2lvbl9pZBgBIAEoCUIE6McxARIh",
             "CgN0YWcYAiABKAlCFPLHMRBbYS16XVstXzAtOWEtel0qImAKGFJlbW92ZUZ1",
@@ -212,7 +214,7 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Functions.V1.ListFunctionsVersionsResponse), global::Yandex.Cloud.Serverless.Functions.V1.ListFunctionsVersionsResponse.Parser, new[]{ "Versions", "NextPageToken" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Functions.V1.ListFunctionOperationsRequest), global::Yandex.Cloud.Serverless.Functions.V1.ListFunctionOperationsRequest.Parser, new[]{ "FunctionId", "PageSize", "PageToken", "Filter" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Functions.V1.ListFunctionOperationsResponse), global::Yandex.Cloud.Serverless.Functions.V1.ListFunctionOperationsResponse.Parser, new[]{ "Operations", "NextPageToken" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Functions.V1.CreateFunctionVersionRequest), global::Yandex.Cloud.Serverless.Functions.V1.CreateFunctionVersionRequest.Parser, new[]{ "FunctionId", "Runtime", "Description", "Entrypoint", "Resources", "ExecutionTimeout", "ServiceAccountId", "Package", "Content", "Environment", "Tag" }, new[]{ "PackageSource" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Functions.V1.CreateFunctionVersionRequest), global::Yandex.Cloud.Serverless.Functions.V1.CreateFunctionVersionRequest.Parser, new[]{ "FunctionId", "Runtime", "Description", "Entrypoint", "Resources", "ExecutionTimeout", "ServiceAccountId", "Package", "Content", "VersionId", "Environment", "Tag", "Connectivity" }, new[]{ "PackageSource" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Functions.V1.CreateFunctionVersionMetadata), global::Yandex.Cloud.Serverless.Functions.V1.CreateFunctionVersionMetadata.Parser, new[]{ "FunctionVersionId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Functions.V1.SetFunctionTagRequest), global::Yandex.Cloud.Serverless.Functions.V1.SetFunctionTagRequest.Parser, new[]{ "FunctionVersionId", "Tag" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Functions.V1.RemoveFunctionTagRequest), global::Yandex.Cloud.Serverless.Functions.V1.RemoveFunctionTagRequest.Parser, new[]{ "FunctionVersionId", "Tag" }, null, null, null, null),
@@ -3183,12 +3185,16 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
       serviceAccountId_ = other.serviceAccountId_;
       environment_ = other.environment_.Clone();
       tag_ = other.tag_.Clone();
+      connectivity_ = other.connectivity_ != null ? other.connectivity_.Clone() : null;
       switch (other.PackageSourceCase) {
         case PackageSourceOneofCase.Package:
           Package = other.Package.Clone();
           break;
         case PackageSourceOneofCase.Content:
           Content = other.Content;
+          break;
+        case PackageSourceOneofCase.VersionId:
+          VersionId = other.VersionId;
           break;
       }
 
@@ -3330,6 +3336,21 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
       }
     }
 
+    /// <summary>Field number for the "version_id" field.</summary>
+    public const int VersionIdFieldNumber = 11;
+    /// <summary>
+    /// ID of the version to be copied from. Source version must belong to the same folder as the created version
+    /// and the user must have read permissions to the source version.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string VersionId {
+      get { return packageSourceCase_ == PackageSourceOneofCase.VersionId ? (string) packageSource_ : ""; }
+      set {
+        packageSource_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+        packageSourceCase_ = PackageSourceOneofCase.VersionId;
+      }
+    }
+
     /// <summary>Field number for the "environment" field.</summary>
     public const int EnvironmentFieldNumber = 12;
     private static readonly pbc::MapField<string, string>.Codec _map_environment_codec
@@ -3356,12 +3377,27 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
       get { return tag_; }
     }
 
+    /// <summary>Field number for the "connectivity" field.</summary>
+    public const int ConnectivityFieldNumber = 17;
+    private global::Yandex.Cloud.Serverless.Functions.V1.Connectivity connectivity_;
+    /// <summary>
+    /// Function version connectivity. If specified the version will be attached to specified network/subnet(s).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Serverless.Functions.V1.Connectivity Connectivity {
+      get { return connectivity_; }
+      set {
+        connectivity_ = value;
+      }
+    }
+
     private object packageSource_;
     /// <summary>Enum of possible cases for the "package_source" oneof.</summary>
     public enum PackageSourceOneofCase {
       None = 0,
       Package = 9,
       Content = 10,
+      VersionId = 11,
     }
     private PackageSourceOneofCase packageSourceCase_ = PackageSourceOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3397,8 +3433,10 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
       if (ServiceAccountId != other.ServiceAccountId) return false;
       if (!object.Equals(Package, other.Package)) return false;
       if (Content != other.Content) return false;
+      if (VersionId != other.VersionId) return false;
       if (!Environment.Equals(other.Environment)) return false;
       if(!tag_.Equals(other.tag_)) return false;
+      if (!object.Equals(Connectivity, other.Connectivity)) return false;
       if (PackageSourceCase != other.PackageSourceCase) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -3415,8 +3453,10 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
       if (ServiceAccountId.Length != 0) hash ^= ServiceAccountId.GetHashCode();
       if (packageSourceCase_ == PackageSourceOneofCase.Package) hash ^= Package.GetHashCode();
       if (packageSourceCase_ == PackageSourceOneofCase.Content) hash ^= Content.GetHashCode();
+      if (packageSourceCase_ == PackageSourceOneofCase.VersionId) hash ^= VersionId.GetHashCode();
       hash ^= Environment.GetHashCode();
       hash ^= tag_.GetHashCode();
+      if (connectivity_ != null) hash ^= Connectivity.GetHashCode();
       hash ^= (int) packageSourceCase_;
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -3467,8 +3507,16 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
         output.WriteRawTag(82);
         output.WriteBytes(Content);
       }
+      if (packageSourceCase_ == PackageSourceOneofCase.VersionId) {
+        output.WriteRawTag(90);
+        output.WriteString(VersionId);
+      }
       environment_.WriteTo(output, _map_environment_codec);
       tag_.WriteTo(output, _repeated_tag_codec);
+      if (connectivity_ != null) {
+        output.WriteRawTag(138, 1);
+        output.WriteMessage(Connectivity);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -3504,8 +3552,14 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
       if (packageSourceCase_ == PackageSourceOneofCase.Content) {
         size += 1 + pb::CodedOutputStream.ComputeBytesSize(Content);
       }
+      if (packageSourceCase_ == PackageSourceOneofCase.VersionId) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(VersionId);
+      }
       size += environment_.CalculateSize(_map_environment_codec);
       size += tag_.CalculateSize(_repeated_tag_codec);
+      if (connectivity_ != null) {
+        size += 2 + pb::CodedOutputStream.ComputeMessageSize(Connectivity);
+      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -3546,6 +3600,12 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
       }
       environment_.Add(other.environment_);
       tag_.Add(other.tag_);
+      if (other.connectivity_ != null) {
+        if (connectivity_ == null) {
+          Connectivity = new global::Yandex.Cloud.Serverless.Functions.V1.Connectivity();
+        }
+        Connectivity.MergeFrom(other.Connectivity);
+      }
       switch (other.PackageSourceCase) {
         case PackageSourceOneofCase.Package:
           if (Package == null) {
@@ -3555,6 +3615,9 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
           break;
         case PackageSourceOneofCase.Content:
           Content = other.Content;
+          break;
+        case PackageSourceOneofCase.VersionId:
+          VersionId = other.VersionId;
           break;
       }
 
@@ -3616,12 +3679,23 @@ namespace Yandex.Cloud.Serverless.Functions.V1 {
             Content = input.ReadBytes();
             break;
           }
+          case 90: {
+            VersionId = input.ReadString();
+            break;
+          }
           case 98: {
             environment_.AddEntriesFrom(input, _map_environment_codec);
             break;
           }
           case 106: {
             tag_.AddEntriesFrom(input, _repeated_tag_codec);
+            break;
+          }
+          case 138: {
+            if (connectivity_ == null) {
+              Connectivity = new global::Yandex.Cloud.Serverless.Functions.V1.Connectivity();
+            }
+            input.ReadMessage(Connectivity);
             break;
           }
         }

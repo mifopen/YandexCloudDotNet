@@ -10,6 +10,7 @@ using grpc = global::Grpc.Core;
 namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
   /// <summary>
   /// A set of methods for managing ClickHouse Database resources.
+  /// NOTE: these methods are available only if database management through SQL is disabled.
   /// </summary>
   internal static partial class DatabaseService
   {
