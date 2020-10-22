@@ -28,98 +28,112 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
             "LnByb3RvEiN5YW5kZXguY2xvdWQuc2VydmVybGVzcy50cmlnZ2Vycy52MRoe",
             "Z29vZ2xlL3Byb3RvYnVmL2R1cmF0aW9uLnByb3RvGh9nb29nbGUvcHJvdG9i",
             "dWYvdGltZXN0YW1wLnByb3RvGh15YW5kZXgvY2xvdWQvdmFsaWRhdGlvbi5w",
-            "cm90byKdFAoHVHJpZ2dlchIKCgJpZBgBIAEoCRIfCglmb2xkZXJfaWQYAiAB",
+            "cm90byLSFwoHVHJpZ2dlchIKCgJpZBgBIAEoCRIfCglmb2xkZXJfaWQYAiAB",
             "KAlCDOjHMQGKyDEEPD01MBIuCgpjcmVhdGVkX2F0GAMgASgLMhouZ29vZ2xl",
             "LnByb3RvYnVmLlRpbWVzdGFtcBIWCgRuYW1lGAQgASgJQgiKyDEEMy02MxIe",
             "CgtkZXNjcmlwdGlvbhgFIAEoCUIJisgxBTAtMjU2EkgKBmxhYmVscxgGIAMo",
             "CzI4LnlhbmRleC5jbG91ZC5zZXJ2ZXJsZXNzLnRyaWdnZXJzLnYxLlRyaWdn",
             "ZXIuTGFiZWxzRW50cnkSRQoEcnVsZRgIIAEoCzIxLnlhbmRleC5jbG91ZC5z",
-            "ZXJ2ZXJsZXNzLnRyaWdnZXJzLnYxLlRyaWdnZXIuUnVsZUIE6McxARotCgtM",
-            "YWJlbHNFbnRyeRILCgNrZXkYASABKAkSDQoFdmFsdWUYAiABKAk6AjgBGrED",
-            "CgRSdWxlEkMKBXRpbWVyGAIgASgLMjIueWFuZGV4LmNsb3VkLnNlcnZlcmxl",
-            "c3MudHJpZ2dlcnMudjEuVHJpZ2dlci5UaW1lckgAElIKDW1lc3NhZ2VfcXVl",
-            "dWUYAyABKAsyOS55YW5kZXguY2xvdWQuc2VydmVybGVzcy50cmlnZ2Vycy52",
-            "MS5UcmlnZ2VyLk1lc3NhZ2VRdWV1ZUgAEk4KC2lvdF9tZXNzYWdlGAQgASgL",
-            "MjcueWFuZGV4LmNsb3VkLnNlcnZlcmxlc3MudHJpZ2dlcnMudjEuVHJpZ2dl",
-            "ci5Jb1RNZXNzYWdlSAASVAoOb2JqZWN0X3N0b3JhZ2UYBSABKAsyOi55YW5k",
-            "ZXguY2xvdWQuc2VydmVybGVzcy50cmlnZ2Vycy52MS5UcmlnZ2VyLk9iamVj",
-            "dFN0b3JhZ2VIABJcChJjb250YWluZXJfcmVnaXN0cnkYBiABKAsyPi55YW5k",
-            "ZXguY2xvdWQuc2VydmVybGVzcy50cmlnZ2Vycy52MS5UcmlnZ2VyLkNvbnRh",
-            "aW5lclJlZ2lzdHJ5SABCDAoEcnVsZRIEwMExARr3AQoFVGltZXISJgoPY3Jv",
-            "bl9leHByZXNzaW9uGAEgASgJQg3oxzEBisgxBTw9MTAwElIKD2ludm9rZV9m",
-            "dW5jdGlvbhhlIAEoCzI3LnlhbmRleC5jbG91ZC5zZXJ2ZXJsZXNzLnRyaWdn",
-            "ZXJzLnYxLkludm9rZUZ1bmN0aW9uT25jZUgAEmIKGmludm9rZV9mdW5jdGlv",
-            "bl93aXRoX3JldHJ5GGcgASgLMjwueWFuZGV4LmNsb3VkLnNlcnZlcmxlc3Mu",
-            "dHJpZ2dlcnMudjEuSW52b2tlRnVuY3Rpb25XaXRoUmV0cnlIAEIOCgZhY3Rp",
-            "b24SBMDBMQEayAIKDE1lc3NhZ2VRdWV1ZRIWCghxdWV1ZV9pZBgLIAEoCUIE",
-            "6McxARIoChJzZXJ2aWNlX2FjY291bnRfaWQYAyABKAlCDOjHMQGKyDEEPD01",
-            "MBJQCg5iYXRjaF9zZXR0aW5ncxgEIAEoCzIyLnlhbmRleC5jbG91ZC5zZXJ2",
-            "ZXJsZXNzLnRyaWdnZXJzLnYxLkJhdGNoU2V0dGluZ3NCBOjHMQESQAoSdmlz",
-            "aWJpbGl0eV90aW1lb3V0GAUgASgLMhkuZ29vZ2xlLnByb3RvYnVmLkR1cmF0",
-            "aW9uQgn6xzEFPD0xMmgSUgoPaW52b2tlX2Z1bmN0aW9uGGUgASgLMjcueWFu",
-            "ZGV4LmNsb3VkLnNlcnZlcmxlc3MudHJpZ2dlcnMudjEuSW52b2tlRnVuY3Rp",
-            "b25PbmNlSABCDgoGYWN0aW9uEgTAwTEBGrcBCgpJb1RNZXNzYWdlEhkKC3Jl",
-            "Z2lzdHJ5X2lkGAEgASgJQgToxzEBEhEKCWRldmljZV9pZBgCIAEoCRISCgpt",
-            "cXR0X3RvcGljGAMgASgJElcKD2ludm9rZV9mdW5jdGlvbhhlIAEoCzI8Lnlh",
-            "bmRleC5jbG91ZC5zZXJ2ZXJsZXNzLnRyaWdnZXJzLnYxLkludm9rZUZ1bmN0",
-            "aW9uV2l0aFJldHJ5SABCDgoGYWN0aW9uEgTAwTEBGowCCg1PYmplY3RTdG9y",
-            "YWdlEl8KCmV2ZW50X3R5cGUYAyADKA4yQy55YW5kZXguY2xvdWQuc2VydmVy",
-            "bGVzcy50cmlnZ2Vycy52MS5UcmlnZ2VyLk9iamVjdFN0b3JhZ2VFdmVudFR5",
-            "cGVCBoLIMQI+MBIRCglidWNrZXRfaWQYBCABKAkSDgoGcHJlZml4GAYgASgJ",
-            "Eg4KBnN1ZmZpeBgHIAEoCRJXCg9pbnZva2VfZnVuY3Rpb24YZSABKAsyPC55",
-            "YW5kZXguY2xvdWQuc2VydmVybGVzcy50cmlnZ2Vycy52MS5JbnZva2VGdW5j",
-            "dGlvbldpdGhSZXRyeUgAQg4KBmFjdGlvbhIEwMExARqXAgoRQ29udGFpbmVy",
-            "UmVnaXN0cnkSYwoKZXZlbnRfdHlwZRgDIAMoDjJHLnlhbmRleC5jbG91ZC5z",
-            "ZXJ2ZXJsZXNzLnRyaWdnZXJzLnYxLlRyaWdnZXIuQ29udGFpbmVyUmVnaXN0",
-            "cnlFdmVudFR5cGVCBoLIMQI+MBITCgtyZWdpc3RyeV9pZBgEIAEoCRISCgpp",
-            "bWFnZV9uYW1lGAUgASgJEgsKA3RhZxgGIAEoCRJXCg9pbnZva2VfZnVuY3Rp",
+            "ZXJ2ZXJsZXNzLnRyaWdnZXJzLnYxLlRyaWdnZXIuUnVsZUIE6McxARJDCgZz",
+            "dGF0dXMYCSABKA4yMy55YW5kZXguY2xvdWQuc2VydmVybGVzcy50cmlnZ2Vy",
+            "cy52MS5UcmlnZ2VyLlN0YXR1cxotCgtMYWJlbHNFbnRyeRILCgNrZXkYASAB",
+            "KAkSDQoFdmFsdWUYAiABKAk6AjgBGv8DCgRSdWxlEkMKBXRpbWVyGAIgASgL",
+            "MjIueWFuZGV4LmNsb3VkLnNlcnZlcmxlc3MudHJpZ2dlcnMudjEuVHJpZ2dl",
+            "ci5UaW1lckgAElIKDW1lc3NhZ2VfcXVldWUYAyABKAsyOS55YW5kZXguY2xv",
+            "dWQuc2VydmVybGVzcy50cmlnZ2Vycy52MS5UcmlnZ2VyLk1lc3NhZ2VRdWV1",
+            "ZUgAEk4KC2lvdF9tZXNzYWdlGAQgASgLMjcueWFuZGV4LmNsb3VkLnNlcnZl",
+            "cmxlc3MudHJpZ2dlcnMudjEuVHJpZ2dlci5Jb1RNZXNzYWdlSAASVAoOb2Jq",
+            "ZWN0X3N0b3JhZ2UYBSABKAsyOi55YW5kZXguY2xvdWQuc2VydmVybGVzcy50",
+            "cmlnZ2Vycy52MS5UcmlnZ2VyLk9iamVjdFN0b3JhZ2VIABJcChJjb250YWlu",
+            "ZXJfcmVnaXN0cnkYBiABKAsyPi55YW5kZXguY2xvdWQuc2VydmVybGVzcy50",
+            "cmlnZ2Vycy52MS5UcmlnZ2VyLkNvbnRhaW5lclJlZ2lzdHJ5SAASTAoKY2xv",
+            "dWRfbG9ncxgJIAEoCzI2LnlhbmRleC5jbG91ZC5zZXJ2ZXJsZXNzLnRyaWdn",
+            "ZXJzLnYxLlRyaWdnZXIuQ2xvdWRMb2dzSABCDAoEcnVsZRIEwMExARr3AQoF",
+            "VGltZXISJgoPY3Jvbl9leHByZXNzaW9uGAEgASgJQg3oxzEBisgxBTw9MTAw",
+            "ElIKD2ludm9rZV9mdW5jdGlvbhhlIAEoCzI3LnlhbmRleC5jbG91ZC5zZXJ2",
+            "ZXJsZXNzLnRyaWdnZXJzLnYxLkludm9rZUZ1bmN0aW9uT25jZUgAEmIKGmlu",
+            "dm9rZV9mdW5jdGlvbl93aXRoX3JldHJ5GGcgASgLMjwueWFuZGV4LmNsb3Vk",
+            "LnNlcnZlcmxlc3MudHJpZ2dlcnMudjEuSW52b2tlRnVuY3Rpb25XaXRoUmV0",
+            "cnlIAEIOCgZhY3Rpb24SBMDBMQEayAIKDE1lc3NhZ2VRdWV1ZRIWCghxdWV1",
+            "ZV9pZBgLIAEoCUIE6McxARIoChJzZXJ2aWNlX2FjY291bnRfaWQYAyABKAlC",
+            "DOjHMQGKyDEEPD01MBJQCg5iYXRjaF9zZXR0aW5ncxgEIAEoCzIyLnlhbmRl",
+            "eC5jbG91ZC5zZXJ2ZXJsZXNzLnRyaWdnZXJzLnYxLkJhdGNoU2V0dGluZ3NC",
+            "BOjHMQESQAoSdmlzaWJpbGl0eV90aW1lb3V0GAUgASgLMhkuZ29vZ2xlLnBy",
+            "b3RvYnVmLkR1cmF0aW9uQgn6xzEFPD0xMmgSUgoPaW52b2tlX2Z1bmN0aW9u",
+            "GGUgASgLMjcueWFuZGV4LmNsb3VkLnNlcnZlcmxlc3MudHJpZ2dlcnMudjEu",
+            "SW52b2tlRnVuY3Rpb25PbmNlSABCDgoGYWN0aW9uEgTAwTEBGrcBCgpJb1RN",
+            "ZXNzYWdlEhkKC3JlZ2lzdHJ5X2lkGAEgASgJQgToxzEBEhEKCWRldmljZV9p",
+            "ZBgCIAEoCRISCgptcXR0X3RvcGljGAMgASgJElcKD2ludm9rZV9mdW5jdGlv",
+            "bhhlIAEoCzI8LnlhbmRleC5jbG91ZC5zZXJ2ZXJsZXNzLnRyaWdnZXJzLnYx",
+            "Lkludm9rZUZ1bmN0aW9uV2l0aFJldHJ5SABCDgoGYWN0aW9uEgTAwTEBGowC",
+            "Cg1PYmplY3RTdG9yYWdlEl8KCmV2ZW50X3R5cGUYAyADKA4yQy55YW5kZXgu",
+            "Y2xvdWQuc2VydmVybGVzcy50cmlnZ2Vycy52MS5UcmlnZ2VyLk9iamVjdFN0",
+            "b3JhZ2VFdmVudFR5cGVCBoLIMQI+MBIRCglidWNrZXRfaWQYBCABKAkSDgoG",
+            "cHJlZml4GAYgASgJEg4KBnN1ZmZpeBgHIAEoCRJXCg9pbnZva2VfZnVuY3Rp",
             "b24YZSABKAsyPC55YW5kZXguY2xvdWQuc2VydmVybGVzcy50cmlnZ2Vycy52",
-            "MS5JbnZva2VGdW5jdGlvbldpdGhSZXRyeUgAQg4KBmFjdGlvbhIEwMExASLK",
-            "AQoWT2JqZWN0U3RvcmFnZUV2ZW50VHlwZRIpCiVPQkpFQ1RfU1RPUkFHRV9F",
-            "VkVOVF9UWVBFX1VOU1BFQ0lGSUVEEAASKwonT0JKRUNUX1NUT1JBR0VfRVZF",
-            "TlRfVFlQRV9DUkVBVEVfT0JKRUNUEAESKwonT0JKRUNUX1NUT1JBR0VfRVZF",
-            "TlRfVFlQRV9VUERBVEVfT0JKRUNUEAISKwonT0JKRUNUX1NUT1JBR0VfRVZF",
-            "TlRfVFlQRV9ERUxFVEVfT0JKRUNUEAMikwIKGkNvbnRhaW5lclJlZ2lzdHJ5",
-            "RXZlbnRUeXBlEi0KKUNPTlRBSU5FUl9SRUdJU1RSWV9FVkVOVF9UWVBFX1VO",
-            "U1BFQ0lGSUVEEAASLgoqQ09OVEFJTkVSX1JFR0lTVFJZX0VWRU5UX1RZUEVf",
-            "Q1JFQVRFX0lNQUdFEAESLgoqQ09OVEFJTkVSX1JFR0lTVFJZX0VWRU5UX1RZ",
-            "UEVfREVMRVRFX0lNQUdFEAISMgouQ09OVEFJTkVSX1JFR0lTVFJZX0VWRU5U",
-            "X1RZUEVfQ1JFQVRFX0lNQUdFX1RBRxADEjIKLkNPTlRBSU5FUl9SRUdJU1RS",
-            "WV9FVkVOVF9UWVBFX0RFTEVURV9JTUFHRV9UQUcQBCJpChJJbnZva2VGdW5j",
-            "dGlvbk9uY2USIQoLZnVuY3Rpb25faWQYASABKAlCDOjHMQGKyDEEPD01MBIU",
-            "CgxmdW5jdGlvbl90YWcYAiABKAkSGgoSc2VydmljZV9hY2NvdW50X2lkGAMg",
-            "ASgJIosCChdJbnZva2VGdW5jdGlvbldpdGhSZXRyeRIhCgtmdW5jdGlvbl9p",
-            "ZBgBIAEoCUIM6McxAYrIMQQ8PTUwEhQKDGZ1bmN0aW9uX3RhZxgCIAEoCRIa",
-            "ChJzZXJ2aWNlX2FjY291bnRfaWQYAyABKAkSSgoOcmV0cnlfc2V0dGluZ3MY",
-            "BCABKAsyMi55YW5kZXguY2xvdWQuc2VydmVybGVzcy50cmlnZ2Vycy52MS5S",
-            "ZXRyeVNldHRpbmdzEk8KEWRlYWRfbGV0dGVyX3F1ZXVlGAUgASgLMjQueWFu",
-            "ZGV4LmNsb3VkLnNlcnZlcmxlc3MudHJpZ2dlcnMudjEuUHV0UXVldWVNZXNz",
-            "YWdlIk0KD1B1dFF1ZXVlTWVzc2FnZRIQCghxdWV1ZV9pZBgLIAEoCRIoChJz",
-            "ZXJ2aWNlX2FjY291bnRfaWQYAiABKAlCDOjHMQGKyDEEPD01MCJYCg1CYXRj",
-            "aFNldHRpbmdzEhYKBHNpemUYASABKANCCPrHMQQwLTEwEi8KBmN1dG9mZhgC",
-            "IAEoCzIZLmdvb2dsZS5wcm90b2J1Zi5EdXJhdGlvbkIE6McxASJjCg1SZXRy",
-            "eVNldHRpbmdzEh8KDnJldHJ5X2F0dGVtcHRzGAEgASgDQgf6xzEDMS01EjEK",
-            "CGludGVydmFsGAIgASgLMhkuZ29vZ2xlLnByb3RvYnVmLkR1cmF0aW9uQgTo",
-            "xzEBKoYBCgtUcmlnZ2VyVHlwZRIcChhUUklHR0VSX1RZUEVfVU5TUEVDSUZJ",
-            "RUQQABIJCgVUSU1FUhACEhEKDU1FU1NBR0VfUVVFVUUQAxIPCgtJT1RfTUVT",
-            "U0FHRRAEEhIKDk9CSkVDVF9TVE9SQUdFEAUSFgoSQ09OVEFJTkVSX1JFR0lT",
-            "VFJZEAZCewoneWFuZGV4LmNsb3VkLmFwaS5zZXJ2ZXJsZXNzLnRyaWdnZXJz",
-            "LnYxWlBnaXRodWIuY29tL3lhbmRleC1jbG91ZC9nby1nZW5wcm90by95YW5k",
-            "ZXgvY2xvdWQvc2VydmVybGVzcy90cmlnZ2Vycy92MTt0cmlnZ2Vyc2IGcHJv",
-            "dG8z"));
+            "MS5JbnZva2VGdW5jdGlvbldpdGhSZXRyeUgAQg4KBmFjdGlvbhIEwMExARqX",
+            "AgoRQ29udGFpbmVyUmVnaXN0cnkSYwoKZXZlbnRfdHlwZRgDIAMoDjJHLnlh",
+            "bmRleC5jbG91ZC5zZXJ2ZXJsZXNzLnRyaWdnZXJzLnYxLlRyaWdnZXIuQ29u",
+            "dGFpbmVyUmVnaXN0cnlFdmVudFR5cGVCBoLIMQI+MBITCgtyZWdpc3RyeV9p",
+            "ZBgEIAEoCRISCgppbWFnZV9uYW1lGAUgASgJEgsKA3RhZxgGIAEoCRJXCg9p",
+            "bnZva2VfZnVuY3Rpb24YZSABKAsyPC55YW5kZXguY2xvdWQuc2VydmVybGVz",
+            "cy50cmlnZ2Vycy52MS5JbnZva2VGdW5jdGlvbldpdGhSZXRyeUgAQg4KBmFj",
+            "dGlvbhIEwMExARrlAQoJQ2xvdWRMb2dzEhQKDGxvZ19ncm91cF9pZBgBIAMo",
+            "CRJZCg5iYXRjaF9zZXR0aW5ncxgCIAEoCzI7LnlhbmRleC5jbG91ZC5zZXJ2",
+            "ZXJsZXNzLnRyaWdnZXJzLnYxLkNsb3VkTG9nc0JhdGNoU2V0dGluZ3NCBOjH",
+            "MQESVwoPaW52b2tlX2Z1bmN0aW9uGGUgASgLMjwueWFuZGV4LmNsb3VkLnNl",
+            "cnZlcmxlc3MudHJpZ2dlcnMudjEuSW52b2tlRnVuY3Rpb25XaXRoUmV0cnlI",
+            "AEIOCgZhY3Rpb24SBMDBMQEiygEKFk9iamVjdFN0b3JhZ2VFdmVudFR5cGUS",
+            "KQolT0JKRUNUX1NUT1JBR0VfRVZFTlRfVFlQRV9VTlNQRUNJRklFRBAAEisK",
+            "J09CSkVDVF9TVE9SQUdFX0VWRU5UX1RZUEVfQ1JFQVRFX09CSkVDVBABEisK",
+            "J09CSkVDVF9TVE9SQUdFX0VWRU5UX1RZUEVfVVBEQVRFX09CSkVDVBACEisK",
+            "J09CSkVDVF9TVE9SQUdFX0VWRU5UX1RZUEVfREVMRVRFX09CSkVDVBADIpMC",
+            "ChpDb250YWluZXJSZWdpc3RyeUV2ZW50VHlwZRItCilDT05UQUlORVJfUkVH",
+            "SVNUUllfRVZFTlRfVFlQRV9VTlNQRUNJRklFRBAAEi4KKkNPTlRBSU5FUl9S",
+            "RUdJU1RSWV9FVkVOVF9UWVBFX0NSRUFURV9JTUFHRRABEi4KKkNPTlRBSU5F",
+            "Ul9SRUdJU1RSWV9FVkVOVF9UWVBFX0RFTEVURV9JTUFHRRACEjIKLkNPTlRB",
+            "SU5FUl9SRUdJU1RSWV9FVkVOVF9UWVBFX0NSRUFURV9JTUFHRV9UQUcQAxIy",
+            "Ci5DT05UQUlORVJfUkVHSVNUUllfRVZFTlRfVFlQRV9ERUxFVEVfSU1BR0Vf",
+            "VEFHEAQiOAoGU3RhdHVzEhYKElNUQVRVU19VTlNQRUNJRklFRBAAEgoKBkFD",
+            "VElWRRABEgoKBlBBVVNFRBACImkKEkludm9rZUZ1bmN0aW9uT25jZRIhCgtm",
+            "dW5jdGlvbl9pZBgBIAEoCUIM6McxAYrIMQQ8PTUwEhQKDGZ1bmN0aW9uX3Rh",
+            "ZxgCIAEoCRIaChJzZXJ2aWNlX2FjY291bnRfaWQYAyABKAkiiwIKF0ludm9r",
+            "ZUZ1bmN0aW9uV2l0aFJldHJ5EiEKC2Z1bmN0aW9uX2lkGAEgASgJQgzoxzEB",
+            "isgxBDw9NTASFAoMZnVuY3Rpb25fdGFnGAIgASgJEhoKEnNlcnZpY2VfYWNj",
+            "b3VudF9pZBgDIAEoCRJKCg5yZXRyeV9zZXR0aW5ncxgEIAEoCzIyLnlhbmRl",
+            "eC5jbG91ZC5zZXJ2ZXJsZXNzLnRyaWdnZXJzLnYxLlJldHJ5U2V0dGluZ3MS",
+            "TwoRZGVhZF9sZXR0ZXJfcXVldWUYBSABKAsyNC55YW5kZXguY2xvdWQuc2Vy",
+            "dmVybGVzcy50cmlnZ2Vycy52MS5QdXRRdWV1ZU1lc3NhZ2UiTQoPUHV0UXVl",
+            "dWVNZXNzYWdlEhAKCHF1ZXVlX2lkGAsgASgJEigKEnNlcnZpY2VfYWNjb3Vu",
+            "dF9pZBgCIAEoCUIM6McxAYrIMQQ8PTUwIlgKDUJhdGNoU2V0dGluZ3MSFgoE",
+            "c2l6ZRgBIAEoA0II+scxBDAtMTASLwoGY3V0b2ZmGAIgASgLMhkuZ29vZ2xl",
+            "LnByb3RvYnVmLkR1cmF0aW9uQgToxzEBImcKFkNsb3VkTG9nc0JhdGNoU2V0",
+            "dGluZ3MSFwoEc2l6ZRgBIAEoA0IJ+scxBTAtMTAwEjQKBmN1dG9mZhgCIAEo",
+            "CzIZLmdvb2dsZS5wcm90b2J1Zi5EdXJhdGlvbkIJ+scxBTFzLTFtImMKDVJl",
+            "dHJ5U2V0dGluZ3MSHwoOcmV0cnlfYXR0ZW1wdHMYASABKANCB/rHMQMxLTUS",
+            "MQoIaW50ZXJ2YWwYAiABKAsyGS5nb29nbGUucHJvdG9idWYuRHVyYXRpb25C",
+            "BOjHMQEqlgEKC1RyaWdnZXJUeXBlEhwKGFRSSUdHRVJfVFlQRV9VTlNQRUNJ",
+            "RklFRBAAEgkKBVRJTUVSEAISEQoNTUVTU0FHRV9RVUVVRRADEg8KC0lPVF9N",
+            "RVNTQUdFEAQSEgoOT0JKRUNUX1NUT1JBR0UQBRIWChJDT05UQUlORVJfUkVH",
+            "SVNUUlkQBhIOCgpDTE9VRF9MT0dTEAdCewoneWFuZGV4LmNsb3VkLmFwaS5z",
+            "ZXJ2ZXJsZXNzLnRyaWdnZXJzLnYxWlBnaXRodWIuY29tL3lhbmRleC1jbG91",
+            "ZC9nby1nZW5wcm90by95YW5kZXgvY2xvdWQvc2VydmVybGVzcy90cmlnZ2Vy",
+            "cy92MTt0cmlnZ2Vyc2IGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.DurationReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Yandex.Cloud.Serverless.Triggers.V1.TriggerType), }, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Triggers.V1.Trigger), global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Parser, new[]{ "Id", "FolderId", "CreatedAt", "Name", "Description", "Labels", "Rule" }, null, new[]{ typeof(global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.ObjectStorageEventType), typeof(global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.ContainerRegistryEventType) }, null, new pbr::GeneratedClrTypeInfo[] { null, new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.Rule), global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.Rule.Parser, new[]{ "Timer", "MessageQueue", "IotMessage", "ObjectStorage", "ContainerRegistry" }, new[]{ "Rule" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Triggers.V1.Trigger), global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Parser, new[]{ "Id", "FolderId", "CreatedAt", "Name", "Description", "Labels", "Rule", "Status" }, null, new[]{ typeof(global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.ObjectStorageEventType), typeof(global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.ContainerRegistryEventType), typeof(global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.Status) }, null, new pbr::GeneratedClrTypeInfo[] { null, new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.Rule), global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.Rule.Parser, new[]{ "Timer", "MessageQueue", "IotMessage", "ObjectStorage", "ContainerRegistry", "CloudLogs" }, new[]{ "Rule" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.Timer), global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.Timer.Parser, new[]{ "CronExpression", "InvokeFunction", "InvokeFunctionWithRetry" }, new[]{ "Action" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.MessageQueue), global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.MessageQueue.Parser, new[]{ "QueueId", "ServiceAccountId", "BatchSettings", "VisibilityTimeout", "InvokeFunction" }, new[]{ "Action" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.IoTMessage), global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.IoTMessage.Parser, new[]{ "RegistryId", "DeviceId", "MqttTopic", "InvokeFunction" }, new[]{ "Action" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.ObjectStorage), global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.ObjectStorage.Parser, new[]{ "EventType", "BucketId", "Prefix", "Suffix", "InvokeFunction" }, new[]{ "Action" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.ContainerRegistry), global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.ContainerRegistry.Parser, new[]{ "EventType", "RegistryId", "ImageName", "Tag", "InvokeFunction" }, new[]{ "Action" }, null, null, null)}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.ContainerRegistry), global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.ContainerRegistry.Parser, new[]{ "EventType", "RegistryId", "ImageName", "Tag", "InvokeFunction" }, new[]{ "Action" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.CloudLogs), global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.CloudLogs.Parser, new[]{ "LogGroupId", "BatchSettings", "InvokeFunction" }, new[]{ "Action" }, null, null, null)}),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Triggers.V1.InvokeFunctionOnce), global::Yandex.Cloud.Serverless.Triggers.V1.InvokeFunctionOnce.Parser, new[]{ "FunctionId", "FunctionTag", "ServiceAccountId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Triggers.V1.InvokeFunctionWithRetry), global::Yandex.Cloud.Serverless.Triggers.V1.InvokeFunctionWithRetry.Parser, new[]{ "FunctionId", "FunctionTag", "ServiceAccountId", "RetrySettings", "DeadLetterQueue" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Triggers.V1.PutQueueMessage), global::Yandex.Cloud.Serverless.Triggers.V1.PutQueueMessage.Parser, new[]{ "QueueId", "ServiceAccountId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Triggers.V1.BatchSettings), global::Yandex.Cloud.Serverless.Triggers.V1.BatchSettings.Parser, new[]{ "Size", "Cutoff" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Triggers.V1.CloudLogsBatchSettings), global::Yandex.Cloud.Serverless.Triggers.V1.CloudLogsBatchSettings.Parser, new[]{ "Size", "Cutoff" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Serverless.Triggers.V1.RetrySettings), global::Yandex.Cloud.Serverless.Triggers.V1.RetrySettings.Parser, new[]{ "RetryAttempts", "Interval" }, null, null, null, null)
           }));
     }
@@ -145,6 +159,10 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
     [pbr::OriginalName("IOT_MESSAGE")] IotMessage = 4,
     [pbr::OriginalName("OBJECT_STORAGE")] ObjectStorage = 5,
     [pbr::OriginalName("CONTAINER_REGISTRY")] ContainerRegistry = 6,
+    /// <summary>
+    /// The trigger is activated by cloud log group events
+    /// </summary>
+    [pbr::OriginalName("CLOUD_LOGS")] CloudLogs = 7,
   }
 
   #endregion
@@ -185,6 +203,7 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
       description_ = other.description_;
       labels_ = other.labels_.Clone();
       rule_ = other.rule_ != null ? other.rule_.Clone() : null;
+      status_ = other.status_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -290,6 +309,20 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
       }
     }
 
+    /// <summary>Field number for the "status" field.</summary>
+    public const int StatusFieldNumber = 9;
+    private global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.Status status_ = global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.Status.Unspecified;
+    /// <summary>
+    /// Trigger status
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.Status Status {
+      get { return status_; }
+      set {
+        status_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as Trigger);
@@ -310,6 +343,7 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
       if (Description != other.Description) return false;
       if (!Labels.Equals(other.Labels)) return false;
       if (!object.Equals(Rule, other.Rule)) return false;
+      if (Status != other.Status) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -323,6 +357,7 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
       if (Description.Length != 0) hash ^= Description.GetHashCode();
       hash ^= Labels.GetHashCode();
       if (rule_ != null) hash ^= Rule.GetHashCode();
+      if (Status != global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.Status.Unspecified) hash ^= Status.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -361,6 +396,10 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
         output.WriteRawTag(66);
         output.WriteMessage(Rule);
       }
+      if (Status != global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.Status.Unspecified) {
+        output.WriteRawTag(72);
+        output.WriteEnum((int) Status);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -387,6 +426,9 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
       size += labels_.CalculateSize(_map_labels_codec);
       if (rule_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(Rule);
+      }
+      if (Status != global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.Status.Unspecified) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Status);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -423,6 +465,9 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
           Rule = new global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.Rule();
         }
         Rule.MergeFrom(other.Rule);
+      }
+      if (other.Status != global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.Status.Unspecified) {
+        Status = other.Status;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -469,6 +514,10 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
             input.ReadMessage(Rule);
             break;
           }
+          case 72: {
+            Status = (global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.Status) input.ReadEnum();
+            break;
+          }
         }
       }
     }
@@ -490,6 +539,12 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
         [pbr::OriginalName("CONTAINER_REGISTRY_EVENT_TYPE_DELETE_IMAGE")] DeleteImage = 2,
         [pbr::OriginalName("CONTAINER_REGISTRY_EVENT_TYPE_CREATE_IMAGE_TAG")] CreateImageTag = 3,
         [pbr::OriginalName("CONTAINER_REGISTRY_EVENT_TYPE_DELETE_IMAGE_TAG")] DeleteImageTag = 4,
+      }
+
+      internal enum Status {
+        [pbr::OriginalName("STATUS_UNSPECIFIED")] Unspecified = 0,
+        [pbr::OriginalName("ACTIVE")] Active = 1,
+        [pbr::OriginalName("PAUSED")] Paused = 2,
       }
 
       /// <summary>
@@ -535,6 +590,9 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
               break;
             case RuleOneofCase.ContainerRegistry:
               ContainerRegistry = other.ContainerRegistry.Clone();
+              break;
+            case RuleOneofCase.CloudLogs:
+              CloudLogs = other.CloudLogs.Clone();
               break;
           }
 
@@ -610,6 +668,17 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
           }
         }
 
+        /// <summary>Field number for the "cloud_logs" field.</summary>
+        public const int CloudLogsFieldNumber = 9;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.CloudLogs CloudLogs {
+          get { return ruleCase_ == RuleOneofCase.CloudLogs ? (global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.CloudLogs) rule_ : null; }
+          set {
+            rule_ = value;
+            ruleCase_ = value == null ? RuleOneofCase.None : RuleOneofCase.CloudLogs;
+          }
+        }
+
         private object rule_;
         /// <summary>Enum of possible cases for the "rule" oneof.</summary>
         public enum RuleOneofCase {
@@ -619,6 +688,7 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
           IotMessage = 4,
           ObjectStorage = 5,
           ContainerRegistry = 6,
+          CloudLogs = 9,
         }
         private RuleOneofCase ruleCase_ = RuleOneofCase.None;
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -650,6 +720,7 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
           if (!object.Equals(IotMessage, other.IotMessage)) return false;
           if (!object.Equals(ObjectStorage, other.ObjectStorage)) return false;
           if (!object.Equals(ContainerRegistry, other.ContainerRegistry)) return false;
+          if (!object.Equals(CloudLogs, other.CloudLogs)) return false;
           if (RuleCase != other.RuleCase) return false;
           return Equals(_unknownFields, other._unknownFields);
         }
@@ -662,6 +733,7 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
           if (ruleCase_ == RuleOneofCase.IotMessage) hash ^= IotMessage.GetHashCode();
           if (ruleCase_ == RuleOneofCase.ObjectStorage) hash ^= ObjectStorage.GetHashCode();
           if (ruleCase_ == RuleOneofCase.ContainerRegistry) hash ^= ContainerRegistry.GetHashCode();
+          if (ruleCase_ == RuleOneofCase.CloudLogs) hash ^= CloudLogs.GetHashCode();
           hash ^= (int) ruleCase_;
           if (_unknownFields != null) {
             hash ^= _unknownFields.GetHashCode();
@@ -696,6 +768,10 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
             output.WriteRawTag(50);
             output.WriteMessage(ContainerRegistry);
           }
+          if (ruleCase_ == RuleOneofCase.CloudLogs) {
+            output.WriteRawTag(74);
+            output.WriteMessage(CloudLogs);
+          }
           if (_unknownFields != null) {
             _unknownFields.WriteTo(output);
           }
@@ -718,6 +794,9 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
           }
           if (ruleCase_ == RuleOneofCase.ContainerRegistry) {
             size += 1 + pb::CodedOutputStream.ComputeMessageSize(ContainerRegistry);
+          }
+          if (ruleCase_ == RuleOneofCase.CloudLogs) {
+            size += 1 + pb::CodedOutputStream.ComputeMessageSize(CloudLogs);
           }
           if (_unknownFields != null) {
             size += _unknownFields.CalculateSize();
@@ -760,6 +839,12 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
                 ContainerRegistry = new global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.ContainerRegistry();
               }
               ContainerRegistry.MergeFrom(other.ContainerRegistry);
+              break;
+            case RuleOneofCase.CloudLogs:
+              if (CloudLogs == null) {
+                CloudLogs = new global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.CloudLogs();
+              }
+              CloudLogs.MergeFrom(other.CloudLogs);
               break;
           }
 
@@ -817,6 +902,15 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
                 }
                 input.ReadMessage(subBuilder);
                 ContainerRegistry = subBuilder;
+                break;
+              }
+              case 74: {
+                global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.CloudLogs subBuilder = new global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Types.CloudLogs();
+                if (ruleCase_ == RuleOneofCase.CloudLogs) {
+                  subBuilder.MergeFrom(CloudLogs);
+                }
+                input.ReadMessage(subBuilder);
+                CloudLogs = subBuilder;
                 break;
               }
             }
@@ -2189,6 +2283,231 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
 
       }
 
+      internal sealed partial class CloudLogs : pb::IMessage<CloudLogs> {
+        private static readonly pb::MessageParser<CloudLogs> _parser = new pb::MessageParser<CloudLogs>(() => new CloudLogs());
+        private pb::UnknownFieldSet _unknownFields;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public static pb::MessageParser<CloudLogs> Parser { get { return _parser; } }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public static pbr::MessageDescriptor Descriptor {
+          get { return global::Yandex.Cloud.Serverless.Triggers.V1.Trigger.Descriptor.NestedTypes[7]; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        pbr::MessageDescriptor pb::IMessage.Descriptor {
+          get { return Descriptor; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public CloudLogs() {
+          OnConstruction();
+        }
+
+        partial void OnConstruction();
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public CloudLogs(CloudLogs other) : this() {
+          logGroupId_ = other.logGroupId_.Clone();
+          batchSettings_ = other.batchSettings_ != null ? other.batchSettings_.Clone() : null;
+          switch (other.ActionCase) {
+            case ActionOneofCase.InvokeFunction:
+              InvokeFunction = other.InvokeFunction.Clone();
+              break;
+          }
+
+          _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public CloudLogs Clone() {
+          return new CloudLogs(this);
+        }
+
+        /// <summary>Field number for the "log_group_id" field.</summary>
+        public const int LogGroupIdFieldNumber = 1;
+        private static readonly pb::FieldCodec<string> _repeated_logGroupId_codec
+            = pb::FieldCodec.ForString(10);
+        private readonly pbc::RepeatedField<string> logGroupId_ = new pbc::RepeatedField<string>();
+        /// <summary>
+        /// Log group identifiers, at least one value is required.
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public pbc::RepeatedField<string> LogGroupId {
+          get { return logGroupId_; }
+        }
+
+        /// <summary>Field number for the "batch_settings" field.</summary>
+        public const int BatchSettingsFieldNumber = 2;
+        private global::Yandex.Cloud.Serverless.Triggers.V1.CloudLogsBatchSettings batchSettings_;
+        /// <summary>
+        /// Batch settings for processing log events.
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public global::Yandex.Cloud.Serverless.Triggers.V1.CloudLogsBatchSettings BatchSettings {
+          get { return batchSettings_; }
+          set {
+            batchSettings_ = value;
+          }
+        }
+
+        /// <summary>Field number for the "invoke_function" field.</summary>
+        public const int InvokeFunctionFieldNumber = 101;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public global::Yandex.Cloud.Serverless.Triggers.V1.InvokeFunctionWithRetry InvokeFunction {
+          get { return actionCase_ == ActionOneofCase.InvokeFunction ? (global::Yandex.Cloud.Serverless.Triggers.V1.InvokeFunctionWithRetry) action_ : null; }
+          set {
+            action_ = value;
+            actionCase_ = value == null ? ActionOneofCase.None : ActionOneofCase.InvokeFunction;
+          }
+        }
+
+        private object action_;
+        /// <summary>Enum of possible cases for the "action" oneof.</summary>
+        public enum ActionOneofCase {
+          None = 0,
+          InvokeFunction = 101,
+        }
+        private ActionOneofCase actionCase_ = ActionOneofCase.None;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public ActionOneofCase ActionCase {
+          get { return actionCase_; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void ClearAction() {
+          actionCase_ = ActionOneofCase.None;
+          action_ = null;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override bool Equals(object other) {
+          return Equals(other as CloudLogs);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public bool Equals(CloudLogs other) {
+          if (ReferenceEquals(other, null)) {
+            return false;
+          }
+          if (ReferenceEquals(other, this)) {
+            return true;
+          }
+          if(!logGroupId_.Equals(other.logGroupId_)) return false;
+          if (!object.Equals(BatchSettings, other.BatchSettings)) return false;
+          if (!object.Equals(InvokeFunction, other.InvokeFunction)) return false;
+          if (ActionCase != other.ActionCase) return false;
+          return Equals(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override int GetHashCode() {
+          int hash = 1;
+          hash ^= logGroupId_.GetHashCode();
+          if (batchSettings_ != null) hash ^= BatchSettings.GetHashCode();
+          if (actionCase_ == ActionOneofCase.InvokeFunction) hash ^= InvokeFunction.GetHashCode();
+          hash ^= (int) actionCase_;
+          if (_unknownFields != null) {
+            hash ^= _unknownFields.GetHashCode();
+          }
+          return hash;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override string ToString() {
+          return pb::JsonFormatter.ToDiagnosticString(this);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void WriteTo(pb::CodedOutputStream output) {
+          logGroupId_.WriteTo(output, _repeated_logGroupId_codec);
+          if (batchSettings_ != null) {
+            output.WriteRawTag(18);
+            output.WriteMessage(BatchSettings);
+          }
+          if (actionCase_ == ActionOneofCase.InvokeFunction) {
+            output.WriteRawTag(170, 6);
+            output.WriteMessage(InvokeFunction);
+          }
+          if (_unknownFields != null) {
+            _unknownFields.WriteTo(output);
+          }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public int CalculateSize() {
+          int size = 0;
+          size += logGroupId_.CalculateSize(_repeated_logGroupId_codec);
+          if (batchSettings_ != null) {
+            size += 1 + pb::CodedOutputStream.ComputeMessageSize(BatchSettings);
+          }
+          if (actionCase_ == ActionOneofCase.InvokeFunction) {
+            size += 2 + pb::CodedOutputStream.ComputeMessageSize(InvokeFunction);
+          }
+          if (_unknownFields != null) {
+            size += _unknownFields.CalculateSize();
+          }
+          return size;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void MergeFrom(CloudLogs other) {
+          if (other == null) {
+            return;
+          }
+          logGroupId_.Add(other.logGroupId_);
+          if (other.batchSettings_ != null) {
+            if (batchSettings_ == null) {
+              BatchSettings = new global::Yandex.Cloud.Serverless.Triggers.V1.CloudLogsBatchSettings();
+            }
+            BatchSettings.MergeFrom(other.BatchSettings);
+          }
+          switch (other.ActionCase) {
+            case ActionOneofCase.InvokeFunction:
+              if (InvokeFunction == null) {
+                InvokeFunction = new global::Yandex.Cloud.Serverless.Triggers.V1.InvokeFunctionWithRetry();
+              }
+              InvokeFunction.MergeFrom(other.InvokeFunction);
+              break;
+          }
+
+          _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void MergeFrom(pb::CodedInputStream input) {
+          uint tag;
+          while ((tag = input.ReadTag()) != 0) {
+            switch(tag) {
+              default:
+                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+                break;
+              case 10: {
+                logGroupId_.AddEntriesFrom(input, _repeated_logGroupId_codec);
+                break;
+              }
+              case 18: {
+                if (batchSettings_ == null) {
+                  BatchSettings = new global::Yandex.Cloud.Serverless.Triggers.V1.CloudLogsBatchSettings();
+                }
+                input.ReadMessage(BatchSettings);
+                break;
+              }
+              case 810: {
+                global::Yandex.Cloud.Serverless.Triggers.V1.InvokeFunctionWithRetry subBuilder = new global::Yandex.Cloud.Serverless.Triggers.V1.InvokeFunctionWithRetry();
+                if (actionCase_ == ActionOneofCase.InvokeFunction) {
+                  subBuilder.MergeFrom(InvokeFunction);
+                }
+                input.ReadMessage(subBuilder);
+                InvokeFunction = subBuilder;
+                break;
+              }
+            }
+          }
+        }
+
+      }
+
     }
     #endregion
 
@@ -2999,6 +3318,177 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
 
   }
 
+  internal sealed partial class CloudLogsBatchSettings : pb::IMessage<CloudLogsBatchSettings> {
+    private static readonly pb::MessageParser<CloudLogsBatchSettings> _parser = new pb::MessageParser<CloudLogsBatchSettings>(() => new CloudLogsBatchSettings());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<CloudLogsBatchSettings> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Serverless.Triggers.V1.TriggerReflection.Descriptor.MessageTypes[5]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public CloudLogsBatchSettings() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public CloudLogsBatchSettings(CloudLogsBatchSettings other) : this() {
+      size_ = other.size_;
+      cutoff_ = other.cutoff_ != null ? other.cutoff_.Clone() : null;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public CloudLogsBatchSettings Clone() {
+      return new CloudLogsBatchSettings(this);
+    }
+
+    /// <summary>Field number for the "size" field.</summary>
+    public const int SizeFieldNumber = 1;
+    private long size_;
+    /// <summary>
+    /// Batch size. Trigger will send the batch of messages to the associated function
+    /// when the number of log events reaches this value, or the [cutoff] time has passed.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long Size {
+      get { return size_; }
+      set {
+        size_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "cutoff" field.</summary>
+    public const int CutoffFieldNumber = 2;
+    private global::Google.Protobuf.WellKnownTypes.Duration cutoff_;
+    /// <summary>
+    /// Maximum wait time. Trigger will send the batch of messages the time since the last batch
+    /// exceeds the `cutoff` value, regardless of the amount of log events.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Google.Protobuf.WellKnownTypes.Duration Cutoff {
+      get { return cutoff_; }
+      set {
+        cutoff_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as CloudLogsBatchSettings);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(CloudLogsBatchSettings other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Size != other.Size) return false;
+      if (!object.Equals(Cutoff, other.Cutoff)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Size != 0L) hash ^= Size.GetHashCode();
+      if (cutoff_ != null) hash ^= Cutoff.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (Size != 0L) {
+        output.WriteRawTag(8);
+        output.WriteInt64(Size);
+      }
+      if (cutoff_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(Cutoff);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Size != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(Size);
+      }
+      if (cutoff_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Cutoff);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(CloudLogsBatchSettings other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Size != 0L) {
+        Size = other.Size;
+      }
+      if (other.cutoff_ != null) {
+        if (cutoff_ == null) {
+          Cutoff = new global::Google.Protobuf.WellKnownTypes.Duration();
+        }
+        Cutoff.MergeFrom(other.Cutoff);
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            Size = input.ReadInt64();
+            break;
+          }
+          case 18: {
+            if (cutoff_ == null) {
+              Cutoff = new global::Google.Protobuf.WellKnownTypes.Duration();
+            }
+            input.ReadMessage(Cutoff);
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
   /// <summary>
   /// Settings for retrying to invoke a function.
   /// </summary>
@@ -3010,7 +3500,7 @@ namespace Yandex.Cloud.Serverless.Triggers.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Serverless.Triggers.V1.TriggerReflection.Descriptor.MessageTypes[5]; }
+      get { return global::Yandex.Cloud.Serverless.Triggers.V1.TriggerReflection.Descriptor.MessageTypes[6]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

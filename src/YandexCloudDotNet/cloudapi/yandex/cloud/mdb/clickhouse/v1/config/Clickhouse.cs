@@ -27,7 +27,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1.Config {
             "CjZ5YW5kZXgvY2xvdWQvbWRiL2NsaWNraG91c2UvdjEvY29uZmlnL2NsaWNr",
             "aG91c2UucHJvdG8SJXlhbmRleC5jbG91ZC5tZGIuY2xpY2tob3VzZS52MS5j",
             "b25maWcaHmdvb2dsZS9wcm90b2J1Zi93cmFwcGVycy5wcm90bxodeWFuZGV4",
-            "L2Nsb3VkL3ZhbGlkYXRpb24ucHJvdG8i/ysKEENsaWNraG91c2VDb25maWcS",
+            "L2Nsb3VkL3ZhbGlkYXRpb24ucHJvdG8ihjsKEENsaWNraG91c2VDb25maWcS",
             "UwoJbG9nX2xldmVsGAEgASgOMkAueWFuZGV4LmNsb3VkLm1kYi5jbGlja2hv",
             "dXNlLnYxLmNvbmZpZy5DbGlja2hvdXNlQ29uZmlnLkxvZ0xldmVsElUKCm1l",
             "cmdlX3RyZWUYAiABKAsyQS55YW5kZXguY2xvdWQubWRiLmNsaWNraG91c2Uu",
@@ -38,134 +38,178 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1.Config {
             "MS5jb25maWcuQ2xpY2tob3VzZUNvbmZpZy5FeHRlcm5hbERpY3Rpb25hcnkS",
             "XwoPZ3JhcGhpdGVfcm9sbHVwGAUgAygLMkYueWFuZGV4LmNsb3VkLm1kYi5j",
             "bGlja2hvdXNlLnYxLmNvbmZpZy5DbGlja2hvdXNlQ29uZmlnLkdyYXBoaXRl",
-            "Um9sbHVwEj4KD21heF9jb25uZWN0aW9ucxgGIAEoCzIbLmdvb2dsZS5wcm90",
-            "b2J1Zi5JbnQ2NFZhbHVlQgj6xzEEPj0xMBJFChZtYXhfY29uY3VycmVudF9x",
-            "dWVyaWVzGAcgASgLMhsuZ29vZ2xlLnByb3RvYnVmLkludDY0VmFsdWVCCPrH",
-            "MQQ+PTEwEjcKEmtlZXBfYWxpdmVfdGltZW91dBgIIAEoCzIbLmdvb2dsZS5w",
-            "cm90b2J1Zi5JbnQ2NFZhbHVlEjwKF3VuY29tcHJlc3NlZF9jYWNoZV9zaXpl",
-            "GAkgASgLMhsuZ29vZ2xlLnByb3RvYnVmLkludDY0VmFsdWUSRQoPbWFya19j",
-            "YWNoZV9zaXplGAogASgLMhsuZ29vZ2xlLnByb3RvYnVmLkludDY0VmFsdWVC",
-            "D/rHMQs+NTM2ODcwOTEyMBI7ChZtYXhfdGFibGVfc2l6ZV90b19kcm9wGAsg",
-            "ASgLMhsuZ29vZ2xlLnByb3RvYnVmLkludDY0VmFsdWUSPwoabWF4X3BhcnRp",
-            "dGlvbl9zaXplX3RvX2Ryb3AYDSABKAsyGy5nb29nbGUucHJvdG9idWYuSW50",
-            "NjRWYWx1ZRJNCiRidWlsdGluX2RpY3Rpb25hcmllc19yZWxvYWRfaW50ZXJ2",
-            "YWwYDCABKAsyGy5nb29nbGUucHJvdG9idWYuSW50NjRWYWx1ZUICGAESEAoI",
-            "dGltZXpvbmUYDiABKAkSEwoLZ2VvYmFzZV91cmkYDyABKAkaigQKCU1lcmdl",
-            "VHJlZRJECh9yZXBsaWNhdGVkX2RlZHVwbGljYXRpb25fd2luZG93GAEgASgL",
-            "MhsuZ29vZ2xlLnByb3RvYnVmLkludDY0VmFsdWUSTAoncmVwbGljYXRlZF9k",
-            "ZWR1cGxpY2F0aW9uX3dpbmRvd19zZWNvbmRzGAIgASgLMhsuZ29vZ2xlLnBy",
-            "b3RvYnVmLkludDY0VmFsdWUSOgoVcGFydHNfdG9fZGVsYXlfaW5zZXJ0GAMg",
-            "ASgLMhsuZ29vZ2xlLnByb3RvYnVmLkludDY0VmFsdWUSOgoVcGFydHNfdG9f",
-            "dGhyb3dfaW5zZXJ0GAQgASgLMhsuZ29vZ2xlLnByb3RvYnVmLkludDY0VmFs",
-            "dWUSQwoebWF4X3JlcGxpY2F0ZWRfbWVyZ2VzX2luX3F1ZXVlGAUgASgLMhsu",
-            "Z29vZ2xlLnByb3RvYnVmLkludDY0VmFsdWUSXgo5bnVtYmVyX29mX2ZyZWVf",
-            "ZW50cmllc19pbl9wb29sX3RvX2xvd2VyX21heF9zaXplX29mX21lcmdlGAYg",
-            "ASgLMhsuZ29vZ2xlLnByb3RvYnVmLkludDY0VmFsdWUSTAonbWF4X2J5dGVz",
-            "X3RvX21lcmdlX2F0X21pbl9zcGFjZV9pbl9wb29sGAcgASgLMhsuZ29vZ2xl",
-            "LnByb3RvYnVmLkludDY0VmFsdWUa2wEKC0NvbXByZXNzaW9uEloKBm1ldGhv",
-            "ZBgBIAEoDjJKLnlhbmRleC5jbG91ZC5tZGIuY2xpY2tob3VzZS52MS5jb25m",
-            "aWcuQ2xpY2tob3VzZUNvbmZpZy5Db21wcmVzc2lvbi5NZXRob2QSHgoNbWlu",
-            "X3BhcnRfc2l6ZRgCIAEoA0IH+scxAz49MRIbChNtaW5fcGFydF9zaXplX3Jh",
-            "dGlvGAMgASgBIjMKBk1ldGhvZBIWChJNRVRIT0RfVU5TUEVDSUZJRUQQABIH",
-            "CgNMWjQQARIICgRaU1REEAIaoBoKEkV4dGVybmFsRGljdGlvbmFyeRISCgRu",
-            "YW1lGAEgASgJQgToxzEBEm0KCXN0cnVjdHVyZRgCIAEoCzJULnlhbmRleC5j",
-            "bG91ZC5tZGIuY2xpY2tob3VzZS52MS5jb25maWcuQ2xpY2tob3VzZUNvbmZp",
-            "Zy5FeHRlcm5hbERpY3Rpb25hcnkuU3RydWN0dXJlQgToxzEBEmcKBmxheW91",
-            "dBgDIAEoCzJRLnlhbmRleC5jbG91ZC5tZGIuY2xpY2tob3VzZS52MS5jb25m",
-            "aWcuQ2xpY2tob3VzZUNvbmZpZy5FeHRlcm5hbERpY3Rpb25hcnkuTGF5b3V0",
-            "QgToxzEBEhgKDmZpeGVkX2xpZmV0aW1lGAQgASgDSAASagoObGlmZXRpbWVf",
-            "cmFuZ2UYBSABKAsyUC55YW5kZXguY2xvdWQubWRiLmNsaWNraG91c2UudjEu",
-            "Y29uZmlnLkNsaWNraG91c2VDb25maWcuRXh0ZXJuYWxEaWN0aW9uYXJ5LlJh",
-            "bmdlSAASbAoLaHR0cF9zb3VyY2UYBiABKAsyVS55YW5kZXguY2xvdWQubWRi",
+            "Um9sbHVwEkwKBWthZmthGCMgASgLMj0ueWFuZGV4LmNsb3VkLm1kYi5jbGlj",
+            "a2hvdXNlLnYxLmNvbmZpZy5DbGlja2hvdXNlQ29uZmlnLkthZmthEj4KD21h",
+            "eF9jb25uZWN0aW9ucxgGIAEoCzIbLmdvb2dsZS5wcm90b2J1Zi5JbnQ2NFZh",
+            "bHVlQgj6xzEEPj0xMBJFChZtYXhfY29uY3VycmVudF9xdWVyaWVzGAcgASgL",
+            "MhsuZ29vZ2xlLnByb3RvYnVmLkludDY0VmFsdWVCCPrHMQQ+PTEwEjcKEmtl",
+            "ZXBfYWxpdmVfdGltZW91dBgIIAEoCzIbLmdvb2dsZS5wcm90b2J1Zi5JbnQ2",
+            "NFZhbHVlEjwKF3VuY29tcHJlc3NlZF9jYWNoZV9zaXplGAkgASgLMhsuZ29v",
+            "Z2xlLnByb3RvYnVmLkludDY0VmFsdWUSRQoPbWFya19jYWNoZV9zaXplGAog",
+            "ASgLMhsuZ29vZ2xlLnByb3RvYnVmLkludDY0VmFsdWVCD/rHMQs+NTM2ODcw",
+            "OTEyMBI7ChZtYXhfdGFibGVfc2l6ZV90b19kcm9wGAsgASgLMhsuZ29vZ2xl",
+            "LnByb3RvYnVmLkludDY0VmFsdWUSPwoabWF4X3BhcnRpdGlvbl9zaXplX3Rv",
+            "X2Ryb3AYDSABKAsyGy5nb29nbGUucHJvdG9idWYuSW50NjRWYWx1ZRJNCiRi",
+            "dWlsdGluX2RpY3Rpb25hcmllc19yZWxvYWRfaW50ZXJ2YWwYDCABKAsyGy5n",
+            "b29nbGUucHJvdG9idWYuSW50NjRWYWx1ZUICGAESEAoIdGltZXpvbmUYDiAB",
+            "KAkSEwoLZ2VvYmFzZV91cmkYDyABKAkSPQoYcXVlcnlfbG9nX3JldGVudGlv",
+            "bl9zaXplGBAgASgLMhsuZ29vZ2xlLnByb3RvYnVmLkludDY0VmFsdWUSPQoY",
+            "cXVlcnlfbG9nX3JldGVudGlvbl90aW1lGBEgASgLMhsuZ29vZ2xlLnByb3Rv",
+            "YnVmLkludDY0VmFsdWUSPAoYcXVlcnlfdGhyZWFkX2xvZ19lbmFibGVkGBIg",
+            "ASgLMhouZ29vZ2xlLnByb3RvYnVmLkJvb2xWYWx1ZRJECh9xdWVyeV90aHJl",
+            "YWRfbG9nX3JldGVudGlvbl9zaXplGBMgASgLMhsuZ29vZ2xlLnByb3RvYnVm",
+            "LkludDY0VmFsdWUSRAofcXVlcnlfdGhyZWFkX2xvZ19yZXRlbnRpb25fdGlt",
+            "ZRgUIAEoCzIbLmdvb2dsZS5wcm90b2J1Zi5JbnQ2NFZhbHVlEjwKF3BhcnRf",
+            "bG9nX3JldGVudGlvbl9zaXplGBUgASgLMhsuZ29vZ2xlLnByb3RvYnVmLklu",
+            "dDY0VmFsdWUSPAoXcGFydF9sb2dfcmV0ZW50aW9uX3RpbWUYFiABKAsyGy5n",
+            "b29nbGUucHJvdG9idWYuSW50NjRWYWx1ZRI2ChJtZXRyaWNfbG9nX2VuYWJs",
+            "ZWQYFyABKAsyGi5nb29nbGUucHJvdG9idWYuQm9vbFZhbHVlEj4KGW1ldHJp",
+            "Y19sb2dfcmV0ZW50aW9uX3NpemUYGCABKAsyGy5nb29nbGUucHJvdG9idWYu",
+            "SW50NjRWYWx1ZRI+ChltZXRyaWNfbG9nX3JldGVudGlvbl90aW1lGBkgASgL",
+            "MhsuZ29vZ2xlLnByb3RvYnVmLkludDY0VmFsdWUSNQoRdHJhY2VfbG9nX2Vu",
+            "YWJsZWQYGiABKAsyGi5nb29nbGUucHJvdG9idWYuQm9vbFZhbHVlEj0KGHRy",
+            "YWNlX2xvZ19yZXRlbnRpb25fc2l6ZRgbIAEoCzIbLmdvb2dsZS5wcm90b2J1",
+            "Zi5JbnQ2NFZhbHVlEj0KGHRyYWNlX2xvZ19yZXRlbnRpb25fdGltZRgcIAEo",
+            "CzIbLmdvb2dsZS5wcm90b2J1Zi5JbnQ2NFZhbHVlEjQKEHRleHRfbG9nX2Vu",
+            "YWJsZWQYHSABKAsyGi5nb29nbGUucHJvdG9idWYuQm9vbFZhbHVlEjwKF3Rl",
+            "eHRfbG9nX3JldGVudGlvbl9zaXplGB4gASgLMhsuZ29vZ2xlLnByb3RvYnVm",
+            "LkludDY0VmFsdWUSPAoXdGV4dF9sb2dfcmV0ZW50aW9uX3RpbWUYHyABKAsy",
+            "Gy5nb29nbGUucHJvdG9idWYuSW50NjRWYWx1ZRJYCg50ZXh0X2xvZ19sZXZl",
+            "bBggIAEoDjJALnlhbmRleC5jbG91ZC5tZGIuY2xpY2tob3VzZS52MS5jb25m",
+            "aWcuQ2xpY2tob3VzZUNvbmZpZy5Mb2dMZXZlbBJBChRiYWNrZ3JvdW5kX3Bv",
+            "b2xfc2l6ZRghIAEoCzIbLmdvb2dsZS5wcm90b2J1Zi5JbnQ2NFZhbHVlQgb6",
+            "xzECPjASSgodYmFja2dyb3VuZF9zY2hlZHVsZV9wb29sX3NpemUYIiABKAsy",
+            "Gy5nb29nbGUucHJvdG9idWYuSW50NjRWYWx1ZUIG+scxAj4wGooECglNZXJn",
+            "ZVRyZWUSRAofcmVwbGljYXRlZF9kZWR1cGxpY2F0aW9uX3dpbmRvdxgBIAEo",
+            "CzIbLmdvb2dsZS5wcm90b2J1Zi5JbnQ2NFZhbHVlEkwKJ3JlcGxpY2F0ZWRf",
+            "ZGVkdXBsaWNhdGlvbl93aW5kb3dfc2Vjb25kcxgCIAEoCzIbLmdvb2dsZS5w",
+            "cm90b2J1Zi5JbnQ2NFZhbHVlEjoKFXBhcnRzX3RvX2RlbGF5X2luc2VydBgD",
+            "IAEoCzIbLmdvb2dsZS5wcm90b2J1Zi5JbnQ2NFZhbHVlEjoKFXBhcnRzX3Rv",
+            "X3Rocm93X2luc2VydBgEIAEoCzIbLmdvb2dsZS5wcm90b2J1Zi5JbnQ2NFZh",
+            "bHVlEkMKHm1heF9yZXBsaWNhdGVkX21lcmdlc19pbl9xdWV1ZRgFIAEoCzIb",
+            "Lmdvb2dsZS5wcm90b2J1Zi5JbnQ2NFZhbHVlEl4KOW51bWJlcl9vZl9mcmVl",
+            "X2VudHJpZXNfaW5fcG9vbF90b19sb3dlcl9tYXhfc2l6ZV9vZl9tZXJnZRgG",
+            "IAEoCzIbLmdvb2dsZS5wcm90b2J1Zi5JbnQ2NFZhbHVlEkwKJ21heF9ieXRl",
+            "c190b19tZXJnZV9hdF9taW5fc3BhY2VfaW5fcG9vbBgHIAEoCzIbLmdvb2ds",
+            "ZS5wcm90b2J1Zi5JbnQ2NFZhbHVlGuoECgVLYWZrYRJpChFzZWN1cml0eV9w",
+            "cm90b2NvbBgBIAEoDjJOLnlhbmRleC5jbG91ZC5tZGIuY2xpY2tob3VzZS52",
+            "MS5jb25maWcuQ2xpY2tob3VzZUNvbmZpZy5LYWZrYS5TZWN1cml0eVByb3Rv",
+            "Y29sEmMKDnNhc2xfbWVjaGFuaXNtGAIgASgOMksueWFuZGV4LmNsb3VkLm1k",
+            "Yi5jbGlja2hvdXNlLnYxLmNvbmZpZy5DbGlja2hvdXNlQ29uZmlnLkthZmth",
+            "LlNhc2xNZWNoYW5pc20SFQoNc2FzbF91c2VybmFtZRgDIAEoCRIVCg1zYXNs",
+            "X3Bhc3N3b3JkGAQgASgJIrcBChBTZWN1cml0eVByb3RvY29sEiEKHVNFQ1VS",
+            "SVRZX1BST1RPQ09MX1VOU1BFQ0lGSUVEEAASHwobU0VDVVJJVFlfUFJPVE9D",
+            "T0xfUExBSU5URVhUEAESGQoVU0VDVVJJVFlfUFJPVE9DT0xfU1NMEAISJAog",
+            "U0VDVVJJVFlfUFJPVE9DT0xfU0FTTF9QTEFJTlRFWFQQAxIeChpTRUNVUklU",
+            "WV9QUk9UT0NPTF9TQVNMX1NTTBAEIqgBCg1TYXNsTWVjaGFuaXNtEh4KGlNB",
+            "U0xfTUVDSEFOSVNNX1VOU1BFQ0lGSUVEEAASGQoVU0FTTF9NRUNIQU5JU01f",
+            "R1NTQVBJEAESGAoUU0FTTF9NRUNIQU5JU01fUExBSU4QAhIgChxTQVNMX01F",
+            "Q0hBTklTTV9TQ1JBTV9TSEFfMjU2EAMSIAocU0FTTF9NRUNIQU5JU01fU0NS",
+            "QU1fU0hBXzUxMhAEGtsBCgtDb21wcmVzc2lvbhJaCgZtZXRob2QYASABKA4y",
+            "Si55YW5kZXguY2xvdWQubWRiLmNsaWNraG91c2UudjEuY29uZmlnLkNsaWNr",
+            "aG91c2VDb25maWcuQ29tcHJlc3Npb24uTWV0aG9kEh4KDW1pbl9wYXJ0X3Np",
+            "emUYAiABKANCB/rHMQM+PTESGwoTbWluX3BhcnRfc2l6ZV9yYXRpbxgDIAEo",
+            "ASIzCgZNZXRob2QSFgoSTUVUSE9EX1VOU1BFQ0lGSUVEEAASBwoDTFo0EAES",
+            "CAoEWlNURBACGqAaChJFeHRlcm5hbERpY3Rpb25hcnkSEgoEbmFtZRgBIAEo",
+            "CUIE6McxARJtCglzdHJ1Y3R1cmUYAiABKAsyVC55YW5kZXguY2xvdWQubWRi",
             "LmNsaWNraG91c2UudjEuY29uZmlnLkNsaWNraG91c2VDb25maWcuRXh0ZXJu",
-            "YWxEaWN0aW9uYXJ5Lkh0dHBTb3VyY2VIARJuCgxteXNxbF9zb3VyY2UYByAB",
-            "KAsyVi55YW5kZXguY2xvdWQubWRiLmNsaWNraG91c2UudjEuY29uZmlnLkNs",
-            "aWNraG91c2VDb25maWcuRXh0ZXJuYWxEaWN0aW9uYXJ5Lk15c3FsU291cmNl",
-            "SAESeAoRY2xpY2tob3VzZV9zb3VyY2UYCCABKAsyWy55YW5kZXguY2xvdWQu",
-            "bWRiLmNsaWNraG91c2UudjEuY29uZmlnLkNsaWNraG91c2VDb25maWcuRXh0",
-            "ZXJuYWxEaWN0aW9uYXJ5LkNsaWNraG91c2VTb3VyY2VIARJyCg5tb25nb2Ri",
-            "X3NvdXJjZRgJIAEoCzJYLnlhbmRleC5jbG91ZC5tZGIuY2xpY2tob3VzZS52",
-            "MS5jb25maWcuQ2xpY2tob3VzZUNvbmZpZy5FeHRlcm5hbERpY3Rpb25hcnku",
-            "TW9uZ29kYlNvdXJjZUgBEngKEXBvc3RncmVzcWxfc291cmNlGAogASgLMlsu",
-            "eWFuZGV4LmNsb3VkLm1kYi5jbGlja2hvdXNlLnYxLmNvbmZpZy5DbGlja2hv",
-            "dXNlQ29uZmlnLkV4dGVybmFsRGljdGlvbmFyeS5Qb3N0Z3Jlc3FsU291cmNl",
-            "SAEaNQoKSHR0cFNvdXJjZRIRCgN1cmwYASABKAlCBOjHMQESFAoGZm9ybWF0",
-            "GAIgASgJQgToxzEBGpMDCgtNeXNxbFNvdXJjZRIQCgJkYhgBIAEoCUIE6Mcx",
-            "ARITCgV0YWJsZRgCIAEoCUIE6McxARIZCgRwb3J0GAMgASgDQgv6xzEHMC02",
-            "NTUzNRIMCgR1c2VyGAQgASgJEhAKCHBhc3N3b3JkGAUgASgJEngKCHJlcGxp",
-            "Y2FzGAYgAygLMl4ueWFuZGV4LmNsb3VkLm1kYi5jbGlja2hvdXNlLnYxLmNv",
-            "bmZpZy5DbGlja2hvdXNlQ29uZmlnLkV4dGVybmFsRGljdGlvbmFyeS5NeXNx",
-            "bFNvdXJjZS5SZXBsaWNhQgaCyDECPjASDQoFd2hlcmUYByABKAkSGAoQaW52",
-            "YWxpZGF0ZV9xdWVyeRgIIAEoCRp/CgdSZXBsaWNhEhsKBGhvc3QYASABKAlC",
-            "DejHMQGKyDEFPD0yNTMSHAoIcHJpb3JpdHkYAiABKANCCujHMQH6xzECPjAS",
-            "GQoEcG9ydBgDIAEoA0IL+scxBzAtNjU1MzUSDAoEdXNlchgEIAEoCRIQCghw",
-            "YXNzd29yZBgFIAEoCRqmAQoQQ2xpY2tob3VzZVNvdXJjZRIQCgJkYhgBIAEo",
-            "CUIE6McxARITCgV0YWJsZRgCIAEoCUIE6McxARIbCgRob3N0GAMgASgJQg3o",
-            "xzEBisgxBTw9MjUzEhkKBHBvcnQYBCABKANCC/rHMQcwLTY1NTM1EhIKBHVz",
-            "ZXIYBSABKAlCBOjHMQESEAoIcGFzc3dvcmQYBiABKAkSDQoFd2hlcmUYByAB",
-            "KAkamQEKDU1vbmdvZGJTb3VyY2USEAoCZGIYASABKAlCBOjHMQESGAoKY29s",
-            "bGVjdGlvbhgCIAEoCUIE6McxARIbCgRob3N0GAMgASgJQg3oxzEBisgxBTw9",
-            "MjUzEhkKBHBvcnQYBCABKANCC/rHMQcwLTY1NTM1EhIKBHVzZXIYBSABKAlC",
-            "BOjHMQESEAoIcGFzc3dvcmQYBiABKAkaiwMKEFBvc3RncmVzcWxTb3VyY2US",
-            "EAoCZGIYASABKAlCBOjHMQESEwoFdGFibGUYAiABKAlCBOjHMQESFQoFaG9z",
-            "dHMYAyADKAlCBoLIMQI+MBIZCgRwb3J0GAQgASgDQgv6xzEHMC02NTUzNRIS",
-            "CgR1c2VyGAUgASgJQgToxzEBEhAKCHBhc3N3b3JkGAYgASgJEhgKEGludmFs",
-            "aWRhdGVfcXVlcnkYByABKAkSdQoIc3NsX21vZGUYCCABKA4yYy55YW5kZXgu",
-            "Y2xvdWQubWRiLmNsaWNraG91c2UudjEuY29uZmlnLkNsaWNraG91c2VDb25m",
-            "aWcuRXh0ZXJuYWxEaWN0aW9uYXJ5LlBvc3RncmVzcWxTb3VyY2UuU3NsTW9k",
-            "ZSJnCgdTc2xNb2RlEhgKFFNTTF9NT0RFX1VOU1BFQ0lGSUVEEAASCwoHRElT",
-            "QUJMRRABEgkKBUFMTE9XEAISCgoGUFJFRkVSEAMSDQoJVkVSSUZZX0NBEAQS",
-            "DwoLVkVSSUZZX0ZVTEwQBRreBgoJU3RydWN0dXJlEmMKAmlkGAEgASgLMlcu",
-            "eWFuZGV4LmNsb3VkLm1kYi5jbGlja2hvdXNlLnYxLmNvbmZpZy5DbGlja2hv",
-            "dXNlQ29uZmlnLkV4dGVybmFsRGljdGlvbmFyeS5TdHJ1Y3R1cmUuSWQSZQoD",
-            "a2V5GAMgASgLMlgueWFuZGV4LmNsb3VkLm1kYi5jbGlja2hvdXNlLnYxLmNv",
-            "bmZpZy5DbGlja2hvdXNlQ29uZmlnLkV4dGVybmFsRGljdGlvbmFyeS5TdHJ1",
-            "Y3R1cmUuS2V5EnEKCXJhbmdlX21pbhgEIAEoCzJeLnlhbmRleC5jbG91ZC5t",
-            "ZGIuY2xpY2tob3VzZS52MS5jb25maWcuQ2xpY2tob3VzZUNvbmZpZy5FeHRl",
-            "cm5hbERpY3Rpb25hcnkuU3RydWN0dXJlLkF0dHJpYnV0ZRJxCglyYW5nZV9t",
-            "YXgYBSABKAsyXi55YW5kZXguY2xvdWQubWRiLmNsaWNraG91c2UudjEuY29u",
-            "ZmlnLkNsaWNraG91c2VDb25maWcuRXh0ZXJuYWxEaWN0aW9uYXJ5LlN0cnVj",
-            "dHVyZS5BdHRyaWJ1dGUSegoKYXR0cmlidXRlcxgCIAMoCzJeLnlhbmRleC5j",
+            "YWxEaWN0aW9uYXJ5LlN0cnVjdHVyZUIE6McxARJnCgZsYXlvdXQYAyABKAsy",
+            "US55YW5kZXguY2xvdWQubWRiLmNsaWNraG91c2UudjEuY29uZmlnLkNsaWNr",
+            "aG91c2VDb25maWcuRXh0ZXJuYWxEaWN0aW9uYXJ5LkxheW91dEIE6McxARIY",
+            "Cg5maXhlZF9saWZldGltZRgEIAEoA0gAEmoKDmxpZmV0aW1lX3JhbmdlGAUg",
+            "ASgLMlAueWFuZGV4LmNsb3VkLm1kYi5jbGlja2hvdXNlLnYxLmNvbmZpZy5D",
+            "bGlja2hvdXNlQ29uZmlnLkV4dGVybmFsRGljdGlvbmFyeS5SYW5nZUgAEmwK",
+            "C2h0dHBfc291cmNlGAYgASgLMlUueWFuZGV4LmNsb3VkLm1kYi5jbGlja2hv",
+            "dXNlLnYxLmNvbmZpZy5DbGlja2hvdXNlQ29uZmlnLkV4dGVybmFsRGljdGlv",
+            "bmFyeS5IdHRwU291cmNlSAESbgoMbXlzcWxfc291cmNlGAcgASgLMlYueWFu",
+            "ZGV4LmNsb3VkLm1kYi5jbGlja2hvdXNlLnYxLmNvbmZpZy5DbGlja2hvdXNl",
+            "Q29uZmlnLkV4dGVybmFsRGljdGlvbmFyeS5NeXNxbFNvdXJjZUgBEngKEWNs",
+            "aWNraG91c2Vfc291cmNlGAggASgLMlsueWFuZGV4LmNsb3VkLm1kYi5jbGlj",
+            "a2hvdXNlLnYxLmNvbmZpZy5DbGlja2hvdXNlQ29uZmlnLkV4dGVybmFsRGlj",
+            "dGlvbmFyeS5DbGlja2hvdXNlU291cmNlSAEScgoObW9uZ29kYl9zb3VyY2UY",
+            "CSABKAsyWC55YW5kZXguY2xvdWQubWRiLmNsaWNraG91c2UudjEuY29uZmln",
+            "LkNsaWNraG91c2VDb25maWcuRXh0ZXJuYWxEaWN0aW9uYXJ5Lk1vbmdvZGJT",
+            "b3VyY2VIARJ4ChFwb3N0Z3Jlc3FsX3NvdXJjZRgKIAEoCzJbLnlhbmRleC5j",
             "bG91ZC5tZGIuY2xpY2tob3VzZS52MS5jb25maWcuQ2xpY2tob3VzZUNvbmZp",
-            "Zy5FeHRlcm5hbERpY3Rpb25hcnkuU3RydWN0dXJlLkF0dHJpYnV0ZUIGgsgx",
-            "Aj4wGoQBCglBdHRyaWJ1dGUSEgoEbmFtZRgBIAEoCUIE6McxARISCgR0eXBl",
-            "GAIgASgJQgToxzEBEhIKCm51bGxfdmFsdWUYAyABKAkSEgoKZXhwcmVzc2lv",
-            "bhgEIAEoCRIUCgxoaWVyYXJjaGljYWwYBSABKAgSEQoJaW5qZWN0aXZlGAYg",
-            "ASgIGhgKAklkEhIKBG5hbWUYASABKAlCBOjHMQEagQEKA0tleRJ6CgphdHRy",
-            "aWJ1dGVzGAEgAygLMl4ueWFuZGV4LmNsb3VkLm1kYi5jbGlja2hvdXNlLnYx",
-            "LmNvbmZpZy5DbGlja2hvdXNlQ29uZmlnLkV4dGVybmFsRGljdGlvbmFyeS5T",
-            "dHJ1Y3R1cmUuQXR0cmlidXRlQgaCyDECPjAaiwIKBkxheW91dBJqCgR0eXBl",
-            "GAEgASgOMlYueWFuZGV4LmNsb3VkLm1kYi5jbGlja2hvdXNlLnYxLmNvbmZp",
-            "Zy5DbGlja2hvdXNlQ29uZmlnLkV4dGVybmFsRGljdGlvbmFyeS5MYXlvdXQu",
-            "VHlwZUIE6McxARIVCg1zaXplX2luX2NlbGxzGAIgASgDIn4KBFR5cGUSFAoQ",
-            "VFlQRV9VTlNQRUNJRklFRBAAEggKBEZMQVQQARIKCgZIQVNIRUQQAhIWChJD",
-            "T01QTEVYX0tFWV9IQVNIRUQQAxIQCgxSQU5HRV9IQVNIRUQQBBIJCgVDQUNI",
-            "RRAFEhUKEUNPTVBMRVhfS0VZX0NBQ0hFEAYaIQoFUmFuZ2USCwoDbWluGAEg",
-            "ASgDEgsKA21heBgCIAEoA0IQCghsaWZldGltZRIEwMExAUIOCgZzb3VyY2US",
-            "BMDBMQEa9AIKDkdyYXBoaXRlUm9sbHVwEhIKBG5hbWUYASABKAlCBOjHMQES",
-            "aAoIcGF0dGVybnMYAiADKAsyTi55YW5kZXguY2xvdWQubWRiLmNsaWNraG91",
-            "c2UudjEuY29uZmlnLkNsaWNraG91c2VDb25maWcuR3JhcGhpdGVSb2xsdXAu",
-            "UGF0dGVybkIGgsgxAj4wGuMBCgdQYXR0ZXJuEg4KBnJlZ2V4cBgBIAEoCRIW",
-            "CghmdW5jdGlvbhgCIAEoCUIE6McxARJzCglyZXRlbnRpb24YAyADKAsyWC55",
-            "YW5kZXguY2xvdWQubWRiLmNsaWNraG91c2UudjEuY29uZmlnLkNsaWNraG91",
-            "c2VDb25maWcuR3JhcGhpdGVSb2xsdXAuUGF0dGVybi5SZXRlbnRpb25CBoLI",
-            "MQI+MBo7CglSZXRlbnRpb24SEwoDYWdlGAEgASgDQgb6xzECPjASGQoJcHJl",
-            "Y2lzaW9uGAIgASgDQgb6xzECPjAiZAoITG9nTGV2ZWwSGQoVTE9HX0xFVkVM",
-            "X1VOU1BFQ0lGSUVEEAASCQoFVFJBQ0UQARIJCgVERUJVRxACEg8KC0lORk9S",
-            "TUFUSU9OEAMSCwoHV0FSTklORxAEEgkKBUVSUk9SEAUijQIKE0NsaWNraG91",
-            "c2VDb25maWdTZXQSVwoQZWZmZWN0aXZlX2NvbmZpZxgBIAEoCzI3LnlhbmRl",
-            "eC5jbG91ZC5tZGIuY2xpY2tob3VzZS52MS5jb25maWcuQ2xpY2tob3VzZUNv",
-            "bmZpZ0IE6McxARJMCgt1c2VyX2NvbmZpZxgCIAEoCzI3LnlhbmRleC5jbG91",
-            "ZC5tZGIuY2xpY2tob3VzZS52MS5jb25maWcuQ2xpY2tob3VzZUNvbmZpZxJP",
-            "Cg5kZWZhdWx0X2NvbmZpZxgDIAEoCzI3LnlhbmRleC5jbG91ZC5tZGIuY2xp",
-            "Y2tob3VzZS52MS5jb25maWcuQ2xpY2tob3VzZUNvbmZpZ0KBAQopeWFuZGV4",
-            "LmNsb3VkLmFwaS5tZGIuY2xpY2tob3VzZS52MS5jb25maWdaVGdpdGh1Yi5j",
-            "b20veWFuZGV4LWNsb3VkL2dvLWdlbnByb3RvL3lhbmRleC9jbG91ZC9tZGIv",
-            "Y2xpY2tob3VzZS92MS9jb25maWc7Y2xpY2tob3VzZWIGcHJvdG8z"));
+            "Zy5FeHRlcm5hbERpY3Rpb25hcnkuUG9zdGdyZXNxbFNvdXJjZUgBGjUKCkh0",
+            "dHBTb3VyY2USEQoDdXJsGAEgASgJQgToxzEBEhQKBmZvcm1hdBgCIAEoCUIE",
+            "6McxARqTAwoLTXlzcWxTb3VyY2USEAoCZGIYASABKAlCBOjHMQESEwoFdGFi",
+            "bGUYAiABKAlCBOjHMQESGQoEcG9ydBgDIAEoA0IL+scxBzAtNjU1MzUSDAoE",
+            "dXNlchgEIAEoCRIQCghwYXNzd29yZBgFIAEoCRJ4CghyZXBsaWNhcxgGIAMo",
+            "CzJeLnlhbmRleC5jbG91ZC5tZGIuY2xpY2tob3VzZS52MS5jb25maWcuQ2xp",
+            "Y2tob3VzZUNvbmZpZy5FeHRlcm5hbERpY3Rpb25hcnkuTXlzcWxTb3VyY2Uu",
+            "UmVwbGljYUIGgsgxAj4wEg0KBXdoZXJlGAcgASgJEhgKEGludmFsaWRhdGVf",
+            "cXVlcnkYCCABKAkafwoHUmVwbGljYRIbCgRob3N0GAEgASgJQg3oxzEBisgx",
+            "BTw9MjUzEhwKCHByaW9yaXR5GAIgASgDQgroxzEB+scxAj4wEhkKBHBvcnQY",
+            "AyABKANCC/rHMQcwLTY1NTM1EgwKBHVzZXIYBCABKAkSEAoIcGFzc3dvcmQY",
+            "BSABKAkapgEKEENsaWNraG91c2VTb3VyY2USEAoCZGIYASABKAlCBOjHMQES",
+            "EwoFdGFibGUYAiABKAlCBOjHMQESGwoEaG9zdBgDIAEoCUIN6McxAYrIMQU8",
+            "PTI1MxIZCgRwb3J0GAQgASgDQgv6xzEHMC02NTUzNRISCgR1c2VyGAUgASgJ",
+            "QgToxzEBEhAKCHBhc3N3b3JkGAYgASgJEg0KBXdoZXJlGAcgASgJGpkBCg1N",
+            "b25nb2RiU291cmNlEhAKAmRiGAEgASgJQgToxzEBEhgKCmNvbGxlY3Rpb24Y",
+            "AiABKAlCBOjHMQESGwoEaG9zdBgDIAEoCUIN6McxAYrIMQU8PTI1MxIZCgRw",
+            "b3J0GAQgASgDQgv6xzEHMC02NTUzNRISCgR1c2VyGAUgASgJQgToxzEBEhAK",
+            "CHBhc3N3b3JkGAYgASgJGosDChBQb3N0Z3Jlc3FsU291cmNlEhAKAmRiGAEg",
+            "ASgJQgToxzEBEhMKBXRhYmxlGAIgASgJQgToxzEBEhUKBWhvc3RzGAMgAygJ",
+            "QgaCyDECPjASGQoEcG9ydBgEIAEoA0IL+scxBzAtNjU1MzUSEgoEdXNlchgF",
+            "IAEoCUIE6McxARIQCghwYXNzd29yZBgGIAEoCRIYChBpbnZhbGlkYXRlX3F1",
+            "ZXJ5GAcgASgJEnUKCHNzbF9tb2RlGAggASgOMmMueWFuZGV4LmNsb3VkLm1k",
+            "Yi5jbGlja2hvdXNlLnYxLmNvbmZpZy5DbGlja2hvdXNlQ29uZmlnLkV4dGVy",
+            "bmFsRGljdGlvbmFyeS5Qb3N0Z3Jlc3FsU291cmNlLlNzbE1vZGUiZwoHU3Ns",
+            "TW9kZRIYChRTU0xfTU9ERV9VTlNQRUNJRklFRBAAEgsKB0RJU0FCTEUQARIJ",
+            "CgVBTExPVxACEgoKBlBSRUZFUhADEg0KCVZFUklGWV9DQRAEEg8KC1ZFUklG",
+            "WV9GVUxMEAUa3gYKCVN0cnVjdHVyZRJjCgJpZBgBIAEoCzJXLnlhbmRleC5j",
+            "bG91ZC5tZGIuY2xpY2tob3VzZS52MS5jb25maWcuQ2xpY2tob3VzZUNvbmZp",
+            "Zy5FeHRlcm5hbERpY3Rpb25hcnkuU3RydWN0dXJlLklkEmUKA2tleRgDIAEo",
+            "CzJYLnlhbmRleC5jbG91ZC5tZGIuY2xpY2tob3VzZS52MS5jb25maWcuQ2xp",
+            "Y2tob3VzZUNvbmZpZy5FeHRlcm5hbERpY3Rpb25hcnkuU3RydWN0dXJlLktl",
+            "eRJxCglyYW5nZV9taW4YBCABKAsyXi55YW5kZXguY2xvdWQubWRiLmNsaWNr",
+            "aG91c2UudjEuY29uZmlnLkNsaWNraG91c2VDb25maWcuRXh0ZXJuYWxEaWN0",
+            "aW9uYXJ5LlN0cnVjdHVyZS5BdHRyaWJ1dGUScQoJcmFuZ2VfbWF4GAUgASgL",
+            "Ml4ueWFuZGV4LmNsb3VkLm1kYi5jbGlja2hvdXNlLnYxLmNvbmZpZy5DbGlj",
+            "a2hvdXNlQ29uZmlnLkV4dGVybmFsRGljdGlvbmFyeS5TdHJ1Y3R1cmUuQXR0",
+            "cmlidXRlEnoKCmF0dHJpYnV0ZXMYAiADKAsyXi55YW5kZXguY2xvdWQubWRi",
+            "LmNsaWNraG91c2UudjEuY29uZmlnLkNsaWNraG91c2VDb25maWcuRXh0ZXJu",
+            "YWxEaWN0aW9uYXJ5LlN0cnVjdHVyZS5BdHRyaWJ1dGVCBoLIMQI+MBqEAQoJ",
+            "QXR0cmlidXRlEhIKBG5hbWUYASABKAlCBOjHMQESEgoEdHlwZRgCIAEoCUIE",
+            "6McxARISCgpudWxsX3ZhbHVlGAMgASgJEhIKCmV4cHJlc3Npb24YBCABKAkS",
+            "FAoMaGllcmFyY2hpY2FsGAUgASgIEhEKCWluamVjdGl2ZRgGIAEoCBoYCgJJ",
+            "ZBISCgRuYW1lGAEgASgJQgToxzEBGoEBCgNLZXkSegoKYXR0cmlidXRlcxgB",
+            "IAMoCzJeLnlhbmRleC5jbG91ZC5tZGIuY2xpY2tob3VzZS52MS5jb25maWcu",
+            "Q2xpY2tob3VzZUNvbmZpZy5FeHRlcm5hbERpY3Rpb25hcnkuU3RydWN0dXJl",
+            "LkF0dHJpYnV0ZUIGgsgxAj4wGosCCgZMYXlvdXQSagoEdHlwZRgBIAEoDjJW",
+            "LnlhbmRleC5jbG91ZC5tZGIuY2xpY2tob3VzZS52MS5jb25maWcuQ2xpY2to",
+            "b3VzZUNvbmZpZy5FeHRlcm5hbERpY3Rpb25hcnkuTGF5b3V0LlR5cGVCBOjH",
+            "MQESFQoNc2l6ZV9pbl9jZWxscxgCIAEoAyJ+CgRUeXBlEhQKEFRZUEVfVU5T",
+            "UEVDSUZJRUQQABIICgRGTEFUEAESCgoGSEFTSEVEEAISFgoSQ09NUExFWF9L",
+            "RVlfSEFTSEVEEAMSEAoMUkFOR0VfSEFTSEVEEAQSCQoFQ0FDSEUQBRIVChFD",
+            "T01QTEVYX0tFWV9DQUNIRRAGGiEKBVJhbmdlEgsKA21pbhgBIAEoAxILCgNt",
+            "YXgYAiABKANCEAoIbGlmZXRpbWUSBMDBMQFCDgoGc291cmNlEgTAwTEBGvQC",
+            "Cg5HcmFwaGl0ZVJvbGx1cBISCgRuYW1lGAEgASgJQgToxzEBEmgKCHBhdHRl",
+            "cm5zGAIgAygLMk4ueWFuZGV4LmNsb3VkLm1kYi5jbGlja2hvdXNlLnYxLmNv",
+            "bmZpZy5DbGlja2hvdXNlQ29uZmlnLkdyYXBoaXRlUm9sbHVwLlBhdHRlcm5C",
+            "BoLIMQI+MBrjAQoHUGF0dGVybhIOCgZyZWdleHAYASABKAkSFgoIZnVuY3Rp",
+            "b24YAiABKAlCBOjHMQEScwoJcmV0ZW50aW9uGAMgAygLMlgueWFuZGV4LmNs",
+            "b3VkLm1kYi5jbGlja2hvdXNlLnYxLmNvbmZpZy5DbGlja2hvdXNlQ29uZmln",
+            "LkdyYXBoaXRlUm9sbHVwLlBhdHRlcm4uUmV0ZW50aW9uQgaCyDECPjAaOwoJ",
+            "UmV0ZW50aW9uEhMKA2FnZRgBIAEoA0IG+scxAj4wEhkKCXByZWNpc2lvbhgC",
+            "IAEoA0IG+scxAj4wImQKCExvZ0xldmVsEhkKFUxPR19MRVZFTF9VTlNQRUNJ",
+            "RklFRBAAEgkKBVRSQUNFEAESCQoFREVCVUcQAhIPCgtJTkZPUk1BVElPThAD",
+            "EgsKB1dBUk5JTkcQBBIJCgVFUlJPUhAFIo0CChNDbGlja2hvdXNlQ29uZmln",
+            "U2V0ElcKEGVmZmVjdGl2ZV9jb25maWcYASABKAsyNy55YW5kZXguY2xvdWQu",
+            "bWRiLmNsaWNraG91c2UudjEuY29uZmlnLkNsaWNraG91c2VDb25maWdCBOjH",
+            "MQESTAoLdXNlcl9jb25maWcYAiABKAsyNy55YW5kZXguY2xvdWQubWRiLmNs",
+            "aWNraG91c2UudjEuY29uZmlnLkNsaWNraG91c2VDb25maWcSTwoOZGVmYXVs",
+            "dF9jb25maWcYAyABKAsyNy55YW5kZXguY2xvdWQubWRiLmNsaWNraG91c2Uu",
+            "djEuY29uZmlnLkNsaWNraG91c2VDb25maWdCgQEKKXlhbmRleC5jbG91ZC5h",
+            "cGkubWRiLmNsaWNraG91c2UudjEuY29uZmlnWlRnaXRodWIuY29tL3lhbmRl",
+            "eC1jbG91ZC9nby1nZW5wcm90by95YW5kZXgvY2xvdWQvbWRiL2NsaWNraG91",
+            "c2UvdjEvY29uZmlnO2NsaWNraG91c2ViBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.WrappersReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig), global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Parser, new[]{ "LogLevel", "MergeTree", "Compression", "Dictionaries", "GraphiteRollup", "MaxConnections", "MaxConcurrentQueries", "KeepAliveTimeout", "UncompressedCacheSize", "MarkCacheSize", "MaxTableSizeToDrop", "MaxPartitionSizeToDrop", "BuiltinDictionariesReloadInterval", "Timezone", "GeobaseUri" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.LogLevel) }, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.MergeTree), global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.MergeTree.Parser, new[]{ "ReplicatedDeduplicationWindow", "ReplicatedDeduplicationWindowSeconds", "PartsToDelayInsert", "PartsToThrowInsert", "MaxReplicatedMergesInQueue", "NumberOfFreeEntriesInPoolToLowerMaxSizeOfMerge", "MaxBytesToMergeAtMinSpaceInPool" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig), global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Parser, new[]{ "LogLevel", "MergeTree", "Compression", "Dictionaries", "GraphiteRollup", "Kafka", "MaxConnections", "MaxConcurrentQueries", "KeepAliveTimeout", "UncompressedCacheSize", "MarkCacheSize", "MaxTableSizeToDrop", "MaxPartitionSizeToDrop", "BuiltinDictionariesReloadInterval", "Timezone", "GeobaseUri", "QueryLogRetentionSize", "QueryLogRetentionTime", "QueryThreadLogEnabled", "QueryThreadLogRetentionSize", "QueryThreadLogRetentionTime", "PartLogRetentionSize", "PartLogRetentionTime", "MetricLogEnabled", "MetricLogRetentionSize", "MetricLogRetentionTime", "TraceLogEnabled", "TraceLogRetentionSize", "TraceLogRetentionTime", "TextLogEnabled", "TextLogRetentionSize", "TextLogRetentionTime", "TextLogLevel", "BackgroundPoolSize", "BackgroundSchedulePoolSize" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.LogLevel) }, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.MergeTree), global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.MergeTree.Parser, new[]{ "ReplicatedDeduplicationWindow", "ReplicatedDeduplicationWindowSeconds", "PartsToDelayInsert", "PartsToThrowInsert", "MaxReplicatedMergesInQueue", "NumberOfFreeEntriesInPoolToLowerMaxSizeOfMerge", "MaxBytesToMergeAtMinSpaceInPool" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.Kafka), global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.Kafka.Parser, new[]{ "SecurityProtocol", "SaslMechanism", "SaslUsername", "SaslPassword" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.Kafka.Types.SecurityProtocol), typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.Kafka.Types.SaslMechanism) }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.Compression), global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.Compression.Parser, new[]{ "Method", "MinPartSize", "MinPartSizeRatio" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.Compression.Types.Method) }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary), global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Parser, new[]{ "Name", "Structure", "Layout", "FixedLifetime", "LifetimeRange", "HttpSource", "MysqlSource", "ClickhouseSource", "MongodbSource", "PostgresqlSource" }, new[]{ "Lifetime", "Source" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Types.HttpSource), global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Types.HttpSource.Parser, new[]{ "Url", "Format" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Types.MysqlSource), global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Types.MysqlSource.Parser, new[]{ "Db", "Table", "Port", "User", "Password", "Replicas", "Where", "InvalidateQuery" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Types.MysqlSource.Types.Replica), global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.ExternalDictionary.Types.MysqlSource.Types.Replica.Parser, new[]{ "Host", "Priority", "Port", "User", "Password" }, null, null, null, null)}),
@@ -187,7 +231,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1.Config {
   #region Messages
   /// <summary>
   /// ClickHouse configuration options. Detailed description for each set of options
-  /// is available in [ClickHouse documentation](https://clickhouse.yandex/docs/ru/operations/server_settings/settings/).
+  /// is available in [ClickHouse documentation](https://clickhouse.yandex/docs/en/operations/server_settings/settings/).
   ///
   /// Any options not listed here are not supported.
   /// </summary>
@@ -221,6 +265,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1.Config {
       compression_ = other.compression_.Clone();
       dictionaries_ = other.dictionaries_.Clone();
       graphiteRollup_ = other.graphiteRollup_.Clone();
+      kafka_ = other.kafka_ != null ? other.kafka_.Clone() : null;
       MaxConnections = other.MaxConnections;
       MaxConcurrentQueries = other.MaxConcurrentQueries;
       KeepAliveTimeout = other.KeepAliveTimeout;
@@ -231,6 +276,25 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1.Config {
       BuiltinDictionariesReloadInterval = other.BuiltinDictionariesReloadInterval;
       timezone_ = other.timezone_;
       geobaseUri_ = other.geobaseUri_;
+      QueryLogRetentionSize = other.QueryLogRetentionSize;
+      QueryLogRetentionTime = other.QueryLogRetentionTime;
+      QueryThreadLogEnabled = other.QueryThreadLogEnabled;
+      QueryThreadLogRetentionSize = other.QueryThreadLogRetentionSize;
+      QueryThreadLogRetentionTime = other.QueryThreadLogRetentionTime;
+      PartLogRetentionSize = other.PartLogRetentionSize;
+      PartLogRetentionTime = other.PartLogRetentionTime;
+      MetricLogEnabled = other.MetricLogEnabled;
+      MetricLogRetentionSize = other.MetricLogRetentionSize;
+      MetricLogRetentionTime = other.MetricLogRetentionTime;
+      TraceLogEnabled = other.TraceLogEnabled;
+      TraceLogRetentionSize = other.TraceLogRetentionSize;
+      TraceLogRetentionTime = other.TraceLogRetentionTime;
+      TextLogEnabled = other.TextLogEnabled;
+      TextLogRetentionSize = other.TextLogRetentionSize;
+      TextLogRetentionTime = other.TextLogRetentionTime;
+      textLogLevel_ = other.textLogLevel_;
+      BackgroundPoolSize = other.BackgroundPoolSize;
+      BackgroundSchedulePoolSize = other.BackgroundSchedulePoolSize;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -308,6 +372,17 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1.Config {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::RepeatedField<global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.GraphiteRollup> GraphiteRollup {
       get { return graphiteRollup_; }
+    }
+
+    /// <summary>Field number for the "kafka" field.</summary>
+    public const int KafkaFieldNumber = 35;
+    private global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.Kafka kafka_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.Kafka Kafka {
+      get { return kafka_; }
+      set {
+        kafka_ = value;
+      }
     }
 
     /// <summary>Field number for the "max_connections" field.</summary>
@@ -467,6 +542,314 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1.Config {
       }
     }
 
+    /// <summary>Field number for the "query_log_retention_size" field.</summary>
+    public const int QueryLogRetentionSizeFieldNumber = 16;
+    private static readonly pb::FieldCodec<long?> _single_queryLogRetentionSize_codec = pb::FieldCodec.ForStructWrapper<long>(130);
+    private long? queryLogRetentionSize_;
+    /// <summary>
+    /// The maximum size that query_log can grow to before old data will be removed. If set to 0, automatic removal of
+    /// query_log data based on size is disabled.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? QueryLogRetentionSize {
+      get { return queryLogRetentionSize_; }
+      set {
+        queryLogRetentionSize_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "query_log_retention_time" field.</summary>
+    public const int QueryLogRetentionTimeFieldNumber = 17;
+    private static readonly pb::FieldCodec<long?> _single_queryLogRetentionTime_codec = pb::FieldCodec.ForStructWrapper<long>(138);
+    private long? queryLogRetentionTime_;
+    /// <summary>
+    /// The maximum time that query_log records will be retained before removal. If set to 0, automatic removal of
+    /// query_log data based on time is disabled.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? QueryLogRetentionTime {
+      get { return queryLogRetentionTime_; }
+      set {
+        queryLogRetentionTime_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "query_thread_log_enabled" field.</summary>
+    public const int QueryThreadLogEnabledFieldNumber = 18;
+    private static readonly pb::FieldCodec<bool?> _single_queryThreadLogEnabled_codec = pb::FieldCodec.ForStructWrapper<bool>(146);
+    private bool? queryThreadLogEnabled_;
+    /// <summary>
+    /// Whether query_thread_log system table is enabled.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool? QueryThreadLogEnabled {
+      get { return queryThreadLogEnabled_; }
+      set {
+        queryThreadLogEnabled_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "query_thread_log_retention_size" field.</summary>
+    public const int QueryThreadLogRetentionSizeFieldNumber = 19;
+    private static readonly pb::FieldCodec<long?> _single_queryThreadLogRetentionSize_codec = pb::FieldCodec.ForStructWrapper<long>(154);
+    private long? queryThreadLogRetentionSize_;
+    /// <summary>
+    /// The maximum size that query_thread_log can grow to before old data will be removed. If set to 0, automatic removal of
+    /// query_thread_log data based on size is disabled.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? QueryThreadLogRetentionSize {
+      get { return queryThreadLogRetentionSize_; }
+      set {
+        queryThreadLogRetentionSize_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "query_thread_log_retention_time" field.</summary>
+    public const int QueryThreadLogRetentionTimeFieldNumber = 20;
+    private static readonly pb::FieldCodec<long?> _single_queryThreadLogRetentionTime_codec = pb::FieldCodec.ForStructWrapper<long>(162);
+    private long? queryThreadLogRetentionTime_;
+    /// <summary>
+    /// The maximum time that query_thread_log records will be retained before removal. If set to 0, automatic removal of
+    /// query_thread_log data based on time is disabled.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? QueryThreadLogRetentionTime {
+      get { return queryThreadLogRetentionTime_; }
+      set {
+        queryThreadLogRetentionTime_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "part_log_retention_size" field.</summary>
+    public const int PartLogRetentionSizeFieldNumber = 21;
+    private static readonly pb::FieldCodec<long?> _single_partLogRetentionSize_codec = pb::FieldCodec.ForStructWrapper<long>(170);
+    private long? partLogRetentionSize_;
+    /// <summary>
+    /// The maximum size that part_log can grow to before old data will be removed. If set to 0, automatic removal of
+    /// part_log data based on size is disabled.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? PartLogRetentionSize {
+      get { return partLogRetentionSize_; }
+      set {
+        partLogRetentionSize_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "part_log_retention_time" field.</summary>
+    public const int PartLogRetentionTimeFieldNumber = 22;
+    private static readonly pb::FieldCodec<long?> _single_partLogRetentionTime_codec = pb::FieldCodec.ForStructWrapper<long>(178);
+    private long? partLogRetentionTime_;
+    /// <summary>
+    /// The maximum time that part_log records will be retained before removal. If set to 0, automatic removal of
+    /// part_log data based on time is disabled.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? PartLogRetentionTime {
+      get { return partLogRetentionTime_; }
+      set {
+        partLogRetentionTime_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "metric_log_enabled" field.</summary>
+    public const int MetricLogEnabledFieldNumber = 23;
+    private static readonly pb::FieldCodec<bool?> _single_metricLogEnabled_codec = pb::FieldCodec.ForStructWrapper<bool>(186);
+    private bool? metricLogEnabled_;
+    /// <summary>
+    /// Whether metric_log system table is enabled.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool? MetricLogEnabled {
+      get { return metricLogEnabled_; }
+      set {
+        metricLogEnabled_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "metric_log_retention_size" field.</summary>
+    public const int MetricLogRetentionSizeFieldNumber = 24;
+    private static readonly pb::FieldCodec<long?> _single_metricLogRetentionSize_codec = pb::FieldCodec.ForStructWrapper<long>(194);
+    private long? metricLogRetentionSize_;
+    /// <summary>
+    /// The maximum size that metric_log can grow to before old data will be removed. If set to 0, automatic removal of
+    /// metric_log data based on size is disabled.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? MetricLogRetentionSize {
+      get { return metricLogRetentionSize_; }
+      set {
+        metricLogRetentionSize_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "metric_log_retention_time" field.</summary>
+    public const int MetricLogRetentionTimeFieldNumber = 25;
+    private static readonly pb::FieldCodec<long?> _single_metricLogRetentionTime_codec = pb::FieldCodec.ForStructWrapper<long>(202);
+    private long? metricLogRetentionTime_;
+    /// <summary>
+    /// The maximum time that metric_log records will be retained before removal. If set to 0, automatic removal of
+    /// metric_log data based on time is disabled.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? MetricLogRetentionTime {
+      get { return metricLogRetentionTime_; }
+      set {
+        metricLogRetentionTime_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "trace_log_enabled" field.</summary>
+    public const int TraceLogEnabledFieldNumber = 26;
+    private static readonly pb::FieldCodec<bool?> _single_traceLogEnabled_codec = pb::FieldCodec.ForStructWrapper<bool>(210);
+    private bool? traceLogEnabled_;
+    /// <summary>
+    /// Whether trace_log system table is enabled.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool? TraceLogEnabled {
+      get { return traceLogEnabled_; }
+      set {
+        traceLogEnabled_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "trace_log_retention_size" field.</summary>
+    public const int TraceLogRetentionSizeFieldNumber = 27;
+    private static readonly pb::FieldCodec<long?> _single_traceLogRetentionSize_codec = pb::FieldCodec.ForStructWrapper<long>(218);
+    private long? traceLogRetentionSize_;
+    /// <summary>
+    /// The maximum size that trace_log can grow to before old data will be removed. If set to 0, automatic removal of
+    /// trace_log data based on size is disabled.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? TraceLogRetentionSize {
+      get { return traceLogRetentionSize_; }
+      set {
+        traceLogRetentionSize_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "trace_log_retention_time" field.</summary>
+    public const int TraceLogRetentionTimeFieldNumber = 28;
+    private static readonly pb::FieldCodec<long?> _single_traceLogRetentionTime_codec = pb::FieldCodec.ForStructWrapper<long>(226);
+    private long? traceLogRetentionTime_;
+    /// <summary>
+    /// The maximum time that trace_log records will be retained before removal. If set to 0, automatic removal of
+    /// trace_log data based on time is disabled.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? TraceLogRetentionTime {
+      get { return traceLogRetentionTime_; }
+      set {
+        traceLogRetentionTime_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "text_log_enabled" field.</summary>
+    public const int TextLogEnabledFieldNumber = 29;
+    private static readonly pb::FieldCodec<bool?> _single_textLogEnabled_codec = pb::FieldCodec.ForStructWrapper<bool>(234);
+    private bool? textLogEnabled_;
+    /// <summary>
+    /// Whether text_log system table is enabled.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool? TextLogEnabled {
+      get { return textLogEnabled_; }
+      set {
+        textLogEnabled_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "text_log_retention_size" field.</summary>
+    public const int TextLogRetentionSizeFieldNumber = 30;
+    private static readonly pb::FieldCodec<long?> _single_textLogRetentionSize_codec = pb::FieldCodec.ForStructWrapper<long>(242);
+    private long? textLogRetentionSize_;
+    /// <summary>
+    /// The maximum size that text_log can grow to before old data will be removed. If set to 0, automatic removal of
+    /// text_log data based on size is disabled.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? TextLogRetentionSize {
+      get { return textLogRetentionSize_; }
+      set {
+        textLogRetentionSize_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "text_log_retention_time" field.</summary>
+    public const int TextLogRetentionTimeFieldNumber = 31;
+    private static readonly pb::FieldCodec<long?> _single_textLogRetentionTime_codec = pb::FieldCodec.ForStructWrapper<long>(250);
+    private long? textLogRetentionTime_;
+    /// <summary>
+    /// The maximum time that text_log records will be retained before removal. If set to 0, automatic removal of
+    /// text_log data based on time is disabled.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? TextLogRetentionTime {
+      get { return textLogRetentionTime_; }
+      set {
+        textLogRetentionTime_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "text_log_level" field.</summary>
+    public const int TextLogLevelFieldNumber = 32;
+    private global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.LogLevel textLogLevel_ = global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.LogLevel.Unspecified;
+    /// <summary>
+    /// Logging level for text_log system table. Possible values: TRACE, DEBUG, INFORMATION, WARNING, ERROR.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.LogLevel TextLogLevel {
+      get { return textLogLevel_; }
+      set {
+        textLogLevel_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "background_pool_size" field.</summary>
+    public const int BackgroundPoolSizeFieldNumber = 33;
+    private static readonly pb::FieldCodec<long?> _single_backgroundPoolSize_codec = pb::FieldCodec.ForStructWrapper<long>(266);
+    private long? backgroundPoolSize_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? BackgroundPoolSize {
+      get { return backgroundPoolSize_; }
+      set {
+        backgroundPoolSize_ = value;
+      }
+    }
+
+
+    /// <summary>Field number for the "background_schedule_pool_size" field.</summary>
+    public const int BackgroundSchedulePoolSizeFieldNumber = 34;
+    private static readonly pb::FieldCodec<long?> _single_backgroundSchedulePoolSize_codec = pb::FieldCodec.ForStructWrapper<long>(274);
+    private long? backgroundSchedulePoolSize_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long? BackgroundSchedulePoolSize {
+      get { return backgroundSchedulePoolSize_; }
+      set {
+        backgroundSchedulePoolSize_ = value;
+      }
+    }
+
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as ClickhouseConfig);
@@ -485,6 +868,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1.Config {
       if(!compression_.Equals(other.compression_)) return false;
       if(!dictionaries_.Equals(other.dictionaries_)) return false;
       if(!graphiteRollup_.Equals(other.graphiteRollup_)) return false;
+      if (!object.Equals(Kafka, other.Kafka)) return false;
       if (MaxConnections != other.MaxConnections) return false;
       if (MaxConcurrentQueries != other.MaxConcurrentQueries) return false;
       if (KeepAliveTimeout != other.KeepAliveTimeout) return false;
@@ -495,6 +879,25 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1.Config {
       if (BuiltinDictionariesReloadInterval != other.BuiltinDictionariesReloadInterval) return false;
       if (Timezone != other.Timezone) return false;
       if (GeobaseUri != other.GeobaseUri) return false;
+      if (QueryLogRetentionSize != other.QueryLogRetentionSize) return false;
+      if (QueryLogRetentionTime != other.QueryLogRetentionTime) return false;
+      if (QueryThreadLogEnabled != other.QueryThreadLogEnabled) return false;
+      if (QueryThreadLogRetentionSize != other.QueryThreadLogRetentionSize) return false;
+      if (QueryThreadLogRetentionTime != other.QueryThreadLogRetentionTime) return false;
+      if (PartLogRetentionSize != other.PartLogRetentionSize) return false;
+      if (PartLogRetentionTime != other.PartLogRetentionTime) return false;
+      if (MetricLogEnabled != other.MetricLogEnabled) return false;
+      if (MetricLogRetentionSize != other.MetricLogRetentionSize) return false;
+      if (MetricLogRetentionTime != other.MetricLogRetentionTime) return false;
+      if (TraceLogEnabled != other.TraceLogEnabled) return false;
+      if (TraceLogRetentionSize != other.TraceLogRetentionSize) return false;
+      if (TraceLogRetentionTime != other.TraceLogRetentionTime) return false;
+      if (TextLogEnabled != other.TextLogEnabled) return false;
+      if (TextLogRetentionSize != other.TextLogRetentionSize) return false;
+      if (TextLogRetentionTime != other.TextLogRetentionTime) return false;
+      if (TextLogLevel != other.TextLogLevel) return false;
+      if (BackgroundPoolSize != other.BackgroundPoolSize) return false;
+      if (BackgroundSchedulePoolSize != other.BackgroundSchedulePoolSize) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -506,6 +909,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1.Config {
       hash ^= compression_.GetHashCode();
       hash ^= dictionaries_.GetHashCode();
       hash ^= graphiteRollup_.GetHashCode();
+      if (kafka_ != null) hash ^= Kafka.GetHashCode();
       if (maxConnections_ != null) hash ^= MaxConnections.GetHashCode();
       if (maxConcurrentQueries_ != null) hash ^= MaxConcurrentQueries.GetHashCode();
       if (keepAliveTimeout_ != null) hash ^= KeepAliveTimeout.GetHashCode();
@@ -516,6 +920,25 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1.Config {
       if (builtinDictionariesReloadInterval_ != null) hash ^= BuiltinDictionariesReloadInterval.GetHashCode();
       if (Timezone.Length != 0) hash ^= Timezone.GetHashCode();
       if (GeobaseUri.Length != 0) hash ^= GeobaseUri.GetHashCode();
+      if (queryLogRetentionSize_ != null) hash ^= QueryLogRetentionSize.GetHashCode();
+      if (queryLogRetentionTime_ != null) hash ^= QueryLogRetentionTime.GetHashCode();
+      if (queryThreadLogEnabled_ != null) hash ^= QueryThreadLogEnabled.GetHashCode();
+      if (queryThreadLogRetentionSize_ != null) hash ^= QueryThreadLogRetentionSize.GetHashCode();
+      if (queryThreadLogRetentionTime_ != null) hash ^= QueryThreadLogRetentionTime.GetHashCode();
+      if (partLogRetentionSize_ != null) hash ^= PartLogRetentionSize.GetHashCode();
+      if (partLogRetentionTime_ != null) hash ^= PartLogRetentionTime.GetHashCode();
+      if (metricLogEnabled_ != null) hash ^= MetricLogEnabled.GetHashCode();
+      if (metricLogRetentionSize_ != null) hash ^= MetricLogRetentionSize.GetHashCode();
+      if (metricLogRetentionTime_ != null) hash ^= MetricLogRetentionTime.GetHashCode();
+      if (traceLogEnabled_ != null) hash ^= TraceLogEnabled.GetHashCode();
+      if (traceLogRetentionSize_ != null) hash ^= TraceLogRetentionSize.GetHashCode();
+      if (traceLogRetentionTime_ != null) hash ^= TraceLogRetentionTime.GetHashCode();
+      if (textLogEnabled_ != null) hash ^= TextLogEnabled.GetHashCode();
+      if (textLogRetentionSize_ != null) hash ^= TextLogRetentionSize.GetHashCode();
+      if (textLogRetentionTime_ != null) hash ^= TextLogRetentionTime.GetHashCode();
+      if (TextLogLevel != global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.LogLevel.Unspecified) hash ^= TextLogLevel.GetHashCode();
+      if (backgroundPoolSize_ != null) hash ^= BackgroundPoolSize.GetHashCode();
+      if (backgroundSchedulePoolSize_ != null) hash ^= BackgroundSchedulePoolSize.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -572,6 +995,68 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1.Config {
         output.WriteRawTag(122);
         output.WriteString(GeobaseUri);
       }
+      if (queryLogRetentionSize_ != null) {
+        _single_queryLogRetentionSize_codec.WriteTagAndValue(output, QueryLogRetentionSize);
+      }
+      if (queryLogRetentionTime_ != null) {
+        _single_queryLogRetentionTime_codec.WriteTagAndValue(output, QueryLogRetentionTime);
+      }
+      if (queryThreadLogEnabled_ != null) {
+        _single_queryThreadLogEnabled_codec.WriteTagAndValue(output, QueryThreadLogEnabled);
+      }
+      if (queryThreadLogRetentionSize_ != null) {
+        _single_queryThreadLogRetentionSize_codec.WriteTagAndValue(output, QueryThreadLogRetentionSize);
+      }
+      if (queryThreadLogRetentionTime_ != null) {
+        _single_queryThreadLogRetentionTime_codec.WriteTagAndValue(output, QueryThreadLogRetentionTime);
+      }
+      if (partLogRetentionSize_ != null) {
+        _single_partLogRetentionSize_codec.WriteTagAndValue(output, PartLogRetentionSize);
+      }
+      if (partLogRetentionTime_ != null) {
+        _single_partLogRetentionTime_codec.WriteTagAndValue(output, PartLogRetentionTime);
+      }
+      if (metricLogEnabled_ != null) {
+        _single_metricLogEnabled_codec.WriteTagAndValue(output, MetricLogEnabled);
+      }
+      if (metricLogRetentionSize_ != null) {
+        _single_metricLogRetentionSize_codec.WriteTagAndValue(output, MetricLogRetentionSize);
+      }
+      if (metricLogRetentionTime_ != null) {
+        _single_metricLogRetentionTime_codec.WriteTagAndValue(output, MetricLogRetentionTime);
+      }
+      if (traceLogEnabled_ != null) {
+        _single_traceLogEnabled_codec.WriteTagAndValue(output, TraceLogEnabled);
+      }
+      if (traceLogRetentionSize_ != null) {
+        _single_traceLogRetentionSize_codec.WriteTagAndValue(output, TraceLogRetentionSize);
+      }
+      if (traceLogRetentionTime_ != null) {
+        _single_traceLogRetentionTime_codec.WriteTagAndValue(output, TraceLogRetentionTime);
+      }
+      if (textLogEnabled_ != null) {
+        _single_textLogEnabled_codec.WriteTagAndValue(output, TextLogEnabled);
+      }
+      if (textLogRetentionSize_ != null) {
+        _single_textLogRetentionSize_codec.WriteTagAndValue(output, TextLogRetentionSize);
+      }
+      if (textLogRetentionTime_ != null) {
+        _single_textLogRetentionTime_codec.WriteTagAndValue(output, TextLogRetentionTime);
+      }
+      if (TextLogLevel != global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.LogLevel.Unspecified) {
+        output.WriteRawTag(128, 2);
+        output.WriteEnum((int) TextLogLevel);
+      }
+      if (backgroundPoolSize_ != null) {
+        _single_backgroundPoolSize_codec.WriteTagAndValue(output, BackgroundPoolSize);
+      }
+      if (backgroundSchedulePoolSize_ != null) {
+        _single_backgroundSchedulePoolSize_codec.WriteTagAndValue(output, BackgroundSchedulePoolSize);
+      }
+      if (kafka_ != null) {
+        output.WriteRawTag(154, 2);
+        output.WriteMessage(Kafka);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -589,6 +1074,9 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1.Config {
       size += compression_.CalculateSize(_repeated_compression_codec);
       size += dictionaries_.CalculateSize(_repeated_dictionaries_codec);
       size += graphiteRollup_.CalculateSize(_repeated_graphiteRollup_codec);
+      if (kafka_ != null) {
+        size += 2 + pb::CodedOutputStream.ComputeMessageSize(Kafka);
+      }
       if (maxConnections_ != null) {
         size += _single_maxConnections_codec.CalculateSizeWithTag(MaxConnections);
       }
@@ -619,6 +1107,63 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1.Config {
       if (GeobaseUri.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(GeobaseUri);
       }
+      if (queryLogRetentionSize_ != null) {
+        size += _single_queryLogRetentionSize_codec.CalculateSizeWithTag(QueryLogRetentionSize);
+      }
+      if (queryLogRetentionTime_ != null) {
+        size += _single_queryLogRetentionTime_codec.CalculateSizeWithTag(QueryLogRetentionTime);
+      }
+      if (queryThreadLogEnabled_ != null) {
+        size += _single_queryThreadLogEnabled_codec.CalculateSizeWithTag(QueryThreadLogEnabled);
+      }
+      if (queryThreadLogRetentionSize_ != null) {
+        size += _single_queryThreadLogRetentionSize_codec.CalculateSizeWithTag(QueryThreadLogRetentionSize);
+      }
+      if (queryThreadLogRetentionTime_ != null) {
+        size += _single_queryThreadLogRetentionTime_codec.CalculateSizeWithTag(QueryThreadLogRetentionTime);
+      }
+      if (partLogRetentionSize_ != null) {
+        size += _single_partLogRetentionSize_codec.CalculateSizeWithTag(PartLogRetentionSize);
+      }
+      if (partLogRetentionTime_ != null) {
+        size += _single_partLogRetentionTime_codec.CalculateSizeWithTag(PartLogRetentionTime);
+      }
+      if (metricLogEnabled_ != null) {
+        size += _single_metricLogEnabled_codec.CalculateSizeWithTag(MetricLogEnabled);
+      }
+      if (metricLogRetentionSize_ != null) {
+        size += _single_metricLogRetentionSize_codec.CalculateSizeWithTag(MetricLogRetentionSize);
+      }
+      if (metricLogRetentionTime_ != null) {
+        size += _single_metricLogRetentionTime_codec.CalculateSizeWithTag(MetricLogRetentionTime);
+      }
+      if (traceLogEnabled_ != null) {
+        size += _single_traceLogEnabled_codec.CalculateSizeWithTag(TraceLogEnabled);
+      }
+      if (traceLogRetentionSize_ != null) {
+        size += _single_traceLogRetentionSize_codec.CalculateSizeWithTag(TraceLogRetentionSize);
+      }
+      if (traceLogRetentionTime_ != null) {
+        size += _single_traceLogRetentionTime_codec.CalculateSizeWithTag(TraceLogRetentionTime);
+      }
+      if (textLogEnabled_ != null) {
+        size += _single_textLogEnabled_codec.CalculateSizeWithTag(TextLogEnabled);
+      }
+      if (textLogRetentionSize_ != null) {
+        size += _single_textLogRetentionSize_codec.CalculateSizeWithTag(TextLogRetentionSize);
+      }
+      if (textLogRetentionTime_ != null) {
+        size += _single_textLogRetentionTime_codec.CalculateSizeWithTag(TextLogRetentionTime);
+      }
+      if (TextLogLevel != global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.LogLevel.Unspecified) {
+        size += 2 + pb::CodedOutputStream.ComputeEnumSize((int) TextLogLevel);
+      }
+      if (backgroundPoolSize_ != null) {
+        size += _single_backgroundPoolSize_codec.CalculateSizeWithTag(BackgroundPoolSize);
+      }
+      if (backgroundSchedulePoolSize_ != null) {
+        size += _single_backgroundSchedulePoolSize_codec.CalculateSizeWithTag(BackgroundSchedulePoolSize);
+      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -642,6 +1187,12 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1.Config {
       compression_.Add(other.compression_);
       dictionaries_.Add(other.dictionaries_);
       graphiteRollup_.Add(other.graphiteRollup_);
+      if (other.kafka_ != null) {
+        if (kafka_ == null) {
+          Kafka = new global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.Kafka();
+        }
+        Kafka.MergeFrom(other.Kafka);
+      }
       if (other.maxConnections_ != null) {
         if (maxConnections_ == null || other.MaxConnections != 0L) {
           MaxConnections = other.MaxConnections;
@@ -687,6 +1238,99 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1.Config {
       }
       if (other.GeobaseUri.Length != 0) {
         GeobaseUri = other.GeobaseUri;
+      }
+      if (other.queryLogRetentionSize_ != null) {
+        if (queryLogRetentionSize_ == null || other.QueryLogRetentionSize != 0L) {
+          QueryLogRetentionSize = other.QueryLogRetentionSize;
+        }
+      }
+      if (other.queryLogRetentionTime_ != null) {
+        if (queryLogRetentionTime_ == null || other.QueryLogRetentionTime != 0L) {
+          QueryLogRetentionTime = other.QueryLogRetentionTime;
+        }
+      }
+      if (other.queryThreadLogEnabled_ != null) {
+        if (queryThreadLogEnabled_ == null || other.QueryThreadLogEnabled != false) {
+          QueryThreadLogEnabled = other.QueryThreadLogEnabled;
+        }
+      }
+      if (other.queryThreadLogRetentionSize_ != null) {
+        if (queryThreadLogRetentionSize_ == null || other.QueryThreadLogRetentionSize != 0L) {
+          QueryThreadLogRetentionSize = other.QueryThreadLogRetentionSize;
+        }
+      }
+      if (other.queryThreadLogRetentionTime_ != null) {
+        if (queryThreadLogRetentionTime_ == null || other.QueryThreadLogRetentionTime != 0L) {
+          QueryThreadLogRetentionTime = other.QueryThreadLogRetentionTime;
+        }
+      }
+      if (other.partLogRetentionSize_ != null) {
+        if (partLogRetentionSize_ == null || other.PartLogRetentionSize != 0L) {
+          PartLogRetentionSize = other.PartLogRetentionSize;
+        }
+      }
+      if (other.partLogRetentionTime_ != null) {
+        if (partLogRetentionTime_ == null || other.PartLogRetentionTime != 0L) {
+          PartLogRetentionTime = other.PartLogRetentionTime;
+        }
+      }
+      if (other.metricLogEnabled_ != null) {
+        if (metricLogEnabled_ == null || other.MetricLogEnabled != false) {
+          MetricLogEnabled = other.MetricLogEnabled;
+        }
+      }
+      if (other.metricLogRetentionSize_ != null) {
+        if (metricLogRetentionSize_ == null || other.MetricLogRetentionSize != 0L) {
+          MetricLogRetentionSize = other.MetricLogRetentionSize;
+        }
+      }
+      if (other.metricLogRetentionTime_ != null) {
+        if (metricLogRetentionTime_ == null || other.MetricLogRetentionTime != 0L) {
+          MetricLogRetentionTime = other.MetricLogRetentionTime;
+        }
+      }
+      if (other.traceLogEnabled_ != null) {
+        if (traceLogEnabled_ == null || other.TraceLogEnabled != false) {
+          TraceLogEnabled = other.TraceLogEnabled;
+        }
+      }
+      if (other.traceLogRetentionSize_ != null) {
+        if (traceLogRetentionSize_ == null || other.TraceLogRetentionSize != 0L) {
+          TraceLogRetentionSize = other.TraceLogRetentionSize;
+        }
+      }
+      if (other.traceLogRetentionTime_ != null) {
+        if (traceLogRetentionTime_ == null || other.TraceLogRetentionTime != 0L) {
+          TraceLogRetentionTime = other.TraceLogRetentionTime;
+        }
+      }
+      if (other.textLogEnabled_ != null) {
+        if (textLogEnabled_ == null || other.TextLogEnabled != false) {
+          TextLogEnabled = other.TextLogEnabled;
+        }
+      }
+      if (other.textLogRetentionSize_ != null) {
+        if (textLogRetentionSize_ == null || other.TextLogRetentionSize != 0L) {
+          TextLogRetentionSize = other.TextLogRetentionSize;
+        }
+      }
+      if (other.textLogRetentionTime_ != null) {
+        if (textLogRetentionTime_ == null || other.TextLogRetentionTime != 0L) {
+          TextLogRetentionTime = other.TextLogRetentionTime;
+        }
+      }
+      if (other.TextLogLevel != global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.LogLevel.Unspecified) {
+        TextLogLevel = other.TextLogLevel;
+      }
+      if (other.backgroundPoolSize_ != null) {
+        if (backgroundPoolSize_ == null || other.BackgroundPoolSize != 0L) {
+          BackgroundPoolSize = other.BackgroundPoolSize;
+        }
+      }
+      if (other.backgroundSchedulePoolSize_ != null) {
+        if (backgroundSchedulePoolSize_ == null || other.BackgroundSchedulePoolSize != 0L) {
+          BackgroundSchedulePoolSize = other.BackgroundSchedulePoolSize;
+        }
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -784,6 +1428,143 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1.Config {
           }
           case 122: {
             GeobaseUri = input.ReadString();
+            break;
+          }
+          case 130: {
+            long? value = _single_queryLogRetentionSize_codec.Read(input);
+            if (queryLogRetentionSize_ == null || value != 0L) {
+              QueryLogRetentionSize = value;
+            }
+            break;
+          }
+          case 138: {
+            long? value = _single_queryLogRetentionTime_codec.Read(input);
+            if (queryLogRetentionTime_ == null || value != 0L) {
+              QueryLogRetentionTime = value;
+            }
+            break;
+          }
+          case 146: {
+            bool? value = _single_queryThreadLogEnabled_codec.Read(input);
+            if (queryThreadLogEnabled_ == null || value != false) {
+              QueryThreadLogEnabled = value;
+            }
+            break;
+          }
+          case 154: {
+            long? value = _single_queryThreadLogRetentionSize_codec.Read(input);
+            if (queryThreadLogRetentionSize_ == null || value != 0L) {
+              QueryThreadLogRetentionSize = value;
+            }
+            break;
+          }
+          case 162: {
+            long? value = _single_queryThreadLogRetentionTime_codec.Read(input);
+            if (queryThreadLogRetentionTime_ == null || value != 0L) {
+              QueryThreadLogRetentionTime = value;
+            }
+            break;
+          }
+          case 170: {
+            long? value = _single_partLogRetentionSize_codec.Read(input);
+            if (partLogRetentionSize_ == null || value != 0L) {
+              PartLogRetentionSize = value;
+            }
+            break;
+          }
+          case 178: {
+            long? value = _single_partLogRetentionTime_codec.Read(input);
+            if (partLogRetentionTime_ == null || value != 0L) {
+              PartLogRetentionTime = value;
+            }
+            break;
+          }
+          case 186: {
+            bool? value = _single_metricLogEnabled_codec.Read(input);
+            if (metricLogEnabled_ == null || value != false) {
+              MetricLogEnabled = value;
+            }
+            break;
+          }
+          case 194: {
+            long? value = _single_metricLogRetentionSize_codec.Read(input);
+            if (metricLogRetentionSize_ == null || value != 0L) {
+              MetricLogRetentionSize = value;
+            }
+            break;
+          }
+          case 202: {
+            long? value = _single_metricLogRetentionTime_codec.Read(input);
+            if (metricLogRetentionTime_ == null || value != 0L) {
+              MetricLogRetentionTime = value;
+            }
+            break;
+          }
+          case 210: {
+            bool? value = _single_traceLogEnabled_codec.Read(input);
+            if (traceLogEnabled_ == null || value != false) {
+              TraceLogEnabled = value;
+            }
+            break;
+          }
+          case 218: {
+            long? value = _single_traceLogRetentionSize_codec.Read(input);
+            if (traceLogRetentionSize_ == null || value != 0L) {
+              TraceLogRetentionSize = value;
+            }
+            break;
+          }
+          case 226: {
+            long? value = _single_traceLogRetentionTime_codec.Read(input);
+            if (traceLogRetentionTime_ == null || value != 0L) {
+              TraceLogRetentionTime = value;
+            }
+            break;
+          }
+          case 234: {
+            bool? value = _single_textLogEnabled_codec.Read(input);
+            if (textLogEnabled_ == null || value != false) {
+              TextLogEnabled = value;
+            }
+            break;
+          }
+          case 242: {
+            long? value = _single_textLogRetentionSize_codec.Read(input);
+            if (textLogRetentionSize_ == null || value != 0L) {
+              TextLogRetentionSize = value;
+            }
+            break;
+          }
+          case 250: {
+            long? value = _single_textLogRetentionTime_codec.Read(input);
+            if (textLogRetentionTime_ == null || value != 0L) {
+              TextLogRetentionTime = value;
+            }
+            break;
+          }
+          case 256: {
+            TextLogLevel = (global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.LogLevel) input.ReadEnum();
+            break;
+          }
+          case 266: {
+            long? value = _single_backgroundPoolSize_codec.Read(input);
+            if (backgroundPoolSize_ == null || value != 0L) {
+              BackgroundPoolSize = value;
+            }
+            break;
+          }
+          case 274: {
+            long? value = _single_backgroundSchedulePoolSize_codec.Read(input);
+            if (backgroundSchedulePoolSize_ == null || value != 0L) {
+              BackgroundSchedulePoolSize = value;
+            }
+            break;
+          }
+          case 282: {
+            if (kafka_ == null) {
+              Kafka = new global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.Kafka();
+            }
+            input.ReadMessage(Kafka);
             break;
           }
         }
@@ -1168,6 +1949,242 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1.Config {
 
       }
 
+      internal sealed partial class Kafka : pb::IMessage<Kafka> {
+        private static readonly pb::MessageParser<Kafka> _parser = new pb::MessageParser<Kafka>(() => new Kafka());
+        private pb::UnknownFieldSet _unknownFields;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public static pb::MessageParser<Kafka> Parser { get { return _parser; } }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public static pbr::MessageDescriptor Descriptor {
+          get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Descriptor.NestedTypes[1]; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        pbr::MessageDescriptor pb::IMessage.Descriptor {
+          get { return Descriptor; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public Kafka() {
+          OnConstruction();
+        }
+
+        partial void OnConstruction();
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public Kafka(Kafka other) : this() {
+          securityProtocol_ = other.securityProtocol_;
+          saslMechanism_ = other.saslMechanism_;
+          saslUsername_ = other.saslUsername_;
+          saslPassword_ = other.saslPassword_;
+          _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public Kafka Clone() {
+          return new Kafka(this);
+        }
+
+        /// <summary>Field number for the "security_protocol" field.</summary>
+        public const int SecurityProtocolFieldNumber = 1;
+        private global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.Kafka.Types.SecurityProtocol securityProtocol_ = global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.Kafka.Types.SecurityProtocol.Unspecified;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.Kafka.Types.SecurityProtocol SecurityProtocol {
+          get { return securityProtocol_; }
+          set {
+            securityProtocol_ = value;
+          }
+        }
+
+        /// <summary>Field number for the "sasl_mechanism" field.</summary>
+        public const int SaslMechanismFieldNumber = 2;
+        private global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.Kafka.Types.SaslMechanism saslMechanism_ = global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.Kafka.Types.SaslMechanism.Unspecified;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.Kafka.Types.SaslMechanism SaslMechanism {
+          get { return saslMechanism_; }
+          set {
+            saslMechanism_ = value;
+          }
+        }
+
+        /// <summary>Field number for the "sasl_username" field.</summary>
+        public const int SaslUsernameFieldNumber = 3;
+        private string saslUsername_ = "";
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public string SaslUsername {
+          get { return saslUsername_; }
+          set {
+            saslUsername_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+          }
+        }
+
+        /// <summary>Field number for the "sasl_password" field.</summary>
+        public const int SaslPasswordFieldNumber = 4;
+        private string saslPassword_ = "";
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public string SaslPassword {
+          get { return saslPassword_; }
+          set {
+            saslPassword_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+          }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override bool Equals(object other) {
+          return Equals(other as Kafka);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public bool Equals(Kafka other) {
+          if (ReferenceEquals(other, null)) {
+            return false;
+          }
+          if (ReferenceEquals(other, this)) {
+            return true;
+          }
+          if (SecurityProtocol != other.SecurityProtocol) return false;
+          if (SaslMechanism != other.SaslMechanism) return false;
+          if (SaslUsername != other.SaslUsername) return false;
+          if (SaslPassword != other.SaslPassword) return false;
+          return Equals(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override int GetHashCode() {
+          int hash = 1;
+          if (SecurityProtocol != global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.Kafka.Types.SecurityProtocol.Unspecified) hash ^= SecurityProtocol.GetHashCode();
+          if (SaslMechanism != global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.Kafka.Types.SaslMechanism.Unspecified) hash ^= SaslMechanism.GetHashCode();
+          if (SaslUsername.Length != 0) hash ^= SaslUsername.GetHashCode();
+          if (SaslPassword.Length != 0) hash ^= SaslPassword.GetHashCode();
+          if (_unknownFields != null) {
+            hash ^= _unknownFields.GetHashCode();
+          }
+          return hash;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override string ToString() {
+          return pb::JsonFormatter.ToDiagnosticString(this);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void WriteTo(pb::CodedOutputStream output) {
+          if (SecurityProtocol != global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.Kafka.Types.SecurityProtocol.Unspecified) {
+            output.WriteRawTag(8);
+            output.WriteEnum((int) SecurityProtocol);
+          }
+          if (SaslMechanism != global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.Kafka.Types.SaslMechanism.Unspecified) {
+            output.WriteRawTag(16);
+            output.WriteEnum((int) SaslMechanism);
+          }
+          if (SaslUsername.Length != 0) {
+            output.WriteRawTag(26);
+            output.WriteString(SaslUsername);
+          }
+          if (SaslPassword.Length != 0) {
+            output.WriteRawTag(34);
+            output.WriteString(SaslPassword);
+          }
+          if (_unknownFields != null) {
+            _unknownFields.WriteTo(output);
+          }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public int CalculateSize() {
+          int size = 0;
+          if (SecurityProtocol != global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.Kafka.Types.SecurityProtocol.Unspecified) {
+            size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) SecurityProtocol);
+          }
+          if (SaslMechanism != global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.Kafka.Types.SaslMechanism.Unspecified) {
+            size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) SaslMechanism);
+          }
+          if (SaslUsername.Length != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeStringSize(SaslUsername);
+          }
+          if (SaslPassword.Length != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeStringSize(SaslPassword);
+          }
+          if (_unknownFields != null) {
+            size += _unknownFields.CalculateSize();
+          }
+          return size;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void MergeFrom(Kafka other) {
+          if (other == null) {
+            return;
+          }
+          if (other.SecurityProtocol != global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.Kafka.Types.SecurityProtocol.Unspecified) {
+            SecurityProtocol = other.SecurityProtocol;
+          }
+          if (other.SaslMechanism != global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.Kafka.Types.SaslMechanism.Unspecified) {
+            SaslMechanism = other.SaslMechanism;
+          }
+          if (other.SaslUsername.Length != 0) {
+            SaslUsername = other.SaslUsername;
+          }
+          if (other.SaslPassword.Length != 0) {
+            SaslPassword = other.SaslPassword;
+          }
+          _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void MergeFrom(pb::CodedInputStream input) {
+          uint tag;
+          while ((tag = input.ReadTag()) != 0) {
+            switch(tag) {
+              default:
+                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+                break;
+              case 8: {
+                SecurityProtocol = (global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.Kafka.Types.SecurityProtocol) input.ReadEnum();
+                break;
+              }
+              case 16: {
+                SaslMechanism = (global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Types.Kafka.Types.SaslMechanism) input.ReadEnum();
+                break;
+              }
+              case 26: {
+                SaslUsername = input.ReadString();
+                break;
+              }
+              case 34: {
+                SaslPassword = input.ReadString();
+                break;
+              }
+            }
+          }
+        }
+
+        #region Nested types
+        /// <summary>Container for nested types declared in the Kafka message type.</summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public static partial class Types {
+          internal enum SecurityProtocol {
+            [pbr::OriginalName("SECURITY_PROTOCOL_UNSPECIFIED")] Unspecified = 0,
+            [pbr::OriginalName("SECURITY_PROTOCOL_PLAINTEXT")] Plaintext = 1,
+            [pbr::OriginalName("SECURITY_PROTOCOL_SSL")] Ssl = 2,
+            [pbr::OriginalName("SECURITY_PROTOCOL_SASL_PLAINTEXT")] SaslPlaintext = 3,
+            [pbr::OriginalName("SECURITY_PROTOCOL_SASL_SSL")] SaslSsl = 4,
+          }
+
+          internal enum SaslMechanism {
+            [pbr::OriginalName("SASL_MECHANISM_UNSPECIFIED")] Unspecified = 0,
+            [pbr::OriginalName("SASL_MECHANISM_GSSAPI")] Gssapi = 1,
+            [pbr::OriginalName("SASL_MECHANISM_PLAIN")] Plain = 2,
+            [pbr::OriginalName("SASL_MECHANISM_SCRAM_SHA_256")] ScramSha256 = 3,
+            [pbr::OriginalName("SASL_MECHANISM_SCRAM_SHA_512")] ScramSha512 = 4,
+          }
+
+        }
+        #endregion
+
+      }
+
       internal sealed partial class Compression : pb::IMessage<Compression> {
         private static readonly pb::MessageParser<Compression> _parser = new pb::MessageParser<Compression>(() => new Compression());
         private pb::UnknownFieldSet _unknownFields;
@@ -1176,7 +2193,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1.Config {
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public static pbr::MessageDescriptor Descriptor {
-          get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Descriptor.NestedTypes[1]; }
+          get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Descriptor.NestedTypes[2]; }
         }
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1389,7 +2406,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1.Config {
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public static pbr::MessageDescriptor Descriptor {
-          get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Descriptor.NestedTypes[2]; }
+          get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Descriptor.NestedTypes[3]; }
         }
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4898,7 +5915,7 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1.Config {
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public static pbr::MessageDescriptor Descriptor {
-          get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Descriptor.NestedTypes[3]; }
+          get { return global::Yandex.Cloud.Mdb.Clickhouse.V1.Config.ClickhouseConfig.Descriptor.NestedTypes[4]; }
         }
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

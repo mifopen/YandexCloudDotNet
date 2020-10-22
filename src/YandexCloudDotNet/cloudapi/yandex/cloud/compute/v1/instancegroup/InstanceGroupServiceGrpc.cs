@@ -29,10 +29,16 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
     static readonly grpc::Marshaller<global::Yandex.Cloud.Compute.V1.Instancegroup.DeleteInstanceGroupRequest> __Marshaller_yandex_cloud_compute_v1_instancegroup_DeleteInstanceGroupRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Compute.V1.Instancegroup.DeleteInstanceGroupRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Compute.V1.Instancegroup.ListInstanceGroupInstancesRequest> __Marshaller_yandex_cloud_compute_v1_instancegroup_ListInstanceGroupInstancesRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Compute.V1.Instancegroup.ListInstanceGroupInstancesRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Compute.V1.Instancegroup.ListInstanceGroupInstancesResponse> __Marshaller_yandex_cloud_compute_v1_instancegroup_ListInstanceGroupInstancesResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Compute.V1.Instancegroup.ListInstanceGroupInstancesResponse.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Yandex.Cloud.Compute.V1.Instancegroup.DeleteInstancesRequest> __Marshaller_yandex_cloud_compute_v1_instancegroup_DeleteInstancesRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Compute.V1.Instancegroup.DeleteInstancesRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Yandex.Cloud.Compute.V1.Instancegroup.StopInstancesRequest> __Marshaller_yandex_cloud_compute_v1_instancegroup_StopInstancesRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Compute.V1.Instancegroup.StopInstancesRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Compute.V1.Instancegroup.ListInstanceGroupOperationsRequest> __Marshaller_yandex_cloud_compute_v1_instancegroup_ListInstanceGroupOperationsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Compute.V1.Instancegroup.ListInstanceGroupOperationsRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Compute.V1.Instancegroup.ListInstanceGroupOperationsResponse> __Marshaller_yandex_cloud_compute_v1_instancegroup_ListInstanceGroupOperationsResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Compute.V1.Instancegroup.ListInstanceGroupOperationsResponse.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Compute.V1.Instancegroup.ListInstanceGroupLogRecordsRequest> __Marshaller_yandex_cloud_compute_v1_instancegroup_ListInstanceGroupLogRecordsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Compute.V1.Instancegroup.ListInstanceGroupLogRecordsRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Compute.V1.Instancegroup.ListInstanceGroupLogRecordsResponse> __Marshaller_yandex_cloud_compute_v1_instancegroup_ListInstanceGroupLogRecordsResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Compute.V1.Instancegroup.ListInstanceGroupLogRecordsResponse.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Yandex.Cloud.Access.ListAccessBindingsRequest> __Marshaller_yandex_cloud_access_ListAccessBindingsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Access.ListAccessBindingsRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Yandex.Cloud.Access.ListAccessBindingsResponse> __Marshaller_yandex_cloud_access_ListAccessBindingsResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Access.ListAccessBindingsResponse.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Yandex.Cloud.Access.SetAccessBindingsRequest> __Marshaller_yandex_cloud_access_SetAccessBindingsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Access.SetAccessBindingsRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Yandex.Cloud.Access.UpdateAccessBindingsRequest> __Marshaller_yandex_cloud_access_UpdateAccessBindingsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Access.UpdateAccessBindingsRequest.Parser.ParseFrom);
 
     static readonly grpc::Method<global::Yandex.Cloud.Compute.V1.Instancegroup.GetInstanceGroupRequest, global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroup> __Method_Get = new grpc::Method<global::Yandex.Cloud.Compute.V1.Instancegroup.GetInstanceGroupRequest, global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroup>(
         grpc::MethodType.Unary,
@@ -104,6 +110,20 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
         __Marshaller_yandex_cloud_compute_v1_instancegroup_ListInstanceGroupInstancesRequest,
         __Marshaller_yandex_cloud_compute_v1_instancegroup_ListInstanceGroupInstancesResponse);
 
+    static readonly grpc::Method<global::Yandex.Cloud.Compute.V1.Instancegroup.DeleteInstancesRequest, global::Yandex.Cloud.Operation.Operation> __Method_DeleteInstances = new grpc::Method<global::Yandex.Cloud.Compute.V1.Instancegroup.DeleteInstancesRequest, global::Yandex.Cloud.Operation.Operation>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "DeleteInstances",
+        __Marshaller_yandex_cloud_compute_v1_instancegroup_DeleteInstancesRequest,
+        __Marshaller_yandex_cloud_operation_Operation);
+
+    static readonly grpc::Method<global::Yandex.Cloud.Compute.V1.Instancegroup.StopInstancesRequest, global::Yandex.Cloud.Operation.Operation> __Method_StopInstances = new grpc::Method<global::Yandex.Cloud.Compute.V1.Instancegroup.StopInstancesRequest, global::Yandex.Cloud.Operation.Operation>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "StopInstances",
+        __Marshaller_yandex_cloud_compute_v1_instancegroup_StopInstancesRequest,
+        __Marshaller_yandex_cloud_operation_Operation);
+
     static readonly grpc::Method<global::Yandex.Cloud.Compute.V1.Instancegroup.ListInstanceGroupOperationsRequest, global::Yandex.Cloud.Compute.V1.Instancegroup.ListInstanceGroupOperationsResponse> __Method_ListOperations = new grpc::Method<global::Yandex.Cloud.Compute.V1.Instancegroup.ListInstanceGroupOperationsRequest, global::Yandex.Cloud.Compute.V1.Instancegroup.ListInstanceGroupOperationsResponse>(
         grpc::MethodType.Unary,
         __ServiceName,
@@ -117,6 +137,27 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
         "ListLogRecords",
         __Marshaller_yandex_cloud_compute_v1_instancegroup_ListInstanceGroupLogRecordsRequest,
         __Marshaller_yandex_cloud_compute_v1_instancegroup_ListInstanceGroupLogRecordsResponse);
+
+    static readonly grpc::Method<global::Yandex.Cloud.Access.ListAccessBindingsRequest, global::Yandex.Cloud.Access.ListAccessBindingsResponse> __Method_ListAccessBindings = new grpc::Method<global::Yandex.Cloud.Access.ListAccessBindingsRequest, global::Yandex.Cloud.Access.ListAccessBindingsResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "ListAccessBindings",
+        __Marshaller_yandex_cloud_access_ListAccessBindingsRequest,
+        __Marshaller_yandex_cloud_access_ListAccessBindingsResponse);
+
+    static readonly grpc::Method<global::Yandex.Cloud.Access.SetAccessBindingsRequest, global::Yandex.Cloud.Operation.Operation> __Method_SetAccessBindings = new grpc::Method<global::Yandex.Cloud.Access.SetAccessBindingsRequest, global::Yandex.Cloud.Operation.Operation>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "SetAccessBindings",
+        __Marshaller_yandex_cloud_access_SetAccessBindingsRequest,
+        __Marshaller_yandex_cloud_operation_Operation);
+
+    static readonly grpc::Method<global::Yandex.Cloud.Access.UpdateAccessBindingsRequest, global::Yandex.Cloud.Operation.Operation> __Method_UpdateAccessBindings = new grpc::Method<global::Yandex.Cloud.Access.UpdateAccessBindingsRequest, global::Yandex.Cloud.Operation.Operation>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "UpdateAccessBindings",
+        __Marshaller_yandex_cloud_access_UpdateAccessBindingsRequest,
+        __Marshaller_yandex_cloud_operation_Operation);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -612,6 +653,94 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
         return CallInvoker.AsyncUnaryCall(__Method_ListInstances, null, options, request);
       }
       /// <summary>
+      /// Delete instances from the instance group.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.Operation.Operation DeleteInstances(global::Yandex.Cloud.Compute.V1.Instancegroup.DeleteInstancesRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return DeleteInstances(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Delete instances from the instance group.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.Operation.Operation DeleteInstances(global::Yandex.Cloud.Compute.V1.Instancegroup.DeleteInstancesRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_DeleteInstances, null, options, request);
+      }
+      /// <summary>
+      /// Delete instances from the instance group.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Operation.Operation> DeleteInstancesAsync(global::Yandex.Cloud.Compute.V1.Instancegroup.DeleteInstancesRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return DeleteInstancesAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Delete instances from the instance group.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Operation.Operation> DeleteInstancesAsync(global::Yandex.Cloud.Compute.V1.Instancegroup.DeleteInstancesRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_DeleteInstances, null, options, request);
+      }
+      /// <summary>
+      /// Stop instances from the instance group.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.Operation.Operation StopInstances(global::Yandex.Cloud.Compute.V1.Instancegroup.StopInstancesRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return StopInstances(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Stop instances from the instance group.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.Operation.Operation StopInstances(global::Yandex.Cloud.Compute.V1.Instancegroup.StopInstancesRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_StopInstances, null, options, request);
+      }
+      /// <summary>
+      /// Stop instances from the instance group.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Operation.Operation> StopInstancesAsync(global::Yandex.Cloud.Compute.V1.Instancegroup.StopInstancesRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return StopInstancesAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Stop instances from the instance group.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Operation.Operation> StopInstancesAsync(global::Yandex.Cloud.Compute.V1.Instancegroup.StopInstancesRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_StopInstances, null, options, request);
+      }
+      /// <summary>
       /// Lists operations for the specified instance group.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
@@ -698,6 +827,138 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
       public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Compute.V1.Instancegroup.ListInstanceGroupLogRecordsResponse> ListLogRecordsAsync(global::Yandex.Cloud.Compute.V1.Instancegroup.ListInstanceGroupLogRecordsRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_ListLogRecords, null, options, request);
+      }
+      /// <summary>
+      /// Lists existing access bindings for the specified instance group.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.Access.ListAccessBindingsResponse ListAccessBindings(global::Yandex.Cloud.Access.ListAccessBindingsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return ListAccessBindings(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Lists existing access bindings for the specified instance group.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.Access.ListAccessBindingsResponse ListAccessBindings(global::Yandex.Cloud.Access.ListAccessBindingsRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_ListAccessBindings, null, options, request);
+      }
+      /// <summary>
+      /// Lists existing access bindings for the specified instance group.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Access.ListAccessBindingsResponse> ListAccessBindingsAsync(global::Yandex.Cloud.Access.ListAccessBindingsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return ListAccessBindingsAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Lists existing access bindings for the specified instance group.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Access.ListAccessBindingsResponse> ListAccessBindingsAsync(global::Yandex.Cloud.Access.ListAccessBindingsRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_ListAccessBindings, null, options, request);
+      }
+      /// <summary>
+      /// Sets access bindings for the specified instance group.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.Operation.Operation SetAccessBindings(global::Yandex.Cloud.Access.SetAccessBindingsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return SetAccessBindings(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Sets access bindings for the specified instance group.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.Operation.Operation SetAccessBindings(global::Yandex.Cloud.Access.SetAccessBindingsRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_SetAccessBindings, null, options, request);
+      }
+      /// <summary>
+      /// Sets access bindings for the specified instance group.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Operation.Operation> SetAccessBindingsAsync(global::Yandex.Cloud.Access.SetAccessBindingsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return SetAccessBindingsAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Sets access bindings for the specified instance group.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Operation.Operation> SetAccessBindingsAsync(global::Yandex.Cloud.Access.SetAccessBindingsRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_SetAccessBindings, null, options, request);
+      }
+      /// <summary>
+      /// Updates access bindings for the specified instance group.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.Operation.Operation UpdateAccessBindings(global::Yandex.Cloud.Access.UpdateAccessBindingsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return UpdateAccessBindings(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Updates access bindings for the specified instance group.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.Operation.Operation UpdateAccessBindings(global::Yandex.Cloud.Access.UpdateAccessBindingsRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_UpdateAccessBindings, null, options, request);
+      }
+      /// <summary>
+      /// Updates access bindings for the specified instance group.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Operation.Operation> UpdateAccessBindingsAsync(global::Yandex.Cloud.Access.UpdateAccessBindingsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return UpdateAccessBindingsAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Updates access bindings for the specified instance group.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Operation.Operation> UpdateAccessBindingsAsync(global::Yandex.Cloud.Access.UpdateAccessBindingsRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_UpdateAccessBindings, null, options, request);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       protected override InstanceGroupServiceClient NewInstance(ClientBaseConfiguration configuration)

@@ -36,7 +36,7 @@ namespace Yandex.Cloud.Compute.V1 {
             "MDAwEh0KCnBhZ2VfdG9rZW4YAyABKAlCCYrIMQU8PTEwMBIaCgZmaWx0ZXIY",
             "BCABKAlCCorIMQY8PTEwMDAiWgoRTGlzdERpc2tzUmVzcG9uc2USLAoFZGlz",
             "a3MYASADKAsyHS55YW5kZXguY2xvdWQuY29tcHV0ZS52MS5EaXNrEhcKD25l",
-            "eHRfcGFnZV90b2tlbhgCIAEoCSKOBAoRQ3JlYXRlRGlza1JlcXVlc3QSHwoJ",
+            "eHRfcGFnZV90b2tlbhgCIAEoCSLbBAoRQ3JlYXRlRGlza1JlcXVlc3QSHwoJ",
             "Zm9sZGVyX2lkGAEgASgJQgzoxzEBisgxBDw9NTASMgoEbmFtZRgCIAEoCUIk",
             "8scxIHxbYS16XShbLWEtejAtOV17MCw2MX1bYS16MC05XSk/Eh4KC2Rlc2Ny",
             "aXB0aW9uGAMgASgJQgmKyDEFPD0yNTYSjwEKBmxhYmVscxgEIAMoCzI2Lnlh",
@@ -46,59 +46,62 @@ namespace Yandex.Cloud.Compute.V1 {
             "GAUgASgJQgiKyDEEPD01MBIdCgd6b25lX2lkGAYgASgJQgzoxzEBisgxBDw9",
             "NTASLAoEc2l6ZRgHIAEoA0Ie6McxAfrHMRY0MTk0MzA0LTI4NTg3MzAyMzIy",
             "MTc2EhwKCGltYWdlX2lkGAggASgJQgiKyDEEPD01MEgAEh8KC3NuYXBzaG90",
-            "X2lkGAkgASgJQgiKyDEEPD01MEgAEhIKCmJsb2NrX3NpemUYCiABKAMaLQoL",
-            "TGFiZWxzRW50cnkSCwoDa2V5GAEgASgJEg0KBXZhbHVlGAIgASgJOgI4AUII",
-            "CgZzb3VyY2UiJQoSQ3JlYXRlRGlza01ldGFkYXRhEg8KB2Rpc2tfaWQYASAB",
-            "KAkioQMKEVVwZGF0ZURpc2tSZXF1ZXN0Eh0KB2Rpc2tfaWQYASABKAlCDOjH",
-            "MQGKyDEEPD01MBIvCgt1cGRhdGVfbWFzaxgCIAEoCzIaLmdvb2dsZS5wcm90",
-            "b2J1Zi5GaWVsZE1hc2sSMgoEbmFtZRgDIAEoCUIk8scxIHxbYS16XShbLWEt",
-            "ejAtOV17MCw2MX1bYS16MC05XSk/Eh4KC2Rlc2NyaXB0aW9uGAQgASgJQgmK",
-            "yDEFPD0yNTYSjwEKBmxhYmVscxgFIAMoCzI2LnlhbmRleC5jbG91ZC5jb21w",
-            "dXRlLnYxLlVwZGF0ZURpc2tSZXF1ZXN0LkxhYmVsc0VudHJ5QkeCyDEEPD02",
-            "NIrIMQQ8PTYz8scxD1stXy4vXEAwLTlhLXpdKrLIMQYaBDEtNjOyyDEWEhRb",
-            "YS16XVstXy4vXEAwLTlhLXpdKhInCgRzaXplGAYgASgDQhn6xzEVNDE5NDMw",
-            "NC00Mzk4MDQ2NTExMTA0Gi0KC0xhYmVsc0VudHJ5EgsKA2tleRgBIAEoCRIN",
-            "CgV2YWx1ZRgCIAEoCToCOAEiJQoSVXBkYXRlRGlza01ldGFkYXRhEg8KB2Rp",
-            "c2tfaWQYASABKAkiMgoRRGVsZXRlRGlza1JlcXVlc3QSHQoHZGlza19pZBgB",
-            "IAEoCUIM6McxAYrIMQQ8PTUwIiUKEkRlbGV0ZURpc2tNZXRhZGF0YRIPCgdk",
-            "aXNrX2lkGAEgASgJIngKGUxpc3REaXNrT3BlcmF0aW9uc1JlcXVlc3QSHQoH",
-            "ZGlza19pZBgBIAEoCUIM6McxAYrIMQQ8PTUwEh0KCXBhZ2Vfc2l6ZRgCIAEo",
-            "A0IK+scxBjw9MTAwMBIdCgpwYWdlX3Rva2VuGAMgASgJQgmKyDEFPD0xMDAi",
-            "bAoaTGlzdERpc2tPcGVyYXRpb25zUmVzcG9uc2USNQoKb3BlcmF0aW9ucxgB",
-            "IAMoCzIhLnlhbmRleC5jbG91ZC5vcGVyYXRpb24uT3BlcmF0aW9uEhcKD25l",
-            "eHRfcGFnZV90b2tlbhgCIAEoCTKLBwoLRGlza1NlcnZpY2UScgoDR2V0Eicu",
-            "eWFuZGV4LmNsb3VkLmNvbXB1dGUudjEuR2V0RGlza1JlcXVlc3QaHS55YW5k",
-            "ZXguY2xvdWQuY29tcHV0ZS52MS5EaXNrIiOC0+STAh0SGy9jb21wdXRlL3Yx",
-            "L2Rpc2tzL3tkaXNrX2lkfRJ4CgRMaXN0EikueWFuZGV4LmNsb3VkLmNvbXB1",
-            "dGUudjEuTGlzdERpc2tzUmVxdWVzdBoqLnlhbmRleC5jbG91ZC5jb21wdXRl",
-            "LnYxLkxpc3REaXNrc1Jlc3BvbnNlIhmC0+STAhMSES9jb21wdXRlL3YxL2Rp",
-            "c2tzEpMBCgZDcmVhdGUSKi55YW5kZXguY2xvdWQuY29tcHV0ZS52MS5DcmVh",
-            "dGVEaXNrUmVxdWVzdBohLnlhbmRleC5jbG91ZC5vcGVyYXRpb24uT3BlcmF0",
-            "aW9uIjqC0+STAhYiES9jb21wdXRlL3YxL2Rpc2tzOgEqstIqGgoSQ3JlYXRl",
-            "RGlza01ldGFkYXRhEgREaXNrEp0BCgZVcGRhdGUSKi55YW5kZXguY2xvdWQu",
-            "Y29tcHV0ZS52MS5VcGRhdGVEaXNrUmVxdWVzdBohLnlhbmRleC5jbG91ZC5v",
-            "cGVyYXRpb24uT3BlcmF0aW9uIkSC0+STAiAyGy9jb21wdXRlL3YxL2Rpc2tz",
-            "L3tkaXNrX2lkfToBKrLSKhoKElVwZGF0ZURpc2tNZXRhZGF0YRIERGlzaxKr",
-            "AQoGRGVsZXRlEioueWFuZGV4LmNsb3VkLmNvbXB1dGUudjEuRGVsZXRlRGlz",
-            "a1JlcXVlc3QaIS55YW5kZXguY2xvdWQub3BlcmF0aW9uLk9wZXJhdGlvbiJS",
-            "gtPkkwIdKhsvY29tcHV0ZS92MS9kaXNrcy97ZGlza19pZH2y0iorChJEZWxl",
-            "dGVEaXNrTWV0YWRhdGESFWdvb2dsZS5wcm90b2J1Zi5FbXB0eRKpAQoOTGlz",
-            "dE9wZXJhdGlvbnMSMi55YW5kZXguY2xvdWQuY29tcHV0ZS52MS5MaXN0RGlz",
-            "a09wZXJhdGlvbnNSZXF1ZXN0GjMueWFuZGV4LmNsb3VkLmNvbXB1dGUudjEu",
-            "TGlzdERpc2tPcGVyYXRpb25zUmVzcG9uc2UiLoLT5JMCKBImL2NvbXB1dGUv",
-            "djEvZGlza3Mve2Rpc2tfaWR9L29wZXJhdGlvbnNCYgobeWFuZGV4LmNsb3Vk",
-            "LmFwaS5jb21wdXRlLnYxWkNnaXRodWIuY29tL3lhbmRleC1jbG91ZC9nby1n",
-            "ZW5wcm90by95YW5kZXgvY2xvdWQvY29tcHV0ZS92MTtjb21wdXRlYgZwcm90",
-            "bzM="));
+            "X2lkGAkgASgJQgiKyDEEPD01MEgAEhIKCmJsb2NrX3NpemUYCiABKAMSSwoV",
+            "ZGlza19wbGFjZW1lbnRfcG9saWN5GAsgASgLMiwueWFuZGV4LmNsb3VkLmNv",
+            "bXB1dGUudjEuRGlza1BsYWNlbWVudFBvbGljeRotCgtMYWJlbHNFbnRyeRIL",
+            "CgNrZXkYASABKAkSDQoFdmFsdWUYAiABKAk6AjgBQggKBnNvdXJjZSIlChJD",
+            "cmVhdGVEaXNrTWV0YWRhdGESDwoHZGlza19pZBgBIAEoCSLuAwoRVXBkYXRl",
+            "RGlza1JlcXVlc3QSHQoHZGlza19pZBgBIAEoCUIM6McxAYrIMQQ8PTUwEi8K",
+            "C3VwZGF0ZV9tYXNrGAIgASgLMhouZ29vZ2xlLnByb3RvYnVmLkZpZWxkTWFz",
+            "axIyCgRuYW1lGAMgASgJQiTyxzEgfFthLXpdKFstYS16MC05XXswLDYxfVth",
+            "LXowLTldKT8SHgoLZGVzY3JpcHRpb24YBCABKAlCCYrIMQU8PTI1NhKPAQoG",
+            "bGFiZWxzGAUgAygLMjYueWFuZGV4LmNsb3VkLmNvbXB1dGUudjEuVXBkYXRl",
+            "RGlza1JlcXVlc3QuTGFiZWxzRW50cnlCR4LIMQQ8PTY0isgxBDw9NjPyxzEP",
+            "Wy1fLi9cQDAtOWEtel0qssgxBhoEMS02M7LIMRYSFFthLXpdWy1fLi9cQDAt",
+            "OWEtel0qEicKBHNpemUYBiABKANCGfrHMRU0MTk0MzA0LTQzOTgwNDY1MTEx",
+            "MDQSSwoVZGlza19wbGFjZW1lbnRfcG9saWN5GAcgASgLMiwueWFuZGV4LmNs",
+            "b3VkLmNvbXB1dGUudjEuRGlza1BsYWNlbWVudFBvbGljeRotCgtMYWJlbHNF",
+            "bnRyeRILCgNrZXkYASABKAkSDQoFdmFsdWUYAiABKAk6AjgBIiUKElVwZGF0",
+            "ZURpc2tNZXRhZGF0YRIPCgdkaXNrX2lkGAEgASgJIjIKEURlbGV0ZURpc2tS",
+            "ZXF1ZXN0Eh0KB2Rpc2tfaWQYASABKAlCDOjHMQGKyDEEPD01MCIlChJEZWxl",
+            "dGVEaXNrTWV0YWRhdGESDwoHZGlza19pZBgBIAEoCSJ4ChlMaXN0RGlza09w",
+            "ZXJhdGlvbnNSZXF1ZXN0Eh0KB2Rpc2tfaWQYASABKAlCDOjHMQGKyDEEPD01",
+            "MBIdCglwYWdlX3NpemUYAiABKANCCvrHMQY8PTEwMDASHQoKcGFnZV90b2tl",
+            "bhgDIAEoCUIJisgxBTw9MTAwImwKGkxpc3REaXNrT3BlcmF0aW9uc1Jlc3Bv",
+            "bnNlEjUKCm9wZXJhdGlvbnMYASADKAsyIS55YW5kZXguY2xvdWQub3BlcmF0",
+            "aW9uLk9wZXJhdGlvbhIXCg9uZXh0X3BhZ2VfdG9rZW4YAiABKAkyiwcKC0Rp",
+            "c2tTZXJ2aWNlEnIKA0dldBInLnlhbmRleC5jbG91ZC5jb21wdXRlLnYxLkdl",
+            "dERpc2tSZXF1ZXN0Gh0ueWFuZGV4LmNsb3VkLmNvbXB1dGUudjEuRGlzayIj",
+            "gtPkkwIdEhsvY29tcHV0ZS92MS9kaXNrcy97ZGlza19pZH0SeAoETGlzdBIp",
+            "LnlhbmRleC5jbG91ZC5jb21wdXRlLnYxLkxpc3REaXNrc1JlcXVlc3QaKi55",
+            "YW5kZXguY2xvdWQuY29tcHV0ZS52MS5MaXN0RGlza3NSZXNwb25zZSIZgtPk",
+            "kwITEhEvY29tcHV0ZS92MS9kaXNrcxKTAQoGQ3JlYXRlEioueWFuZGV4LmNs",
+            "b3VkLmNvbXB1dGUudjEuQ3JlYXRlRGlza1JlcXVlc3QaIS55YW5kZXguY2xv",
+            "dWQub3BlcmF0aW9uLk9wZXJhdGlvbiI6gtPkkwIWIhEvY29tcHV0ZS92MS9k",
+            "aXNrczoBKrLSKhoKEkNyZWF0ZURpc2tNZXRhZGF0YRIERGlzaxKdAQoGVXBk",
+            "YXRlEioueWFuZGV4LmNsb3VkLmNvbXB1dGUudjEuVXBkYXRlRGlza1JlcXVl",
+            "c3QaIS55YW5kZXguY2xvdWQub3BlcmF0aW9uLk9wZXJhdGlvbiJEgtPkkwIg",
+            "MhsvY29tcHV0ZS92MS9kaXNrcy97ZGlza19pZH06ASqy0ioaChJVcGRhdGVE",
+            "aXNrTWV0YWRhdGESBERpc2sSqwEKBkRlbGV0ZRIqLnlhbmRleC5jbG91ZC5j",
+            "b21wdXRlLnYxLkRlbGV0ZURpc2tSZXF1ZXN0GiEueWFuZGV4LmNsb3VkLm9w",
+            "ZXJhdGlvbi5PcGVyYXRpb24iUoLT5JMCHSobL2NvbXB1dGUvdjEvZGlza3Mv",
+            "e2Rpc2tfaWR9stIqKwoSRGVsZXRlRGlza01ldGFkYXRhEhVnb29nbGUucHJv",
+            "dG9idWYuRW1wdHkSqQEKDkxpc3RPcGVyYXRpb25zEjIueWFuZGV4LmNsb3Vk",
+            "LmNvbXB1dGUudjEuTGlzdERpc2tPcGVyYXRpb25zUmVxdWVzdBozLnlhbmRl",
+            "eC5jbG91ZC5jb21wdXRlLnYxLkxpc3REaXNrT3BlcmF0aW9uc1Jlc3BvbnNl",
+            "Ii6C0+STAigSJi9jb21wdXRlL3YxL2Rpc2tzL3tkaXNrX2lkfS9vcGVyYXRp",
+            "b25zQmIKG3lhbmRleC5jbG91ZC5hcGkuY29tcHV0ZS52MVpDZ2l0aHViLmNv",
+            "bS95YW5kZXgtY2xvdWQvZ28tZ2VucHJvdG8veWFuZGV4L2Nsb3VkL2NvbXB1",
+            "dGUvdjE7Y29tcHV0ZWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Yandex.Cloud.Api.OperationReflection.Descriptor, global::Yandex.Cloud.Compute.V1.DiskReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.GetDiskRequest), global::Yandex.Cloud.Compute.V1.GetDiskRequest.Parser, new[]{ "DiskId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.ListDisksRequest), global::Yandex.Cloud.Compute.V1.ListDisksRequest.Parser, new[]{ "FolderId", "PageSize", "PageToken", "Filter" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.ListDisksResponse), global::Yandex.Cloud.Compute.V1.ListDisksResponse.Parser, new[]{ "Disks", "NextPageToken" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.CreateDiskRequest), global::Yandex.Cloud.Compute.V1.CreateDiskRequest.Parser, new[]{ "FolderId", "Name", "Description", "Labels", "TypeId", "ZoneId", "Size", "ImageId", "SnapshotId", "BlockSize" }, new[]{ "Source" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.CreateDiskRequest), global::Yandex.Cloud.Compute.V1.CreateDiskRequest.Parser, new[]{ "FolderId", "Name", "Description", "Labels", "TypeId", "ZoneId", "Size", "ImageId", "SnapshotId", "BlockSize", "DiskPlacementPolicy" }, new[]{ "Source" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.CreateDiskMetadata), global::Yandex.Cloud.Compute.V1.CreateDiskMetadata.Parser, new[]{ "DiskId" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.UpdateDiskRequest), global::Yandex.Cloud.Compute.V1.UpdateDiskRequest.Parser, new[]{ "DiskId", "UpdateMask", "Name", "Description", "Labels", "Size" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.UpdateDiskRequest), global::Yandex.Cloud.Compute.V1.UpdateDiskRequest.Parser, new[]{ "DiskId", "UpdateMask", "Name", "Description", "Labels", "Size", "DiskPlacementPolicy" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.UpdateDiskMetadata), global::Yandex.Cloud.Compute.V1.UpdateDiskMetadata.Parser, new[]{ "DiskId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.DeleteDiskRequest), global::Yandex.Cloud.Compute.V1.DeleteDiskRequest.Parser, new[]{ "DiskId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.DeleteDiskMetadata), global::Yandex.Cloud.Compute.V1.DeleteDiskMetadata.Parser, new[]{ "DiskId" }, null, null, null, null),
@@ -670,6 +673,7 @@ namespace Yandex.Cloud.Compute.V1 {
       zoneId_ = other.zoneId_;
       size_ = other.size_;
       blockSize_ = other.blockSize_;
+      diskPlacementPolicy_ = other.diskPlacementPolicy_ != null ? other.diskPlacementPolicy_.Clone() : null;
       switch (other.SourceCase) {
         case SourceOneofCase.ImageId:
           ImageId = other.ImageId;
@@ -831,6 +835,20 @@ namespace Yandex.Cloud.Compute.V1 {
       }
     }
 
+    /// <summary>Field number for the "disk_placement_policy" field.</summary>
+    public const int DiskPlacementPolicyFieldNumber = 11;
+    private global::Yandex.Cloud.Compute.V1.DiskPlacementPolicy diskPlacementPolicy_;
+    /// <summary>
+    /// Placement policy configuration.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Compute.V1.DiskPlacementPolicy DiskPlacementPolicy {
+      get { return diskPlacementPolicy_; }
+      set {
+        diskPlacementPolicy_ = value;
+      }
+    }
+
     private object source_;
     /// <summary>Enum of possible cases for the "source" oneof.</summary>
     public enum SourceOneofCase {
@@ -873,6 +891,7 @@ namespace Yandex.Cloud.Compute.V1 {
       if (ImageId != other.ImageId) return false;
       if (SnapshotId != other.SnapshotId) return false;
       if (BlockSize != other.BlockSize) return false;
+      if (!object.Equals(DiskPlacementPolicy, other.DiskPlacementPolicy)) return false;
       if (SourceCase != other.SourceCase) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -890,6 +909,7 @@ namespace Yandex.Cloud.Compute.V1 {
       if (sourceCase_ == SourceOneofCase.ImageId) hash ^= ImageId.GetHashCode();
       if (sourceCase_ == SourceOneofCase.SnapshotId) hash ^= SnapshotId.GetHashCode();
       if (BlockSize != 0L) hash ^= BlockSize.GetHashCode();
+      if (diskPlacementPolicy_ != null) hash ^= DiskPlacementPolicy.GetHashCode();
       hash ^= (int) sourceCase_;
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -941,6 +961,10 @@ namespace Yandex.Cloud.Compute.V1 {
         output.WriteRawTag(80);
         output.WriteInt64(BlockSize);
       }
+      if (diskPlacementPolicy_ != null) {
+        output.WriteRawTag(90);
+        output.WriteMessage(DiskPlacementPolicy);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -977,6 +1001,9 @@ namespace Yandex.Cloud.Compute.V1 {
       if (BlockSize != 0L) {
         size += 1 + pb::CodedOutputStream.ComputeInt64Size(BlockSize);
       }
+      if (diskPlacementPolicy_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(DiskPlacementPolicy);
+      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -1009,6 +1036,12 @@ namespace Yandex.Cloud.Compute.V1 {
       }
       if (other.BlockSize != 0L) {
         BlockSize = other.BlockSize;
+      }
+      if (other.diskPlacementPolicy_ != null) {
+        if (diskPlacementPolicy_ == null) {
+          DiskPlacementPolicy = new global::Yandex.Cloud.Compute.V1.DiskPlacementPolicy();
+        }
+        DiskPlacementPolicy.MergeFrom(other.DiskPlacementPolicy);
       }
       switch (other.SourceCase) {
         case SourceOneofCase.ImageId:
@@ -1068,6 +1101,13 @@ namespace Yandex.Cloud.Compute.V1 {
           }
           case 80: {
             BlockSize = input.ReadInt64();
+            break;
+          }
+          case 90: {
+            if (diskPlacementPolicy_ == null) {
+              DiskPlacementPolicy = new global::Yandex.Cloud.Compute.V1.DiskPlacementPolicy();
+            }
+            input.ReadMessage(DiskPlacementPolicy);
             break;
           }
         }
@@ -1239,6 +1279,7 @@ namespace Yandex.Cloud.Compute.V1 {
       description_ = other.description_;
       labels_ = other.labels_.Clone();
       size_ = other.size_;
+      diskPlacementPolicy_ = other.diskPlacementPolicy_ != null ? other.diskPlacementPolicy_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1333,6 +1374,20 @@ namespace Yandex.Cloud.Compute.V1 {
       }
     }
 
+    /// <summary>Field number for the "disk_placement_policy" field.</summary>
+    public const int DiskPlacementPolicyFieldNumber = 7;
+    private global::Yandex.Cloud.Compute.V1.DiskPlacementPolicy diskPlacementPolicy_;
+    /// <summary>
+    /// Placement policy configuration.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Compute.V1.DiskPlacementPolicy DiskPlacementPolicy {
+      get { return diskPlacementPolicy_; }
+      set {
+        diskPlacementPolicy_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as UpdateDiskRequest);
@@ -1352,6 +1407,7 @@ namespace Yandex.Cloud.Compute.V1 {
       if (Description != other.Description) return false;
       if (!Labels.Equals(other.Labels)) return false;
       if (Size != other.Size) return false;
+      if (!object.Equals(DiskPlacementPolicy, other.DiskPlacementPolicy)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1364,6 +1420,7 @@ namespace Yandex.Cloud.Compute.V1 {
       if (Description.Length != 0) hash ^= Description.GetHashCode();
       hash ^= Labels.GetHashCode();
       if (Size != 0L) hash ^= Size.GetHashCode();
+      if (diskPlacementPolicy_ != null) hash ^= DiskPlacementPolicy.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1398,6 +1455,10 @@ namespace Yandex.Cloud.Compute.V1 {
         output.WriteRawTag(48);
         output.WriteInt64(Size);
       }
+      if (diskPlacementPolicy_ != null) {
+        output.WriteRawTag(58);
+        output.WriteMessage(DiskPlacementPolicy);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1421,6 +1482,9 @@ namespace Yandex.Cloud.Compute.V1 {
       size += labels_.CalculateSize(_map_labels_codec);
       if (Size != 0L) {
         size += 1 + pb::CodedOutputStream.ComputeInt64Size(Size);
+      }
+      if (diskPlacementPolicy_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(DiskPlacementPolicy);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1451,6 +1515,12 @@ namespace Yandex.Cloud.Compute.V1 {
       labels_.Add(other.labels_);
       if (other.Size != 0L) {
         Size = other.Size;
+      }
+      if (other.diskPlacementPolicy_ != null) {
+        if (diskPlacementPolicy_ == null) {
+          DiskPlacementPolicy = new global::Yandex.Cloud.Compute.V1.DiskPlacementPolicy();
+        }
+        DiskPlacementPolicy.MergeFrom(other.DiskPlacementPolicy);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -1488,6 +1558,13 @@ namespace Yandex.Cloud.Compute.V1 {
           }
           case 48: {
             Size = input.ReadInt64();
+            break;
+          }
+          case 58: {
+            if (diskPlacementPolicy_ == null) {
+              DiskPlacementPolicy = new global::Yandex.Cloud.Compute.V1.DiskPlacementPolicy();
+            }
+            input.ReadMessage(DiskPlacementPolicy);
             break;
           }
         }

@@ -29,7 +29,8 @@ namespace Yandex.Cloud.Mdb.Mysql.V1 {
             "c3RhbXAucHJvdG8aG2dvb2dsZS90eXBlL3RpbWVvZmRheS5wcm90bxoveWFu",
             "ZGV4L2Nsb3VkL21kYi9teXNxbC92MS9jb25maWcvbXlzcWw1XzcucHJvdG8a",
             "L3lhbmRleC9jbG91ZC9tZGIvbXlzcWwvdjEvY29uZmlnL215c3FsOF8wLnBy",
-            "b3RvIrUGCgdDbHVzdGVyEgoKAmlkGAEgASgJEhEKCWZvbGRlcl9pZBgCIAEo",
+            "b3RvGit5YW5kZXgvY2xvdWQvbWRiL215c3FsL3YxL21haW50ZW5hbmNlLnBy",
+            "b3RvIssHCgdDbHVzdGVyEgoKAmlkGAEgASgJEhEKCWZvbGRlcl9pZBgCIAEo",
             "CRIuCgpjcmVhdGVkX2F0GAMgASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVz",
             "dGFtcBIMCgRuYW1lGAQgASgJEhMKC2Rlc2NyaXB0aW9uGAUgASgJEj4KBmxh",
             "YmVscxgGIAMoCzIuLnlhbmRleC5jbG91ZC5tZGIubXlzcWwudjEuQ2x1c3Rl",
@@ -40,47 +41,50 @@ namespace Yandex.Cloud.Mdb.Mysql.V1 {
             "cWwudjEuQ2x1c3RlckNvbmZpZxISCgpuZXR3b3JrX2lkGAogASgJEjkKBmhl",
             "YWx0aBgLIAEoDjIpLnlhbmRleC5jbG91ZC5tZGIubXlzcWwudjEuQ2x1c3Rl",
             "ci5IZWFsdGgSOQoGc3RhdHVzGAwgASgOMikueWFuZGV4LmNsb3VkLm1kYi5t",
-            "eXNxbC52MS5DbHVzdGVyLlN0YXR1cxotCgtMYWJlbHNFbnRyeRILCgNrZXkY",
-            "ASABKAkSDQoFdmFsdWUYAiABKAk6AjgBIkkKC0Vudmlyb25tZW50EhsKF0VO",
-            "VklST05NRU5UX1VOU1BFQ0lGSUVEEAASDgoKUFJPRFVDVElPThABEg0KCVBS",
-            "RVNUQUJMRRACIj8KBkhlYWx0aBISCg5IRUFMVEhfVU5LTk9XThAAEgkKBUFM",
-            "SVZFEAESCAoEREVBRBACEgwKCERFR1JBREVEEAMieQoGU3RhdHVzEhIKDlNU",
-            "QVRVU19VTktOT1dOEAASDAoIQ1JFQVRJTkcQARILCgdSVU5OSU5HEAISCQoF",
-            "RVJST1IQAxIMCghVUERBVElORxAEEgwKCFNUT1BQSU5HEAUSCwoHU1RPUFBF",
-            "RBAGEgwKCFNUQVJUSU5HEAciPQoKTW9uaXRvcmluZxIMCgRuYW1lGAEgASgJ",
-            "EhMKC2Rlc2NyaXB0aW9uGAIgASgJEgwKBGxpbmsYAyABKAki8wIKDUNsdXN0",
-            "ZXJDb25maWcSDwoHdmVyc2lvbhgBIAEoCRJPChBteXNxbF9jb25maWdfNV83",
-            "GAIgASgLMjMueWFuZGV4LmNsb3VkLm1kYi5teXNxbC52MS5jb25maWcuTXlz",
-            "cWxDb25maWdTZXQ1XzdIABJPChBteXNxbF9jb25maWdfOF8wGAYgASgLMjMu",
-            "eWFuZGV4LmNsb3VkLm1kYi5teXNxbC52MS5jb25maWcuTXlzcWxDb25maWdT",
-            "ZXQ4XzBIABI3CglyZXNvdXJjZXMYAyABKAsyJC55YW5kZXguY2xvdWQubWRi",
-            "Lm15c3FsLnYxLlJlc291cmNlcxIzChNiYWNrdXBfd2luZG93X3N0YXJ0GAQg",
-            "ASgLMhYuZ29vZ2xlLnR5cGUuVGltZU9mRGF5EjEKBmFjY2VzcxgFIAEoCzIh",
-            "LnlhbmRleC5jbG91ZC5tZGIubXlzcWwudjEuQWNjZXNzQg4KDG15c3FsX2Nv",
-            "bmZpZyK1AwoESG9zdBIMCgRuYW1lGAEgASgJEhIKCmNsdXN0ZXJfaWQYAiAB",
-            "KAkSDwoHem9uZV9pZBgDIAEoCRI3CglyZXNvdXJjZXMYBCABKAsyJC55YW5k",
-            "ZXguY2xvdWQubWRiLm15c3FsLnYxLlJlc291cmNlcxIyCgRyb2xlGAUgASgO",
-            "MiQueWFuZGV4LmNsb3VkLm1kYi5teXNxbC52MS5Ib3N0LlJvbGUSNgoGaGVh",
-            "bHRoGAYgASgOMiYueWFuZGV4LmNsb3VkLm1kYi5teXNxbC52MS5Ib3N0Lkhl",
-            "YWx0aBI0CghzZXJ2aWNlcxgHIAMoCzIiLnlhbmRleC5jbG91ZC5tZGIubXlz",
-            "cWwudjEuU2VydmljZRIRCglzdWJuZXRfaWQYCCABKAkSGAoQYXNzaWduX3B1",
-            "YmxpY19pcBgJIAEoCCIxCgRSb2xlEhAKDFJPTEVfVU5LTk9XThAAEgoKBk1B",
-            "U1RFUhABEgsKB1JFUExJQ0EQAiI/CgZIZWFsdGgSEgoOSEVBTFRIX1VOS05P",
-            "V04QABIJCgVBTElWRRABEggKBERFQUQQAhIMCghERUdSQURFRBADItcBCgdT",
-            "ZXJ2aWNlEjUKBHR5cGUYASABKA4yJy55YW5kZXguY2xvdWQubWRiLm15c3Fs",
-            "LnYxLlNlcnZpY2UuVHlwZRI5CgZoZWFsdGgYAiABKA4yKS55YW5kZXguY2xv",
-            "dWQubWRiLm15c3FsLnYxLlNlcnZpY2UuSGVhbHRoIicKBFR5cGUSFAoQVFlQ",
-            "RV9VTlNQRUNJRklFRBAAEgkKBU1ZU1FMEAEiMQoGSGVhbHRoEhIKDkhFQUxU",
-            "SF9VTktOT1dOEAASCQoFQUxJVkUQARIICgRERUFEEAIiUAoJUmVzb3VyY2Vz",
-            "EhoKEnJlc291cmNlX3ByZXNldF9pZBgBIAEoCRIRCglkaXNrX3NpemUYAiAB",
-            "KAMSFAoMZGlza190eXBlX2lkGAMgASgJIhsKBkFjY2VzcxIRCglkYXRhX2xl",
-            "bnMYASABKAhCZAodeWFuZGV4LmNsb3VkLmFwaS5tZGIubXlzcWwudjFaQ2dp",
-            "dGh1Yi5jb20veWFuZGV4LWNsb3VkL2dvLWdlbnByb3RvL3lhbmRleC9jbG91",
-            "ZC9tZGIvbXlzcWwvdjE7bXlzcWxiBnByb3RvMw=="));
+            "eXNxbC52MS5DbHVzdGVyLlN0YXR1cxJIChJtYWludGVuYW5jZV93aW5kb3cY",
+            "DSABKAsyLC55YW5kZXguY2xvdWQubWRiLm15c3FsLnYxLk1haW50ZW5hbmNl",
+            "V2luZG93EkoKEXBsYW5uZWRfb3BlcmF0aW9uGA4gASgLMi8ueWFuZGV4LmNs",
+            "b3VkLm1kYi5teXNxbC52MS5NYWludGVuYW5jZU9wZXJhdGlvbhotCgtMYWJl",
+            "bHNFbnRyeRILCgNrZXkYASABKAkSDQoFdmFsdWUYAiABKAk6AjgBIkkKC0Vu",
+            "dmlyb25tZW50EhsKF0VOVklST05NRU5UX1VOU1BFQ0lGSUVEEAASDgoKUFJP",
+            "RFVDVElPThABEg0KCVBSRVNUQUJMRRACIj8KBkhlYWx0aBISCg5IRUFMVEhf",
+            "VU5LTk9XThAAEgkKBUFMSVZFEAESCAoEREVBRBACEgwKCERFR1JBREVEEAMi",
+            "eQoGU3RhdHVzEhIKDlNUQVRVU19VTktOT1dOEAASDAoIQ1JFQVRJTkcQARIL",
+            "CgdSVU5OSU5HEAISCQoFRVJST1IQAxIMCghVUERBVElORxAEEgwKCFNUT1BQ",
+            "SU5HEAUSCwoHU1RPUFBFRBAGEgwKCFNUQVJUSU5HEAciPQoKTW9uaXRvcmlu",
+            "ZxIMCgRuYW1lGAEgASgJEhMKC2Rlc2NyaXB0aW9uGAIgASgJEgwKBGxpbmsY",
+            "AyABKAki8wIKDUNsdXN0ZXJDb25maWcSDwoHdmVyc2lvbhgBIAEoCRJPChBt",
+            "eXNxbF9jb25maWdfNV83GAIgASgLMjMueWFuZGV4LmNsb3VkLm1kYi5teXNx",
+            "bC52MS5jb25maWcuTXlzcWxDb25maWdTZXQ1XzdIABJPChBteXNxbF9jb25m",
+            "aWdfOF8wGAYgASgLMjMueWFuZGV4LmNsb3VkLm1kYi5teXNxbC52MS5jb25m",
+            "aWcuTXlzcWxDb25maWdTZXQ4XzBIABI3CglyZXNvdXJjZXMYAyABKAsyJC55",
+            "YW5kZXguY2xvdWQubWRiLm15c3FsLnYxLlJlc291cmNlcxIzChNiYWNrdXBf",
+            "d2luZG93X3N0YXJ0GAQgASgLMhYuZ29vZ2xlLnR5cGUuVGltZU9mRGF5EjEK",
+            "BmFjY2VzcxgFIAEoCzIhLnlhbmRleC5jbG91ZC5tZGIubXlzcWwudjEuQWNj",
+            "ZXNzQg4KDG15c3FsX2NvbmZpZyK1AwoESG9zdBIMCgRuYW1lGAEgASgJEhIK",
+            "CmNsdXN0ZXJfaWQYAiABKAkSDwoHem9uZV9pZBgDIAEoCRI3CglyZXNvdXJj",
+            "ZXMYBCABKAsyJC55YW5kZXguY2xvdWQubWRiLm15c3FsLnYxLlJlc291cmNl",
+            "cxIyCgRyb2xlGAUgASgOMiQueWFuZGV4LmNsb3VkLm1kYi5teXNxbC52MS5I",
+            "b3N0LlJvbGUSNgoGaGVhbHRoGAYgASgOMiYueWFuZGV4LmNsb3VkLm1kYi5t",
+            "eXNxbC52MS5Ib3N0LkhlYWx0aBI0CghzZXJ2aWNlcxgHIAMoCzIiLnlhbmRl",
+            "eC5jbG91ZC5tZGIubXlzcWwudjEuU2VydmljZRIRCglzdWJuZXRfaWQYCCAB",
+            "KAkSGAoQYXNzaWduX3B1YmxpY19pcBgJIAEoCCIxCgRSb2xlEhAKDFJPTEVf",
+            "VU5LTk9XThAAEgoKBk1BU1RFUhABEgsKB1JFUExJQ0EQAiI/CgZIZWFsdGgS",
+            "EgoOSEVBTFRIX1VOS05PV04QABIJCgVBTElWRRABEggKBERFQUQQAhIMCghE",
+            "RUdSQURFRBADItcBCgdTZXJ2aWNlEjUKBHR5cGUYASABKA4yJy55YW5kZXgu",
+            "Y2xvdWQubWRiLm15c3FsLnYxLlNlcnZpY2UuVHlwZRI5CgZoZWFsdGgYAiAB",
+            "KA4yKS55YW5kZXguY2xvdWQubWRiLm15c3FsLnYxLlNlcnZpY2UuSGVhbHRo",
+            "IicKBFR5cGUSFAoQVFlQRV9VTlNQRUNJRklFRBAAEgkKBU1ZU1FMEAEiMQoG",
+            "SGVhbHRoEhIKDkhFQUxUSF9VTktOT1dOEAASCQoFQUxJVkUQARIICgRERUFE",
+            "EAIiUAoJUmVzb3VyY2VzEhoKEnJlc291cmNlX3ByZXNldF9pZBgBIAEoCRIR",
+            "CglkaXNrX3NpemUYAiABKAMSFAoMZGlza190eXBlX2lkGAMgASgJIhsKBkFj",
+            "Y2VzcxIRCglkYXRhX2xlbnMYASABKAhCZAodeWFuZGV4LmNsb3VkLmFwaS5t",
+            "ZGIubXlzcWwudjFaQ2dpdGh1Yi5jb20veWFuZGV4LWNsb3VkL2dvLWdlbnBy",
+            "b3RvL3lhbmRleC9jbG91ZC9tZGIvbXlzcWwvdjE7bXlzcWxiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Google.Type.TimeofdayReflection.Descriptor, global::Yandex.Cloud.Mdb.Mysql.V1.Config.Mysql57Reflection.Descriptor, global::Yandex.Cloud.Mdb.Mysql.V1.Config.Mysql80Reflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Google.Type.TimeofdayReflection.Descriptor, global::Yandex.Cloud.Mdb.Mysql.V1.Config.Mysql57Reflection.Descriptor, global::Yandex.Cloud.Mdb.Mysql.V1.Config.Mysql80Reflection.Descriptor, global::Yandex.Cloud.Mdb.Mysql.V1.MaintenanceReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.Cluster), global::Yandex.Cloud.Mdb.Mysql.V1.Cluster.Parser, new[]{ "Id", "FolderId", "CreatedAt", "Name", "Description", "Labels", "Environment", "Monitoring", "Config", "NetworkId", "Health", "Status" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Mysql.V1.Cluster.Types.Environment), typeof(global::Yandex.Cloud.Mdb.Mysql.V1.Cluster.Types.Health), typeof(global::Yandex.Cloud.Mdb.Mysql.V1.Cluster.Types.Status) }, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.Cluster), global::Yandex.Cloud.Mdb.Mysql.V1.Cluster.Parser, new[]{ "Id", "FolderId", "CreatedAt", "Name", "Description", "Labels", "Environment", "Monitoring", "Config", "NetworkId", "Health", "Status", "MaintenanceWindow", "PlannedOperation" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Mysql.V1.Cluster.Types.Environment), typeof(global::Yandex.Cloud.Mdb.Mysql.V1.Cluster.Types.Health), typeof(global::Yandex.Cloud.Mdb.Mysql.V1.Cluster.Types.Status) }, null, new pbr::GeneratedClrTypeInfo[] { null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.Monitoring), global::Yandex.Cloud.Mdb.Mysql.V1.Monitoring.Parser, new[]{ "Name", "Description", "Link" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.ClusterConfig), global::Yandex.Cloud.Mdb.Mysql.V1.ClusterConfig.Parser, new[]{ "Version", "MysqlConfig57", "MysqlConfig80", "Resources", "BackupWindowStart", "Access" }, new[]{ "MysqlConfig" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Mysql.V1.Host), global::Yandex.Cloud.Mdb.Mysql.V1.Host.Parser, new[]{ "Name", "ClusterId", "ZoneId", "Resources", "Role", "Health", "Services", "SubnetId", "AssignPublicIp" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Mysql.V1.Host.Types.Role), typeof(global::Yandex.Cloud.Mdb.Mysql.V1.Host.Types.Health) }, null, null),
@@ -134,6 +138,8 @@ namespace Yandex.Cloud.Mdb.Mysql.V1 {
       networkId_ = other.networkId_;
       health_ = other.health_;
       status_ = other.status_;
+      maintenanceWindow_ = other.maintenanceWindow_ != null ? other.maintenanceWindow_.Clone() : null;
+      plannedOperation_ = other.plannedOperation_ != null ? other.plannedOperation_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -309,6 +315,34 @@ namespace Yandex.Cloud.Mdb.Mysql.V1 {
       }
     }
 
+    /// <summary>Field number for the "maintenance_window" field.</summary>
+    public const int MaintenanceWindowFieldNumber = 13;
+    private global::Yandex.Cloud.Mdb.Mysql.V1.MaintenanceWindow maintenanceWindow_;
+    /// <summary>
+    /// Window of maintenance operations.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Mdb.Mysql.V1.MaintenanceWindow MaintenanceWindow {
+      get { return maintenanceWindow_; }
+      set {
+        maintenanceWindow_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "planned_operation" field.</summary>
+    public const int PlannedOperationFieldNumber = 14;
+    private global::Yandex.Cloud.Mdb.Mysql.V1.MaintenanceOperation plannedOperation_;
+    /// <summary>
+    /// Maintenance operation planned at nearest maintenance_window.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Mdb.Mysql.V1.MaintenanceOperation PlannedOperation {
+      get { return plannedOperation_; }
+      set {
+        plannedOperation_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as Cluster);
@@ -334,6 +368,8 @@ namespace Yandex.Cloud.Mdb.Mysql.V1 {
       if (NetworkId != other.NetworkId) return false;
       if (Health != other.Health) return false;
       if (Status != other.Status) return false;
+      if (!object.Equals(MaintenanceWindow, other.MaintenanceWindow)) return false;
+      if (!object.Equals(PlannedOperation, other.PlannedOperation)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -352,6 +388,8 @@ namespace Yandex.Cloud.Mdb.Mysql.V1 {
       if (NetworkId.Length != 0) hash ^= NetworkId.GetHashCode();
       if (Health != global::Yandex.Cloud.Mdb.Mysql.V1.Cluster.Types.Health.Unknown) hash ^= Health.GetHashCode();
       if (Status != global::Yandex.Cloud.Mdb.Mysql.V1.Cluster.Types.Status.Unknown) hash ^= Status.GetHashCode();
+      if (maintenanceWindow_ != null) hash ^= MaintenanceWindow.GetHashCode();
+      if (plannedOperation_ != null) hash ^= PlannedOperation.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -407,6 +445,14 @@ namespace Yandex.Cloud.Mdb.Mysql.V1 {
         output.WriteRawTag(96);
         output.WriteEnum((int) Status);
       }
+      if (maintenanceWindow_ != null) {
+        output.WriteRawTag(106);
+        output.WriteMessage(MaintenanceWindow);
+      }
+      if (plannedOperation_ != null) {
+        output.WriteRawTag(114);
+        output.WriteMessage(PlannedOperation);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -446,6 +492,12 @@ namespace Yandex.Cloud.Mdb.Mysql.V1 {
       }
       if (Status != global::Yandex.Cloud.Mdb.Mysql.V1.Cluster.Types.Status.Unknown) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Status);
+      }
+      if (maintenanceWindow_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(MaintenanceWindow);
+      }
+      if (plannedOperation_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(PlannedOperation);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -495,6 +547,18 @@ namespace Yandex.Cloud.Mdb.Mysql.V1 {
       }
       if (other.Status != global::Yandex.Cloud.Mdb.Mysql.V1.Cluster.Types.Status.Unknown) {
         Status = other.Status;
+      }
+      if (other.maintenanceWindow_ != null) {
+        if (maintenanceWindow_ == null) {
+          MaintenanceWindow = new global::Yandex.Cloud.Mdb.Mysql.V1.MaintenanceWindow();
+        }
+        MaintenanceWindow.MergeFrom(other.MaintenanceWindow);
+      }
+      if (other.plannedOperation_ != null) {
+        if (plannedOperation_ == null) {
+          PlannedOperation = new global::Yandex.Cloud.Mdb.Mysql.V1.MaintenanceOperation();
+        }
+        PlannedOperation.MergeFrom(other.PlannedOperation);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -559,6 +623,20 @@ namespace Yandex.Cloud.Mdb.Mysql.V1 {
           }
           case 96: {
             Status = (global::Yandex.Cloud.Mdb.Mysql.V1.Cluster.Types.Status) input.ReadEnum();
+            break;
+          }
+          case 106: {
+            if (maintenanceWindow_ == null) {
+              MaintenanceWindow = new global::Yandex.Cloud.Mdb.Mysql.V1.MaintenanceWindow();
+            }
+            input.ReadMessage(MaintenanceWindow);
+            break;
+          }
+          case 114: {
+            if (plannedOperation_ == null) {
+              PlannedOperation = new global::Yandex.Cloud.Mdb.Mysql.V1.MaintenanceOperation();
+            }
+            input.ReadMessage(PlannedOperation);
             break;
           }
         }

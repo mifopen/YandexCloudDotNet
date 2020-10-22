@@ -29,10 +29,11 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Clickhouse.V1.AddClusterZookeeperRequest> __Marshaller_yandex_cloud_mdb_clickhouse_v1_AddClusterZookeeperRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Clickhouse.V1.AddClusterZookeeperRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Clickhouse.V1.BackupClusterRequest> __Marshaller_yandex_cloud_mdb_clickhouse_v1_BackupClusterRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Clickhouse.V1.BackupClusterRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Clickhouse.V1.RestoreClusterRequest> __Marshaller_yandex_cloud_mdb_clickhouse_v1_RestoreClusterRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Clickhouse.V1.RestoreClusterRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Clickhouse.V1.RescheduleMaintenanceRequest> __Marshaller_yandex_cloud_mdb_clickhouse_v1_RescheduleMaintenanceRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Clickhouse.V1.RescheduleMaintenanceRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Clickhouse.V1.ListClusterLogsRequest> __Marshaller_yandex_cloud_mdb_clickhouse_v1_ListClusterLogsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Clickhouse.V1.ListClusterLogsRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Clickhouse.V1.ListClusterLogsResponse> __Marshaller_yandex_cloud_mdb_clickhouse_v1_ListClusterLogsResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Clickhouse.V1.ListClusterLogsResponse.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Clickhouse.V1.StreamClusterLogsRequest> __Marshaller_yandex_cloud_mdb_clickhouse_v1_StreamClusterLogsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Clickhouse.V1.StreamClusterLogsRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Clickhouse.V1.LogRecord> __Marshaller_yandex_cloud_mdb_clickhouse_v1_LogRecord = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Clickhouse.V1.LogRecord.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Clickhouse.V1.StreamLogRecord> __Marshaller_yandex_cloud_mdb_clickhouse_v1_StreamLogRecord = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Clickhouse.V1.StreamLogRecord.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Clickhouse.V1.ListClusterOperationsRequest> __Marshaller_yandex_cloud_mdb_clickhouse_v1_ListClusterOperationsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Clickhouse.V1.ListClusterOperationsRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Clickhouse.V1.ListClusterOperationsResponse> __Marshaller_yandex_cloud_mdb_clickhouse_v1_ListClusterOperationsResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Clickhouse.V1.ListClusterOperationsResponse.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Clickhouse.V1.ListClusterBackupsRequest> __Marshaller_yandex_cloud_mdb_clickhouse_v1_ListClusterBackupsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Clickhouse.V1.ListClusterBackupsRequest.Parser.ParseFrom);
@@ -48,6 +49,13 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
     static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Clickhouse.V1.AddClusterShardRequest> __Marshaller_yandex_cloud_mdb_clickhouse_v1_AddClusterShardRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Clickhouse.V1.AddClusterShardRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Clickhouse.V1.UpdateClusterShardRequest> __Marshaller_yandex_cloud_mdb_clickhouse_v1_UpdateClusterShardRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Clickhouse.V1.UpdateClusterShardRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Clickhouse.V1.DeleteClusterShardRequest> __Marshaller_yandex_cloud_mdb_clickhouse_v1_DeleteClusterShardRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Clickhouse.V1.DeleteClusterShardRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Clickhouse.V1.GetClusterShardGroupRequest> __Marshaller_yandex_cloud_mdb_clickhouse_v1_GetClusterShardGroupRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Clickhouse.V1.GetClusterShardGroupRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Clickhouse.V1.ShardGroup> __Marshaller_yandex_cloud_mdb_clickhouse_v1_ShardGroup = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Clickhouse.V1.ShardGroup.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Clickhouse.V1.ListClusterShardGroupsRequest> __Marshaller_yandex_cloud_mdb_clickhouse_v1_ListClusterShardGroupsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Clickhouse.V1.ListClusterShardGroupsRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Clickhouse.V1.ListClusterShardGroupsResponse> __Marshaller_yandex_cloud_mdb_clickhouse_v1_ListClusterShardGroupsResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Clickhouse.V1.ListClusterShardGroupsResponse.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Clickhouse.V1.CreateClusterShardGroupRequest> __Marshaller_yandex_cloud_mdb_clickhouse_v1_CreateClusterShardGroupRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Clickhouse.V1.CreateClusterShardGroupRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Clickhouse.V1.UpdateClusterShardGroupRequest> __Marshaller_yandex_cloud_mdb_clickhouse_v1_UpdateClusterShardGroupRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Clickhouse.V1.UpdateClusterShardGroupRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Clickhouse.V1.DeleteClusterShardGroupRequest> __Marshaller_yandex_cloud_mdb_clickhouse_v1_DeleteClusterShardGroupRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Clickhouse.V1.DeleteClusterShardGroupRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Clickhouse.V1.CreateClusterExternalDictionaryRequest> __Marshaller_yandex_cloud_mdb_clickhouse_v1_CreateClusterExternalDictionaryRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Clickhouse.V1.CreateClusterExternalDictionaryRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Clickhouse.V1.DeleteClusterExternalDictionaryRequest> __Marshaller_yandex_cloud_mdb_clickhouse_v1_DeleteClusterExternalDictionaryRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Clickhouse.V1.DeleteClusterExternalDictionaryRequest.Parser.ParseFrom);
 
@@ -128,6 +136,13 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
         __Marshaller_yandex_cloud_mdb_clickhouse_v1_RestoreClusterRequest,
         __Marshaller_yandex_cloud_operation_Operation);
 
+    static readonly grpc::Method<global::Yandex.Cloud.Mdb.Clickhouse.V1.RescheduleMaintenanceRequest, global::Yandex.Cloud.Operation.Operation> __Method_RescheduleMaintenance = new grpc::Method<global::Yandex.Cloud.Mdb.Clickhouse.V1.RescheduleMaintenanceRequest, global::Yandex.Cloud.Operation.Operation>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "RescheduleMaintenance",
+        __Marshaller_yandex_cloud_mdb_clickhouse_v1_RescheduleMaintenanceRequest,
+        __Marshaller_yandex_cloud_operation_Operation);
+
     static readonly grpc::Method<global::Yandex.Cloud.Mdb.Clickhouse.V1.ListClusterLogsRequest, global::Yandex.Cloud.Mdb.Clickhouse.V1.ListClusterLogsResponse> __Method_ListLogs = new grpc::Method<global::Yandex.Cloud.Mdb.Clickhouse.V1.ListClusterLogsRequest, global::Yandex.Cloud.Mdb.Clickhouse.V1.ListClusterLogsResponse>(
         grpc::MethodType.Unary,
         __ServiceName,
@@ -135,12 +150,12 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
         __Marshaller_yandex_cloud_mdb_clickhouse_v1_ListClusterLogsRequest,
         __Marshaller_yandex_cloud_mdb_clickhouse_v1_ListClusterLogsResponse);
 
-    static readonly grpc::Method<global::Yandex.Cloud.Mdb.Clickhouse.V1.StreamClusterLogsRequest, global::Yandex.Cloud.Mdb.Clickhouse.V1.LogRecord> __Method_StreamLogs = new grpc::Method<global::Yandex.Cloud.Mdb.Clickhouse.V1.StreamClusterLogsRequest, global::Yandex.Cloud.Mdb.Clickhouse.V1.LogRecord>(
+    static readonly grpc::Method<global::Yandex.Cloud.Mdb.Clickhouse.V1.StreamClusterLogsRequest, global::Yandex.Cloud.Mdb.Clickhouse.V1.StreamLogRecord> __Method_StreamLogs = new grpc::Method<global::Yandex.Cloud.Mdb.Clickhouse.V1.StreamClusterLogsRequest, global::Yandex.Cloud.Mdb.Clickhouse.V1.StreamLogRecord>(
         grpc::MethodType.ServerStreaming,
         __ServiceName,
         "StreamLogs",
         __Marshaller_yandex_cloud_mdb_clickhouse_v1_StreamClusterLogsRequest,
-        __Marshaller_yandex_cloud_mdb_clickhouse_v1_LogRecord);
+        __Marshaller_yandex_cloud_mdb_clickhouse_v1_StreamLogRecord);
 
     static readonly grpc::Method<global::Yandex.Cloud.Mdb.Clickhouse.V1.ListClusterOperationsRequest, global::Yandex.Cloud.Mdb.Clickhouse.V1.ListClusterOperationsResponse> __Method_ListOperations = new grpc::Method<global::Yandex.Cloud.Mdb.Clickhouse.V1.ListClusterOperationsRequest, global::Yandex.Cloud.Mdb.Clickhouse.V1.ListClusterOperationsResponse>(
         grpc::MethodType.Unary,
@@ -210,6 +225,41 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
         __ServiceName,
         "DeleteShard",
         __Marshaller_yandex_cloud_mdb_clickhouse_v1_DeleteClusterShardRequest,
+        __Marshaller_yandex_cloud_operation_Operation);
+
+    static readonly grpc::Method<global::Yandex.Cloud.Mdb.Clickhouse.V1.GetClusterShardGroupRequest, global::Yandex.Cloud.Mdb.Clickhouse.V1.ShardGroup> __Method_GetShardGroup = new grpc::Method<global::Yandex.Cloud.Mdb.Clickhouse.V1.GetClusterShardGroupRequest, global::Yandex.Cloud.Mdb.Clickhouse.V1.ShardGroup>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "GetShardGroup",
+        __Marshaller_yandex_cloud_mdb_clickhouse_v1_GetClusterShardGroupRequest,
+        __Marshaller_yandex_cloud_mdb_clickhouse_v1_ShardGroup);
+
+    static readonly grpc::Method<global::Yandex.Cloud.Mdb.Clickhouse.V1.ListClusterShardGroupsRequest, global::Yandex.Cloud.Mdb.Clickhouse.V1.ListClusterShardGroupsResponse> __Method_ListShardGroups = new grpc::Method<global::Yandex.Cloud.Mdb.Clickhouse.V1.ListClusterShardGroupsRequest, global::Yandex.Cloud.Mdb.Clickhouse.V1.ListClusterShardGroupsResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "ListShardGroups",
+        __Marshaller_yandex_cloud_mdb_clickhouse_v1_ListClusterShardGroupsRequest,
+        __Marshaller_yandex_cloud_mdb_clickhouse_v1_ListClusterShardGroupsResponse);
+
+    static readonly grpc::Method<global::Yandex.Cloud.Mdb.Clickhouse.V1.CreateClusterShardGroupRequest, global::Yandex.Cloud.Operation.Operation> __Method_CreateShardGroup = new grpc::Method<global::Yandex.Cloud.Mdb.Clickhouse.V1.CreateClusterShardGroupRequest, global::Yandex.Cloud.Operation.Operation>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "CreateShardGroup",
+        __Marshaller_yandex_cloud_mdb_clickhouse_v1_CreateClusterShardGroupRequest,
+        __Marshaller_yandex_cloud_operation_Operation);
+
+    static readonly grpc::Method<global::Yandex.Cloud.Mdb.Clickhouse.V1.UpdateClusterShardGroupRequest, global::Yandex.Cloud.Operation.Operation> __Method_UpdateShardGroup = new grpc::Method<global::Yandex.Cloud.Mdb.Clickhouse.V1.UpdateClusterShardGroupRequest, global::Yandex.Cloud.Operation.Operation>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "UpdateShardGroup",
+        __Marshaller_yandex_cloud_mdb_clickhouse_v1_UpdateClusterShardGroupRequest,
+        __Marshaller_yandex_cloud_operation_Operation);
+
+    static readonly grpc::Method<global::Yandex.Cloud.Mdb.Clickhouse.V1.DeleteClusterShardGroupRequest, global::Yandex.Cloud.Operation.Operation> __Method_DeleteShardGroup = new grpc::Method<global::Yandex.Cloud.Mdb.Clickhouse.V1.DeleteClusterShardGroupRequest, global::Yandex.Cloud.Operation.Operation>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "DeleteShardGroup",
+        __Marshaller_yandex_cloud_mdb_clickhouse_v1_DeleteClusterShardGroupRequest,
         __Marshaller_yandex_cloud_operation_Operation);
 
     static readonly grpc::Method<global::Yandex.Cloud.Mdb.Clickhouse.V1.CreateClusterExternalDictionaryRequest, global::Yandex.Cloud.Operation.Operation> __Method_CreateExternalDictionary = new grpc::Method<global::Yandex.Cloud.Mdb.Clickhouse.V1.CreateClusterExternalDictionaryRequest, global::Yandex.Cloud.Operation.Operation>(
@@ -752,6 +802,50 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
         return CallInvoker.AsyncUnaryCall(__Method_Restore, null, options, request);
       }
       /// <summary>
+      /// Reschedule planned maintenance operation.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.Operation.Operation RescheduleMaintenance(global::Yandex.Cloud.Mdb.Clickhouse.V1.RescheduleMaintenanceRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return RescheduleMaintenance(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Reschedule planned maintenance operation.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.Operation.Operation RescheduleMaintenance(global::Yandex.Cloud.Mdb.Clickhouse.V1.RescheduleMaintenanceRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_RescheduleMaintenance, null, options, request);
+      }
+      /// <summary>
+      /// Reschedule planned maintenance operation.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Operation.Operation> RescheduleMaintenanceAsync(global::Yandex.Cloud.Mdb.Clickhouse.V1.RescheduleMaintenanceRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return RescheduleMaintenanceAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Reschedule planned maintenance operation.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Operation.Operation> RescheduleMaintenanceAsync(global::Yandex.Cloud.Mdb.Clickhouse.V1.RescheduleMaintenanceRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_RescheduleMaintenance, null, options, request);
+      }
+      /// <summary>
       /// Retrieves logs for the specified ClickHouse cluster.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
@@ -796,24 +890,24 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
         return CallInvoker.AsyncUnaryCall(__Method_ListLogs, null, options, request);
       }
       /// <summary>
-      /// Same as ListLogs but using server-side streaming. Also allows for 'tail -f' semantics.
+      /// Same as ListLogs but using server-side streaming. Also allows for `tail -f` semantics.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
-      public virtual grpc::AsyncServerStreamingCall<global::Yandex.Cloud.Mdb.Clickhouse.V1.LogRecord> StreamLogs(global::Yandex.Cloud.Mdb.Clickhouse.V1.StreamClusterLogsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual grpc::AsyncServerStreamingCall<global::Yandex.Cloud.Mdb.Clickhouse.V1.StreamLogRecord> StreamLogs(global::Yandex.Cloud.Mdb.Clickhouse.V1.StreamClusterLogsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return StreamLogs(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// Same as ListLogs but using server-side streaming. Also allows for 'tail -f' semantics.
+      /// Same as ListLogs but using server-side streaming. Also allows for `tail -f` semantics.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
-      public virtual grpc::AsyncServerStreamingCall<global::Yandex.Cloud.Mdb.Clickhouse.V1.LogRecord> StreamLogs(global::Yandex.Cloud.Mdb.Clickhouse.V1.StreamClusterLogsRequest request, grpc::CallOptions options)
+      public virtual grpc::AsyncServerStreamingCall<global::Yandex.Cloud.Mdb.Clickhouse.V1.StreamLogRecord> StreamLogs(global::Yandex.Cloud.Mdb.Clickhouse.V1.StreamClusterLogsRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncServerStreamingCall(__Method_StreamLogs, null, options, request);
       }
@@ -1256,6 +1350,226 @@ namespace Yandex.Cloud.Mdb.Clickhouse.V1 {
       public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Operation.Operation> DeleteShardAsync(global::Yandex.Cloud.Mdb.Clickhouse.V1.DeleteClusterShardRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_DeleteShard, null, options, request);
+      }
+      /// <summary>
+      /// Returns the specified shard group.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.Mdb.Clickhouse.V1.ShardGroup GetShardGroup(global::Yandex.Cloud.Mdb.Clickhouse.V1.GetClusterShardGroupRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return GetShardGroup(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Returns the specified shard group.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.Mdb.Clickhouse.V1.ShardGroup GetShardGroup(global::Yandex.Cloud.Mdb.Clickhouse.V1.GetClusterShardGroupRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_GetShardGroup, null, options, request);
+      }
+      /// <summary>
+      /// Returns the specified shard group.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Mdb.Clickhouse.V1.ShardGroup> GetShardGroupAsync(global::Yandex.Cloud.Mdb.Clickhouse.V1.GetClusterShardGroupRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return GetShardGroupAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Returns the specified shard group.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Mdb.Clickhouse.V1.ShardGroup> GetShardGroupAsync(global::Yandex.Cloud.Mdb.Clickhouse.V1.GetClusterShardGroupRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_GetShardGroup, null, options, request);
+      }
+      /// <summary>
+      /// Retrieves a list of shard groups that belong to specified cluster.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.Mdb.Clickhouse.V1.ListClusterShardGroupsResponse ListShardGroups(global::Yandex.Cloud.Mdb.Clickhouse.V1.ListClusterShardGroupsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return ListShardGroups(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Retrieves a list of shard groups that belong to specified cluster.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.Mdb.Clickhouse.V1.ListClusterShardGroupsResponse ListShardGroups(global::Yandex.Cloud.Mdb.Clickhouse.V1.ListClusterShardGroupsRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_ListShardGroups, null, options, request);
+      }
+      /// <summary>
+      /// Retrieves a list of shard groups that belong to specified cluster.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Mdb.Clickhouse.V1.ListClusterShardGroupsResponse> ListShardGroupsAsync(global::Yandex.Cloud.Mdb.Clickhouse.V1.ListClusterShardGroupsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return ListShardGroupsAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Retrieves a list of shard groups that belong to specified cluster.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Mdb.Clickhouse.V1.ListClusterShardGroupsResponse> ListShardGroupsAsync(global::Yandex.Cloud.Mdb.Clickhouse.V1.ListClusterShardGroupsRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_ListShardGroups, null, options, request);
+      }
+      /// <summary>
+      /// Creates a new shard group in the specified cluster.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.Operation.Operation CreateShardGroup(global::Yandex.Cloud.Mdb.Clickhouse.V1.CreateClusterShardGroupRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return CreateShardGroup(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Creates a new shard group in the specified cluster.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.Operation.Operation CreateShardGroup(global::Yandex.Cloud.Mdb.Clickhouse.V1.CreateClusterShardGroupRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_CreateShardGroup, null, options, request);
+      }
+      /// <summary>
+      /// Creates a new shard group in the specified cluster.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Operation.Operation> CreateShardGroupAsync(global::Yandex.Cloud.Mdb.Clickhouse.V1.CreateClusterShardGroupRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return CreateShardGroupAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Creates a new shard group in the specified cluster.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Operation.Operation> CreateShardGroupAsync(global::Yandex.Cloud.Mdb.Clickhouse.V1.CreateClusterShardGroupRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_CreateShardGroup, null, options, request);
+      }
+      /// <summary>
+      /// Modifies the specified shard group.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.Operation.Operation UpdateShardGroup(global::Yandex.Cloud.Mdb.Clickhouse.V1.UpdateClusterShardGroupRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return UpdateShardGroup(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Modifies the specified shard group.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.Operation.Operation UpdateShardGroup(global::Yandex.Cloud.Mdb.Clickhouse.V1.UpdateClusterShardGroupRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_UpdateShardGroup, null, options, request);
+      }
+      /// <summary>
+      /// Modifies the specified shard group.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Operation.Operation> UpdateShardGroupAsync(global::Yandex.Cloud.Mdb.Clickhouse.V1.UpdateClusterShardGroupRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return UpdateShardGroupAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Modifies the specified shard group.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Operation.Operation> UpdateShardGroupAsync(global::Yandex.Cloud.Mdb.Clickhouse.V1.UpdateClusterShardGroupRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_UpdateShardGroup, null, options, request);
+      }
+      /// <summary>
+      /// Deletes the specified shard group.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.Operation.Operation DeleteShardGroup(global::Yandex.Cloud.Mdb.Clickhouse.V1.DeleteClusterShardGroupRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return DeleteShardGroup(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Deletes the specified shard group.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.Operation.Operation DeleteShardGroup(global::Yandex.Cloud.Mdb.Clickhouse.V1.DeleteClusterShardGroupRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_DeleteShardGroup, null, options, request);
+      }
+      /// <summary>
+      /// Deletes the specified shard group.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Operation.Operation> DeleteShardGroupAsync(global::Yandex.Cloud.Mdb.Clickhouse.V1.DeleteClusterShardGroupRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return DeleteShardGroupAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Deletes the specified shard group.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Operation.Operation> DeleteShardGroupAsync(global::Yandex.Cloud.Mdb.Clickhouse.V1.DeleteClusterShardGroupRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_DeleteShardGroup, null, options, request);
       }
       /// <summary>
       /// Creates an external dictionary for the specified ClickHouse cluster.

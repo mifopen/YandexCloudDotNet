@@ -26,18 +26,19 @@ namespace Yandex.Cloud.Vpc.V1 {
           string.Concat(
             "CiF5YW5kZXgvY2xvdWQvdnBjL3YxL25ldHdvcmsucHJvdG8SE3lhbmRleC5j",
             "bG91ZC52cGMudjEaH2dvb2dsZS9wcm90b2J1Zi90aW1lc3RhbXAucHJvdG8i",
-            "5AEKB05ldHdvcmsSCgoCaWQYASABKAkSEQoJZm9sZGVyX2lkGAIgASgJEi4K",
+            "hwIKB05ldHdvcmsSCgoCaWQYASABKAkSEQoJZm9sZGVyX2lkGAIgASgJEi4K",
             "CmNyZWF0ZWRfYXQYAyABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1w",
             "EgwKBG5hbWUYBCABKAkSEwoLZGVzY3JpcHRpb24YBSABKAkSOAoGbGFiZWxz",
             "GAYgAygLMigueWFuZGV4LmNsb3VkLnZwYy52MS5OZXR3b3JrLkxhYmVsc0Vu",
-            "dHJ5Gi0KC0xhYmVsc0VudHJ5EgsKA2tleRgBIAEoCRINCgV2YWx1ZRgCIAEo",
-            "CToCOAFCVgoXeWFuZGV4LmNsb3VkLmFwaS52cGMudjFaO2dpdGh1Yi5jb20v",
-            "eWFuZGV4LWNsb3VkL2dvLWdlbnByb3RvL3lhbmRleC9jbG91ZC92cGMvdjE7",
-            "dnBjYgZwcm90bzM="));
+            "dHJ5EiEKGWRlZmF1bHRfc2VjdXJpdHlfZ3JvdXBfaWQYByABKAkaLQoLTGFi",
+            "ZWxzRW50cnkSCwoDa2V5GAEgASgJEg0KBXZhbHVlGAIgASgJOgI4AUJWChd5",
+            "YW5kZXguY2xvdWQuYXBpLnZwYy52MVo7Z2l0aHViLmNvbS95YW5kZXgtY2xv",
+            "dWQvZ28tZ2VucHJvdG8veWFuZGV4L2Nsb3VkL3ZwYy92MTt2cGNiBnByb3Rv",
+            "Mw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.Network), global::Yandex.Cloud.Vpc.V1.Network.Parser, new[]{ "Id", "FolderId", "CreatedAt", "Name", "Description", "Labels" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, })
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.Network), global::Yandex.Cloud.Vpc.V1.Network.Parser, new[]{ "Id", "FolderId", "CreatedAt", "Name", "Description", "Labels", "DefaultSecurityGroupId" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, })
           }));
     }
     #endregion
@@ -78,6 +79,7 @@ namespace Yandex.Cloud.Vpc.V1 {
       name_ = other.name_;
       description_ = other.description_;
       labels_ = other.labels_.Clone();
+      defaultSecurityGroupId_ = other.defaultSecurityGroupId_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -170,6 +172,20 @@ namespace Yandex.Cloud.Vpc.V1 {
       get { return labels_; }
     }
 
+    /// <summary>Field number for the "default_security_group_id" field.</summary>
+    public const int DefaultSecurityGroupIdFieldNumber = 7;
+    private string defaultSecurityGroupId_ = "";
+    /// <summary>
+    /// ID of default security group for network.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string DefaultSecurityGroupId {
+      get { return defaultSecurityGroupId_; }
+      set {
+        defaultSecurityGroupId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as Network);
@@ -189,6 +205,7 @@ namespace Yandex.Cloud.Vpc.V1 {
       if (Name != other.Name) return false;
       if (Description != other.Description) return false;
       if (!Labels.Equals(other.Labels)) return false;
+      if (DefaultSecurityGroupId != other.DefaultSecurityGroupId) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -201,6 +218,7 @@ namespace Yandex.Cloud.Vpc.V1 {
       if (Name.Length != 0) hash ^= Name.GetHashCode();
       if (Description.Length != 0) hash ^= Description.GetHashCode();
       hash ^= Labels.GetHashCode();
+      if (DefaultSecurityGroupId.Length != 0) hash ^= DefaultSecurityGroupId.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -235,6 +253,10 @@ namespace Yandex.Cloud.Vpc.V1 {
         output.WriteString(Description);
       }
       labels_.WriteTo(output, _map_labels_codec);
+      if (DefaultSecurityGroupId.Length != 0) {
+        output.WriteRawTag(58);
+        output.WriteString(DefaultSecurityGroupId);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -259,6 +281,9 @@ namespace Yandex.Cloud.Vpc.V1 {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Description);
       }
       size += labels_.CalculateSize(_map_labels_codec);
+      if (DefaultSecurityGroupId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(DefaultSecurityGroupId);
+      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -289,6 +314,9 @@ namespace Yandex.Cloud.Vpc.V1 {
         Description = other.Description;
       }
       labels_.Add(other.labels_);
+      if (other.DefaultSecurityGroupId.Length != 0) {
+        DefaultSecurityGroupId = other.DefaultSecurityGroupId;
+      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -325,6 +353,10 @@ namespace Yandex.Cloud.Vpc.V1 {
           }
           case 50: {
             labels_.AddEntriesFrom(input, _map_labels_codec);
+            break;
+          }
+          case 58: {
+            DefaultSecurityGroupId = input.ReadString();
             break;
           }
         }

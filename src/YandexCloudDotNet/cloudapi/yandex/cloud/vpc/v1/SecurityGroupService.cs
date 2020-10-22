@@ -43,7 +43,7 @@ namespace Yandex.Cloud.Vpc.V1 {
             "ZXN0LkxhYmVsc0VudHJ5EhgKCm5ldHdvcmtfaWQYBSABKAlCBOjHMQESPgoK",
             "cnVsZV9zcGVjcxgGIAMoCzIqLnlhbmRleC5jbG91ZC52cGMudjEuU2VjdXJp",
             "dHlHcm91cFJ1bGVTcGVjGi0KC0xhYmVsc0VudHJ5EgsKA2tleRgBIAEoCRIN",
-            "CgV2YWx1ZRgCIAEoCToCOAEipQMKFVNlY3VyaXR5R3JvdXBSdWxlU3BlYxIT",
+            "CgV2YWx1ZRgCIAEoCToCOAEi3wMKFVNlY3VyaXR5R3JvdXBSdWxlU3BlYxIT",
             "CgtkZXNjcmlwdGlvbhgBIAEoCRJGCgZsYWJlbHMYAiADKAsyNi55YW5kZXgu",
             "Y2xvdWQudnBjLnYxLlNlY3VyaXR5R3JvdXBSdWxlU3BlYy5MYWJlbHNFbnRy",
             "eRJJCglkaXJlY3Rpb24YAyABKA4yMC55YW5kZXguY2xvdWQudnBjLnYxLlNl",
@@ -51,71 +51,73 @@ namespace Yandex.Cloud.Vpc.V1 {
             "CzIeLnlhbmRleC5jbG91ZC52cGMudjEuUG9ydFJhbmdlEhcKDXByb3RvY29s",
             "X25hbWUYBSABKAlIABIZCg9wcm90b2NvbF9udW1iZXIYBiABKANIABI2Cgtj",
             "aWRyX2Jsb2NrcxgHIAEoCzIfLnlhbmRleC5jbG91ZC52cGMudjEuQ2lkckJs",
-            "b2Nrc0gBGi0KC0xhYmVsc0VudHJ5EgsKA2tleRgBIAEoCRINCgV2YWx1ZRgC",
-            "IAEoCToCOAFCCgoIcHJvdG9jb2xCDgoGdGFyZ2V0EgTAwTEBIjgKG0NyZWF0",
-            "ZVNlY3VyaXR5R3JvdXBNZXRhZGF0YRIZChFzZWN1cml0eV9ncm91cF9pZBgB",
-            "IAEoCSLNAgoaVXBkYXRlU2VjdXJpdHlHcm91cFJlcXVlc3QSHwoRc2VjdXJp",
-            "dHlfZ3JvdXBfaWQYASABKAlCBOjHMQESLwoLdXBkYXRlX21hc2sYAiABKAsy",
-            "Gi5nb29nbGUucHJvdG9idWYuRmllbGRNYXNrEgwKBG5hbWUYAyABKAkSEwoL",
-            "ZGVzY3JpcHRpb24YBCABKAkSSwoGbGFiZWxzGAUgAygLMjsueWFuZGV4LmNs",
-            "b3VkLnZwYy52MS5VcGRhdGVTZWN1cml0eUdyb3VwUmVxdWVzdC5MYWJlbHNF",
-            "bnRyeRI+CgpydWxlX3NwZWNzGAYgAygLMioueWFuZGV4LmNsb3VkLnZwYy52",
-            "MS5TZWN1cml0eUdyb3VwUnVsZVNwZWMaLQoLTGFiZWxzRW50cnkSCwoDa2V5",
-            "GAEgASgJEg0KBXZhbHVlGAIgASgJOgI4ASI4ChtVcGRhdGVTZWN1cml0eUdy",
-            "b3VwTWV0YWRhdGESGQoRc2VjdXJpdHlfZ3JvdXBfaWQYASABKAkipgEKH1Vw",
-            "ZGF0ZVNlY3VyaXR5R3JvdXBSdWxlc1JlcXVlc3QSHwoRc2VjdXJpdHlfZ3Jv",
-            "dXBfaWQYASABKAlCBOjHMQESGQoRZGVsZXRpb25fcnVsZV9pZHMYAiADKAkS",
-            "RwoTYWRkaXRpb25fcnVsZV9zcGVjcxgDIAMoCzIqLnlhbmRleC5jbG91ZC52",
-            "cGMudjEuU2VjdXJpdHlHcm91cFJ1bGVTcGVjIp4CCh5VcGRhdGVTZWN1cml0",
-            "eUdyb3VwUnVsZVJlcXVlc3QSHwoRc2VjdXJpdHlfZ3JvdXBfaWQYASABKAlC",
-            "BOjHMQESFQoHcnVsZV9pZBgCIAEoCUIE6McxARIvCgt1cGRhdGVfbWFzaxgD",
-            "IAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5GaWVsZE1hc2sSEwoLZGVzY3JpcHRp",
-            "b24YBCABKAkSTwoGbGFiZWxzGAUgAygLMj8ueWFuZGV4LmNsb3VkLnZwYy52",
-            "MS5VcGRhdGVTZWN1cml0eUdyb3VwUnVsZVJlcXVlc3QuTGFiZWxzRW50cnka",
-            "LQoLTGFiZWxzRW50cnkSCwoDa2V5GAEgASgJEg0KBXZhbHVlGAIgASgJOgI4",
-            "ASJNCh9VcGRhdGVTZWN1cml0eUdyb3VwUnVsZU1ldGFkYXRhEhkKEXNlY3Vy",
-            "aXR5X2dyb3VwX2lkGAEgASgJEg8KB3J1bGVfaWQYAiABKAkiPQoaRGVsZXRl",
-            "U2VjdXJpdHlHcm91cFJlcXVlc3QSHwoRc2VjdXJpdHlfZ3JvdXBfaWQYASAB",
-            "KAlCBOjHMQEiOAobRGVsZXRlU2VjdXJpdHlHcm91cE1ldGFkYXRhEhkKEXNl",
-            "Y3VyaXR5X2dyb3VwX2lkGAEgASgJImwKIkxpc3RTZWN1cml0eUdyb3VwT3Bl",
-            "cmF0aW9uc1JlcXVlc3QSHwoRc2VjdXJpdHlfZ3JvdXBfaWQYASABKAlCBOjH",
-            "MQESEQoJcGFnZV9zaXplGAIgASgDEhIKCnBhZ2VfdG9rZW4YAyABKAkidQoj",
-            "TGlzdFNlY3VyaXR5R3JvdXBPcGVyYXRpb25zUmVzcG9uc2USNQoKb3BlcmF0",
-            "aW9ucxgBIAMoCzIhLnlhbmRleC5jbG91ZC5vcGVyYXRpb24uT3BlcmF0aW9u",
-            "EhcKD25leHRfcGFnZV90b2tlbhgCIAEoCSJgChhNb3ZlU2VjdXJpdHlHcm91",
-            "cFJlcXVlc3QSHwoRc2VjdXJpdHlfZ3JvdXBfaWQYASABKAlCBOjHMQESIwoV",
-            "ZGVzdGluYXRpb25fZm9sZGVyX2lkGAIgASgJQgToxzEBIjYKGU1vdmVTZWN1",
-            "cml0eUdyb3VwTWV0YWRhdGESGQoRc2VjdXJpdHlfZ3JvdXBfaWQYASABKAky",
-            "4AkKFFNlY3VyaXR5R3JvdXBTZXJ2aWNlElcKA0dldBIsLnlhbmRleC5jbG91",
-            "ZC52cGMudjEuR2V0U2VjdXJpdHlHcm91cFJlcXVlc3QaIi55YW5kZXguY2xv",
-            "dWQudnBjLnYxLlNlY3VyaXR5R3JvdXASZwoETGlzdBIuLnlhbmRleC5jbG91",
-            "ZC52cGMudjEuTGlzdFNlY3VyaXR5R3JvdXBzUmVxdWVzdBovLnlhbmRleC5j",
-            "bG91ZC52cGMudjEuTGlzdFNlY3VyaXR5R3JvdXBzUmVzcG9uc2USjgEKBkNy",
-            "ZWF0ZRIvLnlhbmRleC5jbG91ZC52cGMudjEuQ3JlYXRlU2VjdXJpdHlHcm91",
-            "cFJlcXVlc3QaIS55YW5kZXguY2xvdWQub3BlcmF0aW9uLk9wZXJhdGlvbiIw",
-            "stIqLAobQ3JlYXRlU2VjdXJpdHlHcm91cE1ldGFkYXRhEg1TZWN1cml0eUdy",
-            "b3VwEo4BCgZVcGRhdGUSLy55YW5kZXguY2xvdWQudnBjLnYxLlVwZGF0ZVNl",
-            "Y3VyaXR5R3JvdXBSZXF1ZXN0GiEueWFuZGV4LmNsb3VkLm9wZXJhdGlvbi5P",
-            "cGVyYXRpb24iMLLSKiwKG1VwZGF0ZVNlY3VyaXR5R3JvdXBNZXRhZGF0YRIN",
-            "U2VjdXJpdHlHcm91cBKYAQoLVXBkYXRlUnVsZXMSNC55YW5kZXguY2xvdWQu",
-            "dnBjLnYxLlVwZGF0ZVNlY3VyaXR5R3JvdXBSdWxlc1JlcXVlc3QaIS55YW5k",
-            "ZXguY2xvdWQub3BlcmF0aW9uLk9wZXJhdGlvbiIwstIqLAobVXBkYXRlU2Vj",
-            "dXJpdHlHcm91cE1ldGFkYXRhEg1TZWN1cml0eUdyb3VwEp4BCgpVcGRhdGVS",
-            "dWxlEjMueWFuZGV4LmNsb3VkLnZwYy52MS5VcGRhdGVTZWN1cml0eUdyb3Vw",
-            "UnVsZVJlcXVlc3QaIS55YW5kZXguY2xvdWQub3BlcmF0aW9uLk9wZXJhdGlv",
-            "biI4stIqNAofVXBkYXRlU2VjdXJpdHlHcm91cFJ1bGVNZXRhZGF0YRIRU2Vj",
-            "dXJpdHlHcm91cFJ1bGUSlgEKBkRlbGV0ZRIvLnlhbmRleC5jbG91ZC52cGMu",
-            "djEuRGVsZXRlU2VjdXJpdHlHcm91cFJlcXVlc3QaIS55YW5kZXguY2xvdWQu",
-            "b3BlcmF0aW9uLk9wZXJhdGlvbiI4stIqNAobRGVsZXRlU2VjdXJpdHlHcm91",
-            "cE1ldGFkYXRhEhVnb29nbGUucHJvdG9idWYuRW1wdHkSiAEKBE1vdmUSLS55",
-            "YW5kZXguY2xvdWQudnBjLnYxLk1vdmVTZWN1cml0eUdyb3VwUmVxdWVzdBoh",
-            "LnlhbmRleC5jbG91ZC5vcGVyYXRpb24uT3BlcmF0aW9uIi6y0ioqChlNb3Zl",
-            "U2VjdXJpdHlHcm91cE1ldGFkYXRhEg1TZWN1cml0eUdyb3VwEoMBCg5MaXN0",
-            "T3BlcmF0aW9ucxI3LnlhbmRleC5jbG91ZC52cGMudjEuTGlzdFNlY3VyaXR5",
-            "R3JvdXBPcGVyYXRpb25zUmVxdWVzdBo4LnlhbmRleC5jbG91ZC52cGMudjEu",
-            "TGlzdFNlY3VyaXR5R3JvdXBPcGVyYXRpb25zUmVzcG9uc2VCVgoXeWFuZGV4",
-            "LmNsb3VkLmFwaS52cGMudjFaO2dpdGh1Yi5jb20veWFuZGV4LWNsb3VkL2dv",
-            "LWdlbnByb3RvL3lhbmRleC9jbG91ZC92cGMvdjE7dnBjYgZwcm90bzM="));
+            "b2Nrc0gBEhsKEXNlY3VyaXR5X2dyb3VwX2lkGAggASgJSAESGwoRcHJlZGVm",
+            "aW5lZF90YXJnZXQYCSABKAlIARotCgtMYWJlbHNFbnRyeRILCgNrZXkYASAB",
+            "KAkSDQoFdmFsdWUYAiABKAk6AjgBQgoKCHByb3RvY29sQg4KBnRhcmdldBIE",
+            "wMExASI4ChtDcmVhdGVTZWN1cml0eUdyb3VwTWV0YWRhdGESGQoRc2VjdXJp",
+            "dHlfZ3JvdXBfaWQYASABKAkizQIKGlVwZGF0ZVNlY3VyaXR5R3JvdXBSZXF1",
+            "ZXN0Eh8KEXNlY3VyaXR5X2dyb3VwX2lkGAEgASgJQgToxzEBEi8KC3VwZGF0",
+            "ZV9tYXNrGAIgASgLMhouZ29vZ2xlLnByb3RvYnVmLkZpZWxkTWFzaxIMCgRu",
+            "YW1lGAMgASgJEhMKC2Rlc2NyaXB0aW9uGAQgASgJEksKBmxhYmVscxgFIAMo",
+            "CzI7LnlhbmRleC5jbG91ZC52cGMudjEuVXBkYXRlU2VjdXJpdHlHcm91cFJl",
+            "cXVlc3QuTGFiZWxzRW50cnkSPgoKcnVsZV9zcGVjcxgGIAMoCzIqLnlhbmRl",
+            "eC5jbG91ZC52cGMudjEuU2VjdXJpdHlHcm91cFJ1bGVTcGVjGi0KC0xhYmVs",
+            "c0VudHJ5EgsKA2tleRgBIAEoCRINCgV2YWx1ZRgCIAEoCToCOAEiOAobVXBk",
+            "YXRlU2VjdXJpdHlHcm91cE1ldGFkYXRhEhkKEXNlY3VyaXR5X2dyb3VwX2lk",
+            "GAEgASgJIqYBCh9VcGRhdGVTZWN1cml0eUdyb3VwUnVsZXNSZXF1ZXN0Eh8K",
+            "EXNlY3VyaXR5X2dyb3VwX2lkGAEgASgJQgToxzEBEhkKEWRlbGV0aW9uX3J1",
+            "bGVfaWRzGAIgAygJEkcKE2FkZGl0aW9uX3J1bGVfc3BlY3MYAyADKAsyKi55",
+            "YW5kZXguY2xvdWQudnBjLnYxLlNlY3VyaXR5R3JvdXBSdWxlU3BlYyKeAgoe",
+            "VXBkYXRlU2VjdXJpdHlHcm91cFJ1bGVSZXF1ZXN0Eh8KEXNlY3VyaXR5X2dy",
+            "b3VwX2lkGAEgASgJQgToxzEBEhUKB3J1bGVfaWQYAiABKAlCBOjHMQESLwoL",
+            "dXBkYXRlX21hc2sYAyABKAsyGi5nb29nbGUucHJvdG9idWYuRmllbGRNYXNr",
+            "EhMKC2Rlc2NyaXB0aW9uGAQgASgJEk8KBmxhYmVscxgFIAMoCzI/LnlhbmRl",
+            "eC5jbG91ZC52cGMudjEuVXBkYXRlU2VjdXJpdHlHcm91cFJ1bGVSZXF1ZXN0",
+            "LkxhYmVsc0VudHJ5Gi0KC0xhYmVsc0VudHJ5EgsKA2tleRgBIAEoCRINCgV2",
+            "YWx1ZRgCIAEoCToCOAEiTQofVXBkYXRlU2VjdXJpdHlHcm91cFJ1bGVNZXRh",
+            "ZGF0YRIZChFzZWN1cml0eV9ncm91cF9pZBgBIAEoCRIPCgdydWxlX2lkGAIg",
+            "ASgJIj0KGkRlbGV0ZVNlY3VyaXR5R3JvdXBSZXF1ZXN0Eh8KEXNlY3VyaXR5",
+            "X2dyb3VwX2lkGAEgASgJQgToxzEBIjgKG0RlbGV0ZVNlY3VyaXR5R3JvdXBN",
+            "ZXRhZGF0YRIZChFzZWN1cml0eV9ncm91cF9pZBgBIAEoCSJsCiJMaXN0U2Vj",
+            "dXJpdHlHcm91cE9wZXJhdGlvbnNSZXF1ZXN0Eh8KEXNlY3VyaXR5X2dyb3Vw",
+            "X2lkGAEgASgJQgToxzEBEhEKCXBhZ2Vfc2l6ZRgCIAEoAxISCgpwYWdlX3Rv",
+            "a2VuGAMgASgJInUKI0xpc3RTZWN1cml0eUdyb3VwT3BlcmF0aW9uc1Jlc3Bv",
+            "bnNlEjUKCm9wZXJhdGlvbnMYASADKAsyIS55YW5kZXguY2xvdWQub3BlcmF0",
+            "aW9uLk9wZXJhdGlvbhIXCg9uZXh0X3BhZ2VfdG9rZW4YAiABKAkiYAoYTW92",
+            "ZVNlY3VyaXR5R3JvdXBSZXF1ZXN0Eh8KEXNlY3VyaXR5X2dyb3VwX2lkGAEg",
+            "ASgJQgToxzEBEiMKFWRlc3RpbmF0aW9uX2ZvbGRlcl9pZBgCIAEoCUIE6Mcx",
+            "ASI2ChlNb3ZlU2VjdXJpdHlHcm91cE1ldGFkYXRhEhkKEXNlY3VyaXR5X2dy",
+            "b3VwX2lkGAEgASgJMuAJChRTZWN1cml0eUdyb3VwU2VydmljZRJXCgNHZXQS",
+            "LC55YW5kZXguY2xvdWQudnBjLnYxLkdldFNlY3VyaXR5R3JvdXBSZXF1ZXN0",
+            "GiIueWFuZGV4LmNsb3VkLnZwYy52MS5TZWN1cml0eUdyb3VwEmcKBExpc3QS",
+            "Li55YW5kZXguY2xvdWQudnBjLnYxLkxpc3RTZWN1cml0eUdyb3Vwc1JlcXVl",
+            "c3QaLy55YW5kZXguY2xvdWQudnBjLnYxLkxpc3RTZWN1cml0eUdyb3Vwc1Jl",
+            "c3BvbnNlEo4BCgZDcmVhdGUSLy55YW5kZXguY2xvdWQudnBjLnYxLkNyZWF0",
+            "ZVNlY3VyaXR5R3JvdXBSZXF1ZXN0GiEueWFuZGV4LmNsb3VkLm9wZXJhdGlv",
+            "bi5PcGVyYXRpb24iMLLSKiwKG0NyZWF0ZVNlY3VyaXR5R3JvdXBNZXRhZGF0",
+            "YRINU2VjdXJpdHlHcm91cBKOAQoGVXBkYXRlEi8ueWFuZGV4LmNsb3VkLnZw",
+            "Yy52MS5VcGRhdGVTZWN1cml0eUdyb3VwUmVxdWVzdBohLnlhbmRleC5jbG91",
+            "ZC5vcGVyYXRpb24uT3BlcmF0aW9uIjCy0iosChtVcGRhdGVTZWN1cml0eUdy",
+            "b3VwTWV0YWRhdGESDVNlY3VyaXR5R3JvdXASmAEKC1VwZGF0ZVJ1bGVzEjQu",
+            "eWFuZGV4LmNsb3VkLnZwYy52MS5VcGRhdGVTZWN1cml0eUdyb3VwUnVsZXNS",
+            "ZXF1ZXN0GiEueWFuZGV4LmNsb3VkLm9wZXJhdGlvbi5PcGVyYXRpb24iMLLS",
+            "KiwKG1VwZGF0ZVNlY3VyaXR5R3JvdXBNZXRhZGF0YRINU2VjdXJpdHlHcm91",
+            "cBKeAQoKVXBkYXRlUnVsZRIzLnlhbmRleC5jbG91ZC52cGMudjEuVXBkYXRl",
+            "U2VjdXJpdHlHcm91cFJ1bGVSZXF1ZXN0GiEueWFuZGV4LmNsb3VkLm9wZXJh",
+            "dGlvbi5PcGVyYXRpb24iOLLSKjQKH1VwZGF0ZVNlY3VyaXR5R3JvdXBSdWxl",
+            "TWV0YWRhdGESEVNlY3VyaXR5R3JvdXBSdWxlEpYBCgZEZWxldGUSLy55YW5k",
+            "ZXguY2xvdWQudnBjLnYxLkRlbGV0ZVNlY3VyaXR5R3JvdXBSZXF1ZXN0GiEu",
+            "eWFuZGV4LmNsb3VkLm9wZXJhdGlvbi5PcGVyYXRpb24iOLLSKjQKG0RlbGV0",
+            "ZVNlY3VyaXR5R3JvdXBNZXRhZGF0YRIVZ29vZ2xlLnByb3RvYnVmLkVtcHR5",
+            "EogBCgRNb3ZlEi0ueWFuZGV4LmNsb3VkLnZwYy52MS5Nb3ZlU2VjdXJpdHlH",
+            "cm91cFJlcXVlc3QaIS55YW5kZXguY2xvdWQub3BlcmF0aW9uLk9wZXJhdGlv",
+            "biIustIqKgoZTW92ZVNlY3VyaXR5R3JvdXBNZXRhZGF0YRINU2VjdXJpdHlH",
+            "cm91cBKDAQoOTGlzdE9wZXJhdGlvbnMSNy55YW5kZXguY2xvdWQudnBjLnYx",
+            "Lkxpc3RTZWN1cml0eUdyb3VwT3BlcmF0aW9uc1JlcXVlc3QaOC55YW5kZXgu",
+            "Y2xvdWQudnBjLnYxLkxpc3RTZWN1cml0eUdyb3VwT3BlcmF0aW9uc1Jlc3Bv",
+            "bnNlQlYKF3lhbmRleC5jbG91ZC5hcGkudnBjLnYxWjtnaXRodWIuY29tL3lh",
+            "bmRleC1jbG91ZC9nby1nZW5wcm90by95YW5kZXgvY2xvdWQvdnBjL3YxO3Zw",
+            "Y2IGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Yandex.Cloud.Api.OperationReflection.Descriptor, global::Yandex.Cloud.Vpc.V1.SecurityGroupReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
@@ -123,7 +125,7 @@ namespace Yandex.Cloud.Vpc.V1 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.ListSecurityGroupsRequest), global::Yandex.Cloud.Vpc.V1.ListSecurityGroupsRequest.Parser, new[]{ "FolderId", "PageSize", "PageToken", "Filter" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.ListSecurityGroupsResponse), global::Yandex.Cloud.Vpc.V1.ListSecurityGroupsResponse.Parser, new[]{ "SecurityGroups", "NextPageToken" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.CreateSecurityGroupRequest), global::Yandex.Cloud.Vpc.V1.CreateSecurityGroupRequest.Parser, new[]{ "FolderId", "Name", "Description", "Labels", "NetworkId", "RuleSpecs" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.SecurityGroupRuleSpec), global::Yandex.Cloud.Vpc.V1.SecurityGroupRuleSpec.Parser, new[]{ "Description", "Labels", "Direction", "Ports", "ProtocolName", "ProtocolNumber", "CidrBlocks" }, new[]{ "Protocol", "Target" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.SecurityGroupRuleSpec), global::Yandex.Cloud.Vpc.V1.SecurityGroupRuleSpec.Parser, new[]{ "Description", "Labels", "Direction", "Ports", "ProtocolName", "ProtocolNumber", "CidrBlocks", "SecurityGroupId", "PredefinedTarget" }, new[]{ "Protocol", "Target" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.CreateSecurityGroupMetadata), global::Yandex.Cloud.Vpc.V1.CreateSecurityGroupMetadata.Parser, new[]{ "SecurityGroupId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.UpdateSecurityGroupRequest), global::Yandex.Cloud.Vpc.V1.UpdateSecurityGroupRequest.Parser, new[]{ "SecurityGroupId", "UpdateMask", "Name", "Description", "Labels", "RuleSpecs" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Vpc.V1.UpdateSecurityGroupMetadata), global::Yandex.Cloud.Vpc.V1.UpdateSecurityGroupMetadata.Parser, new[]{ "SecurityGroupId" }, null, null, null, null),
@@ -931,6 +933,12 @@ namespace Yandex.Cloud.Vpc.V1 {
         case TargetOneofCase.CidrBlocks:
           CidrBlocks = other.CidrBlocks.Clone();
           break;
+        case TargetOneofCase.SecurityGroupId:
+          SecurityGroupId = other.SecurityGroupId;
+          break;
+        case TargetOneofCase.PredefinedTarget:
+          PredefinedTarget = other.PredefinedTarget;
+          break;
       }
 
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
@@ -1011,16 +1019,37 @@ namespace Yandex.Cloud.Vpc.V1 {
 
     /// <summary>Field number for the "cidr_blocks" field.</summary>
     public const int CidrBlocksFieldNumber = 7;
-    /// <summary>
-    /// string security_group_id = .. ;
-    /// string subnet_id = .. ;
-    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Yandex.Cloud.Vpc.V1.CidrBlocks CidrBlocks {
       get { return targetCase_ == TargetOneofCase.CidrBlocks ? (global::Yandex.Cloud.Vpc.V1.CidrBlocks) target_ : null; }
       set {
         target_ = value;
         targetCase_ = value == null ? TargetOneofCase.None : TargetOneofCase.CidrBlocks;
+      }
+    }
+
+    /// <summary>Field number for the "security_group_id" field.</summary>
+    public const int SecurityGroupIdFieldNumber = 8;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string SecurityGroupId {
+      get { return targetCase_ == TargetOneofCase.SecurityGroupId ? (string) target_ : ""; }
+      set {
+        target_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+        targetCase_ = TargetOneofCase.SecurityGroupId;
+      }
+    }
+
+    /// <summary>Field number for the "predefined_target" field.</summary>
+    public const int PredefinedTargetFieldNumber = 9;
+    /// <summary>
+    /// string subnet_id = .. ;
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string PredefinedTarget {
+      get { return targetCase_ == TargetOneofCase.PredefinedTarget ? (string) target_ : ""; }
+      set {
+        target_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+        targetCase_ = TargetOneofCase.PredefinedTarget;
       }
     }
 
@@ -1048,6 +1077,8 @@ namespace Yandex.Cloud.Vpc.V1 {
     public enum TargetOneofCase {
       None = 0,
       CidrBlocks = 7,
+      SecurityGroupId = 8,
+      PredefinedTarget = 9,
     }
     private TargetOneofCase targetCase_ = TargetOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1081,6 +1112,8 @@ namespace Yandex.Cloud.Vpc.V1 {
       if (ProtocolName != other.ProtocolName) return false;
       if (ProtocolNumber != other.ProtocolNumber) return false;
       if (!object.Equals(CidrBlocks, other.CidrBlocks)) return false;
+      if (SecurityGroupId != other.SecurityGroupId) return false;
+      if (PredefinedTarget != other.PredefinedTarget) return false;
       if (ProtocolCase != other.ProtocolCase) return false;
       if (TargetCase != other.TargetCase) return false;
       return Equals(_unknownFields, other._unknownFields);
@@ -1096,6 +1129,8 @@ namespace Yandex.Cloud.Vpc.V1 {
       if (protocolCase_ == ProtocolOneofCase.ProtocolName) hash ^= ProtocolName.GetHashCode();
       if (protocolCase_ == ProtocolOneofCase.ProtocolNumber) hash ^= ProtocolNumber.GetHashCode();
       if (targetCase_ == TargetOneofCase.CidrBlocks) hash ^= CidrBlocks.GetHashCode();
+      if (targetCase_ == TargetOneofCase.SecurityGroupId) hash ^= SecurityGroupId.GetHashCode();
+      if (targetCase_ == TargetOneofCase.PredefinedTarget) hash ^= PredefinedTarget.GetHashCode();
       hash ^= (int) protocolCase_;
       hash ^= (int) targetCase_;
       if (_unknownFields != null) {
@@ -1136,6 +1171,14 @@ namespace Yandex.Cloud.Vpc.V1 {
         output.WriteRawTag(58);
         output.WriteMessage(CidrBlocks);
       }
+      if (targetCase_ == TargetOneofCase.SecurityGroupId) {
+        output.WriteRawTag(66);
+        output.WriteString(SecurityGroupId);
+      }
+      if (targetCase_ == TargetOneofCase.PredefinedTarget) {
+        output.WriteRawTag(74);
+        output.WriteString(PredefinedTarget);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1162,6 +1205,12 @@ namespace Yandex.Cloud.Vpc.V1 {
       }
       if (targetCase_ == TargetOneofCase.CidrBlocks) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(CidrBlocks);
+      }
+      if (targetCase_ == TargetOneofCase.SecurityGroupId) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(SecurityGroupId);
+      }
+      if (targetCase_ == TargetOneofCase.PredefinedTarget) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(PredefinedTarget);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1202,6 +1251,12 @@ namespace Yandex.Cloud.Vpc.V1 {
             CidrBlocks = new global::Yandex.Cloud.Vpc.V1.CidrBlocks();
           }
           CidrBlocks.MergeFrom(other.CidrBlocks);
+          break;
+        case TargetOneofCase.SecurityGroupId:
+          SecurityGroupId = other.SecurityGroupId;
+          break;
+        case TargetOneofCase.PredefinedTarget:
+          PredefinedTarget = other.PredefinedTarget;
           break;
       }
 
@@ -1250,6 +1305,14 @@ namespace Yandex.Cloud.Vpc.V1 {
             }
             input.ReadMessage(subBuilder);
             CidrBlocks = subBuilder;
+            break;
+          }
+          case 66: {
+            SecurityGroupId = input.ReadString();
+            break;
+          }
+          case 74: {
+            PredefinedTarget = input.ReadString();
             break;
           }
         }

@@ -25,31 +25,32 @@ namespace Yandex.Cloud.Access {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "CiB5YW5kZXgvY2xvdWQvYWNjZXNzL2FjY2Vzcy5wcm90bxITeWFuZGV4LmNs",
-            "b3VkLmFjY2VzcxodeWFuZGV4L2Nsb3VkL3ZhbGlkYXRpb24ucHJvdG8iLQoH",
-            "U3ViamVjdBIUCgJpZBgBIAEoCUIIisgxBDw9NTASDAoEdHlwZRgCIAEoCSJf",
-            "Cg1BY2Nlc3NCaW5kaW5nEhkKB3JvbGVfaWQYASABKAlCCIrIMQQ8PTUwEjMK",
-            "B3N1YmplY3QYAiABKAsyHC55YW5kZXguY2xvdWQuYWNjZXNzLlN1YmplY3RC",
-            "BOjHMQEidAoZTGlzdEFjY2Vzc0JpbmRpbmdzUmVxdWVzdBIZCgtyZXNvdXJj",
-            "ZV9pZBgBIAEoCUIE6McxARIdCglwYWdlX3NpemUYAiABKANCCvrHMQY8PTEw",
-            "MDASHQoKcGFnZV90b2tlbhgDIAEoCUIJisgxBTw9MTAwInIKGkxpc3RBY2Nl",
-            "c3NCaW5kaW5nc1Jlc3BvbnNlEjsKD2FjY2Vzc19iaW5kaW5ncxgBIAMoCzIi",
-            "LnlhbmRleC5jbG91ZC5hY2Nlc3MuQWNjZXNzQmluZGluZxIXCg9uZXh0X3Bh",
-            "Z2VfdG9rZW4YAiABKAkieAoYU2V0QWNjZXNzQmluZGluZ3NSZXF1ZXN0EhkK",
-            "C3Jlc291cmNlX2lkGAEgASgJQgToxzEBEkEKD2FjY2Vzc19iaW5kaW5ncxgC",
-            "IAMoCzIiLnlhbmRleC5jbG91ZC5hY2Nlc3MuQWNjZXNzQmluZGluZ0IE6Mcx",
-            "ASIwChlTZXRBY2Nlc3NCaW5kaW5nc01ldGFkYXRhEhMKC3Jlc291cmNlX2lk",
-            "GAEgASgJIoYBChtVcGRhdGVBY2Nlc3NCaW5kaW5nc1JlcXVlc3QSGQoLcmVz",
-            "b3VyY2VfaWQYASABKAlCBOjHMQESTAoVYWNjZXNzX2JpbmRpbmdfZGVsdGFz",
-            "GAIgAygLMicueWFuZGV4LmNsb3VkLmFjY2Vzcy5BY2Nlc3NCaW5kaW5nRGVs",
-            "dGFCBOjHMQEiMwocVXBkYXRlQWNjZXNzQmluZGluZ3NNZXRhZGF0YRITCgty",
-            "ZXNvdXJjZV9pZBgBIAEoCSKWAQoSQWNjZXNzQmluZGluZ0RlbHRhEj4KBmFj",
-            "dGlvbhgBIAEoDjIoLnlhbmRleC5jbG91ZC5hY2Nlc3MuQWNjZXNzQmluZGlu",
-            "Z0FjdGlvbkIE6McxARJACg5hY2Nlc3NfYmluZGluZxgCIAEoCzIiLnlhbmRl",
-            "eC5jbG91ZC5hY2Nlc3MuQWNjZXNzQmluZGluZ0IE6McxASpRChNBY2Nlc3NC",
-            "aW5kaW5nQWN0aW9uEiUKIUFDQ0VTU19CSU5ESU5HX0FDVElPTl9VTlNQRUNJ",
-            "RklFRBAAEgcKA0FERBABEgoKBlJFTU9WRRACQlkKF3lhbmRleC5jbG91ZC5h",
-            "cGkuYWNjZXNzWj5naXRodWIuY29tL3lhbmRleC1jbG91ZC9nby1nZW5wcm90",
-            "by95YW5kZXgvY2xvdWQvYWNjZXNzO2FjY2Vzc2IGcHJvdG8z"));
+            "b3VkLmFjY2VzcxodeWFuZGV4L2Nsb3VkL3ZhbGlkYXRpb24ucHJvdG8iQAoH",
+            "U3ViamVjdBIYCgJpZBgBIAEoCUIM6McxAYrIMQQ8PTUwEhsKBHR5cGUYAiAB",
+            "KAlCDejHMQGKyDEFPD0xMDAiYwoNQWNjZXNzQmluZGluZxIdCgdyb2xlX2lk",
+            "GAEgASgJQgzoxzEBisgxBDw9NTASMwoHc3ViamVjdBgCIAEoCzIcLnlhbmRl",
+            "eC5jbG91ZC5hY2Nlc3MuU3ViamVjdEIE6McxASJ8ChlMaXN0QWNjZXNzQmlu",
+            "ZGluZ3NSZXF1ZXN0EiEKC3Jlc291cmNlX2lkGAEgASgJQgzoxzEBisgxBDw9",
+            "NTASHQoJcGFnZV9zaXplGAIgASgDQgr6xzEGPD0xMDAwEh0KCnBhZ2VfdG9r",
+            "ZW4YAyABKAlCCYrIMQU8PTEwMCJyChpMaXN0QWNjZXNzQmluZGluZ3NSZXNw",
+            "b25zZRI7Cg9hY2Nlc3NfYmluZGluZ3MYASADKAsyIi55YW5kZXguY2xvdWQu",
+            "YWNjZXNzLkFjY2Vzc0JpbmRpbmcSFwoPbmV4dF9wYWdlX3Rva2VuGAIgASgJ",
+            "IoABChhTZXRBY2Nlc3NCaW5kaW5nc1JlcXVlc3QSIQoLcmVzb3VyY2VfaWQY",
+            "ASABKAlCDOjHMQGKyDEEPD01MBJBCg9hY2Nlc3NfYmluZGluZ3MYAiADKAsy",
+            "Ii55YW5kZXguY2xvdWQuYWNjZXNzLkFjY2Vzc0JpbmRpbmdCBOjHMQEiMAoZ",
+            "U2V0QWNjZXNzQmluZGluZ3NNZXRhZGF0YRITCgtyZXNvdXJjZV9pZBgBIAEo",
+            "CSKUAQobVXBkYXRlQWNjZXNzQmluZGluZ3NSZXF1ZXN0EiEKC3Jlc291cmNl",
+            "X2lkGAEgASgJQgzoxzEBisgxBDw9NTASUgoVYWNjZXNzX2JpbmRpbmdfZGVs",
+            "dGFzGAIgAygLMicueWFuZGV4LmNsb3VkLmFjY2Vzcy5BY2Nlc3NCaW5kaW5n",
+            "RGVsdGFCCoLIMQI+MOjHMQEiMwocVXBkYXRlQWNjZXNzQmluZGluZ3NNZXRh",
+            "ZGF0YRITCgtyZXNvdXJjZV9pZBgBIAEoCSKWAQoSQWNjZXNzQmluZGluZ0Rl",
+            "bHRhEj4KBmFjdGlvbhgBIAEoDjIoLnlhbmRleC5jbG91ZC5hY2Nlc3MuQWNj",
+            "ZXNzQmluZGluZ0FjdGlvbkIE6McxARJACg5hY2Nlc3NfYmluZGluZxgCIAEo",
+            "CzIiLnlhbmRleC5jbG91ZC5hY2Nlc3MuQWNjZXNzQmluZGluZ0IE6McxASpR",
+            "ChNBY2Nlc3NCaW5kaW5nQWN0aW9uEiUKIUFDQ0VTU19CSU5ESU5HX0FDVElP",
+            "Tl9VTlNQRUNJRklFRBAAEgcKA0FERBABEgoKBlJFTU9WRRACQlkKF3lhbmRl",
+            "eC5jbG91ZC5hcGkuYWNjZXNzWj5naXRodWIuY29tL3lhbmRleC1jbG91ZC9n",
+            "by1nZW5wcm90by95YW5kZXgvY2xvdWQvYWNjZXNzO2FjY2Vzc2IGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Yandex.Cloud.ValidationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Yandex.Cloud.Access.AccessBindingAction), }, null, new pbr::GeneratedClrTypeInfo[] {
@@ -130,7 +131,7 @@ namespace Yandex.Cloud.Access {
     /// * `allUsers`: A special system identifier that represents anyone. No authentication is required.
     ///    For example, you don't need to specify the IAM token in an API query.
     /// * `&lt;cloud generated id>`: An identifier that represents a user account.
-    ///    It can be used only if the [type] is `userAccount` or `serviceAccount`.
+    ///    It can be used only if the [type] is `userAccount`, `federatedUser` or `serviceAccount`.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Id {

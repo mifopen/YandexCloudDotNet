@@ -28,11 +28,12 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
     static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Redis.V1.MoveClusterRequest> __Marshaller_yandex_cloud_mdb_redis_v1_MoveClusterRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Redis.V1.MoveClusterRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Redis.V1.BackupClusterRequest> __Marshaller_yandex_cloud_mdb_redis_v1_BackupClusterRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Redis.V1.BackupClusterRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Redis.V1.RestoreClusterRequest> __Marshaller_yandex_cloud_mdb_redis_v1_RestoreClusterRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Redis.V1.RestoreClusterRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Redis.V1.RescheduleMaintenanceRequest> __Marshaller_yandex_cloud_mdb_redis_v1_RescheduleMaintenanceRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Redis.V1.RescheduleMaintenanceRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Redis.V1.StartClusterFailoverRequest> __Marshaller_yandex_cloud_mdb_redis_v1_StartClusterFailoverRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Redis.V1.StartClusterFailoverRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Redis.V1.ListClusterLogsRequest> __Marshaller_yandex_cloud_mdb_redis_v1_ListClusterLogsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Redis.V1.ListClusterLogsRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Redis.V1.ListClusterLogsResponse> __Marshaller_yandex_cloud_mdb_redis_v1_ListClusterLogsResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Redis.V1.ListClusterLogsResponse.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Redis.V1.StreamClusterLogsRequest> __Marshaller_yandex_cloud_mdb_redis_v1_StreamClusterLogsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Redis.V1.StreamClusterLogsRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Redis.V1.LogRecord> __Marshaller_yandex_cloud_mdb_redis_v1_LogRecord = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Redis.V1.LogRecord.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Redis.V1.StreamLogRecord> __Marshaller_yandex_cloud_mdb_redis_v1_StreamLogRecord = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Redis.V1.StreamLogRecord.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Redis.V1.ListClusterOperationsRequest> __Marshaller_yandex_cloud_mdb_redis_v1_ListClusterOperationsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Redis.V1.ListClusterOperationsRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Redis.V1.ListClusterOperationsResponse> __Marshaller_yandex_cloud_mdb_redis_v1_ListClusterOperationsResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Redis.V1.ListClusterOperationsResponse.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Mdb.Redis.V1.ListClusterBackupsRequest> __Marshaller_yandex_cloud_mdb_redis_v1_ListClusterBackupsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Mdb.Redis.V1.ListClusterBackupsRequest.Parser.ParseFrom);
@@ -119,6 +120,13 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
         __Marshaller_yandex_cloud_mdb_redis_v1_RestoreClusterRequest,
         __Marshaller_yandex_cloud_operation_Operation);
 
+    static readonly grpc::Method<global::Yandex.Cloud.Mdb.Redis.V1.RescheduleMaintenanceRequest, global::Yandex.Cloud.Operation.Operation> __Method_RescheduleMaintenance = new grpc::Method<global::Yandex.Cloud.Mdb.Redis.V1.RescheduleMaintenanceRequest, global::Yandex.Cloud.Operation.Operation>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "RescheduleMaintenance",
+        __Marshaller_yandex_cloud_mdb_redis_v1_RescheduleMaintenanceRequest,
+        __Marshaller_yandex_cloud_operation_Operation);
+
     static readonly grpc::Method<global::Yandex.Cloud.Mdb.Redis.V1.StartClusterFailoverRequest, global::Yandex.Cloud.Operation.Operation> __Method_StartFailover = new grpc::Method<global::Yandex.Cloud.Mdb.Redis.V1.StartClusterFailoverRequest, global::Yandex.Cloud.Operation.Operation>(
         grpc::MethodType.Unary,
         __ServiceName,
@@ -133,12 +141,12 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
         __Marshaller_yandex_cloud_mdb_redis_v1_ListClusterLogsRequest,
         __Marshaller_yandex_cloud_mdb_redis_v1_ListClusterLogsResponse);
 
-    static readonly grpc::Method<global::Yandex.Cloud.Mdb.Redis.V1.StreamClusterLogsRequest, global::Yandex.Cloud.Mdb.Redis.V1.LogRecord> __Method_StreamLogs = new grpc::Method<global::Yandex.Cloud.Mdb.Redis.V1.StreamClusterLogsRequest, global::Yandex.Cloud.Mdb.Redis.V1.LogRecord>(
+    static readonly grpc::Method<global::Yandex.Cloud.Mdb.Redis.V1.StreamClusterLogsRequest, global::Yandex.Cloud.Mdb.Redis.V1.StreamLogRecord> __Method_StreamLogs = new grpc::Method<global::Yandex.Cloud.Mdb.Redis.V1.StreamClusterLogsRequest, global::Yandex.Cloud.Mdb.Redis.V1.StreamLogRecord>(
         grpc::MethodType.ServerStreaming,
         __ServiceName,
         "StreamLogs",
         __Marshaller_yandex_cloud_mdb_redis_v1_StreamClusterLogsRequest,
-        __Marshaller_yandex_cloud_mdb_redis_v1_LogRecord);
+        __Marshaller_yandex_cloud_mdb_redis_v1_StreamLogRecord);
 
     static readonly grpc::Method<global::Yandex.Cloud.Mdb.Redis.V1.ListClusterOperationsRequest, global::Yandex.Cloud.Mdb.Redis.V1.ListClusterOperationsResponse> __Method_ListOperations = new grpc::Method<global::Yandex.Cloud.Mdb.Redis.V1.ListClusterOperationsRequest, global::Yandex.Cloud.Mdb.Redis.V1.ListClusterOperationsResponse>(
         grpc::MethodType.Unary,
@@ -692,6 +700,50 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
         return CallInvoker.AsyncUnaryCall(__Method_Restore, null, options, request);
       }
       /// <summary>
+      /// Reschedule planned maintenance operation.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.Operation.Operation RescheduleMaintenance(global::Yandex.Cloud.Mdb.Redis.V1.RescheduleMaintenanceRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return RescheduleMaintenance(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Reschedule planned maintenance operation.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.Operation.Operation RescheduleMaintenance(global::Yandex.Cloud.Mdb.Redis.V1.RescheduleMaintenanceRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_RescheduleMaintenance, null, options, request);
+      }
+      /// <summary>
+      /// Reschedule planned maintenance operation.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Operation.Operation> RescheduleMaintenanceAsync(global::Yandex.Cloud.Mdb.Redis.V1.RescheduleMaintenanceRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return RescheduleMaintenanceAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Reschedule planned maintenance operation.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Operation.Operation> RescheduleMaintenanceAsync(global::Yandex.Cloud.Mdb.Redis.V1.RescheduleMaintenanceRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_RescheduleMaintenance, null, options, request);
+      }
+      /// <summary>
       /// Start a manual failover on the specified Redis cluster.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
@@ -787,7 +839,7 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
-      public virtual grpc::AsyncServerStreamingCall<global::Yandex.Cloud.Mdb.Redis.V1.LogRecord> StreamLogs(global::Yandex.Cloud.Mdb.Redis.V1.StreamClusterLogsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual grpc::AsyncServerStreamingCall<global::Yandex.Cloud.Mdb.Redis.V1.StreamLogRecord> StreamLogs(global::Yandex.Cloud.Mdb.Redis.V1.StreamClusterLogsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return StreamLogs(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
@@ -797,7 +849,7 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
-      public virtual grpc::AsyncServerStreamingCall<global::Yandex.Cloud.Mdb.Redis.V1.LogRecord> StreamLogs(global::Yandex.Cloud.Mdb.Redis.V1.StreamClusterLogsRequest request, grpc::CallOptions options)
+      public virtual grpc::AsyncServerStreamingCall<global::Yandex.Cloud.Mdb.Redis.V1.StreamLogRecord> StreamLogs(global::Yandex.Cloud.Mdb.Redis.V1.StreamClusterLogsRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncServerStreamingCall(__Method_StreamLogs, null, options, request);
       }

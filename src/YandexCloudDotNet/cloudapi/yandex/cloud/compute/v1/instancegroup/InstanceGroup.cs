@@ -28,7 +28,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
             "bmNlX2dyb3VwLnByb3RvEiV5YW5kZXguY2xvdWQuY29tcHV0ZS52MS5pbnN0",
             "YW5jZWdyb3VwGh15YW5kZXgvY2xvdWQvdmFsaWRhdGlvbi5wcm90bxofZ29v",
             "Z2xlL3Byb3RvYnVmL3RpbWVzdGFtcC5wcm90bxoeZ29vZ2xlL3Byb3RvYnVm",
-            "L2R1cmF0aW9uLnByb3RvIrIJCg1JbnN0YW5jZUdyb3VwEgoKAmlkGAEgASgJ",
+            "L2R1cmF0aW9uLnByb3RvIs8JCg1JbnN0YW5jZUdyb3VwEgoKAmlkGAEgASgJ",
             "EhEKCWZvbGRlcl9pZBgCIAEoCRIuCgpjcmVhdGVkX2F0GAMgASgLMhouZ29v",
             "Z2xlLnByb3RvYnVmLlRpbWVzdGFtcBIMCgRuYW1lGAQgASgJEhMKC2Rlc2Ny",
             "aXB0aW9uGAUgASgJElAKBmxhYmVscxgGIAMoCzJALnlhbmRleC5jbG91ZC5j",
@@ -51,179 +51,185 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
             "GgoSc2VydmljZV9hY2NvdW50X2lkGBAgASgJEksKBnN0YXR1cxgRIAEoDjI7",
             "LnlhbmRleC5jbG91ZC5jb21wdXRlLnYxLmluc3RhbmNlZ3JvdXAuSW5zdGFu",
             "Y2VHcm91cC5TdGF0dXMSQgoJdmFyaWFibGVzGBIgAygLMi8ueWFuZGV4LmNs",
-            "b3VkLmNvbXB1dGUudjEuaW5zdGFuY2Vncm91cC5WYXJpYWJsZRotCgtMYWJl",
-            "bHNFbnRyeRILCgNrZXkYASABKAkSDQoFdmFsdWUYAiABKAk6AjgBImMKBlN0",
-            "YXR1cxIWChJTVEFUVVNfVU5TUEVDSUZJRUQQABIMCghTVEFSVElORxABEgoK",
-            "BkFDVElWRRACEgwKCFNUT1BQSU5HEAMSCwoHU1RPUFBFRBAEEgwKCERFTEVU",
-            "SU5HEAUiTwoIVmFyaWFibGUSKQoDa2V5GAEgASgJQhyKyDEFMS0xMjjyxzEP",
-            "W2EtekEtWjAtOS5fLV0qEhgKBXZhbHVlGAIgASgJQgmKyDEFPD0xMjgiRAoR",
-            "TG9hZEJhbGFuY2VyU3RhdGUSFwoPdGFyZ2V0X2dyb3VwX2lkGAEgASgJEhYK",
-            "DnN0YXR1c19tZXNzYWdlGAIgASgJIr8CChVNYW5hZ2VkSW5zdGFuY2VzU3Rh",
-            "dGUSEwoLdGFyZ2V0X3NpemUYASABKAMSHAoUcnVubmluZ19hY3R1YWxfY291",
-            "bnQYBCABKAMSHgoWcnVubmluZ19vdXRkYXRlZF9jb3VudBgFIAEoAxIYChBw",
-            "cm9jZXNzaW5nX2NvdW50GAYgASgDGrgBCghTdGF0dXNlcxIQCghjcmVhdGlu",
-            "ZxgBIAEoAxIQCghzdGFydGluZxgCIAEoAxIPCgdvcGVuaW5nGAMgASgDEg8K",
-            "B3dhcm1pbmcYBCABKAMSDwoHcnVubmluZxgFIAEoAxIPCgdjbG9zaW5nGAYg",
-            "ASgDEhAKCHN0b3BwaW5nGAcgASgDEhAKCHVwZGF0aW5nGAggASgDEhAKCGRl",
-            "bGV0aW5nGAkgASgDEg4KBmZhaWxlZBgKIAEoAyKxDAoLU2NhbGVQb2xpY3kS",
-            "VAoLZml4ZWRfc2NhbGUYASABKAsyPS55YW5kZXguY2xvdWQuY29tcHV0ZS52",
-            "MS5pbnN0YW5jZWdyb3VwLlNjYWxlUG9saWN5LkZpeGVkU2NhbGVIABJSCgph",
-            "dXRvX3NjYWxlGAIgASgLMjwueWFuZGV4LmNsb3VkLmNvbXB1dGUudjEuaW5z",
-            "dGFuY2Vncm91cC5TY2FsZVBvbGljeS5BdXRvU2NhbGVIABJVCg90ZXN0X2F1",
-            "dG9fc2NhbGUYAyABKAsyPC55YW5kZXguY2xvdWQuY29tcHV0ZS52MS5pbnN0",
-            "YW5jZWdyb3VwLlNjYWxlUG9saWN5LkF1dG9TY2FsZRr7AwoJQXV0b1NjYWxl",
-            "EiAKDW1pbl96b25lX3NpemUYASABKANCCfrHMQUwLTEwMBIbCghtYXhfc2l6",
-            "ZRgCIAEoA0IJ+scxBTAtMTAwEkcKFG1lYXN1cmVtZW50X2R1cmF0aW9uGAMg",
-            "ASgLMhkuZ29vZ2xlLnByb3RvYnVmLkR1cmF0aW9uQg7oxzEB+scxBjFtLTEw",
-            "bRI9Cg93YXJtdXBfZHVyYXRpb24YBCABKAsyGS5nb29nbGUucHJvdG9idWYu",
-            "RHVyYXRpb25CCfrHMQU8PTEwbRJFChZzdGFiaWxpemF0aW9uX2R1cmF0aW9u",
-            "GAUgASgLMhkuZ29vZ2xlLnByb3RvYnVmLkR1cmF0aW9uQgr6xzEGMW0tMzBt",
-            "Eh0KDGluaXRpYWxfc2l6ZRgGIAEoA0IH+scxAz49MRJjChRjcHVfdXRpbGl6",
-            "YXRpb25fcnVsZRgHIAEoCzJFLnlhbmRleC5jbG91ZC5jb21wdXRlLnYxLmlu",
-            "c3RhbmNlZ3JvdXAuU2NhbGVQb2xpY3kuQ3B1VXRpbGl6YXRpb25SdWxlElwK",
-            "DGN1c3RvbV9ydWxlcxgIIAMoCzI9LnlhbmRleC5jbG91ZC5jb21wdXRlLnYx",
-            "Lmluc3RhbmNlZ3JvdXAuU2NhbGVQb2xpY3kuQ3VzdG9tUnVsZUIHgsgxAzw9",
-            "MRo8ChJDcHVVdGlsaXphdGlvblJ1bGUSJgoSdXRpbGl6YXRpb25fdGFyZ2V0",
-            "GAEgASgBQgr6xzEGMTAtMTAwGqkFCgpDdXN0b21SdWxlEl8KCXJ1bGVfdHlw",
-            "ZRgBIAEoDjJGLnlhbmRleC5jbG91ZC5jb21wdXRlLnYxLmluc3RhbmNlZ3Jv",
-            "dXAuU2NhbGVQb2xpY3kuQ3VzdG9tUnVsZS5SdWxlVHlwZUIE6McxARJjCgtt",
-            "ZXRyaWNfdHlwZRgCIAEoDjJILnlhbmRleC5jbG91ZC5jb21wdXRlLnYxLmlu",
-            "c3RhbmNlZ3JvdXAuU2NhbGVQb2xpY3kuQ3VzdG9tUnVsZS5NZXRyaWNUeXBl",
-            "QgToxzEBEk8KC21ldHJpY19uYW1lGAMgASgJQjroxzEB8scxMlthLXpBLVow",
-            "LTkuL0BfXVsgMC05YS16QS1aLi9AXyw6OygpXFtcXTw+LV17MCwxOTh9ErMB",
-            "CgZsYWJlbHMYBSADKAsySS55YW5kZXguY2xvdWQuY29tcHV0ZS52MS5pbnN0",
-            "YW5jZWdyb3VwLlNjYWxlUG9saWN5LkN1c3RvbVJ1bGUuTGFiZWxzRW50cnlC",
-            "WPLHMTJbYS16QS1aMC05Li9AX11bIDAtOWEtekEtWi4vQF8sOjsoKVxbXF08",
-            "Pi1dezAsMTk4fbLIMR4SHF5bYS16QS1aXVswLTlhLXpBLVpfXXswLDMxfSQS",
-            "FgoGdGFyZ2V0GAQgASgBQgb6xzECPjAaLQoLTGFiZWxzRW50cnkSCwoDa2V5",
-            "GAEgASgJEg0KBXZhbHVlGAIgASgJOgI4ASJECghSdWxlVHlwZRIZChVSVUxF",
-            "X1RZUEVfVU5TUEVDSUZJRUQQABIPCgtVVElMSVpBVElPThABEgwKCFdPUktM",
-            "T0FEEAIiQQoKTWV0cmljVHlwZRIbChdNRVRSSUNfVFlQRV9VTlNQRUNJRklF",
-            "RBAAEgkKBUdBVUdFEAESCwoHQ09VTlRFUhACGiUKCkZpeGVkU2NhbGUSFwoE",
-            "c2l6ZRgBIAEoA0IJ+scxBTEtMTAwQhIKCnNjYWxlX3R5cGUSBMDBMQEi1gEK",
-            "DERlcGxveVBvbGljeRIiCg9tYXhfdW5hdmFpbGFibGUYASABKANCCfrHMQUw",
-            "LTEwMBIfCgxtYXhfZGVsZXRpbmcYAiABKANCCfrHMQUwLTEwMBIfCgxtYXhf",
-            "Y3JlYXRpbmcYAyABKANCCfrHMQUwLTEwMBIgCg1tYXhfZXhwYW5zaW9uGAYg",
-            "ASgDQgn6xzEFMC0xMDASPgoQc3RhcnR1cF9kdXJhdGlvbhgHIAEoCzIZLmdv",
-            "b2dsZS5wcm90b2J1Zi5EdXJhdGlvbkIJ+scxBTBtLTFoIocBChBBbGxvY2F0",
-            "aW9uUG9saWN5ElQKBXpvbmVzGAEgAygLMjwueWFuZGV4LmNsb3VkLmNvbXB1",
-            "dGUudjEuaW5zdGFuY2Vncm91cC5BbGxvY2F0aW9uUG9saWN5LlpvbmVCB4LI",
-            "MQM+PTEaHQoEWm9uZRIVCgd6b25lX2lkGAEgASgJQgToxzEBIrMIChBJbnN0",
-            "YW5jZVRlbXBsYXRlEh4KC2Rlc2NyaXB0aW9uGAEgASgJQgmKyDEFPD0yNTYS",
-            "igEKBmxhYmVscxgCIAMoCzJDLnlhbmRleC5jbG91ZC5jb21wdXRlLnYxLmlu",
-            "c3RhbmNlZ3JvdXAuSW5zdGFuY2VUZW1wbGF0ZS5MYWJlbHNFbnRyeUI1gsgx",
-            "BDw9NjSKyDEFPD0xMjiyyDEGGgQxLTYzssgxFhIUW2Etel1bLV8uL1xAMC05",
-            "YS16XSoSGQoLcGxhdGZvcm1faWQYAyABKAlCBOjHMQESUgoOcmVzb3VyY2Vz",
-            "X3NwZWMYBCABKAsyNC55YW5kZXguY2xvdWQuY29tcHV0ZS52MS5pbnN0YW5j",
-            "ZWdyb3VwLlJlc291cmNlc1NwZWNCBOjHMQESjgEKCG1ldGFkYXRhGAUgAygL",
-            "MkUueWFuZGV4LmNsb3VkLmNvbXB1dGUudjEuaW5zdGFuY2Vncm91cC5JbnN0",
-            "YW5jZVRlbXBsYXRlLk1ldGFkYXRhRW50cnlCNYLIMQU8PTEyOIrIMQg8PTI2",
-            "MjE0NLLIMQYaBDEtNjOyyDESEhBbYS16XVstXzAtOWEtel0qElUKDmJvb3Rf",
-            "ZGlza19zcGVjGAYgASgLMjcueWFuZGV4LmNsb3VkLmNvbXB1dGUudjEuaW5z",
-            "dGFuY2Vncm91cC5BdHRhY2hlZERpc2tTcGVjQgToxzEBEl4KFHNlY29uZGFy",
-            "eV9kaXNrX3NwZWNzGAcgAygLMjcueWFuZGV4LmNsb3VkLmNvbXB1dGUudjEu",
-            "aW5zdGFuY2Vncm91cC5BdHRhY2hlZERpc2tTcGVjQgeCyDEDPD0zEmMKF25l",
-            "dHdvcmtfaW50ZXJmYWNlX3NwZWNzGAggAygLMjsueWFuZGV4LmNsb3VkLmNv",
-            "bXB1dGUudjEuaW5zdGFuY2Vncm91cC5OZXR3b3JrSW50ZXJmYWNlU3BlY0IF",
-            "gsgxATESUgoRc2NoZWR1bGluZ19wb2xpY3kYCSABKAsyNy55YW5kZXguY2xv",
-            "dWQuY29tcHV0ZS52MS5pbnN0YW5jZWdyb3VwLlNjaGVkdWxpbmdQb2xpY3kS",
-            "GgoSc2VydmljZV9hY2NvdW50X2lkGAogASgJElAKEG5ldHdvcmtfc2V0dGlu",
-            "Z3MYCyABKAsyNi55YW5kZXguY2xvdWQuY29tcHV0ZS52MS5pbnN0YW5jZWdy",
-            "b3VwLk5ldHdvcmtTZXR0aW5ncxIXCgRuYW1lGAwgASgJQgmKyDEFPD0xMjgS",
-            "GwoIaG9zdG5hbWUYDSABKAlCCYrIMQU8PTEyOBotCgtMYWJlbHNFbnRyeRIL",
-            "CgNrZXkYASABKAkSDQoFdmFsdWUYAiABKAk6AjgBGi8KDU1ldGFkYXRhRW50",
-            "cnkSCwoDa2V5GAEgASgJEg0KBXZhbHVlGAIgASgJOgI4ASLVAQoNUmVzb3Vy",
-            "Y2VzU3BlYxIiCgZtZW1vcnkYASABKANCEvrHMQ48PTgyNDYzMzcyMDgzMhJb",
-            "CgVjb3JlcxgCIAEoA0JM+scxSDEsMiw0LDYsOCwxMCwxMiwxNCwxNiwxOCwy",
-            "MCwyMiwyNCwyNiwyOCwzMCwzMiwzNCwzNiw0MCw0NCw0OCw1Miw1Niw2MCw2",
-            "NBIoCg1jb3JlX2ZyYWN0aW9uGAMgASgDQhH6xzENMCw1LDIwLDUwLDEwMBIZ",
-            "CgRncHVzGAQgASgDQgv6xzEHMCwxLDIsNCLpAwoQQXR0YWNoZWREaXNrU3Bl",
-            "YxJQCgRtb2RlGAEgASgOMjwueWFuZGV4LmNsb3VkLmNvbXB1dGUudjEuaW5z",
-            "dGFuY2Vncm91cC5BdHRhY2hlZERpc2tTcGVjLk1vZGVCBOjHMQESLwoLZGV2",
-            "aWNlX25hbWUYAiABKAlCGvLHMRZ8W2Etel1bLV8wLTlhLXpdezAsMTl9ElkK",
-            "CWRpc2tfc3BlYxgDIAEoCzJALnlhbmRleC5jbG91ZC5jb21wdXRlLnYxLmlu",
-            "c3RhbmNlZ3JvdXAuQXR0YWNoZWREaXNrU3BlYy5EaXNrU3BlY0IE6McxARq5",
-            "AQoIRGlza1NwZWMSHgoLZGVzY3JpcHRpb24YASABKAlCCYrIMQU8PTI1NhIV",
-            "Cgd0eXBlX2lkGAIgASgJQgToxzEBEicKBHNpemUYAyABKANCGfrHMRU0MTk0",
-            "MzA0LTQzOTgwNDY1MTExMDQSHAoIaW1hZ2VfaWQYBCABKAlCCIrIMQQ8PTUw",
-            "SAASHwoLc25hcHNob3RfaWQYBSABKAlCCIrIMQQ8PTUwSABCDgoMc291cmNl",
-            "X29uZW9mIjsKBE1vZGUSFAoQTU9ERV9VTlNQRUNJRklFRBAAEg0KCVJFQURf",
-            "T05MWRABEg4KClJFQURfV1JJVEUQAiKSAgoUTmV0d29ya0ludGVyZmFjZVNw",
-            "ZWMSEgoKbmV0d29ya19pZBgBIAEoCRISCgpzdWJuZXRfaWRzGAIgAygJEloK",
-            "F3ByaW1hcnlfdjRfYWRkcmVzc19zcGVjGAMgASgLMjkueWFuZGV4LmNsb3Vk",
-            "LmNvbXB1dGUudjEuaW5zdGFuY2Vncm91cC5QcmltYXJ5QWRkcmVzc1NwZWMS",
-            "WgoXcHJpbWFyeV92Nl9hZGRyZXNzX3NwZWMYBCABKAsyOS55YW5kZXguY2xv",
-            "dWQuY29tcHV0ZS52MS5pbnN0YW5jZWdyb3VwLlByaW1hcnlBZGRyZXNzU3Bl",
-            "YxIaChJzZWN1cml0eV9ncm91cF9pZHMYBSADKAkiaQoSUHJpbWFyeUFkZHJl",
-            "c3NTcGVjElMKE29uZV90b19vbmVfbmF0X3NwZWMYASABKAsyNi55YW5kZXgu",
-            "Y2xvdWQuY29tcHV0ZS52MS5pbnN0YW5jZWdyb3VwLk9uZVRvT25lTmF0U3Bl",
-            "YyJXCg9PbmVUb09uZU5hdFNwZWMSRAoKaXBfdmVyc2lvbhgBIAEoDjIwLnlh",
-            "bmRleC5jbG91ZC5jb21wdXRlLnYxLmluc3RhbmNlZ3JvdXAuSXBWZXJzaW9u",
-            "IicKEFNjaGVkdWxpbmdQb2xpY3kSEwoLcHJlZW1wdGlibGUYASABKAgivAEK",
-            "D05ldHdvcmtTZXR0aW5ncxJJCgR0eXBlGAEgASgOMjsueWFuZGV4LmNsb3Vk",
-            "LmNvbXB1dGUudjEuaW5zdGFuY2Vncm91cC5OZXR3b3JrU2V0dGluZ3MuVHlw",
-            "ZSJeCgRUeXBlEhQKEFRZUEVfVU5TUEVDSUZJRUQQABIMCghTVEFOREFSRBAB",
-            "EhgKFFNPRlRXQVJFX0FDQ0VMRVJBVEVEEAISGAoUSEFSRFdBUkVfQUNDRUxF",
-            "UkFURUQQAyJlChBMb2FkQmFsYW5jZXJTcGVjElEKEXRhcmdldF9ncm91cF9z",
-            "cGVjGAEgASgLMjYueWFuZGV4LmNsb3VkLmNvbXB1dGUudjEuaW5zdGFuY2Vn",
-            "cm91cC5UYXJnZXRHcm91cFNwZWMisgIKD1RhcmdldEdyb3VwU3BlYxIyCgRu",
-            "YW1lGAEgASgJQiTyxzEgfFthLXpdKFstYS16MC05XXswLDYxfVthLXowLTld",
-            "KT8SHgoLZGVzY3JpcHRpb24YAiABKAlCCYrIMQU8PTI1NhKbAQoGbGFiZWxz",
-            "GAMgAygLMkIueWFuZGV4LmNsb3VkLmNvbXB1dGUudjEuaW5zdGFuY2Vncm91",
-            "cC5UYXJnZXRHcm91cFNwZWMuTGFiZWxzRW50cnlCR4LIMQQ8PTY0isgxBDw9",
-            "NjPyxzEPWy1fLi9cQDAtOWEtel0qssgxBhoEMS02M7LIMRYSFFthLXpdWy1f",
-            "Li9cQDAtOWEtel0qGi0KC0xhYmVsc0VudHJ5EgsKA2tleRgBIAEoCRINCgV2",
-            "YWx1ZRgCIAEoCToCOAEibwoQSGVhbHRoQ2hlY2tzU3BlYxJbChJoZWFsdGhf",
-            "Y2hlY2tfc3BlY3MYASADKAsyNi55YW5kZXguY2xvdWQuY29tcHV0ZS52MS5p",
-            "bnN0YW5jZWdyb3VwLkhlYWx0aENoZWNrU3BlY0IHgsgxAz49MSKkBAoPSGVh",
-            "bHRoQ2hlY2tTcGVjEjgKCGludGVydmFsGAEgASgLMhkuZ29vZ2xlLnByb3Rv",
-            "YnVmLkR1cmF0aW9uQgv6xzEHMXMtMzAwcxI2Cgd0aW1lb3V0GAIgASgLMhku",
-            "Z29vZ2xlLnByb3RvYnVmLkR1cmF0aW9uQgr6xzEGMXMtNjBzEjUKE3VuaGVh",
-            "bHRoeV90aHJlc2hvbGQYAyABKANCGPrHMRQwLDIsMyw0LDUsNiw3LDgsOSwx",
-            "MBIzChFoZWFsdGh5X3RocmVzaG9sZBgEIAEoA0IY+scxFDAsMiwzLDQsNSw2",
-            "LDcsOCw5LDEwElgKC3RjcF9vcHRpb25zGAUgASgLMkEueWFuZGV4LmNsb3Vk",
-            "LmNvbXB1dGUudjEuaW5zdGFuY2Vncm91cC5IZWFsdGhDaGVja1NwZWMuVGNw",
-            "T3B0aW9uc0gAEloKDGh0dHBfb3B0aW9ucxgGIAEoCzJCLnlhbmRleC5jbG91",
-            "ZC5jb21wdXRlLnYxLmluc3RhbmNlZ3JvdXAuSGVhbHRoQ2hlY2tTcGVjLkh0",
-            "dHBPcHRpb25zSAAaJwoKVGNwT3B0aW9ucxIZCgRwb3J0GAEgASgDQgv6xzEH",
-            "MS02NTUzNRo2CgtIdHRwT3B0aW9ucxIZCgRwb3J0GAEgASgDQgv6xzEHMS02",
-            "NTUzNRIMCgRwYXRoGAIgASgJQhwKFGhlYWx0aF9jaGVja19vcHRpb25zEgTA",
-            "wTEBIqgFCg9NYW5hZ2VkSW5zdGFuY2USCgoCaWQYASABKAkSTQoGc3RhdHVz",
-            "GAIgASgOMj0ueWFuZGV4LmNsb3VkLmNvbXB1dGUudjEuaW5zdGFuY2Vncm91",
-            "cC5NYW5hZ2VkSW5zdGFuY2UuU3RhdHVzEhMKC2luc3RhbmNlX2lkGAMgASgJ",
-            "EgwKBGZxZG4YBCABKAkSDAoEbmFtZRgFIAEoCRIWCg5zdGF0dXNfbWVzc2Fn",
-            "ZRgGIAEoCRIPCgd6b25lX2lkGAcgASgJElMKEm5ldHdvcmtfaW50ZXJmYWNl",
-            "cxgIIAMoCzI3LnlhbmRleC5jbG91ZC5jb21wdXRlLnYxLmluc3RhbmNlZ3Jv",
-            "dXAuTmV0d29ya0ludGVyZmFjZRI1ChFzdGF0dXNfY2hhbmdlZF9hdBgJIAEo",
-            "CzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXAi0wIKBlN0YXR1cxIWChJT",
-            "VEFUVVNfVU5TUEVDSUZJRUQQABIVChFDUkVBVElOR19JTlNUQU5DRRALEhUK",
-            "EVVQREFUSU5HX0lOU1RBTkNFEAwSFQoRREVMRVRJTkdfSU5TVEFOQ0UQDRIV",
-            "ChFTVEFSVElOR19JTlNUQU5DRRAOEhUKEVNUT1BQSU5HX0lOU1RBTkNFEA8S",
-            "HQoZQVdBSVRJTkdfU1RBUlRVUF9EVVJBVElPThAQEhMKD0NIRUNLSU5HX0hF",
-            "QUxUSBAREhMKD09QRU5JTkdfVFJBRkZJQxASEhwKGEFXQUlUSU5HX1dBUk1V",
-            "UF9EVVJBVElPThATEhMKD0NMT1NJTkdfVFJBRkZJQxAUEhIKDlJVTk5JTkdf",
-            "QUNUVUFMEBUSFAoQUlVOTklOR19PVVREQVRFRBAWEgsKB1NUT1BQRUQQFxIL",
-            "CgdERUxFVEVEEBgi7wEKEE5ldHdvcmtJbnRlcmZhY2USDQoFaW5kZXgYASAB",
-            "KAkSEwoLbWFjX2FkZHJlc3MYAiABKAkSEQoJc3VibmV0X2lkGAMgASgJElEK",
-            "EnByaW1hcnlfdjRfYWRkcmVzcxgEIAEoCzI1LnlhbmRleC5jbG91ZC5jb21w",
-            "dXRlLnYxLmluc3RhbmNlZ3JvdXAuUHJpbWFyeUFkZHJlc3MSUQoScHJpbWFy",
-            "eV92Nl9hZGRyZXNzGAUgASgLMjUueWFuZGV4LmNsb3VkLmNvbXB1dGUudjEu",
-            "aW5zdGFuY2Vncm91cC5QcmltYXJ5QWRkcmVzcyJtCg5QcmltYXJ5QWRkcmVz",
-            "cxIPCgdhZGRyZXNzGAEgASgJEkoKDm9uZV90b19vbmVfbmF0GAIgASgLMjIu",
-            "eWFuZGV4LmNsb3VkLmNvbXB1dGUudjEuaW5zdGFuY2Vncm91cC5PbmVUb09u",
-            "ZU5hdCJkCgtPbmVUb09uZU5hdBIPCgdhZGRyZXNzGAEgASgJEkQKCmlwX3Zl",
-            "cnNpb24YAiABKA4yMC55YW5kZXguY2xvdWQuY29tcHV0ZS52MS5pbnN0YW5j",
-            "ZWdyb3VwLklwVmVyc2lvbiJLCglMb2dSZWNvcmQSLQoJdGltZXN0YW1wGAEg",
-            "ASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcBIPCgdtZXNzYWdlGAIg",
-            "ASgJKjsKCUlwVmVyc2lvbhIaChZJUF9WRVJTSU9OX1VOU1BFQ0lGSUVEEAAS",
-            "CAoESVBWNBABEggKBElQVjYQAkKEAQopeWFuZGV4LmNsb3VkLmFwaS5jb21w",
-            "dXRlLnYxLmluc3RhbmNlZ3JvdXBaV2dpdGh1Yi5jb20veWFuZGV4LWNsb3Vk",
-            "L2dvLWdlbnByb3RvL3lhbmRleC9jbG91ZC9jb21wdXRlL3YxL2luc3RhbmNl",
-            "Z3JvdXA7aW5zdGFuY2Vncm91cGIGcHJvdG8z"));
+            "b3VkLmNvbXB1dGUudjEuaW5zdGFuY2Vncm91cC5WYXJpYWJsZRIbChNkZWxl",
+            "dGlvbl9wcm90ZWN0aW9uGBMgASgIGi0KC0xhYmVsc0VudHJ5EgsKA2tleRgB",
+            "IAEoCRINCgV2YWx1ZRgCIAEoCToCOAEiYwoGU3RhdHVzEhYKElNUQVRVU19V",
+            "TlNQRUNJRklFRBAAEgwKCFNUQVJUSU5HEAESCgoGQUNUSVZFEAISDAoIU1RP",
+            "UFBJTkcQAxILCgdTVE9QUEVEEAQSDAoIREVMRVRJTkcQBSJPCghWYXJpYWJs",
+            "ZRIpCgNrZXkYASABKAlCHIrIMQUxLTEyOPLHMQ9bYS16QS1aMC05Ll8tXSoS",
+            "GAoFdmFsdWUYAiABKAlCCYrIMQU8PTEyOCJEChFMb2FkQmFsYW5jZXJTdGF0",
+            "ZRIXCg90YXJnZXRfZ3JvdXBfaWQYASABKAkSFgoOc3RhdHVzX21lc3NhZ2UY",
+            "AiABKAkivwIKFU1hbmFnZWRJbnN0YW5jZXNTdGF0ZRITCgt0YXJnZXRfc2l6",
+            "ZRgBIAEoAxIcChRydW5uaW5nX2FjdHVhbF9jb3VudBgEIAEoAxIeChZydW5u",
+            "aW5nX291dGRhdGVkX2NvdW50GAUgASgDEhgKEHByb2Nlc3NpbmdfY291bnQY",
+            "BiABKAMauAEKCFN0YXR1c2VzEhAKCGNyZWF0aW5nGAEgASgDEhAKCHN0YXJ0",
+            "aW5nGAIgASgDEg8KB29wZW5pbmcYAyABKAMSDwoHd2FybWluZxgEIAEoAxIP",
+            "CgdydW5uaW5nGAUgASgDEg8KB2Nsb3NpbmcYBiABKAMSEAoIc3RvcHBpbmcY",
+            "ByABKAMSEAoIdXBkYXRpbmcYCCABKAMSEAoIZGVsZXRpbmcYCSABKAMSDgoG",
+            "ZmFpbGVkGAogASgDIrEMCgtTY2FsZVBvbGljeRJUCgtmaXhlZF9zY2FsZRgB",
+            "IAEoCzI9LnlhbmRleC5jbG91ZC5jb21wdXRlLnYxLmluc3RhbmNlZ3JvdXAu",
+            "U2NhbGVQb2xpY3kuRml4ZWRTY2FsZUgAElIKCmF1dG9fc2NhbGUYAiABKAsy",
+            "PC55YW5kZXguY2xvdWQuY29tcHV0ZS52MS5pbnN0YW5jZWdyb3VwLlNjYWxl",
+            "UG9saWN5LkF1dG9TY2FsZUgAElUKD3Rlc3RfYXV0b19zY2FsZRgDIAEoCzI8",
+            "LnlhbmRleC5jbG91ZC5jb21wdXRlLnYxLmluc3RhbmNlZ3JvdXAuU2NhbGVQ",
+            "b2xpY3kuQXV0b1NjYWxlGvsDCglBdXRvU2NhbGUSIAoNbWluX3pvbmVfc2l6",
+            "ZRgBIAEoA0IJ+scxBTAtMTAwEhsKCG1heF9zaXplGAIgASgDQgn6xzEFMC0x",
+            "MDASRwoUbWVhc3VyZW1lbnRfZHVyYXRpb24YAyABKAsyGS5nb29nbGUucHJv",
+            "dG9idWYuRHVyYXRpb25CDujHMQH6xzEGMW0tMTBtEj0KD3dhcm11cF9kdXJh",
+            "dGlvbhgEIAEoCzIZLmdvb2dsZS5wcm90b2J1Zi5EdXJhdGlvbkIJ+scxBTw9",
+            "MTBtEkUKFnN0YWJpbGl6YXRpb25fZHVyYXRpb24YBSABKAsyGS5nb29nbGUu",
+            "cHJvdG9idWYuRHVyYXRpb25CCvrHMQYxbS0zMG0SHQoMaW5pdGlhbF9zaXpl",
+            "GAYgASgDQgf6xzEDPj0xEmMKFGNwdV91dGlsaXphdGlvbl9ydWxlGAcgASgL",
+            "MkUueWFuZGV4LmNsb3VkLmNvbXB1dGUudjEuaW5zdGFuY2Vncm91cC5TY2Fs",
+            "ZVBvbGljeS5DcHVVdGlsaXphdGlvblJ1bGUSXAoMY3VzdG9tX3J1bGVzGAgg",
+            "AygLMj0ueWFuZGV4LmNsb3VkLmNvbXB1dGUudjEuaW5zdGFuY2Vncm91cC5T",
+            "Y2FsZVBvbGljeS5DdXN0b21SdWxlQgeCyDEDPD0xGjwKEkNwdVV0aWxpemF0",
+            "aW9uUnVsZRImChJ1dGlsaXphdGlvbl90YXJnZXQYASABKAFCCvrHMQYxMC0x",
+            "MDAaqQUKCkN1c3RvbVJ1bGUSXwoJcnVsZV90eXBlGAEgASgOMkYueWFuZGV4",
+            "LmNsb3VkLmNvbXB1dGUudjEuaW5zdGFuY2Vncm91cC5TY2FsZVBvbGljeS5D",
+            "dXN0b21SdWxlLlJ1bGVUeXBlQgToxzEBEmMKC21ldHJpY190eXBlGAIgASgO",
+            "MkgueWFuZGV4LmNsb3VkLmNvbXB1dGUudjEuaW5zdGFuY2Vncm91cC5TY2Fs",
+            "ZVBvbGljeS5DdXN0b21SdWxlLk1ldHJpY1R5cGVCBOjHMQESTwoLbWV0cmlj",
+            "X25hbWUYAyABKAlCOujHMQHyxzEyW2EtekEtWjAtOS4vQF9dWyAwLTlhLXpB",
+            "LVouL0BfLDo7KClcW1xdPD4tXXswLDE5OH0SswEKBmxhYmVscxgFIAMoCzJJ",
+            "LnlhbmRleC5jbG91ZC5jb21wdXRlLnYxLmluc3RhbmNlZ3JvdXAuU2NhbGVQ",
+            "b2xpY3kuQ3VzdG9tUnVsZS5MYWJlbHNFbnRyeUJY8scxMlthLXpBLVowLTku",
+            "L0BfXVsgMC05YS16QS1aLi9AXyw6OygpXFtcXTw+LV17MCwxOTh9ssgxHhIc",
+            "XlthLXpBLVpdWzAtOWEtekEtWl9dezAsMzF9JBIWCgZ0YXJnZXQYBCABKAFC",
+            "BvrHMQI+MBotCgtMYWJlbHNFbnRyeRILCgNrZXkYASABKAkSDQoFdmFsdWUY",
+            "AiABKAk6AjgBIkQKCFJ1bGVUeXBlEhkKFVJVTEVfVFlQRV9VTlNQRUNJRklF",
+            "RBAAEg8KC1VUSUxJWkFUSU9OEAESDAoIV09SS0xPQUQQAiJBCgpNZXRyaWNU",
+            "eXBlEhsKF01FVFJJQ19UWVBFX1VOU1BFQ0lGSUVEEAASCQoFR0FVR0UQARIL",
+            "CgdDT1VOVEVSEAIaJQoKRml4ZWRTY2FsZRIXCgRzaXplGAEgASgDQgn6xzEF",
+            "MS0xMDBCEgoKc2NhbGVfdHlwZRIEwMExASLuAgoMRGVwbG95UG9saWN5EiIK",
+            "D21heF91bmF2YWlsYWJsZRgBIAEoA0IJ+scxBTAtMTAwEh8KDG1heF9kZWxl",
+            "dGluZxgCIAEoA0IJ+scxBTAtMTAwEh8KDG1heF9jcmVhdGluZxgDIAEoA0IJ",
+            "+scxBTAtMTAwEiAKDW1heF9leHBhbnNpb24YBiABKANCCfrHMQUwLTEwMBI+",
+            "ChBzdGFydHVwX2R1cmF0aW9uGAcgASgLMhkuZ29vZ2xlLnByb3RvYnVmLkR1",
+            "cmF0aW9uQgn6xzEFMG0tMWgSTgoIc3RyYXRlZ3kYCCABKA4yPC55YW5kZXgu",
+            "Y2xvdWQuY29tcHV0ZS52MS5pbnN0YW5jZWdyb3VwLkRlcGxveVBvbGljeS5T",
+            "dHJhdGVneSJGCghTdHJhdGVneRIYChRTVFJBVEVHWV9VTlNQRUNJRklFRBAA",
+            "Eg0KCVBST0FDVElWRRABEhEKDU9QUE9SVFVOSVNUSUMQAiKHAQoQQWxsb2Nh",
+            "dGlvblBvbGljeRJUCgV6b25lcxgBIAMoCzI8LnlhbmRleC5jbG91ZC5jb21w",
+            "dXRlLnYxLmluc3RhbmNlZ3JvdXAuQWxsb2NhdGlvblBvbGljeS5ab25lQgeC",
+            "yDEDPj0xGh0KBFpvbmUSFQoHem9uZV9pZBgBIAEoCUIE6McxASKzCAoQSW5z",
+            "dGFuY2VUZW1wbGF0ZRIeCgtkZXNjcmlwdGlvbhgBIAEoCUIJisgxBTw9MjU2",
+            "EooBCgZsYWJlbHMYAiADKAsyQy55YW5kZXguY2xvdWQuY29tcHV0ZS52MS5p",
+            "bnN0YW5jZWdyb3VwLkluc3RhbmNlVGVtcGxhdGUuTGFiZWxzRW50cnlCNYLI",
+            "MQQ8PTY0isgxBTw9MTI4ssgxBhoEMS02M7LIMRYSFFthLXpdWy1fLi9cQDAt",
+            "OWEtel0qEhkKC3BsYXRmb3JtX2lkGAMgASgJQgToxzEBElIKDnJlc291cmNl",
+            "c19zcGVjGAQgASgLMjQueWFuZGV4LmNsb3VkLmNvbXB1dGUudjEuaW5zdGFu",
+            "Y2Vncm91cC5SZXNvdXJjZXNTcGVjQgToxzEBEo4BCghtZXRhZGF0YRgFIAMo",
+            "CzJFLnlhbmRleC5jbG91ZC5jb21wdXRlLnYxLmluc3RhbmNlZ3JvdXAuSW5z",
+            "dGFuY2VUZW1wbGF0ZS5NZXRhZGF0YUVudHJ5QjWCyDEFPD0xMjiKyDEIPD0y",
+            "NjIxNDSyyDEGGgQxLTYzssgxEhIQW2Etel1bLV8wLTlhLXpdKhJVCg5ib290",
+            "X2Rpc2tfc3BlYxgGIAEoCzI3LnlhbmRleC5jbG91ZC5jb21wdXRlLnYxLmlu",
+            "c3RhbmNlZ3JvdXAuQXR0YWNoZWREaXNrU3BlY0IE6McxARJeChRzZWNvbmRh",
+            "cnlfZGlza19zcGVjcxgHIAMoCzI3LnlhbmRleC5jbG91ZC5jb21wdXRlLnYx",
+            "Lmluc3RhbmNlZ3JvdXAuQXR0YWNoZWREaXNrU3BlY0IHgsgxAzw9MxJjChdu",
+            "ZXR3b3JrX2ludGVyZmFjZV9zcGVjcxgIIAMoCzI7LnlhbmRleC5jbG91ZC5j",
+            "b21wdXRlLnYxLmluc3RhbmNlZ3JvdXAuTmV0d29ya0ludGVyZmFjZVNwZWNC",
+            "BYLIMQExElIKEXNjaGVkdWxpbmdfcG9saWN5GAkgASgLMjcueWFuZGV4LmNs",
+            "b3VkLmNvbXB1dGUudjEuaW5zdGFuY2Vncm91cC5TY2hlZHVsaW5nUG9saWN5",
+            "EhoKEnNlcnZpY2VfYWNjb3VudF9pZBgKIAEoCRJQChBuZXR3b3JrX3NldHRp",
+            "bmdzGAsgASgLMjYueWFuZGV4LmNsb3VkLmNvbXB1dGUudjEuaW5zdGFuY2Vn",
+            "cm91cC5OZXR3b3JrU2V0dGluZ3MSFwoEbmFtZRgMIAEoCUIJisgxBTw9MTI4",
+            "EhsKCGhvc3RuYW1lGA0gASgJQgmKyDEFPD0xMjgaLQoLTGFiZWxzRW50cnkS",
+            "CwoDa2V5GAEgASgJEg0KBXZhbHVlGAIgASgJOgI4ARovCg1NZXRhZGF0YUVu",
+            "dHJ5EgsKA2tleRgBIAEoCRINCgV2YWx1ZRgCIAEoCToCOAEi4QEKDVJlc291",
+            "cmNlc1NwZWMSIgoGbWVtb3J5GAEgASgDQhL6xzEOPD04MjQ2MzM3MjA4MzIS",
+            "ZwoFY29yZXMYAiABKANCWPrHMVQxLDIsNCw2LDgsMTAsMTIsMTQsMTYsMTgs",
+            "MjAsMjIsMjQsMjYsMjgsMzAsMzIsMzQsMzYsNDAsNDQsNDgsNTIsNTYsNjAs",
+            "NjQsNjgsNzIsNzYsODASKAoNY29yZV9mcmFjdGlvbhgDIAEoA0IR+scxDTAs",
+            "NSwyMCw1MCwxMDASGQoEZ3B1cxgEIAEoA0IL+scxBzAsMSwyLDQiwgQKEEF0",
+            "dGFjaGVkRGlza1NwZWMSUAoEbW9kZRgBIAEoDjI8LnlhbmRleC5jbG91ZC5j",
+            "b21wdXRlLnYxLmluc3RhbmNlZ3JvdXAuQXR0YWNoZWREaXNrU3BlYy5Nb2Rl",
+            "QgToxzEBEi8KC2RldmljZV9uYW1lGAIgASgJQhryxzEWfFthLXpdWy1fMC05",
+            "YS16XXswLDE5fRJZCglkaXNrX3NwZWMYAyABKAsyQC55YW5kZXguY2xvdWQu",
+            "Y29tcHV0ZS52MS5pbnN0YW5jZWdyb3VwLkF0dGFjaGVkRGlza1NwZWMuRGlz",
+            "a1NwZWNCBOjHMQESLwoHZGlza19pZBgEIAEoCUIeisgxBTw9MTI48scxEVst",
+            "YS16QS1aMC05Ll97fV0qGuEBCghEaXNrU3BlYxIeCgtkZXNjcmlwdGlvbhgB",
+            "IAEoCUIJisgxBTw9MjU2EhUKB3R5cGVfaWQYAiABKAlCBOjHMQESJwoEc2l6",
+            "ZRgDIAEoA0IZ+scxFTQxOTQzMDQtNDM5ODA0NjUxMTEwNBIcCghpbWFnZV9p",
+            "ZBgEIAEoCUIIisgxBDw9NTBIABIfCgtzbmFwc2hvdF9pZBgFIAEoCUIIisgx",
+            "BDw9NTBIABImCh5wcmVzZXJ2ZV9hZnRlcl9pbnN0YW5jZV9kZWxldGUYBiAB",
+            "KAhCDgoMc291cmNlX29uZW9mIjsKBE1vZGUSFAoQTU9ERV9VTlNQRUNJRklF",
+            "RBAAEg0KCVJFQURfT05MWRABEg4KClJFQURfV1JJVEUQAiKSAgoUTmV0d29y",
+            "a0ludGVyZmFjZVNwZWMSEgoKbmV0d29ya19pZBgBIAEoCRISCgpzdWJuZXRf",
+            "aWRzGAIgAygJEloKF3ByaW1hcnlfdjRfYWRkcmVzc19zcGVjGAMgASgLMjku",
+            "eWFuZGV4LmNsb3VkLmNvbXB1dGUudjEuaW5zdGFuY2Vncm91cC5QcmltYXJ5",
+            "QWRkcmVzc1NwZWMSWgoXcHJpbWFyeV92Nl9hZGRyZXNzX3NwZWMYBCABKAsy",
+            "OS55YW5kZXguY2xvdWQuY29tcHV0ZS52MS5pbnN0YW5jZWdyb3VwLlByaW1h",
+            "cnlBZGRyZXNzU3BlYxIaChJzZWN1cml0eV9ncm91cF9pZHMYBSADKAkiaQoS",
+            "UHJpbWFyeUFkZHJlc3NTcGVjElMKE29uZV90b19vbmVfbmF0X3NwZWMYASAB",
+            "KAsyNi55YW5kZXguY2xvdWQuY29tcHV0ZS52MS5pbnN0YW5jZWdyb3VwLk9u",
+            "ZVRvT25lTmF0U3BlYyJXCg9PbmVUb09uZU5hdFNwZWMSRAoKaXBfdmVyc2lv",
+            "bhgBIAEoDjIwLnlhbmRleC5jbG91ZC5jb21wdXRlLnYxLmluc3RhbmNlZ3Jv",
+            "dXAuSXBWZXJzaW9uIicKEFNjaGVkdWxpbmdQb2xpY3kSEwoLcHJlZW1wdGli",
+            "bGUYASABKAgivAEKD05ldHdvcmtTZXR0aW5ncxJJCgR0eXBlGAEgASgOMjsu",
+            "eWFuZGV4LmNsb3VkLmNvbXB1dGUudjEuaW5zdGFuY2Vncm91cC5OZXR3b3Jr",
+            "U2V0dGluZ3MuVHlwZSJeCgRUeXBlEhQKEFRZUEVfVU5TUEVDSUZJRUQQABIM",
+            "CghTVEFOREFSRBABEhgKFFNPRlRXQVJFX0FDQ0VMRVJBVEVEEAISGAoUSEFS",
+            "RFdBUkVfQUNDRUxFUkFURUQQAyJlChBMb2FkQmFsYW5jZXJTcGVjElEKEXRh",
+            "cmdldF9ncm91cF9zcGVjGAEgASgLMjYueWFuZGV4LmNsb3VkLmNvbXB1dGUu",
+            "djEuaW5zdGFuY2Vncm91cC5UYXJnZXRHcm91cFNwZWMisgIKD1RhcmdldEdy",
+            "b3VwU3BlYxIyCgRuYW1lGAEgASgJQiTyxzEgfFthLXpdKFstYS16MC05XXsw",
+            "LDYxfVthLXowLTldKT8SHgoLZGVzY3JpcHRpb24YAiABKAlCCYrIMQU8PTI1",
+            "NhKbAQoGbGFiZWxzGAMgAygLMkIueWFuZGV4LmNsb3VkLmNvbXB1dGUudjEu",
+            "aW5zdGFuY2Vncm91cC5UYXJnZXRHcm91cFNwZWMuTGFiZWxzRW50cnlCR4LI",
+            "MQQ8PTY0isgxBDw9NjPyxzEPWy1fLi9cQDAtOWEtel0qssgxBhoEMS02M7LI",
+            "MRYSFFthLXpdWy1fLi9cQDAtOWEtel0qGi0KC0xhYmVsc0VudHJ5EgsKA2tl",
+            "eRgBIAEoCRINCgV2YWx1ZRgCIAEoCToCOAEibwoQSGVhbHRoQ2hlY2tzU3Bl",
+            "YxJbChJoZWFsdGhfY2hlY2tfc3BlY3MYASADKAsyNi55YW5kZXguY2xvdWQu",
+            "Y29tcHV0ZS52MS5pbnN0YW5jZWdyb3VwLkhlYWx0aENoZWNrU3BlY0IHgsgx",
+            "Az49MSKkBAoPSGVhbHRoQ2hlY2tTcGVjEjgKCGludGVydmFsGAEgASgLMhku",
+            "Z29vZ2xlLnByb3RvYnVmLkR1cmF0aW9uQgv6xzEHMXMtMzAwcxI2Cgd0aW1l",
+            "b3V0GAIgASgLMhkuZ29vZ2xlLnByb3RvYnVmLkR1cmF0aW9uQgr6xzEGMXMt",
+            "NjBzEjUKE3VuaGVhbHRoeV90aHJlc2hvbGQYAyABKANCGPrHMRQwLDIsMyw0",
+            "LDUsNiw3LDgsOSwxMBIzChFoZWFsdGh5X3RocmVzaG9sZBgEIAEoA0IY+scx",
+            "FDAsMiwzLDQsNSw2LDcsOCw5LDEwElgKC3RjcF9vcHRpb25zGAUgASgLMkEu",
+            "eWFuZGV4LmNsb3VkLmNvbXB1dGUudjEuaW5zdGFuY2Vncm91cC5IZWFsdGhD",
+            "aGVja1NwZWMuVGNwT3B0aW9uc0gAEloKDGh0dHBfb3B0aW9ucxgGIAEoCzJC",
+            "LnlhbmRleC5jbG91ZC5jb21wdXRlLnYxLmluc3RhbmNlZ3JvdXAuSGVhbHRo",
+            "Q2hlY2tTcGVjLkh0dHBPcHRpb25zSAAaJwoKVGNwT3B0aW9ucxIZCgRwb3J0",
+            "GAEgASgDQgv6xzEHMS02NTUzNRo2CgtIdHRwT3B0aW9ucxIZCgRwb3J0GAEg",
+            "ASgDQgv6xzEHMS02NTUzNRIMCgRwYXRoGAIgASgJQhwKFGhlYWx0aF9jaGVj",
+            "a19vcHRpb25zEgTAwTEBIqgFCg9NYW5hZ2VkSW5zdGFuY2USCgoCaWQYASAB",
+            "KAkSTQoGc3RhdHVzGAIgASgOMj0ueWFuZGV4LmNsb3VkLmNvbXB1dGUudjEu",
+            "aW5zdGFuY2Vncm91cC5NYW5hZ2VkSW5zdGFuY2UuU3RhdHVzEhMKC2luc3Rh",
+            "bmNlX2lkGAMgASgJEgwKBGZxZG4YBCABKAkSDAoEbmFtZRgFIAEoCRIWCg5z",
+            "dGF0dXNfbWVzc2FnZRgGIAEoCRIPCgd6b25lX2lkGAcgASgJElMKEm5ldHdv",
+            "cmtfaW50ZXJmYWNlcxgIIAMoCzI3LnlhbmRleC5jbG91ZC5jb21wdXRlLnYx",
+            "Lmluc3RhbmNlZ3JvdXAuTmV0d29ya0ludGVyZmFjZRI1ChFzdGF0dXNfY2hh",
+            "bmdlZF9hdBgJIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXAi0wIK",
+            "BlN0YXR1cxIWChJTVEFUVVNfVU5TUEVDSUZJRUQQABIVChFDUkVBVElOR19J",
+            "TlNUQU5DRRALEhUKEVVQREFUSU5HX0lOU1RBTkNFEAwSFQoRREVMRVRJTkdf",
+            "SU5TVEFOQ0UQDRIVChFTVEFSVElOR19JTlNUQU5DRRAOEhUKEVNUT1BQSU5H",
+            "X0lOU1RBTkNFEA8SHQoZQVdBSVRJTkdfU1RBUlRVUF9EVVJBVElPThAQEhMK",
+            "D0NIRUNLSU5HX0hFQUxUSBAREhMKD09QRU5JTkdfVFJBRkZJQxASEhwKGEFX",
+            "QUlUSU5HX1dBUk1VUF9EVVJBVElPThATEhMKD0NMT1NJTkdfVFJBRkZJQxAU",
+            "EhIKDlJVTk5JTkdfQUNUVUFMEBUSFAoQUlVOTklOR19PVVREQVRFRBAWEgsK",
+            "B1NUT1BQRUQQFxILCgdERUxFVEVEEBgi7wEKEE5ldHdvcmtJbnRlcmZhY2US",
+            "DQoFaW5kZXgYASABKAkSEwoLbWFjX2FkZHJlc3MYAiABKAkSEQoJc3VibmV0",
+            "X2lkGAMgASgJElEKEnByaW1hcnlfdjRfYWRkcmVzcxgEIAEoCzI1LnlhbmRl",
+            "eC5jbG91ZC5jb21wdXRlLnYxLmluc3RhbmNlZ3JvdXAuUHJpbWFyeUFkZHJl",
+            "c3MSUQoScHJpbWFyeV92Nl9hZGRyZXNzGAUgASgLMjUueWFuZGV4LmNsb3Vk",
+            "LmNvbXB1dGUudjEuaW5zdGFuY2Vncm91cC5QcmltYXJ5QWRkcmVzcyJtCg5Q",
+            "cmltYXJ5QWRkcmVzcxIPCgdhZGRyZXNzGAEgASgJEkoKDm9uZV90b19vbmVf",
+            "bmF0GAIgASgLMjIueWFuZGV4LmNsb3VkLmNvbXB1dGUudjEuaW5zdGFuY2Vn",
+            "cm91cC5PbmVUb09uZU5hdCJkCgtPbmVUb09uZU5hdBIPCgdhZGRyZXNzGAEg",
+            "ASgJEkQKCmlwX3ZlcnNpb24YAiABKA4yMC55YW5kZXguY2xvdWQuY29tcHV0",
+            "ZS52MS5pbnN0YW5jZWdyb3VwLklwVmVyc2lvbiJLCglMb2dSZWNvcmQSLQoJ",
+            "dGltZXN0YW1wGAEgASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcBIP",
+            "CgdtZXNzYWdlGAIgASgJKjsKCUlwVmVyc2lvbhIaChZJUF9WRVJTSU9OX1VO",
+            "U1BFQ0lGSUVEEAASCAoESVBWNBABEggKBElQVjYQAkKEAQopeWFuZGV4LmNs",
+            "b3VkLmFwaS5jb21wdXRlLnYxLmluc3RhbmNlZ3JvdXBaV2dpdGh1Yi5jb20v",
+            "eWFuZGV4LWNsb3VkL2dvLWdlbnByb3RvL3lhbmRleC9jbG91ZC9jb21wdXRl",
+            "L3YxL2luc3RhbmNlZ3JvdXA7aW5zdGFuY2Vncm91cGIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Yandex.Cloud.ValidationReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.DurationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.IpVersion), }, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroup), global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroup.Parser, new[]{ "Id", "FolderId", "CreatedAt", "Name", "Description", "Labels", "InstanceTemplate", "ScalePolicy", "DeployPolicy", "AllocationPolicy", "LoadBalancerState", "ManagedInstancesState", "LoadBalancerSpec", "HealthChecksSpec", "ServiceAccountId", "Status", "Variables" }, null, new[]{ typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroup.Types.Status) }, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroup), global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroup.Parser, new[]{ "Id", "FolderId", "CreatedAt", "Name", "Description", "Labels", "InstanceTemplate", "ScalePolicy", "DeployPolicy", "AllocationPolicy", "LoadBalancerState", "ManagedInstancesState", "LoadBalancerSpec", "HealthChecksSpec", "ServiceAccountId", "Status", "Variables", "DeletionProtection" }, null, new[]{ typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroup.Types.Status) }, null, new pbr::GeneratedClrTypeInfo[] { null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.Variable), global::Yandex.Cloud.Compute.V1.Instancegroup.Variable.Parser, new[]{ "Key", "Value" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.LoadBalancerState), global::Yandex.Cloud.Compute.V1.Instancegroup.LoadBalancerState.Parser, new[]{ "TargetGroupId", "StatusMessage" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.ManagedInstancesState), global::Yandex.Cloud.Compute.V1.Instancegroup.ManagedInstancesState.Parser, new[]{ "TargetSize", "RunningActualCount", "RunningOutdatedCount", "ProcessingCount" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.ManagedInstancesState.Types.Statuses), global::Yandex.Cloud.Compute.V1.Instancegroup.ManagedInstancesState.Types.Statuses.Parser, new[]{ "Creating", "Starting", "Opening", "Warming", "Running", "Closing", "Stopping", "Updating", "Deleting", "Failed" }, null, null, null, null)}),
@@ -231,11 +237,11 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.ScalePolicy.Types.CpuUtilizationRule), global::Yandex.Cloud.Compute.V1.Instancegroup.ScalePolicy.Types.CpuUtilizationRule.Parser, new[]{ "UtilizationTarget" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.ScalePolicy.Types.CustomRule), global::Yandex.Cloud.Compute.V1.Instancegroup.ScalePolicy.Types.CustomRule.Parser, new[]{ "RuleType", "MetricType", "MetricName", "Labels", "Target" }, null, new[]{ typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.ScalePolicy.Types.CustomRule.Types.RuleType), typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.ScalePolicy.Types.CustomRule.Types.MetricType) }, null, new pbr::GeneratedClrTypeInfo[] { null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.ScalePolicy.Types.FixedScale), global::Yandex.Cloud.Compute.V1.Instancegroup.ScalePolicy.Types.FixedScale.Parser, new[]{ "Size" }, null, null, null, null)}),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.DeployPolicy), global::Yandex.Cloud.Compute.V1.Instancegroup.DeployPolicy.Parser, new[]{ "MaxUnavailable", "MaxDeleting", "MaxCreating", "MaxExpansion", "StartupDuration" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.DeployPolicy), global::Yandex.Cloud.Compute.V1.Instancegroup.DeployPolicy.Parser, new[]{ "MaxUnavailable", "MaxDeleting", "MaxCreating", "MaxExpansion", "StartupDuration", "Strategy" }, null, new[]{ typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.DeployPolicy.Types.Strategy) }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.AllocationPolicy), global::Yandex.Cloud.Compute.V1.Instancegroup.AllocationPolicy.Parser, new[]{ "Zones" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.AllocationPolicy.Types.Zone), global::Yandex.Cloud.Compute.V1.Instancegroup.AllocationPolicy.Types.Zone.Parser, new[]{ "ZoneId" }, null, null, null, null)}),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceTemplate), global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceTemplate.Parser, new[]{ "Description", "Labels", "PlatformId", "ResourcesSpec", "Metadata", "BootDiskSpec", "SecondaryDiskSpecs", "NetworkInterfaceSpecs", "SchedulingPolicy", "ServiceAccountId", "NetworkSettings", "Name", "Hostname" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.ResourcesSpec), global::Yandex.Cloud.Compute.V1.Instancegroup.ResourcesSpec.Parser, new[]{ "Memory", "Cores", "CoreFraction", "Gpus" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.AttachedDiskSpec), global::Yandex.Cloud.Compute.V1.Instancegroup.AttachedDiskSpec.Parser, new[]{ "Mode", "DeviceName", "DiskSpec" }, null, new[]{ typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.AttachedDiskSpec.Types.Mode) }, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.AttachedDiskSpec.Types.DiskSpec), global::Yandex.Cloud.Compute.V1.Instancegroup.AttachedDiskSpec.Types.DiskSpec.Parser, new[]{ "Description", "TypeId", "Size", "ImageId", "SnapshotId" }, new[]{ "SourceOneof" }, null, null, null)}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.AttachedDiskSpec), global::Yandex.Cloud.Compute.V1.Instancegroup.AttachedDiskSpec.Parser, new[]{ "Mode", "DeviceName", "DiskSpec", "DiskId" }, null, new[]{ typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.AttachedDiskSpec.Types.Mode) }, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.AttachedDiskSpec.Types.DiskSpec), global::Yandex.Cloud.Compute.V1.Instancegroup.AttachedDiskSpec.Types.DiskSpec.Parser, new[]{ "Description", "TypeId", "Size", "ImageId", "SnapshotId", "PreserveAfterInstanceDelete" }, new[]{ "SourceOneof" }, null, null, null)}),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.NetworkInterfaceSpec), global::Yandex.Cloud.Compute.V1.Instancegroup.NetworkInterfaceSpec.Parser, new[]{ "NetworkId", "SubnetIds", "PrimaryV4AddressSpec", "PrimaryV6AddressSpec", "SecurityGroupIds" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.PrimaryAddressSpec), global::Yandex.Cloud.Compute.V1.Instancegroup.PrimaryAddressSpec.Parser, new[]{ "OneToOneNatSpec" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Compute.V1.Instancegroup.OneToOneNatSpec), global::Yandex.Cloud.Compute.V1.Instancegroup.OneToOneNatSpec.Parser, new[]{ "IpVersion" }, null, null, null, null),
@@ -314,6 +320,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
       serviceAccountId_ = other.serviceAccountId_;
       status_ = other.status_;
       variables_ = other.variables_.Clone();
+      deletionProtection_ = other.deletionProtection_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -559,6 +566,20 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
       get { return variables_; }
     }
 
+    /// <summary>Field number for the "deletion_protection" field.</summary>
+    public const int DeletionProtectionFieldNumber = 19;
+    private bool deletionProtection_;
+    /// <summary>
+    /// Flag that inhibits deletion of the instance group
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool DeletionProtection {
+      get { return deletionProtection_; }
+      set {
+        deletionProtection_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as InstanceGroup);
@@ -589,6 +610,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
       if (ServiceAccountId != other.ServiceAccountId) return false;
       if (Status != other.Status) return false;
       if(!variables_.Equals(other.variables_)) return false;
+      if (DeletionProtection != other.DeletionProtection) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -612,6 +634,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
       if (ServiceAccountId.Length != 0) hash ^= ServiceAccountId.GetHashCode();
       if (Status != global::Yandex.Cloud.Compute.V1.Instancegroup.InstanceGroup.Types.Status.Unspecified) hash ^= Status.GetHashCode();
       hash ^= variables_.GetHashCode();
+      if (DeletionProtection != false) hash ^= DeletionProtection.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -687,6 +710,10 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
         output.WriteEnum((int) Status);
       }
       variables_.WriteTo(output, _repeated_variables_codec);
+      if (DeletionProtection != false) {
+        output.WriteRawTag(152, 1);
+        output.WriteBool(DeletionProtection);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -742,6 +769,9 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
         size += 2 + pb::CodedOutputStream.ComputeEnumSize((int) Status);
       }
       size += variables_.CalculateSize(_repeated_variables_codec);
+      if (DeletionProtection != false) {
+        size += 2 + 1;
+      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -827,6 +857,9 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
         Status = other.Status;
       }
       variables_.Add(other.variables_);
+      if (other.DeletionProtection != false) {
+        DeletionProtection = other.DeletionProtection;
+      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -931,6 +964,10 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
           }
           case 146: {
             variables_.AddEntriesFrom(input, _repeated_variables_codec);
+            break;
+          }
+          case 152: {
+            DeletionProtection = input.ReadBool();
             break;
           }
         }
@@ -3149,6 +3186,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
       maxCreating_ = other.maxCreating_;
       maxExpansion_ = other.maxExpansion_;
       startupDuration_ = other.startupDuration_ != null ? other.startupDuration_.Clone() : null;
+      strategy_ = other.strategy_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -3178,6 +3216,8 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
     private long maxDeleting_;
     /// <summary>
     /// The maximum number of instances that can be deleted at the same time.
+    ///
+    ///The value 0 is any number of virtual machines within the allowed values.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long MaxDeleting {
@@ -3192,6 +3232,8 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
     private long maxCreating_;
     /// <summary>
     /// The maximum number of instances that can be created at the same time.
+    ///
+    ///The value 0 is any number of virtual machines within the allowed values.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long MaxCreating {
@@ -3234,6 +3276,20 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
       }
     }
 
+    /// <summary>Field number for the "strategy" field.</summary>
+    public const int StrategyFieldNumber = 8;
+    private global::Yandex.Cloud.Compute.V1.Instancegroup.DeployPolicy.Types.Strategy strategy_ = global::Yandex.Cloud.Compute.V1.Instancegroup.DeployPolicy.Types.Strategy.Unspecified;
+    /// <summary>
+    /// Affects the lifecycle of the instance during deployment.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Compute.V1.Instancegroup.DeployPolicy.Types.Strategy Strategy {
+      get { return strategy_; }
+      set {
+        strategy_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as DeployPolicy);
@@ -3252,6 +3308,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
       if (MaxCreating != other.MaxCreating) return false;
       if (MaxExpansion != other.MaxExpansion) return false;
       if (!object.Equals(StartupDuration, other.StartupDuration)) return false;
+      if (Strategy != other.Strategy) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -3263,6 +3320,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
       if (MaxCreating != 0L) hash ^= MaxCreating.GetHashCode();
       if (MaxExpansion != 0L) hash ^= MaxExpansion.GetHashCode();
       if (startupDuration_ != null) hash ^= StartupDuration.GetHashCode();
+      if (Strategy != global::Yandex.Cloud.Compute.V1.Instancegroup.DeployPolicy.Types.Strategy.Unspecified) hash ^= Strategy.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -3296,6 +3354,10 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
         output.WriteRawTag(58);
         output.WriteMessage(StartupDuration);
       }
+      if (Strategy != global::Yandex.Cloud.Compute.V1.Instancegroup.DeployPolicy.Types.Strategy.Unspecified) {
+        output.WriteRawTag(64);
+        output.WriteEnum((int) Strategy);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -3318,6 +3380,9 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
       }
       if (startupDuration_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(StartupDuration);
+      }
+      if (Strategy != global::Yandex.Cloud.Compute.V1.Instancegroup.DeployPolicy.Types.Strategy.Unspecified) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Strategy);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -3347,6 +3412,9 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
           StartupDuration = new global::Google.Protobuf.WellKnownTypes.Duration();
         }
         StartupDuration.MergeFrom(other.StartupDuration);
+      }
+      if (other.Strategy != global::Yandex.Cloud.Compute.V1.Instancegroup.DeployPolicy.Types.Strategy.Unspecified) {
+        Strategy = other.Strategy;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -3382,9 +3450,33 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
             input.ReadMessage(StartupDuration);
             break;
           }
+          case 64: {
+            Strategy = (global::Yandex.Cloud.Compute.V1.Instancegroup.DeployPolicy.Types.Strategy) input.ReadEnum();
+            break;
+          }
         }
       }
     }
+
+    #region Nested types
+    /// <summary>Container for nested types declared in the DeployPolicy message type.</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static partial class Types {
+      internal enum Strategy {
+        [pbr::OriginalName("STRATEGY_UNSPECIFIED")] Unspecified = 0,
+        /// <summary>
+        /// Instance Groups can forcefully stop a running instance. This is the default.
+        /// </summary>
+        [pbr::OriginalName("PROACTIVE")] Proactive = 1,
+        /// <summary>
+        /// Instance Groups does not stop a running instance.
+        /// Instead, it will wait until the instance stops itself or becomes unhealthy.
+        /// </summary>
+        [pbr::OriginalName("OPPORTUNISTIC")] Opportunistic = 2,
+      }
+
+    }
+    #endregion
 
   }
 
@@ -4439,6 +4531,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
       mode_ = other.mode_;
       deviceName_ = other.deviceName_;
       diskSpec_ = other.diskSpec_ != null ? other.diskSpec_.Clone() : null;
+      diskId_ = other.diskId_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -4482,6 +4575,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
     public const int DiskSpecFieldNumber = 3;
     private global::Yandex.Cloud.Compute.V1.Instancegroup.AttachedDiskSpec.Types.DiskSpec diskSpec_;
     /// <summary>
+    ///oneof disk_spec or disk_id
     /// Disk specification that is attached to the instance. For more information, see [Disks](/docs/compute/concepts/disk).
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4489,6 +4583,20 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
       get { return diskSpec_; }
       set {
         diskSpec_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "disk_id" field.</summary>
+    public const int DiskIdFieldNumber = 4;
+    private string diskId_ = "";
+    /// <summary>
+    /// Set to use an existing disk. To set use variables.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string DiskId {
+      get { return diskId_; }
+      set {
+        diskId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
@@ -4508,6 +4616,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
       if (Mode != other.Mode) return false;
       if (DeviceName != other.DeviceName) return false;
       if (!object.Equals(DiskSpec, other.DiskSpec)) return false;
+      if (DiskId != other.DiskId) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -4517,6 +4626,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
       if (Mode != global::Yandex.Cloud.Compute.V1.Instancegroup.AttachedDiskSpec.Types.Mode.Unspecified) hash ^= Mode.GetHashCode();
       if (DeviceName.Length != 0) hash ^= DeviceName.GetHashCode();
       if (diskSpec_ != null) hash ^= DiskSpec.GetHashCode();
+      if (DiskId.Length != 0) hash ^= DiskId.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -4542,6 +4652,10 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
         output.WriteRawTag(26);
         output.WriteMessage(DiskSpec);
       }
+      if (DiskId.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(DiskId);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -4558,6 +4672,9 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
       }
       if (diskSpec_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(DiskSpec);
+      }
+      if (DiskId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(DiskId);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -4581,6 +4698,9 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
           DiskSpec = new global::Yandex.Cloud.Compute.V1.Instancegroup.AttachedDiskSpec.Types.DiskSpec();
         }
         DiskSpec.MergeFrom(other.DiskSpec);
+      }
+      if (other.DiskId.Length != 0) {
+        DiskId = other.DiskId;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -4606,6 +4726,10 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
               DiskSpec = new global::Yandex.Cloud.Compute.V1.Instancegroup.AttachedDiskSpec.Types.DiskSpec();
             }
             input.ReadMessage(DiskSpec);
+            break;
+          }
+          case 34: {
+            DiskId = input.ReadString();
             break;
           }
         }
@@ -4656,6 +4780,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
           description_ = other.description_;
           typeId_ = other.typeId_;
           size_ = other.size_;
+          preserveAfterInstanceDelete_ = other.preserveAfterInstanceDelete_;
           switch (other.SourceOneofCase) {
             case SourceOneofOneofCase.ImageId:
               ImageId = other.ImageId;
@@ -4743,6 +4868,21 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
           }
         }
 
+        /// <summary>Field number for the "preserve_after_instance_delete" field.</summary>
+        public const int PreserveAfterInstanceDeleteFieldNumber = 6;
+        private bool preserveAfterInstanceDelete_;
+        /// <summary>
+        /// When set to true, disk will not be deleted even after managed instance is deleted.
+        /// It will be a user's responsibility to delete such disks.
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public bool PreserveAfterInstanceDelete {
+          get { return preserveAfterInstanceDelete_; }
+          set {
+            preserveAfterInstanceDelete_ = value;
+          }
+        }
+
         private object sourceOneof_;
         /// <summary>Enum of possible cases for the "source_oneof" oneof.</summary>
         public enum SourceOneofOneofCase {
@@ -4780,6 +4920,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
           if (Size != other.Size) return false;
           if (ImageId != other.ImageId) return false;
           if (SnapshotId != other.SnapshotId) return false;
+          if (PreserveAfterInstanceDelete != other.PreserveAfterInstanceDelete) return false;
           if (SourceOneofCase != other.SourceOneofCase) return false;
           return Equals(_unknownFields, other._unknownFields);
         }
@@ -4792,6 +4933,7 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
           if (Size != 0L) hash ^= Size.GetHashCode();
           if (sourceOneofCase_ == SourceOneofOneofCase.ImageId) hash ^= ImageId.GetHashCode();
           if (sourceOneofCase_ == SourceOneofOneofCase.SnapshotId) hash ^= SnapshotId.GetHashCode();
+          if (PreserveAfterInstanceDelete != false) hash ^= PreserveAfterInstanceDelete.GetHashCode();
           hash ^= (int) sourceOneofCase_;
           if (_unknownFields != null) {
             hash ^= _unknownFields.GetHashCode();
@@ -4826,6 +4968,10 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
             output.WriteRawTag(42);
             output.WriteString(SnapshotId);
           }
+          if (PreserveAfterInstanceDelete != false) {
+            output.WriteRawTag(48);
+            output.WriteBool(PreserveAfterInstanceDelete);
+          }
           if (_unknownFields != null) {
             _unknownFields.WriteTo(output);
           }
@@ -4849,6 +4995,9 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
           if (sourceOneofCase_ == SourceOneofOneofCase.SnapshotId) {
             size += 1 + pb::CodedOutputStream.ComputeStringSize(SnapshotId);
           }
+          if (PreserveAfterInstanceDelete != false) {
+            size += 1 + 1;
+          }
           if (_unknownFields != null) {
             size += _unknownFields.CalculateSize();
           }
@@ -4868,6 +5017,9 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
           }
           if (other.Size != 0L) {
             Size = other.Size;
+          }
+          if (other.PreserveAfterInstanceDelete != false) {
+            PreserveAfterInstanceDelete = other.PreserveAfterInstanceDelete;
           }
           switch (other.SourceOneofCase) {
             case SourceOneofOneofCase.ImageId:
@@ -4907,6 +5059,10 @@ namespace Yandex.Cloud.Compute.V1.Instancegroup {
               }
               case 42: {
                 SnapshotId = input.ReadString();
+                break;
+              }
+              case 48: {
+                PreserveAfterInstanceDelete = input.ReadBool();
                 break;
               }
             }

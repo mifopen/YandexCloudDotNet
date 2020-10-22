@@ -27,61 +27,68 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
             "Cid5YW5kZXgvY2xvdWQvbWRiL3JlZGlzL3YxL2NsdXN0ZXIucHJvdG8SGXlh",
             "bmRleC5jbG91ZC5tZGIucmVkaXMudjEaH2dvb2dsZS9wcm90b2J1Zi90aW1l",
             "c3RhbXAucHJvdG8aG2dvb2dsZS90eXBlL3RpbWVvZmRheS5wcm90bxoveWFu",
-            "ZGV4L2Nsb3VkL21kYi9yZWRpcy92MS9jb25maWcvcmVkaXM1XzAucHJvdG8i",
-            "xgYKB0NsdXN0ZXISCgoCaWQYASABKAkSEQoJZm9sZGVyX2lkGAIgASgJEi4K",
-            "CmNyZWF0ZWRfYXQYAyABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1w",
-            "EgwKBG5hbWUYBCABKAkSEwoLZGVzY3JpcHRpb24YBSABKAkSPgoGbGFiZWxz",
-            "GAYgAygLMi4ueWFuZGV4LmNsb3VkLm1kYi5yZWRpcy52MS5DbHVzdGVyLkxh",
-            "YmVsc0VudHJ5EkMKC2Vudmlyb25tZW50GAcgASgOMi4ueWFuZGV4LmNsb3Vk",
-            "Lm1kYi5yZWRpcy52MS5DbHVzdGVyLkVudmlyb25tZW50EjkKCm1vbml0b3Jp",
-            "bmcYCCADKAsyJS55YW5kZXguY2xvdWQubWRiLnJlZGlzLnYxLk1vbml0b3Jp",
-            "bmcSOAoGY29uZmlnGAkgASgLMigueWFuZGV4LmNsb3VkLm1kYi5yZWRpcy52",
-            "MS5DbHVzdGVyQ29uZmlnEhIKCm5ldHdvcmtfaWQYCiABKAkSOQoGaGVhbHRo",
-            "GAsgASgOMikueWFuZGV4LmNsb3VkLm1kYi5yZWRpcy52MS5DbHVzdGVyLkhl",
-            "YWx0aBI5CgZzdGF0dXMYDCABKA4yKS55YW5kZXguY2xvdWQubWRiLnJlZGlz",
-            "LnYxLkNsdXN0ZXIuU3RhdHVzEg8KB3NoYXJkZWQYDSABKAgaLQoLTGFiZWxz",
-            "RW50cnkSCwoDa2V5GAEgASgJEg0KBXZhbHVlGAIgASgJOgI4ASJJCgtFbnZp",
-            "cm9ubWVudBIbChdFTlZJUk9OTUVOVF9VTlNQRUNJRklFRBAAEg4KClBST0RV",
-            "Q1RJT04QARINCglQUkVTVEFCTEUQAiI/CgZIZWFsdGgSEgoOSEVBTFRIX1VO",
-            "S05PV04QABIJCgVBTElWRRABEggKBERFQUQQAhIMCghERUdSQURFRBADInkK",
-            "BlN0YXR1cxISCg5TVEFUVVNfVU5LTk9XThAAEgwKCENSRUFUSU5HEAESCwoH",
-            "UlVOTklORxACEgkKBUVSUk9SEAMSDAoIVVBEQVRJTkcQBBIMCghTVE9QUElO",
-            "RxAFEgsKB1NUT1BQRUQQBhIMCghTVEFSVElORxAHIj0KCk1vbml0b3JpbmcS",
-            "DAoEbmFtZRgBIAEoCRITCgtkZXNjcmlwdGlvbhgCIAEoCRIMCgRsaW5rGAMg",
-            "ASgJIqICCg1DbHVzdGVyQ29uZmlnEg8KB3ZlcnNpb24YASABKAkSTwoQcmVk",
-            "aXNfY29uZmlnXzVfMBgCIAEoCzIzLnlhbmRleC5jbG91ZC5tZGIucmVkaXMu",
-            "djEuY29uZmlnLlJlZGlzQ29uZmlnU2V0NV8wSAASNwoJcmVzb3VyY2VzGAMg",
-            "ASgLMiQueWFuZGV4LmNsb3VkLm1kYi5yZWRpcy52MS5SZXNvdXJjZXMSMwoT",
-            "YmFja3VwX3dpbmRvd19zdGFydBgEIAEoCzIWLmdvb2dsZS50eXBlLlRpbWVP",
-            "ZkRheRIxCgZhY2Nlc3MYBSABKAsyIS55YW5kZXguY2xvdWQubWRiLnJlZGlz",
-            "LnYxLkFjY2Vzc0IOCgxyZWRpc19jb25maWciKQoFU2hhcmQSDAoEbmFtZRgB",
-            "IAEoCRISCgpjbHVzdGVyX2lkGAIgASgJIq8DCgRIb3N0EgwKBG5hbWUYASAB",
-            "KAkSEgoKY2x1c3Rlcl9pZBgCIAEoCRIPCgd6b25lX2lkGAMgASgJEhEKCXN1",
-            "Ym5ldF9pZBgEIAEoCRI3CglyZXNvdXJjZXMYBSABKAsyJC55YW5kZXguY2xv",
-            "dWQubWRiLnJlZGlzLnYxLlJlc291cmNlcxIyCgRyb2xlGAYgASgOMiQueWFu",
-            "ZGV4LmNsb3VkLm1kYi5yZWRpcy52MS5Ib3N0LlJvbGUSNgoGaGVhbHRoGAcg",
-            "ASgOMiYueWFuZGV4LmNsb3VkLm1kYi5yZWRpcy52MS5Ib3N0LkhlYWx0aBI0",
-            "CghzZXJ2aWNlcxgIIAMoCzIiLnlhbmRleC5jbG91ZC5tZGIucmVkaXMudjEu",
-            "U2VydmljZRISCgpzaGFyZF9uYW1lGAkgASgJIjEKBFJvbGUSEAoMUk9MRV9V",
-            "TktOT1dOEAASCgoGTUFTVEVSEAESCwoHUkVQTElDQRACIj8KBkhlYWx0aBIS",
-            "Cg5IRUFMVEhfVU5LTk9XThAAEgkKBUFMSVZFEAESCAoEREVBRBACEgwKCERF",
-            "R1JBREVEEAMi9wEKB1NlcnZpY2USNQoEdHlwZRgBIAEoDjInLnlhbmRleC5j",
-            "bG91ZC5tZGIucmVkaXMudjEuU2VydmljZS5UeXBlEjkKBmhlYWx0aBgCIAEo",
-            "DjIpLnlhbmRleC5jbG91ZC5tZGIucmVkaXMudjEuU2VydmljZS5IZWFsdGgi",
-            "RwoEVHlwZRIUChBUWVBFX1VOU1BFQ0lGSUVEEAASCQoFUkVESVMQARILCgdB",
-            "UkJJVEVSEAISEQoNUkVESVNfQ0xVU1RFUhADIjEKBkhlYWx0aBISCg5IRUFM",
-            "VEhfVU5LTk9XThAAEgkKBUFMSVZFEAESCAoEREVBRBACIjoKCVJlc291cmNl",
-            "cxIaChJyZXNvdXJjZV9wcmVzZXRfaWQYASABKAkSEQoJZGlza19zaXplGAIg",
-            "ASgDIhsKBkFjY2VzcxIRCglkYXRhX2xlbnMYASABKAhCZAodeWFuZGV4LmNs",
-            "b3VkLmFwaS5tZGIucmVkaXMudjFaQ2dpdGh1Yi5jb20veWFuZGV4LWNsb3Vk",
-            "L2dvLWdlbnByb3RvL3lhbmRleC9jbG91ZC9tZGIvcmVkaXMvdjE7cmVkaXNi",
-            "BnByb3RvMw=="));
+            "ZGV4L2Nsb3VkL21kYi9yZWRpcy92MS9jb25maWcvcmVkaXM1XzAucHJvdG8a",
+            "L3lhbmRleC9jbG91ZC9tZGIvcmVkaXMvdjEvY29uZmlnL3JlZGlzNl8wLnBy",
+            "b3RvGit5YW5kZXgvY2xvdWQvbWRiL3JlZGlzL3YxL21haW50ZW5hbmNlLnBy",
+            "b3RvItwHCgdDbHVzdGVyEgoKAmlkGAEgASgJEhEKCWZvbGRlcl9pZBgCIAEo",
+            "CRIuCgpjcmVhdGVkX2F0GAMgASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVz",
+            "dGFtcBIMCgRuYW1lGAQgASgJEhMKC2Rlc2NyaXB0aW9uGAUgASgJEj4KBmxh",
+            "YmVscxgGIAMoCzIuLnlhbmRleC5jbG91ZC5tZGIucmVkaXMudjEuQ2x1c3Rl",
+            "ci5MYWJlbHNFbnRyeRJDCgtlbnZpcm9ubWVudBgHIAEoDjIuLnlhbmRleC5j",
+            "bG91ZC5tZGIucmVkaXMudjEuQ2x1c3Rlci5FbnZpcm9ubWVudBI5Cgptb25p",
+            "dG9yaW5nGAggAygLMiUueWFuZGV4LmNsb3VkLm1kYi5yZWRpcy52MS5Nb25p",
+            "dG9yaW5nEjgKBmNvbmZpZxgJIAEoCzIoLnlhbmRleC5jbG91ZC5tZGIucmVk",
+            "aXMudjEuQ2x1c3RlckNvbmZpZxISCgpuZXR3b3JrX2lkGAogASgJEjkKBmhl",
+            "YWx0aBgLIAEoDjIpLnlhbmRleC5jbG91ZC5tZGIucmVkaXMudjEuQ2x1c3Rl",
+            "ci5IZWFsdGgSOQoGc3RhdHVzGAwgASgOMikueWFuZGV4LmNsb3VkLm1kYi5y",
+            "ZWRpcy52MS5DbHVzdGVyLlN0YXR1cxIPCgdzaGFyZGVkGA0gASgIEkgKEm1h",
+            "aW50ZW5hbmNlX3dpbmRvdxgOIAEoCzIsLnlhbmRleC5jbG91ZC5tZGIucmVk",
+            "aXMudjEuTWFpbnRlbmFuY2VXaW5kb3cSSgoRcGxhbm5lZF9vcGVyYXRpb24Y",
+            "DyABKAsyLy55YW5kZXguY2xvdWQubWRiLnJlZGlzLnYxLk1haW50ZW5hbmNl",
+            "T3BlcmF0aW9uGi0KC0xhYmVsc0VudHJ5EgsKA2tleRgBIAEoCRINCgV2YWx1",
+            "ZRgCIAEoCToCOAEiSQoLRW52aXJvbm1lbnQSGwoXRU5WSVJPTk1FTlRfVU5T",
+            "UEVDSUZJRUQQABIOCgpQUk9EVUNUSU9OEAESDQoJUFJFU1RBQkxFEAIiPwoG",
+            "SGVhbHRoEhIKDkhFQUxUSF9VTktOT1dOEAASCQoFQUxJVkUQARIICgRERUFE",
+            "EAISDAoIREVHUkFERUQQAyJ5CgZTdGF0dXMSEgoOU1RBVFVTX1VOS05PV04Q",
+            "ABIMCghDUkVBVElORxABEgsKB1JVTk5JTkcQAhIJCgVFUlJPUhADEgwKCFVQ",
+            "REFUSU5HEAQSDAoIU1RPUFBJTkcQBRILCgdTVE9QUEVEEAYSDAoIU1RBUlRJ",
+            "TkcQByI9CgpNb25pdG9yaW5nEgwKBG5hbWUYASABKAkSEwoLZGVzY3JpcHRp",
+            "b24YAiABKAkSDAoEbGluaxgDIAEoCSLzAgoNQ2x1c3RlckNvbmZpZxIPCgd2",
+            "ZXJzaW9uGAEgASgJEk8KEHJlZGlzX2NvbmZpZ181XzAYAiABKAsyMy55YW5k",
+            "ZXguY2xvdWQubWRiLnJlZGlzLnYxLmNvbmZpZy5SZWRpc0NvbmZpZ1NldDVf",
+            "MEgAEk8KEHJlZGlzX2NvbmZpZ182XzAYBiABKAsyMy55YW5kZXguY2xvdWQu",
+            "bWRiLnJlZGlzLnYxLmNvbmZpZy5SZWRpc0NvbmZpZ1NldDZfMEgAEjcKCXJl",
+            "c291cmNlcxgDIAEoCzIkLnlhbmRleC5jbG91ZC5tZGIucmVkaXMudjEuUmVz",
+            "b3VyY2VzEjMKE2JhY2t1cF93aW5kb3dfc3RhcnQYBCABKAsyFi5nb29nbGUu",
+            "dHlwZS5UaW1lT2ZEYXkSMQoGYWNjZXNzGAUgASgLMiEueWFuZGV4LmNsb3Vk",
+            "Lm1kYi5yZWRpcy52MS5BY2Nlc3NCDgoMcmVkaXNfY29uZmlnIikKBVNoYXJk",
+            "EgwKBG5hbWUYASABKAkSEgoKY2x1c3Rlcl9pZBgCIAEoCSKvAwoESG9zdBIM",
+            "CgRuYW1lGAEgASgJEhIKCmNsdXN0ZXJfaWQYAiABKAkSDwoHem9uZV9pZBgD",
+            "IAEoCRIRCglzdWJuZXRfaWQYBCABKAkSNwoJcmVzb3VyY2VzGAUgASgLMiQu",
+            "eWFuZGV4LmNsb3VkLm1kYi5yZWRpcy52MS5SZXNvdXJjZXMSMgoEcm9sZRgG",
+            "IAEoDjIkLnlhbmRleC5jbG91ZC5tZGIucmVkaXMudjEuSG9zdC5Sb2xlEjYK",
+            "BmhlYWx0aBgHIAEoDjImLnlhbmRleC5jbG91ZC5tZGIucmVkaXMudjEuSG9z",
+            "dC5IZWFsdGgSNAoIc2VydmljZXMYCCADKAsyIi55YW5kZXguY2xvdWQubWRi",
+            "LnJlZGlzLnYxLlNlcnZpY2USEgoKc2hhcmRfbmFtZRgJIAEoCSIxCgRSb2xl",
+            "EhAKDFJPTEVfVU5LTk9XThAAEgoKBk1BU1RFUhABEgsKB1JFUExJQ0EQAiI/",
+            "CgZIZWFsdGgSEgoOSEVBTFRIX1VOS05PV04QABIJCgVBTElWRRABEggKBERF",
+            "QUQQAhIMCghERUdSQURFRBADIvcBCgdTZXJ2aWNlEjUKBHR5cGUYASABKA4y",
+            "Jy55YW5kZXguY2xvdWQubWRiLnJlZGlzLnYxLlNlcnZpY2UuVHlwZRI5CgZo",
+            "ZWFsdGgYAiABKA4yKS55YW5kZXguY2xvdWQubWRiLnJlZGlzLnYxLlNlcnZp",
+            "Y2UuSGVhbHRoIkcKBFR5cGUSFAoQVFlQRV9VTlNQRUNJRklFRBAAEgkKBVJF",
+            "RElTEAESCwoHQVJCSVRFUhACEhEKDVJFRElTX0NMVVNURVIQAyIxCgZIZWFs",
+            "dGgSEgoOSEVBTFRIX1VOS05PV04QABIJCgVBTElWRRABEggKBERFQUQQAiI6",
+            "CglSZXNvdXJjZXMSGgoScmVzb3VyY2VfcHJlc2V0X2lkGAEgASgJEhEKCWRp",
+            "c2tfc2l6ZRgCIAEoAyIbCgZBY2Nlc3MSEQoJZGF0YV9sZW5zGAEgASgIQmQK",
+            "HXlhbmRleC5jbG91ZC5hcGkubWRiLnJlZGlzLnYxWkNnaXRodWIuY29tL3lh",
+            "bmRleC1jbG91ZC9nby1nZW5wcm90by95YW5kZXgvY2xvdWQvbWRiL3JlZGlz",
+            "L3YxO3JlZGlzYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Google.Type.TimeofdayReflection.Descriptor, global::Yandex.Cloud.Mdb.Redis.V1.Config.Redis50Reflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Google.Type.TimeofdayReflection.Descriptor, global::Yandex.Cloud.Mdb.Redis.V1.Config.Redis50Reflection.Descriptor, global::Yandex.Cloud.Mdb.Redis.V1.Config.Redis60Reflection.Descriptor, global::Yandex.Cloud.Mdb.Redis.V1.MaintenanceReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1.Cluster), global::Yandex.Cloud.Mdb.Redis.V1.Cluster.Parser, new[]{ "Id", "FolderId", "CreatedAt", "Name", "Description", "Labels", "Environment", "Monitoring", "Config", "NetworkId", "Health", "Status", "Sharded" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Redis.V1.Cluster.Types.Environment), typeof(global::Yandex.Cloud.Mdb.Redis.V1.Cluster.Types.Health), typeof(global::Yandex.Cloud.Mdb.Redis.V1.Cluster.Types.Status) }, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1.Cluster), global::Yandex.Cloud.Mdb.Redis.V1.Cluster.Parser, new[]{ "Id", "FolderId", "CreatedAt", "Name", "Description", "Labels", "Environment", "Monitoring", "Config", "NetworkId", "Health", "Status", "Sharded", "MaintenanceWindow", "PlannedOperation" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Redis.V1.Cluster.Types.Environment), typeof(global::Yandex.Cloud.Mdb.Redis.V1.Cluster.Types.Health), typeof(global::Yandex.Cloud.Mdb.Redis.V1.Cluster.Types.Status) }, null, new pbr::GeneratedClrTypeInfo[] { null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1.Monitoring), global::Yandex.Cloud.Mdb.Redis.V1.Monitoring.Parser, new[]{ "Name", "Description", "Link" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1.ClusterConfig), global::Yandex.Cloud.Mdb.Redis.V1.ClusterConfig.Parser, new[]{ "Version", "RedisConfig50", "Resources", "BackupWindowStart", "Access" }, new[]{ "RedisConfig" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1.ClusterConfig), global::Yandex.Cloud.Mdb.Redis.V1.ClusterConfig.Parser, new[]{ "Version", "RedisConfig50", "RedisConfig60", "Resources", "BackupWindowStart", "Access" }, new[]{ "RedisConfig" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1.Shard), global::Yandex.Cloud.Mdb.Redis.V1.Shard.Parser, new[]{ "Name", "ClusterId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1.Host), global::Yandex.Cloud.Mdb.Redis.V1.Host.Parser, new[]{ "Name", "ClusterId", "ZoneId", "SubnetId", "Resources", "Role", "Health", "Services", "ShardName" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Redis.V1.Host.Types.Role), typeof(global::Yandex.Cloud.Mdb.Redis.V1.Host.Types.Health) }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1.Service), global::Yandex.Cloud.Mdb.Redis.V1.Service.Parser, new[]{ "Type", "Health" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Redis.V1.Service.Types.Type), typeof(global::Yandex.Cloud.Mdb.Redis.V1.Service.Types.Health) }, null, null),
@@ -135,6 +142,8 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
       health_ = other.health_;
       status_ = other.status_;
       sharded_ = other.sharded_;
+      maintenanceWindow_ = other.maintenanceWindow_ != null ? other.maintenanceWindow_.Clone() : null;
+      plannedOperation_ = other.plannedOperation_ != null ? other.plannedOperation_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -323,6 +332,34 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
       }
     }
 
+    /// <summary>Field number for the "maintenance_window" field.</summary>
+    public const int MaintenanceWindowFieldNumber = 14;
+    private global::Yandex.Cloud.Mdb.Redis.V1.MaintenanceWindow maintenanceWindow_;
+    /// <summary>
+    /// Window of maintenance operations.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Mdb.Redis.V1.MaintenanceWindow MaintenanceWindow {
+      get { return maintenanceWindow_; }
+      set {
+        maintenanceWindow_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "planned_operation" field.</summary>
+    public const int PlannedOperationFieldNumber = 15;
+    private global::Yandex.Cloud.Mdb.Redis.V1.MaintenanceOperation plannedOperation_;
+    /// <summary>
+    /// Maintenance operation planned at nearest maintenance_window.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Mdb.Redis.V1.MaintenanceOperation PlannedOperation {
+      get { return plannedOperation_; }
+      set {
+        plannedOperation_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as Cluster);
@@ -349,6 +386,8 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
       if (Health != other.Health) return false;
       if (Status != other.Status) return false;
       if (Sharded != other.Sharded) return false;
+      if (!object.Equals(MaintenanceWindow, other.MaintenanceWindow)) return false;
+      if (!object.Equals(PlannedOperation, other.PlannedOperation)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -368,6 +407,8 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
       if (Health != global::Yandex.Cloud.Mdb.Redis.V1.Cluster.Types.Health.Unknown) hash ^= Health.GetHashCode();
       if (Status != global::Yandex.Cloud.Mdb.Redis.V1.Cluster.Types.Status.Unknown) hash ^= Status.GetHashCode();
       if (Sharded != false) hash ^= Sharded.GetHashCode();
+      if (maintenanceWindow_ != null) hash ^= MaintenanceWindow.GetHashCode();
+      if (plannedOperation_ != null) hash ^= PlannedOperation.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -427,6 +468,14 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
         output.WriteRawTag(104);
         output.WriteBool(Sharded);
       }
+      if (maintenanceWindow_ != null) {
+        output.WriteRawTag(114);
+        output.WriteMessage(MaintenanceWindow);
+      }
+      if (plannedOperation_ != null) {
+        output.WriteRawTag(122);
+        output.WriteMessage(PlannedOperation);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -469,6 +518,12 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
       }
       if (Sharded != false) {
         size += 1 + 1;
+      }
+      if (maintenanceWindow_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(MaintenanceWindow);
+      }
+      if (plannedOperation_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(PlannedOperation);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -521,6 +576,18 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
       }
       if (other.Sharded != false) {
         Sharded = other.Sharded;
+      }
+      if (other.maintenanceWindow_ != null) {
+        if (maintenanceWindow_ == null) {
+          MaintenanceWindow = new global::Yandex.Cloud.Mdb.Redis.V1.MaintenanceWindow();
+        }
+        MaintenanceWindow.MergeFrom(other.MaintenanceWindow);
+      }
+      if (other.plannedOperation_ != null) {
+        if (plannedOperation_ == null) {
+          PlannedOperation = new global::Yandex.Cloud.Mdb.Redis.V1.MaintenanceOperation();
+        }
+        PlannedOperation.MergeFrom(other.PlannedOperation);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -589,6 +656,20 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
           }
           case 104: {
             Sharded = input.ReadBool();
+            break;
+          }
+          case 114: {
+            if (maintenanceWindow_ == null) {
+              MaintenanceWindow = new global::Yandex.Cloud.Mdb.Redis.V1.MaintenanceWindow();
+            }
+            input.ReadMessage(MaintenanceWindow);
+            break;
+          }
+          case 122: {
+            if (plannedOperation_ == null) {
+              PlannedOperation = new global::Yandex.Cloud.Mdb.Redis.V1.MaintenanceOperation();
+            }
+            input.ReadMessage(PlannedOperation);
             break;
           }
         }
@@ -899,6 +980,9 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
         case RedisConfigOneofCase.RedisConfig50:
           RedisConfig50 = other.RedisConfig50.Clone();
           break;
+        case RedisConfigOneofCase.RedisConfig60:
+          RedisConfig60 = other.RedisConfig60.Clone();
+          break;
       }
 
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
@@ -934,6 +1018,20 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
       set {
         redisConfig_ = value;
         redisConfigCase_ = value == null ? RedisConfigOneofCase.None : RedisConfigOneofCase.RedisConfig50;
+      }
+    }
+
+    /// <summary>Field number for the "redis_config_6_0" field.</summary>
+    public const int RedisConfig60FieldNumber = 6;
+    /// <summary>
+    /// Configuration of a Redis 6.0 server.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Mdb.Redis.V1.Config.RedisConfigSet6_0 RedisConfig60 {
+      get { return redisConfigCase_ == RedisConfigOneofCase.RedisConfig60 ? (global::Yandex.Cloud.Mdb.Redis.V1.Config.RedisConfigSet6_0) redisConfig_ : null; }
+      set {
+        redisConfig_ = value;
+        redisConfigCase_ = value == null ? RedisConfigOneofCase.None : RedisConfigOneofCase.RedisConfig60;
       }
     }
 
@@ -984,6 +1082,7 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
     public enum RedisConfigOneofCase {
       None = 0,
       RedisConfig50 = 2,
+      RedisConfig60 = 6,
     }
     private RedisConfigOneofCase redisConfigCase_ = RedisConfigOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1012,6 +1111,7 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
       }
       if (Version != other.Version) return false;
       if (!object.Equals(RedisConfig50, other.RedisConfig50)) return false;
+      if (!object.Equals(RedisConfig60, other.RedisConfig60)) return false;
       if (!object.Equals(Resources, other.Resources)) return false;
       if (!object.Equals(BackupWindowStart, other.BackupWindowStart)) return false;
       if (!object.Equals(Access, other.Access)) return false;
@@ -1024,6 +1124,7 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
       int hash = 1;
       if (Version.Length != 0) hash ^= Version.GetHashCode();
       if (redisConfigCase_ == RedisConfigOneofCase.RedisConfig50) hash ^= RedisConfig50.GetHashCode();
+      if (redisConfigCase_ == RedisConfigOneofCase.RedisConfig60) hash ^= RedisConfig60.GetHashCode();
       if (resources_ != null) hash ^= Resources.GetHashCode();
       if (backupWindowStart_ != null) hash ^= BackupWindowStart.GetHashCode();
       if (access_ != null) hash ^= Access.GetHashCode();
@@ -1061,6 +1162,10 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
         output.WriteRawTag(42);
         output.WriteMessage(Access);
       }
+      if (redisConfigCase_ == RedisConfigOneofCase.RedisConfig60) {
+        output.WriteRawTag(50);
+        output.WriteMessage(RedisConfig60);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1074,6 +1179,9 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
       }
       if (redisConfigCase_ == RedisConfigOneofCase.RedisConfig50) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(RedisConfig50);
+      }
+      if (redisConfigCase_ == RedisConfigOneofCase.RedisConfig60) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(RedisConfig60);
       }
       if (resources_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(Resources);
@@ -1123,6 +1231,12 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
           }
           RedisConfig50.MergeFrom(other.RedisConfig50);
           break;
+        case RedisConfigOneofCase.RedisConfig60:
+          if (RedisConfig60 == null) {
+            RedisConfig60 = new global::Yandex.Cloud.Mdb.Redis.V1.Config.RedisConfigSet6_0();
+          }
+          RedisConfig60.MergeFrom(other.RedisConfig60);
+          break;
       }
 
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
@@ -1168,6 +1282,15 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
               Access = new global::Yandex.Cloud.Mdb.Redis.V1.Access();
             }
             input.ReadMessage(Access);
+            break;
+          }
+          case 50: {
+            global::Yandex.Cloud.Mdb.Redis.V1.Config.RedisConfigSet6_0 subBuilder = new global::Yandex.Cloud.Mdb.Redis.V1.Config.RedisConfigSet6_0();
+            if (redisConfigCase_ == RedisConfigOneofCase.RedisConfig60) {
+              subBuilder.MergeFrom(RedisConfig60);
+            }
+            input.ReadMessage(subBuilder);
+            RedisConfig60 = subBuilder;
             break;
           }
         }

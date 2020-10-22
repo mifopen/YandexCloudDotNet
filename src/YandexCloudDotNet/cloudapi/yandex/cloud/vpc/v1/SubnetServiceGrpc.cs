@@ -26,6 +26,8 @@ namespace Yandex.Cloud.Vpc.V1 {
     static readonly grpc::Marshaller<global::Yandex.Cloud.Vpc.V1.ListSubnetOperationsRequest> __Marshaller_yandex_cloud_vpc_v1_ListSubnetOperationsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Vpc.V1.ListSubnetOperationsRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Vpc.V1.ListSubnetOperationsResponse> __Marshaller_yandex_cloud_vpc_v1_ListSubnetOperationsResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Vpc.V1.ListSubnetOperationsResponse.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Yandex.Cloud.Vpc.V1.MoveSubnetRequest> __Marshaller_yandex_cloud_vpc_v1_MoveSubnetRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Vpc.V1.MoveSubnetRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Yandex.Cloud.Vpc.V1.ListUsedAddressesRequest> __Marshaller_yandex_cloud_vpc_v1_ListUsedAddressesRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Vpc.V1.ListUsedAddressesRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Yandex.Cloud.Vpc.V1.ListUsedAddressesResponse> __Marshaller_yandex_cloud_vpc_v1_ListUsedAddressesResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Yandex.Cloud.Vpc.V1.ListUsedAddressesResponse.Parser.ParseFrom);
 
     static readonly grpc::Method<global::Yandex.Cloud.Vpc.V1.GetSubnetRequest, global::Yandex.Cloud.Vpc.V1.Subnet> __Method_Get = new grpc::Method<global::Yandex.Cloud.Vpc.V1.GetSubnetRequest, global::Yandex.Cloud.Vpc.V1.Subnet>(
         grpc::MethodType.Unary,
@@ -75,6 +77,13 @@ namespace Yandex.Cloud.Vpc.V1 {
         "Move",
         __Marshaller_yandex_cloud_vpc_v1_MoveSubnetRequest,
         __Marshaller_yandex_cloud_operation_Operation);
+
+    static readonly grpc::Method<global::Yandex.Cloud.Vpc.V1.ListUsedAddressesRequest, global::Yandex.Cloud.Vpc.V1.ListUsedAddressesResponse> __Method_ListUsedAddresses = new grpc::Method<global::Yandex.Cloud.Vpc.V1.ListUsedAddressesRequest, global::Yandex.Cloud.Vpc.V1.ListUsedAddressesResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "ListUsedAddresses",
+        __Marshaller_yandex_cloud_vpc_v1_ListUsedAddressesRequest,
+        __Marshaller_yandex_cloud_vpc_v1_ListUsedAddressesResponse);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -428,6 +437,50 @@ namespace Yandex.Cloud.Vpc.V1 {
       public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Operation.Operation> MoveAsync(global::Yandex.Cloud.Vpc.V1.MoveSubnetRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_Move, null, options, request);
+      }
+      /// <summary>
+      /// List used addresses in specified subnet.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.Vpc.V1.ListUsedAddressesResponse ListUsedAddresses(global::Yandex.Cloud.Vpc.V1.ListUsedAddressesRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return ListUsedAddresses(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// List used addresses in specified subnet.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Yandex.Cloud.Vpc.V1.ListUsedAddressesResponse ListUsedAddresses(global::Yandex.Cloud.Vpc.V1.ListUsedAddressesRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_ListUsedAddresses, null, options, request);
+      }
+      /// <summary>
+      /// List used addresses in specified subnet.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Vpc.V1.ListUsedAddressesResponse> ListUsedAddressesAsync(global::Yandex.Cloud.Vpc.V1.ListUsedAddressesRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return ListUsedAddressesAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// List used addresses in specified subnet.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Yandex.Cloud.Vpc.V1.ListUsedAddressesResponse> ListUsedAddressesAsync(global::Yandex.Cloud.Vpc.V1.ListUsedAddressesRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_ListUsedAddresses, null, options, request);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       protected override SubnetServiceClient NewInstance(ClientBaseConfiguration configuration)

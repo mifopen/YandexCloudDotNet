@@ -70,60 +70,63 @@ namespace Yandex.Cloud.Containerregistry.V1 {
             "aWN5UmVzdWx0EioKImRyeV9ydW5fbGlmZWN5Y2xlX3BvbGljeV9yZXN1bHRf",
             "aWQYASABKAkSGwoTbGlmZWN5Y2xlX3BvbGljeV9pZBgCIAEoCRIqCgZydW5f",
             "YXQYAyABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wEh0KFWFmZmVj",
-            "dGVkX2ltYWdlc19jb3VudBgEIAEoAyLLAQonTGlzdERyeVJ1bkxpZmVjeWNs",
-            "ZVBvbGljeVJlc3VsdHNSZXF1ZXN0EikKE2xpZmVjeWNsZV9wb2xpY3lfaWQY",
-            "ASABKAlCDOjHMQGKyDEEPD01MBIdCglwYWdlX3NpemUYAiABKANCCvrHMQYw",
-            "LTEwMDASHQoKcGFnZV90b2tlbhgDIAEoCUIJisgxBTw9MTAwEhoKBmZpbHRl",
-            "chgEIAEoCUIKisgxBjw9MTAwMBIbCghvcmRlcl9ieRgFIAEoCUIJisgxBTw9",
-            "MTAwIq0BCihMaXN0RHJ5UnVuTGlmZWN5Y2xlUG9saWN5UmVzdWx0c1Jlc3Bv",
-            "bnNlEmgKIGRyeV9ydW5fbGlmZWN5Y2xlX3BvbGljeV9yZXN1bHRzGAEgAygL",
-            "Mj4ueWFuZGV4LmNsb3VkLmNvbnRhaW5lcnJlZ2lzdHJ5LnYxLkRyeVJ1bkxp",
-            "ZmVjeWNsZVBvbGljeVJlc3VsdBIXCg9uZXh0X3BhZ2VfdG9rZW4YAiABKAki",
-            "5wEKNExpc3REcnlSdW5MaWZlY3ljbGVQb2xpY3lSZXN1bHRBZmZlY3RlZElt",
-            "YWdlc1JlcXVlc3QSOAoiZHJ5X3J1bl9saWZlY3ljbGVfcG9saWN5X3Jlc3Vs",
-            "dF9pZBgBIAEoCUIM6McxAYrIMQQ8PTUwEh0KCXBhZ2Vfc2l6ZRgCIAEoA0IK",
-            "+scxBjAtMTAwMBIdCgpwYWdlX3Rva2VuGAMgASgJQgmKyDEFPD0xMDASGgoG",
-            "ZmlsdGVyGAQgASgJQgqKyDEGPD0xMDAwEhsKCG9yZGVyX2J5GAUgASgJQgmK",
-            "yDEFPD0xMDAipwIKNUxpc3REcnlSdW5MaWZlY3ljbGVQb2xpY3lSZXN1bHRB",
-            "ZmZlY3RlZEltYWdlc1Jlc3BvbnNlEkEKD2FmZmVjdGVkX2ltYWdlcxgBIAMo",
-            "CzIoLnlhbmRleC5jbG91ZC5jb250YWluZXJyZWdpc3RyeS52MS5JbWFnZRIq",
-            "CiJkcnlfcnVuX2xpZmVjeWNsZV9wb2xpY3lfcmVzdWx0X2lkGAIgASgJEhsK",
-            "E2xpZmVjeWNsZV9wb2xpY3lfaWQYAyABKAkSKgoGcnVuX2F0GAQgASgLMhou",
-            "Z29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcBIdChVhZmZlY3RlZF9pbWFnZXNf",
-            "Y291bnQYBSABKAMSFwoPbmV4dF9wYWdlX3Rva2VuGAYgASgJMsgKChZMaWZl",
-            "Y3ljbGVQb2xpY3lTZXJ2aWNlEncKA0dldBI8LnlhbmRleC5jbG91ZC5jb250",
-            "YWluZXJyZWdpc3RyeS52MS5HZXRMaWZlY3ljbGVQb2xpY3lSZXF1ZXN0GjIu",
-            "eWFuZGV4LmNsb3VkLmNvbnRhaW5lcnJlZ2lzdHJ5LnYxLkxpZmVjeWNsZVBv",
-            "bGljeRKJAQoETGlzdBI/LnlhbmRleC5jbG91ZC5jb250YWluZXJyZWdpc3Ry",
-            "eS52MS5MaXN0TGlmZWN5Y2xlUG9saWNpZXNSZXF1ZXN0GkAueWFuZGV4LmNs",
-            "b3VkLmNvbnRhaW5lcnJlZ2lzdHJ5LnYxLkxpc3RMaWZlY3ljbGVQb2xpY2ll",
-            "c1Jlc3BvbnNlEqIBCgZDcmVhdGUSPy55YW5kZXguY2xvdWQuY29udGFpbmVy",
-            "cmVnaXN0cnkudjEuQ3JlYXRlTGlmZWN5Y2xlUG9saWN5UmVxdWVzdBohLnlh",
-            "bmRleC5jbG91ZC5vcGVyYXRpb24uT3BlcmF0aW9uIjSy0iowCh1DcmVhdGVM",
-            "aWZlY3ljbGVQb2xpY3lNZXRhZGF0YRIPTGlmZWN5Y2xlUG9saWN5EqIBCgZV",
-            "cGRhdGUSPy55YW5kZXguY2xvdWQuY29udGFpbmVycmVnaXN0cnkudjEuVXBk",
-            "YXRlTGlmZWN5Y2xlUG9saWN5UmVxdWVzdBohLnlhbmRleC5jbG91ZC5vcGVy",
-            "YXRpb24uT3BlcmF0aW9uIjSy0iowCh1VcGRhdGVMaWZlY3ljbGVQb2xpY3lN",
-            "ZXRhZGF0YRIPTGlmZWN5Y2xlUG9saWN5EqgBCgZEZWxldGUSPy55YW5kZXgu",
-            "Y2xvdWQuY29udGFpbmVycmVnaXN0cnkudjEuRGVsZXRlTGlmZWN5Y2xlUG9s",
-            "aWN5UmVxdWVzdBohLnlhbmRleC5jbG91ZC5vcGVyYXRpb24uT3BlcmF0aW9u",
-            "Ijqy0io2Ch1EZWxldGVMaWZlY3ljbGVQb2xpY3lNZXRhZGF0YRIVZ29vZ2xl",
-            "LnByb3RvYnVmLkVtcHR5Eq4BCgZEcnlSdW4SPy55YW5kZXguY2xvdWQuY29u",
-            "dGFpbmVycmVnaXN0cnkudjEuRHJ5UnVuTGlmZWN5Y2xlUG9saWN5UmVxdWVz",
-            "dBohLnlhbmRleC5jbG91ZC5vcGVyYXRpb24uT3BlcmF0aW9uIkCy0io8Ch1E",
-            "cnlSdW5MaWZlY3ljbGVQb2xpY3lNZXRhZGF0YRIbRHJ5UnVuTGlmZWN5Y2xl",
-            "UG9saWN5UmVzdWx0EqwBChFMaXN0RHJ5UnVuUmVzdWx0cxJKLnlhbmRleC5j",
-            "bG91ZC5jb250YWluZXJyZWdpc3RyeS52MS5MaXN0RHJ5UnVuTGlmZWN5Y2xl",
-            "UG9saWN5UmVzdWx0c1JlcXVlc3QaSy55YW5kZXguY2xvdWQuY29udGFpbmVy",
-            "cmVnaXN0cnkudjEuTGlzdERyeVJ1bkxpZmVjeWNsZVBvbGljeVJlc3VsdHNS",
-            "ZXNwb25zZRLTAQoeTGlzdERyeVJ1blJlc3VsdEFmZmVjdGVkSW1hZ2VzElcu",
-            "eWFuZGV4LmNsb3VkLmNvbnRhaW5lcnJlZ2lzdHJ5LnYxLkxpc3REcnlSdW5M",
-            "aWZlY3ljbGVQb2xpY3lSZXN1bHRBZmZlY3RlZEltYWdlc1JlcXVlc3QaWC55",
-            "YW5kZXguY2xvdWQuY29udGFpbmVycmVnaXN0cnkudjEuTGlzdERyeVJ1bkxp",
-            "ZmVjeWNsZVBvbGljeVJlc3VsdEFmZmVjdGVkSW1hZ2VzUmVzcG9uc2VCgAEK",
-            "JXlhbmRleC5jbG91ZC5hcGkuY29udGFpbmVycmVnaXN0cnkudjFaV2dpdGh1",
-            "Yi5jb20veWFuZGV4LWNsb3VkL2dvLWdlbnByb3RvL3lhbmRleC9jbG91ZC9j",
-            "b250YWluZXJyZWdpc3RyeS92MTtjb250YWluZXJyZWdpc3RyeWIGcHJvdG8z"));
+            "dGVkX2ltYWdlc19jb3VudBgEIAEoAyJhCiVHZXREcnlSdW5MaWZlY3ljbGVQ",
+            "b2xpY3lSZXN1bHRSZXF1ZXN0EjgKImRyeV9ydW5fbGlmZWN5Y2xlX3BvbGlj",
+            "eV9yZXN1bHRfaWQYASABKAlCDOjHMQGKyDEEPD01MCLLAQonTGlzdERyeVJ1",
+            "bkxpZmVjeWNsZVBvbGljeVJlc3VsdHNSZXF1ZXN0EikKE2xpZmVjeWNsZV9w",
+            "b2xpY3lfaWQYASABKAlCDOjHMQGKyDEEPD01MBIdCglwYWdlX3NpemUYAiAB",
+            "KANCCvrHMQYwLTEwMDASHQoKcGFnZV90b2tlbhgDIAEoCUIJisgxBTw9MTAw",
+            "EhoKBmZpbHRlchgEIAEoCUIKisgxBjw9MTAwMBIbCghvcmRlcl9ieRgFIAEo",
+            "CUIJisgxBTw9MTAwIq0BCihMaXN0RHJ5UnVuTGlmZWN5Y2xlUG9saWN5UmVz",
+            "dWx0c1Jlc3BvbnNlEmgKIGRyeV9ydW5fbGlmZWN5Y2xlX3BvbGljeV9yZXN1",
+            "bHRzGAEgAygLMj4ueWFuZGV4LmNsb3VkLmNvbnRhaW5lcnJlZ2lzdHJ5LnYx",
+            "LkRyeVJ1bkxpZmVjeWNsZVBvbGljeVJlc3VsdBIXCg9uZXh0X3BhZ2VfdG9r",
+            "ZW4YAiABKAki5wEKNExpc3REcnlSdW5MaWZlY3ljbGVQb2xpY3lSZXN1bHRB",
+            "ZmZlY3RlZEltYWdlc1JlcXVlc3QSOAoiZHJ5X3J1bl9saWZlY3ljbGVfcG9s",
+            "aWN5X3Jlc3VsdF9pZBgBIAEoCUIM6McxAYrIMQQ8PTUwEh0KCXBhZ2Vfc2l6",
+            "ZRgCIAEoA0IK+scxBjAtMTAwMBIdCgpwYWdlX3Rva2VuGAMgASgJQgmKyDEF",
+            "PD0xMDASGgoGZmlsdGVyGAQgASgJQgqKyDEGPD0xMDAwEhsKCG9yZGVyX2J5",
+            "GAUgASgJQgmKyDEFPD0xMDAikwEKNUxpc3REcnlSdW5MaWZlY3ljbGVQb2xp",
+            "Y3lSZXN1bHRBZmZlY3RlZEltYWdlc1Jlc3BvbnNlEkEKD2FmZmVjdGVkX2lt",
+            "YWdlcxgBIAMoCzIoLnlhbmRleC5jbG91ZC5jb250YWluZXJyZWdpc3RyeS52",
+            "MS5JbWFnZRIXCg9uZXh0X3BhZ2VfdG9rZW4YAiABKAky5gsKFkxpZmVjeWNs",
+            "ZVBvbGljeVNlcnZpY2USdwoDR2V0EjwueWFuZGV4LmNsb3VkLmNvbnRhaW5l",
+            "cnJlZ2lzdHJ5LnYxLkdldExpZmVjeWNsZVBvbGljeVJlcXVlc3QaMi55YW5k",
+            "ZXguY2xvdWQuY29udGFpbmVycmVnaXN0cnkudjEuTGlmZWN5Y2xlUG9saWN5",
+            "EokBCgRMaXN0Ej8ueWFuZGV4LmNsb3VkLmNvbnRhaW5lcnJlZ2lzdHJ5LnYx",
+            "Lkxpc3RMaWZlY3ljbGVQb2xpY2llc1JlcXVlc3QaQC55YW5kZXguY2xvdWQu",
+            "Y29udGFpbmVycmVnaXN0cnkudjEuTGlzdExpZmVjeWNsZVBvbGljaWVzUmVz",
+            "cG9uc2USogEKBkNyZWF0ZRI/LnlhbmRleC5jbG91ZC5jb250YWluZXJyZWdp",
+            "c3RyeS52MS5DcmVhdGVMaWZlY3ljbGVQb2xpY3lSZXF1ZXN0GiEueWFuZGV4",
+            "LmNsb3VkLm9wZXJhdGlvbi5PcGVyYXRpb24iNLLSKjAKHUNyZWF0ZUxpZmVj",
+            "eWNsZVBvbGljeU1ldGFkYXRhEg9MaWZlY3ljbGVQb2xpY3kSogEKBlVwZGF0",
+            "ZRI/LnlhbmRleC5jbG91ZC5jb250YWluZXJyZWdpc3RyeS52MS5VcGRhdGVM",
+            "aWZlY3ljbGVQb2xpY3lSZXF1ZXN0GiEueWFuZGV4LmNsb3VkLm9wZXJhdGlv",
+            "bi5PcGVyYXRpb24iNLLSKjAKHVVwZGF0ZUxpZmVjeWNsZVBvbGljeU1ldGFk",
+            "YXRhEg9MaWZlY3ljbGVQb2xpY3kSqAEKBkRlbGV0ZRI/LnlhbmRleC5jbG91",
+            "ZC5jb250YWluZXJyZWdpc3RyeS52MS5EZWxldGVMaWZlY3ljbGVQb2xpY3lS",
+            "ZXF1ZXN0GiEueWFuZGV4LmNsb3VkLm9wZXJhdGlvbi5PcGVyYXRpb24iOrLS",
+            "KjYKHURlbGV0ZUxpZmVjeWNsZVBvbGljeU1ldGFkYXRhEhVnb29nbGUucHJv",
+            "dG9idWYuRW1wdHkSrgEKBkRyeVJ1bhI/LnlhbmRleC5jbG91ZC5jb250YWlu",
+            "ZXJyZWdpc3RyeS52MS5EcnlSdW5MaWZlY3ljbGVQb2xpY3lSZXF1ZXN0GiEu",
+            "eWFuZGV4LmNsb3VkLm9wZXJhdGlvbi5PcGVyYXRpb24iQLLSKjwKHURyeVJ1",
+            "bkxpZmVjeWNsZVBvbGljeU1ldGFkYXRhEhtEcnlSdW5MaWZlY3ljbGVQb2xp",
+            "Y3lSZXN1bHQSmwEKD0dldERyeVJ1blJlc3VsdBJILnlhbmRleC5jbG91ZC5j",
+            "b250YWluZXJyZWdpc3RyeS52MS5HZXREcnlSdW5MaWZlY3ljbGVQb2xpY3lS",
+            "ZXN1bHRSZXF1ZXN0Gj4ueWFuZGV4LmNsb3VkLmNvbnRhaW5lcnJlZ2lzdHJ5",
+            "LnYxLkRyeVJ1bkxpZmVjeWNsZVBvbGljeVJlc3VsdBKsAQoRTGlzdERyeVJ1",
+            "blJlc3VsdHMSSi55YW5kZXguY2xvdWQuY29udGFpbmVycmVnaXN0cnkudjEu",
+            "TGlzdERyeVJ1bkxpZmVjeWNsZVBvbGljeVJlc3VsdHNSZXF1ZXN0GksueWFu",
+            "ZGV4LmNsb3VkLmNvbnRhaW5lcnJlZ2lzdHJ5LnYxLkxpc3REcnlSdW5MaWZl",
+            "Y3ljbGVQb2xpY3lSZXN1bHRzUmVzcG9uc2US0wEKHkxpc3REcnlSdW5SZXN1",
+            "bHRBZmZlY3RlZEltYWdlcxJXLnlhbmRleC5jbG91ZC5jb250YWluZXJyZWdp",
+            "c3RyeS52MS5MaXN0RHJ5UnVuTGlmZWN5Y2xlUG9saWN5UmVzdWx0QWZmZWN0",
+            "ZWRJbWFnZXNSZXF1ZXN0GlgueWFuZGV4LmNsb3VkLmNvbnRhaW5lcnJlZ2lz",
+            "dHJ5LnYxLkxpc3REcnlSdW5MaWZlY3ljbGVQb2xpY3lSZXN1bHRBZmZlY3Rl",
+            "ZEltYWdlc1Jlc3BvbnNlQoABCiV5YW5kZXguY2xvdWQuYXBpLmNvbnRhaW5l",
+            "cnJlZ2lzdHJ5LnYxWldnaXRodWIuY29tL3lhbmRleC1jbG91ZC9nby1nZW5w",
+            "cm90by95YW5kZXgvY2xvdWQvY29udGFpbmVycmVnaXN0cnkvdjE7Y29udGFp",
+            "bmVycmVnaXN0cnliBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Yandex.Cloud.Api.OperationReflection.Descriptor, global::Yandex.Cloud.Containerregistry.V1.ImageReflection.Descriptor, global::Yandex.Cloud.Containerregistry.V1.LifecyclePolicyReflection.Descriptor, global::Yandex.Cloud.Operation.OperationReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
@@ -139,10 +142,11 @@ namespace Yandex.Cloud.Containerregistry.V1 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.DryRunLifecyclePolicyRequest), global::Yandex.Cloud.Containerregistry.V1.DryRunLifecyclePolicyRequest.Parser, new[]{ "LifecyclePolicyId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.DryRunLifecyclePolicyMetadata), global::Yandex.Cloud.Containerregistry.V1.DryRunLifecyclePolicyMetadata.Parser, new[]{ "DryRunLifecyclePolicyResultId", "LifecyclePolicyId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.DryRunLifecyclePolicyResult), global::Yandex.Cloud.Containerregistry.V1.DryRunLifecyclePolicyResult.Parser, new[]{ "DryRunLifecyclePolicyResultId", "LifecyclePolicyId", "RunAt", "AffectedImagesCount" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.GetDryRunLifecyclePolicyResultRequest), global::Yandex.Cloud.Containerregistry.V1.GetDryRunLifecyclePolicyResultRequest.Parser, new[]{ "DryRunLifecyclePolicyResultId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.ListDryRunLifecyclePolicyResultsRequest), global::Yandex.Cloud.Containerregistry.V1.ListDryRunLifecyclePolicyResultsRequest.Parser, new[]{ "LifecyclePolicyId", "PageSize", "PageToken", "Filter", "OrderBy" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.ListDryRunLifecyclePolicyResultsResponse), global::Yandex.Cloud.Containerregistry.V1.ListDryRunLifecyclePolicyResultsResponse.Parser, new[]{ "DryRunLifecyclePolicyResults", "NextPageToken" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.ListDryRunLifecyclePolicyResultAffectedImagesRequest), global::Yandex.Cloud.Containerregistry.V1.ListDryRunLifecyclePolicyResultAffectedImagesRequest.Parser, new[]{ "DryRunLifecyclePolicyResultId", "PageSize", "PageToken", "Filter", "OrderBy" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.ListDryRunLifecyclePolicyResultAffectedImagesResponse), global::Yandex.Cloud.Containerregistry.V1.ListDryRunLifecyclePolicyResultAffectedImagesResponse.Parser, new[]{ "AffectedImages", "DryRunLifecyclePolicyResultId", "LifecyclePolicyId", "RunAt", "AffectedImagesCount", "NextPageToken" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Containerregistry.V1.ListDryRunLifecyclePolicyResultAffectedImagesResponse), global::Yandex.Cloud.Containerregistry.V1.ListDryRunLifecyclePolicyResultAffectedImagesResponse.Parser, new[]{ "AffectedImages", "NextPageToken" }, null, null, null, null)
           }));
     }
     #endregion
@@ -2248,6 +2252,135 @@ namespace Yandex.Cloud.Containerregistry.V1 {
 
   }
 
+  internal sealed partial class GetDryRunLifecyclePolicyResultRequest : pb::IMessage<GetDryRunLifecyclePolicyResultRequest> {
+    private static readonly pb::MessageParser<GetDryRunLifecyclePolicyResultRequest> _parser = new pb::MessageParser<GetDryRunLifecyclePolicyResultRequest>(() => new GetDryRunLifecyclePolicyResultRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<GetDryRunLifecyclePolicyResultRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Containerregistry.V1.LifecyclePolicyServiceReflection.Descriptor.MessageTypes[12]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public GetDryRunLifecyclePolicyResultRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public GetDryRunLifecyclePolicyResultRequest(GetDryRunLifecyclePolicyResultRequest other) : this() {
+      dryRunLifecyclePolicyResultId_ = other.dryRunLifecyclePolicyResultId_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public GetDryRunLifecyclePolicyResultRequest Clone() {
+      return new GetDryRunLifecyclePolicyResultRequest(this);
+    }
+
+    /// <summary>Field number for the "dry_run_lifecycle_policy_result_id" field.</summary>
+    public const int DryRunLifecyclePolicyResultIdFieldNumber = 1;
+    private string dryRunLifecyclePolicyResultId_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string DryRunLifecyclePolicyResultId {
+      get { return dryRunLifecyclePolicyResultId_; }
+      set {
+        dryRunLifecyclePolicyResultId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as GetDryRunLifecyclePolicyResultRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(GetDryRunLifecyclePolicyResultRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (DryRunLifecyclePolicyResultId != other.DryRunLifecyclePolicyResultId) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (DryRunLifecyclePolicyResultId.Length != 0) hash ^= DryRunLifecyclePolicyResultId.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (DryRunLifecyclePolicyResultId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(DryRunLifecyclePolicyResultId);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (DryRunLifecyclePolicyResultId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(DryRunLifecyclePolicyResultId);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(GetDryRunLifecyclePolicyResultRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.DryRunLifecyclePolicyResultId.Length != 0) {
+        DryRunLifecyclePolicyResultId = other.DryRunLifecyclePolicyResultId;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            DryRunLifecyclePolicyResultId = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
   internal sealed partial class ListDryRunLifecyclePolicyResultsRequest : pb::IMessage<ListDryRunLifecyclePolicyResultsRequest> {
     private static readonly pb::MessageParser<ListDryRunLifecyclePolicyResultsRequest> _parser = new pb::MessageParser<ListDryRunLifecyclePolicyResultsRequest>(() => new ListDryRunLifecyclePolicyResultsRequest());
     private pb::UnknownFieldSet _unknownFields;
@@ -2256,7 +2389,7 @@ namespace Yandex.Cloud.Containerregistry.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Containerregistry.V1.LifecyclePolicyServiceReflection.Descriptor.MessageTypes[12]; }
+      get { return global::Yandex.Cloud.Containerregistry.V1.LifecyclePolicyServiceReflection.Descriptor.MessageTypes[13]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2497,7 +2630,7 @@ namespace Yandex.Cloud.Containerregistry.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Containerregistry.V1.LifecyclePolicyServiceReflection.Descriptor.MessageTypes[13]; }
+      get { return global::Yandex.Cloud.Containerregistry.V1.LifecyclePolicyServiceReflection.Descriptor.MessageTypes[14]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2646,7 +2779,7 @@ namespace Yandex.Cloud.Containerregistry.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Containerregistry.V1.LifecyclePolicyServiceReflection.Descriptor.MessageTypes[14]; }
+      get { return global::Yandex.Cloud.Containerregistry.V1.LifecyclePolicyServiceReflection.Descriptor.MessageTypes[15]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2887,7 +3020,7 @@ namespace Yandex.Cloud.Containerregistry.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Yandex.Cloud.Containerregistry.V1.LifecyclePolicyServiceReflection.Descriptor.MessageTypes[15]; }
+      get { return global::Yandex.Cloud.Containerregistry.V1.LifecyclePolicyServiceReflection.Descriptor.MessageTypes[16]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2905,10 +3038,6 @@ namespace Yandex.Cloud.Containerregistry.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public ListDryRunLifecyclePolicyResultAffectedImagesResponse(ListDryRunLifecyclePolicyResultAffectedImagesResponse other) : this() {
       affectedImages_ = other.affectedImages_.Clone();
-      dryRunLifecyclePolicyResultId_ = other.dryRunLifecyclePolicyResultId_;
-      lifecyclePolicyId_ = other.lifecyclePolicyId_;
-      runAt_ = other.runAt_ != null ? other.runAt_.Clone() : null;
-      affectedImagesCount_ = other.affectedImagesCount_;
       nextPageToken_ = other.nextPageToken_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -2928,52 +3057,8 @@ namespace Yandex.Cloud.Containerregistry.V1 {
       get { return affectedImages_; }
     }
 
-    /// <summary>Field number for the "dry_run_lifecycle_policy_result_id" field.</summary>
-    public const int DryRunLifecyclePolicyResultIdFieldNumber = 2;
-    private string dryRunLifecyclePolicyResultId_ = "";
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string DryRunLifecyclePolicyResultId {
-      get { return dryRunLifecyclePolicyResultId_; }
-      set {
-        dryRunLifecyclePolicyResultId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    /// <summary>Field number for the "lifecycle_policy_id" field.</summary>
-    public const int LifecyclePolicyIdFieldNumber = 3;
-    private string lifecyclePolicyId_ = "";
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string LifecyclePolicyId {
-      get { return lifecyclePolicyId_; }
-      set {
-        lifecyclePolicyId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    /// <summary>Field number for the "run_at" field.</summary>
-    public const int RunAtFieldNumber = 4;
-    private global::Google.Protobuf.WellKnownTypes.Timestamp runAt_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Google.Protobuf.WellKnownTypes.Timestamp RunAt {
-      get { return runAt_; }
-      set {
-        runAt_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "affected_images_count" field.</summary>
-    public const int AffectedImagesCountFieldNumber = 5;
-    private long affectedImagesCount_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public long AffectedImagesCount {
-      get { return affectedImagesCount_; }
-      set {
-        affectedImagesCount_ = value;
-      }
-    }
-
     /// <summary>Field number for the "next_page_token" field.</summary>
-    public const int NextPageTokenFieldNumber = 6;
+    public const int NextPageTokenFieldNumber = 2;
     private string nextPageToken_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string NextPageToken {
@@ -2997,10 +3082,6 @@ namespace Yandex.Cloud.Containerregistry.V1 {
         return true;
       }
       if(!affectedImages_.Equals(other.affectedImages_)) return false;
-      if (DryRunLifecyclePolicyResultId != other.DryRunLifecyclePolicyResultId) return false;
-      if (LifecyclePolicyId != other.LifecyclePolicyId) return false;
-      if (!object.Equals(RunAt, other.RunAt)) return false;
-      if (AffectedImagesCount != other.AffectedImagesCount) return false;
       if (NextPageToken != other.NextPageToken) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -3009,10 +3090,6 @@ namespace Yandex.Cloud.Containerregistry.V1 {
     public override int GetHashCode() {
       int hash = 1;
       hash ^= affectedImages_.GetHashCode();
-      if (DryRunLifecyclePolicyResultId.Length != 0) hash ^= DryRunLifecyclePolicyResultId.GetHashCode();
-      if (LifecyclePolicyId.Length != 0) hash ^= LifecyclePolicyId.GetHashCode();
-      if (runAt_ != null) hash ^= RunAt.GetHashCode();
-      if (AffectedImagesCount != 0L) hash ^= AffectedImagesCount.GetHashCode();
       if (NextPageToken.Length != 0) hash ^= NextPageToken.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -3028,24 +3105,8 @@ namespace Yandex.Cloud.Containerregistry.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public void WriteTo(pb::CodedOutputStream output) {
       affectedImages_.WriteTo(output, _repeated_affectedImages_codec);
-      if (DryRunLifecyclePolicyResultId.Length != 0) {
-        output.WriteRawTag(18);
-        output.WriteString(DryRunLifecyclePolicyResultId);
-      }
-      if (LifecyclePolicyId.Length != 0) {
-        output.WriteRawTag(26);
-        output.WriteString(LifecyclePolicyId);
-      }
-      if (runAt_ != null) {
-        output.WriteRawTag(34);
-        output.WriteMessage(RunAt);
-      }
-      if (AffectedImagesCount != 0L) {
-        output.WriteRawTag(40);
-        output.WriteInt64(AffectedImagesCount);
-      }
       if (NextPageToken.Length != 0) {
-        output.WriteRawTag(50);
+        output.WriteRawTag(18);
         output.WriteString(NextPageToken);
       }
       if (_unknownFields != null) {
@@ -3057,18 +3118,6 @@ namespace Yandex.Cloud.Containerregistry.V1 {
     public int CalculateSize() {
       int size = 0;
       size += affectedImages_.CalculateSize(_repeated_affectedImages_codec);
-      if (DryRunLifecyclePolicyResultId.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(DryRunLifecyclePolicyResultId);
-      }
-      if (LifecyclePolicyId.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(LifecyclePolicyId);
-      }
-      if (runAt_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(RunAt);
-      }
-      if (AffectedImagesCount != 0L) {
-        size += 1 + pb::CodedOutputStream.ComputeInt64Size(AffectedImagesCount);
-      }
       if (NextPageToken.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(NextPageToken);
       }
@@ -3084,21 +3133,6 @@ namespace Yandex.Cloud.Containerregistry.V1 {
         return;
       }
       affectedImages_.Add(other.affectedImages_);
-      if (other.DryRunLifecyclePolicyResultId.Length != 0) {
-        DryRunLifecyclePolicyResultId = other.DryRunLifecyclePolicyResultId;
-      }
-      if (other.LifecyclePolicyId.Length != 0) {
-        LifecyclePolicyId = other.LifecyclePolicyId;
-      }
-      if (other.runAt_ != null) {
-        if (runAt_ == null) {
-          RunAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
-        }
-        RunAt.MergeFrom(other.RunAt);
-      }
-      if (other.AffectedImagesCount != 0L) {
-        AffectedImagesCount = other.AffectedImagesCount;
-      }
       if (other.NextPageToken.Length != 0) {
         NextPageToken = other.NextPageToken;
       }
@@ -3118,25 +3152,6 @@ namespace Yandex.Cloud.Containerregistry.V1 {
             break;
           }
           case 18: {
-            DryRunLifecyclePolicyResultId = input.ReadString();
-            break;
-          }
-          case 26: {
-            LifecyclePolicyId = input.ReadString();
-            break;
-          }
-          case 34: {
-            if (runAt_ == null) {
-              RunAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
-            }
-            input.ReadMessage(RunAt);
-            break;
-          }
-          case 40: {
-            AffectedImagesCount = input.ReadInt64();
-            break;
-          }
-          case 50: {
             NextPageToken = input.ReadString();
             break;
           }

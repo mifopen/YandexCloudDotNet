@@ -1100,7 +1100,7 @@ namespace Yandex.Cloud.Iam.V1 {
     private string keyId_ = "";
     /// <summary>
     /// ID of the Key resource to update.
-    /// To get key pair ID, use a [Service.List] request.
+    /// To get key pair ID, use a [KeyService.List] request.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string KeyId {

@@ -25,15 +25,15 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "Ci95YW5kZXgvY2xvdWQvbWRiL3JlZGlzL3YxL3Jlc291cmNlX3ByZXNldC5w",
-            "cm90bxIZeWFuZGV4LmNsb3VkLm1kYi5yZWRpcy52MSI+Cg5SZXNvdXJjZVBy",
+            "cm90bxIZeWFuZGV4LmNsb3VkLm1kYi5yZWRpcy52MSJNCg5SZXNvdXJjZVBy",
             "ZXNldBIKCgJpZBgBIAEoCRIQCgh6b25lX2lkcxgCIAMoCRIOCgZtZW1vcnkY",
-            "AyABKANCZAodeWFuZGV4LmNsb3VkLmFwaS5tZGIucmVkaXMudjFaQ2dpdGh1",
-            "Yi5jb20veWFuZGV4LWNsb3VkL2dvLWdlbnByb3RvL3lhbmRleC9jbG91ZC9t",
-            "ZGIvcmVkaXMvdjE7cmVkaXNiBnByb3RvMw=="));
+            "AyABKAMSDQoFY29yZXMYBCABKANCZAodeWFuZGV4LmNsb3VkLmFwaS5tZGIu",
+            "cmVkaXMudjFaQ2dpdGh1Yi5jb20veWFuZGV4LWNsb3VkL2dvLWdlbnByb3Rv",
+            "L3lhbmRleC9jbG91ZC9tZGIvcmVkaXMvdjE7cmVkaXNiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1.ResourcePreset), global::Yandex.Cloud.Mdb.Redis.V1.ResourcePreset.Parser, new[]{ "Id", "ZoneIds", "Memory" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Redis.V1.ResourcePreset), global::Yandex.Cloud.Mdb.Redis.V1.ResourcePreset.Parser, new[]{ "Id", "ZoneIds", "Memory", "Cores" }, null, null, null, null)
           }));
     }
     #endregion
@@ -71,6 +71,7 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
       id_ = other.id_;
       zoneIds_ = other.zoneIds_.Clone();
       memory_ = other.memory_;
+      cores_ = other.cores_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -120,6 +121,20 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
       }
     }
 
+    /// <summary>Field number for the "cores" field.</summary>
+    public const int CoresFieldNumber = 4;
+    private long cores_;
+    /// <summary>
+    /// Number of CPU cores for a Redis host created with the preset.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long Cores {
+      get { return cores_; }
+      set {
+        cores_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as ResourcePreset);
@@ -136,6 +151,7 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
       if (Id != other.Id) return false;
       if(!zoneIds_.Equals(other.zoneIds_)) return false;
       if (Memory != other.Memory) return false;
+      if (Cores != other.Cores) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -145,6 +161,7 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
       if (Id.Length != 0) hash ^= Id.GetHashCode();
       hash ^= zoneIds_.GetHashCode();
       if (Memory != 0L) hash ^= Memory.GetHashCode();
+      if (Cores != 0L) hash ^= Cores.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -167,6 +184,10 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
         output.WriteRawTag(24);
         output.WriteInt64(Memory);
       }
+      if (Cores != 0L) {
+        output.WriteRawTag(32);
+        output.WriteInt64(Cores);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -181,6 +202,9 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
       size += zoneIds_.CalculateSize(_repeated_zoneIds_codec);
       if (Memory != 0L) {
         size += 1 + pb::CodedOutputStream.ComputeInt64Size(Memory);
+      }
+      if (Cores != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(Cores);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -199,6 +223,9 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
       zoneIds_.Add(other.zoneIds_);
       if (other.Memory != 0L) {
         Memory = other.Memory;
+      }
+      if (other.Cores != 0L) {
+        Cores = other.Cores;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -221,6 +248,10 @@ namespace Yandex.Cloud.Mdb.Redis.V1 {
           }
           case 24: {
             Memory = input.ReadInt64();
+            break;
+          }
+          case 32: {
+            Cores = input.ReadInt64();
             break;
           }
         }

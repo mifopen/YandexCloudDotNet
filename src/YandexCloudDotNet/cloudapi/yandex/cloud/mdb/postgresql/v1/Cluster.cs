@@ -27,115 +27,141 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
             "Cix5YW5kZXgvY2xvdWQvbWRiL3Bvc3RncmVzcWwvdjEvY2x1c3Rlci5wcm90",
             "bxIeeWFuZGV4LmNsb3VkLm1kYi5wb3N0Z3Jlc3FsLnYxGh9nb29nbGUvcHJv",
             "dG9idWYvdGltZXN0YW1wLnByb3RvGh5nb29nbGUvcHJvdG9idWYvd3JhcHBl",
-            "cnMucHJvdG8aG2dvb2dsZS90eXBlL3RpbWVvZmRheS5wcm90bxo5eWFuZGV4",
-            "L2Nsb3VkL21kYi9wb3N0Z3Jlc3FsL3YxL2NvbmZpZy9wb3N0Z3Jlc3FsOV82",
-            "LnByb3RvGjh5YW5kZXgvY2xvdWQvbWRiL3Bvc3RncmVzcWwvdjEvY29uZmln",
-            "L3Bvc3RncmVzcWwxMC5wcm90bxo7eWFuZGV4L2Nsb3VkL21kYi9wb3N0Z3Jl",
-            "c3FsL3YxL2NvbmZpZy9wb3N0Z3Jlc3FsMTBfMWMucHJvdG8aOHlhbmRleC9j",
-            "bG91ZC9tZGIvcG9zdGdyZXNxbC92MS9jb25maWcvcG9zdGdyZXNxbDExLnBy",
-            "b3RvGjh5YW5kZXgvY2xvdWQvbWRiL3Bvc3RncmVzcWwvdjEvY29uZmlnL3Bv",
-            "c3RncmVzcWwxMi5wcm90bxozeWFuZGV4L2Nsb3VkL21kYi9wb3N0Z3Jlc3Fs",
-            "L3YxL2NvbmZpZy9ob3N0OV82LnByb3RvGjJ5YW5kZXgvY2xvdWQvbWRiL3Bv",
-            "c3RncmVzcWwvdjEvY29uZmlnL2hvc3QxMC5wcm90bxo1eWFuZGV4L2Nsb3Vk",
-            "L21kYi9wb3N0Z3Jlc3FsL3YxL2NvbmZpZy9ob3N0MTBfMWMucHJvdG8aMnlh",
-            "bmRleC9jbG91ZC9tZGIvcG9zdGdyZXNxbC92MS9jb25maWcvaG9zdDExLnBy",
-            "b3RvGjJ5YW5kZXgvY2xvdWQvbWRiL3Bvc3RncmVzcWwvdjEvY29uZmlnL2hv",
-            "c3QxMi5wcm90byLTBgoHQ2x1c3RlchIKCgJpZBgBIAEoCRIRCglmb2xkZXJf",
-            "aWQYAiABKAkSLgoKY3JlYXRlZF9hdBgDIAEoCzIaLmdvb2dsZS5wcm90b2J1",
-            "Zi5UaW1lc3RhbXASDAoEbmFtZRgEIAEoCRITCgtkZXNjcmlwdGlvbhgFIAEo",
-            "CRJDCgZsYWJlbHMYBiADKAsyMy55YW5kZXguY2xvdWQubWRiLnBvc3RncmVz",
-            "cWwudjEuQ2x1c3Rlci5MYWJlbHNFbnRyeRJICgtlbnZpcm9ubWVudBgHIAEo",
-            "DjIzLnlhbmRleC5jbG91ZC5tZGIucG9zdGdyZXNxbC52MS5DbHVzdGVyLkVu",
-            "dmlyb25tZW50Ej4KCm1vbml0b3JpbmcYCCADKAsyKi55YW5kZXguY2xvdWQu",
-            "bWRiLnBvc3RncmVzcWwudjEuTW9uaXRvcmluZxI9CgZjb25maWcYCSABKAsy",
-            "LS55YW5kZXguY2xvdWQubWRiLnBvc3RncmVzcWwudjEuQ2x1c3RlckNvbmZp",
-            "ZxISCgpuZXR3b3JrX2lkGAogASgJEj4KBmhlYWx0aBgLIAEoDjIuLnlhbmRl",
-            "eC5jbG91ZC5tZGIucG9zdGdyZXNxbC52MS5DbHVzdGVyLkhlYWx0aBI+CgZz",
-            "dGF0dXMYDCABKA4yLi55YW5kZXguY2xvdWQubWRiLnBvc3RncmVzcWwudjEu",
-            "Q2x1c3Rlci5TdGF0dXMaLQoLTGFiZWxzRW50cnkSCwoDa2V5GAEgASgJEg0K",
-            "BXZhbHVlGAIgASgJOgI4ASJJCgtFbnZpcm9ubWVudBIbChdFTlZJUk9OTUVO",
-            "VF9VTlNQRUNJRklFRBAAEg4KClBST0RVQ1RJT04QARINCglQUkVTVEFCTEUQ",
-            "AiI/CgZIZWFsdGgSEgoOSEVBTFRIX1VOS05PV04QABIJCgVBTElWRRABEggK",
-            "BERFQUQQAhIMCghERUdSQURFRBADInkKBlN0YXR1cxISCg5TVEFUVVNfVU5L",
-            "Tk9XThAAEgwKCENSRUFUSU5HEAESCwoHUlVOTklORxACEgkKBUVSUk9SEAMS",
-            "DAoIVVBEQVRJTkcQBBIMCghTVE9QUElORxAFEgsKB1NUT1BQRUQQBhIMCghT",
-            "VEFSVElORxAHIj0KCk1vbml0b3JpbmcSDAoEbmFtZRgBIAEoCRITCgtkZXNj",
-            "cmlwdGlvbhgCIAEoCRIMCgRsaW5rGAMgASgJIr8GCg1DbHVzdGVyQ29uZmln",
-            "Eg8KB3ZlcnNpb24YASABKAkSXgoVcG9zdGdyZXNxbF9jb25maWdfOV82GAIg",
-            "ASgLMj0ueWFuZGV4LmNsb3VkLm1kYi5wb3N0Z3Jlc3FsLnYxLmNvbmZpZy5Q",
-            "b3N0Z3Jlc3FsQ29uZmlnU2V0OV82SAASYgoXcG9zdGdyZXNxbF9jb25maWdf",
-            "MTBfMWMYCiABKAsyPy55YW5kZXguY2xvdWQubWRiLnBvc3RncmVzcWwudjEu",
-            "Y29uZmlnLlBvc3RncmVzcWxDb25maWdTZXQxMF8xQ0gAElwKFHBvc3RncmVz",
-            "cWxfY29uZmlnXzEwGAMgASgLMjwueWFuZGV4LmNsb3VkLm1kYi5wb3N0Z3Jl",
-            "c3FsLnYxLmNvbmZpZy5Qb3N0Z3Jlc3FsQ29uZmlnU2V0MTBIABJcChRwb3N0",
-            "Z3Jlc3FsX2NvbmZpZ18xMRgIIAEoCzI8LnlhbmRleC5jbG91ZC5tZGIucG9z",
-            "dGdyZXNxbC52MS5jb25maWcuUG9zdGdyZXNxbENvbmZpZ1NldDExSAASXAoU",
-            "cG9zdGdyZXNxbF9jb25maWdfMTIYCyABKAsyPC55YW5kZXguY2xvdWQubWRi",
-            "LnBvc3RncmVzcWwudjEuY29uZmlnLlBvc3RncmVzcWxDb25maWdTZXQxMkgA",
-            "Ek0KDXBvb2xlcl9jb25maWcYBCABKAsyNi55YW5kZXguY2xvdWQubWRiLnBv",
-            "c3RncmVzcWwudjEuQ29ubmVjdGlvblBvb2xlckNvbmZpZxI8CglyZXNvdXJj",
-            "ZXMYBSABKAsyKS55YW5kZXguY2xvdWQubWRiLnBvc3RncmVzcWwudjEuUmVz",
-            "b3VyY2VzEjAKDGF1dG9mYWlsb3ZlchgGIAEoCzIaLmdvb2dsZS5wcm90b2J1",
-            "Zi5Cb29sVmFsdWUSMwoTYmFja3VwX3dpbmRvd19zdGFydBgHIAEoCzIWLmdv",
-            "b2dsZS50eXBlLlRpbWVPZkRheRI2CgZhY2Nlc3MYCSABKAsyJi55YW5kZXgu",
-            "Y2xvdWQubWRiLnBvc3RncmVzcWwudjEuQWNjZXNzQhMKEXBvc3RncmVzcWxf",
-            "Y29uZmlnIv4BChZDb25uZWN0aW9uUG9vbGVyQ29uZmlnElgKDHBvb2xpbmdf",
-            "bW9kZRgBIAEoDjJCLnlhbmRleC5jbG91ZC5tZGIucG9zdGdyZXNxbC52MS5D",
-            "b25uZWN0aW9uUG9vbGVyQ29uZmlnLlBvb2xpbmdNb2RlEjAKDHBvb2xfZGlz",
-            "Y2FyZBgCIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5Cb29sVmFsdWUiWAoLUG9v",
-            "bGluZ01vZGUSHAoYUE9PTElOR19NT0RFX1VOU1BFQ0lGSUVEEAASCwoHU0VT",
-            "U0lPThABEg8KC1RSQU5TQUNUSU9OEAISDQoJU1RBVEVNRU5UEAMi4gUKBEhv",
-            "c3QSDAoEbmFtZRgBIAEoCRISCgpjbHVzdGVyX2lkGAIgASgJEg8KB3pvbmVf",
-            "aWQYAyABKAkSPAoJcmVzb3VyY2VzGAQgASgLMikueWFuZGV4LmNsb3VkLm1k",
-            "Yi5wb3N0Z3Jlc3FsLnYxLlJlc291cmNlcxI3CgRyb2xlGAUgASgOMikueWFu",
-            "ZGV4LmNsb3VkLm1kYi5wb3N0Z3Jlc3FsLnYxLkhvc3QuUm9sZRI7CgZoZWFs",
-            "dGgYBiABKA4yKy55YW5kZXguY2xvdWQubWRiLnBvc3RncmVzcWwudjEuSG9z",
-            "dC5IZWFsdGgSOQoIc2VydmljZXMYByADKAsyJy55YW5kZXguY2xvdWQubWRi",
-            "LnBvc3RncmVzcWwudjEuU2VydmljZRIRCglzdWJuZXRfaWQYCCABKAkSGgoS",
-            "cmVwbGljYXRpb25fc291cmNlGAkgASgJEi0KCHByaW9yaXR5GAogASgLMhsu",
-            "Z29vZ2xlLnByb3RvYnVmLkludDY0VmFsdWUSOgoGY29uZmlnGAsgASgLMiou",
-            "eWFuZGV4LmNsb3VkLm1kYi5wb3N0Z3Jlc3FsLnYxLkhvc3RDb25maWcSGAoQ",
-            "YXNzaWduX3B1YmxpY19pcBgMIAEoCBJGCgxyZXBsaWNhX3R5cGUYDSABKA4y",
-            "MC55YW5kZXguY2xvdWQubWRiLnBvc3RncmVzcWwudjEuSG9zdC5SZXBsaWNh",
-            "VHlwZSIxCgRSb2xlEhAKDFJPTEVfVU5LTk9XThAAEgoKBk1BU1RFUhABEgsK",
-            "B1JFUExJQ0EQAiJICgtSZXBsaWNhVHlwZRIYChRSRVBMSUNBX1RZUEVfVU5L",
-            "Tk9XThAAEgkKBUFTWU5DEAESCAoEU1lOQxACEgoKBlFVT1JVTRADIj8KBkhl",
-            "YWx0aBISCg5IRUFMVEhfVU5LTk9XThAAEgkKBUFMSVZFEAESCAoEREVBRBAC",
-            "EgwKCERFR1JBREVEEAMihAQKCkhvc3RDb25maWcSXwoVcG9zdGdyZXNxbF9j",
-            "b25maWdfOV82GAEgASgLMj4ueWFuZGV4LmNsb3VkLm1kYi5wb3N0Z3Jlc3Fs",
-            "LnYxLmNvbmZpZy5Qb3N0Z3Jlc3FsSG9zdENvbmZpZzlfNkgAEmMKF3Bvc3Rn",
-            "cmVzcWxfY29uZmlnXzEwXzFjGAQgASgLMkAueWFuZGV4LmNsb3VkLm1kYi5w",
-            "b3N0Z3Jlc3FsLnYxLmNvbmZpZy5Qb3N0Z3Jlc3FsSG9zdENvbmZpZzEwXzFD",
-            "SAASXQoUcG9zdGdyZXNxbF9jb25maWdfMTAYAiABKAsyPS55YW5kZXguY2xv",
-            "dWQubWRiLnBvc3RncmVzcWwudjEuY29uZmlnLlBvc3RncmVzcWxIb3N0Q29u",
-            "ZmlnMTBIABJdChRwb3N0Z3Jlc3FsX2NvbmZpZ18xMRgDIAEoCzI9LnlhbmRl",
-            "eC5jbG91ZC5tZGIucG9zdGdyZXNxbC52MS5jb25maWcuUG9zdGdyZXNxbEhv",
-            "c3RDb25maWcxMUgAEl0KFHBvc3RncmVzcWxfY29uZmlnXzEyGAUgASgLMj0u",
+            "cnMucHJvdG8aG2dvb2dsZS90eXBlL3RpbWVvZmRheS5wcm90bxodeWFuZGV4",
+            "L2Nsb3VkL3ZhbGlkYXRpb24ucHJvdG8aOXlhbmRleC9jbG91ZC9tZGIvcG9z",
+            "dGdyZXNxbC92MS9jb25maWcvcG9zdGdyZXNxbDlfNi5wcm90bxo4eWFuZGV4",
+            "L2Nsb3VkL21kYi9wb3N0Z3Jlc3FsL3YxL2NvbmZpZy9wb3N0Z3Jlc3FsMTAu",
+            "cHJvdG8aO3lhbmRleC9jbG91ZC9tZGIvcG9zdGdyZXNxbC92MS9jb25maWcv",
+            "cG9zdGdyZXNxbDEwXzFjLnByb3RvGjh5YW5kZXgvY2xvdWQvbWRiL3Bvc3Rn",
+            "cmVzcWwvdjEvY29uZmlnL3Bvc3RncmVzcWwxMS5wcm90bxo7eWFuZGV4L2Ns",
+            "b3VkL21kYi9wb3N0Z3Jlc3FsL3YxL2NvbmZpZy9wb3N0Z3Jlc3FsMTFfMWMu",
+            "cHJvdG8aOHlhbmRleC9jbG91ZC9tZGIvcG9zdGdyZXNxbC92MS9jb25maWcv",
+            "cG9zdGdyZXNxbDEyLnByb3RvGjt5YW5kZXgvY2xvdWQvbWRiL3Bvc3RncmVz",
+            "cWwvdjEvY29uZmlnL3Bvc3RncmVzcWwxMl8xYy5wcm90bxozeWFuZGV4L2Ns",
+            "b3VkL21kYi9wb3N0Z3Jlc3FsL3YxL2NvbmZpZy9ob3N0OV82LnByb3RvGjJ5",
+            "YW5kZXgvY2xvdWQvbWRiL3Bvc3RncmVzcWwvdjEvY29uZmlnL2hvc3QxMC5w",
+            "cm90bxo1eWFuZGV4L2Nsb3VkL21kYi9wb3N0Z3Jlc3FsL3YxL2NvbmZpZy9o",
+            "b3N0MTBfMWMucHJvdG8aMnlhbmRleC9jbG91ZC9tZGIvcG9zdGdyZXNxbC92",
+            "MS9jb25maWcvaG9zdDExLnByb3RvGjV5YW5kZXgvY2xvdWQvbWRiL3Bvc3Rn",
+            "cmVzcWwvdjEvY29uZmlnL2hvc3QxMV8xYy5wcm90bxoyeWFuZGV4L2Nsb3Vk",
+            "L21kYi9wb3N0Z3Jlc3FsL3YxL2NvbmZpZy9ob3N0MTIucHJvdG8aNXlhbmRl",
+            "eC9jbG91ZC9tZGIvcG9zdGdyZXNxbC92MS9jb25maWcvaG9zdDEyXzFjLnBy",
+            "b3RvGjB5YW5kZXgvY2xvdWQvbWRiL3Bvc3RncmVzcWwvdjEvbWFpbnRlbmFu",
+            "Y2UucHJvdG8i8wcKB0NsdXN0ZXISCgoCaWQYASABKAkSEQoJZm9sZGVyX2lk",
+            "GAIgASgJEi4KCmNyZWF0ZWRfYXQYAyABKAsyGi5nb29nbGUucHJvdG9idWYu",
+            "VGltZXN0YW1wEgwKBG5hbWUYBCABKAkSEwoLZGVzY3JpcHRpb24YBSABKAkS",
+            "QwoGbGFiZWxzGAYgAygLMjMueWFuZGV4LmNsb3VkLm1kYi5wb3N0Z3Jlc3Fs",
+            "LnYxLkNsdXN0ZXIuTGFiZWxzRW50cnkSSAoLZW52aXJvbm1lbnQYByABKA4y",
+            "My55YW5kZXguY2xvdWQubWRiLnBvc3RncmVzcWwudjEuQ2x1c3Rlci5FbnZp",
+            "cm9ubWVudBI+Cgptb25pdG9yaW5nGAggAygLMioueWFuZGV4LmNsb3VkLm1k",
+            "Yi5wb3N0Z3Jlc3FsLnYxLk1vbml0b3JpbmcSPQoGY29uZmlnGAkgASgLMi0u",
+            "eWFuZGV4LmNsb3VkLm1kYi5wb3N0Z3Jlc3FsLnYxLkNsdXN0ZXJDb25maWcS",
+            "EgoKbmV0d29ya19pZBgKIAEoCRI+CgZoZWFsdGgYCyABKA4yLi55YW5kZXgu",
+            "Y2xvdWQubWRiLnBvc3RncmVzcWwudjEuQ2x1c3Rlci5IZWFsdGgSPgoGc3Rh",
+            "dHVzGAwgASgOMi4ueWFuZGV4LmNsb3VkLm1kYi5wb3N0Z3Jlc3FsLnYxLkNs",
+            "dXN0ZXIuU3RhdHVzEk0KEm1haW50ZW5hbmNlX3dpbmRvdxgNIAEoCzIxLnlh",
+            "bmRleC5jbG91ZC5tZGIucG9zdGdyZXNxbC52MS5NYWludGVuYW5jZVdpbmRv",
+            "dxJPChFwbGFubmVkX29wZXJhdGlvbhgOIAEoCzI0LnlhbmRleC5jbG91ZC5t",
+            "ZGIucG9zdGdyZXNxbC52MS5NYWludGVuYW5jZU9wZXJhdGlvbhotCgtMYWJl",
+            "bHNFbnRyeRILCgNrZXkYASABKAkSDQoFdmFsdWUYAiABKAk6AjgBIkkKC0Vu",
+            "dmlyb25tZW50EhsKF0VOVklST05NRU5UX1VOU1BFQ0lGSUVEEAASDgoKUFJP",
+            "RFVDVElPThABEg0KCVBSRVNUQUJMRRACIj8KBkhlYWx0aBISCg5IRUFMVEhf",
+            "VU5LTk9XThAAEgkKBUFMSVZFEAESCAoEREVBRBACEgwKCERFR1JBREVEEAMi",
+            "eQoGU3RhdHVzEhIKDlNUQVRVU19VTktOT1dOEAASDAoIQ1JFQVRJTkcQARIL",
+            "CgdSVU5OSU5HEAISCQoFRVJST1IQAxIMCghVUERBVElORxAEEgwKCFNUT1BQ",
+            "SU5HEAUSCwoHU1RPUFBFRBAGEgwKCFNUQVJUSU5HEAciPQoKTW9uaXRvcmlu",
+            "ZxIMCgRuYW1lGAEgASgJEhMKC2Rlc2NyaXB0aW9uGAIgASgJEgwKBGxpbmsY",
+            "AyABKAki4AgKDUNsdXN0ZXJDb25maWcSDwoHdmVyc2lvbhgBIAEoCRJeChVw",
+            "b3N0Z3Jlc3FsX2NvbmZpZ185XzYYAiABKAsyPS55YW5kZXguY2xvdWQubWRi",
+            "LnBvc3RncmVzcWwudjEuY29uZmlnLlBvc3RncmVzcWxDb25maWdTZXQ5XzZI",
+            "ABJiChdwb3N0Z3Jlc3FsX2NvbmZpZ18xMF8xYxgKIAEoCzI/LnlhbmRleC5j",
+            "bG91ZC5tZGIucG9zdGdyZXNxbC52MS5jb25maWcuUG9zdGdyZXNxbENvbmZp",
+            "Z1NldDEwXzFDSAASXAoUcG9zdGdyZXNxbF9jb25maWdfMTAYAyABKAsyPC55",
+            "YW5kZXguY2xvdWQubWRiLnBvc3RncmVzcWwudjEuY29uZmlnLlBvc3RncmVz",
+            "cWxDb25maWdTZXQxMEgAElwKFHBvc3RncmVzcWxfY29uZmlnXzExGAggASgL",
+            "MjwueWFuZGV4LmNsb3VkLm1kYi5wb3N0Z3Jlc3FsLnYxLmNvbmZpZy5Qb3N0",
+            "Z3Jlc3FsQ29uZmlnU2V0MTFIABJiChdwb3N0Z3Jlc3FsX2NvbmZpZ18xMV8x",
+            "YxgNIAEoCzI/LnlhbmRleC5jbG91ZC5tZGIucG9zdGdyZXNxbC52MS5jb25m",
+            "aWcuUG9zdGdyZXNxbENvbmZpZ1NldDExXzFDSAASXAoUcG9zdGdyZXNxbF9j",
+            "b25maWdfMTIYCyABKAsyPC55YW5kZXguY2xvdWQubWRiLnBvc3RncmVzcWwu",
+            "djEuY29uZmlnLlBvc3RncmVzcWxDb25maWdTZXQxMkgAEmIKF3Bvc3RncmVz",
+            "cWxfY29uZmlnXzEyXzFjGA4gASgLMj8ueWFuZGV4LmNsb3VkLm1kYi5wb3N0",
+            "Z3Jlc3FsLnYxLmNvbmZpZy5Qb3N0Z3Jlc3FsQ29uZmlnU2V0MTJfMUNIABJN",
+            "Cg1wb29sZXJfY29uZmlnGAQgASgLMjYueWFuZGV4LmNsb3VkLm1kYi5wb3N0",
+            "Z3Jlc3FsLnYxLkNvbm5lY3Rpb25Qb29sZXJDb25maWcSPAoJcmVzb3VyY2Vz",
+            "GAUgASgLMikueWFuZGV4LmNsb3VkLm1kYi5wb3N0Z3Jlc3FsLnYxLlJlc291",
+            "cmNlcxIwCgxhdXRvZmFpbG92ZXIYBiABKAsyGi5nb29nbGUucHJvdG9idWYu",
+            "Qm9vbFZhbHVlEjMKE2JhY2t1cF93aW5kb3dfc3RhcnQYByABKAsyFi5nb29n",
+            "bGUudHlwZS5UaW1lT2ZEYXkSNgoGYWNjZXNzGAkgASgLMiYueWFuZGV4LmNs",
+            "b3VkLm1kYi5wb3N0Z3Jlc3FsLnYxLkFjY2VzcxJXChdwZXJmb3JtYW5jZV9k",
+            "aWFnbm9zdGljcxgMIAEoCzI2LnlhbmRleC5jbG91ZC5tZGIucG9zdGdyZXNx",
+            "bC52MS5QZXJmb3JtYW5jZURpYWdub3N0aWNzQhMKEXBvc3RncmVzcWxfY29u",
+            "ZmlnIv4BChZDb25uZWN0aW9uUG9vbGVyQ29uZmlnElgKDHBvb2xpbmdfbW9k",
+            "ZRgBIAEoDjJCLnlhbmRleC5jbG91ZC5tZGIucG9zdGdyZXNxbC52MS5Db25u",
+            "ZWN0aW9uUG9vbGVyQ29uZmlnLlBvb2xpbmdNb2RlEjAKDHBvb2xfZGlzY2Fy",
+            "ZBgCIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5Cb29sVmFsdWUiWAoLUG9vbGlu",
+            "Z01vZGUSHAoYUE9PTElOR19NT0RFX1VOU1BFQ0lGSUVEEAASCwoHU0VTU0lP",
+            "ThABEg8KC1RSQU5TQUNUSU9OEAISDQoJU1RBVEVNRU5UEAMi4gUKBEhvc3QS",
+            "DAoEbmFtZRgBIAEoCRISCgpjbHVzdGVyX2lkGAIgASgJEg8KB3pvbmVfaWQY",
+            "AyABKAkSPAoJcmVzb3VyY2VzGAQgASgLMikueWFuZGV4LmNsb3VkLm1kYi5w",
+            "b3N0Z3Jlc3FsLnYxLlJlc291cmNlcxI3CgRyb2xlGAUgASgOMikueWFuZGV4",
+            "LmNsb3VkLm1kYi5wb3N0Z3Jlc3FsLnYxLkhvc3QuUm9sZRI7CgZoZWFsdGgY",
+            "BiABKA4yKy55YW5kZXguY2xvdWQubWRiLnBvc3RncmVzcWwudjEuSG9zdC5I",
+            "ZWFsdGgSOQoIc2VydmljZXMYByADKAsyJy55YW5kZXguY2xvdWQubWRiLnBv",
+            "c3RncmVzcWwudjEuU2VydmljZRIRCglzdWJuZXRfaWQYCCABKAkSGgoScmVw",
+            "bGljYXRpb25fc291cmNlGAkgASgJEi0KCHByaW9yaXR5GAogASgLMhsuZ29v",
+            "Z2xlLnByb3RvYnVmLkludDY0VmFsdWUSOgoGY29uZmlnGAsgASgLMioueWFu",
+            "ZGV4LmNsb3VkLm1kYi5wb3N0Z3Jlc3FsLnYxLkhvc3RDb25maWcSGAoQYXNz",
+            "aWduX3B1YmxpY19pcBgMIAEoCBJGCgxyZXBsaWNhX3R5cGUYDSABKA4yMC55",
+            "YW5kZXguY2xvdWQubWRiLnBvc3RncmVzcWwudjEuSG9zdC5SZXBsaWNhVHlw",
+            "ZSIxCgRSb2xlEhAKDFJPTEVfVU5LTk9XThAAEgoKBk1BU1RFUhABEgsKB1JF",
+            "UExJQ0EQAiJICgtSZXBsaWNhVHlwZRIYChRSRVBMSUNBX1RZUEVfVU5LTk9X",
+            "ThAAEgkKBUFTWU5DEAESCAoEU1lOQxACEgoKBlFVT1JVTRADIj8KBkhlYWx0",
+            "aBISCg5IRUFMVEhfVU5LTk9XThAAEgkKBUFMSVZFEAESCAoEREVBRBACEgwK",
+            "CERFR1JBREVEEAMizgUKCkhvc3RDb25maWcSXwoVcG9zdGdyZXNxbF9jb25m",
+            "aWdfOV82GAEgASgLMj4ueWFuZGV4LmNsb3VkLm1kYi5wb3N0Z3Jlc3FsLnYx",
+            "LmNvbmZpZy5Qb3N0Z3Jlc3FsSG9zdENvbmZpZzlfNkgAEmMKF3Bvc3RncmVz",
+            "cWxfY29uZmlnXzEwXzFjGAQgASgLMkAueWFuZGV4LmNsb3VkLm1kYi5wb3N0",
+            "Z3Jlc3FsLnYxLmNvbmZpZy5Qb3N0Z3Jlc3FsSG9zdENvbmZpZzEwXzFDSAAS",
+            "XQoUcG9zdGdyZXNxbF9jb25maWdfMTAYAiABKAsyPS55YW5kZXguY2xvdWQu",
+            "bWRiLnBvc3RncmVzcWwudjEuY29uZmlnLlBvc3RncmVzcWxIb3N0Q29uZmln",
+            "MTBIABJdChRwb3N0Z3Jlc3FsX2NvbmZpZ18xMRgDIAEoCzI9LnlhbmRleC5j",
+            "bG91ZC5tZGIucG9zdGdyZXNxbC52MS5jb25maWcuUG9zdGdyZXNxbEhvc3RD",
+            "b25maWcxMUgAEmMKF3Bvc3RncmVzcWxfY29uZmlnXzExXzFjGAYgASgLMkAu",
             "eWFuZGV4LmNsb3VkLm1kYi5wb3N0Z3Jlc3FsLnYxLmNvbmZpZy5Qb3N0Z3Jl",
-            "c3FsSG9zdENvbmZpZzEySABCEwoRcG9zdGdyZXNxbF9jb25maWci8gEKB1Nl",
-            "cnZpY2USOgoEdHlwZRgBIAEoDjIsLnlhbmRleC5jbG91ZC5tZGIucG9zdGdy",
-            "ZXNxbC52MS5TZXJ2aWNlLlR5cGUSPgoGaGVhbHRoGAIgASgOMi4ueWFuZGV4",
-            "LmNsb3VkLm1kYi5wb3N0Z3Jlc3FsLnYxLlNlcnZpY2UuSGVhbHRoIjgKBFR5",
-            "cGUSFAoQVFlQRV9VTlNQRUNJRklFRBAAEg4KClBPU1RHUkVTUUwQARIKCgZQ",
-            "T09MRVIQAiIxCgZIZWFsdGgSEgoOSEVBTFRIX1VOS05PV04QABIJCgVBTElW",
-            "RRABEggKBERFQUQQAiJQCglSZXNvdXJjZXMSGgoScmVzb3VyY2VfcHJlc2V0",
-            "X2lkGAEgASgJEhEKCWRpc2tfc2l6ZRgCIAEoAxIUCgxkaXNrX3R5cGVfaWQY",
-            "AyABKAkiGwoGQWNjZXNzEhEKCWRhdGFfbGVucxgBIAEoCEJzCiJ5YW5kZXgu",
-            "Y2xvdWQuYXBpLm1kYi5wb3N0Z3Jlc3FsLnYxWk1naXRodWIuY29tL3lhbmRl",
-            "eC1jbG91ZC9nby1nZW5wcm90by95YW5kZXgvY2xvdWQvbWRiL3Bvc3RncmVz",
-            "cWwvdjE7cG9zdGdyZXNxbGIGcHJvdG8z"));
+            "c3FsSG9zdENvbmZpZzExXzFDSAASXQoUcG9zdGdyZXNxbF9jb25maWdfMTIY",
+            "BSABKAsyPS55YW5kZXguY2xvdWQubWRiLnBvc3RncmVzcWwudjEuY29uZmln",
+            "LlBvc3RncmVzcWxIb3N0Q29uZmlnMTJIABJjChdwb3N0Z3Jlc3FsX2NvbmZp",
+            "Z18xMl8xYxgHIAEoCzJALnlhbmRleC5jbG91ZC5tZGIucG9zdGdyZXNxbC52",
+            "MS5jb25maWcuUG9zdGdyZXNxbEhvc3RDb25maWcxMl8xQ0gAQhMKEXBvc3Rn",
+            "cmVzcWxfY29uZmlnIvIBCgdTZXJ2aWNlEjoKBHR5cGUYASABKA4yLC55YW5k",
+            "ZXguY2xvdWQubWRiLnBvc3RncmVzcWwudjEuU2VydmljZS5UeXBlEj4KBmhl",
+            "YWx0aBgCIAEoDjIuLnlhbmRleC5jbG91ZC5tZGIucG9zdGdyZXNxbC52MS5T",
+            "ZXJ2aWNlLkhlYWx0aCI4CgRUeXBlEhQKEFRZUEVfVU5TUEVDSUZJRUQQABIO",
+            "CgpQT1NUR1JFU1FMEAESCgoGUE9PTEVSEAIiMQoGSGVhbHRoEhIKDkhFQUxU",
+            "SF9VTktOT1dOEAASCQoFQUxJVkUQARIICgRERUFEEAIiUAoJUmVzb3VyY2Vz",
+            "EhoKEnJlc291cmNlX3ByZXNldF9pZBgBIAEoCRIRCglkaXNrX3NpemUYAiAB",
+            "KAMSFAoMZGlza190eXBlX2lkGAMgASgJIhsKBkFjY2VzcxIRCglkYXRhX2xl",
+            "bnMYASABKAgijQEKFlBlcmZvcm1hbmNlRGlhZ25vc3RpY3MSDwoHZW5hYmxl",
+            "ZBgBIAEoCBIvChpzZXNzaW9uc19zYW1wbGluZ19pbnRlcnZhbBgCIAEoA0IL",
+            "+scxBzEtODY0MDASMQocc3RhdGVtZW50c19zYW1wbGluZ19pbnRlcnZhbBgD",
+            "IAEoA0IL+scxBzEtODY0MDBCcwoieWFuZGV4LmNsb3VkLmFwaS5tZGIucG9z",
+            "dGdyZXNxbC52MVpNZ2l0aHViLmNvbS95YW5kZXgtY2xvdWQvZ28tZ2VucHJv",
+            "dG8veWFuZGV4L2Nsb3VkL21kYi9wb3N0Z3Jlc3FsL3YxO3Bvc3RncmVzcWxi",
+            "BnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.WrappersReflection.Descriptor, global::Google.Type.TimeofdayReflection.Descriptor, global::Yandex.Cloud.Mdb.Postgresql.V1.Config.Postgresql96Reflection.Descriptor, global::Yandex.Cloud.Mdb.Postgresql.V1.Config.Postgresql10Reflection.Descriptor, global::Yandex.Cloud.Mdb.Postgresql.V1.Config.Postgresql101CReflection.Descriptor, global::Yandex.Cloud.Mdb.Postgresql.V1.Config.Postgresql11Reflection.Descriptor, global::Yandex.Cloud.Mdb.Postgresql.V1.Config.Postgresql12Reflection.Descriptor, global::Yandex.Cloud.Mdb.Postgresql.V1.Config.Host96Reflection.Descriptor, global::Yandex.Cloud.Mdb.Postgresql.V1.Config.Host10Reflection.Descriptor, global::Yandex.Cloud.Mdb.Postgresql.V1.Config.Host101CReflection.Descriptor, global::Yandex.Cloud.Mdb.Postgresql.V1.Config.Host11Reflection.Descriptor, global::Yandex.Cloud.Mdb.Postgresql.V1.Config.Host12Reflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.WrappersReflection.Descriptor, global::Google.Type.TimeofdayReflection.Descriptor, global::Yandex.Cloud.ValidationReflection.Descriptor, global::Yandex.Cloud.Mdb.Postgresql.V1.Config.Postgresql96Reflection.Descriptor, global::Yandex.Cloud.Mdb.Postgresql.V1.Config.Postgresql10Reflection.Descriptor, global::Yandex.Cloud.Mdb.Postgresql.V1.Config.Postgresql101CReflection.Descriptor, global::Yandex.Cloud.Mdb.Postgresql.V1.Config.Postgresql11Reflection.Descriptor, global::Yandex.Cloud.Mdb.Postgresql.V1.Config.Postgresql111CReflection.Descriptor, global::Yandex.Cloud.Mdb.Postgresql.V1.Config.Postgresql12Reflection.Descriptor, global::Yandex.Cloud.Mdb.Postgresql.V1.Config.Postgresql121CReflection.Descriptor, global::Yandex.Cloud.Mdb.Postgresql.V1.Config.Host96Reflection.Descriptor, global::Yandex.Cloud.Mdb.Postgresql.V1.Config.Host10Reflection.Descriptor, global::Yandex.Cloud.Mdb.Postgresql.V1.Config.Host101CReflection.Descriptor, global::Yandex.Cloud.Mdb.Postgresql.V1.Config.Host11Reflection.Descriptor, global::Yandex.Cloud.Mdb.Postgresql.V1.Config.Host111CReflection.Descriptor, global::Yandex.Cloud.Mdb.Postgresql.V1.Config.Host12Reflection.Descriptor, global::Yandex.Cloud.Mdb.Postgresql.V1.Config.Host121CReflection.Descriptor, global::Yandex.Cloud.Mdb.Postgresql.V1.MaintenanceReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Cluster), global::Yandex.Cloud.Mdb.Postgresql.V1.Cluster.Parser, new[]{ "Id", "FolderId", "CreatedAt", "Name", "Description", "Labels", "Environment", "Monitoring", "Config", "NetworkId", "Health", "Status" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Cluster.Types.Environment), typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Cluster.Types.Health), typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Cluster.Types.Status) }, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Cluster), global::Yandex.Cloud.Mdb.Postgresql.V1.Cluster.Parser, new[]{ "Id", "FolderId", "CreatedAt", "Name", "Description", "Labels", "Environment", "Monitoring", "Config", "NetworkId", "Health", "Status", "MaintenanceWindow", "PlannedOperation" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Cluster.Types.Environment), typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Cluster.Types.Health), typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Cluster.Types.Status) }, null, new pbr::GeneratedClrTypeInfo[] { null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Monitoring), global::Yandex.Cloud.Mdb.Postgresql.V1.Monitoring.Parser, new[]{ "Name", "Description", "Link" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.ClusterConfig), global::Yandex.Cloud.Mdb.Postgresql.V1.ClusterConfig.Parser, new[]{ "Version", "PostgresqlConfig96", "PostgresqlConfig101C", "PostgresqlConfig10", "PostgresqlConfig11", "PostgresqlConfig12", "PoolerConfig", "Resources", "Autofailover", "BackupWindowStart", "Access" }, new[]{ "PostgresqlConfig" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.ClusterConfig), global::Yandex.Cloud.Mdb.Postgresql.V1.ClusterConfig.Parser, new[]{ "Version", "PostgresqlConfig96", "PostgresqlConfig101C", "PostgresqlConfig10", "PostgresqlConfig11", "PostgresqlConfig111C", "PostgresqlConfig12", "PostgresqlConfig121C", "PoolerConfig", "Resources", "Autofailover", "BackupWindowStart", "Access", "PerformanceDiagnostics" }, new[]{ "PostgresqlConfig" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.ConnectionPoolerConfig), global::Yandex.Cloud.Mdb.Postgresql.V1.ConnectionPoolerConfig.Parser, new[]{ "PoolingMode", "PoolDiscard" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.ConnectionPoolerConfig.Types.PoolingMode) }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Host), global::Yandex.Cloud.Mdb.Postgresql.V1.Host.Parser, new[]{ "Name", "ClusterId", "ZoneId", "Resources", "Role", "Health", "Services", "SubnetId", "ReplicationSource", "Priority", "Config", "AssignPublicIp", "ReplicaType" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Host.Types.Role), typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Host.Types.ReplicaType), typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Host.Types.Health) }, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.HostConfig), global::Yandex.Cloud.Mdb.Postgresql.V1.HostConfig.Parser, new[]{ "PostgresqlConfig96", "PostgresqlConfig101C", "PostgresqlConfig10", "PostgresqlConfig11", "PostgresqlConfig12" }, new[]{ "PostgresqlConfig" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.HostConfig), global::Yandex.Cloud.Mdb.Postgresql.V1.HostConfig.Parser, new[]{ "PostgresqlConfig96", "PostgresqlConfig101C", "PostgresqlConfig10", "PostgresqlConfig11", "PostgresqlConfig111C", "PostgresqlConfig12", "PostgresqlConfig121C" }, new[]{ "PostgresqlConfig" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Service), global::Yandex.Cloud.Mdb.Postgresql.V1.Service.Parser, new[]{ "Type", "Health" }, null, new[]{ typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Service.Types.Type), typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Service.Types.Health) }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Resources), global::Yandex.Cloud.Mdb.Postgresql.V1.Resources.Parser, new[]{ "ResourcePresetId", "DiskSize", "DiskTypeId" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Access), global::Yandex.Cloud.Mdb.Postgresql.V1.Access.Parser, new[]{ "DataLens" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.Access), global::Yandex.Cloud.Mdb.Postgresql.V1.Access.Parser, new[]{ "DataLens" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Yandex.Cloud.Mdb.Postgresql.V1.PerformanceDiagnostics), global::Yandex.Cloud.Mdb.Postgresql.V1.PerformanceDiagnostics.Parser, new[]{ "Enabled", "SessionsSamplingInterval", "StatementsSamplingInterval" }, null, null, null, null)
           }));
     }
     #endregion
@@ -183,6 +209,8 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
       networkId_ = other.networkId_;
       health_ = other.health_;
       status_ = other.status_;
+      maintenanceWindow_ = other.maintenanceWindow_ != null ? other.maintenanceWindow_.Clone() : null;
+      plannedOperation_ = other.plannedOperation_ != null ? other.plannedOperation_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -360,6 +388,34 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
       }
     }
 
+    /// <summary>Field number for the "maintenance_window" field.</summary>
+    public const int MaintenanceWindowFieldNumber = 13;
+    private global::Yandex.Cloud.Mdb.Postgresql.V1.MaintenanceWindow maintenanceWindow_;
+    /// <summary>
+    /// Window of maintenance operations.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Mdb.Postgresql.V1.MaintenanceWindow MaintenanceWindow {
+      get { return maintenanceWindow_; }
+      set {
+        maintenanceWindow_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "planned_operation" field.</summary>
+    public const int PlannedOperationFieldNumber = 14;
+    private global::Yandex.Cloud.Mdb.Postgresql.V1.MaintenanceOperation plannedOperation_;
+    /// <summary>
+    /// Maintenance operation planned at nearest maintenance_window.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Mdb.Postgresql.V1.MaintenanceOperation PlannedOperation {
+      get { return plannedOperation_; }
+      set {
+        plannedOperation_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as Cluster);
@@ -385,6 +441,8 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
       if (NetworkId != other.NetworkId) return false;
       if (Health != other.Health) return false;
       if (Status != other.Status) return false;
+      if (!object.Equals(MaintenanceWindow, other.MaintenanceWindow)) return false;
+      if (!object.Equals(PlannedOperation, other.PlannedOperation)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -403,6 +461,8 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
       if (NetworkId.Length != 0) hash ^= NetworkId.GetHashCode();
       if (Health != global::Yandex.Cloud.Mdb.Postgresql.V1.Cluster.Types.Health.Unknown) hash ^= Health.GetHashCode();
       if (Status != global::Yandex.Cloud.Mdb.Postgresql.V1.Cluster.Types.Status.Unknown) hash ^= Status.GetHashCode();
+      if (maintenanceWindow_ != null) hash ^= MaintenanceWindow.GetHashCode();
+      if (plannedOperation_ != null) hash ^= PlannedOperation.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -458,6 +518,14 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
         output.WriteRawTag(96);
         output.WriteEnum((int) Status);
       }
+      if (maintenanceWindow_ != null) {
+        output.WriteRawTag(106);
+        output.WriteMessage(MaintenanceWindow);
+      }
+      if (plannedOperation_ != null) {
+        output.WriteRawTag(114);
+        output.WriteMessage(PlannedOperation);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -497,6 +565,12 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
       }
       if (Status != global::Yandex.Cloud.Mdb.Postgresql.V1.Cluster.Types.Status.Unknown) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Status);
+      }
+      if (maintenanceWindow_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(MaintenanceWindow);
+      }
+      if (plannedOperation_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(PlannedOperation);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -546,6 +620,18 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
       }
       if (other.Status != global::Yandex.Cloud.Mdb.Postgresql.V1.Cluster.Types.Status.Unknown) {
         Status = other.Status;
+      }
+      if (other.maintenanceWindow_ != null) {
+        if (maintenanceWindow_ == null) {
+          MaintenanceWindow = new global::Yandex.Cloud.Mdb.Postgresql.V1.MaintenanceWindow();
+        }
+        MaintenanceWindow.MergeFrom(other.MaintenanceWindow);
+      }
+      if (other.plannedOperation_ != null) {
+        if (plannedOperation_ == null) {
+          PlannedOperation = new global::Yandex.Cloud.Mdb.Postgresql.V1.MaintenanceOperation();
+        }
+        PlannedOperation.MergeFrom(other.PlannedOperation);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -610,6 +696,20 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
           }
           case 96: {
             Status = (global::Yandex.Cloud.Mdb.Postgresql.V1.Cluster.Types.Status) input.ReadEnum();
+            break;
+          }
+          case 106: {
+            if (maintenanceWindow_ == null) {
+              MaintenanceWindow = new global::Yandex.Cloud.Mdb.Postgresql.V1.MaintenanceWindow();
+            }
+            input.ReadMessage(MaintenanceWindow);
+            break;
+          }
+          case 114: {
+            if (plannedOperation_ == null) {
+              PlannedOperation = new global::Yandex.Cloud.Mdb.Postgresql.V1.MaintenanceOperation();
+            }
+            input.ReadMessage(PlannedOperation);
             break;
           }
         }
@@ -921,6 +1021,7 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
       Autofailover = other.Autofailover;
       backupWindowStart_ = other.backupWindowStart_ != null ? other.backupWindowStart_.Clone() : null;
       access_ = other.access_ != null ? other.access_.Clone() : null;
+      performanceDiagnostics_ = other.performanceDiagnostics_ != null ? other.performanceDiagnostics_.Clone() : null;
       switch (other.PostgresqlConfigCase) {
         case PostgresqlConfigOneofCase.PostgresqlConfig96:
           PostgresqlConfig96 = other.PostgresqlConfig96.Clone();
@@ -934,8 +1035,14 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
         case PostgresqlConfigOneofCase.PostgresqlConfig11:
           PostgresqlConfig11 = other.PostgresqlConfig11.Clone();
           break;
+        case PostgresqlConfigOneofCase.PostgresqlConfig111C:
+          PostgresqlConfig111C = other.PostgresqlConfig111C.Clone();
+          break;
         case PostgresqlConfigOneofCase.PostgresqlConfig12:
           PostgresqlConfig12 = other.PostgresqlConfig12.Clone();
+          break;
+        case PostgresqlConfigOneofCase.PostgresqlConfig121C:
+          PostgresqlConfig121C = other.PostgresqlConfig121C.Clone();
           break;
       }
 
@@ -1017,6 +1124,20 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
       }
     }
 
+    /// <summary>Field number for the "postgresql_config_11_1c" field.</summary>
+    public const int PostgresqlConfig111CFieldNumber = 13;
+    /// <summary>
+    /// Configuration of a PostgreSQL 11 1C server.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlConfigSet11_1C PostgresqlConfig111C {
+      get { return postgresqlConfigCase_ == PostgresqlConfigOneofCase.PostgresqlConfig111C ? (global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlConfigSet11_1C) postgresqlConfig_ : null; }
+      set {
+        postgresqlConfig_ = value;
+        postgresqlConfigCase_ = value == null ? PostgresqlConfigOneofCase.None : PostgresqlConfigOneofCase.PostgresqlConfig111C;
+      }
+    }
+
     /// <summary>Field number for the "postgresql_config_12" field.</summary>
     public const int PostgresqlConfig12FieldNumber = 11;
     /// <summary>
@@ -1028,6 +1149,20 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
       set {
         postgresqlConfig_ = value;
         postgresqlConfigCase_ = value == null ? PostgresqlConfigOneofCase.None : PostgresqlConfigOneofCase.PostgresqlConfig12;
+      }
+    }
+
+    /// <summary>Field number for the "postgresql_config_12_1c" field.</summary>
+    public const int PostgresqlConfig121CFieldNumber = 14;
+    /// <summary>
+    /// Configuration of a PostgreSQL 12 1C server.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlConfigSet12_1C PostgresqlConfig121C {
+      get { return postgresqlConfigCase_ == PostgresqlConfigOneofCase.PostgresqlConfig121C ? (global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlConfigSet12_1C) postgresqlConfig_ : null; }
+      set {
+        postgresqlConfig_ = value;
+        postgresqlConfigCase_ = value == null ? PostgresqlConfigOneofCase.None : PostgresqlConfigOneofCase.PostgresqlConfig121C;
       }
     }
 
@@ -1103,6 +1238,20 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
       }
     }
 
+    /// <summary>Field number for the "performance_diagnostics" field.</summary>
+    public const int PerformanceDiagnosticsFieldNumber = 12;
+    private global::Yandex.Cloud.Mdb.Postgresql.V1.PerformanceDiagnostics performanceDiagnostics_;
+    /// <summary>
+    /// Configuration of the performance diagnostics service.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Mdb.Postgresql.V1.PerformanceDiagnostics PerformanceDiagnostics {
+      get { return performanceDiagnostics_; }
+      set {
+        performanceDiagnostics_ = value;
+      }
+    }
+
     private object postgresqlConfig_;
     /// <summary>Enum of possible cases for the "postgresql_config" oneof.</summary>
     public enum PostgresqlConfigOneofCase {
@@ -1111,7 +1260,9 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
       PostgresqlConfig101C = 10,
       PostgresqlConfig10 = 3,
       PostgresqlConfig11 = 8,
+      PostgresqlConfig111C = 13,
       PostgresqlConfig12 = 11,
+      PostgresqlConfig121C = 14,
     }
     private PostgresqlConfigOneofCase postgresqlConfigCase_ = PostgresqlConfigOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1143,12 +1294,15 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
       if (!object.Equals(PostgresqlConfig101C, other.PostgresqlConfig101C)) return false;
       if (!object.Equals(PostgresqlConfig10, other.PostgresqlConfig10)) return false;
       if (!object.Equals(PostgresqlConfig11, other.PostgresqlConfig11)) return false;
+      if (!object.Equals(PostgresqlConfig111C, other.PostgresqlConfig111C)) return false;
       if (!object.Equals(PostgresqlConfig12, other.PostgresqlConfig12)) return false;
+      if (!object.Equals(PostgresqlConfig121C, other.PostgresqlConfig121C)) return false;
       if (!object.Equals(PoolerConfig, other.PoolerConfig)) return false;
       if (!object.Equals(Resources, other.Resources)) return false;
       if (Autofailover != other.Autofailover) return false;
       if (!object.Equals(BackupWindowStart, other.BackupWindowStart)) return false;
       if (!object.Equals(Access, other.Access)) return false;
+      if (!object.Equals(PerformanceDiagnostics, other.PerformanceDiagnostics)) return false;
       if (PostgresqlConfigCase != other.PostgresqlConfigCase) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -1161,12 +1315,15 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
       if (postgresqlConfigCase_ == PostgresqlConfigOneofCase.PostgresqlConfig101C) hash ^= PostgresqlConfig101C.GetHashCode();
       if (postgresqlConfigCase_ == PostgresqlConfigOneofCase.PostgresqlConfig10) hash ^= PostgresqlConfig10.GetHashCode();
       if (postgresqlConfigCase_ == PostgresqlConfigOneofCase.PostgresqlConfig11) hash ^= PostgresqlConfig11.GetHashCode();
+      if (postgresqlConfigCase_ == PostgresqlConfigOneofCase.PostgresqlConfig111C) hash ^= PostgresqlConfig111C.GetHashCode();
       if (postgresqlConfigCase_ == PostgresqlConfigOneofCase.PostgresqlConfig12) hash ^= PostgresqlConfig12.GetHashCode();
+      if (postgresqlConfigCase_ == PostgresqlConfigOneofCase.PostgresqlConfig121C) hash ^= PostgresqlConfig121C.GetHashCode();
       if (poolerConfig_ != null) hash ^= PoolerConfig.GetHashCode();
       if (resources_ != null) hash ^= Resources.GetHashCode();
       if (autofailover_ != null) hash ^= Autofailover.GetHashCode();
       if (backupWindowStart_ != null) hash ^= BackupWindowStart.GetHashCode();
       if (access_ != null) hash ^= Access.GetHashCode();
+      if (performanceDiagnostics_ != null) hash ^= PerformanceDiagnostics.GetHashCode();
       hash ^= (int) postgresqlConfigCase_;
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -1224,6 +1381,18 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
         output.WriteRawTag(90);
         output.WriteMessage(PostgresqlConfig12);
       }
+      if (performanceDiagnostics_ != null) {
+        output.WriteRawTag(98);
+        output.WriteMessage(PerformanceDiagnostics);
+      }
+      if (postgresqlConfigCase_ == PostgresqlConfigOneofCase.PostgresqlConfig111C) {
+        output.WriteRawTag(106);
+        output.WriteMessage(PostgresqlConfig111C);
+      }
+      if (postgresqlConfigCase_ == PostgresqlConfigOneofCase.PostgresqlConfig121C) {
+        output.WriteRawTag(114);
+        output.WriteMessage(PostgresqlConfig121C);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1247,8 +1416,14 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
       if (postgresqlConfigCase_ == PostgresqlConfigOneofCase.PostgresqlConfig11) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(PostgresqlConfig11);
       }
+      if (postgresqlConfigCase_ == PostgresqlConfigOneofCase.PostgresqlConfig111C) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(PostgresqlConfig111C);
+      }
       if (postgresqlConfigCase_ == PostgresqlConfigOneofCase.PostgresqlConfig12) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(PostgresqlConfig12);
+      }
+      if (postgresqlConfigCase_ == PostgresqlConfigOneofCase.PostgresqlConfig121C) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(PostgresqlConfig121C);
       }
       if (poolerConfig_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(PoolerConfig);
@@ -1264,6 +1439,9 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
       }
       if (access_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(Access);
+      }
+      if (performanceDiagnostics_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(PerformanceDiagnostics);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1308,6 +1486,12 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
         }
         Access.MergeFrom(other.Access);
       }
+      if (other.performanceDiagnostics_ != null) {
+        if (performanceDiagnostics_ == null) {
+          PerformanceDiagnostics = new global::Yandex.Cloud.Mdb.Postgresql.V1.PerformanceDiagnostics();
+        }
+        PerformanceDiagnostics.MergeFrom(other.PerformanceDiagnostics);
+      }
       switch (other.PostgresqlConfigCase) {
         case PostgresqlConfigOneofCase.PostgresqlConfig96:
           if (PostgresqlConfig96 == null) {
@@ -1333,11 +1517,23 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
           }
           PostgresqlConfig11.MergeFrom(other.PostgresqlConfig11);
           break;
+        case PostgresqlConfigOneofCase.PostgresqlConfig111C:
+          if (PostgresqlConfig111C == null) {
+            PostgresqlConfig111C = new global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlConfigSet11_1C();
+          }
+          PostgresqlConfig111C.MergeFrom(other.PostgresqlConfig111C);
+          break;
         case PostgresqlConfigOneofCase.PostgresqlConfig12:
           if (PostgresqlConfig12 == null) {
             PostgresqlConfig12 = new global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlConfigSet12();
           }
           PostgresqlConfig12.MergeFrom(other.PostgresqlConfig12);
+          break;
+        case PostgresqlConfigOneofCase.PostgresqlConfig121C:
+          if (PostgresqlConfig121C == null) {
+            PostgresqlConfig121C = new global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlConfigSet12_1C();
+          }
+          PostgresqlConfig121C.MergeFrom(other.PostgresqlConfig121C);
           break;
       }
 
@@ -1434,6 +1630,31 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
             }
             input.ReadMessage(subBuilder);
             PostgresqlConfig12 = subBuilder;
+            break;
+          }
+          case 98: {
+            if (performanceDiagnostics_ == null) {
+              PerformanceDiagnostics = new global::Yandex.Cloud.Mdb.Postgresql.V1.PerformanceDiagnostics();
+            }
+            input.ReadMessage(PerformanceDiagnostics);
+            break;
+          }
+          case 106: {
+            global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlConfigSet11_1C subBuilder = new global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlConfigSet11_1C();
+            if (postgresqlConfigCase_ == PostgresqlConfigOneofCase.PostgresqlConfig111C) {
+              subBuilder.MergeFrom(PostgresqlConfig111C);
+            }
+            input.ReadMessage(subBuilder);
+            PostgresqlConfig111C = subBuilder;
+            break;
+          }
+          case 114: {
+            global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlConfigSet12_1C subBuilder = new global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlConfigSet12_1C();
+            if (postgresqlConfigCase_ == PostgresqlConfigOneofCase.PostgresqlConfig121C) {
+              subBuilder.MergeFrom(PostgresqlConfig121C);
+            }
+            input.ReadMessage(subBuilder);
+            PostgresqlConfig121C = subBuilder;
             break;
           }
         }
@@ -2243,8 +2464,14 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
         case PostgresqlConfigOneofCase.PostgresqlConfig11:
           PostgresqlConfig11 = other.PostgresqlConfig11.Clone();
           break;
+        case PostgresqlConfigOneofCase.PostgresqlConfig111C:
+          PostgresqlConfig111C = other.PostgresqlConfig111C.Clone();
+          break;
         case PostgresqlConfigOneofCase.PostgresqlConfig12:
           PostgresqlConfig12 = other.PostgresqlConfig12.Clone();
+          break;
+        case PostgresqlConfigOneofCase.PostgresqlConfig121C:
+          PostgresqlConfig121C = other.PostgresqlConfig121C.Clone();
           break;
       }
 
@@ -2312,6 +2539,20 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
       }
     }
 
+    /// <summary>Field number for the "postgresql_config_11_1c" field.</summary>
+    public const int PostgresqlConfig111CFieldNumber = 6;
+    /// <summary>
+    /// Configuration for a host with PostgreSQL 11 1C server deployed.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig11_1C PostgresqlConfig111C {
+      get { return postgresqlConfigCase_ == PostgresqlConfigOneofCase.PostgresqlConfig111C ? (global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig11_1C) postgresqlConfig_ : null; }
+      set {
+        postgresqlConfig_ = value;
+        postgresqlConfigCase_ = value == null ? PostgresqlConfigOneofCase.None : PostgresqlConfigOneofCase.PostgresqlConfig111C;
+      }
+    }
+
     /// <summary>Field number for the "postgresql_config_12" field.</summary>
     public const int PostgresqlConfig12FieldNumber = 5;
     /// <summary>
@@ -2326,6 +2567,20 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
       }
     }
 
+    /// <summary>Field number for the "postgresql_config_12_1c" field.</summary>
+    public const int PostgresqlConfig121CFieldNumber = 7;
+    /// <summary>
+    /// Configuration for a host with PostgreSQL 12 1C server deployed.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig12_1C PostgresqlConfig121C {
+      get { return postgresqlConfigCase_ == PostgresqlConfigOneofCase.PostgresqlConfig121C ? (global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig12_1C) postgresqlConfig_ : null; }
+      set {
+        postgresqlConfig_ = value;
+        postgresqlConfigCase_ = value == null ? PostgresqlConfigOneofCase.None : PostgresqlConfigOneofCase.PostgresqlConfig121C;
+      }
+    }
+
     private object postgresqlConfig_;
     /// <summary>Enum of possible cases for the "postgresql_config" oneof.</summary>
     public enum PostgresqlConfigOneofCase {
@@ -2334,7 +2589,9 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
       PostgresqlConfig101C = 4,
       PostgresqlConfig10 = 2,
       PostgresqlConfig11 = 3,
+      PostgresqlConfig111C = 6,
       PostgresqlConfig12 = 5,
+      PostgresqlConfig121C = 7,
     }
     private PostgresqlConfigOneofCase postgresqlConfigCase_ = PostgresqlConfigOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2365,7 +2622,9 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
       if (!object.Equals(PostgresqlConfig101C, other.PostgresqlConfig101C)) return false;
       if (!object.Equals(PostgresqlConfig10, other.PostgresqlConfig10)) return false;
       if (!object.Equals(PostgresqlConfig11, other.PostgresqlConfig11)) return false;
+      if (!object.Equals(PostgresqlConfig111C, other.PostgresqlConfig111C)) return false;
       if (!object.Equals(PostgresqlConfig12, other.PostgresqlConfig12)) return false;
+      if (!object.Equals(PostgresqlConfig121C, other.PostgresqlConfig121C)) return false;
       if (PostgresqlConfigCase != other.PostgresqlConfigCase) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -2377,7 +2636,9 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
       if (postgresqlConfigCase_ == PostgresqlConfigOneofCase.PostgresqlConfig101C) hash ^= PostgresqlConfig101C.GetHashCode();
       if (postgresqlConfigCase_ == PostgresqlConfigOneofCase.PostgresqlConfig10) hash ^= PostgresqlConfig10.GetHashCode();
       if (postgresqlConfigCase_ == PostgresqlConfigOneofCase.PostgresqlConfig11) hash ^= PostgresqlConfig11.GetHashCode();
+      if (postgresqlConfigCase_ == PostgresqlConfigOneofCase.PostgresqlConfig111C) hash ^= PostgresqlConfig111C.GetHashCode();
       if (postgresqlConfigCase_ == PostgresqlConfigOneofCase.PostgresqlConfig12) hash ^= PostgresqlConfig12.GetHashCode();
+      if (postgresqlConfigCase_ == PostgresqlConfigOneofCase.PostgresqlConfig121C) hash ^= PostgresqlConfig121C.GetHashCode();
       hash ^= (int) postgresqlConfigCase_;
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -2412,6 +2673,14 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
         output.WriteRawTag(42);
         output.WriteMessage(PostgresqlConfig12);
       }
+      if (postgresqlConfigCase_ == PostgresqlConfigOneofCase.PostgresqlConfig111C) {
+        output.WriteRawTag(50);
+        output.WriteMessage(PostgresqlConfig111C);
+      }
+      if (postgresqlConfigCase_ == PostgresqlConfigOneofCase.PostgresqlConfig121C) {
+        output.WriteRawTag(58);
+        output.WriteMessage(PostgresqlConfig121C);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -2432,8 +2701,14 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
       if (postgresqlConfigCase_ == PostgresqlConfigOneofCase.PostgresqlConfig11) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(PostgresqlConfig11);
       }
+      if (postgresqlConfigCase_ == PostgresqlConfigOneofCase.PostgresqlConfig111C) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(PostgresqlConfig111C);
+      }
       if (postgresqlConfigCase_ == PostgresqlConfigOneofCase.PostgresqlConfig12) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(PostgresqlConfig12);
+      }
+      if (postgresqlConfigCase_ == PostgresqlConfigOneofCase.PostgresqlConfig121C) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(PostgresqlConfig121C);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -2471,11 +2746,23 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
           }
           PostgresqlConfig11.MergeFrom(other.PostgresqlConfig11);
           break;
+        case PostgresqlConfigOneofCase.PostgresqlConfig111C:
+          if (PostgresqlConfig111C == null) {
+            PostgresqlConfig111C = new global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig11_1C();
+          }
+          PostgresqlConfig111C.MergeFrom(other.PostgresqlConfig111C);
+          break;
         case PostgresqlConfigOneofCase.PostgresqlConfig12:
           if (PostgresqlConfig12 == null) {
             PostgresqlConfig12 = new global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig12();
           }
           PostgresqlConfig12.MergeFrom(other.PostgresqlConfig12);
+          break;
+        case PostgresqlConfigOneofCase.PostgresqlConfig121C:
+          if (PostgresqlConfig121C == null) {
+            PostgresqlConfig121C = new global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig12_1C();
+          }
+          PostgresqlConfig121C.MergeFrom(other.PostgresqlConfig121C);
           break;
       }
 
@@ -2533,6 +2820,24 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
             }
             input.ReadMessage(subBuilder);
             PostgresqlConfig12 = subBuilder;
+            break;
+          }
+          case 50: {
+            global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig11_1C subBuilder = new global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig11_1C();
+            if (postgresqlConfigCase_ == PostgresqlConfigOneofCase.PostgresqlConfig111C) {
+              subBuilder.MergeFrom(PostgresqlConfig111C);
+            }
+            input.ReadMessage(subBuilder);
+            PostgresqlConfig111C = subBuilder;
+            break;
+          }
+          case 58: {
+            global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig12_1C subBuilder = new global::Yandex.Cloud.Mdb.Postgresql.V1.Config.PostgresqlHostConfig12_1C();
+            if (postgresqlConfigCase_ == PostgresqlConfigOneofCase.PostgresqlConfig121C) {
+              subBuilder.MergeFrom(PostgresqlConfig121C);
+            }
+            input.ReadMessage(subBuilder);
+            PostgresqlConfig121C = subBuilder;
             break;
           }
         }
@@ -3061,6 +3366,200 @@ namespace Yandex.Cloud.Mdb.Postgresql.V1 {
             break;
           case 8: {
             DataLens = input.ReadBool();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  internal sealed partial class PerformanceDiagnostics : pb::IMessage<PerformanceDiagnostics> {
+    private static readonly pb::MessageParser<PerformanceDiagnostics> _parser = new pb::MessageParser<PerformanceDiagnostics>(() => new PerformanceDiagnostics());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<PerformanceDiagnostics> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Yandex.Cloud.Mdb.Postgresql.V1.ClusterReflection.Descriptor.MessageTypes[9]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public PerformanceDiagnostics() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public PerformanceDiagnostics(PerformanceDiagnostics other) : this() {
+      enabled_ = other.enabled_;
+      sessionsSamplingInterval_ = other.sessionsSamplingInterval_;
+      statementsSamplingInterval_ = other.statementsSamplingInterval_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public PerformanceDiagnostics Clone() {
+      return new PerformanceDiagnostics(this);
+    }
+
+    /// <summary>Field number for the "enabled" field.</summary>
+    public const int EnabledFieldNumber = 1;
+    private bool enabled_;
+    /// <summary>
+    /// Configuration setting which enables/disables performance diagnostics service in cluster.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Enabled {
+      get { return enabled_; }
+      set {
+        enabled_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "sessions_sampling_interval" field.</summary>
+    public const int SessionsSamplingIntervalFieldNumber = 2;
+    private long sessionsSamplingInterval_;
+    /// <summary>
+    /// Interval (in seconds) for pg_stat_activity sampling
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long SessionsSamplingInterval {
+      get { return sessionsSamplingInterval_; }
+      set {
+        sessionsSamplingInterval_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "statements_sampling_interval" field.</summary>
+    public const int StatementsSamplingIntervalFieldNumber = 3;
+    private long statementsSamplingInterval_;
+    /// <summary>
+    /// Interval (in seconds) for pg_stat_statements sampling
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long StatementsSamplingInterval {
+      get { return statementsSamplingInterval_; }
+      set {
+        statementsSamplingInterval_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as PerformanceDiagnostics);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(PerformanceDiagnostics other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Enabled != other.Enabled) return false;
+      if (SessionsSamplingInterval != other.SessionsSamplingInterval) return false;
+      if (StatementsSamplingInterval != other.StatementsSamplingInterval) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Enabled != false) hash ^= Enabled.GetHashCode();
+      if (SessionsSamplingInterval != 0L) hash ^= SessionsSamplingInterval.GetHashCode();
+      if (StatementsSamplingInterval != 0L) hash ^= StatementsSamplingInterval.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (Enabled != false) {
+        output.WriteRawTag(8);
+        output.WriteBool(Enabled);
+      }
+      if (SessionsSamplingInterval != 0L) {
+        output.WriteRawTag(16);
+        output.WriteInt64(SessionsSamplingInterval);
+      }
+      if (StatementsSamplingInterval != 0L) {
+        output.WriteRawTag(24);
+        output.WriteInt64(StatementsSamplingInterval);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Enabled != false) {
+        size += 1 + 1;
+      }
+      if (SessionsSamplingInterval != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(SessionsSamplingInterval);
+      }
+      if (StatementsSamplingInterval != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(StatementsSamplingInterval);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(PerformanceDiagnostics other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Enabled != false) {
+        Enabled = other.Enabled;
+      }
+      if (other.SessionsSamplingInterval != 0L) {
+        SessionsSamplingInterval = other.SessionsSamplingInterval;
+      }
+      if (other.StatementsSamplingInterval != 0L) {
+        StatementsSamplingInterval = other.StatementsSamplingInterval;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            Enabled = input.ReadBool();
+            break;
+          }
+          case 16: {
+            SessionsSamplingInterval = input.ReadInt64();
+            break;
+          }
+          case 24: {
+            StatementsSamplingInterval = input.ReadInt64();
             break;
           }
         }
