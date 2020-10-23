@@ -22,10 +22,10 @@ namespace YandexCloudDotNet.Tests.Vision
         public async void Simple()
         {
             var userSecretsProvider = new UserSecretsProvider();
-            var iamTokenClient = new IAMTokenClient();
+            var iamTokenClient = new IamTokenClient();
             var serviceAccountId = userSecretsProvider.Get("ServiceAccountId");
             var authorizationKeyId = userSecretsProvider.Get("AuthorizationKeyId");
-            var iamToken = await iamTokenClient.GetIAMToken(serviceAccountId,
+            var iamToken = await iamTokenClient.Get(serviceAccountId,
                                                             authorizationKeyId,
                                                             File.OpenRead("private.key"));
 
