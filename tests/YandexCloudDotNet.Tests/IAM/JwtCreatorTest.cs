@@ -1,5 +1,6 @@
 using System;
 using System.IO;
+using System.Text;
 using Xunit;
 using Xunit.Abstractions;
 using YandexCloudDotNet.IAM;
@@ -18,15 +19,16 @@ namespace YandexCloudDotNet.Tests.IAM
         [Fact]
         public void Simple()
         {
-            var userSecretsProvider = new UserSecretsProvider();
-            var serviceAccountId = userSecretsProvider.Get("ServiceAccountId");
-            var authorizationKeyId = userSecretsProvider.Get("AuthorizationKeyId");
+            var secrets = new SecretsProvider().Get();
             var jwtCreator = new JwtCreator();
             var expirationTime = TimeSpan.FromMinutes(15);
-            var jwtToken = jwtCreator.Create(serviceAccountId,
-                                             authorizationKeyId,
-                                             File.OpenRead("private.key"),
-                                             expirationTime);
+            var privateKeyStream = new MemoryStream(Encoding.UTF8.GetBytes(secrets.AuthorizationKeyPrivateKey));
+            var jwtToken = jwtCreator.Create(
+                secrets.ServiceAccountId,
+                secrets.AuthorizationKeyId,
+                privateKeyStream,
+                expirationTime
+            );
             output.WriteLine(jwtToken);
         }
     }

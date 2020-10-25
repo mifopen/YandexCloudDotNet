@@ -1,5 +1,6 @@
 using System.IO;
 using System.Linq;
+using System.Text;
 using Newtonsoft.Json;
 using Shouldly;
 using Xunit;
@@ -21,24 +22,26 @@ namespace YandexCloudDotNet.Tests.Vision
         [Fact]
         public async void Simple()
         {
-            var userSecretsProvider = new UserSecretsProvider();
+            var secrets = new SecretsProvider().Get();
             var iamTokenClient = new IamTokenClient();
-            var serviceAccountId = userSecretsProvider.Get("ServiceAccountId");
-            var authorizationKeyId = userSecretsProvider.Get("AuthorizationKeyId");
-            var iamToken = await iamTokenClient.Get(serviceAccountId,
-                                                            authorizationKeyId,
-                                                            File.OpenRead("private.key"));
+            var privateKeyStream = new MemoryStream(Encoding.UTF8.GetBytes(secrets.AuthorizationKeyPrivateKey));
+            var iamToken = await iamTokenClient.Get(
+                               secrets.ServiceAccountId,
+                               secrets.AuthorizationKeyId,
+                               privateKeyStream
+                           );
 
             var client = new VisionClient();
-            var folderId = userSecretsProvider.Get("FolderId");
             var image = File.OpenRead("Vision/image.png");
-            var result = await client.RecognizeText(folderId,
-                                                    iamToken,
-                                                    image,
-                                                    new[]
-                                                    {
-                                                        "ru", "en"
-                                                    });
+            var result = await client.RecognizeText(
+                             secrets.FolderId,
+                             iamToken,
+                             image,
+                             new[]
+                             {
+                                 "ru", "en"
+                             }
+                         );
             var words = result.Single()
                               .Results.Single()
                               .TextDetection
@@ -47,10 +50,12 @@ namespace YandexCloudDotNet.Tests.Vision
                               .Lines.Single()
                               .Words;
             words.Select(x => x.Text)
-                 .ShouldBe(new[]
-                           {
-                               "Какой-то", "текст"
-                           });
+                 .ShouldBe(
+                     new[]
+                     {
+                         "Какой-то", "текст"
+                     }
+                 );
             output.WriteLine(JsonConvert.SerializeObject(result, Formatting.Indented));
         }
     }

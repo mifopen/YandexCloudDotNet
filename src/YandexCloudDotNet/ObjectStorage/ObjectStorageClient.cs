@@ -10,17 +10,16 @@ namespace YandexCloudDotNet.ObjectStorage
         public IBucketClient Bucket { get; }
         public IObjectClient Object { get; }
 
-        public ObjectStorageClient(YandexCloudCredentials yandexCloudCredentials)
+        public ObjectStorageClient(string keyId, string key)
         {
-            amazonS3Client = CreateClient(yandexCloudCredentials);
+            amazonS3Client = CreateClient(keyId, key);
             Bucket = new BucketClient(amazonS3Client);
             Object = new ObjectClient(amazonS3Client);
         }
 
-        private static IAmazonS3 CreateClient(YandexCloudCredentials yandexCloudCredentials)
+        private static IAmazonS3 CreateClient(string keyId, string key)
         {
-            var credentials = new BasicAWSCredentials(yandexCloudCredentials.SecretKeyId,
-                                                      yandexCloudCredentials.SecretKey);
+            var credentials = new BasicAWSCredentials(keyId, key);
             var config = new AmazonS3Config
                          {
                              RegionEndpoint = RegionEndpoint.USEast1,

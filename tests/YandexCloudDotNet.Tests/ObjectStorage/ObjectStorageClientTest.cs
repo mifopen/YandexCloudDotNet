@@ -4,7 +4,6 @@ using System.IO;
 using System.Linq;
 using Shouldly;
 using Xunit;
-using YandexCloudDotNet.IAM;
 using YandexCloudDotNet.ObjectStorage;
 
 namespace YandexCloudDotNet.Tests.ObjectStorage
@@ -15,8 +14,8 @@ namespace YandexCloudDotNet.Tests.ObjectStorage
 
         public ObjectStorageClientTest()
         {
-            var yandexCloudCredentials = new YandexCloudCredentialsProvider().Get();
-            client = new ObjectStorageClient(yandexCloudCredentials);
+            var secrets = new SecretsProvider().Get();
+            client = new ObjectStorageClient(secrets.AccessKeyId, secrets.AccessKey);
         }
 
         [Fact]
