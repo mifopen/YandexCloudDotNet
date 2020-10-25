@@ -8,19 +8,19 @@ namespace YandexCloudDotNet.Tests.CertificateManager
     public class CertificateManagerClientTest
     {
         private readonly ICertificateManagerClient client;
-        private readonly UserSecretsProvider userSecretsProvider;
+        private readonly SecretsProvider secretsProvider;
 
         public CertificateManagerClientTest()
         {
-            userSecretsProvider = new UserSecretsProvider();
+            secretsProvider = new SecretsProvider();
             client = new CertificateManagerClient();
         }
 
         [Fact]
         public async Task Simple()
         {
-            var apiKey = userSecretsProvider.Get("YandexCloudTestServiceAccountApiKey");
-            var content = await client.CertificateContent.Get("fpq3fvhrmjf3e3fans8f", new ApiKey(apiKey));
+            var secrets = secretsProvider.Get();
+            var content = await client.CertificateContent.Get("fpq3fvhrmjf3e3fans8f", new ApiKey(secrets.ApiKey));
             ;
         }
     }

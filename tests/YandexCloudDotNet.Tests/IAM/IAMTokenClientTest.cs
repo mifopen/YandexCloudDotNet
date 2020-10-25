@@ -1,4 +1,5 @@
 using System.IO;
+using System.Text;
 using Xunit;
 using Xunit.Abstractions;
 using YandexCloudDotNet.IAM;
@@ -17,13 +18,14 @@ namespace YandexCloudDotNet.Tests.IAM
         [Fact]
         public async void Simple()
         {
-            var userSecretsProvider = new UserSecretsProvider();
+            var secrets = new SecretsProvider().Get();
             var client = new IamTokenClient();
-            var serviceAccountId = userSecretsProvider.Get("ServiceAccountId");
-            var authorizationKeyId = userSecretsProvider.Get("AuthorizationKeyId");
-            var iamToken = await client.Get(serviceAccountId,
-                                                    authorizationKeyId,
-                                                    File.OpenRead("private.key"));
+            var privateKeyStream = new MemoryStream(Encoding.UTF8.GetBytes(secrets.AuthorizationKeyPrivateKey));
+            var iamToken = await client.Get(
+                               secrets.ServiceAccountId,
+                               secrets.AuthorizationKeyId,
+                               privateKeyStream
+                           );
             output.WriteLine(iamToken);
         }
     }
