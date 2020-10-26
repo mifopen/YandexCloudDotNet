@@ -1,0 +1,34 @@
+name: pr
+
+on:
+  pull_request:
+    branches:
+      - "*"
+
+env:
+  YANDEX_CLOUD_ACCESS_KEY: ${{ secrets.YANDEX_CLOUD_ACCESS_KEY }}
+  YANDEX_CLOUD_ACCESS_KEY_ID: ${{ secrets.YANDEX_CLOUD_ACCESS_KEY_ID }}
+  YANDEX_CLOUD_API_KEY: ${{ secrets.YANDEX_CLOUD_API_KEY }}
+  YANDEX_CLOUD_API_KEY_ID: ${{ secrets.YANDEX_CLOUD_API_KEY_ID }}
+  YANDEX_CLOUD_AUTHORIZATION_KEY_ID: ${{ secrets.YANDEX_CLOUD_AUTHORIZATION_KEY_ID }}
+  YANDEX_CLOUD_AUTHORIZATION_KEY_PRIVATE_KEY: ${{ secrets.YANDEX_CLOUD_AUTHORIZATION_KEY_PRIVATE_KEY }}
+  YANDEX_CLOUD_FOLDER_ID: ${{ secrets.YANDEX_CLOUD_FOLDER_ID }}
+  YANDEX_CLOUD_SERVICE_ACCOUNT_ID: ${{ secrets.YANDEX_CLOUD_SERVICE_ACCOUNT_ID }}
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Setup .NET Core
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 3.1.301
+    - name: Install dependencies
+      run: dotnet restore
+    - name: Build
+      run: dotnet build --configuration Release --no-restore
+    - name: Test
+      run: dotnet test --no-restore --verbosity normal

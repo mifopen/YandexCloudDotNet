@@ -16,7 +16,7 @@ namespace YandexCloudDotNet.Tests.CertificateManager
             client = new CertificateManagerClient();
         }
 
-        [Fact]
+        [Fact(Skip = "not ready")]
         public async Task Simple()
         {
             var secrets = secretsProvider.Get();
